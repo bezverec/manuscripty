@@ -1,0 +1,50 @@
+{
+  "schema": "medieval-htr-v1",
+  "document_id": "DEMO_ONLY",
+  "language": "la",
+  "source": {
+    "image": "DEMO_ONLY.tif",
+    "width": 1000,
+    "height": 800,
+    "folio": "f1r"
+  },
+  "note": "Synthetic test fixture. Words and ALL bounding boxes are illustrative and NOT measured from manuscript M II 220.",
+  "lines": [
+    {
+      "id": "f1r_l001",
+      "bbox": [50, 100, 670, 48],
+      "words": [
+        {
+          "id": "f1r_l001_w001",
+          "bbox": [50, 100, 100, 48],
+          "diplomatic": "Sicut",
+          "expanded": "Sicut",
+          "status": "proposed",
+          "change_type": "none",
+          "evidence": [{"source": "fixture", "note": "synthetic example"}],
+          "alternatives": []
+        },
+        {
+          "id": "f1r_l001_w002",
+          "bbox": [170, 100, 155, 48],
+          "diplomatic": "q̃litates",
+          "expanded": "qualitates",
+          "status": "proposed",
+          "change_type": "abbreviation",
+          "evidence": [{"source": "fixture", "note": "synthetic example"}],
+          "alternatives": []
+        },
+        {
+          "id": "f1r_l001_w003",
+          "bbox": [345, 100, 185, 48],
+          "diplomatic": "elemētorꝭ",
+          "expanded": "elementorum",
+          "status": "uncertain",
+          "change_type": "abbreviation",
+          "evidence": [{"source": "fixture", "note": "not verified"}],
+          "alternatives": []
+        }
+      ]
+    }
+  ]
+}
