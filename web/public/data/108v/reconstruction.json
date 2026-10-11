@@ -1,0 +1,50 @@
+{
+  "schema": "medieval-reconstruction-v2",
+  "document_id": "VKO_M_II_220_all_processed_pages",
+  "folio": "108v",
+  "language": "la",
+  "translator_language": "cs",
+  "source_original": "EX/M_II_220____26LY4SCEX0108V.TIF",
+  "source_sha256": "337e984929b47be8595e9eb51b3aeba047372a2f810b4248fd25dd4e8ee7a66e",
+  "source_folder": "htr-second-100-pages",
+  "author": "Codex frontier assistant; model identity not independently logged",
+  "created_utc": "2026-10-10T10:35:33.591Z",
+  "expert_reference": false,
+  "cer": null,
+  "wer": null,
+  "layer": "Working reconstruction and Czech translation; separate from diplomatic raw HTR",
+  "image_inspection": {
+    "tiles": [
+      "tiles/absence-native.png"
+    ],
+    "native_pixels": true,
+    "selected_zones_covered": false,
+    "all_selected_zones_opened": false,
+    "original_htr_compared": true,
+    "original_medusa_compared": true,
+    "masked_htr_compared": false,
+    "original_native_samples": [
+      {
+        "image": "tiles/absence-native.png",
+        "source": "original_frame0",
+        "source_original": "EX/M_II_220____26LY4SCEX0108V.TIF",
+        "source_sha256": "337e984929b47be8595e9eb51b3aeba047372a2f810b4248fd25dd4e8ee7a66e",
+        "bbox_xyxy": [
+          550,
+          700,
+          2400,
+          2100
+        ],
+        "pixels_scaled": false
+      }
+    ]
+  },
+  "notes_cs": "Prázdná vybraná textová vrstva. Prohlédnut nativní detail původního folia, který ukazuje pouze linkování a slabé prosvítání; prosvítající písmo není rekonstruováno. CATMuS a Medusa mají shodně nulový počet řádků.",
+  "cappelli_consulted": false,
+  "passages": [],
+  "absence_record": {
+    "selected_main_text": false,
+    "reason_cs": "Nativní detail obsahuje linkování a prosvítání; žádný vybraný hlavní text. Obě sady HTR mají nulový počet řádků.",
+    "evidence": "Original frame 0 native crop [550,700,2400,2100], inspected; selected regions empty and both candidate line arrays empty. The sample is not inspection of the entire original folio."
+  }
+}

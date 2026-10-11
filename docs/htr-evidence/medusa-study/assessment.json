@@ -1,0 +1,23 @@
+{
+  "conclusion_cs": "MEDUSA na několika obrazově posouzených příkladech poskytuje čitelnější kandidáty než Frolat a doplňuje CATMuS. Není však spolehlivým automatickým diplomatickým přepisem: střídá zachování a rozvedení zkratek a stále mění či chybně rozpoznává slova. Delší prompt z modelové karty zachovává více zkratek, ale v kontrolním vzorku zhoršuje některá čtení.",
+  "inspected_image_lines": [
+    "f20v_l002",
+    "f20v_l020",
+    "f20v_l040",
+    "f20v_l052",
+    "f20v_l076",
+    "f20v_l080"
+  ],
+  "inspection_type": "visual assessment by AI assistant, no independent human reference",
+  "limitations_cs": [
+    "Hodnoceno obrazově šest segmentů, nikoli odborně revidována celá strana. Závěry nejsou procentuálním měřením přesnosti.",
+    "Surové predikce ani dosavadní návrh asistenta nejsou ground truth. CER/WER se nepočítá.",
+    "Test používá NF4 4-bit kvantizaci s BF16 výpočtem. Nekvantizované BF16 váhy nebyly pro srovnání spuštěny.",
+    "Model dostává obdélníkové výřezy ze stejné segmentace; ve výřezech jsou i části sousedních řádků. Kraken pracuje s polygonovou extrakcí. Jde o stejné fyzické oblasti, nikoli totožné interní vstupní pixely.",
+    "84 segmentů odpovídá 82 navrženým fyzickým řádkům. l013 a l058 jsou fragmenty; jejich predikce se automaticky nespojují s hlavním řádkem.",
+    "Krátký prompt pokrývá všech 84 segmentů. Delší CATMuS prompt byl ověřen pouze na l002, l052 a l076. Žádný výběr nejlepšího z více výsledků nenahrazuje surový přepis.",
+    "Časy GPU MEDUSA a CPU Kraken nejsou kontrolovaným porovnáním rychlosti samotných modelů. Chandra zůstala běžet; GPU nebyla vyhrazena pouze MEDUSA.",
+    "Časy úspěšného běhu nezahrnují stahování, přesun vah, přerušené načítání, opravu záznamu zařízení, smoke test ani kontrolní prompt. První segment zahrnuje zahřátí.",
+    "Nenásledovala CATMuS normalizace či whitelist, opravy podle předchozího přepisu, Cappelli, změna kritické edice, trénink ani publikace."
+  ]
+}

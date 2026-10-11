@@ -1,0 +1,56 @@
+{
+  "model_id": "ENC-PSL/Medusa0.2Line-4B",
+  "revision": "2e891246c709976eb8fd90274932d1f08debcb15",
+  "model_url": "https://huggingface.co/ENC-PSL/Medusa0.2Line-4B",
+  "license": "CC-BY-4.0",
+  "parameters": {
+    "parameters": {
+      "F32": 273920,
+      "BF16": 4538991616
+    },
+    "total": 4539265536
+  },
+  "repository_storage_bytes": 9099155911,
+  "download_cli_version": "huggingface-hub 1.27.0",
+  "docker_base_image": "sha256:2296a2a7e1ce1dc59c6577ba5900f4e9910b76c4a0cb134833a8137f92404dfa",
+  "files": [
+    {
+      "name": ".gitattributes",
+      "bytes": 1570
+    },
+    {
+      "name": "chat_template.jinja",
+      "bytes": 7756
+    },
+    {
+      "name": "config.json",
+      "bytes": 2932
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 141
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 9079166568,
+      "sha256": "930f97e19686a94e2a9967014e437162153bb884121aa3923a1e25422d4e708b",
+      "checksum_verification": "hf cache verify compared the local file to the pinned remote LFS SHA-256"
+    },
+    {
+      "name": "processor_config.json",
+      "bytes": 1300
+    },
+    {
+      "name": "README.md",
+      "bytes": 14435
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 19989343
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 1165
+    }
+  ]
+}

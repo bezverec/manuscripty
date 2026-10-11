@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-11T19:17:11.182Z",
+  "production": "https://1bd45522.rukopisy-digitalizaty.pages.dev",
+  "public_document_uri": "https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220",
+  "checks": [
+    "Whole-document record resolves on canonical public URL",
+    "Holding library, shelfmark and project ID displayed",
+    "Whole-document URI copy button reports success on staging and production",
+    "Staging record links to 677-scan reader; reader title links back to whole-document record",
+    "Reader header and page citation include Vědecká knihovna v Olomouci",
+    "Citation tab keeps page/line permalink and whole-document URI separately",
+    "Record has no horizontal overflow at 525 px or 1280 px; metadata displays two desktop columns",
+    "Public description TEI, schema and sample page exports match local SHA-256",
+    "All 677 public page JSON files include manuscript identity and repository",
+    "Temporary viewport override reset"
+  ],
+  "validation_scope": "Complete new TEI description/index and modified headers validated against offline Relax NG; existing text/facsimile unchanged. Does not claim new full validation of every pre-existing page edition or expert review.",
+  "screenshot": "production-document-identity.png"
+}

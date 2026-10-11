@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>M II 220 · řádková analýza a překlad</title>
+  <link rel="stylesheet" href="styles.css?v=20261011-6">
+  <script src="vendor/openseadragon-6.1.1.min.js" defer></script>
+  <script src="viewer-layout.js?v=20261011-6" defer></script>
+  <script src="pilot-data.js?v=20261011-6" defer></script><script src="structure.js?v=20261011-6" defer></script><script src="rukopis.js?v=20261011-6" defer></script><script type="module" src="corrections.js?v=20261011-6"></script>
+</head>
+<body>
+<div class="app">
+
+  <header class="app-header">
+    <div class="app-title">
+      <a class="btn btn--icon" href="index.html" aria-label="Zpět na rukopisy">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+      </a>
+      <div>
+        <div class="row">
+          <h1><a id="ms-title" href="/rukopisy/vkol-m-ii-220" title="Záznam celého rukopisu">M II 220</a></h1>
+          <span class="badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg>AI přepis · pilot
+          </span>
+        </div>
+        <p class="ms-origin"><a href="https://www.vkol.cz/">Vědecká knihovna v Olomouci</a> · M II 220</p><p id="ms-sub">677 snímků · pracovní čtení bez odborné revize</p>
+      </div>
+    </div>
+    <div class="app-actions">
+      <button type="button" class="btn" data-goto-tab="citace">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h4v4H7zM13 7h4v4h-4zM7 11c0 3-1 5-3 6M13 11c0 3-1 5-3 6"/></svg><span class="label">Citovat</span>
+      </button>
+      <a class="btn" href="summary.html">AI shrnutí</a>
+      <a class="btn" id="manifest-link" href="#" hidden>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span class="label">IIIF manifest</span>
+      </a>
+      <button type="button" class="btn" id="suggest-segmentation" disabled>Navrhnout opravu segmentace</button>
+      <button type="button" class="btn btn--primary" id="suggest-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg>Navrhnout opravu HTR
+      </button>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <button type="button" class="panel-toggle panel-toggle--left" id="toggle-thumbs" aria-controls="thumbs" aria-expanded="true" aria-label="Skrýt náhledy" title="Skrýt náhledy"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+    <button type="button" class="panel-toggle panel-toggle--right" id="toggle-text-panel" aria-controls="text-panel" aria-expanded="true" aria-label="Skrýt textový panel" title="Skrýt textový panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+    <nav class="thumbs" id="thumbs" aria-label="Strany rukopisu"></nav>
+
+    <main class="stage" id="stage">
+      <div id="osd" hidden></div>
+      <div id="page-host"></div>
+
+      <div class="folio-jump"><label for="page-choice">Strana <select id="page-choice"></select></label><span id="load-status" role="status">Načítám…</span></div>
+      <div class="toolbar" role="toolbar" aria-label="Ovládání prohlížeče">
+        <button type="button" class="btn btn--ghost btn--icon" id="prev" aria-label="Předchozí strana">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <span class="readout readout--page" aria-live="polite"><span id="folio-prefix">f. </span><span id="folio">1r</span> <span class="muted">/ <span id="total">–</span></span></span>
+        <button type="button" class="btn btn--ghost btn--icon" id="next" aria-label="Další strana">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <span class="sep" aria-hidden="true"></span>
+        <button type="button" class="btn btn--ghost btn--icon" data-zoom="out" aria-label="Oddálit">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"/></svg>
+        </button>
+        <span class="readout readout--zoom" id="zoom">100 %</span>
+        <button type="button" class="btn btn--ghost btn--icon" data-zoom="in" aria-label="Přiblížit">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5v14"/></svg>
+        </button>
+        <button type="button" class="btn btn--ghost btn--icon" data-zoom="fit" aria-label="Přizpůsobit oknu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+        </button>
+      </div>
+    </main>
+
+    <div id="panel-resizer" class="panel-resizer" role="separator" tabindex="0" aria-orientation="vertical" aria-controls="text-panel" aria-label="Šířka textového panelu" aria-valuemin="320" aria-valuemax="1200" aria-valuenow="520" title="Tažením měníte šířku. Šipka vlevo rozšíří, vpravo zúží; Home minimum, End maximum. Dvojklik obnoví výchozí šířku."><span aria-hidden="true"></span></div>
+    <aside class="panel" id="text-panel" aria-label="Informace o rukopisu">
+      <div class="tabs" role="tablist" aria-label="Sekce">
+        <button type="button" class="tab" role="tab" id="tab-prepis" aria-controls="panel-prepis" aria-selected="true">HTR</button>
+        <button type="button" class="tab" role="tab" id="tab-radky" aria-controls="panel-radky" aria-selected="false" tabindex="-1">Řádková analýza</button>
+        <button type="button" class="tab" role="tab" id="tab-vyklad" aria-controls="panel-vyklad" aria-selected="false" tabindex="-1">Rekonstrukce a překlad</button>
+        <button type="button" class="tab" role="tab" id="tab-analyza" aria-controls="panel-analyza" aria-selected="false" tabindex="-1">O zpracování</button>
+        <button type="button" class="tab" role="tab" id="tab-popis" aria-controls="panel-popis" aria-selected="false" tabindex="-1">Popis</button>
+        <button type="button" class="tab" role="tab" id="tab-struktura" aria-controls="panel-struktura" aria-selected="false" tabindex="-1">Struktura</button>
+        <button type="button" class="tab" role="tab" id="tab-citace" aria-controls="panel-citace" aria-selected="false" tabindex="-1">Citace</button>
+      </div>
+
+      <section class="tabpanel tabpanel--list" role="tabpanel" id="panel-prepis" aria-labelledby="tab-prepis">
+        <div class="legend"><label for="htr-choice">Původní výstup <select id="htr-choice"></select></label><span id="row-count"></span></div>
+        <p class="sample-notice">Kliknutím vyberte řádek nebo segment. Shoda modelů nepotvrzuje správnost četby.</p>
+        <ol class="lines" id="lines"></ol>
+      </section>
+      <section class="tabpanel stack" role="tabpanel" id="panel-radky" aria-labelledby="tab-radky" hidden>
+        <div class="layer-toolbar"><label for="line-choice">Vybraný řádek / segment <select id="line-choice"></select></label></div>
+        <p class="notice">Pracovní čtení bez odborné revize. Slovní analýza je dostupná u 20v; u ostatních stran zobrazujeme HTR, příznaky a pasážové poznámky.</p>
+        <div id="line-analysis"></div>
+      </section>
+      <section class="tabpanel stack" role="tabpanel" id="panel-vyklad" aria-labelledby="tab-vyklad" hidden>
+        <div class="layer-toolbar"><label for="reading-scope">Rozsah <select id="reading-scope"><option value="linked">Související pasáže k řádku</option><option value="all">Všechny pasáže strany</option></select></label><label for="reading-language">Text <select id="reading-language"><option value="both">Latina a čeština</option><option value="latin">Latinská rekonstrukce</option><option value="czech">Český překlad</option></select></label></div>
+        <p class="notice">Rekonstrukce a překlad jsou návrhy po pasážích. Vazba na řádek určuje obrazový podklad, nikoli samostatný překlad každého řádku.</p>
+        <div id="reading-passages"></div>
+      </section>
+      <section class="tabpanel stack" role="tabpanel" id="panel-analyza" aria-labelledby="tab-analyza" hidden><div id="processing-info"></div></section>
+      <section class="tabpanel stack" role="tabpanel" id="panel-popis" aria-labelledby="tab-popis" hidden>
+        <h2>Rukopis M II 220</h2><p>Rukopis z fondů <a href="https://www.vkol.cz/">Vědecké knihovny v Olomouci</a>, signatura M II 220. <a class="link-accent" href="/rukopisy/vkol-m-ii-220">Záznam celého dokumentu →</a></p><p><a class="link-accent" href="summary.html">AI shrnutí obsahu s odkazy na folia →</a></p><p class="prose">Veřejný pilot obsahuje 670 foliovaných skenů a sedm snímků desek, přídeští, předsádky a hřbetu. Na 664 stranách je vybraný hlavní text, šest stran má záznam bez vybraného hlavního textu. Strana 20v obsahuje podrobnou slovní analýzu; ostatní strany mají původní HTR a pracovní rekonstrukci s překladem po pasážích.</p><p class="prose">Obraz se načítá pomocí dlaždic v původním rozlišení. Dlaždice i výřezy používají ztrátovou prezentační kompresi WebP Q90. Zpracování se týká vybraného hlavního textu; datace, bibliografický popis a licence se doplní podle doložených metadat.</p>
+      </section>
+      <!-- Struktura -->
+      <section class="tabpanel tabpanel--list" role="tabpanel" id="panel-struktura" aria-labelledby="tab-struktura" hidden>
+        <h2>Struktura celého rukopisu</h2>
+        <label class="field-label" for="structure-search">Hledat folio nebo název pasáže</label><input class="field structure-search" id="structure-search" type="search" placeholder="Např. 20v, modlitba, smrt" autocomplete="off">
+        <p class="sample-notice">Pracovní obsah podle našich názvů pasáží. Nejde o odborně potvrzené členění děl ani popis složek vazby.</p><p id="structure-status" role="status"></p><div id="manuscript-toc"></div>
+        <details class="current-page-toc"><summary>Pasáže právě zobrazené strany</summary><ol class="toc" id="toc"></ol></details>
+      </section>
+
+      <!-- Citace -->
+      <section class="tabpanel stack" role="tabpanel" id="panel-citace" aria-labelledby="tab-citace" hidden>
+        <div>
+          <h2>Citace této strany / řádku</h2>
+          <p class="citation" id="citation"></p>
+        </div>
+        <div>
+          <label for="permalink" class="field-label muted" style="font-weight:400">Trvalý odkaz na tuto stranu</label>
+          <input id="permalink" class="field field--mono" type="text" readonly>
+        </div>
+        <button type="button" class="btn" id="copy-citation" style="align-self:flex-start">Kopírovat citaci</button><div><h2>Celý dokument</h2><p class="citation">Vědecká knihovna v Olomouci, M II 220. Výzkumný pilot: pracovní přepis, rekonstrukce a český překlad bez odborné revize.</p><label for="document-permalink" class="field-label">Stálý odkaz na celý dokument</label><input id="document-permalink" class="field field--mono" type="url" readonly value="https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220"><div class="hero-actions"><button type="button" class="btn" id="copy-document-link">Kopírovat odkaz na dokument</button><a class="btn" href="/rukopisy/vkol-m-ii-220">Záznam celého rukopisu</a><a class="btn" href="/tei/vkol-m-ii-220.xml" download>TEI popis a soupis snímků</a></div></div>
+      </section>
+    </aside>
+  </div>
+</div>
+
+<dialog id="correction-dialog" aria-labelledby="correction-title" class="correction-dialog">
+  <div class="correction-heading"><h2 id="correction-title">Navrhnout opravu HTR</h2><button type="button" class="btn" id="correction-close" aria-label="Zavřít návrh">Zavřít</button></div>
+  <p id="correction-target" class="layer-id"></p>
+  <p>Návrh se posuzuje samostatně; původní výstup modelu zůstává zachovaný. Přepisujte podle obrazu a vyznačte nejistá místa.</p>
+  <img id="correction-crop" class="line-crop" alt="">
+  <p><a id="correction-source" target="_blank" rel="noopener noreferrer">Otevřít obrazovou analýzu</a></p>
+  <form id="correction-form">
+    <label class="field-label" for="correction-model">Výstup, který navrhujete opravit</label>
+    <select class="field" id="correction-model"></select>
+    <label class="field-label" for="correction-original">Původní HTR</label>
+    <textarea class="field" id="correction-original" rows="3" readonly></textarea>
+    <label class="field-label" for="correction-proposed">Navržený přepis</label>
+    <textarea class="field" id="correction-proposed" rows="4" maxlength="2000" required spellcheck="false"></textarea>
+    <label class="field-label" for="correction-reason">Zdůvodnění podle obrazu</label>
+    <textarea class="field" id="correction-reason" rows="3" maxlength="2000" required placeholder="Které znaky čtete jinak? Uveďte i případné alternativy."></textarea>
+    <p class="sample-notice">Hlášení na GitHubu bude veřejné. Zápis lze nejprve uložit do JSON bez odeslání. Pro odeslání na GitHub potřebujete účet.</p>
+    <button type="submit" class="btn btn--primary">Zkontrolovat návrh</button>
+  </form>
+  <p id="correction-status" role="status"></p>
+  <details id="correction-preview" hidden open><summary>Podoba hlášení</summary><pre id="correction-preview-text"></pre></details>
+  <div class="correction-actions">
+    <button type="button" class="btn" id="correction-download" disabled>Uložit návrh JSON</button>
+    <a class="btn btn--primary" id="correction-github" target="_blank" rel="noopener noreferrer" hidden>Otevřít návrh na GitHubu</a>
+    <a class="link-accent" href="https://github.com/bezverec/manuscripty/issues/new" target="_blank" rel="noopener noreferrer">Nové hlášení bez předvyplnění</a>
+  </div>
+</dialog>
+
+<dialog id="segmentation-dialog" aria-labelledby="segmentation-title" class="correction-dialog segmentation-dialog">
+<div class="correction-heading"><h2 id="segmentation-title">Navrhnout opravu segmentace</h2><button type="button" class="btn" id="segmentation-close" aria-label="Zavřít návrh segmentace">Zavřít</button></div><p id="segmentation-target" class="layer-id"></p>
+<p>Označte původní segmenty a nové oblasti podle skenu. Modré rámečky jsou původní, oranžové vybrané a zelené navržené. Pořadí nových oblastí určuje pořadí čtení.</p>
+<div class="segmentation-tools"><button type="button" class="btn" id="segmentation-draw" aria-pressed="false">Kreslit novou oblast</button><button type="button" class="btn" id="segmentation-zoom-in" aria-label="Přiblížit podklad segmentace">+</button><button type="button" class="btn" id="segmentation-zoom-out" aria-label="Oddálit podklad segmentace">−</button><button type="button" class="btn" id="segmentation-fit">Celý snímek</button><button type="button" class="btn" id="segmentation-focus">Zaměřit výběr</button></div>
+<p id="segmentation-image-status" role="status">Načítám obraz…</p><div id="segmentation-osd" aria-label="Obraz pro návrh segmentace"></div>
+<form id="segmentation-form"><label class="field-label" for="segmentation-operation">Druh opravy</label><select id="segmentation-operation" class="field"><option value="resize">Změna hranic (1 → 1)</option><option value="split">Rozdělení segmentu (1 → více)</option><option value="merge">Sloučení segmentů (více → 1)</option><option value="add">Doplnění chybějící oblasti (0 → nové)</option><option value="remove">Odstranění chybné oblasti (původní → 0)</option></select>
+<details open><summary>Původní segmenty <span id="segmentation-selected-count"></span></summary><div id="segmentation-sources" class="segmentation-sources"></div></details>
+<h3>Nové oblasti</h3><p class="sample-notice">Kreslení: zapněte „Kreslit novou oblast“ a táhněte ve skenu. Posun a přiblížení fungují po vypnutí kreslení. Souřadnice lze upravit také čísly.</p><div class="segmentation-tools"><button class="btn" type="button" id="segmentation-copy-box">Převzít hranice výběru</button><button class="btn" type="button" id="segmentation-clear">Vymazat nové oblasti</button></div><div id="segmentation-regions"></div>
+<label class="field-label" for="segmentation-reason">Zdůvodnění podle obrazu</label><textarea class="field" id="segmentation-reason" rows="3" maxlength="2000" required placeholder="Např. rámeček zachycuje jen spodní část řádku; text pokračuje výše."></textarea><p class="sample-notice">Návrh uložíte do JSON nebo připravíte veřejné hlášení na GitHubu, kde jej sami odešlete. Přijatá změna se zpracuje po posouzení.</p><button class="btn btn--primary" type="submit">Zkontrolovat návrh segmentace</button></form>
+<p id="segmentation-status" role="status"></p><details id="segmentation-preview" hidden open><summary>Podoba návrhu</summary><pre id="segmentation-preview-text"></pre></details><div class="correction-actions"><button type="button" class="btn" id="segmentation-download" disabled>Uložit návrh segmentace JSON</button><a class="btn btn--primary" id="segmentation-github" target="_blank" rel="noopener noreferrer" hidden>Otevřít návrh segmentace na GitHubu</a></div></dialog>
+<script type="module" src="segmentation.js?v=20261011-6"></script>
+<script src="document.js?v=20261011-6" defer></script>
+</body>
+</html>

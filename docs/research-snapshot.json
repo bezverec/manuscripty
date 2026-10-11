@@ -1,43 +1,90 @@
 {
-  "as_of": "2026-10-10",
-  "scope": "Aggregate evidence only; original research outputs remain outside this repository.",
-  "completion": {
-    "status": "passed",
-    "created_utc": "2026-10-10T21:22:58.311146+00:00",
-    "total_raw_pages": 430,
-    "total_segments": 31528,
-    "new_interpretation_records": 100,
-    "previous_interpretations_preserved": 330,
-    "text_pages_with_proposed_reconstruction_and_translation": 427,
-    "blank_records": 3,
-    "new_passages": 818,
-    "opened_native_tiles": 1228,
-    "previous_artifacts_checked": 7331,
-    "previous_artifacts_sha256_unchanged": true,
-    "expert_reference": false,
-    "cer": null,
-    "wer": null,
-    "final_overview_links_checked": 983,
-    "final_overview_links_valid": true,
-    "report_sha256": "a3451fcbd71d46678330e753ace4e4e944c0467e57ad6a01020992fe698fe678",
-    "usage_report_sha256": "b102c906749d5418d76d7a57d62f034de6bd1272c417872df366b457528c5d13",
-    "combined_latin_sha256": "ee213e28437a48b19771c375b19e9262c421b648294fa3c7575fb088cd09303b",
-    "combined_czech_sha256": "dbf57e8b64a9c23b145f770d310e5ecaca3ca97cb8021bf286ad75abd0ab2783",
-    "global_index_sha256": "c0c56e29b3d586728f3e597e30730d06d20e52b6115f5b47453d45c842d1fd0a",
-    "interpretation_index_sha256": "5007286044c84e69c094331d952c1e60166de9f8382dbc2e44109c1bd54f69c3"
+  "schema": "manuscripty-research-snapshot-v2",
+  "date": "2026-10-11",
+  "web_revision": "20261011-6",
+  "document": {
+    "schema": "manuscripty-document-v1",
+    "id": "vkol-m-ii-220",
+    "uri": "https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220",
+    "title": "M II 220",
+    "shelfmark": "M II 220",
+    "repository": {
+      "name": "Vědecká knihovna v Olomouci",
+      "uri": "https://www.vkol.cz/",
+      "settlement": "Olomouc",
+      "country": "Česko"
+    },
+    "tei_version": "4.12.0",
+    "tei": "https://rukopisy.digitalizaty.cz/tei/vkol-m-ii-220.xml",
+    "reader": "https://rukopisy.digitalizaty.cz/rukopis",
+    "counts": {
+      "pages": 677,
+      "lines": 50297,
+      "passages": 5634,
+      "blank": 6,
+      "folios": 670,
+      "binding": 7,
+      "text_pages": 664
+    },
+    "identifier_authority": "Project Manuscripty; not a library-assigned persistent identifier",
+    "editorial_status": "Working research results without expert review",
+    "sources": [
+      {
+        "claim": "Repository and shelfmark",
+        "evidence": "Explicit user statement, checked against Manuscripta.cz catalogue search",
+        "url": "https://manuscripta.cz/search/?page=131"
+      }
+    ]
   },
-  "evidence": [
+  "counts": {
+    "pages": 677,
+    "lines": 50297,
+    "passages": 5634,
+    "blank": 6,
+    "folios": 670,
+    "binding": 7,
+    "text_pages": 664
+  },
+  "canonical_segments": 50299,
+  "editorial_status": "proposed",
+  "human_reviewed": false,
+  "expert_reference": false,
+  "CER": null,
+  "WER": null,
+  "public_text_manifest": "web-source-manifest.json",
+  "historical_snapshot": "research-snapshot-2026-10-10.json",
+  "source_evidence": [
     {
-      "path": "interpretation-fourth-100-pages/completion-validation.json",
-      "sha256": "d8d044a439864b7cfe3cb19ddda89ebf998c0ee5d554cefb53629cc601ec0f7e"
+      "path": "validation/public-verification.json",
+      "sha256": "9f7e7684323fccf590beca1ef835f5ffa4d94fe8fe97e318dc3d36600593da19"
     },
     {
-      "path": "htr-fourth-100-pages/summary.json",
-      "sha256": "002aea4e942f86c466b460cfd3d6e33da58a78bcb3d5cd1b6877d479fd4d1a3c"
+      "path": "validation/document-identity-validation.json",
+      "sha256": "1282c02d2198b39cd36229db22420fb848a5dd2fd838c56475a58ae00fd3af61"
     },
     {
-      "path": "htr-fourth-100-pages/usage-report.md",
-      "sha256": "4579663c0e1e46d12c3fc70ef521e025ae8becb796e4f55e83f36434ae2d0d29"
+      "path": "validation/document-identity-ui-validation.json",
+      "sha256": "f1d210d5daee35d585e421ed2e5b37db66b53348d269272378b5a2b61d656e60"
+    },
+    {
+      "path": "validation/structure-binding-data-validation.json",
+      "sha256": "777755a115722fbb462513ec3877f1e75e36411c077688eed07e2b4e97e53d97"
+    },
+    {
+      "path": "validation/structure-binding-ui-validation.json",
+      "sha256": "bc6dada9f54b2b3421b0754d44edb4c46266fd5ea779ee9fb7243fa9bafaf21b"
+    },
+    {
+      "path": "validation/segmentation-proposal-validation.json",
+      "sha256": "dbffb6ba98f19a522cea8b6540ceadacca350c0f475cae3fa4df16080c96ffe2"
+    },
+    {
+      "path": "validation/segmentation-ui-validation.json",
+      "sha256": "593bc8a6f4a517a52f962aa5bf7b203ab9862b3de58b50b2237ebc101771b855"
+    },
+    {
+      "path": "validation/proposal-validation.json",
+      "sha256": "92774003fbe379afa0514091d557d8d69eda3e30c2513dd372cad4ed6359d8ee"
     }
   ]
 }

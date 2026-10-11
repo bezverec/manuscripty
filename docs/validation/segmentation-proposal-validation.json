@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-11T19:37:03.457Z",
+  "tests": [
+    {
+      "name": "Resize preserves source identity, dimensions and original segment IDs",
+      "status": "passed"
+    },
+    {
+      "name": "Unchanged bounds rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Out of scan bounds, empty, fractional and nonfinite geometry rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Split requires one source and multiple distinct new areas",
+      "status": "passed"
+    },
+    {
+      "name": "Merge requires multiple source regions and one replacement",
+      "status": "passed"
+    },
+    {
+      "name": "Missing area can be added on a page with no HTR",
+      "status": "passed"
+    },
+    {
+      "name": "Removal has sources and no invented replacement geometry",
+      "status": "passed"
+    },
+    {
+      "name": "Unknown operation, duplicate or unknown source IDs rejected",
+      "status": "passed"
+    },
+    {
+      "name": "Reason and limits enforced",
+      "status": "passed"
+    },
+    {
+      "name": "Immutable copies and explicit reading order",
+      "status": "passed"
+    },
+    {
+      "name": "GitHub draft carries exact source SHA, old/new geometry and correct repository",
+      "status": "passed"
+    },
+    {
+      "name": "Large draft falls back to JSON",
+      "status": "passed"
+    }
+  ]
+}

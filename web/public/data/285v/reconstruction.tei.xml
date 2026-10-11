@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="cs" version="4.12.0" xml:id="tei-vkol-m-ii-220-285v">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M II 220, folio 285v: pracovní latinská rekonstrukce a český překlad</title>
+        <respStmt xml:id="frontier">
+          <resp>Obrazová četba, návrh rekonstrukce a překlad; bez odborné lidské kontroly</resp>
+          <name>Codex frontier assistant; model identity not independently logged</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Pracovní návrh; export TEI P5 4.12.0, RNG tei_all.rng</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Výzkumný pilot Manuscripty</publisher><idno type="URI">https://rukopisy.digitalizaty.cz/data/285v/reconstruction.tei.xml</idno><availability><p>Veřejná prezentace pracovního návrhu bez odborné revize. Knihovna je institucí uchovávající rukopis; není zde označena za vydavatele AI přepisu.</p></availability></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="vkol-m-ii-220"><msIdentifier><country>Česko</country><settlement>Olomouc</settlement><repository ref="https://www.vkol.cz/">Vědecká knihovna v Olomouci</repository><idno type="shelfmark">M II 220</idno><idno type="URI">https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220</idno></msIdentifier><additional><listBibl><bibl>Digitalizovaný rukopis M II 220; EX/M_II_220____26LY4SCEX0285V.TIF; SHA-256 7b387523b2cd599139d675be16f4e78155d35d4495f050584b910bb2f9e69d42. HTR a souřadnice: CATMuS medieval 1.6.0 / Kraken; další podklad: Medusa0.2Line-4B. Původní znění kandidátů se uchovává samostatně.</bibl></listBibl></additional></msDesc></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Pracovní návrh frontier asistenta po obrazové četbě. Latinský text obsahuje rozvedené zkratky, redakční interpunkci a místy domněnky; není diplomatickým přepisem ani konzervativní expanzí. Český překlad vychází z tohoto návrhu. ⟦text?⟧ označuje nejisté čtení, [text?] domnělé doplnění a ⟦…⟧ nerozřešenou sekvenci, nikoli automaticky fyzickou ztrátu. Také neoznačená slova zůstávají návrhem. Bez odborné lidské kontroly a referenčního přepisu; CER/WER se nepočítá. Odstavcové facs ukazuje skutečné polygonové segmenty HTR v pořadí, nikoli ověřené zarovnání jednotlivých slov. unclear má cert=low; supplied reason=conjecture je domněnka; gap reason=unresolved označuje nevyřešenou četbu.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latina</language>
+        <language ident="cs">Čeština</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-11" who="#frontier">První výkladový návrh; CER/WER bez reference nestanoveno.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="f285v_surface" ulx="0" uly="0" lrx="4500" lry="5900">
+      <graphic url="../../htr-fifth-100-pages/pages/285v/image.png" width="4500px" height="5900px"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="reconstruction" xml:lang="la">
+        <head>Pracovní latinský návrh</head>
+      </div>
+      <div type="translation" xml:lang="cs">
+        <head>Pracovní český překlad</head>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,15 @@
+{
+  "name": "manuscripty-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test-proposals.mjs && node test-segmentation.mjs",
+    "media:restore": "node restore_binding_media.mjs",
+    "media:check": "node restore_binding_media.mjs --verify-local",
+    "deploy": "npm run media:check && wrangler pages deploy public --project-name=rukopisy-digitalizaty --branch=main"
+  },
+  "devDependencies": {
+    "wrangler": "4.149.0"
+  }
+}

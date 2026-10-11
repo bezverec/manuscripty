@@ -1,0 +1,64 @@
+{
+  "model_id": "ENC-PSL/Medusa0.1Line-9B",
+  "revision": "37efd0683dec5170ec45e0b7a6360a4a73af2afb",
+  "model_url": "https://huggingface.co/ENC-PSL/Medusa0.1Line-9B",
+  "license": "CC-BY-4.0",
+  "parameters": {
+    "parameters": {
+      "F32": 400128,
+      "BF16": 9409413616
+    },
+    "total": 9409813744
+  },
+  "repository_storage_bytes": 18840509935,
+  "native_checkpoint_location": "mii220-medusa-20261009:/opt/medusa-9b-model",
+  "host_metadata_location": "model-metadata/",
+  "weight_loading": "Sequential to reduce peak GPU allocation; HF_DEACTIVATE_ASYNC_LOAD=1 in installed Transformers 5.2.0",
+  "comparison_confounds": [
+    "9B is MEDUSA version 0.1; previous 4B model is version 0.2 with additional synthetic training stage.",
+    "Sequential loading differs from earlier 4B initialization."
+  ],
+  "verification": {
+    "repo_id": "ENC-PSL/Medusa0.1Line-9B",
+    "repo_type": "model",
+    "checked": 9,
+    "path": "/opt/medusa-9b-model",
+    "status": "passed"
+  },
+  "model_safetensors_bytes": 18820520592,
+  "model_sha256": "29f1982e0c0675a881e6b8aa0ce3948056177255fe14b9317ba918fe28719784",
+  "metadata_files": [
+    {
+      "name": ".gitattributes",
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "name": "chat_template.jinja",
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+    },
+    {
+      "name": "config.json",
+      "sha256": "13df53c7c03518f40ab3e58a1efcddcc77bfa35ee36913e4f3a28e7b96d412a8"
+    },
+    {
+      "name": "generation_config.json",
+      "sha256": "c06d40b8fb008d72d2b43fa2d2d128b112d764544c40ee703a909488d410bcf6"
+    },
+    {
+      "name": "processor_config.json",
+      "sha256": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b"
+    },
+    {
+      "name": "README.md",
+      "sha256": "bb8ac6ac14307f6567bbd64c8ddd682512423f08a4cb8127647b1f187b2b9f60"
+    },
+    {
+      "name": "tokenizer.json",
+      "sha256": "87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "2783443b70c176cdabe25ede812ac28b29f25bc149b6800eaf6472bd424cd07c"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "conclusion_cs": "TRIDIS TrOCR je v tomto testu rychlý další kandidát, ale na šesti obrazově posouzených příkladech nepřináší jednoznačné zlepšení proti TRIDIS Kraken, Manicule nebo MEDUSA. Vedle užitečných dílčích čtení zůstávají výrazné záměny a spojování slov; pro tuto ruku zatím není vhodný jako hlavní automatický přepis.",
+  "inspected_image_lines": [
+    "f20v_l002",
+    "f20v_l020",
+    "f20v_l040",
+    "f20v_l052",
+    "f20v_l076",
+    "f20v_l080"
+  ],
+  "inspection_type": "visual assessment by AI assistant, no independent human reference",
+  "limitations_cs": [
+    "Posouzeno obrazově šest segmentů asistentem; žádný nezávislý odborný referenční přepis. CER/WER se nepočítá.",
+    "Tento model je TRIDIS TrOCR s 574 618 432 parametry; dosavadní TRIDIS Kraken je CRNN/CTC a má jiný checkpoint. Název TRIDIS nelze použít jako důkaz totožného modelu.",
+    "Modelová karta deklaruje semi-diplomatickou konvenci s rozvedenými zkratkami a modernizací u/v, i/j. Rozvedení ve strojovém výsledku není ověřená ediční vrstva.",
+    "Přímé from_pretrained s přibalenou konfigurací nesedí na checkpoint. Hlavní běh skládá architekturu podle autorova receptu a skutečných rozměrů; strict load_state_dict prochází se všemi klíči. Původní config i váhy jsou zachovány.",
+    "Hlavní běh používá explicitní počáteční token 0; explicitní token 2 byl zkoušen na třech řádcích a také dává celé predikce. Původní automatická migrace konfigurace a neúspěšná načtení jsou odděleně evidovány.",
+    "TRIDIS používá beam search 3 a délku celého výstupu maximálně 160 tokenů. Manicule běžel greedy, MEDUSA s jinou architekturou a kvantizací; rychlosti nejsou izolovaným měřením stejného výpočtu.",
+    "Stejné obdélníkové PNG jako MEDUSA a Manicule; procesor přetvaruje obraz na 384 × 384. Výřezy obsahují části sousedních řádků; Kraken používá polygonovou extrakci, interní vstupní pixely se liší.",
+    "84 segmentů odpovídá 82 navrženým fyzickým řádkům. l013 a l058 jsou fragmenty a nepřipojují se automaticky.",
+    "Časy úspěšného běhu nezahrnují stažení, instalaci prostředí, importy a předchozí kontroly. GPU není vyhrazena pouze tomuto experimentu.",
+    "Žádné opravy podle dalších kandidátů, normalizace, Cappelli, trénink, změny kritické edice nebo překladové vrstvy či publikace."
+  ]
+}

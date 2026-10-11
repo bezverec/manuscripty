@@ -1,0 +1,67 @@
+{
+  "schema": "medieval-reconstruction-v2",
+  "document_id": "VKO_M_II_220_all_processed_pages",
+  "folio": "285v",
+  "language": "la",
+  "translator_language": "cs",
+  "source_original": "EX/M_II_220____26LY4SCEX0285V.TIF",
+  "source_sha256": "7b387523b2cd599139d675be16f4e78155d35d4495f050584b910bb2f9e69d42",
+  "source_folder": "htr-fifth-100-pages",
+  "author": "Codex frontier assistant; model identity not independently logged",
+  "created_utc": "2026-10-11T07:30:32.802Z",
+  "expert_reference": false,
+  "cer": null,
+  "wer": null,
+  "layer": "Working reconstruction and Czech translation; separate from diplomatic raw HTR",
+  "image_inspection": {
+    "tiles": [
+      "tiles/absence-native.png"
+    ],
+    "native_pixels": true,
+    "selected_zones_covered": false,
+    "all_selected_zones_opened": false,
+    "original_htr_compared": true,
+    "original_medusa_compared": true,
+    "masked_htr_compared": false,
+    "original_native_samples": [
+      {
+        "source": "original_frame0",
+        "source_original": "EX/M_II_220____26LY4SCEX0285V.TIF",
+        "source_sha256": "7b387523b2cd599139d675be16f4e78155d35d4495f050584b910bb2f9e69d42",
+        "bbox_xyxy": [
+          500,
+          600,
+          2300,
+          1550
+        ],
+        "image": "tiles/absence-native.png",
+        "pixels_scaled": false
+      }
+    ]
+  },
+  "notes_cs": "Záznam absence vybraného hlavního textu: přehled celého originálního TIFF frame0 a skutečně otevřený nativní vzorek [500,600,2300,1550] ukazují prázdnou hlavní stranu s prosvítáním textu z druhé strany. Prosvítání není ztráta ani přepisovaný text této strany. Tento záznam netvrdí prohlédnutí celého TIFF v nativním rozlišení. Oba úplné raw soubory mají prázdné seznamy řádků; žádná latinská pasáž nebyla vytvořena.",
+  "cappelli_consulted": false,
+  "passages": [],
+  "blank_main_text": true,
+  "absence_record": {
+    "scope": "Absence of selected main text, based on whole-page contact overview and native original frame 0 sample only",
+    "overview_actually_opened": "../../htr-fifth-100-pages/overviews/contact-10.png",
+    "native_sample": "tiles/absence-native.png",
+    "original_native_samples": [
+      {
+        "source": "original_frame0",
+        "source_original": "EX/M_II_220____26LY4SCEX0285V.TIF",
+        "source_sha256": "7b387523b2cd599139d675be16f4e78155d35d4495f050584b910bb2f9e69d42",
+        "bbox_xyxy": [
+          500,
+          600,
+          2300,
+          1550
+        ],
+        "image": "tiles/absence-native.png",
+        "pixels_scaled": false
+      }
+    ],
+    "entire_original_native_reviewed": false
+  }
+}

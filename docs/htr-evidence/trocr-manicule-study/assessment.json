@@ -1,0 +1,22 @@
+{
+  "conclusion_cs": "Manicule je v tomto místním testu rychlý a úsporný další kandidát. Po nastavení počátečního tokenu dekodéru 0 čte celé řádky; na šesti obrazově posouzených příkladech však nepřináší jednoznačné zlepšení proti MEDUSA. Převážně rozvádí zkratky a stále výrazně zaměňuje či spojuje slova, takže není automatickým diplomatickým přepisem ani ověřeným rozvedeným textem.",
+  "inspected_image_lines": [
+    "f20v_l002",
+    "f20v_l020",
+    "f20v_l040",
+    "f20v_l052",
+    "f20v_l076",
+    "f20v_l080"
+  ],
+  "inspection_type": "visual assessment by AI assistant; no independent human reference",
+  "limitations_cs": [
+    "Obrazově posouzeno šest segmentů; celá strana nemá odborně revidovaný referenční přepis. CER/WER se nepočítá.",
+    "Hlavní běh používá decoder_start_token_id=0, v souladu s config.json. Přibalený generation_config.json uvádí 2; test původního nastavení na třech řádcích je zachován ve smoke/.",
+    "Rozvedení zkratek je součástí surové predikce, nikoli samostatně ověřená ediční vrstva. Výstup není důkazem podoby rukopisu.",
+    "Stejné obdélníkové výřezy jako u MEDUSA; TrOCR je interně přetvaruje na 384 × 384. Kraken používá polygonovou extrakci, takže interní vstupní pixely se mezi enginy liší.",
+    "84 segmentů odpovídá 82 navrženým fyzickým řádkům. l013 a l058 jsou fragmenty; jejich predikce se automaticky nepřipojují.",
+    "GPU, přesnost, modelová architektura i předzpracování se od ostatních modelů liší. Naměřené časy nejsou kontrolovanou univerzální rychlostní charakteristikou.",
+    "Časy hlavního běhu nezahrnují stažení, přenos modelu, vytvoření prostředí ani dva testy na třech řádcích. Model mohl využít zahřáté knihovny a cache.",
+    "Žádné opravy podle dalších přepisů, normalizace, Cappelli, trénink, změny kritické edice nebo publikace. Původní master se nemění."
+  ]
+}

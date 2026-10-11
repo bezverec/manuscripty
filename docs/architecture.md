@@ -1,6 +1,6 @@
 # Současná architektura
 
-Systém je lokální dávkový výzkumný postup: souborové manifesty a Python skripty propojují Docker inference, obrazové čtení asistenta a offline publikační exporty. Nemá centrální databázi ani trvale běžící webovou službu.
+Systém je lokální dávkový výzkumný postup: souborové manifesty a Python skripty propojují Docker inference, obrazové čtení asistenta a offline publikační exporty. Nemá centrální databázi; publikační větev je statický veřejný web v Cloudflare Pages s obrazovými deriváty v R2 a Pages. Aktuální stav k 11. 10. 2026 je popsán v research-status.md; dávkové příklady níže zůstávají konkrétním snapshotem čtvrté stovky.
 
 ~~~mermaid
 flowchart TD
@@ -21,6 +21,11 @@ flowchart TD
   M --> N[XSD a kontrolovaný ZIP pro ProArc]
   L --> O[Offline prohlížeč pilotu]
   H --> O
+  L --> P[Statický web Cloudflare Pages]
+  H --> P
+  A --> Q[WebP deriváty: R2 a Pages]
+  P --> Q
+  P --> S[Návrhy oprav JSON / GitHub issue]
 ~~~
 
 ## 1. Archivní a pracovní obrazy
@@ -51,4 +56,4 @@ ProArc větev používá CATMuS CTC zarovnání. Surový řádkový text musí o
 
 ## Provozní hranice
 
-Soubory jsou zdrojem pravdy pro checkpointy, provenienci a přezkoumání. Docker odděluje CPU Kraken a CUDA Medusu; hostitelský Python připravuje obrazy a exporty. Offline HTML umožňuje přezkoumat kandidáty a návrhy. WebP/R2 je dosud návrh budoucího zpřístupnění popsaný zvlášť v presentation.md.
+Soubory jsou zdrojem pravdy pro checkpointy, provenienci a přezkoumání. Docker odděluje CPU Kraken a CUDA Medusu; hostitelský Python připravuje obrazy a exporty. Offline HTML umožňuje přezkoumat kandidáty a návrhy. Veřejný web a WebP/R2 jsou nasazené; frontend a textový korpus jsou v web/public, provoz v presentation.md a web/README.md.

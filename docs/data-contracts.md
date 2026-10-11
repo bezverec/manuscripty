@@ -35,3 +35,11 @@ Produkční TEI převádí nejistotu značenou ⟦…⟧ na unclear s nízkou ji
 ## Auditní omezení
 
 Rozdíl dvou HTR výstupů není chybovost vůči pravdě. Náhradní polygonizace a dosažení generačního limitu musí být přiznány v provenienci. Časy souběžných CPU/GPU větví se nesčítají jako délka projektu. Tokeny lokální Medusy nelze zaměnit za spotřebu frontier asistenta ani přepočítat na procenta předplatného.
+
+## Veřejný snapshot a návrhy změn (11. 10. 2026)
+
+web/public/data/{folio}/page.json je prezentační adaptér: spojuje raw_htr.catmus/medusa, původní source_segment_ids, bbox, obrazové URL, pracovní pasáže a odkazy na původní textové exporty. Nejde o nahrazení kanonického výzkumného JSON. document.json určuje instituci, signaturu a projektový URI. pilot-data.js obsahuje globální pořadí 677 snímků, structure.json pracovní navigaci odvozenou z pasáží.
+
+HTR a segmentační návrhy uchovávají původní text či geometrii, ID a SHA-256 zdroje, URL místa a důvod. Segmentační schéma manuscripty-segmentation-proposal-v1 používá operace resize/split/merge/add/remove; nové obdélníky mají pořadí a souřadnice [x,y,width,height] v původních pixelech od levého horního rohu. Stav zůstává proposed a expert_review false. Validace hranic nebo modelová shoda nemění stav odborné revize.
+
+Přijetí změny musí být samostatně zaznamenáno a řízeně promítnuto do závislých výřezů, HTR a exportů. UI pouze stáhne návrh nebo předvyplní GitHub issue; nezapisuje do kanonického korpusu.

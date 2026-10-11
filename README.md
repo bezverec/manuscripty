@@ -1,43 +1,51 @@
 # Manuscripty
 
-Výzkumný systém pro porovnání lokálního HTR středověkých rukopisů s obrazově kontrolovanými návrhy latinské rekonstrukce a českého překladu. Tento repozitář zachycuje používanou architekturu pilotu rukopisu VKO M II 220 k 10. 10. 2026.
+Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy latinské rekonstrukce a českého překladu a jejich veřejné přezkoumání. Aktuální stav: **11. října 2026**, webová revize **20261011-6**.
 
-Pilot zahrnuje **430 skenů a 31 528 segmentů**. Na 427 stranách s textem existují návrhy rekonstrukce a překladu; další tři záznamy zachycují absenci hlavního textu ve zvolených oblastech. Interpretace jsou označeny **proposed**, bez odborné revize. Bez referenčního přepisu nejsou stanoveny CER ani WER.
+Rukopis **M II 220 z fondů Vědecké knihovny v Olomouci** je dostupný na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz). [Záznam celého dokumentu](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220) používá projektový identifikátor vkol-m-ii-220; nejde o knihovnou přidělené PID.
+
+Publikováno je **677 skenů**: 670 foliovaných snímků (1r–335v) a 7 snímků vazby a předsádky. Na 664 textových stranách jsou kandidáti CATMuS a Medusa 4B a celkem **5 634 návrhů rekonstrukce a českého překladu**. UI zobrazuje **50 297 segmentů**, původní datové vrstvy mají 50 299 segmentů; dvě dvojice fragmentů na 20v jsou v UI spojené. Šest foliovaných stran nemá hlavní text ve vybraných oblastech. Vazba a předsádky jsou označené jako dosud nepřepsané.
+
+Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER nebyly změřeny. Dokončení vybraného hlavního textu neznamená odborně ověřenou edici všech marginálií a zápisů.
 
 ## Orientace
 
-- [Architektura a tok dat](docs/architecture.md)
-- [Prostředí, spuštění a omezení reprodukce](docs/reproduction.md)
-- [Datové vrstvy a validační pravidla](docs/data-contracts.md)
-- [Stav pilotu a měření spotřeby](docs/research-status.md)
-- [Návrh webové prezentace](docs/presentation.md)
-- [Původ a kontrolní součty zdrojů](docs/source-manifest.json)
-- [Pravidla přepisu a práce s nejistotou](medieval-manuscript-transcription/SKILL.md)
+- [Současná architektura](docs/architecture.md)
+- [Použité HTR technologie, modely, odkazy a revize](docs/htr-technologies.md)
+- [Aktuální stav a hranice výsledků](docs/research-status.md)
+- [Veřejná prezentace, úložiště a opravy](docs/presentation.md)
+- [Web: spuštění, obnova obrazů a nasazení](web/README.md)
+- [Dávková reprodukce](docs/reproduction.md) a [datové vrstvy](docs/data-contracts.md)
+- [Kontrolní součty publikované textové části](docs/web-source-manifest.json)
+- [Pravidla transkripce](medieval-manuscript-transcription/SKILL.md)
 
-## Součásti
+## Obsah repozitáře
 
-| Adresář | Úloha |
+| Adresář | Obsah |
 |---|---|
-| htr-fourth-100-pages/scripts | Příprava TIFF, segmentace Kraken, CATMuS, Medusa, checkpointy, porovnání a audit |
-| htr-fourth-100-pages/selection.json | Skutečný výběr a geometrie poslední dávky 100 skenů |
-| htr-fourth-100-pages/ocr-proarc | Export TXT a ALTO 3.0, XSD kontrola a ZIP pro import do ProArcu |
-| interpretation-fourth-100-pages/scripts | Příprava obrazů pro čtení, export návrhů, TEI, kontrola a souhrn pilotu |
-| medieval-manuscript-transcription | Skill, syntetická ukázka, referenční exporter, testy a offline TEI 4.12.0 |
-| presentation-storage-study/scripts | Měření velikosti WebP dlaždic a výřezů |
+| web/public | Aktuální statický frontend a veřejné JSON, TXT, TEI; bez obrazových souborů |
+| web | Publikační a obrazové buildery, testy návrhů oprav, ověřování webu, konfigurace Pages |
+| docs/htr-evidence | Záznamy použitých checkpointů a pilotních posouzení; bez vah |
+| docs/validation | Zachované výsledky kontrol veřejné verze a nové kontroly tohoto snapshotu |
+| htr-fourth-100-pages | Reprezentativní inference a ProArc export ze snapshotu 10. 10. |
+| interpretation-fourth-100-pages | Reprezentativní obrazová příprava a exporty ze snapshotu 10. 10. |
+| medieval-manuscript-transcription | Skill, referenční exporter, syntetická ukázka, testy, offline TEI P5 4.12.0 |
+| presentation-storage-study | Původní měřicí skripty pro WebP a výřezy |
 
-Zdrojové soubory uvedené v manifestu jsou převzaty beze změny. Dávkové skripty jsou konkrétní implementace poslední stovky a mají pevné názvy složek, počty stran a vazby na předchozí etapy. Repozitář obsahuje zdroje a schémata; výzkumná data, TIFF, PNG, modelové váhy, checkpointy a celé výsledné přepisy se spravují v odděleném pracovním úložišti. Git clone sám nenahradí původní datové prostředí.
+Starší dávkové zdroje zůstávají historickým referenčním snapshotem; původ a SHA-256 jsou v [source-manifest.json](docs/source-manifest.json). Nově je přibalen skutečný veřejný textový korpus. Obrazové deriváty se spravují odděleně: folia v R2, sedm snímků vazby v Pages. Archivní TIFF, obrazové výřezy, modely, lokální cache, přístupové údaje a node_modules do Git nepatří. Celá původní pracovní data a souhrnné balíčky OCR pro ProArc nejsou součástí webového snapshotu.
 
-## Rychlé ověření referenčního exporteru
-
-Python s lxml; přesné použité verze základních knihoven jsou v requirements-reference.txt.
+## Ověření
 
 ~~~sh
+python -m pip install -r requirements-reference.txt
+python web/validate_snapshot.py
 python -m unittest discover -s medieval-manuscript-transcription/tests -v
-python medieval-manuscript-transcription/scripts/export.py --input medieval-manuscript-transcription/assets/demo.json --out-dir demo-output --validate-tei
+cd web
+npm test
 ~~~
 
-Ukázka je syntetická. Tyto příkazy neprovádějí HTR ani nevytvářejí překlad. Detailní provozní postup je v návodu k reprodukci.
+Testy neprovádějí inference ani překlad. Web lze prohlížet přes místní HTTP server; podrobnosti a obnova sedmi obrazových snímků jsou ve web/README.md.
 
 ## Licence a původ
 
-Původní soubor LICENSE připraveného repozitáře (GNU GPL v3) je zachován. Přibalená schémata TEI a ALTO mají vlastní zachovaná oznámení a původ. Modely se stahují samostatně podle svých licencí. Archivní obrazy ani ediční výstupy se tímto repozitářem nezpřístupňují.
+Původní LICENSE (GNU GPL v3) je zachován. TEI, ALTO a OpenSeadragon mají vlastní zachovaná licenční oznámení. HTR modely mají vlastní licence a stahují se samostatně. Repozitář neobsahuje obrazy rukopisu ani nepředstavuje publikaci odborně schválené edice.

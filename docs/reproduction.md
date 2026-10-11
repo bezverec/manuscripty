@@ -76,3 +76,7 @@ Následuje skutečné čtení obrazů asistentem a zápis reconstruction.json je
 Hotové návrhy exportuje export_interpretation.py; validate_final_exports.py a audit_native_decode.py ověřují exporty a použité obrazy. Dávkový finalizátor a build_final_report.py potom vyžadují úplný soubor jejich vstupních auditů. Přesné závislosti jsou vidět ve zdrojích; čekací skripty mohou čekat bez časového limitu, pokud chybí manifest nebo dokončený výstup. Jejich spuštění nad samotným Git clone proto není smysluplná zkouška.
 
 Na novém rukopisu je nutné upravit konfigurační vazby a počty, vybrat textové oblasti z jeho obrazů a vytvořit vlastní provenienci. Zkopírování stávajících značek kontroly na nové obrazy není obrazová kontrola.
+
+## Nová veřejná větev k 11. 10. 2026
+
+Dokončený textový korpus a frontend jsou nově v web/public. Návod pro lokální zkoušku, obnovu obrazových derivátů a ruční Pages nasazení: [web/README.md](../web/README.md). Tabulka inference výše zachycuje zaznamenané dávkové prostředí; pilotní modely mají samostatné revize a záznamy v [htr-technologies.md](htr-technologies.md).

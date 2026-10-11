@@ -1,0 +1,131 @@
+{
+  "schema": "medieval-reconstruction-v2",
+  "document_id": "VKO_M_II_220_all_processed_pages",
+  "folio": "334v",
+  "language": "la",
+  "translator_language": "cs",
+  "source_original": "EX/M_II_220____26LY4SCEX0334V.TIF",
+  "source_sha256": "fbd5d0afd1abe2998d8660e69365f709ef4b09d3d99acd6e262ef9f585a86db1",
+  "source_folder": "htr-sixth-94-pages",
+  "author": "Codex frontier assistant; model identity not independently logged",
+  "created_utc": "2026-10-11T09:59:07.582Z",
+  "expert_reference": false,
+  "cer": null,
+  "wer": null,
+  "layer": "Working reconstruction and Czech translation; separate from diplomatic raw HTR",
+  "image_inspection": {
+    "tiles": [
+      "tiles/read-z1-y1-x1.png",
+      "tiles/read-z1-y1-x2.png",
+      "tiles/read-z1-y2-x1.png",
+      "tiles/read-z1-y2-x2.png",
+      "tiles/read-z1-y3-x1.png",
+      "tiles/read-z1-y3-x2.png"
+    ],
+    "native_pixels": true,
+    "selected_zones_covered": true,
+    "all_selected_zones_opened": true,
+    "original_htr_compared": true,
+    "original_medusa_compared": true,
+    "masked_htr_compared": false
+  },
+  "notes_cs": "Skutečně všech6nativních pásů a oba celé raw otevřeny. Dva bloky památky živých a zemřelých. Segmentace tříští řádky na mnoho slov a okrajových fragmentů; všechny47ID zahrnuty jednou v jejich rawpořadí, rekonstrukce řádků uvnitř pasáží zachovává viditelnou levopravou návaznost. Nejasné formy nerozvinuty s jistotou.",
+  "cappelli_consulted": false,
+  "passages": [
+    {
+      "id": "f334v_p01",
+      "title_cs": "Památka živých: úvod a přímluvy",
+      "source_segment_ids": [
+        "f334v_l001",
+        "f334v_l002",
+        "f334v_l003",
+        "f334v_l004",
+        "f334v_l005",
+        "f334v_l006",
+        "f334v_l007",
+        "f334v_l008",
+        "f334v_l009",
+        "f334v_l010",
+        "f334v_l011",
+        "f334v_l012",
+        "f334v_l013",
+        "f334v_l014",
+        "f334v_l015"
+      ],
+      "latin_reconstruction": "⟦…⟧. Memoria vivorum. Mei ac ⟦parentum?⟧ meorum. Omnium benefactorum meorum et omnium consanguineorum meorum, in spiritualibus et temporalibus. Omnium michi commissorum, in generali et speciali. Omnium sacerdotum et ecclesie katholice administratorum.",
+      "czech_translation": "⟦…⟧. Památka živých. Mne a mých ⟦rodičů?⟧. Všech mých dobrodinců a všech mých příbuzných, v duchovních i časných věcech. Všech mně svěřených, obecně i jednotlivě. Všech kněží a správců katolické církve.",
+      "notes_cs": "Samostatná nativní četba a porovnání obou úplných raw; označené nejistoty ponechány.",
+      "status": "proposed",
+      "human_reviewed": false,
+      "uncertainty_notation": "⟦text?⟧ uncertain; [text?] conjectural; ⟦…⟧ unresolved reading, not asserted physical loss"
+    },
+    {
+      "id": "f334v_p02",
+      "title_cs": "Závěr přímluv za živé",
+      "source_segment_ids": [
+        "f334v_l016",
+        "f334v_l017",
+        "f334v_l018",
+        "f334v_l019",
+        "f334v_l020",
+        "f334v_l021",
+        "f334v_l022",
+        "f334v_l023",
+        "f334v_l024",
+        "f334v_l025",
+        "f334v_l026",
+        "f334v_l027"
+      ],
+      "latin_reconstruction": "Omnium inimicorum ac debitorum meorum, ad dimissionem. Omnium hereticorum et schismaticorum, ad ⟦conversionem?⟧. Omnium ⟦…⟧ fidelium vivorum pro quibus tu scis et vis me velle et debere orare.",
+      "czech_translation": "Všech mých nepřátel a dlužníků, k odpuštění. Všech heretiků a schismatiků, k ⟦obrácení?⟧. Všech ⟦…⟧ žijících věrných, za které víš a chceš, abych se chtěl a měl modlit.",
+      "notes_cs": "Samostatná nativní četba a porovnání obou úplných raw; označené nejistoty ponechány.",
+      "status": "proposed",
+      "human_reviewed": false,
+      "uncertainty_notation": "⟦text?⟧ uncertain; [text?] conjectural; ⟦…⟧ unresolved reading, not asserted physical loss"
+    },
+    {
+      "id": "f334v_p03",
+      "title_cs": "Památka zemřelých: příbuzní a svěřené osoby",
+      "source_segment_ids": [
+        "f334v_l028",
+        "f334v_l029",
+        "f334v_l030",
+        "f334v_l031",
+        "f334v_l032",
+        "f334v_l033",
+        "f334v_l034",
+        "f334v_l035",
+        "f334v_l036"
+      ],
+      "latin_reconstruction": "Defunctorum. Omnium consanguineorum meorum defunctorum. Omnium benefactorum meorum et quorum ⟦patrum vel avorum seu?⟧ ⟦…⟧. Omnium michi commissorum, in generali et speciali. Omnium ⟦…⟧ sacramenta ecclesie administratorum ⟦…⟧.",
+      "czech_translation": "Zemřelých. Všech mých zemřelých příbuzných. Všech mých dobrodinců a těch, jejichž ⟦otcové nebo dědové či?⟧ ⟦…⟧. Všech mně svěřených, obecně i jednotlivě. Všech ⟦…⟧ správců svátostí církve ⟦…⟧.",
+      "notes_cs": "Samostatná nativní četba a porovnání obou úplných raw; označené nejistoty ponechány.",
+      "status": "proposed",
+      "human_reviewed": false,
+      "uncertainty_notation": "⟦text?⟧ uncertain; [text?] conjectural; ⟦…⟧ unresolved reading, not asserted physical loss"
+    },
+    {
+      "id": "f334v_p04",
+      "title_cs": "Závěr přímluv za zemřelé",
+      "source_segment_ids": [
+        "f334v_l037",
+        "f334v_l038",
+        "f334v_l039",
+        "f334v_l040",
+        "f334v_l041",
+        "f334v_l042",
+        "f334v_l043",
+        "f334v_l044",
+        "f334v_l045",
+        "f334v_l046",
+        "f334v_l047"
+      ],
+      "latin_reconstruction": "Omnium animarum improvisa morte ⟦privatorum?⟧, in ecclesia militante. Omnium animarum quarum specialem memoriam non ⟦…⟧. Omnium animarum que in occasione mei in purgatorio puniuntur. Omnium fidelium defunctorum pro quibus tu scis et vis me velle et debere orare. ⟦…⟧.",
+      "czech_translation": "Všech duší ⟦zbavených života?⟧ náhlou smrtí, v bojující církvi. Všech duší, jejichž zvláštní památku ⟦…⟧. Všech duší, které jsou mou vinou trestány v očistci. Všech věrných zemřelých, za které víš a chceš, abych se chtěl a měl modlit. ⟦…⟧.",
+      "notes_cs": "Samostatná nativní četba a porovnání obou úplných raw; označené nejistoty ponechány.",
+      "status": "proposed",
+      "human_reviewed": false,
+      "uncertainty_notation": "⟦text?⟧ uncertain; [text?] conjectural; ⟦…⟧ unresolved reading, not asserted physical loss"
+    }
+  ]
+}

@@ -50,3 +50,34 @@ venv/
 /**/comparison.html
 /**/review.html
 /pilot-index.html
+
+# Published text corpus is intentional; private working results stay excluded.
+!/web/public/**
+# Never commit standalone images, secrets, dependencies or generated media.
+*.tif
+*.tiff
+*.TIF
+*.TIFF
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.jp2
+*.avif
+*.svg
+*.ico
+node_modules/
+.credentials/
+.wrangler/
+/web/public/binding-media/
+/web/r2-media/
+/web/binding-build/
+/web/media-results/
+/web/pre-document-identity-update-*/
+/web/media-jobs.json
+
+/web/*-validation.json
+/web/public-verification.json
+!/web/binding-media-validation.json

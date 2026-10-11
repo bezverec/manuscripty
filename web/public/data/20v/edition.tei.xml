@@ -1,0 +1,2796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="la" version="4.12.0" xml:id="tei-vkol-m-ii-220-20v">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>VKO_M_II_220_full_page_20v_measurement, 20v: working transcription</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Výzkumný pilot Manuscripty</publisher><idno type="URI">https://rukopisy.digitalizaty.cz/data/20v/edition.tei.xml</idno><availability><p>Veřejná prezentace pracovního návrhu bez odborné revize. Knihovna je institucí uchovávající rukopis; není zde označena za vydavatele AI přepisu.</p></availability></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="vkol-m-ii-220"><msIdentifier><country>Česko</country><settlement>Olomouc</settlement><repository ref="https://www.vkol.cz/">Vědecká knihovna v Olomouci</repository><idno type="shelfmark">M II 220</idno><idno type="URI">https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220</idno></msIdentifier><additional><listBibl><bibl>Digitized source image: ../../EX/M_II_220____26LY4SCEX0020V.TIF</bibl></listBibl></additional></msDesc></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Diplomatic readings preserve abbreviations; expansions are proposed editorial readings. Word @type denotes reviewed, proposed or uncertain status.</p>
+        <p>No expert human review. Conjectural reconstruction and Czech translation are separate artifacts. Null expansion means unresolved reading, not a physical lacuna. Geometry is measured at line level only.</p>
+        <p>{"line_ids": ["f20v_l003", "f20v_l004"], "word_ids": ["f20v_l003_w007", "f20v_l004_w001"], "joined_expansion": "medio", "status": "proposed", "note": "me/dio crosses a physical line break."}</p>
+        <p>{"line_ids": ["f20v_l008"], "note": "ꝓ laude segmented as two lexical tokens by visual interpretation, differing from the model string plande."}</p>
+        <p>{"line_ids": ["f20v_l011"], "note": "uolūt versus nolūt unresolved; Latin sense alone cannot authorize changing the visible base letter. ꝓ illō proposed as two words."}</p>
+        <p>{"line_ids": ["f20v_l025", "f20v_l026"], "joined_expansion": "ypocrite", "status": "proposed", "note": "Word crosses physical line break; join is interpretative and does not remove source line boundaries."}</p>
+        <p>{"line_ids": ["f20v_l030", "f20v_l031"], "joined_expansion": "maledictionibus", "status": "proposed", "note": "Word crosses physical line break; join is interpretative and does not remove source line boundaries."}</p>
+        <p>{"line_ids": ["f20v_l031", "f20v_l032"], "joined_expansion": "addendo", "status": "proposed", "note": "Word crosses physical line break; join is interpretative and does not remove source line boundaries."}</p>
+        <p>{"line_ids": ["f20v_l034", "f20v_l035"], "joined_expansion": "clauditis", "status": "proposed", "note": "Word crosses physical line break; join is interpretative and does not remove source line boundaries."}</p>
+        <p>{"line_ids": ["f20v_l035", "f20v_l036"], "joined_expansion": "consumitis", "status": "proposed", "note": "Word crosses physical line break; join is interpretative and does not remove source line boundaries."}</p>
+        <p>{"line_ids": ["f20v_l037", "f20v_l038"], "joined_expansion": "faciatis", "status": "proposed", "note": "Word crosses physical line break; join is interpretative and does not remove source line boundaries."}</p>
+        <p>{"line_ids": ["f20v_l057", "f20v_l059"], "joined_expansion": "intelligendum", "status": "proposed", "note": "Word crosses physical line break; join is interpretative and does not remove source line boundaries."}</p>
+        <p>{"line_ids": ["f20v_l082", "f20v_l083"], "joined_expansion": "nitore?", "status": "proposed", "note": "Word crosses physical line break; join is interpretative and does not remove source line boundaries."}</p>
+        <p>{"line_ids": ["f20v_l070"], "word_ids": ["f20v_l070_w002"], "retired_component_id": "f20v_l070_w003", "previous_chunks": [{"id": "f20v_l070_w002", "diplomatic": "cogita"}, {"id": "f20v_l070_w003", "diplomatic": "cōnū"}], "note": "cogita cōnū interpreted as one lexical word cogitacionum. Diplomatic retains visual internal space; one token contains both chunks, no forced 1:1 mapping."}</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_f20v" n="20v" ulx="0" uly="0" lrx="4500" lry="5900">
+      <graphic url="../../EX/M_II_220____26LY4SCEX0020V.TIF"/>
+      <zone xml:id="z_f20v_l001" ulx="901" uly="411" lrx="2313" lry="552"/>
+      <zone xml:id="z_f20v_l002" ulx="907" uly="508" lrx="2324" lry="666"/>
+      <zone xml:id="z_f20v_l003" ulx="898" uly="613" lrx="2313" lry="769"/>
+      <zone xml:id="z_f20v_l004" ulx="865" uly="711" lrx="2355" lry="866"/>
+      <zone xml:id="z_f20v_l005" ulx="907" uly="811" lrx="2336" lry="966"/>
+      <zone xml:id="z_f20v_l006" ulx="915" uly="919" lrx="2258" lry="1066"/>
+      <zone xml:id="z_f20v_l007" ulx="918" uly="1025" lrx="2386" lry="1202"/>
+      <zone xml:id="z_f20v_l008" ulx="918" uly="1158" lrx="2330" lry="1308"/>
+      <zone xml:id="z_f20v_l009" ulx="912" uly="1275" lrx="2286" lry="1425"/>
+      <zone xml:id="z_f20v_l010" ulx="896" uly="1366" lrx="2380" lry="1538"/>
+      <zone xml:id="z_f20v_l011" ulx="882" uly="1486" lrx="2361" lry="1636"/>
+      <zone xml:id="z_f20v_l012" ulx="879" uly="1611" lrx="2369" lry="1775"/>
+      <zone xml:id="z_f20v_l014" ulx="879" uly="1711" lrx="2261" lry="1880"/>
+      <zone xml:id="z_f20v_l015" ulx="890" uly="1827" lrx="2341" lry="1991"/>
+      <zone xml:id="z_f20v_l016" ulx="904" uly="1947" lrx="2272" lry="2105"/>
+      <zone xml:id="z_f20v_l017" ulx="898" uly="2069" lrx="2261" lry="2233"/>
+      <zone xml:id="z_f20v_l018" ulx="923" uly="2177" lrx="2380" lry="2325"/>
+      <zone xml:id="z_f20v_l019" ulx="910" uly="2291" lrx="2269" lry="2452"/>
+      <zone xml:id="z_f20v_l020" ulx="921" uly="2402" lrx="2377" lry="2577"/>
+      <zone xml:id="z_f20v_l021" ulx="896" uly="2516" lrx="2386" lry="2708"/>
+      <zone xml:id="z_f20v_l022" ulx="896" uly="2666" lrx="2313" lry="2816"/>
+      <zone xml:id="z_f20v_l023" ulx="901" uly="2797" lrx="2311" lry="2936"/>
+      <zone xml:id="z_f20v_l024" ulx="890" uly="2922" lrx="2311" lry="3050"/>
+      <zone xml:id="z_f20v_l025" ulx="890" uly="3019" lrx="2333" lry="3180"/>
+      <zone xml:id="z_f20v_l026" ulx="898" uly="3150" lrx="2388" lry="3300"/>
+      <zone xml:id="z_f20v_l027" ulx="890" uly="3269" lrx="2327" lry="3427"/>
+      <zone xml:id="z_f20v_l028" ulx="885" uly="3400" lrx="2347" lry="3561"/>
+      <zone xml:id="z_f20v_l029" ulx="893" uly="3519" lrx="2258" lry="3647"/>
+      <zone xml:id="z_f20v_l030" ulx="890" uly="3625" lrx="2338" lry="3775"/>
+      <zone xml:id="z_f20v_l031" ulx="904" uly="3733" lrx="2291" lry="3877"/>
+      <zone xml:id="z_f20v_l032" ulx="898" uly="3838" lrx="2305" lry="4002"/>
+      <zone xml:id="z_f20v_l033" ulx="896" uly="3963" lrx="2305" lry="4119"/>
+      <zone xml:id="z_f20v_l034" ulx="896" uly="4091" lrx="2316" lry="4222"/>
+      <zone xml:id="z_f20v_l035" ulx="890" uly="4202" lrx="2322" lry="4347"/>
+      <zone xml:id="z_f20v_l036" ulx="898" uly="4308" lrx="2352" lry="4461"/>
+      <zone xml:id="z_f20v_l037" ulx="893" uly="4430" lrx="2305" lry="4580"/>
+      <zone xml:id="z_f20v_l038" ulx="896" uly="4536" lrx="2330" lry="4722"/>
+      <zone xml:id="z_f20v_l039" ulx="896" uly="4650" lrx="2366" lry="4833"/>
+      <zone xml:id="z_f20v_l040" ulx="890" uly="4769" lrx="2313" lry="4936"/>
+      <zone xml:id="z_f20v_l041" ulx="898" uly="4888" lrx="2299" lry="5072"/>
+      <zone xml:id="z_f20v_l042" ulx="910" uly="5016" lrx="2361" lry="5166"/>
+      <zone xml:id="z_f20v_l043" ulx="912" uly="5122" lrx="2366" lry="5294"/>
+      <zone xml:id="z_f20v_l044" ulx="2447" uly="383" lrx="3808" lry="541"/>
+      <zone xml:id="z_f20v_l045" ulx="2425" uly="486" lrx="3813" lry="652"/>
+      <zone xml:id="z_f20v_l046" ulx="2427" uly="594" lrx="3830" lry="769"/>
+      <zone xml:id="z_f20v_l047" ulx="2430" uly="697" lrx="3933" lry="880"/>
+      <zone xml:id="z_f20v_l048" ulx="2430" uly="797" lrx="3805" lry="991"/>
+      <zone xml:id="z_f20v_l049" ulx="2441" uly="905" lrx="3827" lry="1130"/>
+      <zone xml:id="z_f20v_l050" ulx="2441" uly="1052" lrx="3802" lry="1230"/>
+      <zone xml:id="z_f20v_l051" ulx="2436" uly="1172" lrx="3788" lry="1330"/>
+      <zone xml:id="z_f20v_l052" ulx="2425" uly="1280" lrx="3844" lry="1461"/>
+      <zone xml:id="z_f20v_l053" ulx="2433" uly="1402" lrx="3877" lry="1608"/>
+      <zone xml:id="z_f20v_l054" ulx="2438" uly="1558" lrx="3827" lry="1733"/>
+      <zone xml:id="z_f20v_l055" ulx="2441" uly="1702" lrx="3811" lry="1869"/>
+      <zone xml:id="z_f20v_l056" ulx="2433" uly="1816" lrx="3850" lry="1958"/>
+      <zone xml:id="z_f20v_l057" ulx="2433" uly="1919" lrx="3833" lry="2088"/>
+      <zone xml:id="z_f20v_l059" ulx="2433" uly="2033" lrx="3900" lry="2230"/>
+      <zone xml:id="z_f20v_l060" ulx="2447" uly="2186" lrx="3852" lry="2347"/>
+      <zone xml:id="z_f20v_l061" ulx="2447" uly="2316" lrx="3872" lry="2475"/>
+      <zone xml:id="z_f20v_l062" ulx="2441" uly="2433" lrx="3902" lry="2613"/>
+      <zone xml:id="z_f20v_l063" ulx="2425" uly="2563" lrx="3850" lry="2716"/>
+      <zone xml:id="z_f20v_l064" ulx="2441" uly="2688" lrx="3819" lry="2850"/>
+      <zone xml:id="z_f20v_l065" ulx="2444" uly="2833" lrx="3833" lry="2997"/>
+      <zone xml:id="z_f20v_l066" ulx="2452" uly="2969" lrx="3872" lry="3136"/>
+      <zone xml:id="z_f20v_l067" ulx="2458" uly="3088" lrx="3863" lry="3252"/>
+      <zone xml:id="z_f20v_l068" ulx="2452" uly="3213" lrx="3886" lry="3375"/>
+      <zone xml:id="z_f20v_l069" ulx="2447" uly="3336" lrx="3894" lry="3513"/>
+      <zone xml:id="z_f20v_l070" ulx="2436" uly="3469" lrx="3900" lry="3613"/>
+      <zone xml:id="z_f20v_l071" ulx="2486" uly="3583" lrx="3830" lry="3725"/>
+      <zone xml:id="z_f20v_l072" ulx="2447" uly="3691" lrx="3972" lry="3833"/>
+      <zone xml:id="z_f20v_l073" ulx="2455" uly="3822" lrx="3813" lry="3955"/>
+      <zone xml:id="z_f20v_l074" ulx="2466" uly="3930" lrx="3919" lry="4080"/>
+      <zone xml:id="z_f20v_l075" ulx="2452" uly="4027" lrx="4030" lry="4219"/>
+      <zone xml:id="z_f20v_l076" ulx="2458" uly="4177" lrx="3922" lry="4336"/>
+      <zone xml:id="z_f20v_l077" ulx="2455" uly="4297" lrx="3852" lry="4458"/>
+      <zone xml:id="z_f20v_l078" ulx="2469" uly="4411" lrx="3891" lry="4566"/>
+      <zone xml:id="z_f20v_l079" ulx="2450" uly="4533" lrx="3897" lry="4675"/>
+      <zone xml:id="z_f20v_l080" ulx="2552" uly="4641" lrx="3800" lry="4791"/>
+      <zone xml:id="z_f20v_l081" ulx="2450" uly="4761" lrx="3972" lry="4908"/>
+      <zone xml:id="z_f20v_l082" ulx="2455" uly="4880" lrx="3972" lry="5033"/>
+      <zone xml:id="z_f20v_l083" ulx="2455" uly="4994" lrx="3888" lry="5141"/>
+      <zone xml:id="z_f20v_l084" ulx="2458" uly="5113" lrx="4036" lry="5283"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="transcription">
+        <pb n="20v" facs="#s_f20v"/>
+        <ab>
+          <lb n="1" facs="#z_f20v_l001"/>
+          <w xml:id="f20v_l001_w001" type="proposed">
+            <choice>
+              <abbr>erūt</abbr>
+              <expan>erunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l001_w002" type="proposed">
+            <choice>
+              <abbr>eoꝝ</abbr>
+              <expan>eorum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l001_w003" type="proposed">
+            <choice>
+              <abbr>opa</abbr>
+              <expan>opera</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l001_w004" type="proposed">Sed</w>
+          <w xml:id="f20v_l001_w005" type="proposed">
+            <choice>
+              <abbr>dᵗ</abbr>
+              <expan>dicit</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l001_w006" type="proposed">iob</w>
+          <w xml:id="f20v_l001_w007" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>Cōgregatio</unclear>
+              </abbr>
+              <expan>Congregatio</expan>
+            </choice>
+          </w>
+          <lb n="2" facs="#z_f20v_l002"/>
+          <w xml:id="f20v_l002_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ypoc̄te</unclear>
+              </abbr>
+              <expan>ypocrite</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l002_w002" type="proposed">sterilis</w>
+          <w xml:id="f20v_l002_w003" type="proposed">
+            <choice>
+              <abbr>dᵗ</abbr>
+              <expan>dicit</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l002_w004" type="proposed">glosa</w>
+          <w xml:id="f20v_l002_w005" type="proposed">
+            <choice>
+              <abbr>omīa</abbr>
+              <expan>omnia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l002_w006" type="proposed">
+            <choice>
+              <abbr>opa</abbr>
+              <expan>opera</expan>
+            </choice>
+          </w>
+          <lb n="3" facs="#z_f20v_l003"/>
+          <w xml:id="f20v_l003_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ypoc̄te</unclear>
+              </abbr>
+              <expan>ypocrite</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l003_w002" type="proposed">
+            <choice>
+              <abbr>sūt</abbr>
+              <expan>sunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l003_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>qᵃ</unclear>
+              </abbr>
+              <expan>quasi</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l003_w004" type="uncertain">
+            <unclear>puluis</unclear>
+          </w>
+          <w xml:id="f20v_l003_w005" type="uncertain">
+            <unclear>pōit</unclear>
+          </w>
+          <w xml:id="f20v_l003_w006" type="proposed">
+            <choice>
+              <abbr>ī</abbr>
+              <expan>in</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l003_w007" type="proposed">me</w>
+          <lb n="4" facs="#z_f20v_l004"/>
+          <w xml:id="f20v_l004_w001" type="proposed">dio</w>
+          <w xml:id="f20v_l004_w002" type="proposed">
+            <choice>
+              <abbr>uēti</abbr>
+              <expan>uenti</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l004_w003" type="proposed">ubi</w>
+          <w xml:id="f20v_l004_w004" type="proposed">
+            <choice>
+              <abbr>ꝑticula</abbr>
+              <expan>particula</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l004_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>mīma</unclear>
+              </abbr>
+              <expan>minima</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l004_w006" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ctra</unclear>
+              </abbr>
+              <expan>contra</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l004_w007" type="proposed">
+            <choice>
+              <abbr>aliā</abbr>
+              <expan>aliam</expan>
+            </choice>
+          </w>
+          <lb n="5" facs="#z_f20v_l005"/>
+          <w xml:id="f20v_l005_w001" type="proposed">
+            <choice>
+              <abbr>nō</abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l005_w002" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>hꝫ</unclear>
+              </abbr>
+              <expan>habet</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l005_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>Sᶜdū</unclear>
+              </abbr>
+              <expan>Secundum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l005_w004" type="proposed">
+            <choice>
+              <abbr>dāpnū</abbr>
+              <expan>dampnum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l005_w005" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l005_w006" type="proposed">
+            <choice>
+              <abbr>et̄nū</abbr>
+              <expan>eternum</expan>
+            </choice>
+          </w>
+          <lb n="6" facs="#z_f20v_l006"/>
+          <w xml:id="f20v_l006_w001" type="proposed">
+            <choice>
+              <abbr>gaudiū</abbr>
+              <expan>gaudium</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l006_w002" type="proposed">ab</w>
+          <w xml:id="f20v_l006_w003" type="proposed">eis</w>
+          <w xml:id="f20v_l006_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>abneg᷑</unclear>
+              </abbr>
+              <expan>abnegatur</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l006_w005" type="uncertain">
+            <unclear>iiij</unclear>
+          </w>
+          <w xml:id="f20v_l006_w006" type="uncertain">
+            <unclear>sᵗ</unclear>
+          </w>
+          <lb n="7" facs="#z_f20v_l007"/>
+          <w xml:id="f20v_l007_w001" type="proposed">Ex</w>
+          <w xml:id="f20v_l007_w002" type="proposed">quo</w>
+          <w xml:id="f20v_l007_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>finē</unclear>
+              </abbr>
+              <expan>finem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l007_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝯtep[…]ūt</unclear>
+              </abbr>
+              <expan>contempnunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l007_w005" type="proposed">
+            <choice>
+              <abbr>ꝓ</abbr>
+              <expan>pro</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l007_w006" type="proposed">
+            <choice>
+              <abbr>regnō</abbr>
+              <expan>regno</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l007_w007" type="proposed">
+            <choice>
+              <abbr>celoꝝ</abbr>
+              <expan>celorum</expan>
+            </choice>
+          </w>
+          <lb n="8" facs="#z_f20v_l008"/>
+          <w xml:id="f20v_l008_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>⁊</unclear>
+              </abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l008_w002" type="proposed">
+            <choice>
+              <abbr>eoꝝ</abbr>
+              <expan>eorum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l008_w003" type="proposed">
+            <choice>
+              <abbr>opa</abbr>
+              <expan>opera</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l008_w004" type="proposed">
+            <choice>
+              <abbr>faciūt</abbr>
+              <expan>faciunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l008_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝓ</unclear>
+              </abbr>
+              <expan>pro</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l008_w006" type="proposed">laude</w>
+          <w xml:id="f20v_l008_w007" type="proposed">humana</w>
+          <lb n="9" facs="#z_f20v_l009"/>
+          <w xml:id="f20v_l009_w001" type="proposed">
+            <choice>
+              <abbr>Tūc</abbr>
+              <expan>Tunc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l009_w002" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>hᶜ</unclear>
+              </abbr>
+              <expan>hoc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l009_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>seqᵣ</unclear>
+              </abbr>
+              <expan>sequitur</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l009_w004" type="proposed">ex</w>
+          <w xml:id="f20v_l009_w005" type="proposed">dei</w>
+          <w xml:id="f20v_l009_w006" type="proposed">iusticia</w>
+          <w xml:id="f20v_l009_w007" type="proposed">
+            <choice>
+              <abbr>ꝙ</abbr>
+              <expan>quod</expan>
+            </choice>
+          </w>
+          <lb n="10" facs="#z_f20v_l010"/>
+          <w xml:id="f20v_l010_w001" type="proposed">
+            <choice>
+              <abbr>nō</abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l010_w002" type="proposed">
+            <choice>
+              <abbr>sūt</abbr>
+              <expan>sunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l010_w003" type="proposed">digni</w>
+          <w xml:id="f20v_l010_w004" type="proposed">
+            <choice>
+              <abbr>acciꝑe</abbr>
+              <expan>accipere</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l010_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>reg[ū]</unclear>
+              </abbr>
+              <expan>regnum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l010_w006" type="proposed">
+            <choice>
+              <abbr>celoꝝ</abbr>
+              <expan>celorum</expan>
+            </choice>
+          </w>
+          <lb n="11" facs="#z_f20v_l011"/>
+          <w xml:id="f20v_l011_w001" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l011_w002" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>uolūt</unclear>
+              </abbr>
+              <expan>uolunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l011_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝓ</unclear>
+              </abbr>
+              <expan>pro</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l011_w004" type="proposed">
+            <choice>
+              <abbr>illō</abbr>
+              <expan>illo</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l011_w005" type="proposed">
+            <choice>
+              <abbr>labōāre</abbr>
+              <expan>laborare</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l011_w006" type="proposed">
+            <choice>
+              <abbr>Vn̄</abbr>
+              <expan>Vnde</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l011_w007" type="proposed">
+            <choice>
+              <abbr>dᵗ</abbr>
+              <expan>dicit</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l011_w008" type="proposed">iob</w>
+          <lb n="12" facs="#z_f20v_l012"/>
+          <w xml:id="f20v_l012_w001" type="proposed">
+            <choice>
+              <abbr>nō</abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l012_w002" type="uncertain">
+            <unclear>ueniat</unclear>
+          </w>
+          <w xml:id="f20v_l012_w003" type="proposed">
+            <choice>
+              <abbr>ī</abbr>
+              <expan>in</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l012_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝯspectu</unclear>
+              </abbr>
+              <expan>conspectu</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l012_w005" type="proposed">
+            <choice>
+              <abbr>eiꝯ</abbr>
+              <expan>eius</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l012_w006" type="proposed">
+            <choice>
+              <abbr>ōis</abbr>
+              <expan>omnis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l012_w007" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ypoc̄ta</unclear>
+              </abbr>
+              <expan>ypocrita</expan>
+            </choice>
+          </w>
+          <lb n="13" facs="#z_f20v_l014"/>
+          <w xml:id="f20v_l014_w001" type="proposed">Et</w>
+          <w xml:id="f20v_l014_w002" type="proposed">
+            <choice>
+              <abbr>dn̄s</abbr>
+              <expan>dominus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l014_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝯminat</unclear>
+              </abbr>
+              <expan>comminat</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l014_w004" type="proposed">eis</w>
+          <w xml:id="f20v_l014_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>Mtᵗ</unclear>
+              </abbr>
+              <expan>Matheus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l014_w006" type="uncertain">
+            <unclear>xxiij</unclear>
+          </w>
+          <lb n="14" facs="#z_f20v_l015"/>
+          <w xml:id="f20v_l015_w001" type="proposed">ue</w>
+          <w xml:id="f20v_l015_w002" type="proposed">
+            <choice>
+              <abbr>uob̄</abbr>
+              <expan>uobis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l015_w003" type="proposed">
+            <choice>
+              <abbr>qᵘi</abbr>
+              <expan>qui</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l015_w004" type="proposed">clauditis</w>
+          <w xml:id="f20v_l015_w005" type="proposed">
+            <choice>
+              <abbr>regnū</abbr>
+              <expan>regnum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l015_w006" type="proposed">
+            <choice>
+              <abbr>celoꝝ</abbr>
+              <expan>celorum</expan>
+            </choice>
+          </w>
+          <lb n="15" facs="#z_f20v_l016"/>
+          <w xml:id="f20v_l016_w001" type="proposed">
+            <choice>
+              <abbr>ꝰte</abbr>
+              <expan>ante</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l016_w002" type="proposed">
+            <choice>
+              <abbr>hōies</abbr>
+              <expan>homines</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l016_w003" type="uncertain">
+            <unclear>nos</unclear>
+          </w>
+          <w xml:id="f20v_l016_w004" type="proposed">
+            <choice>
+              <abbr>eī</abbr>
+              <expan>enim</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l016_w005" type="proposed">
+            <choice>
+              <abbr>nō</abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l016_w006" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ītrtis</unclear>
+              </abbr>
+              <expan>intratis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l016_w007" type="proposed">nec</w>
+          <lb n="16" facs="#z_f20v_l017"/>
+          <w xml:id="f20v_l017_w001" type="uncertain">
+            <unclear>īteūtes</unclear>
+          </w>
+          <w xml:id="f20v_l017_w002" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ītrāre</unclear>
+              </abbr>
+              <expan>intrare</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l017_w003" type="proposed">sinitis</w>
+          <w xml:id="f20v_l017_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>3ᵐ</unclear>
+              </abbr>
+              <expan>tercium</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l017_w005" type="proposed">
+            <choice>
+              <abbr>dāpnū</abbr>
+              <expan>dampnum</expan>
+            </choice>
+          </w>
+          <lb n="17" facs="#z_f20v_l018"/>
+          <w xml:id="f20v_l018_w001" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l018_w002" type="proposed">
+            <choice>
+              <abbr>ꝑ</abbr>
+              <expan>per</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l018_w003" type="proposed">
+            <choice>
+              <abbr>mercedē</abbr>
+              <expan>mercedem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l018_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>suā</unclear>
+              </abbr>
+              <expan>suam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l018_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>suscepērūt</unclear>
+              </abbr>
+              <expan>susceperunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l018_w006" type="proposed">
+            <choice>
+              <abbr>ī</abbr>
+              <expan>in</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l018_w007" type="uncertain">
+            <unclear>fine</unclear>
+          </w>
+          <lb n="18" facs="#z_f20v_l019"/>
+          <w xml:id="f20v_l019_w001" type="uncertain">
+            <unclear>p[…]</unclear>
+          </w>
+          <w xml:id="f20v_l019_w002" type="proposed">
+            <choice>
+              <abbr>hāc</abbr>
+              <expan>hanc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l019_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ē</unclear>
+              </abbr>
+              <expan>enim</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l019_w004" type="proposed">
+            <choice>
+              <abbr>vitā</abbr>
+              <expan>vitam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l019_w005" type="proposed">
+            <choice>
+              <abbr>diuꝯ</abbr>
+              <expan>diuersus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l019_w006" type="proposed">erit</w>
+          <w xml:id="f20v_l019_w007" type="proposed">
+            <choice>
+              <abbr>statꝯ</abbr>
+              <expan>status</expan>
+            </choice>
+          </w>
+          <lb n="19" facs="#z_f20v_l020"/>
+          <w xml:id="f20v_l020_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>sꝫ</unclear>
+              </abbr>
+              <expan>scilicet</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l020_w002" type="proposed">
+            <choice>
+              <abbr>statꝯ</abbr>
+              <expan>status</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l020_w003" type="proposed">
+            <choice>
+              <abbr>bonoꝝ</abbr>
+              <expan>bonorum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l020_w004" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l020_w005" type="proposed">
+            <choice>
+              <abbr>maloꝝ</abbr>
+              <expan>malorum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l020_w006" type="proposed">
+            <choice>
+              <abbr>bonoꝝ</abbr>
+              <expan>bonorum</expan>
+            </choice>
+          </w>
+          <lb n="20" facs="#z_f20v_l021"/>
+          <w xml:id="f20v_l021_w001" type="proposed">
+            <choice>
+              <abbr>ī</abbr>
+              <expan>in</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l021_w002" type="proposed">celo</w>
+          <w xml:id="f20v_l021_w003" type="proposed">
+            <choice>
+              <abbr>maloꝝ</abbr>
+              <expan>malorum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l021_w004" type="proposed">
+            <choice>
+              <abbr>ī</abbr>
+              <expan>in</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l021_w005" type="proposed">
+            <choice>
+              <abbr>īfernō</abbr>
+              <expan>inferno</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l021_w006" type="proposed">Sed</w>
+          <w xml:id="f20v_l021_w007" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l021_w008" type="proposed">ad</w>
+          <w xml:id="f20v_l021_w009" type="proposed">
+            <choice>
+              <abbr>celū</abbr>
+              <expan>celum</expan>
+            </choice>
+          </w>
+          <lb n="21" facs="#z_f20v_l022"/>
+          <w xml:id="f20v_l022_w001" type="proposed">uenire</w>
+          <w xml:id="f20v_l022_w002" type="proposed">
+            <choice>
+              <abbr>nō</abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l022_w003" type="proposed">
+            <choice>
+              <abbr>pōt</abbr>
+              <expan>possunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l022_w004" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l022_w005" type="proposed">
+            <choice>
+              <abbr>īdignos</abbr>
+              <expan>indignos</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l022_w006" type="proposed">se</w>
+          <lb n="22" facs="#z_f20v_l023"/>
+          <w xml:id="f20v_l023_w001" type="proposed">
+            <choice>
+              <abbr>fecerūt</abbr>
+              <expan>fecerunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l023_w002" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l023_w003" type="proposed">
+            <choice>
+              <abbr>pctā</abbr>
+              <expan>peccata</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l023_w004" type="proposed">
+            <choice>
+              <abbr>eoꝝ</abbr>
+              <expan>eorum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l023_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>nō</unclear>
+              </abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l023_w006" type="uncertain">
+            <unclear>miseor[…]</unclear>
+          </w>
+          <lb n="23" facs="#z_f20v_l024"/>
+          <w xml:id="f20v_l024_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>agnoūt</unclear>
+              </abbr>
+              <expan>agnouerunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l024_w002" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l024_w003" type="proposed">ideo</w>
+          <w xml:id="f20v_l024_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ueniēt</unclear>
+              </abbr>
+              <expan>uenient</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l024_w005" type="proposed">ad</w>
+          <w xml:id="f20v_l024_w006" type="proposed">
+            <choice>
+              <abbr>īfernū</abbr>
+              <expan>infernum</expan>
+            </choice>
+          </w>
+          <lb n="24" facs="#z_f20v_l025"/>
+          <w xml:id="f20v_l025_w001" type="proposed">Et</w>
+          <w xml:id="f20v_l025_w002" type="proposed">
+            <choice>
+              <abbr>hᶜ</abbr>
+              <expan>hoc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l025_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>testatᵣ</unclear>
+              </abbr>
+              <expan>testatur</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l025_w004" type="proposed">iob</w>
+          <w xml:id="f20v_l025_w005" type="proposed">
+            <choice>
+              <abbr>dᵗ</abbr>
+              <expan>dicit</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l025_w006" type="proposed">Que</w>
+          <w xml:id="f20v_l025_w007" type="proposed">spes</w>
+          <w xml:id="f20v_l025_w008" type="proposed">ypo</w>
+          <lb n="25" facs="#z_f20v_l026"/>
+          <w xml:id="f20v_l026_w001" type="proposed">crite</w>
+          <w xml:id="f20v_l026_w002" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>nūquid</unclear>
+              </abbr>
+              <expan>numquid</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l026_w003" type="proposed">Audiet</w>
+          <w xml:id="f20v_l026_w004" type="proposed">
+            <choice>
+              <abbr>dn̄s</abbr>
+              <expan>dominus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l026_w005" type="proposed">
+            <choice>
+              <abbr>clamorē</abbr>
+              <expan>clamorem</expan>
+            </choice>
+          </w>
+          <lb n="26" facs="#z_f20v_l027"/>
+          <w xml:id="f20v_l027_w001" type="proposed">
+            <choice>
+              <abbr>eiꝯ</abbr>
+              <expan>eius</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l027_w002" type="proposed">
+            <choice>
+              <abbr>qū</abbr>
+              <expan>quando</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l027_w003" type="proposed">
+            <choice>
+              <abbr>suꝑ</abbr>
+              <expan>super</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l027_w004" type="proposed">
+            <choice>
+              <abbr>eū</abbr>
+              <expan>eum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l027_w005" type="proposed">ueniet</w>
+          <w xml:id="f20v_l027_w006" type="uncertain">
+            <unclear>q[…]</unclear>
+          </w>
+          <w xml:id="f20v_l027_w007" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>nō</unclear>
+              </abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <lb n="27" facs="#z_f20v_l028"/>
+          <w xml:id="f20v_l028_w001" type="proposed">
+            <choice>
+              <abbr>āgustia</abbr>
+              <expan>angustia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l028_w002" type="uncertain">
+            <unclear>[…]</unclear>
+          </w>
+          <w xml:id="f20v_l028_w003" type="proposed">
+            <choice>
+              <abbr>dāpnū</abbr>
+              <expan>dampnum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l028_w004" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l028_w005" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l028_w006" type="proposed">
+            <choice>
+              <abbr>dn̄s</abbr>
+              <expan>dominus</expan>
+            </choice>
+          </w>
+          <lb n="28" facs="#z_f20v_l029"/>
+          <w xml:id="f20v_l029_w001" type="proposed">
+            <choice>
+              <abbr>inimicꝯ</abbr>
+              <expan>inimicus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l029_w002" type="proposed">
+            <choice>
+              <abbr>illoꝝ</abbr>
+              <expan>illorum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l029_w003" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l029_w004" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l029_w005" type="proposed">ut</w>
+          <w xml:id="f20v_l029_w006" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝑt</unclear>
+              </abbr>
+              <expan>patet</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l029_w007" type="proposed">
+            <choice>
+              <abbr>ī</abbr>
+              <expan>in</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l029_w008" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>euan</unclear>
+              </abbr>
+              <expan>euangelio</expan>
+            </choice>
+          </w>
+          <lb n="29" facs="#z_f20v_l030"/>
+          <w xml:id="f20v_l030_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>xxiijᵒ</unclear>
+              </abbr>
+              <expan>vicesimo tercio</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l030_w002" type="proposed">ubi</w>
+          <w xml:id="f20v_l030_w003" type="proposed">
+            <choice>
+              <abbr>dn̄s</abbr>
+              <expan>dominus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l030_w004" type="proposed">ix</w>
+          <w xml:id="f20v_l030_w005" type="proposed">maledic</w>
+          <lb n="30" facs="#z_f20v_l031"/>
+          <w xml:id="f20v_l031_w001" type="proposed">
+            <choice>
+              <abbr>tionibꝯ</abbr>
+              <expan>tionibus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l031_w002" type="proposed">
+            <choice>
+              <abbr>ip̄is</abbr>
+              <expan>ipsis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l031_w003" type="proposed">maledicit</w>
+          <w xml:id="f20v_l031_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>sᶜ</unclear>
+              </abbr>
+              <expan>scilicet</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l031_w005" type="proposed">ad</w>
+          <lb n="31" facs="#z_f20v_l032"/>
+          <w xml:id="f20v_l032_w001" type="proposed">
+            <choice>
+              <abbr>dēdo</abbr>
+              <expan>dendo</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l032_w002" type="proposed">illud</w>
+          <w xml:id="f20v_l032_w003" type="proposed">ue</w>
+          <w xml:id="f20v_l032_w004" type="proposed">Sed</w>
+          <w xml:id="f20v_l032_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝑ</unclear>
+              </abbr>
+              <expan>per</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l032_w006" type="uncertain">
+            <unclear>alibꝯ</unclear>
+          </w>
+          <w xml:id="f20v_l032_w007" type="proposed">una</w>
+          <lb n="32" facs="#z_f20v_l033"/>
+          <w xml:id="f20v_l033_w001" type="proposed">
+            <choice>
+              <abbr>malediccō</abbr>
+              <expan>malediccio</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l033_w002" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l033_w003" type="proposed">ue</w>
+          <w xml:id="f20v_l033_w004" type="proposed">
+            <choice>
+              <abbr>uob̄</abbr>
+              <expan>uobis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l033_w005" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l033_w006" type="uncertain">
+            <unclear>scribes</unclear>
+          </w>
+          <w xml:id="f20v_l033_w007" type="proposed">estis</w>
+          <lb n="33" facs="#z_f20v_l034"/>
+          <w xml:id="f20v_l034_w001" type="uncertain">
+            <unclear>nōiūtꝯ</unclear>
+          </w>
+          <w xml:id="f20v_l034_w002" type="proposed">
+            <choice>
+              <abbr>⁊cꝭ</abbr>
+              <expan>et cetera</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l034_w003" type="proposed">una</w>
+          <w xml:id="f20v_l034_w004" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l034_w005" type="proposed">ue</w>
+          <w xml:id="f20v_l034_w006" type="proposed">
+            <choice>
+              <abbr>uob̄</abbr>
+              <expan>uobis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l034_w007" type="proposed">
+            <choice>
+              <abbr>qᵘi</abbr>
+              <expan>qui</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l034_w008" type="proposed">clau</w>
+          <lb n="34" facs="#z_f20v_l035"/>
+          <w xml:id="f20v_l035_w001" type="proposed">ditis</w>
+          <w xml:id="f20v_l035_w002" type="proposed">
+            <choice>
+              <abbr>celū</abbr>
+              <expan>celum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l035_w003" type="proposed">
+            <choice>
+              <abbr>⁊cꝭ</abbr>
+              <expan>et cetera</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l035_w004" type="proposed">una</w>
+          <w xml:id="f20v_l035_w005" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l035_w006" type="proposed">ue</w>
+          <w xml:id="f20v_l035_w007" type="proposed">
+            <choice>
+              <abbr>uob̄</abbr>
+              <expan>uobis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l035_w008" type="proposed">
+            <choice>
+              <abbr>qᵘi</abbr>
+              <expan>qui</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l035_w009" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝯsu</unclear>
+              </abbr>
+              <expan>consu</expan>
+            </choice>
+          </w>
+          <lb n="35" facs="#z_f20v_l036"/>
+          <w xml:id="f20v_l036_w001" type="proposed">mitis</w>
+          <w xml:id="f20v_l036_w002" type="proposed">
+            <choice>
+              <abbr>domꝯ</abbr>
+              <expan>domus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l036_w003" type="proposed">
+            <choice>
+              <abbr>uiduaꝝ</abbr>
+              <expan>uiduarum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l036_w004" type="proposed">
+            <choice>
+              <abbr>⁊cꝭ</abbr>
+              <expan>et cetera</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l036_w005" type="proposed">una</w>
+          <w xml:id="f20v_l036_w006" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l036_w007" type="proposed">ue</w>
+          <lb n="36" facs="#z_f20v_l037"/>
+          <w xml:id="f20v_l037_w001" type="proposed">
+            <choice>
+              <abbr>uob̄</abbr>
+              <expan>uobis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l037_w002" type="proposed">
+            <choice>
+              <abbr>qᵘi</abbr>
+              <expan>qui</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l037_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>circuītis</unclear>
+              </abbr>
+              <expan>circuitis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l037_w004" type="proposed">
+            <choice>
+              <abbr>marē</abbr>
+              <expan>mare</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l037_w005" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l037_w006" type="proposed">
+            <choice>
+              <abbr>aridā</abbr>
+              <expan>aridam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l037_w007" type="proposed">ut</w>
+          <w xml:id="f20v_l037_w008" type="proposed">fa</w>
+          <lb n="37" facs="#z_f20v_l038"/>
+          <w xml:id="f20v_l038_w001" type="proposed">ciatis</w>
+          <w xml:id="f20v_l038_w002" type="proposed">
+            <choice>
+              <abbr>unū</abbr>
+              <expan>unum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l038_w003" type="proposed">
+            <choice>
+              <abbr>ꝑselitū</abbr>
+              <expan>proselitum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l038_w004" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l038_w005" type="proposed">
+            <choice>
+              <abbr>cū</abbr>
+              <expan>cum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l038_w006" type="proposed">fuerit</w>
+          <w xml:id="f20v_l038_w007" type="proposed">
+            <choice>
+              <abbr>fctꝯ</abbr>
+              <expan>factus</expan>
+            </choice>
+          </w>
+          <lb n="38" facs="#z_f20v_l039"/>
+          <w xml:id="f20v_l039_w001" type="proposed">facitis</w>
+          <w xml:id="f20v_l039_w002" type="proposed">
+            <choice>
+              <abbr>eū</abbr>
+              <expan>eum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l039_w003" type="proposed">
+            <choice>
+              <abbr>filiū</abbr>
+              <expan>filium</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l039_w004" type="proposed">
+            <choice>
+              <abbr>iehēne</abbr>
+              <expan>iehenne</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l039_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>duploqꝫ</unclear>
+              </abbr>
+              <expan>duploque</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l039_w006" type="proposed">
+            <choice>
+              <abbr>uob̄</abbr>
+              <expan>uobis</expan>
+            </choice>
+          </w>
+          <lb n="39" facs="#z_f20v_l040"/>
+          <w xml:id="f20v_l040_w001" type="proposed">
+            <choice>
+              <abbr>⁊cꝭ</abbr>
+              <expan>et cetera</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l040_w002" type="proposed">
+            <choice>
+              <abbr>Quā</abbr>
+              <expan>Quam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l040_w003" type="proposed">
+            <choice>
+              <abbr>ꝑp̄</abbr>
+              <expan>propter</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l040_w004" type="proposed">
+            <choice>
+              <abbr>ī</abbr>
+              <expan>in</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l040_w005" type="proposed">
+            <choice>
+              <abbr>hᶜ</abbr>
+              <expan>hoc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l040_w006" type="proposed">
+            <choice>
+              <abbr>sacrō</abbr>
+              <expan>sacro</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l040_w007" type="proposed">
+            <choice>
+              <abbr>tꝑe</abbr>
+              <expan>tempore</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l040_w008" type="proposed">
+            <choice>
+              <abbr>studeāt</abbr>
+              <expan>studeant</expan>
+            </choice>
+          </w>
+          <lb n="40" facs="#z_f20v_l041"/>
+          <w xml:id="f20v_l041_w001" type="proposed">
+            <choice>
+              <abbr>bn̄</abbr>
+              <expan>bona</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l041_w002" type="proposed">
+            <choice>
+              <abbr>opā</abbr>
+              <expan>opera</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l041_w003" type="proposed">
+            <choice>
+              <abbr>nō</abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l041_w004" type="proposed">
+            <choice>
+              <abbr>ꝓ</abbr>
+              <expan>pro</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l041_w005" type="proposed">
+            <choice>
+              <abbr>hōm</abbr>
+              <expan>hominum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l041_w006" type="proposed">
+            <choice>
+              <abbr>laudē</abbr>
+              <expan>laudem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l041_w007" type="uncertain">
+            <unclear>qᷓtu</unclear>
+          </w>
+          <lb n="41" facs="#z_f20v_l042"/>
+          <w xml:id="f20v_l042_w001" type="uncertain">
+            <unclear>silōia</unclear>
+          </w>
+          <w xml:id="f20v_l042_w002" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l042_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>sꝫ</unclear>
+              </abbr>
+              <expan>sed</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l042_w004" type="proposed">
+            <choice>
+              <abbr>ꝓ</abbr>
+              <expan>pro</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l042_w005" type="proposed">
+            <choice>
+              <abbr>dn̄i</abbr>
+              <expan>domini</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l042_w006" type="proposed">honore</w>
+          <w xml:id="f20v_l042_w007" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l042_w008" type="proposed">
+            <choice>
+              <abbr>ī</abbr>
+              <expan>in</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l042_w009" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>eterne</expan>
+            </choice>
+          </w>
+          <lb n="42" facs="#z_f20v_l043"/>
+          <w xml:id="f20v_l043_w001" type="proposed">
+            <choice>
+              <abbr>salutē</abbr>
+              <expan>salutem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l043_w002" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l043_w003" type="proposed">
+            <choice>
+              <abbr>dn̄s</abbr>
+              <expan>dominus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l043_w004" type="proposed">dissipat</w>
+          <w xml:id="f20v_l043_w005" type="proposed">ossa</w>
+          <w xml:id="f20v_l043_w006" type="proposed">
+            <choice>
+              <abbr>eoꝝ</abbr>
+              <expan>eorum</expan>
+            </choice>
+          </w>
+          <lb n="43" facs="#z_f20v_l044"/>
+          <w xml:id="f20v_l044_w001" type="proposed">
+            <choice>
+              <abbr>qᵘi</abbr>
+              <expan>qui</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l044_w002" type="proposed">
+            <choice>
+              <abbr>hōibꝯ</abbr>
+              <expan>hominibus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l044_w003" type="proposed">
+            <choice>
+              <abbr>placēt</abbr>
+              <expan>placent</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l044_w004" type="uncertain">
+            <unclear>Timeo</unclear>
+          </w>
+          <w xml:id="f20v_l044_w005" type="proposed">
+            <choice>
+              <abbr>eī</abbr>
+              <expan>enim</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l044_w006" type="proposed">
+            <choice>
+              <abbr>ꝙ</abbr>
+              <expan>quod</expan>
+            </choice>
+          </w>
+          <lb n="44" facs="#z_f20v_l045"/>
+          <w xml:id="f20v_l045_w001" type="proposed">
+            <choice>
+              <abbr>oēs</abbr>
+              <expan>omnes</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l045_w002" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>simꝯ</unclear>
+              </abbr>
+              <expan>sumus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l045_w003" type="proposed">dicti</w>
+          <w xml:id="f20v_l045_w004" type="proposed">
+            <choice>
+              <abbr>ypoc̄te</abbr>
+              <expan>ypocrite</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l045_w005" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l045_w006" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>dᵗ_ab</unclear>
+              </abbr>
+              <expan>dicitur ab</expan>
+            </choice>
+          </w>
+          <lb n="45" facs="#z_f20v_l046"/>
+          <w xml:id="f20v_l046_w001" type="proposed">ypus</w>
+          <w xml:id="f20v_l046_w002" type="proposed">
+            <choice>
+              <abbr>ꝙ</abbr>
+              <expan>quod</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l046_w003" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l046_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>sup̄</unclear>
+              </abbr>
+              <expan>super</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l046_w005" type="proposed">sub</w>
+          <w xml:id="f20v_l046_w006" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l046_w007" type="uncertain">
+            <unclear>cris</unclear>
+          </w>
+          <w xml:id="f20v_l046_w008" type="proposed">
+            <choice>
+              <abbr>aurū</abbr>
+              <expan>aurum</expan>
+            </choice>
+          </w>
+          <lb n="46" facs="#z_f20v_l047"/>
+          <w xml:id="f20v_l047_w001" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l047_w002" type="proposed">
+            <choice>
+              <abbr>oēs</abbr>
+              <expan>omnes</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l047_w003" type="proposed">
+            <choice>
+              <abbr>uolumꝯ</abbr>
+              <expan>uolumus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l047_w004" type="proposed">aurei</w>
+          <w xml:id="f20v_l047_w005" type="proposed">
+            <choice>
+              <abbr>apparēre</abbr>
+              <expan>apparere</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l047_w006" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l047_w007" type="uncertain">
+            <unclear>raro</unclear>
+          </w>
+          <lb n="47" facs="#z_f20v_l048"/>
+          <w xml:id="f20v_l048_w001" type="proposed">mali</w>
+          <w xml:id="f20v_l048_w002" type="proposed">dici</w>
+          <w xml:id="f20v_l048_w003" type="proposed">
+            <choice>
+              <abbr>Inferiꝯ</abbr>
+              <expan>Inferius</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l048_w004" type="proposed">uero</w>
+          <w xml:id="f20v_l048_w005" type="uncertain">
+            <unclear>gnoscat</unclear>
+          </w>
+          <lb n="48" facs="#z_f20v_l049"/>
+          <w xml:id="f20v_l049_w001" type="proposed">
+            <choice>
+              <abbr>unꝯqꝫ</abbr>
+              <expan>unusquisque</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l049_w002" type="proposed">se</w>
+          <w xml:id="f20v_l049_w003" type="proposed">
+            <choice>
+              <abbr>ip̄m</abbr>
+              <expan>ipsum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l049_w004" type="uncertain">
+            <unclear>si</unclear>
+          </w>
+          <w xml:id="f20v_l049_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ē</unclear>
+              </abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l049_w006" type="proposed">
+            <choice>
+              <abbr>cupreꝯ</abbr>
+              <expan>cupreus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l049_w007" type="proposed">
+            <choice>
+              <abbr>uł</abbr>
+              <expan>uel</expan>
+            </choice>
+          </w>
+          <lb n="49" facs="#z_f20v_l050"/>
+          <w xml:id="f20v_l050_w001" type="proposed">
+            <choice>
+              <abbr>aureꝯ</abbr>
+              <expan>aureus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l050_w002" type="proposed">
+            <choice>
+              <abbr>uł</abbr>
+              <expan>uel</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l050_w003" type="proposed">
+            <choice>
+              <abbr>malꝯ</abbr>
+              <expan>malus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l050_w004" type="proposed">
+            <choice>
+              <abbr>uł</abbr>
+              <expan>uel</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l050_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>factꝯ</unclear>
+              </abbr>
+              <expan>factus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l050_w006" type="proposed">Sed</w>
+          <lb n="50" facs="#z_f20v_l051"/>
+          <w xml:id="f20v_l051_w001" type="proposed">
+            <choice>
+              <abbr>iā</abbr>
+              <expan>iam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l051_w002" type="proposed">
+            <choice>
+              <abbr>modꝯ</abbr>
+              <expan>modus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l051_w003" type="proposed">quo</w>
+          <w xml:id="f20v_l051_w004" type="proposed">debet</w>
+          <w xml:id="f20v_l051_w005" type="proposed">
+            <choice>
+              <abbr>ieiūāns</abbr>
+              <expan>ieiunans</expan>
+            </choice>
+          </w>
+          <lb n="51" facs="#z_f20v_l052"/>
+          <w xml:id="f20v_l052_w001" type="proposed">
+            <choice>
+              <abbr>Cū</abbr>
+              <expan>Cum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l052_w002" type="proposed">
+            <choice>
+              <abbr>aut̄</abbr>
+              <expan>autem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l052_w003" type="proposed">
+            <choice>
+              <abbr>tū</abbr>
+              <expan>tu</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l052_w004" type="proposed">ieiunas</w>
+          <w xml:id="f20v_l052_w005" type="proposed">unge</w>
+          <w xml:id="f20v_l052_w006" type="proposed">
+            <choice>
+              <abbr>⁊cꝭ</abbr>
+              <expan>et cetera</expan>
+            </choice>
+          </w>
+          <lb n="52" facs="#z_f20v_l053"/>
+          <w xml:id="f20v_l053_w001" type="proposed">
+            <choice>
+              <abbr>hᶜ</abbr>
+              <expan>hic</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l053_w002" type="proposed">
+            <choice>
+              <abbr>loq᷑</abbr>
+              <expan>loquitur</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l053_w003" type="proposed">
+            <choice>
+              <abbr>dn̄s</abbr>
+              <expan>dominus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l053_w004" type="proposed">
+            <choice>
+              <abbr>sᶜdū</abbr>
+              <expan>secundum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l053_w005" type="proposed">
+            <choice>
+              <abbr>ꝯsuetudīnē</abbr>
+              <expan>consuetudinem</expan>
+            </choice>
+          </w>
+          <lb n="53" facs="#z_f20v_l054"/>
+          <w xml:id="f20v_l054_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>regionū</unclear>
+              </abbr>
+              <expan>regionum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l054_w002" type="proposed">palestine</w>
+          <w xml:id="f20v_l054_w003" type="proposed">
+            <choice>
+              <abbr>ibiqꝫ</abbr>
+              <expan>ibique</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l054_w004" type="proposed">fuit</w>
+          <lb n="54" facs="#z_f20v_l055"/>
+          <w xml:id="f20v_l055_w001" type="proposed">calor</w>
+          <w xml:id="f20v_l055_w002" type="proposed">
+            <choice>
+              <abbr>magnꝯ</abbr>
+              <expan>magnus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l055_w003" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l055_w004" type="proposed">
+            <choice>
+              <abbr>hōies</abbr>
+              <expan>homines</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l055_w005" type="proposed">
+            <choice>
+              <abbr>fecerūt</abbr>
+              <expan>fecerunt</expan>
+            </choice>
+          </w>
+          <lb n="55" facs="#z_f20v_l056"/>
+          <w xml:id="f20v_l056_w001" type="proposed">eis</w>
+          <w xml:id="f20v_l056_w002" type="proposed">
+            <choice>
+              <abbr>ugēta</abbr>
+              <expan>ungenta</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l056_w003" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l056_w004" type="proposed">
+            <choice>
+              <abbr>sᶜdū</abbr>
+              <expan>secundum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l056_w005" type="proposed">
+            <choice>
+              <abbr>hūc</abbr>
+              <expan>hunc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l056_w006" type="proposed">
+            <choice>
+              <abbr>morē</abbr>
+              <expan>morem</expan>
+            </choice>
+          </w>
+          <lb n="56" facs="#z_f20v_l057"/>
+          <w xml:id="f20v_l057_w001" type="proposed">
+            <choice>
+              <abbr>loq̄</abbr>
+              <expan>loquitur</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l057_w002" type="proposed">
+            <choice>
+              <abbr>dn̄s</abbr>
+              <expan>dominus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l057_w003" type="proposed">
+            <choice>
+              <abbr>nō</abbr>
+              <expan>non</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l057_w004" type="proposed">
+            <choice>
+              <abbr>aut̄</abbr>
+              <expan>autem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l057_w005" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l057_w006" type="proposed">
+            <choice>
+              <abbr>litteral᷑</abbr>
+              <expan>litteraliter</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l057_w007" type="proposed">ī</w>
+          <lb n="57" facs="#z_f20v_l059"/>
+          <w xml:id="f20v_l059_w001" type="proposed">
+            <choice>
+              <abbr>telligēdū</abbr>
+              <expan>telligendum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l059_w002" type="proposed">sed</w>
+          <w xml:id="f20v_l059_w003" type="proposed">
+            <choice>
+              <abbr>spūali᷑</abbr>
+              <expan>spiritualiter</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l059_w004" type="proposed">
+            <choice>
+              <abbr>ꝙ</abbr>
+              <expan>quod</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l059_w005" type="proposed">
+            <choice>
+              <abbr>ꝑ</abbr>
+              <expan>per</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l059_w006" type="proposed">
+            <choice>
+              <abbr>faciē</abbr>
+              <expan>faciem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l059_w007" type="proposed">
+            <choice>
+              <abbr>ꝯsciā</abbr>
+              <expan>consciencia</expan>
+            </choice>
+          </w>
+          <lb n="58" facs="#z_f20v_l060"/>
+          <w xml:id="f20v_l060_w001" type="proposed">
+            <choice>
+              <abbr>ītellig᷑</abbr>
+              <expan>intelligitur</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l060_w002" type="proposed">
+            <choice>
+              <abbr>Tūc</abbr>
+              <expan>Tunc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l060_w003" type="proposed">
+            <choice>
+              <abbr>eī</abbr>
+              <expan>enim</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l060_w004" type="proposed">lauas</w>
+          <w xml:id="f20v_l060_w005" type="proposed">faciem</w>
+          <lb n="59" facs="#z_f20v_l061"/>
+          <w xml:id="f20v_l061_w001" type="proposed">
+            <choice>
+              <abbr>tuā</abbr>
+              <expan>tuam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l061_w002" type="proposed">
+            <choice>
+              <abbr>qū</abbr>
+              <expan>quando</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l061_w003" type="proposed">
+            <choice>
+              <abbr>ꝯsciā</abbr>
+              <expan>conscienciam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l061_w004" type="proposed">
+            <choice>
+              <abbr>tuā</abbr>
+              <expan>tuam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l061_w005" type="proposed">ab</w>
+          <w xml:id="f20v_l061_w006" type="proposed">
+            <choice>
+              <abbr>ōī</abbr>
+              <expan>omni</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l061_w007" type="proposed">
+            <choice>
+              <abbr>maclā</abbr>
+              <expan>macula</expan>
+            </choice>
+          </w>
+          <lb n="60" facs="#z_f20v_l062"/>
+          <w xml:id="f20v_l062_w001" type="proposed">
+            <choice>
+              <abbr>pctōꝝ</abbr>
+              <expan>peccatorum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l062_w002" type="proposed">purificas</w>
+          <w xml:id="f20v_l062_w003" type="proposed">
+            <choice>
+              <abbr>Itᵃ</abbr>
+              <expan>Ita</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l062_w004" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>gᵒ</unclear>
+              </abbr>
+              <expan>ergo</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l062_w005" type="uncertain">
+            <unclear>ꝯsciātuā</unclear>
+          </w>
+          <lb n="61" facs="#z_f20v_l063"/>
+          <w xml:id="f20v_l063_w001" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l063_w002" type="uncertain">
+            <unclear>uidet</unclear>
+          </w>
+          <w xml:id="f20v_l063_w003" type="proposed">
+            <choice>
+              <abbr>ōia</abbr>
+              <expan>omnia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l063_w004" type="proposed">sua</w>
+          <w xml:id="f20v_l063_w005" type="proposed">mala</w>
+          <w xml:id="f20v_l063_w006" type="proposed">Sed</w>
+          <w xml:id="f20v_l063_w007" type="proposed">
+            <choice>
+              <abbr>hō</abbr>
+              <expan>homo</expan>
+            </choice>
+          </w>
+          <lb n="62" facs="#z_f20v_l064"/>
+          <w xml:id="f20v_l064_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>h[…]s</unclear>
+              </abbr>
+              <expan>habens</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l064_w002" type="proposed">
+            <choice>
+              <abbr>speclū</abbr>
+              <expan>speculum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l064_w003" type="proposed">faciei</w>
+          <w xml:id="f20v_l064_w004" type="proposed">sue</w>
+          <w xml:id="f20v_l064_w005" type="proposed">uidet</w>
+          <lb n="63" facs="#z_f20v_l065"/>
+          <w xml:id="f20v_l065_w001" type="proposed">
+            <choice>
+              <abbr>maclās</abbr>
+              <expan>maculas</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l065_w002" type="proposed">Sed</w>
+          <w xml:id="f20v_l065_w003" type="proposed">
+            <choice>
+              <abbr>hō</abbr>
+              <expan>homo</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l065_w004" type="uncertain">
+            <unclear>[…]</unclear>
+          </w>
+          <w xml:id="f20v_l065_w005" type="uncertain">
+            <unclear>ꝯsciā</unclear>
+          </w>
+          <w xml:id="f20v_l065_w006" type="proposed">uidet</w>
+          <lb n="64" facs="#z_f20v_l066"/>
+          <w xml:id="f20v_l066_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>q̄</unclear>
+              </abbr>
+              <expan>que</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l066_w002" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l066_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝙ</unclear>
+              </abbr>
+              <expan>quod</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l066_w004" type="proposed">
+            <choice>
+              <abbr>sūt</abbr>
+              <expan>sunt</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l066_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>maclē</unclear>
+              </abbr>
+              <expan>macule</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l066_w006" type="proposed">
+            <choice>
+              <abbr>ip̄iꝯ</abbr>
+              <expan>ipsius</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l066_w007" type="proposed">
+            <choice>
+              <abbr>aīme</abbr>
+              <expan>anime</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l066_w008" type="proposed">Et</w>
+          <lb n="65" facs="#z_f20v_l067"/>
+          <w xml:id="f20v_l067_w001" type="proposed">
+            <choice>
+              <abbr>hᶜ</abbr>
+              <expan>hoc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l067_w002" type="proposed">
+            <choice>
+              <abbr>uol̄</abbr>
+              <expan>uult</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l067_w003" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ierꝭ</unclear>
+              </abbr>
+              <expan>Ieremias</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l067_w004" type="proposed">Sed</w>
+          <w xml:id="f20v_l067_w005" type="proposed">laua</w>
+          <w xml:id="f20v_l067_w006" type="proposed">cor</w>
+          <w xml:id="f20v_l067_w007" type="proposed">
+            <choice>
+              <abbr>tuū</abbr>
+              <expan>tuum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l067_w008" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <lb n="66" facs="#z_f20v_l068"/>
+          <w xml:id="f20v_l068_w001" type="proposed">
+            <choice>
+              <abbr>ꝯsciētiā</abbr>
+              <expan>conscienciam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l068_w002" type="proposed">
+            <choice>
+              <abbr>tuā</abbr>
+              <expan>tuam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l068_w003" type="proposed">
+            <choice>
+              <abbr>cū</abbr>
+              <expan>cum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l068_w004" type="proposed">
+            <choice>
+              <abbr>uā</abbr>
+              <expan>uera</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l068_w005" type="proposed">
+            <choice>
+              <abbr>pnīa</abbr>
+              <expan>penitentia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l068_w006" type="proposed">
+            <choice>
+              <abbr>un̄</abbr>
+              <expan>unde</expan>
+            </choice>
+          </w>
+          <lb n="67" facs="#z_f20v_l069"/>
+          <w xml:id="f20v_l069_w001" type="proposed">ysa</w>
+          <w xml:id="f20v_l069_w002" type="proposed">Lauamini</w>
+          <w xml:id="f20v_l069_w003" type="proposed">
+            <choice>
+              <abbr>mūdi</abbr>
+              <expan>mundi</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l069_w004" type="proposed">estote</w>
+          <w xml:id="f20v_l069_w005" type="proposed">auferte</w>
+          <lb n="68" facs="#z_f20v_l070"/>
+          <w xml:id="f20v_l070_w001" type="proposed">
+            <choice>
+              <abbr>malū</abbr>
+              <expan>malum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l070_w002" type="proposed">
+            <choice>
+              <abbr>cogita cōnū</abbr>
+              <expan>cogitacionum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l070_w004" type="proposed">
+            <choice>
+              <abbr>urāꝝ</abbr>
+              <expan>uestrarum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l070_w005" type="proposed">Quo</w>
+          <lb n="69" facs="#z_f20v_l071"/>
+          <w xml:id="f20v_l071_w001" type="proposed">
+            <choice>
+              <abbr>aut̄</abbr>
+              <expan>autem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l071_w002" type="proposed">debes</w>
+          <w xml:id="f20v_l071_w003" type="proposed">
+            <choice>
+              <abbr>capᵗ</abbr>
+              <expan>caput</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l071_w004" type="proposed">ungere</w>
+          <w xml:id="f20v_l071_w005" type="proposed">Caput</w>
+          <lb n="70" facs="#z_f20v_l072"/>
+          <w xml:id="f20v_l072_w001" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l072_w002" type="proposed">
+            <choice>
+              <abbr>xpꝯ</abbr>
+              <expan>Christus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l072_w003" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l072_w004" type="proposed">nos</w>
+          <w xml:id="f20v_l072_w005" type="proposed">
+            <choice>
+              <abbr>mēb̄</abbr>
+              <expan>membra</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l072_w006" type="proposed">
+            <choice>
+              <abbr>eiꝯ</abbr>
+              <expan>eius</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l072_w007" type="proposed">
+            <choice>
+              <abbr>sumꝯ</abbr>
+              <expan>sumus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l072_w008" type="proposed">
+            <choice>
+              <abbr>Tūc</abbr>
+              <expan>Tunc</expan>
+            </choice>
+          </w>
+          <lb n="71" facs="#z_f20v_l073"/>
+          <w xml:id="f20v_l073_w001" type="proposed">
+            <choice>
+              <abbr>eī</abbr>
+              <expan>enim</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l073_w002" type="proposed">
+            <choice>
+              <abbr>ūgis</abbr>
+              <expan>ungis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l073_w003" type="proposed">
+            <choice>
+              <abbr>capᵗ</abbr>
+              <expan>caput</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l073_w004" type="proposed">
+            <choice>
+              <abbr>suū</abbr>
+              <expan>suum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l073_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>Augᵗ</unclear>
+              </abbr>
+              <expan>Augustinus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l073_w006" type="proposed">
+            <choice>
+              <abbr>qū</abbr>
+              <expan>quando</expan>
+            </choice>
+          </w>
+          <lb n="72" facs="#z_f20v_l074"/>
+          <w xml:id="f20v_l074_w001" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ꝓximū</unclear>
+              </abbr>
+              <expan>proximum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l074_w002" type="uncertain">
+            <unclear>tuo</unclear>
+          </w>
+          <w xml:id="f20v_l074_w003" type="proposed">
+            <choice>
+              <abbr>ꝑ</abbr>
+              <expan>per</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l074_w004" type="proposed">
+            <choice>
+              <abbr>xp̄i</abbr>
+              <expan>Christi</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l074_w005" type="proposed">
+            <choice>
+              <abbr>nomīe</abbr>
+              <expan>nomine</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l074_w006" type="proposed">
+            <choice>
+              <abbr>bn̄</abbr>
+              <expan>bene</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l074_w007" type="proposed">fac</w>
+          <lb n="73" facs="#z_f20v_l075"/>
+          <w xml:id="f20v_l075_w001" type="proposed">
+            <choice>
+              <abbr>ip̄um</abbr>
+              <expan>ipsum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l075_w002" type="proposed">
+            <choice>
+              <abbr>cibādo</abbr>
+              <expan>cibando</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l075_w003" type="proposed">
+            <choice>
+              <abbr>uł</abbr>
+              <expan>uel</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l075_w004" type="proposed">
+            <choice>
+              <abbr>potādo</abbr>
+              <expan>potando</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l075_w005" type="proposed">
+            <choice>
+              <abbr>uł</abbr>
+              <expan>uel</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l075_w006" type="proposed">
+            <choice>
+              <abbr>uestiēdo</abbr>
+              <expan>uestiendo</expan>
+            </choice>
+          </w>
+          <lb n="74" facs="#z_f20v_l076"/>
+          <w xml:id="f20v_l076_w001" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l076_w002" type="proposed">
+            <choice>
+              <abbr>ꝙ</abbr>
+              <expan>quod</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l076_w003" type="proposed">uni</w>
+          <w xml:id="f20v_l076_w004" type="proposed">ex</w>
+          <w xml:id="f20v_l076_w005" type="proposed">
+            <choice>
+              <abbr>minīis</abbr>
+              <expan>minimis</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l076_w006" type="proposed">meis</w>
+          <w xml:id="f20v_l076_w007" type="proposed">fecisti</w>
+          <w xml:id="f20v_l076_w008" type="proposed">
+            <choice>
+              <abbr>m̄</abbr>
+              <expan>mihi</expan>
+            </choice>
+          </w>
+          <lb n="75" facs="#z_f20v_l077"/>
+          <w xml:id="f20v_l077_w001" type="proposed">fecisti</w>
+          <w xml:id="f20v_l077_w002" type="proposed">
+            <choice>
+              <abbr>dᵗ</abbr>
+              <expan>dicit</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l077_w003" type="proposed">
+            <choice>
+              <abbr>dn̄s</abbr>
+              <expan>dominus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l077_w004" type="proposed">Et</w>
+          <w xml:id="f20v_l077_w005" type="proposed">
+            <choice>
+              <abbr>hᶜ</abbr>
+              <expan>hoc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l077_w006" type="proposed">
+            <choice>
+              <abbr>dꝫ</abbr>
+              <expan>debet</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l077_w007" type="proposed">fieri</w>
+          <lb n="76" facs="#z_f20v_l078"/>
+          <w xml:id="f20v_l078_w001" type="proposed">
+            <choice>
+              <abbr>cū</abbr>
+              <expan>cum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l078_w002" type="proposed">oleo</w>
+          <w xml:id="f20v_l078_w003" type="proposed">
+            <choice>
+              <abbr>ꝙ</abbr>
+              <expan>quod</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l078_w004" type="proposed">
+            <choice>
+              <abbr>hꝫ</abbr>
+              <expan>habet</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l078_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>4ᵒʳ</unclear>
+              </abbr>
+              <expan>quatuor</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l078_w006" type="proposed">
+            <choice>
+              <abbr>ꝓp̄rietatꝭ</abbr>
+              <expan>proprietates</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l078_w007" type="proposed">
+            <choice>
+              <abbr>p̄mo</abbr>
+              <expan>primo</expan>
+            </choice>
+          </w>
+          <lb n="77" facs="#z_f20v_l079"/>
+          <w xml:id="f20v_l079_w001" type="proposed">
+            <choice>
+              <abbr>nitorē</abbr>
+              <expan>nitorem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l079_w002" type="proposed">
+            <choice>
+              <abbr>odorē</abbr>
+              <expan>odorem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l079_w003" type="proposed">
+            <choice>
+              <abbr>saporē</abbr>
+              <expan>saporem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l079_w004" type="proposed">
+            <choice>
+              <abbr>ualorē</abbr>
+              <expan>ualorem</expan>
+            </choice>
+          </w>
+          <lb n="78" facs="#z_f20v_l080"/>
+          <w xml:id="f20v_l080_w001" type="proposed">Si</w>
+          <w xml:id="f20v_l080_w002" type="proposed">
+            <choice>
+              <abbr>aut̄</abbr>
+              <expan>autem</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l080_w003" type="proposed">uoles</w>
+          <w xml:id="f20v_l080_w004" type="proposed">facere</w>
+          <w xml:id="f20v_l080_w005" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>acceptū</unclear>
+              </abbr>
+              <expan>acceptum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l080_w006" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>ieiunīū</unclear>
+              </abbr>
+              <expan>ieiunium</expan>
+            </choice>
+          </w>
+          <lb n="79" facs="#z_f20v_l081"/>
+          <w xml:id="f20v_l081_w001" type="proposed">
+            <choice>
+              <abbr>debꝫ</abbr>
+              <expan>debes</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l081_w002" type="proposed">
+            <choice>
+              <abbr>hēre</abbr>
+              <expan>habere</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l081_w003" type="proposed">
+            <choice>
+              <abbr>spiritual᷑</abbr>
+              <expan>spiritualiter</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l081_w004" type="proposed">
+            <choice>
+              <abbr>oleū</abbr>
+              <expan>oleum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l081_w005" type="proposed">
+            <choice>
+              <abbr>p̄mo</abbr>
+              <expan>primo</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l081_w006" type="proposed">
+            <choice>
+              <abbr>nitorē</abbr>
+              <expan>nitorem</expan>
+            </choice>
+          </w>
+          <lb n="80" facs="#z_f20v_l082"/>
+          <w xml:id="f20v_l082_w001" type="proposed">
+            <choice>
+              <abbr>hᶜ</abbr>
+              <expan>hoc</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l082_w002" type="proposed">
+            <choice>
+              <abbr>ē</abbr>
+              <expan>est</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l082_w003" type="proposed">
+            <choice>
+              <abbr>purā</abbr>
+              <expan>puram</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l082_w004" type="proposed">
+            <choice>
+              <abbr>ꝯsciā</abbr>
+              <expan>conscienciam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l082_w005" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l082_w006" type="proposed">
+            <choice>
+              <abbr>mūdā</abbr>
+              <expan>mundam</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l082_w007" type="proposed">
+            <choice>
+              <abbr>⁊</abbr>
+              <expan>et</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l082_w008" type="uncertain">
+            <unclear>nudi</unclear>
+          </w>
+          <lb n="81" facs="#z_f20v_l083"/>
+          <w xml:id="f20v_l083_w001" type="proposed">tore</w>
+          <w xml:id="f20v_l083_w002" type="proposed">
+            <choice>
+              <abbr>qᵣ</abbr>
+              <expan>quia</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l083_w003" type="proposed">
+            <choice>
+              <abbr>bti</abbr>
+              <expan>beati</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l083_w004" type="proposed">
+            <choice>
+              <abbr>mūdo</abbr>
+              <expan>mundo</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l083_w005" type="proposed">corde</w>
+          <w xml:id="f20v_l083_w006" type="proposed">Et</w>
+          <w xml:id="f20v_l083_w007" type="uncertain">
+            <choice>
+              <abbr>
+                <unclear>Orig</unclear>
+              </abbr>
+              <expan>Origenes</expan>
+            </choice>
+          </w>
+          <lb n="82" facs="#z_f20v_l084"/>
+          <w xml:id="f20v_l084_w001" type="proposed">Quid</w>
+          <w xml:id="f20v_l084_w002" type="proposed">
+            <choice>
+              <abbr>ꝓdest</abbr>
+              <expan>prodest</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l084_w003" type="proposed">
+            <choice>
+              <abbr>hōi</abbr>
+              <expan>homini</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l084_w004" type="proposed">
+            <choice>
+              <abbr>qᵘi</abbr>
+              <expan>qui</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l084_w005" type="proposed">
+            <choice>
+              <abbr>corpꝯ</abbr>
+              <expan>corpus</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l084_w006" type="proposed">
+            <choice>
+              <abbr>suū</abbr>
+              <expan>suum</expan>
+            </choice>
+          </w>
+          <w xml:id="f20v_l084_w007" type="proposed">castigat</w>
+        </ab>
+      </div>
+    </body>
+  </text>
+</TEI>

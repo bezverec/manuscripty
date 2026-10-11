@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-11T19:40:02.034Z",
+  "production_deployment": "https://1e1edc4d.rukopisy-digitalizaty.pages.dev",
+  "staging_deployment": "https://4acbc085.rukopisy-digitalizaty.pages.dev",
+  "checks": [
+    {
+      "name": "Both requested mottos confirmed in production DOM",
+      "passed": true
+    },
+    {
+      "name": "Original 335v image visibly renders in proposal viewer",
+      "passed": true
+    },
+    {
+      "name": "Drawn rectangle mapped to original pixels",
+      "passed": true,
+      "observed_bbox": [
+        1479,
+        277,
+        1389,
+        307
+      ]
+    },
+    {
+      "name": "Numeric editing, selection of l002/l003, merge preview and GitHub draft",
+      "passed": true,
+      "proposed_bbox": [
+        1460,
+        285,
+        2670,
+        355
+      ]
+    },
+    {
+      "name": "Changes invalidate prepared proposal and disable export",
+      "passed": true
+    },
+    {
+      "name": "Identical bounds rejected in browser",
+      "passed": true
+    },
+    {
+      "name": "Removal prepares proposal without replacement geometry",
+      "passed": true
+    },
+    {
+      "name": "No-HTR page FS defaults to adding missing region",
+      "passed": true
+    },
+    {
+      "name": "Mobile dialog has no internal horizontal overflow",
+      "passed": true,
+      "dialog_client_width": 320,
+      "dialog_scroll_width": 320
+    },
+    {
+      "name": "Arrow key inside editor does not change current folio",
+      "passed": true
+    },
+    {
+      "name": "All 50297 existing bounding boxes checked within original image dimensions",
+      "passed": true
+    },
+    {
+      "name": "Full 677 page public verification",
+      "passed": true
+    },
+    {
+      "name": "Temporary viewport override reset",
+      "passed": true
+    }
+  ],
+  "unit_tests": 12,
+  "htr_regression_tests": 11,
+  "issue_submission_performed": false,
+  "canonical_data_changed": false,
+  "download_ui_state": "JSON export button enabled after valid proposal; file download completion not exercised",
+  "limitations": [
+    "Rectangle proposals only; polygon and baseline editing not implemented.",
+    "Acceptance and propagation to new crops, HTR, TEI/ALTO require subsequent editorial processing."
+  ],
+  "screenshot": "production-segmentation-proposals.png"
+}

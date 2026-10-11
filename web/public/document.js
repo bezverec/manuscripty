@@ -1,0 +1,1 @@
+(()=>{'use strict';const button=document.getElementById('copy-document-link');if(!button)return;button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(document.getElementById('document-permalink').value);button.textContent='Odkaz zkopírován';}catch{button.textContent='Označte odkaz a zkopírujte jej';}});})();

@@ -1,0 +1,24 @@
+{
+  "conclusion_cs": "MEDUSA 0.1Line-9B se vejde do 12GB RTX 5070 při NF4 kvantizaci. Na šesti obrazově posouzených příkladech lépe zachovává některé zkratky než MEDUSA 0.2Line-4B, ale neposkytuje jednoznačně lepší čtení celého řádku. Přetrvávají chyby i nejednotné rozvádění; zatím ji má smysl uchovat jako dalšího kandidáta pro revizi.",
+  "inspected_image_lines": [
+    "f20v_l002",
+    "f20v_l020",
+    "f20v_l040",
+    "f20v_l052",
+    "f20v_l076",
+    "f20v_l080"
+  ],
+  "inspection_type": "visual assessment by AI assistant, no independent human reference",
+  "limitations_cs": [
+    "Obrazově posouzeno šest segmentů asistentem; celá strana nemá odborně revidovaný referenční přepis. CER/WER se nepočítá.",
+    "9B je MEDUSA 0.1, dřívější 4B je 0.2 s dalším syntetickým tréninkem. Srovnání mění velikost i trénink; nelze izolovat účinek počtu parametrů.",
+    "Oba modely MEDUSA používají stejné výřezy, krátký prompt, obrazové limity a NF4/BF16. Nekvantizovaný 9B model ani MEDUSA 0.1Line-4B nebyly spuštěny.",
+    "Původní obdélníkové výřezy obsahují i části sousedních řádků. Kraken používá polygonovou extrakci, Manicule přetvarování na 384 × 384; interní vstupní pixely se proto mezi enginy liší.",
+    "84 segmentů odpovídá 82 navrženým fyzickým řádkům. l013 a l058 jsou fragmenty; predikce se automaticky nepřipojují k hlavnímu řádku.",
+    "Krátký prompt byl použit na všech 84 segmentech. Delší CATMuS prompt u tohoto 9B testu nebyl spuštěn; výstupy se neopravují podle ostatních kandidátů.",
+    "GPU nebyla vyhrazena jen tomuto testu. Časy jednotlivých běhů nejsou univerzálními rychlostmi modelů a zahrnují odlišně zahřáté knihovny a cache.",
+    "Sekvenční načítání omezuje špičku alokace. Dřívější 4B běh načítal asynchronně; jeho maximum paměti zahrnuje načtení, zatímco u 9B jsou načtení a rozpoznávání evidovány samostatně.",
+    "Časy hlavního běhu nezahrnují stažení, ověření vah, importy, přípravu prostředí ani třířádkový smoke test. První segment zahrnuje zahřátí.",
+    "Kritický JSON, TEI, ALTO a český překlad se nemění. Nebyla provedena další normalizace, Cappelli, trénink ani publikace."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-11T18:57:21.595Z",
+  "production": "https://88014e26.rukopisy-digitalizaty.pages.dev",
+  "public_url": "https://rukopisy.digitalizaty.cz/rukopis?vrstva=struktura#FS",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 900
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "checks": [
+    {
+      "name": "Arrow buttons have SVG only and accessible changing labels",
+      "result": "passed"
+    },
+    {
+      "name": "Hide both panels, restore buttons remain at outer edges",
+      "result": "passed"
+    },
+    {
+      "name": "Layout persistence after reload",
+      "result": "passed"
+    },
+    {
+      "name": "Mobile hide/restore both panels; no horizontal overflow",
+      "result": "passed"
+    },
+    {
+      "name": "Desktop resize by keyboard 520 to 560 px; double-click reset to 520",
+      "result": "passed"
+    },
+    {
+      "name": "677 page choices and structure leaves, 5634 passage links",
+      "result": "passed"
+    },
+    {
+      "name": "Exact folio search 20v gives one scan and 15 passages",
+      "result": "passed"
+    },
+    {
+      "name": "Topic search modlitba yields 52 scans and 61 matching passages",
+      "result": "passed"
+    },
+    {
+      "name": "No-match message",
+      "result": "passed"
+    },
+    {
+      "name": "Structure passage navigation to 20v, f20v_l007, linked Latin and Czech",
+      "result": "passed"
+    },
+    {
+      "name": "Front cover and front pastedown visibly render original image tiles",
+      "result": "passed"
+    },
+    {
+      "name": "Binding page marked no HTR, proposal button disabled",
+      "result": "passed"
+    },
+    {
+      "name": "All 677 public JSON files; nine R2 and fourteen binding media image checksums",
+      "result": "passed",
+      "report": "public-verification.json"
+    },
+    {
+      "name": "Temporary viewport override cleared",
+      "result": "passed"
+    },
+    {
+      "name": "Browser console error inspection",
+      "result": "passed",
+      "errors": []
+    }
+  ],
+  "screenshots": [
+    "production-structure-binding-desktop.png",
+    "production-structure-binding.png"
+  ],
+  "limitations": [
+    "Structure represents working passage titles, not confirmed boundaries of works or quire structure.",
+    "Seven binding/flyleaf images have no HTR or reconstruction yet."
+  ],
+  "source_immutability": "All seven master TIFF checksums verified; no masters or canonical HTR modified."
+}
