@@ -23,3 +23,5 @@ Návrhy změn se exportují jako JSON nebo otevřou předvyplněný GitHub issue
 TEI P5 4.12.0 obsahuje instituci a signaturu. Celorukopisový TEI je **popis a facsimilní index 677 snímků s odkazy na stranové TEI**, nikoli jeden sloučený kompletní přepis. ProArc větev produkuje TXT a ALTO 3.0; samostatná OCR dvojice není celý NDK PSP balíček.
 
 Zdrojem počtů je publikovaný manifest, stranové JSON a veřejné kontroly v docs/validation. Historické měření po 430 skenech je zachováno v [záznamu k 10. 10.](research-snapshot-2026-10-10.json); není aktuálním výsledkem celého rukopisu. Nová kontrola repozitáře ověřuje shodu publikovaných souborů, referenční vazby, geometrii, pokrytí pasáží a úplný index TEI. Starší záznamy obrazové kontroly nejsou v této aktualizaci znovu prováděnou paleografickou revizí.
+
+Webová revize 20261011-7 sjednocuje tlačítka, štítky, karty, formuláře a dialogy na ostré rohy. Ověření vzhledu a shody nasazených CSS/HTML je v docs/validation/square-ui-validation.json a square-ui-http-validation.json.

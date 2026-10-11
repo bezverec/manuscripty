@@ -1,6 +1,6 @@
 # Manuscripty
 
-Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy latinské rekonstrukce a českého překladu a jejich veřejné přezkoumání. Aktuální stav: **11. října 2026**, webová revize **20261011-6**.
+Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy latinské rekonstrukce a českého překladu a jejich veřejné přezkoumání. Aktuální stav: **11. října 2026**, webová revize **20261011-7**.
 
 Rukopis **M II 220 z fondů Vědecké knihovny v Olomouci** je dostupný na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz). [Záznam celého dokumentu](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220) používá projektový identifikátor vkol-m-ii-220; nejde o knihovnou přidělené PID.
 

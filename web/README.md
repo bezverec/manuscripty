@@ -1,6 +1,6 @@
 # Publikovaná webová verze
 
-Snapshot 11. 10. 2026, revize 20261011-6, [produkce](https://rukopisy.digitalizaty.cz). public/ obsahuje statický frontend a veřejné textové exporty, zkopírované byte-for-byte. Obrazy jsou v samostatném úložišti; jejich kontrolní součty nejsou obrazové soubory.
+Snapshot 11. 10. 2026, revize 20261011-7, [produkce](https://rukopisy.digitalizaty.cz). public/ obsahuje statický frontend a veřejné textové exporty, zkopírované byte-for-byte. Obrazy jsou v samostatném úložišti; jejich kontrolní součty nejsou obrazové soubory.
 
 ## Lokální prohlížení
 

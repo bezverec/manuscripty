@@ -1,6 +1,6 @@
 # Publikovaná prezentace
 
-Web běží na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz), Cloudflare Pages projekt rukopisy-digitalizaty. Aktuální snapshot: 11. 10. 2026, revize 20261011-6. Přehled dokumentu: [M II 220](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220), z fondů Vědecké knihovny v Olomouci.
+Web běží na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz), Cloudflare Pages projekt rukopisy-digitalizaty. Aktuální snapshot: 11. 10. 2026, revize 20261011-7. Přehled dokumentu: [M II 220](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220), z fondů Vědecké knihovny v Olomouci.
 
 Statické HTML/CSS/JavaScript a textové JSON/TEI/TXT běží v Pages. OpenSeadragon 6.1.1 načítá WebP dlaždice ve formátu pyramid DZI. Folia využívají [obrazovou doménu](https://rukopisy-data.digitalizaty.cz) s R2 bucketem rukopisy-mii220; snímky vazby jsou v binding-media/ v Pages. Q90, dlaždice 512 pixelů, překryv 1 pixel; výřezy a náhledy jsou samostatné deriváty. Původní TIFF zůstávají v lokálním archivu.
 
