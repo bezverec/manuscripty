@@ -1,0 +1,159 @@
+name: "Oprava segmentace"
+description: "Obrazově podložený návrh; původní výzkumná data se nemění."
+title: "[Segmentace] "
+labels: ["segmentace-oprava"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Formulář se předvyplní z prohlížeče. Pole jsou označena názvy vlastností exportu.
+        Při dlouhém návrhu vložte celý stažený JSON do posledního pole `proposal_json`.
+        JSON má přednost; nepřikládejte přístupové údaje. Automatická kontrola ověří identitu a původní podklad.
+  - type: textarea
+    id: schema
+    attributes:
+      label: "schema"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: id
+    attributes:
+      label: "id"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: created_utc
+    attributes:
+      label: "created_utc"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: document_id
+    attributes:
+      label: "document_id"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: manuscript
+    attributes:
+      label: "manuscript"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: folio
+    attributes:
+      label: "folio"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: source_sha256
+    attributes:
+      label: "source_sha256"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: reason_cs
+    attributes:
+      label: "reason_cs"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: source_url
+    attributes:
+      label: "source_url"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: status
+    attributes:
+      label: "status"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: expert_review
+    attributes:
+      label: "expert_review"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: document_uri
+    attributes:
+      label: "document_uri"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: source_original
+    attributes:
+      label: "source_original"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: image_width
+    attributes:
+      label: "image_width"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: image_height
+    attributes:
+      label: "image_height"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: coordinate_system
+    attributes:
+      label: "coordinate_system"
+      description: "Hodnota JSON; zachovejte identifikátory a souřadnice původního obrazu."
+    validations:
+      required: false
+  - type: textarea
+    id: operation
+    attributes:
+      label: "operation"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: original_segments
+    attributes:
+      label: "original_segments"
+      description: "Hodnota JSON; zachovejte identifikátory a souřadnice původního obrazu."
+    validations:
+      required: false
+  - type: textarea
+    id: proposed_regions
+    attributes:
+      label: "proposed_regions"
+      description: "Hodnota JSON; zachovejte identifikátory a souřadnice původního obrazu."
+    validations:
+      required: false
+  - type: textarea
+    id: preview_url
+    attributes:
+      label: "preview_url"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: proposal_json
+    attributes:
+      label: "proposal_json"
+      description: "Volitelný celý export JSON, zejména při překročení délky předvyplněné URL."
+      render: json
+    validations:
+      required: false

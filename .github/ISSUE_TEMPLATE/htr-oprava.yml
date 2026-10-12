@@ -1,0 +1,152 @@
+name: "Oprava HTR"
+description: "Obrazově podložený návrh; původní výzkumná data se nemění."
+title: "[HTR] "
+labels: ["htr-oprava"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Formulář se předvyplní z prohlížeče. Pole jsou označena názvy vlastností exportu.
+        Při dlouhém návrhu vložte celý stažený JSON do posledního pole `proposal_json`.
+        JSON má přednost; nepřikládejte přístupové údaje. Automatická kontrola ověří identitu a původní podklad.
+  - type: textarea
+    id: schema
+    attributes:
+      label: "schema"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: id
+    attributes:
+      label: "id"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: created_utc
+    attributes:
+      label: "created_utc"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: document_id
+    attributes:
+      label: "document_id"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: manuscript
+    attributes:
+      label: "manuscript"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: folio
+    attributes:
+      label: "folio"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: source_sha256
+    attributes:
+      label: "source_sha256"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: reason_cs
+    attributes:
+      label: "reason_cs"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: source_url
+    attributes:
+      label: "source_url"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: status
+    attributes:
+      label: "status"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: expert_review
+    attributes:
+      label: "expert_review"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: line_id
+    attributes:
+      label: "line_id"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: source_segment_ids
+    attributes:
+      label: "source_segment_ids"
+      description: "Hodnota JSON; zachovejte identifikátory a souřadnice původního obrazu."
+    validations:
+      required: false
+  - type: textarea
+    id: bbox
+    attributes:
+      label: "bbox"
+      description: "Hodnota JSON; zachovejte identifikátory a souřadnice původního obrazu."
+    validations:
+      required: false
+  - type: textarea
+    id: model
+    attributes:
+      label: "model"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: model_label
+    attributes:
+      label: "model_label"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: original_htr
+    attributes:
+      label: "original_htr"
+      description: "Text jako řetězec JSON včetně uvozovek; zachovejte všechny původní znaky."
+    validations:
+      required: false
+  - type: textarea
+    id: proposed_htr
+    attributes:
+      label: "proposed_htr"
+      description: "Navržený text jako řetězec JSON včetně uvozovek."
+    validations:
+      required: false
+  - type: textarea
+    id: crop_url
+    attributes:
+      label: "crop_url"
+      description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
+    validations:
+      required: false
+  - type: textarea
+    id: proposal_json
+    attributes:
+      label: "proposal_json"
+      description: "Volitelný celý export JSON, zejména při překročení délky předvyplněné URL."
+      render: json
+    validations:
+      required: false
