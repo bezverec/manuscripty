@@ -1,5 +1,37 @@
 # Publikovaná webová verze
 
+## IIIF příprava (fáze 5)
+
+`npm run build:iiif` vytváří návrh Presentation API 3 manifestu pro M II 220
+v `public/iiif/vkol-m-ii-220/manifest.json`: 677 canvasů, rozměry z page.json,
+pracovní navigační ranges, TEI seeAlso, stálé adresy folií rendering a homepage.
+Práva a requiredStatement jsou úmyslně vynechány: **TODO potvrdit licenci s VKOL**.
+Tlačítko zůstává skryté (`feature-config.js`: `iiifManifest: false`). Manifest
+zatím odkazuje na nepublikované služby; nejde o funkční veřejné IIIF zpřístupnění.
+
+`npm test` ověřuje návrh pomocí připnutého oficiálního JSON Schema IIIF
+Presentation 3, URI formátů a vlastních kontrol 677 canvasů, ranges, adres,
+rozměrů a vypnutého příznaku. Rozsah a původ schématu jsou v schemas/README.md.
+Nejde o úplnou kontrolu JSON-LD, HTTP, CORS či všech normativních požadavků.
+
+Volitelný `python build_media.py --iiif` připravuje lokální statické Image API 3
+level 0 v ignorovaném `r2-media/iiif/<folio>/`: 512px dlaždice bez překryvu,
+WebP Q90, info.json, úplný obraz a explicitně uvedené velikosti. Přidává také
+JPEG Q90, protože [level 0 vyžaduje JPEG](https://iiif.io/api/image/3.0/compliance/).
+Podporuje pouze uvedené dlaždice a velikosti, ne libovolné výřezy či rotace.
+Builder vyžaduje media-jobs vytvořené z MANUSCRIPT_WORKSPACE a kontroluje SHA
+originálů. **Při přípravě této fáze nebyl spuštěn na TIFF.** Python test vytváří
+pouze syntetický obraz v dočasném adresáři a ověřuje i okrajové dlaždice.
+
+Pro další rukopis lze generátoru předat JSON konfiguraci s publicDir,
+documentFile, indexFile, structureFile, destination a imageNamespace; obrazový
+builder má odpovídající `--iiif-namespace`. Namespace zabraňuje kolizi stejně
+pojmenovaných folií. Neúplná data M II 153 se tímto buildem nezveřejňují.
+
+TODO před zapnutím: dokončit fázi 3 (adresy folií), potvrdit práva, připravit
+obrazové objekty, samostatně autorizovat upload, zkontrolovat Content-Type/CORS
+a prohlížeče. Nic z toho není součástí této fáze; bez uploadu a nasazení.
+
 Snapshot 11. 10. 2026, revize 20261011-7, [produkce](https://rukopisy.digitalizaty.cz). public/ obsahuje statický frontend a veřejné textové exporty, zkopírované byte-for-byte. Obrazy jsou v samostatném úložišti; jejich kontrolní součty nejsou obrazové soubory.
 
 ## Lokální prohlížení
