@@ -43,7 +43,7 @@
     rightButton.querySelector('path').setAttribute('d', preferences.right ? 'M9 6l6 6-6 6' : 'M15 6l-6 6 6 6');
     leftButton.setAttribute('aria-expanded', String(preferences.left));
     rightButton.setAttribute('aria-expanded', String(preferences.right));
-    divider.hidden = !preferences.right || !desktop.matches;
+    divider.parentElement.hidden = !preferences.right || !desktop.matches;
     divider.setAttribute('aria-valuemin', String(minimumPanel));
     divider.setAttribute('aria-valuemax', String(Math.round(bounds.max)));
     divider.setAttribute('aria-valuenow', String(width));

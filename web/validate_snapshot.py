@@ -95,5 +95,5 @@ require(len(tei.findall('.//t:facsimile/t:surface', NS)) == 677, 'Incomplete who
 report = {'status': 'passed', 'copied_files_sha256_verified': len(record['files']), 'bytes': sum(f['bytes'] for f in record['files']), 'syntax': syntax,
           'counts': counts, 'bbox_checked': counts['lines'], 'whole_document_tei_relaxng': 'passed', 'expert_review': False,
           'scope': 'Text snapshot integrity, syntax, page/download/passage links, geometry and whole-document TEI index. Not new image inspection or full schema revalidation of every existing edition.'}
-(ROOT / 'docs/validation/repository-snapshot-validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
+(ROOT / 'docs/validation/repository-snapshot-validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf8', newline='\n')
 print(json.dumps(report, ensure_ascii=False))

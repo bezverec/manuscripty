@@ -10,6 +10,8 @@
     "deploy": "npm run media:check && wrangler pages deploy public --project-name=rukopisy-digitalizaty --branch=main"
   },
   "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.64.0",
     "wrangler": "4.149.0"
   }
 }
