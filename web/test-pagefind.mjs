@@ -26,7 +26,19 @@ try{
  const response=await pagefind.search('glosa',{filters:{rukopis:'vkol-m-ii-220'}});
  const pages=await Promise.all(response.results.map(result=>result.data()));
  assert.ok(pages.some(page=>/^\/rukopisy\/vkol-m-ii-220\/20v(?:\.html)?$/.test(new URL(page.url,'https://local.invalid').pathname)),'Pagefind must find 20v for raw HTR word glosa');
- assert.equal((await pagefind.search('zzznemožnéhledáníxxxyyy')).results.length,0);
+ // Pagefind broadens an unmatched word to a matching prefix. The old sentinel
+ // began with "zz", which really occurs in the new 1r raw HTR candidate.
+ // Quote this negative control so the engine checks the full exact term.
+ const impossible=await pagefind.search('"qzxwvjkplmnsabcdefgh"');
+ assert.equal(impossible.results.length,0);
  assert.equal((await pagefind.search('glosa',{filters:{rukopis:'vkol-not-registered'}})).results.length,0,'Separate manuscript filter');
+ if(manuscripts.some(m=>m.doc.id==='vkol-m-ii-153')){
+  const second=JSON.parse(await fs.readFile(path.join(publicRoot,'data/vkol-m-ii-153/64v/page.json'),'utf8'));
+  assert.ok(second.passages.some(p=>p.latin.includes('tribulation')));
+  const found=await pagefind.search('tribulationis',{filters:{rukopis:'vkol-m-ii-153'}});
+  const results=await Promise.all(found.results.map(r=>r.data()));
+  assert.ok(results.some(p=>/\/vkol-m-ii-153\/64v(?:\.html)?$/.test(new URL(p.url,'https://local.invalid').pathname)),'Second manuscript source must be found');
+  assert.ok(results.every(p=>new URL(p.url,'https://local.invalid').pathname.includes('/vkol-m-ii-153/')),'Filter must exclude legacy folia');
+ }
  console.log(JSON.stringify({status:'passed',indexed_pages:expected,query:'glosa',source:'raw catmus20v',found_20v:true,matching_pages:pages.length,engine:'Pagefind1.4.0 browser API + real WASM'}));
 }finally{pagefind?.destroy();globalThis.fetch=nativeFetch;}

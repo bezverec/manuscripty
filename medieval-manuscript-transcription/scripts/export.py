@@ -182,7 +182,7 @@ def write_tei(tree, destination):
     destination.write_bytes(prefix.encode("utf-8") + ET.tostring(tree.getroot(), encoding="utf-8"))
 
 
-def validate_tei_file(source):
+def validate_tei_file(source, validator_cache=None):
     """Offline Relax NG validation against the bundled, checksummed TEI release.
 
     Requires lxml. Embedded XPath 2 Schematron constraints are not executed.
@@ -195,9 +195,15 @@ def validate_tei_file(source):
     if hashlib.sha256(TEI_SCHEMA.read_bytes()).hexdigest() != expected:
         raise ValueError("Bundled TEI schema checksum mismatch")
     parser = etree.XMLParser(no_network=True, resolve_entities=False, load_dtd=False)
-    schema_tree = etree.parse(str(TEI_SCHEMA), parser)
-    if schema_tree.xpath("//rng:include | //rng:externalRef", namespaces={"rng": "http://relaxng.org/ns/structure/1.0"}):
-        raise ValueError("Bundled schema must be self-contained for offline validation")
+    key = (str(TEI_SCHEMA.resolve()), expected)
+    validator = validator_cache.get(key) if validator_cache is not None else None
+    if validator is None:
+        schema_tree = etree.parse(str(TEI_SCHEMA), parser)
+        if schema_tree.xpath("//rng:include | //rng:externalRef", namespaces={"rng": "http://relaxng.org/ns/structure/1.0"}):
+            raise ValueError("Bundled schema must be self-contained for offline validation")
+        validator = etree.RelaxNG(schema_tree)
+        if validator_cache is not None:
+            validator_cache[key] = validator
     document = etree.parse(str(source), parser)
     if document.getroot().get("version") != TEI_VERSION:
         raise ValueError("TEI root does not declare version " + TEI_VERSION)
@@ -209,7 +215,6 @@ def validate_tei_file(source):
         # For exports on another Windows drive, write_tei uses an absolute file URI.
         if not any(h and h.group(1) == TEI_SCHEMA.as_uri() for h in hrefs):
             raise ValueError("Missing or incorrect offline xml-model schema reference")
-    validator = etree.RelaxNG(schema_tree)
     if not validator.validate(document):
         raise ValueError(str(validator.error_log))
     ids = document.xpath('//@xml:id', namespaces={"xml": XML})

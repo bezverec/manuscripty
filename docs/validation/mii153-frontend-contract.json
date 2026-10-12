@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "name": "Explicit build provenance matches source/output and baseline SHA inventory",
+      "status": "passed"
+    },
+    {
+      "name": "Legacy reader URL retains 677 page entries, counts and original routing",
+      "status": "passed"
+    },
+    {
+      "name": "Explicit second manuscript selects only the namespaced manifest",
+      "status": "passed"
+    },
+    {
+      "name": "Unknown document IDs and failed or mismatched manifests fail closed",
+      "status": "passed"
+    },
+    {
+      "name": "HTR proposals preserve Unicode, source identity, raw output and geometry",
+      "status": "passed"
+    },
+    {
+      "name": "Legacy HTR callers keep M II 220 identity and reject unchanged or unknown models",
+      "status": "passed"
+    },
+    {
+      "name": "Segmentation proposals keep namespaced identity and original regions immutable",
+      "status": "passed"
+    },
+    {
+      "name": "Reader resolves document identity, canonical reader URL and mixed-language interpretation",
+      "status": "passed"
+    },
+    {
+      "name": "Record/homepage navigation identifies both manuscripts and institutional custody",
+      "status": "passed"
+    },
+    {
+      "name": "Panel controls, correction dialogs and reviewed shared assets survive the overlay",
+      "status": "passed"
+    }
+  ],
+  "source_pages": 197,
+  "legacy_pages": 677,
+  "browser_visual_test": false,
+  "scope": "Frontend contracts in Node VM; no browser rendering or network operations"
+}

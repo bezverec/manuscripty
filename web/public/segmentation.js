@@ -1,4 +1,4 @@
-import {makeSegmentationProposal,segmentationMarkdown,segmentationGithubUrl} from './segmentation-core.mjs?v=20261012-4';
+import {makeSegmentationProposal,segmentationMarkdown,segmentationGithubUrl} from './segmentation-core.mjs?v=20261012-6';
 const $=s=>document.querySelector(s),dialog=$('#segmentation-dialog'),status=$('#segmentation-status'),drawButton=$('#segmentation-draw');
 let context=null,viewer=null,selected=new Set(),boxes=[],proposal=null,drawing=false,drag=null;
 function invalidate(){proposal=null;$('#segmentation-preview').hidden=true;$('#segmentation-github').hidden=true;$('#segmentation-github').removeAttribute('href');$('#segmentation-download').disabled=true;status.textContent='';}

@@ -140,3 +140,29 @@ Otevřené otázky: TODO licence a práva; datace/katalogová identifikace nejso
 součástí této fáze. Vygenerované HTML má metadata pouze z existujícího snapshotu.
 
 Volitelná obrazová kontrola: `node test-folio-browser.cjs` vyžaduje nainstalovaný Playwright (nebo `PLAYWRIGHT_MODULE` s cestou k balíčku) a místní Chrome. Ukládá ověřovací screenshoty do `docs/validation/phase3-screenshots/`; ověřuje šířky 1440 a 390 px, text bez JS a hledání v prohlížeči. Úzká gitignore výjimka dovoluje pouze tyto ověřovací screenshoty v PR; zdrojové skeny a jiná obrazová data zůstávají vyloučena.
+
+## Aktuální společná publikace M II 220 a M II 153
+
+Výše uvedené počty a rozsah popisují původní fáze. Aktuální registr obsahuje oba
+rukopisy: 677 + 197 = 874 snímků. `npm run build:pages` vytváří 874 stránek folií
+a indexuje pouze tyto stránky, se samostatnými filtry dokumentů. Shrnutí M II 153
+je na `/rukopisy/vkol-m-ii-153/shrnuti`; sitemap obsahuje 881 adres.
+
+Publikační skripty v `publication/` vyžadují explicitní cesty:
+
+~~~sh
+python publication/build_web.py --source /research/full-htr --pilot-source /research/pilot-htr --base-public /reviewed/public --out /staging/public --rng /schemas/tei_all.rng --supplier-metadata /metadata/supplier.xml --legacy-metadata /metadata/catalogue-review --report-dir /staging/reports --require-complete
+python publication/build_summary.py --source /research/full-htr --out /staging/public --require-complete
+python import_manuscript.py --staged /staging/public --build-report /staging/reports/build-report.json --audit-report ../docs/validation/two-manuscript-import.json
+~~~
+
+Přesné vstupy a kontrolní záznamy jsou v [popisu publikace](../docs/TWO-MANUSCRIPT-PUBLICATION.md).
+Builder nepřepisuje archivní zdroje. Import připouští pouze doložené změny
+identifikace M II 220 a přidání nového jmenného prostoru M II 153; původní HTR,
+geometrie, překlady a řádková ID prvního rukopisu zůstávají stejné.
+
+Po importu: `npm run build:iiif`, `npm run build:pages`, `npm test`,
+`npm run test:search`, aktualizace inventáře přes `python update_source_manifest.py`
+a `python validate_snapshot.py`. IIIF je stále vypnutý návrh bez veřejných
+obrazových IIIF služeb; jeho příprava neznamená dostupnou interoperabilní službu.
+Nasazení zůstává ruční přes existující Cloudflare Pages projekt.

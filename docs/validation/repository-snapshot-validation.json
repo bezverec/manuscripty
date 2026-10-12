@@ -1,10 +1,10 @@
 {
   "status": "passed",
-  "copied_files_sha256_verified": 4740,
-  "bytes": 394960409,
+  "copied_files_sha256_verified": 7868,
+  "bytes": 627140152,
   "syntax": {
-    "json": 2023,
-    "xml": 673
+    "json": 2618,
+    "xml": 2234
   },
   "counts": {
     "pages": 677,
@@ -18,5 +18,37 @@
   "bbox_checked": 50297,
   "whole_document_tei_relaxng": "passed",
   "expert_review": false,
+  "registry_manuscripts": 2,
+  "manuscripts": {
+    "vkol-m-ii-220": {
+      "counts": {
+        "pages": 677,
+        "folios": 670,
+        "binding": 7,
+        "text_pages": 664,
+        "lines": 50297,
+        "passages": 5634,
+        "blank": 6
+      },
+      "bbox_checked": 50297,
+      "whole_document_tei_relaxng": "passed",
+      "tei_surface_count": 677
+    },
+    "vkol-m-ii-153": {
+      "counts": {
+        "pages": 197,
+        "lines": 15013,
+        "blank": 8,
+        "text_pages": 189,
+        "passages": 3531
+      },
+      "folios": 192,
+      "binding_scans": 5,
+      "bbox_checked": 15013,
+      "whole_document_tei_relaxng": "passed",
+      "tei_scan_div_count": 197,
+      "interpretation_status": "proposed"
+    }
+  },
   "scope": "Text snapshot integrity, syntax, page/download/passage links, geometry and whole-document TEI index. Not new image inspection or full schema revalidation of every existing edition."
 }

@@ -1,0 +1,136 @@
+{
+  "folio": "FC",
+  "label": "Přední deska",
+  "kind": "segments",
+  "width": 5358,
+  "height": 7545,
+  "models": {
+    "catmus": "CATMuS medieval 1.6.0",
+    "medusa": "Medusa 0.2Line-4B"
+  },
+  "source_sha256": "0f2ccee7d29b2f52561ecd25f9f41760b355514f338faa148fd2a54cd7465633",
+  "source_original": "EX/M_II_153____2Y2A3I8EX000FC.TIF",
+  "source_fixity_md5_verified": false,
+  "source_integrity_note": "Supplier fixity.md5 mismatch unresolved. Current bytes retained unchanged and SHA256 baseline recorded; original supplier package authenticity not verified.",
+  "analysis_scope": "Původní HTR obou modelů po segmentech; samostatná slovní geometrie nebyla určena. Rekonstrukce a překlad jsou návrhy AI po smyslových úsecích.",
+  "notes": "Obrazově kontrolovaný návrh AI, bez odborné lidské revize; nejde o referenční diplomatickou edici.",
+  "lines": [
+    {
+      "id": "fFC_l001",
+      "source_segment_ids": [
+        "fFC_l001"
+      ],
+      "bbox": [
+        810,
+        675,
+        775,
+        315
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-ii-153/crops/FC/fFC_l001.webp",
+      "raw_htr": {
+        "catmus": "IMISS",
+        "medusa": "II M 153"
+      },
+      "words": [],
+      "flags": [
+        "manual_segmentation",
+        "tall_segment"
+      ],
+      "note": null,
+      "hit_token_limit": false
+    }
+  ],
+  "passages": [
+    {
+      "id": "u_FC_001",
+      "title": "Úsek 1",
+      "line_ids": [
+        "fFC_l001"
+      ],
+      "latin": "II M 153",
+      "czech": "Knihovní signatura: II M 153.",
+      "notes": "Na obrazu je pořadí II M 153. Standardní katalogová signatura M II 153 se uvádí v popisu dokumentu, nikoli dosazením do přepisu štítku.",
+      "operations": [],
+      "language": "und"
+    }
+  ],
+  "preview": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-ii-153/previews/FC.webp",
+  "tiles": {
+    "type": "dzi",
+    "width": 5358,
+    "height": 7545,
+    "tileSize": 512,
+    "tileOverlap": 1,
+    "tilesUrl": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-ii-153/tiles/FC/",
+    "fileFormat": "webp"
+  },
+  "blank": false,
+  "expert_review": false,
+  "downloads": [
+    {
+      "name": "Neupravené HTR a geometrie JSON",
+      "href": "/data/vkol-m-ii-153/FC/comparison.json"
+    },
+    {
+      "name": "Původní catmus TXT",
+      "href": "/data/vkol-m-ii-153/FC/catmus.raw.txt"
+    },
+    {
+      "name": "catmus · TEI P5 4.12.0 (původní lokální export)",
+      "href": "/data/vkol-m-ii-153/FC/catmus.tei.xml"
+    },
+    {
+      "name": "catmus · TEI s odkazy na webový prohlížeč",
+      "href": "/data/vkol-m-ii-153/FC/catmus.web.tei.xml"
+    },
+    {
+      "name": "catmus · ALTO XML (původní lokální export)",
+      "href": "/data/vkol-m-ii-153/FC/catmus.alto.xml"
+    },
+    {
+      "name": "Původní medusa TXT",
+      "href": "/data/vkol-m-ii-153/FC/medusa.raw.txt"
+    },
+    {
+      "name": "medusa · TEI P5 4.12.0 (původní lokální export)",
+      "href": "/data/vkol-m-ii-153/FC/medusa.tei.xml"
+    },
+    {
+      "name": "medusa · TEI s odkazy na webový prohlížeč",
+      "href": "/data/vkol-m-ii-153/FC/medusa.web.tei.xml"
+    },
+    {
+      "name": "medusa · ALTO XML (původní lokální export)",
+      "href": "/data/vkol-m-ii-153/FC/medusa.alto.xml"
+    },
+    {
+      "name": "Rekonstrukce a překlad JSON",
+      "href": "/data/vkol-m-ii-153/FC/reconstruction.json"
+    },
+    {
+      "name": "Rekonstrukce a překlad TEI P5 4.12.0 (původní lokální export)",
+      "href": "/data/vkol-m-ii-153/FC/reconstruction.tei.xml"
+    },
+    {
+      "name": "Rekonstrukce a překlad · TEI s odkazy na webový prohlížeč",
+      "href": "/data/vkol-m-ii-153/FC/reconstruction.web.tei.xml"
+    },
+    {
+      "name": "Rekonstrukce (jazyk předlohy) TXT",
+      "href": "/data/vkol-m-ii-153/FC/reconstruction.la.txt"
+    },
+    {
+      "name": "Český překlad TXT",
+      "href": "/data/vkol-m-ii-153/FC/translation.cs.txt"
+    }
+  ],
+  "document_id": "vkol-m-ii-153",
+  "document_uri": "https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-153",
+  "repository": {
+    "name": "Vědecká knihovna v Olomouci",
+    "uri": "https://www.vkol.cz/",
+    "settlement": "Olomouc",
+    "country": "Česko"
+  },
+  "language": "und"
+}

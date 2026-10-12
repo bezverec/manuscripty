@@ -13,8 +13,8 @@ Přehledové workflow vytvoří nebo aktualizuje jedinou větev `automation/open
 - `npm test` zahrnuje formuláře, dlouhé URL, Unicode, přesnou identitu, namespace isolation, JSON fallback, neplatné návrhy, uzavřená hlášení a opakované komentáře.
 - Volitelný browser test: `npm run test:proposals:ui`, s `MANUSCRIPT_PLAYWRIGHT` (nainstalovaný Playwright modul) a `MANUSCRIPT_TEST_MEDIA` (lokální kořen existujících obrazů obsahující v1/). Fixture #101 nenavštěvuje GitHub.
 - `python web/validate_snapshot.py` nad aktualizovaným frontendovým manifestem kontroluje neměnnost celého výzkumného snapshotu.
-- TODO správce: před spuštěním potvrdit existenci štítků `htr-oprava`, `segmentace-oprava`, `needs-info`; tento commit nezřizuje skutečné štítky.
-- TODO správce: v nastavení Actions povolit vytváření PR tokenem GITHUB_TOKEN, pokud je v repozitáři vypnuté.
+- Pro společnou publikaci byly vytvořeny skutečné štítky `htr-oprava`, `segmentace-oprava`, `needs-info`.
+- Po výslovném souhlasu správce je v repozitáři povolená tvorba PR z Actions; výchozí oprávnění zůstalo `read`. Samotný workflow PR neschvaluje ani neslučuje.
 - TODO po sloučení: ověřit předvyplnění skutečných formulářů a workflow na zkušebním hlášení. V této fázi se žádné skutečné hlášení, komentář ani PR nezakládá.
 - Prohlížeč byl ověřen v Chrome s fixture #101: odkaz v seznamu HTR i řádkové analýze, předvyplnění identity a absence browser pageerrors. Desktop 1440×900 a mobilní panel 390×844 jsou lokálně v docs/validation/phase-4-screenshots; snímky nepatří do výzkumných dat ani source manifestu. Žádné skutečné issue nevzniklo.
 

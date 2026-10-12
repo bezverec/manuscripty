@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 
 export const webRoot = path.dirname(fileURLToPath(import.meta.url));
 export const publicRoot = path.join(webRoot, 'public');
-export const revision = '20261012-3';
+export const revision = '20261012-6';
 export const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 export async function publicFile(relative, root = publicRoot) {
@@ -70,7 +70,7 @@ export function renderFolio({entry, data, doc, origin}, page, index) {
   const passages = page.passages.map(p => `<article class="reading-card" id="passage-${e(p.id)}"><h3>${e(p.title)}</h3><p class="layer-id">${e(p.id)} · pracovní návrh, bez odborné revize</p><section lang="${e(p.language || page.language || 'la')}"><h4>Rekonstrukce (jazyk předlohy)</h4><p class="layer-reading">${e(p.latin)}</p></section><section lang="cs"><h4>Český překlad</h4><p class="layer-reading">${e(p.czech)}</p></section>${p.notes ? `<h4>Poznámky a nejistoty</h4><p class="layer-notes">${e(p.notes)}</p>` : ''}<p data-pagefind-ignore>Zdrojové řádky: ${p.line_ids.map(id => `<a href="#${e(id)}">${e(id)}</a>`).join(' · ')}</p></article>`).join('\n');
   const downloads = page.downloads.map(d => `<li><a href="${e(new URL(d.href, origin + '/').href)}">${e(d.name)}</a></li>`).join('');
   return `<!DOCTYPE html>
-<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${e(title)}</title><meta name="description" content="${e(description)}"><link rel="canonical" href="${e(canonical)}"><meta property="og:title" content="${e(title)}"><meta property="og:description" content="${e(description)}"><meta property="og:url" content="${e(canonical)}"><meta property="og:image" content="${e(preview)}"><meta property="og:type" content="article"><link rel="stylesheet" href="/styles.css?v=20261012-2"><link rel="stylesheet" href="/folio.css?v=${revision}"></head>
+<html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${e(title)}</title><meta name="description" content="${e(description)}"><link rel="canonical" href="${e(canonical)}"><meta property="og:title" content="${e(title)}"><meta property="og:description" content="${e(description)}"><meta property="og:url" content="${e(canonical)}"><meta property="og:image" content="${e(preview)}"><meta property="og:type" content="article"><link rel="stylesheet" href="/styles.css?v=${revision}"><link rel="stylesheet" href="/folio.css?v=${revision}"></head>
 <body><header class="site-header"><div class="container"><a class="brand" href="/">Rukopisy, snímek po snímku.</a></div></header><main class="container section folio-document">
 <nav aria-label="Drobečková navigace"><ol class="folio-breadcrumbs"><li><a href="/">Rukopisy</a></li><li><a href="${e(new URL(doc.uri).pathname)}">${e(doc.shelfmark)}</a></li><li aria-current="page">${e(label)}</li></ol></nav>
 <h1 data-pagefind-meta="title">${e(doc.shelfmark)} · ${e(label)}</h1><p>${e(doc.repository.name)}</p><p class="sample-notice">Pracovní výstupy bez odborné revize. Shoda modelů ani validita XML nepotvrzují správnost četby.</p>
@@ -102,6 +102,7 @@ export async function buildFolioPages(options = {}) {
     urls.add(doc.uri);
     // Viewer URLs with doc query parameters remain distinct for future manuscripts.
     urls.add(doc.reader);
+    if(data.summary_url)urls.add(new URL(data.summary_url,manuscript.origin).href);
   }
   const root = options.root || publicRoot, origin = manuscripts[0].origin;
   urls.add(origin + '/');urls.add(origin + '/summary');

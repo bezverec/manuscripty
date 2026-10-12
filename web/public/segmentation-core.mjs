@@ -1,4 +1,4 @@
-import {SEGMENTATION_FIELDS,issueFormUrl,LEGACY_DOCUMENT} from './issue-form-core.mjs?v=20261012-4';
+import {SEGMENTATION_FIELDS,issueFormUrl,LEGACY_DOCUMENT} from './issue-form-core.mjs?v=20261012-6';
 const OPERATIONS={resize:'Změna hranic',split:'Rozdělení segmentu',merge:'Sloučení segmentů',add:'Doplnění chybějící oblasti',remove:'Odstranění chybné oblasti'};
 export {OPERATIONS};
 export function checkBox(b,width,height){if(!Array.isArray(b)||b.length!==4||!b.every(Number.isInteger)||b[0]<0||b[1]<0||b[2]<=0||b[3]<=0||b[0]+b[2]>width||b[1]+b[3]>height)throw Error('Oblast musí mít kladnou šířku a výšku a ležet uvnitř původního snímku. Souřadnice jsou celé pixely.');return [...b];}

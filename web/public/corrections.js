@@ -1,4 +1,4 @@
-import {makeProposal,proposalMarkdown,githubProposalUrl} from './proposal-core.mjs?v=20261012-4';
+import {makeProposal,proposalMarkdown,githubProposalUrl} from './proposal-core.mjs?v=20261012-6';
 const dialog=document.querySelector('#correction-dialog'),form=document.querySelector('#correction-form'),modelSelect=document.querySelector('#correction-model'),proposedInput=document.querySelector('#correction-proposed'),reasonInput=document.querySelector('#correction-reason'),status=document.querySelector('#correction-status'),preview=document.querySelector('#correction-preview'),githubLink=document.querySelector('#correction-github'),download=document.querySelector('#correction-download');
 let context=null,proposal=null;
 function invalidate(){proposal=null;preview.hidden=true;githubLink.hidden=true;githubLink.removeAttribute('href');download.disabled=true;status.textContent='';}

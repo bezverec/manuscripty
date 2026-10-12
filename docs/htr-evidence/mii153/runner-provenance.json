@@ -1,0 +1,22 @@
+[
+  {
+    "file": "run_catmus.py",
+    "base": "pilot-htr-20261012\\scripts\\run_catmus.py",
+    "base_sha256": "1c5a9dfe66b549596ab87ff996ba5ecea8889b476334cc634093ea221932e182",
+    "sha256": "38307db89c427e0d24ea0c0f90916f025c154c7fc58638898a19d3dee42500d7",
+    "changes": "Streaming prepared pages, same model/config/prompt, preserve pilot checkpoints, continue CATMuS failures for later repair."
+  },
+  {
+    "file": "run_medusa.py",
+    "base": "pilot-htr-20261012\\scripts\\run_medusa.py",
+    "base_sha256": "a1180e8eb623862ed1485a798674bc461a3f3342cc4ea265d8ef225e89993f5d",
+    "sha256": "9bfbec2cfc3497814e9d3d428ac4c240529162bd3a2fb09f7c50572f57e401ad",
+    "changes": "Streaming prepared pages, same model/config/prompt, preserve pilot checkpoints, continue CATMuS failures for later repair."
+  },
+  {
+    "file": "run_catmus.py",
+    "sha256": "6bb79c354fb70699a5b96fb0076dd407f2de2712ae440953ae74912fb59ee533",
+    "base_sha256": "7538875582575562d9f85d315ffafba9e4289e81b8e5e153d02a05c80651401c",
+    "changes": "Audited manual baseline/rectangle override for binding labels FC/SP only after actual native overlay inspection. HTR model unchanged; BLLA remains default for all other pages."
+  }
+]

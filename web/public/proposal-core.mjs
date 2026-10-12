@@ -1,4 +1,4 @@
-import {HTR_FIELDS,issueFormUrl,LEGACY_DOCUMENT} from './issue-form-core.mjs?v=20261012-4';
+import {HTR_FIELDS,issueFormUrl,LEGACY_DOCUMENT} from './issue-form-core.mjs?v=20261012-6';
 const REPOSITORY='https://github.com/bezverec/manuscripty';
 export function makeProposal(c,model,proposed,reason,id,createdUtc){
  if(!c||!Object.hasOwn(c.raw_htr,model))throw Error('Vyberte dostupný HTR model.');

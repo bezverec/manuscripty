@@ -1,0 +1,49 @@
+{
+  "script_started_utc": "2026-10-12T14:00:14.446018+00:00",
+  "bootstrap_import_and_source_wait_seconds": 160.98618431400973,
+  "status": "success",
+  "started_utc": "2026-10-12T14:02:55.415911+00:00",
+  "model_id": "ENC-PSL/Medusa0.2Line-4B",
+  "revision": "2e891246c709976eb8fd90274932d1f08debcb15",
+  "model_sha256": "930f97e19686a94e2a9967014e437162153bb884121aa3923a1e25422d4e708b",
+  "precision": "bitsandbytes NF4 4-bit weights, double quantization, BF16 compute",
+  "prompt": "Transcribe the handwritten text in this line image.\nOutput ONLY the transcription.",
+  "enable_thinking": false,
+  "batch_size": 8,
+  "max_new_tokens": 128,
+  "do_sample": false,
+  "min_pixels": 65536,
+  "max_pixels": 401408,
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "versions": {
+    "torch": "2.10.0+cu129",
+    "transformers": "5.2.0",
+    "bitsandbytes": "0.49.2",
+    "accelerate": "1.13.0",
+    "huggingface-hub": "1.33.0",
+    "Pillow": "12.1.1"
+  },
+  "paid_api_calls": 0,
+  "expert_reference": false,
+  "cer": null,
+  "wer": null,
+  "scheduling": "Full M II 153 streaming preparation order. Independent line-image prompts; no other HTR supplied to model.",
+  "waiting_for_catmus_seconds": 3.2265496850013733,
+  "prior_sessions_provenance": null,
+  "current_session_recognition_seconds": 13.879714253009297,
+  "timing_note": "Up to eight independent crops in a padded GPU batch. Batched tensor arithmetic may differ numerically from previous batch-size-one runs. Shared generation time recorded, not independent latency.",
+  "model_load_seconds": 9.17089961702004,
+  "parameter_devices": [
+    "cuda:0"
+  ],
+  "eos_token_ids": [
+    248044,
+    248046
+  ],
+  "finished_utc": "2026-10-12T14:05:57.525633+00:00",
+  "bootstrap_plus_current_runtime_seconds": 343.1131519119954,
+  "total_seconds": 182.07647723401897,
+  "new_recognition_seconds": 13.879714253009297,
+  "checkpointed_recognition_seconds_all_sessions": 8181.381738399337,
+  "total_seconds_scope": "Current session from model loading; durable checkpoint recognition seconds reported separately; prior session history is available only if prior_sessions_provenance is non-null"
+}

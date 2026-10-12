@@ -75,11 +75,17 @@ class ExporterTests(unittest.TestCase):
             self.assertTrue(result["offline"])
             self.assertEqual(result["tei_version"], "4.12.0")
             self.assertFalse(result["schematron_checked"])
+            cache = {}
+            self.assertEqual(module.validate_tei_file(output, cache), result)
+            self.assertEqual(module.validate_tei_file(output, cache), result)
+            self.assertEqual(len(cache), 1)
             tree = ET.parse(output)
             ET.SubElement(tree.getroot(), "{http://www.tei-c.org/ns/1.0}notATEIElement")
             module.write_tei(tree, output)
             with self.assertRaises(ValueError):
                 module.validate_tei_file(output)
+            with self.assertRaises(ValueError):
+                module.validate_tei_file(output, cache)
 
     def test_bad_box_rejected(self):
         data = self.example()

@@ -26,7 +26,22 @@ Kraken zpracovává polygonové oblasti, Medusa dostává obdélníkové bezztr�
 
 Záznamy checkpointů a posouzení jsou v [htr-evidence](htr-evidence). Modelové karty obsahují výsledky z jiných datasetů; jejich accuracy/CER nejsou přesností na M II 220. Pilot nemá nezávislou odbornou referenci, proto se nepublikuje žebříček podle CER/WER. U 20v odpovídá 84 původních segmentů 82 pracovním fyzickým řádkům; spojení fragmentů v UI nezměnilo původní HTR.
 
-## Další součásti pipeline
+## Rozšíření na M II 153 (12. 10. 2026)
+
+Stejná dvojice CATMuS medieval 1.6.0 a ENC-PSL/Medusa0.2Line-4B se stejnými
+checkpointy výše zpracovala 197 snímků M II 153, včetně prázdných hlavních ploch
+a vazby. Oba kandidáti pokrývají 15 013 shodně identifikovaných segmentů. Kraken
+prováděl segmentaci a CATMuS inference v lokálním CPU Dockeru; Medusa běžela
+lokálně na RTX 5070 (12 GB), NF4 s double quantization, BF16, batch 8,
+max_new_tokens 128, deterministické generování, SDPA, thinking vypnuté.
+
+Rekonstrukce a český překlad jsou oddělené AI návrhy s obrazovou evidencí,
+jazykovými značkami a nejistotami. Oba surové výstupy zůstávají u každého řádku.
+V této fázi nebylo placené HTR API, nový trénink ani nezávislá odborná reference;
+spotřeba asistenta není totéž co lokální HTR náklady. Přehled publikace a
+katalogových zdrojů: [TWO-MANUSCRIPT-PUBLICATION.md](TWO-MANUSCRIPT-PUBLICATION.md).
+
+## Knihovny a formáty
 
 [PyTorch](https://pytorch.org/), [Transformers](https://huggingface.co/docs/transformers/), [bitsandbytes](https://huggingface.co/docs/bitsandbytes/), [Accelerate](https://huggingface.co/docs/accelerate/) a [Hugging Face Hub](https://huggingface.co/docs/huggingface_hub/) slouží lokálnímu načtení a inference; Docker odděluje CPU a GPU prostředí. lxml a Pillow zajišťují XML validaci a obrazové deriváty. Český překlad a latinskou rekonstrukci navrhoval asistent z obrazů a kandidátů; nejde o automatickou funkci některého HTR checkpointu ani o volání placeného modelového API z přibalených skriptů.
 
