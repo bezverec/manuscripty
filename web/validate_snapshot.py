@@ -38,7 +38,7 @@ for item in record['files']:
         syntax['xml'] += 1
 
 image_extensions = {'.tif', '.tiff', '.png', '.jpg', '.jpeg', '.webp', '.gif', '.bmp', '.jp2', '.avif', '.svg', '.ico'}
-actual_text = {p.relative_to(ROOT).as_posix() for p in PUBLIC.rglob('*') if p.is_file() and p.suffix.lower() not in image_extensions}
+actual_text = {p.relative_to(ROOT).as_posix() for p in PUBLIC.rglob('*') if p.is_file() and not p.is_relative_to(PUBLIC / 'pagefind') and p.suffix.lower() not in image_extensions}
 require(actual_text == {r['path'] for r in record['files']}, 'Unrecorded or missing public text files')
 text = (PUBLIC / 'pilot-data.js').read_text(encoding='utf8')
 manifest = json.loads(text.split('=', 1)[1].strip().rstrip(';'))
