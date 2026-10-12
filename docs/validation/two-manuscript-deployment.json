@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "date": "2026-10-12",
+  "origin": "https://rukopisy.digitalizaty.cz",
+  "deployment_url": "https://594b06e4.rukopisy-digitalizaty.pages.dev",
+  "deployed_commit": "437e77d9027340877d5537aa0f721a14acb82094",
+  "integration_pr": "https://github.com/bezverec/manuscripty/pull/6",
+  "integration_pr_status": "merged",
+  "manual_pages_upload": {"files": 11023, "uploaded": 5812, "reused": 5211},
+  "text_verification": {"sha256_matched_public_files": 213, "new_scan_pages": 197, "missing_url_http_status": 404, "report": "two-manuscript-public-verification.json"},
+  "live_chrome_checks": {
+    "catalogue": "Both manuscript cards visible; both public R2 preview images loaded",
+    "mii153_5r": "197 scan header, 80 segments, 28 passages; tiled scan and selected row crop visible; both raw HTR candidates and reconstruction/Czech translation tabs verified",
+    "manuscript_search": "tribulationis returned 64v,65r,21r; all three links belong to vkol-m-ii-153",
+    "screenshots": ["two-manuscript-preview/public-home.png", "two-manuscript-preview/public-153-5r.png"]
+  },
+  "proposal_workflow": {
+    "url": "https://github.com/bezverec/manuscripty/actions/runs/38304633347",
+    "status": "success",
+    "result": "The published index already matches open validated proposals.",
+    "new_issue_created": false,
+    "new_proposal_pr_created": false,
+    "default_workflow_permissions": "read",
+    "can_approve_pull_request_reviews": true,
+    "approval_setting_explicitly_authorized": true,
+    "workflow_approves_or_merges_pr": false
+  },
+  "security": {
+    "gitleaks": "No findings in the separately documented history and public-directory scans",
+    "github_secret_scanning": "Disabled on repository; GitHub API returned404 with this explicit status. No automated GitHub alert scan is claimed.",
+    "temporary_r2_upload_token": "Revoked and local key removed"
+  },
+  "limitations": "Working AI texts remain proposed and lack independent expert review. Browser image evidence is sampled; full object inventory and source audits are separate. IIIF remains disabled draft preparation."
+}

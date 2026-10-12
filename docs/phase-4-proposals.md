@@ -15,7 +15,7 @@ Přehledové workflow vytvoří nebo aktualizuje jedinou větev `automation/open
 - `python web/validate_snapshot.py` nad aktualizovaným frontendovým manifestem kontroluje neměnnost celého výzkumného snapshotu.
 - Pro společnou publikaci byly vytvořeny skutečné štítky `htr-oprava`, `segmentace-oprava`, `needs-info`.
 - Po výslovném souhlasu správce je v repozitáři povolená tvorba PR z Actions; výchozí oprávnění zůstalo `read`. Samotný workflow PR neschvaluje ani neslučuje.
-- TODO po sloučení: ověřit předvyplnění skutečných formulářů a workflow na zkušebním hlášení. V této fázi se žádné skutečné hlášení, komentář ani PR nezakládá.
+- Kontrolní `workflow_dispatch` po sloučení [12. 10. 2026](https://github.com/bezverec/manuscripty/actions/runs/38304633347) úspěšně potvrdil shodu indexu s otevřenými validovanými návrhy. Žádné nové hlášení ani návrhový PR nevznikl. Úplný živý cyklus nového zkušebního issue a zpětného komentáře zatím neproběhl; parsing, PR a idempotence jsou pokryty místními kontraktními testy a fixture.
 - Prohlížeč byl ověřen v Chrome s fixture #101: odkaz v seznamu HTR i řádkové analýze, předvyplnění identity a absence browser pageerrors. Desktop 1440×900 a mobilní panel 390×844 jsou lokálně v docs/validation/phase-4-screenshots; snímky nepatří do výzkumných dat ani source manifestu. Žádné skutečné issue nevzniklo.
 
 Dokumentace: [URL parametrů GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue#creating-an-issue-from-a-url-query), [schema formulářů](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema).

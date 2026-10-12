@@ -54,3 +54,14 @@ GitHub Actions dostaly výslovně schválenou možnost vytvářet PR. Výchozí 
 zůstává `read`; indexační workflow má konkrétní zápisová oprávnění pouze pro
 generovaný přehled návrhů. Neslučuje ani neschvaluje PR a nemění kanonické HTR.
 Nasazování na Cloudflare Pages zůstává ruční.
+
+Publikace byla dokončena 12. 10. 2026 z commitu `437e77d` po sloučení
+[PR #6](https://github.com/bezverec/manuscripty/pull/6). Na veřejné doméně
+prošlo přesné SHA ověření 213 textových souborů včetně všech 197 nových
+stránkových JSON. Chrome potvrdil katalogové obrazy, dlaždice a řádkový výřez
+5r, textové vrstvy a filtrování vyhledávání druhého rukopisu.
+Doklady jsou v `docs/validation/two-manuscript-deployment.json`.
+Kontrolní běh indexačního workflow skončil úspěšně beze změny již správného
+indexu a bez vytvoření zkušebního issue nebo nového PR. GitHub Secret Scanning
+je v repozitáři vypnutý; samostatné redigované kontroly Gitleaks nenašly
+přístupové údaje v uvedeném rozsahu historie a veřejného adresáře.
