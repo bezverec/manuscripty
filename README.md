@@ -1,8 +1,16 @@
 # Manuscripty
 
-Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy latinské rekonstrukce a českého překladu a jejich veřejné přezkoumání. Aktuální stav: **11. října 2026**, webová revize **20261011-7**.
+Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy rekonstrukce v jazyce předlohy a českého překladu a jejich veřejné přezkoumání. Aktuální stav: **12. října 2026**, webová revize **20261012-6**.
 
 Rukopis **M II 220 z fondů Vědecké knihovny v Olomouci** je dostupný na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz). [Záznam celého dokumentu](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220) používá projektový identifikátor vkol-m-ii-220; nejde o knihovnou přidělené PID.
+
+Společná knihovna nyní zahrnuje také [M II 153](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-153)
+ze stejné instituce: 197 snímků (192 folií a 5 snímků vazby), oba původní HTR
+kandidáty na 15 013 segmentech, 3 531 pracovních interpretačních úseků s českým
+překladem a zdrojové AI shrnutí.
+Osm snímků nemá hlavní text ve vybraných oblastech. Celkem je zaregistrováno
+874 snímků. Oba kodexy mají souhrnný katalogový název **Textus varii**;
+samostatná díla a jejich atribuce mají vlastní zdroje v popisu.
 
 Publikováno je **677 skenů**: 670 foliovaných snímků (1r–335v) a 7 snímků vazby a předsádky. Na 664 textových stranách jsou kandidáti CATMuS a Medusa 4B a celkem **5 634 návrhů rekonstrukce a českého překladu**. UI zobrazuje **50 297 segmentů**, původní datové vrstvy mají 50 299 segmentů; dvě dvojice fragmentů na 20v jsou v UI spojené. Šest foliovaných stran nemá hlavní text ve vybraných oblastech. Vazba a předsádky jsou označené jako dosud nepřepsané.
 
@@ -11,6 +19,7 @@ Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER neby
 ## Orientace
 
 - [Současná architektura](docs/architecture.md)
+- [Publikace obou rukopisů, katalogové zdroje a kontroly](docs/TWO-MANUSCRIPT-PUBLICATION.md)
 - [Použité HTR technologie, modely, odkazy a revize](docs/htr-technologies.md)
 - [Aktuální stav a hranice výsledků](docs/research-status.md)
 - [Veřejná prezentace, úložiště a opravy](docs/presentation.md)

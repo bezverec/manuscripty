@@ -1,0 +1,111 @@
+{
+  "folio": "FC",
+  "source": {
+    "folio": "FC",
+    "scan_id": "FC",
+    "original": "EX/M_II_153____2Y2A3I8EX000FC.TIF",
+    "layout_inspection": "inspection/layout/inspection-record.json",
+    "layout_sheet": "inspection/layout/contact-02.jpg",
+    "blank_main_text": false,
+    "scope_note": "Shelfmark label only, no comprehensive interpretation of cover surface.",
+    "regions": [
+      [
+        795,
+        660,
+        1600,
+        1005
+      ]
+    ],
+    "classification": "front_cover_label",
+    "catalogue_title": "Přední deska — štítek signatury",
+    "physical_order": 1,
+    "physical_index": 1,
+    "segmentation_method": "manual_native_image_region_lines",
+    "layout_revision": {
+      "status": "native_regions_inspected",
+      "previous_attempt": "run-history/binding-layout-attempt1",
+      "inspection_record": "inspection/binding-revision/inspection-record.json",
+      "reason": "First-pass BLLA missed binding inscriptions. Manual original-coordinate line envelopes replace erroneous fragments; all labels remain proposed and unreviewed by expert."
+    },
+    "original_sha256": "0f2ccee7d29b2f52561ecd25f9f41760b355514f338faa148fd2a54cd7465633",
+    "original_md5": "2173a3d16221b92257cd4f71b87fa736",
+    "supplier_expected_md5": "16dc85d4c3786cdc88db306163485279",
+    "source_fixity_md5_verified": false,
+    "source_integrity_note": "Supplier fixity.md5 mismatch unresolved. Current bytes retained unchanged and SHA256 baseline recorded; original supplier package authenticity not verified.",
+    "width": 5358,
+    "height": 7545,
+    "frame_used": 0,
+    "tiff_frames": 2,
+    "working_image": "pages/FC/image.png",
+    "working_image_sha256": "546dc81ac7ca941c7b4604d28473fcfc351a0658b83f199323aa7ccac9204d28",
+    "preparation_seconds": 0.7902822999749333,
+    "selection_overview_inspected": true,
+    "inspection_scope": "Actual reduced-overview layout inspection recorded in inspection/layout/inspection-record.json; not native-resolution reading or complete marginalia audit.",
+    "pixel_operation": "RGB frame0 in original pixel coordinates; exact original RGB pixels pasted inside selected rectangles, outside white. No working-image scaling. PNG lossless."
+  },
+  "status": "raw_unreviewed",
+  "lines": [
+    {
+      "id": "fFC_l001",
+      "bbox": [
+        810,
+        675,
+        775,
+        315
+      ],
+      "boundary": [
+        [
+          810,
+          675
+        ],
+        [
+          1585,
+          675
+        ],
+        [
+          1585,
+          990
+        ],
+        [
+          810,
+          990
+        ]
+      ],
+      "baseline": [
+        [
+          822,
+          965
+        ],
+        [
+          1573,
+          965
+        ]
+      ],
+      "region_index": 0,
+      "image": "crops/fFC_l001.png",
+      "image_sha256": "6c1b15d7b669968ead34b290269c63fcca7d5fc3857b165b36dc8c8681bd6741",
+      "crop_xyxy": [
+        798,
+        663,
+        1598,
+        1003
+      ],
+      "review_flags": [
+        "manual_segmentation",
+        "tall_segment"
+      ],
+      "candidates": {
+        "catmus": {
+          "raw": "IMISS",
+          "status": "raw_unreviewed"
+        },
+        "medusa": {
+          "raw": "II M 153",
+          "status": "raw_unreviewed",
+          "hit_token_limit": false,
+          "ended_with_eos": true
+        }
+      }
+    }
+  ]
+}

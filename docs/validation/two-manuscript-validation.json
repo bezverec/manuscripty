@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "date": "2026-10-12",
+  "frontend_revision": "20261012-6",
+  "manuscripts": 2,
+  "scan_pages": 874,
+  "sitemap_urls": 881,
+  "checks": {
+    "npm_test": "passed: correction and segmentation contracts, 874 static pages, 147590 local links, issue workflows, IIIF draft and two synthetic image tests",
+    "pagefind": "passed: Pagefind 1.4.0 browser API and real WASM; raw 20v glosa, 153/64v tribulationis, manuscript isolation, exact negative query",
+    "portable_python": "passed: 16 publication and audit tests",
+    "tei_export_python": "passed: 7 tests including cached validator rejection",
+    "snapshot": "passed: 7868 text file SHA checks, 2618 JSON and 2234 XML syntax checks, both whole-document TEI Relax NG checks",
+    "html": "passed: recommended HTML validation on five authored catalogue/summary pages, with no-inline-style disabled",
+    "browser": "passed: 9 views at 1440x900 and 390x844, axe WCAG2A/AA serious/critical zero, horizontal overflow zero",
+    "binding_media": "passed: 1175 existing local presentation objects verified",
+    "public_secret_scan": "passed: Gitleaks 8.30.1, redacted output, 672527408 bytes scanned, no findings"
+  },
+  "limitations": [
+    "Browser test uses existing local WebP fixtures; public delivery requires a separate deployment check.",
+    "Automated accessibility checks are not a complete manual WCAG conformance audit.",
+    "HTR, reconstruction, translation and AI summaries remain proposed without independent expert review.",
+    "TEI validity and model agreement do not establish transcription accuracy; no CER/WER is claimed.",
+    "IIIF remains disabled draft preparation, without public image services."
+  ]
+}

@@ -7,9 +7,11 @@ import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
 
 const root=path.dirname(fileURLToPath(import.meta.url));
-const publicRoot=path.join(root,'public');
-const output=path.resolve(root,'../docs/validation/ui');
+const publicRoot=path.resolve(process.env.MANUSCRIPT_PUBLIC_ROOT||path.join(root,'public'));
+const output=path.resolve(root,process.env.UI_REPORT_DIR||'../docs/validation/ui');
 const localMedia=process.env.MANUSCRIPT_TEST_MEDIA ? path.resolve(process.env.MANUSCRIPT_TEST_MEDIA) : null;
+const secondMedia=process.env.MANUSCRIPT_TEST_MEDIA_153 ? path.resolve(process.env.MANUSCRIPT_TEST_MEDIA_153) : null;
+const multi=process.env.MANUSCRIPT_TEST_MULTI==='1';
 await fs.mkdir(output,{recursive:true});
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json','.css':'text/css','.svg':'image/svg+xml','.xml':'application/xml','.png':'image/png','.webp':'image/webp'};
 // A local test server with the same clean-URL resolution as the published site.
@@ -35,14 +37,18 @@ try{
   const context=await browser.newContext({viewport});
   if(localMedia)await context.route('https://rukopisy-data.digitalizaty.cz/**',async route=>{
    const relative=decodeURIComponent(new URL(route.request().url()).pathname).replace(/^\/+/, '');
-   const file=path.resolve(localMedia,relative);
-   if(!file.startsWith(localMedia+path.sep))return route.abort();
+   const mediaRoot=relative.startsWith('v2/vkol-m-ii-153/')&&secondMedia?secondMedia:localMedia;
+   const file=path.resolve(mediaRoot,relative);
+   if(!file.startsWith(mediaRoot+path.sep))return route.abort();
    try{await route.fulfill({status:200,contentType:'image/webp',body:await fs.readFile(file)});}catch{await route.abort();}
   });
-  for(const [name,url] of [['index','/'],['20v','/rukopis.html#20v'],['9r','/rukopis.html?vrstva=radky#9r'],['summary','/summary.html'],['document','/rukopisy/vkol-m-ii-220.html']]){
+  const cases=[['index','/'],['20v','/rukopis.html#20v'],['9r','/rukopis.html?vrstva=radky#9r'],['summary','/summary.html'],['document','/rukopisy/vkol-m-ii-220.html']];
+  if(multi)cases.push(['153-5r','/rukopis.html?doc=vkol-m-ii-153&vrstva=vyklad#5r'],['153-96v','/rukopis.html?doc=vkol-m-ii-153&vrstva=radky#96v'],['153-document','/rukopisy/vkol-m-ii-153.html'],['153-summary','/rukopisy/vkol-m-ii-153/shrnuti.html']);
+  for(const [name,url] of cases){
    const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(origin+url,{waitUntil:'load'});
-   if(name==='20v'||name==='9r'){
+   const viewer=['20v','9r','153-5r','153-96v'].includes(name);
+   if(viewer){
     await page.waitForFunction(()=>{const x=document.getElementById('load-status');return x&&!x.textContent.startsWith('Načítám');});
     await page.waitForFunction(()=>document.querySelectorAll('.scan-zone').length>0);
     await page.waitForFunction(()=>[...document.querySelectorAll('#osd canvas')].some(c=>{
@@ -63,7 +69,7 @@ try{
    assert.ok(!best.violations.some(v=>v.nodes.some(n=>n.target.some(x=>x.includes('panel-resizer')))), 'Resizer must be inside a landmark');
    if(viewport.width===390){
     assert.ok(metrics.scrollWidth<=metrics.width,`${name}: horizontal overflow ${metrics.scrollWidth}`);
-    if(name==='20v'||name==='9r'){
+    if(viewer){
      assert.equal(metrics.scrollY,0,`${name}: page scrolled on load`);
      assert.ok(metrics.scanTop<=140,`${name}: scan begins at${metrics.scanTop}px`);
      await page.getByRole('button',{name:'Další akce',exact:true}).click();
@@ -71,6 +77,39 @@ try{
      await page.keyboard.press('Escape');
      assert.equal(await page.locator('#more-actions-toggle').getAttribute('aria-expanded'),'false');
     }
+   }
+   if(name==='153-5r'){
+    assert.equal(await page.locator('#ms-title').textContent(),'M II 153');
+    assert.equal(new URL(await page.locator('#document-tei').getAttribute('href'),origin).pathname,'/tei/vkol-m-ii-153.xml');
+    assert.ok((await page.locator('#document-permalink').inputValue()).endsWith('/rukopisy/vkol-m-ii-153'));
+    await page.locator('#tab-about').click();
+    await page.locator('#manuscript-toc [data-structure-folio="1r"]').first().waitFor();
+    assert.ok((await page.locator('#manuscript-toc').textContent()).includes('Stimulus'));
+    await page.locator('#tab-text').click();
+   }
+   if(name==='20v'&&await page.locator('#tab-text').count()){
+    const expected={prepis:'text',radky:'text',vyklad:'text',analyza:'about',popis:'about',struktura:'about',citace:'citace'};
+    for(const [legacy,group] of Object.entries(expected)){
+     await page.goto(origin+'/rukopis.html?vrstva='+legacy+'#20v-f20v_l001');
+     await page.waitForFunction(()=>!document.getElementById('load-status').textContent.startsWith('Načítám'));
+     assert.equal(await page.locator('#tab-'+group).getAttribute('aria-selected'),'true',legacy);
+     assert.ok(await page.locator('#panel-'+group).isVisible(),legacy);
+     assert.ok(await page.locator('#panel-'+legacy).isVisible(),legacy);
+     assert.ok(page.url().includes('#20v-f20v_l001'),'Stable source line retained');
+    }
+    await page.locator('#tab-citace').press('ArrowRight');
+    assert.equal(await page.locator('#tab-text').getAttribute('aria-selected'),'true');
+    await page.locator('#tab-text').press('End');
+    assert.equal(await page.locator('#tab-citace').getAttribute('aria-selected'),'true');
+    await page.locator('#tab-citace').press('Home');
+    await page.locator('#view-vyklad').press('ArrowRight');
+    assert.equal(await page.locator('#view-prepis').getAttribute('aria-selected'),'true');
+    assert.equal(await page.locator('#panel-prepis').isVisible(),true);
+    assert.equal(await page.locator('#panel-vyklad').isVisible(),false);
+    const tabs=await page.locator('.tabs').evaluate(e=>({width:e.clientWidth,scroll:e.scrollWidth}));
+    assert.ok(tabs.scroll<=tabs.width,'Three primary tabs fit');
+    report.at(-1).legacy_views_checked=Object.keys(expected);
+    report.at(-1).tab_keyboard_checked=true;
    }
    console.log(`${name} ${viewport.width}x${viewport.height}: axe serious/critical0; overflow0; scrollY${metrics.scrollY}`);
    await page.close();

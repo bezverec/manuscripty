@@ -21,16 +21,17 @@
    const open=!!query||group.pages.some(p=>p.folio===current);
    return '<details class="structure-group"'+(open?' open':'')+'><summary>'+esc(group.label)+' · '+countLabel(pages.length,'snímek','snímky','snímků')+'</summary>'+pages.join('')+'</details>';
   }).filter(Boolean);
-  host.innerHTML=groups.length?groups.join(''):'<p>Žádná shoda. Zkuste jiné folio nebo slovo.</p>';
+  const catalogue=(structure.catalogue_items||[]).filter(i=>!query||normalized(i.title+' '+i.from+' '+i.to).includes(query)).map(i=>'<li><button type="button" data-structure-folio="'+esc(i.from)+'">'+esc(i.title)+'</button> · '+esc(i.from+'–'+i.to)+'</li>').join('');
+  host.innerHTML=(catalogue?'<details class="structure-group" open><summary>Katalogový obsah kodexu</summary><ol>'+catalogue+'</ol></details>':'')+(groups.length?groups.join(''):'<p>Žádná shoda. Zkuste jiné folio nebo slovo.</p>');
   status.textContent=(query?'Výsledky: ':'Celkem: ')+countLabel(count,'snímek','snímky','snímků')+' · '+countLabel(passages,'pasáž','pasáže','pasáží');
  }
  async function load(){
   if(structure){render();return;}
   status.textContent='Načítám strukturu celého rukopisu…';
-  if(!request) request=fetch('structure.json?v=20261011-6').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(data=>{structure=data;render();}).catch(()=>{request=null;status.textContent='Strukturu se nepodařilo načíst. Zkuste záložku otevřít znovu.';});
+  if(!request) request=fetch((window.PILOT_DATA.structure_url || 'structure.json')+'?v=20261012-6').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(data=>{structure=data;render();}).catch(()=>{request=null;status.textContent='Strukturu se nepodařilo načíst. Zkuste záložku otevřít znovu.';});
   await request;
  }
- window.addEventListener('manuscripty:tab',e=>{current=e.detail.folio;active=e.detail.tab==='struktura';if(active)void load();});
+ window.addEventListener('manuscripty:tab',e=>{current=e.detail.folio;active=e.detail.group==='about'||e.detail.tab==='struktura';if(active)void load();});
  search.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(render,150);});
  host.addEventListener('click',e=>{
   const button=e.target.closest('[data-structure-folio]');if(!button)return;
