@@ -13,7 +13,7 @@ for item in d['files']:
 images={'.tif','.tiff','.png','.jpg','.jpeg','.webp','.gif','.bmp','.jp2','.avif','.svg','.ico'}
 files=[]
 for f in sorted(public.rglob('*')):
- if not f.is_file() or f.suffix.lower() in images:continue
+ if not f.is_file() or f.is_relative_to(public/'pagefind') or f.suffix.lower() in images:continue
  raw=f.read_bytes();files.append({'path':f.relative_to(R).as_posix(),'bytes':len(raw),'sha256':sha(raw)})
 d['files']=files;d['frontend_revision']=sys.argv[1] if len(sys.argv)>1 else '20261012-1'
 d['copy_policy']='Research snapshot hashes retained. Frontend changes and generated text assets recorded separately; image files and credentials excluded.'

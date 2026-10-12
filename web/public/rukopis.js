@@ -39,9 +39,14 @@
     if (line < 0 || line >= PAGES[index].lines.length) line = 0;
     return {page:index,line};
   }
+  function folioCanonicalUrl() {
+    const url = new URL(DATA.document.uri.replace(/\/$/, '') + '/' + encodeURIComponent(page().folio));
+    if (selectedLine()) url.hash = selectedLine().id;
+    return url.href;
+  }
   function updateCitation() {
-    $('#citation').textContent = 'Vědecká knihovna v Olomouci, M II 220, ' + (page().label || 'folio ' + page().folio) + '. Výzkumný pilot: pracovní čtení, rekonstrukce a český překlad bez odborné revize. ' + permalink();
-    $('#permalink').value = permalink();
+    $('#citation').textContent = 'Vědecká knihovna v Olomouci, M II 220, ' + (page().label || 'folio ' + page().folio) + '. Výzkumný pilot: pracovní čtení, rekonstrukce a český překlad bez odborné revize. ' + folioCanonicalUrl();
+    $('#permalink').value = folioCanonicalUrl();
   }
   function scrollWithin(container, item) {
     if (!item || !container) return;

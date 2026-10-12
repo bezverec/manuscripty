@@ -4,14 +4,18 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node test-proposals.mjs && node test-segmentation.mjs",
+    "test": "node test-proposals.mjs && node test-segmentation.mjs && node test-folio-pages.mjs",
     "media:restore": "node restore_binding_media.mjs",
     "media:check": "node restore_binding_media.mjs --verify-local",
-    "deploy": "npm run media:check && wrangler pages deploy public --project-name=rukopisy-digitalizaty --branch=main"
+    "deploy": "npm run media:check && npm run build:pages && wrangler pages deploy public --project-name=rukopisy-digitalizaty --branch=main",
+    "build:pages": "node build_folio_pages.mjs && node build_search.mjs",
+    "test:search": "node test-pagefind.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",
     "@playwright/test": "1.64.0",
-    "wrangler": "4.149.0"
+    "wrangler": "4.149.0",
+    "html-validate": "10.0.0",
+    "pagefind": "1.4.0"
   }
 }
