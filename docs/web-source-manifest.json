@@ -3,8 +3,18 @@
   "snapshot_date": "2026-10-11",
   "production_revision": "20261011-7",
   "public_url": "https://rukopisy.digitalizaty.cz",
-  "copy_policy": "Published text and frontend files copied byte-for-byte. All standalone image files, model weights, credentials and dependencies excluded.",
+  "copy_policy": "Research snapshot hashes retained. Frontend changes and generated text assets recorded separately; image files and credentials excluded.",
   "files": [
+    {
+      "path": "web/public/404.html",
+      "bytes": 1001,
+      "sha256": "6f9e4f515f147195fe28333d4e8c5673613d69cc08c25ba3f794854cbfc6fbc4"
+    },
+    {
+      "path": "web/public/_headers",
+      "bytes": 204,
+      "sha256": "4845a792044bbf065c9832212b5c056095bf55170c1aa65d3e4d38753966c80b"
+    },
     {
       "path": "web/public/corrections.js",
       "bytes": 3214,
@@ -20171,9 +20181,14 @@
       "sha256": "62b49a26510c33b146b37247e6b612235bcfa7c0672b7b35e58ffdab3a2b3750"
     },
     {
+      "path": "web/public/header-actions.js",
+      "bytes": 764,
+      "sha256": "f484ea709ad14b45025ce9c188ce420645429066e04cc9badf8df68838c6dbc3"
+    },
+    {
       "path": "web/public/index.html",
-      "bytes": 6648,
-      "sha256": "8b62950572867d8f06b1bb3904ce20a2ad20294934ac5df60885204b010e7b30"
+      "bytes": 7088,
+      "sha256": "c9e4f5c8cf2ca16020deb9d30343e334effd6224c25e256f03666f2ef289e437"
     },
     {
       "path": "web/public/pilot-data.js",
@@ -20192,18 +20207,18 @@
     },
     {
       "path": "web/public/rukopis.html",
-      "bytes": 18749,
-      "sha256": "fd3bd80e68ef046661206d925ef8480ca24929d6cf6569971c80760b962b51c4"
+      "bytes": 19996,
+      "sha256": "2c8859662e3e090c5fdc0609ca37e74e07aa8566a2718a002a38f737bccbefda"
     },
     {
       "path": "web/public/rukopis.js",
-      "bytes": 21022,
-      "sha256": "1561ff95ed42e747ef3e35b0226d6551ae3cb1611dfa3ea57dc93b259efec3a5"
+      "bytes": 21436,
+      "sha256": "2786cc1a8a1f025ac344dbffef199bcc1593445e228251bb0d9d8a7aab23d943"
     },
     {
       "path": "web/public/rukopisy/vkol-m-ii-220.html",
-      "bytes": 3941,
-      "sha256": "0dc1e3169359cf2e018e50d589dd23d098c3ad425daf7e3586e6a187bfc03713"
+      "bytes": 4424,
+      "sha256": "966b13740c7af6c75eac585e1db6946cae1e817da9b03252d08afe7e0837a81a"
     },
     {
       "path": "web/public/schemas/tei-p5-4.12.0/tei_all.rng",
@@ -20232,13 +20247,13 @@
     },
     {
       "path": "web/public/styles.css",
-      "bytes": 29985,
-      "sha256": "cfa973dc64c0cfbc07f1d558ebde94e7592779a47701902ad91e573a728632bd"
+      "bytes": 31463,
+      "sha256": "88ced3062c20a55b800e8921737ea9701fdc64bdd405f7181590b2e5b1582875"
     },
     {
       "path": "web/public/summary.html",
-      "bytes": 7523,
-      "sha256": "52345273522b45b0eb180c48bbfcf4f2cb3a74e48a011a6690b71819e0783563"
+      "bytes": 7829,
+      "sha256": "60445338b5ef3144080638e4a1c7cf423eba6231945755a4e84f890d027c4c60"
     },
     {
       "path": "web/public/summary.json",
@@ -20262,13 +20277,9 @@
     },
     {
       "path": "web/public/viewer-layout.js",
-      "bytes": 5054,
-      "sha256": "53b246b56c330a9db196c3461e34077771efc39d8f03d8566a805f7921023ac3"
-    },
-    {
-      "path": "web/public/_headers",
-      "bytes": 140,
-      "sha256": "1851fcbefce6ec7ed372aa554277f06bea16dde9fe58e5b49ec00a7088d3b380"
+      "bytes": 5068,
+      "sha256": "7f51a88b2b2b71453ff783be4f245731a43311b05df70a110cc6a5d5391800d7"
     }
-  ]
+  ],
+  "frontend_revision": "20261012-1"
 }

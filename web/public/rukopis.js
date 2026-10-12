@@ -39,6 +39,14 @@
     $('#citation').textContent = 'Vědecká knihovna v Olomouci, M II 220, ' + (page().label || 'folio ' + page().folio) + '. Výzkumný pilot: pracovní čtení, rekonstrukce a český překlad bez odborné revize. ' + permalink();
     $('#permalink').value = permalink();
   }
+  function scrollWithin(container, item) {
+    if (!item || !container) return;
+    const c=container.getBoundingClientRect(),r=item.getBoundingClientRect();
+    if(r.top<c.top)container.scrollTop-=c.top-r.top;
+    else if(r.bottom>c.bottom)container.scrollTop+=r.bottom-c.bottom;
+    if(r.left<c.left)container.scrollLeft-=c.left-r.left;
+    else if(r.right>c.right)container.scrollLeft+=r.right-c.right;
+  }
   function highlight() {
     if (!viewer || !viewer.world.getItemAt(0)) return;
     overlayTrackers.forEach(tracker => tracker.destroy());
@@ -46,7 +54,7 @@
     viewer.clearOverlays();
     let ids = selectedLine() ? [selectedLine().id] : [];
     if (state.passage) { const p=page().passages.find(p=>p.id===state.passage);if(p)ids=p.line_ids; }
-    page().lines.forEach((l,i)=>{const el=document.createElement('div');el.className='scan-zone'+(ids.includes(l.id)?' is-highlighted':'');el.dataset.scanLine=String(i);el.title=l.id;el.setAttribute('aria-label','Řádek '+(i+1));const b=l.bbox;viewer.addOverlay({element:el,location:viewer.world.getItemAt(0).imageToViewportRectangle(b[0],b[1],b[2],b[3]),checkResize:false});overlayTrackers.push(new OpenSeadragon.MouseTracker({element:el,clickHandler:event=>{if(event.quick){selectLine(i);setTab('radky');}}}));});
+    page().lines.forEach((l,i)=>{const el=document.createElement('div');el.className='scan-zone'+(ids.includes(l.id)?' is-highlighted':'');el.dataset.scanLine=String(i);el.title=l.id;el.setAttribute('aria-hidden','true');const b=l.bbox;viewer.addOverlay({element:el,location:viewer.world.getItemAt(0).imageToViewportRectangle(b[0],b[1],b[2],b[3]),checkResize:false});overlayTrackers.push(new OpenSeadragon.MouseTracker({element:el,clickHandler:event=>{if(event.quick){selectLine(i);setTab('radky');}}}));});
   }
   function proposeHtr() {
     const l=selectedLine();if(!l)return;
@@ -105,7 +113,7 @@
       $('#tab-' + name).setAttribute('aria-selected', String(active));
       $('#tab-' + name).tabIndex = active ? 0 : -1;
       $('#panel-' + name).hidden = !active;
-      if (active && focus) $('#tab-' + name).focus();
+      if (active && focus) $('#tab-' + name).focus({preventScroll:true});
     });
     highlight(); setHash(); updateCitation();
     window.dispatchEvent(new CustomEvent('manuscripty:tab',{detail:{tab:state.tab,folio:page().folio}}));
@@ -120,7 +128,7 @@
     const index=Math.max(0,Math.min(PAGES.length-1,i)),request=++loadingRequest;
     $('#stage').setAttribute('aria-busy','true');$('#load-status').textContent='Načítám '+(PAGES[index].label||PAGES[index].folio)+'…';
     try {
-      if(!PAGES[index].lines) { const response=await fetch(PAGES[index].data+'?v=20261011-6');if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();Object.assign(PAGES[index],data); }
+      if(!PAGES[index].lines) { const response=await fetch(PAGES[index].data+'?v=20261012-1');if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();Object.assign(PAGES[index],data); }
       if(request!==loadingRequest)return;
       state.page=index;
       if(typeof line==='string'){let n=page().lines.findIndex(l=>l.id===line);if(n<0&&/^l\d+$/.test(line))n=Number(line.slice(1))-1;line=n<0?0:n;}
@@ -132,7 +140,7 @@
       $('#suggest-segmentation').disabled=false;$('#suggest-btn').disabled=!page().lines.length;$('#prev').disabled=state.page===0;$('#next').disabled=state.page===PAGES.length-1;
       renderStage();renderLines();renderAnalysis();renderReading();renderProcessing();setTab(state.tab,false,false);setHash();updateCitation();
       $('#load-status').textContent=page().kind==='binding'?(page().label+' · zatím bez HTR'):page().blank?'Bez vybraného hlavního textu':page().lines.length+' řádků / segmentů · '+page().passages.length+' pasáží';
-      document.querySelector('.thumb[aria-current="page"]')?.scrollIntoView({block:'nearest'});
+      scrollWithin($('#thumbs'), document.querySelector('.thumb[aria-current="page"]'));
     }catch(error){if(request===loadingRequest)$('#load-status').textContent='Načtení selhalo. Zvolte stranu znovu nebo obnovte stránku.';}
     finally{if(request===loadingRequest)$('#stage').removeAttribute('aria-busy');}
   }
