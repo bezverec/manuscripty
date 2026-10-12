@@ -4,19 +4,22 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node test-proposals.mjs && node test-segmentation.mjs && node test-folio-pages.mjs && node test-proposal-workflows.mjs",
+    "test": "node test-proposals.mjs && node test-segmentation.mjs && node test-folio-pages.mjs && node test-proposal-workflows.mjs && node test-iiif.mjs && python test_iiif_image.py",
     "media:restore": "node restore_binding_media.mjs",
     "media:check": "node restore_binding_media.mjs --verify-local",
     "deploy": "npm run media:check && npm run build:pages && wrangler pages deploy public --project-name=rukopisy-digitalizaty --branch=main",
     "build:pages": "node build_folio_pages.mjs && node build_search.mjs",
     "test:search": "node test-pagefind.mjs",
-    "test:proposals:ui": "node test-proposal-ui.cjs"
+    "test:proposals:ui": "node test-proposal-ui.cjs",
+    "build:iiif": "node build_iiif.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.13.0",
     "@playwright/test": "1.64.0",
     "wrangler": "4.149.0",
     "html-validate": "10.0.0",
-    "pagefind": "1.4.0"
+    "pagefind": "1.4.0",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1"
   }
 }
