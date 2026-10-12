@@ -30,7 +30,7 @@
   if(!request) request=fetch('structure.json?v=20261011-6').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(data=>{structure=data;render();}).catch(()=>{request=null;status.textContent='Strukturu se nepodařilo načíst. Zkuste záložku otevřít znovu.';});
   await request;
  }
- window.addEventListener('manuscripty:tab',e=>{current=e.detail.folio;active=e.detail.tab==='struktura';if(active)void load();});
+ window.addEventListener('manuscripty:tab',e=>{current=e.detail.folio;active=e.detail.group==='about'||e.detail.tab==='struktura';if(active)void load();});
  search.addEventListener('input',()=>{clearTimeout(timer);timer=setTimeout(render,150);});
  host.addEventListener('click',e=>{
   const button=e.target.closest('[data-structure-folio]');if(!button)return;

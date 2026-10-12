@@ -3,6 +3,10 @@
   const DATA = window.PILOT_DATA;
   const PAGES = DATA.pages;
   const TABS = ['prepis', 'radky', 'vyklad', 'analyza', 'popis', 'struktura', 'citace'];
+  const GROUPS = ['text', 'about', 'citace'];
+  const TEXT_VIEWS = ['prepis', 'radky', 'vyklad'];
+  const groupOf = tab => TEXT_VIEWS.includes(tab) ? 'text' : tab === 'citace' ? 'citace' : 'about';
+  let textView = 'prepis', aboutView = 'popis';
   let viewer = null, loadingRequest = 0;
   let overlayTrackers = [];
   const state = { page: 0, line: 0, tab: 'prepis', model: 'catmus', zoom: 1, passage: null };
@@ -105,18 +109,30 @@
     $('#toc').innerHTML = p.passages.map(passage => '<li><button type="button" data-toc-passage="' + esc(passage.id) + '"><span>' + esc(passage.title) + '</span><span class="f">' + esc(p.folio) + '</span></button></li>').join('');
   }
   function setTab(tab, focus = false, reveal = true) {
+    if (tab === 'text') tab = textView;
+    if (tab === 'about') tab = aboutView;
     if (!TABS.includes(tab)) return;
     if (reveal) window.dispatchEvent(new CustomEvent('manuscripty:show-panel'));
     state.tab = tab;
-    TABS.forEach(name => {
-      const active = tab === name;
-      $('#tab-' + name).setAttribute('aria-selected', String(active));
-      $('#tab-' + name).tabIndex = active ? 0 : -1;
+    const group = groupOf(tab);
+    if (group === 'text') textView = tab;
+    if (group === 'about') aboutView = tab;
+    GROUPS.forEach(name => {
+      const active = group === name, button = $('#tab-' + name);
+      button.setAttribute('aria-selected', String(active));
+      button.tabIndex = active ? 0 : -1;
       $('#panel-' + name).hidden = !active;
-      if (active && focus) $('#tab-' + name).focus({preventScroll:true});
     });
+    TEXT_VIEWS.forEach(name => {
+      const active = textView === name, button = $('#view-' + name);
+      button.setAttribute('aria-selected', String(active));
+      button.tabIndex = active ? 0 : -1;
+      $('#panel-' + name).hidden = !active;
+    });
+    if (focus) $('#tab-' + group).focus({preventScroll:true});
+    if (group === 'about') scrollWithin($('#text-panel'), $('#panel-' + tab));
     highlight(); setHash(); updateCitation();
-    window.dispatchEvent(new CustomEvent('manuscripty:tab',{detail:{tab:state.tab,folio:page().folio}}));
+    window.dispatchEvent(new CustomEvent('manuscripty:tab',{detail:{tab:state.tab,group,folio:page().folio}}));
   }
   function selectLine(i) {
     const count = page().lines.length;
@@ -128,7 +144,7 @@
     const index=Math.max(0,Math.min(PAGES.length-1,i)),request=++loadingRequest;
     $('#stage').setAttribute('aria-busy','true');$('#load-status').textContent='Načítám '+(PAGES[index].label||PAGES[index].folio)+'…';
     try {
-      if(!PAGES[index].lines) { const response=await fetch(PAGES[index].data+'?v=20261012-1');if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();Object.assign(PAGES[index],data); }
+      if(!PAGES[index].lines) { const response=await fetch(PAGES[index].data+'?v=20261012-2');if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();Object.assign(PAGES[index],data); }
       if(request!==loadingRequest)return;
       state.page=index;
       if(typeof line==='string'){let n=page().lines.findIndex(l=>l.id===line);if(n<0&&/^l\d+$/.test(line))n=Number(line.slice(1))-1;line=n<0?0:n;}
@@ -137,7 +153,7 @@
       document.querySelectorAll('.thumb').forEach((t,n)=>{if(n===state.page)t.setAttribute('aria-current','page');else t.removeAttribute('aria-current');});
       $('#folio').textContent=page().folio;$('#folio-prefix').hidden=page().kind==='binding';$('#total').textContent=String(PAGES.length);$('#page-choice').value=String(state.page);
       $('#ms-sub').textContent=PAGES.length+' snímků · pracovní čtení bez odborné revize';
-      $('#suggest-segmentation').disabled=false;$('#suggest-btn').disabled=!page().lines.length;$('#prev').disabled=state.page===0;$('#next').disabled=state.page===PAGES.length-1;
+      $('#suggest-btn').disabled=!page().lines.length;$('#prev').disabled=state.page===0;$('#next').disabled=state.page===PAGES.length-1;
       renderStage();renderLines();renderAnalysis();renderReading();renderProcessing();setTab(state.tab,false,false);setHash();updateCitation();
       $('#load-status').textContent=page().kind==='binding'?(page().label+' · zatím bez HTR'):page().blank?'Bez vybraného hlavního textu':page().lines.length+' řádků / segmentů · '+page().passages.length+' pasáží';
       scrollWithin($('#thumbs'), document.querySelector('.thumb[aria-current="page"]'));
@@ -160,9 +176,18 @@
     const passage=e.target.closest('[data-passage]'); if(passage) { state.passage=passage.dataset.passage; highlight(); }
     const toc=e.target.closest('[data-toc-passage]'); if(toc) { const p=page().passages.find(p=>p.id===toc.dataset.tocPassage); if(p) { selectLine(page().lines.findIndex(l=>l.id===p.line_ids[0])); $('#reading-scope').value='linked'; renderReading(); setTab('vyklad'); } }
   });
-  $('.tabs').addEventListener('click',e=>{ const t=e.target.closest('[role="tab"]'); if(t) setTab(t.id.slice(4)); });
-  $('.tabs').addEventListener('keydown',e=>{ const i=TABS.indexOf(state.tab);const next=e.key==='ArrowRight'?TABS[(i+1)%TABS.length]:e.key==='ArrowLeft'?TABS[(i+TABS.length-1)%TABS.length]:e.key==='Home'?TABS[0]:e.key==='End'?TABS[TABS.length-1]:null;if(next){e.preventDefault();setTab(next,true);} });
-  $('#suggest-segmentation').addEventListener('click',proposeSegmentation);
+  function bindTablist(selector, names, prefix, current) {
+    const list=$(selector);
+    list.addEventListener('click', e=>{const button=e.target.closest('[role="tab"]');if(button)setTab(button.id.slice(prefix.length));});
+    list.addEventListener('keydown', e=>{
+      if(!e.target.matches('[role="tab"]'))return;
+      const i=names.indexOf(e.target.id.slice(prefix.length));
+      const next=e.key==='ArrowRight'?names[(i+1)%names.length]:e.key==='ArrowLeft'?names[(i+names.length-1)%names.length]:e.key==='Home'?names[0]:e.key==='End'?names.at(-1):null;
+      if(next){e.preventDefault();setTab(next);$('#'+prefix+next).focus({preventScroll:true});}
+    });
+  }
+  bindTablist('.tabs',GROUPS,'tab-',()=>groupOf(state.tab));
+  bindTablist('.text-views',TEXT_VIEWS,'view-',()=>textView);
   $('#suggest-btn').addEventListener('click',()=>{setTab('radky');proposeHtr();});
   $('#prev').addEventListener('click',()=>goToPage(state.page-1));$('#next').addEventListener('click',()=>goToPage(state.page+1));
   document.querySelectorAll('[data-goto-tab]').forEach(b=>b.addEventListener('click',()=>setTab(b.dataset.gotoTab,true)));

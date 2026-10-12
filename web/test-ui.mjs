@@ -8,7 +8,7 @@ import {fileURLToPath} from 'node:url';
 
 const root=path.dirname(fileURLToPath(import.meta.url));
 const publicRoot=path.join(root,'public');
-const output=path.resolve(root,'../docs/validation/ui');
+const output=path.resolve(root,process.env.UI_REPORT_DIR||'../docs/validation/ui');
 const localMedia=process.env.MANUSCRIPT_TEST_MEDIA ? path.resolve(process.env.MANUSCRIPT_TEST_MEDIA) : null;
 await fs.mkdir(output,{recursive:true});
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json','.css':'text/css','.svg':'image/svg+xml','.xml':'application/xml','.png':'image/png','.webp':'image/webp'};
@@ -71,6 +71,30 @@ try{
      await page.keyboard.press('Escape');
      assert.equal(await page.locator('#more-actions-toggle').getAttribute('aria-expanded'),'false');
     }
+   }
+   if(name==='20v'&&await page.locator('#tab-text').count()){
+    const expected={prepis:'text',radky:'text',vyklad:'text',analyza:'about',popis:'about',struktura:'about',citace:'citace'};
+    for(const [legacy,group] of Object.entries(expected)){
+     await page.goto(origin+'/rukopis.html?vrstva='+legacy+'#20v-f20v_l001');
+     await page.waitForFunction(()=>!document.getElementById('load-status').textContent.startsWith('Načítám'));
+     assert.equal(await page.locator('#tab-'+group).getAttribute('aria-selected'),'true',legacy);
+     assert.ok(await page.locator('#panel-'+group).isVisible(),legacy);
+     assert.ok(await page.locator('#panel-'+legacy).isVisible(),legacy);
+     assert.ok(page.url().includes('#20v-f20v_l001'),'Stable source line retained');
+    }
+    await page.locator('#tab-citace').press('ArrowRight');
+    assert.equal(await page.locator('#tab-text').getAttribute('aria-selected'),'true');
+    await page.locator('#tab-text').press('End');
+    assert.equal(await page.locator('#tab-citace').getAttribute('aria-selected'),'true');
+    await page.locator('#tab-citace').press('Home');
+    await page.locator('#view-vyklad').press('ArrowRight');
+    assert.equal(await page.locator('#view-prepis').getAttribute('aria-selected'),'true');
+    assert.equal(await page.locator('#panel-prepis').isVisible(),true);
+    assert.equal(await page.locator('#panel-vyklad').isVisible(),false);
+    const tabs=await page.locator('.tabs').evaluate(e=>({width:e.clientWidth,scroll:e.scrollWidth}));
+    assert.ok(tabs.scroll<=tabs.width,'Three primary tabs fit');
+    report.at(-1).legacy_views_checked=Object.keys(expected);
+    report.at(-1).tab_keyboard_checked=true;
    }
    console.log(`${name} ${viewport.width}x${viewport.height}: axe serious/critical0; overflow0; scrollY${metrics.scrollY}`);
    await page.close();
