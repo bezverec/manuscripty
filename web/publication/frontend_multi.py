@@ -6,6 +6,8 @@ DOC='vkol-m-ii-153'
 
 def decorate_record(record,doc,description):
  """Keep one canonical description and safe, local filtered search on both records."""
+ from catalogue_records import without_fixity_notice
+ record=without_fixity_notice(record)
  title=html.escape(doc.get('title') or doc.get('display_title_cs',''),quote=True)
  description=html.escape(description,quote=True)
  image='https://rukopisy-data.digitalizaty.cz/'+('v2/'+DOC+'/previews/5r.webp' if doc['id']==DOC else 'v1/previews/20v.webp')

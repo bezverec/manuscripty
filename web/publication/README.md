@@ -1,5 +1,11 @@
 # Přenositelné sestavení M II153
 
+Popis M II 220 používá také `mii220-catalogue.json`: 57 hlavních položek a sedm
+pododdílů opsaných z dodaného XML. Jeho zdrojový SHA se kontroluje proti metadatům
+rukopisu. Samostatnou aktualizaci veřejných popisů lze provést příkazem
+`python catalogue_records.py --public-root /site/public`; přidá katalogový obsah
+M II 220 a odstraní oznámení o fixity z obou popisů.
+
 Python3.10+ a lxml. Tento adresář neobsahuje rukopisné obrazy, výzkumné výsledky,
 secrets ani síťové/deployment příkazy. Výstup je merge overlay stávajícího webu,
 nikoli kompletní samostatný web. Výzkumné vstupy a stávající public strom se pouze čtou.
