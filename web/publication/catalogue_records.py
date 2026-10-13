@@ -15,15 +15,15 @@ def legacy_catalogue_section(doc):
     if catalogue['source_sha256'] != doc['source_metadata']['sha256']:
         raise ValueError('Catalogue source differs from manuscript metadata')
 
-    def rows(items):
+    def rows(items, is_nested=False):
         result = []
         for item in items:
             start, end = item['from'], item['to']
             if not all(re.fullmatch(r'\d+[rv]', value) for value in (start, end)):
                 raise ValueError('Unexpected catalogue folio')
             label = start if start == end else start + '–' + end
-            nested = '<ol>' + rows(item['children']) + '</ol>' if item['children'] else ''
-            title = item['title'] or 'Pododdíl ' + item['number']
+            nested = '<ol>' + rows(item['children'], True) + '</ol>' if item['children'] else ''
+            title = item['title'] or ('Pododdíl ' if is_nested else 'Katalogová položka ') + item['number']
             result.append('<li><a href="/rukopis#' + start + '">' + html.escape(title) + '</a> · ' + label + nested + '</li>')
         return ''.join(result)
 
