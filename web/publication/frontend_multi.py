@@ -58,7 +58,7 @@ def patch_frontend(base,out,legacy_doc):
   $('#document-description-title').textContent=DATA.title;
   $('#description-shelfmark').textContent=shelfmark;
   if(DATA.description_cs)$('#document-description-detail').textContent=DATA.description_cs;
-  document.querySelectorAll('[data-summary-link]').forEach(a=>a.href=DATA.summary_url || '/summary');
+  document.querySelectorAll('[data-summary-link]').forEach(a=>a.href=DATA.document.uri+'#ai-shrnuti');
   if(DATA.document.id==='vkol-m-ii-153'){
     $('#structure-basis').textContent='Katalogové členění podle dodaného digitalizačního popisu; názvy interpretačních pasáží jsou pracovní návrhy AI. Rozsahy děl se mohou překrývat.';
     $('#line-reading-notice').textContent='Pracovní čtení bez odborné revize. Zobrazujeme oba původní HTR, příznaky a pasážové poznámky; slovní geometrie není určena.';
@@ -83,6 +83,7 @@ def patch_frontend(base,out,legacy_doc):
  h=h.replace('href="/rukopisy/vkol-m-ii-220"','data-document-link href="/rukopisy/vkol-m-ii-220"')
  h=h.replace('href="/summary"','data-summary-link href="/summary"')
  h=re.sub(r'\?v=20261012-[1-5]', '?v='+REV,h)
+ h=h.replace('rukopis.js?v='+REV, 'rukopis.js?v=20261014-2')
  write(out/'rukopis.html',h)
  s=load('structure.js')
  s=once(s,"fetch('structure.json?v=20261011-6')","fetch((window.PILOT_DATA.structure_url || 'structure.json')+'?v="+REV+"')")
@@ -129,8 +130,7 @@ def patch_frontend(base,out,legacy_doc):
  cards=''
  for ident,shelf,date,img in [('vkol-m-ii-220','M II 220','15. století podle katalogů','https://rukopisy-data.digitalizaty.cz/v1/previews/20v.webp'),(DOC,'M II 153','Druhá polovina 14. století podle katalogu','https://rukopisy-data.digitalizaty.cz/v2/'+DOC+'/previews/5r.webp')]:
   reader='/rukopis'+('?doc='+DOC if ident==DOC else '')
-  summary='/rukopisy/'+DOC+'/shrnuti' if ident==DOC else '/summary'
-  cards+=f'''<article class="catalogue-card"><a href="/rukopisy/{ident}" aria-label="Záznam rukopisu {shelf}"><img src="{img}" alt="Náhled rukopisu {shelf}" loading="lazy"></a><p class="eyebrow">Vědecká knihovna v Olomouci</p><h3>{shelf} · Textus varii</h3><p>Sbírka různých textů</p><p class="catalogue-meta">{date} · latinský rukopis</p><p>Původní HTR, obrazové výřezy, pracovní rekonstrukce a český překlad.</p><div class="hero-actions"><a class="btn btn--primary" href="{reader}">Prohlížet rukopis</a><a class="btn" href="/rukopisy/{ident}">Popis a zdroje</a><a class="btn" href="{summary}">AI shrnutí</a></div></article>'''
+  cards+=f'''<article class="catalogue-card"><a href="/rukopisy/{ident}" aria-label="Záznam rukopisu {shelf}"><img src="{img}" alt="Náhled rukopisu {shelf}" loading="lazy"></a><p class="eyebrow">Vědecká knihovna v Olomouci</p><h3>{shelf} · Textus varii</h3><p>Sbírka různých textů</p><p class="catalogue-meta">{date} · latinský rukopis</p><p>Původní HTR, obrazové výřezy, pracovní rekonstrukce a český překlad.</p><div class="hero-actions"><a class="btn btn--primary" href="{reader}">Prohlížet rukopis</a><a class="btn" href="/rukopisy/{ident}">Přehled a zdroje</a></div></article>'''
  home=f'''<!doctype html><html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rukopisy · snímek po snímku</title><meta name="description" content="Rukopisy Vědecké knihovny v Olomouci: digitální obrazy, původní HTR, pracovní rekonstrukce a české překlady."><link rel="canonical" href="https://rukopisy.digitalizaty.cz/"><link rel="icon" type="image/svg+xml" href="/favicon.svg?v={REV}"><link rel="stylesheet" href="/styles.css?v={REV}"><link rel="stylesheet" href="/folio.css?v=20261012-3"><script type="module" src="/search.js?v=20261012-3"></script><meta property="og:title" content="Rukopisy, snímek po snímku."><meta property="og:description" content="Přepis s pomocí AI. Opravy od uživatelů. Dva rukopisy z fondů Vědecké knihovny v Olomouci."><meta property="og:url" content="https://rukopisy.digitalizaty.cz/"><meta property="og:image" content="https://rukopisy-data.digitalizaty.cz/v1/previews/20v.webp"></head><body>
 <header class="site-header"><div class="container"><a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 5.5c3-1.3 6-1.3 9 .5v13c-3-1.8-6-1.8-9-.5zM21 5.5c-3-1.3-6-1.3-9 .5v13c3-1.8 6-1.8 9-.5z"></path></svg>Rukopisy</a><nav class="site-nav" aria-label="Hlavní navigace"><a href="#rukopisy">Rukopisy</a><a href="#pilot">Přepis a opravy</a><a href="#o-pilotu">O projektu</a></nav></div></header>
 <main><section class="hero"><div class="container"><p class="eyebrow">Digitální obrazy · pracovní textové vrstvy</p><h1>Rukopisy, snímek po snímku.</h1><p class="lead">Prohlížejte rukopisy z fondů <a href="https://www.vkol.cz/">Vědecké knihovny v Olomouci</a>. Porovnávejte obraz s původními přepisy HTR a čtěte pracovní rekonstrukce a české překlady.</p>{search}<p class="stats">2 rukopisy · 874 snímků · pracovní návrhy bez odborné revize</p></div></section>

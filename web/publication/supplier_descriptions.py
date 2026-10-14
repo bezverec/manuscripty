@@ -111,7 +111,8 @@ def renderer(doc_id, valid_folia):
         body = html.escape(node.text or '')
         for child in node:
             body += (item(child,True) if child.tag == 'msItem' else field(child)) + html.escape(child.tail or '')
-        return '<details class="source-entry"><summary>' + html.escape(summary) + '</summary><div class="source-prose">' + body + '</div></details>'
+        anchor = 'catalogue-item-' + number.replace('.', '-')
+        return '<details class="source-entry" id="' + html.escape(anchor,quote=True) + '"><summary>' + html.escape(summary) + '</summary><div class="source-prose">' + body + '</div></details>'
 
     return block,item
 

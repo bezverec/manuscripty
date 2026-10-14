@@ -10,6 +10,7 @@
     "deploy": "npm run media:check && npm run build:pages && wrangler pages deploy public --project-name=rukopisy-digitalizaty --branch=main",
     "build:pages": "node build_folio_pages.mjs && node build_search.mjs",
     "test:search": "node test-pagefind.mjs",
+    "test:overview": "node test-overview.mjs",
     "test:proposals:ui": "node test-proposal-ui.cjs",
     "build:iiif": "node build_iiif.mjs"
   },

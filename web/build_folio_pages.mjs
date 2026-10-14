@@ -102,10 +102,9 @@ export async function buildFolioPages(options = {}) {
     urls.add(doc.uri);
     // Viewer URLs with doc query parameters remain distinct for future manuscripts.
     urls.add(doc.reader);
-    if(data.summary_url)urls.add(new URL(data.summary_url,manuscript.origin).href);
   }
   const root = options.root || publicRoot, origin = manuscripts[0].origin;
-  urls.add(origin + '/');urls.add(origin + '/summary');
+  urls.add(origin + '/');
   await fs.writeFile(path.join(root, 'sitemap.xml'), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + [...urls].sort().map(url => '<url><loc>' + escapeHtml(url) + '</loc></url>').join('\n') + '\n</urlset>\n');
   console.log(JSON.stringify({status:'passed',generated:counts,sitemap_urls:urls.size}));
   return counts;

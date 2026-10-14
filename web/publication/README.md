@@ -15,6 +15,18 @@ Kontrola hlídá převzetí každého neprázdného textového uzlu popisu; nezn
 popisná pole musí dostat výslovné mapování. Výzkumné přepisy se nemění.
 Původní XML je dodaný formát, nikoli nově vytvořený TEI P5 4.12.0 export.
 
+`manuscript_overview.py --public-root /site/public` slučuje katalogový popis
+a AI shrnutí do jediné kanonické stránky `/rukopisy/{id}`. Témata zůstávají
+rozbalovací a odkazy na původní četbu zachované. Staré adresy shrnutí dostávají
+HTTP 301 bez cílového fragmentu, takže zůstávají funkční také tematické kotvy.
+AI syntéza a převzaté katalogové informace mají odlišné štítky; doplnění
+podle `overview_context.json` neznamená novou obrazovou kontrolu. Skript mění
+pouze dva souhrnné JSONy, nikoli řádkové přepisy, překlady nebo TEI. Volitelný
+`--manifest` kontroluje jejich předchozí SHA a aktualizuje jen tyto dvě položky;
+`--report` uchová audit. Obecnou kontrolu ostatních dat tento postup neobchází.
+Po opakované aktualizaci dodaných popisů spusťte přehled znovu. Navazující
+`build_summary.py` jej již volá po sestavení tematických dokladů M II 153.
+
 `enrich_document_tei.py --public-root /site/public` převádí celý dodaný `msDesc`
 také do hlavních TEI popisů. Používá připnuté Relax NG schéma P5 4.12.0;
 kontroluje všechny textové části zdroje, lokální odkazy a neměnnost `text`
