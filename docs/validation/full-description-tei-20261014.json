@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "tei_version": "4.12.0",
+  "schema_sha256": "b0f115095ead2ccc6933aa3365c6f4a82cba3b2ec7eee7f76bb616d7a63b7e48",
+  "scope": "Explicitly authorized metadata-only update of two whole-document TEI descriptions; preserved edition/index text and facsimile",
+  "manuscripts": [
+    {
+      "id": "vkol-m-ii-220",
+      "before_sha256": "ab764450ed51c7310ba84f5c787fa529f989c982f67cb92427c512bb5827bd0d",
+      "after_sha256": "53ab3f6483bba51fa718b443490f818128ad690dc136375e54e95dce62397e4f",
+      "source_sha256": "7151f2795ae2cf8d301ccd4aeb815d980604f58c513b525f961cc7a2941e3632",
+      "source_text_nodes_checked": 468,
+      "source_attributes_verified": 277,
+      "source_classification_preserved": true,
+      "msItems": 64,
+      "text_c14n_unchanged": true,
+      "facsimile_c14n_unchanged": true,
+      "local_pointers_verified": true,
+      "relaxng": "passed",
+      "pointer_mappings": [
+        {
+          "attribute": "from",
+          "source": "#IDf001v",
+          "tei": "#surface_F001v"
+        },
+        {
+          "attribute": "to",
+          "source": "#IDf001v",
+          "tei": "#surface_F001v"
+        }
+      ]
+    },
+    {
+      "id": "vkol-m-ii-153",
+      "before_sha256": "7a8827763a5f5d58013a7c36c60bcd076bb589e3cf7c6e0d5143811da715628a",
+      "after_sha256": "5c16c67d42b64d3994021bdfbb21e0c74cda4ff20ba8a2f15113ee0dfbff7c5a",
+      "source_sha256": "cc8d4487c0e784e1dfb3dbbf102f4a546338e4430330d5be74e1950e790148d8",
+      "source_text_nodes_checked": 134,
+      "source_attributes_verified": 86,
+      "source_classification_preserved": true,
+      "msItems": 16,
+      "text_c14n_unchanged": true,
+      "facsimile_c14n_unchanged": true,
+      "local_pointers_verified": true,
+      "relaxng": "passed",
+      "pointer_mappings": []
+    }
+  ],
+  "baseline_commit": "544f5ee38b73aab4bae630078386408941e7b9e6",
+  "publication_tests": 22
+}

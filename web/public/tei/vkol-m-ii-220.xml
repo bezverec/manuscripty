@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0" xml:id="tei-vkol-m-ii-220" xml:lang="cs">
   <teiHeader>
@@ -13,23 +13,652 @@
           <p>Pracovní výzkumná prezentace bez odborné revize. Tento soubor obsahuje identifikaci a odkazy, nikoli souvislý přepis celého rukopisu.</p>
         </availability>
       </publicationStmt>
-      <notesStmt><note type="catalogue" corresp="urn:sha256:7151f2795ae2cf8d301ccd4aeb815d980604f58c513b525f961cc7a2941e3632">Souhrnný název pochází z dodaného digitalizačního XML. Manuscripta.cz uvádí šest vybraných děl tohoto vícedílného kodexu, nikoli úplný soupis jeho obsahu. XML rozlišuje 57 hlavních položek (64 včetně vnořených).</note><note type="catalogue" corresp="https://manuscripta.cz/manuscript/VKOL_M_II_220/">Manuscripta.cz: katalog uvádí první polovinu 15. století (1439) a kolofon na 177r s datem 16. prosince 1439. Nejde o nové obrazové ověření ani datum všech částí svazku.</note><note type="catalogue" corresp="urn:sha256:7151f2795ae2cf8d301ccd4aeb815d980604f58c513b525f961cc7a2941e3632">Dodaný popis zaznamenává vlastnický přípis Conv. Olom. ad s. Jacobum na přední předsádce verso a odkazuje také na 335v. Identifikace instituce nebo řádu zde není nově dovozena.</note><note type="catalogue" corresp="https://manuscripta.cz/manuscript/VKOL_M_II_220/">Kolofon kompendia je na snímku 161r, nikoli 161v uvedeném v obou katalogových popisech. Zaznamenává se rozdíl recto/verso; původní katalogová data se nepřepisují.</note></notesStmt><sourceDesc>
-        <msDesc xml:id="vkol-m-ii-220">
-          <msIdentifier>
-            <country>Česko</country>
-            <settlement>Olomouc</settlement>
-            <repository ref="https://www.vkol.cz/">Vědecká knihovna v Olomouci</repository>
-            <idno type="shelfmark">M II 220</idno>
-            <idno type="URI">https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220</idno>
-          </msIdentifier>
-        <head>Textus varii — Sbírka různých textů</head></msDesc>
-      </sourceDesc>
+      <notesStmt><note type="catalogue" corresp="urn:sha256:7151f2795ae2cf8d301ccd4aeb815d980604f58c513b525f961cc7a2941e3632">Souhrnný název pochází z dodaného digitalizačního XML. Manuscripta.cz uvádí šest vybraných děl tohoto vícedílného kodexu, nikoli úplný soupis jeho obsahu. XML rozlišuje 57 hlavních položek (64 včetně vnořených).</note><note type="catalogue" corresp="https://manuscripta.cz/manuscript/VKOL_M_II_220/">Manuscripta.cz: katalog uvádí první polovinu 15. století (1439) a kolofon na 177r s datem 16. prosince 1439. Nejde o nové obrazové ověření ani datum všech částí svazku.</note><note type="catalogue" corresp="urn:sha256:7151f2795ae2cf8d301ccd4aeb815d980604f58c513b525f961cc7a2941e3632">Dodaný popis zaznamenává vlastnický přípis Conv. Olom. ad s. Jacobum na přední předsádce verso a odkazuje také na 335v. Identifikace instituce nebo řádu zde není nově dovozena.</note><note type="catalogue" corresp="https://manuscripta.cz/manuscript/VKOL_M_II_220/">Kolofon kompendia je na snímku 161r, nikoli 161v uvedeném v obou katalogových popisech. Zaznamenává se rozdíl recto/verso; původní katalogová data se nepřepisují.</note><note type="metadata-source" corresp="urn:sha256:7151f2795ae2cf8d301ccd4aeb815d980604f58c513b525f961cc7a2941e3632" xml:id="supplier-msdesc-vkol-m-ii-220">Úplný katalogový popis převzat z M_II_220____26LY4SC_CS.XML. Obsahuje fyzický popis, vazbu, historii, bibliografii a poznámky ke všem dílům. Údaje jsou tvrzení dodaného popisu, nikoli nové obrazové nebo odborné ověření. Původní XML se zachovává samostatně beze změny.</note></notesStmt><sourceDesc>
+        <msDesc xml:id="vkol-m-ii-220" xml:lang="cs" corresp="https://rukopisy.digitalizaty.cz/metadata/vkol-m-ii-220/supplier.xml">
+					<msIdentifier>
+						<country>Česko</country>
+						<settlement>Olomouc</settlement>
+						<institution>Vědecká knihovna v Olomouci</institution>
+						<repository ref="https://www.vkol.cz/">Vědecká knihovna v Olomouci</repository>
+						<idno type="shelfmark">M II 220</idno>
+						<idno type="URI">https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220</idno>
+          <altIdentifier type="former">
+							<idno>3 IV 3</idno>
+						</altIdentifier>
+						<altIdentifier type="former">
+							<idno>III d 3</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<head>
+						<title>Textus varii</title>
+						<origDate notBefore="1400" notAfter="1450">1. polovina 15. století</origDate>
+					</head>
+					<msContents>
+						<msItem n="1">
+							<locus from="1r" to="96r" target="https://rukopisy.digitalizaty.cz/rukopis#1r https://rukopisy.digitalizaty.cz/rukopis#96r">1r– 96r</locus>
+							<title>Sermones de sanctis</title>
+							<incipit>Postquam impleti sunt dies purgationis Marie. Luce II° (22). Hoc festum solempne, secundum quo ab universis Christi fidelibus per orbem universum celebratur</incipit>
+							<rubric>
+								<locus from="95r" to="95r" target="https://rukopisy.digitalizaty.cz/rukopis#95r">95r</locus>Sabbato Letare etc. </rubric>
+							<incipit>Ego sum lux mundi. Johannis XIII (recte 12,46). In presenti enim evangelio tria tanguntur</incipit>
+							<explicit>ut eius iudicium veniet super vos cum omni sua misericordia et cum eius justicia etc. Amen.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="2">
+							<locus from="96v" to="96v" target="https://rukopisy.digitalizaty.cz/rukopis#96v">96v</locus>
+							<title>De questionibus Trinitatis</title>
+							<rubric>De questionibus Trinitatis</rubric>
+							<incipit>Sententiarum libro primo, dist. IX, questione 1ª. Teneamus, ut docet Augustinus in libro de fid</incipit>
+							<explicit>generacionem eius quis enarrabit</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="3">
+							<locus from="97r" to="97r" target="https://rukopisy.digitalizaty.cz/rukopis#97r">97r</locus>
+							<title>Conspectus (saec. XV) subsequentis partis codicis</title>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="4">
+							<locus from="98r" to="103v" target="https://rukopisy.digitalizaty.cz/rukopis#98r https://rukopisy.digitalizaty.cz/rukopis#103v">98r–103v</locus>
+							<title>Quotus super epistulas et evangelia per circulum anni</title>
+							<note>Nadpis převzat z konspektu na fol. 97r. Stará foliace Ia–VIb. Text obsahuje začátky a konce nedělních epištol a evangelií.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="5">
+							<locus from="104r" to="107v" target="https://rukopisy.digitalizaty.cz/rukopis#104r https://rukopisy.digitalizaty.cz/rukopis#107v">104r–107v</locus>
+							<title>Omnia capitula evangelistarum metrice</title>
+							<incipit>A generat, B magos vocat, Egiptum petit et exit</incipit>
+							<explicit>Iohannes finit. Amen.</explicit>
+							<note>Stará foliace VIIa–XIb. Na fol. XIb šestiřádkový nedokončený zlomek podobného obsahu.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="6">
+							<locus from="109r" to="126r" target="https://rukopisy.digitalizaty.cz/rukopis#109r https://rukopisy.digitalizaty.cz/rukopis#126r">109r–126r</locus>
+							<rubric>Incipiunt themata diversa super sermones. Primo de tempore, secundo de sanctis.</rubric>
+							<textLang mainLang="la">latinsky</textLang>
+							<msItem n="6.1">
+								<locus from="109r" to="115r" target="https://rukopisy.digitalizaty.cz/rukopis#109r https://rukopisy.digitalizaty.cz/rukopis#115r">109r–115r</locus>
+								<incipit>Pellicanus tenerissime diligit pueros suos</incipit>
+								<explicit>nec tamen surgunt, nisi per confessionem eleventur</explicit>
+								<note>První tematická skupina části de tempore. Převažují příklady ze světa zvířat. Stará foliace XIIIa–XXa. V původním konspektu označeno jako samostatný oddíl.</note>
+							</msItem>
+							<msItem n="6.2">
+								<locus from="115r" to="119r" target="https://rukopisy.digitalizaty.cz/rukopis#115r https://rukopisy.digitalizaty.cz/rukopis#119r">115r–119r</locus>
+								<rubric>Hic sequuntur fabule Aviani</rubric>
+								<incipit>Quedam mulier habuit parvum puerum flentem</incipit>
+								<explicit>Tamen minus malum debet eligi etc.</explicit>
+								<finalRubric>Et sic est finis huius</finalRubric>
+								<colophon>Expliciunt fabule Aviani, scripte per 
+<persName type="scribe">Nicolaum Arnolt</persName>, finite in 
+<placeName>Pauerbach</placeName>
+								</colophon>
+							</msItem>
+							<msItem n="6.3">
+								<locus from="119r" to="121r" target="https://rukopisy.digitalizaty.cz/rukopis#119r https://rukopisy.digitalizaty.cz/rukopis#121r">119r–121r</locus>
+								<rubric>Nota. Hoc quod sequitur pertinet ad precedens.</rubric>
+								<incipit>Tulius narrat libro sexto, quod quidam propter peccata sua erat condempnatus</incipit>
+								<explicit>de merito debuit exaltari</explicit>
+								<finalRubric>Expliciunt themata de tempore</finalRubric>
+							</msItem>
+							<msItem n="6.4">
+								<locus from="121r" to="126r" target="https://rukopisy.digitalizaty.cz/rukopis#121r https://rukopisy.digitalizaty.cz/rukopis#126r">121r–126r</locus>
+								<rubric>Et iam sequuntur alia de sanctis et primo de sancto Andrea. Et que non hic invenias, quere alias.</rubric>
+								<incipit>Non omnes pauperes sunt beati</incipit>
+								<explicit>nisi in speculo sancte Trinitatis. Igitur etc.</explicit>
+								<note>V původním konspektu tvoří folia XXa–XXIa jednotný celek.</note>
+							</msItem>
+						</msItem>
+						<msItem n="7">
+							<locus from="126r" to="126r" target="https://rukopisy.digitalizaty.cz/rukopis#126r">126r</locus>
+							<title>Visio Danielis prophetae</title>
+							<rubric>Visio Danielis prophete</rubric>
+							<incipit>Daniel iustus ab infancia sua petivit a Domino</incipit>
+							<explicit>quando Christus crucifigebatur</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="8">
+							<locus from="126v" to="161v" target="https://rukopisy.digitalizaty.cz/rukopis#126v https://rukopisy.digitalizaty.cz/rukopis#161v">126v–161v</locus>
+							<author ref="https://www.wikidata.org/wiki/Q19663889">Iacobus de Losanna (Lausanna)</author>
+							<title>Compendium moralitatum</title>
+							<rubric>Incipit compendium moraliticum, quod ascribitur Iacobo de Susanna (recte: Lusanna)</rubric>
+							<incipit>Abicit mundus pauperes et honorat divites. Nota, Augustinus dicit, quod corvus</incipit>
+							<explicit>quia plumas virtutum non habent</explicit>
+							<finalRubric>Explicit compendium moralitatum secundum ordinem alphabeti compilatum, continens varias et diversas sentencias, quod ascribitur Iacobo de Lusanna</finalRubric>
+							<colophon>Finitum die Gertrudis</colophon>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>M. W. Bloomfield, B.-G. Guyot, D. R. Howard, T. B. Kabealo: Incipits of Latin Works on the Virtues and Vices, 1100-1500 A.D., Cambridge (Mass) 1979, č. 82 (rkp. neuveden)</bibl>
+							<bibl>T. Kaeppeli: Scriptores Ordinis Praedicatorum Medii Aevi, tomus II, Romae ad S. Sabinae 1975, č. 2090 (rkp. neuveden)</bibl>
+						</msItem>
+						<msItem n="9">
+							<locus from="161r" to="161v" target="https://rukopisy.digitalizaty.cz/rukopis#161r https://rukopisy.digitalizaty.cz/rukopis#161v">161r–161v</locus>
+							<title>Expositio orationis dominicae</title>
+							<rubric>Incipit exposicio brevis et utilis ac bona super Pater noster</rubric>
+							<incipit>Pater noster. Sciendum, quod hec oracio dicitur dominica oracio</incipit>
+							<explicit>et nocturno nos protegat et defendat, qui regnat in secula seculorum amen</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="10">
+							<locus from="161v" to="161v" target="https://rukopisy.digitalizaty.cz/rukopis#161v">161v</locus>
+							<title>Expositio orationis dominicae</title>
+							<rubric>Sequitur aliud ad idem</rubric>
+							<incipit>Pater noster. Hec oracio multis ex causis cunctas oraciones antecellit</incipit>
+							<explicit>id est de temporalibus ad eterna</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="11">
+							<locus from="161v" to="162r" target="https://rukopisy.digitalizaty.cz/rukopis#161v https://rukopisy.digitalizaty.cz/rukopis#162r">161v–162r</locus>
+							<title>Expositio super Ave Maria</title>
+							<rubric>Sequitur exposicio super Ave Maria</rubric>
+							<incipit>Ave Maria. Nota Ave quatuor de causis dicitur</incipit>
+							<explicit>non a Gabriele, sed ad Elizabeth imposita</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="12">
+							<locus from="162r" to="162v" target="https://rukopisy.digitalizaty.cz/rukopis#162r https://rukopisy.digitalizaty.cz/rukopis#162v">162r–162v</locus>
+							<title>Expositio super Symbolum apostolorum</title>
+							<rubric>Sequitur aliud et est exposicio brevis et utilis super Symbolum apostolorum, quod sic incipit 'Credo in Deum'</rubric>
+							<incipit>Credo in Deum Patrem etc. Nota quatuor sunt symbola</incipit>
+							<explicit>in resurreccionem vite, qui vere etc.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="13">
+							<locus from="162v" to="163r" target="https://rukopisy.digitalizaty.cz/rukopis#162v https://rukopisy.digitalizaty.cz/rukopis#163r">162v–163r</locus>
+							<title>De fide</title>
+							<rubric>Sequitur notabile de fide</rubric>
+							<incipit>Credo in unum Deum. Primum, quod est necessarium cuilibet christiano</incipit>
+							<explicit>sed sciencia Dei non fallitur</explicit>
+							<note>Neúplný první článek spisu Tomáše Akvinského In symbolum apostolorum. scil. Credo in Deum expositio; 
+<bibl>Ed. Opera omnia, XVI, Parmae 1875, s. 135–136</bibl>.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="14">
+							<locus from="163r" to="163v" target="https://rukopisy.digitalizaty.cz/rukopis#163r https://rukopisy.digitalizaty.cz/rukopis#163v">163r–163v</locus>
+							<title>De Pater noster</title>
+							<rubric>Sequitur notabile super Pater noster</rubric>
+							<incipit>Nota quando aliquis iacet in mortalibus peccatis</incipit>
+							<explicit>sed tradam vos dyabolo et omnibus sociis in eternum. Amen.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="15">
+							<locus from="163v" to="163v" target="https://rukopisy.digitalizaty.cz/rukopis#163v">163v</locus>
+							<title>Versus de apostolis</title>
+							<rubric>Sequuntur metra de apostolis</rubric>
+							<incipit>Et primo Petrus. Per me Romana plebs respuit idola vana</incipit>
+							<explicit>Mathias: Scripsi Iudeis divine dogmata legis</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>H. Walther: Initia carminum ac versuum medii aevi posterioris latinorum (Alphabetisches Verzeichnis der Versanfänge mittellateinischer Dichtungen), Göttingen 1959, č. 13947, „De 12 apostolis“.</bibl>
+						</msItem>
+						<msItem n="16">
+							<locus from="163v" to="164r" target="https://rukopisy.digitalizaty.cz/rukopis#163v https://rukopisy.digitalizaty.cz/rukopis#164r">163v–164r</locus>
+							<title>Tabula fidei christianae</title>
+							<rubric>Incipit tabula fidei christiane</rubric>
+							<incipit>Incipit tabula fidei christiane utilis et continetur sub brevibus verbis. Primo septem virtutes</incipit>
+							<explicit>sed de omni verbo, quod procedit de ore Dei</explicit>
+							<finalRubric>Explicit tabula fidei christiane</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="17">
+							<locus from="164r" to="167r" target="https://rukopisy.digitalizaty.cz/rukopis#164r https://rukopisy.digitalizaty.cz/rukopis#167r">164r–167r</locus>
+							<author ref="https://www.wikidata.org/wiki/Q1241114">Pseudo-Augustinus</author>
+							<author ref="https://www.wikidata.org/wiki/Q380089">Fulgentius Ruspensis</author>
+							<title>De fide</title>
+							<rubric>Incipit liber sancti Augustini ad Petrum diaconum De fide. Capitulum primum. Quod tres persone sunt naturaliter unus Deus.</rubric>
+							<incipit>Firmissime tene et nullatenus dubites</incipit>
+							<explicit>hoc quoque Deus illi revelavit. Amen. Hec Augustini doctoris.</explicit>
+							<colophon>Explicit liber Augustini ad Petrum diaconum de fide seu Trinitate scriptus per 
+<persName type="scribe">Iohannem Slajer</persName>
+							</colophon>
+							<note>Zde bez úvodní části.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>Patrologiae cursus completus, series latina 40, col. 753-778</bibl>
+						</msItem>
+						<msItem n="18">
+							<locus from="167r" to="168v" target="https://rukopisy.digitalizaty.cz/rukopis#167r https://rukopisy.digitalizaty.cz/rukopis#168v">167r–168v</locus>
+							<title>Disputatio corporis et animae</title>
+							<rubric>Incipiunt disputaciones inter corpus et animam per venerabilem magistrum Rudbertum Liconiensem (!) episcopum Grossi Capitis</rubric>
+							<incipit>Post hominis mortem querunt avide tria sortem. Vult vermes carnem, sathan umbram, proximitas rem. Ecce mundus moritur viciis sepultus</incipit>
+							<rubric>Disputacio corporis et anime</rubric>
+							<incipit>Noctis sub silencio tempore brumali</incipit>
+							<explicit>et me Christi manibus totum comendavi</explicit>
+							<finalRubric>Explicit disputacio inter corpus et animam</finalRubric>
+							<note>Stará foliace LXXIIa–LXXIIIb.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>Srov. H. Walther: Initia carminum ac versuum medii aevi posterioris latinorum (Alphabetisches Verzeichnis der Versanfänge mittellateinischer Dichtungen), Göttingen 1959, č. 5114</bibl>
+						</msItem>
+						<msItem n="19">
+							<locus from="168v" to="168v" target="https://rukopisy.digitalizaty.cz/rukopis#168v">
+							</locus>
+							<title>De ludo</title>
+							<rubric>Notabile de ludo</rubric>
+							<incipit>Nota, quod tessere sunt libri diaboli</incipit>
+							<explicit>ergo caveas, ne ludas, quia Deum et omnes sanctos blasphemas</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="20">
+							<locus from="169r" to="171v" target="https://rukopisy.digitalizaty.cz/rukopis#169r https://rukopisy.digitalizaty.cz/rukopis#171v">169r–171v</locus>
+							<title>De vita et morte Adae et Evae</title>
+							<rubric>Sequitur hic de vita et morte Ade et Eve. Et de vita primo dicitur.</rubric>
+							<incipit>Adam et Eva cum expulsi fuissent de paradiso</incipit>
+							<explicit>de cetero morituri regnabunt per infinita secula seculorum amen</explicit>
+							<finalRubric>Explicit tractatus de vita et obitu Ade et Eve. Deo sit laus et gloria per infinita secula.</finalRubric>
+							<note>Stará foliace LXXIIIa–LXXVIb. Srov, rkp. Praha, NK, XI C 8, Truhlář č. 2032, ff. 206v-209r.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="21">
+							<locus from="171v" to="177r" target="https://rukopisy.digitalizaty.cz/rukopis#171v https://rukopisy.digitalizaty.cz/rukopis#177r">171v–177r</locus>
+							<title>De septem sacramentis</title>
+							<rubric>Incipitur tamen hic tractatus de septem sacramentis</rubric>
+							<incipit>Septem sunt sacramenta ecclesie</incipit>
+							<explicit>ego unguo oculos, aures etc. in nomine Patris et Filii et Spiritus sancti</explicit>
+							<colophon>Et sic est finis tractatus de septem sacramentis sub anno Domini M°CCCC°XXXIX°, XVI die decembris</colophon>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="22">
+							<locus from="177r" to="185r" target="https://rukopisy.digitalizaty.cz/rukopis#177r https://rukopisy.digitalizaty.cz/rukopis#185r">177r–185r</locus>
+							<author ref="https://www.wikidata.org/wiki/Q64779953">Alphonsus Bonihominis Hispanus</author>
+							<title>Epistola rabbi Samuel de adventu Messiae, missa rabbi Isaac</title>
+							<rubric>Incipit epistula translata de arabico in latinum per fratrem Alfonsum Bonihominis Hispanum, ordinis predicatorum ... Epistula rabbi Samuelis ad rabbi Isaac etc. Bunt Schuster.</rubric>
+							<incipit>Epistula, quam scripsit rabbi Samuel ... ad rabbi Isaac ... Conservet te omnipotens Deus</incipit>
+							<rubric>Capitulum primum. Quod Iudei sunt graviter percussi a Deo in captivitate ista.</rubric>
+							<incipit>Desidero, mi domine, testificari per te</incipit>
+							<explicit>ut corruptus homo, peritus et ignorans</explicit>
+							<colophon>Explicit epistula rabbi Samuelis ad rabbi Isaac sub anno Domini etc. L.</colophon>
+							<note>Stará foliace LXXXIIa–XCa.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>T. Kaeppeli: Scriptores Ordinis Praedicatorum Medii Aevi, tomus I, Romae ad S. Sabinae 1970, č. 146 (rkp. uveden)</bibl>
+						</msItem>
+						<msItem n="23">
+							<locus from="185r" to="186r" target="https://rukopisy.digitalizaty.cz/rukopis#185r https://rukopisy.digitalizaty.cz/rukopis#186r">185r–186r</locus>
+							<title>De regimine propriae personae</title>
+							<rubric>Incipit regimen proprie persone beati Bernhardi</rubric>
+							<incipit>Quoniam, ut ait apostolus 1° ad Cor. I (14,40), omnia honeste et secundum Deum fiant in nobis quedam, que a viris virtutum in scolis Christi excitatis (!) audivi</incipit>
+							<explicit>dic Ave Maria ob reverenciam Matris Dei</explicit>
+							<finalRubric>Et sic est finis. Deo gracias. Explicit tractatus de regimine proprie persone beati Bernhardi. Deo gracias.</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="24">
+							<locus from="186r" to="209v" target="https://rukopisy.digitalizaty.cz/rukopis#186r https://rukopisy.digitalizaty.cz/rukopis#209v">186r–209v</locus>
+							<author ref="https://www.wikidata.org/wiki/Q3791438">Iacobus de Benevento</author>
+							<title>Viridarius consolationis</title>
+							<rubric>Incipit Viridarius consolacionis</rubric>
+							<incipit>Quoniam, ut apostolus Petrus ait, Spiritu sancto afflati locuti sunt verbum Dei</incipit>
+							<explicit>hoc erit sine fine per omnia secula seculorum amen</explicit>
+							<finalRubric>Explicit Viridarius</finalRubric>
+							<note>Totéž Claustroneob. Č. 293,5 s titulem „Viridarium consolacionis (Rolandi de Comitibus)“ a s odkazem na edici Florilegium Casinense 263-313.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>T. Kaeppeli: Scriptores Ordinis Praedicatorum Medii Aevi, tomus II, Romae ad S. Sabinae 1975, č. 2052 (rkp. neuveden)</bibl>
+							<bibl>M. W. Bloomfield, B.-G. Guyot, D. R. Howard, T. B. Kabealo: Incipits of Latin Works on the Virtues and Vices, 1100-1500 A.D., Cambridge (Mass) 1979, č. 5058 (rkp. neuveden)</bibl>
+						</msItem>
+						<msItem n="25">
+							<locus from="210r" to="210v" target="https://rukopisy.digitalizaty.cz/rukopis#210r https://rukopisy.digitalizaty.cz/rukopis#210v">210r–210v</locus>
+							<title>De gradibus quatuor virtutum cardinalium</title>
+							<rubric>De gradibus quatuor virtutum cardinalium</rubric>
+							<incipit>Dante Deo parum dicendum est de gradibus operacionum</incipit>
+							<explicit>vel minus perfecte percipiant, vel imitantur</explicit>
+							<finalRubric>Et sic est finis huius</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="26">
+							<locus from="210v" to="210v" target="https://rukopisy.digitalizaty.cz/rukopis#210v">210v</locus>
+							<title>Decem remedia contra luxuriam</title>
+							<rubric>Decem remedia contra luxuriam</rubric>
+							<incipit>Nota remedia contra luxuriam. Primum est</incipit>
+							<explicit>nisi in ieiunio et oracione</explicit>
+							<note>Mezi tímto a dalším oddílem je vložen dodatek o třech řádcích: 
+<q>Utinam saperes tria preterita</q> etc.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="27">
+							<locus from="210v" to="212r" target="https://rukopisy.digitalizaty.cz/rukopis#210v https://rukopisy.digitalizaty.cz/rukopis#212r">210v–212r</locus>
+							<title>Expositio super canonem missae</title>
+							<rubric>Incipit brevis exposicio super Canonem 'Te igitur, clementissime pater'</rubric>
+							<incipit>Te igitur: hoc est certe</incipit>
+							<explicit>gracias referamus Patri per omnia secula seculorum amen</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="28">
+							<locus from="212v" to="284r" target="https://rukopisy.digitalizaty.cz/rukopis#212v https://rukopisy.digitalizaty.cz/rukopis#284r">212v–284r</locus>
+							<author ref="https://www.wikidata.org/wiki/Q95271011">Bernhardus de Parentinis O.P.,</author>
+							<title>Tractatus super officium missae</title>
+							<textLang mainLang="la">latinsky</textLang>
+							<msItem n="28.1">
+								<locus from="212v" to="216v" target="https://rukopisy.digitalizaty.cz/rukopis#212v https://rukopisy.digitalizaty.cz/rukopis#216v">212v-216v</locus>
+								<title>Tabula titulorum</title>
+							</msItem>
+							<msItem n="28.2">
+								<locus from="216v" to="216v" target="https://rukopisy.digitalizaty.cz/rukopis#216v">216v</locus>
+								<title>Epistola</title>
+								<rubric>Epistola</rubric>
+								<incipit>Reverendissimo in Christo patri ac suo pre ceteris specialit domino, domino P., divina providencia episcopo Albiensi vester humilis famulus frater B(ernhardus) ordinis Predicatorum et conventus Orthesii… Altitudo diviciarum sapiencie</incipit>
+								<explicit>in vestre caritatis visceribus comendatum. Datum, actum et completum Tholosii in vigilia Dominici patris nostri anno Domini M°CCC°XLII</explicit>
+							</msItem>
+							<msItem n="28.3">
+								<locus from="216v" to="284r" target="https://rukopisy.digitalizaty.cz/rukopis#216v https://rukopisy.digitalizaty.cz/rukopis#284r">216v–284r</locus>
+								<title>Textus</title>
+								<rubric>Incipit tractatus utilis super totum officium misse, editus et compilatus per fratrem B(ernhardum) de Parentinis, Ordinis Predicatorum provincie patricie (?) Tholosane et conventus Orthesii in Vasconia, sicut legit Albia plurimis auditoribus sollempnibus doctoribus, canonicis, religiosis bakellariis et clericis aliis anno Domini M°CCC°XXXIX et incepit feria quinta post Cineres accipiendo thema quod sequitur de evangelio illius diei et continuavit usque ad festum beati Petri martiris in modo et forma quo sequitur. Incipit prologus.</rubric>
+								<incipit>Quoniam clamitat sapiens quod perscrutator maiestatis opprimetur a gloria (Prv 25,27), idcirco nemo existimet</incipit>
+								<explicit>non ambulat in tenebris sed habebit perpetum lumen vite, quo nobis concedat Dei Filius benedictus amen</explicit>
+								<colophon>Finito libro saltat scriptor pede leto</colophon>
+								<note>O spisu a rukopisech viz 
+<bibl>A. Franz, Die Messe im deutschen Mittelalter, 1902, s. 502–506</bibl>, nověji 
+<bibl>T. Kaeppeli: Scriptores Ordinis Praedicatorum Medii Aevi, tomus I, Romae ad S. Sabinae 1970, č. 643 (rkp. uveden)</bibl>. 
+<bibl>Hain 12416</bibl>.</note>
+							</msItem>
+						</msItem>
+						<msItem n="29">
+							<locus from="284r" to="285r" target="https://rukopisy.digitalizaty.cz/rukopis#284r https://rukopisy.digitalizaty.cz/rukopis#285r">284r–285r</locus>
+							<author>Pseudo-Bernardus Claraevallensis</author>
+							<title>Epistola de cura rei familiaris</title>
+							<rubric>Epistula beati Bernhardi abbatis ad quendam militem de modo et cura rei familiaris utilius gubernande</rubric>
+							<incipit>Glorioso et felici militi Raymundo ... Doceri petisti a nobis de cura et modo rei familiaris</incipit>
+							<explicit>qui iusticiam exhibet de se ipso etc.</explicit>
+							<note>Text je neúplný, končí v odstavci 
+<q>De iudicibus</q>.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>P. Blažek, B. Řezníčková: The Pseudo-Bernardine Epistola de cura rei familiaris and its Reception in Medieval Bohemia and Moravia, in: P. Cermanová, V. Žůrek (edd.): Books of Knowledge in Late Medieval Europe, Turnhout 2021, s. 85-135</bibl>
+						</msItem>
+						<msItem n="30">
+							<locus from="286r" to="287v" target="https://rukopisy.digitalizaty.cz/rukopis#286r https://rukopisy.digitalizaty.cz/rukopis#287v">286r–287v</locus>
+							<title>De efficacia verbi Dei</title>
+							<rubric>De efficacia verbi Dei</rubric>
+							<incipit>Nota verbum Dei est magne efficacie et virtutis</incipit>
+							<explicit>creatura superior et inferior Christo moriente</explicit>
+							<finalRubric>Explicit tractatus de efficacia verbi Dei</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="31">
+							<locus from="287v" to="288v" target="https://rukopisy.digitalizaty.cz/rukopis#287v https://rukopisy.digitalizaty.cz/rukopis#288v">287v–288v</locus>
+							<title>De chorea</title>
+							<rubric>Incipit alius de corea</rubric>
+							<incipit>Nota corea est circulus, cuius centrum est diabolus</incipit>
+							<explicit>circulus eterni gaudii, ad quod omnes corrisare debemus ... amen</explicit>
+							<finalRubric>Explicit tractatus de corea</finalRubric>
+							<note>Srov. J. Sedlák: Studie a texty k náboženským dějinám českým 1, Olomouc 1914, s. 429-435.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="32">
+							<locus from="289r" to="289r" target="https://rukopisy.digitalizaty.cz/rukopis#289r">289r</locus>
+							<title>De gratia</title>
+							<rubric>Sequitur notabile bonum de gracia</rubric>
+							<incipit>Nota quod duplex est gracia</incipit>
+							<explicit>eo quod ex puro corde processerunt</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="33">
+							<locus from="289r" to="289r" target="https://rukopisy.digitalizaty.cz/rukopis#289r">289r</locus>
+							<title>De fontibus</title>
+							<rubric>Notabile bonum de fontibus</rubric>
+							<incipit>Nota quod quatuor sunt genera foncium</incipit>
+							<explicit>tertia aqueductus, quarta cisterna</explicit>
+							<finalRubric>Et sic est finis</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="34">
+							<locus from="289v" to="289v" target="https://rukopisy.digitalizaty.cz/rukopis#289v">289v</locus>
+							<title>De perfectione hominis</title>
+							<rubric>Erudicio Augustini de perfeccione hominis</rubric>
+							<incipit>Si vis perfectus esse, hec regulariter teneas</incipit>
+							<explicit>sed extrorsum mundum, quem amamus</explicit>
+							<note>Pod textem je červeně připsáno 
+<q>Bernhardus</q>.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>M. W. Bloomfield, B.-G. Guyot, D. R. Howard, T. B. Kabealo: Incipits of Latin Works on the Virtues and Vices, 1100-1500 A.D., Cambridge (Mass) 1979, č. 5677 (rkp. neuveden)</bibl>
+						</msItem>
+						<msItem n="35">
+							<locus from="289v" to="289v" target="https://rukopisy.digitalizaty.cz/rukopis#289v">289v</locus>
+							<rubric>Incipiunt originalia pro defunctis</rubric>
+							<incipit>Hic mihi queso, ubi sunt mundi amatores</incipit>
+							<explicit>contempnit presencia et ad futura festinat</explicit>
+							<finalRubric>Expliciunt originalia mortuorum</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="36">
+							<locus from="290r" to="295r" target="https://rukopisy.digitalizaty.cz/rukopis#290r https://rukopisy.digitalizaty.cz/rukopis#295r">290r–295r</locus>
+							<author ref="https://www.wikidata.org/wiki/Q7795478">Thomas de Hibernia</author>
+							<title>De tribus punctis essentialibus christianae religionis</title>
+							<rubric>Incipit tractatus de tribus punctis essencialibus christiane religionis compositus per magistrum Thomam Hybernicum etc.</rubric>
+							<incipit>Religio munda et immaculata ... Iacobi primo (27). Volens religionem intrare</incipit>
+							<explicit>opusculum non minus obscurum nec minus prolixum compilare decrevit etc.</explicit>
+							<finalRubric>Explicit tractatus de tribus punctis essencialibus christiane religionis compositus per venerabilem Thomam Ybernicum, arcium magistrum</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="37">
+							<locus from="295v" to="295v" target="https://rukopisy.digitalizaty.cz/rukopis#295v">295v</locus>
+							<title>De matrimonio</title>
+							<rubric>De matrimonio</rubric>
+							<incipit>Alloquor vos legittimos, qui in matrimonio vivitis</incipit>
+							<explicit>ut beatus Thobias et multi alii fecerunt. Rogemus ergo Dominum.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="38">
+							<locus from="295v" to="296v" target="https://rukopisy.digitalizaty.cz/rukopis#295v https://rukopisy.digitalizaty.cz/rukopis#296v">295v–296v</locus>
+							<title>Sermo de novem alienis peccatis</title>
+							<rubric>Sequitur de novem alienis peccatis</rubric>
+							<incipit>Ab occultis meis munda me, Domine, et ab alienis parce servo tuo. (Ps XVIII, 13–14). Ista verba sunt prophete David</incipit>
+							<explicit>alius tamen minus. Rogemus.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="39">
+							<locus from="296v" to="297v" target="https://rukopisy.digitalizaty.cz/rukopis#296v https://rukopisy.digitalizaty.cz/rukopis#297v">296v–297v</locus>
+							<title>Sermo de poenitentia</title>
+							<rubric>De penitencia aliud sequitur</rubric>
+							<incipit>Postquam convertisti me, egi penitentiam. Ieremie 7 (recte 31,19). Ut a peccatis convertamus, ad hoc hortatur nos Christi benignitas</incipit>
+							<explicit>ab angelis deducetur in eternam requiem</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="40">
+							<locus from="297v" to="298r" target="https://rukopisy.digitalizaty.cz/rukopis#297v https://rukopisy.digitalizaty.cz/rukopis#298r">297v–298r</locus>
+							<title>Sermo de poenitentia</title>
+							<incipit>Penitenciam agite, appropinquabit enim regnum celorum Math. 3 (2). Istud thema primo fuit Ioannis</incipit>
+							<explicit>qui filium victimat in conspectu patris</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="41">
+							<locus from="298r" to="299r" target="https://rukopisy.digitalizaty.cz/rukopis#298r https://rukopisy.digitalizaty.cz/rukopis#299r">298r–299r</locus>
+							<title>De confessione</title>
+							<rubric>Confessio</rubric>
+							<incipit>Nota, quod decem genera hominum decipiuntur in confessione</incipit>
+							<explicit>Saul, Achor, Iudas, Saphat, Ananias dampnati. Rogemus.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="42">
+							<locus from="299r" to="299v" target="https://rukopisy.digitalizaty.cz/rukopis#299r https://rukopisy.digitalizaty.cz/rukopis#299v">299r–299v</locus>
+							<title>Sermo de oratione</title>
+							<incipit>Multum valet deprecacio iusti assidua Iac. 5 (16). Frequenter movemur diebus istis ad adorandum</incipit>
+							<explicit>quia ipse adhuc invitat fideles, ut petant. Iohannis 16 (24) petite et accipietis etc.</explicit>
+							<finalRubric>Et sic est finis</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="43">
+							<locus from="299v" to="303v" target="https://rukopisy.digitalizaty.cz/rukopis#299v https://rukopisy.digitalizaty.cz/rukopis#303v">299v–303v</locus>
+							<title>Gesta Christi</title>
+							<rubric>Incipit tractatus de actibus Christi tribus annis peractis</rubric>
+							<incipit>In principio erat verbum ... Iohannis 1°. Cum autem desponsata esset Maria virgo Ioseph Mt. 1°</incipit>
+							<explicit>capere eos, qui scribendi sunt libros. Ioh. ultimo</explicit>
+							<finalRubric>Finis sermonum et actuum Christi, que gessit etc. Hic adest finis sermonum et actuum, quo Christus gessit tribus annis ante mortem.</finalRubric>
+							<note>Stará foliace CCVIb–CCXb. Takzvaná Gesta Christi, přičítaná někdy neprávem Janu Husovi. Srov. 
+<bibl>F. M. Bartoš: Literární činnost M. Jana Husi, Praha 1948, s. 98</bibl>.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="44">
+							<locus from="303v" to="306r" target="https://rukopisy.digitalizaty.cz/rukopis#303v https://rukopisy.digitalizaty.cz/rukopis#306r">303v–306r</locus>
+							<title>De confessione</title>
+							<rubric>Incipit tractatus, in quo continetur de confessione, scilicet qualis debeat esse confessio ... In nomine sancte et individue Trinitatis amen.</rubric>
+							<incipit>Quia circa confessionem sacramentalem faciendam plerique nimis negligenter ... se habent</incipit>
+							<explicit>qui per concupiscenciam horum dampnatur</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>J. Kejř: Summae confessorum a jiná díla pro foro interno v rukopisech českých a moravských knihoven, Praha 2003, s. 106 (rkp. uveden)</bibl>
+						</msItem>
+						<msItem n="45">
+							<locus from="306r" to="306r" target="https://rukopisy.digitalizaty.cz/rukopis#306r">306r</locus>
+							<title>Versus de peccatoribus</title>
+							<rubric>Versus de peccatoribus</rubric>
+							<incipit>O vos omnes, qui transitis, figuram hanc inspicite</incipit>
+							<explicit>propter varios reatus sine fine sum dampnatus</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>U. Chevalier: Repertorium hymnologicum, č. 13949</bibl>
+							<bibl>H. Walther: Initia carminum ac versuum medii aevi posterioris latinorum (Alphabetisches Verzeichnis der Versanfänge mittellateinischer Dichtungen), Göttingen 1959, č. 13068</bibl>
+						</msItem>
+						<msItem n="46">
+							<locus from="306r" to="307r" target="https://rukopisy.digitalizaty.cz/rukopis#306r https://rukopisy.digitalizaty.cz/rukopis#307r">306r–307r</locus>
+							<title>Expositio Symboli apostolorum</title>
+							<rubric>Exposicio brevis Symboli apostolorum Qwillirini</rubric>
+							<incipit>Credo in Deum patrem omnis terre et celi etc. Nota, quod aliud est, ut ait Augustinus, credere Deo et credere Deum</incipit>
+							<explicit>et quem misit, id est Christum Iesum</explicit>
+							<note>Totéž Budapešť, museum č. 339, ff. 307-310 „De symbolo“.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="47">
+							<locus from="307r" to="309r" target="https://rukopisy.digitalizaty.cz/rukopis#307r https://rukopisy.digitalizaty.cz/rukopis#309r">307r–309r</locus>
+							<title>Confessionale cum expositione</title>
+							<rubric>Incipit hic utile metricum confessionale</rubric>
+							<incipit>(Textus:) Tractans de multis recitandis illico culpis</incipit>
+							<explicit>quelibet observat anime medicamina dando</explicit>
+							<incipit>(Exposicio:) Sentencia. Quod hic in presenti sit utile medicamen anime</incipit>
+							<explicit>quare fecit peccatum et quomodo fecit peccatum et quando fecit peccatum</explicit>
+							<note>
+								<bibl>Hain 10.717</bibl>
+							</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="48">
+							<locus from="309r" to="309v" target="https://rukopisy.digitalizaty.cz/rukopis#309r https://rukopisy.digitalizaty.cz/rukopis#309v">309r–309v</locus>
+							<title>De vitiis</title>
+							<incipit>Luxuria est corporalis incontinentia</incipit>
+							<explicit>et obedienciam Deo reddere nolens</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>M. W. Bloomfield, B.-G. Guyot, D. R. Howard, T. B. Kabealo: Incipits of Latin Works on the Virtues and Vices, 1100-1500 A.D., Cambridge (Mass) 1979, č. 2992 (rkp. neuveden)</bibl>
+						</msItem>
+						<msItem n="49">
+							<locus from="310r" to="311v" target="https://rukopisy.digitalizaty.cz/rukopis#310r https://rukopisy.digitalizaty.cz/rukopis#311v">310r–311v</locus>
+							<title>Sermo de Adventu Christi</title>
+							<incipit>Clamabunt ad Dominum a facie tribulantis et mittet eis Salvatorem et propugnatorem, qui liberet eos. Ps. XIX (recte Is 19,20). In verbis premissis circa Adventum Christi</incipit>
+							<explicit>ut a presenti tristicia te suscipiat et eripiat et ad eternam leticiam te perducat, quod prestare dignetur etc.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="50">
+							<locus from="311v" to="313r" target="https://rukopisy.digitalizaty.cz/rukopis#311v https://rukopisy.digitalizaty.cz/rukopis#313r">311v–313r</locus>
+							<title>Disputatio hominis cum ratione</title>
+							<incipit>Hic introducuntur persone duorum, scilicet deflentis hominis et conmoventis racionis. Homo: Anima mea in angustiis est</incipit>
+							<explicit>quod audisti, multis vivendi modis fiat amen</explicit>
+							<note>Excerptum ex Isidori Hispalensis Synonymorum libro primo, viz PL 83, col. 827f.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="51">
+							<locus from="313r" to="319r" target="https://rukopisy.digitalizaty.cz/rukopis#313r https://rukopisy.digitalizaty.cz/rukopis#319r">313r–319r</locus>
+							<title>Tractatus de arte moriendi</title>
+							<incipit>Cum de presentis exilii miseria ... idcirco in presenti materia, que de arte moriendi est</incipit>
+							<explicit>ad perhennia gaudia pergat</explicit>
+							<finalRubric>Et sic est finis</finalRubric>
+							<note>Připisováno řadě různých autorů, snad nejčastěji Dominiku Capranicovi.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>M. W. Bloomfield, B.-G. Guyot, D. R. Howard, T. B. Kabealo: Incipits of Latin Works on the Virtues and Vices, 1100-1500 A.D., Cambridge (Mass) 1979, č. 1076</bibl>
+						</msItem>
+						<msItem n="52">
+							<locus from="319v" to="322v" target="https://rukopisy.digitalizaty.cz/rukopis#319v https://rukopisy.digitalizaty.cz/rukopis#322v">319v–322v</locus>
+							<title>Speculum amatorum mundi</title>
+							<incipit>Videte, quomodo caute ambuletis, non quasi insipientes ... Apostolus Paulus consciens consiliorum Dei</incipit>
+							<explicit>et precibus possideant, quod nobis prestare dignetur ... amen</explicit>
+							<finalRubric>Explicit speculum amatorum mundi</finalRubric>
+							<note>Stará foliace CCXXVIb–CCXXIXb.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="53">
+							<locus from="322v" to="333v" target="https://rukopisy.digitalizaty.cz/rukopis#322v https://rukopisy.digitalizaty.cz/rukopis#333v">322v–333v</locus>
+							<title>De arte praedicandi</title>
+							<rubric>Incipit libellus artis predicatorie in nomine Marie. Capitulum Im.</rubric>
+							<incipit>Oro, ut karitas vestra magis ac magis ... in die Christi. Ad Phil. 1 (9). Omni operi omnique actioni non solum debetur efficiens</incipit>
+							<explicit>Petrum publice arguit</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="54">
+							<locus from="334v" to="334v" target="https://rukopisy.digitalizaty.cz/rukopis#334v">334v</locus>
+							<rubric>Memoria vivorum. Pro defunctis.</rubric>
+							<note>Výzvy k modlitbám.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="55">
+							<locus from="335v" to="335v" target="https://rukopisy.digitalizaty.cz/rukopis#335v">335v</locus>
+							<title>Nota</title>
+							<colophon>Anno Domini M°CCCC°XLI Nicolai Arnol(t).</colophon>
+							<note>Srov. fol. 
+<locus from="119r" to="119r" target="https://rukopisy.digitalizaty.cz/rukopis#119r">119r</locus>.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="56">
+							<locus from="335v" to="335v" target="https://rukopisy.digitalizaty.cz/rukopis#335v">335v</locus>
+							<rubric>Nota de festo Ioannis Baptiste</rubric>
+							<incipit>Ibi faciunt ignes in vigilia eius</incipit>
+							<note>Přípisek o 13 řádcích.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="57">
+							<locus from="335v" to="335v" target="https://rukopisy.digitalizaty.cz/rukopis#335v">335v</locus>
+							<title>Recepta medica</title>
+							<incipit>Aqua cremata de floribus sambuci ...</incipit>
+							<incipit>Aqua feniculi ...</incipit>
+							<incipit>Aqua ruthe ...</incipit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<p>
+							<term>Kodex, kniha, rukopis.</term>
+						</p>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>Papír.</support>
+								<extent>I + 335 ff. 
+<dimensions type="leaf" unit="cm">
+										<height>29</height>
+										<width>21</width>
+									</dimensions>
+								</extent>
+								<collation>Skladba: (a-b) 8.VI (f. 96) + (c-s) 6.VI (f. 168) + (t-cc) 9.VI + 1.VI-3 ff. (f. 285) + (dd-eee) 4.VI + 1.VI-10 ff. (f. 335)</collation>
+							</supportDesc>
+						</objectDesc>
+						<bindingDesc>
+							<binding>
+								<p>Vazba celousňová, dřevěné desky potažené hnědou usní zdobenou slepotiskem. Obě přídeští vylepena přestřiženým dvoulistem s glosovaným latinským teologickým textem.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin notBefore="1400" notAfter="1450">1. polovina 15. století&gt;</origin>
+						<provenance>Na 
+<locus from="#surface_F001v" to="#surface_F001v" target="https://rukopisy.digitalizaty.cz/rukopis#F001v">přední předsádce verso</locus> rukou 
+<q>Conv. Olom. ad s. Jacobum</q>. Viz též f. 
+<locus from="335v" to="335v" target="https://rukopisy.digitalizaty.cz/rukopis#335v">335v</locus>.</provenance>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Popis vytvořen 8. 7. 2026 podle podkladů VK Olomouc.</p>
+							</recordHist>
+						</adminInfo>
+						<listBibl>
+							<bibl>WATTENBACH, Wilhelm: Reise nach Österreich in den Jahren 1847, 1848, 1849, Archiv der Gesellschaft für ältere deutsche Geschichtskunde 10, 1851, s. 681</bibl>
+							<bibl>BOHÁČEK, Miroslav – ČÁDA, František: Beschreibung der mittelalterlichen Handschriften der Wissenschaftlichen Staatsbibliothek von Olmütz. Köln – Weimar – Wien 1994, č. 327, s. 566–574.</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <p>Stálý identifikátor a URI přiděluje tento výzkumný projekt. Signatura M II 220 pochází od instituce uchovávající rukopis. Názvy pasáží a výsledky AI nejsou odborně potvrzeným katalogem. Sedm snímků vazby a předsádky zatím nemá HTR.</p>
-      </editorialDecl>
-    </encodingDesc>
+      <p xml:id="supplier-msdesc-conversion-vkol-m-ii-220">Popis msDesc je převeden do jmenného prostoru TEI P5 4.12.0. Zachováno je původní znění, vnořené položky, bibliografie, datace i míry jistoty; projektové identifikátory a původní ediční poznámky zůstávají oddělené. Odkazy locus míří na příslušná folia prohlížeče; původní #IDf001v se mapuje na existující #surface_F001v tam, kde je tento odkaz použit. Původní text a facsimile projektu se nemění.</p></editorialDecl>
+    <classDecl>
+				<taxonomy xml:id="tax.mns">
+					<category xml:id="tax.mns.conspectus">
+						<catDesc>Conspectus</catDesc>
+						<category xml:id="xxx">
+							<catDesc xml:id="tax.mns.conspectus.000">
+							</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
   </teiHeader>
   <facsimile>
     <surface n="Přední deska" ulx="0" uly="0" lrx="4700" lry="6200" xml:id="surface_FC">

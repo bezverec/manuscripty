@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="vkol-m-ii-153" version="4.12.0">
   <teiHeader>
     <fileDesc>
@@ -19,106 +19,237 @@
         <note>Stimulus amoris: User-supplied catalogue record,2026-10-12</note>
         <note>Contemplacio de passione Christi: https://manuscripta.cz/manuscript/VKOL_M_II_153/<ref target="https://manuscripta.cz/manuscript/VKOL_M_II_153/">Katalogový záznam</ref></note>
         <note>Manuscripta.cz uvádí hodnotu 507. Dodané digitalizační XML výslovně cituje Boháček–Čáda 1994, č. 283, s. 506–507. Podle tohoto zdrojového dokladu je 283 číslo katalogové položky a 507 stránkový odkaz; nejde o doložený bibliografický rozpor. Tištěný katalog nebyl přímo ověřen.</note>
-      </notesStmt>
+      <note type="metadata-source" corresp="urn:sha256:cc8d4487c0e784e1dfb3dbbf102f4a546338e4430330d5be74e1950e790148d8" xml:id="supplier-msdesc-vkol-m-ii-153">Úplný katalogový popis převzat z M_II_153____2Y2A3I8_CS.XML. Obsahuje fyzický popis, vazbu, historii, bibliografii a poznámky ke všem dílům. Údaje jsou tvrzení dodaného popisu, nikoli nové obrazové nebo odborné ověření. Původní XML se zachovává samostatně beze změny.</note></notesStmt>
       <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <country>Česko</country>
-            <settlement>Olomouc</settlement>
-            <repository>Vědecká knihovna v Olomouci</repository>
-            <idno>M II 153</idno>
-            <idno type="catalogue">vkol000759929</idno>
+        <msDesc xml:id="ms-vkol-m-ii-153" xml:lang="cs" corresp="https://rukopisy.digitalizaty.cz/metadata/vkol-m-ii-153/supplier.xml">
+					<msIdentifier>
+						<country>Česko</country>
+						<settlement>Olomouc</settlement>
+						<institution>Vědecká knihovna v Olomouci</institution>
+						<repository>Vědecká knihovna v Olomouci</repository>
+						<idno>M II 153</idno>
+						<idno type="catalogue">vkol000759929</idno>
             <altIdentifier type="former">
-              <idno>2 IV 25</idno>
-            </altIdentifier>
-            <altIdentifier type="former">
-              <idno>II d 25</idno>
-            </altIdentifier>
-            <altIdentifier type="project">
+							<idno>2 IV 25</idno>
+						</altIdentifier>
+						<altIdentifier type="former">
+							<idno>II d 25</idno>
+						</altIdentifier>
+					<altIdentifier type="project">
               <idno>vkol-m-ii-153</idno>
             </altIdentifier>
           </msIdentifier>
-          <msContents>
-            <summary>Kodex obsahuje více děl. Souhrnný název Textus varii („Sbírka různých textů“) pochází z dodaného digitalizačního XML. Uživatelem dodaný knihovní záznam jej označuje jako Stimulus amoris; Manuscripta.cz jako Contemplacio de passione Christi. XML řadí tato díla na ff.1r–36r a86v–92v. Rozdílné katalogové názvy se uchovávají s vlastními zdroji; nejde o ztotožnění obou textů.</summary>
+					<head>
+						<title>Textus varii</title>
+						<origDate notBefore="1350" notAfter="1400">2. polovina 14. století</origDate>
+					</head>
+					<msContents>
+						<summary>Kodex obsahuje více děl. Souhrnný název Textus varii („Sbírka různých textů“) pochází z dodaného digitalizačního XML. Uživatelem dodaný knihovní záznam jej označuje jako Stimulus amoris; Manuscripta.cz jako Contemplacio de passione Christi. XML řadí tato díla na ff.1r–36r a86v–92v. Rozdílné katalogové názvy se uchovávají s vlastními zdroji; nejde o ztotožnění obou textů.</summary>
             <msItem n="1">
-              <locus from="1r" to="1r">1r–1r</locus>
-              <title>Notae de eclipsibus</title>
-            </msItem>
-            <msItem n="2">
-              <locus from="1r" to="36r">1r–36r</locus>
-              <title>Stimulus amoris</title>
-            </msItem>
-            <msItem n="3">
-              <locus from="36r" to="36r">36r–36r</locus>
-              <title>De effectu passionis Christi versus</title>
-            </msItem>
-            <msItem n="4">
-              <locus from="36r" to="36v">36r–36v</locus>
-              <title>Oratio</title>
-            </msItem>
-            <msItem n="5">
-              <locus from="36v" to="46r">36v–46r</locus>
-              <title>Meditationes de interiori homine</title>
-            </msItem>
-            <msItem n="6">
-              <locus from="46v" to="55v">46v–55v</locus>
-              <title>Aureola animae</title>
-            </msItem>
-            <msItem n="7">
-              <locus from="55v" to="63v">55v–63v</locus>
-              <title>De arrha animae</title>
-            </msItem>
-            <msItem n="8">
-              <locus from="64r" to="64r">64r–64r</locus>
-              <title>De infirmo in articulo mortis</title>
-            </msItem>
-            <msItem n="9">
-              <locus from="64v" to="73v">64v–73v</locus>
-              <title>De tribulatione</title>
-            </msItem>
-            <msItem n="10">
-              <locus from="73v" to="74r">73v–74r</locus>
-              <title>Excerpta</title>
-            </msItem>
-            <msItem n="11">
-              <locus from="74v" to="82r">74v–82r</locus>
-              <title>Manuale</title>
-            </msItem>
-            <msItem n="12">
-              <locus from="82v" to="85v">82v–85v</locus>
-              <title>Super Salve regina</title>
-            </msItem>
-            <msItem n="13">
-              <locus from="85v" to="86r">85v–86r</locus>
-              <title>Oratio</title>
-            </msItem>
-            <msItem n="14">
-              <locus from="86v" to="92v">86v–92v</locus>
-              <title>Contemplatio de passione Christi</title>
-            </msItem>
-            <msItem n="15">
-              <locus from="92v" to="92v">92v–92v</locus>
-              <title>Pericopa evangelii secundum Lucam (I, 39-49)</title>
-            </msItem>
-            <msItem n="16">
-              <locus from="96v" to="96v">96v–96v</locus>
-              <title>Recepta medica et alia adscripta latine et germanice</title>
-            </msItem>
-          </msContents>
-          <history>
-            <origin>
-              <origDate notBefore="1350" notAfter="1400">2. polovina 14. století; podle dodaného digitalizačního popisu</origDate>
-            </origin>
-            <provenance>Dolany, kartuziáni — vazba; podle https://manuscripta.cz/manuscript/VKOL_M_II_153/. Jde o katalogové tvrzení bez nezávislého ověření.</provenance>
-          </history>
-        </msDesc>
-      </sourceDesc>
+							<locus from="1r" to="1r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#1r">1r</locus>
+							<title>Notae de eclipsibus</title>
+							<rubric>Nota ecclipses lune (1410–1432)</rubric>
+							<rubric>Nota ecclipses solis (1409-1433)</rubric>
+							<note>Rukou 18. století byl dodatečně vepsán obsah kodexu.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="2">
+							<locus from="1r" to="36r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#1r https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#36r">1r–36r</locus>
+							<title>Stimulus amoris</title>
+							<incipit>Liber iste, qui Stimulus vocatur amoris in dulcissimum Dominum nostrum Iesum Christum ... (Ps 24,1). Currite gentes undique</incipit>
+							<rubric>
+								<locus from="36r" to="36r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#36r">36r</locus>Quomodo homo debeat cor suum ignire ad amorem</rubric>
+							<explicit>ut habetur in secundo capitulo secundo huius libri amoris</explicit>
+							<note>Anonymní trojdílné zpracování stejnojmeného spisku, jehož autorem byl Iacobus Mediolanensis; v rukopisech a starých tiscích se jako autoři verze o třech knihách označují Bonaventura nebo Bernhardus Claraevallensis. Text je zde na konci třetí knihy zkrácen. Toto zkrácené znění včetně následujících veršů a modlitby je zapsáno také v rkp. Vědecké knihovny v Olomouci M I 250, ff. 98r-150v.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="3">
+							<locus from="36r" to="36r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#36r">36r</locus>
+							<title>De effectu passionis Christi versus</title>
+							<incipit>Passio debilitat, spoliat, informat, honorat</incipit>
+							<explicit>finis namque bonus reddit laudabile factum</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>H. Walther: Initia carminum ac versuum medii aevi posterioris latinorum (Alphabetisches Verzeichnis der Versanfänge mittellateinischer Dichtungen), Göttingen 1959, č. 13771</bibl>
+						</msItem>
+						<msItem n="4">
+							<locus from="36r" to="36v" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#36r https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#36v">36r-36v</locus>
+							<title>Oratio</title>
+							<rubric>Oracio optima de stimulo amoris</rubric>
+							<incipit>Iesu dulcis memoria / Dans vera cordi gaudia / Super mel et omnia / Eius dulcis presencia</incipit>
+							<explicit>Iam prosequamur laudibus, Iesum ympnis et precibus / Ut nos donet celestibus / Frui celi civibus. Amen</explicit>
+							<finalRubric>Stimulus amoris</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>H. Walther: Initia carminum ac versuum medii aevi posterioris latinorum (Alphabetisches Verzeichnis der Versanfänge mittellateinischer Dichtungen), Göttingen 1959, č. 9837</bibl>
+						</msItem>
+						<msItem n="5">
+							<locus from="36v" to="46r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#36v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#46r">36v–46r</locus>
+							<author>Pseudo-Bernardus Claraevallensis</author>
+							<title>Meditationes de interiori homine</title>
+							<rubric>Incipit liber de contemptu mundi et dicitur meditacio Bernardi</rubric>
+							<incipit>Multi multa sciunt</incipit>
+							<explicit>in quo sponsum cum sponsa prospicies unum eundemque Dominum, qui vivit et regnat per infinita secula, amen</explicit>
+							<note>
+							</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>Patrologiae cursus completus, series latina 184, col. 485-508</bibl>
+						</msItem>
+						<msItem n="6">
+							<locus from="46v" to="55v" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#46v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#55v">46v–55v</locus>
+							<title>Aureola animae</title>
+							<rubric>Incipit Aureola anime contemplantis beneficia sui redemptoris. Primo de eterno Dei verbo.</rubric>
+							<incipit>In principio erat verbum Domine Iesu Christe et verbum erat apud Deum (Io 1,1)</incipit>
+							<rubric>
+								<locus from="55r" to="55r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#55r">55r</locus>De ascensione Christi</rubric>
+							<incipit>Videntibus cunctis elevatus est</incipit>
+							<rubric>Oracio</rubric>
+							<incipit>Deus, cuius filius in alta celorum</incipit>
+							<explicit>pro nobis iudicaturus adveniat, qui tecum vivit et regnat per omnia secula seculorum, amen</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="7">
+							<locus from="55v" to="63v" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#55v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#63v">55v–63v</locus>
+							<author ref="https://www.wikidata.org/wiki/Q317554">Hugo de Sancto Victore</author>
+							<title>De arrha animae</title>
+							<rubric>Incipit Soliloquium dileccionis, quod arra anime intitulatum est</rubric>
+							<incipit>Dilecto fratri Gunthero ceterisque servis Christi ... Loquar secreto anime mee</incipit>
+							<explicit>hoc opto, hoc desidero, hoc totis precordiis concupisco. Amen.</explicit>
+							<finalRubric>Explicit Soliloquium Hugonis vel arra anime de sancto Victore</finalRubric>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>Patrologiae cursus completus, series latina 176, col. 951-970</bibl>
+							<bibl>K. Müller (ed.): Hugo von St. Victor, Soliloquium de arrha animae und De vanitate mundi, Bonn 1913, s. 1-25</bibl>
+						</msItem>
+						<msItem n="8">
+							<locus from="64r" to="64r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#64r">64r</locus>
+							<title>De infirmo in articulo mortis</title>
+							<incipit>Nota, quod infirmus in articulo mortis constitutus habet indulgenciam</incipit>
+							<explicit>non crederem eum gaudere de indulgentiis predictis etc.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="9">
+							<locus from="64v" to="73v" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#64v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#73v">64v–73v</locus>
+							<title>De tribulatione</title>
+							<incipit>Da nobis Domine auxilium de tribulacione (Ps 59,13. 107,13). Cum anime tribulate et temptate proponitur verbum hoc</incipit>
+							<explicit>nam revera est necesse, ut quem mundus odit, Deus diligat.</explicit>
+							<finalRubric>Explicit</finalRubric>
+							<note>Za autora je někdy považován Petr z Blois.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="10">
+							<locus from="73v" to="74r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#73v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#74r">73v–74r</locus>
+							<title>Excerpta</title>
+							<rubric>Augustinus ad Valerium</rubric>
+							<incipit>Ante omnia peto, ut cogitet tua religiosa prudencia</incipit>
+							<explicit>et Dei gracia eo, quod eam mereamur. Amen.</explicit>
+							<note>Z Augustinova listu Valeriovi pochází jen úvodní část.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="11">
+							<locus from="74v" to="82r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#74v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#82r">74v–82r</locus>
+							<author ref="https://www.wikidata.org/wiki/Q1241114">Pseudo-Augustinus</author>
+							<title>Manuale</title>
+							<incipit>Quoniam in medio laqueorum positi sumus</incipit>
+							<explicit>presente atque conducente et subsequente gracia Domini nostri Iesu Christi, qui cum Deo Patre (etc.) amen. Amen dicant omnia.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="12">
+							<locus from="82v" to="85v" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#82v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#85v">82v–85v</locus>
+							<author>Pseudo-Bernardus Claraevallensis</author>
+							<title>Super Salve regina</title>
+							<incipit>Ad salutandam Virginem Mariam</incipit>
+							<explicit>clemens es subiectis, pia incorrectis, dulcis preelectis amen</explicit>
+							<note>Společně s následující modlitbou je výklad zapsán také v rukopisu Vědecké knihovny v Olomouci M I 250, ff. 191r-195v.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>Patrologiae cursus completus, series latina 184, col. 1077-1080</bibl>
+						</msItem>
+						<msItem n="13">
+							<locus from="85v" to="86r" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#85v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#86r">85v–86r</locus>
+							<title>Oratio</title>
+							<rubric>Oracio devota de beata Virgine</rubric>
+							<incipit>Consolatrix omnium devotorum</incipit>
+							<explicit>et eius portas exeundo fregit amen</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="14">
+							<locus from="86v" to="92v" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#86v https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#92v">86v–92v</locus>
+							<author>Pseudo-Bernardus Claraevallensis</author>
+							<author ref="https://www.wikidata.org/wiki/Q33243380">Pseudo-Beda Venerabilis</author>
+							<title>Contemplatio de passione Christi</title>
+							<incipit>Septies in die laudem dixi tibi (Ps 118,164). Rogasti me, ut aliquem modum contemplandi in passione Dei tui monstrarem tibi secundum septem horas diei</incipit>
+							<explicit>recomendabis me et te sibi in amorem eiusdem Domini nostri Ihesu Christi, qui cum Deo Patre etc. </explicit>
+							<finalRubric>Explicit contemplatio devotissima sancti Bernhardi abbatis super septem horas canonicas de passione Domini nostri Iesu Christi salvatoris</finalRubric>
+							<colophon>Explicit hoc totum, infunde, da mihi potum. Nomen scriptoris, si tu cognoscere velis, NI tibi sit primum, CO</colophon>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>Patrologiae cursus completus, series latina 94, col. 561-568</bibl>
+						</msItem>
+						<msItem n="15">
+							<locus from="92v" to="92v" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#92v">92v</locus>
+							<title>Pericopa evangelii secundum Lucam (I, 39-49)</title>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="16">
+							<locus from="96v" to="96v" target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-ii-153#96v">96v</locus>
+							<title>Recepta medica et alia adscripta latine et germanice</title>
+							<textLang mainLang="la" otherLangs="de">latinsky, německy</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<p>
+							<term>Kodex, kniha, rukopis.</term>
+						</p>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>Papír.</support>
+								<extent>96 ff. 
+<dimensions type="leaf" unit="cm">
+										<height>30</height>
+										<width>21</width>
+									</dimensions>
+								</extent>
+								<collation>Skladba: 5.VI + 1.VII + 1.V + 1.VI (96 ff.).</collation>
+							</supportDesc>
+						</objectDesc>
+						<bindingDesc>
+							<binding>
+								<p>Dřevěné desky potažené usní natřenou černou barvou s bílým hřbetem. Restaurováno v roce 2022.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin notBefore="1350" notAfter="1400">2. polovina 14. století</origin>
+						<provenance>Dřívější vlastník: Podle vazby 
+<orgName type="owner">
+								<placeName key="29465" cert="medium">kartuziánský klášter v Dolanech</placeName>
+							</orgName> (nelze ale s jistotou říci, zda ještě v době, kdy klášter sídlil v Dolanech, nebo až po jeho přestěhování do Olomouce).</provenance>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Popis vytvořen 7. 7. 2026 podle podkladů VK Olomouc.</p>
+							</recordHist>
+						</adminInfo>
+						<listBibl>
+							<bibl>BOHÁČEK, Miroslav – ČÁDA, František: Beschreibung der mittelalterlichen Handschriften der Wissenschaftlichen Staatsbibliothek von Olmütz. Köln – Weimar – Wien 1994, č. 283, s. 506–507.</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <p>Tento TEI obsahuje doloženou identifikaci, katalogový soupis děl a seznam digitalizovaných snímků. Přepisy a interpretace jsou dostupné v jednotlivých navázaných souborech. Validita XML nepotvrzuje správnost četby.</p>
-      </editorialDecl>
-    </encodingDesc>
+      <p xml:id="supplier-msdesc-conversion-vkol-m-ii-153">Popis msDesc je převeden do jmenného prostoru TEI P5 4.12.0. Zachováno je původní znění, vnořené položky, bibliografie, datace i míry jistoty; projektové identifikátory a původní ediční poznámky zůstávají oddělené. Odkazy locus míří na příslušná folia prohlížeče; původní #IDf001v se mapuje na existující #surface_F001v tam, kde je tento odkaz použit. Původní text a facsimile projektu se nemění.</p></editorialDecl>
+    <classDecl>
+				<taxonomy xml:id="tax.mns">
+					<category xml:id="tax.mns.conspectus">
+						<catDesc>Conspectus</catDesc>
+						<category xml:id="xxx">
+							<catDesc xml:id="tax.mns.conspectus.000">
+							</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
   </teiHeader>
   <text>
     <body>
