@@ -40,8 +40,8 @@ for (const manuscript of manuscripts) {
 }
 assert.equal(manuscripts.find(m=>m.doc.id==='vkol-m-ii-220').data.pages.length,677,'M II 220 acceptance corpus');
 const sitemap=await fs.readFile(path.join(publicRoot,'sitemap.xml'),'utf8');
-const sitemapUrls=new Set(manuscripts.flatMap(m=>[m.doc.uri,m.doc.reader,...m.data.pages.map(p=>folioUrl(m.doc,p.folio))]));sitemapUrls.add(manuscripts[0].origin+'/');sitemapUrls.add(manuscripts[0].origin+'/summary');
-for(const {data,origin} of manuscripts) if(data.summary_url)sitemapUrls.add(new URL(data.summary_url,origin).href);
+const sitemapUrls=new Set(manuscripts.flatMap(m=>[m.doc.uri,m.doc.reader,...m.data.pages.map(p=>folioUrl(m.doc,p.folio))]));sitemapUrls.add(manuscripts[0].origin+'/');
+
 assert.equal((sitemap.match(/<url>/g)||[]).length,sitemapUrls.size);
 assert.ok((await fs.readFile(path.join(publicRoot,'robots.txt'),'utf8')).includes('Sitemap: https://rukopisy.digitalizaty.cz/sitemap.xml'));
 await assert.rejects(publicFile('../package.json'),/escapes/);

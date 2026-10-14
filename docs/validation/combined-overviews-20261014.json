@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "scope": "Only high-level AI summary JSON and presentation; original thematic readings, evidence links, supplier XML and page data preserved.",
+  "manuscripts": [
+    {
+      "document_id": "vkol-m-ii-220",
+      "path": "web/public/summary.json",
+      "before_sha256": "db3b0510b7c5c0011f159c7de27a8655b5b6182ad18d415db44115253ef45987",
+      "after_sha256": "dc78b19736102a4464ceeefb134859f9553dc719075bfb3f5ed0fefc7aa2986e",
+      "supplier_sha256": "7151f2795ae2cf8d301ccd4aeb815d980604f58c513b525f961cc7a2941e3632",
+      "thematic_readings_and_source_links_unchanged": true,
+      "expert_review": false
+    },
+    {
+      "document_id": "vkol-m-ii-153",
+      "path": "web/public/data/vkol-m-ii-153/summary.json",
+      "before_sha256": "5b800ea4992cb3896d10de773da9d435b3c1d6bb37c87e45846824d79dc04935",
+      "after_sha256": "b5d66192be4622791979dfaa34e57cb18867e48531ac51426146acbbefe72f88",
+      "supplier_sha256": "cc8d4487c0e784e1dfb3dbbf102f4a546338e4430330d5be74e1950e790148d8",
+      "thematic_readings_and_source_links_unchanged": true,
+      "expert_review": false
+    }
+  ],
+  "baseline_commit": "f4c837587798b31f7e9471bb72320f8e2aa7118a",
+  "existing_protected_files_checked": 6964,
+  "changed_protected_files": [
+    "web/public/data/vkol-m-ii-153/summary.json",
+    "web/public/summary.json"
+  ],
+  "publication_tests": 25,
+  "ui_report": "combined-overview-ui-20261014.json",
+  "all_thematic_texts_and_source_links_equal_to_baseline": true,
+  "source_description_text_nodes_preserved": 602
+}

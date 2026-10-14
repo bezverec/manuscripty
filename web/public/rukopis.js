@@ -187,7 +187,7 @@ window.MANUSCRIPT_READY.then(() => {
   $('#document-description-title').textContent=DATA.title;
   $('#description-shelfmark').textContent=shelfmark;
   if(DATA.description_cs)$('#document-description-detail').textContent=DATA.description_cs;
-  document.querySelectorAll('[data-summary-link]').forEach(a=>a.href=DATA.summary_url || '/summary');
+  document.querySelectorAll('[data-summary-link]').forEach(a=>a.href=DATA.document.uri+'#ai-shrnuti');
   if(DATA.document.id==='vkol-m-ii-153'){
     $('#structure-basis').textContent='Katalogové členění podle dodaného digitalizačního popisu; názvy interpretačních pasáží jsou pracovní návrhy AI. Rozsahy děl se mohou překrývat.';
     $('#line-reading-notice').textContent='Pracovní čtení bez odborné revize. Zobrazujeme oba původní HTR, příznaky a pasážové poznámky; slovní geometrie není určena.';

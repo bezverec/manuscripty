@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css?v=20261012-6">
   <script src="vendor/openseadragon-6.1.1.min.js" defer></script>
   <script src="viewer-layout.js?v=20261012-6" defer></script>
-  <script src="document-loader.js?v=20261012-6" defer></script><script src="structure.js?v=20261012-6" defer></script><script src="rukopis.js?v=20261012-6" defer></script><script type="module" src="corrections.js?v=20261012-6"></script>
+  <script src="document-loader.js?v=20261012-6" defer></script><script src="structure.js?v=20261012-6" defer></script><script src="rukopis.js?v=20261014-2" defer></script><script type="module" src="corrections.js?v=20261012-6"></script>
 <link rel="canonical" href="https://rukopisy.digitalizaty.cz/rukopis"><meta name="description" content="Prohlížejte obraz rukopisu M II 220, původní HTR, řádkové čtení, rekonstrukci a český překlad."><link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261012-6">
 <meta property="og:title" content="M II 220 · řádková analýza a překlad">
 <meta property="og:description" content="Prohlížejte obraz rukopisu M II 220, původní HTR, řádkové čtení, rekonstrukci a český překlad.">
@@ -33,11 +33,11 @@
       </div>
     </div>
     <div class="app-actions">
-      <div class="more-actions"><button type="button" class="btn btn--icon" id="more-actions-toggle" aria-expanded="false" aria-controls="more-actions-panel" aria-label="Další akce">⋯</button><nav id="more-actions-panel" aria-label="Další akce prohlížeče" hidden><a class="btn" data-summary-link href="/summary">AI shrnutí</a><button type="button" class="btn" data-goto-tab="citace">Citovat</button></nav></div>
+      <div class="more-actions"><button type="button" class="btn btn--icon" id="more-actions-toggle" aria-expanded="false" aria-controls="more-actions-panel" aria-label="Další akce">⋯</button><nav id="more-actions-panel" aria-label="Další akce prohlížeče" hidden><a class="btn" data-summary-link href="/rukopisy/vkol-m-ii-220#ai-shrnuti">AI shrnutí</a><button type="button" class="btn" data-goto-tab="citace">Citovat</button></nav></div>
       <button type="button" class="btn desktop-action" data-goto-tab="citace">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h4v4H7zM13 7h4v4h-4zM7 11c0 3-1 5-3 6M13 11c0 3-1 5-3 6"/></svg><span class="label">Citovat</span>
       </button>
-      <a class="btn desktop-action" data-summary-link href="/summary">AI shrnutí</a>
+      <a class="btn desktop-action" data-summary-link href="/rukopisy/vkol-m-ii-220#ai-shrnuti">AI shrnutí</a>
       <a class="btn" id="manifest-link" href="#" hidden>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg><span class="label">IIIF manifest</span>
       </a>
@@ -110,7 +110,7 @@
       </div>
       <div role="tabpanel" id="panel-about" aria-labelledby="tab-about" hidden>
       <section class="tabpanel stack" id="panel-popis" aria-label="Popis">
-        <h2 id="document-description-title">Rukopis M II 220</h2><p>Rukopis z fondů <a href="https://www.vkol.cz/">Vědecké knihovny v Olomouci</a>, signatura <span id="description-shelfmark">M II 220</span>. <a class="link-accent" data-document-link href="/rukopisy/vkol-m-ii-220">Záznam celého dokumentu →</a></p><p><a class="link-accent" data-summary-link href="/summary">AI shrnutí obsahu s odkazy na folia →</a></p><p id="document-description-detail" class="prose">Veřejný pilot obsahuje 670 foliovaných skenů a sedm snímků desek, přídeští, předsádky a hřbetu. Na 664 stranách je vybraný hlavní text, šest stran má záznam bez vybraného hlavního textu. Strana 20v obsahuje podrobnou slovní analýzu; ostatní strany mají původní HTR a pracovní rekonstrukci s překladem po pasážích.</p><p class="prose">Obraz se načítá pomocí dlaždic v původním rozlišení. Dlaždice i výřezy používají ztrátovou prezentační kompresi WebP Q90. Zpracování se týká vybraného hlavního textu; datace, bibliografický popis a licence se doplní podle doložených metadat.</p>
+        <h2 id="document-description-title">Rukopis M II 220</h2><p>Rukopis z fondů <a href="https://www.vkol.cz/">Vědecké knihovny v Olomouci</a>, signatura <span id="description-shelfmark">M II 220</span>. <a class="link-accent" data-document-link href="/rukopisy/vkol-m-ii-220">Záznam celého dokumentu →</a></p><p><a class="link-accent" data-summary-link href="/rukopisy/vkol-m-ii-220#ai-shrnuti">AI shrnutí obsahu s odkazy na folia →</a></p><p id="document-description-detail" class="prose">Veřejný pilot obsahuje 670 foliovaných skenů a sedm snímků desek, přídeští, předsádky a hřbetu. Na 664 stranách je vybraný hlavní text, šest stran má záznam bez vybraného hlavního textu. Strana 20v obsahuje podrobnou slovní analýzu; ostatní strany mají původní HTR a pracovní rekonstrukci s překladem po pasážích.</p><p class="prose">Obraz se načítá pomocí dlaždic v původním rozlišení. Dlaždice i výřezy používají ztrátovou prezentační kompresi WebP Q90. Zpracování se týká vybraného hlavního textu; datace, bibliografický popis a licence se doplní podle doložených metadat.</p>
       </section>
       <section class="tabpanel stack" id="panel-analyza" aria-label="Zpracování"><div id="processing-info"></div></section>
       <!-- Struktura -->
