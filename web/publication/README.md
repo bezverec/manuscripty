@@ -6,6 +6,15 @@ rukopisu. Samostatnou aktualizaci veřejných popisů lze provést příkazem
 `python catalogue_records.py --public-root /site/public`; přidá katalogový obsah
 M II 220 a odstraní oznámení o fixity z obou popisů.
 
+`supplier_descriptions.py --public-root /site/public` doplní úplné dodané
+popisy obou rukopisů: fyzické vlastnosti, historii, bibliografii i rozbalovací
+podrobnosti všech děl. Archivní kopie v `source-metadata/` se kontrolují přes
+SHA proti metadatům dokumentu. Veřejné původní XML zůstává bajtově stejné,
+JSON uchovává celou hlavičku včetně všech atributů a původního textu.
+Kontrola hlídá převzetí každého neprázdného textového uzlu popisu; neznámá
+popisná pole musí dostat výslovné mapování. Výzkumné přepisy se nemění.
+Původní XML je dodaný formát, nikoli nově vytvořený TEI P5 4.12.0 export.
+
 Python3.10+ a lxml. Tento adresář neobsahuje rukopisné obrazy, výzkumné výsledky,
 secrets ani síťové/deployment příkazy. Výstup je merge overlay stávajícího webu,
 nikoli kompletní samostatný web. Výzkumné vstupy a stávající public strom se pouze čtou.

@@ -58,4 +58,7 @@ def update_records(public):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--public-root', type=Path, required=True)
-    update_records(parser.parse_args().public_root.resolve())
+    public = parser.parse_args().public_root.resolve()
+    update_records(public)
+    from supplier_descriptions import update_descriptions
+    update_descriptions(public)

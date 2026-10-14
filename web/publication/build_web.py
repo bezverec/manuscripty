@@ -392,6 +392,8 @@ def build(args):
     write(out / "rukopisy" / (DOC + ".html"), decorate_record(record,doc,description))
     homepage = (out / "index.html").read_text(encoding="utf-8").replace("{COUNT}", str(len(pages))).replace("{DOCUMENT_TITLE}", html.escape(doc["title"]))
     write(out / "index.html", homepage)
+    from supplier_descriptions import update_descriptions
+    update_descriptions(out)
     dump(report_dir / "build-report.json", {"status": "passed", "scope": "staged overlay only", "source": str(source), "output": str(out), "counts": counts, "publication_ready": data["publication_ready"], "required_missing": required_missing, "base_files_sha256": originals, "tei": {"version": "4.12.0", "validation": "Relax NG passed", "validated_web_documents": web_tei_count + 2, "schema_sha256": digest(args.rng), "web_facsimile_uri_semantics": "Public tiled viewer URI, not direct image resource; explained in encodingDesc"}, "images_in_pages_payload": False, "uploaded": False, "committed": False})
     print(json.dumps({"status": "passed", "counts": counts, "publication_ready": data["publication_ready"], "output": str(out)}))
 
