@@ -15,6 +15,14 @@ Kontrola hlídá převzetí každého neprázdného textového uzlu popisu; nezn
 popisná pole musí dostat výslovné mapování. Výzkumné přepisy se nemění.
 Původní XML je dodaný formát, nikoli nově vytvořený TEI P5 4.12.0 export.
 
+`enrich_document_tei.py --public-root /site/public` převádí celý dodaný `msDesc`
+také do hlavních TEI popisů. Používá připnuté Relax NG schéma P5 4.12.0;
+kontroluje všechny textové části zdroje, lokální odkazy a neměnnost `text`
+i `facsimile` přes C14N. Zachovává projektové identifikátory a dřívější ediční
+poznámky. Argument `--manifest` smí zaznamenat pouze tyto dva ověřené zásahy
+do hlaviček; předchozí SHA musí souhlasit. Obecná ochrana výzkumných souborů
+zůstává v `update_source_manifest.py` beze změny. `--report` uloží podrobný audit.
+
 Python3.10+ a lxml. Tento adresář neobsahuje rukopisné obrazy, výzkumné výsledky,
 secrets ani síťové/deployment příkazy. Výstup je merge overlay stávajícího webu,
 nikoli kompletní samostatný web. Výzkumné vstupy a stávající public strom se pouze čtou.
