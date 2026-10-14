@@ -1,0 +1,10 @@
+.source-fields{display:grid;grid-template-columns:minmax(8rem,12rem) minmax(0,1fr);gap:.4rem 1rem;margin:1rem 0}
+.source-fields dt{font-weight:600}.source-fields dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.source-entry{border:1px solid var(--line,#ddd);margin:.8rem 0;background:var(--paper,#fff)}
+.source-entry>summary{cursor:pointer;padding:1rem;overflow-wrap:anywhere}
+.source-entry>summary:focus-visible{outline:2px solid var(--accent,#263bb5);outline-offset:2px}
+.source-entry[open]>summary{border-bottom:1px solid var(--line,#ddd)}
+.source-prose{padding:0 1rem 1rem;overflow-wrap:anywhere;line-height:1.7}
+.source-qualifier{color:var(--muted,#555);font-size:.9em}
+#zdrojovy-popis section{margin:1.5rem 0}#zdrojovy-popis p{overflow-wrap:anywhere}
+@media(max-width:600px){.source-fields{grid-template-columns:1fr;gap:.25rem}.source-fields dd{margin-bottom:.7rem}.source-prose{padding:0 .75rem .75rem}}
