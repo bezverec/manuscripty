@@ -29,6 +29,10 @@ def decorate_record(text):
     text, count = re.subn(r'(<div class="hero-actions">.*?</div>)', lambda m: m[1]+CREDIT, text, count=1, flags=re.S)
     if count != 1:
         raise ValueError('Missing manuscript overview actions')
+    summary_credit = CREDIT.replace('aria-label="Podpora digitalizace"', 'aria-label="Podpora digitalizace předlohy u shrnutí"', 1)
+    text, count = re.subn(r'(<article id="ai-shrnuti"[^>]*>)', lambda m: m[1]+summary_credit, text)
+    if count > 1:
+        raise ValueError('Ambiguous AI summary section')
     return stylesheet(text)
 
 
