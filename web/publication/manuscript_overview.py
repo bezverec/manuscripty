@@ -13,6 +13,7 @@ from pathlib import Path
 from lxml import etree
 from supplier_descriptions import IDS, SHA as SOURCE_HASHES, PACKAGE
 from markup import normalize_html
+from digitization_support import decorate_record as support_record, install_assets as support_assets
 
 REV = '20261014-2'
 SUMMARY_PATHS = {IDS[0]: 'summary.json', IDS[1]: 'data/'+IDS[1]+'/summary.json'}
@@ -128,7 +129,7 @@ def render(public, ident, summary):
     ids = tree.xpath('//@id')
     if len(ids) != len(set(ids)) or len(tree.xpath('//article[@id="ai-shrnuti"]')) != 1:
         raise ValueError('Ambiguous overview IDs')
-    return path, normalize_html(record).encode('utf8')
+    return path, normalize_html(support_record(record)).encode('utf8')
 
 
 def update(public, manifest_path=None, report_path=None):
@@ -164,6 +165,7 @@ def update(public, manifest_path=None, report_path=None):
                 rules += rule+'\n'
     redirects.write_text(rules, encoding='utf8', newline='\n')
     (public/'overview.js').write_bytes((PACKAGE/'overview.js').read_bytes())
+    support_assets(public)
     if manifest:
         manifest_path.write_bytes(dump(manifest))
     report = {'status': 'passed', 'scope': 'Only high-level AI summary JSON and presentation; original thematic readings, evidence links, supplier XML and page data preserved.', 'manuscripts': reports}

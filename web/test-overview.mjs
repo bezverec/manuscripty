@@ -39,6 +39,10 @@ try{
   assert.equal(await page.locator('.ai-theme').count(),7);
   assert.equal(await page.locator('.source-entry').count(),items);
   assert.equal(await page.locator('.source-label').count(),2);
+  assert.equal(await page.locator('.digitization-support').count(),1);
+  assert.equal(await page.locator('.digitization-support p').innerText(),'Zdigitalizováno ve VISK 6');
+  await page.locator('.digitization-support img').waitFor({state:'visible'});
+  assert.ok(await page.locator('.digitization-support img').evaluate(img=>img.complete && img.naturalWidth>0 && img.getBoundingClientRect().width<=150),'Official logo must load at a modest size');
   assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-'+id);
   await page.locator('#prehled-navigace a[href="#ai-shrnuti"]').click();
   await page.locator('#ai-shrnuti a[href^="#catalogue-item-"]').first().click();
@@ -61,6 +65,6 @@ try{
  }
  assert.deepEqual(errors,[]);
  const report={status:'passed',checks,former_summary_redirects_preserve_fragments:true,catalogue_links_open_exact_items:true,no_js_readable:true,browser_pageerrors:errors};
- await fs.writeFile('../docs/validation/combined-overview-ui-20261014.json',JSON.stringify(report,null,2)+'\n');
+ await fs.writeFile(process.env.OVERVIEW_REPORT||'../docs/validation/combined-overview-ui-20261014.json',JSON.stringify(report,null,2)+'\n');
  console.log(JSON.stringify(report));
 }finally{await browser?.close();server.close();}

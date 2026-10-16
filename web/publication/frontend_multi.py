@@ -21,7 +21,8 @@ def decorate_record(record,doc,description):
  if 'data-folio-search' not in record:
   search=f'<section class="folio-search" data-folio-search data-document="{doc["id"]}"><h2>Hledat v textech tohoto rukopisu</h2><form role="search"><label for="folio-search-query">Slovo nebo část textu<input class="field" id="folio-search-query" name="q" type="search" required></label><button class="btn btn--primary" type="submit">Hledat</button></form><p class="folio-search-status" role="status" aria-live="polite"></p><ol class="folio-search-results"></ol><button class="btn folio-search-more" type="button" data-search-more hidden>Další výsledky</button><noscript><p>Vyhledávání vyžaduje JavaScript. Textové stránky lze číst bez něj.</p></noscript></section>'
   record=record.replace('</main>',search+'</main>')
- return record
+ from digitization_support import decorate_record as support_record
+ return support_record(record)
 def write(path,text):
  if path.suffix=='.html':
   from markup import normalize_html
@@ -84,7 +85,9 @@ def patch_frontend(base,out,legacy_doc):
  h=h.replace('href="/summary"','data-summary-link href="/summary"')
  h=re.sub(r'\?v=20261012-[1-5]', '?v='+REV,h)
  h=h.replace('rukopis.js?v='+REV, 'rukopis.js?v=20261014-2')
- write(out/'rukopis.html',h)
+ from digitization_support import decorate_viewer, install_assets
+ write(out/'rukopis.html',decorate_viewer(h))
+ install_assets(out)
  s=load('structure.js')
  s=once(s,"fetch('structure.json?v=20261011-6')","fetch((window.PILOT_DATA.structure_url || 'structure.json')+'?v="+REV+"')")
  s=once(s,"  host.innerHTML=groups.length?","  const catalogue=(structure.catalogue_items||[]).filter(i=>!query||normalized(i.title+' '+i.from+' '+i.to).includes(query)).map(i=>'<li><button type=\"button\" data-structure-folio=\"'+esc(i.from)+'\">'+esc(i.title)+'</button> · '+esc(i.from+'–'+i.to)+'</li>').join('');\n  host.innerHTML=(catalogue?'<details class=\"structure-group\" open><summary>Katalogový obsah kodexu</summary><ol>'+catalogue+'</ol></details>':'')+(groups.length?")
