@@ -1,0 +1,30 @@
+:root[data-theme="light"]{color-scheme:light}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#13171d;--surface:#1c222b;--subtle:#252d38;--stage:#171b22;
+  --ink:#e6eaf0;--ink-2:#c3cbd6;--muted:#aab4c2;--line:#394453;--line-strong:#556172;
+  --accent:#adc2ff;--accent-hover:#c5d3ff;--accent-ink:#cfdbff;--accent-soft:#283654;
+  --unsure:#49371d;--unsure-ink:#ffe0a1;--ok:#193c32;--ok-ink:#b4ebd2;
+  --text:var(--ink);--border:var(--line);--paper:var(--surface);
+}
+.theme-toggle{flex-shrink:0;gap:.5rem;min-width:44px;cursor:pointer}
+.theme-toggle[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent-ink);border-color:var(--accent)}
+.theme-toggle svg{flex:none}
+html[data-theme="dark"] .btn--primary,html[data-theme="dark"] .btn--primary:hover,
+html[data-theme="dark"] .view-tab[aria-selected="true"],html[data-theme="dark"] #segmentation-draw[aria-pressed="true"]{color:#101725}
+html[data-theme="dark"] .chip[aria-pressed="true"]{color:var(--bg)}
+html[data-theme="dark"] .source-label{background:#30312b;color:#dfdac5}
+html[data-theme="dark"] .context-pair{background:#222c3e;border-color:#3c4a66}
+html[data-theme="dark"] .ai-label{border-color:var(--line-strong)}
+html[data-theme="dark"] .ai-theme{background:var(--surface)}
+html[data-theme="dark"] .line.is-selected{background:var(--accent-soft);box-shadow:inset 0 0 0 1.5px var(--accent)}
+html[data-theme="dark"] .citation{background:var(--subtle)}
+html[data-theme="dark"] .toolbar,html[data-theme="dark"] .question-card{border-color:var(--line-strong)}
+html[data-theme="dark"] .toolbar .sep{background:var(--line-strong)}
+html[data-theme="dark"] .correction-dialog{background:var(--surface);color:var(--ink);border-color:var(--line-strong)}
+html[data-theme="dark"] input::placeholder,html[data-theme="dark"] textarea::placeholder{color:var(--muted);opacity:1}
+html[data-theme="dark"] #load-status{color:var(--muted)}
+/* Keep the official positive logo legible on its original light background. */
+html[data-theme="dark"] .digitization-support a{background:#fff;padding:6px}
+@media(max-width:600px){.theme-toggle .theme-label{display:none}.theme-toggle{padding:0;width:36px;min-width:36px;height:36px}.site-header .container{gap:12px 16px}}
+@media print{.theme-toggle{display:none}}
