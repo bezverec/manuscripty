@@ -39,10 +39,10 @@ try{
   assert.equal(await page.locator('.ai-theme').count(),7);
   assert.equal(await page.locator('.source-entry').count(),items);
   assert.equal(await page.locator('.source-label').count(),2);
-  assert.equal(await page.locator('.digitization-support').count(),1);
-  assert.equal(await page.locator('.digitization-support p').innerText(),'Zdigitalizováno ve VISK 6');
-  await page.locator('.digitization-support img').waitFor({state:'visible'});
-  assert.ok(await page.locator('.digitization-support img').evaluate(img=>img.complete && img.naturalWidth>0 && img.getBoundingClientRect().width<=150),'Official logo must load at a modest size');
+  assert.equal(await page.locator('.digitization-support').count(),2);
+  assert.deepEqual(await page.locator('.digitization-support p').allTextContents(),['Zdigitalizováno ve VISK 6','Zdigitalizováno ve VISK 6']);
+  await page.locator('.digitization-support img').first().waitFor({state:'visible'});
+  assert.ok(await page.locator('.digitization-support img').first().evaluate(img=>img.complete && img.naturalWidth>0 && img.getBoundingClientRect().width<=150),'Official logo must load at a modest size');
   assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-'+id);
   await page.locator('#prehled-navigace a[href="#ai-shrnuti"]').click();
   await page.locator('#ai-shrnuti a[href^="#catalogue-item-"]').first().click();
@@ -51,10 +51,12 @@ try{
   for(const width of [1440,390]){
    await page.setViewportSize({width,height:width===390?844:900});
    await page.goto(origin+'/rukopisy/vkol-m-ii-'+id+'#ai-shrnuti');
+   await page.locator('#ai-shrnuti .digitization-support img').waitFor({state:'visible'});
+   assert.ok(await page.locator('#ai-shrnuti .digitization-support img').evaluate(img=>{const r=img.getBoundingClientRect();return img.complete&&img.naturalWidth>0&&r.width<=150&&r.top>=0&&r.bottom<=innerHeight;}),'Direct summary link must show the credit logo in the viewport');
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No horizontal overflow');
    const axe=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
    assert.deepEqual(axe.violations,[]);
-   checks.push({document_id:'vkol-m-ii-'+id,width,html_valid:true,axe_violations:0,theme_links:7,catalogue_items:items});
+   checks.push({document_id:'vkol-m-ii-'+id,width,html_valid:true,axe_violations:0,theme_links:7,catalogue_items:items,summary_credit_visible_on_direct_fragment:true});
   }
   const withoutJS=await browser.newContext({javaScriptEnabled:false}),plain=await withoutJS.newPage();
   await plain.goto(origin+'/rukopisy/vkol-m-ii-'+id);

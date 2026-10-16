@@ -2,8 +2,10 @@
 
 `digitization_support.py --public-root /site/public` přidá malé označení
 „Zdigitalizováno ve VISK 6“ a původní logo Ministerstva kultury k oběma
-přehledům a do části Popis společného prohlížeče. Zdrojové SVG v `assets/`
-je připnuté SHA, kopíruje se beze změny a nevyžaduje síť při sestavení.
+přehledům a do části Popis společného prohlížeče.
+V přehledech se označení opakuje také na začátku sekce `#ai-shrnuti`, aby
+bylo vidět při otevření přímého odkazu na shrnutí.
+Zdrojové SVG v `assets/` je připnuté SHA, kopíruje se beze změny a nevyžaduje síť při sestavení.
 Generátory přehledů i společného prohlížeče zachovávají stejné označení.
 Podpora se vztahuje k digitalizaci rukopisů; nejde o označení výkladů AI.
 
