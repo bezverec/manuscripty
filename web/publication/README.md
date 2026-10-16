@@ -1,5 +1,12 @@
 # Přenositelné sestavení M II153
 
+`digitization_support.py --public-root /site/public` přidá malé označení
+„Zdigitalizováno ve VISK 6“ a původní logo Ministerstva kultury k oběma
+přehledům a do části Popis společného prohlížeče. Zdrojové SVG v `assets/`
+je připnuté SHA, kopíruje se beze změny a nevyžaduje síť při sestavení.
+Generátory přehledů i společného prohlížeče zachovávají stejné označení.
+Podpora se vztahuje k digitalizaci rukopisů; nejde o označení výkladů AI.
+
 Popis M II 220 používá také `mii220-catalogue.json`: 57 hlavních položek a sedm
 pododdílů opsaných z dodaného XML. Jeho zdrojový SHA se kontroluje proti metadatům
 rukopisu. Samostatnou aktualizaci veřejných popisů lze provést příkazem
