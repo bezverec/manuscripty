@@ -13,6 +13,7 @@ from pathlib import Path
 from lxml import etree
 from supplier_descriptions import IDS, SHA as SOURCE_HASHES, PACKAGE
 from markup import normalize_html
+from color_theme import decorate as theme_html, install_assets as theme_assets
 from digitization_support import decorate_record as support_record, install_assets as support_assets
 
 REV = '20261014-2'
@@ -129,7 +130,7 @@ def render(public, ident, summary):
     ids = tree.xpath('//@id')
     if len(ids) != len(set(ids)) or len(tree.xpath('//article[@id="ai-shrnuti"]')) != 1:
         raise ValueError('Ambiguous overview IDs')
-    return path, normalize_html(support_record(record)).encode('utf8')
+    return path, theme_html(normalize_html(support_record(record))).encode('utf8')
 
 
 def update(public, manifest_path=None, report_path=None):
@@ -148,7 +149,7 @@ def update(public, manifest_path=None, report_path=None):
         outputs += [(path, raw), render(public, ident, updated)]
         url = '/rukopisy/'+ident
         alias = '<!doctype html><html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Shrnutí a popis rukopisu</title><link rel="canonical" href="'+ORIGIN+url+'"><link rel="stylesheet" href="/styles.css?v=20261012-6"></head><body><main class="container section"><h1>Shrnutí je součástí přehledu rukopisu</h1><p><a href="'+url+'#ai-shrnuti">Otevřít popis, výklad AI a zdroje</a></p></main></body></html>\n'
-        outputs.append((public/ALIASES[ident], normalize_html(alias).encode('utf8')))
+        outputs.append((public/ALIASES[ident], theme_html(normalize_html(alias)).encode('utf8')))
         reports.append({'document_id': ident, 'path': manifest_key, 'before_sha256': sha(old), 'after_sha256': sha(raw), 'supplier_sha256': updated['catalogue_context']['source_sha256'], 'thematic_readings_and_source_links_unchanged': True, 'expert_review': False})
     # Write only after BOTH identities, source SHAs, previous summary hashes and HTML pass.
     for path, raw in outputs:
@@ -166,6 +167,7 @@ def update(public, manifest_path=None, report_path=None):
     redirects.write_text(rules, encoding='utf8', newline='\n')
     (public/'overview.js').write_bytes((PACKAGE/'overview.js').read_bytes())
     support_assets(public)
+    theme_assets(public)
     if manifest:
         manifest_path.write_bytes(dump(manifest))
     report = {'status': 'passed', 'scope': 'Only high-level AI summary JSON and presentation; original thematic readings, evidence links, supplier XML and page data preserved.', 'manuscripts': reports}

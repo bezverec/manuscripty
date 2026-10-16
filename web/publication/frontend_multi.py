@@ -22,7 +22,8 @@ def decorate_record(record,doc,description):
   search=f'<section class="folio-search" data-folio-search data-document="{doc["id"]}"><h2>Hledat v textech tohoto rukopisu</h2><form role="search"><label for="folio-search-query">Slovo nebo část textu<input class="field" id="folio-search-query" name="q" type="search" required></label><button class="btn btn--primary" type="submit">Hledat</button></form><p class="folio-search-status" role="status" aria-live="polite"></p><ol class="folio-search-results"></ol><button class="btn folio-search-more" type="button" data-search-more hidden>Další výsledky</button><noscript><p>Vyhledávání vyžaduje JavaScript. Textové stránky lze číst bez něj.</p></noscript></section>'
   record=record.replace('</main>',search+'</main>')
  from digitization_support import decorate_record as support_record
- return support_record(record)
+ from color_theme import decorate as theme_html
+ return theme_html(support_record(record))
 def write(path,text):
  if path.suffix=='.html':
   from markup import normalize_html
@@ -86,8 +87,10 @@ def patch_frontend(base,out,legacy_doc):
  h=re.sub(r'\?v=20261012-[1-5]', '?v='+REV,h)
  h=h.replace('rukopis.js?v='+REV, 'rukopis.js?v=20261014-2')
  from digitization_support import decorate_viewer, install_assets
- write(out/'rukopis.html',decorate_viewer(h))
+ from color_theme import decorate as theme_html, install_assets as theme_assets
+ write(out/'rukopis.html',theme_html(decorate_viewer(h)))
  install_assets(out)
+ theme_assets(out)
  s=load('structure.js')
  s=once(s,"fetch('structure.json?v=20261011-6')","fetch((window.PILOT_DATA.structure_url || 'structure.json')+'?v="+REV+"')")
  s=once(s,"  host.innerHTML=groups.length?","  const catalogue=(structure.catalogue_items||[]).filter(i=>!query||normalized(i.title+' '+i.from+' '+i.to).includes(query)).map(i=>'<li><button type=\"button\" data-structure-folio=\"'+esc(i.from)+'\">'+esc(i.title)+'</button> · '+esc(i.from+'–'+i.to)+'</li>').join('');\n  host.innerHTML=(catalogue?'<details class=\"structure-group\" open><summary>Katalogový obsah kodexu</summary><ol>'+catalogue+'</ol></details>':'')+(groups.length?")
@@ -140,5 +143,5 @@ def patch_frontend(base,out,legacy_doc):
 <section class="section" id="rukopisy"><div class="container"><div class="section-head"><h2 class="h2">Rukopisy</h2><span class="muted">Sbírka Vědecké knihovny v Olomouci</span></div><div class="catalogue-grid">{cards}</div></div></section>
 <section class="pilot" id="pilot"><div class="container"><div class="section-head"><div><h2>Přepis s pomocí AI. Opravy od uživatelů.</h2><p>Vyberte rukopis, stranu a řádek. U obrazu můžete porovnat původní výstupy CATMuS a Medusa, pracovní rekonstrukci, český překlad a označené nejistoty.</p></div><a class="badge" href="https://github.com/bezverec/manuscripty/issues">Návrhy oprav · GitHub / JSON</a></div><ol class="steps"><li><span class="num">1</span><h3>Obraz a HTR</h3><p>Dlaždice v původním rozlišení a zdrojové výřezy se zachovanými ID.</p></li><li><span class="num">2</span><h3>Rekonstrukce a překlad</h3><p>Smyslové úseky s odkazy na obraz, podklady a poznámky k nejistému čtení.</p></li><li><span class="num">3</span><h3>Návrhy oprav</h3><p>Opravy HTR i hranic segmentů lze uložit do JSON a předložit přes GitHub k posouzení.</p></li></ol></div></section>
 <section class="section" id="o-pilotu"><div class="container"><h2 class="h2">O výzkumném projektu</h2><p>Projekt zkoumá možnosti místních HTR modelů a AI při zpřístupňování historických rukopisů. Přepisy, rekonstrukce, překlady a shrnutí jsou pracovní návrhy bez odborné revize. Shoda modelů ani validita XML nepotvrzují správnost čtení.</p><p>Katalogové údaje a jejich zdroje najdete u jednotlivých dokumentů. Uvedení knihovny jako instituce uchovávající rukopis neoznačuje výsledky AI za její odborné stanovisko.</p><p><a href="https://github.com/bezverec/manuscripty">Architektura, použité HTR technologie a metodika na GitHubu</a></p></div></section></main><footer class="site-footer"><div class="container">Rukopisy · výzkumný projekt Manuscripty</div></footer></body></html>'''
- write(out/'index.html',home)
+ write(out/'index.html',theme_html(home))
  return originals

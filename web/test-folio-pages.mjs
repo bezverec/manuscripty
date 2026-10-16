@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {HtmlValidate} from 'html-validate';
-import {loadManuscripts, publicRoot, publicFile, renderFolio, folioUrl, readerUrl} from './build_folio_pages.mjs';
+import {loadManuscripts, publicRoot, publicFile, renderFolio, folioUrl, readerUrl, themeRevision} from './build_folio_pages.mjs';
 
 const validator = new HtmlValidate({extends:['html-validate:recommended'],rules:{'no-inline-style':'off'}});
 const manuscripts = await loadManuscripts();
@@ -19,7 +19,7 @@ for (const manuscript of manuscripts) {
   assert.ok(report.valid,JSON.stringify(report.results.flatMap(r=>r.messages).slice(0,5))+' '+header.folio);
   assert.equal(html,renderFolio(manuscript,page,i),'Generated output drift');
   assert.ok(html.includes('rel="canonical" href="'+folioUrl(doc,page.folio)+'"'));
-  assert.ok(!html.includes('<script'),'Folio must be readable without JavaScript');
+  assert.deepEqual([...html.matchAll(/<script\b[^>]*>[\s\S]*?<\/script>/g)].map(m=>m[0]),['<script src="/theme.js?v='+themeRevision+'"></script>'],'Only the optional presentation theme may use JavaScript');
   assert.ok(html.includes('href="'+readerUrl(doc,page.folio)+'"'));
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
   assert.equal(ids.length,new Set(ids).size,'Duplicate HTML IDs');

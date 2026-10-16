@@ -1,5 +1,14 @@
 # Přenositelné sestavení M II153
 
+`color_theme.py --public-root /site/public` přidává sdílený světlý/noční motiv
+do prezentačních stránek (včetně statických folií); výzkumné HTML v `data/`
+se nemění. Malý synchronní bootstrap nastaví motiv před vykreslením stránky.
+První návštěva sleduje `prefers-color-scheme`, ruční volba se ukládá pod
+`manuscripty-theme` do localStorage. Při nedostupném úložišti funguje přepínač
+v aktuální stránce. Rozhraní, formuláře i dialogy mění barvy; obrazy a výřezy
+zůstávají bez barevných filtrů. Oficiální pozitivní logo MK má v noci světlý
+podklad. Generátory přehledů, prohlížeče a folií vkládají stejné motivové assety.
+
 `digitization_support.py --public-root /site/public` přidá malé označení
 „Zdigitalizováno ve VISK 6“ a původní logo Ministerstva kultury k oběma
 přehledům a do části Popis společného prohlížeče.
