@@ -1,0 +1,11 @@
+{
+  "status": "stopped_before_first_region_completed",
+  "scope": "Only our isolated manuscripty-hybrid-pilot-20261017 CPU container was stopped. Existing services untouched.",
+  "attempted_region": "mii220-335v / tight / b001",
+  "direct_crop_xyxy": [913, 277, 1782, 366],
+  "direct_crop_size": [869, 89],
+  "actual_kraken_model_input": [1, 3, 1800, 0],
+  "finding": "The default blla model normalizes height to 1800. A narrow, low direct crop causes extreme enlargement and excessive CPU inference. No completed line geometry was produced for this attempt.",
+  "revised_policy": "Place each selected native-pixel area on a white canvas with the original TIFF height. This keeps the vertical model scale the same across blocks without providing any artificial baseline or text. Tight vs padding64 still describes which actual source pixels are included.",
+  "timing_note": "Completed-run timings in summary.json exclude this interrupted setup experiment and Docker startup. No precise duration of the interrupted inference was recorded."
+}

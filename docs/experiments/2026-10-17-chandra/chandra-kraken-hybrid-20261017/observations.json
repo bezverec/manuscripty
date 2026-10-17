@@ -1,0 +1,21 @@
+{
+  "mii220-335v": [
+    "Kontrola měřítka bez oblastí Chandra zachytila hlavní hlavičku také jedním širokým řádkem. Výraznou část zlepšení tedy vysvětluje zachování měřítka původní strany, nikoli nutně Chandra. Kontrolní segmentace má 20 segmentů; ani tento počet není odborně ověřený počet fyzických řádků.",
+    "Původní Kraken zachytil velkou hlavičku jen ve dvou nízkých páscích. Těsná hybridní varianta vytvořila dvě výrazně vyšší obálky, ale začátek nápisu zůstává neúplný. Přesah 64 px umožnil vyznačit hlavní nápis jednou širokou baseline a obálkou; to je konkrétní přínos tohoto vzorku.",
+    "Obálky hlavičky jsou však velmi volné a zasahují do bílého kontextu. Přesah navíc přibírá část horní poznámky, která se detekuje i v jiné oblasti. Kolem odstavců vznikají další překryvy a drobné fragmenty. Výstup proto vyžaduje kontrolu duplicit a ořezů, nelze jej rovnou vložit do edice.",
+    "Kliknutí na polygon ukazuje skutečně poskytnuté pixely v jeho oblasti. Výřez z úplného zdroje je uložen také, ale nesmí se zaměňovat se vstupem modelu: samotný polygon může přesahovat mimo vybrané pixely. HTR ani nové čtení hlavičky v tomto experimentu neběžely."
+  ],
+  "mii220-20v": [
+    "Původní segmentace měla 84 segmentů včetně dvou již dříve označených drobných fragmentů. Těsný hybrid má 82 segmentů a žádný malý fragment podle jednotného geometrického příznaku. To samo nepotvrzuje správnost všech fyzických řádků ani lepší čtení.",
+    "Přesah 64 px zvýšil počet na 86 a vytvořil čtyři malé fragmenty. Rozšířené levé sloupcové pole zasahuje k textu sousedního sloupce. Tento vzorek ukazuje, proč nelze celému rukopisu plošně přidat stejný přesah bez kontroly oblastí.",
+    "Kraken v předchozím postupu měl sloupce rozdělené ručně. Hybrid je odvozuje z Chandry, ale používá již maskovaný pracovní obraz a odlišný bílý kontext při změně měřítka. Nejde o důkaz zlepšení proti plně automatickému zpracování neupravených originálů."
+  ],
+  "mii153-5r": [
+    "Obě hybridní varianty mají 80 segmentů stejně jako původní Kraken; žádné malé fragmenty podle geometrického příznaku. Na této pravidelné dvousloupcové straně nebylo samotným počtem doloženo zlepšení proti stávající segmentaci.",
+    "Počty a navržené polygony jsou podklady pro vizuální kontrolu. Přesnou shodu fyzických řádků, kvalitu ořezu všech zkratek a dopad na Medusu či CATMuS tento test systematicky nehodnotil."
+  ],
+  "mii220-335v-header-original": [
+    "Jde o samostatný původní výřez hlavičky [900,180,4200,700], stejně jako v předchozím Chandra pilotu. Výsledky se uvádějí odděleně od shodných pracovních obrazů a nemají přímé skóre proti původnímu Kraken.",
+    "Výška bílého kontextu zůstává 5900 pixelů jako u originálního TIFF. Souřadnice baseline a polygonů jsou přesně posunuty zpět do výřezu a je uložen i posun do původní strany. Ani zde nebyly ručně doplněny řádky či potlačeny duplicity."
+  ]
+}

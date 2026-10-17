@@ -22,6 +22,7 @@ Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER neby
 - [Publikace obou rukopisů, katalogové zdroje a kontroly](docs/TWO-MANUSCRIPT-PUBLICATION.md)
 - [Použité HTR technologie, modely, odkazy a revize](docs/htr-technologies.md)
 - [Aktuální stav a hranice výsledků](docs/research-status.md)
+- [Segmentační pilot Chandra / Kraken: přínos Chandry neprokázán](docs/experiments/2026-10-17-chandra/README.md)
 - [Veřejná prezentace, úložiště a opravy](docs/presentation.md)
 - [Web: spuštění, obnova obrazů a nasazení](web/README.md)
 - [Dávková reprodukce](docs/reproduction.md) a [datové vrstvy](docs/data-contracts.md)

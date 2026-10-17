@@ -1,0 +1,20 @@
+{
+  "kraken": "7.1.1",
+  "torch": "2.9.0+cpu",
+  "device": "cpu",
+  "threads": 4,
+  "segmentation_model": "/usr/local/lib/python3.12/site-packages/kraken/blla.mlmodel",
+  "segmentation_model_sha256": "77a638a83c9e535620827a09e410ed36391e9e8e8126d5796a0f15b978186056",
+  "model_input": [
+    1,
+    3,
+    1800,
+    0
+  ],
+  "model_spec": "[1,1800,0,3 Cr{C_0}7,7,64,2,2 Gn{Gn_1}32 Cr{C_2}3,3,128,2,2 Gn{Gn_3}32 Cr{C_4}3,3,128 Gn{Gn_5}32 Cr{C_6}3,3,256 Gn{Gn_7}32 Cr{C_8}3,3,256 Gn{Gn_9}32 Lbx{L_10}32 Lby{L_11}32 Cr{C_12}1,1,32 Gn{Gn_13}32 Lby{L_14}32 Lbx{L_15}32 O{l_16}2l4]",
+  "model_load_seconds": 0.2892130159889348,
+  "network": "none",
+  "recognition_run": false,
+  "polygonizer_fallback": false,
+  "manual_line_fallback": false
+}
