@@ -1,5 +1,15 @@
 # Stav rukopisu k 11. 10. 2026
 
+## Doplnění 17. 10. 2026: segmentační experiment
+
+Pilot na M II 220 (20v, 335v) a M II 153 (5r) **neprokázal přínos přidání
+Chandry oproti správně připravenému vstupu Kraken**. Kontrolní běh velké hlavičky
+335v odhalil výrazný vliv měřítka vstupu; zlepšení dosáhl i samotný Kraken.
+Jednotný přesah oblastí navíc vytvářel fragmenty a možné duplicity. Nebyla provedena
+plošná změna segmentace ani měření proti odborné referenci. [Výsledky a evidence](experiments/2026-10-17-chandra/README.md).
+
+Níže uvedený publikovaný stav tímto experimentem nebyl změněn.
+
 | Ukazatel | Publikovaný stav |
 |---|---:|
 | Skeny celkem | 677 |

@@ -1,0 +1,50 @@
+{
+  "started_utc": "2026-10-17T20:27:58.521798+00:00",
+  "model": "datalab-to/chandra-ocr-2",
+  "revision": "af93b47dba1b47b6640c86ccf487ed2260ab9a09",
+  "served_model": "chandra",
+  "endpoint": "http://127.0.0.1:18086/v1",
+  "temperature": 0,
+  "top_p": 0.1,
+  "max_tokens": 6000,
+  "python": "3.12.14",
+  "cuda_device": "NVIDIA GeForce RTX 5070 / 12 GB",
+  "inference": "Existing local vLLM service; no paid API",
+  "bbox_space": "0..1000 normalized xyxy; mapped directly to corresponding input image dimensions",
+  "comparison": "Three same-working-image comparisons and one separate original-header diagnostic",
+  "expert_review": false,
+  "prompt_source": "C:\\temp\\aindk\\aiocr-proarc-gateway\\chandra\\prompts.py",
+  "prompt_source_sha256": "536f387e7802f0e7cb3e67e8b5dff8415f05b8e774894564948dd53e83ce05e0",
+  "resize_source": "C:\\temp\\aindk\\aiocr-proarc-gateway\\chandra\\model\\util.py",
+  "resize_source_sha256": "82269826c9e9f251a7767cd86f4ae9146c4b2c1ac2b66738ad749ef1c320a6d1",
+  "server_models": {
+    "object": "list",
+    "data": [
+      {
+        "id": "chandra",
+        "object": "model",
+        "created": 1792268878,
+        "owned_by": "vllm",
+        "root": "datalab-to/chandra-ocr-2",
+        "parent": null,
+        "max_model_len": 16000,
+        "permission": [
+          {
+            "id": "modelperm-be546ef018d59b6f",
+            "object": "model_permission",
+            "created": 1792268878,
+            "allow_create_engine": false,
+            "allow_sampling": true,
+            "allow_logprobs": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "allow_fine_tuning": false,
+            "organization": "*",
+            "group": null,
+            "is_blocking": false
+          }
+        ]
+      }
+    ]
+  }
+}

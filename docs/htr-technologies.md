@@ -41,6 +41,22 @@ V této fázi nebylo placené HTR API, nový trénink ani nezávislá odborná r
 spotřeba asistenta není totéž co lokální HTR náklady. Přehled publikace a
 katalogových zdrojů: [TWO-MANUSCRIPT-PUBLICATION.md](TWO-MANUSCRIPT-PUBLICATION.md).
 
+## Segmentační pilot Chandra / Kraken (17. 10. 2026)
+
+Otestován byl [datalab-to/chandra-ocr-2](https://huggingface.co/datalab-to/chandra-ocr-2/tree/af93b47dba1b47b6640c86ccf487ed2260ab9a09),
+revize `af93b47dba1b47b6640c86ccf487ed2260ab9a09`, a řetězec jeho blokových obálek
+do řádkového segmentátoru Kraken 7.1.1 / původní blla. Vzorky: M II 220, 20v a
+335v; M II 153, 5r; navíc samostatný původní výřez hlavičky 335v.
+
+**Přínos přidání Chandry se v tomto pilotu neprokázal.** Kontrola bez oblastí
+Chandry ukázala, že zlepšení velké hlavičky dosáhne i Kraken při zachování
+měřítka původní strany. Jednotný přesah bloků vytvářel malé fragmenty a možné
+duplicity. Chandra proto není zařazena do produkčního postupu. Prioritou je
+ověření normalizace vstupů Kraken; nejde o plošnou opravu již publikovaných dat.
+Bez odborné reference neměříme přesnost segmentace ani dopad na HTR.
+
+[Závěr, surové výsledky, geometrie, skripty a omezení pilotu](experiments/2026-10-17-chandra/README.md).
+
 ## Knihovny a formáty
 
 [PyTorch](https://pytorch.org/), [Transformers](https://huggingface.co/docs/transformers/), [bitsandbytes](https://huggingface.co/docs/bitsandbytes/), [Accelerate](https://huggingface.co/docs/accelerate/) a [Hugging Face Hub](https://huggingface.co/docs/huggingface_hub/) slouží lokálnímu načtení a inference; Docker odděluje CPU a GPU prostředí. lxml a Pillow zajišťují XML validaci a obrazové deriváty. Český překlad a latinskou rekonstrukci navrhoval asistent z obrazů a kandidátů; nejde o automatickou funkci některého HTR checkpointu ani o volání placeného modelového API z přibalených skriptů.
