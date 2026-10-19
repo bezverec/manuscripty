@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 23r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Breves annotationes theologicae. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_23r_coordinate; PNG SHA256 363bd20e9908673fbccc0bd6e54164296705c3135df56f9e5fcf03177ae3216d; archival TIFF SHA256 e5afad84d6229493fb9ec6bb7ab9f900ee66c082cf19b9797ddc32edbca37e30; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_23r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#23r"/>
+      <zone ulx="544" uly="728" lrx="815" lry="812" xml:id="z_f23r_l001"/>
+      <zone ulx="1055" uly="672" lrx="3109" lry="802" xml:id="z_f23r_l002"/>
+      <zone ulx="538" uly="762" lrx="3044" lry="889" xml:id="z_f23r_l003"/>
+      <zone ulx="535" uly="849" lrx="3121" lry="989" xml:id="z_f23r_l004"/>
+      <zone ulx="535" uly="942" lrx="3053" lry="1076" xml:id="z_f23r_l005"/>
+      <zone ulx="541" uly="1032" lrx="3078" lry="1188" xml:id="z_f23r_l006"/>
+      <zone ulx="535" uly="1135" lrx="3112" lry="1269" xml:id="z_f23r_l007"/>
+      <zone ulx="619" uly="1222" lrx="3149" lry="1381" xml:id="z_f23r_l008"/>
+      <zone ulx="547" uly="1316" lrx="3081" lry="1477" xml:id="z_f23r_l009"/>
+      <zone ulx="522" uly="1418" lrx="3037" lry="1555" xml:id="z_f23r_l010"/>
+      <zone ulx="460" uly="2650" lrx="535" lry="2781" xml:id="z_f23r_l011"/>
+      <zone ulx="544" uly="1496" lrx="3034" lry="1658" xml:id="z_f23r_l012"/>
+      <zone ulx="547" uly="1586" lrx="3156" lry="1745" xml:id="z_f23r_l013"/>
+      <zone ulx="575" uly="1689" lrx="2452" lry="1826" xml:id="z_f23r_l014"/>
+      <zone ulx="550" uly="1776" lrx="3053" lry="1919" xml:id="z_f23r_l015"/>
+      <zone ulx="560" uly="1863" lrx="3181" lry="2000" xml:id="z_f23r_l016"/>
+      <zone ulx="569" uly="1953" lrx="3078" lry="2084" xml:id="z_f23r_l017"/>
+      <zone ulx="563" uly="2031" lrx="3090" lry="2177" xml:id="z_f23r_l018"/>
+      <zone ulx="563" uly="2115" lrx="3159" lry="2261" xml:id="z_f23r_l019"/>
+      <zone ulx="582" uly="2202" lrx="3096" lry="2345" xml:id="z_f23r_l020"/>
+      <zone ulx="588" uly="2296" lrx="3103" lry="2445" xml:id="z_f23r_l021"/>
+      <zone ulx="594" uly="2389" lrx="3118" lry="2523" xml:id="z_f23r_l022"/>
+      <zone ulx="554" uly="2473" lrx="3152" lry="2622" xml:id="z_f23r_l023"/>
+      <zone ulx="569" uly="2563" lrx="3103" lry="2700" xml:id="z_f23r_l024"/>
+      <zone ulx="578" uly="2653" lrx="3093" lry="2793" xml:id="z_f23r_l025"/>
+      <zone ulx="566" uly="2722" lrx="3109" lry="2896" xml:id="z_f23r_l026"/>
+      <zone ulx="554" uly="2793" lrx="3159" lry="2977" xml:id="z_f23r_l027"/>
+      <zone ulx="572" uly="2880" lrx="3075" lry="3052" xml:id="z_f23r_l028"/>
+      <zone ulx="560" uly="2961" lrx="3196" lry="3132" xml:id="z_f23r_l029"/>
+      <zone ulx="569" uly="3042" lrx="3187" lry="3241" xml:id="z_f23r_l030"/>
+      <zone ulx="566" uly="3126" lrx="3199" lry="3341" xml:id="z_f23r_l031"/>
+      <zone ulx="566" uly="3201" lrx="3137" lry="3400" xml:id="z_f23r_l032"/>
+      <zone ulx="563" uly="3291" lrx="2844" lry="3484" xml:id="z_f23r_l033"/>
+      <zone ulx="569" uly="3372" lrx="3140" lry="3593" xml:id="z_f23r_l034"/>
+      <zone ulx="2885" uly="3412" lrx="3205" lry="3540" xml:id="z_f23r_l035"/>
+      <zone ulx="1210" uly="3475" lrx="1294" lry="3546" xml:id="z_f23r_l036"/>
+      <zone ulx="582" uly="3459" lrx="3193" lry="3702" xml:id="z_f23r_l037"/>
+      <zone ulx="569" uly="3552" lrx="3090" lry="3770" xml:id="z_f23r_l038"/>
+      <zone ulx="578" uly="3646" lrx="3047" lry="3864" xml:id="z_f23r_l039"/>
+      <zone ulx="566" uly="3758" lrx="3081" lry="3951" xml:id="z_f23r_l040"/>
+      <zone ulx="575" uly="3823" lrx="3075" lry="4044" xml:id="z_f23r_l041"/>
+      <zone ulx="566" uly="3916" lrx="3050" lry="4122" xml:id="z_f23r_l042"/>
+      <zone ulx="585" uly="4007" lrx="3028" lry="4209" xml:id="z_f23r_l043"/>
+      <zone ulx="628" uly="4094" lrx="3031" lry="4312" xml:id="z_f23r_l044"/>
+      <zone ulx="578" uly="4187" lrx="3016" lry="4364" xml:id="z_f23r_l045"/>
+      <zone ulx="585" uly="4280" lrx="2919" lry="4433" xml:id="z_f23r_l046"/>
+      <zone ulx="2966" uly="4346" lrx="2997" lry="4439" xml:id="z_f23r_l047"/>
+      <zone ulx="594" uly="4371" lrx="3047" lry="4557" xml:id="z_f23r_l048"/>
+      <zone ulx="3100" uly="4144" lrx="3118" lry="4209" xml:id="z_f23r_l049"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f23r_l001" xml:id="catmus_f23r_l001"/>
+          <seg type="raw_unreviewed">uo pt</seg>
+          <lb facs="#z_f23r_l002" xml:id="catmus_f23r_l002"/>
+          <seg type="raw_unreviewed">gra celeste accips. u pgatꝰ sͭ ab̾oi sorde. u lacosa</seg>
+          <lb facs="#z_f23r_l003" xml:id="catmus_f23r_l003"/>
+          <seg type="raw_unreviewed">ũs Ia andim oditña ⁊ uidi lac ͥ ᷤ. et gleͬ dͭ sͣ che pͦ. Or̃o</seg>
+          <lb facs="#z_f23r_l004" xml:id="catmus_f23r_l004"/>
+          <seg type="raw_unreviewed">peũ leuit lulaul cogit. ħ ungit iͣ pñgit. B attuta. ẽ ut t̾ꝭ</seg>
+          <lb facs="#z_f23r_l005" xml:id="catmus_f23r_l005"/>
+          <seg type="raw_unreviewed">auttũͦ. una q̃ altũdi᷑ adua ne teis eurt. 2 ͣ q̃ actñd᷑. id sonsũ</seg>
+          <lb facs="#z_f23r_l006" xml:id="catmus_f23r_l006"/>
+          <seg type="raw_unreviewed">libꝰꝵ 3aͣ q̃ attũdẽ ad finẽ ꝯrr̃is s. ad dni. radrẽ ꝙ qͣ oni᷑. ĩ q̾d</seg>
+          <lb facs="#z_f23r_l007" xml:id="catmus_f23r_l007"/>
+          <seg type="raw_unreviewed">nolx᷑ ẽ uccia ⁊ hãc ecc̃ ydiote pũt hre. risũs pactũ huudtt</seg>
+          <lb facs="#z_f23r_l008" xml:id="catmus_f23r_l008"/>
+          <seg type="raw_unreviewed">itã ͦ. ut accꝭ dii mẽs obliuistit᷑ ot  s dt h̃ugo de scõ uictoe</seg>
+          <lb facs="#z_f23r_l009" xml:id="catmus_f23r_l009"/>
+          <seg type="raw_unreviewed">N fnĩda ꝑs̃. dẽpcat sũ sa ͭͣ it ĩto. corur. Uii oꝑosa. thobie 2ͦ</seg>
+          <lb facs="#z_f23r_l010" xml:id="catmus_f23r_l010"/>
+          <seg type="raw_unreviewed">bona ẽ or̃o cũ Ieͫ releiã ⁊ s trẽii 3ͦ leue corda nr̃a aĩ</seg>
+          <lb facs="#z_f23r_l011" xml:id="catmus_f23r_l011"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f23r_l012" xml:id="catmus_f23r_l012"/>
+          <seg type="raw_unreviewed">ni nr̃is dͭ R. gͥm cor cũ naili ad dni lena̾e. Ĩ oꝑibi or̃e</seg>
+          <lb facs="#z_f23r_l013" xml:id="catmus_f23r_l013"/>
+          <seg type="raw_unreviewed">sũa robe̾at pii assedua ꝯi do e̾ qui pues abãce petelut nt luc</seg>
+          <lb facs="#z_f23r_l014" xml:id="catmus_f23r_l014"/>
+          <seg type="raw_unreviewed">ui ⁊ apłi ꝑsene ͭ ͦ ĩerõe spũi i. accꝭ actꝭ nͦ it</seg>
+          <lb facs="#z_f23r_l015" xml:id="catmus_f23r_l015"/>
+          <seg type="raw_unreviewed">t tres fuĩt ꝑcessioes ĩ illo. q̃ st̃ selẽp ͤ ᷤl̾is. pͥ ĩꝑu̾si ͦ: et ibi</seg>
+          <lb facs="#z_f23r_l016" xml:id="catmus_f23r_l016"/>
+          <seg type="raw_unreviewed">t quil x .iii.i. lueii hrẽ ĩmaĩdi ardũte. et ꝑhãt desil̃. Iuaipie</seg>
+          <lb facs="#z_f23r_l017" xml:id="catmus_f23r_l017"/>
+          <seg type="raw_unreviewed">tes qui detenebtꝭ ꝓccĩꝵ. sur rexunt ꝑ rsessiõ adlue puĩe 2ͥͥ</seg>
+          <lb facs="#z_f23r_l018" xml:id="catmus_f23r_l018"/>
+          <seg type="raw_unreviewed">ĩ die ꝑalumꝵ. nbi qb ẽ ꝑtae̾ nł pafuus ñł ftoes. Et ꝑ hũc</seg>
+          <lb facs="#z_f23r_l019" xml:id="catmus_f23r_l019"/>
+          <seg type="raw_unreviewed">Resigiulu᷑ ꝑficiẽtes. sᵈ q̾ui faciũt. opit sauil. iopi pietatꝭi ꝑg.ͫͫ</seg>
+          <lb facs="#z_f23r_l020" xml:id="catmus_f23r_l020"/>
+          <seg type="raw_unreviewed">It ẽcis ĩ die astũ ͥ  Et designitu᷑ ꝑ egllil q et q̃l ħõ benẽtur</seg>
+          <lb facs="#z_f23r_l021" xml:id="catmus_f23r_l021"/>
+          <seg type="raw_unreviewed">Re Rexillũ. od ꝙ x ͨ cꝙ̃ e̾ũphator ⁊ uictor ascũdit. aĩ ãgł rñibue</seg>
+          <lb facs="#z_f23r_l022" xml:id="catmus_f23r_l022"/>
+          <seg type="raw_unreviewed"> ꝑhͦ i de suͣrn᷑. ꝑst̃i. qui botũ uicerũt id. r soli du᷑ uatãt. ac </seg>
+          <lb facs="#z_f23r_l023" xml:id="catmus_f23r_l023"/>
+          <seg type="raw_unreviewed">lam m̃lti ldiẽs uã d̾iu st̃ ĩm̃di muli st̃. S oĩ eeũt dem̃dead̾</seg>
+          <lb facs="#z_f23r_l024" xml:id="catmus_f23r_l024"/>
+          <seg type="raw_unreviewed">sulitaia uitam uł udclauseꝵ. mltũ boui suĩt itꝭ Qpoͦ credo</seg>
+          <lb facs="#z_f23r_l025" xml:id="catmus_f23r_l025"/>
+          <seg type="raw_unreviewed">lota xi ar ͥfidei pͥaue rn ꝙ dec̾mĩauut apłi pꝰ ad uẽtũ sp̃t sc̃. ai</seg>
+          <lb facs="#z_f23r_l026" xml:id="catmus_f23r_l026"/>
+          <seg type="raw_unreviewed">iã fieu̾t ad p̃dicandũ omie ꝑsc̃i. ut sᵈ õs erãt iuiul fide qobides. si os</seg>
+          <lb facs="#z_f23r_l027" xml:id="catmus_f23r_l027"/>
+          <seg type="raw_unreviewed">ꝑua fidem qcorditer p̃dionent uñꝰ artilũs pptat ad prẽ. Ui adplĩ</seg>
+          <lb facs="#z_f23r_l028" xml:id="catmus_f23r_l028"/>
+          <seg type="raw_unreviewed">uadpm̃ sõĩ u sic. deoꝑẽ creacõis ẽ uieꝰ artiłs ⁊ crede ĩ deũ. nõ</seg>
+          <lb facs="#z_f23r_l029" xml:id="catmus_f23r_l029"/>
+          <seg type="raw_unreviewed">ĩ diees s gentiles. mltã ydola colũtes. Ie qdp̃t po. ꝯfundau᷑ õe qͥ udbant</seg>
+          <lb facs="#z_f23r_l030" xml:id="catmus_f23r_l030"/>
+          <seg type="raw_unreviewed">rubytiliã. prẽm dĩpotũͤ qr. icũq uebuit seat ĩce. ritrr. ũ de p̃ĩa</seg>
+          <lb facs="#z_f23r_l031" xml:id="catmus_f23r_l031"/>
+          <seg type="raw_unreviewed">ubi mã sᵈ mẽti᷑ ꝑhd̃. ẜ deiuchi.pd qite᷑ u̾auꝰ. cͤatoͥe  celi rt̾re s uisi</seg>
+          <lb facs="#z_f23r_l032" xml:id="catmus_f23r_l032"/>
+          <seg type="raw_unreviewed">blrͫ⁊ ĩ uisibli. Iuq̃ qdꝙ̃na᷑ eirrt nlĩcheoꝵ. qͥ dicũt due eẽ un ᷝͥ</seg>
+          <lb facs="#z_f23r_l033" xml:id="catmus_f23r_l033"/>
+          <seg type="raw_unreviewed">unũ lucꝭ ad tenebiu. unũ cato̾e uisible altr ꝵ doisibliꝰ</seg>
+          <lb facs="#z_f23r_l034" xml:id="catmus_f23r_l034"/>
+          <seg type="raw_unreviewed">na fides ꝯfite. unũ deũ catde oc ͫ qͥ solẽ suũ su ͭ õui suꝑ .b. riu.</seg>
+          <lb facs="#z_f23r_l035" xml:id="catmus_f23r_l035"/>
+          <seg type="raw_unreviewed">exa</seg>
+          <lb facs="#z_f23r_l036" xml:id="catmus_f23r_l036"/>
+          <seg type="raw_unreviewed">i</seg>
+          <lb facs="#z_f23r_l037" xml:id="catmus_f23r_l037"/>
+          <seg type="raw_unreviewed">⁊ płu. suꝑ iustos᷑. 2mi ͭ 2 ͦ ⁊ seme dat se̾uti ⁊ puẽs coẽdũci ut docũct᷑</seg>
+          <lb facs="#z_f23r_l038" xml:id="catmus_f23r_l038"/>
+          <seg type="raw_unreviewed">uuificus ei soli gͣcnd resfẽ̾amꝰ b qr fidel ũ ẽ q̃ side desulitere</seg>
+          <lb facs="#z_f23r_l039" xml:id="catmus_f23r_l039"/>
+          <seg type="raw_unreviewed">ũ h aq̃r̾ꝑoti sumꝰ qui ꝑreramͥ ⁊d ͭ uisibli ͥ q̃ st̃ ĩtra et.</seg>
+          <lb facs="#z_f23r_l040" xml:id="catmus_f23r_l040"/>
+          <seg type="raw_unreviewed">uisiblũ que st̃ ĩcelo detũ sox arti ᷝ ͥ de oꝑe nr̃e udr̃cõis quos</seg>
+          <lb facs="#z_f23r_l041" xml:id="catmus_f23r_l041"/>
+          <seg type="raw_unreviewed">ulrĩ gñci ͫ igͣuau̾t iubci n cdũt. Iõ selices ũst̃ Quoꝵ pͥmꝰ</seg>
+          <lb facs="#z_f23r_l042" xml:id="catmus_f23r_l042"/>
+          <seg type="raw_unreviewed">a de et̾uu sil gn̾aͦ ͤs ⁊ ĩiħm̃ xͫ siliũ ei h nã ꝑ gͣciũ adꝯꝓcõis</seg>
+          <lb facs="#z_f23r_l043" xml:id="catmus_f23r_l043"/>
+          <seg type="raw_unreviewed">ł alii sc̃i. qui nõ defilas suñt silii. I ꝑmod gr̾liois ut sit i ꝙx</seg>
+          <lb facs="#z_f23r_l044" xml:id="catmus_f23r_l044"/>
+          <seg type="raw_unreviewed">de.Alõ i gu̾at hõ uonẽ onis cãne .ẜ. hꝯ̃ hoie ⁊de / deũ. ui</seg>
+          <lb facs="#z_f23r_l045" xml:id="catmus_f23r_l045"/>
+          <seg type="raw_unreviewed">Usa uͫ Nñꝙ e ͧ qͥ alios par̾e fucio.s carualr ꝓpẽ nõ pariau</seg>
+          <lb facs="#z_f23r_l046" xml:id="catmus_f23r_l046"/>
+          <seg type="raw_unreviewed">uaullr i siliũ eoet̾iũ ħ̃ cntͦ ĩdiciblio ⁊ ĩScogitublis </seg>
+          <lb facs="#z_f23r_l047" xml:id="catmus_f23r_l047"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f23r_l048" xml:id="catmus_f23r_l048"/>
+          <seg type="raw_unreviewed">hariͦ Om̃i ᵇ  eo/ qͥs enarubit Ipe x dũd nr est̃ specialiter</seg>
+          <lb facs="#z_f23r_l049" xml:id="catmus_f23r_l049"/>
+          <seg type="raw_unreviewed">ee</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f23r_l001" xml:id="medusa_f23r_l001"/>
+          <seg type="raw_unreviewed">no pt</seg>
+          <lb facs="#z_f23r_l002" xml:id="medusa_f23r_l002"/>
+          <seg type="raw_unreviewed">grã celeste accip. uͥ p̃gati st aboi sorde . ex lacrosa</seg>
+          <lb facs="#z_f23r_l003" xml:id="medusa_f23r_l003"/>
+          <seg type="raw_unreviewed">yo 31 andum o᷑m tͣm et uidi lac᷑ᷤᷤ t. et gle᷑ dᵗ sͣcte 4ᵒ. ep̃o</seg>
+          <lb facs="#z_f23r_l004" xml:id="medusa_f23r_l004"/>
+          <seg type="raw_unreviewed">deũ leuit subcua cogit . ħ uigit iᵃ pugn̾it . sᵒᵃ att̃uta. ẽ aͥt r̾po</seg>
+          <lb facs="#z_f23r_l005" xml:id="medusa_f23r_l005"/>
+          <seg type="raw_unreviewed">attũo una q̃ attendi᷑ ad unũ ne deis erret . 2a q̃ attendi᷑ ad sensũ</seg>
+          <lb facs="#z_f23r_l006" xml:id="medusa_f23r_l006"/>
+          <seg type="raw_unreviewed">libⁱꝭ 3ᵃ q̃ att̃ndit᷑ ad finẽ or̃oñs .s. ad dñi. ⁊ ad r̃e qr qͥ or̃n. q̃ qͥd</seg>
+          <lb facs="#z_f23r_l007" xml:id="medusa_f23r_l007"/>
+          <seg type="raw_unreviewed">maxime est necessaria et hanc ecclesiam Ydiote present habere et ipsum per actum habundare</seg>
+          <lb facs="#z_f23r_l008" xml:id="medusa_f23r_l008"/>
+          <seg type="raw_unreviewed">sanctarum ut ecclesie domini nostris oblimiscariorum et scd̃ d̃t hugo de Sancto Victore</seg>
+          <lb facs="#z_f23r_l009" xml:id="medusa_f23r_l009"/>
+          <seg type="raw_unreviewed">Xi fr̾ida ps̃. de p̃cati sic̃ fr̾it. ĩto. cor in. xii oꝑosa. thebe 2</seg>
+          <lb facs="#z_f23r_l010" xml:id="medusa_f23r_l010"/>
+          <seg type="raw_unreviewed">bona ẽ oratio cum ieo relem et s. tre. 3. leue corda nostra cum</seg>
+          <lb facs="#z_f23r_l011" xml:id="medusa_f23r_l011"/>
+          <seg type="raw_unreviewed">c</seg>
+          <lb facs="#z_f23r_l012" xml:id="medusa_f23r_l012"/>
+          <seg type="raw_unreviewed">manibus nostris dˢ b. uͥg cor cũ manibus ad dñm leneie .i. oꝑibꝰ orẽm</seg>
+          <lb facs="#z_f23r_l013" xml:id="medusa_f23r_l013"/>
+          <seg type="raw_unreviewed">suam roberat / xiiii assidua exii de iͦ qui pates ab uno petebat ut luc</seg>
+          <lb facs="#z_f23r_l014" xml:id="medusa_f23r_l014"/>
+          <seg type="raw_unreviewed">xi et apostoli perseueratio in errore spiritum sibi actꝭ actꝭ iiꝰ etc.</seg>
+          <lb facs="#z_f23r_l015" xml:id="medusa_f23r_l015"/>
+          <seg type="raw_unreviewed">It̃ tres fiũt ꝓcessiones ĩ uno. q̃ st̃ sedẽpreszbis. pͥ ĩ pu̾ifiᵒ. et ibi</seg>
+          <lb facs="#z_f23r_l016" xml:id="medusa_f23r_l016"/>
+          <seg type="raw_unreviewed">tꝰ quilibet x. iiii l. iiii l. r. ĩ manib arbãteꝰ. et p̃hac̃ de sũz̃mã. Incipie</seg>
+          <lb facs="#z_f23r_l017" xml:id="medusa_f23r_l017"/>
+          <seg type="raw_unreviewed">tes qui de treuebur pccariorum surrexerunt per possessionem ad lumen punicem et</seg>
+          <lb facs="#z_f23r_l018" xml:id="medusa_f23r_l018"/>
+          <seg type="raw_unreviewed">in die palmarum . ubi quilibet tibi portare vel patrum vel fratres . et per hunc</seg>
+          <lb facs="#z_f23r_l019" xml:id="medusa_f23r_l019"/>
+          <seg type="raw_unreviewed">designant᷑ . perficiẽtes . pꝰquam facunt . episcopus canonici et presbyteri presentati sunt .</seg>
+          <lb facs="#z_f23r_l020" xml:id="medusa_f23r_l020"/>
+          <seg type="raw_unreviewed">Item eciam in die ascensionis et designatur per exilium quia etiam quilibet homo tenetur</seg>
+          <lb facs="#z_f23r_l021" xml:id="medusa_f23r_l021"/>
+          <seg type="raw_unreviewed">gr̃e begistum .o. m. xᶜ. iiii. eumphitor ⁊ uictor. ascundit. oĩ agl̃ ⁊ iũbue</seg>
+          <lb facs="#z_f23r_l022" xml:id="medusa_f23r_l022"/>
+          <seg type="raw_unreviewed">per hoc de summa perfeci qui totum vicerunt iudeum et polidum vacaverunt ac</seg>
+          <lb facs="#z_f23r_l023" xml:id="medusa_f23r_l023"/>
+          <seg type="raw_unreviewed">lam multi hoĩes quãdum su̇t ĩ iũdo multi st̃ . S oĩ ex eũt dem̃dand̃</seg>
+          <lb facs="#z_f23r_l024" xml:id="medusa_f23r_l024"/>
+          <seg type="raw_unreviewed">solitaria vitam uł ad claustrum multum boni sunt etc. Ex primo credo</seg>
+          <lb facs="#z_f23r_l025" xml:id="medusa_f23r_l025"/>
+          <seg type="raw_unreviewed">leta XII arⁿ fidei ybane 2.ᵐ / qd de terminaverit apostoli pꝰ ad uetum spiritus sancti. cũ</seg>
+          <lb facs="#z_f23r_l026" xml:id="medusa_f23r_l026"/>
+          <seg type="raw_unreviewed">una fide concorditer predicaverunt . sui partis etiam scilicet omnes</seg>
+          <lb facs="#z_f23r_l027" xml:id="medusa_f23r_l027"/>
+          <seg type="raw_unreviewed">unam fidem concorditer predicaverunt . Huius artiliũs spectat ad patres . ui ad simi</seg>
+          <lb facs="#z_f23r_l028" xml:id="medusa_f23r_l028"/>
+          <seg type="raw_unreviewed">u. ad p̃m sm̃ / u⁊ sic . de oꝑe creacoĩs ẽ unꝰ articl̃s . s. Credẽ ĩ deũ. nõ</seg>
+          <lb facs="#z_f23r_l029" xml:id="medusa_f23r_l029"/>
+          <seg type="raw_unreviewed">ĩ dies s⁊ gentiles. multũ ydola colũtes. 2ᵒ adpt̃ ps̃. ꝯfundunt᷑ os q̃ adorant</seg>
+          <lb facs="#z_f23r_l030" xml:id="medusa_f23r_l030"/>
+          <seg type="raw_unreviewed">subtilia . prȩm om̃i potu᷑ꝵ . qr q̃cũq uelut fecit ĩ ce. ⁊ ĩ t̾ra. ũ de p̃ia</seg>
+          <lb facs="#z_f23r_l031" xml:id="medusa_f23r_l031"/>
+          <seg type="raw_unreviewed">u̾bi ma. p. mente Ph. s. deuchu. p. confite. u̾anꝰ. catoꝵ. celi ⁊ t̾re s. uisi-</seg>
+          <lb facs="#z_f23r_l032" xml:id="medusa_f23r_l032"/>
+          <seg type="raw_unreviewed">u̾bũ et ĩ uisibilia inqͥrit quod prima error metaphysicorum qui dicunt duo esse pu</seg>
+          <lb facs="#z_f23r_l033" xml:id="medusa_f23r_l033"/>
+          <seg type="raw_unreviewed">unum lucem ad tenebras . unum ciatorem  visibilibus alterum invisibi</seg>
+          <lb facs="#z_f23r_l034" xml:id="medusa_f23r_l034"/>
+          <seg type="raw_unreviewed">ue fides confite͂r unum Deum c̃atorem omnium qui sole sũm facit omni super .b. 2 in</seg>
+          <lb facs="#z_f23r_l035" xml:id="medusa_f23r_l035"/>
+          <seg type="raw_unreviewed">Gz y a</seg>
+          <lb facs="#z_f23r_l036" xml:id="medusa_f23r_l036"/>
+          <seg type="raw_unreviewed">in</seg>
+          <lb facs="#z_f23r_l037" xml:id="medusa_f23r_l037"/>
+          <seg type="raw_unreviewed">beneficiis ei soli graciosissimus refferamus sed quia fideles ut de cunctis</seg>
+          <lb facs="#z_f23r_l038" xml:id="medusa_f23r_l038"/>
+          <seg type="raw_unreviewed">beneficis ei soli gratias refferamus sed quia fidei non est qui fidem desalutare</seg>
+          <lb facs="#z_f23r_l039" xml:id="medusa_f23r_l039"/>
+          <seg type="raw_unreviewed">u̾ habet aqͣr parati sumꝰ qui preuerturꝰ et dᵗ uisibłiᵐᵃ i. qͣ st̃ ĩ t̾ra. et ĩ</seg>
+          <lb facs="#z_f23r_l040" xml:id="medusa_f23r_l040"/>
+          <seg type="raw_unreviewed">phĩ sũciꝰ ignauuit iudei nͥ credant se sal</seg>
+          <lb facs="#z_f23r_l041" xml:id="medusa_f23r_l041"/>
+          <seg type="raw_unreviewed">phĩ gr̃ci ͫ igr̃au̾it iudei ñ credunt . so felicis ñ st̃ Quorum primꝰ</seg>
+          <lb facs="#z_f23r_l042" xml:id="medusa_f23r_l042"/>
+          <seg type="raw_unreviewed">e de eterna filii gn̾atioe s et in Ihesum Christum filium eius uña per gratiam adopcõis</seg>
+          <lb facs="#z_f23r_l043" xml:id="medusa_f23r_l043"/>
+          <seg type="raw_unreviewed">sibi scilicet qui non de filiis sunt filii. ẜ prout dicuntur gn̾acionis ut sit id quod ꝓ</seg>
+          <lb facs="#z_f23r_l044" xml:id="medusa_f23r_l044"/>
+          <seg type="raw_unreviewed">sa u̾b̃o nũꝙ eꝰ qͥ nlios pare facio. s. carnali. 113</seg>
+          <lb facs="#z_f23r_l045" xml:id="medusa_f23r_l045"/>
+          <seg type="raw_unreviewed">ysa . 66° nũqͥ e⁊ q̃ alios pare facio . s. carnaliter ipse nõ parum</seg>
+          <lb facs="#z_f23r_l046" xml:id="medusa_f23r_l046"/>
+          <seg type="raw_unreviewed">spuãliter in filium coet̾num h̃ gn̾itio ĩdicibilis ⁊ ĩcognitibilis</seg>
+          <lb facs="#z_f23r_l047" xml:id="medusa_f23r_l047"/>
+          <seg type="raw_unreviewed">12</seg>
+          <lb facs="#z_f23r_l048" xml:id="medusa_f23r_l048"/>
+          <seg type="raw_unreviewed">32 23° Quam uero qͥs enarrabit / Ip̃e Xᶜ dñs nr̃ est specialiter</seg>
+          <lb facs="#z_f23r_l049" xml:id="medusa_f23r_l049"/>
+          <seg type="raw_unreviewed">capitulum</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f23r_l001 #z_f23r_l002 #z_f23r_l003 #z_f23r_l004" xml:id="u_23r_001">[...] gratiam caelestem accipias, ut purgatus sit ab omni sorde. [...] lacrimosa [...]: Audivi orationem tuam et vidi lacrimas tuas. Et Gregorius dicit [...]: Oratio [...] levat; lacrima [...] cogit. Haec ungit, illa pungit.</p>
+        <note type="editorial" corresp="#u_23r_001" xml:lang="cs">Pokračování výčtu vlastností modlitby z22v. Segment1 je krátký odštěpek prvního řádku. Vazbu aforismu o modlitbě a slzách ponechávám částečně otevřenou, bez doplnění známého výroku.</note>
+        <p facs="#z_f23r_l005 #z_f23r_l006 #z_f23r_l007 #z_f23r_l008" xml:id="u_23r_002">[...] attenta. Est autem triplex attentio: una quae attendit ad verba ne erret; secunda quae attendit ad sensum librorum; tertia quae attendit ad finem orationis, scilicet ad Deum [...]. Et haec etiam idiotae possunt habere. [...] ut accessus Dei mens obliviscitur [...], dicit Hugo de Sancto Victore.</p>
+        <note type="editorial" corresp="#u_23r_002" xml:lang="cs">Výčet pozornosti je čitelnější než závěrečná citace. V poslední větě zůstává nejasná přesná konstrukce, nikoli jistý výrok převzatý z Hugova vydání.</note>
+        <p facs="#z_f23r_l009 #z_f23r_l010 #z_f23r_l011 #z_f23r_l012 #z_f23r_l013 #z_f23r_l014" xml:id="u_23r_003">[...] fecunda [...] sicut fit in [...] cordis. [...] operosa, Thobiae II [?]: Bona est oratio cum ieiunio et eleemosyna; et Threnorum III: Levemus corda nostra cum manibus nostris [...]. Gregorius: Cor cum manibus ad Dominum levare est [...] operibus orationem [...]. [...] assidua cum Deo, [...] qui prius [...] pernoctabat, ut Lucae VI; et apostoli perseverabant in oratione [...], Actuum I.</p>
+        <note type="editorial" corresp="#u_23r_003" xml:lang="cs">Drobný segment11 je netextový či nečitelný okrajový fragment. Číslování vlastností a přesné spojnice jednotlivých citací jsou neúplné; není vytvořen celý seznam podle předpokládané osnovy. Tobiášova kapitola je nejistá četba zápisu.</note>
+        <p facs="#z_f23r_l015 #z_f23r_l016 #z_f23r_l017 #z_f23r_l018 #z_f23r_l019" xml:id="u_23r_004">Item tres fiunt processiones in anno, quae sunt sollemnes ecclesiae. Prima in purificatione, et ibi [...] cerei [...] ardentes; et per hanc designantur incipientes, qui de tenebris peccatorum surrexerunt per confessionem [...]. Secunda in die palmarum, ubi quilibet portat vel palmam vel flores. Et per hanc designantur proficientes, scilicet qui faciunt opera bona, opera pietatis [...].</p>
+        <note type="editorial" corresp="#u_23r_004" xml:lang="cs">Návrhově rozvedené liturgické názvy jsou opřeny o viditelná slova purificatione a palmarum a jejich doprovod. Přesné přívlastky svící a závěrečná zkratka zůstávají nedočtené.</note>
+        <p facs="#z_f23r_l020 #z_f23r_l021 #z_f23r_l022 #z_f23r_l023 #z_f23r_l024" xml:id="u_23r_005">Tertia in die ascensionis. Et designantur perfecti [...], et quilibet homo [...] vexillum, ad quod Christus tamquam triumphator et victor ascendit [...]. Per hanc designantur perfecti, qui totum vicerunt mundum et soli Deo vacant. [...] Multi [...] mundi sunt, sed omnes eremum [...] solitariam vitam vel ad claustrum [...] multum boni sunt [...].</p>
+        <note type="editorial" corresp="#u_23r_005" xml:lang="cs">Věta o samotářském a klášterním životě je zkratkovitá a nelze bezpečně rozhodnout její logické spojky. Nevyvozuji z ní povinný vstup všech lidí do kláštera. Obraz praporce a vítězství je čitelný.</note>
+        <p facs="#z_f23r_l025 #z_f23r_l026 #z_f23r_l027 #z_f23r_l028 #z_f23r_l029 #z_f23r_l030" xml:id="u_23r_006">Symbolum credo. Nota XII articuli fidei, [...] determinaverunt apostoli post adventum Spiritus Sancti, cum iam fierent ad praedicandum [...] ut sicut omnes erant unius fidei [...] sic [...] fidem concorditer praedicarent. Unus articulus pertinet ad Patrem, [...] sic: de opere creationis est unus articulus et Credo in Deum, non in deos sicut gentiles multa idola colentes; [...] Confundantur omnes qui adorant sculptilia. Patrem omnipotentem, quia quaecumque voluit fecit in caelo et in terra [...].</p>
+        <note type="editorial" corresp="#u_23r_006" xml:lang="cs">Tradici o sestavení článků označuje sám rukopis; není zde vydávána za historicky ověřený vznik vyznání. Začátek textu o symbolu je nový celek. Mezery v časové a organizační větě nepřekrývám známým vyprávěním o apoštolech.</note>
+        <p facs="#z_f23r_l031 #z_f23r_l032 #z_f23r_l033 #z_f23r_l034 #z_f23r_l035 #z_f23r_l036 #z_f23r_l037 #z_f23r_l038" xml:id="u_23r_007">[...] sed Deus [...] Creatorem caeli et terrae, visibilium et invisibilium; in quo condemnatur error Manichaeorum, qui dicunt duo esse [...] unum lucis, alterum tenebrarum, unum creatorem visibilium, alterum invisibilium. Nostra fides confitetur unum Deum creatorem omnium, qui solem suum [...] super bonos et malos et pluit super iustos [...], et semen dat serenti et panem comedenti [...]. Ei soli gratias referamus [...].</p>
+        <note type="editorial" corresp="#u_23r_007" xml:lang="cs">Polemický výklad manicheismu je vyjádření rukopisu; neupřesňuji jej z moderních dějin náboženství. Segmenty35–36 jsou drobné odštěpky, pokračování citace je až37. Závěrečná argumentace na38 je částečně nedočtená.</note>
+        <p facs="#z_f23r_l039 #z_f23r_l040 #z_f23r_l041 #z_f23r_l042 #z_f23r_l043" xml:id="u_23r_008">[...] per haec acquisiti sumus qui perieramus; et [...] visibilium quae sunt in terra et invisibilium quae sunt in caelo. Deinde sex articuli de opere nostrae redemptionis, quos aliarum gentium ignoraverunt Iudaei non credunt; [...] Quorum primus de aeterna Filii generatione est: Et in Iesum Christum Filium eius [...], non per gratiam adoptionis ut alii sancti qui non de [...] sunt filii, sed per modum generationis [...].</p>
+        <note type="editorial" corresp="#u_23r_008" xml:lang="cs">Přechod39–41 má nejistou větnou stavbu. Výrok o Židech a jiných národech je převeden jako dobová polemika, nikoli vlastní soud překladatele. Kontrast adopce a zrození je v obraze čitelný.</note>
+        <p facs="#z_f23r_l044 #z_f23r_l045 #z_f23r_l046 #z_f23r_l047 #z_f23r_l048 #z_f23r_l049" xml:id="u_23r_009">[...] Filius sine tempore et Deus de Deo. Isaiae ultimo: Numquid ego qui alios parere facio ipse non pariam? [...] Filium coaeternum. Haec generatio indicibilis et incogitabilis [...]: Generationem eius quis enarrabit? Ipse Dominus noster est specialiter …</p>
+        <note type="editorial" corresp="#u_23r_009" xml:lang="cs">Segment47 a49 jsou velmi krátké neúplné odštěpky. Poslední věta přechází na následující stranu. Biblické formulace jsou přeloženy podle skutečně čitelného rozsahu, bez doplnění celé citace.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_23r_001">[…] abys přijal nebeskou milost a byl očištěn od každé poskvrny. […] se slzami […]: Slyšel jsem tvou modlitbu a viděl tvé slzy. A Řehoř říká […]: Modlitba […] pozvedá; slza […] nutí. Ta maže olejem, ona bodá.</p>
+        <p corresp="#u_23r_002">[…] pozorná. Pozornost je trojí: jedna hledí na slova, aby se nezmýlila; druhá na smysl knih; třetí na cíl modlitby, totiž na Boha […]. Tu mohou mít i lidé bez vzdělání. […] při příchodu Boha mysl zapomíná […], říká Hugo od svatého Viktora.</p>
+        <p corresp="#u_23r_003">[…] plodná […] jako se děje v […] srdce. […] činná, v2. kapitole Tobiáše [?]: Dobrá je modlitba s postem a almužnou. A v3. kapitole Pláče: Pozdvihněme svá srdce s rukama […]. Řehoř: Pozvedat srdce s rukama k Pánu znamená […] skutky modlitbu […]. […] vytrvalá s Bohem, […] který předtím […] bděl celou noc, v6. kapitole Lukáše; apoštolové setrvávali v modlitbě […], v1. kapitole Skutků.</p>
+        <p corresp="#u_23r_004">Dále jsou v roce tři slavnostní církevní průvody. První o Očišťování, při němž […] hořící svíce; tím jsou označeni začátečníci, kteří ze tmy hříchů povstali skrze zpověď […]. Druhý na Květnou neděli, kdy každý nese palmu nebo květy. Tím jsou označeni pokročilí, kteří konají dobré skutky, skutky zbožnosti […].</p>
+        <p corresp="#u_23r_005">Třetí v den Nanebevstoupení. Jím jsou označeni dokonalí […] a každý člověk […] praporec, k němuž Kristus vystupuje jako vítěz a triumfátor […]. Znázorňují se tím dokonalí, kteří překonali celý svět a věnují se jedině Bohu. […] Mnozí […] jsou čistí, ale všichni na poušť […] samotářský život nebo do kláštera […] jsou velmi dobří […].</p>
+        <p corresp="#u_23r_006">Vyznání víry, Věřím. Poznamenej dvanáct článků víry, […] které apoštolové stanovili po příchodu Ducha svatého, když už měli jít kázat […], aby jako byli všichni jedné víry, […] také tuto víru svorně kázali. Jeden článek náleží Otci […]: o díle stvoření je jeden článek, Věřím v Boha, nikoli v bohy jako pohané uctívající mnoho model; […] Ať jsou zahanbeni všichni, kdo se klanějí řezbám. Otce všemohoucího, protože všechno, co chtěl, učinil na nebi i na zemi […].</p>
+        <p corresp="#u_23r_007">[…] ale Bůh […] Stvořitele nebe i země, věcí viditelných i neviditelných. Tím se odsuzuje blud manichejců, kteří tvrdí, že jsou dva […], jeden světla a druhý tmy, jeden stvořitel viditelného, druhý neviditelného. Naše víra vyznává jediného Boha, stvořitele všeho, který dává své slunce […] nad dobré i zlé a déšť nad spravedlivé […], dává símě rozsévajícímu a chléb tomu, kdo jí […]. Jemu jedinému vzdávejme díky […].</p>
+        <p corresp="#u_23r_008">[…] skrze to jsme získáni my, kteří jsme zahynuli; […] viditelného na zemi a neviditelného v nebi. Potom šest článků o díle našeho vykoupení, které jiné národy neznaly a Židé jim nevěří; […] první je o věčném zrození Syna: A v Ježíše Krista, Syna jeho […], ne skrze milost přijetí za syny jako jiní svatí, kteří nejsou z […] syny, ale způsobem zrození […].</p>
+        <p corresp="#u_23r_009">[…] Syn bez času a Bůh z Boha. V závěru Izaiáše: Což já, který působím, aby jiní rodili, sám neporodím? […] souvěčného Syna. Toto zrození je nevyslovitelné a nemyslitelné […]: Kdo vypoví jeho zrození? On je zvláštním způsobem náš Pán …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

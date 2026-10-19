@@ -1,0 +1,122 @@
+{
+  "folio": "179v",
+  "label": "Snímek 179v",
+  "kind": "segments",
+  "width": 3900,
+  "height": 5600,
+  "models": {},
+  "source_original": "EX/M_I_259_____09Z2NI6EX0179V.TIF",
+  "source_sha256": "0dfc9ff9ec59a62169035d03d1571dff318deb4ad13da1e48c278f6d2e8d236a",
+  "coordinate_source": {
+    "id": "vkol-m-i-259_179v_coordinate",
+    "sha256": "de62c875d3afbf7aa01c0aa7963ac849c8cceb21c7ee9d0b2d96973e98535d67",
+    "width": 3900,
+    "height": 5600,
+    "frame": 0,
+    "derived_from_sha256": "0dfc9ff9ec59a62169035d03d1571dff318deb4ad13da1e48c278f6d2e8d236a",
+    "original_tiff_frame": 0,
+    "rotation_ccw_degrees": 0,
+    "source_to_coordinate_pixel_edge_affine": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "bbox_format": "xywh",
+    "origin": "top-left"
+  },
+  "language": "und",
+  "analysis_scope": "Oba původní HTR kandidáti po stejných segmentech. Samostatné doplňkové obrazové čtení není HTR. Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "notes": "Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "lines": [],
+  "passages": [],
+  "supplemental_readings": [],
+  "preview": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/previews/179v.webp",
+  "tiles": {
+    "type": "dzi",
+    "width": 3900,
+    "height": 5600,
+    "tileSize": 512,
+    "tileOverlap": 1,
+    "tilesUrl": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/tiles/179v/",
+    "fileFormat": "webp"
+  },
+  "blank": true,
+  "expert_review": false,
+  "downloads": [
+    {
+      "name": "Neupravené HTR a geometrie JSON",
+      "href": "/data/vkol-m-i-259/179v/comparison.json"
+    },
+    {
+      "name": "catmus · původní TXT",
+      "href": "/data/vkol-m-i-259/179v/catmus.raw.txt"
+    },
+    {
+      "name": "catmus · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/179v/catmus.alto.xml"
+    },
+    {
+      "name": "medusa · původní TXT",
+      "href": "/data/vkol-m-i-259/179v/medusa.raw.txt"
+    },
+    {
+      "name": "medusa · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/179v/medusa.alto.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · původní místní TEI P5 4.12.0",
+      "href": "/data/vkol-m-i-259/179v/edition.tei.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · TEI s webovými odkazy",
+      "href": "/data/vkol-m-i-259/179v/edition.web.tei.xml"
+    },
+    {
+      "name": "Rekonstrukce a překlad JSON (původní jednotky)",
+      "href": "/data/vkol-m-i-259/179v/reconstruction.json"
+    },
+    {
+      "name": "Rekonstrukce TXT",
+      "href": "/data/vkol-m-i-259/179v/reconstruction.txt"
+    },
+    {
+      "name": "Český překlad TXT",
+      "href": "/data/vkol-m-i-259/179v/translation.cs.txt"
+    },
+    {
+      "name": "Doklady obrazové kontroly JSON",
+      "href": "/data/vkol-m-i-259/179v/evidence.json"
+    }
+  ],
+  "document_id": "vkol-m-i-259",
+  "document_uri": "https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-i-259",
+  "repository": {
+    "name": "Vědecká knihovna v Olomouci",
+    "uri": "https://www.vkol.cz/",
+    "settlement": "Olomouc",
+    "country": "Česko"
+  },
+  "model_input": {
+    "sha256": "de62c875d3afbf7aa01c0aa7963ac849c8cceb21c7ee9d0b2d96973e98535d67",
+    "operation": "Native RGB TIFF frame 0, full page, unmasked; no resampling",
+    "reading_zone_xyxy": [
+      0,
+      0,
+      3900,
+      5600
+    ],
+    "masked_pilot": false
+  }
+}

@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 16v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Bez samostatně přiřazeného katalogového oddílu. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_16v">
+      <graphic url="../pages/16v/image.png"/>
+      <zone ulx="787" uly="650" lrx="983" lry="743" xml:id="z_f16v_l001"/>
+      <zone ulx="784" uly="712" lrx="989" lry="836" xml:id="z_f16v_l002"/>
+      <zone ulx="799" uly="920" lrx="996" lry="1026" xml:id="z_f16v_l003"/>
+      <zone ulx="775" uly="989" lrx="1248" lry="1129" xml:id="z_f16v_l004"/>
+      <zone ulx="768" uly="1123" lrx="1310" lry="1247" xml:id="z_f16v_l005"/>
+      <zone ulx="771" uly="1219" lrx="1216" lry="1344" xml:id="z_f16v_l006"/>
+      <zone ulx="725" uly="1337" lrx="1310" lry="1468" xml:id="z_f16v_l007"/>
+      <zone ulx="768" uly="1462" lrx="1076" lry="1571" xml:id="z_f16v_l008"/>
+      <zone ulx="759" uly="1543" lrx="1064" lry="1680" xml:id="z_f16v_l009"/>
+      <zone ulx="765" uly="1633" lrx="1114" lry="1764" xml:id="z_f16v_l010"/>
+      <zone ulx="771" uly="1739" lrx="1245" lry="1876" xml:id="z_f16v_l011"/>
+      <zone ulx="762" uly="1882" lrx="1036" lry="1984" xml:id="z_f16v_l012"/>
+      <zone ulx="765" uly="1978" lrx="1095" lry="2093" xml:id="z_f16v_l013"/>
+      <zone ulx="784" uly="2059" lrx="1136" lry="2202" xml:id="z_f16v_l014"/>
+      <zone ulx="762" uly="2168" lrx="1173" lry="2280" xml:id="z_f16v_l015"/>
+      <zone ulx="778" uly="2264" lrx="1170" lry="2404" xml:id="z_f16v_l016"/>
+      <zone ulx="843" uly="2364" lrx="1179" lry="2544" xml:id="z_f16v_l017"/>
+      <zone ulx="747" uly="2479" lrx="1120" lry="2641" xml:id="z_f16v_l018"/>
+      <zone ulx="784" uly="2597" lrx="1210" lry="2737" xml:id="z_f16v_l019"/>
+      <zone ulx="790" uly="2744" lrx="1070" lry="2890" xml:id="z_f16v_l020"/>
+      <zone ulx="709" uly="2843" lrx="1195" lry="2989" xml:id="z_f16v_l021"/>
+      <zone ulx="787" uly="2936" lrx="1257" lry="3089" xml:id="z_f16v_l022"/>
+      <zone ulx="787" uly="3067" lrx="1108" lry="3164" xml:id="z_f16v_l023"/>
+      <zone ulx="818" uly="3335" lrx="1036" lry="3472" xml:id="z_f16v_l024"/>
+      <zone ulx="799" uly="3450" lrx="1076" lry="3580" xml:id="z_f16v_l025"/>
+      <zone ulx="855" uly="3537" lrx="1048" lry="3624" xml:id="z_f16v_l026"/>
+      <zone ulx="784" uly="3633" lrx="1241" lry="3755" xml:id="z_f16v_l027"/>
+      <zone ulx="806" uly="3730" lrx="1160" lry="3829" xml:id="z_f16v_l028"/>
+      <zone ulx="806" uly="3829" lrx="1188" lry="3957" xml:id="z_f16v_l029"/>
+      <zone ulx="815" uly="3948" lrx="1216" lry="4075" xml:id="z_f16v_l030"/>
+      <zone ulx="806" uly="4041" lrx="1226" lry="4172" xml:id="z_f16v_l031"/>
+      <zone ulx="806" uly="4168" lrx="1123" lry="4296" xml:id="z_f16v_l032"/>
+      <zone ulx="753" uly="4280" lrx="1251" lry="4420" xml:id="z_f16v_l033"/>
+      <zone ulx="2169" uly="628" lrx="3265" lry="824" xml:id="z_f16v_l034"/>
+      <zone ulx="2150" uly="721" lrx="2654" lry="892" xml:id="z_f16v_l035"/>
+      <zone ulx="2156" uly="852" lrx="2468" lry="983" xml:id="z_f16v_l036"/>
+      <zone ulx="2191" uly="970" lrx="2570" lry="1107" xml:id="z_f16v_l037"/>
+      <zone ulx="2150" uly="1060" lrx="2620" lry="1185" xml:id="z_f16v_l038"/>
+      <zone ulx="2160" uly="1169" lrx="2427" lry="1325" xml:id="z_f16v_l039"/>
+      <zone ulx="2169" uly="1306" lrx="2343" lry="1400" xml:id="z_f16v_l040"/>
+      <zone ulx="2141" uly="1365" lrx="2418" lry="1512" xml:id="z_f16v_l041"/>
+      <zone ulx="2135" uly="1499" lrx="2490" lry="1592" xml:id="z_f16v_l042"/>
+      <zone ulx="2144" uly="1589" lrx="2623" lry="1748" xml:id="z_f16v_l043"/>
+      <zone ulx="2119" uly="1711" lrx="2527" lry="1851" xml:id="z_f16v_l044"/>
+      <zone ulx="2225" uly="1820" lrx="2443" lry="1941" xml:id="z_f16v_l045"/>
+      <zone ulx="2125" uly="1932" lrx="2586" lry="2062" xml:id="z_f16v_l046"/>
+      <zone ulx="2110" uly="2053" lrx="2580" lry="2193" xml:id="z_f16v_l047"/>
+      <zone ulx="2141" uly="2149" lrx="2664" lry="2280" xml:id="z_f16v_l048"/>
+      <zone ulx="2119" uly="2296" lrx="2586" lry="2401" xml:id="z_f16v_l049"/>
+      <zone ulx="2054" uly="2383" lrx="2676" lry="2551" xml:id="z_f16v_l050"/>
+      <zone ulx="2063" uly="2535" lrx="2645" lry="2641" xml:id="z_f16v_l051"/>
+      <zone ulx="2119" uly="2628" lrx="2667" lry="2765" xml:id="z_f16v_l052"/>
+      <zone ulx="2119" uly="2734" lrx="2667" lry="2880" xml:id="z_f16v_l053"/>
+      <zone ulx="2054" uly="2862" lrx="2676" lry="3036" xml:id="z_f16v_l054"/>
+      <zone ulx="2032" uly="3011" lrx="2119" lry="3216" xml:id="z_f16v_l055"/>
+      <zone ulx="2135" uly="3042" lrx="2577" lry="3157" xml:id="z_f16v_l056"/>
+      <zone ulx="2132" uly="3139" lrx="2514" lry="3288" xml:id="z_f16v_l057"/>
+      <zone ulx="2138" uly="3269" lrx="2683" lry="3381" xml:id="z_f16v_l058"/>
+      <zone ulx="2147" uly="3378" lrx="2452" lry="3537" xml:id="z_f16v_l059"/>
+      <zone ulx="2169" uly="3456" lrx="2617" lry="3633" xml:id="z_f16v_l060"/>
+      <zone ulx="2150" uly="3580" lrx="2626" lry="3742" xml:id="z_f16v_l061"/>
+      <zone ulx="2144" uly="3714" lrx="2614" lry="3864" xml:id="z_f16v_l062"/>
+      <zone ulx="2150" uly="3848" lrx="2605" lry="3994" xml:id="z_f16v_l063"/>
+      <zone ulx="2153" uly="3982" lrx="2689" lry="4119" xml:id="z_f16v_l064"/>
+      <zone ulx="2144" uly="4103" lrx="2676" lry="4240" xml:id="z_f16v_l065"/>
+      <zone ulx="2156" uly="4218" lrx="2757" lry="4371" xml:id="z_f16v_l066"/>
+      <zone ulx="2141" uly="4321" lrx="2751" lry="4560" xml:id="z_f16v_l067"/>
+      <zone ulx="3781" uly="740" lrx="3825" lry="861" xml:id="z_f16v_l068"/>
+      <zone ulx="3763" uly="964" lrx="3850" lry="1082" xml:id="z_f16v_l069"/>
+      <zone ulx="3747" uly="1207" lrx="3843" lry="1312" xml:id="z_f16v_l070"/>
+      <zone ulx="3759" uly="1456" lrx="3859" lry="1571" xml:id="z_f16v_l071"/>
+      <zone ulx="3763" uly="1829" lrx="3847" lry="1913" xml:id="z_f16v_l072"/>
+      <zone ulx="3753" uly="1910" lrx="3843" lry="2028" xml:id="z_f16v_l073"/>
+      <zone ulx="3744" uly="2031" lrx="3843" lry="2171" xml:id="z_f16v_l074"/>
+      <zone ulx="3753" uly="2131" lrx="3875" lry="2258" xml:id="z_f16v_l075"/>
+      <zone ulx="3756" uly="2233" lrx="3809" lry="2373" xml:id="z_f16v_l076"/>
+      <zone ulx="3731" uly="2376" lrx="3884" lry="2498" xml:id="z_f16v_l077"/>
+      <zone ulx="3747" uly="2495" lrx="3862" lry="2591" xml:id="z_f16v_l078"/>
+      <zone ulx="3750" uly="2616" lrx="3871" lry="2725" xml:id="z_f16v_l079"/>
+      <zone ulx="3741" uly="2719" lrx="3834" lry="2849" xml:id="z_f16v_l080"/>
+      <zone ulx="3735" uly="2852" lrx="3871" lry="2980" xml:id="z_f16v_l081"/>
+      <zone ulx="3744" uly="2955" lrx="3875" lry="3067" xml:id="z_f16v_l082"/>
+      <zone ulx="3735" uly="3083" lrx="3868" lry="3207" xml:id="z_f16v_l083"/>
+      <zone ulx="3731" uly="3188" lrx="3881" lry="3297" xml:id="z_f16v_l084"/>
+      <zone ulx="3759" uly="3338" lrx="3803" lry="3450" xml:id="z_f16v_l085"/>
+      <zone ulx="3738" uly="3587" lrx="3853" lry="3730" xml:id="z_f16v_l086"/>
+      <zone ulx="3747" uly="3680" lrx="3834" lry="3867" xml:id="z_f16v_l087"/>
+      <zone ulx="3735" uly="3829" lrx="3881" lry="3988" xml:id="z_f16v_l088"/>
+      <zone ulx="3750" uly="3459" lrx="3862" lry="3565" xml:id="z_f16v_l089"/>
+      <zone ulx="3741" uly="3938" lrx="3834" lry="4066" xml:id="z_f16v_l090"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f16v_l001" xml:id="catmus_f16v_l001"/>
+          <seg type="raw_unreviewed">ux</seg>
+          <lb facs="#z_f16v_l002" xml:id="catmus_f16v_l002"/>
+          <seg type="raw_unreviewed">dux</seg>
+          <lb facs="#z_f16v_l003" xml:id="catmus_f16v_l003"/>
+          <seg type="raw_unreviewed">pax</seg>
+          <lb facs="#z_f16v_l004" xml:id="catmus_f16v_l004"/>
+          <seg type="raw_unreviewed">Honditas</seg>
+          <lb facs="#z_f16v_l005" xml:id="catmus_f16v_l005"/>
+          <seg type="raw_unreviewed">Quantitas</seg>
+          <lb facs="#z_f16v_l006" xml:id="catmus_f16v_l006"/>
+          <seg type="raw_unreviewed">Qualitas</seg>
+          <lb facs="#z_f16v_l007" xml:id="catmus_f16v_l007"/>
+          <seg type="raw_unreviewed">Nanimrtas</seg>
+          <lb facs="#z_f16v_l008" xml:id="catmus_f16v_l008"/>
+          <seg type="raw_unreviewed">Scire</seg>
+          <lb facs="#z_f16v_l009" xml:id="catmus_f16v_l009"/>
+          <seg type="raw_unreviewed">uelle</seg>
+          <lb facs="#z_f16v_l010" xml:id="catmus_f16v_l010"/>
+          <seg type="raw_unreviewed">Uerfice̾</seg>
+          <lb facs="#z_f16v_l011" xml:id="catmus_f16v_l011"/>
+          <seg type="raw_unreviewed">eultare</seg>
+          <lb facs="#z_f16v_l012" xml:id="catmus_f16v_l012"/>
+          <seg type="raw_unreviewed">laus</seg>
+          <lb facs="#z_f16v_l013" xml:id="catmus_f16v_l013"/>
+          <seg type="raw_unreviewed">honor</seg>
+          <lb facs="#z_f16v_l014" xml:id="catmus_f16v_l014"/>
+          <seg type="raw_unreviewed">pietas</seg>
+          <lb facs="#z_f16v_l015" xml:id="catmus_f16v_l015"/>
+          <seg type="raw_unreviewed">Sonitas</seg>
+          <lb facs="#z_f16v_l016" xml:id="catmus_f16v_l016"/>
+          <seg type="raw_unreviewed">ꝑmissũ</seg>
+          <lb facs="#z_f16v_l017" xml:id="catmus_f16v_l017"/>
+          <seg type="raw_unreviewed">scͤplum</seg>
+          <lb facs="#z_f16v_l018" xml:id="catmus_f16v_l018"/>
+          <seg type="raw_unreviewed">ꝓdictũ</seg>
+          <lb facs="#z_f16v_l019" xml:id="catmus_f16v_l019"/>
+          <seg type="raw_unreviewed">Hoptatũ</seg>
+          <lb facs="#z_f16v_l020" xml:id="catmus_f16v_l020"/>
+          <seg type="raw_unreviewed">picia</seg>
+          <lb facs="#z_f16v_l021" xml:id="catmus_f16v_l021"/>
+          <seg type="raw_unreviewed">Aamiacia</seg>
+          <lb facs="#z_f16v_l022" xml:id="catmus_f16v_l022"/>
+          <seg type="raw_unreviewed">mundicia</seg>
+          <lb facs="#z_f16v_l023" xml:id="catmus_f16v_l023"/>
+          <seg type="raw_unreviewed">leticia</seg>
+          <lb facs="#z_f16v_l024" xml:id="catmus_f16v_l024"/>
+          <seg type="raw_unreviewed">ad̾ ess</seg>
+          <lb facs="#z_f16v_l025" xml:id="catmus_f16v_l025"/>
+          <seg type="raw_unreviewed">uesse</seg>
+          <lb facs="#z_f16v_l026" xml:id="catmus_f16v_l026"/>
+          <seg type="raw_unreviewed">Bui</seg>
+          <lb facs="#z_f16v_l027" xml:id="catmus_f16v_l027"/>
+          <seg type="raw_unreviewed">Delectari</seg>
+          <lb facs="#z_f16v_l028" xml:id="catmus_f16v_l028"/>
+          <seg type="raw_unreviewed">anrari</seg>
+          <lb facs="#z_f16v_l029" xml:id="catmus_f16v_l029"/>
+          <seg type="raw_unreviewed">Etnari</seg>
+          <lb facs="#z_f16v_l030" xml:id="catmus_f16v_l030"/>
+          <seg type="raw_unreviewed">Coroua</seg>
+          <lb facs="#z_f16v_l031" xml:id="catmus_f16v_l031"/>
+          <seg type="raw_unreviewed">Aurola</seg>
+          <lb facs="#z_f16v_l032" xml:id="catmus_f16v_l032"/>
+          <seg type="raw_unreviewed">Tiara</seg>
+          <lb facs="#z_f16v_l033" xml:id="catmus_f16v_l033"/>
+          <seg type="raw_unreviewed">Dia dema</seg>
+          <lb facs="#z_f16v_l034" xml:id="catmus_f16v_l034"/>
+          <seg type="raw_unreviewed">memibra eccie militant</seg>
+          <lb facs="#z_f16v_l035" xml:id="catmus_f16v_l035"/>
+          <seg type="raw_unreviewed">Oiplicit᷑</seg>
+          <lb facs="#z_f16v_l036" xml:id="catmus_f16v_l036"/>
+          <seg type="raw_unreviewed">huilr</seg>
+          <lb facs="#z_f16v_l037" xml:id="catmus_f16v_l037"/>
+          <seg type="raw_unreviewed">Prtiter</seg>
+          <lb facs="#z_f16v_l038" xml:id="catmus_f16v_l038"/>
+          <seg type="raw_unreviewed">Abedient</seg>
+          <lb facs="#z_f16v_l039" xml:id="catmus_f16v_l039"/>
+          <seg type="raw_unreviewed">Iuste</seg>
+          <lb facs="#z_f16v_l040" xml:id="catmus_f16v_l040"/>
+          <seg type="raw_unreviewed">ie</seg>
+          <lb facs="#z_f16v_l041" xml:id="catmus_f16v_l041"/>
+          <seg type="raw_unreviewed">Caste</seg>
+          <lb facs="#z_f16v_l042" xml:id="catmus_f16v_l042"/>
+          <seg type="raw_unreviewed">obrie</seg>
+          <lb facs="#z_f16v_l043" xml:id="catmus_f16v_l043"/>
+          <seg type="raw_unreviewed">pro fectus</seg>
+          <lb facs="#z_f16v_l044" xml:id="catmus_f16v_l044"/>
+          <seg type="raw_unreviewed">Affectus</seg>
+          <lb facs="#z_f16v_l045" xml:id="catmus_f16v_l045"/>
+          <seg type="raw_unreviewed">stus</seg>
+          <lb facs="#z_f16v_l046" xml:id="catmus_f16v_l046"/>
+          <seg type="raw_unreviewed">De fectus.</seg>
+          <lb facs="#z_f16v_l047" xml:id="catmus_f16v_l047"/>
+          <seg type="raw_unreviewed">diligent᷑</seg>
+          <lb facs="#z_f16v_l048" xml:id="catmus_f16v_l048"/>
+          <seg type="raw_unreviewed">ffestinant᷑</seg>
+          <lb facs="#z_f16v_l049" xml:id="catmus_f16v_l049"/>
+          <seg type="raw_unreviewed">Ardenter</seg>
+          <lb facs="#z_f16v_l050" xml:id="catmus_f16v_l050"/>
+          <seg type="raw_unreviewed">ꝑ seuerant</seg>
+          <lb facs="#z_f16v_l051" xml:id="catmus_f16v_l051"/>
+          <seg type="raw_unreviewed">Peratiter</seg>
+          <lb facs="#z_f16v_l052" xml:id="catmus_f16v_l052"/>
+          <seg type="raw_unreviewed">Constaut᷑</seg>
+          <lb facs="#z_f16v_l053" xml:id="catmus_f16v_l053"/>
+          <seg type="raw_unreviewed">Delctabilit᷑</seg>
+          <lb facs="#z_f16v_l054" xml:id="catmus_f16v_l054"/>
+          <seg type="raw_unreviewed">ph̾enter</seg>
+          <lb facs="#z_f16v_l055" xml:id="catmus_f16v_l055"/>
+          <seg type="raw_unreviewed">7</seg>
+          <lb facs="#z_f16v_l056" xml:id="catmus_f16v_l056"/>
+          <seg type="raw_unreviewed">uenique</seg>
+          <lb facs="#z_f16v_l057" xml:id="catmus_f16v_l057"/>
+          <seg type="raw_unreviewed">Mõdeste</seg>
+          <lb facs="#z_f16v_l058" xml:id="catmus_f16v_l058"/>
+          <seg type="raw_unreviewed">Caritatine</seg>
+          <lb facs="#z_f16v_l059" xml:id="catmus_f16v_l059"/>
+          <seg type="raw_unreviewed">ꝑ fecte</seg>
+          <lb facs="#z_f16v_l060" xml:id="catmus_f16v_l060"/>
+          <seg type="raw_unreviewed">Consolacõ</seg>
+          <lb facs="#z_f16v_l061" xml:id="catmus_f16v_l061"/>
+          <seg type="raw_unreviewed">Simulacõ</seg>
+          <lb facs="#z_f16v_l062" xml:id="catmus_f16v_l062"/>
+          <seg type="raw_unreviewed">Moultacis</seg>
+          <lb facs="#z_f16v_l063" xml:id="catmus_f16v_l063"/>
+          <seg type="raw_unreviewed">Iuspiraco</seg>
+          <lb facs="#z_f16v_l064" xml:id="catmus_f16v_l064"/>
+          <seg type="raw_unreviewed">Prndenter</seg>
+          <lb facs="#z_f16v_l065" xml:id="catmus_f16v_l065"/>
+          <seg type="raw_unreviewed">Sapienter</seg>
+          <lb facs="#z_f16v_l066" xml:id="catmus_f16v_l066"/>
+          <seg type="raw_unreviewed">prouidenter</seg>
+          <lb facs="#z_f16v_l067" xml:id="catmus_f16v_l067"/>
+          <seg type="raw_unreviewed">Inelligenter</seg>
+          <lb facs="#z_f16v_l068" xml:id="catmus_f16v_l068"/>
+          <seg type="raw_unreviewed">hi</seg>
+          <lb facs="#z_f16v_l069" xml:id="catmus_f16v_l069"/>
+          <seg type="raw_unreviewed">hro</seg>
+          <lb facs="#z_f16v_l070" xml:id="catmus_f16v_l070"/>
+          <seg type="raw_unreviewed">DeI</seg>
+          <lb facs="#z_f16v_l071" xml:id="catmus_f16v_l071"/>
+          <seg type="raw_unreviewed">Sme</seg>
+          <lb facs="#z_f16v_l072" xml:id="catmus_f16v_l072"/>
+          <seg type="raw_unreviewed">Qm</seg>
+          <lb facs="#z_f16v_l073" xml:id="catmus_f16v_l073"/>
+          <seg type="raw_unreviewed">Cor</seg>
+          <lb facs="#z_f16v_l074" xml:id="catmus_f16v_l074"/>
+          <seg type="raw_unreviewed">six</seg>
+          <lb facs="#z_f16v_l075" xml:id="catmus_f16v_l075"/>
+          <seg type="raw_unreviewed">Rme</seg>
+          <lb facs="#z_f16v_l076" xml:id="catmus_f16v_l076"/>
+          <seg type="raw_unreviewed">Ad</seg>
+          <lb facs="#z_f16v_l077" xml:id="catmus_f16v_l077"/>
+          <seg type="raw_unreviewed">penia</seg>
+          <lb facs="#z_f16v_l078" xml:id="catmus_f16v_l078"/>
+          <seg type="raw_unreviewed">irose</seg>
+          <lb facs="#z_f16v_l079" xml:id="catmus_f16v_l079"/>
+          <seg type="raw_unreviewed">uit.</seg>
+          <lb facs="#z_f16v_l080" xml:id="catmus_f16v_l080"/>
+          <seg type="raw_unreviewed">AOR</seg>
+          <lb facs="#z_f16v_l081" xml:id="catmus_f16v_l081"/>
+          <seg type="raw_unreviewed">Uerit</seg>
+          <lb facs="#z_f16v_l082" xml:id="catmus_f16v_l082"/>
+          <seg type="raw_unreviewed">Carit</seg>
+          <lb facs="#z_f16v_l083" xml:id="catmus_f16v_l083"/>
+          <seg type="raw_unreviewed">Iuc</seg>
+          <lb facs="#z_f16v_l084" xml:id="catmus_f16v_l084"/>
+          <seg type="raw_unreviewed">hietas</seg>
+          <lb facs="#z_f16v_l085" xml:id="catmus_f16v_l085"/>
+          <seg type="raw_unreviewed">Po</seg>
+          <lb facs="#z_f16v_l086" xml:id="catmus_f16v_l086"/>
+          <seg type="raw_unreviewed">fettis</seg>
+          <lb facs="#z_f16v_l087" xml:id="catmus_f16v_l087"/>
+          <seg type="raw_unreviewed">ple</seg>
+          <lb facs="#z_f16v_l088" xml:id="catmus_f16v_l088"/>
+          <seg type="raw_unreviewed">Hauꝑ</seg>
+          <lb facs="#z_f16v_l089" xml:id="catmus_f16v_l089"/>
+          <seg type="raw_unreviewed">hulco</seg>
+          <lb facs="#z_f16v_l090" xml:id="catmus_f16v_l090"/>
+          <seg type="raw_unreviewed">Ten</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f16v_l001" xml:id="medusa_f16v_l001"/>
+          <seg type="raw_unreviewed">LIX</seg>
+          <lb facs="#z_f16v_l002" xml:id="medusa_f16v_l002"/>
+          <seg type="raw_unreviewed">dux</seg>
+          <lb facs="#z_f16v_l003" xml:id="medusa_f16v_l003"/>
+          <seg type="raw_unreviewed">pax</seg>
+          <lb facs="#z_f16v_l004" xml:id="medusa_f16v_l004"/>
+          <seg type="raw_unreviewed">Conditas</seg>
+          <lb facs="#z_f16v_l005" xml:id="medusa_f16v_l005"/>
+          <seg type="raw_unreviewed">Quantitas</seg>
+          <lb facs="#z_f16v_l006" xml:id="medusa_f16v_l006"/>
+          <seg type="raw_unreviewed">Qualitas</seg>
+          <lb facs="#z_f16v_l007" xml:id="medusa_f16v_l007"/>
+          <seg type="raw_unreviewed">Nanimitas</seg>
+          <lb facs="#z_f16v_l008" xml:id="medusa_f16v_l008"/>
+          <seg type="raw_unreviewed">Scire</seg>
+          <lb facs="#z_f16v_l009" xml:id="medusa_f16v_l009"/>
+          <seg type="raw_unreviewed">velle</seg>
+          <lb facs="#z_f16v_l010" xml:id="medusa_f16v_l010"/>
+          <seg type="raw_unreviewed">perfice̾</seg>
+          <lb facs="#z_f16v_l011" xml:id="medusa_f16v_l011"/>
+          <seg type="raw_unreviewed">cheultare</seg>
+          <lb facs="#z_f16v_l012" xml:id="medusa_f16v_l012"/>
+          <seg type="raw_unreviewed">laus</seg>
+          <lb facs="#z_f16v_l013" xml:id="medusa_f16v_l013"/>
+          <seg type="raw_unreviewed">honor</seg>
+          <lb facs="#z_f16v_l014" xml:id="medusa_f16v_l014"/>
+          <seg type="raw_unreviewed">pietas</seg>
+          <lb facs="#z_f16v_l015" xml:id="medusa_f16v_l015"/>
+          <seg type="raw_unreviewed">Bonitas</seg>
+          <lb facs="#z_f16v_l016" xml:id="medusa_f16v_l016"/>
+          <seg type="raw_unreviewed">pro missum</seg>
+          <lb facs="#z_f16v_l017" xml:id="medusa_f16v_l017"/>
+          <seg type="raw_unreviewed">scriptum</seg>
+          <lb facs="#z_f16v_l018" xml:id="medusa_f16v_l018"/>
+          <seg type="raw_unreviewed">predictum</seg>
+          <lb facs="#z_f16v_l019" xml:id="medusa_f16v_l019"/>
+          <seg type="raw_unreviewed">preoptatum</seg>
+          <lb facs="#z_f16v_l020" xml:id="medusa_f16v_l020"/>
+          <seg type="raw_unreviewed">picia</seg>
+          <lb facs="#z_f16v_l021" xml:id="medusa_f16v_l021"/>
+          <seg type="raw_unreviewed">Amicicia</seg>
+          <lb facs="#z_f16v_l022" xml:id="medusa_f16v_l022"/>
+          <seg type="raw_unreviewed">Mundicia</seg>
+          <lb facs="#z_f16v_l023" xml:id="medusa_f16v_l023"/>
+          <seg type="raw_unreviewed">leticia</seg>
+          <lb facs="#z_f16v_l024" xml:id="medusa_f16v_l024"/>
+          <seg type="raw_unreviewed">Ad eum</seg>
+          <lb facs="#z_f16v_l025" xml:id="medusa_f16v_l025"/>
+          <seg type="raw_unreviewed">nesse</seg>
+          <lb facs="#z_f16v_l026" xml:id="medusa_f16v_l026"/>
+          <seg type="raw_unreviewed">Prui</seg>
+          <lb facs="#z_f16v_l027" xml:id="medusa_f16v_l027"/>
+          <seg type="raw_unreviewed">Delectari</seg>
+          <lb facs="#z_f16v_l028" xml:id="medusa_f16v_l028"/>
+          <seg type="raw_unreviewed">Mirari</seg>
+          <lb facs="#z_f16v_l029" xml:id="medusa_f16v_l029"/>
+          <seg type="raw_unreviewed">Eternari</seg>
+          <lb facs="#z_f16v_l030" xml:id="medusa_f16v_l030"/>
+          <seg type="raw_unreviewed">Corona</seg>
+          <lb facs="#z_f16v_l031" xml:id="medusa_f16v_l031"/>
+          <seg type="raw_unreviewed">Annoia</seg>
+          <lb facs="#z_f16v_l032" xml:id="medusa_f16v_l032"/>
+          <seg type="raw_unreviewed">Tiara</seg>
+          <lb facs="#z_f16v_l033" xml:id="medusa_f16v_l033"/>
+          <seg type="raw_unreviewed">Diademam</seg>
+          <lb facs="#z_f16v_l034" xml:id="medusa_f16v_l034"/>
+          <seg type="raw_unreviewed">Membra ecclesie militant</seg>
+          <lb facs="#z_f16v_l035" xml:id="medusa_f16v_l035"/>
+          <seg type="raw_unreviewed">simplicitate</seg>
+          <lb facs="#z_f16v_l036" xml:id="medusa_f16v_l036"/>
+          <seg type="raw_unreviewed">huilr</seg>
+          <lb facs="#z_f16v_l037" xml:id="medusa_f16v_l037"/>
+          <seg type="raw_unreviewed">preter</seg>
+          <lb facs="#z_f16v_l038" xml:id="medusa_f16v_l038"/>
+          <seg type="raw_unreviewed">Obedient</seg>
+          <lb facs="#z_f16v_l039" xml:id="medusa_f16v_l039"/>
+          <seg type="raw_unreviewed">Iuste</seg>
+          <lb facs="#z_f16v_l040" xml:id="medusa_f16v_l040"/>
+          <seg type="raw_unreviewed">ple</seg>
+          <lb facs="#z_f16v_l041" xml:id="medusa_f16v_l041"/>
+          <seg type="raw_unreviewed">Casto</seg>
+          <lb facs="#z_f16v_l042" xml:id="medusa_f16v_l042"/>
+          <seg type="raw_unreviewed">Sobrie</seg>
+          <lb facs="#z_f16v_l043" xml:id="medusa_f16v_l043"/>
+          <seg type="raw_unreviewed">profectus</seg>
+          <lb facs="#z_f16v_l044" xml:id="medusa_f16v_l044"/>
+          <seg type="raw_unreviewed">Affectus</seg>
+          <lb facs="#z_f16v_l045" xml:id="medusa_f16v_l045"/>
+          <seg type="raw_unreviewed">fatus</seg>
+          <lb facs="#z_f16v_l046" xml:id="medusa_f16v_l046"/>
+          <seg type="raw_unreviewed">Defectus</seg>
+          <lb facs="#z_f16v_l047" xml:id="medusa_f16v_l047"/>
+          <seg type="raw_unreviewed">Diligenter</seg>
+          <lb facs="#z_f16v_l048" xml:id="medusa_f16v_l048"/>
+          <seg type="raw_unreviewed">Festimantur</seg>
+          <lb facs="#z_f16v_l049" xml:id="medusa_f16v_l049"/>
+          <seg type="raw_unreviewed">Ardenter</seg>
+          <lb facs="#z_f16v_l050" xml:id="medusa_f16v_l050"/>
+          <seg type="raw_unreviewed">Per seuerant</seg>
+          <lb facs="#z_f16v_l051" xml:id="medusa_f16v_l051"/>
+          <seg type="raw_unreviewed">Veraciter</seg>
+          <lb facs="#z_f16v_l052" xml:id="medusa_f16v_l052"/>
+          <seg type="raw_unreviewed">Constant</seg>
+          <lb facs="#z_f16v_l053" xml:id="medusa_f16v_l053"/>
+          <seg type="raw_unreviewed">delectabilitate</seg>
+          <lb facs="#z_f16v_l054" xml:id="medusa_f16v_l054"/>
+          <seg type="raw_unreviewed">Phenicter</seg>
+          <lb facs="#z_f16v_l055" xml:id="medusa_f16v_l055"/>
+          <seg type="raw_unreviewed">7</seg>
+          <lb facs="#z_f16v_l056" xml:id="medusa_f16v_l056"/>
+          <seg type="raw_unreviewed">Benigne</seg>
+          <lb facs="#z_f16v_l057" xml:id="medusa_f16v_l057"/>
+          <seg type="raw_unreviewed">Modeste</seg>
+          <lb facs="#z_f16v_l058" xml:id="medusa_f16v_l058"/>
+          <seg type="raw_unreviewed">Caritative</seg>
+          <lb facs="#z_f16v_l059" xml:id="medusa_f16v_l059"/>
+          <seg type="raw_unreviewed">perfecte</seg>
+          <lb facs="#z_f16v_l060" xml:id="medusa_f16v_l060"/>
+          <seg type="raw_unreviewed">Consolacio</seg>
+          <lb facs="#z_f16v_l061" xml:id="medusa_f16v_l061"/>
+          <seg type="raw_unreviewed">Simulacio</seg>
+          <lb facs="#z_f16v_l062" xml:id="medusa_f16v_l062"/>
+          <seg type="raw_unreviewed">GoulTacio</seg>
+          <lb facs="#z_f16v_l063" xml:id="medusa_f16v_l063"/>
+          <seg type="raw_unreviewed">inspiraco</seg>
+          <lb facs="#z_f16v_l064" xml:id="medusa_f16v_l064"/>
+          <seg type="raw_unreviewed">Prudenter</seg>
+          <lb facs="#z_f16v_l065" xml:id="medusa_f16v_l065"/>
+          <seg type="raw_unreviewed">Sapienter</seg>
+          <lb facs="#z_f16v_l066" xml:id="medusa_f16v_l066"/>
+          <seg type="raw_unreviewed">providenter</seg>
+          <lb facs="#z_f16v_l067" xml:id="medusa_f16v_l067"/>
+          <seg type="raw_unreviewed">intelligenter</seg>
+          <lb facs="#z_f16v_l068" xml:id="medusa_f16v_l068"/>
+          <seg type="raw_unreviewed">an</seg>
+          <lb facs="#z_f16v_l069" xml:id="medusa_f16v_l069"/>
+          <seg type="raw_unreviewed">pro</seg>
+          <lb facs="#z_f16v_l070" xml:id="medusa_f16v_l070"/>
+          <seg type="raw_unreviewed">Deu</seg>
+          <lb facs="#z_f16v_l071" xml:id="medusa_f16v_l071"/>
+          <seg type="raw_unreviewed">Sine</seg>
+          <lb facs="#z_f16v_l072" xml:id="medusa_f16v_l072"/>
+          <seg type="raw_unreviewed">Cui</seg>
+          <lb facs="#z_f16v_l073" xml:id="medusa_f16v_l073"/>
+          <seg type="raw_unreviewed">Cor</seg>
+          <lb facs="#z_f16v_l074" xml:id="medusa_f16v_l074"/>
+          <seg type="raw_unreviewed">aux</seg>
+          <lb facs="#z_f16v_l075" xml:id="medusa_f16v_l075"/>
+          <seg type="raw_unreviewed">Pene</seg>
+          <lb facs="#z_f16v_l076" xml:id="medusa_f16v_l076"/>
+          <seg type="raw_unreviewed">ad</seg>
+          <lb facs="#z_f16v_l077" xml:id="medusa_f16v_l077"/>
+          <seg type="raw_unreviewed">venia</seg>
+          <lb facs="#z_f16v_l078" xml:id="medusa_f16v_l078"/>
+          <seg type="raw_unreviewed">prote</seg>
+          <lb facs="#z_f16v_l079" xml:id="medusa_f16v_l079"/>
+          <seg type="raw_unreviewed">curr</seg>
+          <lb facs="#z_f16v_l080" xml:id="medusa_f16v_l080"/>
+          <seg type="raw_unreviewed">anni</seg>
+          <lb facs="#z_f16v_l081" xml:id="medusa_f16v_l081"/>
+          <seg type="raw_unreviewed">pent</seg>
+          <lb facs="#z_f16v_l082" xml:id="medusa_f16v_l082"/>
+          <seg type="raw_unreviewed">Carité</seg>
+          <lb facs="#z_f16v_l083" xml:id="medusa_f16v_l083"/>
+          <seg type="raw_unreviewed">unam</seg>
+          <lb facs="#z_f16v_l084" xml:id="medusa_f16v_l084"/>
+          <seg type="raw_unreviewed">pietas</seg>
+          <lb facs="#z_f16v_l085" xml:id="medusa_f16v_l085"/>
+          <seg type="raw_unreviewed">so</seg>
+          <lb facs="#z_f16v_l086" xml:id="medusa_f16v_l086"/>
+          <seg type="raw_unreviewed">rectis</seg>
+          <lb facs="#z_f16v_l087" xml:id="medusa_f16v_l087"/>
+          <seg type="raw_unreviewed">plen</seg>
+          <lb facs="#z_f16v_l088" xml:id="medusa_f16v_l088"/>
+          <seg type="raw_unreviewed">Pauper</seg>
+          <lb facs="#z_f16v_l089" xml:id="medusa_f16v_l089"/>
+          <seg type="raw_unreviewed">pulcri</seg>
+          <lb facs="#z_f16v_l090" xml:id="medusa_f16v_l090"/>
+          <seg type="raw_unreviewed">Item</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f16v_l001 #z_f16v_l002 #z_f16v_l003 #z_f16v_l004 #z_f16v_l005 #z_f16v_l006 #z_f16v_l007 #z_f16v_l008 #z_f16v_l009 #z_f16v_l010 #z_f16v_l011" xml:id="u_16v_001">Lux. Dux. Rex. Pax. [Canditas?] Quantitas. Qualitas. [Parvimitas?] Scire. Velle. Perficere. Exultare.</p>
+        <note type="editorial" corresp="#u_16v_001" xml:lang="cs">Začátek levého sloupce pokračuje ve slovníku církve vítězné. První a poslední slovo druhé čtveřice vyžadují kontrolu; nelze je bez nejistoty nahrazovat klasickými tvary. Rex je v souvislém nativním obrazu čitelné, samostatný kandidát ale chybí. Pás1–8 byl dodatečně skutečně otevřen.</note>
+        <p facs="#z_f16v_l012 #z_f16v_l013 #z_f16v_l014 #z_f16v_l015 #z_f16v_l016 #z_f16v_l017 #z_f16v_l018 #z_f16v_l019 #z_f16v_l020 #z_f16v_l021 #z_f16v_l022 #z_f16v_l023" xml:id="u_16v_002">Laus. Honor. Pietas. Bonitas. [Permissum?] Exemplum. Productum. [Reportatum?] [Pitia?] Amicitia. Munditia. Laetitia.</p>
+        <note type="editorial" corresp="#u_16v_002" xml:lang="cs">Dodatečné otevření pásu17–24 opravilo předběžné propositum na exemplum. Permissum/promissum a reportatum zůstávají nejistá; Pitia není bez důkazu doplněno na divitiae.</note>
+        <p facs="#z_f16v_l024 #z_f16v_l025 #z_f16v_l026 #z_f16v_l027 #z_f16v_l028 #z_f16v_l029 #z_f16v_l030 #z_f16v_l031 #z_f16v_l032 #z_f16v_l033" xml:id="u_16v_003">Esse. Posse. Adesse. Inesse. Frui. Delectari. Mirari. Laetari. Corona. Aureola. Tiara. Diadema.</p>
+        <note type="editorial" corresp="#u_16v_003" xml:lang="cs">Závěr levého sloupce. Aureola nemusí v tomto heslovém seznamu znamenat obrazově zachycenou svatozář; nedoplňuji ikonografický výklad. Esse a Posse nejsou samostatně zachyceny kandidáty, jsou však v již otevřeném celém nativním výřezu. Pás25–32 dodatečně potvrzuje Mirari místo předběžného Ornari.</note>
+        <p facs="#z_f16v_l034 #z_f16v_l035 #z_f16v_l036 #z_f16v_l037 #z_f16v_l038 #z_f16v_l039 #z_f16v_l040 #z_f16v_l041 #z_f16v_l042 #z_f16v_l043 #z_f16v_l044 #z_f16v_l045 #z_f16v_l046" xml:id="u_16v_004">Membra ecclesiae militantis. Simpliciter. Humiliter. Breviter. Obedienter. Iuste. Pie. Caste. Sobrie. Profectus. Affectus. Effectus. Defectus.</p>
+        <note type="editorial" corresp="#u_16v_004" xml:lang="cs">Nová skupina začíná záhlavím v pravém sloupci; není to navazující souvislá věta.</note>
+        <p facs="#z_f16v_l047 #z_f16v_l048 #z_f16v_l049 #z_f16v_l050 #z_f16v_l051 #z_f16v_l052 #z_f16v_l053 #z_f16v_l054 #z_f16v_l055 #z_f16v_l056 #z_f16v_l057 #z_f16v_l058 #z_f16v_l059" xml:id="u_16v_005">Diligenter. Festinanter. Ardenter. Perseveranter. Veraciter. Constanter. Delectabiliter. Perenniter. Benigne. Modeste. Caritative. Perfecte.</p>
+        <note type="editorial" corresp="#u_16v_005" xml:lang="cs">Tři čtveřice příslovcí, perenniter je návrhové rozvedení rukopisné zkratky.</note>
+        <p facs="#z_f16v_l060 #z_f16v_l061 #z_f16v_l062 #z_f16v_l063 #z_f16v_l064 #z_f16v_l065 #z_f16v_l066 #z_f16v_l067" xml:id="u_16v_006">Consolatio. Simulatio. Exultatio. Inspiratio. Prudenter. Sapienter. Providenter. Intelligenter.</p>
+        <note type="editorial" corresp="#u_16v_006" xml:lang="cs">Simulatio je zapsáno v obraze; nenahrazuji je zbožnějším výrazem podle očekávání tematické skupiny.</note>
+        <p facs="#z_f16v_l068 #z_f16v_l069 #z_f16v_l070 #z_f16v_l071 #z_f16v_l072 #z_f16v_l073 #z_f16v_l074 #z_f16v_l075 #z_f16v_l076 #z_f16v_l077 #z_f16v_l078 #z_f16v_l079 #z_f16v_l080 #z_f16v_l081 #z_f16v_l082 #z_f16v_l083 #z_f16v_l084 #z_f16v_l085 #z_f16v_l086 #z_f16v_l087 #z_f16v_l088 #z_f16v_l089 #z_f16v_l090" xml:id="u_16v_007">[Fragmenta paginae oppositae: … veni…; … veri…; … carit…; … pietas…; cetera fragmenta incerta.]</p>
+        <note type="editorial" corresp="#u_16v_007" xml:lang="cs">Segmentace zahrnula do této strany23 úzkých útržků protějšího folia při pravém okraji snímku. Nejde o nový třetí sloupec16v. Překlad jen návrhově uvádí částečně viditelná slova; úplná hesla se nesmějí doplnit zpaměti podle17r.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_16v_001">Světlo. Vůdce. Král. Pokoj. [Bělost?] Množství. Jakost. [Malost?] Vědět. Chtít. Dokonávat. Jásat.</p>
+        <p corresp="#u_16v_002">Chvála. Čest. Zbožnost. Dobrota. [Dovolené?] Příklad. Vytvořené. [Přinesené zpět?] [Nejisté heslo: pitia?] Přátelství. Čistota. Radost.</p>
+        <p corresp="#u_16v_003">Být. Moci. Být přítomen. Být uvnitř. Požívat. Těšit se. Divit se. Radovat se. Koruna. Aureola či malá koruna. Tiára. Diadém.</p>
+        <p corresp="#u_16v_004">Členy vztahující se k církvi bojující. Prostě. Pokorně. Stručně. Poslušně. Spravedlivě. Zbožně. Cudně. Střízlivě. Pokrok. Náklonnost. Výsledek. Nedostatek.</p>
+        <p corresp="#u_16v_005">Pečlivě. Spěšně. Horlivě. Vytrvale. Pravdivě. Stále. Příjemně. Trvale. Dobrotivě. Uměřeně. S láskou. Dokonale.</p>
+        <p corresp="#u_16v_006">Útěcha. Předstírání. Jásot. Vnuknutí. Rozvážně. Moudře. Předvídavě. Chápavě.</p>
+        <p corresp="#u_16v_007">[Zlomky protější strany: … přijď či milost?; … pravda?; … láska?; … zbožnost; ostatní zlomky nejisté.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, B001R: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Bez samostatně přiřazeného katalogového oddílu. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_B001R">
+      <graphic url="../pages/B001R/image.png"/>
+      <zone ulx="3391" uly="2337" lrx="3441" lry="2487" xml:id="z_fB001R_l001"/>
+      <zone ulx="3502" uly="2348" lrx="3669" lry="2491" xml:id="z_fB001R_l002"/>
+      <zone ulx="3398" uly="2483" lrx="3989" lry="2671" xml:id="z_fB001R_l003"/>
+      <zone ulx="4065" uly="2405" lrx="4098" lry="2491" xml:id="z_fB001R_l004"/>
+    <zone ulx="3300" uly="2150" lrx="4250" lry="2770" type="manually_selected_region" xml:id="supplemental_B001R_1"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_fB001R_l001" xml:id="catmus_fB001R_l001"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_fB001R_l002" xml:id="catmus_fB001R_l002"/>
+          <seg type="raw_unreviewed">a¶</seg>
+          <lb facs="#z_fB001R_l003" xml:id="catmus_fB001R_l003"/>
+          <seg type="raw_unreviewed">luce quinori</seg>
+          <lb facs="#z_fB001R_l004" xml:id="catmus_fB001R_l004"/>
+          <seg type="raw_unreviewed">.</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_fB001R_l001" xml:id="medusa_fB001R_l001"/>
+          <seg type="raw_unreviewed">L</seg>
+          <lb facs="#z_fB001R_l002" xml:id="medusa_fB001R_l002"/>
+          <seg type="raw_unreviewed">a e</seg>
+          <lb facs="#z_fB001R_l003" xml:id="medusa_fB001R_l003"/>
+          <seg type="raw_unreviewed">Luca Juniori</seg>
+          <lb facs="#z_fB001R_l004" xml:id="medusa_fB001R_l004"/>
+          <seg type="raw_unreviewed">13</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_fB001R_l001 #z_fB001R_l002" xml:id="u_B001R_001">[Littera? ---]</p>
+        <note type="editorial" corresp="#u_B001R_001" xml:lang="cs">Automatické segmenty jsou jen odřezky prvního řádku krátké poznámky. Písmeno L ani rozvedení první zkratky nejsou bezpečná.</note>
+        <p facs="#z_fB001R_l003" xml:id="u_B001R_002">Luce [quatuor?].</p>
+        <note type="editorial" corresp="#u_B001R_002" xml:lang="cs">Druhý řádek je čitelnější, ale význam spojení a možné jméno nelze bezpečně stanovit; nepřekládám jej jako souvislou větu.</note>
+        <p facs="#z_fB001R_l004" xml:id="u_B001R_003">[---]</p>
+        <note type="editorial" corresp="#u_B001R_003" xml:lang="cs">Izolovaná značka u kraje poznámky.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_B001R_001">[Listina? ---]</p>
+        <p corresp="#u_B001R_002">Luce [čtyři?].</p>
+        <p corresp="#u_B001R_003">[Neurčený drobný fragment.]</p>
+      </div>
+    <div type="supplemental_reading" subtype="AI_proposed" facs="#supplemental_B001R_1"><p>[Littera?] capta p[ro?] d[omi]no / Luce [quatuor?].</p><p xml:lang="cs">[Listina?] přijatá pro [pána?] / Luce [čtyři?].</p><note>Velmi nejisté rozvedení zkratek. Luce může být jméno nebo součást jiného spojení; konkrétní adresát ani biblický odkaz se z toho neurčuje. Lomítko zachovává dva viditelné řádky. Whole manually selected region; not an HTR line. Crop rotation CCW: 0.</note></div></body>
+  </text>
+</TEI>

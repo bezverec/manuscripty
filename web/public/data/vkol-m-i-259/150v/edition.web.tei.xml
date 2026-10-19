@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 150v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_150v_coordinate; PNG SHA256 57ca739a88991b7ec629e1cfc391852b0a904469f62ed9d419137bab1d7658ed; archival TIFF SHA256 72d6ec761a235108510e5c127c8ede6a8908fd47d5dbcbca79075b8fed88e49f; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_150v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#150v"/>
+      <zone ulx="675" uly="494" lrx="3495" lry="690" xml:id="z_f150v_l001"/>
+      <zone ulx="728" uly="628" lrx="3377" lry="836" xml:id="z_f150v_l002"/>
+      <zone ulx="681" uly="743" lrx="3398" lry="955" xml:id="z_f150v_l003"/>
+      <zone ulx="666" uly="874" lrx="3548" lry="1085" xml:id="z_f150v_l004"/>
+      <zone ulx="662" uly="1039" lrx="3523" lry="1244" xml:id="z_f150v_l005"/>
+      <zone ulx="684" uly="1163" lrx="3442" lry="1393" xml:id="z_f150v_l006"/>
+      <zone ulx="659" uly="1306" lrx="3526" lry="1508" xml:id="z_f150v_l007"/>
+      <zone ulx="659" uly="1440" lrx="3482" lry="1658" xml:id="z_f150v_l008"/>
+      <zone ulx="653" uly="1620" lrx="2091" lry="1785" xml:id="z_f150v_l009"/>
+      <zone ulx="647" uly="1754" lrx="2683" lry="1938" xml:id="z_f150v_l010"/>
+      <zone ulx="831" uly="1888" lrx="3461" lry="2090" xml:id="z_f150v_l011"/>
+      <zone ulx="840" uly="2037" lrx="3411" lry="2215" xml:id="z_f150v_l012"/>
+      <zone ulx="641" uly="2162" lrx="3448" lry="2361" xml:id="z_f150v_l013"/>
+      <zone ulx="662" uly="2311" lrx="3501" lry="2485" xml:id="z_f150v_l014"/>
+      <zone ulx="1571" uly="2436" lrx="2290" lry="2563" xml:id="z_f150v_l015"/>
+      <zone ulx="634" uly="2457" lrx="3520" lry="2644" xml:id="z_f150v_l016"/>
+      <zone ulx="641" uly="2604" lrx="3482" lry="2772" xml:id="z_f150v_l017"/>
+      <zone ulx="585" uly="2731" lrx="3557" lry="2908" xml:id="z_f150v_l018"/>
+      <zone ulx="631" uly="2865" lrx="3520" lry="3027" xml:id="z_f150v_l019"/>
+      <zone ulx="2732" uly="2961" lrx="3604" lry="3095" xml:id="z_f150v_l020"/>
+      <zone ulx="631" uly="3027" lrx="3532" lry="3185" xml:id="z_f150v_l021"/>
+      <zone ulx="622" uly="3132" lrx="3454" lry="3304" xml:id="z_f150v_l022"/>
+      <zone ulx="610" uly="3266" lrx="3467" lry="3450" xml:id="z_f150v_l023"/>
+      <zone ulx="616" uly="3422" lrx="2658" lry="3646" xml:id="z_f150v_l024"/>
+      <zone ulx="3215" uly="3412" lrx="3398" lry="3537" xml:id="z_f150v_l025"/>
+      <zone ulx="815" uly="3584" lrx="3545" lry="3798" xml:id="z_f150v_l026"/>
+      <zone ulx="790" uly="3717" lrx="3523" lry="3920" xml:id="z_f150v_l027"/>
+      <zone ulx="610" uly="3839" lrx="3495" lry="4032" xml:id="z_f150v_l028"/>
+      <zone ulx="600" uly="3969" lrx="3510" lry="4190" xml:id="z_f150v_l029"/>
+      <zone ulx="588" uly="4137" lrx="3473" lry="4327" xml:id="z_f150v_l030"/>
+      <zone ulx="578" uly="4243" lrx="3498" lry="4452" xml:id="z_f150v_l031"/>
+      <zone ulx="585" uly="4389" lrx="3588" lry="4579" xml:id="z_f150v_l032"/>
+      <zone ulx="927" uly="4508" lrx="1120" lry="4570" xml:id="z_f150v_l033"/>
+      <zone ulx="569" uly="4517" lrx="3458" lry="4697" xml:id="z_f150v_l034"/>
+      <zone ulx="572" uly="4651" lrx="3514" lry="4865" xml:id="z_f150v_l035"/>
+      <zone ulx="3781" uly="500" lrx="3853" lry="650" xml:id="z_f150v_l036"/>
+      <zone ulx="3753" uly="958" lrx="3840" lry="1057" xml:id="z_f150v_l037"/>
+      <zone ulx="3747" uly="1073" lrx="3834" lry="1200" xml:id="z_f150v_l038"/>
+      <zone ulx="3750" uly="1225" lrx="3887" lry="1344" xml:id="z_f150v_l039"/>
+      <zone ulx="3744" uly="1331" lrx="3878" lry="1487" xml:id="z_f150v_l040"/>
+      <zone ulx="3750" uly="1490" lrx="3887" lry="1614" xml:id="z_f150v_l041"/>
+      <zone ulx="3741" uly="1624" lrx="3884" lry="1754" xml:id="z_f150v_l042"/>
+      <zone ulx="3738" uly="1770" lrx="3868" lry="1904" xml:id="z_f150v_l043"/>
+      <zone ulx="3744" uly="1947" lrx="3878" lry="2062" xml:id="z_f150v_l044"/>
+      <zone ulx="3750" uly="2492" lrx="3884" lry="2610" xml:id="z_f150v_l045"/>
+      <zone ulx="3763" uly="2635" lrx="3862" lry="2747" xml:id="z_f150v_l046"/>
+      <zone ulx="3759" uly="2725" lrx="3859" lry="2871" xml:id="z_f150v_l047"/>
+      <zone ulx="3753" uly="2862" lrx="3834" lry="3005" xml:id="z_f150v_l048"/>
+      <zone ulx="3772" uly="3017" lrx="3828" lry="3154" xml:id="z_f150v_l049"/>
+      <zone ulx="3722" uly="3353" lrx="3865" lry="3444" xml:id="z_f150v_l050"/>
+      <zone ulx="3719" uly="3456" lrx="3887" lry="3633" xml:id="z_f150v_l051"/>
+      <zone ulx="3725" uly="3733" lrx="3875" lry="3873" xml:id="z_f150v_l052"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f150v_l001" xml:id="catmus_f150v_l001"/>
+          <seg type="raw_unreviewed">ex d alle gesaltsund er frag sy uoie maing prot halt r</seg>
+          <lb facs="#z_f150v_l002" xml:id="catmus_f150v_l002"/>
+          <seg type="raw_unreviewed">y sprochũ subue uud er gepot d memg iusytgẽ us</seg>
+          <lb facs="#z_f150v_l003" xml:id="catmus_f150v_l003"/>
+          <seg type="raw_unreviewed">dy eidin und nã dy sũben prot uud geseges dy und̾</seg>
+          <lb facs="#z_f150v_l004" xml:id="catmus_f150v_l004"/>
+          <seg type="raw_unreviewed">prachs uud gabe seyn Ingn das sy is den leulhñ fut</seg>
+          <lb facs="#z_f150v_l005" xml:id="catmus_f150v_l005"/>
+          <seg type="raw_unreviewed">truge uud leglus fur dy menig Wnd̃ hectii em Wenig</seg>
+          <lb facs="#z_f150v_l006" xml:id="catmus_f150v_l006"/>
+          <seg type="raw_unreviewed">fissel die gesegẽt ex ouch uud hyeꝵ fũr si setgũ unrd̃</seg>
+          <lb facs="#z_f150v_l007" xml:id="catmus_f150v_l007"/>
+          <seg type="raw_unreviewed">assen alle uud uordũ gesalt Iuud hubũ auff das daub</seg>
+          <lb facs="#z_f150v_l008" xml:id="catmus_f150v_l008"/>
+          <seg type="raw_unreviewed">uobrt d̃ prosen / suben Rorbes dy do assen d watĩ uier</seg>
+          <lb facs="#z_f150v_l009" xml:id="catmus_f150v_l009"/>
+          <seg type="raw_unreviewed">tausentt und do lyez ex fi</seg>
+          <lb facs="#z_f150v_l010" xml:id="catmus_f150v_l010"/>
+          <seg type="raw_unreviewed">duica uniͣ. Attendite afalẜ ppħis mt uiiᵒ.</seg>
+          <lb facs="#z_f150v_l011" xml:id="catmus_f150v_l011"/>
+          <seg type="raw_unreviewed">hũs sp̃ch zu sem Iuugn hut enchror de falsschen</seg>
+          <lb facs="#z_f150v_l012" xml:id="catmus_f150v_l012"/>
+          <seg type="raw_unreviewed">ꝓhet̃ die do bome Iu eucb̃ in scheffem gerrãt</seg>
+          <lb facs="#z_f150v_l013" xml:id="catmus_f150v_l013"/>
+          <seg type="raw_unreviewed">Iunen suit sy gubkid crolff pey nen wberken etbeuet</seg>
+          <lb facs="#z_f150v_l014" xml:id="catmus_f150v_l014"/>
+          <seg type="raw_unreviewed">sy man list nichs uõ de dorñ dy doemper und uo den</seg>
+          <lb facs="#z_f150v_l015" xml:id="catmus_f150v_l015"/>
+          <seg type="raw_unreviewed">o prxgłeri utx s</seg>
+          <lb facs="#z_f150v_l016" xml:id="catmus_f150v_l016"/>
+          <seg type="raw_unreviewed">hage dy uendũ di fix gulᵃ frucht d̃ poze parui dy po</seg>
+          <lb facs="#z_f150v_l017" xml:id="catmus_f150v_l017"/>
+          <seg type="raw_unreviewed">fructt d gut parom mag nicht pore frucht preugen</seg>
+          <lb facs="#z_f150v_l018" xml:id="catmus_f150v_l018"/>
+          <seg type="raw_unreviewed">nocħ d̾ pore parom gute frucht wilcher paroi nich̃t gut</seg>
+          <lb facs="#z_f150v_l019" xml:id="catmus_f150v_l019"/>
+          <seg type="raw_unreviewed">frucht priuget den slecht mã apꝭ uud legt yn an das</seg>
+          <lb facs="#z_f150v_l020" xml:id="catmus_f150v_l020"/>
+          <seg type="raw_unreviewed">incdez dospeche</seg>
+          <lb facs="#z_f150v_l021" xml:id="catmus_f150v_l021"/>
+          <seg type="raw_unreviewed">feror Pey ir fruch̃t erbout it si nch̃t alle dy do spircn</seg>
+          <lb facs="#z_f150v_l022" xml:id="catmus_f150v_l022"/>
+          <seg type="raw_unreviewed">hix hr̃ dont bome in das reich gotis, sund̾ die do tueñ</seg>
+          <lb facs="#z_f150v_l023" xml:id="catmus_f150v_l023"/>
+          <seg type="raw_unreviewed">meyus uat̾ willũ d̾. Iu hymel ist d̃ Rup̃t ĩ dasi reic̃</seg>
+          <lb facs="#z_f150v_l024" xml:id="catmus_f150v_l024"/>
+          <seg type="raw_unreviewed">diuc̃a ixo hõ qui eat di q. ħ. u. luc̃ prs</seg>
+          <lb facs="#z_f150v_l025" xml:id="catmus_f150v_l025"/>
+          <seg type="raw_unreviewed">dtis</seg>
+          <lb facs="#z_f150v_l026" xml:id="catmus_f150v_l026"/>
+          <seg type="raw_unreviewed">hũs sp̾ci zu seyn Iugni dab peispil Es was emi reich</seg>
+          <lb facs="#z_f150v_l027" xml:id="catmus_f150v_l027"/>
+          <seg type="raw_unreviewed">mẽsch d̾ hect em mayer und d̾ wrart bẽsagt Iuuini</seg>
+          <lb facs="#z_f150v_l028" xml:id="catmus_f150v_l028"/>
+          <seg type="raw_unreviewed">das et uordouest helt sen gut, uud er santh noch In</seg>
+          <lb facs="#z_f150v_l029" xml:id="catmus_f150v_l029"/>
+          <seg type="raw_unreviewed">uud sp̃ct In qui/ Was ist dab ich hor uon dir autirort</seg>
+          <lb facs="#z_f150v_l030" xml:id="catmus_f150v_l030"/>
+          <seg type="raw_unreviewed">mir uon meun gut, woaun du magst nicht mer mem</seg>
+          <lb facs="#z_f150v_l031" xml:id="catmus_f150v_l031"/>
+          <seg type="raw_unreviewed">Amꝑtinã sem/ do sp̃ch d̾ mayer ioid̃ sythsebos Was tu</seg>
+          <lb facs="#z_f150v_l032" xml:id="catmus_f150v_l032"/>
+          <seg type="raw_unreviewed">ich loenñ mem hr nympt mr den meierhoff Ich mag</seg>
+          <lb facs="#z_f150v_l033" xml:id="catmus_f150v_l033"/>
+          <seg type="raw_unreviewed">foder</seg>
+          <lb facs="#z_f150v_l034" xml:id="catmus_f150v_l034"/>
+          <seg type="raw_unreviewed">nicht ierotẽ des almũsen icħ schem mich Icl uueis</seg>
+          <lb facs="#z_f150v_l035" xml:id="catmus_f150v_l035"/>
+          <seg type="raw_unreviewed">wol was icħ tu Uoenĩ ich uon demi Ampt aui lome</seg>
+          <lb facs="#z_f150v_l036" xml:id="catmus_f150v_l036"/>
+          <seg type="raw_unreviewed">Aal</seg>
+          <lb facs="#z_f150v_l037" xml:id="catmus_f150v_l037"/>
+          <seg type="raw_unreviewed">Ii</seg>
+          <lb facs="#z_f150v_l038" xml:id="catmus_f150v_l038"/>
+          <seg type="raw_unreviewed">ui</seg>
+          <lb facs="#z_f150v_l039" xml:id="catmus_f150v_l039"/>
+          <seg type="raw_unreviewed">Uii</seg>
+          <lb facs="#z_f150v_l040" xml:id="catmus_f150v_l040"/>
+          <seg type="raw_unreviewed">wel</seg>
+          <lb facs="#z_f150v_l041" xml:id="catmus_f150v_l041"/>
+          <seg type="raw_unreviewed">suil</seg>
+          <lb facs="#z_f150v_l042" xml:id="catmus_f150v_l042"/>
+          <seg type="raw_unreviewed">encł</seg>
+          <lb facs="#z_f150v_l043" xml:id="catmus_f150v_l043"/>
+          <seg type="raw_unreviewed">Pab</seg>
+          <lb facs="#z_f150v_l044" xml:id="catmus_f150v_l044"/>
+          <seg type="raw_unreviewed">Sautõ</seg>
+          <lb facs="#z_f150v_l045" xml:id="catmus_f150v_l045"/>
+          <seg type="raw_unreviewed">Augre</seg>
+          <lb facs="#z_f150v_l046" xml:id="catmus_f150v_l046"/>
+          <seg type="raw_unreviewed">febi</seg>
+          <lb facs="#z_f150v_l047" xml:id="catmus_f150v_l047"/>
+          <seg type="raw_unreviewed">¶Re</seg>
+          <lb facs="#z_f150v_l048" xml:id="catmus_f150v_l048"/>
+          <seg type="raw_unreviewed">xui</seg>
+          <lb facs="#z_f150v_l049" xml:id="catmus_f150v_l049"/>
+          <seg type="raw_unreviewed">ce</seg>
+          <lb facs="#z_f150v_l050" xml:id="catmus_f150v_l050"/>
+          <seg type="raw_unreviewed">uid̾</seg>
+          <lb facs="#z_f150v_l051" xml:id="catmus_f150v_l051"/>
+          <seg type="raw_unreviewed">hauri</seg>
+          <lb facs="#z_f150v_l052" xml:id="catmus_f150v_l052"/>
+          <seg type="raw_unreviewed">Dinci</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f150v_l001" xml:id="medusa_f150v_l001"/>
+          <seg type="raw_unreviewed">er dy alle gesatt / Vnd er frag sy / wie manig prot habt yr</seg>
+          <lb facs="#z_f150v_l002" xml:id="medusa_f150v_l002"/>
+          <seg type="raw_unreviewed">sy sprochē sübne · vnd er gepot d͛ menig zuͦsytszē et cetera</seg>
+          <lb facs="#z_f150v_l003" xml:id="medusa_f150v_l003"/>
+          <seg type="raw_unreviewed">dy erdin / vnd naͮ dy süben prot vnd gesiget dy Gnd</seg>
+          <lb facs="#z_f150v_l004" xml:id="medusa_f150v_l004"/>
+          <seg type="raw_unreviewed">prachs vnd gabts syn Jughn das sy is den leuthen fur-</seg>
+          <lb facs="#z_f150v_l005" xml:id="medusa_f150v_l005"/>
+          <seg type="raw_unreviewed">trügē vnd legkūs fur dy menūg / vnd hettn̄ ein wenig</seg>
+          <lb facs="#z_f150v_l006" xml:id="medusa_f150v_l006"/>
+          <seg type="raw_unreviewed">fissch die gesegēt er auch / vnd hyez für sy setznd vnd</seg>
+          <lb facs="#z_f150v_l007" xml:id="medusa_f150v_l007"/>
+          <seg type="raw_unreviewed">assen all · vnd̄ wordū gesatt · vnd̄ hubid̄ auff das daͮūb</seg>
+          <lb facs="#z_f150v_l008" xml:id="medusa_f150v_l008"/>
+          <seg type="raw_unreviewed">wart d͛ proͤsen / suͤben koͤrbe ¶ dy do assen d͛ waͤren vier</seg>
+          <lb facs="#z_f150v_l009" xml:id="medusa_f150v_l009"/>
+          <seg type="raw_unreviewed">tausent und do byz er sy-</seg>
+          <lb facs="#z_f150v_l010" xml:id="medusa_f150v_l010"/>
+          <seg type="raw_unreviewed">dominica viiia Attendite a falsis prophis Mt. uii°.</seg>
+          <lb facs="#z_f150v_l011" xml:id="medusa_f150v_l011"/>
+          <seg type="raw_unreviewed">huͤs soͤch zuͤ sem jùngn̄ hüt euch vor dē falsschen</seg>
+          <lb facs="#z_f150v_l012" xml:id="medusa_f150v_l012"/>
+          <seg type="raw_unreviewed">ꝓhebt , die do komē zu euch in scheffein gewaͤt ,</seg>
+          <lb facs="#z_f150v_l013" xml:id="medusa_f150v_l013"/>
+          <seg type="raw_unreviewed">innen suit sy zukknuͤd wolff pey iren werken erkēnet</seg>
+          <lb facs="#z_f150v_l014" xml:id="medusa_f150v_l014"/>
+          <seg type="raw_unreviewed">sy · man list nicht vō dē doͤrch dẏ weinper · vnd vō den</seg>
+          <lb facs="#z_f150v_l015" xml:id="medusa_f150v_l015"/>
+          <seg type="raw_unreviewed">opregren spawdy ge</seg>
+          <lb facs="#z_f150v_l016" xml:id="medusa_f150v_l016"/>
+          <seg type="raw_unreviewed">hagē dy verguͦn͛ dy frucht d͛ poze pawm dy poͤz</seg>
+          <lb facs="#z_f150v_l017" xml:id="medusa_f150v_l017"/>
+          <seg type="raw_unreviewed">frucht d̄ gut pawm mag nicht poze frucht preugen</seg>
+          <lb facs="#z_f150v_l018" xml:id="medusa_f150v_l018"/>
+          <seg type="raw_unreviewed">noch d͛ poze pawm gute frucht. Welcher pawm nicht gut</seg>
+          <lb facs="#z_f150v_l019" xml:id="medusa_f150v_l019"/>
+          <seg type="raw_unreviewed">frucht pringet / den slecht nūd ap. vnd legt yn an das</seg>
+          <lb facs="#z_f150v_l020" xml:id="medusa_f150v_l020"/>
+          <seg type="raw_unreviewed">iniczlich der do spricht</seg>
+          <lb facs="#z_f150v_l021" xml:id="medusa_f150v_l021"/>
+          <seg type="raw_unreviewed">fewr pey ir frucht erkent ir sy · moͤcht alle dy do spiechẃ</seg>
+          <lb facs="#z_f150v_l022" xml:id="medusa_f150v_l022"/>
+          <seg type="raw_unreviewed">hre hie wirt komē in das reich gotis · sund͛ die do tuen</seg>
+          <lb facs="#z_f150v_l023" xml:id="medusa_f150v_l023"/>
+          <seg type="raw_unreviewed">meyus vat͛ willuͤ d̶ zuͦ hynnel ist d̶ kn̄pt ī das Reich</seg>
+          <lb facs="#z_f150v_l024" xml:id="medusa_f150v_l024"/>
+          <seg type="raw_unreviewed">Dominica ip̃o ho qui erat di. q. h. u. lune post</seg>
+          <lb facs="#z_f150v_l025" xml:id="medusa_f150v_l025"/>
+          <seg type="raw_unreviewed">potis</seg>
+          <lb facs="#z_f150v_l026" xml:id="medusa_f150v_l026"/>
+          <seg type="raw_unreviewed">hùs sp̄ch zu seyn jngn̄ das peispil Es was ein reich</seg>
+          <lb facs="#z_f150v_l027" xml:id="medusa_f150v_l027"/>
+          <seg type="raw_unreviewed">mēsch d͛ hett ein mayer und d͛ wart besagt zu ym</seg>
+          <lb facs="#z_f150v_l028" xml:id="medusa_f150v_l028"/>
+          <seg type="raw_unreviewed">das er vordvest hett sein gut · vnd er santz noch im</seg>
+          <lb facs="#z_f150v_l029" xml:id="medusa_f150v_l029"/>
+          <seg type="raw_unreviewed">und sp͛ch zu im · Was ist das ich hör von dir antwort</seg>
+          <lb facs="#z_f150v_l030" xml:id="medusa_f150v_l030"/>
+          <seg type="raw_unreviewed">mir von mein gut · Wann du magst nicht mer mein</seg>
+          <lb facs="#z_f150v_l031" xml:id="medusa_f150v_l031"/>
+          <seg type="raw_unreviewed">amptman sein / do sp͛ch d͛ mayer wid͛ sych selbs / was tu</seg>
+          <lb facs="#z_f150v_l032" xml:id="medusa_f150v_l032"/>
+          <seg type="raw_unreviewed">ich wenn mein h͛r nympt mir den meysterhoff . Ich mag</seg>
+          <lb facs="#z_f150v_l033" xml:id="medusa_f150v_l033"/>
+          <seg type="raw_unreviewed">Foderi</seg>
+          <lb facs="#z_f150v_l034" xml:id="medusa_f150v_l034"/>
+          <seg type="raw_unreviewed">nicht rewtē des almuͤsen ich schein mich / Ich weisz</seg>
+          <lb facs="#z_f150v_l035" xml:id="medusa_f150v_l035"/>
+          <seg type="raw_unreviewed">wol was ich tu / wenn ich von dem Ampt nu komē-</seg>
+          <lb facs="#z_f150v_l036" xml:id="medusa_f150v_l036"/>
+          <seg type="raw_unreviewed">das</seg>
+          <lb facs="#z_f150v_l037" xml:id="medusa_f150v_l037"/>
+          <seg type="raw_unreviewed">nu</seg>
+          <lb facs="#z_f150v_l038" xml:id="medusa_f150v_l038"/>
+          <seg type="raw_unreviewed">ui</seg>
+          <lb facs="#z_f150v_l039" xml:id="medusa_f150v_l039"/>
+          <seg type="raw_unreviewed">und</seg>
+          <lb facs="#z_f150v_l040" xml:id="medusa_f150v_l040"/>
+          <seg type="raw_unreviewed">ben</seg>
+          <lb facs="#z_f150v_l041" xml:id="medusa_f150v_l041"/>
+          <seg type="raw_unreviewed">sunt</seg>
+          <lb facs="#z_f150v_l042" xml:id="medusa_f150v_l042"/>
+          <seg type="raw_unreviewed">euctꝰ</seg>
+          <lb facs="#z_f150v_l043" xml:id="medusa_f150v_l043"/>
+          <seg type="raw_unreviewed">das</seg>
+          <lb facs="#z_f150v_l044" xml:id="medusa_f150v_l044"/>
+          <seg type="raw_unreviewed">dant</seg>
+          <lb facs="#z_f150v_l045" xml:id="medusa_f150v_l045"/>
+          <seg type="raw_unreviewed">ange</seg>
+          <lb facs="#z_f150v_l046" xml:id="medusa_f150v_l046"/>
+          <seg type="raw_unreviewed">gebū</seg>
+          <lb facs="#z_f150v_l047" xml:id="medusa_f150v_l047"/>
+          <seg type="raw_unreviewed">alle</seg>
+          <lb facs="#z_f150v_l048" xml:id="medusa_f150v_l048"/>
+          <seg type="raw_unreviewed">seyn</seg>
+          <lb facs="#z_f150v_l049" xml:id="medusa_f150v_l049"/>
+          <seg type="raw_unreviewed">ae</seg>
+          <lb facs="#z_f150v_l050" xml:id="medusa_f150v_l050"/>
+          <seg type="raw_unreviewed">bud</seg>
+          <lb facs="#z_f150v_l051" xml:id="medusa_f150v_l051"/>
+          <seg type="raw_unreviewed">hauri</seg>
+          <lb facs="#z_f150v_l052" xml:id="medusa_f150v_l052"/>
+          <seg type="raw_unreviewed">duce</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f150v_l001 #z_f150v_l002 #z_f150v_l003 #z_f150v_l004 #z_f150v_l005 #z_f150v_l006 #z_f150v_l007 #z_f150v_l008 #z_f150v_l009" xml:id="u_150v_001">er die alle gesat? Und er fragt sy: Wie manig prot habt ir? Sy sprachen: Sibene. Und er gepot der menig zu sitzen uff die erden. Und na die siben prot und gesegnet sy und prachs und gabs sein iungern, das sy es den leuten furpringen, und legten es fur die menig. Und hetten ein wenig fisch, die gesegnet er auch und hies fur sy setzen. Und assen all und wurden gesat und huben auff das da uber wart der prosen siben korbe. Die do assen, der waren vier tausent. Und do lies er sy.</p>
+        <note type="editorial" corresp="#u_150v_001" xml:lang="cs"> </note>
+        <p facs="#z_f150v_l010" xml:id="u_150v_002">Dominica octava. Attendite a falsis prophetis. Mathei VII.</p>
+        <note type="editorial" corresp="#u_150v_002" xml:lang="cs"> </note>
+        <p facs="#z_f150v_l011 #z_f150v_l012 #z_f150v_l013 #z_f150v_l014" xml:id="u_150v_003">Ihesus sprach zu sein iungern: Huet euch vor den falschen propheten, die do komen zu euch in scheffenen gewant, inwendig sind sy galffend wolff. Pey iren wercken erkennet sy. Man list nicht von den dornen die weinper und von den […] die veigen. […] Der gut paum mag nicht pose frucht pringen, noch der pose paum gute frucht. Welcher paum nicht gute frucht pringet, den slecht man ab und legt in an das feur. Pey irer frucht erkennet ir sy. Nicht alle die do sprechen herr herr, die werdent komen in das reich gotes, sunder die do tun meines vaters willen der zu himel ist, der kumpt in das reich gotes.</p>
+        <note type="editorial" corresp="#u_150v_003" xml:lang="cs">Pravá marginální věta o vůli Otce patří ke konci oddílu, nikoli nové perikopě. Množství interlineárních korektur u přirovnání stromů není celé rozluštěno, mezery zachovány. Celý odstavec včetně16–23 a závěrečného gotis25 přeložen zde. Drobné vsuvky15/20 zůstávají nejisté.</note>
+        <p facs="#z_f150v_l015" xml:id="u_150v_004">[Nejistý vložený drobný přípisek]</p>
+        <note type="editorial" corresp="#u_150v_004" xml:lang="cs">Drobné značky nelze automaticky rozvíjet jako souvislý text.</note>
+        <p facs="#z_f150v_l016 #z_f150v_l017 #z_f150v_l018 #z_f150v_l019" xml:id="u_150v_005">[Pokračování odstavce11–14.]</p>
+        <p facs="#z_f150v_l020" xml:id="u_150v_006">[Nejistý vložený drobný přípisek]</p>
+        <note type="editorial" corresp="#u_150v_006" xml:lang="cs">Drobné značky nelze automaticky rozvíjet jako souvislý text.</note>
+        <p facs="#z_f150v_l021 #z_f150v_l022 #z_f150v_l023" xml:id="u_150v_007">[Pokračování odstavce11–14.]</p>
+        <p facs="#z_f150v_l024" xml:id="u_150v_008">Dominica nona. Homo quidam erat dives. Luce XVI.</p>
+        <note type="editorial" corresp="#u_150v_008" xml:lang="cs"> </note>
+        <p facs="#z_f150v_l025" xml:id="u_150v_009">gotis.</p>
+        <note type="editorial" corresp="#u_150v_009" xml:lang="cs">Závěr předchozí německé perikopy, připojen v odstavci11–14; nikoli část rubriky24.</note>
+        <p facs="#z_f150v_l026 #z_f150v_l027 #z_f150v_l028 #z_f150v_l029 #z_f150v_l030 #z_f150v_l031 #z_f150v_l032" xml:id="u_150v_010">Ihesus sprach zu sein iungern das peyspil: Es was ein reicher mensch, der hett ein schaffer, und der wart verklagt vor im, das er verluest hett sein gut. Und er sandt nach im und sprach zu im: Was ist das ich hore von dir? Antwurt mir von meinem gut, wann du magst nicht mer mein amptman sein. Do sprach der meyer under sich selbs: Was tue ich, wann mein herr nimpt mir die meyerschafft? Ich mag nicht […] des almusen ich scham mich. Ich weiss wol was ich tu, wenn ich von dem ampt kumme […]</p>
+        <note type="editorial" corresp="#u_150v_010" xml:lang="cs">Slovo mezi negací a almužnou s opravou nečitelnější, nepředstíráno jako jasné kopat. Meyer a schaffer funkční označení správce; věta pokračuje151r převzaté rootem. Celý odstavec včetně34–35 přeložen zde.33 je drobný vložený doplněk.</note>
+        <p facs="#z_f150v_l033" xml:id="u_150v_011">[Nejistý drobný vložený přípisek]</p>
+        <note type="editorial" corresp="#u_150v_011" xml:lang="cs">Drobné značky nelze automaticky rozvíjet jako souvislý text.</note>
+        <p facs="#z_f150v_l034 #z_f150v_l035" xml:id="u_150v_012">[Pokračování odstavce26–32.]</p>
+        <p facs="#z_f150v_l036 #z_f150v_l037 #z_f150v_l038 #z_f150v_l039 #z_f150v_l040 #z_f150v_l041 #z_f150v_l042 #z_f150v_l043 #z_f150v_l044 #z_f150v_l045 #z_f150v_l046 #z_f150v_l047 #z_f150v_l048 #z_f150v_l049 #z_f150v_l050 #z_f150v_l051 #z_f150v_l052" xml:id="u_150v_013">[Úzké fragmenty protější strany ve žlábku.]</p>
+        <note type="editorial" corresp="#u_150v_013" xml:lang="cs">Cizí fragmenty vyloučeny podle polohy a nativního obrazu; jejich úplná znaková četba neprovedena.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_150v_001">[…] je všechny nasytil? Zeptal se jich: Kolik máte chlebů? Řekli: Sedm. Přikázal zástupu posadit se na zem. Vzal sedm chlebů, požehnal jim, lámal je a dával učedníkům, aby je předkládali lidem, a ti je předložili zástupu. Měli také několik ryb; i těm požehnal a poručil je předložit. Všichni jedli a nasytili se a sebrali sedm košů zbylých drobtů. Jedli čtyři tisíce. Potom je propustil.</p>
+        <p corresp="#u_150v_002">Osmá neděle. Varujte se falešných proroků. Matouš VII.</p>
+        <p corresp="#u_150v_003">Ježíš řekl učedníkům: Varujte se falešných proroků, kteří k vám přicházejí v ovčím oděvu, ale uvnitř jsou hltaví vlci. Poznáte je podle jejich skutků. Z trní se nesbírají hrozny ani z […] fíky. […] Dobrý strom nemůže přinášet špatné ovoce ani špatný strom dobré. Strom, který nepřináší dobré ovoce, se pokácí a vloží do ohně. Poznáte je podle jejich ovoce. Ne všichni, kdo říkají Pane, Pane, vejdou do Božího království, ale kdo činí vůli mého Otce, který je v nebesích, ten do Božího království vejde.</p>
+        <p corresp="#u_150v_004">[Bez samostatného překladu.]</p>
+        <p corresp="#u_150v_005">[Překlad zahrnut v odstavci11–14.]</p>
+        <p corresp="#u_150v_006">[Bez samostatného překladu.]</p>
+        <p corresp="#u_150v_007">[Překlad zahrnut v odstavci11–14.]</p>
+        <p corresp="#u_150v_008">Devátá neděle. Jeden člověk byl bohatý. Lukáš XVI.</p>
+        <p corresp="#u_150v_009">Božího.</p>
+        <p corresp="#u_150v_010">Ježíš řekl učedníkům podobenství: Byl bohatý člověk, který měl správce. Ten byl před ním obžalován, že promrhal jeho majetek. Poslal pro něj a řekl: Co to o tobě slyším? Vydej mi počet z mého majetku, neboť již nemůžeš být mým úředníkem. Správce si řekl: Co udělám, když mi můj pán bere správcovství? Nemohu […] o almužnu se stydím. Dobře vím, co udělám, až přijdu o úřad […].</p>
+        <p corresp="#u_150v_011">[Bez samostatného překladu.]</p>
+        <p corresp="#u_150v_012">[Překlad zahrnut v odstavci26–32.]</p>
+        <p corresp="#u_150v_013">[Bez samostatného překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

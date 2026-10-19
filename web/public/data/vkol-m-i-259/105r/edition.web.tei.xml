@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 105r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_105r_coordinate; PNG SHA256 7c85169539cf2936f0e848aeda156ad163b6707c0f8d09e35c8f9cab43e4bea9; archival TIFF SHA256 df511a919c7f59c8be4c1d9764fbab9795ec77a7dadca4f19560ec0850086444; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_105r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#105r"/>
+      <zone ulx="323" uly="367" lrx="3025" lry="507" xml:id="z_f105r_l001"/>
+      <zone ulx="323" uly="460" lrx="3031" lry="597" xml:id="z_f105r_l002"/>
+      <zone ulx="329" uly="544" lrx="3019" lry="678" xml:id="z_f105r_l003"/>
+      <zone ulx="323" uly="619" lrx="3019" lry="768" xml:id="z_f105r_l004"/>
+      <zone ulx="333" uly="696" lrx="2997" lry="843" xml:id="z_f105r_l005"/>
+      <zone ulx="329" uly="771" lrx="2991" lry="942" xml:id="z_f105r_l006"/>
+      <zone ulx="329" uly="855" lrx="2947" lry="1029" xml:id="z_f105r_l007"/>
+      <zone ulx="323" uly="939" lrx="2969" lry="1116" xml:id="z_f105r_l008"/>
+      <zone ulx="336" uly="1017" lrx="2991" lry="1204" xml:id="z_f105r_l009"/>
+      <zone ulx="333" uly="1104" lrx="3006" lry="1309" xml:id="z_f105r_l010"/>
+      <zone ulx="329" uly="1182" lrx="2972" lry="1387" xml:id="z_f105r_l011"/>
+      <zone ulx="339" uly="1269" lrx="2956" lry="1468" xml:id="z_f105r_l012"/>
+      <zone ulx="336" uly="1353" lrx="2978" lry="1549" xml:id="z_f105r_l013"/>
+      <zone ulx="329" uly="1440" lrx="2969" lry="1624" xml:id="z_f105r_l014"/>
+      <zone ulx="336" uly="1508" lrx="2956" lry="1717" xml:id="z_f105r_l015"/>
+      <zone ulx="326" uly="1589" lrx="2950" lry="1785" xml:id="z_f105r_l016"/>
+      <zone ulx="329" uly="1667" lrx="2947" lry="1872" xml:id="z_f105r_l017"/>
+      <zone ulx="333" uly="1745" lrx="2956" lry="1966" xml:id="z_f105r_l018"/>
+      <zone ulx="329" uly="1832" lrx="2200" lry="2019" xml:id="z_f105r_l019"/>
+      <zone ulx="2228" uly="1916" lrx="3025" lry="2059" xml:id="z_f105r_l020"/>
+      <zone ulx="333" uly="1922" lrx="2991" lry="2134" xml:id="z_f105r_l021"/>
+      <zone ulx="336" uly="2000" lrx="2156" lry="2168" xml:id="z_f105r_l022"/>
+      <zone ulx="2194" uly="2084" lrx="2580" lry="2208" xml:id="z_f105r_l023"/>
+      <zone ulx="351" uly="2093" lrx="2524" lry="2277" xml:id="z_f105r_l024"/>
+      <zone ulx="2714" uly="2121" lrx="3081" lry="2261" xml:id="z_f105r_l025"/>
+      <zone ulx="2592" uly="2196" lrx="3090" lry="2311" xml:id="z_f105r_l026"/>
+      <zone ulx="336" uly="2190" lrx="3003" lry="2367" xml:id="z_f105r_l027"/>
+      <zone ulx="345" uly="2261" lrx="3040" lry="2476" xml:id="z_f105r_l028"/>
+      <zone ulx="336" uly="2352" lrx="2994" lry="2551" xml:id="z_f105r_l029"/>
+      <zone ulx="339" uly="2448" lrx="2969" lry="2653" xml:id="z_f105r_l030"/>
+      <zone ulx="342" uly="2526" lrx="2175" lry="2672" xml:id="z_f105r_l031"/>
+      <zone ulx="345" uly="2600" lrx="3096" lry="2806" xml:id="z_f105r_l032"/>
+      <zone ulx="339" uly="2678" lrx="3006" lry="2884" xml:id="z_f105r_l033"/>
+      <zone ulx="342" uly="2768" lrx="2991" lry="2958" xml:id="z_f105r_l034"/>
+      <zone ulx="333" uly="2852" lrx="2639" lry="3005" xml:id="z_f105r_l035"/>
+      <zone ulx="2695" uly="2943" lrx="3100" lry="3076" xml:id="z_f105r_l036"/>
+      <zone ulx="339" uly="2927" lrx="2997" lry="3126" xml:id="z_f105r_l037"/>
+      <zone ulx="351" uly="3011" lrx="3118" lry="3201" xml:id="z_f105r_l038"/>
+      <zone ulx="348" uly="3098" lrx="3012" lry="3294" xml:id="z_f105r_l039"/>
+      <zone ulx="354" uly="3173" lrx="3022" lry="3366" xml:id="z_f105r_l040"/>
+      <zone ulx="345" uly="3257" lrx="3062" lry="3444" xml:id="z_f105r_l041"/>
+      <zone ulx="354" uly="3341" lrx="2776" lry="3521" xml:id="z_f105r_l042"/>
+      <zone ulx="339" uly="3416" lrx="3012" lry="3612" xml:id="z_f105r_l043"/>
+      <zone ulx="348" uly="3509" lrx="2981" lry="3705" xml:id="z_f105r_l044"/>
+      <zone ulx="345" uly="3584" lrx="3078" lry="3820" xml:id="z_f105r_l045"/>
+      <zone ulx="404" uly="3686" lrx="2913" lry="3895" xml:id="z_f105r_l046"/>
+      <zone ulx="342" uly="3745" lrx="3034" lry="3944" xml:id="z_f105r_l047"/>
+      <zone ulx="351" uly="3817" lrx="3009" lry="4053" xml:id="z_f105r_l048"/>
+      <zone ulx="348" uly="3913" lrx="2991" lry="4134" xml:id="z_f105r_l049"/>
+      <zone ulx="351" uly="4004" lrx="3065" lry="4221" xml:id="z_f105r_l050"/>
+      <zone ulx="348" uly="4088" lrx="3019" lry="4315" xml:id="z_f105r_l051"/>
+      <zone ulx="348" uly="4172" lrx="3106" lry="4396" xml:id="z_f105r_l052"/>
+      <zone ulx="348" uly="4262" lrx="2991" lry="4470" xml:id="z_f105r_l053"/>
+      <zone ulx="348" uly="4333" lrx="3093" lry="4564" xml:id="z_f105r_l054"/>
+      <zone ulx="342" uly="4405" lrx="3078" lry="4660" xml:id="z_f105r_l055"/>
+      <zone ulx="367" uly="4492" lrx="3059" lry="4735" xml:id="z_f105r_l056"/>
+      <zone ulx="392" uly="4567" lrx="3050" lry="4800" xml:id="z_f105r_l057"/>
+      <zone ulx="354" uly="4641" lrx="3090" lry="4853" xml:id="z_f105r_l058"/>
+      <zone ulx="336" uly="4735" lrx="3084" lry="4934" xml:id="z_f105r_l059"/>
+      <zone ulx="370" uly="4834" lrx="441" lry="4968" xml:id="z_f105r_l060"/>
+      <zone ulx="457" uly="4825" lrx="3022" lry="4990" xml:id="z_f105r_l061"/>
+      <zone ulx="367" uly="4912" lrx="3031" lry="5114" xml:id="z_f105r_l062"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f105r_l001" xml:id="catmus_f105r_l001"/>
+          <seg type="raw_unreviewed">piñti᷑ ꝓc̾iiẽ ud ĩ plerido .xxi qui /eꝵ ad fid suscipuẽdã uc̃ĩ õ ipellũd̾ñ</seg>
+          <lb facs="#z_f105r_l002" xml:id="catmus_f105r_l002"/>
+          <seg type="raw_unreviewed">d pbo ꝙyeꝙ ad susteptũ sid cegi᷑ qͥs redi̾e ⁊ cũ ẜuu̾eid plo d̾iudeis xxmi i u</seg>
+          <lb facs="#z_f105r_l003" xml:id="catmus_f105r_l003"/>
+          <seg type="raw_unreviewed">Ridelitas ẽ suĩdo dño tpulu xxni ar si ap ͭ eꝵ ꝑꝑ p̃ceptũ ccc̃e. sii distol</seg>
+          <lb facs="#z_f105r_l004" xml:id="catmus_f105r_l004"/>
+          <seg type="raw_unreviewed">dñis fidelitas nõ ẜui᷑ ixx q ui nos. ex ppͣ ꝑꝑ excessꝰ dñi. ab solut sbditos</seg>
+          <lb facs="#z_f105r_l005" xml:id="catmus_f105r_l005"/>
+          <seg type="raw_unreviewed">auiu ͦ fidelit ixu i ui ali ꝵ ĩpater e̾ pe mare fideliͣͣ.d lxni. t̾ dño</seg>
+          <lb facs="#z_f105r_l006" xml:id="catmus_f105r_l006"/>
+          <seg type="raw_unreviewed">Qy fidelitꝭ forͣ. sex r̾iiui᷑ u ĩ culiuuẽ. tutũ. hoestũ. utile fucile. possiblẽ</seg>
+          <lb facs="#z_f105r_l007" xml:id="catmus_f105r_l007"/>
+          <seg type="raw_unreviewed">xxii .i u desor. /bł ĩ t̾ sueles ⁊ ĩ fideles. calta d̃ dẽ disc̾cõimi qun aliẽĩ</seg>
+          <lb facs="#z_f105r_l008" xml:id="catmus_f105r_l008"/>
+          <seg type="raw_unreviewed">eꝵ d ĩ ter eos c̃ẽ distc̃o ĩ accũ  ⁊ testifi ͦ i ii quni pagius It ĩ nridim</seg>
+          <lb facs="#z_f105r_l009" xml:id="catmus_f105r_l009"/>
+          <seg type="raw_unreviewed">qde ͤ xxuuii q. u  Inaloꝵ ꝑcep abid. ⁊ ĩ mutua cohĩtu ͤ ibid̃ Mic ᵈ ob</seg>
+          <lb facs="#z_f105r_l010" xml:id="catmus_f105r_l010"/>
+          <seg type="raw_unreviewed">ẜua ͭ ͤ de qd in ieͫͥ It̃ ĩꝙis ꝓscp ͦ xui q in porro /eꝵ ũ pt̃ de hoi sidel</seg>
+          <lb facs="#z_f105r_l011" xml:id="catmus_f105r_l011"/>
+          <seg type="raw_unreviewed">q̃ do etiit ĩ fidelis ii q uii ñ pt Iem sidelis malꝰ d s ͬ mĩo ĩt eccũ. tñ</seg>
+          <lb facs="#z_f105r_l012" xml:id="catmus_f105r_l012"/>
+          <seg type="raw_unreviewed">muito ẽ exͣ ẽriqi ut eidũ  etꝵ tꝭ plꝰ ẽ nocue ecc̃e. ꝙ̃ dircc̃e q̃idelis</seg>
+          <lb facs="#z_f105r_l013" xml:id="catmus_f105r_l013"/>
+          <seg type="raw_unreviewed">⁊ xcmi si ĩmie/ IIt peior ẽ ĩfideli ui qi q̃iꝰ /eꝵ cles ꝯ̾ani ꝑtoñ g̃ue</seg>
+          <lb facs="#z_f105r_l014" xml:id="catmus_f105r_l014"/>
+          <seg type="raw_unreviewed">ẽ pcr̃o ĩ sidelid xxxii q un ĩ es / It̃ peria iprꝰ ꝓpccõ gͣnior eit ꝙ̃ peiui ĩ</seg>
+          <lb facs="#z_f105r_l015" xml:id="catmus_f105r_l015"/>
+          <seg type="raw_unreviewed">fidelis. ⁊ii.i. suii eoꝵ tꝭ telleau̾dꝰ ẽ ũ uitãdꝰ ꝙ diu abecca ꝑfiña ũ p̃cid.</seg>
+          <lb facs="#z_f105r_l016" xml:id="catmus_f105r_l016"/>
+          <seg type="raw_unreviewed">EeIloꝰ di᷑ ꝑcuruis ꝑpagatõ. ⁊ ꝑuoꝵ mitiᵈ ͤ xpiiq ii q̃ri  pxii quii forte</seg>
+          <lb facs="#z_f105r_l017" xml:id="catmus_f105r_l017"/>
+          <seg type="raw_unreviewed">eꝰ filii di dñr᷑ tpłr. u uł p̃destũs tñi uł ỹdestiũ ͦͭ. ⁊ spe btĩ ͦ et̾ue. E</seg>
+          <lb facs="#z_f105r_l018" xml:id="catmus_f105r_l018"/>
+          <seg type="raw_unreviewed">ui̾to sidi. ⁊ pũtꝭ iusti de pe dini Ch sst̃ silii spuules dñr t̾ ͬ u a u</seg>
+          <lb facs="#z_f105r_l019" xml:id="catmus_f105r_l019"/>
+          <seg type="raw_unreviewed">bap ͭ ĩ iusiõ. a de bapⁱ baꝵ⟧ leua ͦ  a̾ ꝑꝯsissis .xxx.</seg>
+          <lb facs="#z_f105r_l020" xml:id="catmus_f105r_l020"/>
+          <seg type="raw_unreviewed">is sst̃ silu dyꝯᷝ. dñis</seg>
+          <lb facs="#z_f105r_l021" xml:id="catmus_f105r_l021"/>
+          <seg type="raw_unreviewed">ũ ꝑcaruis ꝓpagaco. s ꝑ c̾mĩs successib qi cits sst̃ silii libei dñr᷑. qui</seg>
+          <lb facs="#z_f105r_l022" xml:id="catmus_f105r_l022"/>
+          <seg type="raw_unreviewed">ꝙ libe̾o iiris᷑ st̃ orti. Aales aũt ꝯcubiaꝵ sili.</seg>
+          <lb facs="#z_f105r_l023" xml:id="catmus_f105r_l023"/>
+          <seg type="raw_unreviewed">O sola cũ</seg>
+          <lb facs="#z_f105r_l024" xml:id="catmus_f105r_l024"/>
+          <seg type="raw_unreviewed">quigiiipii i iic ult᷑ IQl̾ illi ñ r̾putan filii uec dñs</seg>
+          <lb facs="#z_f105r_l025" xml:id="catmus_f105r_l025"/>
+          <seg type="raw_unreviewed">ũ hoẽsins</seg>
+          <lb facs="#z_f105r_l026" xml:id="catmus_f105r_l026"/>
+          <seg type="raw_unreviewed">ĩ boĩs succe</seg>
+          <lb facs="#z_f105r_l027" xml:id="catmus_f105r_l027"/>
+          <seg type="raw_unreviewed">de pñ. qui uati st̃ de ĩcestu .xxxu q uni ꝑtot eꝙꝵ filii legittĩ dur</seg>
+          <lb facs="#z_f105r_l028" xml:id="catmus_f105r_l028"/>
+          <seg type="raw_unreviewed">qͥ uł añ bapͫ ał pꝰ denr̃o nuti sc̃i xpenii qi mai eꝵ p̃rcarl de filiis</seg>
+          <lb facs="#z_f105r_l029" xml:id="catmus_f105r_l029"/>
+          <seg type="raw_unreviewed">tpũlẽ cũu di hõe. dyxx si qͥs Ieꝵ qñ siliis pcca ꝑutũ ĩputun᷑. ñi ũi d.</seg>
+          <lb facs="#z_f105r_l030" xml:id="catmus_f105r_l030"/>
+          <seg type="raw_unreviewed">s istus tollit ꝓ ũ accip ͭ p ͭ xoi .q.uii. mar̾as eres. bei̾tati Iloi ꝑ tot̃</seg>
+          <lb facs="#z_f105r_l031" xml:id="catmus_f105r_l031"/>
+          <seg type="raw_unreviewed">ꝓtiũ r̾sistũciũ. fisto uendicai sĩ pxm qun numĩ</seg>
+          <lb facs="#z_f105r_l032" xml:id="catmus_f105r_l032"/>
+          <seg type="raw_unreviewed">R lacliũdi dñi añ ẽ aduĩdca. añ ad̾ hõis pgii᷑ ĩ uii qi c̃ Qꝵ fugllato ũ ẽ addũ</seg>
+          <lb facs="#z_f105r_l033" xml:id="catmus_f105r_l033"/>
+          <seg type="raw_unreviewed">da slugllatõ nł apflictõcon q. cũ ꝑͨ Ieqꝵ flagłłi᷑ ut yficrit d ẽẽ disc̾ta. d xlo cũ</seg>
+          <lb facs="#z_f105r_l034" xml:id="catmus_f105r_l034"/>
+          <seg type="raw_unreviewed">Illauuẽs dñi᷑ sac̃dotes gñtrlĩ afiłio.  ĩcapite utebanͦ pxi cłe̾os eꝵ ap̃ło</seg>
+          <lb facs="#z_f105r_l035" xml:id="catmus_f105r_l035"/>
+          <seg type="raw_unreviewed">ubi gũtiles pͦ ͤ huẽrãt flanuẽs. ꝯsti ͭᵘ  prĩarchas. ubi nu archiflir</seg>
+          <lb facs="#z_f105r_l036" xml:id="catmus_f105r_l036"/>
+          <seg type="raw_unreviewed">ꝯsti arepõd</seg>
+          <lb facs="#z_f105r_l037" xml:id="catmus_f105r_l037"/>
+          <seg type="raw_unreviewed">Rletus ã mode̾a̾t/ ñ d si. ꝓ muorte iceꝵ qr ip̃os ꝑ moitẽ ũ auĩtiꝰ ẜ pułtilxm</seg>
+          <lb facs="#z_f105r_l038" xml:id="catmus_f105r_l038"/>
+          <seg type="raw_unreviewed">q̃ ii ꝙ̃ / ex fle mortimũ ã debite. pbꝰ ꝓueͭ ꝙbespa ͤ pusilli ͭ .ꝙ̃ ꝯo pieͭ . xiii. iii ub̃ci</seg>
+          <lb facs="#z_f105r_l039" xml:id="catmus_f105r_l039"/>
+          <seg type="raw_unreviewed">Q dũs ũ fle ͭ lazaꝵ mortuũ. s adm̃bi he errpuas ⁊̾ sustitãd eui qu qu</seg>
+          <lb facs="#z_f105r_l040" xml:id="catmus_f105r_l040"/>
+          <seg type="raw_unreviewed">qẜ petiris fleuͭͬ. ⁊ pledo pcc̃ũ deleu idey. dic̾ca ed pcc̃or fle d.u̾ cogi dͥ</seg>
+          <lb facs="#z_f105r_l041" xml:id="catmus_f105r_l041"/>
+          <seg type="raw_unreviewed">ĩisde pcͨiludo. dñi suũ offud ͭ. d. pe d̾ u ħt flent ꝙ ꝓxii suũ nuallo go ͦ cor-</seg>
+          <lb facs="#z_f105r_l042" xml:id="catmus_f105r_l042"/>
+          <seg type="raw_unreviewed">omes ẽ lagoor uẽi caruis ꝯcupi᷑ appll rpo qi Itrupͭ .d. ꝓsi</seg>
+          <lb facs="#z_f105r_l043" xml:id="catmus_f105r_l043"/>
+          <seg type="raw_unreviewed">et fomes curuis raĩe ĩf̾iitas di.ꝑ acaidͭ aĩe. exquicte carius cor pt̃o e</seg>
+          <lb facs="#z_f105r_l044" xml:id="catmus_f105r_l044"/>
+          <seg type="raw_unreviewed">xx 9i sut eꝵ somes ũ ẽ pccm. s peͣ pcci xu qi qi e fomes ĩ bapͥ ũ deles</seg>
+          <lb facs="#z_f105r_l045" xml:id="catmus_f105r_l045"/>
+          <seg type="raw_unreviewed">sug̃ debilitu de ꝯd. uii ꝑbap̃ eꝵ foẽs spmpũguit legi ĩtꝭ.ĩĩ ꝑstis . xxxii</seg>
+          <lb facs="#z_f105r_l046" xml:id="catmus_f105r_l046"/>
+          <seg type="raw_unreviewed">ermate ecci ͤ discipłie ẽ ĩ clicoꝵ cãsti ͭ ͤd hoxxii ꝓpom  ͥ ¶ qu si paul</seg>
+          <lb facs="#z_f105r_l047" xml:id="catmus_f105r_l047"/>
+          <seg type="raw_unreviewed">LOruicã ẽ duꝵ u tarłis ⁊ spnũlis. exuni qi ꝯdoᵈ e uo formͦ ͧͥ corͣlis</seg>
+          <lb facs="#z_f105r_l048" xml:id="catmus_f105r_l048"/>
+          <seg type="raw_unreviewed">qn designa᷑ adulti leꝵxn q u qui It formͦ l uilba ᷑ dẽ geꝰ. cuiꝰ l coytꝰ. tnĩ</seg>
+          <lb facs="#z_f105r_l049" xml:id="catmus_f105r_l049"/>
+          <seg type="raw_unreviewed">spã ͫ ĩt᷑ ĩ nsu bid̾nuaꝵ uł metcũ uł ꝯtubi. xxpiiiq ii loꝵ eꝵ ⁊̃ sipᵉ form᷑</seg>
+          <lb facs="#z_f105r_l050" xml:id="catmus_f105r_l050"/>
+          <seg type="raw_unreviewed">q̃ ẽ soli scũ solita ꝓhibet᷑ xxxii iiii dicat et ẽ ꝑꝑ mõrle pccͫ. eafeĩe forui des</seg>
+          <lb facs="#z_f105r_l051" xml:id="catmus_f105r_l051"/>
+          <seg type="raw_unreviewed">cũ clic ĩ ẜuitutẽ d r̾digid prxii eos  eo ma̾it s qtiu̾e̾d. ut uxoi uõ</seg>
+          <lb facs="#z_f105r_l052" xml:id="catmus_f105r_l052"/>
+          <seg type="raw_unreviewed">d og̃o soruiᵈ ͥ .xxuii qi nubũdia eꝵ ꝑꝑ selã at form̾ ͦ ͥ ᷤᷤ. upor duũt᷑</seg>
+          <lb facs="#z_f105r_l053" xml:id="catmus_f105r_l053"/>
+          <seg type="raw_unreviewed">qũtũ at forrtta cohitu ͥ / xxxi q. dͭ eꝵ soruica ᷑ spuulis ẽ ydolat̾a. ꝙ</seg>
+          <lb facs="#z_f105r_l054" xml:id="catmus_f105r_l054"/>
+          <seg type="raw_unreviewed">setũ ĩ fideles ⁊ ql noxio suꝑstico . xxuni qi ydo ͥ It̃ formca̾ auũ. ĩ ẜuitꝰ e</seg>
+          <lb facs="#z_f105r_l055" xml:id="catmus_f105r_l055"/>
+          <seg type="raw_unreviewed">y dolar ixxxii q uii ñ soriIe autͣ q̃ ẽ yᵈ÷ fruit/ for spuł di xponi ii. ydoͭ </seg>
+          <lb facs="#z_f105r_l056" xml:id="catmus_f105r_l056"/>
+          <seg type="raw_unreviewed">It form spuulis diꝰ ꝯsẜ ũtꝭ ad fornetũd iuxiᵈ q̃ ui in .ixxxpn quii ĩ siri</seg>
+          <lb facs="#z_f105r_l057" xml:id="catmus_f105r_l057"/>
+          <seg type="raw_unreviewed">Ortiᵈ ͦ cõilis. se ꝓ aflict᷑ ĩ nullig̾nũtes socei boͣ r lauꝭ eixxu qii sore Ã</seg>
+          <lb facs="#z_f105r_l058" xml:id="catmus_f105r_l058"/>
+          <seg type="raw_unreviewed">Lelnis ẽ ẽpcudarũ litiũ loci. sĩ mutꝯ icłi ¶e actõt sꝑ d sequi soꝵ s</seg>
+          <lb facs="#z_f105r_l059" xml:id="catmus_f105r_l059"/>
+          <seg type="raw_unreviewed">ꝓulatuxi q. si e sine cłic / sine̾ laici. ꝓcure puisuti. noͣ uͥ ĩfiuĩ suũ di ludi</seg>
+          <lb facs="#z_f105r_l060" xml:id="catmus_f105r_l060"/>
+          <seg type="raw_unreviewed">p1</seg>
+          <lb facs="#z_f105r_l061" xml:id="catmus_f105r_l061"/>
+          <seg type="raw_unreviewed">qii clic / eꝵ escepta sede ap i nẽo prͣ tħi eͦxͦ suũ ꝓuĩcim pce litigio uis</seg>
+          <lb facs="#z_f105r_l062" xml:id="catmus_f105r_l062"/>
+          <seg type="raw_unreviewed">uiit rẽe c̾mis qmissi. effr᷑ qͥs deso alie ima ossey ibi cã agñdit osti ubi</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f105r_l001" xml:id="medusa_f105r_l001"/>
+          <seg type="raw_unreviewed">promititur pro terminem ad ipse plendo . xxii qum / quod ad fidem suscipiendam nemo est oppellendus</seg>
+          <lb facs="#z_f105r_l002" xml:id="medusa_f105r_l002"/>
+          <seg type="raw_unreviewed">d̃. xlu. ix° Eꝙ ad suzeptã sid̃ cogi᷑ qͥs redi̾e ⁊ cũ ẜuie̾. d̃. xlu d̃ inbeis xxiiii. 11</seg>
+          <lb facs="#z_f105r_l003" xml:id="medusa_f105r_l003"/>
+          <seg type="raw_unreviewed">Fidelitas ẽ secundum dño tp̃ali xxiii 1u si apꝭ eꝵ ꝑꝑ p̃ceptũ ecc̃e. sñ disciꝭ</seg>
+          <lb facs="#z_f105r_l004" xml:id="medusa_f105r_l004"/>
+          <seg type="raw_unreviewed">dñis fidelitas nõ ẜuatur xx i ui mo s̃. Ex pp̃ ꝑꝑ excessi dñi absoluti subditos</seg>
+          <lb facs="#z_f105r_l005" xml:id="medusa_f105r_l005"/>
+          <seg type="raw_unreviewed">annᵘᵒ fidelitꝭ xv ii vi aliꝰ Cor. ĩ pater t᷑ p̃te nũtre fidelieꝰ d. lxiii. t̃ dño</seg>
+          <lb facs="#z_f105r_l006" xml:id="medusa_f105r_l006"/>
+          <seg type="raw_unreviewed">M fidełitꝭ forͣ. sex r̾gnr̾ u ĩ culmine. tutũ. hostũ. utile facile. possibile</seg>
+          <lb facs="#z_f105r_l007" xml:id="medusa_f105r_l007"/>
+          <seg type="raw_unreviewed">xxii. 1. u. de soñ. ¶ S ĩt̾ fu̾eles ⁊ ĩfideles. talia d ẽẽ disc̾o. in qͥm aliẽi</seg>
+          <lb facs="#z_f105r_l008" xml:id="medusa_f105r_l008"/>
+          <seg type="raw_unreviewed">eꝙ d ĩter eos eẽ disc̾o ĩ accuˡᵉ ⁊ testifiˡᵉ .ii. i un pagũ/ It̃ ĩ nr̃om</seg>
+          <lb facs="#z_f105r_l009" xml:id="medusa_f105r_l009"/>
+          <seg type="raw_unreviewed">q̃diᵒˢ ex viii. 112. In ciborꝭ ꝑcepᵒˢ ibid̃. 2. ĩ nutua coħitioˢ ibid̃. In ieˢ ob</seg>
+          <lb facs="#z_f105r_l010" xml:id="medusa_f105r_l010"/>
+          <seg type="raw_unreviewed">q̃ dõ extiterit ĩfidelis .n. q̃ unũ ñ pt̃ / eoꝵ fidelis malꝰ / sed st̃ nͥr ⁊</seg>
+          <lb facs="#z_f105r_l011" xml:id="medusa_f105r_l011"/>
+          <seg type="raw_unreviewed">q̃ d̾o ex titi̾t ĩfidelis. 11 q̃ unũ ñ pt̃ eꝵ fidelis mulꝭ q st̃ moͣ ĩtͣ ecc̃a. 1 tñ</seg>
+          <lb facs="#z_f105r_l012" xml:id="medusa_f105r_l012"/>
+          <seg type="raw_unreviewed">dito ẽ exo eã .iii. ut eundũ eꝵ tꝭ pbr e no curo ecc̃e . q̃ dircc̃e ĩfidelis</seg>
+          <lb facs="#z_f105r_l013" xml:id="medusa_f105r_l013"/>
+          <seg type="raw_unreviewed">ẽ pcc̃o ĩfidelis xxxii q̃ mi ĩ eo ¶ It̃ peior ẽ ĩfidelis. VI. II. q̃ro ¶ eꝵ cle̾s pͥam pcc̃o gr̃is</seg>
+          <lb facs="#z_f105r_l014" xml:id="medusa_f105r_l014"/>
+          <seg type="raw_unreviewed">ẽ ꝑc̃ro ĩfide lis. xxxii. q. mi ĩ eo ¶ It̃ peni ip̃iꝰ ꝓpcro gͣuior ei̾t ꝙ̃ peni ĩ</seg>
+          <lb facs="#z_f105r_l015" xml:id="medusa_f105r_l015"/>
+          <seg type="raw_unreviewed">fidelis. xii. i. s̃tuꝰ Ex tꝭ telleandꝰ ẽ c̃e uitaᵈᵘˢ. ꝙ̃ d̃m ab ecc̃a ꝑ suã ñ p̃cid.᷑</seg>
+          <lb facs="#z_f105r_l016" xml:id="medusa_f105r_l016"/>
+          <seg type="raw_unreviewed">Ego filii dei dñr tꝑitũ u ũl p̃destũc tñi ũł forte</seg>
+          <lb facs="#z_f105r_l017" xml:id="medusa_f105r_l017"/>
+          <seg type="raw_unreviewed">M fili d̃i dñr tꝑitꝰ u ũl p̃destũate tñi ũl p̃destũate ⁊ spe bt̃is et̾ne. ł</seg>
+          <lb facs="#z_f105r_l018" xml:id="medusa_f105r_l018"/>
+          <seg type="raw_unreviewed">merito sid̃rꝰ ⁊ pũitꝰ miste de pe d̃ iiiii C li It̃ si lii spirituales dñrꝰ etc u̾aꝰ ꝑ</seg>
+          <lb facs="#z_f105r_l019" xml:id="medusa_f105r_l019"/>
+          <seg type="raw_unreviewed">bapⁱ ĩ mͥsioñ a᷑ debapⁱ bap leuior a᷑ ꝑ confessioñ xxx</seg>
+          <lb facs="#z_f105r_l020" xml:id="medusa_f105r_l020"/>
+          <seg type="raw_unreviewed">11 Item filii dyabolii domini etc.</seg>
+          <lb facs="#z_f105r_l021" xml:id="medusa_f105r_l021"/>
+          <seg type="raw_unreviewed">ex libero iurisdiccione sunt orti . Nales autem concubinatores sunt</seg>
+          <lb facs="#z_f105r_l022" xml:id="medusa_f105r_l022"/>
+          <seg type="raw_unreviewed">ex libeo iurid̃ st̃ orti. Nales aũt concub. noꝵ filii.</seg>
+          <lb facs="#z_f105r_l023" xml:id="medusa_f105r_l023"/>
+          <seg type="raw_unreviewed">sibi soli man</seg>
+          <lb facs="#z_f105r_l024" xml:id="medusa_f105r_l024"/>
+          <seg type="raw_unreviewed">migrii .xxii.iii. quicaultꝰ ¶ Qd̵ illi ñ reputantur filii nec dũt</seg>
+          <lb facs="#z_f105r_l025" xml:id="medusa_f105r_l025"/>
+          <seg type="raw_unreviewed">su hẽsna</seg>
+          <lb facs="#z_f105r_l026" xml:id="medusa_f105r_l026"/>
+          <seg type="raw_unreviewed">ĩ boĩs succe</seg>
+          <lb facs="#z_f105r_l027" xml:id="medusa_f105r_l027"/>
+          <seg type="raw_unreviewed">de pñ qui nati st̃ de ĩcestu .xxxu. q̃ uii ꝑ tot eꝵ filii legitĩ dnr̃</seg>
+          <lb facs="#z_f105r_l028" xml:id="medusa_f105r_l028"/>
+          <seg type="raw_unreviewed">qͥ nᶜ añ batpꝰ nᶜ pꝰ de nr̃o nati st̃ xxuiii ii i nũq̃ Eꝵ p̃r car̃t de filiis</seg>
+          <lb facs="#z_f105r_l029" xml:id="medusa_f105r_l029"/>
+          <seg type="raw_unreviewed">tꝑãlẽ cũitꝰ d hore dxxx si qͥs Ieꝵ qñ silis pccã ꝑutũ ĩ putan᷑ qñ ñ d</seg>
+          <lb facs="#z_f105r_l030" xml:id="medusa_f105r_l030"/>
+          <seg type="raw_unreviewed">f Istus tollit .quod ñ accipᵗ xᵗ xui q uix num̃es / eꝵ res. beitati / Nõi ꝑ tot</seg>
+          <lb facs="#z_f105r_l031" xml:id="medusa_f105r_l031"/>
+          <seg type="raw_unreviewed">ꝑtũ r̾sistũciũ. fisto benedic̃ti d̃ xxiii qui num̃</seg>
+          <lb facs="#z_f105r_l032" xml:id="medusa_f105r_l032"/>
+          <seg type="raw_unreviewed">da plaghacõ ũl affliccõ .uii. q. i. cũ p. 2. ¶ Cꝙ fagillato ñ ẽ addũ.</seg>
+          <lb facs="#z_f105r_l033" xml:id="medusa_f105r_l033"/>
+          <seg type="raw_unreviewed">da plagiatio uł applicatio uiiq. i. cũ ꝑc. Eꝵ flagello ut proficuat d; ẽe discreta. d̾ xlo cũ</seg>
+          <lb facs="#z_f105r_l034" xml:id="medusa_f105r_l034"/>
+          <seg type="raw_unreviewed">flamines dñr᷑ sacerdotes gr̃tilici a filio. qͥ ĩ capite utebant᷑. d̃. xx. cler̃os / ex apłi</seg>
+          <lb facs="#z_f105r_l035" xml:id="medusa_f105r_l035"/>
+          <seg type="raw_unreviewed">ubi gũtiles p̾iꝰ habuerũt flamines constiⁿᵘˢ p̃tũ archias . ubi u̾o archi presbiter</seg>
+          <lb facs="#z_f105r_l036" xml:id="medusa_f105r_l036"/>
+          <seg type="raw_unreviewed">constitucionis antequam</seg>
+          <lb facs="#z_f105r_l037" xml:id="medusa_f105r_l037"/>
+          <seg type="raw_unreviewed">Fletus immoderati ũ d̃ si ꝓ morte anime qr ip̃os ꝑ mortẽ ũ amittꝰ s p̃misti. xiii</seg>
+          <lb facs="#z_f105r_l038" xml:id="medusa_f105r_l038"/>
+          <seg type="raw_unreviewed">qͥi ꝙ M fleͥ mortuũ ĩ debite. p̃bꝭ pue᷑ ex bespũis p̃uilliteͬ ꝙ ꝯpicta xiiii qͥi nũcũq</seg>
+          <lb facs="#z_f105r_l039" xml:id="medusa_f105r_l039"/>
+          <seg type="raw_unreviewed">M dñs ũ fleᵗ lazaro mortuũ. s ad m̃b̃i hoi erũpnatꝰ r̃ suscitađ. xiii. q. ii. in</seg>
+          <lb facs="#z_f105r_l040" xml:id="medusa_f105r_l040"/>
+          <seg type="raw_unreviewed">ĩ iuste p̾c̾rando. dñi suũ off̃m dt̃. d. u. d. u. 133</seg>
+          <lb facs="#z_f105r_l041" xml:id="medusa_f105r_l041"/>
+          <seg type="raw_unreviewed">Fomes ẽ Langour uere qui carnibus occupia</seg>
+          <lb facs="#z_f105r_l042" xml:id="medusa_f105r_l042"/>
+          <seg type="raw_unreviewed">Fomes ẽ longoo uere. qͥ carnis concupiscentia appletur. XX. I. Irupt d. p. d.</seg>
+          <lb facs="#z_f105r_l043" xml:id="medusa_f105r_l043"/>
+          <seg type="raw_unreviewed">q fomes carnis ⁊ aĩe ĩfinitas dicit᷑. ꝑ accid̃t aĩe. ex quĩcte carnis corꝭ ptõe.</seg>
+          <lb facs="#z_f105r_l044" xml:id="medusa_f105r_l044"/>
+          <seg type="raw_unreviewed">s̃ nũgꝭ debilita᷑ de ꝯd̾. nũ probãyꝰ ꝙ fones sup̃ nũc</seg>
+          <lb facs="#z_f105r_l045" xml:id="medusa_f105r_l045"/>
+          <seg type="raw_unreviewed">Fermate eccicie discipłie ẽ ĩ clicoꝵ casti ͭ ͤ ᷤᷤ xxii</seg>
+          <lb facs="#z_f105r_l046" xml:id="medusa_f105r_l046"/>
+          <seg type="raw_unreviewed">ormate eccͣsticȩ discipliẽ ẽ ĩ clicoꝵ castiᵗᵉ. d̃ lxxxii ppom̃ᵗⁱ. Iqͥ s p̃ansy</seg>
+          <lb facs="#z_f105r_l047" xml:id="medusa_f105r_l047"/>
+          <seg type="raw_unreviewed">qũs designat᷑ adult̃iꝰ xxxii a ꝓpͥm ⁊c̃. Et uo᷑ formid̃is car̃lis</seg>
+          <lb facs="#z_f105r_l048" xml:id="medusa_f105r_l048"/>
+          <seg type="raw_unreviewed">qũs designat᷑ ad ult̃m lxxxii q̃ u qui It̃ formᵒ l uidear̃ ẽẽ geꝰ cuiꝰh coytꝰ tñ</seg>
+          <lb facs="#z_f105r_l049" xml:id="medusa_f105r_l049"/>
+          <seg type="raw_unreviewed">q̃ ẽ solꝰ q̃ cũ solita ꝓhibe᷑ xxxii q̃ iii dicat et ñ q̃ q̃ ẽ solꝰ formꝰ</seg>
+          <lb facs="#z_f105r_l050" xml:id="medusa_f105r_l050"/>
+          <seg type="raw_unreviewed">q̃ ẽ solꝰ qͥ cũ solita ꝓhibe᷑ .xxxii. q. iiii dicit et ẽ ꝑꝑ moͣrbe pccꝰ. ¶ Ex feĩe formidos</seg>
+          <lb facs="#z_f105r_l051" xml:id="medusa_f105r_l051"/>
+          <seg type="raw_unreviewed">cũ cłicꝭ ĩ servitute d̃ r̃digi d̃ xxxii eos ¶ Quod fem̃ forni co</seg>
+          <lb facs="#z_f105r_l052" xml:id="medusa_f105r_l052"/>
+          <seg type="raw_unreviewed">d oco͂m formidati xxuii qͥ 1ͥ mulu̾da eꝵ ꝑꝑ solũ cia formidis uxor dunt</seg>
+          <lb facs="#z_f105r_l053" xml:id="medusa_f105r_l053"/>
+          <seg type="raw_unreviewed">scutum ĩfideles et qͥl noxio supersticio xxxi. 1. 8t eꝙ fornicu͂ spũalis ẽ ydeolatͥa. q̃</seg>
+          <lb facs="#z_f105r_l054" xml:id="medusa_f105r_l054"/>
+          <seg type="raw_unreviewed">y dolorꝭ xxxii. q̃ uii ñ soñ / It̃ aucta q̃ ẽ uoꝵ fuit / fornicacio it̃m . 3 suĩt /</seg>
+          <lb facs="#z_f105r_l055" xml:id="medusa_f105r_l055"/>
+          <seg type="raw_unreviewed">y doloꝵ xxxii q ui nͦ soꝰ It̃ auro q̃ ẽ yꝵꝵ fuit forꝰ spũl dⁱ xxuiii q i ydo᷑</seg>
+          <lb facs="#z_f105r_l056" xml:id="medusa_f105r_l056"/>
+          <seg type="raw_unreviewed">Fortido corporis se pro afflictis in multumantes exercebitur et habet</seg>
+          <lb facs="#z_f105r_l057" xml:id="medusa_f105r_l057"/>
+          <seg type="raw_unreviewed">Eortido coĩlis. se ꝓ aflictꝭ ĩ mulitͥgnites exce᷑. b̃a ⁊ lau᷑ ẽ. xxxiii. qͥ in sortido</seg>
+          <lb facs="#z_f105r_l058" xml:id="medusa_f105r_l058"/>
+          <seg type="raw_unreviewed">Fornis est ex tũdãrum lituũ loci. sꝰ ĩmitꝰ .I. clericꝰ. Ex utra sp̃d sequi serꝰ</seg>
+          <lb facs="#z_f105r_l059" xml:id="medusa_f105r_l059"/>
+          <seg type="raw_unreviewed">pulsati xii. si Qr sine clic sine linci. ꝓc̾mĩe pulsati. nõ uͥ ĩ foro suo d̃ audi</seg>
+          <lb facs="#z_f105r_l060" xml:id="medusa_f105r_l060"/>
+          <seg type="raw_unreviewed">xii</seg>
+          <lb facs="#z_f105r_l061" xml:id="medusa_f105r_l061"/>
+          <seg type="raw_unreviewed">ii cl̃icꝭ / quod excepta sede apᶜⁱ uenõ pr̃ t̾hi ex suũ ꝓ uĩcum ꝓ ce̾ litigio.</seg>
+          <lb facs="#z_f105r_l062" xml:id="medusa_f105r_l062"/>
+          <seg type="raw_unreviewed">m. ¶ It rõe t̾mĩs ꝯmissi effr̃ qͥs de so͂ alieꝰ. m. q. m. ¶ En ibi tã agũdũ ost. ubi</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f105r_l001 #z_f105r_l002" xml:id="u_105r_001">[…] promittitur […] implendo […]. Item ad fidem suscipiendam nemo est impellendus […]. Item ad susceptam fidem cogitur quis redire et eam servare […].</p>
+        <note type="editorial" corresp="#u_105r_001" xml:lang="cs">PokračováníFides. Druhá dvě hesla rozlišují přijetí a zachování víry, ale odkazy a podmínky nejsou celé přečteny.</note>
+        <p facs="#z_f105r_l003 #z_f105r_l004 #z_f105r_l005 #z_f105r_l006" xml:id="u_105r_002">Fidelitas est servanda domino temporali […]. Item propter praeceptum ecclesiae sine […] domini fidelitas non servatur […]. Papa propter excessus domini absolvit subditos a vinculo fidelitatis […]. Item imperator est […] fidelis […]. In fidelitatis forma sex requiruntur: incolume, tutum, honestum, utile, facile, possibile […].</p>
+        <note type="editorial" corresp="#u_105r_002" xml:lang="cs">U4chybí rozhodující podmínka, u5část označení císaře; výčet6je pracovní čtení tradičních substantivních přívlastků, nikoli celý právní výklad.</note>
+        <p facs="#z_f105r_l007 #z_f105r_l008 #z_f105r_l009 #z_f105r_l010" xml:id="u_105r_003">Quod inter fideles et infideles cauta debet esse discretio […]. Debet inter eos esse discretio in accusatione et testificatione […] in matrimonio […] et in mutua cohabitatione […] et in […] praescriptione […].</p>
+        <note type="editorial" corresp="#u_105r_003" xml:lang="cs">Dobový kanonickoprávní výčet je částečný; neobnovuji konkrétní omezení nebo osoby z obecných znalostí.</note>
+        <p facs="#z_f105r_l011 #z_f105r_l012 #z_f105r_l013 #z_f105r_l014 #z_f105r_l015" xml:id="u_105r_004">Item non potest de homine fideli […] quando erit infidelis […]. Item fidelis malus debet sustineri inter ecclesiam, tamen […] et tantum plus […] ecclesiae quam directe infidelis et […] Item peior est infideli […]. Item […] peccatum gravius est quam peccatum infidelis […]. Item tolerandus est et non vitandus quamdiu ab ecclesia per sententiam non praeciditur […].</p>
+        <note type="editorial" corresp="#u_105r_004" xml:lang="cs">11–14obsahují nevyřešená srovnání a zkratkové vazby; není to úplná argumentace o tolerování hříšníků.</note>
+        <p facs="#z_f105r_l016 #z_f105r_l017 #z_f105r_l018 #z_f105r_l019" xml:id="u_105r_005">Filius dicitur per carnis propagationem et parvulorum imitationem […]. Item filii dicuntur […] vel praedestinati […] spe beatitudinis aeternae, ex virtute fidei et […] iustitiae […]. Item filii spirituales dicuntur […] a baptismo […] et […] a per […]</p>
+        <note type="editorial" corresp="#u_105r_005" xml:lang="cs">Parvulorum16je nejisté;19má škrtnutý a pokračující text, přesné označení kmotrovství nedoplňuji.</note>
+        <p facs="#z_f105r_l020 #z_f105r_l021 #z_f105r_l022 #z_f105r_l023 #z_f105r_l024 #z_f105r_l025 #z_f105r_l026 #z_f105r_l027 #z_f105r_l028 #z_f105r_l029 #z_f105r_l030 #z_f105r_l031" xml:id="u_105r_006">Item filii adoptivi dicuntur non per carnis propagationem, sed per […] successionem […]. Filii liberi dicuntur qui ex libero […] sunt orti. Naturales autem concubinarum filii […]. Illi non reputantur filii nec […] in bonis succedunt […] qui nati sunt de incestu […]. Filii legitimi dicuntur qui vel ante baptismum vel post […] nati sunt […]. Item […] filiis peccata parentum imputantur, nisi […] Item res […] heres […] fisci […]</p>
+        <note type="editorial" corresp="#u_105r_006" xml:lang="cs">Pořadí20–31je rozbito drobnými samostatnými fragmenty a konci řádků. Členění a příslušnost podmínek zůstává nejistá; zejména legitimita28a přičítání hříchů29nejsou úplná pravidla.30–31asi samostatné hesloFiscus/fiskus, ponecháno fragmentárně.</note>
+        <p facs="#z_f105r_l032 #z_f105r_l033" xml:id="u_105r_007">Flagellum Domini aut est ad vindictam aut ad hominis purgationem […]. Quod flagellato non est addenda flagellatio nec afflictio […]. Item flagellatio ut proficiat debet esse discreta […].</p>
+        <note type="editorial" corresp="#u_105r_007" xml:lang="cs">Rozvinutí zkratek je pracovní; nejde o doporučení tělesného trestání.</note>
+        <p facs="#z_f105r_l034 #z_f105r_l035 #z_f105r_l036" xml:id="u_105r_008">Flamines dicuntur sacerdotes gentilium […] capite utebantur […]. Item ubi gentiles […] habuerant flamines, constituit […] patriarchas; ubi […] archiflamines constituit archiepiscopos […].</p>
+        <note type="editorial" corresp="#u_105r_008" xml:lang="cs">Postava ustanovující úřady a přesná hierarchie jsou nejasné. Rukopisné historické tvrzení nepovažováno za ověřenou genezi církevní správy.</note>
+        <p facs="#z_f105r_l037 #z_f105r_l038 #z_f105r_l039 #z_f105r_l040 #z_f105r_l041" xml:id="u_105r_009">Fletus immoderatus non debet fieri pro morte […] quia ipsos per mortem non amisimus sed praemisimus […]. Item flere mortuum non debet […] pusillanimitatis quam […] pietatis […]. Quod Dominus non flevit Lazarum mortuum, sed […] humanas […] Item Petrus flevit et flendo peccatum delevit […]. Item […] peccator flere debet […] dominum suum offendit […].</p>
+        <note type="editorial" corresp="#u_105r_009" xml:lang="cs">38–39nejsou souvisle rekonstruovány; zejména důvod Ježíšova pláče není doplněn biblickou či patristickou paralelou.</note>
+        <p facs="#z_f105r_l042 #z_f105r_l043 #z_f105r_l044 #z_f105r_l045" xml:id="u_105r_010">Fomes est languor vel carnis concupiscentia appellatur […]. Item fomes carnis […] infirmitas […] ex […] carnis corruptione […]. Item fomes non est peccatum sed poena peccati […]. Item fomes in baptismo non deletur sed debilitatur […]. Item fomes semper repugnat legi mentis […].</p>
+        <note type="editorial" corresp="#u_105r_010" xml:lang="cs">Fomes překládán významově; doslova palivo. Vynechány nejisté zkratkové definice43.</note>
+        <p facs="#z_f105r_l046" xml:id="u_105r_011">Formatae ecclesiasticae disciplinae […] in clericorum […]</p>
+        <note type="editorial" corresp="#u_105r_011" xml:lang="cs">Krátké samostatné hesloFormatae, ne fomes; celé znění nevyřešeno.</note>
+        <p facs="#z_f105r_l047 #z_f105r_l048 #z_f105r_l049 #z_f105r_l050 #z_f105r_l051 #z_f105r_l052 #z_f105r_l053 #z_f105r_l054 #z_f105r_l055 #z_f105r_l056" xml:id="u_105r_012">Fornicatio est duplex: carnalis et spiritualis […]. Carnalis quando designatur adulterium […]. Item fornicatio […] ad idem genus cuius est coitus […] viduarum vel meretricum vel […] Item simplex fornicatio quae est soluti cum soluta prohibetur […]. Item propter mortale peccatum […] in servitutem debet redigi […] ut uxor non […] servitutis […]. Item propter solam […] fornicationem uxor dimittitur quantum ad […] cohabitationem […]. Fornicatio spiritualis est idolatria […] et quaelibet noxia superstitio […]. Item fornicatur anima in servitio idolorum […]. Item fornicatio spiritualis dicitur […]</p>
+        <note type="editorial" corresp="#u_105r_012" xml:lang="cs">Výčet významů a dobových právních následků není úplný. U50–53chybějí podstatné osobní a procesní podmínky; nepředkládáno jako souvislé právní pravidlo. Explicitní podrobnosti nejsou domýšleny.</note>
+        <p facs="#z_f105r_l057 #z_f105r_l058 #z_f105r_l059 #z_f105r_l060 #z_f105r_l061 #z_f105r_l062" xml:id="u_105r_013">Fortitudo […] pro afflictis in […] bonis et laus […]. Forum est exercendarum litium locus […]. Item actor semper debet sequi forum sui […] nisi […] Item […] clerici sive laici […] Item excepta sede apostolica nemo […] suam provinciam […] quis […] aliae […] causa agnoscitur […].</p>
+        <note type="editorial" corresp="#u_105r_013" xml:lang="cs">57neúplné samostatné heslo.60drobný izolovaný znak není převeden na text. UForumnejsou bezpečně přečteny podmínky místní a osobní příslušnosti.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_105r_001">[…] slibuje se […] plněním […]. Dále: nikdo nemá být nucen k přijetí víry […]. Dále: k přijaté víře je někdo nucen se vrátit a zachovávat ji […].</p>
+        <p corresp="#u_105r_002">Věrnost se má zachovávat světskému pánovi […]. Dále: kvůli církevnímu příkazu se bez […] nezachovává věrnost pánovi […]. Papež kvůli přestupkům pána zprošťuje podřízené pouta věrnosti […]. Dále: císař je […] věrný […]. Ve formě věrnosti se vyžaduje šest věcí: neporušené, bezpečné, čestné, užitečné, snadné a možné […].</p>
+        <p corresp="#u_105r_003">Že mezi věřícími a nevěřícími má být zachováváno obezřetné rozlišování […]. Má mezi nimi být rozdíl při obžalobě a svědectví […] v manželství […] a při společném soužití […] a při […] vydržení […].</p>
+        <p corresp="#u_105r_004">Dále: o věřícím člověku nelze […] kdy bude nevěřícím […]. Dále: zlý věřící má být snášen v církvi, avšak […] a tím více […] církvi než přímo nevěřící a […] Dále: je horší než nevěřící […]. Dále: […] hřích je těžší než hřích nevěřícího […]. Dále: má být snášen a nemá se mu vyhýbat, dokud není rozsudkem od církve odříznut […].</p>
+        <p corresp="#u_105r_005">Synem se někdo nazývá tělesným plozením a napodobováním dětí […]. Dále: synové se nazývají […] nebo předurčení […] nadějí na věčnou blaženost, mocí víry a […] spravedlnosti […]. Dále: duchovními syny se nazývají […] od křtu […] a […] prostřednictvím […].</p>
+        <p corresp="#u_105r_006">Adoptivními syny se nazývají ti, kteří nejsou syny skrze tělesné plození, nýbrž skrze […] nástupnictví […]. Svobodnými syny se nazývají ti, kdo vzešli ze svobodného […] Přirozenými pak synové souložnic […]. Nejsou považováni za syny ani […] nedědí majetek […] ti, kdo se narodili z krvesmilstva […]. Za manželské se označují děti narozené před křtem či po […] Dále: […] dětem jsou přičítány hříchy rodičů, ledaže […] Dále: věci […] dědic […] fisku […].</p>
+        <p corresp="#u_105r_007">Boží bič slouží buď k odplatě, nebo k očištění člověka […]. Že bičovanému se nemá přidávat další bičování ani trápení […]. Dále: aby bylo bičování prospěšné, má být uvážlivé […].</p>
+        <p corresp="#u_105r_008">Flaminové se nazývají kněží pohanů […] užívali na hlavě […]. Dále: tam, kde pohané […] měli flaminy, ustanovil […] patriarchy; kde […] archiflaminy, ustanovil arcibiskupy […].</p>
+        <p corresp="#u_105r_009">Nesmírný pláč se nemá konat při úmrtí […] neboť jsme je smrtí neztratili, nýbrž poslali před sebou […]. Dále: oplakávat mrtvého se nemá […] malomyslnosti spíše než […] zbožnosti […]. Že Pán neoplakával mrtvého Lazara, nýbrž […] lidské […] Dále: Petr plakal a pláčem smazal svůj hřích […]. Dále: […] hříšník má plakat […] urazil svého pána […].</p>
+        <p corresp="#u_105r_010">Zápal žádosti se nazývá slabostí či tělesnou žádostivostí […]. Dále: tělesná žádost […] slabost […] z […] porušení těla […]. Dále: zápal žádosti není hříchem, nýbrž trestem za hřích […]. Dále: ve křtu není zápal žádosti odstraněn, nýbrž oslaben […]. Dále: vždy odporuje zákonu mysli […].</p>
+        <p corresp="#u_105r_011">Osvědčující církevní listiny […] církevní kázně […] u kleriků […].</p>
+        <p corresp="#u_105r_012">Smilstvo je dvojí: tělesné a duchovní […]. Tělesné, když se jím označuje cizoložství […]. Dále: smilstvo […] ke stejnému druhu, k němuž patří soulož […] vdov nebo prostitutek nebo […] Dále: prosté smilstvo, které je mezi svobodným a svobodnou, je zakázáno […]. Dále: kvůli smrtelnému hříchu […] má být uveden do otroctví […] aby manželka ne […] otroctví […]. Dále: kvůli samotnému […] smilstvu je manželka propouštěna co do […] společného soužití […]. Duchovním smilstvem je modloslužba […] a jakákoli škodlivá pověra […]. Dále: duše smilní ve službě modlám […]. Dále: duchovní smilstvo se nazývá […].</p>
+        <p corresp="#u_105r_013">Statečnost […] za postižené […] v dobrech a chvála […]. Soudní fórum je místem projednávání sporů […]. Dále: žalobce má vždy následovat soud svého […] ledaže […] Dále: […] klerici či laikové […] Dále: s výjimkou apoštolského stolce nikdo […] svou provincii […] kdo […] jiná […] věc je projednávána […].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

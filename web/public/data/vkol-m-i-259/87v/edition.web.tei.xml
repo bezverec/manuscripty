@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 87v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Bez samostatně přiřazeného katalogového oddílu. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_87v_coordinate; PNG SHA256 053340a32cee5cc91a75bfa94fea497fa5404543ee74bc17a2248893a4541b7c; archival TIFF SHA256 491be09187cef1e9b7e8a977927d049e128e8cde1c721df2a28373503b931278; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_87v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#87v"/>
+      <zone ulx="958" uly="367" lrx="3495" lry="535" xml:id="z_f87v_l001"/>
+      <zone ulx="943" uly="482" lrx="3464" lry="640" xml:id="z_f87v_l002"/>
+      <zone ulx="740" uly="581" lrx="3464" lry="737" xml:id="z_f87v_l003"/>
+      <zone ulx="725" uly="665" lrx="3486" lry="827" xml:id="z_f87v_l004"/>
+      <zone ulx="731" uly="759" lrx="3461" lry="920" xml:id="z_f87v_l005"/>
+      <zone ulx="743" uly="849" lrx="3430" lry="1017" xml:id="z_f87v_l006"/>
+      <zone ulx="734" uly="933" lrx="3482" lry="1120" xml:id="z_f87v_l007"/>
+      <zone ulx="750" uly="1026" lrx="3482" lry="1204" xml:id="z_f87v_l008"/>
+      <zone ulx="753" uly="1116" lrx="3470" lry="1297" xml:id="z_f87v_l009"/>
+      <zone ulx="753" uly="1200" lrx="3448" lry="1387" xml:id="z_f87v_l010"/>
+      <zone ulx="762" uly="1294" lrx="3470" lry="1487" xml:id="z_f87v_l011"/>
+      <zone ulx="747" uly="1384" lrx="3479" lry="1589" xml:id="z_f87v_l012"/>
+      <zone ulx="737" uly="1496" lrx="3467" lry="1661" xml:id="z_f87v_l013"/>
+      <zone ulx="734" uly="1580" lrx="3489" lry="1764" xml:id="z_f87v_l014"/>
+      <zone ulx="781" uly="1664" lrx="3417" lry="1851" xml:id="z_f87v_l015"/>
+      <zone ulx="728" uly="1757" lrx="3498" lry="1925" xml:id="z_f87v_l016"/>
+      <zone ulx="728" uly="1848" lrx="3454" lry="2025" xml:id="z_f87v_l017"/>
+      <zone ulx="725" uly="1928" lrx="3464" lry="2103" xml:id="z_f87v_l018"/>
+      <zone ulx="725" uly="2025" lrx="3495" lry="2190" xml:id="z_f87v_l019"/>
+      <zone ulx="731" uly="2115" lrx="3495" lry="2261" xml:id="z_f87v_l020"/>
+      <zone ulx="731" uly="2205" lrx="3504" lry="2339" xml:id="z_f87v_l021"/>
+      <zone ulx="731" uly="2292" lrx="3470" lry="2429" xml:id="z_f87v_l022"/>
+      <zone ulx="728" uly="2383" lrx="3467" lry="2510" xml:id="z_f87v_l023"/>
+      <zone ulx="725" uly="2460" lrx="3464" lry="2600" xml:id="z_f87v_l024"/>
+      <zone ulx="728" uly="2544" lrx="3464" lry="2691" xml:id="z_f87v_l025"/>
+      <zone ulx="734" uly="2632" lrx="3448" lry="2765" xml:id="z_f87v_l026"/>
+      <zone ulx="731" uly="2719" lrx="3442" lry="2856" xml:id="z_f87v_l027"/>
+      <zone ulx="747" uly="2800" lrx="3470" lry="2946" xml:id="z_f87v_l028"/>
+      <zone ulx="731" uly="2890" lrx="3451" lry="3042" xml:id="z_f87v_l029"/>
+      <zone ulx="728" uly="2980" lrx="3442" lry="3120" xml:id="z_f87v_l030"/>
+      <zone ulx="709" uly="3064" lrx="3470" lry="3210" xml:id="z_f87v_l031"/>
+      <zone ulx="725" uly="3154" lrx="3451" lry="3291" xml:id="z_f87v_l032"/>
+      <zone ulx="722" uly="3238" lrx="3454" lry="3372" xml:id="z_f87v_l033"/>
+      <zone ulx="731" uly="3328" lrx="3454" lry="3459" xml:id="z_f87v_l034"/>
+      <zone ulx="740" uly="3409" lrx="3451" lry="3552" xml:id="z_f87v_l035"/>
+      <zone ulx="728" uly="3503" lrx="3445" lry="3630" xml:id="z_f87v_l036"/>
+      <zone ulx="725" uly="3587" lrx="3510" lry="3717" xml:id="z_f87v_l037"/>
+      <zone ulx="718" uly="3671" lrx="3473" lry="3798" xml:id="z_f87v_l038"/>
+      <zone ulx="725" uly="3758" lrx="3486" lry="3888" xml:id="z_f87v_l039"/>
+      <zone ulx="731" uly="3836" lrx="3482" lry="3957" xml:id="z_f87v_l040"/>
+      <zone ulx="731" uly="3910" lrx="3464" lry="4050" xml:id="z_f87v_l041"/>
+      <zone ulx="743" uly="4000" lrx="3448" lry="4119" xml:id="z_f87v_l042"/>
+      <zone ulx="743" uly="4078" lrx="3486" lry="4187" xml:id="z_f87v_l043"/>
+      <zone ulx="750" uly="4153" lrx="3479" lry="4277" xml:id="z_f87v_l044"/>
+      <zone ulx="750" uly="4240" lrx="3479" lry="4368" xml:id="z_f87v_l045"/>
+      <zone ulx="734" uly="4318" lrx="3470" lry="4445" xml:id="z_f87v_l046"/>
+      <zone ulx="718" uly="4396" lrx="3501" lry="4526" xml:id="z_f87v_l047"/>
+      <zone ulx="734" uly="4480" lrx="3476" lry="4613" xml:id="z_f87v_l048"/>
+      <zone ulx="715" uly="4567" lrx="3293" lry="4707" xml:id="z_f87v_l049"/>
+      <zone ulx="731" uly="4644" lrx="3498" lry="4791" xml:id="z_f87v_l050"/>
+      <zone ulx="725" uly="4722" lrx="3476" lry="4884" xml:id="z_f87v_l051"/>
+      <zone ulx="728" uly="4809" lrx="3482" lry="4974" xml:id="z_f87v_l052"/>
+      <zone ulx="734" uly="4881" lrx="3523" lry="5055" xml:id="z_f87v_l053"/>
+      <zone ulx="728" uly="4984" lrx="3520" lry="5176" xml:id="z_f87v_l054"/>
+      <zone ulx="3772" uly="3400" lrx="3859" lry="3509" xml:id="z_f87v_l055"/>
+      <zone ulx="3806" uly="3562" lrx="3853" lry="3677" xml:id="z_f87v_l056"/>
+      <zone ulx="3697" uly="3649" lrx="3862" lry="3783" xml:id="z_f87v_l057"/>
+      <zone ulx="3669" uly="3745" lrx="3871" lry="3870" xml:id="z_f87v_l058"/>
+      <zone ulx="3741" uly="3823" lrx="3843" lry="3948" xml:id="z_f87v_l059"/>
+      <zone ulx="3700" uly="3904" lrx="3862" lry="4025" xml:id="z_f87v_l060"/>
+      <zone ulx="3728" uly="4361" lrx="3815" lry="4470" xml:id="z_f87v_l061"/>
+      <zone ulx="3794" uly="4719" lrx="3831" lry="4825" xml:id="z_f87v_l062"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="und">
+          <lb facs="#z_f87v_l001" xml:id="catmus_f87v_l001"/>
+          <seg type="raw_unreviewed">diteᵈ arboe ꝯsaqͭ pt̃e ͭ ͤ p ͦ qͣ ꝙ sit ꝯsac ͥ ͤ ⁊ uñ d̃ ⁊ ꝙ̾ sicliei</seg>
+          <lb facs="#z_f87v_l002" xml:id="catmus_f87v_l002"/>
+          <seg type="raw_unreviewed">nea dem̃ cẜ sit gͣdꝰ Sͦ qͥ quo arbor fort᷑ ⁊ qre sic pnitẽ Et</seg>
+          <lb facs="#z_f87v_l003" xml:id="catmus_f87v_l003"/>
+          <seg type="raw_unreviewed">iesemꝰ r ͣ ᷤ ꝓqͣs gdꝰ ꝯgͦstũr demũ põeꝰ q̃ nõuda ⁊ qsdã qões</seg>
+          <lb facs="#z_f87v_l004" xml:id="catmus_f87v_l004"/>
+          <seg type="raw_unreviewed">adp ͫ d ͤ c ꝯsac̾i ͣ ᷤ ẽ acciuiẽ ͣ pꝵ exeo ꝓue ͥ ͥ ᷤᷤ qr p ͣ p ͣ desced᷑ abalta</seg>
+          <lb facs="#z_f87v_l005" xml:id="catmus_f87v_l005"/>
+          <seg type="raw_unreviewed">uł abead uł ẽ uĩcłmñ pͣꝵ ab eod scipite desteĩ carͣli ꝓpag ͭ ͤ ꝯtcũ</seg>
+          <lb facs="#z_f87v_l006" xml:id="catmus_f87v_l006"/>
+          <seg type="raw_unreviewed">ꝙ id̾ ẽ d᷑ at̾ ꝯsau ͣ ᷤᷤq. saq ͥ ͤ uĩtar a cõ ⁊ sagͦ qr deqiũ Iah ͤ deste</seg>
+          <lb facs="#z_f87v_l007" xml:id="catmus_f87v_l007"/>
+          <seg type="raw_unreviewed">Dut uł qr que sag̾ ͤ huc ⁊ q ad ꝓhico quign nõ distigiuo antłes</seg>
+          <lb facs="#z_f87v_l008" xml:id="catmus_f87v_l008"/>
+          <seg type="raw_unreviewed">sit maq̾ ͥ ꝓducti exuxõio coitr an exsornuaio Leci ud̃ ẽ collito</seg>
+          <lb facs="#z_f87v_l009" xml:id="catmus_f87v_l009"/>
+          <seg type="raw_unreviewed">pꝵ exeod scipite desce ͫ du̾isos quues ⁊ nũs discĩgnẽs Et ẽ lieã</seg>
+          <lb facs="#z_f87v_l010" xml:id="catmus_f87v_l010"/>
+          <seg type="raw_unreviewed">gduũ aste ͫ descem ⁊ tollataliũ ut ĩsia pẽb ͭ Gͣdh ẽ hundo discã</seg>
+          <lb facs="#z_f87v_l011" xml:id="catmus_f87v_l011"/>
+          <seg type="raw_unreviewed">nͣꝵ q̃ ꝯu̾sti᷑ qͥta aq̃tõis ñl ꝯgͣtoĩs distã ͣ due p ͤ ĩc̾se drut Et dur̃</seg>
+          <lb facs="#z_f87v_l012" xml:id="catmus_f87v_l012"/>
+          <seg type="raw_unreviewed">qdꝰ ad sili ͤ gduũ scalaꝵ ul ꝓcliuiũ qr ita gͣdũt᷑ deꝓxͦ ĩpxͫ fort</seg>
+          <lb facs="#z_f87v_l013" xml:id="catmus_f87v_l013"/>
+          <seg type="raw_unreviewed">at sic arbor p ͦ inde celulas sine rotulos asce᷑ dem̃ descem deinde</seg>
+          <lb facs="#z_f87v_l014" xml:id="catmus_f87v_l014"/>
+          <seg type="raw_unreviewed">collat̾aliũ rascẽd̾ siue ꝯsid̾a celulã sine rotulũ pacul̃ameͦ abiar</seg>
+          <lb facs="#z_f87v_l015" xml:id="catmus_f87v_l015"/>
+          <seg type="raw_unreviewed">iõ u̾ma uaclia qr nõ potu ͭ ꝓpũ nͥ hre cũ aͤ celule except hiis c̃</seg>
+          <lb facs="#z_f87v_l016" xml:id="catmus_f87v_l016"/>
+          <seg type="raw_unreviewed">uoĩau̾ pgtm suunt in abipa e aõ u posseꝰi ͣ celula noĩae ꝙͣ dicio</seg>
+          <lb facs="#z_f87v_l017" xml:id="catmus_f87v_l017"/>
+          <seg type="raw_unreviewed">siliũ pr̃ꝭ sie fcꝭ pre silni ⁊ciis erdã tñ rout eã rochai alii ꝓcheũ</seg>
+          <lb facs="#z_f87v_l018" xml:id="catmus_f87v_l018"/>
+          <seg type="raw_unreviewed">uos od anoe bedelli uoceꝰ eñ petrnciũ Et scie̾ des ꝙ ꝯpet̾et i ͤ cel</seg>
+          <lb facs="#z_f87v_l019" xml:id="catmus_f87v_l019"/>
+          <seg type="raw_unreviewed">lule medie astẽ ͫ ⁊destẽm diuide̾u᷑ itẽ ꝑme uc alate̾ dexͦ celular</seg>
+          <lb facs="#z_f87v_l020" xml:id="catmus_f87v_l020"/>
+          <seg type="raw_unreviewed">aꝵ pou̾en᷑ no ͣ maĩ ut auus panꝰ ic̃ alace yd̃ suustꝰ noꝰ mlior.</seg>
+          <lb facs="#z_f87v_l021" xml:id="catmus_f87v_l021"/>
+          <seg type="raw_unreviewed">ut abania pania ⁊cqa poĩti alatẽ dexͦ desceͫ̃ amia̾ib ⁊ eꝯͦpoĩte.</seg>
+          <lb facs="#z_f87v_l022" xml:id="catmus_f87v_l022"/>
+          <seg type="raw_unreviewed">asmustͦ descer t amliẽib sup̃ celulã uacua ẽ ꝯti   celula p̃r mr̃</seg>
+          <lb facs="#z_f87v_l023" xml:id="catmus_f87v_l023"/>
+          <seg type="raw_unreviewed">⁊ o mͫpũcoĩ suꝑiꝰ ⁊isius ngꝵ Sup̃ i ͣ ꝯtiẽ arous quia ⁊ supiꝰ ac</seg>
+          <lb facs="#z_f87v_l024" xml:id="catmus_f87v_l024"/>
+          <seg type="raw_unreviewed">ĩfiq̾ duo pncta Sũp i ͣ pañꝰ ꝓauia ⁊c̾a pñcea sup̃i ͣ abañq ab</seg>
+          <lb facs="#z_f87v_l025" xml:id="catmus_f87v_l025"/>
+          <seg type="raw_unreviewed">auia ⁊qͣor pũita ꝯtieu̾ descẽ ͤ ͦ at sbcella uacua uo ͤ pet̾tiꝯ hẽs fi</seg>
+          <lb facs="#z_f87v_l026" xml:id="catmus_f87v_l026"/>
+          <seg type="raw_unreviewed">⁊filiã ⁊ suꝑiꝰ ac isiꝰ u ͫ pũctũ Sbi ͣ uo̾ hẽs nepotẽ ⁊ ueꝑpte̾ ⁊ duo</seg>
+          <lb facs="#z_f87v_l027" xml:id="catmus_f87v_l027"/>
+          <seg type="raw_unreviewed">pucta sup̃ rĩsra sbia hes ꝓuepotẽ ⁊ ꝓueptẽ cũ tͥb pũit̃ s̃ risia</seg>
+          <lb facs="#z_f87v_l028" xml:id="catmus_f87v_l028"/>
+          <seg type="raw_unreviewed">tiqͣ itm hes abnepotẽ rabueptẽ cuim pucc̃ auꝙ̃ aĩ adcollatã</seg>
+          <lb facs="#z_f87v_l029" xml:id="catmus_f87v_l029"/>
+          <seg type="raw_unreviewed">les descẽdao sciẽ des ꝙ pũĩtoꝵ ñaco ẽ ꝯputa ͦ gͣduũ hit̃o reͫ ad</seg>
+          <lb facs="#z_f87v_l030" xml:id="catmus_f87v_l030"/>
+          <seg type="raw_unreviewed">cellã uͥcuã ⁊ pñcta suꝑiõa denou̾t ꝯputa ͦ ẜ ius can ͣ puc̃ta pd̃</seg>
+          <lb facs="#z_f87v_l031" xml:id="catmus_f87v_l031"/>
+          <seg type="raw_unreviewed">ĩsioa ẜ ius cuule po᷑ ac ꝯputa ͦ ca ͭ ͣ ĩsuꝑioł ꝑte celulaꝵ s̃ no ꝰͣ mͣ</seg>
+          <lb facs="#z_f87v_l032" xml:id="catmus_f87v_l032"/>
+          <seg type="raw_unreviewed">emuilis uõ ĩ ĩsioit ut de̾ ite ͭ ͣ excellͣ irꝭ can ͥ ad ciuile imax eͤ a</seg>
+          <lb facs="#z_f87v_l033" xml:id="catmus_f87v_l033"/>
+          <seg type="raw_unreviewed">adhut casũ q istłui᷑ anmͣ ͥ q̃ licite ꝯͣhi pũt uł ue et cũ mͣirͫ sit</seg>
+          <lb facs="#z_f87v_l034" xml:id="catmus_f87v_l034"/>
+          <seg type="raw_unreviewed">sacmm ecc̃e / ieo p̃cipne nũor tauõe bides gͥ expũcta ͦ ͤ cyĩpũga</seg>
+          <lb facs="#z_f87v_l035" xml:id="catmus_f87v_l035"/>
+          <seg type="raw_unreviewed">astẽ ⁊desce̾   pꝵo ꝯcordt᷑ utroq ius qr ĩeis sꝑ p ͣ add̾utͥ p ͤ ncarͣ</seg>
+          <lb facs="#z_f87v_l036" xml:id="catmus_f87v_l036"/>
+          <seg type="raw_unreviewed">ꝓpaq ͦ gdũ adicit Adĩuẽiedos at gdꝰ it̾eos ẜ utoq ius tõie</seg>
+          <lb facs="#z_f87v_l037" xml:id="catmus_f87v_l037"/>
+          <seg type="raw_unreviewed">hãt aucĩalẽ re ͣ Regła asteͬ reestẽͫ qͦt st̾ ꝑ ͤ deq̾b qui ꝯputatꝭ</seg>
+          <lb facs="#z_f87v_l038" xml:id="catmus_f87v_l038"/>
+          <seg type="raw_unreviewed">ĩt̾iuediis una dept̃a tot sc̃ qͣdꝰ ĩcͥas Si qͥ u̾is scie c dist aba</seg>
+          <lb facs="#z_f87v_l039" xml:id="catmus_f87v_l039"/>
+          <seg type="raw_unreviewed">nus aper̾cio i. cella uacua ncͦq pͥucaco ⁊ĩciuediis .u. sc̃ p ͤ d̾iuas</seg>
+          <lb facs="#z_f87v_l040" xml:id="catmus_f87v_l040"/>
+          <seg type="raw_unreviewed">ua i pec̾ciũ uł patuã cor sc̃ qͣdꝰ qd cene deip̃õ piͥ peltio uloe</seg>
+          <lb facs="#z_f87v_l041" xml:id="catmus_f87v_l041"/>
+          <seg type="raw_unreviewed">lla uacua ad abnepote iliẽa descem iꝑ eod ͦ ĩpies .u. p ͣ s ucͦas</seg>
+          <lb facs="#z_f87v_l042" xml:id="catmus_f87v_l042"/>
+          <seg type="raw_unreviewed">cellis tãpecti ꝙ̃ abuepot ꝯputat dep̃ta uo u̾na cella pectii </seg>
+          <lb facs="#z_f87v_l043" xml:id="catmus_f87v_l043"/>
+          <seg type="raw_unreviewed">rmoient qͦ rq̃do si uõ uis sce ꝙ dist abanꝰ ĩsupma cellula</seg>
+          <lb facs="#z_f87v_l044" xml:id="catmus_f87v_l044"/>
+          <seg type="raw_unreviewed">S per̾tiũ ab abuepote ĩ ulciã so pec̾tio ũib ĩciuediis cellulis ⁊</seg>
+          <lb facs="#z_f87v_l045" xml:id="catmus_f87v_l045"/>
+          <seg type="raw_unreviewed">eeꝭ peten ꝯputatꝭ ĩue ͤ ᷤᷤ ix. p ͥ ᷤ dept̃o u̾o peltõ eit ꝓmꝰͦ gͣdo Sti</seg>
+          <lb facs="#z_f87v_l046" xml:id="catmus_f87v_l046"/>
+          <seg type="raw_unreviewed">as ⁊ ꝙ pectiꝰ nõ h com sua ꝯsac̾te iartioe exeo t q̾l hõ nũdo h</seg>
+          <lb facs="#z_f87v_l047" xml:id="catmus_f87v_l047"/>
+          <seg type="raw_unreviewed">duos pntes qͦ ͬ auos um panos xui abauos ⁊c sꝑ astẽͤᷤ dupliat</seg>
+          <lb facs="#z_f87v_l048" xml:id="catmus_f87v_l048"/>
+          <seg type="raw_unreviewed">uñ ĩp̃o ᷝ ͤ suiss tot p ͣ ᷤᷤ ĩ arboe̾ stͥbe Qut̾ g an ũ astees ⁊ deses ꝓhĩtõ</seg>
+          <lb facs="#z_f87v_l049" xml:id="catmus_f87v_l049"/>
+          <seg type="raw_unreviewed">cople excedat qͣrͫ gͣd adhc dño gof.ĩsum̃a deosaqͥ ͭ ͤ rassi ͭ ͤ ꝙ ͤ ¶</seg>
+          <lb facs="#z_f87v_l050" xml:id="catmus_f87v_l050"/>
+          <seg type="raw_unreviewed">cuo pd̾ecͤ ex dcꝯsaci ⁊ affi. nõ d q̃ gn̾a ͬ loͬ abi quir q̃ dicẽtes iter</seg>
+          <lb facs="#z_f87v_l051" xml:id="catmus_f87v_l051"/>
+          <seg type="raw_unreviewed">astẽt̾s ⁊ deses ꝓꝑetuã d ͨ ee̾ ꝓhi ͦ uñ si adã uiuẽt cũ uͣiliẽ poss co</seg>
+          <lb facs="#z_f87v_l052" xml:id="catmus_f87v_l052"/>
+          <seg type="raw_unreviewed">plai s ꝙ deq̃rto gͣdu decͤcał lo᷑ ĩcollat̾alib d᷑ lecũ hrẽ ut xxxu. qui</seg>
+          <lb facs="#z_f87v_l053" xml:id="catmus_f87v_l053"/>
+          <seg type="raw_unreviewed">ꝑgẽie ⁊ duob c set̃ ᵇ aq̃b d̃ ꝙ oly nõ so  adon gͣd̃ s ⁊̃ ĩͫ eãt noti ͣ</seg>
+          <lb facs="#z_f87v_l054" xml:id="catmus_f87v_l054"/>
+          <seg type="raw_unreviewed">ꝑutele excẽdeba᷑ ꝓhicõ gͦ c̾ũ ẽ altii ee lc astẽtẽ ⁊ altm deste ͭ ͤ ꝙ ꝑduat</seg>
+          <lb facs="#z_f87v_l055" xml:id="catmus_f87v_l055"/>
+          <seg type="raw_unreviewed">ħ et</seg>
+          <lb facs="#z_f87v_l056" xml:id="catmus_f87v_l056"/>
+          <seg type="raw_unreviewed">In</seg>
+          <lb facs="#z_f87v_l057" xml:id="catmus_f87v_l057"/>
+          <seg type="raw_unreviewed">aliũ gͣt</seg>
+          <lb facs="#z_f87v_l058" xml:id="catmus_f87v_l058"/>
+          <seg type="raw_unreviewed">Inqͥs eoꝵ</seg>
+          <lb facs="#z_f87v_l059" xml:id="catmus_f87v_l059"/>
+          <seg type="raw_unreviewed">uex</seg>
+          <lb facs="#z_f87v_l060" xml:id="catmus_f87v_l060"/>
+          <seg type="raw_unreviewed">l sell</seg>
+          <lb facs="#z_f87v_l061" xml:id="catmus_f87v_l061"/>
+          <seg type="raw_unreviewed">xeo</seg>
+          <lb facs="#z_f87v_l062" xml:id="catmus_f87v_l062"/>
+          <seg type="raw_unreviewed">u</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="und">
+          <lb facs="#z_f87v_l001" xml:id="medusa_f87v_l001"/>
+          <seg type="raw_unreviewed">dicẽd̃ arboꝵ consecꝭ p̃ce ͭ ͤ pᵈ ͦ qͥ ꝙ sit ꝯsaꝰ ͣ ᷤᷤ ⁊ uñ dr̃ ⁊ ꝙ sit liei</seg>
+          <lb facs="#z_f87v_l002" xml:id="medusa_f87v_l002"/>
+          <seg type="raw_unreviewed">nea deñ ch̃ sit gͣds s⁊ qͥ quõ arbor forͣit᷑ ⁊ qͣre sic pñite̾ et</seg>
+          <lb facs="#z_f87v_l003" xml:id="medusa_f87v_l003"/>
+          <seg type="raw_unreviewed">iesermꝰ reas ꝑqͣs gͣdꝰ ꝯgͦscim̃ demm̃ põeꝰ t̃i nonda ⁊ qͣdã qões</seg>
+          <lb facs="#z_f87v_l004" xml:id="medusa_f87v_l004"/>
+          <seg type="raw_unreviewed">ad pͥm d᷑ ꝙ ꝯsaꝗᵃˢ ẽ accu᷑neᵃ p̃ẜo ex eo ꝓueˢᵘˢ qr uᵃ pᵃ descendit ab alta</seg>
+          <lb facs="#z_f87v_l005" xml:id="medusa_f87v_l005"/>
+          <seg type="raw_unreviewed">ul abead/ul ẽ uicliũ p̃ro ab eod̃ stipice desteciũ car̃li ꝓpagoe contͣm</seg>
+          <lb facs="#z_f87v_l006" xml:id="medusa_f87v_l006"/>
+          <seg type="raw_unreviewed">ꝙ id̃ ẽ d᷑ at̃ ꝯsa᷑as q. sa᷑is uĩtas a cõꝯsage qr de ꝯiũ sa᷑e deste</seg>
+          <lb facs="#z_f87v_l007" xml:id="medusa_f87v_l007"/>
+          <seg type="raw_unreviewed">dũt/ uł qr ꝯnes sacͥe hũc ⁊ qͦ ad ꝓpheto͂ ꝯuig̃n nõ distingwo an tlos</seg>
+          <lb facs="#z_f87v_l008" xml:id="medusa_f87v_l008"/>
+          <seg type="raw_unreviewed">sit consequer pro ducti ex primo coitu an ex primigno licet u̾ ẽ collatio</seg>
+          <lb facs="#z_f87v_l009" xml:id="medusa_f87v_l009"/>
+          <seg type="raw_unreviewed">p̃p ex eođ scipite de seᵗᵉm diu̾sos ꝯciũes ⁊ nu᷑s discĩgnẽs et ẽ licã</seg>
+          <lb facs="#z_f87v_l010" xml:id="medusa_f87v_l010"/>
+          <seg type="raw_unreviewed">gͣduũ a sc̃e ͥ ͧ ͫ d̾ sc̃e ͥ ͧ ͫ ⁊ collata liũ ut infra p̾ebᵗ Gd̃y ẽ hitudo discã</seg>
+          <lb facs="#z_f87v_l011" xml:id="medusa_f87v_l011"/>
+          <seg type="raw_unreviewed">pꝰꝵ qͣ ꝯgͦsti ⁊ qͦta acqͣtioĩs uł ꝯgͣtioĩs distañ due ꝑeͥ ĩt̾se ducit̃ et ducit᷑</seg>
+          <lb facs="#z_f87v_l012" xml:id="medusa_f87v_l012"/>
+          <seg type="raw_unreviewed">p̃ꝵ q̃ ꝯgͣstiꝰ qͥta acꝗoris in ꝯgͣdiis</seg>
+          <lb facs="#z_f87v_l013" xml:id="medusa_f87v_l013"/>
+          <seg type="raw_unreviewed">at sic arbor primo inde celulas sine rotulos ascenm deinde descenm deinde</seg>
+          <lb facs="#z_f87v_l014" xml:id="medusa_f87v_l014"/>
+          <seg type="raw_unreviewed">collata liũ ⁊ asted̃ sine consida᷑ celula sine rotulu vacua in meo alioꝵ</seg>
+          <lb facs="#z_f87v_l015" xml:id="medusa_f87v_l015"/>
+          <seg type="raw_unreviewed">ĩ iõ iͣmã uacua / qr nõ potuit p̃p̃n nꝰ hre̾ cũ aͤ celule exceptꝭ hiis q̃</seg>
+          <lb facs="#z_f87v_l016" xml:id="medusa_f87v_l016"/>
+          <seg type="raw_unreviewed">noĩant᷑ pg̃tm suũnt nũ ab ip̃a e diõ n. posseꝰ iᵃ celulã noĩare / ꝙ̃ dicio</seg>
+          <lb facs="#z_f87v_l017" xml:id="medusa_f87v_l017"/>
+          <seg type="raw_unreviewed">filii p̃r scẽs fr̃s patẽs filii ⁊ m̃s eͥrda͂ tñ uoͣnt eã rochaĩ aliꝰ ꝓtheu͂</seg>
+          <lb facs="#z_f87v_l018" xml:id="medusa_f87v_l018"/>
+          <seg type="raw_unreviewed">nos uo̾ moe bedelli uoceꝰ eũ petencium et scie̾ de̾s ꝙ competet᷑ iᶜ cel</seg>
+          <lb facs="#z_f87v_l019" xml:id="medusa_f87v_l019"/>
+          <seg type="raw_unreviewed">fule medie astem et destem dividuntur ite pime ut a latere dextro censualis</seg>
+          <lb facs="#z_f87v_l020" xml:id="medusa_f87v_l020"/>
+          <seg type="raw_unreviewed">eorum ponerentur nomina manuum ut amnis parvus etc. a latere uel sinistro nomine mulierum</seg>
+          <lb facs="#z_f87v_l021" xml:id="medusa_f87v_l021"/>
+          <seg type="raw_unreviewed">ut ab avia pania ⁊cetera Era poĩti a latere dextͦ de seint amauibꝰ ⁊ eqͦ poĩte</seg>
+          <lb facs="#z_f87v_l022" xml:id="medusa_f87v_l022"/>
+          <seg type="raw_unreviewed">a sinistˢ descẽnt a uilibus supra celulam uacuã ẽ ꝯtinͣs celula pr̃ nr̃</seg>
+          <lb facs="#z_f87v_l023" xml:id="medusa_f87v_l023"/>
+          <seg type="raw_unreviewed">et eum pũctũ suꝑiꝰ et iñf̾iũ nigꝭ Sup̃ nᵃ contie᷑ aruus ania ⁊ suꝑiꝰ ac</seg>
+          <lb facs="#z_f87v_l024" xml:id="medusa_f87v_l024"/>
+          <seg type="raw_unreviewed">ĩfiꝰ duo pũcta sup iᵃ pauꝰ pauia ⁊ tã pũcta sup iᵃ abauꝰ ab</seg>
+          <lb facs="#z_f87v_l025" xml:id="medusa_f87v_l025"/>
+          <seg type="raw_unreviewed">ania ⁊ qͣor pũicta ꝯtͣieũ / ⁊ escie ͤ ᷤᷤ at̃ sbtella uacua no ͤ petͣciꝰ bẽs fi</seg>
+          <lb facs="#z_f87v_l026" xml:id="medusa_f87v_l026"/>
+          <seg type="raw_unreviewed">⁊ filia ⁊ superioꝵ ac ĩfioꝵ uͫ pũictũ sbiᵃ uo̾ hẽs nepote ⁊ nepte ⁊ duo</seg>
+          <lb facs="#z_f87v_l027" xml:id="medusa_f87v_l027"/>
+          <seg type="raw_unreviewed">pũcta supͣ ⁊ ĩf̃ra s̃bia hẽs puerpotẽ ⁊ ꝓneptẽ cũ t̾b pũctꝭ s̃ ⁊ ĩf̃ia</seg>
+          <lb facs="#z_f87v_l028" xml:id="medusa_f87v_l028"/>
+          <seg type="raw_unreviewed">sqͥ unũ hẽs abnepote ⁊ abnepote cũ iiii pũctꝭ accꝙͣ aut adcollata</seg>
+          <lb facs="#z_f87v_l029" xml:id="medusa_f87v_l029"/>
+          <seg type="raw_unreviewed">les descendas / scie des quod punctoꝵ numeracio ẽ computacio graduũ habito reu ad</seg>
+          <lb facs="#z_f87v_l030" xml:id="medusa_f87v_l030"/>
+          <seg type="raw_unreviewed">cella uacuã ⁊ pũcta supra͂a denou̾it ꝯpunctuꝭ / sibi ius canᵗᵘ̃ / pũcta u̾o</seg>
+          <lb facs="#z_f87v_l031" xml:id="medusa_f87v_l031"/>
+          <seg type="raw_unreviewed">ĩsignẽ / p̃mis civile po᷑ at̃ ꝯputaᵒ caᵗᵃ ĩ sup̃iori ꝑte censualꝵ s̃ noᵃ pr̃s</seg>
+          <lb facs="#z_f87v_l032" xml:id="medusa_f87v_l032"/>
+          <seg type="raw_unreviewed">c̃milis nõ ĩ ĩf̾ior ut de᷑ ĩtegᵒˢ excellᵃ nr̃i canᶜⁱ ad ciuile ⁊ maxᵉ qd</seg>
+          <lb facs="#z_f87v_l033" xml:id="medusa_f87v_l033"/>
+          <seg type="raw_unreviewed">adhuc casu qͤ istuim᷑ ĩ ĩnr̃iis q̃ licite ꝯhi put̃ ũl ne et cũ ĩnr̃iꝰ sit</seg>
+          <lb facs="#z_f87v_l034" xml:id="medusa_f87v_l034"/>
+          <seg type="raw_unreviewed">faciñ ecc̃e in eo p̃cipue minor cauoẽ h̃ides gͥ ex pũcta ͦ ͤ q ip̃uncta ͦ</seg>
+          <lb facs="#z_f87v_l035" xml:id="medusa_f87v_l035"/>
+          <seg type="raw_unreviewed">cistẽm ⁊ d̾estẽm pr̃ꝵ ꝯcordũ utroꝵ ius qr ĩ eis sꝑ ꝑ a̾ addita pᶜ pͨcar</seg>
+          <lb facs="#z_f87v_l036" xml:id="medusa_f87v_l036"/>
+          <seg type="raw_unreviewed">ꝓpagꝰ g̃du adicit / adinẽiedos at̃ g̃du iceos /ẜ utroq nõs tene</seg>
+          <lb facs="#z_f87v_l037" xml:id="medusa_f87v_l037"/>
+          <seg type="raw_unreviewed">hãc migrałe ream Regla cistẽm ⁊ de stẽm qͦt st̃ ꝑ e de qͥb: qͣmꝰ ꝯputatꝭ</seg>
+          <lb facs="#z_f87v_l038" xml:id="medusa_f87v_l038"/>
+          <seg type="raw_unreviewed">ĩ t̾mediis una de p̃ta tot sunt gradus ĩteras si qͥ uis scĩe ꝙ distꝰ aba</seg>
+          <lb facs="#z_f87v_l039" xml:id="medusa_f87v_l039"/>
+          <seg type="raw_unreviewed">mus a pecio .i. cella uacua nccꝙ puccato ⁊ ĩtinediis .u. stꝭ pᶜ dumas</seg>
+          <lb facs="#z_f87v_l040" xml:id="medusa_f87v_l040"/>
+          <seg type="raw_unreviewed">pꝰ .i. peccũm ũl uacuã / qͣor st̃ gͣdꝰ qd̃ tene de ip̃o .i. pecc̾io ũl ce</seg>
+          <lb facs="#z_f87v_l041" xml:id="medusa_f87v_l041"/>
+          <seg type="raw_unreviewed">lla uacua ad abnepote illẽa descẽm / qꝓ eod̃ ip̃ies .u. ꝑas ut⁊ ap</seg>
+          <lb facs="#z_f87v_l042" xml:id="medusa_f87v_l042"/>
+          <seg type="raw_unreviewed">cellis tã pectꝰꝰ ꝙ ab nepoꝭ ꝯputatꝰ / de p̃ta u̾o una cella pectꝰ</seg>
+          <lb facs="#z_f87v_l043" xml:id="medusa_f87v_l043"/>
+          <seg type="raw_unreviewed">fuerunt qͣꝵ qͣdꝰ si uo uis scie ꝙ dist abanq ĩsupuna cellula</seg>
+          <lb facs="#z_f87v_l044" xml:id="medusa_f87v_l044"/>
+          <seg type="raw_unreviewed">s̃ pedͣtm̃ ab abnepote ĩ ultĩa sᵒ peccͧcio sibi ĩtͥmendiis cettulis ⁊</seg>
+          <lb facs="#z_f87v_l045" xml:id="medusa_f87v_l045"/>
+          <seg type="raw_unreviewed">ex pett̃n ꝯputatꝭ ĩ ueeˢˢ .ix. paᵗˢ de p̃to u̾o pett̃o e̾it xiiiiᵒ gͣdo / Sc̃i</seg>
+          <lb facs="#z_f87v_l046" xml:id="medusa_f87v_l046"/>
+          <seg type="raw_unreviewed">as ⁊ ꝙ peccuꝰ nõ h toͣm suã ꝯsecuc̃e ĩ artõe ex eo qr qͥl hõ aũido/ h</seg>
+          <lb facs="#z_f87v_l047" xml:id="medusa_f87v_l047"/>
+          <seg type="raw_unreviewed">duos putes / qͦʳ anos / iiii. panos / xui abanos / 2ᶜ sꝑ astees duplicat</seg>
+          <lb facs="#z_f87v_l048" xml:id="medusa_f87v_l048"/>
+          <seg type="raw_unreviewed">uñ ipole fuiss tot ꝑas ĩ arboeᷤᷤ stbe̾/ Curc̃ qᵒ an ñ astees ⁊ deses ꝓhito</seg>
+          <lb facs="#z_f87v_l049" xml:id="medusa_f87v_l049"/>
+          <seg type="raw_unreviewed">copłe excedat qͣrͫ gͣd̃ adhc dño gof. ĩsum̃a decus agͭ ͭ᷑ ⁊ assi ͭ ͤ q ͭ 5ᵒ</seg>
+          <lb facs="#z_f87v_l050" xml:id="medusa_f87v_l050"/>
+          <seg type="raw_unreviewed">q̃ nõ᷑ ꝑdet᷑ exo deꝯsaꝗ ⁊ affĩ nõ d q̃ gn̾a᷑ lo᷑ ahu ꝯuir ꝯdicetẽs ĩter</seg>
+          <lb facs="#z_f87v_l051" xml:id="medusa_f87v_l051"/>
+          <seg type="raw_unreviewed">ostẽtes ⁊ deses ꝑpetuã duc ẽẽ ꝓhiboꝵ uñ si a dã uiner̃ cũ nᵃ mulie̾ poss co</seg>
+          <lb facs="#z_f87v_l052" xml:id="medusa_f87v_l052"/>
+          <seg type="raw_unreviewed">plaiꝰ scdꝰ quod de qͣrto gradu dec̃al for in collat̃abilibꝰ d̃r locũ hre̾ ut xxxu. qͫ</seg>
+          <lb facs="#z_f87v_l053" xml:id="medusa_f87v_l053"/>
+          <seg type="raw_unreviewed">ꝓgẽieꝵ ⁊ duobꝰ c scꝰpbꝰ in qͥbꝰ dꝰ / quod olim non secundum ad un gradum sed ⁊ inquam erat noticia</seg>
+          <lb facs="#z_f87v_l054" xml:id="medusa_f87v_l054"/>
+          <seg type="raw_unreviewed">ꝑutele extendebã ꝓhĩto/ gͦ t̾rũ ẽ alt̾m ẽe utꝭ ascẽtẽ ⁊ alt̾m descẽtẽ ꝙ ꝑdu̾at</seg>
+          <lb facs="#z_f87v_l055" xml:id="medusa_f87v_l055"/>
+          <seg type="raw_unreviewed">an et</seg>
+          <lb facs="#z_f87v_l056" xml:id="medusa_f87v_l056"/>
+          <seg type="raw_unreviewed">in</seg>
+          <lb facs="#z_f87v_l057" xml:id="medusa_f87v_l057"/>
+          <seg type="raw_unreviewed">fallum gͣt</seg>
+          <lb facs="#z_f87v_l058" xml:id="medusa_f87v_l058"/>
+          <seg type="raw_unreviewed">du qͥs corõ</seg>
+          <lb facs="#z_f87v_l059" xml:id="medusa_f87v_l059"/>
+          <seg type="raw_unreviewed">ex</seg>
+          <lb facs="#z_f87v_l060" xml:id="medusa_f87v_l060"/>
+          <seg type="raw_unreviewed">illi sunt qu</seg>
+          <lb facs="#z_f87v_l061" xml:id="medusa_f87v_l061"/>
+          <seg type="raw_unreviewed">xeto</seg>
+          <lb facs="#z_f87v_l062" xml:id="medusa_f87v_l062"/>
+          <seg type="raw_unreviewed">sin</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="und">
+        <p facs="#z_f87v_l001 #z_f87v_l002 #z_f87v_l003 #z_f87v_l004 #z_f87v_l005 #z_f87v_l006 #z_f87v_l007 #z_f87v_l008" xml:id="u_87v_001">Dicturi de arbore consanguinitatis, primo quae sit consanguinitas et unde dicatur et quae sit linea, deinde quis sit gradus. Secundo quomodo arbor formetur et quare sic ponitur; et deinde per quot gradus cognoscantur, demum ponemus quaedam notanda et quasdam quaestiones. Ad primum dicendum quod consanguinitas est […] personarum ex eo proveniens quia una persona descendit ab altera vel ab eadem, vel est vinculum personarum ab eodem stipite descendentium carnali propagatione contractum. Quod idem est dicere […] sanguinis unitas, a con et sanguine, quia de eodem sanguine descendunt vel quia quem sanguinem habet […] et quoad prohibitionem […] non distinguimus utrum sit sanguis productus ex matrimonio coitu an ex fornicario.</p>
+        <note type="editorial" corresp="#u_87v_001" xml:lang="cs">Definice ve4a etymologie6–7mají nejasná slova; nevkládám jejich učebnicové znění.</note>
+        <p facs="#z_f87v_l009 #z_f87v_l010 #z_f87v_l011 #z_f87v_l012" xml:id="u_87v_002">Linea est collectio personarum ex eodem stipite descendentium diversos gradus et numeros distinguens. Et est linea graduum ascendentium, descendentium et collateralium, ut infra patebit. Gradus est habitudo distantium personarum quae ostendit quota generationis vel cognationis distantia duae personae inter se distent. Et dicitur gradus ad similitudinem graduum scalarum vel proclivium, quia ita graditur de proximo in proximum […].</p>
+        <note type="editorial" corresp="#u_87v_002" xml:lang="cs">Pracovní čtení latinského právního výkladu podle obrazů. Zkratky rozvinuty; nejistoty zachovány. Jde o historický text, nikoli současný právní výklad.</note>
+        <p facs="#z_f87v_l013 #z_f87v_l014 #z_f87v_l015 #z_f87v_l016 #z_f87v_l017 #z_f87v_l018" xml:id="u_87v_003">[…] arbor primo […] cellulas sive rotulos ascendentium, deinde descendentium, deinde collateralium […]. Considera cellulam sive rotulum […] in medio […] vacuam, quia non potuit proprium nomen habere cum aliae cellulae exceptis his quae […] progressionem suam ab ipso […]. Poss[e]mus illam cellulam nominare […] filium patris sive […] patrem filii […]. Quidam tamen vocant eam rocham, alii pro[cheum?], nos vero […] vocemus enim Petrucium.</p>
+        <note type="editorial" corresp="#u_87v_003" xml:lang="cs">13–18několik nejasných prostorových a pojmových výrazů. Jméno Petrucius je pracovní četba; bez převzetí jména z jiné edice.</note>
+        <p facs="#z_f87v_l019 #z_f87v_l020 #z_f87v_l021 #z_f87v_l022 #z_f87v_l023 #z_f87v_l024" xml:id="u_87v_004">Et sciendum est quod […] cellulae mediae ascendentium et descendentium dividuntur inter patrem et matrem; a latere dextro cellularum ponuntur nomina masculina ut avus, proavus et cetera, a latere sinistro nomina mulierum ut avia, proavia et cetera. Quae ponuntur a latere dextro […] et e contrario […]. Supra cellulam vacuam continetur cellula patris et matris et omnium punctus unus superius et inferius […] . Supra istam continetur avus et avia et duo puncta; supra istam proavus, proavia et tria puncta, et supra istam abavus et abavia et quattuor puncta […].</p>
+        <note type="editorial" corresp="#u_87v_004" xml:lang="cs">19–22obsahuje nejasnou instrukci pro boční větve. Výklad ponechává tuto část neúplnou; popis centrálního sloupce je čitelnější.</note>
+        <p facs="#z_f87v_l025 #z_f87v_l026 #z_f87v_l027 #z_f87v_l028 #z_f87v_l029 #z_f87v_l030 #z_f87v_l031 #z_f87v_l032" xml:id="u_87v_005">Descendendo autem sub cellula vacua nomine Petrucii habes filium et filiam et superius ac inferius unum punctum. Sub ista vero habes nepotem et neptem et duo puncta; sub ista habes pronepotem et proneptem cum tribus punctis; […] habes abnepotem et abneptem cum quattuor punctis. […] Ad collaterales descendendo sciendum quod punctorum numeratio est computatio graduum habito respectu ad cellulam vacuam. Puncta superiora denotant computationem secundum ius canonicum, puncta inferiora secundum ius civile. Ponuntur […] nomina masculina in superiori parte cellularum, feminina vero in inferiori […].</p>
+        <note type="editorial" corresp="#u_87v_005" xml:lang="cs">29má nejasný přechod k bočním liniím, ale rozdíl horních a dolních teček30–31je čitelný. Nevydává se za návod k dnešním právním vztahům.</note>
+        <p facs="#z_f87v_l033 #z_f87v_l034 #z_f87v_l035 #z_f87v_l036 #z_f87v_l037 #z_f87v_l038" xml:id="u_87v_006">[…] ad hunc casum qui est […] an matrimonia licite contrahi possunt vel non. Et cum matrimonium sit sacramentum ecclesiae, ideo praecipue numerorum […] . Vides ergo quod computatio […] ascendentium et descendentium […] concordat utroque iure, quia in eis semper persona addita per carnalem propagationem gradum adicit. Ad inveniendos autem gradus inter eos secundum utrumque ius […] regulam. Regula ascendentium et descendentium: Quot sunt personae de quibus quis computat cum intermediis una dempta, tot sunt gradus inter eas.</p>
+        <note type="editorial" corresp="#u_87v_006" xml:lang="cs">33–34jsou čteny jen zčásti, pravidlo35–38jasnější; nepřidává se nevyslovená algoritmická podmínka.</note>
+        <p facs="#z_f87v_l039 #z_f87v_l040 #z_f87v_l041 #z_f87v_l042 #z_f87v_l043 #z_f87v_l044 #z_f87v_l045" xml:id="u_87v_007">Si quis vult scire quid distet abavus a Petrucio, id est cellula vacua, […] cum intermediis V sunt personae; dempta una […] sunt quattuor gradus. Quod […] a cellula vacua ad abnepotem […] descende; eodem modo invenies V personas […] cellulis tam Petrucii quam abnepotis computatis; dempta vero una cellula Petrucii remanent quattuor gradus. Si vero vis scire quid distet abavus in suprema cellula a Petrucio et ab abnepote in ultima sub Petrucio, […] intermediis cellulis et […] Petrucio computatis invenies IX personas; dempto vero Petrucio erit [octavus?] gradus.</p>
+        <note type="editorial" corresp="#u_87v_007" xml:lang="cs">Poslední pojmenování stupně45není úplně bezpečné; osmý je navržené obrazové čtení, označené otazníkem, nikoli tiše dosazený výsledek moderní kalkulace.</note>
+        <p facs="#z_f87v_l046 #z_f87v_l047 #z_f87v_l048" xml:id="u_87v_008">Scias et quod Petrucius non habet cum sua consanguinitate […] ex eo quod quilibet homo in mundo habet duos parentes, quattuor avos, octo proavos, XVI abavos et cetera; semper ascendendo duplicatur. Unde impossibile fuisset tot personas in arbore scribere […].</p>
+        <note type="editorial" corresp="#u_87v_008" xml:lang="cs">Začátek46je nejasný. Jde o schématický model textu, ne ověřování skutečné genealogie.</note>
+        <p facs="#z_f87v_l049 #z_f87v_l050 #z_f87v_l051 #z_f87v_l052 #z_f87v_l053 #z_f87v_l054" xml:id="u_87v_009">Quaeritur ergo an in ascendentes et descendentes prohibitio copulae excedat quartum gradum. Ad hoc dominus Gof[fredus?] in Summa de consanguinitate et affinitate […] quod […] . Non […] qui dicunt inter ascendentes et descendentes perpetuam debere esse prohibitionem; unde si Adam viveret cum nulla posset copulari. Sed quod de quarto gradu decretalis loquitur in collateralibus debet locum habere, ut XXXV quaestione […] Progeniem et duobus capitulis sequentibus, a quibus dicitur quod olim non solum ad nonum gradum sed etiam […] notitia parentelae extendebatur prohibitio. […] certum est alterum esse ascendentem et alterum descendentem quod perdat […].</p>
+        <note type="editorial" corresp="#u_87v_009" xml:lang="cs">Právní atribuce i odkazy49–53jsou velmi zkrácené a neúplné. Překlad referuje o historickém textu; nejde o aktuální právní radu.54pokračuje na následující straně.</note>
+        <p facs="#z_f87v_l055 #z_f87v_l056 #z_f87v_l057 #z_f87v_l058 #z_f87v_l059 #z_f87v_l060 #z_f87v_l061 #z_f87v_l062" xml:id="u_87v_010">[…]</p>
+        <note type="editorial" corresp="#u_87v_010" xml:lang="cs">Skutečně otevřen i poslední pás57–62; není součástí hlavní věty54.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_87v_001">Při výkladu stromu pokrevního příbuzenství se nejprve vyloží, co je příbuzenství, odkud má jméno, co je linie a co stupeň. Potom jak se strom utváří a proč je takto uspořádán; nakonec budou poznámky a otázky. Příbuzenství je […] osob vyplývající z toho, že jedna osoba pochází od druhé nebo ze společného původu; je to pouto osob pocházejících z téhož předka tělesným plozením. Název […] vyjadřuje jednotu krve, protože pocházejí z téže krve […]. Z hlediska zákazu […] se nerozlišuje, zda původ vychází z manželského, nebo mimomanželského spojení.</p>
+        <p corresp="#u_87v_002">Linie je soubor osob pocházejících z téhož předka, rozlišující různé stupně a počty. Existuje linie vzestupná, sestupná a boční. Stupeň vyjadřuje vztah vzdálených osob a ukazuje, jak daleko jsou od sebe v plození či příbuzenství. Nazývá se tak podle stupňů schodiště nebo svahu, protože se postupuje od jednoho bližšího k dalšímu […].</p>
+        <p corresp="#u_87v_003">[…] strom má nejprve kruhy předků, potom potomků a bočních příbuzných […]. Uvažujme prázdný kruh uprostřed, který nemá vlastní jméno, protože ostatní kruhy […] svůj postup od něj […]. Můžeme jej pojmenovat […] syn otce nebo otec syna […]. Někteří jej nazývají „rocha“, jiní […] a my mu budeme říkat Petrucius.</p>
+        <p corresp="#u_87v_004">Střední kruhy předků a potomků se rozdělují […] mezi otce a matku; napravo se píší mužská jména jako děd a praděd, nalevo ženská jako bába a prabába. […] Nad prázdným kruhem je kruh otce a matky s jednou tečkou nahoře a dole. Nad ním je děd a bába se dvěma tečkami, pak praděd a prabába se třemi a prapraděd a praprabába se čtyřmi tečkami […].</p>
+        <p corresp="#u_87v_005">Pod prázdným kruhem nazvaným Petrucius je syn a dcera s jednou tečkou nahoře i dole. Níže jsou vnuk a vnučka se dvěma, pravnuk a pravnučka se třemi a prapravnuk a prapravnučka se čtyřmi tečkami. Při přechodu k bočním příbuzným počet teček znamená počet stupňů vzhledem k prázdnému kruhu. Horní tečky ukazují počítání podle kanonického práva, dolní podle civilního. […] Mužské názvy jsou nahoře v kruzích, ženské dole […].</p>
+        <p corresp="#u_87v_006">[…] jde zejména o otázku, zda lze právoplatně uzavřít manželství. Protože je manželství církevní svátostí, […] počítání […]. Počítání předků a potomků se podle obou práv shoduje: každá další osoba přidaná tělesným plozením přidává jeden stupeň. Pro zjišťování stupňů platí pravidlo: Kolik je osob, mezi nimiž se počítá, včetně mezilehlých a po odečtení jedné, tolik je mezi nimi stupňů.</p>
+        <p corresp="#u_87v_007">Chceš-li zjistit vzdálenost prapraděda od Petrucia, tedy prázdného kruhu, napočítáš spolu s mezilehlými pět osob; po odečtení jedné zbývají čtyři stupně. Stejně se počítá od prázdného kruhu k prapravnukovi: pět osob včetně Petrucia i prapravnuka, po odečtení jedné čtyři stupně. Od prapraděda v horním kruhu k prapravnukovi v dolním, včetně všech mezilehlých a Petrucia, je devět osob; po odečtení Petrucia [osmý?] stupeň.</p>
+        <p corresp="#u_87v_008">Věz též, že Petrucius […] se svým příbuzenstvem […]. Každý člověk na světě má dva rodiče, čtyři prarodiče, osm pradědů a prabáb, šestnáct prapradědů a praprabáb a tak dále; při postupu vzhůru se počet stále zdvojuje. Proto by nebylo možné zapsat do stromu všechny osoby […].</p>
+        <p corresp="#u_87v_009">Ptá se tedy, zda zákaz spojení v přímé vzestupné a sestupné linii přesahuje čtvrtý stupeň. K tomu pán Gof[fredus?] v Summě o příbuzenství a švagrovství […] říká […]. […] někteří tvrdí, že mezi předky a potomky má zákaz trvat neomezeně; kdyby tedy Adam žil, nemohl by se spojit s žádnou ženou. Ustanovení dekretálu o čtvrtém stupni se podle textu vztahuje na boční příbuzné. Právní odkazy […] připomínají, že kdysi zákaz sahal nejen k devátému stupni, ale i […] znalosti příbuzenstva. […] je jisté, že jeden je předkem a druhý potomkem […].</p>
+        <p corresp="#u_87v_010">[Úzké ořezy textu sousední strany na pravém okraji.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

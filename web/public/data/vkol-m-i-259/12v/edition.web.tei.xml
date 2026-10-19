@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 12v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_12v_coordinate; PNG SHA256 6b38b010daa54812dff14736ece13e19b04c2c9415682ead75d838e586c141fe; archival TIFF SHA256 b32c451ae9fe5d306022282eb2def6a7bf3db6ef548fc30b833be6fb5cefc2ae; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_12v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#12v"/>
+      <zone ulx="678" uly="485" lrx="3367" lry="647" xml:id="z_f12v_l001"/>
+      <zone ulx="681" uly="600" lrx="3442" lry="768" xml:id="z_f12v_l002"/>
+      <zone ulx="619" uly="718" lrx="3417" lry="889" xml:id="z_f12v_l003"/>
+      <zone ulx="684" uly="840" lrx="3358" lry="1001" xml:id="z_f12v_l004"/>
+      <zone ulx="681" uly="955" lrx="3377" lry="1129" xml:id="z_f12v_l005"/>
+      <zone ulx="678" uly="1079" lrx="3373" lry="1244" xml:id="z_f12v_l006"/>
+      <zone ulx="662" uly="1204" lrx="3305" lry="1365" xml:id="z_f12v_l007"/>
+      <zone ulx="653" uly="1328" lrx="3321" lry="1487" xml:id="z_f12v_l008"/>
+      <zone ulx="3411" uly="827" lrx="3650" lry="992" xml:id="z_f12v_l009"/>
+      <zone ulx="684" uly="1434" lrx="3423" lry="1608" xml:id="z_f12v_l010"/>
+      <zone ulx="681" uly="1577" lrx="3408" lry="1736" xml:id="z_f12v_l011"/>
+      <zone ulx="672" uly="1695" lrx="3430" lry="1869" xml:id="z_f12v_l012"/>
+      <zone ulx="672" uly="1813" lrx="3430" lry="2003" xml:id="z_f12v_l013"/>
+      <zone ulx="675" uly="1947" lrx="3405" lry="2128" xml:id="z_f12v_l014"/>
+      <zone ulx="669" uly="2087" lrx="3398" lry="2252" xml:id="z_f12v_l015"/>
+      <zone ulx="669" uly="2218" lrx="3408" lry="2386" xml:id="z_f12v_l016"/>
+      <zone ulx="678" uly="2342" lrx="3380" lry="2516" xml:id="z_f12v_l017"/>
+      <zone ulx="681" uly="2470" lrx="3411" lry="2625" xml:id="z_f12v_l018"/>
+      <zone ulx="638" uly="2579" lrx="3392" lry="2753" xml:id="z_f12v_l019"/>
+      <zone ulx="672" uly="2697" lrx="3345" lry="2874" xml:id="z_f12v_l020"/>
+      <zone ulx="669" uly="2824" lrx="3339" lry="3005" xml:id="z_f12v_l021"/>
+      <zone ulx="675" uly="2961" lrx="3330" lry="3123" xml:id="z_f12v_l022"/>
+      <zone ulx="662" uly="3083" lrx="3327" lry="3254" xml:id="z_f12v_l023"/>
+      <zone ulx="678" uly="3207" lrx="3314" lry="3378" xml:id="z_f12v_l024"/>
+      <zone ulx="694" uly="3338" lrx="3361" lry="3512" xml:id="z_f12v_l025"/>
+      <zone ulx="669" uly="3462" lrx="3330" lry="3646" xml:id="z_f12v_l026"/>
+      <zone ulx="678" uly="3584" lrx="3349" lry="3789" xml:id="z_f12v_l027"/>
+      <zone ulx="672" uly="3720" lrx="3445" lry="3904" xml:id="z_f12v_l028"/>
+      <zone ulx="675" uly="3857" lrx="3345" lry="4025" xml:id="z_f12v_l029"/>
+      <zone ulx="666" uly="3988" lrx="3389" lry="4181" xml:id="z_f12v_l030"/>
+      <zone ulx="669" uly="4122" lrx="3336" lry="4305" xml:id="z_f12v_l031"/>
+      <zone ulx="690" uly="4259" lrx="3389" lry="4452" xml:id="z_f12v_l032"/>
+      <zone ulx="672" uly="4392" lrx="3398" lry="4604" xml:id="z_f12v_l033"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f12v_l001" xml:id="catmus_f12v_l001"/>
+          <seg type="raw_unreviewed">tibi meb̃tũ quod ꝓb̃are nõ possis abice illud ãsuno</seg>
+          <lb facs="#z_f12v_l002" xml:id="catmus_f12v_l002"/>
+          <seg type="raw_unreviewed">aliud quod ꝓbare possis ꝓbare ⁊ ad ꝓbandum cõuemiẽt</seg>
+          <lb facs="#z_f12v_l003" xml:id="catmus_f12v_l003"/>
+          <seg type="raw_unreviewed">Item quot mõbra habiñt pͥmia clausula Uma nõbili</seg>
+          <lb facs="#z_f12v_l004" xml:id="catmus_f12v_l004"/>
+          <seg type="raw_unreviewed">tas Prima articulacõ pͥma ampliacõ tot eciã et se</seg>
+          <lb facs="#z_f12v_l005" xml:id="catmus_f12v_l005"/>
+          <seg type="raw_unreviewed">quẽtes si tñ hoc cõmode fiori pt Item quot rõnibus</seg>
+          <lb facs="#z_f12v_l006" xml:id="catmus_f12v_l006"/>
+          <seg type="raw_unreviewed">pbas pͥmũic̃brũ tos rõnibus eciã ꝓbent᷑ sequẽtia</seg>
+          <lb facs="#z_f12v_l007" xml:id="catmus_f12v_l007"/>
+          <seg type="raw_unreviewed">mẽbra cinsd ꝑtis ita dico si queniẽ̾t̾ fieri potest</seg>
+          <lb facs="#z_f12v_l008" xml:id="catmus_f12v_l008"/>
+          <seg type="raw_unreviewed">Itẽ omia mc̃b̃ra admuicẽ posita ꝓ uno hent int̾ se</seg>
+          <lb facs="#z_f12v_l009" xml:id="catmus_f12v_l009"/>
+          <seg type="raw_unreviewed">q̃ caur</seg>
+          <lb facs="#z_f12v_l010" xml:id="catmus_f12v_l010"/>
+          <seg type="raw_unreviewed">consonãciã si h̃ oñ sensus ꝑmictit Itẽ nullũ mẽbrũ</seg>
+          <lb facs="#z_f12v_l011" xml:id="catmus_f12v_l011"/>
+          <seg type="raw_unreviewed">ulm̾bus combus ꝓbes quã tribus nec repetas idem</seg>
+          <lb facs="#z_f12v_l012" xml:id="catmus_f12v_l012"/>
+          <seg type="raw_unreviewed">bis nel amplius p̃c̃ thema p̃t̾ nõbilitates p̃t̾ mẽbra</seg>
+          <lb facs="#z_f12v_l013" xml:id="catmus_f12v_l013"/>
+          <seg type="raw_unreviewed">ad que semꝑ recͣtas ut co miniꝰ erres Itẽ qñ alludis</seg>
+          <lb facs="#z_f12v_l014" xml:id="catmus_f12v_l014"/>
+          <seg type="raw_unreviewed">illos tres casus qui in pͥma sm̃a loco secũdo onꝯlib</seg>
+          <lb facs="#z_f12v_l015" xml:id="catmus_f12v_l015"/>
+          <seg type="raw_unreviewed">clausule poniis accipias a bip̃o themate nł anobili</seg>
+          <lb facs="#z_f12v_l016" xml:id="catmus_f12v_l016"/>
+          <seg type="raw_unreviewed">tate nel anẽbris ctħ ͭͨ ẜ ͫ cy tibi et ẜ̾moni tuo magf</seg>
+          <lb facs="#z_f12v_l017" xml:id="catmus_f12v_l017"/>
+          <seg type="raw_unreviewed">expedit tem omia mẽbra adĩuitẽ possũt cõbĩnari</seg>
+          <lb facs="#z_f12v_l018" xml:id="catmus_f12v_l018"/>
+          <seg type="raw_unreviewed">ita u ꝙmẽbra cͤatoris iit se mẽbra ccłi ins̾ se mẽbra</seg>
+          <lb facs="#z_f12v_l019" xml:id="catmus_f12v_l019"/>
+          <seg type="raw_unreviewed">nũdi niis se mẽbra dyabli nt̾ se mẽbra in f̾ui nstͥse</seg>
+          <lb facs="#z_f12v_l020" xml:id="catmus_f12v_l020"/>
+          <seg type="raw_unreviewed">Quedan tñ exhiis uñ cõb̾mãt᷑ sed pauca et tũc re</seg>
+          <lb facs="#z_f12v_l021" xml:id="catmus_f12v_l021"/>
+          <seg type="raw_unreviewed">deuut in euudẽ sensimi Itcusmẽbra in diffe̾nt pot̾i̾s</seg>
+          <lb facs="#z_f12v_l022" xml:id="catmus_f12v_l022"/>
+          <seg type="raw_unreviewed">refre odclansulas chematf uel ad nõbilitates ex</seg>
+          <lb facs="#z_f12v_l023" xml:id="catmus_f12v_l023"/>
+          <seg type="raw_unreviewed">tractas aclansulis thematꝭ c̃ h ͨ siat s ͫ ꝙ ma</seg>
+          <lb facs="#z_f12v_l024" xml:id="catmus_f12v_l024"/>
+          <seg type="raw_unreviewed">gis cõcordãt It̃e quidqͦ cogitae uł loqui dedeo</seg>
+          <lb facs="#z_f12v_l025" xml:id="catmus_f12v_l025"/>
+          <seg type="raw_unreviewed">deregno celoꝵ quidꝙ̃ demachina mũdi quidcy de</seg>
+          <lb facs="#z_f12v_l026" xml:id="catmus_f12v_l026"/>
+          <seg type="raw_unreviewed">dyablo Deregro dyabli pocest esse mebrũ sed tm̃</seg>
+          <lb facs="#z_f12v_l027" xml:id="catmus_f12v_l027"/>
+          <seg type="raw_unreviewed">insensu suo Itẽ si aliꝙ mẽ brũ positũ in lacino nõ po</seg>
+          <lb facs="#z_f12v_l028" xml:id="catmus_f12v_l028"/>
+          <seg type="raw_unreviewed">t̾is in mat̾no expme tũc illud̃ expͥmas ꝑsmłitudie</seg>
+          <lb facs="#z_f12v_l029" xml:id="catmus_f12v_l029"/>
+          <seg type="raw_unreviewed">nel pcͨtulocucõm Ecomuso si mẽbrũ inmad̾no posi</seg>
+          <lb facs="#z_f12v_l030" xml:id="catmus_f12v_l030"/>
+          <seg type="raw_unreviewed">cũ nõ nales expͥm̾e in lacino fac sumłt. Itom cũ pͥro</seg>
+          <lb facs="#z_f12v_l031" xml:id="catmus_f12v_l031"/>
+          <seg type="raw_unreviewed">bas tua mẽbra nõbilitates nclaliud quidꝙͣ non</seg>
+          <lb facs="#z_f12v_l032" xml:id="catmus_f12v_l032"/>
+          <seg type="raw_unreviewed">queras ambah̃es sc̃ddic brenit̾ de hoc dͭ Matheus</seg>
+          <lb facs="#z_f12v_l033" xml:id="catmus_f12v_l033"/>
+          <seg type="raw_unreviewed">h̾inc martꝰ adidem lucas ꝓcod Iohnes ⁊ sic de aliis</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f12v_l001" xml:id="medusa_f12v_l001"/>
+          <seg type="raw_unreviewed">tibi meum quod probare non possis abice illud assime</seg>
+          <lb facs="#z_f12v_l002" xml:id="medusa_f12v_l002"/>
+          <seg type="raw_unreviewed">aliud quod ꝓbare possis ꝓbare ⁊ ad probandum cõueniẽs</seg>
+          <lb facs="#z_f12v_l003" xml:id="medusa_f12v_l003"/>
+          <seg type="raw_unreviewed">Item quot membra habuit prima clausula Prima nobili</seg>
+          <lb facs="#z_f12v_l004" xml:id="medusa_f12v_l004"/>
+          <seg type="raw_unreviewed">tas Prima articulacio Prima ampliatio tot eciam et se</seg>
+          <lb facs="#z_f12v_l005" xml:id="medusa_f12v_l005"/>
+          <seg type="raw_unreviewed">quẽtes si tñ hoc cõmode fieri pt. Item quot comnibus</seg>
+          <lb facs="#z_f12v_l006" xml:id="medusa_f12v_l006"/>
+          <seg type="raw_unreviewed">probas pͥmũ m̃ebrũ tot r̃onibus eciam ꝓbent᷑ sequẽtia</seg>
+          <lb facs="#z_f12v_l007" xml:id="medusa_f12v_l007"/>
+          <seg type="raw_unreviewed">membra eiusdem partis ita dico si conuenienter fieri potest</seg>
+          <lb facs="#z_f12v_l008" xml:id="medusa_f12v_l008"/>
+          <seg type="raw_unreviewed">Item omnia membra ad invicem posita ꝓ uno hent inter se</seg>
+          <lb facs="#z_f12v_l009" xml:id="medusa_f12v_l009"/>
+          <seg type="raw_unreviewed">Héaut</seg>
+          <lb facs="#z_f12v_l010" xml:id="medusa_f12v_l010"/>
+          <seg type="raw_unreviewed">consonanciam si hᶜ ei sensus permittit. Item nullum me̾briũ</seg>
+          <lb facs="#z_f12v_l011" xml:id="medusa_f12v_l011"/>
+          <seg type="raw_unreviewed">pluribus tõnibus ꝑtes quam tribus nec repetas idem</seg>
+          <lb facs="#z_f12v_l012" xml:id="medusa_f12v_l012"/>
+          <seg type="raw_unreviewed">bis nel amplius pt̃ thema pt̃ nobilitates pt̃ mẽbra</seg>
+          <lb facs="#z_f12v_l013" xml:id="medusa_f12v_l013"/>
+          <seg type="raw_unreviewed">ad que semꝑ rectas ut eo minꝰ erres Item qñ alludis</seg>
+          <lb facs="#z_f12v_l014" xml:id="medusa_f12v_l014"/>
+          <seg type="raw_unreviewed">illos tres casus qui in pͥma sentẽ loco secũdo cuiꝰlib:</seg>
+          <lb facs="#z_f12v_l015" xml:id="medusa_f12v_l015"/>
+          <seg type="raw_unreviewed">clausule ponũt᷑ accipias ab ipso themate uł a nobłi</seg>
+          <lb facs="#z_f12v_l016" xml:id="medusa_f12v_l016"/>
+          <seg type="raw_unreviewed">tate nel amẽbris et hꝰ ẜᵐ ꝙ tibi et ẜmoni tuo mag</seg>
+          <lb facs="#z_f12v_l017" xml:id="medusa_f12v_l017"/>
+          <seg type="raw_unreviewed">expedit. Item omnia membra ad invicem possunt combinari</seg>
+          <lb facs="#z_f12v_l018" xml:id="medusa_f12v_l018"/>
+          <seg type="raw_unreviewed">ita v3 q: mẽbra c᷑atoris int̾ se mẽbra celi int̾ se mẽbra</seg>
+          <lb facs="#z_f12v_l019" xml:id="medusa_f12v_l019"/>
+          <seg type="raw_unreviewed">mũdi iii s se membra dyabli int se membra in fni int se</seg>
+          <lb facs="#z_f12v_l020" xml:id="medusa_f12v_l020"/>
+          <seg type="raw_unreviewed">Credan tñ ex hiis uñ cõbinat᷑ sed pauca et tũc re</seg>
+          <lb facs="#z_f12v_l021" xml:id="medusa_f12v_l021"/>
+          <seg type="raw_unreviewed">derunt in euidẽ sensum. Item membra in differentes pociꝰ</seg>
+          <lb facs="#z_f12v_l022" xml:id="medusa_f12v_l022"/>
+          <seg type="raw_unreviewed">refere ad clausulas thematum vel ad non bilitates ex</seg>
+          <lb facs="#z_f12v_l023" xml:id="medusa_f12v_l023"/>
+          <seg type="raw_unreviewed">tractas aclausulis thesauri si fiat sibi quod ma</seg>
+          <lb facs="#z_f12v_l024" xml:id="medusa_f12v_l024"/>
+          <seg type="raw_unreviewed">gis cõcordãt. Itẽ quidꝙͥ cogita̾e uł loqui de deo</seg>
+          <lb facs="#z_f12v_l025" xml:id="medusa_f12v_l025"/>
+          <seg type="raw_unreviewed">de regno celorum quidquid de machina mundi quidquid de</seg>
+          <lb facs="#z_f12v_l026" xml:id="medusa_f12v_l026"/>
+          <seg type="raw_unreviewed">dyablo regno dyabli potest esse menbrũ sed tñ</seg>
+          <lb facs="#z_f12v_l027" xml:id="medusa_f12v_l027"/>
+          <seg type="raw_unreviewed">in sensu suo Item si aliquod membrũ positũ in latino nõ po</seg>
+          <lb facs="#z_f12v_l028" xml:id="medusa_f12v_l028"/>
+          <seg type="raw_unreviewed">tis in materno exprime tunc illud exprimas ꝑ similitatem</seg>
+          <lb facs="#z_f12v_l029" xml:id="medusa_f12v_l029"/>
+          <seg type="raw_unreviewed">nel ꝑcũlocucõm Ecomerso si mẽbrũ in materno posi</seg>
+          <lb facs="#z_f12v_l030" xml:id="medusa_f12v_l030"/>
+          <seg type="raw_unreviewed">cũ non uales exprime in latino fac similita Item cũ pro</seg>
+          <lb facs="#z_f12v_l031" xml:id="medusa_f12v_l031"/>
+          <seg type="raw_unreviewed">bas tua mẽbra nõbilitates ne alind quidꝙͥ non</seg>
+          <lb facs="#z_f12v_l032" xml:id="medusa_f12v_l032"/>
+          <seg type="raw_unreviewed">queras ambages sed dic brevit̾ de hoc dᵗ Matheus</seg>
+          <lb facs="#z_f12v_l033" xml:id="medusa_f12v_l033"/>
+          <seg type="raw_unreviewed">hinc Marcꝰ adĩdem lucas Peodꝰ Johannes ⁊ sic de aliis</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f12v_l001 #z_f12v_l002 #z_f12v_l003 #z_f12v_l004 #z_f12v_l005 #z_f12v_l006 #z_f12v_l007" xml:id="u_12v_001">… tibi membrum quod probare non possis, abice illud et assume aliud quod probare possis et ad probandum conveniens. Item quot membra habent prima clausula, prima nobilitas, prima articulatio, prima ampliatio, tot etiam et sequentes, si tamen hoc commode fieri potest. Item quot rationibus probas primum membrum, tot rationibus etiam probentur sequentia membra eiusdem partis, ita dico si convenienter fieri potest.</p>
+        <note type="editorial" corresp="#u_12v_001" xml:lang="cs">První věta navazuje na12r. V segmentu2 je písařem přeškrtnuté nadbytečné probare; rekonstrukce je vypouští, modelový přepis zůstává zachován. Termíny nobilitas, articulatio a ampliatio jsou součásti kazatelské metody.</note>
+        <p facs="#z_f12v_l008 #z_f12v_l009 #z_f12v_l010 #z_f12v_l011 #z_f12v_l012 #z_f12v_l013 #z_f12v_l014 #z_f12v_l015 #z_f12v_l016" xml:id="u_12v_002">Item omnia membra ad invicem posita pro uno habeant inter se consonantiam, si hoc sensus permittit. [okrajová zkratka nejistá] Item nullum membrum pluribus rationibus probes quam tribus, nec repetas idem bis vel amplius, praeter thema, praeter nobilitates, praeter membra ad quae semper recurras ut eo minus erres. Item quando alludis, illos tres casus qui in prima summa loco secundo cuiuslibet clausulae ponuntur accipias ab ipso themate vel a nobilitate vel a membris, et hoc secundum quod tibi et sermoni tuo magis …</p>
+        <note type="editorial" corresp="#u_12v_002" xml:lang="cs">Consonantia může znamenat i zvukovou shodu; překlad souzní ponechává oba významy. Casus zde překládám opatrně jako případy, nikoli automaticky jako gramatické pády. Konkrétní tabulka se na této straně nenachází.</note>
+        <p facs="#z_f12v_l017 #z_f12v_l018 #z_f12v_l019 #z_f12v_l020 #z_f12v_l021 #z_f12v_l022 #z_f12v_l023" xml:id="u_12v_003">… expedit. Item omnia membra ad invicem possunt combinari, ita videlicet quod membra creatoris inter se, membra caeli inter se, membra mundi inter se, membra diaboli inter se, membra inferni inter se. Quaedam tamen ex hiis non combinantur, sed pauca, et tunc redeunt in eundem sensum. Item membra indifferenter poteris referre ad clausulas thematis vel ad nobilitates extractas a clausulis thematis, et hoc fiat secundum quod magis …</p>
+        <note type="editorial" corresp="#u_12v_003" xml:lang="cs">Pět skupin je v obraze čitelných. Formulace o nekombinovatelných členech je přeložena bez dodatečného logického narovnávání.</note>
+        <p facs="#z_f12v_l024 #z_f12v_l025 #z_f12v_l026 #z_f12v_l027 #z_f12v_l028 #z_f12v_l029 #z_f12v_l030" xml:id="u_12v_004">… concordant. Item quidquid cogitare vel loqui de Deo, de regno caelorum, quidquid de machina mundi, quidquid de diabolo, de regno diaboli, potest esse membrum, sed tamen in sensu suo. Item si aliquod membrum positum in latino non poteris in materno exprimere, tunc illud exprimas per similitudinem vel per circumlocutionem. E converso si membrum in materno positum non vales exprimere in latino, fac similiter. Item cum pro-…</p>
+        <note type="editorial" corresp="#u_12v_004" xml:lang="cs">Maternum označuje mateřský jazyk; tento úsek jej blíže nejmenuje. Přirovnání i opis jsou výslovně viditelná doporučení, nikoli naše dodatečná metoda překladu.</note>
+        <p facs="#z_f12v_l031 #z_f12v_l032 #z_f12v_l033" xml:id="u_12v_005">… bas tua membra, nobilitates vel aliud quidquam, non quaeras ambages, sed dic breviter: De hoc dicit Matthaeus; hinc Marcus; ad idem Lucas; pro eodem Iohannes; et sic de aliis.</p>
+        <note type="editorial" corresp="#u_12v_005" xml:lang="cs">Sloveso probas je rozděleno přes segmenty30–31. Jména evangelistů se zde uvádějí jako vzor stručného odkazování, bez konkrétních citací.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_12v_001">… člen, který nedokážeš doložit, odlož jej a vezmi jiný, který dokážeš doložit a který se k dokazování hodí. Kolik členů má první výrok, první význačný bod, první rozčlenění a první rozvedení, tolik ať mají i následující, lze-li to vhodně provést. Kolika důvody dokazuješ první člen, tolika ať se dokazují i následující členy téže části, pokud je to vhodné a možné.</p>
+        <p corresp="#u_12v_002">Všechny členy položené vedle sebe jako jeden celek ať mezi sebou souzní, dovoluje-li to smysl. [Nejistá okrajová zkratka.] Žádný člen nedokazuj více než třemi důvody a neopakuj totéž dvakrát nebo vícekrát; výjimkou je téma, význačné body a členy, k nimž se máš stále vracet, abys tím méně bloudil. Když užíváš narážky, ony tři případy, které jsou v první souhrnné tabulce uvedeny na druhém místě každého výroku, vezmi ze samotného tématu, z význačného bodu nebo ze členů podle toho, co bude tobě a tvému kázání více …</p>
+        <p corresp="#u_12v_003">… prospívat. Všechny členy lze navzájem kombinovat: členy týkající se Stvořitele mezi sebou, nebe mezi sebou, světa mezi sebou, ďábla mezi sebou a pekla mezi sebou. Některé se ovšem nekombinují; takových je málo a tehdy se sbíhají v tentýž smysl. Členy můžeš bez rozdílu vztahovat k výrokům tématu nebo k význačným bodům z nich vyvozeným, a to podle toho, jak se lépe …</p>
+        <p corresp="#u_12v_004">… shodují. Cokoli lze myslet nebo říci o Bohu, o nebeském království, o stavbě světa, o ďáblovi a jeho království, může být členem, vždy však ve svém vlastním smyslu. Nedokážeš-li člen vyjádřený latinsky vyjádřit v mateřském jazyce, vyjádři jej přirovnáním nebo opisem. Obráceně: nedokážeš-li člen v mateřském jazyce vyjádřit latinsky, postupuj stejně. A když doka-…</p>
+        <p corresp="#u_12v_005">… zuješ své členy, význačné body nebo cokoli jiného, nehledej okliky, ale řekni stručně: O tom mluví Matouš; k tomu Marek; k témuž Lukáš; pro totéž Jan; a podobně u ostatních.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

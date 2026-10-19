@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 144v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_144v_coordinate; PNG SHA256 269f2cc6bab8eda451f803cdc56e5eaba02933687b458c7a856962d10fd5ea55; archival TIFF SHA256 482faf00edb313d2a6d6dd064f7baae03b4fc762fc77dd424ba7d64612de132c; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_144v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#144v"/>
+      <zone ulx="361" uly="3658" lrx="578" lry="3808" xml:id="z_f144v_l001"/>
+      <zone ulx="656" uly="541" lrx="3576" lry="712" xml:id="z_f144v_l002"/>
+      <zone ulx="634" uly="675" lrx="3570" lry="836" xml:id="z_f144v_l003"/>
+      <zone ulx="638" uly="805" lrx="3479" lry="973" xml:id="z_f144v_l004"/>
+      <zone ulx="638" uly="945" lrx="3557" lry="1095" xml:id="z_f144v_l005"/>
+      <zone ulx="647" uly="1070" lrx="3498" lry="1247" xml:id="z_f144v_l006"/>
+      <zone ulx="650" uly="1200" lrx="3526" lry="1378" xml:id="z_f144v_l007"/>
+      <zone ulx="653" uly="1340" lrx="3504" lry="1508" xml:id="z_f144v_l008"/>
+      <zone ulx="638" uly="1474" lrx="3504" lry="1642" xml:id="z_f144v_l009"/>
+      <zone ulx="644" uly="1617" lrx="3573" lry="1795" xml:id="z_f144v_l010"/>
+      <zone ulx="638" uly="1757" lrx="3426" lry="1932" xml:id="z_f144v_l011"/>
+      <zone ulx="631" uly="1904" lrx="3535" lry="2065" xml:id="z_f144v_l012"/>
+      <zone ulx="585" uly="2028" lrx="3526" lry="2224" xml:id="z_f144v_l013"/>
+      <zone ulx="631" uly="2174" lrx="3458" lry="2339" xml:id="z_f144v_l014"/>
+      <zone ulx="650" uly="2308" lrx="3542" lry="2498" xml:id="z_f144v_l015"/>
+      <zone ulx="619" uly="2445" lrx="3492" lry="2641" xml:id="z_f144v_l016"/>
+      <zone ulx="631" uly="2566" lrx="3542" lry="2778" xml:id="z_f144v_l017"/>
+      <zone ulx="634" uly="2709" lrx="3576" lry="2927" xml:id="z_f144v_l018"/>
+      <zone ulx="647" uly="2852" lrx="3492" lry="3045" xml:id="z_f144v_l019"/>
+      <zone ulx="631" uly="2986" lrx="3479" lry="3210" xml:id="z_f144v_l020"/>
+      <zone ulx="631" uly="3136" lrx="3507" lry="3338" xml:id="z_f144v_l021"/>
+      <zone ulx="619" uly="3276" lrx="3479" lry="3484" xml:id="z_f144v_l022"/>
+      <zone ulx="622" uly="3419" lrx="3514" lry="3615" xml:id="z_f144v_l023"/>
+      <zone ulx="622" uly="3559" lrx="3542" lry="3764" xml:id="z_f144v_l024"/>
+      <zone ulx="638" uly="3702" lrx="3486" lry="3882" xml:id="z_f144v_l025"/>
+      <zone ulx="625" uly="3832" lrx="3486" lry="4022" xml:id="z_f144v_l026"/>
+      <zone ulx="634" uly="3979" lrx="3498" lry="4159" xml:id="z_f144v_l027"/>
+      <zone ulx="619" uly="4109" lrx="3492" lry="4312" xml:id="z_f144v_l028"/>
+      <zone ulx="634" uly="4274" lrx="3495" lry="4448" xml:id="z_f144v_l029"/>
+      <zone ulx="585" uly="4392" lrx="3535" lry="4570" xml:id="z_f144v_l030"/>
+      <zone ulx="600" uly="4529" lrx="3576" lry="4722" xml:id="z_f144v_l031"/>
+      <zone ulx="600" uly="4663" lrx="3492" lry="4918" xml:id="z_f144v_l032"/>
+      <zone ulx="3759" uly="2202" lrx="3828" lry="2286" xml:id="z_f144v_l033"/>
+      <zone ulx="3650" uly="2305" lrx="3878" lry="2436" xml:id="z_f144v_l034"/>
+      <zone ulx="3657" uly="2436" lrx="3862" lry="2569" xml:id="z_f144v_l035"/>
+      <zone ulx="3650" uly="2557" lrx="3878" lry="2703" xml:id="z_f144v_l036"/>
+      <zone ulx="3657" uly="2672" lrx="3875" lry="2815" xml:id="z_f144v_l037"/>
+      <zone ulx="3641" uly="2803" lrx="3878" lry="2955" xml:id="z_f144v_l038"/>
+      <zone ulx="3629" uly="2946" lrx="3847" lry="3080" xml:id="z_f144v_l039"/>
+      <zone ulx="3629" uly="3092" lrx="3887" lry="3282" xml:id="z_f144v_l040"/>
+      <zone ulx="3619" uly="3226" lrx="3887" lry="3366" xml:id="z_f144v_l041"/>
+      <zone ulx="3619" uly="3372" lrx="3890" lry="3524" xml:id="z_f144v_l042"/>
+      <zone ulx="3619" uly="3503" lrx="3887" lry="3671" xml:id="z_f144v_l043"/>
+      <zone ulx="3619" uly="3655" lrx="3881" lry="3808" xml:id="z_f144v_l044"/>
+      <zone ulx="3616" uly="3795" lrx="3878" lry="3944" xml:id="z_f144v_l045"/>
+      <zone ulx="3613" uly="3929" lrx="3887" lry="4088" xml:id="z_f144v_l046"/>
+      <zone ulx="3629" uly="4060" lrx="3666" lry="4228" xml:id="z_f144v_l047"/>
+      <zone ulx="3619" uly="4256" lrx="3871" lry="4374" xml:id="z_f144v_l048"/>
+      <zone ulx="3638" uly="4352" lrx="3847" lry="4520" xml:id="z_f144v_l049"/>
+      <zone ulx="3632" uly="4495" lrx="3865" lry="4685" xml:id="z_f144v_l050"/>
+      <zone ulx="3825" uly="924" lrx="3865" lry="1194" xml:id="z_f144v_l051"/>
+      <zone ulx="3725" uly="780" lrx="3769" lry="1054" xml:id="z_f144v_l052"/>
+      <zone ulx="3675" uly="1288" lrx="3856" lry="1468" xml:id="z_f144v_l053"/>
+      <zone ulx="3675" uly="1471" lrx="3878" lry="1611" xml:id="z_f144v_l054"/>
+      <zone ulx="3688" uly="1754" lrx="3781" lry="1866" xml:id="z_f144v_l055"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f144v_l001" xml:id="catmus_f144v_l001"/>
+          <seg type="raw_unreviewed">okrich</seg>
+          <lb facs="#z_f144v_l002" xml:id="catmus_f144v_l002"/>
+          <seg type="raw_unreviewed">rich̃t do sp̃ch pilatus zuym bedescũ nicht nũt mĩr Waistu</seg>
+          <lb facs="#z_f144v_l003" xml:id="catmus_f144v_l003"/>
+          <seg type="raw_unreviewed">nicht das ichi grralt han dich̃ Iukrengũ und han qwalt</seg>
+          <lb facs="#z_f144v_l004" xml:id="catmus_f144v_l004"/>
+          <seg type="raw_unreviewed">dich Iulassũ do antirt Ihũs du hegt kam gewalt sil</seg>
+          <lb facs="#z_f144v_l005" xml:id="catmus_f144v_l005"/>
+          <seg type="raw_unreviewed">mich nũs dir ier dorubꝰ gegꝭ douõ d̾ nich̃ dir urãtu</seg>
+          <lb facs="#z_f144v_l006" xml:id="catmus_f144v_l006"/>
+          <seg type="raw_unreviewed">hat gͦsser sundi bon d̃ red such̃t ꝑ ilatus yn gulassen</seg>
+          <lb facs="#z_f144v_l007" xml:id="catmus_f144v_l007"/>
+          <seg type="raw_unreviewed">al die Iuden schurẽ sprechund lestu yn : iopistũ nicht</seg>
+          <lb facs="#z_f144v_l008" xml:id="catmus_f144v_l008"/>
+          <seg type="raw_unreviewed">ei freuut des Reyzers Wam̃ em iglech̃ d̃ sich Euuig</seg>
+          <lb facs="#z_f144v_l009" xml:id="catmus_f144v_l009"/>
+          <seg type="raw_unreviewed">mach̃t d̾ irid̾ sagt de Cayser uñ do pilatus dy red hõrt</seg>
+          <lb facs="#z_f144v_l010" xml:id="catmus_f144v_l010"/>
+          <seg type="raw_unreviewed">do fuit ex uibĩ her fu̾r und saz Iugercht aud̾ scat die ga</seg>
+          <lb facs="#z_f144v_l011" xml:id="catmus_f144v_l011"/>
+          <seg type="raw_unreviewed">nat᷑ ist licostratus hebraissch̃ũ galgata Is was auch̃</seg>
+          <lb facs="#z_f144v_l012" xml:id="catmus_f144v_l012"/>
+          <seg type="raw_unreviewed">freitag als uiub septgeit de sp̃ch̃ pilatus iude Iuden-</seg>
+          <lb facs="#z_f144v_l013" xml:id="catmus_f144v_l013"/>
+          <seg type="raw_unreviewed">nempt war eir biiug do schrire sy heb auff hebausf und</seg>
+          <lb facs="#z_f144v_l014" xml:id="catmus_f144v_l014"/>
+          <seg type="raw_unreviewed">treug in. do sp̾ch qu cynspilatus enoũ kuinq krewtig</seg>
+          <lb facs="#z_f144v_l015" xml:id="catmus_f144v_l015"/>
+          <seg type="raw_unreviewed">ich do antirortũ dy pissehoff uore habũ nicht ey Ruiug</seg>
+          <lb facs="#z_f144v_l016" xml:id="catmus_f144v_l016"/>
+          <seg type="raw_unreviewed">nur emi lais do gag er cyn Ihi das ex gekrengs</seg>
+          <lb facs="#z_f144v_l017" xml:id="catmus_f144v_l017"/>
+          <seg type="raw_unreviewed">wurd. do euphiengũ sy in und furtũ yn aus und̃ ecsebb</seg>
+          <lb facs="#z_f144v_l018" xml:id="catmus_f144v_l018"/>
+          <seg type="raw_unreviewed">tragnud sem krem gie an die stat die genãt was chal-</seg>
+          <lb facs="#z_f144v_l019" xml:id="catmus_f144v_l019"/>
+          <seg type="raw_unreviewed">stat ebiaisschen golgata do lreugtũ sy In uudumtim</seg>
+          <lb facs="#z_f144v_l020" xml:id="catmus_f144v_l020"/>
+          <seg type="raw_unreviewed">hir̃e aud̃, euhalben und dishalbũ und̃ ih̃im enuutten</seg>
+          <lb facs="#z_f144v_l021" xml:id="catmus_f144v_l021"/>
+          <seg type="raw_unreviewed">Es schiaib auc̃ pilatus die oberschiisst und sacit fo u̾ber</seg>
+          <lb facs="#z_f144v_l022" xml:id="catmus_f144v_l022"/>
+          <seg type="raw_unreviewed">das RieucAs Was ab̾ geschiben Iħãs nazarenus d̾ radũ</seg>
+          <lb facs="#z_f144v_l023" xml:id="catmus_f144v_l023"/>
+          <seg type="raw_unreviewed">Riung die ub schirfse lasen uil d̾ indũ uoamĩ is nahũt</seg>
+          <lb facs="#z_f144v_l024" xml:id="catmus_f144v_l024"/>
+          <seg type="raw_unreviewed">was pey d̃ tat do getreucit was Ihũs uud is was ge</seg>
+          <lb facs="#z_f144v_l025" xml:id="catmus_f144v_l025"/>
+          <seg type="raw_unreviewed">schben hebraissegũ uũ latem dorũb sp̃chen did Iudeñ</seg>
+          <lb facs="#z_f144v_l026" xml:id="catmus_f144v_l026"/>
+          <seg type="raw_unreviewed">zu pilato uich̃t schraib d̾ Iudd̃ĩ ẜuig denii er hat ge-</seg>
+          <lb facs="#z_f144v_l027" xml:id="catmus_f144v_l027"/>
+          <seg type="raw_unreviewed">sprochũ. d Iudñ king ich p̃m do antibe pilatus das</seg>
+          <lb facs="#z_f144v_l028" xml:id="catmus_f144v_l028"/>
+          <seg type="raw_unreviewed">ich geschbũ har das hab ich̃ geschbt̃ die Rilt abͦ dosy</seg>
+          <lb facs="#z_f144v_l029" xml:id="catmus_f144v_l029"/>
+          <seg type="raw_unreviewed">ini Gectiĩ geliencit do nauiẽ sy sem grrãt und machtid</seg>
+          <lb facs="#z_f144v_l030" xml:id="catmus_f144v_l030"/>
+          <seg type="raw_unreviewed">uiertaile uud den Rol der was ungenet und was uor</seg>
+          <lb facs="#z_f144v_l031" xml:id="catmus_f144v_l031"/>
+          <seg type="raw_unreviewed">uoꝰ aller gerrebe do sprochũ sy zuemĩad uoir sullũ on nichi</seg>
+          <lb facs="#z_f144v_l032" xml:id="catmus_f144v_l032"/>
+          <seg type="raw_unreviewed">reissid ꝯdoch sel i dorub lafren Wem er belrib edlii die</seg>
+          <lb facs="#z_f144v_l033" xml:id="catmus_f144v_l033"/>
+          <seg type="raw_unreviewed">ha</seg>
+          <lb facs="#z_f144v_l034" xml:id="catmus_f144v_l034"/>
+          <seg type="raw_unreviewed">Ibeuh at</seg>
+          <lb facs="#z_f144v_l035" xml:id="catmus_f144v_l035"/>
+          <seg type="raw_unreviewed">hen dep</seg>
+          <lb facs="#z_f144v_l036" xml:id="catmus_f144v_l036"/>
+          <seg type="raw_unreviewed">tag. Mat</seg>
+          <lb facs="#z_f144v_l037" xml:id="catmus_f144v_l037"/>
+          <seg type="raw_unreviewed">Biudẽ a</seg>
+          <lb facs="#z_f144v_l038" xml:id="catmus_f144v_l038"/>
+          <seg type="raw_unreviewed">Aud deb</seg>
+          <lb facs="#z_f144v_l039" xml:id="catmus_f144v_l039"/>
+          <seg type="raw_unreviewed">Rinẽ s</seg>
+          <lb facs="#z_f144v_l040" xml:id="catmus_f144v_l040"/>
+          <seg type="raw_unreviewed">ynther</seg>
+          <lb facs="#z_f144v_l041" xml:id="catmus_f144v_l041"/>
+          <seg type="raw_unreviewed">let mit</seg>
+          <lb facs="#z_f144v_l042" xml:id="catmus_f144v_l042"/>
+          <seg type="raw_unreviewed">plut uue</seg>
+          <lb facs="#z_f144v_l043" xml:id="catmus_f144v_l043"/>
+          <seg type="raw_unreviewed">bid war</seg>
+          <lb facs="#z_f144v_l044" xml:id="catmus_f144v_l044"/>
+          <seg type="raw_unreviewed">hoib da</seg>
+          <lb facs="#z_f144v_l045" xml:id="catmus_f144v_l045"/>
+          <seg type="raw_unreviewed">Binde </seg>
+          <lb facs="#z_f144v_l046" xml:id="catmus_f144v_l046"/>
+          <seg type="raw_unreviewed">bud auct</seg>
+          <lb facs="#z_f144v_l047" xml:id="catmus_f144v_l047"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f144v_l048" xml:id="catmus_f144v_l048"/>
+          <seg type="raw_unreviewed">mathia</seg>
+          <lb facs="#z_f144v_l049" xml:id="catmus_f144v_l049"/>
+          <seg type="raw_unreviewed">uoii</seg>
+          <lb facs="#z_f144v_l050" xml:id="catmus_f144v_l050"/>
+          <seg type="raw_unreviewed">en eich</seg>
+          <lb facs="#z_f144v_l051" xml:id="catmus_f144v_l051"/>
+          <seg type="raw_unreviewed">3</seg>
+          <lb facs="#z_f144v_l052" xml:id="catmus_f144v_l052"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f144v_l053" xml:id="catmus_f144v_l053"/>
+          <seg type="raw_unreviewed">Sud ue</seg>
+          <lb facs="#z_f144v_l054" xml:id="catmus_f144v_l054"/>
+          <seg type="raw_unreviewed">NAb de</seg>
+          <lb facs="#z_f144v_l055" xml:id="catmus_f144v_l055"/>
+          <seg type="raw_unreviewed">ult e</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f144v_l001" xml:id="medusa_f144v_l001"/>
+          <seg type="raw_unreviewed">o krich</seg>
+          <lb facs="#z_f144v_l002" xml:id="medusa_f144v_l002"/>
+          <seg type="raw_unreviewed">nicht do ſp͛ch pilatus zu xiii Bedeſtu nicht mit mir Wiſtu</seg>
+          <lb facs="#z_f144v_l003" xml:id="medusa_f144v_l003"/>
+          <seg type="raw_unreviewed">nicht das ich gwalt hay dich zu kreuczū · vnd hay gwalt</seg>
+          <lb facs="#z_f144v_l004" xml:id="medusa_f144v_l004"/>
+          <seg type="raw_unreviewed">dich zulaissn̄ · Do antẃr̄t Ihuͤs Du hegst kain gewalt uͤb͛</seg>
+          <lb facs="#z_f144v_l005" xml:id="medusa_f144v_l005"/>
+          <seg type="raw_unreviewed">mich mir dir wer deruͤb gegf · donõ d̄ mich dir uraͤtū</seg>
+          <lb facs="#z_f144v_l006" xml:id="medusa_f144v_l006"/>
+          <seg type="raw_unreviewed">hat gesser sünd. von d͛ red sucht pilatus yn zulassen</seg>
+          <lb facs="#z_f144v_l007" xml:id="medusa_f144v_l007"/>
+          <seg type="raw_unreviewed">ab͛ die iuden schrinē sprechnud / lestu ym / so pistu nicht</seg>
+          <lb facs="#z_f144v_l008" xml:id="medusa_f144v_l008"/>
+          <seg type="raw_unreviewed">ein freunt des keyzers. Wa m̄ ein igleich d͛ sich küng</seg>
+          <lb facs="#z_f144v_l009" xml:id="medusa_f144v_l009"/>
+          <seg type="raw_unreviewed">macht d̶ wid̶ sagt dē Cayser Vn̄ do pilatus dy red hoͤrt</seg>
+          <lb facs="#z_f144v_l010" xml:id="medusa_f144v_l010"/>
+          <seg type="raw_unreviewed">do fuͤrt er Ihuͦm her fuͤr vnd saʒ zugericht and͛ stat die ge-</seg>
+          <lb facs="#z_f144v_l011" xml:id="medusa_f144v_l011"/>
+          <seg type="raw_unreviewed">naͧt ist licostratus hebraisschaͮ galgata Js was auch</seg>
+          <lb facs="#z_f144v_l012" xml:id="medusa_f144v_l012"/>
+          <seg type="raw_unreviewed">freitag als umb septczeit. de sp̄ch pilatus zu dē juden</seg>
+          <lb facs="#z_f144v_l013" xml:id="medusa_f144v_l013"/>
+          <seg type="raw_unreviewed">nempt war ew͠ künig do schirre sy heb auff heb auff und</seg>
+          <lb facs="#z_f144v_l014" xml:id="medusa_f144v_l014"/>
+          <seg type="raw_unreviewed">kreucz jn · do sp͛ch zuͦ yn pilatus / ew͠d künig krewczig</seg>
+          <lb facs="#z_f144v_l015" xml:id="medusa_f144v_l015"/>
+          <seg type="raw_unreviewed">ich. do antwortē dy pisschoff. wir habn̄ nicht eẏ künig</seg>
+          <lb facs="#z_f144v_l016" xml:id="medusa_f144v_l016"/>
+          <seg type="raw_unreviewed">mir ein kaiẜ do gag er yn Jhruͤ das er gekreugt</seg>
+          <lb facs="#z_f144v_l017" xml:id="medusa_f144v_l017"/>
+          <seg type="raw_unreviewed">wurd · do enphriegū sy jn und furdn̄ yn aus · und erselb</seg>
+          <lb facs="#z_f144v_l018" xml:id="medusa_f144v_l018"/>
+          <seg type="raw_unreviewed">tragind sein krencz gie an die stat die genāt was chal-</seg>
+          <lb facs="#z_f144v_l019" xml:id="medusa_f144v_l019"/>
+          <seg type="raw_unreviewed">stat ebrausschen golgata do kreuztū sy jn bud mit jm</seg>
+          <lb facs="#z_f144v_l020" xml:id="medusa_f144v_l020"/>
+          <seg type="raw_unreviewed">zwe͛ and͛ enthalten und diszhalbē und ahin enmitten</seg>
+          <lb facs="#z_f144v_l021" xml:id="medusa_f144v_l021"/>
+          <seg type="raw_unreviewed">Es schrib auch pilatus die oberschrifft und saczt sy uͤber</seg>
+          <lb facs="#z_f144v_l022" xml:id="medusa_f144v_l022"/>
+          <seg type="raw_unreviewed">das krencz. Is was ab͛ geschriben Ihũs nazarems d̶. iudũ</seg>
+          <lb facs="#z_f144v_l023" xml:id="medusa_f144v_l023"/>
+          <seg type="raw_unreviewed">kùng · die uͤberschrifft lesen vil d͛ indū · wann̄ is nahūt</seg>
+          <lb facs="#z_f144v_l024" xml:id="medusa_f144v_l024"/>
+          <seg type="raw_unreviewed">was pey d̄ Stat do gecruczit was ih̕us / und is was ge-</seg>
+          <lb facs="#z_f144v_l025" xml:id="medusa_f144v_l025"/>
+          <seg type="raw_unreviewed">schriben hebraisschū b̶n̶ lat̶e̶i̶n̶ . dorumb sp͛chen di d̶ juden</seg>
+          <lb facs="#z_f144v_l026" xml:id="medusa_f144v_l026"/>
+          <seg type="raw_unreviewed">zu pilato nicht schraib d͛ juda künig · denn̄ er hat ge-</seg>
+          <lb facs="#z_f144v_l027" xml:id="medusa_f144v_l027"/>
+          <seg type="raw_unreviewed">sprochn̄ . d̄ judn̄ künig ich pin . Do antẃrt pilatus das</seg>
+          <lb facs="#z_f144v_l028" xml:id="medusa_f144v_l028"/>
+          <seg type="raw_unreviewed">ich geschriben han · das hab ich geschriben / die Eilt ab͛ do sy</seg>
+          <lb facs="#z_f144v_l029" xml:id="medusa_f144v_l029"/>
+          <seg type="raw_unreviewed">sy hettn̄ gekreuczt · do namē sy sein gwät · und machtd</seg>
+          <lb facs="#z_f144v_l030" xml:id="medusa_f144v_l030"/>
+          <seg type="raw_unreviewed">viertail · und den Rok der was ungenet · und was dor</seg>
+          <lb facs="#z_f144v_l031" xml:id="medusa_f144v_l031"/>
+          <seg type="raw_unreviewed">ùber aller gewebt / do sprochin sy zuenad͛ wir sullu yn nicht</seg>
+          <lb facs="#z_f144v_l032" xml:id="medusa_f144v_l032"/>
+          <seg type="raw_unreviewed">reissu doch sol w̶ doͮruͤb laͤznen / wem er beleib · d̶l̶i̶d̶ die</seg>
+          <lb facs="#z_f144v_l033" xml:id="medusa_f144v_l033"/>
+          <seg type="raw_unreviewed">ha</seg>
+          <lb facs="#z_f144v_l034" xml:id="medusa_f144v_l034"/>
+          <seg type="raw_unreviewed">oben z w</seg>
+          <lb facs="#z_f144v_l035" xml:id="medusa_f144v_l035"/>
+          <seg type="raw_unreviewed">ben des</seg>
+          <lb facs="#z_f144v_l036" xml:id="medusa_f144v_l036"/>
+          <seg type="raw_unreviewed">tag pat</seg>
+          <lb facs="#z_f144v_l037" xml:id="medusa_f144v_l037"/>
+          <seg type="raw_unreviewed">windẽ a</seg>
+          <lb facs="#z_f144v_l038" xml:id="medusa_f144v_l038"/>
+          <seg type="raw_unreviewed">bud des</seg>
+          <lb facs="#z_f144v_l039" xml:id="medusa_f144v_l039"/>
+          <seg type="raw_unreviewed">komen sy</seg>
+          <lb facs="#z_f144v_l040" xml:id="medusa_f144v_l040"/>
+          <seg type="raw_unreviewed">prochei</seg>
+          <lb facs="#z_f144v_l041" xml:id="medusa_f144v_l041"/>
+          <seg type="raw_unreviewed">tet mit</seg>
+          <lb facs="#z_f144v_l042" xml:id="medusa_f144v_l042"/>
+          <seg type="raw_unreviewed">plu᷑t bna</seg>
+          <lb facs="#z_f144v_l043" xml:id="medusa_f144v_l043"/>
+          <seg type="raw_unreviewed">und war</seg>
+          <lb facs="#z_f144v_l044" xml:id="medusa_f144v_l044"/>
+          <seg type="raw_unreviewed">dorumb da</seg>
+          <lb facs="#z_f144v_l045" xml:id="medusa_f144v_l045"/>
+          <seg type="raw_unreviewed">wùrde d</seg>
+          <lb facs="#z_f144v_l046" xml:id="medusa_f144v_l046"/>
+          <seg type="raw_unreviewed">bud auct</seg>
+          <lb facs="#z_f144v_l047" xml:id="medusa_f144v_l047"/>
+          <seg type="raw_unreviewed">ab</seg>
+          <lb facs="#z_f144v_l048" xml:id="medusa_f144v_l048"/>
+          <seg type="raw_unreviewed">machiã</seg>
+          <lb facs="#z_f144v_l049" xml:id="medusa_f144v_l049"/>
+          <seg type="raw_unreviewed">huͤ von</seg>
+          <lb facs="#z_f144v_l050" xml:id="medusa_f144v_l050"/>
+          <seg type="raw_unreviewed">den leichs</seg>
+          <lb facs="#z_f144v_l051" xml:id="medusa_f144v_l051"/>
+          <seg type="raw_unreviewed">1518</seg>
+          <lb facs="#z_f144v_l052" xml:id="medusa_f144v_l052"/>
+          <seg type="raw_unreviewed">hù</seg>
+          <lb facs="#z_f144v_l053" xml:id="medusa_f144v_l053"/>
+          <seg type="raw_unreviewed">und vō</seg>
+          <lb facs="#z_f144v_l054" xml:id="medusa_f144v_l054"/>
+          <seg type="raw_unreviewed">ihuͤs / da</seg>
+          <lb facs="#z_f144v_l055" xml:id="medusa_f144v_l055"/>
+          <seg type="raw_unreviewed">int e</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f144v_l001" xml:id="u_144v_001">[Levý krátký přípisek: …kreich?]</p>
+        <note type="editorial" corresp="#u_144v_001" xml:lang="cs">Přípisek nelze spolehlivě rozvinout.</note>
+        <p facs="#z_f144v_l002 #z_f144v_l003 #z_f144v_l004 #z_f144v_l005 #z_f144v_l006 #z_f144v_l007 #z_f144v_l008 #z_f144v_l009" xml:id="u_144v_002">nicht. Do sprach Pilatus zu im: Redestu nicht mit mir? Waist du nicht das ich gewalt han dich zu kreuzigen und han gewalt dich zu lassen? Do antwort Ihesus: Du hettest kein gewalt uff mich, dir wer denn von oben gegeben. Also der mich dir verraten hat, grosser sund. Von der red sucht Pilatus in zu lassen. Aber die Iuden schrien sprechend: Lestu in, so pistu nicht ein freunt des keisers. Wann ein iglicher der sich kunig macht, der widersagt dem keiser.</p>
+        <note type="editorial" corresp="#u_144v_002" xml:lang="cs">Věta o větším hříchu ve zkráceném rukopisném znění; hranice textu navazuje144r. Konec9 začíná další větu.</note>
+        <p facs="#z_f144v_l010 #z_f144v_l011 #z_f144v_l012 #z_f144v_l013 #z_f144v_l014 #z_f144v_l015 #z_f144v_l016 #z_f144v_l017 #z_f144v_l018 #z_f144v_l019 #z_f144v_l020" xml:id="u_144v_003">Do Pilatus die rede hort, do furt er Ihesum herfur und saz zu gericht an der stat die genant ist Licostratus, hebreisch Golgatha. Es was auch freitag als umb sexte zeit. Do sprach Pilatus zu den Iuden: Nemet war ewr kunig. Do schrien sy: Heb in auff und kreuz in. Do sprach zu in Pilatus: Ewren kunig kreuzig ich? Do antworten die pischoff: Wir haben nicht ein kunig, nur ein keiser. Do gab er in Ihesum das er gekreuzigt wurde. Do empfiengen sy in und furten in aus, und er selbs tragend sein kreuz gie an die stat die genant was schedelstat, ebreischen Golgata. Do kreuzigten sy in und mit im zwen ander, eins halben und des halben und Ihesum enmitten.</p>
+        <note type="editorial" corresp="#u_144v_003" xml:lang="cs">První místní jméno Licostratus/Golgatha je vlastní pracovní četba, neopraveno podle biblické Gabata. Šestá hodina v obrazu; žádná moderní chronologie doplňována. Odstavec začíná na konci9.</note>
+        <p facs="#z_f144v_l021 #z_f144v_l022 #z_f144v_l023 #z_f144v_l024 #z_f144v_l025 #z_f144v_l026 #z_f144v_l027 #z_f144v_l028" xml:id="u_144v_004">Es schraib auch Pilatus die uberschrift und satzt sy uber das kreuz. Es was also geschrieben: Ihesus Nazarenus, der Iuden kunig. Die uberschrift lasen vil der Iuden, wann es nahen was pey der stat do gekreuzigt was Ihesus, und es was geschrieben hebreischen und latein. Darumb sprachen die Iuden zu Pilato: Nicht schraib der Iuden kunig, denn er hat gesprochen: Der Iuden kunig ich pin. Do antwort Pilatus: Das ich geschrieben han, das hab ich geschrieben.</p>
+        <note type="editorial" corresp="#u_144v_004" xml:lang="cs">Třetí jazyk řečtina v této četbě nevidím, proto ho do překladu nedoplňuji. Konec28 již začíná další odstavec.</note>
+        <p facs="#z_f144v_l029 #z_f144v_l030 #z_f144v_l031 #z_f144v_l032" xml:id="u_144v_005">Die leut aber die sy in hetten gekreuzigt, do namen sy sein gewant und machten vier teil. Und der rock der was ungeneet und was […] aller gewirckt, do sprachen sy zueinander: Wir sullen in nicht zerreissen, sunder […] darumb losen, wem er beleib. Uff die […]</p>
+        <note type="editorial" corresp="#u_144v_005" xml:lang="cs">Poslední věta a způsob tkaní částečně nečitelné, nedoplněno biblickou citací; pokračování145r je pilotní a zachová se beze změny. Začátek na konci28; nejisté konce nerozvinuty podle biblické předlohy.</note>
+        <p facs="#z_f144v_l033 #z_f144v_l034 #z_f144v_l035 #z_f144v_l036 #z_f144v_l037 #z_f144v_l038 #z_f144v_l039 #z_f144v_l040 #z_f144v_l041 #z_f144v_l042 #z_f144v_l043 #z_f144v_l044 #z_f144v_l045 #z_f144v_l046 #z_f144v_l047 #z_f144v_l048 #z_f144v_l049 #z_f144v_l050 #z_f144v_l051 #z_f144v_l052 #z_f144v_l053 #z_f144v_l054 #z_f144v_l055" xml:id="u_144v_006">[Úzké fragmenty protější strany ve žlábku.]</p>
+        <note type="editorial" corresp="#u_144v_006" xml:lang="cs">Cizí fragmenty vyloučeny z hlavního textu podle polohy a nativního obrazu; neprovedena úplná znaková četba.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_144v_001">[Nejisté, bez překladu.]</p>
+        <p corresp="#u_144v_002">[…] nic. Pilát mu řekl: Nemluvíš se mnou? Nevíš, že mám moc tě ukřižovat a mám moc tě propustit? Ježíš odpověděl: Neměl bys nade mnou žádnou moc, kdyby ti nebyla dána shůry. Proto ten, který mě tobě zradil, [má] větší hřích. Od těch slov se jej Pilát snažil propustit. Židé však křičeli: Propustíš-li jej, nejsi císařův přítel. Každý, kdo se činí králem, odporuje císaři.</p>
+        <p corresp="#u_144v_003">Když Pilát slyšel ta slova, vyvedl Ježíše ven a posadil se k soudu na místě zvaném Licostratus, hebrejsky Golgata. Byl také pátek, kolem šesté hodiny. Pilát řekl Židům: Hleďte na svého krále. Křičeli: Vyzdvihni jej a ukřižuj. Pilát jim řekl: Mám ukřižovat vašeho krále? Velekněží odpověděli: Nemáme krále, pouze císaře. Potom jim vydal Ježíše, aby byl ukřižován. Vzali jej a vyvedli ven. Sám nesl svůj kříž na místo zvané Lebečné místo, hebrejsky Golgota. Tam jej ukřižovali a s ním dva jiné, z jedné a druhé strany a Ježíše uprostřed.</p>
+        <p corresp="#u_144v_004">Pilát také napsal nápis a umístil jej nad kříž. Bylo napsáno: Ježíš Nazaretský, židovský král. Ten nápis četlo mnoho Židů, neboť místo, kde byl Ježíš ukřižován, bylo blízko města, a byl napsán hebrejsky a latinsky. Proto Židé Pilátovi řekli: Nepiš židovský král, ale že řekl: Já jsem židovský král. Pilát odpověděl: Co jsem napsal, napsal jsem.</p>
+        <p corresp="#u_144v_005">Lidé, kteří jej ukřižovali, vzali jeho šaty a rozdělili je na čtyři díly. Suknice byla nesešívaná a byla […] celá utkaná. Řekli si navzájem: Nemáme ji trhat, ale […] losovat o ni, komu připadne. Aby […].</p>
+        <p corresp="#u_144v_006">[Bez samostatného překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

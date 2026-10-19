@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 69r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: De pseudoprophetis. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_69r_coordinate; PNG SHA256 d014702848b93ece2186e701ee19e88607867de64c398936ac32d635ee973581; archival TIFF SHA256 8e8a5f4e68be79945e5309914c1b7feff091116f0023fa12e58e14fd45ecb4ec; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_69r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#69r"/>
+      <zone ulx="233" uly="594" lrx="311" lry="687" xml:id="z_f69r_l001"/>
+      <zone ulx="214" uly="675" lrx="277" lry="787" xml:id="z_f69r_l002"/>
+      <zone ulx="214" uly="774" lrx="308" lry="871" xml:id="z_f69r_l003"/>
+      <zone ulx="136" uly="833" lrx="314" lry="970" xml:id="z_f69r_l004"/>
+      <zone ulx="164" uly="930" lrx="320" lry="1088" xml:id="z_f69r_l005"/>
+      <zone ulx="124" uly="1020" lrx="329" lry="1157" xml:id="z_f69r_l006"/>
+      <zone ulx="245" uly="1316" lrx="311" lry="1415" xml:id="z_f69r_l007"/>
+      <zone ulx="233" uly="1381" lrx="286" lry="1505" xml:id="z_f69r_l008"/>
+      <zone ulx="118" uly="3260" lrx="308" lry="3335" xml:id="z_f69r_l009"/>
+      <zone ulx="108" uly="3313" lrx="305" lry="3431" xml:id="z_f69r_l010"/>
+      <zone ulx="382" uly="360" lrx="2150" lry="519" xml:id="z_f69r_l011"/>
+      <zone ulx="398" uly="460" lrx="3134" lry="588" xml:id="z_f69r_l012"/>
+      <zone ulx="510" uly="544" lrx="3159" lry="675" xml:id="z_f69r_l013"/>
+      <zone ulx="382" uly="628" lrx="3165" lry="768" xml:id="z_f69r_l014"/>
+      <zone ulx="389" uly="718" lrx="3168" lry="855" xml:id="z_f69r_l015"/>
+      <zone ulx="392" uly="812" lrx="3174" lry="942" xml:id="z_f69r_l016"/>
+      <zone ulx="401" uly="905" lrx="3143" lry="1039" xml:id="z_f69r_l017"/>
+      <zone ulx="385" uly="995" lrx="3196" lry="1129" xml:id="z_f69r_l018"/>
+      <zone ulx="385" uly="1085" lrx="3168" lry="1216" xml:id="z_f69r_l019"/>
+      <zone ulx="385" uly="1166" lrx="3258" lry="1303" xml:id="z_f69r_l020"/>
+      <zone ulx="389" uly="1263" lrx="3171" lry="1396" xml:id="z_f69r_l021"/>
+      <zone ulx="392" uly="1350" lrx="3140" lry="1477" xml:id="z_f69r_l022"/>
+      <zone ulx="389" uly="1431" lrx="3143" lry="1580" xml:id="z_f69r_l023"/>
+      <zone ulx="389" uly="1533" lrx="3146" lry="1680" xml:id="z_f69r_l024"/>
+      <zone ulx="389" uly="1630" lrx="3249" lry="1782" xml:id="z_f69r_l025"/>
+      <zone ulx="392" uly="1717" lrx="3149" lry="1872" xml:id="z_f69r_l026"/>
+      <zone ulx="389" uly="1816" lrx="3146" lry="1969" xml:id="z_f69r_l027"/>
+      <zone ulx="389" uly="1913" lrx="3140" lry="2059" xml:id="z_f69r_l028"/>
+      <zone ulx="407" uly="2000" lrx="3268" lry="2143" xml:id="z_f69r_l029"/>
+      <zone ulx="401" uly="2090" lrx="3162" lry="2246" xml:id="z_f69r_l030"/>
+      <zone ulx="389" uly="2187" lrx="3168" lry="2330" xml:id="z_f69r_l031"/>
+      <zone ulx="392" uly="2277" lrx="3149" lry="2432" xml:id="z_f69r_l032"/>
+      <zone ulx="389" uly="2367" lrx="3137" lry="2516" xml:id="z_f69r_l033"/>
+      <zone ulx="389" uly="2460" lrx="3146" lry="2604" xml:id="z_f69r_l034"/>
+      <zone ulx="382" uly="2541" lrx="3137" lry="2700" xml:id="z_f69r_l035"/>
+      <zone ulx="398" uly="2638" lrx="3218" lry="2790" xml:id="z_f69r_l036"/>
+      <zone ulx="385" uly="2719" lrx="3156" lry="2874" xml:id="z_f69r_l037"/>
+      <zone ulx="389" uly="2815" lrx="3218" lry="2977" xml:id="z_f69r_l038"/>
+      <zone ulx="389" uly="2902" lrx="3134" lry="3067" xml:id="z_f69r_l039"/>
+      <zone ulx="385" uly="2999" lrx="3146" lry="3164" xml:id="z_f69r_l040"/>
+      <zone ulx="389" uly="3098" lrx="3171" lry="3241" xml:id="z_f69r_l041"/>
+      <zone ulx="389" uly="3195" lrx="3168" lry="3338" xml:id="z_f69r_l042"/>
+      <zone ulx="385" uly="3288" lrx="3237" lry="3416" xml:id="z_f69r_l043"/>
+      <zone ulx="382" uly="3366" lrx="3246" lry="3509" xml:id="z_f69r_l044"/>
+      <zone ulx="385" uly="3465" lrx="3237" lry="3593" xml:id="z_f69r_l045"/>
+      <zone ulx="385" uly="3556" lrx="3261" lry="3692" xml:id="z_f69r_l046"/>
+      <zone ulx="392" uly="3646" lrx="3258" lry="3773" xml:id="z_f69r_l047"/>
+      <zone ulx="392" uly="3730" lrx="3143" lry="3860" xml:id="z_f69r_l048"/>
+      <zone ulx="401" uly="3823" lrx="3261" lry="3954" xml:id="z_f69r_l049"/>
+      <zone ulx="389" uly="3913" lrx="3156" lry="4044" xml:id="z_f69r_l050"/>
+      <zone ulx="382" uly="3997" lrx="3218" lry="4137" xml:id="z_f69r_l051"/>
+      <zone ulx="382" uly="4081" lrx="3199" lry="4243" xml:id="z_f69r_l052"/>
+      <zone ulx="382" uly="4165" lrx="3218" lry="4327" xml:id="z_f69r_l053"/>
+      <zone ulx="379" uly="4259" lrx="3171" lry="4399" xml:id="z_f69r_l054"/>
+      <zone ulx="392" uly="4336" lrx="3215" lry="4498" xml:id="z_f69r_l055"/>
+      <zone ulx="385" uly="4427" lrx="3177" lry="4585" xml:id="z_f69r_l056"/>
+      <zone ulx="379" uly="4517" lrx="3221" lry="4666" xml:id="z_f69r_l057"/>
+      <zone ulx="389" uly="4613" lrx="3258" lry="4750" xml:id="z_f69r_l058"/>
+      <zone ulx="385" uly="4697" lrx="3261" lry="4909" xml:id="z_f69r_l059"/>
+      <zone ulx="3324" uly="3839" lrx="3467" lry="3963" xml:id="z_f69r_l060"/>
+      <zone ulx="140" uly="385" lrx="320" lry="466" xml:id="z_f69r_l061"/>
+      <zone ulx="236" uly="3948" lrx="273" lry="3988" xml:id="z_f69r_l062"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f69r_l001" xml:id="catmus_f69r_l001"/>
+          <seg type="raw_unreviewed">slulb</seg>
+          <lb facs="#z_f69r_l002" xml:id="catmus_f69r_l002"/>
+          <seg type="raw_unreviewed">acci</seg>
+          <lb facs="#z_f69r_l003" xml:id="catmus_f69r_l003"/>
+          <seg type="raw_unreviewed">2ud</seg>
+          <lb facs="#z_f69r_l004" xml:id="catmus_f69r_l004"/>
+          <seg type="raw_unreviewed">redeꝰ ¶ae</seg>
+          <lb facs="#z_f69r_l005" xml:id="catmus_f69r_l005"/>
+          <seg type="raw_unreviewed">sies ẽ</seg>
+          <lb facs="#z_f69r_l006" xml:id="catmus_f69r_l006"/>
+          <seg type="raw_unreviewed">cuilauii e</seg>
+          <lb facs="#z_f69r_l007" xml:id="catmus_f69r_l007"/>
+          <seg type="raw_unreviewed">UICU</seg>
+          <lb facs="#z_f69r_l008" xml:id="catmus_f69r_l008"/>
+          <seg type="raw_unreviewed">Qo</seg>
+          <lb facs="#z_f69r_l009" xml:id="catmus_f69r_l009"/>
+          <seg type="raw_unreviewed">u ilissiall</seg>
+          <lb facs="#z_f69r_l010" xml:id="catmus_f69r_l010"/>
+          <seg type="raw_unreviewed">didẽ Niii</seg>
+          <lb facs="#z_f69r_l011" xml:id="catmus_f69r_l011"/>
+          <seg type="raw_unreviewed">et ecf añ cũltu ꝑ icla ĩ minebũt ecc̃ẽ uniu̾se</seg>
+          <lb facs="#z_f69r_l012" xml:id="catmus_f69r_l012"/>
+          <seg type="raw_unreviewed">Irca 2 ͫ car^ u ꝑqs ĩ stubũt i ͥ ꝑilã. ꝓ̃dicit apł ni elsquiͦ Ꝙ erũt ĩ</seg>
+          <lb facs="#z_f69r_l013" xml:id="catmus_f69r_l013"/>
+          <seg type="raw_unreviewed">ecrũ qͥdu hõies se ipõs aãutẽs. ꝑ qͣs ĩ scubũt p̃dcie piclã Illi autẽ</seg>
+          <lb facs="#z_f69r_l014" xml:id="catmus_f69r_l014"/>
+          <seg type="raw_unreviewed">diõi aãre re ip̃os qui l uelĩt a ͦ ͦ corrige. ũ tuiũ uba ᷤ hõilꝰ bolũt</seg>
+          <lb facs="#z_f69r_l015" xml:id="catmus_f69r_l015"/>
+          <seg type="raw_unreviewed">corrigiĩ factꝭ suis l añ ꝑu̾ẜ. uñ tlẽs amũt se ip̃os płꝙ̃ ui̾tatẽ. ⁊ itu</seg>
+          <lb facs="#z_f69r_l016" xml:id="catmus_f69r_l016"/>
+          <seg type="raw_unreviewed">ul q deñ. q̃ ẽ uitas Io xiiii Etd. gg ĩ pasten̾li Qui ꝑu̾se wͭ ag̾e ^rad ea q̃ͣ</seg>
+          <lb facs="#z_f69r_l017" xml:id="catmus_f69r_l017"/>
+          <seg type="raw_unreviewed">feͭ cet̾os uo ͭ tat̾e̾ ip̃e s̾ testꝭ ẽ se plꝰ uititi uł dilii. qñ qͣ se ñ wu ͭ</seg>
+          <lb facs="#z_f69r_l018" xml:id="catmus_f69r_l018"/>
+          <seg type="raw_unreviewed">defũdi It̃ pl idilig ͭ se ꝙ̃ dni q̃ plꝰ dilugᵗ hond̾e suũ qni hono̾e di An</seg>
+          <lb facs="#z_f69r_l019" xml:id="catmus_f69r_l019"/>
+          <seg type="raw_unreviewed">sebita xam ͥ Illi deũ diligũt.. Ian nõ ad. qm ut noͫ di᷑ głoi̾site ᷑ gocẽt</seg>
+          <lb facs="#z_f69r_l020" xml:id="catmus_f69r_l020"/>
+          <seg type="raw_unreviewed">Illi gͦ max᷑. qͥ ĩstitu ꝑstõis st̃/ ⁊ cũ honoe suũ tp̃alẽ/ ecꝭ cũ m̃ltoꝵ offũ-</seg>
+          <lb facs="#z_f69r_l021" xml:id="catmus_f69r_l021"/>
+          <seg type="raw_unreviewed">dicło appetũt qrũt se plꝰ diligi ꝙ dm Ghͨ aũte ao̾e sui ꝑu̾se. qiͣ. ꝯx</seg>
+          <lb facs="#z_f69r_l022" xml:id="catmus_f69r_l022"/>
+          <seg type="raw_unreviewed">qͣdã radice mala/ ĩcibẽt illi tłes se ip̃os aãates ĩ uau̾i gn̾u pccuꝵ. q</seg>
+          <lb facs="#z_f69r_l023" xml:id="catmus_f69r_l023"/>
+          <seg type="raw_unreviewed">aliqͥ eoꝵ siẽt curubi peciũe ul nĩdũe gło aͥ fiẽt eluti qͣ di .b. dumi</seg>
+          <lb facs="#z_f69r_l024" xml:id="catmus_f69r_l024"/>
+          <seg type="raw_unreviewed">uolũt sb̃ eẽ p̃latꝭ. s supponi Alii fiẽt suꝑbi. de houilib sͥ ĩpeus aAlii fient</seg>
+          <lb facs="#z_f69r_l025" xml:id="catmus_f69r_l025"/>
+          <seg type="raw_unreviewed">blaspheĩ ĩ deũ ꝑ h̾e ses a ͥ fiẽt ĩ obe ͭ ͭ ͦ pntib .i p̃litꝭ cccẽ q̃ eos re</seg>
+          <lb facs="#z_f69r_l026" xml:id="catmus_f69r_l026"/>
+          <seg type="raw_unreviewed">geneau̾it Alii fiẽt ĩ cͣti. deboĩs s̾ ĩpñs alii fiẽt scelesti. ĩ ꝯͣnib pccĩs</seg>
+          <lb facs="#z_f69r_l027" xml:id="catmus_f69r_l027"/>
+          <seg type="raw_unreviewed">qui moͫ ꝓcundi tũstũdũt ^ rauĩs suis uł e ͭ ꝭ occidũt. ul qͥ corrigũtib</seg>
+          <lb facs="#z_f69r_l028" xml:id="catmus_f69r_l028"/>
+          <seg type="raw_unreviewed">mala ꝓ loĩs reddñt/ Alii fiẽt sñ affcre nõ ꝯpaciẽdo ĩ fu̾us.s. ꝓcrõibi</seg>
+          <lb facs="#z_f69r_l029" xml:id="catmus_f69r_l029"/>
+          <seg type="raw_unreviewed">s pocrꝰ eos dedignuãtes alii fiẽt t̾iãtoe̾s .i. c̾mẽ ĩponẽtes. uł detctoe̾s sdõrs.</seg>
+          <lb facs="#z_f69r_l030" xml:id="catmus_f69r_l030"/>
+          <seg type="raw_unreviewed">s. filmã maclae bolũtes uł comĩtes Abi fiẽt ĩqtiẽntes. gule ul libidĩs.</seg>
+          <lb facs="#z_f69r_l031" xml:id="catmus_f69r_l031"/>
+          <seg type="raw_unreviewed">nõ r̾f̾m̾̃tes malus cupiditates alii fet siĩ beg̾ni ͭͤ uesaẽtes a ͥͦ subusi̾e</seg>
+          <lb facs="#z_f69r_l032" xml:id="catmus_f69r_l032"/>
+          <seg type="raw_unreviewed">Alii fiẽt ꝓditoes s. secretoꝵ alt̾i̾ꝰ / dñ r̾uelãt q̃ꝯcultunda uouerãt Alis</seg>
+          <lb facs="#z_f69r_l033" xml:id="catmus_f69r_l033"/>
+          <seg type="raw_unreviewed">siẽt pt̾m uł ꝓcates .s q̃ uẽtũda eẽnt uliis hõib ĩu̾ecũde agentẽe</seg>
+          <lb facs="#z_f69r_l034" xml:id="catmus_f69r_l034"/>
+          <seg type="raw_unreviewed">Alii fiẽt ceci. iͣ eħy ẽ nõ ĩtlłigũtes dei̾bi affͥmãt /neq deqͥb agũt</seg>
+          <lb facs="#z_f69r_l035" xml:id="catmus_f69r_l035"/>
+          <seg type="raw_unreviewed">alii fiẽt tumd s. ĩ flato corde Alii fiẽt boluptatũ uãtue̾s igͣ ꝙħ dei</seg>
+          <lb facs="#z_f69r_l036" xml:id="catmus_f69r_l036"/>
+          <seg type="raw_unreviewed">⁊ carulles delicias spuũl pp̃oñtes Et ⁊ ooh ͨ dͭ apłs hiis uĩs Et erãt</seg>
+          <lb facs="#z_f69r_l037" xml:id="catmus_f69r_l037"/>
+          <seg type="raw_unreviewed">hoĩes se ip̃os aantes Cuꝑide elati. suꝑbi. blaspheĩ. ꝓuᷝͥ ũ obe ͭ ͤ ͣ ĩ gͣti</seg>
+          <lb facs="#z_f69r_l038" xml:id="catmus_f69r_l038"/>
+          <seg type="raw_unreviewed">saelesti siue iffcõe. siĩ pace t̾ũtoes. itientes. ĩ miͣtes. sñ beg̾ ͭͤ pt̾m.</seg>
+          <lb facs="#z_f69r_l039" xml:id="catmus_f69r_l039"/>
+          <seg type="raw_unreviewed">uł ꝓcuces. tindi. bolup ͭ  aãtre̾s. iugꝭ p̃ di. ⁊ epoͭ gło᷑ ut dañ ẽ</seg>
+          <lb facs="#z_f69r_l040" xml:id="catmus_f69r_l040"/>
+          <seg type="raw_unreviewed">degibi ãt hiis gn̾ib pcc̃oꝵ/ imẽĩent aliqͥ ĩsectã i ͣ ꝑꝙͣ ĩ scubũt epũ</seg>
+          <lb facs="#z_f69r_l041" xml:id="catmus_f69r_l041"/>
+          <seg type="raw_unreviewed">ꝓiclõsu ni eħi m᷑ p.i ͥ u̾ ͥ ⁊ crũt hĩeo se ip̃os uãntes ic̾ cupidi eluti in</seg>
+          <lb facs="#z_f69r_l042" xml:id="catmus_f69r_l042"/>
+          <seg type="raw_unreviewed">Et cũ subiũgͭ ipłs Exhiis sũt q̃ penetrãt domiis / ꝑ qͦs penetñtes in</seg>
+          <lb facs="#z_f69r_l043" xml:id="catmus_f69r_l043"/>
+          <seg type="raw_unreviewed">stabũt iͥ pielã ut patebit. Qui ac fuit penetiũs domos. epo glo. s</seg>
+          <lb facs="#z_f69r_l044" xml:id="catmus_f69r_l044"/>
+          <seg type="raw_unreviewed">Illi a penetiũt domos. q ad lñi. ĩgdiũ domos̾ i ͤ qꝵ r̾giẽn aũaꝵ</seg>
+          <lb facs="#z_f69r_l045" xml:id="catmus_f69r_l045"/>
+          <seg type="raw_unreviewed">ad eos ũ ꝑt. ⁊ rimilni᷑ ꝓpͥetutes .i sec̾ta coꝵ.ꝙ ñ pt̃ fĩ iusi ĩgerãt pe</seg>
+          <lb facs="#z_f69r_l046" xml:id="catmus_f69r_l046"/>
+          <seg type="raw_unreviewed">ad audiend̃ isessiõs eoꝵ hͨ enĩ ẽ penetre domos. hoiͣ p̃dciã s. riu li</seg>
+          <lb facs="#z_f69r_l047" xml:id="catmus_f69r_l047"/>
+          <seg type="raw_unreviewed">qstĩas eoꝵ. que donuꝰ applla᷑ ecci ͣ .xxxii. p̃cre por ĩdomu tuuã. gło.</seg>
+          <lb facs="#z_f69r_l048" xml:id="catmus_f69r_l048"/>
+          <seg type="raw_unreviewed">ĩ domu ꝯstĩe. nos r̾ cipurͥ In d̾omũ hũc ꝑ hostiũ ĩ lt rcõr aũird</seg>
+          <lb facs="#z_f69r_l049" xml:id="catmus_f69r_l049"/>
+          <seg type="raw_unreviewed">qͥ cũa h abecc̃a s̃. imussã Qui p̃cip. pnͥ xxxii. dilig᷑ ignoste ultũ</seg>
+          <lb facs="#z_f69r_l050" xml:id="catmus_f69r_l050"/>
+          <seg type="raw_unreviewed">pc̃oꝵꝭ tni. gło pustei ecc̃e d̾: dili ͭ ͤ cĩi adhibe sriis qb te p̃eẽ ꝯtĩg ͭ</seg>
+          <lb facs="#z_f69r_l051" xml:id="catmus_f69r_l051"/>
+          <seg type="raw_unreviewed">annõs act q singloꝵ ꝯsidit/ Et si ꝙ uicii t̾ ꝑetꝭ. saltĩ eũdae̾ mem̃tu</seg>
+          <lb facs="#z_f69r_l052" xml:id="catmus_f69r_l052"/>
+          <seg type="raw_unreviewed">huic pastoi hoscm̃ domꝰ d aꝑiri. ꝑ ꝯ sessiõ. Ixͣ eᵈ boecii deꝯsola ͦ phiẽ</seg>
+          <lb facs="#z_f69r_l053" xml:id="catmus_f69r_l053"/>
+          <seg type="raw_unreviewed">si medicĩa exspͨtus. Mut ulnꝰ detegas. Alieꝰ at q̃ cnͣa ũ h. ĩhuc de</seg>
+          <lb facs="#z_f69r_l054" xml:id="catmus_f69r_l054"/>
+          <seg type="raw_unreviewed">mor̾cipi ũ s Ecc̃i xi. Nõ uẽ hoiẽ ĩducus ĩ domũ tuũ sialte emi</seg>
+          <lb facs="#z_f69r_l055" xml:id="catmus_f69r_l055"/>
+          <seg type="raw_unreviewed">st̃ ĩ sidie dolose/ et ĩeod aduite udte aliemgã. ⁊ sũtte ĩ t̾uie</seg>
+          <lb facs="#z_f69r_l056" xml:id="catmus_f69r_l056"/>
+          <seg type="raw_unreviewed">ralie̾bit a biis Wiis Et iõ delli alieo dͭ. upłs i  corꝭmi en q̃ es. qui</seg>
+          <lb facs="#z_f69r_l057" xml:id="catmus_f69r_l057"/>
+          <seg type="raw_unreviewed">indicas ẜnui alienũ. suo dño / a scut. a cudit Alie/añt si rimet᷑ ꝯstũ</seg>
+          <lb facs="#z_f69r_l058" xml:id="catmus_f69r_l058"/>
+          <seg type="raw_unreviewed">¶ diti elieni / nõ ĩ lt ꝓ hostmũ douꝰ eiꝰ / s aliũde ꝯscẽdit/ ⁊ iõ di᷑ penetͣre</seg>
+          <lb facs="#z_f69r_l059" xml:id="catmus_f69r_l059"/>
+          <seg type="raw_unreviewed">domũ siindulũ: ut̾ sur. ñl uiolũ ũt bat᷑ Io.xͦ Q iũ ĩlt̃ ꝑhostiũ ĩomi</seg>
+          <lb facs="#z_f69r_l060" xml:id="catmus_f69r_l060"/>
+          <seg type="raw_unreviewed">2</seg>
+          <lb facs="#z_f69r_l061" xml:id="catmus_f69r_l061"/>
+          <seg type="raw_unreviewed">mortuos</seg>
+          <lb facs="#z_f69r_l062" xml:id="catmus_f69r_l062"/>
+          <seg type="raw_unreviewed">1u.</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f69r_l001" xml:id="medusa_f69r_l001"/>
+          <seg type="raw_unreviewed">gn̾ico</seg>
+          <lb facs="#z_f69r_l002" xml:id="medusa_f69r_l002"/>
+          <seg type="raw_unreviewed">acci</seg>
+          <lb facs="#z_f69r_l003" xml:id="medusa_f69r_l003"/>
+          <seg type="raw_unreviewed">N ad</seg>
+          <lb facs="#z_f69r_l004" xml:id="medusa_f69r_l004"/>
+          <seg type="raw_unreviewed">cede / hui</seg>
+          <lb facs="#z_f69r_l005" xml:id="medusa_f69r_l005"/>
+          <seg type="raw_unreviewed">homines sunt</seg>
+          <lb facs="#z_f69r_l006" xml:id="medusa_f69r_l006"/>
+          <seg type="raw_unreviewed">cuiꝰ mon</seg>
+          <lb facs="#z_f69r_l007" xml:id="medusa_f69r_l007"/>
+          <seg type="raw_unreviewed">picu</seg>
+          <lb facs="#z_f69r_l008" xml:id="medusa_f69r_l008"/>
+          <seg type="raw_unreviewed">lis.</seg>
+          <lb facs="#z_f69r_l009" xml:id="medusa_f69r_l009"/>
+          <seg type="raw_unreviewed">ũ alricatẽ</seg>
+          <lb facs="#z_f69r_l010" xml:id="medusa_f69r_l010"/>
+          <seg type="raw_unreviewed">eccẽ uniu̾si</seg>
+          <lb facs="#z_f69r_l011" xml:id="medusa_f69r_l011"/>
+          <seg type="raw_unreviewed">et eciam ante multum postquam inminebunt ecclesie univers</seg>
+          <lb facs="#z_f69r_l012" xml:id="medusa_f69r_l012"/>
+          <seg type="raw_unreviewed">Ircu 2.ii. car. u. p. q. s. instabunt i. p. iclũ. p̃dicit ap. ii. ehyiii. q. erũt ĩ</seg>
+          <lb facs="#z_f69r_l013" xml:id="medusa_f69r_l013"/>
+          <seg type="raw_unreviewed">eciam quidam homines se ipsos aũtes . per quos instabunt predicta . periculũ illi autem</seg>
+          <lb facs="#z_f69r_l014" xml:id="medusa_f69r_l014"/>
+          <seg type="raw_unreviewed">dicor aũre se ipsos / qui l: uelit nos corrigere. ũ tam ab ipsos hominibus uolunt</seg>
+          <lb facs="#z_f69r_l015" xml:id="medusa_f69r_l015"/>
+          <seg type="raw_unreviewed">corrigi in factꝭ suis / l. añ ꝑuẜ . uñ tleẽ amĩt se ipõs plꝰ ꝙ u̾itate . et ita</seg>
+          <lb facs="#z_f69r_l016" xml:id="medusa_f69r_l016"/>
+          <seg type="raw_unreviewed">plꝰ ꝙ deũ . q̃ ẽ u̾itas Io. XIIII Et d. 12g. ĩ pastorali Qui ꝑ u̾se ut aꝑere / ⁊ ad ea q̃</seg>
+          <lb facs="#z_f69r_l017" xml:id="medusa_f69r_l017"/>
+          <seg type="raw_unreviewed">feꝭ cet̾os wˢ tacere / ip̃e s⁊ testꝭ ẽ / ꝙ se plꝰ u̾itati wᵗ dilig̾i . qm̃ ꝙ̃ se ñ wᵗ</seg>
+          <lb facs="#z_f69r_l018" xml:id="medusa_f69r_l018"/>
+          <seg type="raw_unreviewed">de fũdri / It plꝰ diligᵗ se ꝙ̃ dñi / q̃ plꝰ diligᵗ honore suũ . qm̃ honore diᵒ Augꝭ</seg>
+          <lb facs="#z_f69r_l019" xml:id="medusa_f69r_l019"/>
+          <seg type="raw_unreviewed">de vita christiana illi deũ diligunt . Irai nõ aᵈ. iiiiͦ ut noͣi diᵒ gloiisfice᷑ exẽcet</seg>
+          <lb facs="#z_f69r_l020" xml:id="medusa_f69r_l020"/>
+          <seg type="raw_unreviewed">Illi gͦ maxime qͥ in statu perfecionis sunt / et cum honorem suum temporalem / eciam cum multorum offi</seg>
+          <lb facs="#z_f69r_l021" xml:id="medusa_f69r_l021"/>
+          <seg type="raw_unreviewed">dictis appetunt / querunt se plus diligere q̃ domine / Ex hoc autem amore sui peruerso . quasi ex</seg>
+          <lb facs="#z_f69r_l022" xml:id="medusa_f69r_l022"/>
+          <seg type="raw_unreviewed">qͣdã radice mala / incide̾t illi tle̾s se ip̃os aantes ĩ unum gͣuũ peccatoꝵ . quod</seg>
+          <lb facs="#z_f69r_l023" xml:id="medusa_f69r_l023"/>
+          <seg type="raw_unreviewed">alii eorum fient cupidi pecunie uł mendacie glorie uł fient elati contra deum . u . dum</seg>
+          <lb facs="#z_f69r_l024" xml:id="medusa_f69r_l024"/>
+          <seg type="raw_unreviewed">uelũt sb̃ eẽ p̃latꝭ . sẏ supponi alii fient suꝑbi . de hominibꝰ s᷑ ĩpensy alii fient</seg>
+          <lb facs="#z_f69r_l025" xml:id="medusa_f69r_l025"/>
+          <seg type="raw_unreviewed">blasphẽm ĩ deũ ꝑ hȩses / aⁱⁱ fiet ĩ obeᵗᵉᵘˢ p̃ntibꝰ .i. p̃latꝭ eccẽ q̃ eos re</seg>
+          <lb facs="#z_f69r_l026" xml:id="medusa_f69r_l026"/>
+          <seg type="raw_unreviewed">genue̾unt / Alii fiẽt ĩ gͣti. deboris s̃ ĩ pn̾ẜ Alii fiẽt stelesti. ĩ gͣuib pcc̃is</seg>
+          <lb facs="#z_f69r_l027" xml:id="medusa_f69r_l027"/>
+          <seg type="raw_unreviewed">qui mo ͫ p̃cincti t̾nunduntur et aũs suis uł n ͭ ͥꝭ occidunt / uł qͥ corriguntibus</seg>
+          <lb facs="#z_f69r_l028" xml:id="medusa_f69r_l028"/>
+          <seg type="raw_unreviewed">mala probis reddunt / Alii fient sine affone non compatiendo in fruis .s. paronibus</seg>
+          <lb facs="#z_f69r_l029" xml:id="medusa_f69r_l029"/>
+          <seg type="raw_unreviewed">s pociꝰ eos dedignantẽs alii fiẽt tͥcĩtoe̾s .i. tͥnĩe ĩponẽtes. uł de tͣctoẽs sc̃eꝵ</seg>
+          <lb facs="#z_f69r_l030" xml:id="medusa_f69r_l030"/>
+          <seg type="raw_unreviewed">s. firma matutine uolũtes ul comũtes Alii fiẽt ĩcontẽntes . gule ul libidines</seg>
+          <lb facs="#z_f69r_l031" xml:id="medusa_f69r_l031"/>
+          <seg type="raw_unreviewed">nõ r̾f̾uãtes malas cupiditates alii fẽt sñ beg̾naᵗᵉ ne scĩtes aⁱⁱˢ subuen̾e</seg>
+          <lb facs="#z_f69r_l032" xml:id="medusa_f69r_l032"/>
+          <seg type="raw_unreviewed">Alii fiẽt ꝓdicoe̾s scilicet secretorꝭ alt̾iꝰ / dũ r̾uelũt q̃ occultanda noverũt Alii</seg>
+          <lb facs="#z_f69r_l033" xml:id="medusa_f69r_l033"/>
+          <seg type="raw_unreviewed">sĩet ꝓtrius vel ꝓcates s. q̃ uerecunda eẽnt / aliis hoĩbus ĩuerecunde agentes</seg>
+          <lb facs="#z_f69r_l034" xml:id="medusa_f69r_l034"/>
+          <seg type="raw_unreviewed">Alii fient ceteri. 11. ehm 11. nõ intelligentes de quibus affu̾unt neq: de quibus agunt</seg>
+          <lb facs="#z_f69r_l035" xml:id="medusa_f69r_l035"/>
+          <seg type="raw_unreviewed">Alii fient timidi scilicet in flato corde Alii fient voluptatum naturis magis ipse dei</seg>
+          <lb facs="#z_f69r_l036" xml:id="medusa_f69r_l036"/>
+          <seg type="raw_unreviewed">i. carnales desicias spũalibus p̃poñtes Et ex hᶜ dᵗ apłs hiis uĩs Et erũt</seg>
+          <lb facs="#z_f69r_l037" xml:id="medusa_f69r_l037"/>
+          <seg type="raw_unreviewed">hoĩes se ipõs aũtes Cupidi e lati. superbi. blasphem̃. pułꝰ ñ obeᵗᵒˢ. ĩ gᵗi</seg>
+          <lb facs="#z_f69r_l038" xml:id="medusa_f69r_l038"/>
+          <seg type="raw_unreviewed">stestis sine affecõe sine pace trinitates intientes immittes sine legiᵗᵉ ꝓpterim</seg>
+          <lb facs="#z_f69r_l039" xml:id="medusa_f69r_l039"/>
+          <seg type="raw_unreviewed">ul prouices tumidi. Woluptu aũtares. uigꝭꝭ q̃ di. 2ᵉ expoᵗ gloᵃ ut dcm̃ ẽ /</seg>
+          <lb facs="#z_f69r_l040" xml:id="medusa_f69r_l040"/>
+          <seg type="raw_unreviewed">De oĩbꝰ aut̃ hiis gen̾bꝰ peccõꝵ / 11nẽient aliqͥ ĩ sectã iᵃʳ ꝑ ꝙͥ ĩ scilicũt tꝑã</seg>
+          <lb facs="#z_f69r_l041" xml:id="medusa_f69r_l041"/>
+          <seg type="raw_unreviewed">ꝑiclõsum iiᵃ ehm̃ moͤ pꝰ 5ᵃ et erũt homines se ipsos aũtes etc. cupidi elati n</seg>
+          <lb facs="#z_f69r_l042" xml:id="medusa_f69r_l042"/>
+          <seg type="raw_unreviewed">Et cũ subiungit apostolus Ex hiis sunt q̃ penetrant domos / ꝑ. qͥs penetrantes in</seg>
+          <lb facs="#z_f69r_l043" xml:id="medusa_f69r_l043"/>
+          <seg type="raw_unreviewed">stabũt iᵃ p̃telũ ut patẽbit. Qui aut fuit penetrus domos expo᷑ glo. sᶜ</seg>
+          <lb facs="#z_f69r_l044" xml:id="medusa_f69r_l044"/>
+          <seg type="raw_unreviewed">Illi n. penetraũt domos . q̃ ad lrarum . ĩ gͦ dñi domos iᵒʳ . i. qr r̾gine aũte</seg>
+          <lb facs="#z_f69r_l045" xml:id="medusa_f69r_l045"/>
+          <seg type="raw_unreviewed">ad eos ñ ꝑtꝰ. ⁊ rimant᷑ ꝓpͥetates .i. secta coꝵ. ꝙ ñ pt̃ fi᷑ nisi ĩgerũt re</seg>
+          <lb facs="#z_f69r_l046" xml:id="medusa_f69r_l046"/>
+          <seg type="raw_unreviewed">ad audiendos confessiones eorum / hoc enim est penetrare domos horum p̃dictorum s. riuarii</seg>
+          <lb facs="#z_f69r_l047" xml:id="medusa_f69r_l047"/>
+          <seg type="raw_unreviewed">ꝯstuas eorꝰ que domus appellat᷑ ecc̃aᵗᵃ xxii. p̃ce᷑re p̃or ĩ domũ tuã . 126.</seg>
+          <lb facs="#z_f69r_l048" xml:id="medusa_f69r_l048"/>
+          <seg type="raw_unreviewed">ĩ domũ ꝯstru̾e . nos r̾cipu᷑ / In domũ hãc ꝑ hostiũ ĩ seꝭ trãr mun̾s</seg>
+          <lb facs="#z_f69r_l049" xml:id="medusa_f69r_l049"/>
+          <seg type="raw_unreviewed">q̃ cu̾aʒ h; ab ecc̃a s. commissã Cui p̃cipꝰ p. n. xxuii. dilu̾i ignoscere ultum</seg>
+          <lb facs="#z_f69r_l050" xml:id="medusa_f69r_l050"/>
+          <seg type="raw_unreviewed">p̃conꝭ tuii glo. punitoꝵ ecc̃e d᷑ dilite᷑ cuuͬi adhibe fruis . qͥbꝰ te p̃eẽ ꝯtĩgat</seg>
+          <lb facs="#z_f69r_l051" xml:id="medusa_f69r_l051"/>
+          <seg type="raw_unreviewed">annos actusque singulorum considerati / Et si qͥm vicii r̾pererunt sint emendare inemento</seg>
+          <lb facs="#z_f69r_l052" xml:id="medusa_f69r_l052"/>
+          <seg type="raw_unreviewed">huic pastoris hostium domus s⁊ apri. p. confessionis. iuxta id brecii dei consolatio in hie</seg>
+          <lb facs="#z_f69r_l053" xml:id="medusa_f69r_l053"/>
+          <seg type="raw_unreviewed">si medicum exspectas / oꝙ ut ułnꝰ detegas / Alieꝰ autem q̃ curam ñ habet. ĩ hac de</seg>
+          <lb facs="#z_f69r_l054" xml:id="medusa_f69r_l054"/>
+          <seg type="raw_unreviewed">mo recipi ũ d ecc̃i xi. Nõ oẽ hoĩe ĩdutos ĩ domũ tuã / ulte eũ</seg>
+          <lb facs="#z_f69r_l055" xml:id="medusa_f69r_l055"/>
+          <seg type="raw_unreviewed">st ĩsidie dolose / et ĩ eod / adnũte ad te alienigenã. ⁊ scũt te ĩ t̾mine /</seg>
+          <lb facs="#z_f69r_l056" xml:id="medusa_f69r_l056"/>
+          <seg type="raw_unreviewed">rahẽbit a hiis p̃iis Et cõ deditũ ab eo sᵗ apło iᵃ Cor. iiiii eñ q̃ es. qui</seg>
+          <lb facs="#z_f69r_l057" xml:id="medusa_f69r_l057"/>
+          <seg type="raw_unreviewed">iudicas sũm alienũ suo dño / uͥ scit. nͥ cuncti / A be. aut si rimet᷑ ꝯscũt</seg>
+          <lb facs="#z_f69r_l058" xml:id="medusa_f69r_l058"/>
+          <seg type="raw_unreviewed">sb̃diti eheui / nõ ĩt̃t ꝑ hostium doni. eiꝰ / s a lunde ꝯstẽdit / ⁊ iõ di᷑ penet᷑re</seg>
+          <lb facs="#z_f69r_l059" xml:id="medusa_f69r_l059"/>
+          <seg type="raw_unreviewed">domum fraudulenter ut fur. vel violenter ut latro / Jo. X° Quid non intt per hostium in omni</seg>
+          <lb facs="#z_f69r_l060" xml:id="medusa_f69r_l060"/>
+          <seg type="raw_unreviewed">L</seg>
+          <lb facs="#z_f69r_l061" xml:id="medusa_f69r_l061"/>
+          <seg type="raw_unreviewed">mortuos.</seg>
+          <lb facs="#z_f69r_l062" xml:id="medusa_f69r_l062"/>
+          <seg type="raw_unreviewed">p</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f69r_l001 #z_f69r_l002 #z_f69r_l003 #z_f69r_l004 #z_f69r_l005 #z_f69r_l006 #z_f69r_l007 #z_f69r_l008 #z_f69r_l009 #z_f69r_l010" xml:id="u_69r_001">[…]</p>
+        <note type="editorial" corresp="#u_69r_001" xml:lang="cs">Nejde o začátek souvislého textu69r; raw HTR zachováno.</note>
+        <p facs="#z_f69r_l011 #z_f69r_l012 #z_f69r_l013 #z_f69r_l014 #z_f69r_l015 #z_f69r_l016 #z_f69r_l017 #z_f69r_l018" xml:id="u_69r_002">[…] et etiam ante multa pericula imminebunt ecclesiae universae. Circa secundum, scilicet per quos instabunt ista pericula, praedicit apostolus […] quod erunt in ecclesia quidam homines se ipsos amantes per quos instabunt praedicta pericula. Illi autem dicuntur amare se ipsos qui non volunt ab alio corrigi, non tantum ab aliis hominibus volunt corrigi in factis suis licet sint perversa. Unde tales amant se ipsos plus quam veritatem et ita plus quam Deum qui est veritas, Ioannis XIIII. Et dicit Gregorius in Pastorali: Qui perverse vult agere et ad ea quae facit ceteros vult tacere, ipse sibi testis est se plus veritate velle diligi, quam contra se non vult defendi. Item plus diligit se quam Deum qui plus diligit honorem suum quam honorem Dei.</p>
+        <note type="editorial" corresp="#u_69r_002" xml:lang="cs">14–15 mají obtížnou zápornou vazbu; česká mezera ji nezahlazuje. Řehořova citace přečtena z obrazu a rozvedena, nekolacionována s edicí.</note>
+        <p facs="#z_f69r_l019 #z_f69r_l020 #z_f69r_l021 #z_f69r_l022 #z_f69r_l023 #z_f69r_l024 #z_f69r_l025 #z_f69r_l026" xml:id="u_69r_003">[…] Illi Deum diligunt […] ut nomen Dei glorificetur […]. Illi ergo maxime qui in statu perfectionis sunt, et cum honorem suum temporalem etiam cum multorum offendiculo appetunt, ostendunt se plus diligere quam Deum. Ex hoc autem amore sui perverso, quasi ex radice mala, incident illi tales se ipsos amantes in varia genera peccatorum. Aliqui eorum fient cupidi pecuniae vel mundanae gloriae; alii fient elati contra Deum, dum nolunt subesse praelatis sed supponi. Alii fient superbi de honoribus sibi impensis. Alii fient blasphemi in Deum per haereses. Alii fient inoboedientes parentibus, id est praelatis ecclesiae qui eos regeneraverunt. Alii fient ingrati de bonis sibi impensis; alii fient scelesti in gravibus peccatis […].</p>
+        <note type="editorial" corresp="#u_69r_003" xml:lang="cs">Část19 a konec24 neurčitě čitelné; supponi24 možná vyžaduje jiný rozbor. Jde o autorovu morální typologii s glosami k2Tim3, nikoli naše označení současných osob či komunit.</note>
+        <p facs="#z_f69r_l027 #z_f69r_l028 #z_f69r_l029 #z_f69r_l030 #z_f69r_l031 #z_f69r_l032 #z_f69r_l033 #z_f69r_l034 #z_f69r_l035 #z_f69r_l036" xml:id="u_69r_004">[…] qui […] animas suas vel etiam occidunt, vel qui corrigentibus mala pro bonis reddunt. Alii fient sine affectione, non compatiendo infirmis, scilicet peccatoribus, sed potius eos dedignantes. Alii fient criminatores, id est crimen imponentes, vel detractores […] famam maculare volentes vel […] Alii fient incontinentes gulae vel libidinis, non refrenantes malas cupiditates. Alii fient sine benignitate, […] aliis subvenire. Alii fient proditores secretorum alterius dum revelant quae occultanda noverant. Alii fient protervi vel procaces, scilicet quae verecunda essent aliis hominibus inverecunde agentes. Alii fient caeci, I Timothei I: Non intelligentes de quibus affirmant neque de quibus agunt. Alii fient tumidi, scilicet inflato corde. Alii fient voluptatum amatores magis quam Dei et carnales delicias spiritualibus praeponentes.</p>
+        <note type="editorial" corresp="#u_69r_004" xml:lang="cs">27,29,31 zůstávají částečné. HTR má u34 problematický číselný odkaz; zde I je návrhová četba z obrazu, nikoli nezávisle ověřená identifikace citátu.</note>
+        <p facs="#z_f69r_l037 #z_f69r_l038 #z_f69r_l039 #z_f69r_l040 #z_f69r_l041 #z_f69r_l042 #z_f69r_l043" xml:id="u_69r_005">Et ex hoc dicit apostolus his verbis: Et erunt homines se ipsos amantes, cupidi, elati, superbi, blasphemi, parentibus inoboedientes, ingrati, scelesti, sine affectione, sine pace, criminatores, incontinentes, immites, sine benignitate, protervi vel procaces, tumidi, voluptatum amatores magis quam Dei; et exponit Glossa ut dictum est. De quibus autem his generibus peccatorum invenientur aliqui in secta illa per quos instabunt tempora periculosa […] et cum subiungit apostolus: Ex his sunt qui penetrant domos, per quos penetrantes instabunt ista pericula, ut patebit. Qui autem sunt penetrantes domos exponit Glossa […].</p>
+        <note type="editorial" corresp="#u_69r_005" xml:lang="cs">Souhrnný biblický výčet37–39 obsahuje variantní položky a glosové alternativy, které neopravuji podle moderní Bible.40–41 částečné.</note>
+        <p facs="#z_f69r_l044 #z_f69r_l045 #z_f69r_l046 #z_f69r_l047 #z_f69r_l048" xml:id="u_69r_006">Illi autem penetrant domos qui ad litteram ingrediuntur domos eorum quorum regimen animarum ad eos non pertinet et rimantur proprietates, id est secreta eorum; quod non potest fieri nisi ingerant se ad audiendas confessiones eorum. Hoc enim est penetrare domos, […] rimari conscientias eorum quae domus appellantur, Ecclesiastici XXXII: Praecurre prior in domum tuam; Glossa: in domum conscientiae nos recipere. In domum hanc per ostium intrat rector animarum […].</p>
+        <note type="editorial" corresp="#u_69r_006" xml:lang="cs">Vykládání domů jako svědomí směřuje ke sporu o oprávnění ke zpovědi. Text výslovně rozlišuje doslovný vstup a přenesený význam.44–46 drobná slova jsou návrhová.</note>
+        <p facs="#z_f69r_l049 #z_f69r_l050 #z_f69r_l051 #z_f69r_l052 #z_f69r_l053" xml:id="u_69r_007">[…] qui curam habet ab ecclesia sibi commissam. Cui praecipitur, Proverbiorum XXVII: Diligenter agnosce vultum pecoris tui; Glossa: Pastori ecclesiae dicitur: Diligentem curam adhibe subditis quibus te praeesse contingit, animos actusque singulorum considera, et si quid vitii repereris, […] emendare memento. Huic pastori ostium domus debet aperiri per confessionem, iuxta illud Boethii De consolatione philosophiae: Si medicinam exspectas, oportet vulnus detegas.</p>
+        <note type="editorial" corresp="#u_69r_007" xml:lang="cs">Číslo odkazu na Přísloví je rozvedeno jakoXXVII podle viditelné zkratky; raw HTR je nespolehlivé. Boëthiův krátký výrok rozveden z obrazu, neověřen v edici.</note>
+        <p facs="#z_f69r_l054 #z_f69r_l055 #z_f69r_l056 #z_f69r_l057 #z_f69r_l058 #z_f69r_l059" xml:id="u_69r_008">Alienus autem qui curam non habet in hanc domum recipi non debet. Ecclesiastici XI: Non omnem hominem inducas in domum tuam; multae enim sunt insidiae dolosi. Et in eodem: Admitte ad te alienigenam et subvertet te in turbine et abalienabit a viis tuis. Et ideo de tali alieno dicit apostolus […] Quis es qui iudicas servum alienum? Suo domino aut stat aut cadit. Alienus autem si rimatur conscientiam […] alieni, non intrat per ostium domus eius sed aliunde conscendit, et ideo dicitur penetrare domum fraudulenter ut fur […] Ioannis X: Qui non intrat per ostium in ovile […].</p>
+        <note type="editorial" corresp="#u_69r_008" xml:lang="cs">56 biblický odkaz v rukopisu problematický, ponechán mezerou místo tiché korekce. Výroky o cizinci jsou autorovou aplikací na duchovní pravomoc a citacemi, ne moderním doporučením o cizincích.</note>
+        <p facs="#z_f69r_l060 #z_f69r_l061 #z_f69r_l062" xml:id="u_69r_009">[značka] mortuos […]</p>
+        <note type="editorial" corresp="#u_69r_009" xml:lang="cs">61 malé slovo mimo hlavní blok, pravděpodobně část textu sousedního listu, nepřipojeno k větě59.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_69r_001">[Uříznuté zlomky sousedního listu vlevo.]</p>
+        <p corresp="#u_69r_002">[…] A také předtím bude celé církvi hrozit mnoho nebezpečí. K druhému bodu, totiž skrze koho tato nebezpečí nastanou, apoštol […] předpovídá, že budou v církvi lidé milující sami sebe, skrze něž nastanou uvedená nebezpečí. Milovat sami sebe se říká o těch, kdo nechtějí být druhým napravováni […] jinými lidmi ve svých činech, přestože jsou zvrácené. Takoví tedy milují sebe více než pravdu, a tedy více než Boha, který je pravda, Jan14. A Řehoř v Pastorálním pravidle říká: Kdo chce jednat zvráceně a chce, aby ostatní k jeho činům mlčeli, sám si dosvědčuje, že chce být milován více než pravda, kterou proti sobě nechce nechat hájit. Také ten miluje sebe více než Boha, kdo více miluje svou čest než Boží.</p>
+        <p corresp="#u_69r_003">[…] Ti milují Boha […] aby bylo Boží jméno oslaveno […]. Především tedy ti, kdo jsou ve stavu dokonalosti a přitom vyhledávají svou časnou čest i k pohoršení mnohých, ukazují, že milují sebe více než Boha. Z této zvrácené sebelásky jako ze zlého kořene upadnou tito lidé do různých druhů hříchu. Někteří budou chtiví peněz či světské slávy; jiní se budou povyšovat proti Bohu, když nebudou chtít podléhat představeným […]. Jiní budou pyšní na prokázané pocty; jiní se budou Bohu rouhat herezemi; jiní budou neposlušní rodičům, tedy představeným církve, kteří je znovuzrodili. Jiní budou nevděční za přijatá dobrodiní; jiní budou zločinní v těžkých hříších […].</p>
+        <p corresp="#u_69r_004">[…] kteří […] své duše také zabíjejí nebo těm, kdo je napravují, splácejí zlem za dobro. Jiní budou bez přirozeného citu: nebudou mít soucit se slabými, totiž s hříšníky, ale budou jimi spíše pohrdat. Jiní budou pomlouvači, tedy ti, kdo přičítají zločin, nebo nactiutrhači […] chtějící pošpinit pověst či […]. Jiní budou nezdrženliví v jídle nebo tělesné touze a nebudou krotit zlé žádosti. Jiní budou bez laskavosti […] pomoci druhým. Jiní budou zrádci cizích tajemství, když zjeví to, o čem věděli, že má být skryto. Jiní budou drzí či nestoudní: bez studu budou dělat to, za co by se jiní lidé styděli. Jiní budou slepí, první Timoteovi1: Nerozumějí tomu, co tvrdí ani čím se zabývají. Jiní budou nadutí, totiž s nafouklým srdcem; jiní budou milovat rozkoše více než Boha a dávat tělesným potěšením přednost před duchovními.</p>
+        <p corresp="#u_69r_005">Proto apoštol říká: A budou lidé milující sami sebe, chtiví, povznesení, pyšní, rouhači, neposlušní rodičům, nevděční, zločinní, bez citu, bez pokoje, pomlouvači, nezdrženliví, nelítostní, bez laskavosti, drzí či nestoudní, nadutí, milující rozkoše více než Boha; Glosa to vykládá, jak bylo řečeno. Z těchto druhů hříchů se některé najdou v oné skupině, skrze niž nastanou nebezpečné časy […]. A když apoštol dodává: Z nich jsou ti, kdo pronikají do domů, skrze tyto pronikající nastanou ona nebezpečí, jak se ukáže. Kdo jsou ti, kdo pronikají do domů, vykládá Glosa […].</p>
+        <p corresp="#u_69r_006">Do domů pronikají ti, kdo doslovně vstupují do domů těch, jejichž vedení duší k nim nepřísluší, a zkoumají jejich vlastnosti, tedy tajemství. To se nemůže dít, leč že se vnucují k vyslýchání jejich zpovědí. Pronikání do domů totiž znamená […] zkoumat jejich svědomí, která se nazývají domy, Sírachovec32: Pospěš jako první do svého domu; Glosa: Uchýlit se do domu svědomí. Do tohoto domu vstupuje dveřmi správce duší […].</p>
+        <p corresp="#u_69r_007">[…] jemuž církev svěřila péči. Jemu je přikázáno, Přísloví27: Pilně poznej tvář svého stáda; Glosa: Pastýři církve se říká: Věnuj pilnou péči podřízeným, nad nimiž jsi představeným, zvažuj smýšlení a činy jednotlivých lidí, a najdeš-li nějakou vadu, […] pamatuj ji napravit. Tomuto pastýři se mají dveře domu otevřít zpovědí podle Boëthia v Útěše z filosofie: Očekáváš-li lék, musíš odhalit ránu.</p>
+        <p corresp="#u_69r_008">Cizí, který nemá tuto péči svěřenou, nemá být do tohoto domu přijímán. Sírachovec11: Neuváděj do svého domu každého člověka; mnoho je totiž lstí podvodníka. A tamtéž: Přijmi k sobě cizince a rozvrátí tě ve zmatku a odcizí tě tvým cestám. Proto o takovém cizím říká apoštol […] Kdo jsi, že soudíš cizího služebníka? Svému pánu stojí nebo padá. Jestliže cizí prozkoumává svědomí […] jiného, nevstupuje dveřmi jeho domu, nýbrž přelézá odjinud. Proto se o něm říká, že do domu proniká podvodně jako zloděj […], Jan10: Kdo nevchází dveřmi do ovčince […].</p>
+        <p corresp="#u_69r_009">[Okrajová značka; izolované slovo mrtvé a zlomek.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 23v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Breves annotationes theologicae. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_23v_coordinate; PNG SHA256 9091315a62756eb78627bd8c85c533a535b7a77b29098459319f912b31b5a538; archival TIFF SHA256 85664842299afb896336c1aab5d75278404a15b264ebf16ec641ab0321f1fa00; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_23v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#23v"/>
+      <zone ulx="930" uly="631" lrx="3392" lry="796" xml:id="z_f23v_l001"/>
+      <zone ulx="849" uly="743" lrx="3417" lry="880" xml:id="z_f23v_l002"/>
+      <zone ulx="852" uly="827" lrx="3283" lry="948" xml:id="z_f23v_l003"/>
+      <zone ulx="846" uly="908" lrx="3299" lry="1045" xml:id="z_f23v_l004"/>
+      <zone ulx="849" uly="983" lrx="3146" lry="1113" xml:id="z_f23v_l005"/>
+      <zone ulx="3289" uly="1067" lrx="3433" lry="1179" xml:id="z_f23v_l006"/>
+      <zone ulx="837" uly="1067" lrx="3380" lry="1204" xml:id="z_f23v_l007"/>
+      <zone ulx="843" uly="1154" lrx="3324" lry="1306" xml:id="z_f23v_l008"/>
+      <zone ulx="859" uly="1241" lrx="3330" lry="1400" xml:id="z_f23v_l009"/>
+      <zone ulx="862" uly="1331" lrx="3333" lry="1484" xml:id="z_f23v_l010"/>
+      <zone ulx="849" uly="1421" lrx="3327" lry="1568" xml:id="z_f23v_l011"/>
+      <zone ulx="843" uly="1508" lrx="3327" lry="1658" xml:id="z_f23v_l012"/>
+      <zone ulx="837" uly="1586" lrx="3321" lry="1745" xml:id="z_f23v_l013"/>
+      <zone ulx="837" uly="1683" lrx="3321" lry="1826" xml:id="z_f23v_l014"/>
+      <zone ulx="846" uly="1764" lrx="3143" lry="1904" xml:id="z_f23v_l015"/>
+      <zone ulx="3364" uly="1670" lrx="3405" lry="1823" xml:id="z_f23v_l016"/>
+      <zone ulx="3190" uly="1835" lrx="3408" lry="1953" xml:id="z_f23v_l017"/>
+      <zone ulx="843" uly="1841" lrx="3317" lry="2006" xml:id="z_f23v_l018"/>
+      <zone ulx="849" uly="1932" lrx="3436" lry="2103" xml:id="z_f23v_l019"/>
+      <zone ulx="837" uly="2016" lrx="3327" lry="2177" xml:id="z_f23v_l020"/>
+      <zone ulx="834" uly="2115" lrx="3321" lry="2261" xml:id="z_f23v_l021"/>
+      <zone ulx="859" uly="2205" lrx="3358" lry="2330" xml:id="z_f23v_l022"/>
+      <zone ulx="849" uly="2283" lrx="3308" lry="2439" xml:id="z_f23v_l023"/>
+      <zone ulx="837" uly="2376" lrx="3352" lry="2526" xml:id="z_f23v_l024"/>
+      <zone ulx="862" uly="2470" lrx="3380" lry="2622" xml:id="z_f23v_l025"/>
+      <zone ulx="846" uly="2554" lrx="3240" lry="2712" xml:id="z_f23v_l026"/>
+      <zone ulx="846" uly="2641" lrx="3327" lry="2793" xml:id="z_f23v_l027"/>
+      <zone ulx="868" uly="2731" lrx="3324" lry="2890" xml:id="z_f23v_l028"/>
+      <zone ulx="849" uly="2821" lrx="3380" lry="2996" xml:id="z_f23v_l029"/>
+      <zone ulx="846" uly="2912" lrx="3405" lry="3080" xml:id="z_f23v_l030"/>
+      <zone ulx="896" uly="3005" lrx="3349" lry="3167" xml:id="z_f23v_l031"/>
+      <zone ulx="890" uly="3108" lrx="3380" lry="3251" xml:id="z_f23v_l032"/>
+      <zone ulx="865" uly="3192" lrx="3314" lry="3341" xml:id="z_f23v_l033"/>
+      <zone ulx="883" uly="3291" lrx="3314" lry="3416" xml:id="z_f23v_l034"/>
+      <zone ulx="859" uly="3372" lrx="3345" lry="3509" xml:id="z_f23v_l035"/>
+      <zone ulx="877" uly="3459" lrx="3308" lry="3596" xml:id="z_f23v_l036"/>
+      <zone ulx="880" uly="3546" lrx="3308" lry="3699" xml:id="z_f23v_l037"/>
+      <zone ulx="862" uly="3643" lrx="3392" lry="3780" xml:id="z_f23v_l038"/>
+      <zone ulx="868" uly="3724" lrx="3336" lry="3864" xml:id="z_f23v_l039"/>
+      <zone ulx="871" uly="3817" lrx="3317" lry="3951" xml:id="z_f23v_l040"/>
+      <zone ulx="890" uly="3898" lrx="3302" lry="4038" xml:id="z_f23v_l041"/>
+      <zone ulx="874" uly="3991" lrx="3305" lry="4122" xml:id="z_f23v_l042"/>
+      <zone ulx="902" uly="4078" lrx="3311" lry="4215" xml:id="z_f23v_l043"/>
+      <zone ulx="896" uly="4175" lrx="3317" lry="4299" xml:id="z_f23v_l044"/>
+      <zone ulx="883" uly="4259" lrx="3299" lry="4392" xml:id="z_f23v_l045"/>
+      <zone ulx="893" uly="4340" lrx="3342" lry="4557" xml:id="z_f23v_l046"/>
+      <zone ulx="3685" uly="2877" lrx="3881" lry="2992" xml:id="z_f23v_l047"/>
+      <zone ulx="3682" uly="2974" lrx="3884" lry="3095" xml:id="z_f23v_l048"/>
+      <zone ulx="3679" uly="3058" lrx="3884" lry="3176" xml:id="z_f23v_l049"/>
+      <zone ulx="3679" uly="3148" lrx="3881" lry="3272" xml:id="z_f23v_l050"/>
+      <zone ulx="3672" uly="3241" lrx="3887" lry="3369" xml:id="z_f23v_l051"/>
+      <zone ulx="3672" uly="3341" lrx="3887" lry="3496" xml:id="z_f23v_l052"/>
+      <zone ulx="3663" uly="3453" lrx="3884" lry="3565" xml:id="z_f23v_l053"/>
+      <zone ulx="3679" uly="3540" lrx="3887" lry="3658" xml:id="z_f23v_l054"/>
+      <zone ulx="3666" uly="3627" lrx="3887" lry="3739" xml:id="z_f23v_l055"/>
+      <zone ulx="3675" uly="3702" lrx="3884" lry="3826" xml:id="z_f23v_l056"/>
+      <zone ulx="3672" uly="3795" lrx="3887" lry="3904" xml:id="z_f23v_l057"/>
+      <zone ulx="3672" uly="3876" lrx="3878" lry="3991" xml:id="z_f23v_l058"/>
+      <zone ulx="3666" uly="3972" lrx="3884" lry="4072" xml:id="z_f23v_l059"/>
+      <zone ulx="3669" uly="4047" lrx="3890" lry="4184" xml:id="z_f23v_l060"/>
+      <zone ulx="3666" uly="4131" lrx="3887" lry="4268" xml:id="z_f23v_l061"/>
+      <zone ulx="3663" uly="4224" lrx="3884" lry="4349" xml:id="z_f23v_l062"/>
+      <zone ulx="3666" uly="4324" lrx="3881" lry="4427" xml:id="z_f23v_l063"/>
+      <zone ulx="3682" uly="4402" lrx="3837" lry="4579" xml:id="z_f23v_l064"/>
+      <zone ulx="3728" uly="566" lrx="3831" lry="802" xml:id="z_f23v_l065"/>
+      <zone ulx="3735" uly="759" lrx="3881" lry="874" xml:id="z_f23v_l066"/>
+      <zone ulx="3719" uly="843" lrx="3884" lry="964" xml:id="z_f23v_l067"/>
+      <zone ulx="3806" uly="1104" lrx="3847" lry="1235" xml:id="z_f23v_l068"/>
+      <zone ulx="3753" uly="1216" lrx="3850" lry="1322" xml:id="z_f23v_l069"/>
+      <zone ulx="3769" uly="1316" lrx="3822" lry="1412" xml:id="z_f23v_l070"/>
+      <zone ulx="3722" uly="1393" lrx="3862" lry="1508" xml:id="z_f23v_l071"/>
+      <zone ulx="3735" uly="1704" lrx="3763" lry="1810" xml:id="z_f23v_l072"/>
+      <zone ulx="3716" uly="2367" lrx="3834" lry="2454" xml:id="z_f23v_l073"/>
+      <zone ulx="3719" uly="2529" lrx="3738" lry="2824" xml:id="z_f23v_l074"/>
+      <zone ulx="3694" uly="2793" lrx="3865" lry="2890" xml:id="z_f23v_l075"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f23v_l001" xml:id="catmus_f23v_l001"/>
+          <seg type="raw_unreviewed">I hua u dñs. qr oi lc̾itũe ałb̾ pr̃e płat / iux iᵈ Eĩ sbieastĩ s</seg>
+          <lb facs="#z_f23v_l002" xml:id="catmus_f23v_l002"/>
+          <seg type="raw_unreviewed">pedibocꝰ. uniusui ᷑ ꝙ ꝑub̃ adiistoi g̾ dp̃cõis nre ẽ douatꝰ uii ysano</seg>
+          <lb facs="#z_f23v_l003" xml:id="catmus_f23v_l003"/>
+          <seg type="raw_unreviewed">al.Idat/ ẽ ub Rõ 2ͦ ernõ eccꝭ ñ oĩ cũ e̾ cib dõuit Quiceptꝰi ent</seg>
+          <lb facs="#z_f23v_l004" xml:id="catmus_f23v_l004"/>
+          <seg type="raw_unreviewed">Reppũ stõ .a. oꝑatr̃e spũs scĩ eui statĩ ut btũ uͥgo ꝯseusit ilglõ</seg>
+          <lb facs="#z_f23v_l005" xml:id="catmus_f23v_l005"/>
+          <seg type="raw_unreviewed">sts adueiens ꝑtĩcła lecor᷑ illiꝰ absad ͭ. rabẽi uio corruꝑi ͤ ⁊</seg>
+          <lb facs="#z_f23v_l006" xml:id="catmus_f23v_l006"/>
+          <seg type="raw_unreviewed">cqee</seg>
+          <lb facs="#z_f23v_l007" xml:id="catmus_f23v_l007"/>
+          <seg type="raw_unreviewed">mũdaͭ. cui tstũti aũi ẽ ĩsrisa ⁊ dertas iunibte ꝓsõe quicta</seg>
+          <lb facs="#z_f23v_l008" xml:id="catmus_f23v_l008"/>
+          <seg type="raw_unreviewed">ãgłs ait luc iͦ sp̃t sͥ. suꝑ beͣ ͭ.d ͭ q̃ p̾us beu̾t deã ꝑgĩẽ ĩ fusiõ</seg>
+          <lb facs="#z_f23v_l009" xml:id="catmus_f23v_l009"/>
+          <seg type="raw_unreviewed">⁊̃ suꝑueiẽt pꝰoi. ꝑ gͣciẽ pleĩtieꝰ rq̃ pͥus ĩpleu̾at ĩte r̾ple ͭ p ea</seg>
+          <lb facs="#z_f23v_l010" xml:id="catmus_f23v_l010"/>
+          <seg type="raw_unreviewed">uentrẽ. ut uter̃ꝰ uirgĩalis tplũ fie̾t deitutꝭ dnͦ hĩturet ducẽtꝭ</seg>
+          <lb facs="#z_f23v_l011" xml:id="catmus_f23v_l011"/>
+          <seg type="raw_unreviewed">siꝑtua gĩto set diebi .s. ix m̃ẜ ᷝͥr so dieb Et sic ilt I ẽ exea. ait</seg>
+          <lb facs="#z_f23v_l012" xml:id="catmus_f23v_l012"/>
+          <seg type="raw_unreviewed">Us hõ mitꝰi Ciea.rip̃e f. e ali Et sᵈ p̾mꝰ itũ fure̾it dec̾iri ugie</seg>
+          <lb facs="#z_f23v_l013" xml:id="catmus_f23v_l013"/>
+          <seg type="raw_unreviewed">ita scd̾s̃ fie̾t de uͥgie mlre Terci/ ẽ de passiõe. pass/ sõpõcio pilati</seg>
+          <lb facs="#z_f23v_l014" xml:id="catmus_f23v_l014"/>
+          <seg type="raw_unreviewed">dir uã. di̾ora bben̾ rad ultiͣ Inõ mꝑuil ctꝭ torm̃ti. nõ euot</seg>
+          <lb facs="#z_f23v_l015" xml:id="catmus_f23v_l015"/>
+          <seg type="raw_unreviewed">illatu.qr oĩpotũs. biĩ ꝯpħu i sues suos. solo u̾bo suo ꝓstsset</seg>
+          <lb facs="#z_f23v_l016" xml:id="catmus_f23v_l016"/>
+          <seg type="raw_unreviewed">E</seg>
+          <lb facs="#z_f23v_l017" xml:id="catmus_f23v_l017"/>
+          <seg type="raw_unreviewed">puqͣaͭ</seg>
+          <lb facs="#z_f23v_l018" xml:id="catmus_f23v_l018"/>
+          <seg type="raw_unreviewed">ꝯtc̃ta. q2.̃ uocũs. unĩ p̾otat nõ moi. salũ añ pocũ. s exłar̃a ytũte</seg>
+          <lb facs="#z_f23v_l019" xml:id="catmus_f23v_l019"/>
+          <seg type="raw_unreviewed">qr ip̃e beluĩt. unĩ riñ uoluit ĩcliatꝰ cupite̾ srũs obediẽs uszadinortẽ</seg>
+          <lb facs="#z_f23v_l020" xml:id="catmus_f23v_l020"/>
+          <seg type="raw_unreviewed">Badidit spm̃ ubi d ͭ uu̾ Eͥe tñ fuoile. sñ u ͭ dorm ͭ mañ ͥ ndã ĩ fm̾i</seg>
+          <lb facs="#z_f23v_l021" xml:id="catmus_f23v_l021"/>
+          <seg type="raw_unreviewed">tas irdi. ẜ plane sit uirt iuidi ĩ mẽsa / pass/ẽ ecꝭ ũ ꝓpa ucĩlitute</seg>
+          <lb facs="#z_f23v_l022" xml:id="catmus_f23v_l022"/>
+          <seg type="raw_unreviewed">Nr. que creste potuit nõ hũit. s exuini cui̾tte qua dilex nsł</seg>
+          <lb facs="#z_f23v_l023" xml:id="catmus_f23v_l023"/>
+          <seg type="raw_unreviewed">ͦ ut pcr̃m p̾orꝭ ĩobediẽ filiali ut puta epit uni phil̃ 2ͦ sc̃us</seg>
+          <lb facs="#z_f23v_l024" xml:id="catmus_f23v_l024"/>
+          <seg type="raw_unreviewed">bbediẽs pr̃i uẜadiuirtẽ r ͦ ut dia ͦ. potũᵇ ꝑstĩua qquusse̾t. uli hel̃</seg>
+          <lb facs="#z_f23v_l025" xml:id="catmus_f23v_l025"/>
+          <seg type="raw_unreviewed">i ꝓ mortẽ destrux ͭ eñ q̃ hũit mortꝭ ĩpñ 3 ut uos dõ pñ ũ cõl</seg>
+          <lb facs="#z_f23v_l026" xml:id="catmus_f23v_l026"/>
+          <seg type="raw_unreviewed">ciluet uiĩ fõ u. Cũ ĩmua e Ircõcilati sauꝰ ꝑuierte ip̃i filii ͤ</seg>
+          <lb facs="#z_f23v_l027" xml:id="catmus_f23v_l027"/>
+          <seg type="raw_unreviewed">uit ub̃ uni adilu demõst̃iz uĩĩ uct̃. ornos ꝑĩiltas t̾burbatõs itir</seg>
+          <lb facs="#z_f23v_l028" xml:id="catmus_f23v_l028"/>
+          <seg type="raw_unreviewed">ĩ r̾n ^dei. rᵈ ut uob̾ ad aoe̾ suũ accendet. unĩ ozee xi In suniclis</seg>
+          <lb facs="#z_f23v_l029" xml:id="catmus_f23v_l029"/>
+          <seg type="raw_unreviewed">tham cos domllis cãitatꝭ arar iu. aõrꝭ fuit sinĩ ͥ. y uis sua passiqͥe</seg>
+          <lb facs="#z_f23v_l030" xml:id="catmus_f23v_l030"/>
+          <seg type="raw_unreviewed"> deuntꝭ ꝙ̃ ꝙ denichiliõcint Rũ Ecre tui silelaltisse / auoietꝭ ut e uauã</seg>
+          <lb facs="#z_f23v_l031" xml:id="catmus_f23v_l031"/>
+          <seg type="raw_unreviewed">Ided: e abĩsei̾s unĩ ttra dier̾sieꝵͭ amortiũs Eghe u Qui destũti</seg>
+          <lb facs="#z_f23v_l032" xml:id="catmus_f23v_l032"/>
+          <seg type="raw_unreviewed">p̃e ẽ. 2ͥ ascl̃idit Istũdit aũt ĩam q̃ acarue̾ tñi pͥmorte ẽ sepatit</seg>
+          <lb facs="#z_f23v_l033" xml:id="catmus_f23v_l033"/>
+          <seg type="raw_unreviewed">ut carc̾eni ĩfui ꝯͥfring̾et dya lilligu̾et ⁊ stõs libeui ÷. Corcul die</seg>
+          <lb facs="#z_f23v_l034" xml:id="catmus_f23v_l034"/>
+          <seg type="raw_unreviewed">rsiurexit amortius hloiise corꝰ ad oũl redeñte alẽ ddosttoe</seg>
+          <lb facs="#z_f23v_l035" xml:id="catmus_f23v_l035"/>
+          <seg type="raw_unreviewed">ascũdit adcelũ plͦ de̾ p  r ͦ demẽte oliueti ex altitͥ ãt ẽ deot̾i</seg>
+          <lb facs="#z_f23v_l036" xml:id="catmus_f23v_l036"/>
+          <seg type="raw_unreviewed">prĩs i adcnͣlitate pr̃is r diuitate qr ħ ĩuotuit ꝓ Iascũ ͦ eccꝭ in</seg>
+          <lb facs="#z_f23v_l037" xml:id="catmus_f23v_l037"/>
+          <seg type="raw_unreviewed">pocid̾ibi bonis prĩs rii huai ͣ  suꝑ õs celes ⁊ suꝑ õs choros ãglõ ꝵ̾</seg>
+          <lb facs="#z_f23v_l038" xml:id="catmus_f23v_l038"/>
+          <seg type="raw_unreviewed">Quectus ẽ uiĩ ait ysa uit ꝯsurgũ amortius resgñdi. nẽ waltulor</seg>
+          <lb facs="#z_f23v_l039" xml:id="catmus_f23v_l039"/>
+          <seg type="raw_unreviewed">ad̾celos ascũdũdo nc sbliãbor adindioũberẽndo i b/ ẽ de aduẽtu n</seg>
+          <lb facs="#z_f23v_l040" xml:id="catmus_f23v_l040"/>
+          <seg type="raw_unreviewed">indiciu Inde uen ẽn u. riu in ꝓbĩte mĩi ⁊ miieiͭͤ bitibis nibil</seg>
+          <lb facs="#z_f23v_l041" xml:id="catmus_f23v_l041"/>
+          <seg type="raw_unreviewed">nĩcedũtibi. agłic̃ u̾tutib .2. iflagrãtib ebenĩtꝭ. ue̾icile umios ⁊</seg>
+          <lb facs="#z_f23v_l042" xml:id="catmus_f23v_l042"/>
+          <seg type="raw_unreviewed">mortuos .i. malos ⁊ bonos nullos diỹ⁊ bd̃s saluũdo md̾e suꝑer</seg>
+          <lb facs="#z_f23v_l043" xml:id="catmus_f23v_l043"/>
+          <seg type="raw_unreviewed">ualle Raphat mx̃ ꝓphe  yoheł ultũo. ⁊ qggabũ anĩ cũ abĩgłis</seg>
+          <lb facs="#z_f23v_l044" xml:id="catmus_f23v_l044"/>
+          <seg type="raw_unreviewed">os gũtes ut õs ĩl fuit miegne cuie absq acceptu ͦ   ꝑ sõꝵ upi re</seg>
+          <lb facs="#z_f23v_l045" xml:id="catmus_f23v_l045"/>
+          <seg type="raw_unreviewed">ldiᵈ ppłs sĩ sac̾dos ⁊st dñs sĩ s̃irꝰ er inõ defendet eos is Nulla t̾</seg>
+          <lb facs="#z_f23v_l046" xml:id="catmus_f23v_l046"/>
+          <seg type="raw_unreviewed">ibi pot̾it u̾sucia suffragili. n ibi dissilitudo elt. bbi ẽ redñda raciode</seg>
+          <lb facs="#z_f23v_l047" xml:id="catmus_f23v_l047"/>
+          <seg type="raw_unreviewed">ADMPTAU</seg>
+          <lb facs="#z_f23v_l048" xml:id="catmus_f23v_l048"/>
+          <seg type="raw_unreviewed">l anpo.</seg>
+          <lb facs="#z_f23v_l049" xml:id="catmus_f23v_l049"/>
+          <seg type="raw_unreviewed">bñ ł apł R</seg>
+          <lb facs="#z_f23v_l050" xml:id="catmus_f23v_l050"/>
+          <seg type="raw_unreviewed">ni eãrbe</seg>
+          <lb facs="#z_f23v_l051" xml:id="catmus_f23v_l051"/>
+          <seg type="raw_unreviewed">sũ qr uiiͣ</seg>
+          <lb facs="#z_f23v_l052" xml:id="catmus_f23v_l052"/>
+          <seg type="raw_unreviewed">panissõe</seg>
+          <lb facs="#z_f23v_l053" xml:id="catmus_f23v_l053"/>
+          <seg type="raw_unreviewed">iuduii</seg>
+          <lb facs="#z_f23v_l054" xml:id="catmus_f23v_l054"/>
+          <seg type="raw_unreviewed">quib st̃ q</seg>
+          <lb facs="#z_f23v_l055" xml:id="catmus_f23v_l055"/>
+          <seg type="raw_unreviewed">stusũã ed</seg>
+          <lb facs="#z_f23v_l056" xml:id="catmus_f23v_l056"/>
+          <seg type="raw_unreviewed">c̃ euka</seg>
+          <lb facs="#z_f23v_l057" xml:id="catmus_f23v_l057"/>
+          <seg type="raw_unreviewed"> su̾it al</seg>
+          <lb facs="#z_f23v_l058" xml:id="catmus_f23v_l058"/>
+          <seg type="raw_unreviewed">I desuti</seg>
+          <lb facs="#z_f23v_l059" xml:id="catmus_f23v_l059"/>
+          <seg type="raw_unreviewed">Pliqu du</seg>
+          <lb facs="#z_f23v_l060" xml:id="catmus_f23v_l060"/>
+          <seg type="raw_unreviewed">Nũ dude.</seg>
+          <lb facs="#z_f23v_l061" xml:id="catmus_f23v_l061"/>
+          <seg type="raw_unreviewed">olgb ã fue</seg>
+          <lb facs="#z_f23v_l062" xml:id="catmus_f23v_l062"/>
+          <seg type="raw_unreviewed">T Nul dr̃</seg>
+          <lb facs="#z_f23v_l063" xml:id="catmus_f23v_l063"/>
+          <seg type="raw_unreviewed">uf uil oas</seg>
+          <lb facs="#z_f23v_l064" xml:id="catmus_f23v_l064"/>
+          <seg type="raw_unreviewed">S</seg>
+          <lb facs="#z_f23v_l065" xml:id="catmus_f23v_l065"/>
+          <seg type="raw_unreviewed">s̃tb</seg>
+          <lb facs="#z_f23v_l066" xml:id="catmus_f23v_l066"/>
+          <seg type="raw_unreviewed">ere dhs</seg>
+          <lb facs="#z_f23v_l067" xml:id="catmus_f23v_l067"/>
+          <seg type="raw_unreviewed">Rĩ pucłi</seg>
+          <lb facs="#z_f23v_l068" xml:id="catmus_f23v_l068"/>
+          <seg type="raw_unreviewed">s</seg>
+          <lb facs="#z_f23v_l069" xml:id="catmus_f23v_l069"/>
+          <seg type="raw_unreviewed">cell</seg>
+          <lb facs="#z_f23v_l070" xml:id="catmus_f23v_l070"/>
+          <seg type="raw_unreviewed">.</seg>
+          <lb facs="#z_f23v_l071" xml:id="catmus_f23v_l071"/>
+          <seg type="raw_unreviewed">ch Si</seg>
+          <lb facs="#z_f23v_l072" xml:id="catmus_f23v_l072"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_f23v_l073" xml:id="catmus_f23v_l073"/>
+          <seg type="raw_unreviewed">acripil</seg>
+          <lb facs="#z_f23v_l074" xml:id="catmus_f23v_l074"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f23v_l075" xml:id="catmus_f23v_l075"/>
+          <seg type="raw_unreviewed">uno ppn</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f23v_l001" xml:id="medusa_f23v_l001"/>
+          <seg type="raw_unreviewed">hũam nr̃ dñs. qr oiꝰ c̃cũture ad p̃re plati nux iᵈ eiꝰ s̾uecisti s</seg>
+          <lb facs="#z_f23v_l002" xml:id="medusa_f23v_l002"/>
+          <seg type="raw_unreviewed">pedibus eius universis quod pro nobis administratoribus r̃dempcionis nostre eodem</seg>
+          <lb facs="#z_f23v_l003" xml:id="medusa_f23v_l003"/>
+          <seg type="raw_unreviewed">filii . Datum est sub ronte P. ͦ episcopo Trecensi ordinarie cum cruce dominitur Trecingense scriptum est</seg>
+          <lb facs="#z_f23v_l004" xml:id="medusa_f23v_l004"/>
+          <seg type="raw_unreviewed">deipnũ scõ .i. oꝑacione spũs stĩ Qui statim ut bt̃a u̾go consensit atqͥbõ</seg>
+          <lb facs="#z_f23v_l005" xml:id="medusa_f23v_l005"/>
+          <seg type="raw_unreviewed">scs̃ adueniens particulam decore illius abstidit. a boni uiri corrumpere</seg>
+          <lb facs="#z_f23v_l006" xml:id="medusa_f23v_l006"/>
+          <seg type="raw_unreviewed">ccoe</seg>
+          <lb facs="#z_f23v_l007" xml:id="medusa_f23v_l007"/>
+          <seg type="raw_unreviewed">nũdat cui instãti aũ ẽ ip̃usa ⁊ dextas ĩ unitate ꝑsõe quĩcta</seg>
+          <lb facs="#z_f23v_l008" xml:id="medusa_f23v_l008"/>
+          <seg type="raw_unreviewed">angl̃s int luc̃ 1ᵒ spc̃ sͥ. suꝑb⟦e⟧et. dᵗ qͥ p̾us leu̾at deã ꝑ gr̃e ĩ fusiõ</seg>
+          <lb facs="#z_f23v_l009" xml:id="medusa_f23v_l009"/>
+          <seg type="raw_unreviewed">sunt superuerunt pꝰea . p. gracie plenitudine et que prius inplenuerunt in. te. r. plenitudine pꝰea</seg>
+          <lb facs="#z_f23v_l010" xml:id="medusa_f23v_l010"/>
+          <seg type="raw_unreviewed">de uentrem ut uterius uirginalis tempulm fieret de tutis iiiiͦ habitaret ducẽtis</seg>
+          <lb facs="#z_f23v_l011" xml:id="medusa_f23v_l011"/>
+          <seg type="raw_unreviewed">septuaginta sex diebus scilicet ix mensibus et sex diebus et sic nisi est ex ea. aut</seg>
+          <lb facs="#z_f23v_l012" xml:id="medusa_f23v_l012"/>
+          <seg type="raw_unreviewed">ps hõ multꝰ t̃ in ea . 2 ip̃e f. e. ab̃ . Et scd̃ p̃mꝰ actũ fuerit de t̾ri utre</seg>
+          <lb facs="#z_f23v_l013" xml:id="medusa_f23v_l013"/>
+          <seg type="raw_unreviewed">ita scds̃ fiet de b̃gie milie Tercii est de passione. passus sub pocrio pilato</seg>
+          <lb facs="#z_f23v_l014" xml:id="medusa_f23v_l014"/>
+          <seg type="raw_unreviewed">dura u. a. duiora ubera . et ad ultum non apparuit erator tormenti . non exnati</seg>
+          <lb facs="#z_f23v_l015" xml:id="medusa_f23v_l015"/>
+          <seg type="raw_unreviewed">illata qr om̃ipotens . bñ ꝯphũsores suos . solo u̾bo suo ꝓstẽt et /</seg>
+          <lb facs="#z_f23v_l016" xml:id="medusa_f23v_l016"/>
+          <seg type="raw_unreviewed">e</seg>
+          <lb facs="#z_f23v_l017" xml:id="medusa_f23v_l017"/>
+          <seg type="raw_unreviewed">expunict</seg>
+          <lb facs="#z_f23v_l018" xml:id="medusa_f23v_l018"/>
+          <seg type="raw_unreviewed">ꝯtͣcta . 12 in uocũs . uñ potest nõ moˢˢ. 1ᵉ ałi añ pccm̃. s expla᷑ potestate</seg>
+          <lb facs="#z_f23v_l019" xml:id="medusa_f23v_l019"/>
+          <seg type="raw_unreviewed">quia ipse uoluit . unde et inde uoluit in claustris capite fratres obedientes usque ad mortem</seg>
+          <lb facs="#z_f23v_l020" xml:id="medusa_f23v_l020"/>
+          <seg type="raw_unreviewed">tradidit spiritũ ubi dᵗ u̾n Qͥs tñ facile . sñ wᵗ dormiᵗ manᵗ qdã ĩ fin</seg>
+          <lb facs="#z_f23v_l021" xml:id="medusa_f23v_l021"/>
+          <seg type="raw_unreviewed">tas moͥ . s. plane sit uirtu moͥ ĩ mẽsa pass. ẽ cccꝭ ũ ꝓpͥa uacilitate</seg>
+          <lb facs="#z_f23v_l022" xml:id="medusa_f23v_l022"/>
+          <seg type="raw_unreviewed">quod creste potuit nõ hũit . s. eximuit caritate quia dilexit nos</seg>
+          <lb facs="#z_f23v_l023" xml:id="medusa_f23v_l023"/>
+          <seg type="raw_unreviewed">3° ut peccatum patrum in obediẽ filiali ut puta exposita unde p̃hsid 2.0 facit</seg>
+          <lb facs="#z_f23v_l024" xml:id="medusa_f23v_l024"/>
+          <seg type="raw_unreviewed">obediẽs pr̃i uẜ ad mortẽ 2.0 ut diu potu᷑ꝭ ꝑstrum ꝯquassent . uii lb</seg>
+          <lb facs="#z_f23v_l025" xml:id="medusa_f23v_l025"/>
+          <seg type="raw_unreviewed">2o ꝑ mortẽ destruxit eũ . qͥ habuit mortꝭ ip̃m . 3o ut nos deus pñ r̾co</seg>
+          <lb facs="#z_f23v_l026" xml:id="medusa_f23v_l026"/>
+          <seg type="raw_unreviewed">cilii et ui fo u Cũ immici e rconciliati sumi per mortem ipsi filii</seg>
+          <lb facs="#z_f23v_l027" xml:id="medusa_f23v_l027"/>
+          <seg type="raw_unreviewed">ut nobis unum ad huiusmodi demonstracionem . Unde actum est quod nos per multas tribulationes ire</seg>
+          <lb facs="#z_f23v_l028" xml:id="medusa_f23v_l028"/>
+          <seg type="raw_unreviewed">in regno dei etc. ut nos ad aorem suum accenderet. Gn. m. xx in funiculis</seg>
+          <lb facs="#z_f23v_l029" xml:id="medusa_f23v_l029"/>
+          <seg type="raw_unreviewed">tamen eos in vinculis caritatis martirium auctoritate fuit signatum quod nos sua passione</seg>
+          <lb facs="#z_f23v_l030" xml:id="medusa_f23v_l030"/>
+          <seg type="raw_unreviewed">r̃demitꝭ ꝙ demchiliõ c̃iuit Ruͥ. Ego tu filius altissꝭ moieris ut eͦ unũ</seg>
+          <lb facs="#z_f23v_l031" xml:id="medusa_f23v_l031"/>
+          <seg type="raw_unreviewed">de 2ᵒʳ abiseis . viiᵗᵃ sua die resurrexit a mortuis ephe̾ uͥ Qui de scuda</seg>
+          <lb facs="#z_f23v_l032" xml:id="medusa_f23v_l032"/>
+          <seg type="raw_unreviewed">p̃e ẽ. 2. ꝗ a scidit p̃scindit aut̃ ĩ anĩ q̃ a carne cũ p̃mortẽ ẽ separa</seg>
+          <lb facs="#z_f23v_l033" xml:id="medusa_f23v_l033"/>
+          <seg type="raw_unreviewed">ut carcerii ĩf̃m ꝯfringeret . dyabolus illigeret ⁊ scõs liberetur . Tercia die</seg>
+          <lb facs="#z_f23v_l034" xml:id="medusa_f23v_l034"/>
+          <seg type="raw_unreviewed">resurrexit a mortuis gloriose cor. I ad omñ redente / 111 edo ꝯstacioe</seg>
+          <lb facs="#z_f23v_l035" xml:id="medusa_f23v_l035"/>
+          <seg type="raw_unreviewed">Ascundit ad celum xl° die pꝰ fr ͦ de monte olivetii ex altare ante est .</seg>
+          <lb facs="#z_f23v_l036" xml:id="medusa_f23v_l036"/>
+          <seg type="raw_unreviewed">p̃ris .i. ad eumlitatem patris ⁊ filii diuinitatem qr hᶜ ĩnotuit p. 1 asc̃mᵒʳ eccꝭ in</seg>
+          <lb facs="#z_f23v_l037" xml:id="medusa_f23v_l037"/>
+          <seg type="raw_unreviewed">pocioribus bonis patris ⁊ filii hũanẽm super os celos ⁊ super os choros ãglorum</seg>
+          <lb facs="#z_f23v_l038" xml:id="medusa_f23v_l038"/>
+          <seg type="raw_unreviewed">euectus ẽ uñ ait ysa wic ꝯsurgũ a mortuis reszñdo. nc ex altabꝰ</seg>
+          <lb facs="#z_f23v_l039" xml:id="medusa_f23v_l039"/>
+          <seg type="raw_unreviewed">ad celos ascensuendo / nc̃ solũbor ad iudiciũ uerendo / b) ẽ de aduentu m</seg>
+          <lb facs="#z_f23v_l040" xml:id="medusa_f23v_l040"/>
+          <seg type="raw_unreviewed">indicum inde ben. ẽ u u. ⁊ in ii p̃sente nr̃i ⁊ maneste u̾i milis milia</seg>
+          <lb facs="#z_f23v_l041" xml:id="medusa_f23v_l041"/>
+          <seg type="raw_unreviewed">nũcedũtibus anglicꝭ u̾tutibus ⁊ flagrantibus elem̃tis medicine uiros ⁊</seg>
+          <lb facs="#z_f23v_l042" xml:id="medusa_f23v_l042"/>
+          <seg type="raw_unreviewed">mortuos .i. malos ⁊ bonos malos damp̃dos bõos saluando in aͥe super</seg>
+          <lb facs="#z_f23v_l043" xml:id="medusa_f23v_l043"/>
+          <seg type="raw_unreviewed">valle yzaphat iux̃ ꝓpheⁿⁱ yohel ultimo ⁊ iohgabũ iiii eũ ab. ĩtłia</seg>
+          <lb facs="#z_f23v_l044" xml:id="medusa_f23v_l044"/>
+          <seg type="raw_unreviewed">os gũtes ut os ĩt fuit magne cure absque acceptacio per sor ipsi re</seg>
+          <lb facs="#z_f23v_l045" xml:id="medusa_f23v_l045"/>
+          <seg type="raw_unreviewed">did p̃poᷤᷤs s⁊ sac̾dos ⁊ s⁊ dñs s⁊ s̃uiꝰ erꝭ nõ defendet eos m̃s. Nulla e</seg>
+          <lb facs="#z_f23v_l046" xml:id="medusa_f23v_l046"/>
+          <seg type="raw_unreviewed">ibi poterit uersucia suffragari. nibi dissilitudo est. ubi ẽ redũcta racio de</seg>
+          <lb facs="#z_f23v_l047" xml:id="medusa_f23v_l047"/>
+          <seg type="raw_unreviewed">adumbra</seg>
+          <lb facs="#z_f23v_l048" xml:id="medusa_f23v_l048"/>
+          <seg type="raw_unreviewed">in hoc corpore</seg>
+          <lb facs="#z_f23v_l049" xml:id="medusa_f23v_l049"/>
+          <seg type="raw_unreviewed">dũ apł R.</seg>
+          <lb facs="#z_f23v_l050" xml:id="medusa_f23v_l050"/>
+          <seg type="raw_unreviewed">ñ ẽ m̃bꝭ</seg>
+          <lb facs="#z_f23v_l051" xml:id="medusa_f23v_l051"/>
+          <seg type="raw_unreviewed">tũ qr uir</seg>
+          <lb facs="#z_f23v_l052" xml:id="medusa_f23v_l052"/>
+          <seg type="raw_unreviewed">remissione</seg>
+          <lb facs="#z_f23v_l053" xml:id="medusa_f23v_l053"/>
+          <seg type="raw_unreviewed">commun</seg>
+          <lb facs="#z_f23v_l054" xml:id="medusa_f23v_l054"/>
+          <seg type="raw_unreviewed">quib: sc̃i q</seg>
+          <lb facs="#z_f23v_l055" xml:id="medusa_f23v_l055"/>
+          <seg type="raw_unreviewed">in tuncum in ex</seg>
+          <lb facs="#z_f23v_l056" xml:id="medusa_f23v_l056"/>
+          <seg type="raw_unreviewed">mi ẽ enka</seg>
+          <lb facs="#z_f23v_l057" xml:id="medusa_f23v_l057"/>
+          <seg type="raw_unreviewed">cunt a</seg>
+          <lb facs="#z_f23v_l058" xml:id="medusa_f23v_l058"/>
+          <seg type="raw_unreviewed">libi debita</seg>
+          <lb facs="#z_f23v_l059" xml:id="medusa_f23v_l059"/>
+          <seg type="raw_unreviewed">sluͤw die</seg>
+          <lb facs="#z_f23v_l060" xml:id="medusa_f23v_l060"/>
+          <seg type="raw_unreviewed">min dnoe</seg>
+          <lb facs="#z_f23v_l061" xml:id="medusa_f23v_l061"/>
+          <seg type="raw_unreviewed">eligunt in suis</seg>
+          <lb facs="#z_f23v_l062" xml:id="medusa_f23v_l062"/>
+          <seg type="raw_unreviewed">e una an</seg>
+          <lb facs="#z_f23v_l063" xml:id="medusa_f23v_l063"/>
+          <seg type="raw_unreviewed">ut u̾a ex m</seg>
+          <lb facs="#z_f23v_l064" xml:id="medusa_f23v_l064"/>
+          <seg type="raw_unreviewed">r. 333</seg>
+          <lb facs="#z_f23v_l065" xml:id="medusa_f23v_l065"/>
+          <seg type="raw_unreviewed">in</seg>
+          <lb facs="#z_f23v_l066" xml:id="medusa_f23v_l066"/>
+          <seg type="raw_unreviewed">merean</seg>
+          <lb facs="#z_f23v_l067" xml:id="medusa_f23v_l067"/>
+          <seg type="raw_unreviewed">21 puncta</seg>
+          <lb facs="#z_f23v_l068" xml:id="medusa_f23v_l068"/>
+          <seg type="raw_unreviewed">2. la</seg>
+          <lb facs="#z_f23v_l069" xml:id="medusa_f23v_l069"/>
+          <seg type="raw_unreviewed">corda</seg>
+          <lb facs="#z_f23v_l070" xml:id="medusa_f23v_l070"/>
+          <seg type="raw_unreviewed">d̶.</seg>
+          <lb facs="#z_f23v_l071" xml:id="medusa_f23v_l071"/>
+          <seg type="raw_unreviewed">Iohannem om</seg>
+          <lb facs="#z_f23v_l072" xml:id="medusa_f23v_l072"/>
+          <seg type="raw_unreviewed">in</seg>
+          <lb facs="#z_f23v_l073" xml:id="medusa_f23v_l073"/>
+          <seg type="raw_unreviewed">vacua</seg>
+          <lb facs="#z_f23v_l074" xml:id="medusa_f23v_l074"/>
+          <seg type="raw_unreviewed">b</seg>
+          <lb facs="#z_f23v_l075" xml:id="medusa_f23v_l075"/>
+          <seg type="raw_unreviewed">uno spon</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f23v_l001 #z_f23v_l002 #z_f23v_l003" xml:id="u_23v_001">[...] et [...] noster Dominus, quia omnem creaturam [...] Pater [...] iuxta illud: Omnia subiecisti sub pedibus eius. [...] quod per opus redemptionis nostrae est donatus [...]. Ad Romanos [...]: Quomodo non etiam cum eo omnia nobis donavit?</p>
+        <note type="editorial" corresp="#u_23v_001" xml:lang="cs">Zakončení předchozí věty z23r. Přesná vazba o vlastnictví stvoření a darování je silně zkrácená; přeloženy jen čitelné části.</note>
+        <p facs="#z_f23v_l004 #z_f23v_l005 #z_f23v_l006 #z_f23v_l007 #z_f23v_l008" xml:id="u_23v_002">Qui conceptus est de Spiritu Sancto, id est operatione Spiritus Sancti; eius statim ut beata Virgo consensit, [...] adveniens particulam decoris illius [...] ab omni [...] et [...] mundavit, [...] et deitatis unitate personae unita [...]. Angelus ait Lucae I: Spiritus Sanctus superveniet [...], qui prius beatam Virginem [...].</p>
+        <note type="editorial" corresp="#u_23v_002" xml:lang="cs">Tělesně a christologicky formulované věty mají nejasná slova. Netvrdím jako jisté, jaký přesný materiál či část těla autor míní. Segment6 je úlomek navazujícího řádku, nikoli samostatná věta.</note>
+        <p facs="#z_f23v_l009 #z_f23v_l010 #z_f23v_l011 #z_f23v_l012 #z_f23v_l013" xml:id="u_23v_003">[...] per gratiae plenitudinem, qui prius impleverat mentem, replevit [...] ventrem, ut uterus virginalis templum fieret deitatis; [...] ducentis septuaginta sex diebus, scilicet IX mensibus et sex diebus [?]. Et sic [...] ex ea [...]. Et sicut primus Adam [...] fuerat de terra virgine, ita secundus fieret de virgine matre. Tertius est de passione: Passus sub Pontio Pilato …</p>
+        <note type="editorial" corresp="#u_23v_003" xml:lang="cs">Délka těhotenství je návrhové čtení skutečných číslovek, ne převzatý biologický ani teologický údaj. IX a šest dní jsou viditelné; přesné první číslovky vyžadují revizi. Nesoulad nepřepočítávám ani neopravím podle očekávání.</note>
+        <p facs="#z_f23v_l014 #z_f23v_l015 #z_f23v_l016 #z_f23v_l017 #z_f23v_l018 #z_f23v_l019 #z_f23v_l020" xml:id="u_23v_004">… crucifixus, mortuus et sepultus. Non enim moriendi [...] tormenti [...] omnipotens; [...] persecutores suos solo verbo suo [...] interficere potuit. [...] quia ipse voluit. Unde cum voluit, inclinato capite, factus obediens usque ad mortem, tradidit spiritum. Augustinus dicit: [...] tam facile [...] sicut [...] dormire [...].</p>
+        <note type="editorial" corresp="#u_23v_004" xml:lang="cs">Úmyslnost utrpení je v obraze čitelná; předchozí argumentace a augustinovské přirovnání zůstávají fragmentární. Segmenty16–17 jsou krátké výřezy téže oblasti, nepřidávají nový text.</note>
+        <p facs="#z_f23v_l021 #z_f23v_l022 #z_f23v_l023 #z_f23v_l024 #z_f23v_l025 #z_f23v_l026 #z_f23v_l027" xml:id="u_23v_005">[...] plane sit virtus [...] immensa. Passus est etiam non propter vilitatem [...] quia resistere potuit, non tamen [...], sed ex nimia caritate qua dilexit nos. Primo ut peccatum prioris inoboedientiae [...] sanaret [...], Philippensium II: Factus obediens Patri usque ad mortem. Secundo ut diaboli potentiam [...] quassaret, Hebraeorum II: Per mortem destruxit eum qui habuit mortis imperium. Tertio ut nos Deo Patri reconciliaret, Romanorum V: Cum inimici essemus, reconciliati sumus per mortem ipsius Filii. Quarto ut [...] demonstraret [...]: Per multas tribulationes intrare in regnum Dei.</p>
+        <note type="editorial" corresp="#u_23v_005" xml:lang="cs">Dochovaná čtveřice důvodů Kristovy smrti je přeložena podle zápisu. Přesné formulace čtvrtého důvodu i některé spojnice citací jsou nedočtené.</note>
+        <p facs="#z_f23v_l028 #z_f23v_l029 #z_f23v_l030 #z_f23v_l031 #z_f23v_l032 #z_f23v_l033 #z_f23v_l034" xml:id="u_23v_006">Quinto ut nos ad amorem suum accenderet. Unde Osee XI: In funiculis [...] traham eos, vinculis caritatis [...]. [...] amore fuit [...] qui nos sua passione [...] dilexit [...]. [...] Descendit in inferiores partes terrae, id est ad mortuos, Ephesiorum IV: Qui descendit ipse est [...]. Descendit autem in anima, quae a carne tantum per mortem est separata, ut carcerem inferni confringeret, diabolum alligaret et sanctos liberaret. Tertia die resurrexit a mortuis, [...] corpore ad [...] redeunte anima [...].</p>
+        <note type="editorial" corresp="#u_23v_006" xml:lang="cs">Věty o lásce na29–31 a technické spojení těla s duší na34 jsou nejisté. Výklad sestoupení překládám jako teologické tvrzení textu; žádný další děj nedoplňuji.</note>
+        <p facs="#z_f23v_l035 #z_f23v_l036 #z_f23v_l037 #z_f23v_l038 #z_f23v_l039" xml:id="u_23v_007">Ascendit ad caelum, [...] de monte Oliveti [...]. Sedet ad dexteram Patris, id est ad aequalitatem Patris in divinitate; vel hoc innuitur per [...] in possidendis bonis Patris in humanitate, super omnes caelos et super omnes choros angelorum. [...] ait Isaias: Nunc consurgam, a mortuis resurgendo; nunc exaltabor, ad caelos ascendendo; nunc sublimabor, ad iudicium veniendo.</p>
+        <note type="editorial" corresp="#u_23v_007" xml:lang="cs">Čtení sedí po pravici má symbolický výklad přímo v rukopisu. Nejasný počátek a předložkovou vazbu o dobrech ponechávám s mezerami. Trojice citace a vysvětlivek je čitelná.</note>
+        <p facs="#z_f23v_l040 #z_f23v_l041 #z_f23v_l042 #z_f23v_l043 #z_f23v_l044 #z_f23v_l045 #z_f23v_l046" xml:id="u_23v_008">[...] est de adventu in iudicium: Inde venturus [...] in potestate magna et maiestate, tribubus nihilominus [...] angelicis virtutibus et flagrantibus elementis, iudicare vivos et mortuos, id est malos et bonos, malos damnando et bonos salvando; [...] super vallem Iosaphat iuxta prophetam Iohel ultimo: Congregabo [...] omnes gentes, ut omnes [...] sine acceptione personarum [...]. Erit populus sicut sacerdos et [...] dominus sicut servus; [...] non defendet eos [...]. Nulla ibi poterit versutia suffragari; nulli dissimulatio est; ibi reddenda ratio de …</p>
+        <note type="editorial" corresp="#u_23v_008" xml:lang="cs">Závěr přechází na24r. Úvodní popis příchodu a část Joelovy citace mají mezery. Tvrzení o soudu je přeloženo jako obsah rukopisu, bez vlastního doplňování apokalyptického děje.</note>
+        <p facs="#z_f23v_l047 #z_f23v_l048 #z_f23v_l049 #z_f23v_l050 #z_f23v_l051 #z_f23v_l052 #z_f23v_l053 #z_f23v_l054 #z_f23v_l055 #z_f23v_l056 #z_f23v_l057 #z_f23v_l058 #z_f23v_l059 #z_f23v_l060 #z_f23v_l061 #z_f23v_l062 #z_f23v_l063 #z_f23v_l064 #z_f23v_l065 #z_f23v_l066 #z_f23v_l067 #z_f23v_l068 #z_f23v_l069 #z_f23v_l070 #z_f23v_l071 #z_f23v_l072 #z_f23v_l073 #z_f23v_l074 #z_f23v_l075" xml:id="u_23v_009">[Fragmenta paginae oppositae; textus ad f23v non pertinens.]</p>
+        <note type="editorial" corresp="#u_23v_009" xml:lang="cs">Všechny pásy47–75 byly skutečně otevřeny. Jsou to úzké výřezy pravého okraje skenu, na přehledu zřetelně patří sousední stránce. Nezapojuji je do rekonstrukce23v ani z neúplných slov nevytvářím věty. Je nutná oprava segmentace či maskování sousední stránky.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_23v_001">[…] a […] náš Pán, protože všechno stvoření […] Otec […], podle výroku: Všechno jsi podřídil pod jeho nohy. […] skrze dílo našeho vykoupení byl darován […]. V Římanům […]: Jak by nám s ním nedaroval i všechno ostatní?</p>
+        <p corresp="#u_23v_002">Jenž se počal z Ducha svatého, to znamená působením Ducha svatého. Jakmile blahoslavená Panna souhlasila, […] přišel a částečku […] očistil od každé […] a […], sjednocenou s božstvím v jednotě osoby […]. Anděl říká v1. kapitole Lukáše: Duch svatý sestoupí […], který předtím blahoslavenou Pannu […].</p>
+        <p corresp="#u_23v_003">[…] skrze plnost milosti: kdo předtím naplnil mysl, naplnil i […] lůno, aby se panenská děloha stala chrámem božství; […] dvě stě sedmdesát šest dní, totiž devět měsíců a šest dní [?]. A tak […] z ní […]. Jako první Adam […] povstal z panenské země, tak druhý povstal z panenské matky. Třetí článek je o utrpení: Trpěl pod Pontským Pilátem …</p>
+        <p corresp="#u_23v_004">… ukřižován, zemřel a pohřben. Ne totiž […] muka smrti […], neboť je všemohoucí a své pronásledovatele mohl jediným slovem […] zahubit. […] protože sám chtěl. Když chtěl, sklonil hlavu, stal se poslušným až k smrti a odevzdal ducha. Augustin říká: […] tak snadno […] jako […] usnout […].</p>
+        <p corresp="#u_23v_005">[…] je zjevně […] nesmírná moc. Netrpěl kvůli slabosti […], mohl se bránit, avšak […] z nesmírné lásky, kterou si nás zamiloval. Zaprvé aby uzdravil hřích původní neposlušnosti […], v2. kapitole Filipským: Stal se poslušným Otci až k smrti. Zadruhé aby otřásl ďáblovou mocí, v2. kapitole Židům: Smrtí zničil toho, kdo měl vládu smrti. Zatřetí aby nás smířil s Bohem Otcem, v5. kapitole Římanům: Když jsme byli nepřáteli, byli jsme smířeni smrtí jeho Syna. Začtvrté aby […] ukázal […]: Mnohým soužením se vstupuje do Božího království.</p>
+        <p corresp="#u_23v_006">Zapáté aby nás roznítil k lásce k sobě. V11. kapitole Ozeáše: Provázky […] je potáhnu, pouty lásky […]. […] miloval […] který nás svým utrpením […] miloval […]. Sestoupil do nižších částí země, totiž k mrtvým, ve4. kapitole Efezským: Ten, který sestoupil, je tentýž […]. Sestoupil duší, která byla smrtí oddělena pouze od těla, aby rozbil žalář podsvětí, spoutal ďábla a osvobodil svaté. Třetího dne vstal z mrtvých, […] tělo […] při návratu duše […].</p>
+        <p corresp="#u_23v_007">Vstoupil na nebesa […] z Olivové hory […]. Sedí po pravici Otce, to je v rovnosti s Otcem v božství; nebo se tím naznačuje […] držení Otcových dober v lidství, nad všemi nebesy a nade všemi andělskými chóry. Izaiáš říká: Nyní povstanu, při vstávání z mrtvých; nyní se vyvýším, při vstupování do nebes; nyní se povznesu, při příchodu k soudu.</p>
+        <p corresp="#u_23v_008">[…] článek je o příchodu k soudu: Odtud přijde […] ve veliké moci a vznešenosti […] s andělskými mocnostmi a planoucími živly, soudit živé i mrtvé, totiž zlé i dobré; zlé odsoudí a dobré spasí. […] nad údolím Jóšafat, podle závěru proroka Joela: Shromáždím […] všechny národy, aby všichni […] bez přijímání osob […]. Lid bude jako kněz a […] pán jako služebník; […] neochrání je […]. Žádná lest tam nepomůže, nikdo se neskryje, tam bude třeba vydat počet z …</p>
+        <p corresp="#u_23v_009">[Útržky protější stránky; text nenáleží k vlastnímu foliu23v.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -87,6 +87,20 @@ body:
     validations:
       required: false
   - type: textarea
+    id: coordinate_source
+    attributes:
+      label: "coordinate_source"
+      description: "Volitelný blok JSON z exportu v2; identifikuje plný orientovaný koordinační obraz a jeho souřadnice."
+    validations:
+      required: false
+  - type: textarea
+    id: coordinate_system
+    attributes:
+      label: "coordinate_system"
+      description: "Volitelný blok JSON z exportu v2; identifikuje plný orientovaný koordinační obraz a jeho souřadnice."
+    validations:
+      required: false
+  - type: textarea
     id: line_id
     attributes:
       label: "line_id"

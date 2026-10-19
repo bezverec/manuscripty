@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 45v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Exempla. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_45v_coordinate; PNG SHA256 4406013e18374428d5a134f8d13f7496605e7f5a1df580d4f5707ecb7f4fe234; archival TIFF SHA256 8635622c266ac3fd6dc5f8b7949ea8a9dc753b4020ba17d16cb67208dca88f9e; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_45v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#45v"/>
+      <zone ulx="3725" uly="348" lrx="3828" lry="457" xml:id="z_f45v_l001"/>
+      <zone ulx="784" uly="538" lrx="3479" lry="681" xml:id="z_f45v_l002"/>
+      <zone ulx="784" uly="631" lrx="3479" lry="774" xml:id="z_f45v_l003"/>
+      <zone ulx="790" uly="718" lrx="3482" lry="861" xml:id="z_f45v_l004"/>
+      <zone ulx="787" uly="787" lrx="3492" lry="952" xml:id="z_f45v_l005"/>
+      <zone ulx="781" uly="877" lrx="3448" lry="1042" xml:id="z_f45v_l006"/>
+      <zone ulx="743" uly="964" lrx="2872" lry="1148" xml:id="z_f45v_l007"/>
+      <zone ulx="765" uly="1054" lrx="3563" lry="1253" xml:id="z_f45v_l008"/>
+      <zone ulx="775" uly="1151" lrx="3426" lry="1325" xml:id="z_f45v_l009"/>
+      <zone ulx="771" uly="1244" lrx="2798" lry="1400" xml:id="z_f45v_l010"/>
+      <zone ulx="756" uly="1337" lrx="3573" lry="1484" xml:id="z_f45v_l011"/>
+      <zone ulx="784" uly="1431" lrx="3430" lry="1574" xml:id="z_f45v_l012"/>
+      <zone ulx="775" uly="1518" lrx="3514" lry="1670" xml:id="z_f45v_l013"/>
+      <zone ulx="778" uly="1592" lrx="3448" lry="1767" xml:id="z_f45v_l014"/>
+      <zone ulx="765" uly="1673" lrx="3554" lry="1851" xml:id="z_f45v_l015"/>
+      <zone ulx="765" uly="1764" lrx="3439" lry="1938" xml:id="z_f45v_l016"/>
+      <zone ulx="768" uly="1857" lrx="3482" lry="2028" xml:id="z_f45v_l017"/>
+      <zone ulx="765" uly="1941" lrx="3529" lry="2131" xml:id="z_f45v_l018"/>
+      <zone ulx="771" uly="2028" lrx="3492" lry="2212" xml:id="z_f45v_l019"/>
+      <zone ulx="718" uly="2112" lrx="3529" lry="2289" xml:id="z_f45v_l020"/>
+      <zone ulx="737" uly="2212" lrx="3514" lry="2392" xml:id="z_f45v_l021"/>
+      <zone ulx="762" uly="2305" lrx="3514" lry="2473" xml:id="z_f45v_l022"/>
+      <zone ulx="762" uly="2386" lrx="3507" lry="2551" xml:id="z_f45v_l023"/>
+      <zone ulx="765" uly="2473" lrx="3461" lry="2647" xml:id="z_f45v_l024"/>
+      <zone ulx="775" uly="2572" lrx="3454" lry="2728" xml:id="z_f45v_l025"/>
+      <zone ulx="750" uly="2660" lrx="3445" lry="2815" xml:id="z_f45v_l026"/>
+      <zone ulx="762" uly="2744" lrx="3470" lry="2905" xml:id="z_f45v_l027"/>
+      <zone ulx="750" uly="2828" lrx="3467" lry="3002" xml:id="z_f45v_l028"/>
+      <zone ulx="747" uly="2908" lrx="3557" lry="3098" xml:id="z_f45v_l029"/>
+      <zone ulx="687" uly="3002" lrx="3482" lry="3170" xml:id="z_f45v_l030"/>
+      <zone ulx="747" uly="3086" lrx="3467" lry="3266" xml:id="z_f45v_l031"/>
+      <zone ulx="753" uly="3173" lrx="3408" lry="3350" xml:id="z_f45v_l032"/>
+      <zone ulx="740" uly="3269" lrx="3461" lry="3437" xml:id="z_f45v_l033"/>
+      <zone ulx="768" uly="3369" lrx="3451" lry="3521" xml:id="z_f45v_l034"/>
+      <zone ulx="747" uly="3459" lrx="3523" lry="3621" xml:id="z_f45v_l035"/>
+      <zone ulx="740" uly="3549" lrx="3482" lry="3717" xml:id="z_f45v_l036"/>
+      <zone ulx="753" uly="3636" lrx="3423" lry="3814" xml:id="z_f45v_l037"/>
+      <zone ulx="747" uly="3736" lrx="3140" lry="3920" xml:id="z_f45v_l038"/>
+      <zone ulx="747" uly="3829" lrx="3467" lry="4016" xml:id="z_f45v_l039"/>
+      <zone ulx="753" uly="3920" lrx="3514" lry="4109" xml:id="z_f45v_l040"/>
+      <zone ulx="747" uly="4032" lrx="3461" lry="4200" xml:id="z_f45v_l041"/>
+      <zone ulx="753" uly="4112" lrx="3286" lry="4277" xml:id="z_f45v_l042"/>
+      <zone ulx="747" uly="4206" lrx="2686" lry="4383" xml:id="z_f45v_l043"/>
+      <zone ulx="3370" uly="4175" lrx="3448" lry="4302" xml:id="z_f45v_l044"/>
+      <zone ulx="3672" uly="3434" lrx="3831" lry="3531" xml:id="z_f45v_l045"/>
+      <zone ulx="3644" uly="3493" lrx="3843" lry="3608" xml:id="z_f45v_l046"/>
+      <zone ulx="3669" uly="3571" lrx="3868" lry="3705" xml:id="z_f45v_l047"/>
+      <zone ulx="3616" uly="3664" lrx="3850" lry="3817" xml:id="z_f45v_l048"/>
+      <zone ulx="3654" uly="4032" lrx="3843" lry="4137" xml:id="z_f45v_l049"/>
+      <zone ulx="3626" uly="4094" lrx="3865" lry="4212" xml:id="z_f45v_l050"/>
+      <zone ulx="3616" uly="4200" lrx="3878" lry="4358" xml:id="z_f45v_l051"/>
+      <zone ulx="3688" uly="575" lrx="3713" lry="762" xml:id="z_f45v_l052"/>
+      <zone ulx="3691" uly="734" lrx="3837" lry="827" xml:id="z_f45v_l053"/>
+      <zone ulx="3688" uly="905" lrx="3753" lry="1039" xml:id="z_f45v_l054"/>
+      <zone ulx="3763" uly="780" lrx="3831" lry="883" xml:id="z_f45v_l055"/>
+      <zone ulx="3679" uly="1032" lrx="3744" lry="1110" xml:id="z_f45v_l056"/>
+      <zone ulx="3672" uly="1807" lrx="3825" lry="1916" xml:id="z_f45v_l057"/>
+      <zone ulx="3688" uly="2115" lrx="3840" lry="2212" xml:id="z_f45v_l058"/>
+      <zone ulx="3669" uly="2162" lrx="3847" lry="2302" xml:id="z_f45v_l059"/>
+      <zone ulx="3654" uly="2289" lrx="3862" lry="2432" xml:id="z_f45v_l060"/>
+      <zone ulx="3666" uly="2361" lrx="3856" lry="2510" xml:id="z_f45v_l061"/>
+      <zone ulx="3647" uly="2700" lrx="3847" lry="2818" xml:id="z_f45v_l062"/>
+      <zone ulx="3660" uly="2781" lrx="3859" lry="2940" xml:id="z_f45v_l063"/>
+      <zone ulx="3682" uly="2936" lrx="3759" lry="3033" xml:id="z_f45v_l064"/>
+      <zone ulx="3688" uly="3307" lrx="3850" lry="3422" xml:id="z_f45v_l065"/>
+      <zone ulx="3644" uly="4312" lrx="3862" lry="4427" xml:id="z_f45v_l066"/>
+      <zone ulx="3622" uly="4414" lrx="3791" lry="4604" xml:id="z_f45v_l067"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f45v_l001" xml:id="catmus_f45v_l001"/>
+          <seg type="raw_unreviewed">ãfise</seg>
+          <lb facs="#z_f45v_l002" xml:id="catmus_f45v_l002"/>
+          <seg type="raw_unreviewed">As̃ ꝓ pcc̃m dc᷑ oẽ magiũ ꝓꝑ honr̾e ⁊cũe ut hoĩadiũ ꝓꝑ fucitatẽ ⁊ nuacl̃a</seg>
+          <lb facs="#z_f45v_l003" xml:id="catmus_f45v_l003"/>
+          <seg type="raw_unreviewed">ut foruica᷑ i ꝑꝑ detestacõ ⁊ abħoĩacõ ⁊ p̃eruã / ut uiciu ds nã  ꝙ msỹ begꝰ neq ĩueti</seg>
+          <lb facs="#z_f45v_l004" xml:id="catmus_f45v_l004"/>
+          <seg type="raw_unreviewed">neq nous tescitĩto aliꝙ ꝓcc̃m itͥ gͣniᵗ suisse ꝑuuitũ / ut pcc̃u q uã It ꝓꝑ dic̾tatẽ</seg>
+          <lb facs="#z_f45v_l005" xml:id="catmus_f45v_l005"/>
+          <seg type="raw_unreviewed">sine abitudiẽ pcantꝭ/ Iñto qr gͣdꝰ alcier tũto gͣdus gͣuior st Iͣdus ĩłoriuͦ ꝑ gͣii</seg>
+          <lb facs="#z_f45v_l006" xml:id="catmus_f45v_l006"/>
+          <seg type="raw_unreviewed">ncat adult̾. ỹ sip ͦ for  Incestuosꝰ nĩgꝭ̃. p̃ adult᷑ es hirs oĩb nlg̃ qͣ nũ delinqũs</seg>
+          <lb facs="#z_f45v_l007" xml:id="catmus_f45v_l007"/>
+          <seg type="raw_unreviewed">Uĩ nr Iẽ pcc̃ii qͥguoste mr̃e ppii.p .i. nm̃ pcͨae̾ siᵈ eop̃sse dͭ ag</seg>
+          <lb facs="#z_f45v_l008" xml:id="catmus_f45v_l008"/>
+          <seg type="raw_unreviewed">It fulgũciꝰ de quae do ĩta duc noluit ĩ citruit Ip Id ade culpa fuib</seg>
+          <lb facs="#z_f45v_l009" xml:id="catmus_f45v_l009"/>
+          <seg type="raw_unreviewed">maxiͫ ꝓccrii.i. ĩ obedia sua sa cõidᵗ f q̃ fuit s ꝓhibatꝰ tr ꝙ</seg>
+          <lb facs="#z_f45v_l010" xml:id="catmus_f45v_l010"/>
+          <seg type="raw_unreviewed">uideat hõ ꝙu potuĩt liba̾e indũ uͥ solus de</seg>
+          <lb facs="#z_f45v_l011" xml:id="catmus_f45v_l011"/>
+          <seg type="raw_unreviewed">qt̃ pctm̃ ẽꝙ ħo fi ͭ qd ñ d fad̾e̾ os delictũ ẽ bena q̃ hõ trẽt fuce⁊ sut̾e obm̃itit</seg>
+          <lb facs="#z_f45v_l012" xml:id="catmus_f45v_l012"/>
+          <seg type="raw_unreviewed">It de ĩmiito intice no  ͥ Ille index mandaͭ duok iuditbi milicib qͥ sbipo</seg>
+          <lb facs="#z_f45v_l013" xml:id="catmus_f45v_l013"/>
+          <seg type="raw_unreviewed">bant ut benirẽt ã sl sup bns tiũo ad em̾a sua adñote t̾mũ u unꝰ oeis</seg>
+          <lb facs="#z_f45v_l014" xml:id="catmus_f45v_l014"/>
+          <seg type="raw_unreviewed">ne ͭ  ⁊ die ͭ sͥ index ubi ẽ soci Itius/ quae soliueĩso sorte ĩt fecisti seciũ</seg>
+          <lb facs="#z_f45v_l015" xml:id="catmus_f45v_l015"/>
+          <seg type="raw_unreviewed">tuu ⁊ seutũcia ͭ eñ admorte cũq mandasẜ alio milite ut eduoet istõ mi-</seg>
+          <lb facs="#z_f45v_l016" xml:id="catmus_f45v_l016"/>
+          <seg type="raw_unreviewed">bite ⁊ decapitut᷑/ it ad ne ͭ socrꝰ suns rimiliꝰ It illi cui fuit mũdatũ</seg>
+          <lb facs="#z_f45v_l017" xml:id="catmus_f45v_l017"/>
+          <seg type="raw_unreviewed">ut y̾m inules ĩtfic̾e̾t᷑ nemite r̾ualite uiuẽte / dux ͭ dos ãbos cod̾</seg>
+          <lb facs="#z_f45v_l018" xml:id="catmus_f45v_l018"/>
+          <seg type="raw_unreviewed">Iudice It dixit eid̃ nuliti / Iu es res mortꝭ. qr nõ seaso nr̃ãdãt meñ</seg>
+          <lb facs="#z_f45v_l019" xml:id="catmus_f45v_l019"/>
+          <seg type="raw_unreviewed">ut ẽ ai.i uit̾fic̃e Ir 2ͥmiliti dixͭ tu es oocfre mertꝭ Ieo qd uon</seg>
+          <lb facs="#z_f45v_l020" xml:id="catmus_f45v_l020"/>
+          <seg type="raw_unreviewed">uẽisti cũ secio iuo qr iu ẽ cãpt adiuorte ⁊⁊ s õs ties iuisit decosaĩ ic</seg>
+          <lb facs="#z_f45v_l021" xml:id="catmus_f45v_l021"/>
+          <seg type="raw_unreviewed">It ut he .oxͦ io. ꝙ Ihe . t̾rguł Iodeos. hõ cu̾t hea̾bat duer filios. idix ͭ tũssiho ͬ</seg>
+          <lb facs="#z_f45v_l022" xml:id="catmus_f45v_l022"/>
+          <seg type="raw_unreviewed">ĩ sinea meu ꝯpelaee ͥi.cͤ r̾cusa ͭ. s plmodũ peĩtut cũ it.issi ͬ. 2 ͤͥ ec̃u dixit</seg>
+          <lb facs="#z_f45v_l023" xml:id="catmus_f45v_l023"/>
+          <seg type="raw_unreviewed">ẽ m̃deo eo tr̃issio iã. ⁊ nõ tũssi ͭ serdii ͭ codd. qͥd ĩpleu̾it belũ ͥpr̃io. 2d. ut</seg>
+          <lb facs="#z_f45v_l024" xml:id="catmus_f45v_l024"/>
+          <seg type="raw_unreviewed">p. ⁊ pp ͫ desigiulu᷑ pagiũ quͥ uͥ hubebãt legẽ nẽ. ⁊ clẽ iue des ͭ eis bens</seg>
+          <lb facs="#z_f45v_l025" xml:id="catmus_f45v_l025"/>
+          <seg type="raw_unreviewed">qd tͥ si nõ uis. ũ fut alipo. et ꝙ tͤ si ł uis fut aliis. ⁊ illi pagai fu̾it añ Iudoos</seg>
+          <lb facs="#z_f45v_l026" xml:id="catmus_f45v_l026"/>
+          <seg type="raw_unreviewed">aliadã usħ ad abiris̃. it̃ cũ abi abũ dͭ ei̾s cci isõ ⁊ pͥ ꝓua udisee p̃cepti ⁊ it</seg>
+          <lb facs="#z_f45v_l027" xml:id="catmus_f45v_l027"/>
+          <seg type="raw_unreviewed">p ĩceperũt iudii pagiũ uoluerĩt tũssi̾e pͫͥ. N ũo r̾ceperũt leccẽ ⁊ p̃cepta</seg>
+          <lb facs="#z_f45v_l028" xml:id="catmus_f45v_l028"/>
+          <seg type="raw_unreviewed">dñi si p ͦ cũ x ͨ totruarꝰ suit. 2 inͥsi st̃. r yam eyagĩs st̃. qr iułti lł pagili</seg>
+          <lb facs="#z_f45v_l029" xml:id="catmus_f45v_l029"/>
+          <seg type="raw_unreviewed">qusi st̃ at fib p anci n̾o Indei / D Iudi ꝓmnstu̾it ẜua̾e p̃cepta dñi t nõ ẜuiauũit ac</seg>
+          <lb facs="#z_f45v_l030" xml:id="catmus_f45v_l030"/>
+          <seg type="raw_unreviewed">It nõ cũ ho ẽ ĩ gtia di ⁊ sñ morli pcco. et su ͭ aliqͣ bõ opa. p ea ĩcidit ĩ</seg>
+          <lb facs="#z_f45v_l031" xml:id="catmus_f45v_l031"/>
+          <seg type="raw_unreviewed">morle uccñi. o.  pͣ boua q̃ sẽcit añ morle uccn mortificut Is ⁊ si qu̾sꝰ</seg>
+          <lb facs="#z_f45v_l032" xml:id="catmus_f45v_l032"/>
+          <seg type="raw_unreviewed">fu̾it ⁊ egeit ꝓm. uiuificat uicensa pͥ bona oꝑa si si aliqs ĩ</seg>
+          <lb facs="#z_f45v_l033" xml:id="catmus_f45v_l033"/>
+          <seg type="raw_unreviewed">pcc̃o ingͣĩli eoistũd facra̾t malta bona . ͥ sꝑ st̃ mortua uͥ uiugua</seg>
+          <lb facs="#z_f45v_l034" xml:id="catmus_f45v_l034"/>
+          <seg type="raw_unreviewed">uossũt ad uitũ ot̾iul. Secꝭ u lea qu̾sꝰ fu̾it regẽit pñia / odhuc</seg>
+          <lb facs="#z_f45v_l035" xml:id="catmus_f45v_l035"/>
+          <seg type="raw_unreviewed"> bona nõ pãt unuficae l iͥ xsũt abtyalur et ꝙ de ꝓchit udat</seg>
+          <lb facs="#z_f45v_l036" xml:id="catmus_f45v_l036"/>
+          <seg type="raw_unreviewed">⁊ indidũ ⁊ dat gͣcra. Utrciꝰ surgit et mmĩoe penũ ĩłusecũ. dat ĩĩ</seg>
+          <lb facs="#z_f45v_l037" xml:id="catmus_f45v_l037"/>
+          <seg type="raw_unreviewed">cuo si dãyn᷑. et ual cũ su ͭ bonũ op ĩmorli pcco: ĩerĩ nõ</seg>
+          <lb facs="#z_f45v_l038" xml:id="catmus_f45v_l038"/>
+          <seg type="raw_unreviewed">s ł malũ/ ⁊ ec cũ hõ s bñ fucit. uti ł ꝯsuestit bñ fac̾e̾acꝭ</seg>
+          <lb facs="#z_f45v_l039" xml:id="catmus_f45v_l039"/>
+          <seg type="raw_unreviewed">t̃ dies mali st. at ĩexa y. qͦ st mali tam̃ de caᵗ eosi dioo ꝑp dno st̃ nuli</seg>
+          <lb facs="#z_f45v_l040" xml:id="catmus_f45v_l040"/>
+          <seg type="raw_unreviewed">culpe ⁊ prna. Gulpe qñ as aliã mala opi fuat, et iii unꝰ crabi᷑ aliꝙ̃</seg>
+          <lb facs="#z_f45v_l041" xml:id="catmus_f45v_l041"/>
+          <seg type="raw_unreviewed">penã tał ĩfui lc̃ diciꝰ eͥ ho ͤ l malũ dĩe ic a ͥõ qd h̃ scie̾t om</seg>
+          <lb facs="#z_f45v_l042" xml:id="catmus_f45v_l042"/>
+          <seg type="raw_unreviewed">alti ᷑ / celi latiꝰ Itre ꝓsũdũ marꝭ ũ abissi soiͣ ĩflant ^ si̾h opcr .i</seg>
+          <lb facs="#z_f45v_l043" xml:id="catmus_f45v_l043"/>
+          <seg type="raw_unreviewed">ho solre quesat /⁊ h fuat eu lruile /2ͥ pluq do</seg>
+          <lb facs="#z_f45v_l044" xml:id="catmus_f45v_l044"/>
+          <seg type="raw_unreviewed">se</seg>
+          <lb facs="#z_f45v_l045" xml:id="catmus_f45v_l045"/>
+          <seg type="raw_unreviewed">e tihid</seg>
+          <lb facs="#z_f45v_l046" xml:id="catmus_f45v_l046"/>
+          <seg type="raw_unreviewed">As ERUC</seg>
+          <lb facs="#z_f45v_l047" xml:id="catmus_f45v_l047"/>
+          <seg type="raw_unreviewed">ͥ Re OlliS</seg>
+          <lb facs="#z_f45v_l048" xml:id="catmus_f45v_l048"/>
+          <seg type="raw_unreviewed">Ae Xip</seg>
+          <lb facs="#z_f45v_l049" xml:id="catmus_f45v_l049"/>
+          <seg type="raw_unreviewed">¶at</seg>
+          <lb facs="#z_f45v_l050" xml:id="catmus_f45v_l050"/>
+          <seg type="raw_unreviewed">tit celuel</seg>
+          <lb facs="#z_f45v_l051" xml:id="catmus_f45v_l051"/>
+          <seg type="raw_unreviewed">sAliũ ẜlui</seg>
+          <lb facs="#z_f45v_l052" xml:id="catmus_f45v_l052"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f45v_l053" xml:id="catmus_f45v_l053"/>
+          <seg type="raw_unreviewed">Rgei</seg>
+          <lb facs="#z_f45v_l054" xml:id="catmus_f45v_l054"/>
+          <seg type="raw_unreviewed">Mo</seg>
+          <lb facs="#z_f45v_l055" xml:id="catmus_f45v_l055"/>
+          <seg type="raw_unreviewed">ũa</seg>
+          <lb facs="#z_f45v_l056" xml:id="catmus_f45v_l056"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f45v_l057" xml:id="catmus_f45v_l057"/>
+          <seg type="raw_unreviewed">⁊ foruila</seg>
+          <lb facs="#z_f45v_l058" xml:id="catmus_f45v_l058"/>
+          <seg type="raw_unreviewed">uiii</seg>
+          <lb facs="#z_f45v_l059" xml:id="catmus_f45v_l059"/>
+          <seg type="raw_unreviewed">a quił auͦ</seg>
+          <lb facs="#z_f45v_l060" xml:id="catmus_f45v_l060"/>
+          <seg type="raw_unreviewed">Iuild </seg>
+          <lb facs="#z_f45v_l061" xml:id="catmus_f45v_l061"/>
+          <seg type="raw_unreviewed">ielo</seg>
+          <lb facs="#z_f45v_l062" xml:id="catmus_f45v_l062"/>
+          <seg type="raw_unreviewed">ned gtreh</seg>
+          <lb facs="#z_f45v_l063" xml:id="catmus_f45v_l063"/>
+          <seg type="raw_unreviewed"> ndi&amp;t</seg>
+          <lb facs="#z_f45v_l064" xml:id="catmus_f45v_l064"/>
+          <seg type="raw_unreviewed">.Iii</seg>
+          <lb facs="#z_f45v_l065" xml:id="catmus_f45v_l065"/>
+          <seg type="raw_unreviewed">ellit </seg>
+          <lb facs="#z_f45v_l066" xml:id="catmus_f45v_l066"/>
+          <seg type="raw_unreviewed">I ENMD RU</seg>
+          <lb facs="#z_f45v_l067" xml:id="catmus_f45v_l067"/>
+          <seg type="raw_unreviewed">dẽ qpo</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f45v_l001" xml:id="medusa_f45v_l001"/>
+          <seg type="raw_unreviewed">existim</seg>
+          <lb facs="#z_f45v_l002" xml:id="medusa_f45v_l002"/>
+          <seg type="raw_unreviewed">Nota quod peccatum dicitur esse magnum propter homines et timorem ut homicidium propter sicitatem et multam</seg>
+          <lb facs="#z_f45v_l003" xml:id="medusa_f45v_l003"/>
+          <seg type="raw_unreviewed">ut fornicacione / propter detestationem et abhominacionem et penam / ut vicinum desuerat / quod nuper legem / neque in veteri</seg>
+          <lb facs="#z_f45v_l004" xml:id="medusa_f45v_l004"/>
+          <seg type="raw_unreviewed">neq novo testamento aliqod peccatum ita generari fuisse putatum / ut peccatum non nat. sit propter dignitatem</seg>
+          <lb facs="#z_f45v_l005" xml:id="medusa_f45v_l005"/>
+          <seg type="raw_unreviewed">sine altitudinem p̾ciantur / iũto qr gr̃e / altior tãto gr̃ius gr̃ior st̃ gr̃ius ĩformior p̃gr̃ui</seg>
+          <lb facs="#z_f45v_l006" xml:id="medusa_f45v_l006"/>
+          <seg type="raw_unreviewed">potest adultꝰ ꝙ si pꝓ for Incestuos magꝭ pꝰ maꝵ</seg>
+          <lb facs="#z_f45v_l007" xml:id="medusa_f45v_l007"/>
+          <seg type="raw_unreviewed">VII m° Iẽ pccmii 39 100 101 102 103 104 105</seg>
+          <lb facs="#z_f45v_l008" xml:id="medusa_f45v_l008"/>
+          <seg type="raw_unreviewed">Item Fulgencii de quare deus ita diu noluit incarnari pro quod a beate culpa fuit</seg>
+          <lb facs="#z_f45v_l009" xml:id="medusa_f45v_l009"/>
+          <seg type="raw_unreviewed">maximim peccatum est inobediencia sua . sed creduntur f. qui fuit s. exhibitus etc. quod</seg>
+          <lb facs="#z_f45v_l010" xml:id="medusa_f45v_l010"/>
+          <seg type="raw_unreviewed">videat hȩ ꝙ nꝰ potuit libere iudicium nͥ solus deus</seg>
+          <lb facs="#z_f45v_l011" xml:id="medusa_f45v_l011"/>
+          <seg type="raw_unreviewed">qt̃ potestatem ẽ ꝙ ho facit qd nͣ s facere qd delictũ ẽ bonum q̃ ho nrent facere ⁊ facere obiuit</seg>
+          <lb facs="#z_f45v_l012" xml:id="medusa_f45v_l012"/>
+          <seg type="raw_unreviewed">Item de immisto iudice nonnulle Ille iudex mandatum duobus iudicibus militibus qui sub ipso</seg>
+          <lb facs="#z_f45v_l013" xml:id="medusa_f45v_l013"/>
+          <seg type="raw_unreviewed">eant ut venirent a sc̃ super uno termino ad Curiã  sinã / aduente termino uͥ unius ex eis</seg>
+          <lb facs="#z_f45v_l014" xml:id="medusa_f45v_l014"/>
+          <seg type="raw_unreviewed">neᵗ ⁊ dixet s᷑ iudeo ubi ẽ sociꝰ tuus / quare sibi neĩsti / forte ĩt fecisti sociũ</seg>
+          <lb facs="#z_f45v_l015" xml:id="medusa_f45v_l015"/>
+          <seg type="raw_unreviewed">tum et sentenciatum eum ad mortem / cumque mandasset alio milite ut educet istum mi</seg>
+          <lb facs="#z_f45v_l016" xml:id="medusa_f45v_l016"/>
+          <seg type="raw_unreviewed">bitẽ ⁊ decapitae̾ / ut ac ne᷑ sociꝰ suis ⁊ miliiꝰ ut illi cui fuit mandatum</seg>
+          <lb facs="#z_f45v_l017" xml:id="medusa_f45v_l017"/>
+          <seg type="raw_unreviewed">ut p̾ue miles interficeretur nemine et milite uiuente / dux eos ab eo coitꝰ</seg>
+          <lb facs="#z_f45v_l018" xml:id="medusa_f45v_l018"/>
+          <seg type="raw_unreviewed">iudice tunc dixit eidem militi tu es res mortua quia non fecisti mandatum meum</seg>
+          <lb facs="#z_f45v_l019" xml:id="medusa_f45v_l019"/>
+          <seg type="raw_unreviewed">ut eͥ m. I. infĩcere ⁊ 2ᵒ militi dux tͥ tu es eorꝭ res mortꝭ / eo qd̵ non</seg>
+          <lb facs="#z_f45v_l020" xml:id="medusa_f45v_l020"/>
+          <seg type="raw_unreviewed">venisti cum socio tuo quia non est captus ad mortem et sic omnes tres misit de consimiliter</seg>
+          <lb facs="#z_f45v_l021" xml:id="medusa_f45v_l021"/>
+          <seg type="raw_unreviewed">ut patet in quarto Io. quod Ihesus interrogat Iudeos. hõ curt habebat duos filios. idem ut cumssil</seg>
+          <lb facs="#z_f45v_l022" xml:id="medusa_f45v_l022"/>
+          <seg type="raw_unreviewed">ĩ finem meũ ꝯpetre. 1ꝰ 2ᵒ recusat. s pͥmo dũ pei̾tuit cũ rͣtussit 2ᵒ eciam dixit</seg>
+          <lb facs="#z_f45v_l023" xml:id="medusa_f45v_l023"/>
+          <seg type="raw_unreviewed">eñnde eo trãssito ũa. ⁊ nõ trãssit terrazit eosd. qͥs ĩplenit voluntatem patris. ⁊ dicit</seg>
+          <lb facs="#z_f45v_l024" xml:id="medusa_f45v_l024"/>
+          <seg type="raw_unreviewed">p̃ꝰ ⁊ pͥmꝰ designatur pagium / qui nͨ habebũt legẽ neͬ .i. cleͬ meͥ des eis deus</seg>
+          <lb facs="#z_f45v_l025" xml:id="medusa_f45v_l025"/>
+          <seg type="raw_unreviewed">id t fi nõ vis ñ fac aliis et ꝙ tͥ fi᷑ uis fac aliis ⁊ illi pagum fuerit añ indos</seg>
+          <lb facs="#z_f45v_l026" xml:id="medusa_f45v_l026"/>
+          <seg type="raw_unreviewed">aliadũ usq ad abrajha. t̃t cũ abrajha et eiꝰ cl̃u. uo. ⁊ pꝰ ꝓximamꝰ ses p̃cepta ⁊ t̃t</seg>
+          <lb facs="#z_f45v_l027" xml:id="medusa_f45v_l027"/>
+          <seg type="raw_unreviewed">pͥ ĩceperunt iudei pagani noluerunt facsse pͫ. qr nõ r̾ceperunt legẽ ⁊ precepta</seg>
+          <lb facs="#z_f45v_l028" xml:id="medusa_f45v_l028"/>
+          <seg type="raw_unreviewed">dñi / fi p̃tũ xᶜ totumltꝰ sunt. ⁊ nͥsi st̃. qr uͥani ex paginis st̃. qr młti tt̃ pagin</seg>
+          <lb facs="#z_f45v_l029" xml:id="medusa_f45v_l029"/>
+          <seg type="raw_unreviewed">conversi sunt ad fidem yanci non Iudei / sed Iudei promiserunt servare precepta domini et non servauerunt etc.</seg>
+          <lb facs="#z_f45v_l030" xml:id="medusa_f45v_l030"/>
+          <seg type="raw_unreviewed">It mo cum ho ẽ ĩ t̃ra diᷤᷤ ⁊ sñ mor̃li pcc̃o. et fiᵗ aliqͣ bõ oꝑa. pꝰea incidit ĩ</seg>
+          <lb facs="#z_f45v_l031" xml:id="medusa_f45v_l031"/>
+          <seg type="raw_unreviewed">mortem pccm̃. oĩ. pͥa bona q̃ fecit añ mortem pccm̃ mortificat 163 si ꝯu̾sꝰ</seg>
+          <lb facs="#z_f45v_l032" xml:id="medusa_f45v_l032"/>
+          <seg type="raw_unreviewed">fuerit rege̾it p̃mã u̾mificat uiceu̾sa p̃ᵃ bona oꝑa / S si aliis ĩ</seg>
+          <lb facs="#z_f45v_l033" xml:id="medusa_f45v_l033"/>
+          <seg type="raw_unreviewed">peccato mortali existens faciat multa bona 11 semper sunt mortua n ͥ unguina</seg>
+          <lb facs="#z_f45v_l034" xml:id="medusa_f45v_l034"/>
+          <seg type="raw_unreviewed">possunt ad vitũ oꝵtmł . s etcetera . p. Ieã ꝯnͤsꝰ fu̾it ⁊ ege̾it pũam / ad huc</seg>
+          <lb facs="#z_f45v_l035" xml:id="medusa_f45v_l035"/>
+          <seg type="raw_unreviewed">bona nõ pũt unificare / sed iᵃ ꝓsũt ab temporalia et ꝙ deꝰ ꝓtͣhit vndam</seg>
+          <lb facs="#z_f45v_l036" xml:id="medusa_f45v_l036"/>
+          <seg type="raw_unreviewed">⁊ iudicũ ⁊ dat grãtꝰ. Ytarꝰ surgit / et mĩoꝵ penã ĩbusecã. dat ĩ</seg>
+          <lb facs="#z_f45v_l037" xml:id="medusa_f45v_l037"/>
+          <seg type="raw_unreviewed">p̃io si dampnꝰ. et ualꝰ cũ fũt bonũ oꝑꝭ ĩ morali p̃cõ. ĩterĩ. nõ</seg>
+          <lb facs="#z_f45v_l038" xml:id="medusa_f45v_l038"/>
+          <seg type="raw_unreviewed">faciendum / et ecꝭ cum hoc sibi b̃n facit . utique consuevit . b̃n facere etc.</seg>
+          <lb facs="#z_f45v_l039" xml:id="medusa_f45v_l039"/>
+          <seg type="raw_unreviewed">ut ipsa p. qͦs st̃ mali tam̃ de cãt eos. dico ꝑꝑ duo st̃ mali</seg>
+          <lb facs="#z_f45v_l040" xml:id="medusa_f45v_l040"/>
+          <seg type="raw_unreviewed">culpe et pena. Culpe. qñ as aliqͣ mala oꝑa facit. et. qnͥ unꝰ patͬ aliqͣ</seg>
+          <lb facs="#z_f45v_l041" xml:id="medusa_f45v_l041"/>
+          <seg type="raw_unreviewed">pena talis fuerimꝰ. Et dicte Io. Ho. huius malum diem etc. Nõ ꝯd̃ hoc sciret on</seg>
+          <lb facs="#z_f45v_l042" xml:id="medusa_f45v_l042"/>
+          <seg type="raw_unreviewed">alteri celi lati t̾re ꝓsũdũ marꝭ ñ abissꝭ oĩ ĩflant / s h c̃operii .q.</seg>
+          <lb facs="#z_f45v_l043" xml:id="medusa_f45v_l043"/>
+          <seg type="raw_unreviewed">hõ solus que scit / ⁊ hᶜ facit cũ hũile / 2ᶜ plac deꝰ</seg>
+          <lb facs="#z_f45v_l044" xml:id="medusa_f45v_l044"/>
+          <seg type="raw_unreviewed">se</seg>
+          <lb facs="#z_f45v_l045" xml:id="medusa_f45v_l045"/>
+          <seg type="raw_unreviewed">re tand</seg>
+          <lb facs="#z_f45v_l046" xml:id="medusa_f45v_l046"/>
+          <seg type="raw_unreviewed">colerunt totum</seg>
+          <lb facs="#z_f45v_l047" xml:id="medusa_f45v_l047"/>
+          <seg type="raw_unreviewed">and de ollus</seg>
+          <lb facs="#z_f45v_l048" xml:id="medusa_f45v_l048"/>
+          <seg type="raw_unreviewed">magister Daplinis</seg>
+          <lb facs="#z_f45v_l049" xml:id="medusa_f45v_l049"/>
+          <seg type="raw_unreviewed">na eñ te dy</seg>
+          <lb facs="#z_f45v_l050" xml:id="medusa_f45v_l050"/>
+          <seg type="raw_unreviewed">nde fecit cellula</seg>
+          <lb facs="#z_f45v_l051" xml:id="medusa_f45v_l051"/>
+          <seg type="raw_unreviewed">ad unum filum</seg>
+          <lb facs="#z_f45v_l052" xml:id="medusa_f45v_l052"/>
+          <seg type="raw_unreviewed">la</seg>
+          <lb facs="#z_f45v_l053" xml:id="medusa_f45v_l053"/>
+          <seg type="raw_unreviewed">ytisz eñ</seg>
+          <lb facs="#z_f45v_l054" xml:id="medusa_f45v_l054"/>
+          <seg type="raw_unreviewed">suo</seg>
+          <lb facs="#z_f45v_l055" xml:id="medusa_f45v_l055"/>
+          <seg type="raw_unreviewed">soch</seg>
+          <lb facs="#z_f45v_l056" xml:id="medusa_f45v_l056"/>
+          <seg type="raw_unreviewed">121</seg>
+          <lb facs="#z_f45v_l057" xml:id="medusa_f45v_l057"/>
+          <seg type="raw_unreviewed">ad servicia</seg>
+          <lb facs="#z_f45v_l058" xml:id="medusa_f45v_l058"/>
+          <seg type="raw_unreviewed">d̃t min</seg>
+          <lb facs="#z_f45v_l059" xml:id="medusa_f45v_l059"/>
+          <seg type="raw_unreviewed">finavit u</seg>
+          <lb facs="#z_f45v_l060" xml:id="medusa_f45v_l060"/>
+          <seg type="raw_unreviewed">in servace / etc</seg>
+          <lb facs="#z_f45v_l061" xml:id="medusa_f45v_l061"/>
+          <seg type="raw_unreviewed">ista et uoluntas</seg>
+          <lb facs="#z_f45v_l062" xml:id="medusa_f45v_l062"/>
+          <seg type="raw_unreviewed">pues adciraz</seg>
+          <lb facs="#z_f45v_l063" xml:id="medusa_f45v_l063"/>
+          <seg type="raw_unreviewed">sui aͥs dic̾et</seg>
+          <lb facs="#z_f45v_l064" xml:id="medusa_f45v_l064"/>
+          <seg type="raw_unreviewed">b̶n̾</seg>
+          <lb facs="#z_f45v_l065" xml:id="medusa_f45v_l065"/>
+          <seg type="raw_unreviewed">twiet</seg>
+          <lb facs="#z_f45v_l066" xml:id="medusa_f45v_l066"/>
+          <seg type="raw_unreviewed">nat᷑ s̃ si nõ ve</seg>
+          <lb facs="#z_f45v_l067" xml:id="medusa_f45v_l067"/>
+          <seg type="raw_unreviewed">dilex m̾eꝰ</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f45v_l001" xml:id="u_45v_001">[---]</p>
+        <note type="editorial" corresp="#u_45v_001" xml:lang="cs">Fragment není nadpisem hlavního textu.</note>
+        <p facs="#z_f45v_l002 #z_f45v_l003 #z_f45v_l004 #z_f45v_l005 #z_f45v_l006 #z_f45v_l007" xml:id="u_45v_002">Aliquando peccatum dicitur esse magnum propter horrorem et [---], ut homicidium propter ferocitatem et malitiam, ut fornicatio propter detestationem et abhominationem et [---], ut vitium contra naturam, quod in veteri lege neque in novo testamento aliquod peccatum ita graviter fuisse punitum [---]. Ut peccatum [---] propter difficultatem [---] vel habitudinem peccantis. Tanto [---] gradus altior tanto [---] gravior [---]. Qui [---] gravius peccat adulter quam simplex fornicator; incestuosus magis quam adulter, et homicida magis quam [---] delinquens. [---] peccatum [---] mortem [---].</p>
+        <note type="editorial" corresp="#u_45v_002" xml:lang="cs">Nový soubor poučení po zakončení legendy na45r. První výčet je fragmentární a vyjadřuje hodnotící terminologii historického textu. Přesnou hierarchii ani nejasný závěr nedoplňuji.</note>
+        <p facs="#z_f45v_l008 #z_f45v_l009 #z_f45v_l010" xml:id="u_45v_003">Item Fulgentius [---] de morte [---]: Adam [---] noluit [---]. [---] culpa fuit maximum peccatum, quia in oboedientia sua [---] quod fuit sibi prohibitum, ut [---] videret homo quod potuit [---] solus Deus.</p>
+        <note type="editorial" corresp="#u_45v_003" xml:lang="cs">Autorita Fulgentius a Adam jsou čitelní, avšak přesný titul i tvrzení o neposlušnosti zůstávají zkratkovité a nejisté. Nejde o identifikaci vydané citace.</note>
+        <p facs="#z_f45v_l011" xml:id="u_45v_004">Peccatum est quod homo facit quod non debet facere; delictum est bona quae homo tenetur facere et solvere omittit.</p>
+        <note type="editorial" corresp="#u_45v_004" xml:lang="cs">Pracovní rozvedení zkratek definice, nikoli moderní právní rozlišení.</note>
+        <p facs="#z_f45v_l012 #z_f45v_l013 #z_f45v_l014 #z_f45v_l015 #z_f45v_l016 #z_f45v_l017 #z_f45v_l018 #z_f45v_l019 #z_f45v_l020" xml:id="u_45v_005">Item de iniusto iudice [---]. Ille iudex mandavit duobus [---] militibus qui sibi [---], ut venirent ante se [---] ad diem [---] ad noctem. Unus eorum venit et dicit sibi iudex: Ubi est socius tuus? Quia solus venisti, forte interfecisti socium tuum. Et sententiavit eum ad mortem. Cumque mandasset alio militi ut educeret istum militem et decapitaret, interea venit socius suus [---]. Et ille cui fuit mandatum [---], videns militem redeuntem viventem, duxit eos ambos coram iudice. Et dixit eidem militi: Tu es reus mortis quia non fecisti mandatum meum, ut eum [---] interficeres. Et alteri militi dixit: Tu es [---] mortis, eo quod non venisti cum socio tuo; [---] et omnes tres iussit decollari.</p>
+        <note type="editorial" corresp="#u_45v_005" xml:lang="cs">Exemplum o nespravedlivém soudu, nikoli návod nebo popis správného práva. Začátek s termínem příchodu a některá odůvodnění trestu jsou nejisté; jádro děje je obrazově čitelné.</note>
+        <p facs="#z_f45v_l021 #z_f45v_l022 #z_f45v_l023 #z_f45v_l024 #z_f45v_l025 #z_f45v_l026 #z_f45v_l027 #z_f45v_l028 #z_f45v_l029" xml:id="u_45v_006">Item [---] Christus arguit Iudaeos: Homo quidam habebat duos filios et dixit [---]: Fili, hodie [---] in vineam meam. [---] recusavit sed postmodum paenitentia [---]. Alter [---] dixit: Ego [---], et non [---]. Quaeritur [---] quis impleverit voluntatem patris. [---] per primum designantur pagani, qui non habebant legem [---]. [---] Quod tibi non vis fieri, alteri [---]; et quod tibi fieri vis, fac aliis. Et illi pagani fuerunt ante Iudaeos [---] usque ad Abraham. [---] praecepta [---]. [---] Iudaei [---] receperunt legem et praecepta Domini [---]. [---] multi [---] pagani [---] ad fidem, pauci vero Iudaei. [---] Iudaei promiserunt servare praecepta Domini et non servaverunt etc.</p>
+        <note type="editorial" corresp="#u_45v_006" xml:lang="cs">Fragmentární středověký křesťanský výklad podobenství obsahuje polemické generalizace o Židech; jsou to tvrzení historického autora. Nejasné chronologické a exegetické propojení není doplněno podle moderního biblického znění.</note>
+        <p facs="#z_f45v_l030 #z_f45v_l031 #z_f45v_l032 #z_f45v_l033 #z_f45v_l034 #z_f45v_l035 #z_f45v_l036 #z_f45v_l037 #z_f45v_l038" xml:id="u_45v_007">Item cum homo est in gratia Dei et sine mortali peccato et facit aliqua bona opera, postea incidit in mortale peccatum, omnia bona quae fecit ante mortale peccatum mortificantur. Sed si conversus fuerit et egerit paenitentiam, vivificantur [---] bona opera. Si autem aliquis in peccato mortali existens faceret multa bona, ipsa semper sunt mortua, quia numquam possunt ad vitam aeternam [---]. Sed si ille conversus fuerit et egerit paenitentiam, adhuc [---] bona non possunt vivificare, sed [---] et Deus [---] dat gratiam. [---] surgit [---] minorem poenam [---], dat [---] si damnatur. [---] cum facit bonum opus in mortali peccato, interim non facit malum, et etiam cum homo bene facit, [---] consuescit bene facere.</p>
+        <note type="editorial" corresp="#u_45v_007" xml:lang="cs">Rozlišení skutků před pádem do hříchu a již v hříchu je v obraze patrné. Výčet účinků následného pokání u druhého případu je podstatně méně čitelný; neopravuje se domnělým teologicky správným řešením.</note>
+        <p facs="#z_f45v_l039 #z_f45v_l040 #z_f45v_l041 #z_f45v_l042 #z_f45v_l043" xml:id="u_45v_008">Item dies mali sunt [---]. Dicuntur mali [---] propter duo, scilicet malum culpae et poenae. Culpae quando [---] mala opera fiunt et [---]. Poenae [---] infirmitates. Dicitur enim [---] homo [---] malum diem [---]. [---] altitudinem caeli, latitudinem terrae, profundum maris [---]. Scientia inflat [---] hoc solum quaerat et [---] faciunt eum [---].</p>
+        <note type="editorial" corresp="#u_45v_008" xml:lang="cs">Závěr přechází od zlého dne k varování před nadutým poznáním. Přesná souvislost a poslední slova jsou nejisté a přecházejí na následující stranu.</note>
+        <p facs="#z_f45v_l044 #z_f45v_l045 #z_f45v_l046 #z_f45v_l047 #z_f45v_l048 #z_f45v_l049 #z_f45v_l050 #z_f45v_l051 #z_f45v_l052 #z_f45v_l053 #z_f45v_l054 #z_f45v_l055 #z_f45v_l056 #z_f45v_l057 #z_f45v_l058 #z_f45v_l059 #z_f45v_l060 #z_f45v_l061 #z_f45v_l062 #z_f45v_l063 #z_f45v_l064 #z_f45v_l065 #z_f45v_l066 #z_f45v_l067" xml:id="u_45v_009">[---]</p>
+        <note type="editorial" corresp="#u_45v_009" xml:lang="cs">Skutečně otevřeny i všechny zbývající útržky; nejsou dalšími větami tohoto listu.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_45v_001">[Odřezek rubriky protější stránky, bez souvislého překladu.]</p>
+        <p corresp="#u_45v_002">Někdy je hřích označován za veliký kvůli hrůznosti a [---], například vražda pro krutost a zlobu, smilstvo pro odpornost a zavržení [---], provinění proti přirozenosti, protože ve Starém ani Novém zákoně nebyl jiný hřích tak těžce trestán [---]. Hřích [---] pro obtížnost [---] nebo stav hřešícího. Čím vyšší postavení, tím [---] závažnější [---]. Cizoložník hřeší závažněji než prostý smilník, krvesmilník více než cizoložník a vrah více než [---] provinilec. [---] Hřích [---] smrt [---].</p>
+        <p corresp="#u_45v_003">Dále Fulgentius [---] o smrti [---]: Adam [---] nechtěl [---]. [---] Vina byla velikým hříchem, protože v jeho poslušnosti [---] to, co mu bylo zakázáno, aby [---] člověk viděl, že mohl [---] jediný Bůh.</p>
+        <p corresp="#u_45v_004">Hřích je, když člověk činí, co činit nemá; provinění je, když opomíjí dobro, které je povinen činit a plnit.</p>
+        <p corresp="#u_45v_005">Dále o nespravedlivém soudci [---]. Soudce přikázal dvěma vojákům, kteří mu [---], aby před něj přišli [---] v určený den [---] za soumraku. Jeden z nich přišel a soudce mu řekl: Kde je tvůj druh? Protože jsi přišel sám, snad jsi svého druha zabil. A odsoudil jej k smrti. Když jinému vojákovi přikázal, aby tohoto vyvedl a sťal, mezitím přišel jeho druh [---]. Voják pověřený [popravou], když viděl, že se druhý vrací živý, přivedl oba před soudce. A ten vojákovi řekl: Zasloužíš smrt, protože jsi nesplnil můj rozkaz, abys jej zabil. Druhému vojákovi řekl: Ty zasloužíš smrt, protože jsi nepřišel se svým druhem [---]. A všechny tři rozkázal stít.</p>
+        <p corresp="#u_45v_006">Dále [---] Kristus kárá Židy: Jistý člověk měl dva syny a řekl [---]: Synu, dnes [---] na mou vinici. [---] Odmítl, ale později po lítosti [---]. Druhý řekl: Já [---], a nešel [---]. Ptá se, kdo splnil otcovu vůli. [---] První označuje pohany, kteří neměli zákon [---]. [---] Co nechceš, aby se dělo tobě, [nečiň] jinému; a co chceš, aby se dělo tobě, čiň jiným. Tito pohané byli před Židy [---] až do Abrahama. [---] Přikázání [---]. Židé [---] přijali zákon a Pánova přikázání [---]. [---] Mnozí pohané [---] k víře a málo Židů. [---] Židé slíbili zachovávat Pánova přikázání a nezachovali je atd.</p>
+        <p corresp="#u_45v_007">Když je člověk v Boží milosti a bez smrtelného hříchu a koná dobré skutky, potom však upadne do smrtelného hříchu, všechno dobro vykonané před tímto hříchem odumírá. Obrátí-li se ale a činí pokání, dobré skutky [---] ožívají. Koná-li naopak někdo mnoho dobrých skutků již ve smrtelném hříchu, zůstávají vždy mrtvé, protože nikdy nemohou [vést?] k věčnému životu. Jestliže se takový člověk obrátí a koná pokání, přesto [---] nemohou ožít [---]; Bůh [---] dává milost. [---] Povstává [---] menší trest [---], dává [---], je-li zavržen. [---] Když činí dobrý skutek ve smrtelném hříchu, v té chvíli nečiní zlo; a když člověk jedná dobře, zvyká si [---] dobře jednat.</p>
+        <p corresp="#u_45v_008">Dále dny jsou zlé [---]. Zlé se nazývají ze dvou důvodů, totiž pro zlo viny a trestu. Pro vinu, když se konají zlé skutky [---]. Pro trest [---] nemoci. Člověk totiž říká [---] zlý den [---]. [---] Výška nebe, šířka země a hloubka moře [---]. Poznání nadýmá [---], pouze toto hledá a [---] činí jej [---].</p>
+        <p corresp="#u_45v_009">[Úzké odřezky protější stránky, bez souvislého překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

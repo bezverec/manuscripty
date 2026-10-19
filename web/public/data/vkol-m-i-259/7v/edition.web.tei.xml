@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 7v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_7v_coordinate; PNG SHA256 662c263b1dc4ae36e0ceeb3139af1d80c76d0b822ebe5351fcfeb30293355e1e; archival TIFF SHA256 a85430d66d0ce4f79209c7d1966d1ce55debb9421268108aa67159e07c2467d3; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_7v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#7v"/>
+      <zone ulx="703" uly="547" lrx="3370" lry="715" xml:id="z_f7v_l001"/>
+      <zone ulx="647" uly="672" lrx="3383" lry="812" xml:id="z_f7v_l002"/>
+      <zone ulx="678" uly="771" lrx="3461" lry="930" xml:id="z_f7v_l003"/>
+      <zone ulx="703" uly="877" lrx="3361" lry="1042" xml:id="z_f7v_l004"/>
+      <zone ulx="666" uly="989" lrx="3361" lry="1179" xml:id="z_f7v_l005"/>
+      <zone ulx="675" uly="1110" lrx="3426" lry="1281" xml:id="z_f7v_l006"/>
+      <zone ulx="681" uly="1232" lrx="3367" lry="1412" xml:id="z_f7v_l007"/>
+      <zone ulx="684" uly="1347" lrx="3345" lry="1512" xml:id="z_f7v_l008"/>
+      <zone ulx="678" uly="1449" lrx="3345" lry="1661" xml:id="z_f7v_l009"/>
+      <zone ulx="656" uly="1571" lrx="3342" lry="1767" xml:id="z_f7v_l010"/>
+      <zone ulx="765" uly="1698" lrx="3411" lry="1885" xml:id="z_f7v_l011"/>
+      <zone ulx="603" uly="1826" lrx="3327" lry="1994" xml:id="z_f7v_l012"/>
+      <zone ulx="694" uly="1953" lrx="3336" lry="2118" xml:id="z_f7v_l013"/>
+      <zone ulx="678" uly="2090" lrx="3417" lry="2240" xml:id="z_f7v_l014"/>
+      <zone ulx="678" uly="2202" lrx="3405" lry="2361" xml:id="z_f7v_l015"/>
+      <zone ulx="681" uly="2317" lrx="3327" lry="2488" xml:id="z_f7v_l016"/>
+      <zone ulx="690" uly="2429" lrx="3349" lry="2604" xml:id="z_f7v_l017"/>
+      <zone ulx="675" uly="2554" lrx="3395" lry="2712" xml:id="z_f7v_l018"/>
+      <zone ulx="675" uly="2666" lrx="3342" lry="2831" xml:id="z_f7v_l019"/>
+      <zone ulx="675" uly="2790" lrx="3433" lry="2961" xml:id="z_f7v_l020"/>
+      <zone ulx="703" uly="2908" lrx="3339" lry="3089" xml:id="z_f7v_l021"/>
+      <zone ulx="681" uly="3033" lrx="3423" lry="3201" xml:id="z_f7v_l022"/>
+      <zone ulx="709" uly="3157" lrx="3317" lry="3328" xml:id="z_f7v_l023"/>
+      <zone ulx="728" uly="3266" lrx="3423" lry="3450" xml:id="z_f7v_l024"/>
+      <zone ulx="690" uly="3394" lrx="3426" lry="3584" xml:id="z_f7v_l025"/>
+      <zone ulx="700" uly="3506" lrx="3327" lry="3692" xml:id="z_f7v_l026"/>
+      <zone ulx="684" uly="3646" lrx="3426" lry="3808" xml:id="z_f7v_l027"/>
+      <zone ulx="712" uly="3767" lrx="3352" lry="3932" xml:id="z_f7v_l028"/>
+      <zone ulx="610" uly="3873" lrx="3451" lry="4053" xml:id="z_f7v_l029"/>
+      <zone ulx="684" uly="4007" lrx="3405" lry="4178" xml:id="z_f7v_l030"/>
+      <zone ulx="681" uly="4125" lrx="3448" lry="4321" xml:id="z_f7v_l031"/>
+      <zone ulx="622" uly="4280" lrx="3414" lry="4458" xml:id="z_f7v_l032"/>
+      <zone ulx="687" uly="4424" lrx="3514" lry="4635" xml:id="z_f7v_l033"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f7v_l001" xml:id="catmus_f7v_l001"/>
+          <seg type="raw_unreviewed">siñam etpenitus nichil est ꝓ bacõ Ipẽ dñs dicit Celii</seg>
+          <lb facs="#z_f7v_l002" xml:id="catmus_f7v_l002"/>
+          <seg type="raw_unreviewed">t̃ra sũssibũs u̾ba aũt me a nõ tnsibut̾ /ten Balaam</seg>
+          <lb facs="#z_f7v_l003" xml:id="catmus_f7v_l003"/>
+          <seg type="raw_unreviewed">ad ualach dicit dednõ Dixit rnõ faciet Itẽ d̾amd ro</seg>
+          <lb facs="#z_f7v_l004" xml:id="catmus_f7v_l004"/>
+          <seg type="raw_unreviewed">q ꝓphanabo testamẽtũ meũ et que ꝓcedũt dela r</seg>
+          <lb facs="#z_f7v_l005" xml:id="catmus_f7v_l005"/>
+          <seg type="raw_unreviewed">biis meis nõ faciã inrita ͭ Itẽ ars. dicit ĩmreth. no</seg>
+          <lb facs="#z_f7v_l006" xml:id="catmus_f7v_l006"/>
+          <seg type="raw_unreviewed">na Causati ome pinotũ oꝑac̃a dr̃e ut sic edificacoĩs</seg>
+          <lb facs="#z_f7v_l007" xml:id="catmus_f7v_l007"/>
+          <seg type="raw_unreviewed">et cexendi indiciũ̃ est Uñ n ͨ auctoitas nͨ fides mũ</seg>
+          <lb facs="#z_f7v_l008" xml:id="catmus_f7v_l008"/>
+          <seg type="raw_unreviewed">hoc pͣmittit et dr̃aq deus mutet u̾ba suassicut ip̃e</seg>
+          <lb facs="#z_f7v_l009" xml:id="catmus_f7v_l009"/>
+          <seg type="raw_unreviewed">pscĩt pordinat et p̃dicit ea Dicitͣ go alit et multo</seg>
+          <lb facs="#z_f7v_l010" xml:id="catmus_f7v_l010"/>
+          <seg type="raw_unreviewed">melius cũ dicit fidhuc ul dies uiuine subu̾tetur</seg>
+          <lb facs="#z_f7v_l011" xml:id="catmus_f7v_l011"/>
+          <seg type="raw_unreviewed">ensus pl dies p̃cedẽt subusiõm Omitatꝭ nmuine</seg>
+          <lb facs="#z_f7v_l012" xml:id="catmus_f7v_l012"/>
+          <seg type="raw_unreviewed">nulla res aborigineanũdi ox quo pl dĩes mudꝰ</seg>
+          <lb facs="#z_f7v_l013" xml:id="catmus_f7v_l013"/>
+          <seg type="raw_unreviewed">scũs habuit subũsa est n ͨ nũꝙ subũtet᷑ insi pld</seg>
+          <lb facs="#z_f7v_l014" xml:id="catmus_f7v_l014"/>
+          <seg type="raw_unreviewed">es p̃ced ãt subãsiõm ilhus rei D ninuinite accepin̾it</seg>
+          <lb facs="#z_f7v_l015" xml:id="catmus_f7v_l015"/>
+          <seg type="raw_unreviewed">hos pl dies ptũc scatim instantib Dñs aũc dixit</seg>
+          <lb facs="#z_f7v_l016" xml:id="catmus_f7v_l016"/>
+          <seg type="raw_unreviewed">eos nõ ꝑ scatinrĩ scantibi sed ꝓ ximis p̃cedẽtibꝯ</seg>
+          <lb facs="#z_f7v_l017" xml:id="catmus_f7v_l017"/>
+          <seg type="raw_unreviewed">subusionem ⁊ nini̾ne S s cĩc quit᷑ quoe̾ sicdẽat</seg>
+          <lb facs="#z_f7v_l018" xml:id="catmus_f7v_l018"/>
+          <seg type="raw_unreviewed">in telligi plana est solucõ uĩ imuuite ꝯu̾t̾ent᷑ ul</seg>
+          <lb facs="#z_f7v_l019" xml:id="catmus_f7v_l019"/>
+          <seg type="raw_unreviewed">dic alit̾ et ꝑfundius q ib̃i sit locutõ mĩtata et</seg>
+          <lb facs="#z_f7v_l020" xml:id="catmus_f7v_l020"/>
+          <seg type="raw_unreviewed">cõdicõnalis et sic sensus adhuc pl dies ⁊ nuiue</seg>
+          <lb facs="#z_f7v_l021" xml:id="catmus_f7v_l021"/>
+          <seg type="raw_unreviewed">sub̾utet᷑ quasi dicat dus qriuine satꝭ reccamĩt.</seg>
+          <lb facs="#z_f7v_l022" xml:id="catmus_f7v_l022"/>
+          <seg type="raw_unreviewed">ucet adhruc xl dies et subu̾tet᷑ et plocũ aboppo</seg>
+          <lb facs="#z_f7v_l023" xml:id="catmus_f7v_l023"/>
+          <seg type="raw_unreviewed">sitis Si nõ picãt in fra ul dies mic in scantes</seg>
+          <lb facs="#z_f7v_l024" xml:id="catmus_f7v_l024"/>
+          <seg type="raw_unreviewed">sed̾ peniciuut nõ subn̾tet᷑ Dic go cu̾ba dm̃ g</seg>
+          <lb facs="#z_f7v_l025" xml:id="catmus_f7v_l025"/>
+          <seg type="raw_unreviewed">habitũ iitat᷑ hũc hĩlum mutacionis i. simlitudis</seg>
+          <lb facs="#z_f7v_l026" xml:id="catmus_f7v_l026"/>
+          <seg type="raw_unreviewed">ͫ actũ u̾o nõmutat᷑ Item licet ysaac mat̾ialit̾</seg>
+          <lb facs="#z_f7v_l027" xml:id="catmus_f7v_l027"/>
+          <seg type="raw_unreviewed">est oblatus nõ fuñt tñ formalr oblatꝰ fuit i omiĩs</seg>
+          <lb facs="#z_f7v_l028" xml:id="catmus_f7v_l028"/>
+          <seg type="raw_unreviewed">fdrma offendi in abraham completa fuit in t̾i̾is</seg>
+          <lb facs="#z_f7v_l029" xml:id="catmus_f7v_l029"/>
+          <seg type="raw_unreviewed">Itẽ licet sacos nalit̾ esau nõ su̾it tñ dignitati esau</seg>
+          <lb facs="#z_f7v_l030" xml:id="catmus_f7v_l030"/>
+          <seg type="raw_unreviewed">sint Ille dico esau cui bñdictõ pmnogenitalis adnõ</seg>
+          <lb facs="#z_f7v_l031" xml:id="catmus_f7v_l031"/>
+          <seg type="raw_unreviewed">debobat᷑ Itẽ In dyth̃ simlanit se m̾erate in app̾encia</seg>
+          <lb facs="#z_f7v_l032" xml:id="catmus_f7v_l032"/>
+          <seg type="raw_unreviewed">m̾et̾x aũt nõ suit in existẽcia nec ħͣ e̾at pccm quia</seg>
+          <lb facs="#z_f7v_l033" xml:id="catmus_f7v_l033"/>
+          <seg type="raw_unreviewed">cansa uoni fec̾at et pono tibi ex Quidem ffraciscite</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f7v_l001" xml:id="medusa_f7v_l001"/>
+          <seg type="raw_unreviewed">sinam ex penitus nichil est ꝓbacio Ip̃e dñs dicit Celi</seg>
+          <lb facs="#z_f7v_l002" xml:id="medusa_f7v_l002"/>
+          <seg type="raw_unreviewed">et t̃ra t̾nssibũt n̾ba aut mea nõ t̾nssibũt Item Balaam</seg>
+          <lb facs="#z_f7v_l003" xml:id="medusa_f7v_l003"/>
+          <seg type="raw_unreviewed">ad Balach dicit de dño Dixit ⁊ nõ faciet Item dauid Ne</seg>
+          <lb facs="#z_f7v_l004" xml:id="medusa_f7v_l004"/>
+          <seg type="raw_unreviewed">q ꝓphanabo testamẽtum meũ et que ꝑcedũt de la</seg>
+          <lb facs="#z_f7v_l005" xml:id="medusa_f7v_l005"/>
+          <seg type="raw_unreviewed">biis meis nõ facia irrita Item arP ͭ ͤ ᷤᷤ dicit ĩ Meth ͭ ͣ no</seg>
+          <lb facs="#z_f7v_l006" xml:id="medusa_f7v_l006"/>
+          <seg type="raw_unreviewed">na causati omne ꝑmotũ oꝑacũ dre̾ ut sic edificacionis</seg>
+          <lb facs="#z_f7v_l007" xml:id="medusa_f7v_l007"/>
+          <seg type="raw_unreviewed">et texendi indicium est. Sine nᶜ auctoritas nᶜ fides nr̃a</seg>
+          <lb facs="#z_f7v_l008" xml:id="medusa_f7v_l008"/>
+          <seg type="raw_unreviewed">hoc pᵃmittit et diꝰq deus mutet u̾ba sua sicut ip̃e</seg>
+          <lb facs="#z_f7v_l009" xml:id="medusa_f7v_l009"/>
+          <seg type="raw_unreviewed">p̃scit p̃ordinat et p̃dicit ea Dicatur go aliter et multo</seg>
+          <lb facs="#z_f7v_l010" xml:id="medusa_f7v_l010"/>
+          <seg type="raw_unreviewed">melins cũ dicit᷑ Id huc xlᵈ dies nimine subuertetur</seg>
+          <lb facs="#z_f7v_l011" xml:id="medusa_f7v_l011"/>
+          <seg type="raw_unreviewed">densus xl dies p̃cedẽt subn̾sioñ cimitatꝭ n imine</seg>
+          <lb facs="#z_f7v_l012" xml:id="medusa_f7v_l012"/>
+          <seg type="raw_unreviewed">Nulla res ab origine mundi ex quo xl dies mundus</seg>
+          <lb facs="#z_f7v_l013" xml:id="medusa_f7v_l013"/>
+          <seg type="raw_unreviewed">fcũs habuit subu̾sa est nͨ nunꝙ̃ subuertet᷑ nisi xl d</seg>
+          <lb facs="#z_f7v_l014" xml:id="medusa_f7v_l014"/>
+          <seg type="raw_unreviewed">es p̃cedant sub ansiam illius rei. S minime accepimus</seg>
+          <lb facs="#z_f7v_l015" xml:id="medusa_f7v_l015"/>
+          <seg type="raw_unreviewed">hos xl dies ꝓ tũc statim instantibꝰ . Dñs autem dixit</seg>
+          <lb facs="#z_f7v_l016" xml:id="medusa_f7v_l016"/>
+          <seg type="raw_unreviewed">eos nõ ꝓstanti in stantib: sed proximis precedẽtibꝰ</seg>
+          <lb facs="#z_f7v_l017" xml:id="medusa_f7v_l017"/>
+          <seg type="raw_unreviewed">subu̾sionem ⁊ minime. S3 si tñt qnͥt᷑ quae sic dẽat</seg>
+          <lb facs="#z_f7v_l018" xml:id="medusa_f7v_l018"/>
+          <seg type="raw_unreviewed">intelligi plana est solucõ U̾s minuite ꝯu̾tunt᷑ U̶l̶</seg>
+          <lb facs="#z_f7v_l019" xml:id="medusa_f7v_l019"/>
+          <seg type="raw_unreviewed">dic aliter et ꝓfundins ꝙ ibi sit locucõ m̃tata et</seg>
+          <lb facs="#z_f7v_l020" xml:id="medusa_f7v_l020"/>
+          <seg type="raw_unreviewed">cõdictionalis et sic sensus adhuc plꝰ zĩes ⁊ minime</seg>
+          <lb facs="#z_f7v_l021" xml:id="medusa_f7v_l021"/>
+          <seg type="raw_unreviewed">subu̾tes quasi dicat dñs crimine satis peccavit</seg>
+          <lb facs="#z_f7v_l022" xml:id="medusa_f7v_l022"/>
+          <seg type="raw_unreviewed">pͨcet adhuc xlᵈ dies et subuertet et plocũ ab oppo</seg>
+          <lb facs="#z_f7v_l023" xml:id="medusa_f7v_l023"/>
+          <seg type="raw_unreviewed">sitis Si nõ pccãt in fria xl dies nũc in stantes</seg>
+          <lb facs="#z_f7v_l024" xml:id="medusa_f7v_l024"/>
+          <seg type="raw_unreviewed">sed penituerit nõ subu̾te᷑t Dic go quu̾ba dñi s</seg>
+          <lb facs="#z_f7v_l025" xml:id="medusa_f7v_l025"/>
+          <seg type="raw_unreviewed">habitũ mutuatur huc hĩemii mutationis .i. similitudinis</seg>
+          <lb facs="#z_f7v_l026" xml:id="medusa_f7v_l026"/>
+          <seg type="raw_unreviewed">Sũ actũ nõ nõ mutat᷑ Item licet ysaac mat̾ialis</seg>
+          <lb facs="#z_f7v_l027" xml:id="medusa_f7v_l027"/>
+          <seg type="raw_unreviewed">est oblatus nõ fu̾it tñ formaliter oblatꝰ fu̾it .i. om̃es</seg>
+          <lb facs="#z_f7v_l028" xml:id="medusa_f7v_l028"/>
+          <seg type="raw_unreviewed">forma offendit in abraham completa fuit in trinis</seg>
+          <lb facs="#z_f7v_l029" xml:id="medusa_f7v_l029"/>
+          <seg type="raw_unreviewed">¶ Item licet Iacob naturaliter esau non fuerit tñ dignitati esau</seg>
+          <lb facs="#z_f7v_l030" xml:id="medusa_f7v_l030"/>
+          <seg type="raw_unreviewed">fuit Ille dico esau cui bñdicto p̾mogenitalis adno</seg>
+          <lb facs="#z_f7v_l031" xml:id="medusa_f7v_l031"/>
+          <seg type="raw_unreviewed">debebant Item in dyth smilant se m̾ecicẽ in app̃encia</seg>
+          <lb facs="#z_f7v_l032" xml:id="medusa_f7v_l032"/>
+          <seg type="raw_unreviewed">m̾et̾o aut̃ nõ fuit in existentia nec hᶜ e̾at pcc̃m quia</seg>
+          <lb facs="#z_f7v_l033" xml:id="medusa_f7v_l033"/>
+          <seg type="raw_unreviewed">cansa boni fecerat et pono tibi ex ͫ eundem Franciscite</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f7v_l001 #z_f7v_l002 #z_f7v_l003 #z_f7v_l004 #z_f7v_l005 #z_f7v_l006 #z_f7v_l007 #z_f7v_l008 #z_f7v_l009" xml:id="u_7v_001">… sententiam, et penitus nihil est. Probatio: Ipse Dominus dicit: Caelum et terra transibunt, verba autem mea non transibunt. Item Balaam ad Balach dicit de Domino: Dixit et non faciet? Item David: Neque profanabo testamentum meum et quae procedunt de labiis meis non faciam irrita. Item Aristoteles dicit in Metaphysica nona: [...] ut sic aedificationis et texendi [...] . Unde nec auctoritas nec fides [...] hoc permittit et [...] quod Deus mutet verba sua sicut ipse praescit, praeordinat et praedicit ea.</p>
+        <note type="editorial" corresp="#u_7v_001" xml:lang="cs">Začátek odmítá vysvětlení z7r, že při změně lidského života Bůh mění svůj výrok. Aristotelova citace je špatně čitelná a nebyla dohledána v edici; nenabízím zkonstruované úplné znění.</note>
+        <p facs="#z_f7v_l010 #z_f7v_l011 #z_f7v_l012 #z_f7v_l013 #z_f7v_l014 #z_f7v_l015 #z_f7v_l016 #z_f7v_l017 #z_f7v_l018" xml:id="u_7v_002">Dicatur ergo aliter et multo melius. Cum dicitur: Adhuc quadraginta dies, Ninive subvertetur, sensus: quadraginta dies praecedent subversionem civitatis Ninive. Nulla res ab origine mundi, ex quo quadraginta dies mundus [...] habuit, subversa est nec numquam subvertetur nisi quadraginta dies praecedant subversionem illius rei. Sed Ninivitae acceperunt hos quadraginta dies pro tunc statim instantibus; Dominus autem dixit eos non pro statim instantibus sed proximis praecedentibus subversionem Ninive. Sed si tunc quaeritur quare sic debeat intelligi, plana est solutio: ut Ninivitae converterentur.</p>
+        <note type="editorial" corresp="#u_7v_002" xml:lang="cs">Toto je historická autorova argumentace o neurčeném časovém odstupu, nikoli náš vlastní logický závěr. Místo o stáří světa je částečně nejisté; překlad ho nedoplňuje.</note>
+        <p facs="#z_f7v_l019 #z_f7v_l020 #z_f7v_l021 #z_f7v_l022 #z_f7v_l023 #z_f7v_l024 #z_f7v_l025 #z_f7v_l026" xml:id="u_7v_003">Vel dic aliter et profundius quod ibi sit locutio limitata et conditionalis. Et sic sensus: Adhuc quadraginta dies et Ninive subvertetur, quasi dicat Deus: Ninive satis peccavit, [...] adhuc quadraginta dies et subvertetur. Et per locum ab oppositis: Si non peccant infra quadraginta dies nunc instantes sed paenitent, non subvertetur. Dic ergo: verba Domini quoad habitum imitantur hunc habitum mutationis, id est similitudinis; secundum actum vero non mutantur.</p>
+        <note type="editorial" corresp="#u_7v_003" xml:lang="cs">Část podmíněné věty před údajem čtyřiceti dnů je nejistá. Habitus zde přeložen výkladově jako podoba; přesná terminologická opozice k actus vyžaduje odbornou kontrolu. Podmínka se nebere z jiné biblické předlohy.</note>
+        <p facs="#z_f7v_l027 #z_f7v_l028 #z_f7v_l029 #z_f7v_l030" xml:id="u_7v_004">Item licet Isaac materialiter oblatus non fuit, tamen formaliter oblatus fuit, id est omnis forma offerendi in Abraham completa fuit [...] . Item licet Iacob naturaliter Esau non fuerit, tamen dignitate Esau fuit; ille dico Esau cui benedictio primogenitalis a Domino debebatur.</p>
+        <note type="editorial" corresp="#u_7v_004" xml:lang="cs">Slovní pořadí příkladu s Izákem je návrhově rozčleněno podle obrazu přes hranici řádků; koncové slovo po completa fuit je nejasné. Materialiter/formaliter a naturaliter/dignitate jsou skutečné autorovy opozice, ne nový doplněný výklad.</note>
+        <p facs="#z_f7v_l031 #z_f7v_l032 #z_f7v_l033" xml:id="u_7v_005">Item Iudith simulavit se meretricem in apparentia; meretrix autem non fuit in existentia. Nec hoc erat peccatum quia causa boni fecerat. Et pono tibi exemplum: Quidam Franciscita …</p>
+        <note type="editorial" corresp="#u_7v_005" xml:lang="cs">Autorovo morální hodnocení je přeloženo jako součást textu. Příběh františkána začíná na posledním řádku a pokračuje na8r; není zde domyšlen.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_7v_001">… svůj výrok. To však vůbec neplatí. Důkaz: Sám Pán říká, že nebe a země pominou, ale jeho slova nepominou. Balaám říká Baláchovi o Pánu: Co řekl, neučiní snad? David dále: Neporuším svou smlouvu a nezneplatním, co vyšlo z mých rtů. Aristoteles v deváté knize Metafyziky říká [...] s příkladem stavění a tkaní [...] . Ani autorita, ani víra tedy [...] nedovolují tvrdit, že Bůh mění svá slova, jak je předvídá, předurčuje a předpovídá.</p>
+        <p corresp="#u_7v_002">Řekněme to tedy jinak a mnohem lépe. Výrok Ještě čtyřicet dní a Ninive bude vyvráceno znamená: vyvrácení města bude předcházet čtyřicet dní. Od počátku světa [...] nebyla a nebude žádná věc zničena, aniž jejímu zničení předcházelo čtyřicet dní. Ninivané však těchto čtyřicet dní vztáhli k době bezprostředně následující; Pán je nemyslel jako právě nastávající, nýbrž jako ty, které bezprostředně předcházejí zničení Ninive. Proč se to má takto chápat? Odpověď je prostá: aby se Ninivané obrátili.</p>
+        <p corresp="#u_7v_003">Nebo řekni jinak a hlouběji, že jde o omezený a podmíněný výrok. Jeho smyslem je: Ninive už dosti hřešilo; [...] ještě čtyřicet dní a bude vyvráceno. Z protikladu však plyne: jestliže v těchto nyní následujících čtyřiceti dnech hřešit nebudou, ale budou činit pokání, vyvráceno nebude. Boží slova tedy z hlediska vnější podoby napodobují podobu změny, ve skutečném uskutečnění se však nemění.</p>
+        <p corresp="#u_7v_004">Izák sice nebyl obětován po stránce látky, formálně však obětován byl: v Abrahamovi byla naplněna celá forma obětování [...] . Jákob sice přirozeností nebyl Ezau, byl jím však důstojností: tím Ezauem, jemuž náleželo od Pána prvorozené požehnání.</p>
+        <p corresp="#u_7v_005">Judit předstírala, že je nevěstka, co do vnějšího zdání; ve skutečnosti jí však nebyla. Nebyl to hřích, protože to učinila pro dobro. Dám ti příklad: Jeden františkán …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 56r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Auctoritates diversorum doctorum (praesertim circa confessionem ac obedienciam). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_56r_coordinate; PNG SHA256 2ea7d68cd445a8bb1ee9646c45720c5b1972947c730df2f22b235ce439339bef; archival TIFF SHA256 591f2c1792f0c4a08ce5c54998e020876d2c354fea2627c28d611da60c7df30e; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_56r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#56r"/>
+      <zone ulx="118" uly="2600" lrx="249" lry="2709" xml:id="z_f56r_l001"/>
+      <zone ulx="273" uly="242" lrx="410" lry="320" xml:id="z_f56r_l002"/>
+      <zone ulx="429" uly="410" lrx="3044" lry="578" xml:id="z_f56r_l003"/>
+      <zone ulx="407" uly="516" lrx="3174" lry="678" xml:id="z_f56r_l004"/>
+      <zone ulx="410" uly="597" lrx="1864" lry="771" xml:id="z_f56r_l005"/>
+      <zone ulx="398" uly="1269" lrx="3034" lry="1431" xml:id="z_f56r_l006"/>
+      <zone ulx="420" uly="1359" lrx="3075" lry="1512" xml:id="z_f56r_l007"/>
+      <zone ulx="413" uly="1449" lrx="2919" lry="1592" xml:id="z_f56r_l008"/>
+      <zone ulx="417" uly="1536" lrx="3103" lry="1692" xml:id="z_f56r_l009"/>
+      <zone ulx="423" uly="1624" lrx="3087" lry="1770" xml:id="z_f56r_l010"/>
+      <zone ulx="417" uly="1714" lrx="3059" lry="1857" xml:id="z_f56r_l011"/>
+      <zone ulx="413" uly="1804" lrx="3078" lry="1947" xml:id="z_f56r_l012"/>
+      <zone ulx="407" uly="1888" lrx="3044" lry="2047" xml:id="z_f56r_l013"/>
+      <zone ulx="420" uly="1969" lrx="1126" lry="2078" xml:id="z_f56r_l014"/>
+      <zone ulx="413" uly="2037" lrx="3090" lry="2174" xml:id="z_f56r_l015"/>
+      <zone ulx="423" uly="2131" lrx="3044" lry="2264" xml:id="z_f56r_l016"/>
+      <zone ulx="426" uly="2215" lrx="3072" lry="2342" xml:id="z_f56r_l017"/>
+      <zone ulx="426" uly="2289" lrx="3053" lry="2439" xml:id="z_f56r_l018"/>
+      <zone ulx="420" uly="2370" lrx="2654" lry="2523" xml:id="z_f56r_l019"/>
+      <zone ulx="410" uly="2464" lrx="3050" lry="2604" xml:id="z_f56r_l020"/>
+      <zone ulx="423" uly="2551" lrx="3053" lry="2691" xml:id="z_f56r_l021"/>
+      <zone ulx="429" uly="2632" lrx="3096" lry="2803" xml:id="z_f56r_l022"/>
+      <zone ulx="441" uly="2719" lrx="1484" lry="2840" xml:id="z_f56r_l023"/>
+      <zone ulx="413" uly="2796" lrx="3124" lry="2958" xml:id="z_f56r_l024"/>
+      <zone ulx="426" uly="2896" lrx="3121" lry="3045" xml:id="z_f56r_l025"/>
+      <zone ulx="435" uly="2977" lrx="3093" lry="3111" xml:id="z_f56r_l026"/>
+      <zone ulx="423" uly="3064" lrx="3115" lry="3207" xml:id="z_f56r_l027"/>
+      <zone ulx="448" uly="3154" lrx="3093" lry="3288" xml:id="z_f56r_l028"/>
+      <zone ulx="426" uly="3241" lrx="3081" lry="3378" xml:id="z_f56r_l029"/>
+      <zone ulx="420" uly="3332" lrx="3072" lry="3465" xml:id="z_f56r_l030"/>
+      <zone ulx="463" uly="3422" lrx="3162" lry="3559" xml:id="z_f56r_l031"/>
+      <zone ulx="435" uly="3500" lrx="3053" lry="3652" xml:id="z_f56r_l032"/>
+      <zone ulx="426" uly="3584" lrx="3093" lry="3745" xml:id="z_f56r_l033"/>
+      <zone ulx="420" uly="3664" lrx="3134" lry="3829" xml:id="z_f56r_l034"/>
+      <zone ulx="423" uly="3764" lrx="3016" lry="3920" xml:id="z_f56r_l035"/>
+      <zone ulx="429" uly="3864" lrx="3044" lry="3997" xml:id="z_f56r_l036"/>
+      <zone ulx="426" uly="3948" lrx="3047" lry="4097" xml:id="z_f56r_l037"/>
+      <zone ulx="423" uly="4035" lrx="3093" lry="4175" xml:id="z_f56r_l038"/>
+      <zone ulx="420" uly="4128" lrx="3174" lry="4262" xml:id="z_f56r_l039"/>
+      <zone ulx="417" uly="4196" lrx="3193" lry="4358" xml:id="z_f56r_l040"/>
+      <zone ulx="429" uly="4284" lrx="3115" lry="4442" xml:id="z_f56r_l041"/>
+      <zone ulx="423" uly="4389" lrx="2788" lry="4595" xml:id="z_f56r_l042"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f56r_l001" xml:id="catmus_f56r_l001"/>
+          <seg type="raw_unreviewed">O. arqͥs</seg>
+          <lb facs="#z_f56r_l002" xml:id="catmus_f56r_l002"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f56r_l003" xml:id="catmus_f56r_l003"/>
+          <seg type="raw_unreviewed">Qnõmꝰ c̾ci ꝯfessĩo st̃ ꝑictũ aulrꝭ aliffiͭ . sis eiu̾gĩt Ioħũc ĩc ͭ ͣ dirsessiõe</seg>
+          <lb facs="#z_f56r_l004" xml:id="catmus_f56r_l004"/>
+          <seg type="raw_unreviewed">ponũ C ttatus rubriõe sũt Caade tpe ĩ cepit ꝯfessio pr ͦ quae f . fes i sc</seg>
+          <lb facs="#z_f56r_l005" xml:id="catmus_f56r_l005"/>
+          <seg type="raw_unreviewed">st ou st qfriq d dice ꝯficũdiist deccũ scĩti i si</seg>
+          <lb facs="#z_f56r_l006" xml:id="catmus_f56r_l006"/>
+          <seg type="raw_unreviewed">Ao᷑ uͨ sũt opiẽe . Iuo tꝑe ꝯfessio ĩ cept ¶Quida dicũt ꝙ ĩxordio hũani</seg>
+          <lb facs="#z_f56r_l007" xml:id="catmus_f56r_l007"/>
+          <seg type="raw_unreviewed">gri̾s. ꝑꝑ pccm p̾mi hõis Iqñ s. dñs itreg̾iuit adã de pcc̃o quiisso ut ꝙ pcado</seg>
+          <lb facs="#z_f56r_l008" xml:id="catmus_f56r_l008"/>
+          <seg type="raw_unreviewed">quiiẜat ꝯfitũdo delet Ialii dicũt qs ĩcepit apcc̃o cam Iqũ ĩt̾rrga ͭ eũ dñs uͥ</seg>
+          <lb facs="#z_f56r_l009" xml:id="catmus_f56r_l009"/>
+          <seg type="raw_unreviewed">ut qfite᷑ Het̾ii ꝙ ĩcep ͭ tꝑe ydsue Iqñ yosue p̃ceꝑat achar ut̾ ꝯfite᷑. ꝙ ucẽ</seg>
+          <lb facs="#z_f56r_l010" xml:id="catmus_f56r_l010"/>
+          <seg type="raw_unreviewed">ꝑat deanithẽte iericho ut ꝑꝑenã tpale enobe̾t et̾it ¶ Qͣ dicũ anstitie ecc̃ocu</seg>
+          <lb facs="#z_f56r_l011" xml:id="catmus_f56r_l011"/>
+          <seg type="raw_unreviewed">me ligat ibusgͥssione pruñt Iuͥͥ ꝙ sit abauͣte ueti tostiͭ ꝙ ue̾r̾us c̾do / Nã ĩ</seg>
+          <lb facs="#z_f56r_l012" xml:id="catmus_f56r_l012"/>
+          <seg type="raw_unreviewed">lenitico dt̃ Si q̃s ꝓcui feot ⁊ ꝯfessũ fu̾it it cõprmat᷑ aũt nouo tesoitiũto</seg>
+          <lb facs="#z_f56r_l013" xml:id="catmus_f56r_l013"/>
+          <seg type="raw_unreviewed">⁊ iacobꝰ Cõfiteuũ altuꝵ pccã uiũ Et ⁊̃ ꝯfiuil᷑ adũo deu ꝰ ubi ⁊̃ p̃cepͭ leꝑsis</seg>
+          <lb facs="#z_f56r_l014" xml:id="catmus_f56r_l014"/>
+          <seg type="raw_unreviewed">ut aũdent se sue̾do ᷝ</seg>
+          <lb facs="#z_f56r_l015" xml:id="catmus_f56r_l015"/>
+          <seg type="raw_unreviewed">It u̾di᷑ e isessio ẽ . sobita sõ ut ꝑ ꝯfessiõ ꝯsitũt᷑. soc̾dos qͥ nõ uidet uͦ ĩ fucie ĩst̾a ͬ</seg>
+          <lb facs="#z_f56r_l016" xml:id="catmus_f56r_l016"/>
+          <seg type="raw_unreviewed">demõ satisfcõu ĩpoũde Ic̃. Il pcc̃o t̾u st̃ in pudũci delcã pac̃cõ Couͣq t̾plici</seg>
+          <lb facs="#z_f56r_l017" xml:id="catmus_f56r_l017"/>
+          <seg type="raw_unreviewed">remedis api ẽ inpudũcie oppo᷑ ꝯfessio Ideltacõm amaĩtide spatdoiu oꝑte ama̾itudo</seg>
+          <lb facs="#z_f56r_l018" xml:id="catmus_f56r_l018"/>
+          <seg type="raw_unreviewed">sutꝭ sco¶ ul sc̃ dm̃i t̾bus mois offñdimꝰ ¶Cegitunde delcũnde oꝑando Iiit̾b mois</seg>
+          <lb facs="#z_f56r_l019" xml:id="catmus_f56r_l019"/>
+          <seg type="raw_unreviewed">sutiffaciꝰ Iqfitũdo de cogitucõe Iqc̾cũm. hũde de deltutr̃e /Datissu ͤ de ope</seg>
+          <lb facs="#z_f56r_l020" xml:id="catmus_f56r_l020"/>
+          <seg type="raw_unreviewed">It u sacͥt ẽ ifitei qͥ hũt pc̃are li ⁊ si Er ĩ art̾clo mortꝭ ciil pc̃ hõ ꝯfis̾ ¶ nõ</seg>
+          <lb facs="#z_f56r_l021" xml:id="catmus_f56r_l021"/>
+          <seg type="raw_unreviewed">onũ credo ꝙ sasaultice. ⁊ẽ rẽ. qr ex quidit᷑ añ ab solucõ quĩcae̾ nõ dekeꝰ Qũ ir</seg>
+          <lb facs="#z_f56r_l022" xml:id="catmus_f56r_l022"/>
+          <seg type="raw_unreviewed">abũ corporꝭ aboxqm̃cnto accrꝑe lic Iitu gerobũ aĩe .i. pmũ sid nõ cdo u diffimo</seg>
+          <lb facs="#z_f56r_l023" xml:id="catmus_f56r_l023"/>
+          <seg type="raw_unreviewed">ẜ arbritrro uiꝰ distreci reliqũ</seg>
+          <lb facs="#z_f56r_l024" xml:id="catmus_f56r_l024"/>
+          <seg type="raw_unreviewed">It suoc̾des d ꝓporie quõ pr̃ dilex ͭ uer Iut dae̾t sliũ ĩhne iñd̃ qquõ s martrisntꝰ</seg>
+          <lb facs="#z_f56r_l025" xml:id="catmus_f56r_l025"/>
+          <seg type="raw_unreviewed">siloꝰ pp ⁊ nua eõs passiõ s et quo morx xͥ ꝓsit s̾ It nõ ꝑꝑ mstos ẜ pccĩes uet</seg>
+          <lb facs="#z_f56r_l026" xml:id="catmus_f56r_l026"/>
+          <seg type="raw_unreviewed">It nẽ wͭ moitẽ ꝯfessotꝭ is qu ͤ ⁊ It .gaudri ẽ aiulis fipz᷑ It ꝯfortet eñ uegui ͦ</seg>
+          <lb facs="#z_f56r_l027" xml:id="catmus_f56r_l027"/>
+          <seg type="raw_unreviewed">betͥ. ꝑ secucõ pauli / pccũ mai̾e m. Cõfessio lacͥns Iudubti dd I⁊ scĩ the loĩni</seg>
+          <lb facs="#z_f56r_l028" xml:id="catmus_f56r_l028"/>
+          <seg type="raw_unreviewed">qͥtiliũ os gͣuit᷑ poͣtu̾t ueiĩ ꝑꝑmã ĩpet̃iu̾it ⁊risdã apłi q̾dã sc̃ĩ diͦ effc̃ĩ st̃i re</seg>
+          <lb facs="#z_f56r_l029" xml:id="catmus_f56r_l029"/>
+          <seg type="raw_unreviewed">ꝑ sidus aspiciat p̃t p̃deꝙ lac̾uẽ ħacheñ dines s iñdus carue men̾ł Gudelis</seg>
+          <lb facs="#z_f56r_l030" xml:id="catmus_f56r_l030"/>
+          <seg type="raw_unreviewed">ꝑtulũ quẽ tangũt tã matheĩ Et medie spualis adius᷑ media corꝑdalis</seg>
+          <lb facs="#z_f56r_l031" xml:id="catmus_f56r_l031"/>
+          <seg type="raw_unreviewed">tꝯx ͥ Cõfertut er r̾bis dulcib ꝯ̃pocul᷑ ĩ fir mo isalutẽ cũ dei adiutrio pofliori᷑</seg>
+          <lb facs="#z_f56r_l032" xml:id="catmus_f56r_l032"/>
+          <seg type="raw_unreviewed">n ͨ eg̾s morbũ pcã ꝯfidũter deg̾gat. sũbitibitẽ ⁊ qͣlitatẽ. ⁊ dolotꝭ acediue</seg>
+          <lb facs="#z_f56r_l033" xml:id="catmus_f56r_l033"/>
+          <seg type="raw_unreviewed">cẽseisũ acquirat qñ morbus aꝑꝑuit ꝯsideaus etutẽ. sexũ. moe̾s lẽgibidiẽ⁊̃</seg>
+          <lb facs="#z_f56r_l034" xml:id="catmus_f56r_l034"/>
+          <seg type="raw_unreviewed">dut̾uitatẽ pc̃tudi. ꝯsuetudiẽ ⁊iisduei scatũ. ĩpetũ. pulsͥ. scestũ corꝭ. lstũ ĩtꝭ</seg>
+          <lb facs="#z_f56r_l035" xml:id="catmus_f56r_l035"/>
+          <seg type="raw_unreviewed">It swudat soc̾idos pccũ sua q̃sitei siĩ oñi ꝯfusiõe iqr nõ loͬ heĩ ẜ de̾ It̃ s</seg>
+          <lb facs="#z_f56r_l036" xml:id="catmus_f56r_l036"/>
+          <seg type="raw_unreviewed">site᷑ p. ĩpño uitib ͭ pẽs ĩ fui ⁊ pẽdtꝑadi g̃aud̾a possiᵗͭ.I di at uoluit ꝯfitei</seg>
+          <lb facs="#z_f56r_l037" xml:id="catmus_f56r_l037"/>
+          <seg type="raw_unreviewed">spouat e pẽs ĩfu̾i ⁊ heurẽs iudicii Ieñ d ͭ ys̃ in ĩ fu̾e uniq̾sq ad ꝓxxi suũ</seg>
+          <lb facs="#z_f56r_l038" xml:id="catmus_f56r_l038"/>
+          <seg type="raw_unreviewed">scupebat ⁊ falties eeꝵꝭ ꝯbuste uolcus eor It dedie aͥ añra rnaͣq ualde it ͭ It̃</seg>
+          <lb facs="#z_f56r_l039" xml:id="catmus_f56r_l039"/>
+          <seg type="raw_unreviewed">⁊ĩ fu̾e ĩ ĩsa ẽ obstĩtas teneliẽs pẽꝵ auxatutes infiba miẜuꝵ et̾iutus Ibieit</seg>
+          <lb facs="#z_f56r_l040" xml:id="catmus_f56r_l040"/>
+          <seg type="raw_unreviewed">fle s.d. ⁊ grio/ reuilat ⁊ lucti rcciatꝰ clõr clĩer t̾mor tõr delor labor ardor</seg>
+          <lb facs="#z_f56r_l041" xml:id="catmus_f56r_l041"/>
+          <seg type="raw_unreviewed">sitor obstiũtas acbitas asꝑitit. ⁊calaĩtis egestis ãristra t̾stitia obluue cõtorsis</seg>
+          <lb facs="#z_f56r_l042" xml:id="catmus_f56r_l042"/>
+          <seg type="raw_unreviewed">fortõrs faines sr̃ fh̃ criuũ ft sulfit igᵒ ardoẽs ħdt hc̃ ⁊ ꝯ̃c̃ptu iñdi</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f56r_l001" xml:id="medusa_f56r_l001"/>
+          <seg type="raw_unreviewed">argu</seg>
+          <lb facs="#z_f56r_l002" xml:id="medusa_f56r_l002"/>
+          <seg type="raw_unreviewed">11</seg>
+          <lb facs="#z_f56r_l003" xml:id="medusa_f56r_l003"/>
+          <seg type="raw_unreviewed">noñu t̾cia confessiõ st̃ ꝑiclũ anĩteꝭ ⁊ diffiˢᵗᵒˢ. Ips̃ eũrgũt Ioh̃nũ c̾tˡᵘ̃ confessione</seg>
+          <lb facs="#z_f56r_l004" xml:id="medusa_f56r_l004"/>
+          <seg type="raw_unreviewed">pona Que t̃tatus rubrice sũt Quo tpe ĩcepit confesso 120 quare f ͭ confsso ĩ sta</seg>
+          <lb facs="#z_f56r_l005" xml:id="medusa_f56r_l005"/>
+          <seg type="raw_unreviewed">Item on  se 9fr 1 q d dicer 9frũdi Ist de cunc scũcũ</seg>
+          <lb facs="#z_f56r_l006" xml:id="medusa_f56r_l006"/>
+          <seg type="raw_unreviewed">Noͣ uͦ sũt opĩe quo tꝑe ꝯfessio ĩcept ¶ Quidaꝵ dicũt ꝙ ĩ exordio hũmi</seg>
+          <lb facs="#z_f56r_l007" xml:id="medusa_f56r_l007"/>
+          <seg type="raw_unreviewed">gn̾is. ꝑꝑ pccm̃ p̾mii hoĩs / qm̃ .s. dñs ĩregnuit adã de pccõ quisse ut ꝙ pcc̃ndo</seg>
+          <lb facs="#z_f56r_l008" xml:id="medusa_f56r_l008"/>
+          <seg type="raw_unreviewed">ꝯmisit confitendo deleret Alii dicunt quod incepit apococatum / qñ interrogat eum dominus u</seg>
+          <lb facs="#z_f56r_l009" xml:id="medusa_f56r_l009"/>
+          <seg type="raw_unreviewed">ut ꝯfite᷑r ¶ Ec̃ii ꝙ ĩcepͭ tꝑe yosue I. qm̃ yosue p̃ceꝑat acchar ut ꝯfite᷑r. ꝙ nͣ ce</seg>
+          <lb facs="#z_f56r_l010" xml:id="medusa_f56r_l010"/>
+          <seg type="raw_unreviewed">ꝑat deamittheͬte Iericho / ut ꝑpenã tp̃alem eualẽt/ et̃rna ¶ 4ꝰ dicũ aꝰstitit᷑ ecc̃cia</seg>
+          <lb facs="#z_f56r_l011" xml:id="medusa_f56r_l011"/>
+          <seg type="raw_unreviewed">me ligat ĩ tñsgressione punit / uͥ q si abannde uet̾ testatiꝰ q uenus c̾do / nã ĩ</seg>
+          <lb facs="#z_f56r_l012" xml:id="medusa_f56r_l012"/>
+          <seg type="raw_unreviewed">lenitico dt̃ Si qͥs pccnii fecit ⁊ confessũ fu̾it id tꝭ Confirmat᷑ aut̃ novo testamento</seg>
+          <lb facs="#z_f56r_l013" xml:id="medusa_f56r_l013"/>
+          <seg type="raw_unreviewed">⁊ Jacobꝰ Confitemur alt̾iorꝰ pccã ur̃a Et ⁊̃ ꝯfirma᷑ a dño ĩ uirꝰ ubi ⁊̃ p̃cepͭ reꝓsis</seg>
+          <lb facs="#z_f56r_l014" xml:id="medusa_f56r_l014"/>
+          <seg type="raw_unreviewed">ut auderent se succedo videlicet</seg>
+          <lb facs="#z_f56r_l015" xml:id="medusa_f56r_l015"/>
+          <seg type="raw_unreviewed">It u̾o i᷑ e ꝯfessio ẽ ĩ sobita se ut ꝑ ꝯfessiõ ꝯfitũt᷑ sacerdotes qͥ nõ uident uᷠ ĩ facie ĩstũt᷑</seg>
+          <lb facs="#z_f56r_l016" xml:id="medusa_f56r_l016"/>
+          <seg type="raw_unreviewed">demõ satisfaciõis ĩpende ⁊c. qͥbꝰ pccõ c̾a st̃ In p̃miciã delc̃a᷑ paccõ Couq t̾plic</seg>
+          <lb facs="#z_f56r_l017" xml:id="medusa_f56r_l017"/>
+          <seg type="raw_unreviewed">remedio apł e suppuñcie oppoꝵ confesso / de sc̃acõni amaitido / patẽom̃ oꝑis amaitido</seg>
+          <lb facs="#z_f56r_l018" xml:id="medusa_f56r_l018"/>
+          <seg type="raw_unreviewed">satꝭ fẽ̃ Uł si dñi t̾bꝰ meis offu̾dimꝰ / Cogitaunde delc̃tande oꝑando In t̾b meis</seg>
+          <lb facs="#z_f56r_l019" xml:id="medusa_f56r_l019"/>
+          <seg type="raw_unreviewed">satisfaciꝰ / ꝯfitũdo de cogitacõe / ꝯtͥcõm hñdo de delacõne / Satisfiᵈᵒ de oꝑe</seg>
+          <lb facs="#z_f56r_l020" xml:id="medusa_f56r_l020"/>
+          <seg type="raw_unreviewed">¶ It uͥ sac̾bⁱ ẽ. ꝯfitei᷑ qͥ hũt pccãte l. ⁊ s. Et ĩ articło mortꝭ cuilib⁊ pt̃ hõ ꝯfitei᷑ / nõ</seg>
+          <lb facs="#z_f56r_l021" xml:id="medusa_f56r_l021"/>
+          <seg type="raw_unreviewed">citu credo ꝙ sarsanatico. ⁊ ẽ r̃e. qr ex quincuntꝭ añ absolucõ; quincare nõ debet. Qũ qr</seg>
+          <lb facs="#z_f56r_l022" xml:id="medusa_f56r_l022"/>
+          <seg type="raw_unreviewed">cibũ corporis ab eodem nũcito accipere licet / ita gͤrõbũ ane .i. punitz / qd̃ nõ c̾do nͨ diffinio</seg>
+          <lb facs="#z_f56r_l023" xml:id="medusa_f56r_l023"/>
+          <seg type="raw_unreviewed">s arbitrio u discreti relinqum</seg>
+          <lb facs="#z_f56r_l024" xml:id="medusa_f56r_l024"/>
+          <seg type="raw_unreviewed">Item secundos d ꝓponere quomodo pater dilexⁱt uos / ut daret filium ĩ hunc nũd̃. quomodo s⁊ martiris sit</seg>
+          <lb facs="#z_f56r_l025" xml:id="medusa_f56r_l025"/>
+          <seg type="raw_unreviewed">silꝰ pp. ⁊ una oẽs passio̾e Et quõ moꝵo ꝙͥ ꝑsit sꝰ It̃ nõ ꝑꝑ mistos s pccões ne᷑</seg>
+          <lb facs="#z_f56r_l026" xml:id="medusa_f56r_l026"/>
+          <seg type="raw_unreviewed">It̃ nõ ut mortẽ confessotꝰ qd̃ ꝯu̾e ⁊ It̃ gauden e anglis sup⁊ It̃ confortet eũ negaᵒ</seg>
+          <lb facs="#z_f56r_l027" xml:id="medusa_f56r_l027"/>
+          <seg type="raw_unreviewed">petꝰ ꝑsecucõ pauli / pccã maĩe Mᵃ. Confessõ latͧnis / adu̾t᷑iꝰ dꝰ 12 sc̃m theboͣn</seg>
+          <lb facs="#z_f56r_l028" xml:id="medusa_f56r_l028"/>
+          <seg type="raw_unreviewed">q̃ tituũ eũ gͣuit᷑ potu̾it uenã ꝑpetuã ĩpetu̾it . ⁊ fda̾ apłi q̃dã sc̃i diᵒ effc̃i st̃ / 14</seg>
+          <lb facs="#z_f56r_l029" xml:id="medusa_f56r_l029"/>
+          <seg type="raw_unreviewed">ꝑsidus aspiciat p̃tꝭ p̃deꝙ latu᷑ne / zachem̃ dines / ĩ iudus carne manꝭ Crudelis</seg>
+          <lb facs="#z_f56r_l030" xml:id="medusa_f56r_l030"/>
+          <seg type="raw_unreviewed">paulũ quae tangunt tã matheũ ¶ Item medic / specialis ad meꝰ medici corporalis</seg>
+          <lb facs="#z_f56r_l031" xml:id="medusa_f56r_l031"/>
+          <seg type="raw_unreviewed">xii. Cõfortat egr̃s u̾bis dulcib ꝯpaciut̃ ⁊ firmit̃ salutẽ cũ dei adiutorio potestari</seg>
+          <lb facs="#z_f56r_l032" xml:id="medusa_f56r_l032"/>
+          <seg type="raw_unreviewed">nꝰ egͥs merbũ pcc̃i ꝯfidũter det̃gat. qͣntitatẽ ⁊ qͣlitatẽ. ⁊ debet a cedine</seg>
+          <lb facs="#z_f56r_l033" xml:id="medusa_f56r_l033"/>
+          <seg type="raw_unreviewed">Cõsequũtur acquirat qñ morbus apparuit. ꝯsiderans etatem. sexũ. moẽs. lẽgitudinem</seg>
+          <lb facs="#z_f56r_l034" xml:id="medusa_f56r_l034"/>
+          <seg type="raw_unreviewed">durit̾nitatem p̾c̾andi. ꝯsuetudĩe ꝑsonae / statũ. ĩpetũ. pulsꝰ. spestũ corpꝰ. habitũ nũtꝭ</seg>
+          <lb facs="#z_f56r_l035" xml:id="medusa_f56r_l035"/>
+          <seg type="raw_unreviewed">¶ It̃ suuadat succ̃do pcc̃a sua qͣsiteriꝰ sñ om̃a ꝯfusione 12 nõ lo᷑ hoi s deꝰ 12 s</seg>
+          <lb facs="#z_f56r_l036" xml:id="medusa_f56r_l036"/>
+          <seg type="raw_unreviewed">confite᷑ p. ĩ pñsi uitaᵇ pẽs ĩ fni. ⁊ pñd ꝑadi gaudia possiᵗ. Ibi aut̃ noluit confite᷑</seg>
+          <lb facs="#z_f56r_l037" xml:id="medusa_f56r_l037"/>
+          <seg type="raw_unreviewed">ꝓponat ei pẽs ĩf̃m / ⁊ heurue̾s iudicũ / Uñ dᵗ ys̃ in ĩf̃no uili qͥsq ad ꝓxim suũ</seg>
+          <lb facs="#z_f56r_l038" xml:id="medusa_f56r_l038"/>
+          <seg type="raw_unreviewed">stupebat / ⁊ facies eorꝰ combuste ⁊ uultus eorꝰ ¶ It̃ de die iᵃ a̾ara ⁊ mag̃ ualde etc. ¶ It̃</seg>
+          <lb facs="#z_f56r_l039" xml:id="medusa_f56r_l039"/>
+          <seg type="raw_unreviewed">ĩ f̾ue ĩ m̃sa ẽ obstin̾itas tenebrꝭ p̾eꝵ auxietates infĩta miẜũꝵ eternitas pluiẽit</seg>
+          <lb facs="#z_f56r_l040" xml:id="medusa_f56r_l040"/>
+          <seg type="raw_unreviewed">flet ⁊ s. d. ⁊ goiᵈⁱ ⁊ eulat ⁊ luct ⁊ c̾catꝰ clõr clãor t̾mor t̃or delor labor arder</seg>
+          <lb facs="#z_f56r_l041" xml:id="medusa_f56r_l041"/>
+          <seg type="raw_unreviewed">fater obstuntas acerbitas asperitas. ⁊ caluntias egestas angristia tristicia oblimio cõtersio</seg>
+          <lb facs="#z_f56r_l042" xml:id="medusa_f56r_l042"/>
+          <seg type="raw_unreviewed">tortones famines scilicet f̃h caninum ft̃ sulfur iiiiᵒʳ ardores h̃c totꝭ hẽ ⁊ ꝯtͣptu m̃di</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f56r_l001 #z_f56r_l002" xml:id="u_56r_001">[Drobný okrajový odkaz a tah.]</p>
+        <note type="editorial" corresp="#u_56r_001" xml:lang="cs">Není první hlavní řádek.</note>
+        <p facs="#z_f56r_l003 #z_f56r_l004 #z_f56r_l005" xml:id="u_56r_002">Quoniam circa confessionem sunt praedicta multa difficilia, […] locum […] confessione […]. Huius tractatus rubricae sunt: Quando tempore incepit confessio; per quem fit; […] cui est confitendum […]</p>
+        <note type="editorial" corresp="#u_56r_002" xml:lang="cs">Úvod a červený obsah oddílu, konec5není úplně čitelný. Velká mezera pod úvodem není výpadek četby.</note>
+        <p facs="#z_f56r_l006 #z_f56r_l007 #z_f56r_l008 #z_f56r_l009 #z_f56r_l010" xml:id="u_56r_003">Quattuor sunt opiniones quo tempore confessio inceperit. Quidam dicunt quod in exordio humani generis propter peccatum primi hominis, quando scilicet Dominus interrogavit Adam de peccato commisso, ut quod peccando commiserat confitendo deleret. Alii dicunt quod incepit a peccato Cain, quando interrogavit eum Dominus: Ubi […] ut confiteretur. Alii quod incepit tempore Iosue, quando Iosue praeceperat Achar ut confiteretur quod acceperat de anathemate Iericho, ut per poenam temporalem evaderet aeternam.</p>
+        <note type="editorial" corresp="#u_56r_003" xml:lang="cs">Biblické příklady čteny z obrazu; Kainova otázka není rozšířena o nečtená slova.</note>
+        <p facs="#z_f56r_l011 #z_f56r_l012 #z_f56r_l013 #z_f56r_l014" xml:id="u_56r_004">Quidam dicunt institutionem ecclesiasticam […] Alii quod sit ab auctoritate veteris testamenti, quod verius credo. Nam in Levitico dicitur: Si quis peccaverit et confessus fuerit […]. Item comprobatur auctoritate novi testamenti, ut Iacobus: Confitemini alterutrum peccata vestra. Et etiam confirmatur a Domino Deo ubi etiam praecepit leprosis ut ostenderent se sacerdotibus.</p>
+        <note type="editorial" corresp="#u_56r_004" xml:lang="cs">11první zdůvodnění neúplné. První osoba credo patří autorovi rukopisného textu, nikoli asistentovi.</note>
+        <p facs="#z_f56r_l015 #z_f56r_l016 #z_f56r_l017 #z_f56r_l018 #z_f56r_l019" xml:id="u_56r_005">Item quaeritur cui confessio est facienda. Solutio: ut per confessionem confitenti sacerdos qui non videt […] in facie instruatur demum satisfactionem imponendo. Item in peccato tria sunt: impudentia, delectatio, operatio. Contra quae triplex remedium aptum est: impudentiae opponitur confessio, delectationi amaritudo […] operationi amaritudo satisfactionis. Vel secundum […] tribus modis offendimus: cogitando, delectando, operando; et tribus modis satisfacimus: confitendo de cogitatione, […] de delectatione, satisfaciendo de opere.</p>
+        <note type="editorial" corresp="#u_56r_005" xml:lang="cs">15vztah kněze a vidění nečitelný,19střední prostředek nápravy neúplný.</note>
+        <p facs="#z_f56r_l020 #z_f56r_l021 #z_f56r_l022 #z_f56r_l023" xml:id="u_56r_006">Item non sufficit confiteri qui habet potestatem peccandi […]. Si in articulo mortis cuilibet peccatum homo confiteri potest, non […] credo quod sacerdoti […] quia exigitur ante absolutionem […] Quia in absente corporis […] excommunicatione accipere licet […] animae […] non credo nec diffinio sed arbitrio viri discreti relinquo.</p>
+        <note type="editorial" corresp="#u_56r_006" xml:lang="cs">20–23zásadně zkratkové a neúplné právní podmínky. První osoba je stanovisko textu, nikoli vlastní rozhodnutí asistenta; nedoplňována paralelou.</note>
+        <p facs="#z_f56r_l024 #z_f56r_l025 #z_f56r_l026 #z_f56r_l027 #z_f56r_l028" xml:id="u_56r_007">Sacerdos debet proponere quomodo Pater dilexit nos ut daret Filium in hunc mundum; quomodo sunt martyres et filii […] et quo mors Christi prosit […]. Item non propter iustos sed peccatores venit. Item non vult mortem confessoris sed ut […] Item gaudium est angelis […]. Item confortet eum negatione Petri, persecutione Pauli, peccato Mariae, confessione latronis. […] qui tam graviter peccaverunt veniam […] impetraverunt et quidam apostoli, quidam sancti effecti sunt […].</p>
+        <note type="editorial" corresp="#u_56r_007" xml:lang="cs">25přesný vztah mučedníků a26neúplné citace ponechány mezerami. Jméno Marie není určeno nad rámec viditelného textu.</note>
+        <p facs="#z_f56r_l029 #z_f56r_l030" xml:id="u_56r_008">[…] aspiciat […] flumina lacrimarum, […] dives, mundus, caro, […] crudelis […] parvulum quem tangunt tam mater […] Et medico spirituali adiuvat medicus corporalis.</p>
+        <note type="editorial" corresp="#u_56r_008" xml:lang="cs">29–30několik obrazů a přirovnání není souvisle rozluštěno; překlad je zlomkový.</note>
+        <p facs="#z_f56r_l031 #z_f56r_l032 #z_f56r_l033 #z_f56r_l034" xml:id="u_56r_009">Confortet eum verbis dulcibus, […] infirmo salutem cum Dei adiutorio pollicetur. Nec aeger morbum peccati confitendo deneget, sed gravitatem et qualitatem et doloris […] confessionem acquirat, qua morbus appareat, considerans aetatem, sexum, mores, longitudinem et diuturnitatem peccandi, consuetudinem, […] impetum […]</p>
+        <note type="editorial" corresp="#u_56r_009" xml:lang="cs">31metafora tělesné léčby,33–34seznam okolností není úplný.</note>
+        <p facs="#z_f56r_l035 #z_f56r_l036 #z_f56r_l037" xml:id="u_56r_010">Suadeat sacerdos peccata sua confiteri sine omni confusione, quia non loquitur homini sed Deo. Si confiteri […] proponat poenas inferni et praemia paradisi […] Si non vult confiteri, exponat ei poenas inferni et horrendum iudicium […].</p>
+        <note type="editorial" corresp="#u_56r_010" xml:lang="cs">36přesná podmínka neúplná, není opakována jako jistý příkaz.</note>
+        <p facs="#z_f56r_l038 #z_f56r_l039" xml:id="u_56r_011">In inferno unusquisque ad proximum suum […] et facies eorum combustae vultus eorum […]. Item […] poenas auxerunt […] infirma […] misericordia […] aeternitas […].</p>
+        <note type="editorial" corresp="#u_56r_011" xml:lang="cs">Biblický obraz a výčet přitěžujících okolností neúplné, neobnoveny celé citace.</note>
+        <p facs="#z_f56r_l040 #z_f56r_l041 #z_f56r_l042" xml:id="u_56r_012">[…] fletus, […] luctus, cruciatus, clamor, tremor, timor, dolor, labor, ardor, sitis, obstinatio, acerbitas, asperitas et calamitas, egestas, amaritudo, tristitia, oblivio, contorsio, […] fames […] ignis ardens […] et contemptu mundi.</p>
+        <note type="editorial" corresp="#u_56r_012" xml:lang="cs">Výčet pekelných utrpení, jednotlivá podobná slova obtížně rozlišitelná.42poslední přechod k opovržení světem není úplný.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_56r_001">[Bez souvislého překladu.]</p>
+        <p corresp="#u_56r_002">Protože o zpovědi bylo řečeno mnoho obtížného, […] místo […] o zpovědi […]. Rubriky tohoto pojednání jsou: V které době začala zpověď; skrze koho se koná; […] komu se má vyznávat […].</p>
+        <p corresp="#u_56r_003">Jsou čtyři názory, kdy zpověď začala. Někteří říkají, že na počátku lidského rodu kvůli hříchu prvního člověka, když se Pán tázal Adama na spáchaný hřích, aby vyznáním smazal to, čeho se dopustil hříchem. Jiní říkají, že začala Kainovým hříchem, když se jej Pán tázal: Kde […], aby se vyznal. Jiní, že začala za Jozua, když Jozue přikázal Acharovi, aby vyznal, co vzal ze zakázané kořisti Jericha, aby časným trestem unikl věčnému.</p>
+        <p corresp="#u_56r_004">Někteří říkají, že jde o církevní ustanovení […] Jiní, že pochází z autority Starého zákona, což pokládám za pravdivější. V Levitiku se totiž říká: Jestliže někdo zhřešil a vyznal […]. Potvrzuje se též autoritou Nového zákona, jako u Jakuba: Vyznávejte si navzájem své hříchy. A potvrzuje to také Pán Bůh, když přikázal malomocným, aby se ukázali kněžím.</p>
+        <p corresp="#u_56r_005">Dále se táže, komu se má vykonat zpověď. Řešení: aby byl zpovědí poučen kněz, který nevidí […] do tváře, a pak ukládal zadostiučinění. V hříchu jsou tři věci: nestydatost, zalíbení a skutek. Proti nim je trojí vhodný lék: nestydatosti se staví vyznání, zalíbení hořkost […] a skutku hořkost zadostiučinění. Nebo podle […] se proviňujeme třemi způsoby: myšlenkou, zalíbením a skutkem; a třemi způsoby napravujeme: vyznáním myšlenek, […] zalíbení a zadostiučiněním za skutek.</p>
+        <p corresp="#u_56r_006">Dále: nestačí se vyznat tomu, kdo má možnost hřešit […]. Může-li se člověk v hodině smrti vyznat z hříchu komukoli, ne […] věřím, že knězi […], protože před rozhřešením se vyžaduje […] Neboť při nepřítomnosti těla […] je dovoleno přijmout z exkomunikace […] duše […] nevěřím ani nerozhoduji, nýbrž ponechávám úsudku rozvážného muže.</p>
+        <p corresp="#u_56r_007">Kněz má předkládat, jak nás Otec miloval, že dal Syna do tohoto světa; jak jsou mučedníci a synové […] a jak prospívá Kristova smrt […]. Dále: přišel kvůli hříšníkům, nikoli spravedlivým. Dále: nechce smrt vyznávajícího, nýbrž aby […] Dále: andělé se radují […]. Má jej také posílit Petrovým zapřením, Pavlovým pronásledováním, Mariiným hříchem a lotrovým vyznáním. […] Ti, kdo tak těžce zhřešili, dosáhli odpuštění […] a někteří se stali apoštoly, jiní svatými […].</p>
+        <p corresp="#u_56r_008">[…] ať hledí […] proudy slz, […] bohatý, svět, tělo, […] krutý […] dítě, kterého se dotýkají, tak matka […] A duchovnímu lékaři pomáhá tělesný lékař.</p>
+        <p corresp="#u_56r_009">Ať jej posiluje laskavými slovy […] slibuje nemocnému zdraví s Boží pomocí. Nemocný nemá při zpovědi zapírat nemoc hříchu, nýbrž získat vyznání její závažnosti, povahy a bolesti […], aby se nemoc ukázala, s přihlédnutím k věku, pohlaví, mravům, délce a trvání hřešení, zvyku, […] náporu […].</p>
+        <p corresp="#u_56r_010">Kněz má radit vyznat hříchy beze všeho zahanbení, protože nemluví k člověku, nýbrž k Bohu. Jestliže se vyznat […] má předložit pekelné tresty a rajské odměny […] Jestliže se nechce vyznat, má mu vyložit pekelné tresty a hrozný soud […].</p>
+        <p corresp="#u_56r_011">V pekle každý ke svému bližnímu […] a jejich spálené tváře, jejich obličeje […]. Dále: […] zvětšily tresty […] slabé […] milosrdenství […] věčnost […].</p>
+        <p corresp="#u_56r_012">[…] pláč, […] nářek, muka, křik, chvění, strach, bolest, námaha, žár, žízeň, zatvrzelost, trpkost, tvrdost a pohroma, nouze, hořkost, smutek, zapomnění, kroucení, […] hlad […] hořící oheň […] a pohrdáním světem.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

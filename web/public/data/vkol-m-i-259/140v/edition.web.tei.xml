@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 140v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_140v_coordinate; PNG SHA256 ef82a0b633b7778125896720700f74233c02380fb5f3c645eba69e2671c6f9e7; archival TIFF SHA256 1da82465810b3414f681a753ca929669aab755b471a572900fe8ff1932ee4733; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_140v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#140v"/>
+      <zone ulx="747" uly="550" lrx="3467" lry="737" xml:id="z_f140v_l001"/>
+      <zone ulx="722" uly="696" lrx="3482" lry="871" xml:id="z_f140v_l002"/>
+      <zone ulx="728" uly="818" lrx="3448" lry="1011" xml:id="z_f140v_l003"/>
+      <zone ulx="697" uly="970" lrx="3514" lry="1141" xml:id="z_f140v_l004"/>
+      <zone ulx="709" uly="1088" lrx="3458" lry="1275" xml:id="z_f140v_l005"/>
+      <zone ulx="737" uly="1232" lrx="3473" lry="1424" xml:id="z_f140v_l006"/>
+      <zone ulx="737" uly="1393" lrx="3479" lry="1558" xml:id="z_f140v_l007"/>
+      <zone ulx="750" uly="1543" lrx="3479" lry="1723" xml:id="z_f140v_l008"/>
+      <zone ulx="734" uly="1683" lrx="3392" lry="1869" xml:id="z_f140v_l009"/>
+      <zone ulx="740" uly="1826" lrx="2496" lry="2006" xml:id="z_f140v_l010"/>
+      <zone ulx="971" uly="1978" lrx="3486" lry="2187" xml:id="z_f140v_l011"/>
+      <zone ulx="964" uly="2124" lrx="3535" lry="2311" xml:id="z_f140v_l012"/>
+      <zone ulx="765" uly="2268" lrx="3495" lry="2448" xml:id="z_f140v_l013"/>
+      <zone ulx="743" uly="2414" lrx="3479" lry="2597" xml:id="z_f140v_l014"/>
+      <zone ulx="734" uly="2566" lrx="3464" lry="2722" xml:id="z_f140v_l015"/>
+      <zone ulx="731" uly="2697" lrx="3464" lry="2868" xml:id="z_f140v_l016"/>
+      <zone ulx="734" uly="2846" lrx="3545" lry="3014" xml:id="z_f140v_l017"/>
+      <zone ulx="728" uly="2977" lrx="3504" lry="3154" xml:id="z_f140v_l018"/>
+      <zone ulx="722" uly="3123" lrx="3598" lry="3300" xml:id="z_f140v_l019"/>
+      <zone ulx="731" uly="3272" lrx="3591" lry="3450" xml:id="z_f140v_l020"/>
+      <zone ulx="731" uly="3403" lrx="3520" lry="3580" xml:id="z_f140v_l021"/>
+      <zone ulx="728" uly="3546" lrx="3538" lry="3720" xml:id="z_f140v_l022"/>
+      <zone ulx="722" uly="3680" lrx="3510" lry="3867" xml:id="z_f140v_l023"/>
+      <zone ulx="712" uly="3814" lrx="3501" lry="3997" xml:id="z_f140v_l024"/>
+      <zone ulx="722" uly="3966" lrx="3517" lry="4150" xml:id="z_f140v_l025"/>
+      <zone ulx="740" uly="4109" lrx="3495" lry="4290" xml:id="z_f140v_l026"/>
+      <zone ulx="728" uly="4265" lrx="3507" lry="4436" xml:id="z_f140v_l027"/>
+      <zone ulx="737" uly="4399" lrx="3520" lry="4582" xml:id="z_f140v_l028"/>
+      <zone ulx="706" uly="4554" lrx="3476" lry="4700" xml:id="z_f140v_l029"/>
+      <zone ulx="718" uly="4657" lrx="3482" lry="4931" xml:id="z_f140v_l030"/>
+      <zone ulx="3657" uly="3151" lrx="3878" lry="3304" xml:id="z_f140v_l031"/>
+      <zone ulx="3647" uly="3288" lrx="3875" lry="3493" xml:id="z_f140v_l032"/>
+      <zone ulx="3679" uly="3444" lrx="3878" lry="3605" xml:id="z_f140v_l033"/>
+      <zone ulx="3675" uly="3568" lrx="3871" lry="3758" xml:id="z_f140v_l034"/>
+      <zone ulx="3675" uly="3755" lrx="3865" lry="3895" xml:id="z_f140v_l035"/>
+      <zone ulx="3666" uly="3873" lrx="3878" lry="4028" xml:id="z_f140v_l036"/>
+      <zone ulx="3731" uly="4237" lrx="3828" lry="4315" xml:id="z_f140v_l037"/>
+      <zone ulx="3666" uly="4333" lrx="3865" lry="4461" xml:id="z_f140v_l038"/>
+      <zone ulx="3679" uly="563" lrx="3853" lry="693" xml:id="z_f140v_l039"/>
+      <zone ulx="3713" uly="765" lrx="3837" lry="836" xml:id="z_f140v_l040"/>
+      <zone ulx="3703" uly="808" lrx="3865" lry="980" xml:id="z_f140v_l041"/>
+      <zone ulx="3679" uly="983" lrx="3884" lry="1110" xml:id="z_f140v_l042"/>
+      <zone ulx="3675" uly="1104" lrx="3875" lry="1272" xml:id="z_f140v_l043"/>
+      <zone ulx="3688" uly="1241" lrx="3756" lry="1409" xml:id="z_f140v_l044"/>
+      <zone ulx="3675" uly="1375" lrx="3871" lry="1536" xml:id="z_f140v_l045"/>
+      <zone ulx="3675" uly="1726" lrx="3828" lry="1832" xml:id="z_f140v_l046"/>
+      <zone ulx="3682" uly="1826" lrx="3766" lry="2009" xml:id="z_f140v_l047"/>
+      <zone ulx="3679" uly="2012" lrx="3812" lry="2121" xml:id="z_f140v_l048"/>
+      <zone ulx="3725" uly="4467" lrx="3834" lry="4607" xml:id="z_f140v_l049"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f140v_l001" xml:id="catmus_f140v_l001"/>
+          <seg type="raw_unreviewed">sen ueanũ sy schreit uñs nach des autirt In Ihũs Ich p̃mi</seg>
+          <lb facs="#z_f140v_l002" xml:id="catmus_f140v_l002"/>
+          <seg type="raw_unreviewed">nicht gerãt eaum iu de schaffẽ dy ronoibã sem uõde</seg>
+          <lb facs="#z_f140v_l003" xml:id="catmus_f140v_l003"/>
+          <seg type="raw_unreviewed">haus isie do lam das roeis und̃ pat yn sprechunde</seg>
+          <lb facs="#z_f140v_l004" xml:id="catmus_f140v_l004"/>
+          <seg type="raw_unreviewed">⁊u cui  hre hilff mir Ex antirt urris ist niche gut zu-</seg>
+          <lb facs="#z_f140v_l005" xml:id="catmus_f140v_l005"/>
+          <seg type="raw_unreviewed">neme d chuid prot uud gebt̃i dẽ hulidẽ da spch̃da</seg>
+          <lb facs="#z_f140v_l006" xml:id="catmus_f140v_l006"/>
+          <seg type="raw_unreviewed">uoewIa hre uoam die hundel essent die presin die do</seg>
+          <lb facs="#z_f140v_l007" xml:id="catmus_f140v_l007"/>
+          <seg type="raw_unreviewed">fallent uon ir hũ lisch daz antiot yr Ihũs abo uud</seg>
+          <lb facs="#z_f140v_l008" xml:id="catmus_f140v_l008"/>
+          <seg type="raw_unreviewed">spͣth. weib dein glaub ist gros cd ir gesthechi uoas uu</seg>
+          <lb facs="#z_f140v_l009" xml:id="catmus_f140v_l009"/>
+          <seg type="raw_unreviewed">urellest uñ ĩ d̾ selbã wellewart ir toch̃t̃ gefunde</seg>
+          <lb facs="#z_f140v_l010" xml:id="catmus_f140v_l010"/>
+          <seg type="raw_unreviewed">duc̃a 3ͣ Etãt Iħus eiciẽs iluc xrͦ</seg>
+          <lb facs="#z_f140v_l011" xml:id="catmus_f140v_l011"/>
+          <seg type="raw_unreviewed">qũs traib em terospl aus d uras scume/ und do ex</seg>
+          <lb facs="#z_f140v_l012" xml:id="catmus_f140v_l012"/>
+          <seg type="raw_unreviewed">de terossl aus coorff do redt d scumbe des uounde</seg>
+          <lb facs="#z_f140v_l013" xml:id="catmus_f140v_l013"/>
+          <seg type="raw_unreviewed">sucb dy schar : Es spcha abex ettleich aus in Er utreibe</seg>
+          <lb facs="#z_f140v_l014" xml:id="catmus_f140v_l014"/>
+          <seg type="raw_unreviewed">de teroffl unt uelzebub der en fuist ist d̃ ceufflñ Aro</seg>
+          <lb facs="#z_f140v_l015" xml:id="catmus_f140v_l015"/>
+          <seg type="raw_unreviewed">etclich uorsuchtũ yn uũ woltidcom sech̃ũ e haichen</seg>
+          <lb facs="#z_f140v_l016" xml:id="catmus_f140v_l016"/>
+          <seg type="raw_unreviewed">uon himel do Ihũs sachi ir gedaubẽ do sp̃cher iu yn</seg>
+          <lb facs="#z_f140v_l017" xml:id="catmus_f140v_l017"/>
+          <seg type="raw_unreviewed">Gn iglich̃ Reich das in iui selbũ ist geted̾t u̾t uornist</seg>
+          <lb facs="#z_f140v_l018" xml:id="catmus_f140v_l018"/>
+          <seg type="raw_unreviewed">und em haus uellit uff das aud̾ und ob sachauas in</seg>
+          <lb facs="#z_f140v_l019" xml:id="catmus_f140v_l019"/>
+          <seg type="raw_unreviewed">uin sebbũ geteilt istaie bescet sem reich cdoqun itspre-</seg>
+          <lb facs="#z_f140v_l020" xml:id="catmus_f140v_l020"/>
+          <seg type="raw_unreviewed">cht das ich nũit den furstẽ d̃ teusst dy lesin geist utreil.</seg>
+          <lb facs="#z_f140v_l021" xml:id="catmus_f140v_l021"/>
+          <seg type="raw_unreviewed">uud ob ich̃ uũt welebus uortroib mĩt uoe utiribãt de</seg>
+          <lb facs="#z_f140v_l022" xml:id="catmus_f140v_l022"/>
+          <seg type="raw_unreviewed">euo sõne bouõ fy rodẽt richt̃ ubir euch Ou ihubermit</seg>
+          <lb facs="#z_f140v_l023" xml:id="catmus_f140v_l023"/>
+          <seg type="raw_unreviewed">de heiligũ geist den terefsꝭ uortieib, so rompt rorduor</seg>
+          <lb facs="#z_f140v_l024" xml:id="catmus_f140v_l024"/>
+          <seg type="raw_unreviewed">ĩ euch das gotis reich sod scarchg ge noffent̾ quites</seg>
+          <lb facs="#z_f140v_l025" xml:id="catmus_f140v_l025"/>
+          <seg type="raw_unreviewed">fenis haub , Io ist alles das uit fuide das er hat bess</seg>
+          <lb facs="#z_f140v_l026" xml:id="catmus_f140v_l026"/>
+          <seg type="raw_unreviewed">sen, Rouit abo ein sterter wauũ et und ubir Riuĩt in</seg>
+          <lb facs="#z_f140v_l027" xml:id="catmus_f140v_l027"/>
+          <seg type="raw_unreviewed">ex nymt iui alles sen Waffũĩ die er hat hossung un</seg>
+          <lb facs="#z_f140v_l028" xml:id="catmus_f140v_l028"/>
+          <seg type="raw_unreviewed">seuẽ raub de teilt ex dmit mir nicht ist dist uod</seg>
+          <lb facs="#z_f140v_l029" xml:id="catmus_f140v_l029"/>
+          <seg type="raw_unreviewed">mich uud d̾̃ ncht samet uit nur d̃ strewet : Io dex</seg>
+          <lb facs="#z_f140v_l030" xml:id="catmus_f140v_l030"/>
+          <seg type="raw_unreviewed">pose grist aus de lẽschũ fert ro fert er i rezengͥo</seg>
+          <lb facs="#z_f140v_l031" xml:id="catmus_f140v_l031"/>
+          <seg type="raw_unreviewed">Ias pui</seg>
+          <lb facs="#z_f140v_l032" xml:id="catmus_f140v_l032"/>
+          <seg type="raw_unreviewed">pr fucl</seg>
+          <lb facs="#z_f140v_l033" xml:id="catmus_f140v_l033"/>
+          <seg type="raw_unreviewed">.i. phil</seg>
+          <lb facs="#z_f140v_l034" xml:id="catmus_f140v_l034"/>
+          <seg type="raw_unreviewed">l arbe</seg>
+          <lb facs="#z_f140v_l035" xml:id="catmus_f140v_l035"/>
+          <seg type="raw_unreviewed">uxxi.</seg>
+          <lb facs="#z_f140v_l036" xml:id="catmus_f140v_l036"/>
+          <seg type="raw_unreviewed">hi ist en</seg>
+          <lb facs="#z_f140v_l037" xml:id="catmus_f140v_l037"/>
+          <seg type="raw_unreviewed">den</seg>
+          <lb facs="#z_f140v_l038" xml:id="catmus_f140v_l038"/>
+          <seg type="raw_unreviewed">moes</seg>
+          <lb facs="#z_f140v_l039" xml:id="catmus_f140v_l039"/>
+          <seg type="raw_unreviewed">bul sur</seg>
+          <lb facs="#z_f140v_l040" xml:id="catmus_f140v_l040"/>
+          <seg type="raw_unreviewed">ust n</seg>
+          <lb facs="#z_f140v_l041" xml:id="catmus_f140v_l041"/>
+          <seg type="raw_unreviewed">Riii</seg>
+          <lb facs="#z_f140v_l042" xml:id="catmus_f140v_l042"/>
+          <seg type="raw_unreviewed">geit D̾</seg>
+          <lb facs="#z_f140v_l043" xml:id="catmus_f140v_l043"/>
+          <seg type="raw_unreviewed">sid far</seg>
+          <lb facs="#z_f140v_l044" xml:id="catmus_f140v_l044"/>
+          <seg type="raw_unreviewed">U</seg>
+          <lb facs="#z_f140v_l045" xml:id="catmus_f140v_l045"/>
+          <seg type="raw_unreviewed">qudt Do</seg>
+          <lb facs="#z_f140v_l046" xml:id="catmus_f140v_l046"/>
+          <seg type="raw_unreviewed">he i</seg>
+          <lb facs="#z_f140v_l047" xml:id="catmus_f140v_l047"/>
+          <seg type="raw_unreviewed">alie</seg>
+          <lb facs="#z_f140v_l048" xml:id="catmus_f140v_l048"/>
+          <seg type="raw_unreviewed">ꝓuico</seg>
+          <lb facs="#z_f140v_l049" xml:id="catmus_f140v_l049"/>
+          <seg type="raw_unreviewed">pros</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f140v_l001" xml:id="medusa_f140v_l001"/>
+          <seg type="raw_unreviewed">sey wann sy schreit vns nach des antẅrt in Jhūs Jch pin</seg>
+          <lb facs="#z_f140v_l002" xml:id="medusa_f140v_l002"/>
+          <seg type="raw_unreviewed">nicht gesaͮt wann zu dē schaffē dy vordrbuͤ sem von dē</seg>
+          <lb facs="#z_f140v_l003" xml:id="medusa_f140v_l003"/>
+          <seg type="raw_unreviewed">haus isr̄l · do kam das weib und pat yn sprechnnde</seg>
+          <lb facs="#z_f140v_l004" xml:id="medusa_f140v_l004"/>
+          <seg type="raw_unreviewed">zu eyn h̶r̶e hilff mir Er antẃt yr. is ist nicht gut zu-</seg>
+          <lb facs="#z_f140v_l005" xml:id="medusa_f140v_l005"/>
+          <seg type="raw_unreviewed">neidē d̶ chind prot/ und gebn̄ dē hundē Da sp͛ch daz</seg>
+          <lb facs="#z_f140v_l006" xml:id="medusa_f140v_l006"/>
+          <seg type="raw_unreviewed">weib. Ja hie wann die hundel esseut die prosin die do</seg>
+          <lb facs="#z_f140v_l007" xml:id="medusa_f140v_l007"/>
+          <seg type="raw_unreviewed">falle ut von ir huͤtisch daz antẃt yr ihuͤs ow und</seg>
+          <lb facs="#z_f140v_l008" xml:id="medusa_f140v_l008"/>
+          <seg type="raw_unreviewed">sp͛th · Weib dein glaub ist gros od͛ ir geschech was du</seg>
+          <lb facs="#z_f140v_l009" xml:id="medusa_f140v_l009"/>
+          <seg type="raw_unreviewed">wellest · Vn̄ ī d͛selbd͛ wiele · wart ir tocht͛ gefunde</seg>
+          <lb facs="#z_f140v_l010" xml:id="medusa_f140v_l010"/>
+          <seg type="raw_unreviewed">Dominica 3a. eunt Ioh̃s eicẽo Luc̃ xi.</seg>
+          <lb facs="#z_f140v_l011" xml:id="medusa_f140v_l011"/>
+          <seg type="raw_unreviewed">hus traib ein tewffl aus d͛ was stumme · vnd do er</seg>
+          <lb facs="#z_f140v_l012" xml:id="medusa_f140v_l012"/>
+          <seg type="raw_unreviewed">dē tewff aus worff · do redt d͛ stumbe des wūd͛t</seg>
+          <lb facs="#z_f140v_l013" xml:id="medusa_f140v_l013"/>
+          <seg type="raw_unreviewed">sich dy schar · Es sp͛cht aber ettleich aus jn Er v͛treibt</seg>
+          <lb facs="#z_f140v_l014" xml:id="medusa_f140v_l014"/>
+          <seg type="raw_unreviewed">dē eẅff mit Bekzebub der c̄y furs ist d̄ ewẜfñ. Aw</seg>
+          <lb facs="#z_f140v_l015" xml:id="medusa_f140v_l015"/>
+          <seg type="raw_unreviewed">ettlich vorsuchtū yn bű woltū ym sechtū ein czaichen</seg>
+          <lb facs="#z_f140v_l016" xml:id="medusa_f140v_l016"/>
+          <seg type="raw_unreviewed">von himel . do ihuͦs sach ir gedankē . do sp͛ch er zuͦ yn</seg>
+          <lb facs="#z_f140v_l017" xml:id="medusa_f140v_l017"/>
+          <seg type="raw_unreviewed">Ein iglich reich das in im selbẃ ist geteilt w̃t vrwuͤst</seg>
+          <lb facs="#z_f140v_l018" xml:id="medusa_f140v_l018"/>
+          <seg type="raw_unreviewed">und ein haus vellt uff das and͛ · und ob sachanus in</seg>
+          <lb facs="#z_f140v_l019" xml:id="medusa_f140v_l019"/>
+          <seg type="raw_unreviewed">xiiij febbuͤ geteilt ist · wie bestet sem reich abbaum ir spre</seg>
+          <lb facs="#z_f140v_l020" xml:id="medusa_f140v_l020"/>
+          <seg type="raw_unreviewed">cht das ich mit den fúrste͛ d͛ teuffel dy besin geist v̶t̶r̶e̶b̶</seg>
+          <lb facs="#z_f140v_l021" xml:id="medusa_f140v_l021"/>
+          <seg type="raw_unreviewed">und ob ich mit welzebub wortrib mit wie utribut de</seg>
+          <lb facs="#z_f140v_l022" xml:id="medusa_f140v_l022"/>
+          <seg type="raw_unreviewed">ew͠ söne do uō sy w͛dēt richt͛ v́bir euch · Ob ich über mit</seg>
+          <lb facs="#z_f140v_l023" xml:id="medusa_f140v_l023"/>
+          <seg type="raw_unreviewed">dē heiligē geist den tewff wortrib / so kompt vordvor</seg>
+          <lb facs="#z_f140v_l024" xml:id="medusa_f140v_l024"/>
+          <seg type="raw_unreviewed">neuch das gotis reich. so d͛ starch͛ gewoffent͛ hüttes</seg>
+          <lb facs="#z_f140v_l025" xml:id="medusa_f140v_l025"/>
+          <seg type="raw_unreviewed">seins haus. so ist alles das mit fride das er hat besig</seg>
+          <lb facs="#z_f140v_l026" xml:id="medusa_f140v_l026"/>
+          <seg type="raw_unreviewed">sen . komt aw ein sterker wain̄ er. und wir wuͤit in</seg>
+          <lb facs="#z_f140v_l027" xml:id="medusa_f140v_l027"/>
+          <seg type="raw_unreviewed">er mynt jn alles sein waffn̄. ĩ die er hat hoffnūg by</seg>
+          <lb facs="#z_f140v_l028" xml:id="medusa_f140v_l028"/>
+          <seg type="raw_unreviewed">seinen raub den teilt er / d̄ mit mir nicht ist / d̄ ist wid͛</seg>
+          <lb facs="#z_f140v_l029" xml:id="medusa_f140v_l029"/>
+          <seg type="raw_unreviewed">mich und d̄ nicht samet mit mir d̄ strewet . so der</seg>
+          <lb facs="#z_f140v_l030" xml:id="medusa_f140v_l030"/>
+          <seg type="raw_unreviewed">pose geist aus dē mēschn̄ fert / so fert er ī wezzergō</seg>
+          <lb facs="#z_f140v_l031" xml:id="medusa_f140v_l031"/>
+          <seg type="raw_unreviewed">das pre</seg>
+          <lb facs="#z_f140v_l032" xml:id="medusa_f140v_l032"/>
+          <seg type="raw_unreviewed">vor sucht</seg>
+          <lb facs="#z_f140v_l033" xml:id="medusa_f140v_l033"/>
+          <seg type="raw_unreviewed">Phil.</seg>
+          <lb facs="#z_f140v_l034" xml:id="medusa_f140v_l034"/>
+          <seg type="raw_unreviewed">das u̶g̶l̶e̶</seg>
+          <lb facs="#z_f140v_l035" xml:id="medusa_f140v_l035"/>
+          <seg type="raw_unreviewed">pugni</seg>
+          <lb facs="#z_f140v_l036" xml:id="medusa_f140v_l036"/>
+          <seg type="raw_unreviewed">hie ist er</seg>
+          <lb facs="#z_f140v_l037" xml:id="medusa_f140v_l037"/>
+          <seg type="raw_unreviewed">ten</seg>
+          <lb facs="#z_f140v_l038" xml:id="medusa_f140v_l038"/>
+          <seg type="raw_unreviewed">dy man</seg>
+          <lb facs="#z_f140v_l039" xml:id="medusa_f140v_l039"/>
+          <seg type="raw_unreviewed">und sin</seg>
+          <lb facs="#z_f140v_l040" xml:id="medusa_f140v_l040"/>
+          <seg type="raw_unreviewed">des</seg>
+          <lb facs="#z_f140v_l041" xml:id="medusa_f140v_l041"/>
+          <seg type="raw_unreviewed">ab͛ kir</seg>
+          <lb facs="#z_f140v_l042" xml:id="medusa_f140v_l042"/>
+          <seg type="raw_unreviewed">cʒiert .</seg>
+          <lb facs="#z_f140v_l043" xml:id="medusa_f140v_l043"/>
+          <seg type="raw_unreviewed">bud far</seg>
+          <lb facs="#z_f140v_l044" xml:id="medusa_f140v_l044"/>
+          <seg type="raw_unreviewed">lest</seg>
+          <lb facs="#z_f140v_l045" xml:id="medusa_f140v_l045"/>
+          <seg type="raw_unreviewed">redt / da</seg>
+          <lb facs="#z_f140v_l046" xml:id="medusa_f140v_l046"/>
+          <seg type="raw_unreviewed">hie du</seg>
+          <lb facs="#z_f140v_l047" xml:id="medusa_f140v_l047"/>
+          <seg type="raw_unreviewed">salu</seg>
+          <lb facs="#z_f140v_l048" xml:id="medusa_f140v_l048"/>
+          <seg type="raw_unreviewed">Hinc</seg>
+          <lb facs="#z_f140v_l049" xml:id="medusa_f140v_l049"/>
+          <seg type="raw_unreviewed">pres</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f140v_l001 #z_f140v_l002 #z_f140v_l003 #z_f140v_l004 #z_f140v_l005 #z_f140v_l006 #z_f140v_l007 #z_f140v_l008 #z_f140v_l009" xml:id="u_140v_001">[La]ss sy, wann sy schreyet uns nach. Das antwort in Ihesus: Ich pin nicht gesant, wann zu den schafen die verloren sein von dem haus Israel. Do kam das weib und pat in sprechende zu im: Herr, hilf mir. Er antwort ir: Es ist nicht gut zu nemen der kinder prot und geben den hunden. Da sprach das weib: Ja herr, wann die hundel essend die prosam die do fallent von iren tischen. Das antwurt ir Ihesus und sprach: Weib, dein glaub ist gross. Dir geschech was du wellest. Und in derselben weile wart ir tochter gesunde.</p>
+        <note type="editorial" corresp="#u_140v_001" xml:lang="cs">Počáteční slovo rozděleno mezi140r/140v. Hrubé přirovnání psi je řeč historického evangelijního textu. </note>
+        <p facs="#z_f140v_l010" xml:id="u_140v_002">Dominica tercia. Erat Ihesus eiciens. Luce XI.</p>
+        <note type="editorial" corresp="#u_140v_002" xml:lang="cs"> </note>
+        <p facs="#z_f140v_l011 #z_f140v_l012 #z_f140v_l013 #z_f140v_l014 #z_f140v_l015 #z_f140v_l016 #z_f140v_l017 #z_f140v_l018 #z_f140v_l019 #z_f140v_l020 #z_f140v_l021 #z_f140v_l022 #z_f140v_l023 #z_f140v_l024" xml:id="u_140v_003">Ihesus traib ein teuffel aus, der was stume. Und do er den teuffel aus warff, do redt der stume; des wundert sich die schar. Es sprachen aber etleich aus in: Er vertreibt die teuffel mit Belzebub, der ein furste ist der teuffeln. Und etleich versuchten in und wellten von seinen zeichen ein zeichen von himel. Do Ihesus sach ir gedencken, do sprach er zu in: Ein iglich reich das in im selben ist geteilet, das wirt verwust, und ein haus vellet uff das ander. Und ob Sathanas in im selber geteilet ist, wie bestet sein reich? Wann ir sprechet das ich mit dem fursten der teuffel die bosen geist vertreib. Und ob ich mit Belzebub vertreib, mit wem vertreiben denn ewr sune? Darumb sy werdent richter uber euch. Ob ich aber mit dem heiligen geist den teuffel austreib, so kumpt vor euch das gotes reich.</p>
+        <note type="editorial" corresp="#u_140v_003" xml:lang="cs">Heiligen geist výslovně viditelný, nepřepsáno na canonical jinou formulaci. Neobratný obrat o znameních je pracovní četba. Konec24 již začíná podobenství o ozbrojenci, patří k následujícímu odstavci.</note>
+        <p facs="#z_f140v_l025 #z_f140v_l026 #z_f140v_l027 #z_f140v_l028 #z_f140v_l029 #z_f140v_l030" xml:id="u_140v_004">So ein stercker gewaffent hutet seines haus, so ist alles das mit fride das er hat besessen. Komt aber ein sterker dann er und uberwindet in, er nimpt im alle sein waffen in die er hat hoffnung und seinen raub der teilt er. Der mit mir nicht ist, der ist wider mich, und der nicht samet mit mir, der zerstrewet. So der pose geist aus dem menschen fert, so fert er in wazer[…]</p>
+        <note type="editorial" corresp="#u_140v_004" xml:lang="cs">Poslední slovo wazer... pokračuje141r; význam bezvodých míst zde není vložen jako hotové německé slovo. Začátek věty leží na konci24.</note>
+        <p facs="#z_f140v_l031 #z_f140v_l032 #z_f140v_l033 #z_f140v_l034 #z_f140v_l035 #z_f140v_l036 #z_f140v_l037 #z_f140v_l038 #z_f140v_l039 #z_f140v_l040 #z_f140v_l041 #z_f140v_l042 #z_f140v_l043 #z_f140v_l044 #z_f140v_l045 #z_f140v_l046 #z_f140v_l047 #z_f140v_l048 #z_f140v_l049" xml:id="u_140v_005">[Úzké fragmenty protější strany ve žlábku.]</p>
+        <note type="editorial" corresp="#u_140v_005" xml:lang="cs">Cizí fragmenty vyloučeny z vlastního hlavního textu podle polohy a nativního obrazu; neprovedena jejich úplná znaková četba.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_140v_001">[Propusť] ji, neboť za námi křičí. Ježíš jim odpověděl: Nejsem poslán než k ovcím z domu Izraele, které jsou ztraceny. Žena přišla a prosila jej: Pane, pomoz mi. Odpověděl jí: Není dobré vzít dětem chléb a dát jej psům. Žena řekla: Ano, Pane, ale i psíci jedí drobty, které padají z jejich stolů. Ježíš jí odpověděl: Ženo, tvá víra je veliká. Ať se ti stane, co chceš. A v té chvíli se její dcera uzdravila.</p>
+        <p corresp="#u_140v_002">Třetí neděle. Ježíš vyháněl. Lukáš XI.</p>
+        <p corresp="#u_140v_003">Ježíš vyháněl ďábla, který byl němý. Když ďábla vyhnal, němý promluvil a zástup se tomu divil. Někteří z nich však řekli: Vyhání ďábly pomocí Belzebuba, který je knížetem ďáblů. Jiní jej pokoušeli a chtěli mezi jeho znameními znamení z nebe. Když Ježíš viděl jejich myšlenky, řekl jim: Každé království, které je v sobě rozděleno, bude zpustošeno a dům padá na druhý. Jestliže je Satan rozdělen sám v sobě, jak jeho království obstojí? Říkáte přece, že vyháním zlé duchy knížetem ďáblů. Jestliže vyháním Belzebubem, kým potom vyhánějí vaši synové? Proto budou oni vašimi soudci. Jestliže však vyháním ďábla Duchem svatým, přichází před vás Boží království.</p>
+        <p corresp="#u_140v_004">Když silný ozbrojenec hlídá svůj dům, je všechno, co vlastní, v pokoji. Přijde-li však někdo silnější a přemůže jej, vezme mu všechny zbraně, v něž doufal, a rozdělí jeho kořist. Kdo není se mnou, je proti mně, a kdo se mnou neshromažďuje, rozptyluje. Když zlý duch vyjde z člověka, chodí po [bezvod…].</p>
+        <p corresp="#u_140v_005">[Bez samostatného překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

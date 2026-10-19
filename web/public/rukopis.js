@@ -1,5 +1,6 @@
-window.MANUSCRIPT_READY.then(() => {
+window.MANUSCRIPT_READY.then(async () => {
   'use strict';
+  const {resolveReaderHash, renderSupplementalReadings} = await import('./reader-core.mjs?v=20261019-1');
   const DATA = window.PILOT_DATA;
   const PAGES = DATA.pages;
   const shelfmark=DATA.document.shelfmark || DATA.title;
@@ -19,7 +20,7 @@ window.MANUSCRIPT_READY.then(() => {
     const numbers=proposalLookup?.(proposalIndex,page().document_id||DATA.document.id,page().folio,id)||[];
     return numbers.map(n=>'<a href="https://github.com/bezverec/manuscripty/issues/'+n+'" target="_blank" rel="noopener">Otevřený návrh #'+n+'</a>').join(' · ');
   }
-  Promise.all([import('./issue-form-core.mjs?v=20261012-6'),fetch('proposals.json?v=20261012-6').then(r=>r.ok?r.json():null)]).then(([core,index])=>{proposalLookup=core.openProposalNumbers;proposalIndex=index;if(page().lines){renderLines();renderAnalysis();}}).catch(()=>{});
+  Promise.all([import('./issue-form-core.mjs?v=20261019-1'),fetch('proposals.json?v=20261012-6').then(r=>r.ok?r.json():null)]).then(([core,index])=>{proposalLookup=core.openProposalNumbers;proposalIndex=index;if(page().lines){renderLines();renderAnalysis();}}).catch(()=>{});
   const selectedLine = () => page().lines?.[state.line] || null;
   const statusLabel = s => s === 'uncertain' ? 'Nejisté čtení' : 'Pracovní návrh';
   const asText = v => typeof v === 'string' ? v : JSON.stringify(v, null, 2);
@@ -35,16 +36,7 @@ window.MANUSCRIPT_READY.then(() => {
   function readHash() {
     let hash = '';
     try { hash = decodeURIComponent(location.hash.slice(1)); } catch { return {page:0,line:0}; }
-    const split = hash.indexOf('-');
-    const folio = split < 0 ? hash : hash.slice(0, split);
-    const key = split < 0 ? '' : hash.slice(split + 1);
-    const index = PAGES.findIndex(p => p.folio === folio);
-    if (index < 0) return {page:0,line:0};
-    if(!PAGES[index].lines)return {page:index,line:key};
-    let line = PAGES[index].lines.findIndex(l => l.id === key);
-    if (line < 0 && /^l\d+$/.test(key)) line = Number(key.slice(1)) - 1;
-    if (line < 0 || line >= PAGES[index].lines.length) line = 0;
-    return {page:index,line};
+    return resolveReaderHash(PAGES, hash);
   }
   function folioCanonicalUrl() {
     const url = new URL(DATA.document.uri.replace(/\/$/, '') + '/' + encodeURIComponent(page().folio));
@@ -75,11 +67,11 @@ window.MANUSCRIPT_READY.then(() => {
   function proposeHtr() {
     const l=selectedLine();if(!l)return;
     const url=new URL(DATA.document.reader);url.searchParams.set('vrstva','radky');url.hash=page().folio+'-'+l.id;
-    window.dispatchEvent(new CustomEvent('manuscripty:propose-htr',{detail:{document_id:page().document_id||DATA.document.id,manuscript:page().manuscript||DATA.document.shelfmark||DATA.title,folio:page().folio,line_id:l.id,source_segment_ids:l.source_segment_ids,bbox:l.bbox,source_sha256:page().source_sha256,models:page().models,model:state.model,raw_htr:l.raw_htr,source_url:url.href,crop_url:l.image}}));
+    window.dispatchEvent(new CustomEvent('manuscripty:propose-htr',{detail:{document_id:page().document_id||DATA.document.id,manuscript:page().manuscript||DATA.document.shelfmark||DATA.title,folio:page().folio,line_id:l.id,source_segment_ids:l.source_segment_ids,bbox:l.bbox,source_sha256:page().source_sha256,coordinate_source:page().coordinate_source,width:page().width,height:page().height,models:page().models,model:state.model,raw_htr:l.raw_htr,source_url:url.href,crop_url:l.image}}));
   }
   function proposeSegmentation() {
     const p=page();if(!p.tiles||!p.source_sha256)return;const url=new URL(DATA.document.reader);url.searchParams.set('vrstva','radky');url.hash=p.folio+(selectedLine()?'-'+selectedLine().id:'');
-    window.dispatchEvent(new CustomEvent('manuscripty:propose-segmentation',{detail:{manuscript:p.manuscript||DATA.document.shelfmark||DATA.title,document_id:p.document_id||DATA.document.id,document_uri:p.document_uri||DATA.document.uri,folio:p.folio,width:p.width,height:p.height,source_sha256:p.source_sha256,source_original:p.source_original,source_url:url.href,preview_url:new URL(p.preview,location.href).href,tiles:{...p.tiles,tilesUrl:new URL(p.tiles.tilesUrl,location.href).href},selected_id:selectedLine()?.id||null,segments:p.lines.map(l=>({id:l.id,source_segment_ids:[...l.source_segment_ids],bbox:[...l.bbox]}))}}));
+    window.dispatchEvent(new CustomEvent('manuscripty:propose-segmentation',{detail:{manuscript:p.manuscript||DATA.document.shelfmark||DATA.title,document_id:p.document_id||DATA.document.id,document_uri:p.document_uri||DATA.document.uri,folio:p.folio,width:p.width,height:p.height,source_sha256:p.source_sha256,source_original:p.source_original,coordinate_source:p.coordinate_source,source_url:url.href,preview_url:new URL(p.preview,location.href).href,tiles:{...p.tiles,tilesUrl:new URL(p.tiles.tilesUrl,location.href).href},selected_id:selectedLine()?.id||null,segments:p.lines.map(l=>({id:l.id,source_segment_ids:[...l.source_segment_ids],bbox:[...l.bbox]}))}}));
   }
   function applyZoom() {
     if (viewer && viewer.viewport) {
@@ -97,7 +89,7 @@ window.MANUSCRIPT_READY.then(() => {
     $('#htr-choice').innerHTML = Object.entries(p.models).map(([key,label]) => '<option value="' + esc(key) + '"' + (key === state.model ? ' selected' : '') + '>' + esc(label) + '</option>').join('');
     $('#htr-choice').disabled=!p.lines.length;$('#line-choice').disabled=!p.lines.length;
     $('#row-count').textContent = p.kind==='binding'?'Zatím bez HTR':p.lines.length + (p.kind === 'physical_lines' ? ' fyzických řádků' : ' segmentů');
-    $('#lines').innerHTML = p.lines.map((l,i) => '<li class="line' + (i === state.line ? ' is-selected' : '') + '"><button type="button" class="line-btn" data-line="' + i + '" aria-expanded="' + (i === state.line) + '"><span class="line-n">' + (i + 1) + '</span><span class="line-text">' + esc(l.raw_htr[state.model] ?? 'Výstup není dostupný') + '</span></button>' + (i === state.line ? '<div class="line-actions"><button type="button" class="btn btn--sm" data-open="radky">Řádková analýza</button><button type="button" class="btn btn--sm" data-open="vyklad">Latina a čeština</button></div>' : '') + (proposalLinks(l.id)?'<p class="line-actions">'+proposalLinks(l.id)+'</p>':'') + '</li>').join('');
+    $('#lines').innerHTML = p.lines.map((l,i) => '<li class="line' + (i === state.line ? ' is-selected' : '') + '"><button type="button" class="line-btn" data-line="' + i + '" aria-expanded="' + (i === state.line) + '"><span class="line-n">' + (i + 1) + '</span><span class="line-text">' + esc(l.raw_htr[state.model] ?? 'Výstup není dostupný') + '</span></button>' + (i === state.line ? '<div class="line-actions"><button type="button" class="btn btn--sm" data-open="radky">Řádková analýza</button><button type="button" class="btn btn--sm" data-open="vyklad">Předloha a čeština</button></div>' : '') + (proposalLinks(l.id)?'<p class="line-actions">'+proposalLinks(l.id)+'</p>':'') + '</li>').join('');
     $('#line-choice').innerHTML = p.lines.map((l,i) => '<option value="' + i + '"' + (i === state.line ? ' selected' : '') + '>' + (i + 1) + ' · ' + esc(l.id) + '</option>').join('');
   }
   function renderAnalysis() {
@@ -113,7 +105,8 @@ window.MANUSCRIPT_READY.then(() => {
     const scope = $('#reading-scope').value;
     const language = $('#reading-language').value;
     const passages = scope === 'all' ? page().passages : linkedPassages();
-    $('#reading-passages').innerHTML = passages.length ? passages.map(p => '<article class="reading-card" id="reading-' + esc(p.id) + '"><h2>' + esc(p.title) + '</h2><p class="layer-id">' + esc(p.id) + ' · pracovní návrh, bez odborné revize</p>' + (language !== 'czech' ? '<section lang="' + esc(p.language || page().language || 'la') + '"><h3>Rekonstrukce (jazyk předlohy)</h3><p class="layer-reading">' + esc(p.latin) + '</p></section>' : '') + (language !== 'latin' ? '<section lang="cs"><h3>Český překlad</h3><p class="layer-reading">' + esc(p.czech) + '</p></section>' : '') + (p.notes ? '<h3>Poznámky a nejistoty</h3><p class="layer-notes">' + esc(p.notes) + '</p>' : '') + '<details><summary>Řádky / segmenty obrazového podkladu (' + p.line_ids.length + ')</summary><div class="linked-lines">' + p.line_ids.map(id => '<button type="button" data-source-id="' + esc(id) + '">' + esc(id) + '</button>').join('') + '</div><button type="button" class="btn btn--sm" data-passage="' + esc(p.id) + '">Zvýraznit celou pasáž ve skenu</button></details>' + (p.operations.length ? '<details><summary>Rekonstrukční zásahy (' + p.operations.length + ')</summary>' + p.operations.map(o => '<p class="layer-notes"><span class="layer-id">' + esc(o.id) + '</span> · ' + esc(o.base) + ' → ' + esc(o.proposed) + '<br>' + esc(o.note_cs) + '</p>').join('') + '</details>' : '') + '</article>').join('') : '<p class="layer-notes">'+(page().kind==='binding'?'Pro tento snímek zatím nebyl vytvořen HTR, rekonstrukce ani překlad.':'K vybranému řádku není přiřazena interpretační pasáž.')+'</p>';
+    const supplemental = renderSupplementalReadings(page().supplemental_readings, {language, pageLanguage:page().language || 'la'});
+    $('#reading-passages').innerHTML = (passages.length ? passages.map(p => '<article class="reading-card" id="reading-' + esc(p.id) + '"><h2>' + esc(p.title) + '</h2><p class="layer-id">' + esc(p.id) + ' · pracovní návrh, bez odborné revize</p>' + (language !== 'czech' ? '<section lang="' + esc(p.language || page().language || 'la') + '"><h3>Rekonstrukce (jazyk předlohy)</h3><p class="layer-reading">' + esc(p.latin) + '</p></section>' : '') + (language !== 'latin' ? '<section lang="cs"><h3>Český překlad</h3><p class="layer-reading">' + esc(p.czech) + '</p></section>' : '') + (p.notes ? '<h3>Poznámky a nejistoty</h3><p class="layer-notes">' + esc(p.notes) + '</p>' : '') + '<details><summary>Řádky / segmenty obrazového podkladu (' + p.line_ids.length + ')</summary><div class="linked-lines">' + p.line_ids.map(id => '<button type="button" data-source-id="' + esc(id) + '">' + esc(id) + '</button>').join('') + '</div><button type="button" class="btn btn--sm" data-passage="' + esc(p.id) + '">Zvýraznit celou pasáž ve skenu</button></details>' + (p.operations.length ? '<details><summary>Rekonstrukční zásahy (' + p.operations.length + ')</summary>' + p.operations.map(o => '<p class="layer-notes"><span class="layer-id">' + esc(o.id) + '</span> · ' + esc(o.base) + ' → ' + esc(o.proposed) + '<br>' + esc(o.note_cs) + '</p>').join('') + '</details>' : '') + '</article>').join('') : '<p class="layer-notes">'+(page().kind==='binding'?'Pro tento snímek zatím nebyl vytvořen HTR ani rekonstrukce přiřazená k HTR řádkům.':'K vybranému řádku není přiřazena interpretační pasáž.')+'</p>') + supplemental;
   }
   function renderProcessing() {
     const p = page();
@@ -167,7 +160,7 @@ window.MANUSCRIPT_READY.then(() => {
       $('#ms-sub').textContent=PAGES.length+' snímků · pracovní čtení bez odborné revize';
       $('#suggest-btn').disabled=!page().lines.length;$('#prev').disabled=state.page===0;$('#next').disabled=state.page===PAGES.length-1;
       renderStage();renderLines();renderAnalysis();renderReading();renderProcessing();setTab(state.tab,false,false);setHash();updateCitation();
-      $('#load-status').textContent=page().kind==='binding'?(page().label+' · zatím bez HTR'):page().blank?'Bez vybraného hlavního textu':page().lines.length+' řádků / segmentů · '+page().passages.length+' pasáží';
+      $('#load-status').textContent=(page().kind==='binding'?(page().label+' · zatím bez HTR'):page().blank?'Bez vybraného hlavního textu':page().lines.length+' řádků / segmentů · '+page().passages.length+' pasáží')+(page().supplemental_readings?.length?' · '+page().supplemental_readings.length+' samostatných čtení':'');
       scrollWithin($('#thumbs'), document.querySelector('.thumb[aria-current="page"]'));
     }catch(error){if(request===loadingRequest)$('#load-status').textContent='Načtení selhalo. Zvolte stranu znovu nebo obnovte stránku.';}
     finally{if(request===loadingRequest)$('#stage').removeAttribute('aria-busy');}
@@ -178,7 +171,7 @@ window.MANUSCRIPT_READY.then(() => {
   document.querySelector('link[rel=canonical]').href=DATA.document.reader;
   document.querySelector('meta[property="og:url"]').content=DATA.document.reader;
   document.querySelector('meta[property="og:title"]').content=document.title;
-  document.querySelector('meta[property="og:image"]').content=PAGES.find(p=>p.folio==='5r')?.preview || PAGES[0].preview;
+  document.querySelector('meta[property="og:image"]').content=DATA.document.preview || PAGES.find(p=>p.folio===(DATA.document.id==='vkol-m-i-259'?'1r':'5r'))?.preview || PAGES[0].preview;
   document.querySelectorAll('[data-document-link]').forEach(a=>a.href=DATA.document.uri);
   $('#document-permalink').value=DATA.document.uri;
   $('#document-tei').href=DATA.document.tei;
@@ -187,9 +180,9 @@ window.MANUSCRIPT_READY.then(() => {
   $('#document-description-title').textContent=DATA.title;
   $('#description-shelfmark').textContent=shelfmark;
   if(DATA.description_cs)$('#document-description-detail').textContent=DATA.description_cs;
-  document.querySelectorAll('[data-summary-link]').forEach(a=>a.href=DATA.document.uri+'#ai-shrnuti');
-  if(DATA.document.id==='vkol-m-ii-153'){
-    $('#structure-basis').textContent='Katalogové členění podle dodaného digitalizačního popisu; názvy interpretačních pasáží jsou pracovní návrhy AI. Rozsahy děl se mohou překrývat.';
+  document.querySelectorAll('[data-summary-link]').forEach(a=>a.href=DATA.summary_url || DATA.document.uri+'#ai-shrnuti');
+  if(DATA.document.id!=='vkol-m-ii-220'){
+    $('#structure-basis').textContent=DATA.structure_basis_cs || 'Katalogové členění podle dodaného digitalizačního popisu; názvy interpretačních pasáží jsou pracovní návrhy AI. Rozsahy děl se mohou překrývat.';
     $('#line-reading-notice').textContent='Pracovní čtení bez odborné revize. Zobrazujeme oba původní HTR, příznaky a pasážové poznámky; slovní geometrie není určena.';
     $('#reading-language option[value=both]').textContent='Předloha a čeština';
     $('#reading-language option[value=latin]').textContent='Rekonstrukce v jazyce předlohy';

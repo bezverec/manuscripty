@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 127v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_127v_coordinate; PNG SHA256 21547e2f7eca038eb6c9fbccc398496f9f1be856f20d22fea100afcee20a329e; archival TIFF SHA256 23b26ae246e6f28fb00ac0d840ff0431a5695a8b77d2e31ed7ab9d9004bb5580; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_127v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#127v"/>
+      <zone ulx="2608" uly="398" lrx="2748" lry="494" xml:id="z_f127v_l001"/>
+      <zone ulx="927" uly="451" lrx="3557" lry="578" xml:id="z_f127v_l002"/>
+      <zone ulx="933" uly="538" lrx="3607" lry="665" xml:id="z_f127v_l003"/>
+      <zone ulx="930" uly="616" lrx="3566" lry="740" xml:id="z_f127v_l004"/>
+      <zone ulx="943" uly="700" lrx="3560" lry="830" xml:id="z_f127v_l005"/>
+      <zone ulx="936" uly="780" lrx="3566" lry="927" xml:id="z_f127v_l006"/>
+      <zone ulx="936" uly="864" lrx="3548" lry="995" xml:id="z_f127v_l007"/>
+      <zone ulx="939" uly="942" lrx="3566" lry="1085" xml:id="z_f127v_l008"/>
+      <zone ulx="943" uly="1029" lrx="3557" lry="1172" xml:id="z_f127v_l009"/>
+      <zone ulx="939" uly="1110" lrx="3551" lry="1263" xml:id="z_f127v_l010"/>
+      <zone ulx="961" uly="1197" lrx="3352" lry="1337" xml:id="z_f127v_l011"/>
+      <zone ulx="967" uly="1281" lrx="3529" lry="1434" xml:id="z_f127v_l012"/>
+      <zone ulx="958" uly="1378" lrx="3542" lry="1518" xml:id="z_f127v_l013"/>
+      <zone ulx="958" uly="1471" lrx="3610" lry="1599" xml:id="z_f127v_l014"/>
+      <zone ulx="952" uly="1555" lrx="3563" lry="1683" xml:id="z_f127v_l015"/>
+      <zone ulx="961" uly="1639" lrx="3598" lry="1770" xml:id="z_f127v_l016"/>
+      <zone ulx="958" uly="1720" lrx="3535" lry="1872" xml:id="z_f127v_l017"/>
+      <zone ulx="958" uly="1807" lrx="3551" lry="1956" xml:id="z_f127v_l018"/>
+      <zone ulx="961" uly="1900" lrx="3619" lry="2044" xml:id="z_f127v_l019"/>
+      <zone ulx="952" uly="1981" lrx="3616" lry="2128" xml:id="z_f127v_l020"/>
+      <zone ulx="955" uly="2068" lrx="3601" lry="2215" xml:id="z_f127v_l021"/>
+      <zone ulx="952" uly="2152" lrx="3573" lry="2299" xml:id="z_f127v_l022"/>
+      <zone ulx="949" uly="2233" lrx="3542" lry="2383" xml:id="z_f127v_l023"/>
+      <zone ulx="961" uly="2324" lrx="3551" lry="2473" xml:id="z_f127v_l024"/>
+      <zone ulx="967" uly="2414" lrx="3573" lry="2560" xml:id="z_f127v_l025"/>
+      <zone ulx="964" uly="2501" lrx="3579" lry="2647" xml:id="z_f127v_l026"/>
+      <zone ulx="967" uly="2588" lrx="3545" lry="2737" xml:id="z_f127v_l027"/>
+      <zone ulx="967" uly="2675" lrx="3566" lry="2821" xml:id="z_f127v_l028"/>
+      <zone ulx="971" uly="2765" lrx="3591" lry="2912" xml:id="z_f127v_l029"/>
+      <zone ulx="967" uly="2852" lrx="3542" lry="3005" xml:id="z_f127v_l030"/>
+      <zone ulx="958" uly="2946" lrx="3529" lry="3095" xml:id="z_f127v_l031"/>
+      <zone ulx="949" uly="3033" lrx="3560" lry="3185" xml:id="z_f127v_l032"/>
+      <zone ulx="986" uly="3120" lrx="3557" lry="3272" xml:id="z_f127v_l033"/>
+      <zone ulx="967" uly="3204" lrx="3542" lry="3353" xml:id="z_f127v_l034"/>
+      <zone ulx="971" uly="3282" lrx="3582" lry="3450" xml:id="z_f127v_l035"/>
+      <zone ulx="964" uly="3369" lrx="3557" lry="3531" xml:id="z_f127v_l036"/>
+      <zone ulx="989" uly="3459" lrx="3545" lry="3621" xml:id="z_f127v_l037"/>
+      <zone ulx="3685" uly="1655" lrx="3828" lry="1751" xml:id="z_f127v_l038"/>
+      <zone ulx="3688" uly="1711" lrx="3843" lry="1838" xml:id="z_f127v_l039"/>
+      <zone ulx="3672" uly="1854" lrx="3834" lry="1947" xml:id="z_f127v_l040"/>
+      <zone ulx="3741" uly="1904" lrx="3803" lry="2022" xml:id="z_f127v_l041"/>
+      <zone ulx="3697" uly="1991" lrx="3834" lry="2084" xml:id="z_f127v_l042"/>
+      <zone ulx="3700" uly="2053" lrx="3850" lry="2180" xml:id="z_f127v_l043"/>
+      <zone ulx="3685" uly="2143" lrx="3865" lry="2255" xml:id="z_f127v_l044"/>
+      <zone ulx="3650" uly="2218" lrx="3871" lry="2361" xml:id="z_f127v_l045"/>
+      <zone ulx="3672" uly="2311" lrx="3875" lry="2423" xml:id="z_f127v_l046"/>
+      <zone ulx="3685" uly="2404" lrx="3843" lry="2507" xml:id="z_f127v_l047"/>
+      <zone ulx="3710" uly="2498" lrx="3862" lry="2597" xml:id="z_f127v_l048"/>
+      <zone ulx="3657" uly="2569" lrx="3884" lry="2694" xml:id="z_f127v_l049"/>
+      <zone ulx="3669" uly="2660" lrx="3868" lry="2806" xml:id="z_f127v_l050"/>
+      <zone ulx="3675" uly="2765" lrx="3862" lry="2880" xml:id="z_f127v_l051"/>
+      <zone ulx="3644" uly="2821" lrx="3881" lry="2971" xml:id="z_f127v_l052"/>
+      <zone ulx="3638" uly="2918" lrx="3847" lry="3052" xml:id="z_f127v_l053"/>
+      <zone ulx="3647" uly="3014" lrx="3878" lry="3111" xml:id="z_f127v_l054"/>
+      <zone ulx="3635" uly="3083" lrx="3884" lry="3213" xml:id="z_f127v_l055"/>
+      <zone ulx="3644" uly="3167" lrx="3881" lry="3297" xml:id="z_f127v_l056"/>
+      <zone ulx="3641" uly="3260" lrx="3865" lry="3388" xml:id="z_f127v_l057"/>
+      <zone ulx="3641" uly="3350" lrx="3887" lry="3465" xml:id="z_f127v_l058"/>
+      <zone ulx="3622" uly="3412" lrx="3887" lry="3531" xml:id="z_f127v_l059"/>
+      <zone ulx="3632" uly="3503" lrx="3881" lry="3602" xml:id="z_f127v_l060"/>
+      <zone ulx="980" uly="3543" lrx="3878" lry="3714" xml:id="z_f127v_l061"/>
+      <zone ulx="977" uly="3636" lrx="3576" lry="3792" xml:id="z_f127v_l062"/>
+      <zone ulx="3622" uly="3649" lrx="3887" lry="3752" xml:id="z_f127v_l063"/>
+      <zone ulx="992" uly="3724" lrx="3884" lry="3876" xml:id="z_f127v_l064"/>
+      <zone ulx="992" uly="3829" lrx="3604" lry="3969" xml:id="z_f127v_l065"/>
+      <zone ulx="996" uly="3923" lrx="3560" lry="4066" xml:id="z_f127v_l066"/>
+      <zone ulx="999" uly="4013" lrx="3588" lry="4147" xml:id="z_f127v_l067"/>
+      <zone ulx="3626" uly="3814" lrx="3887" lry="3923" xml:id="z_f127v_l068"/>
+      <zone ulx="3585" uly="3888" lrx="3881" lry="3994" xml:id="z_f127v_l069"/>
+      <zone ulx="3635" uly="3963" lrx="3878" lry="4075" xml:id="z_f127v_l070"/>
+      <zone ulx="3697" uly="4056" lrx="3850" lry="4175" xml:id="z_f127v_l071"/>
+      <zone ulx="1002" uly="4103" lrx="3871" lry="4240" xml:id="z_f127v_l072"/>
+      <zone ulx="1011" uly="4190" lrx="3868" lry="4324" xml:id="z_f127v_l073"/>
+      <zone ulx="1005" uly="4280" lrx="3570" lry="4405" xml:id="z_f127v_l074"/>
+      <zone ulx="3619" uly="4287" lrx="3884" lry="4405" xml:id="z_f127v_l075"/>
+      <zone ulx="989" uly="4368" lrx="3875" lry="4514" xml:id="z_f127v_l076"/>
+      <zone ulx="983" uly="4464" lrx="3579" lry="4588" xml:id="z_f127v_l077"/>
+      <zone ulx="999" uly="4542" lrx="3551" lry="4676" xml:id="z_f127v_l078"/>
+      <zone ulx="1008" uly="4629" lrx="3582" lry="4756" xml:id="z_f127v_l079"/>
+      <zone ulx="999" uly="4704" lrx="3548" lry="4853" xml:id="z_f127v_l080"/>
+      <zone ulx="996" uly="4766" lrx="3548" lry="4937" xml:id="z_f127v_l081"/>
+      <zone ulx="1008" uly="4844" lrx="3538" lry="5074" xml:id="z_f127v_l082"/>
+      <zone ulx="3616" uly="4489" lrx="3862" lry="4579" xml:id="z_f127v_l083"/>
+      <zone ulx="3635" uly="4554" lrx="3850" lry="4632" xml:id="z_f127v_l084"/>
+      <zone ulx="3666" uly="4610" lrx="3847" lry="4697" xml:id="z_f127v_l085"/>
+      <zone ulx="3629" uly="4676" lrx="3862" lry="4769" xml:id="z_f127v_l086"/>
+      <zone ulx="3619" uly="4741" lrx="3871" lry="4868" xml:id="z_f127v_l087"/>
+      <zone ulx="3613" uly="4837" lrx="3875" lry="5061" xml:id="z_f127v_l088"/>
+      <zone ulx="3719" uly="435" lrx="3865" lry="544" xml:id="z_f127v_l089"/>
+      <zone ulx="3719" uly="678" lrx="3853" lry="818" xml:id="z_f127v_l090"/>
+      <zone ulx="3731" uly="973" lrx="3831" lry="1179" xml:id="z_f127v_l091"/>
+      <zone ulx="3707" uly="1232" lrx="3738" lry="1337" xml:id="z_f127v_l092"/>
+      <zone ulx="3756" uly="1141" lrx="3840" lry="1235" xml:id="z_f127v_l093"/>
+      <zone ulx="3722" uly="1372" lrx="3853" lry="1480" xml:id="z_f127v_l094"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f127v_l001" xml:id="catmus_f127v_l001"/>
+          <seg type="raw_unreviewed">oũ</seg>
+          <lb facs="#z_f127v_l002" xml:id="catmus_f127v_l002"/>
+          <seg type="raw_unreviewed">obẜultõe d̾ u si It̃ uet /tñi rͣuit opa. ud co latti opũ ⁊ lolũ pygi si o</seg>
+          <lb facs="#z_f127v_l003" xml:id="catmus_f127v_l003"/>
+          <seg type="raw_unreviewed">It̃ ueti bgie nõ aꝓꝓbat. ẜ uo uoͣ lquidat .x xxii q mĩ r̾crrit IIt ꝯcordat uoy ͫ</seg>
+          <lb facs="#z_f127v_l004" xml:id="catmus_f127v_l004"/>
+          <seg type="raw_unreviewed">tũ uet̾i ĩ ioaliũ db̃sm ͤ. qr obẜuat de culegũ ibid̃ R iteseitᵗ dece dũciũ</seg>
+          <lb facs="#z_f127v_l005" xml:id="catmus_f127v_l005"/>
+          <seg type="raw_unreviewed">ultruã uolũtas testutor e obẜuũda . xni .i.i ult. eꝵ ħenute qr ꝓͥũ qũt</seg>
+          <lb facs="#z_f127v_l006" xml:id="catmus_f127v_l006"/>
+          <seg type="raw_unreviewed">uũt testilixii q in ꝑlat̃ eꝵ clico l derb xus uł acqͥsitꝭ testl xii. ii p̃c</seg>
+          <lb facs="#z_f127v_l007" xml:id="catmus_f127v_l007"/>
+          <seg type="raw_unreviewed">e ñ l eis derbi cõe so deug̾s uł fgib sñ ołi̾a ᵇ siue qlisciũs are testari</seg>
+          <lb facs="#z_f127v_l008" xml:id="catmus_f127v_l008"/>
+          <seg type="raw_unreviewed">xiiiIn epi el uoͣ ꝑp̾a cliciꝵ detedu ᷑ Iabãtisttte si ũ hũt filios uł uepoted̾</seg>
+          <lb facs="#z_f127v_l009" xml:id="catmus_f127v_l009"/>
+          <seg type="raw_unreviewed">st̃ eccaꝵꝭ ĩ. Ib mĩsolihyn qii qͥciũs ei itesta ͭ ͦ ꝯ ͨ ꝑꝑ ẽ testãdꝰ ꝑ uno filiorsi</seg>
+          <lb facs="#z_f127v_l010" xml:id="catmus_f127v_l010"/>
+          <seg type="raw_unreviewed">Uni qu Ieltestr ͤ ẜũ pecutoes st sac̾ ͥ fuer. regõaꝵ ꝭ hoĩode. aud̃ Ic̃st ꝯquĩ</seg>
+          <lb facs="#z_f127v_l011" xml:id="catmus_f127v_l011"/>
+          <seg type="raw_unreviewed">ilud et successor nõ ẜricis de fucti testit᷑ exheditũt̾. e .xĩ.q. siluest᷑</seg>
+          <lb facs="#z_f127v_l012" xml:id="catmus_f127v_l012"/>
+          <seg type="raw_unreviewed">greitꝭ suꝑior aẽde ixi qui ĩt uã ułĩ di᷑ deꝰ. ccce ĩcelo testꝭ me  2 xxii.ii</seg>
+          <lb facs="#z_f127v_l013" xml:id="catmus_f127v_l013"/>
+          <seg type="raw_unreviewed">sipst testꝭ Cĩti̾a . s̃ qͥstia ꝵiqui ĩluñ. ubi di᷑ gla mẽ ħ ẽ testu᷑ hstĩe nr̃e</seg>
+          <lb facs="#z_f127v_l014" xml:id="catmus_f127v_l014"/>
+          <seg type="raw_unreviewed">⁊ e custodi It ẽtestꝭ extĩoi s. ꝓxeꝰ de q dĩ inbe/¶t testio ͫ ẽ. ñ po ͫ u̾bt</seg>
+          <lb facs="#z_f127v_l015" xml:id="catmus_f127v_l015"/>
+          <seg type="raw_unreviewed">le.s ⁊̃ reale.s. fã euidũ ͥc xxeni ꝯ n dehriis: eo apli ut̾o. ropo etrlnt</seg>
+          <lb facs="#z_f127v_l016" xml:id="catmus_f127v_l016"/>
+          <seg type="raw_unreviewed">cestes pͥ. ĩtlui roĩanda xi qui estuunt / Eꝵ ĩtesti᷑ altr̃idͥ ͥ ẽ dũshitaͦ lor</seg>
+          <lb facs="#z_f127v_l017" xml:id="catmus_f127v_l017"/>
+          <seg type="raw_unreviewed">toꝵ ⁊ tp̃m .xxpei q ui depareĩ eꝵ ad ꝑbuud̃ ĩ gentatꝭ politestes nẽ</seg>
+          <lb facs="#z_f127v_l018" xml:id="catmus_f127v_l018"/>
+          <seg type="raw_unreviewed">sussi  ͭ nͥ ĩst̾ĩtꝭ. ⁊ argiũt᷑ adiuuẽt᷑ .iiii  ii tẽstes / Qd declł ẽnoꝵ testio</seg>
+          <lb facs="#z_f127v_l019" xml:id="catmus_f127v_l019"/>
+          <seg type="raw_unreviewed">M ĩ pñcia testificũ Itigisse ꝑhiberm q ix tostes / Eoꝵ ⁊ ũ rogiti. dũͫ it̾ sue</seg>
+          <lb facs="#z_f127v_l020" xml:id="catmus_f127v_l020"/>
+          <seg type="raw_unreviewed">sit cestes ea pũt in quii testrõ aꝵ testes suꝑ uuo po ilp̃e ⁊ soco uiseis.</seg>
+          <lb facs="#z_f127v_l021" xml:id="catmus_f127v_l021"/>
+          <seg type="raw_unreviewed">uitutes rpellu i quo testes eꝵ illi testes gui ⁱ st̃ penend̾i qͣs qr̃ diii.</seg>
+          <lb facs="#z_f127v_l022" xml:id="catmus_f127v_l022"/>
+          <seg type="raw_unreviewed">cus. scł sc̃o ũ ĩt̾suisse oñdit alud Qꝵ ĩ cũ ciuuli testĩo  d dẽ deisi uot</seg>
+          <lb facs="#z_f127v_l023" xml:id="catmus_f127v_l023"/>
+          <seg type="raw_unreviewed">⁊ auditꝭ in qix testes ¶ed ĩtestib actũdũta ẽ seuti. dig̾tus. sidi pu̾itus ⁊</seg>
+          <lb facs="#z_f127v_l024" xml:id="catmus_f127v_l024"/>
+          <seg type="raw_unreviewed">meꝵ g̃ritus iui.Iin testeo Q ̃li p̃apur r̾cipiẽdi st̃ ĩtestesd eqͥh ulti c </seg>
+          <lb facs="#z_f127v_l025" xml:id="catmus_f127v_l025"/>
+          <seg type="raw_unreviewed">ũsũit᷑ qr uitri  st̃i iug Ilũt . xxxe q uci R ħ siplici uõ ind̾itꝭ c̃dicc̃i</seg>
+          <lb facs="#z_f127v_l026" xml:id="catmus_f127v_l026"/>
+          <seg type="raw_unreviewed">At. si tñ ab ip̃o appłła. ũ pt̃ dẽ testꝭ idũ appllõis n qui stetuẽd̃ Qaduĩ </seg>
+          <lb facs="#z_f127v_l027" xml:id="catmus_f127v_l027"/>
+          <seg type="raw_unreviewed">testio iuc̃o. tp̃na᷑. u̾ forte sitiua ꝓuliͭ ͥ q̃ ir̃m labonet .iii qui tostes / eꝵ</seg>
+          <lb facs="#z_f127v_l028" xml:id="catmus_f127v_l028"/>
+          <seg type="raw_unreviewed">testĩos ł ui/ ñ ual ⁊ si sͭ ep̃t uii.i.i ꝑtet eꝵ exl cp̃o tl. ilti p̃bits ĩ nũi</seg>
+          <lb facs="#z_f127v_l029" xml:id="catmus_f127v_l029"/>
+          <seg type="raw_unreviewed">nõ ĩfert᷑. cũ sͥ soli ũ cdi ᷑ ĩtestĩs. ui qnc ult Q ut ꝑbaud̃ dui testes suff.</seg>
+          <lb facs="#z_f127v_l030" xml:id="catmus_f127v_l030"/>
+          <seg type="raw_unreviewed">nũt iil tres. u ĩ aliq̃bi caus siunglar plõs iͥ quiar i iuii q ui tester eds p̃sal ũ</seg>
+          <lb facs="#z_f127v_l031" xml:id="catmus_f127v_l031"/>
+          <seg type="raw_unreviewed">dãput᷑ ñ ĩ hoxii tostib ꝓbr̃ aũ cardĩbis ĩ xxuii pfões a̾ giꝰ cliti ͤͦ</seg>
+          <lb facs="#z_f127v_l032" xml:id="catmus_f127v_l032"/>
+          <seg type="raw_unreviewed">⁊ uni testibi. quicti. ũ dũt Idpi i.imi p̃sałit n/ ẽ ydbeꝰ testꝭ ccũ p̃a xo</seg>
+          <lb facs="#z_f127v_l033" xml:id="catmus_f127v_l033"/>
+          <seg type="raw_unreviewed">I.i saue It ĩ sr qͣs testi ͥ pt̃. ꝑse uoͥ mĩme piii qui ¶ It̃ ꝑ ĩm̃citiar</seg>
+          <lb facs="#z_f127v_l034" xml:id="catmus_f127v_l034"/>
+          <seg type="raw_unreviewed">ut̃ e r̾ uelle testes q̃ so qs adiuiiͭ ꝓse a ͨ ͦ siõ m q ii testes st. iacͭ ũ p̃t</seg>
+          <lb facs="#z_f127v_l035" xml:id="catmus_f127v_l035"/>
+          <seg type="raw_unreviewed">ares pet̾e bestio  ibt  testes ũ uiden᷑ ydouei qͦb pt̃ imꝑqri and̃ se cest</seg>
+          <lb facs="#z_f127v_l036" xml:id="catmus_f127v_l036"/>
+          <seg type="raw_unreviewed">uide᷑ suiptus. si i ͭ dedouũ indicꝭ. iii quii q̃. e tllo d cegi ut f̾t tescioĩ</seg>
+          <lb facs="#z_f127v_l037" xml:id="catmus_f127v_l037"/>
+          <seg type="raw_unreviewed">ꝯ̃issage᷑/ ñl offie̾ n i ii tescos̾ It a ͨ parentes ⁊ liħi iuice adu̾sũ se testai</seg>
+          <lb facs="#z_f127v_l038" xml:id="catmus_f127v_l038"/>
+          <seg type="raw_unreviewed">lus di</seg>
+          <lb facs="#z_f127v_l039" xml:id="catmus_f127v_l039"/>
+          <seg type="raw_unreviewed">ius ilcso</seg>
+          <lb facs="#z_f127v_l040" xml:id="catmus_f127v_l040"/>
+          <seg type="raw_unreviewed">A pessan</seg>
+          <lb facs="#z_f127v_l041" xml:id="catmus_f127v_l041"/>
+          <seg type="raw_unreviewed">uxi</seg>
+          <lb facs="#z_f127v_l042" xml:id="catmus_f127v_l042"/>
+          <seg type="raw_unreviewed">onicia</seg>
+          <lb facs="#z_f127v_l043" xml:id="catmus_f127v_l043"/>
+          <seg type="raw_unreviewed">t̃ coꝵ</seg>
+          <lb facs="#z_f127v_l044" xml:id="catmus_f127v_l044"/>
+          <seg type="raw_unreviewed">Nũ det</seg>
+          <lb facs="#z_f127v_l045" xml:id="catmus_f127v_l045"/>
+          <seg type="raw_unreviewed">loħ. exͫ</seg>
+          <lb facs="#z_f127v_l046" xml:id="catmus_f127v_l046"/>
+          <seg type="raw_unreviewed">ests̃</seg>
+          <lb facs="#z_f127v_l047" xml:id="catmus_f127v_l047"/>
+          <seg type="raw_unreviewed">subo</seg>
+          <lb facs="#z_f127v_l048" xml:id="catmus_f127v_l048"/>
+          <seg type="raw_unreviewed">exxi</seg>
+          <lb facs="#z_f127v_l049" xml:id="catmus_f127v_l049"/>
+          <seg type="raw_unreviewed">usui cliculi</seg>
+          <lb facs="#z_f127v_l050" xml:id="catmus_f127v_l050"/>
+          <seg type="raw_unreviewed">husui</seg>
+          <lb facs="#z_f127v_l051" xml:id="catmus_f127v_l051"/>
+          <seg type="raw_unreviewed">oilusill </seg>
+          <lb facs="#z_f127v_l052" xml:id="catmus_f127v_l052"/>
+          <seg type="raw_unreviewed">no si p̃uulas̃</seg>
+          <lb facs="#z_f127v_l053" xml:id="catmus_f127v_l053"/>
+          <seg type="raw_unreviewed">ñtũ quĩ</seg>
+          <lb facs="#z_f127v_l054" xml:id="catmus_f127v_l054"/>
+          <seg type="raw_unreviewed">plibꝰ HRm̃t</seg>
+          <lb facs="#z_f127v_l055" xml:id="catmus_f127v_l055"/>
+          <seg type="raw_unreviewed">lfit el sibd̃</seg>
+          <lb facs="#z_f127v_l056" xml:id="catmus_f127v_l056"/>
+          <seg type="raw_unreviewed">or s ꝑa ᷤ</seg>
+          <lb facs="#z_f127v_l057" xml:id="catmus_f127v_l057"/>
+          <seg type="raw_unreviewed">ssucõ fit d</seg>
+          <lb facs="#z_f127v_l058" xml:id="catmus_f127v_l058"/>
+          <seg type="raw_unreviewed"> piã tisa</seg>
+          <lb facs="#z_f127v_l059" xml:id="catmus_f127v_l059"/>
+          <seg type="raw_unreviewed">Aluũoi⁊ enle</seg>
+          <lb facs="#z_f127v_l060" xml:id="catmus_f127v_l060"/>
+          <seg type="raw_unreviewed">engE C̃ skcu</seg>
+          <lb facs="#z_f127v_l061" xml:id="catmus_f127v_l061"/>
+          <seg type="raw_unreviewed">pũt. alud st pr̃ ⁊ filr / ul duo ẜree. ĩcad̾ cũ testec̃ ce ũ pũt lit eꝵalicõ me. sulugudi tui</seg>
+          <lb facs="#z_f127v_l062" xml:id="catmus_f127v_l062"/>
+          <seg type="raw_unreviewed">grͦ plẽs tester ꝓdici pũt etad doii Ii testꝭ domescit/ adĩci᷑ ĩcã gcł</seg>
+          <lb facs="#z_f127v_l063" xml:id="catmus_f127v_l063"/>
+          <seg type="raw_unreviewed">Wisũ litite d</seg>
+          <lb facs="#z_f127v_l064" xml:id="catmus_f127v_l064"/>
+          <seg type="raw_unreviewed">It ĩcã initdialis Iẽ crũ ciuili udiuti᷑. s ũ ciuliũ ebid Q hetitꝰ ꝓx̾ari pt̃ anolt ĩtuitu</seg>
+          <lb facs="#z_f127v_l065" xml:id="catmus_f127v_l065"/>
+          <seg type="raw_unreviewed">restificai̾ ꝯ̃ hẽticũ ẜũ qͣpi ͫ xxini ꝯ. mului᷑ e chiłis ad sac̾cotẽ qͦ sacł̃o.</seg>
+          <lb facs="#z_f127v_l066" xml:id="catmus_f127v_l066"/>
+          <seg type="raw_unreviewed">te nõ pt̃ testi ͥ ⁊ͥ cũ t̾ĩili  quii ip̃is st pbr̃ ũ a tã sti nõ pt ũ duci᷑ ins</seg>
+          <lb facs="#z_f127v_l067" xml:id="catmus_f127v_l067"/>
+          <seg type="raw_unreviewed">rus ũ ir e h ͨ suc̾dociũ q ħ Rehonestr᷑ ui.i. testio ͬ Ist ꝓbr̃ ĩ uct̃i ͭ ͤ testiaꝰ</seg>
+          <lb facs="#z_f127v_l068" xml:id="catmus_f127v_l068"/>
+          <seg type="raw_unreviewed"> i qitu bati</seg>
+          <lb facs="#z_f127v_l069" xml:id="catmus_f127v_l069"/>
+          <seg type="raw_unreviewed">Ualuida ẽ siibi</seg>
+          <lb facs="#z_f127v_l070" xml:id="catmus_f127v_l070"/>
+          <seg type="raw_unreviewed">nbuse Tpi</seg>
+          <lb facs="#z_f127v_l071" xml:id="catmus_f127v_l071"/>
+          <seg type="raw_unreviewed">rpe sui</seg>
+          <lb facs="#z_f127v_l072" xml:id="catmus_f127v_l072"/>
+          <seg type="raw_unreviewed">ꝑhib̃ut̃. ũ di mãre sc aͥͥsaꝵ libꝵꝭ. s tm̃ d̃ uidu libꝵ. lud It̃ por ẜdicere sesnuli tar</seg>
+          <lb facs="#z_f127v_l073" xml:id="catmus_f127v_l073"/>
+          <seg type="raw_unreviewed">leci uam̃ti dic̾r. ꝑstm ꝯpatõa qͥ u si qu e os ulii testey d̃ mãre y̾. ufratio parte</seg>
+          <lb facs="#z_f127v_l074" xml:id="catmus_f127v_l074"/>
+          <seg type="raw_unreviewed">ddᵃ de uitate. taitꝭ sl̃ cr ͥ ͦ in iix hortiui᷑ ꝵ indepd testib ꝓuile</seg>
+          <lb facs="#z_f127v_l075" xml:id="catmus_f127v_l075"/>
+          <seg type="raw_unreviewed">sd pui efi</seg>
+          <lb facs="#z_f127v_l076" xml:id="catmus_f127v_l076"/>
+          <seg type="raw_unreviewed">de secu̾ͭͤ lecimi ꝙ ix hartam᷑ /eꝵ cp̃t uł ꝓbr ꝓorrẽ sue recp ͥ p̃t strir testi I s fad atbe</seg>
+          <lb facs="#z_f127v_l077" xml:id="catmus_f127v_l077"/>
+          <seg type="raw_unreviewed">mo ͬ uiri q ii fuꝑ e cłia /ũ d ẽe testꝭ qͣ laccũ ĩtiali cũ sriintili .xi qi</seg>
+          <lb facs="#z_f127v_l078" xml:id="catmus_f127v_l078"/>
+          <seg type="raw_unreviewed">testis sst ĩificiẽdꝭ ĩsem̃t slui l ꝓbr̃ ũ di fi̾r testio .xͥ deuũ ͭ ex̃i xiri</seg>
+          <lb facs="#z_f127v_l079" xml:id="catmus_f127v_l079"/>
+          <seg type="raw_unreviewed">i in suꝑ a cesti honestro. nulͦ fideo ẽ adhbũdaum qni uestio / en ili</seg>
+          <lb facs="#z_f127v_l080" xml:id="catmus_f127v_l080"/>
+          <seg type="raw_unreviewed">pt oĩ tẽstꝰ ꝓparu  r qsan ͦ ꝓc̾iẽ lese marestat᷑.⁊ ꝯͣħe̾st ⁊ syuuĩi. xx .p</seg>
+          <lb facs="#z_f127v_l081" xml:id="catmus_f127v_l081"/>
+          <seg type="raw_unreviewed">e testes d es̃ uõi oꝑioit ñ qi ĩpͣ ͭ ͤ ¶et atestisi Iũ adiliti᷑. 2 ͥ ͦ ⁊ muci i</seg>
+          <lb facs="#z_f127v_l082" xml:id="catmus_f127v_l082"/>
+          <seg type="raw_unreviewed">q. ¶t̃aᵗ ẜuui ꝓ diũ suil u  mm̃or oĩs Istci ĩ sibelis Ii ĩẜunu ic t̾iuõsi</seg>
+          <lb facs="#z_f127v_l083" xml:id="catmus_f127v_l083"/>
+          <seg type="raw_unreviewed">usuniti uii.</seg>
+          <lb facs="#z_f127v_l084" xml:id="catmus_f127v_l084"/>
+          <seg type="raw_unreviewed">tr fr̃ p̾e</seg>
+          <lb facs="#z_f127v_l085" xml:id="catmus_f127v_l085"/>
+          <seg type="raw_unreviewed">He</seg>
+          <lb facs="#z_f127v_l086" xml:id="catmus_f127v_l086"/>
+          <seg type="raw_unreviewed">massũit</seg>
+          <lb facs="#z_f127v_l087" xml:id="catmus_f127v_l087"/>
+          <seg type="raw_unreviewed">plllo i duob</seg>
+          <lb facs="#z_f127v_l088" xml:id="catmus_f127v_l088"/>
+          <seg type="raw_unreviewed">ic les tsiai</seg>
+          <lb facs="#z_f127v_l089" xml:id="catmus_f127v_l089"/>
+          <seg type="raw_unreviewed">icnie</seg>
+          <lb facs="#z_f127v_l090" xml:id="catmus_f127v_l090"/>
+          <seg type="raw_unreviewed">iq ls </seg>
+          <lb facs="#z_f127v_l091" xml:id="catmus_f127v_l091"/>
+          <seg type="raw_unreviewed">U</seg>
+          <lb facs="#z_f127v_l092" xml:id="catmus_f127v_l092"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_f127v_l093" xml:id="catmus_f127v_l093"/>
+          <seg type="raw_unreviewed">¶ul</seg>
+          <lb facs="#z_f127v_l094" xml:id="catmus_f127v_l094"/>
+          <seg type="raw_unreviewed">L2.I</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f127v_l001" xml:id="medusa_f127v_l001"/>
+          <seg type="raw_unreviewed">noͣn</seg>
+          <lb facs="#z_f127v_l002" xml:id="medusa_f127v_l002"/>
+          <seg type="raw_unreviewed">obẜuacione d̾ uꝰ qd ¶ st̃ uer et tm̃ r̾pnͣt oꝑa. uo coᷠ ⟦⟧ oꝑa ⁊ bolu᷑ꝭ XX qnͥ si qͥo</seg>
+          <lb facs="#z_f127v_l003" xml:id="medusa_f127v_l003"/>
+          <seg type="raw_unreviewed">It̃ nec I. brieⁿᵒꝰ nõ approbat. s⁊ nown hũidat .xxxii. qͦ nñi tͣcͣrit. It̃ ꝯcordat nown</seg>
+          <lb facs="#z_f127v_l004" xml:id="medusa_f127v_l004"/>
+          <seg type="raw_unreviewed">tũ uet̾i ĩmoꝵaliũ obẜuare qr obẜuatt de catalogũ ibid̃ ¶ Q: ĩtessitꝭ de re dñicã</seg>
+          <lb facs="#z_f127v_l005" xml:id="medusa_f127v_l005"/>
+          <seg type="raw_unreviewed">ultima uoluntas testatorꝭ ẽ obẜuãda. xiii. ii. ult̃. Ex he̾mite q ꝓpͥũ hñt</seg>
+          <lb facs="#z_f127v_l006" xml:id="medusa_f127v_l006"/>
+          <seg type="raw_unreviewed">pũt testuͥ xiii i in ꝑlat Cor cliro l derbꝰ p̃ue uł acqͣsitꝭ testuͥ xii ii ip̃t</seg>
+          <lb facs="#z_f127v_l007" xml:id="medusa_f127v_l007"/>
+          <seg type="raw_unreviewed">eꝵ ũ l eis de̾ib ecc̃e sc̃ de uig̃o uł fratrib sũ ordinaⁱᵒⁱⁱꝰ sine qͥbuscũq aꝰ testari</seg>
+          <lb facs="#z_f127v_l008" xml:id="medusa_f127v_l008"/>
+          <seg type="raw_unreviewed">xii iiii ep̃i eꝵ boͣ ꝓpͥa cl̃icaꝵ deteḋaͬ ab ĩtestato si ñ hũit filios uł nepotes</seg>
+          <lb facs="#z_f127v_l009" xml:id="medusa_f127v_l009"/>
+          <seg type="raw_unreviewed">st̃ ecclesiarum in qͥbꝰ nũsoru̾int xiiii in qͥcũq: eorum in testamento xᶜ s̃p e testamento / ꝓ uno filiorum</seg>
+          <lb facs="#z_f127v_l010" xml:id="medusa_f127v_l010"/>
+          <seg type="raw_unreviewed">xiii. 1. ¶ Q testam̃toꝵ nõ executores st̃ sac̾ᵉꝰ ⁊ fues. rogãroꝵ hoĩbue. ibid̃ ¶ It exquⁱˢ</seg>
+          <lb facs="#z_f127v_l011" xml:id="medusa_f127v_l011"/>
+          <seg type="raw_unreviewed">ibid̃ eꝰ successor nõ sum̃s de sũcti testat exhe̾ditũd̃ ẽ .xii. si luestꝰ</seg>
+          <lb facs="#z_f127v_l012" xml:id="medusa_f127v_l012"/>
+          <seg type="raw_unreviewed">Testꝭ superior ẽ de. xii iii ĩt̃ uã ubi d᷑ de. ccre ĩ delo testꝭ meꝰ ⁊ xxii. q i</seg>
+          <lb facs="#z_f127v_l013" xml:id="medusa_f127v_l013"/>
+          <seg type="raw_unreviewed">¶ Item testꝭ c̃inter .s. ꝯscia p̃qui ĩ euã. ubi d᷑i gl̃ia nr̃e h̃ ẽ testioᵐ hstie nr̃e</seg>
+          <lb facs="#z_f127v_l014" xml:id="medusa_f127v_l014"/>
+          <seg type="raw_unreviewed">et c custodi / et ẽ testis ext̾ior s. proximus de qd i mile / et testimo ͫ ẽ. ũ po ͫ u̾ba</seg>
+          <lb facs="#z_f127v_l015" xml:id="medusa_f127v_l015"/>
+          <seg type="raw_unreviewed">le .sunt in reale .sunt facti euidum c xxiiii qui de hiis Capituli uso . 20 po erant</seg>
+          <lb facs="#z_f127v_l016" xml:id="medusa_f127v_l016"/>
+          <seg type="raw_unreviewed">testes xᵒ. ĩ tlm̃ r̾oĩanda p̃s qui estunt / Qr ĩtesta᷑ att̃da᷑ ẽ dñusfr̃a᷑ lo</seg>
+          <lb facs="#z_f127v_l017" xml:id="medusa_f127v_l017"/>
+          <seg type="raw_unreviewed">toꝵ ⁊ spm . xxxxi i ui de parẽd̃ / eN ad ꝓbauch ĩ genmitatꝭ iob testes nõ</seg>
+          <lb facs="#z_f127v_l018" xml:id="medusa_f127v_l018"/>
+          <seg type="raw_unreviewed">suffiunt nͨ ĩtͣuunt᷑ ⁊ argum̃ntꝭ adiuuẽt᷑. iiiii qui testes / eꝵ dect̃l ẽ neꝵ testioᵐ</seg>
+          <lb facs="#z_f127v_l019" xml:id="medusa_f127v_l019"/>
+          <seg type="raw_unreviewed">ꝙ ĩ pũicia testificũꝰ contigisse ꝑhibe᷑ in ii ix testes / Corr̃ ũ rogati. dum ͦ ͦ ĩt̾ fue</seg>
+          <lb facs="#z_f127v_l020" xml:id="medusa_f127v_l020"/>
+          <seg type="raw_unreviewed">sĩt testes eã prnt̃ iii qͥ iii testes eM testes suꝑ uno fro ĩ tpe ⁊ loco disce-</seg>
+          <lb facs="#z_f127v_l021" xml:id="medusa_f127v_l021"/>
+          <seg type="raw_unreviewed">pitutes r̾pellũt in iux testes / Quod illi testes gn̾uꝰ st̃ puĩendi qͣs tpm̃ dnm̃</seg>
+          <lb facs="#z_f127v_l022" xml:id="medusa_f127v_l022"/>
+          <seg type="raw_unreviewed">tus scilicet facto nunc interfuisse eundit ibidem Ego in cu testimonium debet esse deuisi notarius</seg>
+          <lb facs="#z_f127v_l023" xml:id="medusa_f127v_l023"/>
+          <seg type="raw_unreviewed">et auditis in quo testis  .  Ux in testibꝰ attenduntur ẽ sunt . d̃ig̃tus . sid̃i pu̾tus et</seg>
+          <lb facs="#z_f127v_l024" xml:id="medusa_f127v_l024"/>
+          <seg type="raw_unreviewed">moꝵ gnitus iii. in testos / Qr illi p̃cipue recipiẽdi st̃ ĩ testes de q̃bꝰ ultre</seg>
+          <lb facs="#z_f127v_l025" xml:id="medusa_f127v_l025"/>
+          <seg type="raw_unreviewed">presuntur quia uͥtriꝰ fr̃ magistri Nũc .xxx. q u c i 24. h suplici nõ modicꝭ edicꝭ</seg>
+          <lb facs="#z_f127v_l026" xml:id="medusa_f127v_l026"/>
+          <seg type="raw_unreviewed">sit . si tamen ab ipso appella᷑. ũ pt̃ eẽ testꝭ ĩcũ appello .ii. qui statimẽd . Ex advu</seg>
+          <lb facs="#z_f127v_l027" xml:id="medusa_f127v_l027"/>
+          <seg type="raw_unreviewed">testimoñ uero xp̃istarum u̾ forte fama publici q̃ ip̃m laboraret. iiiii qui testes / eꝵ</seg>
+          <lb facs="#z_f127v_l028" xml:id="medusa_f127v_l028"/>
+          <seg type="raw_unreviewed">testimoˢⁱ ⁊ uiii ñ ualis ⁊ nͥ st̃ ep̃c .uii. .ui. ꝑtotꝭ eꝵ ex hᵒ ep̃o tol. istĩ p̃bito͂ ĩ mᵃ</seg>
+          <lb facs="#z_f127v_l029" xml:id="medusa_f127v_l029"/>
+          <seg type="raw_unreviewed">nõ ĩfert᷑. tñi sⁱ soli ñ c᷑di᷑ ĩ testũ. uii ii c ult̃. Quod ꝓban᷑ duo testes suff.</seg>
+          <lb facs="#z_f127v_l030" xml:id="medusa_f127v_l030"/>
+          <seg type="raw_unreviewed">tũt ĩ al tres. nͥ ĩ aliq̃bꝰ causꝭ singlũt ꝑloͣs r̾quie̾tu᷑ . iiii. ii iii testes. 29 p̃suł ñ</seg>
+          <lb facs="#z_f127v_l031" xml:id="medusa_f127v_l031"/>
+          <seg type="raw_unreviewed">dampnatus nec in lxii toscibus probit autem cardinalis in xxiii infirmes aut graciosi clerici</seg>
+          <lb facs="#z_f127v_l032" xml:id="medusa_f127v_l032"/>
+          <seg type="raw_unreviewed">ĩ vii testibꝰ . iuncti. ũ dũt .i. d̃p̃r n .i. iui p̃sũl. It uel ẽ ꝯdoeꝰ testꝭ tcũ p̃a xv</seg>
+          <lb facs="#z_f127v_l033" xml:id="medusa_f127v_l033"/>
+          <seg type="raw_unreviewed">I. III sane ¶ It̃ qͣr qͣrq testiiꝰ pt̃ ꝑ se nõ nũune xiiii qͥ iii es ¶ It̃ ꝑꝑ ĩmunicias</seg>
+          <lb facs="#z_f127v_l034" xml:id="medusa_f127v_l034"/>
+          <seg type="raw_unreviewed">pt̃ 1e r̃ pelle tristes qͣ so qͦs adiuu̾t ꝓ se a ͦ ͦ nõ mi. qͥ iii testes / st̃ 1ͥ agͥt ũ pt̃</seg>
+          <lb facs="#z_f127v_l035" xml:id="medusa_f127v_l035"/>
+          <seg type="raw_unreviewed">ares pete testimonium ibi. Testes non videntur ydonei quibus pt̃ nuperum ibidem. Item testis</seg>
+          <lb facs="#z_f127v_l036" xml:id="medusa_f127v_l036"/>
+          <seg type="raw_unreviewed">vide᷑ supsc̃tus. s⁊ de domo mdicꝭ. iiii. iiii iiꝰ. eꝵ test d cegi ut fuit testiomũ</seg>
+          <lb facs="#z_f127v_l037" xml:id="medusa_f127v_l037"/>
+          <seg type="raw_unreviewed">ꝯ. 1. sage / ñl a fiẽ 111. 1. 111. testes. It uᶜ. parentes ⁊ lib̾i i uice adversũ se testan</seg>
+          <lb facs="#z_f127v_l038" xml:id="medusa_f127v_l038"/>
+          <seg type="raw_unreviewed">genlius di</seg>
+          <lb facs="#z_f127v_l039" xml:id="medusa_f127v_l039"/>
+          <seg type="raw_unreviewed">uis aue</seg>
+          <lb facs="#z_f127v_l040" xml:id="medusa_f127v_l040"/>
+          <seg type="raw_unreviewed">da possil</seg>
+          <lb facs="#z_f127v_l041" xml:id="medusa_f127v_l041"/>
+          <seg type="raw_unreviewed">op</seg>
+          <lb facs="#z_f127v_l042" xml:id="medusa_f127v_l042"/>
+          <seg type="raw_unreviewed">leucia</seg>
+          <lb facs="#z_f127v_l043" xml:id="medusa_f127v_l043"/>
+          <seg type="raw_unreviewed">Item cor</seg>
+          <lb facs="#z_f127v_l044" xml:id="medusa_f127v_l044"/>
+          <seg type="raw_unreviewed">mñ bet</seg>
+          <lb facs="#z_f127v_l045" xml:id="medusa_f127v_l045"/>
+          <seg type="raw_unreviewed">alo h. exo</seg>
+          <lb facs="#z_f127v_l046" xml:id="medusa_f127v_l046"/>
+          <seg type="raw_unreviewed">cor desir̃ t</seg>
+          <lb facs="#z_f127v_l047" xml:id="medusa_f127v_l047"/>
+          <seg type="raw_unreviewed">sendo</seg>
+          <lb facs="#z_f127v_l048" xml:id="medusa_f127v_l048"/>
+          <seg type="raw_unreviewed">c̃e xxii</seg>
+          <lb facs="#z_f127v_l049" xml:id="medusa_f127v_l049"/>
+          <seg type="raw_unreviewed">consuetudines clericales</seg>
+          <lb facs="#z_f127v_l050" xml:id="medusa_f127v_l050"/>
+          <seg type="raw_unreviewed">hensuit</seg>
+          <lb facs="#z_f127v_l051" xml:id="medusa_f127v_l051"/>
+          <seg type="raw_unreviewed">quinquaginta</seg>
+          <lb facs="#z_f127v_l052" xml:id="medusa_f127v_l052"/>
+          <seg type="raw_unreviewed">ditue . si privilegii</seg>
+          <lb facs="#z_f127v_l053" xml:id="medusa_f127v_l053"/>
+          <seg type="raw_unreviewed">Horntum qñ</seg>
+          <lb facs="#z_f127v_l054" xml:id="medusa_f127v_l054"/>
+          <seg type="raw_unreviewed">susptos torm̃t</seg>
+          <lb facs="#z_f127v_l055" xml:id="medusa_f127v_l055"/>
+          <seg type="raw_unreviewed">christum e subditos</seg>
+          <lb facs="#z_f127v_l056" xml:id="medusa_f127v_l056"/>
+          <seg type="raw_unreviewed">ꝑre s⁊ ꝑ aedꝭ</seg>
+          <lb facs="#z_f127v_l057" xml:id="medusa_f127v_l057"/>
+          <seg type="raw_unreviewed">translacio fit de</seg>
+          <lb facs="#z_f127v_l058" xml:id="medusa_f127v_l058"/>
+          <seg type="raw_unreviewed">sana romanorum</seg>
+          <lb facs="#z_f127v_l059" xml:id="medusa_f127v_l059"/>
+          <seg type="raw_unreviewed">de m̃iri eant</seg>
+          <lb facs="#z_f127v_l060" xml:id="medusa_f127v_l060"/>
+          <seg type="raw_unreviewed">reuge ẽ secũ</seg>
+          <lb facs="#z_f127v_l061" xml:id="medusa_f127v_l061"/>
+          <seg type="raw_unreviewed">pũt. aͥlud ¶ It̃ pr̃ ⁊ fil̃. uł duo frẽs. ĩ caͥd̃ cũ testẽs ẽẽ ñ pũt alii. Ex ĩ alio uo.</seg>
+          <lb facs="#z_f127v_l062" xml:id="medusa_f127v_l062"/>
+          <seg type="raw_unreviewed">52o plures testes pro duci pũt ex eadem domo 15 testis domus sic / aduerarii in causa ecclesiastice</seg>
+          <lb facs="#z_f127v_l063" xml:id="medusa_f127v_l063"/>
+          <seg type="raw_unreviewed">tributum licite d</seg>
+          <lb facs="#z_f127v_l064" xml:id="medusa_f127v_l064"/>
+          <seg type="raw_unreviewed">¶It ĩcã matͣriali ¶It ĩcã civili adu̾tit᷑. s. ñ c̃iũliũ. ibid̃ ¶ Cꝵ hẽticꝰ ꝓxͥtuo pt̃</seg>
+          <lb facs="#z_f127v_l065" xml:id="medusa_f127v_l065"/>
+          <seg type="raw_unreviewed">testificaiꝰ ꝙ he̾ticũ. sũ ꝙ xp̃iᵐ .xxiii. i. mu̾tui᷑ Ex ħbitis ad sacrdote̾ ꝯ sac̃to.</seg>
+          <lb facs="#z_f127v_l066" xml:id="medusa_f127v_l066"/>
+          <seg type="raw_unreviewed">te: nõ pt̃ testa ĩ tñ c̃uãli .i. qui ip̃i ¶ st̃ pbr̃ ñ a᷑t tñ se᷑ nõ pt̃ ñ s̃uic̃r. n</seg>
+          <lb facs="#z_f127v_l067" xml:id="medusa_f127v_l067"/>
+          <seg type="raw_unreviewed">testium 12 ex hoc sacerdotium ex hoc dehonesta 12 12 testium se pat̃ ĩ nccitate testium</seg>
+          <lb facs="#z_f127v_l068" xml:id="medusa_f127v_l068"/>
+          <seg type="raw_unreviewed">daͮ in iuͤtu batt</seg>
+          <lb facs="#z_f127v_l069" xml:id="medusa_f127v_l069"/>
+          <seg type="raw_unreviewed">secunda e sube</seg>
+          <lb facs="#z_f127v_l070" xml:id="medusa_f127v_l070"/>
+          <seg type="raw_unreviewed">tribulacio</seg>
+          <lb facs="#z_f127v_l071" xml:id="medusa_f127v_l071"/>
+          <seg type="raw_unreviewed">rpe suis</seg>
+          <lb facs="#z_f127v_l072" xml:id="medusa_f127v_l072"/>
+          <seg type="raw_unreviewed">ꝑ habũs. ũ d nũre fᵗ aᵐ suꝑ libꝵ. s tm̃ d uide libꝵ. lud̃ / It̃ pbr̃ p̃dicere</seg>
+          <lb facs="#z_f127v_l073" xml:id="medusa_f127v_l073"/>
+          <seg type="raw_unreviewed" subtype="changed_decoding_unreviewed">seco nũm̃ti dic̾e ꝑscuã ꝯsecͣcõ .i.i.v. si qvͥ Testes d̃ nũne pꝰ</seg>
+          <lb facs="#z_f127v_l074" xml:id="medusa_f127v_l074"/>
+          <seg type="raw_unreviewed">dᵈᵃ de veritate. tontꝭ f̃m ewⁱˢ iii iux h̃rtmanꝰ Ex inde d testibꝰ ꝓuile</seg>
+          <lb facs="#z_f127v_l075" xml:id="medusa_f127v_l075"/>
+          <seg type="raw_unreviewed">gnid p̃miꝰ eter</seg>
+          <lb facs="#z_f127v_l076" xml:id="medusa_f127v_l076"/>
+          <seg type="raw_unreviewed">de secumͭ ͥ loci in quo hactamꝰ eꝵ ep̃c ũl pb̃r ꝓ ecc̃e sue negoꝭ pt̃ seue testi</seg>
+          <lb facs="#z_f127v_l077" xml:id="medusa_f127v_l077"/>
+          <seg type="raw_unreviewed">meˢ xiiii ii ii suꝑ ¶ Qr clio / ñ d ẽẽ tistꝭ qͣ hancu ĩt̾uali cũ fr̃itum su. xi. q. i.</seg>
+          <lb facs="#z_f127v_l078" xml:id="medusa_f127v_l078"/>
+          <seg type="raw_unreviewed">testioꝰ 111 ĩ ꝯficiẽdꝭ ĩseñtꝭ 121uꝰ ⁊ pbr̃ ñ dⁱ fi̾e testioꝰ .n. demũᵗᵉ ep̃i xiiii</seg>
+          <lb facs="#z_f127v_l079" xml:id="medusa_f127v_l079"/>
+          <seg type="raw_unreviewed">q m sup ¶ Qr testi honestorꝭ maior fides ẽ adhibũda iiiiii testis / Q: nuli</seg>
+          <lb facs="#z_f127v_l080" xml:id="medusa_f127v_l080"/>
+          <seg type="raw_unreviewed">pt̃ cũ test̃ ꝓparũꝭ ⁊ ꝯsacᵃⁱˢ p̃ciẽ lese manestꝭ. ⁊ qͣ h̃est ⁊ synodũ. xv. iiii</seg>
+          <lb facs="#z_f127v_l081" xml:id="medusa_f127v_l081"/>
+          <seg type="raw_unreviewed">eꝵ testes s cõ g̃oi oꝑioĩs n .q. i. in p̃io eꝵ testes scilicet ñ adiuu̾t᷑. iᵃu. ĩ mĩci n.</seg>
+          <lb facs="#z_f127v_l082" xml:id="medusa_f127v_l082"/>
+          <seg type="raw_unreviewed">q 1 It̃ nͨ s̾ui ꝓ dño suo nͨ nũc aũis It̃ nͨ ĩ fideliꝰ nͨ ĩ fratre nͨ t̾mõsi</seg>
+          <lb facs="#z_f127v_l083" xml:id="medusa_f127v_l083"/>
+          <seg type="raw_unreviewed">de clausula vii.</seg>
+          <lb facs="#z_f127v_l084" xml:id="medusa_f127v_l084"/>
+          <seg type="raw_unreviewed">tor s̃ r̃ pape</seg>
+          <lb facs="#z_f127v_l085" xml:id="medusa_f127v_l085"/>
+          <seg type="raw_unreviewed">¶ Der 40</seg>
+          <lb facs="#z_f127v_l086" xml:id="medusa_f127v_l086"/>
+          <seg type="raw_unreviewed">assunt</seg>
+          <lb facs="#z_f127v_l087" xml:id="medusa_f127v_l087"/>
+          <seg type="raw_unreviewed">pillaꝵ ĩ duos</seg>
+          <lb facs="#z_f127v_l088" xml:id="medusa_f127v_l088"/>
+          <seg type="raw_unreviewed">clerici</seg>
+          <lb facs="#z_f127v_l089" xml:id="medusa_f127v_l089"/>
+          <seg type="raw_unreviewed">sine</seg>
+          <lb facs="#z_f127v_l090" xml:id="medusa_f127v_l090"/>
+          <seg type="raw_unreviewed">hùq u̾t de</seg>
+          <lb facs="#z_f127v_l091" xml:id="medusa_f127v_l091"/>
+          <seg type="raw_unreviewed">estio etc.</seg>
+          <lb facs="#z_f127v_l092" xml:id="medusa_f127v_l092"/>
+          <seg type="raw_unreviewed">lis</seg>
+          <lb facs="#z_f127v_l093" xml:id="medusa_f127v_l093"/>
+          <seg type="raw_unreviewed">tamen</seg>
+          <lb facs="#z_f127v_l094" xml:id="medusa_f127v_l094"/>
+          <seg type="raw_unreviewed">ut 2.51</seg>
+        </ab>
+      <note type="processing">Segments 73: separate same-crop recovery experiment selected after token-limit repetition. Greedy single-line generation, max_new_tokens=256, repetition_penalty=1.08. Original attempts retained in page checkpoint and medusa-before-recovery.json. EOS termination is not accuracy verification.</note></div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f127v_l001" xml:id="u_127v_001">[Meziřádkový doplněk: uno?]</p>
+        <note type="editorial" corresp="#u_127v_001" xml:lang="cs">Krátký doplněk u pokračující věty 2, nejistý.</note>
+        <p facs="#z_f127v_l002 #z_f127v_l003 #z_f127v_l004" xml:id="u_127v_002">[…] observatione. De po. di. VI. Item vetus testamentum […] opus, novum […] opus et collatio operum. XXV q. I […]. Item vetus bigamiam non approbat, sed novum liquidat. XXXII q. VII […]. Concordat novum cum veteri in moralium observantia, quia observat decalogum. Ibidem. [přeškrtnutý odkaz: Item habes de …].</p>
+        <note type="editorial" corresp="#u_127v_002" xml:lang="cs">Začátek pokračuje z127r; dvojice opus/novum nejistá, nepřevedena na obecnou nauku obou zákonů.</note>
+        <p facs="#z_f127v_l005 #z_f127v_l006 #z_f127v_l007 #z_f127v_l008" xml:id="u_127v_003">Ultima voluntas testatoris est observanda. XII q. I […]. Heremite qui proprium quicquam habent testari […]. XII q. III […]. Clerico licet de rebus suis vel acquisitis testari. XII q. I […]. Non licet eis de rebus communibus, denariis vel frugibus […] sine […] testari. XII q. II […]. Bona propria clericorum detestantur […] si non habent filios vel nepotes […].</p>
+        <note type="editorial" corresp="#u_127v_003" xml:lang="cs">Podmínky ustanovení jsou neúplné. Slovo detestantur je nejisté.</note>
+        <p facs="#z_f127v_l009 #z_f127v_l010 #z_f127v_l011" xml:id="u_127v_004">[…] ecclesiarum […] XII q. II […]. Testamenti […] testandum pro uno filiorum. […] Testes sunt peccatores et sacerdotes […] religionis […] huiusmodi. […] Successor non […] defuncti testatur exhereditatur. XII q. II Silvester.</p>
+        <note type="editorial" corresp="#u_127v_004" xml:lang="cs">9–11 jsou výrazně fragmentární; nepředstírám souvislý překlad této právní argumentace.</note>
+        <p facs="#z_f127v_l012 #z_f127v_l013 #z_f127v_l014" xml:id="u_127v_005">Testis superior est Deus. […] De Deo dicitur: Ecce in celo testis meus. XXII q. II […]. Item testis interior, scilicet conscientia. […] Gloria mea hec est, testimonium conscientie nostre […]. Item testis exterior, scilicet proximus […]. Item testimonium est non solum verbale sed etiam reale, scilicet factum evidens.</p>
+        <note type="editorial" corresp="#u_127v_005" xml:lang="cs">Četba gloriamezájmeno pracovní; biblické formulace zde jen podle viditelného znění, bez nahrazení kanonickým textem.</note>
+        <p facs="#z_f127v_l015 #z_f127v_l016 #z_f127v_l017 #z_f127v_l018" xml:id="u_127v_006">XXVI q. II […]. […] testes […] XI q. I […]. In testibus […] est denotatio locorum et temporum. XXXV q. VI […]. Ad probandum ingenuitatem soli testes non sufficiunt nisi instrumenta et argumenta adiuventur. IIII q. III Testes.</p>
+        <note type="editorial" corresp="#u_127v_006" xml:lang="cs">Čísla a začátky fragmentární; ingenuitatem jasnější než CATMuS ingenitatem.</note>
+        <p facs="#z_f127v_l019 #z_f127v_l020 #z_f127v_l021 #z_f127v_l022" xml:id="u_127v_007">[…] testimonium in presencia testificantium […] III q. IX Testes. Etiam non rogati […] testes esse possunt. III q. IX […]. Testes super uno facto et loco […] repelli […]. Illi testes qui sunt […] sunt ponendi […]. […] Qui se non interfuisse […] Ibidem. In criminali testimonio debet […] visus et auditus. III q. IX Testes.</p>
+        <note type="editorial" corresp="#u_127v_007" xml:lang="cs">Přesné podmínky a spojení u těchto položek nečitelné, nikoli obecné procesní poučení.</note>
+        <p facs="#z_f127v_l023 #z_f127v_l024 #z_f127v_l025 #z_f127v_l026" xml:id="u_127v_008">In testibus attendenda est scientia, dignitas, fides, peritia et morum gravitas. III q. IX […]. Alii […] recipiendi sunt in testes de quibus […] presumitur quia veritatis […] habent. XXXV q. VI […]. Simplex non […] iudici contradicit; si tamen ab ipso appellat non potest deinde testis eiusdem appellationis […] III q. VII […].</p>
+        <note type="editorial" corresp="#u_127v_008" xml:lang="cs">Poslední podmínka a negace před iudici nejisté.</note>
+        <p facs="#z_f127v_l027 #z_f127v_l028 #z_f127v_l029 #z_f127v_l030" xml:id="u_127v_009">[…] testium […] temperandum ne forte sic […] veritas laboret. III q. IX Testes. Testimonium unius non valet etiam si sit episcopus. VII q. I […]. Exemplo vel […] non infertur, cum sibi soli non creditur in testimonio. VI q. I […]. Ad probandum duo testes sufficiunt, vel tres; in aliquibus causis singularibus plures inquiruntur. III q. IX […].</p>
+        <note type="editorial" corresp="#u_127v_009" xml:lang="cs">Četba pravidla počtu svědků čitelná, některé předchozí položky fragmentární.</note>
+        <p facs="#z_f127v_l031 #z_f127v_l032 #z_f127v_l033" xml:id="u_127v_010">Presul non dampnatur nisi in LXXII testibus probatus; cardinalis in XXVII, […] in VII testibus convicti non debent deponi. II q. IIII […]. Non est idoneus testis […] cum persona […]. Item in se quisque testificari potest, pro se non minime. IIII q. I […].</p>
+        <note type="editorial" corresp="#u_127v_010" xml:lang="cs">Číselný výčet a negace nejsou zcela rozluštěny; možný další stav/služba mezi cardinalis a VII.</note>
+        <p facs="#z_f127v_l034 #z_f127v_l035 #z_f127v_l036 #z_f127v_l037" xml:id="u_127v_011">Per inimicitias […] repellere testes quos ipse adiunxit pro se […]. Testis non potest […] petere […]. Testes non videntur idonei quibus potest imperari […]. Testis videtur suspectus si ipse […] iudici. III q. VII […]. […] debet cogi ut ferat testimonium […] non officio. III q. III Testes. Item parentes et liberi invicem adversum se testari [possunt…].</p>
+        <note type="editorial" corresp="#u_127v_011" xml:lang="cs">Poslední sloveso pokračuje segmentem61. Ostatní podmínky neúplné.</note>
+        <p facs="#z_f127v_l038 #z_f127v_l039 #z_f127v_l040 #z_f127v_l041 #z_f127v_l042 #z_f127v_l043 #z_f127v_l044 #z_f127v_l045 #z_f127v_l046 #z_f127v_l047 #z_f127v_l048 #z_f127v_l049 #z_f127v_l050 #z_f127v_l051 #z_f127v_l052 #z_f127v_l053 #z_f127v_l054 #z_f127v_l055 #z_f127v_l056 #z_f127v_l057 #z_f127v_l058 #z_f127v_l059 #z_f127v_l060" xml:id="u_127v_012">[Úzké fragmenty protější strany.]</p>
+        <note type="editorial" corresp="#u_127v_012" xml:lang="cs">Identifikace geometrií a celostránkovým náhledem; ne úplná četba těchto cizích fragmentů.</note>
+        <p facs="#z_f127v_l061 #z_f127v_l062" xml:id="u_127v_013">[…] possunt. Ibidem. Item […] vel duo servi in eadem causa testes esse non possunt. Ibidem. Ex aliqua […] plures testes produci possunt et ad […] Item testes domestici admittuntur in causa […].</p>
+        <note type="editorial" corresp="#u_127v_013" xml:lang="cs">Pokračování37; segment61 obsahuje napravo připojený cizí pruh, nečtu jej jako hlavní.</note>
+        <p facs="#z_f127v_l063" xml:id="u_127v_014">[Fragment protější strany.]</p>
+        <p facs="#z_f127v_l064 #z_f127v_l065 #z_f127v_l066 #z_f127v_l067" xml:id="u_127v_015">Item in causa criminali […] in civili admittuntur […]. Hereticus […] potest […] testificari contra hereticum secundum […] XXIIII q. I […]. […] adversus sacerdotem […] testimonium non potest […]. Item probatio […] non […] testes […]. Testis probus in auctoritate testimonium […].</p>
+        <note type="editorial" corresp="#u_127v_015" xml:lang="cs">Pasáž výrazně fragmentární, právní pravidla a výjimky nerozluštěny. Segment64 připojuje cizí pravý okraj.</note>
+        <p facs="#z_f127v_l068 #z_f127v_l069 #z_f127v_l070 #z_f127v_l071" xml:id="u_127v_016">[Fragmenty protější strany.]</p>
+        <p facs="#z_f127v_l072 #z_f127v_l073 #z_f127v_l074" xml:id="u_127v_017">[…] perhibere […] non de […] sed tantum de visu […]. Item potest dicere singulariter vel communiter dicere propter […] IIII q. III […]. Alii testes de […] ut ratio […] veritate tantum […] III q. IX […]. Qui indebitis testibus providet […].</p>
+        <note type="editorial" corresp="#u_127v_017" xml:lang="cs">Mezerovitá četba. Segmenty72–73 připojují cizí okraj; jeho text není součást rekonstrukce.</note>
+        <p facs="#z_f127v_l075" xml:id="u_127v_018">[Fragment protější strany.]</p>
+        <p facs="#z_f127v_l076 #z_f127v_l077 #z_f127v_l078 #z_f127v_l079" xml:id="u_127v_019">[…] de securitate […] III q. IX […]. Qui capit vel probat […] recipit […] testis […]. Non debet esse testis qui iudicem inimicum […] XI q. I […]. Testis […] inficiendus […] non debet fieri testis. XI q. III […]. […] Testi inhonesto nulla fides est adhibenda. III q. IX Testes.</p>
+        <note type="editorial" corresp="#u_127v_019" xml:lang="cs">Negace a omezení prvních položek nejistá; poslední maxime čitelnější.</note>
+        <p facs="#z_f127v_l080 #z_f127v_l081 #z_f127v_l082" xml:id="u_127v_020">[…] potest omne testimonium […] in crimine lese maiestatis et contra hereticos et symoniacos. XX q. […]. Testes debent esse […] non opinione […]. A testimonio non admittuntur […] muti […]. Item servi pro dominis suis vel […] Istici in […] vel infirmi vel criminosi.</p>
+        <note type="editorial" corresp="#u_127v_020" xml:lang="cs">Katalog nezpůsobilých osob končí na další straně, více slov a podmínek nečtu.</note>
+        <p facs="#z_f127v_l083 #z_f127v_l084 #z_f127v_l085 #z_f127v_l086 #z_f127v_l087 #z_f127v_l088 #z_f127v_l089 #z_f127v_l090 #z_f127v_l091 #z_f127v_l092 #z_f127v_l093 #z_f127v_l094" xml:id="u_127v_021">[Úzké fragmenty protější strany a okrajové značky.]</p>
+        <note type="editorial" corresp="#u_127v_021" xml:lang="cs">Určeno z celostránkového obrazu a geometrie, bez tvrzení úplné znakové četby.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_127v_001">[Meziřádkový doplněk: jeden?]</p>
+        <p corresp="#u_127v_002">[…] zachováváním. O pokání, distinkce 6. Také Starý zákon […] čin, nový […] čin a spojení činů. XXV, otázka 1 […]. Také starý neschvaluje dvojmanželství, ale nový je odstraňuje. XXXII, otázka 7 […]. Nový se shoduje se starým v zachovávání mravních ustanovení, protože zachovává desatero. Tamtéž. [Přeškrtnutý odkaz: Totéž máš o ….]</p>
+        <p corresp="#u_127v_003">Poslední vůle zůstavitele má být zachována. XII, otázka 1 […]. Poustevníci, kteří mají něco vlastního, […] činit závěť […]. XII, otázka 3 […]. Klerik smí pořídit závěť o svých věcech nebo o získaném majetku. XII, otázka 1 […]. Nesmějí činit závěť o společných věcech, penězích nebo obilí […] bez […]. XII, otázka 2 […]. Vlastní majetek kleriků […] nemají-li syny nebo vnuky […].</p>
+        <p corresp="#u_127v_004">[…] kostelů […] XII, otázka 2 […]. Závěti […] pořídit jako pro jednoho ze synů. […] Svědky jsou hříšníci a kněží […] řehole […] takových. […] Nástupce, který […] zesnulého […] je vyděděn. XII, otázka 2, Silvester.</p>
+        <p corresp="#u_127v_005">Nejvyšším svědkem je Bůh. […] O Bohu se praví: Hle, v nebi je můj svědek. XXII, otázka 2 […]. Také vnitřní svědek, totiž svědomí. […] Toto je má chlouba, svědectví našeho svědomí […]. Také vnější svědek, totiž bližní […]. Také svědectví není jen slovní, ale i věcné, totiž zjevný čin.</p>
+        <p corresp="#u_127v_006">XXVI, otázka 2 […]. […] svědci […] XI, otázka 1 […]. U svědků […] se označuje místo a čas. XXXV, otázka 6 […]. K prokázání svobodného původu nestačí samotní svědci, nejsou-li podpořeni listinami a důvody. IV, otázka 3, Testes.</p>
+        <p corresp="#u_127v_007">[…] svědectví v přítomnosti svědčících […] III, otázka 9, Testes. Také nevyžádaní […] mohou být svědky. III, otázka 9 […]. Svědci o jednom skutku a místě […] se odmítají […]. Ti svědci, kteří jsou […] mají být ustanoveni […]. […] Kdo nebyl přítomen […] Tamtéž. V trestním svědectví musí […] zrak i sluch. III, otázka 9, Testes.</p>
+        <p corresp="#u_127v_008">U svědků je třeba přihlížet k vědění, důstojnosti, věrohodnosti, zkušenosti a mravní vážnosti. III, otázka 9 […]. Jiní […] mají být přijímáni za svědky, o nichž […] se předpokládá, že mají […] pravdy. XXXV, otázka 6 […]. Prostý […] neodporuje soudci; jestliže se však od něj odvolá, nemůže potom být svědkem téhož odvolání […] III, otázka 7 […].</p>
+        <p corresp="#u_127v_009">[…] svědků […] je třeba mírnit, aby snad tak […] neutrpěla pravda. III, otázka 9, Testes. Svědectví jediného neplatí, i kdyby byl biskupem. VII, otázka 1 […]. Příkladem nebo […] se nevyvozuje, protože se jemu samotnému při svědectví nevěří. VI, otázka 1 […]. K dokazování stačí dva svědci nebo tři; v některých zvláštních případech se vyžaduje více. III, otázka 9 […].</p>
+        <p corresp="#u_127v_010">Biskup není odsouzen, leda prokázáním pomocí 72 svědků; kardinál pomocí 27, […] usvědčení sedmi svědky nemají být sesazeni. II, otázka 4 […]. Není způsobilým svědkem […] s osobou […]. Také každý může svědčit proti sobě, pro sebe však nikoli. IV, otázka 1 […].</p>
+        <p corresp="#u_127v_011">Pro nepřátelství […] odmítat svědky, které sám připojil na svou podporu […]. Svědek nemůže […] žádat […]. Svědci nejsou pokládáni za způsobilé, lze-li jim přikazovat […]. Svědek je pokládán za podezřelého, jestliže on sám […] soudci. III, otázka 7 […]. […] má být nucen vydat svědectví […] nikoli z úřadu. III, otázka 3, Testes. Také rodiče a děti mohou navzájem svědčit proti sobě […].</p>
+        <p corresp="#u_127v_012">[Fragmenty protější strany; bez překladu.]</p>
+        <p corresp="#u_127v_013">[…] mohou. Tamtéž. Také […] nebo dva otroci v téže věci nemohou být svědky. Tamtéž. Z nějaké […] lze předvést více svědků a k […] Také domácí svědci jsou připouštěni v případu […].</p>
+        <p corresp="#u_127v_014">[Bez překladu.]</p>
+        <p corresp="#u_127v_015">Také v trestní věci […] v občanské jsou přijímáni […]. Kacíř […] může […] svědčit proti kacíři podle […] XXIV, otázka 1 […]. […] proti knězi […] nemůže svědectví […]. Také důkaz […] nikoli […] svědkové […]. Řádný svědek v autoritě svědectví […].</p>
+        <p corresp="#u_127v_016">[Bez překladu.]</p>
+        <p corresp="#u_127v_017">[…] vydat […] nikoli o […] ale pouze o viděném […]. Také může mluvit jednotlivě nebo společně kvůli […] IV, otázka 3 […]. Jiní svědci o […] aby důvod […] pouze pravdou […] III, otázka 9 […]. Kdo zajišťuje nevhodné svědky […].</p>
+        <p corresp="#u_127v_018">[Bez překladu.]</p>
+        <p corresp="#u_127v_019">[…] o bezpečnosti […] III, otázka 9 […]. Kdo zachytí nebo prokáže […] přijímá […] svědek […]. Nemá být svědkem ten, kdo má soudce nepřítelem […] XI, otázka 1 […]. Svědek […] popíraný […] se nemá stát svědkem. XI, otázka 3 […]. […] Nečestnému svědkovi se nemá vůbec věřit. III, otázka 9, Testes.</p>
+        <p corresp="#u_127v_020">[…] může každé svědectví […] při zločinu urážky majestátu a proti kacířům a simoniakům. XX, otázka […]. Svědci mají být […] nikoli podle mínění […]. Ke svědectví nejsou připouštěni […] němí […]. Také otroci za své pány nebo […] v […] nebo nemocní či zločinci.</p>
+        <p corresp="#u_127v_021">[Bez překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 3v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_3v_coordinate; PNG SHA256 d6b8715c52beba3e7b6a3d3f188927cd5b1a2e4d21138ae8f4a1fed1fe546c67; archival TIFF SHA256 90663388b477b0eaf4e7cc03c7b6387b8cf967099628549ef7ff600e554d9a4d; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_3v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#3v"/>
+      <zone ulx="202" uly="2215" lrx="544" lry="2370" xml:id="z_f3v_l001"/>
+      <zone ulx="217" uly="3671" lrx="516" lry="3848" xml:id="z_f3v_l002"/>
+      <zone ulx="566" uly="3484" lrx="585" lry="3624" xml:id="z_f3v_l003"/>
+      <zone ulx="977" uly="535" lrx="3367" lry="709" xml:id="z_f3v_l004"/>
+      <zone ulx="977" uly="672" lrx="3417" lry="833" xml:id="z_f3v_l005"/>
+      <zone ulx="974" uly="790" lrx="3420" lry="942" xml:id="z_f3v_l006"/>
+      <zone ulx="706" uly="899" lrx="3336" lry="1060" xml:id="z_f3v_l007"/>
+      <zone ulx="715" uly="1020" lrx="3308" lry="1172" xml:id="z_f3v_l008"/>
+      <zone ulx="706" uly="1132" lrx="3405" lry="1316" xml:id="z_f3v_l009"/>
+      <zone ulx="697" uly="1250" lrx="3311" lry="1456" xml:id="z_f3v_l010"/>
+      <zone ulx="690" uly="1384" lrx="3302" lry="1583" xml:id="z_f3v_l011"/>
+      <zone ulx="678" uly="1502" lrx="3321" lry="1714" xml:id="z_f3v_l012"/>
+      <zone ulx="687" uly="1639" lrx="3426" lry="1844" xml:id="z_f3v_l013"/>
+      <zone ulx="684" uly="1779" lrx="3364" lry="1975" xml:id="z_f3v_l014"/>
+      <zone ulx="681" uly="1922" lrx="3367" lry="2112" xml:id="z_f3v_l015"/>
+      <zone ulx="697" uly="2065" lrx="2493" lry="2218" xml:id="z_f3v_l016"/>
+      <zone ulx="905" uly="2180" lrx="3401" lry="2348" xml:id="z_f3v_l017"/>
+      <zone ulx="943" uly="2324" lrx="3417" lry="2482" xml:id="z_f3v_l018"/>
+      <zone ulx="756" uly="2432" lrx="3395" lry="2597" xml:id="z_f3v_l019"/>
+      <zone ulx="709" uly="2560" lrx="3386" lry="2722" xml:id="z_f3v_l020"/>
+      <zone ulx="641" uly="2669" lrx="3330" lry="2862" xml:id="z_f3v_l021"/>
+      <zone ulx="684" uly="2809" lrx="3458" lry="2980" xml:id="z_f3v_l022"/>
+      <zone ulx="675" uly="2936" lrx="3327" lry="3104" xml:id="z_f3v_l023"/>
+      <zone ulx="687" uly="3073" lrx="3386" lry="3244" xml:id="z_f3v_l024"/>
+      <zone ulx="672" uly="3201" lrx="3389" lry="3372" xml:id="z_f3v_l025"/>
+      <zone ulx="725" uly="3328" lrx="3289" lry="3493" xml:id="z_f3v_l026"/>
+      <zone ulx="728" uly="3447" lrx="3327" lry="3630" xml:id="z_f3v_l027"/>
+      <zone ulx="690" uly="3577" lrx="3389" lry="3764" xml:id="z_f3v_l028"/>
+      <zone ulx="1011" uly="3727" lrx="3370" lry="3882" xml:id="z_f3v_l029"/>
+      <zone ulx="986" uly="3854" lrx="3395" lry="4016" xml:id="z_f3v_l030"/>
+      <zone ulx="961" uly="3972" lrx="3355" lry="4150" xml:id="z_f3v_l031"/>
+      <zone ulx="700" uly="4112" lrx="3380" lry="4293" xml:id="z_f3v_l032"/>
+      <zone ulx="678" uly="4243" lrx="3302" lry="4439" xml:id="z_f3v_l033"/>
+      <zone ulx="672" uly="4389" lrx="3280" lry="4610" xml:id="z_f3v_l034"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f3v_l001" xml:id="catmus_f3v_l001"/>
+          <seg type="raw_unreviewed">eybatõii</seg>
+          <lb facs="#z_f3v_l002" xml:id="catmus_f3v_l002"/>
+          <seg type="raw_unreviewed">expoio</seg>
+          <lb facs="#z_f3v_l003" xml:id="catmus_f3v_l003"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f3v_l004" xml:id="catmus_f3v_l004"/>
+          <seg type="raw_unreviewed">Embracõ est quedã alligacõ humi dequo quislo</seg>
+          <lb facs="#z_f3v_l005" xml:id="catmus_f3v_l005"/>
+          <seg type="raw_unreviewed">quit᷑ Pots añt mẽbrari in qualibspẽ smonis</seg>
+          <lb facs="#z_f3v_l006" xml:id="catmus_f3v_l006"/>
+          <seg type="raw_unreviewed">i pone mẽbra Etnõ ꝙ sicut corpus sine mẽbrf</seg>
+          <lb facs="#z_f3v_l007" xml:id="catmus_f3v_l007"/>
+          <seg type="raw_unreviewed">in forme est sic ẜmo sine mẽbris Tamẽ semp non</seg>
+          <lb facs="#z_f3v_l008" xml:id="catmus_f3v_l008"/>
+          <seg type="raw_unreviewed">est necessent ponas mebra s s ͫ ꝙ nis ec cpũs</seg>
+          <lb facs="#z_f3v_l009" xml:id="catmus_f3v_l009"/>
+          <seg type="raw_unreviewed">exigit Et nõ ꝙ sidue suut nõbli ͭ ͤ adquãlib pone</seg>
+          <lb facs="#z_f3v_l010" xml:id="catmus_f3v_l010"/>
+          <seg type="raw_unreviewed">mi ͦͬ mẽbra Di aũt uocs ad quãlib duo mẽbra Bi</seg>
+          <lb facs="#z_f3v_l011" xml:id="catmus_f3v_l011"/>
+          <seg type="raw_unreviewed">ant ini ͦ ͬ adqͣrlib pone unuanẽbrũ Etsi plu̾es</seg>
+          <lb facs="#z_f3v_l012" xml:id="catmus_f3v_l012"/>
+          <seg type="raw_unreviewed">nõblitates eodẽ mõ facste sieciã ꝓcedas cũ mẽ</seg>
+          <lb facs="#z_f3v_l013" xml:id="catmus_f3v_l013"/>
+          <seg type="raw_unreviewed">bris marticulacõne rĩ ampliacõne Et nõ ꝙ millũ</seg>
+          <lb facs="#z_f3v_l014" xml:id="catmus_f3v_l014"/>
+          <seg type="raw_unreviewed">mẽbrũ deb idem esse cũ nõbili ͭ ͤ n ͨ cũ articulacõ</seg>
+          <lb facs="#z_f3v_l015" xml:id="catmus_f3v_l015"/>
+          <seg type="raw_unreviewed">ne nec cũ ampliacone n ͨ unũ abalt̾o fignatũ dd̾</seg>
+          <lb facs="#z_f3v_l016" xml:id="catmus_f3v_l016"/>
+          <seg type="raw_unreviewed">que mẽbrũ illud ponis dequis</seg>
+          <lb facs="#z_f3v_l017" xml:id="catmus_f3v_l017"/>
+          <seg type="raw_unreviewed">Robacõ est eu dans alicuiꝰ paliudĩta demõ</seg>
+          <lb facs="#z_f3v_l018" xml:id="catmus_f3v_l018"/>
+          <seg type="raw_unreviewed">seraco Quidcyaũt ꝓbas hͨ fãc cxnono ⁊ uebi</seg>
+          <lb facs="#z_f3v_l019" xml:id="catmus_f3v_l019"/>
+          <seg type="raw_unreviewed">cestamẽto ⁊ ꝓba urenit̾ Item notaquidq̃ ꝓba᷑</seg>
+          <lb facs="#z_f3v_l020" xml:id="catmus_f3v_l020"/>
+          <seg type="raw_unreviewed">h ͨ fit duplicit᷑ dnobi modis neł pauctoĩtate uł racõ</seg>
+          <lb facs="#z_f3v_l021" xml:id="catmus_f3v_l021"/>
+          <seg type="raw_unreviewed">nem Item nõ q infra ẜmonẽ tuũ cansa edificatõ</seg>
+          <lb facs="#z_f3v_l022" xml:id="catmus_f3v_l022"/>
+          <seg type="raw_unreviewed">nis pot̾is in oroduce auctori ͭ ͤ ͤ comẽtoꝵ argr̃oꝵ poe</seg>
+          <lb facs="#z_f3v_l023" xml:id="catmus_f3v_l023"/>
+          <seg type="raw_unreviewed">taꝵ paganorũ ⁊ heticoꝵ D penitꝰ n chil debes</seg>
+          <lb facs="#z_f3v_l024" xml:id="catmus_f3v_l024"/>
+          <seg type="raw_unreviewed">ꝓbde ꝑipas quia magna ĩ gratitud̾o esset Qrua̾e.</seg>
+          <lb facs="#z_f3v_l025" xml:id="catmus_f3v_l025"/>
+          <seg type="raw_unreviewed">Arnia nonũ r uetus cestamẽtũ est h maremagnũ ⁊</seg>
+          <lb facs="#z_f3v_l026" xml:id="catmus_f3v_l026"/>
+          <seg type="raw_unreviewed">pacõsum manibi illic reptilia quors nõ est nus</seg>
+          <lb facs="#z_f3v_l027" xml:id="catmus_f3v_l027"/>
+          <seg type="raw_unreviewed">cẽ nõ quidq audiẽtibignotũ esth ͭ debes ꝓbare</seg>
+          <lb facs="#z_f3v_l028" xml:id="catmus_f3v_l028"/>
+          <seg type="raw_unreviewed">et ꝙ notũ est nõ debes ꝓbare iͥ si uelis ⁊ sic dealiis</seg>
+          <lb facs="#z_f3v_l029" xml:id="catmus_f3v_l029"/>
+          <seg type="raw_unreviewed">x posico est manifescaminquoti pniagꝭ noti</seg>
+          <lb facs="#z_f3v_l030" xml:id="catmus_f3v_l030"/>
+          <seg type="raw_unreviewed">in duccõ Inonũ aũt smone tuo expone p̾mo</seg>
+          <lb facs="#z_f3v_l031" xml:id="catmus_f3v_l031"/>
+          <seg type="raw_unreviewed">lrãm chematꝭ ita dico Si fu̾it difficultas Itẽ</seg>
+          <lb facs="#z_f3v_l032" xml:id="catmus_f3v_l032"/>
+          <seg type="raw_unreviewed">subanathe pcipio nt hyscoria nõ exponas alit̾</seg>
+          <lb facs="#z_f3v_l033" xml:id="catmus_f3v_l033"/>
+          <seg type="raw_unreviewed">quã scti pr̃es exposuu̾it p̾cͥipue autꝭ EAB. I k</seg>
+          <lb facs="#z_f3v_l034" xml:id="catmus_f3v_l034"/>
+          <seg type="raw_unreviewed">Anguscinꝰ Ice cũ aliq exꝑonisbño repetas illud</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f3v_l001" xml:id="medusa_f3v_l001"/>
+          <seg type="raw_unreviewed">epbaco</seg>
+          <lb facs="#z_f3v_l002" xml:id="medusa_f3v_l002"/>
+          <seg type="raw_unreviewed">exponcio</seg>
+          <lb facs="#z_f3v_l003" xml:id="medusa_f3v_l003"/>
+          <seg type="raw_unreviewed">c</seg>
+          <lb facs="#z_f3v_l004" xml:id="medusa_f3v_l004"/>
+          <seg type="raw_unreviewed">Embracio est quedam alligacio huius de quo quis lo</seg>
+          <lb facs="#z_f3v_l005" xml:id="medusa_f3v_l005"/>
+          <seg type="raw_unreviewed">quint Potus aut membrari in qualib: spe s̃monis</seg>
+          <lb facs="#z_f3v_l006" xml:id="medusa_f3v_l006"/>
+          <seg type="raw_unreviewed">i. ponẽ mẽbra Et nõ ꝙ sicut corpus sine mẽbꝵ</seg>
+          <lb facs="#z_f3v_l007" xml:id="medusa_f3v_l007"/>
+          <seg type="raw_unreviewed">in forme est sic sine membris. Tamen semper non</seg>
+          <lb facs="#z_f3v_l008" xml:id="medusa_f3v_l008"/>
+          <seg type="raw_unreviewed">est necessent ponas mẽbra s sⁱꝰ ꝙ nis et tpũs</seg>
+          <lb facs="#z_f3v_l009" xml:id="medusa_f3v_l009"/>
+          <seg type="raw_unreviewed">exigit Et nõ ꝙ si due fuerint nobilitates ad quãlib: pone</seg>
+          <lb facs="#z_f3v_l010" xml:id="medusa_f3v_l010"/>
+          <seg type="raw_unreviewed">iiiior mẽbra Si aut tres ad quãlib: duo mẽbra Si</seg>
+          <lb facs="#z_f3v_l011" xml:id="medusa_f3v_l011"/>
+          <seg type="raw_unreviewed">aut iiiior ad qͣilibus pone om̃i menbrũ Et si plures</seg>
+          <lb facs="#z_f3v_l012" xml:id="medusa_f3v_l012"/>
+          <seg type="raw_unreviewed">nobilitates eodẽ mõ facte si eciam ꝓcedas cũ me</seg>
+          <lb facs="#z_f3v_l013" xml:id="medusa_f3v_l013"/>
+          <seg type="raw_unreviewed">bris in articulatõne ⁊ ĩ ampliactõne Et nõ ꝙ nullũ</seg>
+          <lb facs="#z_f3v_l014" xml:id="medusa_f3v_l014"/>
+          <seg type="raw_unreviewed">mẽbrũ deb⁊ idem esse cũ nobilitate nͨ cũ articulacõ</seg>
+          <lb facs="#z_f3v_l015" xml:id="medusa_f3v_l015"/>
+          <seg type="raw_unreviewed">ne nec cũ ampliacione nͨ unũ ab altero signatum ad</seg>
+          <lb facs="#z_f3v_l016" xml:id="medusa_f3v_l016"/>
+          <seg type="raw_unreviewed">que mebrũ illud ponis seꝗnis</seg>
+          <lb facs="#z_f3v_l017" xml:id="medusa_f3v_l017"/>
+          <seg type="raw_unreviewed">Robacõ est en dens alicuiꝰ palindicta demõ</seg>
+          <lb facs="#z_f3v_l018" xml:id="medusa_f3v_l018"/>
+          <seg type="raw_unreviewed">straco Quidquid autem ꝓbas h ͨ fac ex uno et ueti</seg>
+          <lb facs="#z_f3v_l019" xml:id="medusa_f3v_l019"/>
+          <seg type="raw_unreviewed">testamento ⁊ ꝓba brevit̃ Item nota quidꝙ̃ ꝓbat</seg>
+          <lb facs="#z_f3v_l020" xml:id="medusa_f3v_l020"/>
+          <seg type="raw_unreviewed">hᶜ fit d̾upliciter d̾ noͣb: modis nel paucoritatem uł racõ</seg>
+          <lb facs="#z_f3v_l021" xml:id="medusa_f3v_l021"/>
+          <seg type="raw_unreviewed">nem Item nõ ꝙ infra ẜmonẽ t̃uũ causa edificacõ</seg>
+          <lb facs="#z_f3v_l022" xml:id="medusa_f3v_l022"/>
+          <seg type="raw_unreviewed">nis pociꝰ introducere auctoriᵗᵉˢs comẽtoꝵ aꝑgr̃oꝵ poe</seg>
+          <lb facs="#z_f3v_l023" xml:id="medusa_f3v_l023"/>
+          <seg type="raw_unreviewed">tarum paganorum et hereticorum Sd penitus nichil debes</seg>
+          <lb facs="#z_f3v_l024" xml:id="medusa_f3v_l024"/>
+          <seg type="raw_unreviewed">ꝑbae̾ p̃cipãs quia magna ĩ gratitudo esset ornae̾</seg>
+          <lb facs="#z_f3v_l025" xml:id="medusa_f3v_l025"/>
+          <seg type="raw_unreviewed">Quia nom̃ et vetus testamentũ est hᶜ mare magũ ⁊</seg>
+          <lb facs="#z_f3v_l026" xml:id="medusa_f3v_l026"/>
+          <seg type="raw_unreviewed">spaciosum manib: illic reptilia quorum nõ est m᷑s</seg>
+          <lb facs="#z_f3v_l027" xml:id="medusa_f3v_l027"/>
+          <seg type="raw_unreviewed">ce nõ quidꝙ̃ audientibꝰ ignotũ est hᶜ debes ꝓbare</seg>
+          <lb facs="#z_f3v_l028" xml:id="medusa_f3v_l028"/>
+          <seg type="raw_unreviewed">et ꝙ notũ est nõ debes ꝓbare nisi uelis ⁊ sic de aliis</seg>
+          <lb facs="#z_f3v_l029" xml:id="medusa_f3v_l029"/>
+          <seg type="raw_unreviewed">Exposicio est manifesta minꝰ noti ꝑ magꝭ noti</seg>
+          <lb facs="#z_f3v_l030" xml:id="medusa_f3v_l030"/>
+          <seg type="raw_unreviewed">inducto In omni autem sermone tuo ex pone pͥmo</seg>
+          <lb facs="#z_f3v_l031" xml:id="medusa_f3v_l031"/>
+          <seg type="raw_unreviewed">ltam thematꝭ ita dico Si fu̾it difficultas Ite</seg>
+          <lb facs="#z_f3v_l032" xml:id="medusa_f3v_l032"/>
+          <seg type="raw_unreviewed">sub anatheᵗᵉ p̃cipio ut hystoriam nõ exponas alit̾</seg>
+          <lb facs="#z_f3v_l033" xml:id="medusa_f3v_l033"/>
+          <seg type="raw_unreviewed">quam sancti patres exposuerunt pͥcipue ante G. d. B. J. B.</seg>
+          <lb facs="#z_f3v_l034" xml:id="medusa_f3v_l034"/>
+          <seg type="raw_unreviewed">Augustinꝰ Itẽ cũ aliqͥ ex ponis nõ repetas illud</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f3v_l001 #z_f3v_l002 #z_f3v_l003 #z_f3v_l004 #z_f3v_l005 #z_f3v_l006 #z_f3v_l007 #z_f3v_l008" xml:id="u_3v_001">[okraj: probatio; expositio; fragment iniciály] Membratio est quaedam alligatio huius de quo quis loquitur. Potes autem membrare in qualibet specie sermonis, id est ponere membra. Et nota quod sicut corpus sine membris informe est, sic sermo sine membris. Tamen semper non est necesse ut ponas membra, sed secundum quod vis et tempus exigit.</p>
+        <note type="editorial" corresp="#u_3v_001" xml:lang="cs">Počáteční definice je návrhová, zejména alligatio huius. Drobné segmenty 1–3 nejsou tři další slova hlavního textu.</note>
+        <p facs="#z_f3v_l009 #z_f3v_l010 #z_f3v_l011 #z_f3v_l012 #z_f3v_l013 #z_f3v_l014 #z_f3v_l015 #z_f3v_l016" xml:id="u_3v_002">Et nota quod si duae sunt notabilitates, ad quamlibet pone quatuor membra. Si autem tres, ad quamlibet duo membra; si autem quatuor, ad quamlibet pone unum membrum. Et si plures notabilitates, eodem modo facies; sic etiam procedas cum membris in articulatione et amplificatione. Et nota quod nullum membrum debet idem esse cum notabilitate, nec cum articulatione nec cum amplificatione, nec unum ab altero significatum, ad quod membrum illud ponis, deque [his?].</p>
+        <note type="editorial" corresp="#u_3v_002" xml:lang="cs">Početní pokyny jsou v obraze čitelné. Poslední věta o netotožnosti členů má nejistou syntaxi a závěr; překlad ji nedoplňuje do zdánlivě přesného pravidla.</note>
+        <p facs="#z_f3v_l017 #z_f3v_l018 #z_f3v_l019 #z_f3v_l020 #z_f3v_l021 #z_f3v_l022 #z_f3v_l023 #z_f3v_l024" xml:id="u_3v_003">Probatio est evidens alicuius probandi demonstratio. Quidquid autem probas, hoc fac ex novo et veteri testamento et proba breviter. Item nota: quidquid probatur, hoc fit dupliciter, duobus modis, vel per auctoritatem vel rationem. Item nota quod infra sermonem tuum causa aedificationis poteris introducere auctoritates [...] poetarum, paganorum et haereticorum. Sed penitus nihil debes probare per ipsas, quia magna ingratitudo esset. Quare?</p>
+        <note type="editorial" corresp="#u_3v_003" xml:lang="cs">Zkratky rozvedeny návrhově. Část výčtu autorit v řádku 22 je nejasná, a proto není domyšlena. Rozlišuje se použití příkladu v kázání od jeho důkazní autority.</note>
+        <p facs="#z_f3v_l025 #z_f3v_l026 #z_f3v_l027 #z_f3v_l028" xml:id="u_3v_004">Quia novum et vetus testamentum est hoc mare magnum et spatiosum manibus; illic reptilia quorum non est numerus. Item nota: quidquid audientibus ignotum est, hoc debes probare, et quod notum est non debes probare, nisi si velis, et sic de aliis.</p>
+        <note type="editorial" corresp="#u_3v_004" xml:lang="cs">Obraz velkého moře je na stránce skutečně uveden. Spatiosum manibus zachováno jako návrhové čtení rukopisu; český překlad vyjadřuje obraz šíře, nikoli doslovnou představu rukou.</note>
+        <p facs="#z_f3v_l029 #z_f3v_l030 #z_f3v_l031 #z_f3v_l032 #z_f3v_l033 #z_f3v_l034" xml:id="u_3v_005">Expositio est manifestam inquoti [?] per magis noti inductio. In omni autem sermone tuo expone primo litteram thematis, ita dico: si fuerit difficultas. Item sub anathemate praecipio ut historiam non exponas aliter quam sancti patres exposuerunt, praecipue autem G. A. B. I. B. Augustinus [?]. Item cum aliquid exponis, bene repetas illud …</p>
+        <note type="editorial" corresp="#u_3v_005" xml:lang="cs">Počáteční scholastická definice expositio je podstatně nejistá; neopravuje se pomocí očekávané definice. Jména církevních otců ze série iniciál nejsou automaticky rozepsána. Poslední věta pokračuje na 4r.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_3v_001">[Na okraji: dokazování; výklad; fragment iniciály.] Rozčlenění na části je jakési spojení toho, o čem se mluví. Rozčleňovat, tedy uvádět jednotlivé členy, můžeš v každém druhu řeči. Věz, že jako je tělo bez údů beztvaré, tak je tomu i s řečí bez členů. Není však vždy nutné je uvádět, nýbrž podle tvého záměru a požadavků času.</p>
+        <p corresp="#u_3v_002">Jsou-li dvě hlavní myšlenky, přidej ke každé čtyři členy. Jsou-li tři, ke každé dva; jsou-li čtyři, ke každé jeden. Při větším počtu postupuj stejně. Také při členění a rozšiřování pracuj s jednotlivými členy podobně. Žádný člen nemá být totožný s hlavní myšlenkou, ani se samotným členěním či rozšířením, ani s jiným [...] k němuž jej připojuješ.</p>
+        <p corresp="#u_3v_003">Dokazování je zjevné předvedení toho, co má být prokázáno. Cokoli dokazuješ, čiň to z Nového a Starého zákona a dokazuj stručně. Dokazuje se dvojím způsobem: autoritou nebo rozumovým důvodem. Do svého kázání můžeš pro vzdělání posluchačů uvést výroky [...] básníků, pohanů a kacířů. Ale vůbec nic jimi nesmíš dokazovat, neboť by to byla velká nevděčnost. Proč?</p>
+        <p corresp="#u_3v_004">Protože Nový a Starý zákon jsou oním velkým a širokým mořem, kde je nespočet plazících se tvorů. Věz dále, že máš dokazovat to, co posluchači neznají; co znají, dokazovat nemusíš, ledaže chceš. A podobně v jiných případech.</p>
+        <p corresp="#u_3v_005">Výklad je uvedení [...] pomocí toho, co je známější. V každém svém kázání nejprve vylož doslovné znění tématu, totiž pokud působí obtíže. Pod hrozbou klatby přikazuji, abys historický smysl nevykládal jinak, než jej vyložili svatí otcové, především [...] [zkratky jmen; následuje nejistě Augustinus]. Když něco vykládáš, důkladně to zopakuj …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

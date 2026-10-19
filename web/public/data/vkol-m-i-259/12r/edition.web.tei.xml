@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 12r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_12r_coordinate; PNG SHA256 9194746e296067d376518b25e1492815f2b4876140f352d0509f41d99138d6cc; archival TIFF SHA256 dd92d070d8a5ff8c848d00821e72506496a815779b2aa47e3577945f2ef4c414; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_12r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#12r"/>
+      <zone ulx="441" uly="1023" lrx="519" lry="1157" xml:id="z_f12r_l001"/>
+      <zone ulx="547" uly="507" lrx="3205" lry="693" xml:id="z_f12r_l002"/>
+      <zone ulx="2645" uly="628" lrx="2745" lry="715" xml:id="z_f12r_l003"/>
+      <zone ulx="522" uly="644" lrx="3305" lry="815" xml:id="z_f12r_l004"/>
+      <zone ulx="522" uly="746" lrx="3293" lry="958" xml:id="z_f12r_l005"/>
+      <zone ulx="529" uly="892" lrx="1540" lry="1067" xml:id="z_f12r_l006"/>
+      <zone ulx="796" uly="970" lrx="3177" lry="1166" xml:id="z_f12r_l007"/>
+      <zone ulx="3249" uly="958" lrx="3591" lry="1098" xml:id="z_f12r_l008"/>
+      <zone ulx="834" uly="1110" lrx="3255" lry="1300" xml:id="z_f12r_l009"/>
+      <zone ulx="827" uly="1238" lrx="3237" lry="1409" xml:id="z_f12r_l010"/>
+      <zone ulx="526" uly="1353" lrx="3249" lry="1530" xml:id="z_f12r_l011"/>
+      <zone ulx="526" uly="1468" lrx="3268" lry="1636" xml:id="z_f12r_l012"/>
+      <zone ulx="544" uly="1589" lrx="3209" lry="1760" xml:id="z_f12r_l013"/>
+      <zone ulx="516" uly="1717" lrx="3199" lry="1879" xml:id="z_f12r_l014"/>
+      <zone ulx="535" uly="1826" lrx="3268" lry="2003" xml:id="z_f12r_l015"/>
+      <zone ulx="538" uly="1963" lrx="3187" lry="2121" xml:id="z_f12r_l016"/>
+      <zone ulx="535" uly="2075" lrx="3209" lry="2246" xml:id="z_f12r_l017"/>
+      <zone ulx="494" uly="2199" lrx="3212" lry="2361" xml:id="z_f12r_l018"/>
+      <zone ulx="547" uly="2320" lrx="3249" lry="2492" xml:id="z_f12r_l019"/>
+      <zone ulx="547" uly="2448" lrx="3202" lry="2628" xml:id="z_f12r_l020"/>
+      <zone ulx="538" uly="2569" lrx="3255" lry="2750" xml:id="z_f12r_l021"/>
+      <zone ulx="538" uly="2694" lrx="3221" lry="2874" xml:id="z_f12r_l022"/>
+      <zone ulx="535" uly="2818" lrx="3268" lry="3005" xml:id="z_f12r_l023"/>
+      <zone ulx="466" uly="2955" lrx="3246" lry="3111" xml:id="z_f12r_l024"/>
+      <zone ulx="541" uly="3083" lrx="3190" lry="3254" xml:id="z_f12r_l025"/>
+      <zone ulx="538" uly="3204" lrx="3187" lry="3381" xml:id="z_f12r_l026"/>
+      <zone ulx="740" uly="3332" lrx="3209" lry="3503" xml:id="z_f12r_l027"/>
+      <zone ulx="790" uly="3465" lrx="3255" lry="3633" xml:id="z_f12r_l028"/>
+      <zone ulx="750" uly="3590" lrx="3174" lry="3752" xml:id="z_f12r_l029"/>
+      <zone ulx="532" uly="3699" lrx="3258" lry="3873" xml:id="z_f12r_l030"/>
+      <zone ulx="538" uly="3820" lrx="3289" lry="3997" xml:id="z_f12r_l031"/>
+      <zone ulx="538" uly="3938" lrx="3252" lry="4140" xml:id="z_f12r_l032"/>
+      <zone ulx="513" uly="4084" lrx="3218" lry="4265" xml:id="z_f12r_l033"/>
+      <zone ulx="550" uly="4206" lrx="3227" lry="4371" xml:id="z_f12r_l034"/>
+      <zone ulx="544" uly="4315" lrx="3271" lry="4476" xml:id="z_f12r_l035"/>
+      <zone ulx="504" uly="4424" lrx="3205" lry="4644" xml:id="z_f12r_l036"/>
+      <zone ulx="3296" uly="3300" lrx="3691" lry="3478" xml:id="z_f12r_l037"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f12r_l001" xml:id="catmus_f12r_l001"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f12r_l002" xml:id="catmus_f12r_l002"/>
+          <seg type="raw_unreviewed">Di quescio sin̾t det̾nitate d̾uc enm ad candelam que exẽ</seg>
+          <lb facs="#z_f12r_l003" xml:id="catmus_f12r_l003"/>
+          <seg type="raw_unreviewed">ite</seg>
+          <lb facs="#z_f12r_l004" xml:id="catmus_f12r_l004"/>
+          <seg type="raw_unreviewed">bus ꝑtibus cõscat quaꝵ nuilla de esse pt mcra ut cand̾e</seg>
+          <lb facs="#z_f12r_l005" xml:id="catmus_f12r_l005"/>
+          <seg type="raw_unreviewed">la ardeat nel alit̾ dic Qui omĩa fecit exnichilo potest</seg>
+          <lb facs="#z_f12r_l006" xml:id="catmus_f12r_l006"/>
+          <seg type="raw_unreviewed">etista et sic dealiis</seg>
+          <lb facs="#z_f12r_l007" xml:id="catmus_f12r_l007"/>
+          <seg type="raw_unreviewed">Alem habebis formã in capło ordinis docmati</seg>
+          <lb facs="#z_f12r_l008" xml:id="catmus_f12r_l008"/>
+          <seg type="raw_unreviewed">deforma</seg>
+          <lb facs="#z_f12r_l009" xml:id="catmus_f12r_l009"/>
+          <seg type="raw_unreviewed">ses thema tnũ sit defesco neltaleq possit aꝓpͥai</seg>
+          <lb facs="#z_f12r_l010" xml:id="catmus_f12r_l010"/>
+          <seg type="raw_unreviewed">tali festnitatt/ten si nobilibi nel milicibi sit tͥho</seg>
+          <lb facs="#z_f12r_l011" xml:id="catmus_f12r_l011"/>
+          <seg type="raw_unreviewed">ma deuliis et inbono acceptis ubi gra Desosucde</seg>
+          <lb facs="#z_f12r_l012" xml:id="catmus_f12r_l012"/>
+          <seg type="raw_unreviewed">Dauid De machabeis Si ant monialibichema fic deñt</seg>
+          <lb facs="#z_f12r_l013" xml:id="catmus_f12r_l013"/>
+          <seg type="raw_unreviewed">ginibi uc est pene tatus p̃s Eructait cormeũ u̾bum</seg>
+          <lb facs="#z_f12r_l014" xml:id="catmus_f12r_l014"/>
+          <seg type="raw_unreviewed">bonũ qui pt u̾t̾i adugines Casce pu̾iter iinocent et</seg>
+          <lb facs="#z_f12r_l015" xml:id="catmus_f12r_l015"/>
+          <seg type="raw_unreviewed">dealiis huiꝰ modĩ Item si Omitates thema fit deCini</seg>
+          <lb facs="#z_f12r_l016" xml:id="catmus_f12r_l016"/>
+          <seg type="raw_unreviewed">tate ut est illud̃ uidens ihesus cuitatẽ flenit suꝑ</seg>
+          <lb facs="#z_f12r_l017" xml:id="catmus_f12r_l017"/>
+          <seg type="raw_unreviewed">illam I hrlm ihrlm comĩtẽ ad dñm dcam cuũ Erat. Iu</seg>
+          <lb facs="#z_f12r_l018" xml:id="catmus_f12r_l018"/>
+          <seg type="raw_unreviewed">quue Wiuitas magira itineris dierũ triũ uel quolib</seg>
+          <lb facs="#z_f12r_l019" xml:id="catmus_f12r_l019"/>
+          <seg type="raw_unreviewed">hinꝯmodi Item si rusticis thema sit delaboribus ut</seg>
+          <lb facs="#z_f12r_l020" xml:id="catmus_f12r_l020"/>
+          <seg type="raw_unreviewed">est iscud miseor suꝑ oibam uenite adme omẽs qui</seg>
+          <lb facs="#z_f12r_l021" xml:id="catmus_f12r_l021"/>
+          <seg type="raw_unreviewed">laboratis et honati escis et ego reficiã uos Turba</seg>
+          <lb facs="#z_f12r_l022" xml:id="catmus_f12r_l022"/>
+          <seg type="raw_unreviewed">multa que cõnat addie fescũ Saci̾anit domĩꝰ qũq</seg>
+          <lb facs="#z_f12r_l023" xml:id="catmus_f12r_l023"/>
+          <seg type="raw_unreviewed">milia honii. etcꝭ hiis similia que tangũt plebẽm Item</seg>
+          <lb facs="#z_f12r_l024" xml:id="catmus_f12r_l024"/>
+          <seg type="raw_unreviewed">uota ꝙ nõ debes in ping̾e in audiẽtes sed si scrmo cu</seg>
+          <lb facs="#z_f12r_l025" xml:id="catmus_f12r_l025"/>
+          <seg type="raw_unreviewed">us fu̾it cominatoriꝰ eũc inpincco fiat in comiũ ⁊ ma</seg>
+          <lb facs="#z_f12r_l026" xml:id="catmus_f12r_l026"/>
+          <seg type="raw_unreviewed">uime aput lratos quia tales p lus dolẽt quã layci</seg>
+          <lb facs="#z_f12r_l027" xml:id="catmus_f12r_l027"/>
+          <seg type="raw_unreviewed">uadrãgulum nichil aliud̃ est quã mẽbroꝵ posi</seg>
+          <lb facs="#z_f12r_l028" xml:id="catmus_f12r_l028"/>
+          <seg type="raw_unreviewed">cõ uñ ꝑnii ͦ tibi posui mebra in plang quadro</seg>
+          <lb facs="#z_f12r_l029" xml:id="catmus_f12r_l029"/>
+          <seg type="raw_unreviewed">ut eo expedicius ĩnemab quid queis Item</seg>
+          <lb facs="#z_f12r_l030" xml:id="catmus_f12r_l030"/>
+          <seg type="raw_unreviewed">nota c om̃ta mẽbra p̃t̾ illa que spalit̃ spectãt ad</seg>
+          <lb facs="#z_f12r_l031" xml:id="catmus_f12r_l031"/>
+          <seg type="raw_unreviewed">creatorẽ pot̾is ꝓfre Dubnonne subũbo ubpti</seg>
+          <lb facs="#z_f12r_l032" xml:id="catmus_f12r_l032"/>
+          <seg type="raw_unreviewed">cipio subadũbio subquolib mĩo Gasu ꝑ sonaed̃ꝑe</seg>
+          <lb facs="#z_f12r_l033" xml:id="catmus_f12r_l033"/>
+          <seg type="raw_unreviewed">mõnisi ita sit itotalis grama. ropũgnet quod</seg>
+          <lb facs="#z_f12r_l034" xml:id="catmus_f12r_l034"/>
+          <seg type="raw_unreviewed">in pancis fieri pnto Item quãnis quẽdam niu su</seg>
+          <lb facs="#z_f12r_l035" xml:id="catmus_f12r_l035"/>
+          <seg type="raw_unreviewed">nõ siit tñuene poni possunt sccui nõ ponas mĩma</seg>
+          <lb facs="#z_f12r_l036" xml:id="catmus_f12r_l036"/>
+          <seg type="raw_unreviewed">quẽbra sed talia que ꝓuare posfis Item si occ̾ci</seg>
+          <lb facs="#z_f12r_l037" xml:id="catmus_f12r_l037"/>
+          <seg type="raw_unreviewed">Aq̃drãgi</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f12r_l001" xml:id="medusa_f12r_l001"/>
+          <seg type="raw_unreviewed">C</seg>
+          <lb facs="#z_f12r_l002" xml:id="medusa_f12r_l002"/>
+          <seg type="raw_unreviewed">Si questio fuerit de trinitate duc eum ad candelam que ex</seg>
+          <lb facs="#z_f12r_l003" xml:id="medusa_f12r_l003"/>
+          <seg type="raw_unreviewed">ito</seg>
+          <lb facs="#z_f12r_l004" xml:id="medusa_f12r_l004"/>
+          <seg type="raw_unreviewed">bus ꝑtibus constat quarum nulla deesse potest neque ut cande</seg>
+          <lb facs="#z_f12r_l005" xml:id="medusa_f12r_l005"/>
+          <seg type="raw_unreviewed">la ardeat nel alit̾ dic Qui omnia fecit ex nichilo potest</seg>
+          <lb facs="#z_f12r_l006" xml:id="medusa_f12r_l006"/>
+          <seg type="raw_unreviewed">et ista et sic de aliis</seg>
+          <lb facs="#z_f12r_l007" xml:id="medusa_f12r_l007"/>
+          <seg type="raw_unreviewed">Alem habebis formã in capło ordinis decanati</seg>
+          <lb facs="#z_f12r_l008" xml:id="medusa_f12r_l008"/>
+          <seg type="raw_unreviewed">de forma</seg>
+          <lb facs="#z_f12r_l009" xml:id="medusa_f12r_l009"/>
+          <seg type="raw_unreviewed">ses thema tm̃ sit defesto nel tale ꝙ possit appar</seg>
+          <lb facs="#z_f12r_l010" xml:id="medusa_f12r_l010"/>
+          <seg type="raw_unreviewed">tali festinitati Item si nobilibus vel militibus sit the</seg>
+          <lb facs="#z_f12r_l011" xml:id="medusa_f12r_l011"/>
+          <seg type="raw_unreviewed">ma de p̃hiis et in bono acceptis ubi gr̃a De Ioseph de</seg>
+          <lb facs="#z_f12r_l012" xml:id="medusa_f12r_l012"/>
+          <seg type="raw_unreviewed">Dauid de Machabeis Si autem monialibus thema fit de u</seg>
+          <lb facs="#z_f12r_l013" xml:id="medusa_f12r_l013"/>
+          <seg type="raw_unreviewed">ginib: ut est pene totus ps̃ Tructavit cor meũ u̾bum</seg>
+          <lb facs="#z_f12r_l014" xml:id="medusa_f12r_l014"/>
+          <seg type="raw_unreviewed">bonum qui pt̃ uti adungines Caste puniter Innocenter et</seg>
+          <lb facs="#z_f12r_l015" xml:id="medusa_f12r_l015"/>
+          <seg type="raw_unreviewed">dealii huiꝰ modi Item si Cinitates thema sit de Cini</seg>
+          <lb facs="#z_f12r_l016" xml:id="medusa_f12r_l016"/>
+          <seg type="raw_unreviewed">tate ut est illud uidens ihesus ciuitatẽ flevit suꝑ</seg>
+          <lb facs="#z_f12r_l017" xml:id="medusa_f12r_l017"/>
+          <seg type="raw_unreviewed">illam Iohannem iherusalem comitem ad dñm deum suũ Erat in</seg>
+          <lb facs="#z_f12r_l018" xml:id="medusa_f12r_l018"/>
+          <seg type="raw_unreviewed">mine. Civitas magna itineris dierũ triũ uel quelib:</seg>
+          <lb facs="#z_f12r_l019" xml:id="medusa_f12r_l019"/>
+          <seg type="raw_unreviewed">huiꝰ modi Item scilicet Rusticis thema sit de laboribus ut</seg>
+          <lb facs="#z_f12r_l020" xml:id="medusa_f12r_l020"/>
+          <seg type="raw_unreviewed">est istud Miseror suꝑ turban Venite ad me omẽs qui</seg>
+          <lb facs="#z_f12r_l021" xml:id="medusa_f12r_l021"/>
+          <seg type="raw_unreviewed">laboratis et honerati estis et ego reficiã uos Turba</seg>
+          <lb facs="#z_f12r_l022" xml:id="medusa_f12r_l022"/>
+          <seg type="raw_unreviewed">multa que cõnãt ad diẽ festũ Saciamit dominꝰ qñq:</seg>
+          <lb facs="#z_f12r_l023" xml:id="medusa_f12r_l023"/>
+          <seg type="raw_unreviewed">milia hom̃i. etc. hiis similia que tangũt plebem ¶ Item</seg>
+          <lb facs="#z_f12r_l024" xml:id="medusa_f12r_l024"/>
+          <seg type="raw_unreviewed">nota ꝙ nõ debes in pinge mandẽtes sed si sermo tu</seg>
+          <lb facs="#z_f12r_l025" xml:id="medusa_f12r_l025"/>
+          <seg type="raw_unreviewed">us fuerit cominatoriꝰ tũc in punciõ fiat in comũ ⁊ ma</seg>
+          <lb facs="#z_f12r_l026" xml:id="medusa_f12r_l026"/>
+          <seg type="raw_unreviewed">pine aput lratos quia tales plusdolẽt quã layci</seg>
+          <lb facs="#z_f12r_l027" xml:id="medusa_f12r_l027"/>
+          <seg type="raw_unreviewed">uadrangulum nichil aliud est quã mẽbroꝵ pos</seg>
+          <lb facs="#z_f12r_l028" xml:id="medusa_f12r_l028"/>
+          <seg type="raw_unreviewed">tõ dñi periiiꝰ tibi posui membra in plano quadre</seg>
+          <lb facs="#z_f12r_l029" xml:id="medusa_f12r_l029"/>
+          <seg type="raw_unreviewed">ut eo expeditius in nemis quid queris Item</seg>
+          <lb facs="#z_f12r_l030" xml:id="medusa_f12r_l030"/>
+          <seg type="raw_unreviewed">nota q omnia membra pt̃ illa que specialiter spectat ad</seg>
+          <lb facs="#z_f12r_l031" xml:id="medusa_f12r_l031"/>
+          <seg type="raw_unreviewed">creatorẽ pot̾is ꝓfite Sub nomine sub verbo sub ꝑti</seg>
+          <lb facs="#z_f12r_l032" xml:id="medusa_f12r_l032"/>
+          <seg type="raw_unreviewed">capio sub adverbio sub quolibet modo Capi per sona Tpe</seg>
+          <lb facs="#z_f12r_l033" xml:id="medusa_f12r_l033"/>
+          <seg type="raw_unreviewed">mo nisi ita sit quod totalis gramatica repugnet quod</seg>
+          <lb facs="#z_f12r_l034" xml:id="medusa_f12r_l034"/>
+          <seg type="raw_unreviewed">in paucis fieri potest. Item quãnis quẽdam in usu</seg>
+          <lb facs="#z_f12r_l035" xml:id="medusa_f12r_l035"/>
+          <seg type="raw_unreviewed">nõ sint tñ bene poni possunt. Item nõ penas min̾a</seg>
+          <lb facs="#z_f12r_l036" xml:id="medusa_f12r_l036"/>
+          <seg type="raw_unreviewed">membra sed talia que ꝓbare possis Item si occri</seg>
+          <lb facs="#z_f12r_l037" xml:id="medusa_f12r_l037"/>
+          <seg type="raw_unreviewed">de quadraginta</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f12r_l001 #z_f12r_l002 #z_f12r_l003 #z_f12r_l004 #z_f12r_l005 #z_f12r_l006" xml:id="u_12r_001">[fragment rubriky] Si quaestio fuerit de Trinitate, duc eum ad candelam quae ex tribus partibus constat, quarum nulla deesse potest [ita?] ut candela ardeat. Vel aliter dic: Qui omnia fecit ex nihilo potest et ista, et sic de aliis.</p>
+        <note type="editorial" corresp="#u_12r_001" xml:lang="cs">Pokračování příkladu z11v. Drobný segment3 je korekturový fragment, nikoli samostatný řádek. Tři části svíčky nejsou v tomto úseku jmenovány, proto je nedoplňuji.</note>
+        <p facs="#z_f12r_l007 #z_f12r_l008 #z_f12r_l009 #z_f12r_l010 #z_f12r_l011 #z_f12r_l012 #z_f12r_l013 #z_f12r_l014 #z_f12r_l015" xml:id="u_12r_002">Talem habebis formam in capitulo ordinis dogmatis. [okraj: de forma] Thema tuum sit de festo vel tale quod possit appropriari tali festivitati. Item si nobilibus vel militibus, sit thema de viris et in bono acceptis, verbi gratia de Iosue, de David, de Machabeis. Si autem monialibus, thema sit de virginibus, ut est [...] psalmus: Eructavit cor meum verbum bonum, qui potest verti ad virgines caste, pure, innocenter et de aliis huiusmodi. Item si [civitatibus?], thema sit de civitate …</p>
+        <note type="editorial" corresp="#u_12r_002" xml:lang="cs">Určení žalmu před slovem psalmus není bezpečně přečteno. Přepis této formulace a gramatického pádu u měst zůstává otevřený. Okrajová rubrika je zahrnuta, nerozděluje hlavní větu.</note>
+        <p facs="#z_f12r_l016 #z_f12r_l017 #z_f12r_l018 #z_f12r_l019 #z_f12r_l020 #z_f12r_l021 #z_f12r_l022 #z_f12r_l023" xml:id="u_12r_003">… ut est illud: Videns Ihesus civitatem flevit super illam. Hierusalem, Hierusalem, convertere ad Dominum Deum tuum. Erat Ninive civitas magna itineris dierum trium, vel quodlibet huiusmodi. Item si rusticis, thema sit de laboribus, ut est istud: Misereor super turbam. Venite ad me omnes qui laboratis et onerati estis et ego reficiam vos. Turba multa quae convenerat ad diem festum. Satiavit Dominus quinque milia hominum, et hiis similia quae tangunt plebem.</p>
+        <note type="editorial" corresp="#u_12r_003" xml:lang="cs">Řada krátkých příkladů je přeložena v rozsahu viditelného znění. Nedoplňuji chybějící pokračování jednotlivých výroků ani jejich kapitoly. Onerati je návrhové rozvedení rukopisného tvaru.</note>
+        <p facs="#z_f12r_l024 #z_f12r_l025 #z_f12r_l026" xml:id="u_12r_004">Item nota quod non debes impingere in audientes; sed si sermo tuus fuerit comminatorius, tunc impinctio fiat in communi, et maxime apud litteratos, quia tales plus dolent quam laici.</p>
+        <note type="editorial" corresp="#u_12r_004" xml:lang="cs">Impingere a impinctio překládám podle kontextu jako osobní útok či výtku; nejde o fyzické jednání.</note>
+        <p facs="#z_f12r_l027 #z_f12r_l028 #z_f12r_l029 #z_f12r_l030 #z_f12r_l031 #z_f12r_l032 #z_f12r_l033 #z_f12r_l034 #z_f12r_l035 #z_f12r_l036 #z_f12r_l037" xml:id="u_12r_005">Quadrangulum nichil aliud est quam membrorum positio. Unde per [...] tibi posui membra in plano quadro, ut eo expedicius invenias quid quaeris. Item nota quod omnia membra praeter illa quae specialiter spectant ad creatorem poteris proferre sub nomine, sub verbo, sub participio, sub adverbio, sub quolibet numero, casu, persona et tempore, modo, nisi ita sit quod totaliter grammatica repugnet, quod in paucis fieri puto. Item quamvis quaedam [...] non sunt, tamen bene poni possunt secundum [...] non ponas nimia membra, sed talia quae probare possis. Item si occurrerit … [okraj: de quadrangulo]</p>
+        <note type="editorial" corresp="#u_12r_005" xml:lang="cs">Zde je slovní vysvětlení tabulkového uspořádání, nikoli samotná tabulka. Několik spojovacích slov v úvodu a závěru odstavce je nerozřešeno; překlad zachovává mezery. Poslední věta pokračuje na další straně.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_12r_001">[Zlomek rubriky.] Bude-li otázka o Trojici, přiveď jej ke svíčce, která se skládá ze tří částí; žádná z nich nemůže chybět, [má-li?] svíčka hořet. Nebo řekni jinak: Ten, který všechno učinil z ničeho, může i toto; a podobně u jiných otázek.</p>
+        <p corresp="#u_12r_002">Takovou formu najdeš v kapitole o uspořádání učení. [Na okraji: o formě.] Tvé téma ať se týká svátku, nebo ať je takové, které lze přizpůsobit dané slavnosti. Kážeš-li šlechticům nebo vojákům, zvol téma o mužích a vykládej je v dobrém smyslu, například o Jozuovi, Davidovi nebo Makabejských. Je-li kázání určeno řeholnicím, téma ať pojednává o pannách, jako žalm [...]: Mé srdce vydalo dobré slovo; lze jej obrátit k pannám ve smyslu cudnosti, čistoty, nevinnosti a podobných věcí. Je-li kázání určeno [městům?], téma ať pojednává o městě …</p>
+        <p corresp="#u_12r_003">… například: Když Ježíš spatřil město, zaplakal nad ním. Jeruzaléme, Jeruzaléme, obrať se k Pánu, svému Bohu. Ninive bylo veliké město na tři dny cesty; nebo něco podobného. Kážeš-li venkovanům, téma ať se týká práce, například: Je mi líto zástupu. Přijďte ke mně všichni, kteří pracujete a jste obtíženi, a já vás občerstvím. Veliký zástup, který se sešel ke svátečnímu dni. Pán nasytil pět tisíc lidí; a podobné věci, které se dotýkají prostého lidu.</p>
+        <p corresp="#u_12r_004">Pamatuj, že nemáš napadat posluchače jednotlivě; má-li však tvé kázání hrozivý či káravý ráz, ať se výtka týká všech obecně, zvláště mezi vzdělanci, protože ti se cítí zasaženi více než laici.</p>
+        <p corresp="#u_12r_005">Čtyřúhelník není nic jiného než rozmístění členů. Proto jsem ti prostřednictvím [...] rozložil členy do čtvercové plochy, abys tím snáze našel, co hledáš. Všechny členy kromě těch, které se zvlášť vztahují ke Stvořiteli, můžeš vyslovit jako podstatné jméno, sloveso, příčestí či příslovce, v libovolném čísle, pádu, osobě, čase a způsobu, ledaže by tomu zcela odporovala gramatika; myslím, že se to stává zřídka. I když některé [...] nejsou, přece je lze vhodně položit podle [...]. Nepřidávej příliš mnoho členů, nýbrž takové, které můžeš dokázat. Přihodí-li se … [Na okraji: o čtyřúhelníku.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

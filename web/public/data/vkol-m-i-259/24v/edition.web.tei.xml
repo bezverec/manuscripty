@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 24v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Breves annotationes theologicae. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_24v_coordinate; PNG SHA256 12fff78b15945d04c0255f5da7159596d3e419661078e9403008e04718861493; archival TIFF SHA256 272960c086f4b8b8961a4b6fa68944f0210128cea27e04c560217fbe7be39757; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_24v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#24v"/>
+      <zone ulx="883" uly="622" lrx="3289" lry="774" xml:id="z_f24v_l001"/>
+      <zone ulx="849" uly="715" lrx="1329" lry="874" xml:id="z_f24v_l002"/>
+      <zone ulx="2091" uly="5348" lrx="2219" lry="5494" xml:id="z_f24v_l003"/>
+      <zone ulx="3632" uly="3244" lrx="3707" lry="3353" xml:id="z_f24v_l004"/>
+      <zone ulx="3703" uly="3120" lrx="3825" lry="3213" xml:id="z_f24v_l005"/>
+      <zone ulx="3644" uly="3621" lrx="3763" lry="3717" xml:id="z_f24v_l006"/>
+      <zone ulx="3545" uly="2974" lrx="3787" lry="2989" xml:id="z_f24v_l007"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f24v_l001" xml:id="catmus_f24v_l001"/>
+          <seg type="raw_unreviewed">Ai ei. elci habeeut dotes corporꝭ q̃ st cłaitas acłitus sħ liłitus i</seg>
+          <lb facs="#z_f24v_l002" xml:id="catmus_f24v_l002"/>
+          <seg type="raw_unreviewed">pussiblitasn</seg>
+          <lb facs="#z_f24v_l003" xml:id="catmus_f24v_l003"/>
+          <seg type="raw_unreviewed">ur</seg>
+          <lb facs="#z_f24v_l004" xml:id="catmus_f24v_l004"/>
+          <seg type="raw_unreviewed"> C</seg>
+          <lb facs="#z_f24v_l005" xml:id="catmus_f24v_l005"/>
+          <seg type="raw_unreviewed">fad io</seg>
+          <lb facs="#z_f24v_l006" xml:id="catmus_f24v_l006"/>
+          <seg type="raw_unreviewed">¶ tũ tis</seg>
+          <lb facs="#z_f24v_l007" xml:id="catmus_f24v_l007"/>
+          <seg type="raw_unreviewed"/>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f24v_l001" xml:id="medusa_f24v_l001"/>
+          <seg type="raw_unreviewed">di eum eici habebunt dotos corporum que sunt claritas acilitas subtilitas etc.</seg>
+          <lb facs="#z_f24v_l002" xml:id="medusa_f24v_l002"/>
+          <seg type="raw_unreviewed">passibilicas etc.</seg>
+          <lb facs="#z_f24v_l003" xml:id="medusa_f24v_l003"/>
+          <seg type="raw_unreviewed">329</seg>
+          <lb facs="#z_f24v_l004" xml:id="medusa_f24v_l004"/>
+          <seg type="raw_unreviewed">qr eue</seg>
+          <lb facs="#z_f24v_l005" xml:id="medusa_f24v_l005"/>
+          <seg type="raw_unreviewed">in terra in</seg>
+          <lb facs="#z_f24v_l006" xml:id="medusa_f24v_l006"/>
+          <seg type="raw_unreviewed">Nũcis</seg>
+          <lb facs="#z_f24v_l007" xml:id="medusa_f24v_l007"/>
+          <seg type="raw_unreviewed">in la cassa</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f24v_l001 #z_f24v_l002" xml:id="u_24v_001">Soli enim electi habebunt dotes corporis, quae sunt claritas, agilitas, subtilitas, impassibilitas.</p>
+        <note type="editorial" corresp="#u_24v_001" xml:lang="cs">Dva skutečné horní řádky uzavírají výklad o vzkříšení z24r. Poslední vlastnost impassibilitas znamená neschopnost trpět; české nezranitelnost je pracovní ekvivalent. Většina vlastního listu je po skutečné kontrole přehledu nepopsaná, nikoli celá strana bez textu.</note>
+        <p facs="#z_f24v_l003" xml:id="u_24v_002">[Vestigia scripturae in margine inferiore mutilo; lectio incerta.]</p>
+        <note type="editorial" corresp="#u_24v_002" xml:lang="cs">Segment3 zachycuje jen malý fragment většího vybledlého přípisu na samém dolním okraji. Navíc skutečně otevřen nativní výřez celého dostupného přípisu; souvislá slova z něj bezpečně nečtu. Nemusí jít o pokračování horního výkladu.</note>
+        <p facs="#z_f24v_l004 #z_f24v_l005 #z_f24v_l006 #z_f24v_l007" xml:id="u_24v_003">[Fragmenta paginae oppositae.]</p>
+        <note type="editorial" corresp="#u_24v_003" xml:lang="cs">Segmenty4–7 jsou úzké částečné detekce sousední stránky vpravo. Byly skutečně prohlédnuty v pásu a v přehledu; do textu24v nepatří.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_24v_001">Jedině vyvolení totiž budou mít dary těla, jimiž jsou jas, pohyblivost, jemnost a nezranitelnost.</p>
+        <p corresp="#u_24v_002">[Stopy písma na oříznutém dolním okraji; čtení nejisté.]</p>
+        <p corresp="#u_24v_003">[Fragmenty protější stránky.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

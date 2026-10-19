@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 94r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_94r_coordinate; PNG SHA256 87026e944bfe43104dcded62233a86675cba032b54631aa2b85898d654c8ac3d; archival TIFF SHA256 80ab545219de0bcb46f689618c48bf68f1161522df91d18f01c44cec1791f166; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_94r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#94r"/>
+      <zone ulx="87" uly="367" lrx="224" lry="500" xml:id="z_f94r_l001"/>
+      <zone ulx="202" uly="395" lrx="227" lry="616" xml:id="z_f94r_l002"/>
+      <zone ulx="115" uly="1266" lrx="146" lry="1347" xml:id="z_f94r_l003"/>
+      <zone ulx="99" uly="1356" lrx="236" lry="1443" xml:id="z_f94r_l004"/>
+      <zone ulx="62" uly="1424" lrx="252" lry="1552" xml:id="z_f94r_l005"/>
+      <zone ulx="52" uly="1527" lrx="270" lry="1645" xml:id="z_f94r_l006"/>
+      <zone ulx="56" uly="1630" lrx="252" lry="1760" xml:id="z_f94r_l007"/>
+      <zone ulx="155" uly="1708" lrx="239" lry="1835" xml:id="z_f94r_l008"/>
+      <zone ulx="482" uly="196" lrx="526" lry="280" xml:id="z_f94r_l009"/>
+      <zone ulx="485" uly="339" lrx="3255" lry="491" xml:id="z_f94r_l010"/>
+      <zone ulx="491" uly="451" lrx="3302" lry="588" xml:id="z_f94r_l011"/>
+      <zone ulx="482" uly="541" lrx="3299" lry="675" xml:id="z_f94r_l012"/>
+      <zone ulx="485" uly="634" lrx="3296" lry="765" xml:id="z_f94r_l013"/>
+      <zone ulx="479" uly="721" lrx="3271" lry="861" xml:id="z_f94r_l014"/>
+      <zone ulx="488" uly="818" lrx="3212" lry="980" xml:id="z_f94r_l015"/>
+      <zone ulx="479" uly="924" lrx="2110" lry="1042" xml:id="z_f94r_l016"/>
+      <zone ulx="485" uly="983" lrx="3224" lry="1135" xml:id="z_f94r_l017"/>
+      <zone ulx="3271" uly="883" lrx="3336" lry="983" xml:id="z_f94r_l018"/>
+      <zone ulx="479" uly="1082" lrx="3386" lry="1204" xml:id="z_f94r_l019"/>
+      <zone ulx="469" uly="1160" lrx="3156" lry="1291" xml:id="z_f94r_l020"/>
+      <zone ulx="469" uly="1241" lrx="3252" lry="1384" xml:id="z_f94r_l021"/>
+      <zone ulx="466" uly="1334" lrx="3190" lry="1462" xml:id="z_f94r_l022"/>
+      <zone ulx="473" uly="1421" lrx="3168" lry="1549" xml:id="z_f94r_l023"/>
+      <zone ulx="479" uly="1508" lrx="3187" lry="1648" xml:id="z_f94r_l024"/>
+      <zone ulx="466" uly="1602" lrx="3177" lry="1742" xml:id="z_f94r_l025"/>
+      <zone ulx="469" uly="1698" lrx="3152" lry="1826" xml:id="z_f94r_l026"/>
+      <zone ulx="482" uly="1785" lrx="3159" lry="1913" xml:id="z_f94r_l027"/>
+      <zone ulx="476" uly="1872" lrx="3156" lry="2006" xml:id="z_f94r_l028"/>
+      <zone ulx="476" uly="1966" lrx="2368" lry="2090" xml:id="z_f94r_l029"/>
+      <zone ulx="488" uly="2044" lrx="3159" lry="2174" xml:id="z_f94r_l030"/>
+      <zone ulx="482" uly="2131" lrx="3277" lry="2292" xml:id="z_f94r_l031"/>
+      <zone ulx="469" uly="2240" lrx="2514" lry="2361" xml:id="z_f94r_l032"/>
+      <zone ulx="485" uly="2308" lrx="3255" lry="2445" xml:id="z_f94r_l033"/>
+      <zone ulx="476" uly="2404" lrx="3081" lry="2535" xml:id="z_f94r_l034"/>
+      <zone ulx="473" uly="2488" lrx="3162" lry="2628" xml:id="z_f94r_l035"/>
+      <zone ulx="473" uly="2576" lrx="2259" lry="2706" xml:id="z_f94r_l036"/>
+      <zone ulx="494" uly="2666" lrx="3168" lry="2800" xml:id="z_f94r_l037"/>
+      <zone ulx="479" uly="2765" lrx="3128" lry="2908" xml:id="z_f94r_l038"/>
+      <zone ulx="473" uly="2846" lrx="3171" lry="2992" xml:id="z_f94r_l039"/>
+      <zone ulx="482" uly="2924" lrx="3065" lry="3089" xml:id="z_f94r_l040"/>
+      <zone ulx="466" uly="3008" lrx="3317" lry="3195" xml:id="z_f94r_l041"/>
+      <zone ulx="466" uly="3092" lrx="3296" lry="3279" xml:id="z_f94r_l042"/>
+      <zone ulx="485" uly="3176" lrx="3165" lry="3369" xml:id="z_f94r_l043"/>
+      <zone ulx="491" uly="3263" lrx="3184" lry="3462" xml:id="z_f94r_l044"/>
+      <zone ulx="473" uly="3356" lrx="3243" lry="3568" xml:id="z_f94r_l045"/>
+      <zone ulx="469" uly="3434" lrx="3190" lry="3671" xml:id="z_f94r_l046"/>
+      <zone ulx="479" uly="3540" lrx="3205" lry="3755" xml:id="z_f94r_l047"/>
+      <zone ulx="473" uly="3621" lrx="3199" lry="3851" xml:id="z_f94r_l048"/>
+      <zone ulx="476" uly="3714" lrx="3131" lry="3944" xml:id="z_f94r_l049"/>
+      <zone ulx="476" uly="3801" lrx="3268" lry="4041" xml:id="z_f94r_l050"/>
+      <zone ulx="476" uly="3898" lrx="3268" lry="4134" xml:id="z_f94r_l051"/>
+      <zone ulx="476" uly="4000" lrx="3156" lry="4231" xml:id="z_f94r_l052"/>
+      <zone ulx="473" uly="4091" lrx="3146" lry="4327" xml:id="z_f94r_l053"/>
+      <zone ulx="479" uly="4209" lrx="3137" lry="4427" xml:id="z_f94r_l054"/>
+      <zone ulx="466" uly="4312" lrx="3143" lry="4529" xml:id="z_f94r_l055"/>
+      <zone ulx="463" uly="4405" lrx="3090" lry="4632" xml:id="z_f94r_l056"/>
+      <zone ulx="463" uly="4511" lrx="3184" lry="4725" xml:id="z_f94r_l057"/>
+      <zone ulx="466" uly="4607" lrx="3156" lry="4812" xml:id="z_f94r_l058"/>
+      <zone ulx="473" uly="4704" lrx="3162" lry="4909" xml:id="z_f94r_l059"/>
+      <zone ulx="469" uly="4800" lrx="3152" lry="5071" xml:id="z_f94r_l060"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f94r_l001" xml:id="catmus_f94r_l001"/>
+          <seg type="raw_unreviewed">tie erd</seg>
+          <lb facs="#z_f94r_l002" xml:id="catmus_f94r_l002"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f94r_l003" xml:id="catmus_f94r_l003"/>
+          <seg type="raw_unreviewed">U</seg>
+          <lb facs="#z_f94r_l004" xml:id="catmus_f94r_l004"/>
+          <seg type="raw_unreviewed">Ruũt</seg>
+          <lb facs="#z_f94r_l005" xml:id="catmus_f94r_l005"/>
+          <seg type="raw_unreviewed">nlatir E</seg>
+          <lb facs="#z_f94r_l006" xml:id="catmus_f94r_l006"/>
+          <seg type="raw_unreviewed">Di qt oburest</seg>
+          <lb facs="#z_f94r_l007" xml:id="catmus_f94r_l007"/>
+          <seg type="raw_unreviewed">E clla cͥuas</seg>
+          <lb facs="#z_f94r_l008" xml:id="catmus_f94r_l008"/>
+          <seg type="raw_unreviewed">I itt</seg>
+          <lb facs="#z_f94r_l009" xml:id="catmus_f94r_l009"/>
+          <seg type="raw_unreviewed">‸</seg>
+          <lb facs="#z_f94r_l010" xml:id="catmus_f94r_l010"/>
+          <seg type="raw_unreviewed">sictu saxuit . x xxuit qu li ip̃m xxx ii i uiolatões / et lib̾canonã</seg>
+          <lb facs="#z_f94r_l011" xml:id="catmus_f94r_l011"/>
+          <seg type="raw_unreviewed">ipłoꝵꝭ. ĩt a poc̾fos porid. px ĩ pͥ ͤ i pricanõs ¶ ex molae catuũs scõꝵ</seg>
+          <lb facs="#z_f94r_l012" xml:id="catmus_f94r_l012"/>
+          <seg type="raw_unreviewed">pñi. ẽ spm̃ scũi blaspheũre ixxo qͥ i uiolato̾es ĩeꝵ ricauõs ecce rõ</seg>
+          <lb facs="#z_f94r_l013" xml:id="catmus_f94r_l013"/>
+          <seg type="raw_unreviewed">ne teneit᷑ uie aͨ cccenr abiꝑã ħ̃ puͫid xi uolite¶ Qrui cituoes qy</seg>
+          <lb facs="#z_f94r_l014" xml:id="catmus_f94r_l014"/>
+          <seg type="raw_unreviewed">katho ͦ abõĩbi st̃ r̾cipiẽdi ⁊ quo id. xoi ꝑ totũ / et sicauõs s̾. n.Idicũs</seg>
+          <lb facs="#z_f94r_l015" xml:id="catmus_f94r_l015"/>
+          <seg type="raw_unreviewed">illis ẽ standi. Rꝵ ãtiqͥer ⁊ pocẽr extat auctas ixxxm qii ls ip̃m ¶ Q a</seg>
+          <lb facs="#z_f94r_l016" xml:id="catmus_f94r_l016"/>
+          <seg type="raw_unreviewed">uoĩci cauoĩce umi̾e dũtide ise dax ã oĩbi</seg>
+          <lb facs="#z_f94r_l017" xml:id="catmus_f94r_l017"/>
+          <seg type="raw_unreviewed">dauti cce ⁊ uẽt ẽ ut ad pũctõ ynol ñõs audie᷑ .xxi cleysͥ añ fiẽ</seg>
+          <lb facs="#z_f94r_l018" xml:id="catmus_f94r_l018"/>
+          <seg type="raw_unreviewed">¶</seg>
+          <lb facs="#z_f94r_l019" xml:id="catmus_f94r_l019"/>
+          <seg type="raw_unreviewed">esꝰ ⁊ ecais cũ denocõe cordꝭ ẽcũtand. ⁊ cbhedrales caub/ũ st̃ ibidmũ ecũo</seg>
+          <lb facs="#z_f94r_l020" xml:id="catmus_f94r_l020"/>
+          <seg type="raw_unreviewed">di. di xcii c̃tũtes I eoꝵ risolẽpiũ ͨ tr̃m ⁊̃ cũbꝰ ẽ ꝯaidꝰ depe yltĩs</seg>
+          <lb facs="#z_f94r_l021" xml:id="catmus_f94r_l021"/>
+          <seg type="raw_unreviewed">es plepi dũ ĩcũtande adẜade̾ ppli blanda bex q̃ri᷑. Igu uõx deieĩt</seg>
+          <lb facs="#z_f94r_l022" xml:id="catmus_f94r_l022"/>
+          <seg type="raw_unreviewed">d uxis ĩsucta Iest gła ĩ dobelẜ 2a᷑ cc sꝑ ẽoĩtũdi de qd i lui duo / E</seg>
+          <lb facs="#z_f94r_l023" xml:id="catmus_f94r_l023"/>
+          <seg type="raw_unreviewed">rbr̃ uł cliois ⁊ t̾ eplao iĩse cũtãs ẽ episĩotud. xxii .I. clicũ ¶e p̃t̾</seg>
+          <lb facs="#z_f94r_l024" xml:id="catmus_f94r_l024"/>
+          <seg type="raw_unreviewed">festũ pasthe ⁊ peniͤͫ. cũ tres ps aduoct᷑ᵘ camͥ ꝑtotũ p̃stã ulnũ si festũ</seg>
+          <lb facs="#z_f94r_l025" xml:id="catmus_f94r_l025"/>
+          <seg type="raw_unreviewed">enonẽ ⁊si n̾o seu̾i xii pͥs r̾ataꝰ ide ꝯ duri uĩ die Q neo d obedure</seg>
+          <lb facs="#z_f94r_l026" xml:id="catmus_f94r_l026"/>
+          <seg type="raw_unreviewed">exĩs uł abatib cũ nãdãt missis ꝓħetig̾cãtae. x qui si qͥs d̾ hac nc hẽs</seg>
+          <lb facs="#z_f94r_l027" xml:id="catmus_f94r_l027"/>
+          <seg type="raw_unreviewed">ap ͭ d seii mbrard.uii ũ decẽt : ed capite lañ ue sõi Rubtagi᷑ d̾iuiss</seg>
+          <lb facs="#z_f94r_l028" xml:id="catmus_f94r_l028"/>
+          <seg type="raw_unreviewed">te faciliꝰ m̃bra cor ĩfiaũt e q. Cep E totũ cor morbsi iidit̾</seg>
+          <lb facs="#z_f94r_l029" xml:id="catmus_f94r_l029"/>
+          <seg type="raw_unreviewed">si lãgiror ĩcipte cñatiꝰ nõ su̾it. q q ui sd⁊̃ quit</seg>
+          <lb facs="#z_f94r_l030" xml:id="catmus_f94r_l030"/>
+          <seg type="raw_unreviewed">carcter ĩ bax ĩ umu ꝯxpura mi displic eꝵ clrict bapͥ ũ ꝑdi᷑ ex</seg>
+          <lb facs="#z_f94r_l031" xml:id="catmus_f94r_l031"/>
+          <seg type="raw_unreviewed">qͣlcr̃cs ꝓcc̃orxxxii qui licte It si scismatis / abhetios uł es ĩ sorm.ł egce</seg>
+          <lb facs="#z_f94r_l032" xml:id="catmus_f94r_l032"/>
+          <seg type="raw_unreviewed">baptize. carictem ropit.de. Isec an qmõ añ meͬ</seg>
+          <lb facs="#z_f94r_l033" xml:id="catmus_f94r_l033"/>
+          <seg type="raw_unreviewed">cscardiciles. ¶ sto siluester pmꝰ ut̾ suisse. ã nũst̾s dni pͣpe. collata </seg>
+          <lb facs="#z_f94r_l034" xml:id="catmus_f94r_l034"/>
+          <seg type="raw_unreviewed">les/ appellaͭ cardĩales u q uii p̃sus.¶e baciłe sede̾ ap ͫ ep̃i car ᷝ ͣͣ.x i ᷤ</seg>
+          <lb facs="#z_f94r_l035" xml:id="catmus_f94r_l035"/>
+          <seg type="raw_unreviewed">aliũct. d sͦ. dilacõe pͣpm delige .d.xxiii ĩ no᷑ ĩes sũmꝰ pentisex ũ insi</seg>
+          <lb facs="#z_f94r_l036" xml:id="catmus_f94r_l036"/>
+          <seg type="raw_unreviewed">acardĩali clitꝭ ĩ ligroẜ ⁊ cmendi e lxxix ci</seg>
+          <lb facs="#z_f94r_l037" xml:id="catmus_f94r_l037"/>
+          <seg type="raw_unreviewed">Dilitas. i duo st̃ p̃oepta cũt .s. aõt di ⁊ ꝓxnuni qi ĩst̾ytiu̾s /etꝵ ulio</seg>
+          <lb facs="#z_f94r_l038" xml:id="catmus_f94r_l038"/>
+          <seg type="raw_unreviewed">ca̾itas ñ ẽ. ñ pcͣ eẽ insti ͥ Iopium q i bbi ¶eꝵ q ouͥ ͭ ꝭ iussa sꝑuit: dñũ </seg>
+          <lb facs="#z_f94r_l039" xml:id="catmus_f94r_l039"/>
+          <seg type="raw_unreviewed">cai̾tus ẽ. tỹ iidus ꝓdit iꝑꝑ qui abiit t qͥ st ĩcli ͤ xtici ͭ ͦ st om̃i</seg>
+          <lb facs="#z_f94r_l040" xml:id="catmus_f94r_l040"/>
+          <seg type="raw_unreviewed">bondrꝭ eccesde qdini ecc̃e.Iesꝵ it̃ ꝑfca caitas ẽ ĩ hoĩe. qñ iul. iᵈ</seg>
+          <lb facs="#z_f94r_l041" xml:id="catmus_f94r_l041"/>
+          <seg type="raw_unreviewed">x ͣ q̃nti depe dii ¶ ħ q̃.Ieꝵ uͥba st pᷝrouẽda. q̃ unita᷑ ĩflant rcãiꝰ uluie</seg>
+          <lb facs="#z_f94r_l042" xml:id="catmus_f94r_l042"/>
+          <seg type="raw_unreviewed">rãt .d. pxixecce Ieꝵꝵ ñ ẽ cai̾tas ẜ lañuͦr ubi masi ind̾esũ corgi ixxmi qo nõ</seg>
+          <lb facs="#z_f94r_l043" xml:id="catmus_f94r_l043"/>
+          <seg type="raw_unreviewed">Oistitas sine ꝯtiuẽtia do plaqi. ꝙ nõ fcit uccͣitus ẜ bolũtas ixxxin</seg>
+          <lb facs="#z_f94r_l044" xml:id="catmus_f94r_l044"/>
+          <seg type="raw_unreviewed">q u ic̃ suluab ᷑ Ieꝵ abisq c̾state diã opa st̃ ĩ ꝑ scuã ixx yui q u t̾unt</seg>
+          <lb facs="#z_f94r_l045" xml:id="catmus_f94r_l045"/>
+          <seg type="raw_unreviewed">es custitas ũ ałr. qmͣ dd̾ ĩspirrutẽ hẽturd .xxxiii dehiid ^ eꝵ ip̃u </seg>
+          <lb facs="#z_f94r_l046" xml:id="catmus_f94r_l046"/>
+          <seg type="raw_unreviewed">p̃iule ẽ ꝑ uĩi artissiã ⁊ diffice le ĩ clle.d xxeni delus eꝵ panci custi</seg>
+          <lb facs="#z_f94r_l047" xml:id="catmus_f94r_l047"/>
+          <seg type="raw_unreviewed">⁊ siue cccrłi uic̃o ĩ ueni᷑ id l q tua Iesꝵ nẽo p̃t se głai custã cor hr̃e.</seg>
+          <lb facs="#z_f94r_l048" xml:id="catmus_f94r_l048"/>
+          <seg type="raw_unreviewed">depe d̾ n ĩme ͭ.¶eo custitas uĩtꝭ ñ auffert. ꝑ molũ hillatã corͭseot nõ</seg>
+          <lb facs="#z_f94r_l049" xml:id="catmus_f94r_l049"/>
+          <seg type="raw_unreviewed">co p̃ corꝰ. uͥ p̾ͫ anu corfpa.xxxii qu ũ ptͣ / eꝵ ugo l uiolũt᷑</seg>
+          <lb facs="#z_f94r_l050" xml:id="catmus_f94r_l050"/>
+          <seg type="raw_unreviewed">oppssa ũ tñd custꝭ u̾gĩbi coeqr ixxpui q u ille ꝰeꝵ sũ tacbi ĩ xutice</seg>
+          <lb facs="#z_f94r_l051" xml:id="catmus_f94r_l051"/>
+          <seg type="raw_unreviewed">cor ͤ castitas ꝑd. ĩ xoxxn qo uͨ solo. deli r̾qre ubi añ᷑ depudi ¶ ed̾ ordi</seg>
+          <lb facs="#z_f94r_l052" xml:id="catmus_f94r_l052"/>
+          <seg type="raw_unreviewed">inͥ sac̃ castitas ẽ ãuexa .d. lxxxii c̃ ĩper̾to ¶ oꝵ qr tꝑe gr̃e ñ gn̾is</seg>
+          <lb facs="#z_f94r_l053" xml:id="catmus_f94r_l053"/>
+          <seg type="raw_unreviewed">successie. s uite ꝑ scĩo q̃ri. iõ sac̾dotibi ꝯtiue castitas ĩ ꝑat᷑ĩ xpx is</seg>
+          <lb facs="#z_f94r_l054" xml:id="catmus_f94r_l054"/>
+          <seg type="raw_unreviewed">q iii ncrat᷑ I ed clic̾i sientulis ecc̃e. añ sacͤs ordĩes m̃riͦ quĩcti. ⁊</seg>
+          <lb facs="#z_f94r_l055" xml:id="catmus_f94r_l055"/>
+          <seg type="raw_unreviewed">p ᷝ ĩ fac̾e. cũ uxoi̾bi licite sti̾e pñt. dxxxi ¶ħ an ⁊c se ⁊ xxxi</seg>
+          <lb facs="#z_f94r_l056" xml:id="catmus_f94r_l056"/>
+          <seg type="raw_unreviewed">d. siquis Me tye sc̃i g̾gon sbdyacõis ⁊ srpͣ p̃cepta ẽ ꝯuuẽcurd pxx</seg>
+          <lb facs="#z_f94r_l057" xml:id="catmus_f94r_l057"/>
+          <seg type="raw_unreviewed">añ tenuĩ sIbri sl exi ita nũst᷑ altatꝭ d cẽ castiiᵈ xxxi lex / Q ułls</seg>
+          <lb facs="#z_f94r_l058" xml:id="catmus_f94r_l058"/>
+          <seg type="raw_unreviewed">c od altutꝭ nũ saͫͥ accede̾. uͦ cui/ castitas. cñ su̾it mꝓbatu at xxxi</seg>
+          <lb facs="#z_f94r_l059" xml:id="catmus_f94r_l059"/>
+          <seg type="raw_unreviewed">añ ae ¶esy p  ꝓfessit Itiũ  lle / scłatt uł mẽch iro. stłre ũ st ixx</seg>
+          <lb facs="#z_f94r_l060" xml:id="catmus_f94r_l060"/>
+          <seg type="raw_unreviewed">¶Elsus eh ci Ialioꝵ allmi d i tħr abãꝓpõtexu .i qr  uii. qi ꝑtrtl̃</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f94r_l001" xml:id="medusa_f94r_l001"/>
+          <seg type="raw_unreviewed">tas. 228</seg>
+          <lb facs="#z_f94r_l002" xml:id="medusa_f94r_l002"/>
+          <seg type="raw_unreviewed">18</seg>
+          <lb facs="#z_f94r_l003" xml:id="medusa_f94r_l003"/>
+          <seg type="raw_unreviewed">v2</seg>
+          <lb facs="#z_f94r_l004" xml:id="medusa_f94r_l004"/>
+          <seg type="raw_unreviewed">wendunt</seg>
+          <lb facs="#z_f94r_l005" xml:id="medusa_f94r_l005"/>
+          <seg type="raw_unreviewed">sulator</seg>
+          <lb facs="#z_f94r_l006" xml:id="medusa_f94r_l006"/>
+          <seg type="raw_unreviewed">di qͥs obirest</seg>
+          <lb facs="#z_f94r_l007" xml:id="medusa_f94r_l007"/>
+          <seg type="raw_unreviewed">Item clerici criminosi</seg>
+          <lb facs="#z_f94r_l008" xml:id="medusa_f94r_l008"/>
+          <seg type="raw_unreviewed">sue ecclesie</seg>
+          <lb facs="#z_f94r_l009" xml:id="medusa_f94r_l009"/>
+          <seg type="raw_unreviewed">4</seg>
+          <lb facs="#z_f94r_l010" xml:id="medusa_f94r_l010"/>
+          <seg type="raw_unreviewed">sancti sampnori .xxxiii. qii hꝰ ip̃m xxu .i. violatores / Quod lib̃ canonici</seg>
+          <lb facs="#z_f94r_l011" xml:id="medusa_f94r_l011"/>
+          <seg type="raw_unreviewed">apłoꝵ. ⁊c̃ apoc̃foꝵ po᷑ .d. xv ĩ pͥa d̃ xvi canõs / Ex molaͬe canõs scõꝵ</seg>
+          <lb facs="#z_f94r_l012" xml:id="medusa_f94r_l012"/>
+          <seg type="raw_unreviewed">pr̃m. ẽ spm̃ sc̃m blasphemare .xxv. q. 1. violatores / Q2 2ᵐ canõs ecc̃e nõ</seg>
+          <lb facs="#z_f94r_l013" xml:id="medusa_f94r_l013"/>
+          <seg type="raw_unreviewed">ne teneur unie a cccen. et ab ipa h: puꝰ d. xi. iolite. Qui citiões eũ</seg>
+          <lb facs="#z_f94r_l014" xml:id="medusa_f94r_l014"/>
+          <seg type="raw_unreviewed">kathoᶜⁱ ab oĩb st̃ recipiẽdi ⁊ qͥ nõ d̃. xvi ꝑ totũ eꝵ si canõs s̃ ĩsp̃. qͣdicũt</seg>
+          <lb facs="#z_f94r_l015" xml:id="medusa_f94r_l015"/>
+          <seg type="raw_unreviewed">illis ẽ staud̃. qr̃ ut̃iusper ⁊ potẽr ex tat auct̃as. xxxiii ii li᷑ ip̃m ¶ Q: co</seg>
+          <lb facs="#z_f94r_l016" xml:id="medusa_f94r_l016"/>
+          <seg type="raw_unreviewed">noĩci canõice vene dñt de 1se d. 16 ĩ oĩbꝰ</seg>
+          <lb facs="#z_f94r_l017" xml:id="medusa_f94r_l017"/>
+          <seg type="raw_unreviewed">Mant eccẽ ĩ uẽt/ ẽ ut ad pũicẽm p̃uos aĩos audieᵐ. xxi cleys̃ añ fiẽ</seg>
+          <lb facs="#z_f94r_l018" xml:id="medusa_f94r_l018"/>
+          <seg type="raw_unreviewed">d</seg>
+          <lb facs="#z_f94r_l019" xml:id="medusa_f94r_l019"/>
+          <seg type="raw_unreviewed">eꝭ ⁊ ecciis cũ denonõe eorẽꝭ c̃cũtand̃. ⁊ cathedrales crarũ st̃ ibidm̃ ex cũ</seg>
+          <lb facs="#z_f94r_l020" xml:id="medusa_f94r_l020"/>
+          <seg type="raw_unreviewed">d̃i. d̃. xcii cãtibꝰ. Ieꝵ 2.ᵐ sobẽpnĩᵗᵉˢ tp̃m ⁊̃ cũbꝰ ẽ exoñdꝰ. d̃. xxu ꝑ sc̃is</seg>
+          <lb facs="#z_f94r_l021" xml:id="medusa_f94r_l021"/>
+          <seg type="raw_unreviewed">Quod plebex p. dñi ĩ cũtando ad fructeͥe ppłi blandu lex q̃rũt᷑ . igr̃a uox deid̾itꝰ</seg>
+          <lb facs="#z_f94r_l022" xml:id="medusa_f94r_l022"/>
+          <seg type="raw_unreviewed">d̃ xxii ĩ sancta Eꝵ gl̃a ĩ excelsꝰ 2.1. cũ sꝑ ẽ oĩbñd̃ de .i. d. ħi duo Eꝵ</seg>
+          <lb facs="#z_f94r_l023" xml:id="medusa_f94r_l023"/>
+          <seg type="raw_unreviewed">presbiter uł clericus ⁊c̃ ex plꝰ iũse tũtas ẽ exisic̃tundꝰ xxii. i. clicũ / ¶ Qr p̃tꝰ</seg>
+          <lb facs="#z_f94r_l024" xml:id="medusa_f94r_l024"/>
+          <seg type="raw_unreviewed">festũ Pasche ⁊ penᵉᵐ. cũ tres pᵃ ad noctᵘᵉ canuᵉⁱ / ꝑ totũ p̃fãt ãnũ si festũ</seg>
+          <lb facs="#z_f94r_l025" xml:id="medusa_f94r_l025"/>
+          <seg type="raw_unreviewed">Emonẽ. Si nõ fuit xii p̃s tãtaꝰ. de i d̃ iii uĩdie/ Q: nẽo d̃ obedine</seg>
+          <lb facs="#z_f94r_l026" xml:id="medusa_f94r_l026"/>
+          <seg type="raw_unreviewed">ep̃is uł abatib cũ mandũt missas propheticꝭ sc̃itare .x. qui si qͥs d̾ hac u̾b̃ hẽs</seg>
+          <lb facs="#z_f94r_l027" xml:id="medusa_f94r_l027"/>
+          <seg type="raw_unreviewed">Capⁿ d̃ 3ͣ mr̃bra d. xii ũ decẽt. Qⁱ capite lãii uespĩ ‸ ubi agi᷑ d̾ mi͂ ss</seg>
+          <lb facs="#z_f94r_l028" xml:id="medusa_f94r_l028"/>
+          <seg type="raw_unreviewed">te faciliꝰ m̃bra corꝭ ĩfrũt᷑ u̾i ꝙ e̾bꝵ / Qꝵ totũ corꝰ morbi ĩmodic</seg>
+          <lb facs="#z_f94r_l029" xml:id="medusa_f94r_l029"/>
+          <seg type="raw_unreviewed">si lang̃wor ĩ cap. te c̃nãtiꝰ nõ fu̾it .ii. i. uii sb̃ ⁊ quid</seg>
+          <lb facs="#z_f94r_l030" xml:id="medusa_f94r_l030"/>
+          <seg type="raw_unreviewed">Caracter in bapͫ in primꝰ xx iiii mi displicꝰ ¶ Qr caractͥ bapͫ ñ ꝑdit᷑ ex</seg>
+          <lb facs="#z_f94r_l031" xml:id="medusa_f94r_l031"/>
+          <seg type="raw_unreviewed">qͣlibet p̃c̃o xxxii xui licite ¶ It̃ si stip̃natio abssetio vel eiꝰ ĩ for̃m ecc̃e</seg>
+          <lb facs="#z_f94r_l032" xml:id="medusa_f94r_l032"/>
+          <seg type="raw_unreviewed">baptizis. caracte̶m r̃cipit. de. 11e d̃ mi qͥmo añ meᵐ</seg>
+          <lb facs="#z_f94r_l033" xml:id="medusa_f94r_l033"/>
+          <seg type="raw_unreviewed">cardinales . M. sc̃s silvester pͥmꝰ ut fuisse . qͥ m̃srs dñi p̃pe . collata</seg>
+          <lb facs="#z_f94r_l034" xml:id="medusa_f94r_l034"/>
+          <seg type="raw_unreviewed">les / appellati cardinales in qͥm p̃fuł. IeR bac̃te sede apᵃ. ep̃i car̃lᵒꝵ. aⁱ 1ᵗᵒ</seg>
+          <lb facs="#z_f94r_l035" xml:id="medusa_f94r_l035"/>
+          <seg type="raw_unreviewed">aluũctꝭ. d̃ s̃ sꝰ dilacõe p̃pn dligẽ. d. xxiiii ĩ meͣ. Eꝵ sũmꝰ pontifex. ũ misi</seg>
+          <lb facs="#z_f94r_l036" xml:id="medusa_f94r_l036"/>
+          <seg type="raw_unreviewed">a cardinalibus clericis in ligros e inturandis et lxxxx c i</seg>
+          <lb facs="#z_f94r_l037" xml:id="medusa_f94r_l037"/>
+          <seg type="raw_unreviewed">Oltas .y. dno st̃ p̃cepta cãitꝭ s. aõr de᷑ ⁊ ꝓxĩ . uiii q. i. ĩ scͥpturis / eꝵ ułi</seg>
+          <lb facs="#z_f94r_l038" xml:id="medusa_f94r_l038"/>
+          <seg type="raw_unreviewed">caritas ñ ẽ. ñ pt̃ ẽẽ misicⁱ. xxiiii q 1 b̃lu TQr q̃ cur̃t fuisse spirit̃. dñi qͥ</seg>
+          <lb facs="#z_f94r_l039" xml:id="medusa_f94r_l039"/>
+          <seg type="raw_unreviewed">cũitas ẽ. tꝙ̃ undus ꝓdit .xx. qui abnt ¶ It̃ q̃ st̃ ĩ cuᷝiᷝ ͤ. ꝑtici᷑ᷤᷤ st̃ om̃i</seg>
+          <lb facs="#z_f94r_l040" xml:id="medusa_f94r_l040"/>
+          <seg type="raw_unreviewed">bonoꝵ eccẽ de .i. d̃ m. eccẽ. Ieꝵ t̃t ꝑfcta cu̾itas ẽ ĩ hoĩe. qñ nil. iᵈ</seg>
+          <lb facs="#z_f94r_l041" xml:id="medusa_f94r_l041"/>
+          <seg type="raw_unreviewed">xᵐ q̃rit de pe d̃ ii C q̃q. Ier u̾ba st̃ p̃ponẽda. q̃ u̾itata᷑ ĩflant. ⁊ ca̾uꝰ u̾sue</seg>
+          <lb facs="#z_f94r_l042" xml:id="medusa_f94r_l042"/>
+          <seg type="raw_unreviewed">rãt/ d̃. xxix eccẽ. ¶ eꝵ ñ ẽ caꝵtas s langwr ubi malimor̾sũ corꝰgꝰ. xxiii qo nõ</seg>
+          <lb facs="#z_f94r_l043" xml:id="medusa_f94r_l043"/>
+          <seg type="raw_unreviewed">q̃ uͭt subu̾b᷑. Seꝑ abiscꝭ cãssate aũ me ꝑ se</seg>
+          <lb facs="#z_f94r_l044" xml:id="medusa_f94r_l044"/>
+          <seg type="raw_unreviewed">qͥ u t̃c subnib᷑ 72ꝭ absq cãstate om̃a oꝑa st̃ ĩ ꝑfr̃i .xxxiii. qͥ u tunc</seg>
+          <lb facs="#z_f94r_l045" xml:id="medusa_f94r_l045"/>
+          <seg type="raw_unreviewed">Exustitas ñ alr̃. qmͣ dbi ĩ spurante hẽtur. d. xxiiii de hiis Ex ipũ ÷</seg>
+          <lb facs="#z_f94r_l046" xml:id="medusa_f94r_l046"/>
+          <seg type="raw_unreviewed">p̃uile ẽ ꝑ unã artissiam ⁊ difficilem ĩcłle̾ d̃ xxuiii de hiis / Ex ip̃a</seg>
+          <lb facs="#z_f94r_l047" xml:id="medusa_f94r_l047"/>
+          <seg type="raw_unreviewed">⁊ sine car̃ib uico ĩ beñr̃ d̃. litr tua / Quod nõe pt̃ se glori custũ cor hr̃e.</seg>
+          <lb facs="#z_f94r_l048" xml:id="medusa_f94r_l048"/>
+          <seg type="raw_unreviewed">corꝰ pꝰ corꝰ uͥ pͥm am̃i corꝰ paꝵ ꝓxꝰ uͥ corꝰ</seg>
+          <lb facs="#z_f94r_l049" xml:id="medusa_f94r_l049"/>
+          <seg type="raw_unreviewed">corꝭ pꝰ corꝰ. uͥ pͥꝰ amꝰ corꝭ parꝰ. xxxii. qͥ u. ũ pt̃. Ego u̾go l uiolũtꝰ</seg>
+          <lb facs="#z_f94r_l050" xml:id="medusa_f94r_l050"/>
+          <seg type="raw_unreviewed">oppressa ũ tñ dⁱᶜᵉ castꝭ u̾gĩbꝰ coe̾qͣre .xxxiii. qͥ u. ille / Qr̃ sñ taceri ĩ potestate</seg>
+          <lb facs="#z_f94r_l051" xml:id="medusa_f94r_l051"/>
+          <seg type="raw_unreviewed">corꝰ castitas ꝑd.᷑ xxxii q uͣ solo. de stͣ rͥqre ubi anͣ᷑ depudiꝰ / Eꝵ ordi-</seg>
+          <lb facs="#z_f94r_l052" xml:id="medusa_f94r_l052"/>
+          <seg type="raw_unreviewed">successio s̃ uite ꝑ scio q̃ri᷑ iũ sac̾dotali atino existit p̃</seg>
+          <lb facs="#z_f94r_l053" xml:id="medusa_f94r_l053"/>
+          <seg type="raw_unreviewed">successio s̃ uite ꝑ sancto q̃ri᷑᷑ iõ sacerdotibꝰ ꝯtine castitas ĩꝑit᷑ . xxxii</seg>
+          <lb facs="#z_f94r_l054" xml:id="medusa_f94r_l054"/>
+          <seg type="raw_unreviewed">qui n᷑c᷑rat. Q: clici orientalıs ecc̃e. añ sacͤs ordĩes nũit᷑ quĩcti. 2</seg>
+          <lb facs="#z_f94r_l055" xml:id="medusa_f94r_l055"/>
+          <seg type="raw_unreviewed">pꝰ ĩ sacͥs. cũ uxoriͥb licite scil̃e pũt. d̃ .xxxi. Cᵃ LIIII ͤ 2c se ⁊ xxxi</seg>
+          <lb facs="#z_f94r_l056" xml:id="medusa_f94r_l056"/>
+          <seg type="raw_unreviewed">d̃. signis Ex tpe sc̃i gr̃goꝰ subxacõis ⁊ supra p̃cepta ẽ ꝯtinencia .d̃. xxx</seg>
+          <lb facs="#z_f94r_l057" xml:id="medusa_f94r_l057"/>
+          <seg type="raw_unreviewed">añ tẽrmũ Itm̃ ft̃ ep̃i ita nũsc̃e altarꝭ d eẽ casti d̃ xxxi lxo Quod nulls</seg>
+          <lb facs="#z_f94r_l058" xml:id="medusa_f94r_l058"/>
+          <seg type="raw_unreviewed">d ad altare nũ sancti accedẽ. uͤ cuiꝰ castitas. cũ fuerit applutum. d̃ xxxi</seg>
+          <lb facs="#z_f94r_l059" xml:id="medusa_f94r_l059"/>
+          <seg type="raw_unreviewed">aũ tẽꝰ Ego P. professꝰ contuĩtꝰ cleri seclãreũ uł mechꝰ nr̃oꝵ. Ioh̃e u̇ pt̃ xx</seg>
+          <lb facs="#z_f94r_l060" xml:id="medusa_f94r_l060"/>
+          <seg type="raw_unreviewed">¶ Usus eꝵ capellanioꝵ nullum d t̾c̾hr̃ abõ ꝓpoĩte xxi. q. qr  VII. q. 1 ꝑtotũ</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f94r_l001 #z_f94r_l002 #z_f94r_l003 #z_f94r_l004 #z_f94r_l005 #z_f94r_l006 #z_f94r_l007 #z_f94r_l008 #z_f94r_l009" xml:id="u_94r_001">[fragmenty sousední stránky: […] ponuntur […] obiecerit […] ; netextová stopa]</p>
+        <note type="editorial" corresp="#u_94r_001" xml:lang="cs">Úzký levý list, segment 9 černá značka; neklasifikuji jako hlavní text.</note>
+        <p facs="#z_f94r_l010 #z_f94r_l011 #z_f94r_l012 #z_f94r_l013 #z_f94r_l014 #z_f94r_l015 #z_f94r_l016" xml:id="u_94r_002">[…] Spiritu sancto […] Violatores. Quod liber canonum apostolorum inter apocrypha ponitur […] In prima et cap. Canones. Quod violare canones sanctorum patrum est Spiritum sanctum blasphemare […] Violatores. Quod qui canones ecclesiae Romanae tenere non vult nec […] ecclesiae […] habet partem […] Nolite. Quod canones qui catholici ab omnibus sunt recipiendi et quo […] per totum. Quod si canones sibi contradicunt illis est standum quorum antiquior et potior extat auctoritas […] Ipsam. Quod canonici canonice vivere debent […] Ab omnibus.</p>
+        <note type="editorial" corresp="#u_94r_002" xml:lang="cs">Obrazová četba nativních pásů; rozvedený návrh historického kanonického rejstříku. Neúplné citace a nejistoty zachovány, odborně nerevidováno.</note>
+        <p facs="#z_f94r_l017 #z_f94r_l018 #z_f94r_l019 #z_f94r_l020 #z_f94r_l021 #z_f94r_l022" xml:id="u_94r_003">Cantus ecclesiae […] ut ad […] non nos audiat […] Cleros […]. Quod in ecclesiis cum devotione cordis est cantandum et cathedrales cantus non sunt […] ecclesiae […] Cantantes. Quod in sollemnitatibus […] cantibus […] confessio […] De poenitentia […]. Quod plerumque dum in cantando ad suadendum populo blanda vox quaeritur longe a […] decedit […] In sancta. Quod Gloria in excelsis […] semper est omittendum […] Hi duo.</p>
+        <note type="editorial" corresp="#u_94r_003" xml:lang="cs">Zásadní omezení Gloria in excelsis není čitelné; nejde o neomezený zákaz. První heslo o zpěvu má nejasný účel. Segment 18 je černá tečka mezi řádky.</note>
+        <p facs="#z_f94r_l023 #z_f94r_l024 #z_f94r_l025 #z_f94r_l026" xml:id="u_94r_004">Presbyter vel clericus extra […] cantans est excommunicandus […] Clericum. Quod praeter festum Paschae et Pentecostes cum tres personae […] psalmum […] nisi festum […] et si non fuerit […] Prius […] Non […]. Quod non debet obedire episcopis vel abbatibus cum mandant missas pro haereticis cantare […] Si quis. [přeškrtnutý konec: de hac non habes …]</p>
+        <note type="editorial" corresp="#u_94r_004" xml:lang="cs">Rejstříkové pravidlo 24–25 je příliš zkratkovité pro úplnou rekonstrukci; nevytvářím z něj nové liturgické ustanovení. Červeně přeškrtnutá poznámka 26 zachována.</note>
+        <p facs="#z_f94r_l027 #z_f94r_l028 #z_f94r_l029 #z_f94r_l030 #z_f94r_l031 #z_f94r_l032" xml:id="u_94r_005">Caput debet sequi membra […] Non decet. Quod capite languente facilius membra corporis infirmantur […] Quod […]. Quod totum corpus morbis invaditur si languor incipiens curatus non fuerit […] Sed et […]. Character in baptismo in unctione et confirmatione indelebilis […]. Quod character baptismi non perditur ex quocumque peccato […] Licite. Item si schismaticus vel haereticus vel in forma […] baptizat characterem recipit […] Quoniam […]</p>
+        <note type="editorial" corresp="#u_94r_005" xml:lang="cs">První věta má viditelné Caput debet sequi membra, ale může jít o zkratkový odkaz s obráceným vztahem; zachováno s upozorněním. U 30 je výčet svátostí nejistý, nepřidávám svěcení automaticky.</note>
+        <p facs="#z_f94r_l033 #z_f94r_l034 #z_f94r_l035 #z_f94r_l036" xml:id="u_94r_006">Cardinales. Quod sanctus Silvester primus […] ministros domini papae collaterales appellavit cardinales […] Praesul. Quod vacante sede apostolica episcopi cardinales […] adiuncti debent sine dilatione papam deligere […] In nomine. Quod summus pontifex non nisi a cardinalibus electus […] et condemnandus est […] cap. I.</p>
+        <note type="editorial" corresp="#u_94r_006" xml:lang="cs">Historická tvrzení rejstříku nejsou zde nezávisle ověřenou historií kardinálského kolegia.</note>
+        <p facs="#z_f94r_l037 #z_f94r_l038 #z_f94r_l039 #z_f94r_l040 #z_f94r_l041 #z_f94r_l042" xml:id="u_94r_007">Caritas. Duo sunt praecepta caritatis, scilicet amor Dei et proximi […] In scripturis. Quod ubi caritas non est non potest esse iustitia […] Si […]. Quod qui omnia iussa servat, dum caritas est […]; tamen Iudas proditor propter […] qui […] inter […] et omnis […] De consecratione […]. Quod item perfecta caritas est in homine quando […] quantum […] De poenitentia […] Quod […]. Quod verba sunt praevidenda quae unitatem inflammant et caritatem vulnerant […] Ecce. Quod non est caritas sed languor ubi mali indecenti correctione […] Non […].</p>
+        <note type="editorial" corresp="#u_94r_007" xml:lang="cs">Třetí věta 38–40 je podstatně neúplná. V 41 se může číst unitatem/inimicitiam; původní navržené unitatem je významově sporné, čtení vyžaduje revizi.</note>
+        <p facs="#z_f94r_l043 #z_f94r_l044 #z_f94r_l045 #z_f94r_l046 #z_f94r_l047 #z_f94r_l048 #z_f94r_l049 #z_f94r_l050" xml:id="u_94r_008">Castitas sine continentia Deo placet, quam non facit necessitas sed voluntas […] Et salvabitur. Quod absque castitate cetera opera sunt imperfecta […] Tenuit. Quod castitas non aliter quam Deo inspirante habetur […] De his. Quod ipsam servare per viam artissimam et difficilem incedere […] De his. Quod pauci casti et sine cetero vitio inveniuntur […] Quod tua. Quod nemo potest se gloriari castum cor habere […] De poenitentia […] In […]. Quod castitas virtus non aufertur per violentiam illatam corpori sicut non corrumpitur corpus nisi prius animo corrupto […] Non potest. Quod virgo licet violenter oppressa non tamen debet castis virginibus coaequari […] Illae.</p>
+        <note type="editorial" corresp="#u_94r_008" xml:lang="cs">U první věty je formulace sine continentia významově neobvyklá a vyžaduje kontrolu zkratky. Pasáž uvádí různá dobová hodnocení sexuálního násilí; nejsou stanoviskem editora.</note>
+        <p facs="#z_f94r_l051 #z_f94r_l052 #z_f94r_l053 #z_f94r_l054 #z_f94r_l055 #z_f94r_l056 #z_f94r_l057 #z_f94r_l058 #z_f94r_l059 #z_f94r_l060" xml:id="u_94r_009">Quod solo tactu in vitio […] castitas perditur […] Non solo. [poznámka: require ubi agitur de pudicitia.] Quod ordini sacro castitas est annexa […] Cum […]. Quod tempore gratiae non generis successio sed vitae perfectio quaeritur; ideo sacerdotibus continens castitas imperatur […] XIX q. III […]. Quod clerici orientalium ecclesiarum ante sacros ordines matrimonio coniuncti et […] cum uxoribus licite stare possunt […] et cap. Si quis. Item tempore sancti Gregorii subdiaconibus et supra praecepta est continentia […]. Qui ministrant altari debent esse casti […] Lex. Quod nullus ad altaris ministerium accedere non […] cuius castitas […] probata […] Ante […]. Quod professi […] saeculariter vel […] stare non sunt […]. Casus. Casus aliorum […] abiici […] Qui […].</p>
+        <note type="editorial" corresp="#u_94r_009" xml:lang="cs">Segment 51 má sporný začátek solo tactu a pokračující poznámku; doktrinální podmínku nedoplňuji. Poslední hesla 59–60 jsou neúplná a pokračují dále.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_94r_001">[Fragmenty sousední stránky: […] uvádějí se […] namítl […] ; netextová stopa.]</p>
+        <p corresp="#u_94r_002">[…] Duchem svatým […] Violatores. Kniha apoštolských kánonů se řadí mezi apokryfy […]. Porušovat kánony svatých otců znamená rouhat se Duchu svatému […]. Kdo nechce zachovávat kánony římské církve, nemá […] podíl na církvi […]. Katolické kánony mají přijímat všichni […]. Odporují-li si kánony, má se setrvat při těch, jejichž autorita je starší a větší […]. Kanovníci mají žít kanonicky […] Ab omnibus.</p>
+        <p corresp="#u_94r_003">Církevní zpěv […] aby při […] nás neslyšel […]. V kostelích se má zpívat se zbožností srdce a katedrální zpěvy nemají […] církev […]. Při slavnostech […] zpěvy […] vyznání […]. Často se při zpěvu hledá lahodný hlas, aby se zalíbilo lidu, a člověk se tak daleko vzdaluje od […] Gloria in excelsis […] se má vždy vynechávat […] Hi duo.</p>
+        <p corresp="#u_94r_004">Kněz nebo klerik zpívající mimo […] má být exkomunikován […]. Mimo svátky Velikonoc a Letnic, když tři osoby […] žalm […] ledaže svátek […] není-li […] Nemá se poslouchat biskupů a opatů, když přikazují sloužit zpívané mše za kacíře […] Si quis. [Přeškrtnutý konec: o tom nemáš …]</p>
+        <p corresp="#u_94r_005">Hlavu mají následovat údy […] [doslovná vazba je nejistá]. Je-li hlava nemocná, údy těla snáze onemocní […]. Nemoc napadá celé tělo, není-li počínající neduh léčen […]. Znamení při křtu, pomazání a biřmování je nesmazatelné […]. Křestní znamení se neztrácí žádným hříchem […]. I když křtí schizmatik nebo kacíř nebo ve formě […] člověk přijímá znamení […].</p>
+        <p corresp="#u_94r_006">Kardinálové. Svatý Silvestr jako první […] poboční služebníky pana papeže nazval kardinály […]. Při uprázdnění apoštolského stolce mají kardinálové biskupové […] připojení bez prodlení zvolit papeže […]. Nejvyšší pontifik, který není zvolen kardinály, […] a má být odsouzen […].</p>
+        <p corresp="#u_94r_007">Láska. Dvě jsou přikázání lásky: láska k Bohu a bližnímu […]. Kde není láska, nemůže být spravedlnost […]. Kdo zachovává všechny příkazy, dokud je láska […] přesto zrádce Jidáš kvůli […] mezi […] Dokonalá láska je v člověku tehdy, když […] Je třeba předvídat slova, která rozněcují jednotu a zraňují lásku […]. Není láskou, nýbrž slabostí, když zlí […] napravováním […].</p>
+        <p corresp="#u_94r_008">Čistota bez zdrženlivosti se Bohu líbí; nepůsobí ji nutnost, ale vůle […]. Bez čistoty jsou ostatní skutky nedokonalé […]. Čistoty se nedosahuje jinak než Božím vnuknutím […]. Zachovávat ji znamená kráčet velmi těsnou a obtížnou cestou […]. Málo je těch, kteří jsou čistí a zároveň bez jiné neřesti […]. Nikdo se nemůže chlubit, že má čisté srdce […]. Ctnost čistoty se neodnímá násilím učiněným tělu, stejně jako se tělo neporušuje, není-li nejprve porušeno v mysli […]. Panna, byť byla násilím přemožena, přesto nemá být postavena na roveň čistým pannám […].</p>
+        <p corresp="#u_94r_009">Čistota se ztrácí pouhým dotykem při neřesti […] Non solo. [Poznámka: hledej tam, kde se pojednává o cudnosti.] K posvátnému svěcení je připojena čistota […]. V době milosti se nehledá rodová posloupnost, ale dokonalost života; proto se kněžím přikazuje zdrženlivá čistota […]. Klerici východních církví, kteří před přijetím posvátných svěcení uzavřeli manželství, mohou […] právoplatně zůstávat s manželkami […]. Za svatého Řehoře byla podjáhnům a vyšším stupňům přikázána zdrženlivost […]. Ti, kdo slouží oltáři, mají být čistí […]. Ke službě oltáře nemá přistoupit nikdo, jehož čistota […] nebyla vyzkoušena […]. Ti, kdo složili slib […] světsky nebo […] nemají […]. Pád. Pády jiných […] odvrhovat […]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

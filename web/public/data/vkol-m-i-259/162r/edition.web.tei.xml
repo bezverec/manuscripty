@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 162r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_162r_coordinate; PNG SHA256 8a5f434357a305f6102f63e1cfc84e21fe9cb2e343c40565e23f19770d79d00e; archival TIFF SHA256 8765d8e21202504a2d1665b7c98c30856d2577416e1f738efa6e8376ea6c2b5c; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_162r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#162r"/>
+      <zone ulx="457" uly="513" lrx="3277" lry="696" xml:id="z_f162r_l001"/>
+      <zone ulx="479" uly="653" lrx="3268" lry="827" xml:id="z_f162r_l002"/>
+      <zone ulx="494" uly="784" lrx="3237" lry="948" xml:id="z_f162r_l003"/>
+      <zone ulx="488" uly="924" lrx="3168" lry="1104" xml:id="z_f162r_l004"/>
+      <zone ulx="479" uly="1057" lrx="3146" lry="1260" xml:id="z_f162r_l005"/>
+      <zone ulx="460" uly="1204" lrx="3227" lry="1424" xml:id="z_f162r_l006"/>
+      <zone ulx="482" uly="1381" lrx="1192" lry="1540" xml:id="z_f162r_l007"/>
+      <zone ulx="476" uly="1512" lrx="1195" lry="1686" xml:id="z_f162r_l008"/>
+      <zone ulx="641" uly="1642" lrx="3280" lry="1823" xml:id="z_f162r_l009"/>
+      <zone ulx="659" uly="1792" lrx="3280" lry="1969" xml:id="z_f162r_l010"/>
+      <zone ulx="507" uly="1947" lrx="3345" lry="2112" xml:id="z_f162r_l011"/>
+      <zone ulx="494" uly="2078" lrx="3296" lry="2268" xml:id="z_f162r_l012"/>
+      <zone ulx="529" uly="2230" lrx="3199" lry="2417" xml:id="z_f162r_l013"/>
+      <zone ulx="488" uly="2361" lrx="3202" lry="2576" xml:id="z_f162r_l014"/>
+      <zone ulx="501" uly="2526" lrx="3193" lry="2700" xml:id="z_f162r_l015"/>
+      <zone ulx="504" uly="2681" lrx="3171" lry="2856" xml:id="z_f162r_l016"/>
+      <zone ulx="488" uly="2818" lrx="3152" lry="3005" xml:id="z_f162r_l017"/>
+      <zone ulx="463" uly="2968" lrx="3255" lry="3132" xml:id="z_f162r_l018"/>
+      <zone ulx="479" uly="3108" lrx="3140" lry="3304" xml:id="z_f162r_l019"/>
+      <zone ulx="488" uly="3260" lrx="3168" lry="3437" xml:id="z_f162r_l020"/>
+      <zone ulx="463" uly="3412" lrx="3221" lry="3599" xml:id="z_f162r_l021"/>
+      <zone ulx="494" uly="3546" lrx="3187" lry="3733" xml:id="z_f162r_l022"/>
+      <zone ulx="466" uly="3689" lrx="3190" lry="3885" xml:id="z_f162r_l023"/>
+      <zone ulx="507" uly="3826" lrx="2711" lry="4032" xml:id="z_f162r_l024"/>
+      <zone ulx="535" uly="4004" lrx="1596" lry="4140" xml:id="z_f162r_l025"/>
+      <zone ulx="575" uly="4097" lrx="3349" lry="4333" xml:id="z_f162r_l026"/>
+      <zone ulx="669" uly="4246" lrx="3212" lry="4467" xml:id="z_f162r_l027"/>
+      <zone ulx="491" uly="4399" lrx="3327" lry="4598" xml:id="z_f162r_l028"/>
+      <zone ulx="463" uly="4536" lrx="3261" lry="4812" xml:id="z_f162r_l029"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f162r_l001" xml:id="catmus_f162r_l001"/>
+          <seg type="raw_unreviewed">hr̃ uñd tut niche mas ioli euch̃ rag uoer Romps a mee</seg>
+          <lb facs="#z_f162r_l002" xml:id="catmus_f162r_l002"/>
+          <seg type="raw_unreviewed">uud hort mem red und tut fꝰ. de in gecc̃ ich Wener gleicti</seg>
+          <lb facs="#z_f162r_l003" xml:id="catmus_f162r_l003"/>
+          <seg type="raw_unreviewed">ist ex gleichẽt sich dẽ meschen d̾ do pairt ein haus und</seg>
+          <lb facs="#z_f162r_l004" xml:id="catmus_f162r_l004"/>
+          <seg type="raw_unreviewed">ist tiesf grebt coud glegt dy gruntfest off em stam Do</seg>
+          <lb facs="#z_f162r_l005" xml:id="catmus_f162r_l005"/>
+          <seg type="raw_unreviewed">deuñ die gusse iot so fleusset das arasẜ iu de hans</seg>
+          <lb facs="#z_f162r_l006" xml:id="catmus_f162r_l006"/>
+          <seg type="raw_unreviewed">pond̃ mag is nicht exregni wem̃ es gepairt ist off den</seg>
+          <lb facs="#z_f162r_l007" xml:id="catmus_f162r_l007"/>
+          <seg type="raw_unreviewed">herten stayn</seg>
+          <lb facs="#z_f162r_l008" xml:id="catmus_f162r_l008"/>
+          <seg type="raw_unreviewed">In deditatõne</seg>
+          <lb facs="#z_f162r_l009" xml:id="catmus_f162r_l009"/>
+          <seg type="raw_unreviewed">hũs giug aus duich Iencho und em Man hie ⁊ Iacheus</seg>
+          <lb facs="#z_f162r_l010" xml:id="catmus_f162r_l010"/>
+          <seg type="raw_unreviewed">em furste Roffi sund̃ und boas reich̃ und d̾ begert iu</seg>
+          <lb facs="#z_f162r_l011" xml:id="catmus_f162r_l011"/>
+          <seg type="raw_unreviewed">sebñ Ihũi wer ex wer do mocht et nicht uor d̾iueiig</seg>
+          <lb facs="#z_f162r_l012" xml:id="catmus_f162r_l012"/>
+          <seg type="raw_unreviewed">ueniĩ ex des lerbs roeug was bnd lieff fur und stang</seg>
+          <lb facs="#z_f162r_l013" xml:id="catmus_f162r_l013"/>
+          <seg type="raw_unreviewed">off em parii dab er yn sech, wocuiĩ ex dofur solt gen</seg>
+          <lb facs="#z_f162r_l014" xml:id="catmus_f162r_l014"/>
+          <seg type="raw_unreviewed">und do er lam Iud̃ scat . do sachi Ihũs off und sp̃ch</seg>
+          <lb facs="#z_f162r_l015" xml:id="catmus_f162r_l015"/>
+          <seg type="raw_unreviewed">Iutqui Iachee eyl uud ge herap drot weuiĩ ich mus</seg>
+          <lb facs="#z_f162r_l016" xml:id="catmus_f162r_l016"/>
+          <seg type="raw_unreviewed">sem hent ĩ deii haus cund er ging eqluũ hecuyd̃</seg>
+          <lb facs="#z_f162r_l017" xml:id="catmus_f162r_l017"/>
+          <seg type="raw_unreviewed">uud enꝑfieng in frolich, do das dy lert saliĩr do.</seg>
+          <lb facs="#z_f162r_l018" xml:id="catmus_f162r_l018"/>
+          <seg type="raw_unreviewed">nurmeltiĩ sy spiechund das ex iu eim fund wer ge</seg>
+          <lb facs="#z_f162r_l019" xml:id="catmus_f162r_l019"/>
+          <seg type="raw_unreviewed">thort do scitẽd Iactreus und sp̃ch̃ Iu plrl̃ hr mem</seg>
+          <lb facs="#z_f162r_l020" xml:id="catmus_f162r_l020"/>
+          <seg type="raw_unreviewed">qut halbs io il icli gebñ de arauẽ und ob yemãt han</seg>
+          <lb facs="#z_f162r_l021" xml:id="catmus_f162r_l021"/>
+          <seg type="raw_unreviewed">uorbntreret das gilt ich fyrfaltiglich do sp̃ch̃ zu uri</seg>
+          <lb facs="#z_f162r_l022" xml:id="catmus_f162r_l022"/>
+          <seg type="raw_unreviewed">Ihõs dei haus ist hent hail begegũt/ donõ das due</seg>
+          <lb facs="#z_f162r_l023" xml:id="catmus_f162r_l023"/>
+          <seg type="raw_unreviewed">pise Abrahains chuit dez meschen bint ist boiẽqu</seg>
+          <lb facs="#z_f162r_l024" xml:id="catmus_f162r_l024"/>
+          <seg type="raw_unreviewed">suolñ und iubehaldñ das do uorlorn woas</seg>
+          <lb facs="#z_f162r_l025" xml:id="catmus_f162r_l025"/>
+          <seg type="raw_unreviewed">n die unius martiris</seg>
+          <lb facs="#z_f162r_l026" xml:id="catmus_f162r_l026"/>
+          <seg type="raw_unreviewed">o ihũs guig aus de tempel do sp̃ch eyũ semet iung̃</seg>
+          <lb facs="#z_f162r_l027" xml:id="catmus_f162r_l027"/>
+          <seg type="raw_unreviewed">Maist sicti wie em gestam bud eyn gauiaiore des</seg>
+          <lb facs="#z_f162r_l028" xml:id="catmus_f162r_l028"/>
+          <seg type="raw_unreviewed">autbot Ini Ihũs uud̃ spch sich̃scu das gegymm̃ alles des</seg>
+          <lb facs="#z_f162r_l029" xml:id="catmus_f162r_l029"/>
+          <seg type="raw_unreviewed">ciot nicht ulassen eui stani uff. dẽ audlises nt Iustort</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f162r_l001" xml:id="medusa_f162r_l001"/>
+          <seg type="raw_unreviewed">her͛ bnd͛ tut nicht was ich euch sag / wer kompt zu mir</seg>
+          <lb facs="#z_f162r_l002" xml:id="medusa_f162r_l002"/>
+          <seg type="raw_unreviewed">bud hoͤrt mein red · bud tut sy · dem czeig ich wen̄ er gleich</seg>
+          <lb facs="#z_f162r_l003" xml:id="medusa_f162r_l003"/>
+          <seg type="raw_unreviewed">ist er gleichēt sich dē mēschen d̄ do pawt ein haus und</seg>
+          <lb facs="#z_f162r_l004" xml:id="medusa_f162r_l004"/>
+          <seg type="raw_unreviewed">ist tieff grebt · vnd glegt dy grunt fest off ein stain / So</seg>
+          <lb facs="#z_f162r_l005" xml:id="medusa_f162r_l005"/>
+          <seg type="raw_unreviewed">demn̄ die gusse w͛t so flensset das wassz zu dē haus</seg>
+          <lb facs="#z_f162r_l006" xml:id="medusa_f162r_l006"/>
+          <seg type="raw_unreviewed">und mag is nicht erwēgen wenn es gepawt ist off den</seg>
+          <lb facs="#z_f162r_l007" xml:id="medusa_f162r_l007"/>
+          <seg type="raw_unreviewed">herten staryn</seg>
+          <lb facs="#z_f162r_l008" xml:id="medusa_f162r_l008"/>
+          <seg type="raw_unreviewed">in dedicacione</seg>
+          <lb facs="#z_f162r_l009" xml:id="medusa_f162r_l009"/>
+          <seg type="raw_unreviewed">hūs giug aus durch Ienicho und ein man hiez zacheus</seg>
+          <lb facs="#z_f162r_l010" xml:id="medusa_f162r_l010"/>
+          <seg type="raw_unreviewed">ein fúrste d̄ offin sind und was rich und d̄ begert zu</seg>
+          <lb facs="#z_f162r_l011" xml:id="medusa_f162r_l011"/>
+          <seg type="raw_unreviewed">sehn̄ Jh̄m wer er wer / do mocht er nicht vor d͛ inen uig</seg>
+          <lb facs="#z_f162r_l012" xml:id="medusa_f162r_l012"/>
+          <seg type="raw_unreviewed">wenn er des leibs wenig was / vnd lieff fur vnd starg</seg>
+          <lb facs="#z_f162r_l013" xml:id="medusa_f162r_l013"/>
+          <seg type="raw_unreviewed">off ein porm das er yn seth · wenn̄ er desur solt gen</seg>
+          <lb facs="#z_f162r_l014" xml:id="medusa_f162r_l014"/>
+          <seg type="raw_unreviewed">und do er kam zu d͛ stat do sach Ihūs off und sp͛ch</seg>
+          <lb facs="#z_f162r_l015" xml:id="medusa_f162r_l015"/>
+          <seg type="raw_unreviewed">zu Im Zachee enl̶ bnd̶ geherap drot · wenn̄ ich mus</seg>
+          <lb facs="#z_f162r_l016" xml:id="medusa_f162r_l016"/>
+          <seg type="raw_unreviewed">sem heut ĩ dem haus obud̃ er ging exuland̃ heruyd̃</seg>
+          <lb facs="#z_f162r_l017" xml:id="medusa_f162r_l017"/>
+          <seg type="raw_unreviewed">bud enpfieug jn froͤlich / do das dy lewt sahñ do-</seg>
+          <lb facs="#z_f162r_l018" xml:id="medusa_f162r_l018"/>
+          <seg type="raw_unreviewed">murmeltin sy sprechnnd / das er zuͤ ein sund͛ wer ge</seg>
+          <lb facs="#z_f162r_l019" xml:id="medusa_f162r_l019"/>
+          <seg type="raw_unreviewed">thort / do stuͤed zacheus und ſp̶ch zu Ihuͤ chr mein</seg>
+          <lb facs="#z_f162r_l020" xml:id="medusa_f162r_l020"/>
+          <seg type="raw_unreviewed">gut halbs wil ich gebn̄ dē armē vnd ob yemāt hän</seg>
+          <lb facs="#z_f162r_l021" xml:id="medusa_f162r_l021"/>
+          <seg type="raw_unreviewed">vorbentrewt das gilt ich fyrfaltigkch. do sp͛ch zu ym</seg>
+          <lb facs="#z_f162r_l022" xml:id="medusa_f162r_l022"/>
+          <seg type="raw_unreviewed">Jh̃us / dein haus ist heut hail begegnē / do uō daz du</seg>
+          <lb facs="#z_f162r_l023" xml:id="medusa_f162r_l023"/>
+          <seg type="raw_unreviewed">pist Abrahams thuit / dez mēschen kint ist komē zu</seg>
+          <lb facs="#z_f162r_l024" xml:id="medusa_f162r_l024"/>
+          <seg type="raw_unreviewed">suchn̄ und zubehaldn̄ das do uorlorn̄ was</seg>
+          <lb facs="#z_f162r_l025" xml:id="medusa_f162r_l025"/>
+          <seg type="raw_unreviewed">in die unius martiris</seg>
+          <lb facs="#z_f162r_l026" xml:id="medusa_f162r_l026"/>
+          <seg type="raw_unreviewed">Do ihuͤs ging aus dē tempel · do sp͛ch eynd s̶e̶i̶n̶e̶ ̶i̶u̶n̶d̶</seg>
+          <lb facs="#z_f162r_l027" xml:id="medusa_f162r_l027"/>
+          <seg type="raw_unreviewed">maist͛ sich wie ein gestain bud eyn gamawr · des</seg>
+          <lb facs="#z_f162r_l028" xml:id="medusa_f162r_l028"/>
+          <seg type="raw_unreviewed">antẅt im Ihuͤs und sp͛ch sichstu das geczyund alles des</seg>
+          <lb facs="#z_f162r_l029" xml:id="medusa_f162r_l029"/>
+          <seg type="raw_unreviewed">w͛t nicht v̈lassen ein stain vff dē andn̄ / es w͛t zustoͤrt-</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f162r_l001 #z_f162r_l002 #z_f162r_l003 #z_f162r_l004 #z_f162r_l005 #z_f162r_l006 #z_f162r_l007" xml:id="u_162r_001">Her und tut nicht was ich euch sag? Wer kumpt zu mir und hort meyn red und tut sy, dem czeig ich, wem er gleich ist. Er gleichet sich dem menschen, der do pawet eyn haus und hat tief graben und geleyt dy gruntfest off eyn stain. So denn die gusse wirt, so fleusset das wasser zu dem haus und mag es nicht erw[e]gen, wenn es gepawet ist off dem herten stayn.</p>
+        <note type="editorial" corresp="#u_162r_001" xml:lang="cs">Dokončení otázky z161v a podobenství o pevném základu. Text na snímku po této kladné části přechází k Zacheovi; nedoplňuji druhý dům podle známého jiného znění.</note>
+        <p facs="#z_f162r_l008 #z_f162r_l009 #z_f162r_l010 #z_f162r_l011 #z_f162r_l012 #z_f162r_l013 #z_f162r_l014 #z_f162r_l015 #z_f162r_l016 #z_f162r_l017 #z_f162r_l018 #z_f162r_l019 #z_f162r_l020 #z_f162r_l021 #z_f162r_l022 #z_f162r_l023 #z_f162r_l024" xml:id="u_162r_002">In dedicacione. Ihesus gieng aus durch Jericho. Und eyn man hiez Zacheus, eyn furste der offen sunder, und was reich und begert zu sehen Ihesum, wer er wer. Do mocht er nicht vor der menig, wenn er des leibs wenig was, und lieff fur und staig off eyn pawm, das er yn sech, wenn er do fur solt gen. Und do er kam zu der stat, do sach Ihesus off und sprach zu ym: Zachee, eyl und ge herab drot, wenn ich mus seyn heut in deyn haus. Und er gieng eylend hernider und enpfieng yn frolich. Do das dy lewt sahen, do murmelten sy sprechend, das er zu eyn sunder wer gekort. Do stund Zacheus und sprach zu Ihesu: Her, mein gut halbes wil ich geben den armen, und ob yemand han vorkurczet, das gelt ich fyrfaltiglich. Do sprach zu ym Ihesus: Deym haus ist heut heil widerfaren, do auch der do ist Abrahams sun. Des menschen kint ist komen zu suchen und zu behalten, das do vorlorn was.</p>
+        <note type="editorial" corresp="#u_162r_002" xml:lang="cs">Rubrika zní In dedicacione. Offene sunder v německém textu překládám jako veřejné hříšníky; bez poznámky jej nenahrazuji moderním označením celníků. Strom není na této stránce určen botanickým druhem.</note>
+        <p facs="#z_f162r_l025 #z_f162r_l026 #z_f162r_l027 #z_f162r_l028 #z_f162r_l029" xml:id="u_162r_003">In die unius martiris. Do Ihesus gieng aus dem tempel, do sprach eyner seyn junger: Maister, sich, wie eyn gestain und eyn gepaw! Des antwurt ym Ihesus und sprach: Sichstu das gepaw und alles das? Wirt nicht pl[e]iben eyn stain off dem andern, es wirt zerstort.</p>
+        <note type="editorial" corresp="#u_162r_003" xml:lang="cs">Rubrika i začátek chrámové řeči jsou přímo viditelné. Její pokračování se posuzuje na následující stránce.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_162r_001">Pane, a nečiníte, co vám říkám? Kdo přichází ke mně, slyší mou řeč a činí ji, tomu ukážu, komu je podoben. Podobá se člověku, který staví dům, hluboko vykopal a položil základ na kámen. Když přijde příval, voda proudí k domu a nemůže jím pohnout, protože je postaven na tvrdé skále.</p>
+        <p corresp="#u_162r_002">Na posvěcení. Ježíš procházel Jerichem. Byl tam muž jménem Zacheus, předák veřejných hříšníků, bohatý člověk. Toužil spatřit Ježíše, kdo je. Pro zástup nemohl, protože byl malé postavy. Běžel napřed a vylezl na strom, aby ho viděl, neboť tudy měl projít. Když Ježíš došel na to místo, vzhlédl a řekl mu: Zachee, pospěš a sestup rychle dolů, neboť dnes musím být ve tvém domě. Spěšně sestoupil a radostně jej přijal. Když to lidé viděli, reptali, že se obrátil k hříšníkovi. Zacheus vstal a řekl Ježíši: Pane, polovinu svého majetku dám chudým, a jestliže jsem někoho ošidil, nahradím mu to čtyřnásobně. Ježíš mu řekl: Dnes se tomuto domu dostalo spásy, neboť i on je Abrahamovým synem. Syn člověka přišel hledat a zachránit, co bylo ztraceno.</p>
+        <p corresp="#u_162r_003">Na den jednoho mučedníka. Když Ježíš vycházel z chrámu, jeden jeho učedník řekl: Mistře, pohleď, jaké kamení a jaká stavba! Ježíš mu odpověděl: Vidíš tu stavbu a všechno toto? Nezůstane kámen na kameni, bude to zničeno.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 3r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_3r_coordinate; PNG SHA256 58c6e996562f4525e267f0f13a0e7d5ca53183c18abbba2fb5a64d02dc402850; archival TIFF SHA256 b6894c91c127ff8d5983c7b5d424eb6902c96da77cbd47cf1edf1284493931f7; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_3r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#3r"/>
+      <zone ulx="591" uly="507" lrx="3286" lry="709" xml:id="z_f3r_l001"/>
+      <zone ulx="572" uly="622" lrx="3181" lry="815" xml:id="z_f3r_l002"/>
+      <zone ulx="662" uly="793" lrx="728" lry="1057" xml:id="z_f3r_l003"/>
+      <zone ulx="849" uly="749" lrx="3246" lry="899" xml:id="z_f3r_l004"/>
+      <zone ulx="855" uly="861" lrx="3230" lry="1036" xml:id="z_f3r_l005"/>
+      <zone ulx="924" uly="976" lrx="3265" lry="1138" xml:id="z_f3r_l006"/>
+      <zone ulx="554" uly="1076" lrx="3230" lry="1241" xml:id="z_f3r_l007"/>
+      <zone ulx="594" uly="1204" lrx="3252" lry="1347" xml:id="z_f3r_l008"/>
+      <zone ulx="591" uly="1303" lrx="3308" lry="1459" xml:id="z_f3r_l009"/>
+      <zone ulx="180" uly="1316" lrx="606" lry="1561" xml:id="z_f3r_l010"/>
+      <zone ulx="220" uly="1512" lrx="526" lry="1673" xml:id="z_f3r_l011"/>
+      <zone ulx="647" uly="1415" lrx="3243" lry="1583" xml:id="z_f3r_l012"/>
+      <zone ulx="603" uly="1540" lrx="3317" lry="1698" xml:id="z_f3r_l013"/>
+      <zone ulx="566" uly="1645" lrx="3230" lry="1813" xml:id="z_f3r_l014"/>
+      <zone ulx="575" uly="1760" lrx="3240" lry="1932" xml:id="z_f3r_l015"/>
+      <zone ulx="485" uly="1869" lrx="3286" lry="2065" xml:id="z_f3r_l016"/>
+      <zone ulx="575" uly="1991" lrx="3271" lry="2190" xml:id="z_f3r_l017"/>
+      <zone ulx="2356" uly="2115" lrx="2586" lry="2224" xml:id="z_f3r_l018"/>
+      <zone ulx="606" uly="2124" lrx="3243" lry="2330" xml:id="z_f3r_l019"/>
+      <zone ulx="578" uly="2255" lrx="3258" lry="2426" xml:id="z_f3r_l020"/>
+      <zone ulx="575" uly="2376" lrx="3271" lry="2554" xml:id="z_f3r_l021"/>
+      <zone ulx="544" uly="2498" lrx="3249" lry="2669" xml:id="z_f3r_l022"/>
+      <zone ulx="504" uly="2958" lrx="557" lry="3042" xml:id="z_f3r_l023"/>
+      <zone ulx="569" uly="2613" lrx="3296" lry="2787" xml:id="z_f3r_l024"/>
+      <zone ulx="603" uly="2737" lrx="3224" lry="2918" xml:id="z_f3r_l025"/>
+      <zone ulx="849" uly="2865" lrx="3246" lry="3030" xml:id="z_f3r_l026"/>
+      <zone ulx="877" uly="2983" lrx="3289" lry="3160" xml:id="z_f3r_l027"/>
+      <zone ulx="821" uly="3108" lrx="3280" lry="3285" xml:id="z_f3r_l028"/>
+      <zone ulx="594" uly="3229" lrx="3237" lry="3400" xml:id="z_f3r_l029"/>
+      <zone ulx="585" uly="3360" lrx="3205" lry="3515" xml:id="z_f3r_l030"/>
+      <zone ulx="3339" uly="2765" lrx="3753" lry="2899" xml:id="z_f3r_l031"/>
+      <zone ulx="622" uly="3468" lrx="3342" lry="3661" xml:id="z_f3r_l032"/>
+      <zone ulx="591" uly="3590" lrx="3271" lry="3776" xml:id="z_f3r_l033"/>
+      <zone ulx="585" uly="3727" lrx="3261" lry="3882" xml:id="z_f3r_l034"/>
+      <zone ulx="588" uly="3854" lrx="3230" lry="4019" xml:id="z_f3r_l035"/>
+      <zone ulx="575" uly="3972" lrx="3311" lry="4165" xml:id="z_f3r_l036"/>
+      <zone ulx="578" uly="4106" lrx="3243" lry="4280" xml:id="z_f3r_l037"/>
+      <zone ulx="578" uly="4246" lrx="3286" lry="4417" xml:id="z_f3r_l038"/>
+      <zone ulx="610" uly="4380" lrx="3202" lry="4613" xml:id="z_f3r_l039"/>
+      <zone ulx="3345" uly="609" lrx="3766" lry="759" xml:id="z_f3r_l040"/>
+      <zone ulx="3305" uly="2376" lrx="3700" lry="2523" xml:id="z_f3r_l041"/>
+      <zone ulx="3336" uly="4361" lrx="3759" lry="4504" xml:id="z_f3r_l042"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f3r_l001" xml:id="catmus_f3r_l001"/>
+          <seg type="raw_unreviewed">ꝑlrãs illius ala̾us diccõnis nõ sufficiũt ad ꝓpõsitũ coa</seg>
+          <lb facs="#z_f3r_l002" xml:id="catmus_f3r_l002"/>
+          <seg type="raw_unreviewed">gulatas diccõne s subcoagula ⁊ desingulis de̾ de ãpliͦ</seg>
+          <lb facs="#z_f3r_l003" xml:id="catmus_f3r_l003"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f3r_l004" xml:id="catmus_f3r_l004"/>
+          <seg type="raw_unreviewed">apliaco est dillatacõ sensus nuiq adalterp et fit</seg>
+          <lb facs="#z_f3r_l005" xml:id="catmus_f3r_l005"/>
+          <seg type="raw_unreviewed">ꝑ p̃posicõnes appositas ⁊ ꝑgradus u̾bi grã</seg>
+          <lb facs="#z_f3r_l006" xml:id="catmus_f3r_l006"/>
+          <seg type="raw_unreviewed">ucitas decra orta est Eccc hic est una ppositõ</seg>
+          <lb facs="#z_f3r_l007" xml:id="catmus_f3r_l007"/>
+          <seg type="raw_unreviewed">uidel de ¶uiꝰ grã in duc alias p̃positõnes Dic gͥo</seg>
+          <lb facs="#z_f3r_l008" xml:id="catmus_f3r_l008"/>
+          <seg type="raw_unreviewed">ditas iũa uentas det̾ra uitas ꝑͥcrã uitas at̾ra</seg>
+          <lb facs="#z_f3r_l009" xml:id="catmus_f3r_l009"/>
+          <seg type="raw_unreviewed">uide qic induxisti pt deꝑin a mõ adde aul pp̃osicomi</seg>
+          <lb facs="#z_f3r_l010" xml:id="catmus_f3r_l010"/>
+          <seg type="raw_unreviewed">nuitas dẽt̃</seg>
+          <lb facs="#z_f3r_l011" xml:id="catmus_f3r_l011"/>
+          <seg type="raw_unreviewed">oita este</seg>
+          <lb facs="#z_f3r_l012" xml:id="catmus_f3r_l012"/>
+          <seg type="raw_unreviewed">i suũ esc ueitas mt̾ra cõn̾sata est uicas pt̾rapas</seg>
+          <lb facs="#z_f3r_l013" xml:id="catmus_f3r_l013"/>
+          <seg type="raw_unreviewed">sa est uitas ar̾ra clenata esc et hec ꝓb̃a neł narra bñ</seg>
+          <lb facs="#z_f3r_l014" xml:id="catmus_f3r_l014"/>
+          <seg type="raw_unreviewed">Dem̃ culib sinẽ adde mc̃btũ unũ ⁊ dicc uĩtas de t̾ra</seg>
+          <lb facs="#z_f3r_l015" xml:id="catmus_f3r_l015"/>
+          <seg type="raw_unreviewed">orta est miabilit̾ u̾itas in t̾ca cõu̾sata est huiliter</seg>
+          <lb facs="#z_f3r_l016" xml:id="catmus_f3r_l016"/>
+          <seg type="raw_unreviewed">ueritas ꝓc̾ra passa est misãbłr uĩtas alra cleua</seg>
+          <lb facs="#z_f3r_l017" xml:id="catmus_f3r_l017"/>
+          <seg type="raw_unreviewed">ta est potẽcialit et sic dealiis. Ampligco ꝑ gradus</seg>
+          <lb facs="#z_f3r_l018" xml:id="catmus_f3r_l018"/>
+          <seg type="raw_unreviewed">alugs</seg>
+          <lb facs="#z_f3r_l019" xml:id="catmus_f3r_l019"/>
+          <seg type="raw_unreviewed">sic fit Ego sum bonus pascor Bonus reado melior it</seg>
+          <lb facs="#z_f3r_l020" xml:id="catmus_f3r_l020"/>
+          <seg type="raw_unreviewed">dimẽdo Optimꝰ remuumando Itẽbonus ĩ incarnacõ</seg>
+          <lb facs="#z_f3r_l021" xml:id="catmus_f3r_l021"/>
+          <seg type="raw_unreviewed">ne melior ĩ passione Optiniꝰ c̃ren̾sione. Itc̃ uonus</seg>
+          <lb facs="#z_f3r_l022" xml:id="catmus_f3r_l022"/>
+          <seg type="raw_unreviewed">pietate melior benig̾tate opcuuꝰ cau̾tate Itẽbonꝰ</seg>
+          <lb facs="#z_f3r_l023" xml:id="catmus_f3r_l023"/>
+          <seg type="raw_unreviewed">D</seg>
+          <lb facs="#z_f3r_l024" xml:id="catmus_f3r_l024"/>
+          <seg type="raw_unreviewed">Tpotẽtia melior in essẽcia optinꝰ inn᷑a ⁊ sic dealiis</seg>
+          <lb facs="#z_f3r_l025" xml:id="catmus_f3r_l025"/>
+          <seg type="raw_unreviewed">scom ꝙ tibi placin̾t h ͨ idcm ualet̃ ĩ ꝯtran̾s de Artu</seg>
+          <lb facs="#z_f3r_l026" xml:id="catmus_f3r_l026"/>
+          <seg type="raw_unreviewed">Eticulacõ est queda arta coaccõ ut ⁊ aliud̾clc̃tũ.</seg>
+          <lb facs="#z_f3r_l027" xml:id="catmus_f3r_l027"/>
+          <seg type="raw_unreviewed">sequat᷑ Ou̾nt autsigna articulatõnis hec qrnis</seg>
+          <lb facs="#z_f3r_l028" xml:id="catmus_f3r_l028"/>
+          <seg type="raw_unreviewed">quid quãtꝰ oruot tot Qrualis calis TantusCur</seg>
+          <lb facs="#z_f3r_l029" xml:id="catmus_f3r_l029"/>
+          <seg type="raw_unreviewed">quae qnõ qualit᷑ ⁊ cõsimłia Qmii go. nis articulare</seg>
+          <lb facs="#z_f3r_l030" xml:id="catmus_f3r_l030"/>
+          <seg type="raw_unreviewed">aliquã diccõm nel clansulã alicinꝰ thematꝭ adduc</seg>
+          <lb facs="#z_f3r_l031" xml:id="catmus_f3r_l031"/>
+          <seg type="raw_unreviewed">deartrelãe</seg>
+          <lb facs="#z_f3r_l032" xml:id="catmus_f3r_l032"/>
+          <seg type="raw_unreviewed">signũ u̾bi grã Ego sum panis uinus qui decelo descẽdi</seg>
+          <lb facs="#z_f3r_l033" xml:id="catmus_f3r_l033"/>
+          <seg type="raw_unreviewed">S qualis est panis iste uide mõ h ͭ sigim Qualis ia</seg>
+          <lb facs="#z_f3r_l034" xml:id="catmus_f3r_l034"/>
+          <seg type="raw_unreviewed">cecogĩt ia te artat ut expedias audiẽtes qualis sis</seg>
+          <lb facs="#z_f3r_l035" xml:id="catmus_f3r_l035"/>
+          <seg type="raw_unreviewed">isce panis Dic gõpanis iste est mitis suanis dult</seg>
+          <lb facs="#z_f3r_l036" xml:id="catmus_f3r_l036"/>
+          <seg type="raw_unreviewed">deltãblis Etisce ꝓcessus dicit᷑ articulacõ quia signũ</seg>
+          <lb facs="#z_f3r_l037" xml:id="catmus_f3r_l037"/>
+          <seg type="raw_unreviewed">illud̃ artanit te quod pot̾as hec mẽbra uel alial</seg>
+          <lb facs="#z_f3r_l038" xml:id="catmus_f3r_l038"/>
+          <seg type="raw_unreviewed">leniora ucl ꝓfundiora plua ił pautõra induce et</seg>
+          <lb facs="#z_f3r_l039" xml:id="catmus_f3r_l039"/>
+          <seg type="raw_unreviewed">sic fac ĩonũbi siait tibi pla cu̾it R de dinen bracẽe</seg>
+          <lb facs="#z_f3r_l040" xml:id="catmus_f3r_l040"/>
+          <seg type="raw_unreviewed">de ãpliacri.</seg>
+          <lb facs="#z_f3r_l041" xml:id="catmus_f3r_l041"/>
+          <seg type="raw_unreviewed">iiuere</seg>
+          <lb facs="#z_f3r_l042" xml:id="catmus_f3r_l042"/>
+          <seg type="raw_unreviewed">de mẽbra</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f3r_l001" xml:id="medusa_f3r_l001"/>
+          <seg type="raw_unreviewed">ꝑ literas illius alterius dictionis non sufficunt ad propositum tra</seg>
+          <lb facs="#z_f3r_l002" xml:id="medusa_f3r_l002"/>
+          <seg type="raw_unreviewed">gulatas diccones sub coagula ⁊ de singulis Se de capitulo</seg>
+          <lb facs="#z_f3r_l003" xml:id="medusa_f3r_l003"/>
+          <seg type="raw_unreviewed">F</seg>
+          <lb facs="#z_f3r_l004" xml:id="medusa_f3r_l004"/>
+          <seg type="raw_unreviewed">mpliaco est dilactaco sensus minꝰ ad alterꝵ et fit</seg>
+          <lb facs="#z_f3r_l005" xml:id="medusa_f3r_l005"/>
+          <seg type="raw_unreviewed">ꝑ p̃posiciones appositas ⁊ ꝑ gradus Ubi grã</seg>
+          <lb facs="#z_f3r_l006" xml:id="medusa_f3r_l006"/>
+          <seg type="raw_unreviewed">ueritas de c̃ca orta est Ecce hic est una p̃posicio</seg>
+          <lb facs="#z_f3r_l007" xml:id="medusa_f3r_l007"/>
+          <seg type="raw_unreviewed">uidelicet de Cuiꝰ gratia induc alias preposiciones Dic . go</seg>
+          <lb facs="#z_f3r_l008" xml:id="medusa_f3r_l008"/>
+          <seg type="raw_unreviewed">u̾itas in t̾ra ueritas de t̾ra u̾itas ꝑ t̾ra u̾itas a t̾ra</seg>
+          <lb facs="#z_f3r_l009" xml:id="medusa_f3r_l009"/>
+          <seg type="raw_unreviewed">Uide hic induxisti ꝓt deꝑma. Mõ adde cuil p̃posicõni</seg>
+          <lb facs="#z_f3r_l010" xml:id="medusa_f3r_l010"/>
+          <seg type="raw_unreviewed">virtus de tri</seg>
+          <lb facs="#z_f3r_l011" xml:id="medusa_f3r_l011"/>
+          <seg type="raw_unreviewed">orta est</seg>
+          <lb facs="#z_f3r_l012" xml:id="medusa_f3r_l012"/>
+          <seg type="raw_unreviewed">q siñ est ueritas in terra cõnata est u̾itas ꝓ terra pas</seg>
+          <lb facs="#z_f3r_l013" xml:id="medusa_f3r_l013"/>
+          <seg type="raw_unreviewed">sa est u̾itas a u̾ra elenata est et hec ꝓba nel narra tm̃</seg>
+          <lb facs="#z_f3r_l014" xml:id="medusa_f3r_l014"/>
+          <seg type="raw_unreviewed">Tem̃ tmlib⁊ sine adde mebrũ unũ ⁊ dic u̾itas de t̾ra</seg>
+          <lb facs="#z_f3r_l015" xml:id="medusa_f3r_l015"/>
+          <seg type="raw_unreviewed">orta est inu̾abilis u̾itas in t̾ra cõnata est humiliter</seg>
+          <lb facs="#z_f3r_l016" xml:id="medusa_f3r_l016"/>
+          <seg type="raw_unreviewed">Veritas ꝓtera passa est miserabilis. Veritas autem eleua</seg>
+          <lb facs="#z_f3r_l017" xml:id="medusa_f3r_l017"/>
+          <seg type="raw_unreviewed">ca est potentialiter et sic de aliis Ampliatio per gradus</seg>
+          <lb facs="#z_f3r_l018" xml:id="medusa_f3r_l018"/>
+          <seg type="raw_unreviewed">annorum</seg>
+          <lb facs="#z_f3r_l019" xml:id="medusa_f3r_l019"/>
+          <seg type="raw_unreviewed">sic fit Ego sum bonus pastor Bonus melior re</seg>
+          <lb facs="#z_f3r_l020" xml:id="medusa_f3r_l020"/>
+          <seg type="raw_unreviewed">dimendo Optinus Remmundo Ite bonis in carnaco</seg>
+          <lb facs="#z_f3r_l021" xml:id="medusa_f3r_l021"/>
+          <seg type="raw_unreviewed">ne melior in passione Optimꝰ c tenebrosis Itẽ bonus</seg>
+          <lb facs="#z_f3r_l022" xml:id="medusa_f3r_l022"/>
+          <seg type="raw_unreviewed">pietate melior benig̾nitate opemꝑius caritate. Item bonꝰ</seg>
+          <lb facs="#z_f3r_l023" xml:id="medusa_f3r_l023"/>
+          <seg type="raw_unreviewed">10</seg>
+          <lb facs="#z_f3r_l024" xml:id="medusa_f3r_l024"/>
+          <seg type="raw_unreviewed">ĩ potẽtia melior in essẽcia optimꝰ in n᷑a ⁊ sic de aliis</seg>
+          <lb facs="#z_f3r_l025" xml:id="medusa_f3r_l025"/>
+          <seg type="raw_unreviewed">scd̃m ꝙ tibi placuit hᶜ idem valet ĩ ꝯtrariis</seg>
+          <lb facs="#z_f3r_l026" xml:id="medusa_f3r_l026"/>
+          <seg type="raw_unreviewed">Eticulacõ est queda arca coacco ut ⁊ aliud clacõ</seg>
+          <lb facs="#z_f3r_l027" xml:id="medusa_f3r_l027"/>
+          <seg type="raw_unreviewed">sequa᷑ Sunt autem signa articulacionis hec ornis</seg>
+          <lb facs="#z_f3r_l028" xml:id="medusa_f3r_l028"/>
+          <seg type="raw_unreviewed">quidquãtꝰ oruot tot Qualis talis Tantus Cur</seg>
+          <lb facs="#z_f3r_l029" xml:id="medusa_f3r_l029"/>
+          <seg type="raw_unreviewed">quae quo qualiter ⁊ cõsimilia Cum go nis articulare</seg>
+          <lb facs="#z_f3r_l030" xml:id="medusa_f3r_l030"/>
+          <seg type="raw_unreviewed">aliquam diccionem uel clausulam alicuius thesauri adduc</seg>
+          <lb facs="#z_f3r_l031" xml:id="medusa_f3r_l031"/>
+          <seg type="raw_unreviewed">de articulo</seg>
+          <lb facs="#z_f3r_l032" xml:id="medusa_f3r_l032"/>
+          <seg type="raw_unreviewed">signũ u̾bi grã Ego sum panis uinus qui de celo descendi</seg>
+          <lb facs="#z_f3r_l033" xml:id="medusa_f3r_l033"/>
+          <seg type="raw_unreviewed">S qualis est panis iste uide moͣ hᶜ signũ Qualis iã</seg>
+          <lb facs="#z_f3r_l034" xml:id="medusa_f3r_l034"/>
+          <seg type="raw_unreviewed">te cogit iã te artat ut expedias audiẽtes qualis sit</seg>
+          <lb facs="#z_f3r_l035" xml:id="medusa_f3r_l035"/>
+          <seg type="raw_unreviewed">iste panis Dic cõpanis iste est mitis suans dulce</seg>
+          <lb facs="#z_f3r_l036" xml:id="medusa_f3r_l036"/>
+          <seg type="raw_unreviewed">delitabilis Et iste processus dicit᷑ articulacio quia signũ</seg>
+          <lb facs="#z_f3r_l037" xml:id="medusa_f3r_l037"/>
+          <seg type="raw_unreviewed">illud arcanũ te quod pot̾as hec mebra uel alia</seg>
+          <lb facs="#z_f3r_l038" xml:id="medusa_f3r_l038"/>
+          <seg type="raw_unreviewed">leuiora uel ꝓfundiora plura uel pauciora induce̾ et</seg>
+          <lb facs="#z_f3r_l039" xml:id="medusa_f3r_l039"/>
+          <seg type="raw_unreviewed">sic fac in omnib: sicut tibi placuerit. Se d̃ in embrione</seg>
+          <lb facs="#z_f3r_l040" xml:id="medusa_f3r_l040"/>
+          <seg type="raw_unreviewed">de apliacum</seg>
+          <lb facs="#z_f3r_l041" xml:id="medusa_f3r_l041"/>
+          <seg type="raw_unreviewed">nupcial</seg>
+          <lb facs="#z_f3r_l042" xml:id="medusa_f3r_l042"/>
+          <seg type="raw_unreviewed">de membra</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f3r_l001 #z_f3r_l002 #z_f3r_l003" xml:id="u_3r_001">… per litteras illius alterius dictionis non sufficiunt ad propositum, coagulatas dictiones subcoagula et de singulis [...] . De amplificatione.</p>
+        <note type="editorial" corresp="#u_3r_001" xml:lang="cs">Začátek navazuje na akrostich na 2v. Závěr návodu je nejistý; segment 3 je oddělený fragment iniciály.</note>
+        <p facs="#z_f3r_l004 #z_f3r_l005 #z_f3r_l006 #z_f3r_l007 #z_f3r_l008 #z_f3r_l009 #z_f3r_l010 #z_f3r_l011 #z_f3r_l012 #z_f3r_l013" xml:id="u_3r_002">Amplificatio est dilatatio sensus unius ad alterum et fit per praepositiones appositas et per gradus. Verbi gratia: Veritas de terra orta est. Ecce hic est una praepositio, videlicet de. Eius gratia induce alias praepositiones. Dic ergo: veritas in terra, veritas per terram, veritas a terra. Vide quid induxisti: per de, per in, a. Modo adde cuilibet praepositioni suum est: Veritas in terra conversata est, veritas per terram passa est, veritas a terra elevata est. Et haec proba vel narra bene.</p>
+        <note type="editorial" corresp="#u_3r_002" xml:lang="cs">Drobné okrajové segmenty 10–11 opakují příklad Veritas de terra orta est. HTR místy chybně čte veritas jako vitas; vlastní návrh vychází z viditelného opakování slova. Část seznamu předložek je stručná a syntakticky obtížná.</note>
+        <p facs="#z_f3r_l014 #z_f3r_l015 #z_f3r_l016 #z_f3r_l017 #z_f3r_l018" xml:id="u_3r_003">Deinde cuilibet fini adde membrum unum et dic: Veritas de terra orta est mirabiliter, veritas in terra conversata est humiliter, veritas per terram passa est miserabiliter, veritas a terra elevata est potentialiter, et sic de aliis. Amplificatio per gradus …</p>
+        <note type="editorial" corresp="#u_3r_003" xml:lang="cs">Potentialiter zde překládám návrhově mocně. Segment 18 je úzký doplňkový fragment u korektury následujícího příkladu a netvoří samostatnou větu.</note>
+        <p facs="#z_f3r_l019 #z_f3r_l020 #z_f3r_l021 #z_f3r_l022 #z_f3r_l023 #z_f3r_l024 #z_f3r_l025" xml:id="u_3r_004">… sic fit: Ego sum bonus pastor. Bonus creando, melior redimendo, optimus remunerando. Item bonus in incarnatione, melior in passione, optimus in ascensione. Item bonus pietate, melior benignitate, optimus caritate. Item bonus in potentia, melior in essentia, optimus in natura; et sic de aliis secundum quod tibi placuerit. Hoc idem valet in contrariis. De articulatione.</p>
+        <note type="editorial" corresp="#u_3r_004" xml:lang="cs">Místa s přeškrtnutými slovy mají nadřádkové opravy. Přijímám viditelně opravené creando a in ascensione; původní škrtnuté čtení není vydáváno za jistě rozluštěné. Segment 23 je fragment červené iniciály.</note>
+        <p facs="#z_f3r_l026 #z_f3r_l027 #z_f3r_l028 #z_f3r_l029 #z_f3r_l030 #z_f3r_l031" xml:id="u_3r_005">Articulatio est quaedam arta coactio ut et aliud sequatur. Sunt autem signa articulationis haec: omnis, quid, quantus, quot, tot, qualis, talis, tantus, cur, quare, quomodo, qualiter et consimilia. Cum ergo vis articulare aliquam dictionem vel clausulam alicuius thematis, adduc … [okraj: de articulatione].</p>
+        <note type="editorial" corresp="#u_3r_005" xml:lang="cs">Definice arta coactio zachovává metaforu přinucení; její české znění je výkladový překlad. Seznam je návrhově rozveden podle skutečných viditelných slov, nikoli podle logického doplnění řady.</note>
+        <p facs="#z_f3r_l032 #z_f3r_l033 #z_f3r_l034 #z_f3r_l035 #z_f3r_l036 #z_f3r_l037 #z_f3r_l038 #z_f3r_l039 #z_f3r_l040 #z_f3r_l041 #z_f3r_l042" xml:id="u_3r_006">… signum. Verbi gratia: Ego sum panis vivus qui de caelo descendi. Sed qualis est panis iste? Vide modo hoc signum qualis iam te cogit, iam te artat ut expedias audientes qualis sit iste panis. Dic ergo: Panis iste est mitis, suavis, dulcis, delectabilis. Et iste processus dicitur articulatio quia signum illud artavit te quod poteras haec membra vel alia leviora vel profundiora, plura vel pauciora inducere. Et sic fac in omnibus sicut tibi placuerit. De membratione. [okrajové štítky: de amplificatione; …; de membratione].</p>
+        <note type="editorial" corresp="#u_3r_006" xml:lang="cs">Závěrečné segmenty 40–42 jsou okrajové poznámky, zčásti nejasné. Nemají být automaticky vloženy do hlavní věty. Termíny articulatio a membratio přeloženy odlišně jen návrhově, výklad pokračuje na 3v.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_3r_001">… nestačí-li slova podle písmen onoho dalšího slova k zamýšlenému účelu, spoj již spojená slova dále a z jednotlivých [...] . O rozšíření.</p>
+        <p corresp="#u_3r_002">Rozšíření je rozvedení jednoho smyslu k druhému; děje se přidáváním předložek a stupňováním. Například: Pravda vzešla ze země. Zde je jediná předložka, totiž de — ze. Na jejím základě přidej jiné: pravda v zemi, pravda skrze zemi, pravda od země. Podívej, co jsi uvedl: de, in, a. Nyní k jednotlivým předložkám přidej slovesnou část: Pravda pobývala na zemi; pravda trpěla pro zemi; pravda byla ze země vyvýšena. To řádně dolož nebo vylož.</p>
+        <p corresp="#u_3r_003">Pak přidej na konec každé věty jeden člen: Pravda vzešla ze země podivuhodně; pravda na zemi pobývala pokorně; pravda pro zemi trpěla žalostně; pravda byla ze země vyvýšena mocně. A podobně v dalších případech. Rozšíření pomocí stupňování …</p>
+        <p corresp="#u_3r_004">… se provádí takto: Já jsem dobrý pastýř. Dobrý při stvoření, lepší při vykoupení, nejlepší při odměňování. Dále dobrý při vtělení, lepší při utrpení, nejlepší při nanebevstoupení. Dobrý zbožností, lepší laskavostí, nejlepší láskou. Dobrý mocí, lepší podstatou, nejlepší přirozeností. A podobně podle toho, jak uznáš za vhodné. Totéž platí i v protikladných případech. O členění.</p>
+        <p corresp="#u_3r_005">Členění je jakési těsné přinucení, aby následovalo také něco dalšího. Jeho prostředky jsou: každý, co, jak veliký, kolik, tolik, jaký, takový, tak veliký, proč, z jakého důvodu, jak, jakým způsobem a podobné výrazy. Chceš-li tedy rozčlenit některé slovo nebo větnou část tématu, přidej … [na okraji: o členění].</p>
+        <p corresp="#u_3r_006">… příslušný výraz. Například: Já jsem živý chléb, který jsem sestoupil z nebe. Ale jaký je tento chléb? Výraz jaký tě nutí a přiměje vysvětlit posluchačům, jaký ten chléb je. Řekni tedy: Tento chléb je mírný, příjemný, sladký, lahodný. Tento postup se nazývá členění, protože tě daný výraz přiměl uvést tyto členy nebo jiné, povrchnější či hlubší, početnější či méně početné. Tak postupuj ve všem podle své volby. O rozčlenění na části. [Na okraji odkazy na jednotlivé oddíly.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

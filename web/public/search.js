@@ -10,7 +10,7 @@ for(const host of hosts){
   for(const hit of batch){
    const li=document.createElement('li'),a=document.createElement('a'),p=document.createElement('p');
    const url=new URL(hit.url,location.origin);
-   if(url.origin!==location.origin || !/^\/rukopisy\/vkol-[a-z0-9-]+\/[A-Za-z0-9_]+(?:\.html)?$/.test(url.pathname))continue;
+   if(url.origin!==location.origin || !/^\/rukopisy\/vkol-[a-z0-9-]+\/[A-Za-z0-9_-]+(?:\.html)?$/.test(url.pathname))continue;
    a.href=url.pathname.replace(/\.html$/,'')+url.hash;a.textContent=hit.meta.title || 'Stránka rukopisu';
    // Excerpts are text, never injected HTML. Strip only Pagefind's mark wrappers.
    p.textContent=hit.excerpt.replace(/<\/?mark>/g,'');li.append(a,p);results.append(li);

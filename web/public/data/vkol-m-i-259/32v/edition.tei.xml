@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 32v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Exempla. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_32v">
+      <graphic url="../pages/32v/image.png"/>
+      <zone ulx="631" uly="3257" lrx="756" lry="3400" xml:id="z_f32v_l001"/>
+      <zone ulx="846" uly="547" lrx="3865" lry="743" xml:id="z_f32v_l002"/>
+      <zone ulx="843" uly="672" lrx="3526" lry="827" xml:id="z_f32v_l003"/>
+      <zone ulx="849" uly="768" lrx="3551" lry="936" xml:id="z_f32v_l004"/>
+      <zone ulx="859" uly="858" lrx="3529" lry="1032" xml:id="z_f32v_l005"/>
+      <zone ulx="846" uly="945" lrx="3566" lry="1116" xml:id="z_f32v_l006"/>
+      <zone ulx="855" uly="1036" lrx="3560" lry="1213" xml:id="z_f32v_l007"/>
+      <zone ulx="855" uly="1135" lrx="3604" lry="1316" xml:id="z_f32v_l008"/>
+      <zone ulx="3713" uly="690" lrx="3856" lry="793" xml:id="z_f32v_l009"/>
+      <zone ulx="3672" uly="774" lrx="3865" lry="914" xml:id="z_f32v_l010"/>
+      <zone ulx="3666" uly="877" lrx="3865" lry="992" xml:id="z_f32v_l011"/>
+      <zone ulx="3682" uly="948" lrx="3868" lry="1098" xml:id="z_f32v_l012"/>
+      <zone ulx="3797" uly="1067" lrx="3837" lry="1228" xml:id="z_f32v_l013"/>
+      <zone ulx="3710" uly="1194" lrx="3847" lry="1316" xml:id="z_f32v_l014"/>
+      <zone ulx="849" uly="1241" lrx="3859" lry="1393" xml:id="z_f32v_l015"/>
+      <zone ulx="852" uly="1325" lrx="3560" lry="1477" xml:id="z_f32v_l016"/>
+      <zone ulx="846" uly="1412" lrx="3510" lry="1583" xml:id="z_f32v_l017"/>
+      <zone ulx="846" uly="1499" lrx="3532" lry="1670" xml:id="z_f32v_l018"/>
+      <zone ulx="852" uly="1602" lrx="3517" lry="1757" xml:id="z_f32v_l019"/>
+      <zone ulx="855" uly="1695" lrx="3542" lry="1854" xml:id="z_f32v_l020"/>
+      <zone ulx="865" uly="1788" lrx="3535" lry="1950" xml:id="z_f32v_l021"/>
+      <zone ulx="834" uly="1882" lrx="3591" lry="2034" xml:id="z_f32v_l022"/>
+      <zone ulx="865" uly="1972" lrx="3495" lry="2143" xml:id="z_f32v_l023"/>
+      <zone ulx="868" uly="2072" lrx="3364" lry="2227" xml:id="z_f32v_l024"/>
+      <zone ulx="955" uly="2168" lrx="3576" lry="2305" xml:id="z_f32v_l025"/>
+      <zone ulx="840" uly="2252" lrx="3557" lry="2395" xml:id="z_f32v_l026"/>
+      <zone ulx="846" uly="2330" lrx="3557" lry="2492" xml:id="z_f32v_l027"/>
+      <zone ulx="837" uly="2429" lrx="3598" lry="2591" xml:id="z_f32v_l028"/>
+      <zone ulx="855" uly="2513" lrx="3551" lry="2684" xml:id="z_f32v_l029"/>
+      <zone ulx="868" uly="2594" lrx="3554" lry="2768" xml:id="z_f32v_l030"/>
+      <zone ulx="871" uly="2747" lrx="1263" lry="2899" xml:id="z_f32v_l031"/>
+      <zone ulx="1441" uly="2675" lrx="3591" lry="2834" xml:id="z_f32v_l032"/>
+      <zone ulx="862" uly="2765" lrx="3573" lry="2992" xml:id="z_f32v_l033"/>
+      <zone ulx="1226" uly="2852" lrx="3554" lry="3036" xml:id="z_f32v_l034"/>
+      <zone ulx="1058" uly="2949" lrx="3529" lry="3164" xml:id="z_f32v_l035"/>
+      <zone ulx="855" uly="2955" lrx="1126" lry="3083" xml:id="z_f32v_l036"/>
+      <zone ulx="868" uly="3020" lrx="3588" lry="3272" xml:id="z_f32v_l037"/>
+      <zone ulx="883" uly="3092" lrx="936" lry="3188" xml:id="z_f32v_l038"/>
+      <zone ulx="855" uly="3123" lrx="3557" lry="3366" xml:id="z_f32v_l039"/>
+      <zone ulx="855" uly="3238" lrx="3582" lry="3478" xml:id="z_f32v_l040"/>
+      <zone ulx="3657" uly="1393" lrx="3875" lry="1518" xml:id="z_f32v_l041"/>
+      <zone ulx="3707" uly="1484" lrx="3868" lry="1611" xml:id="z_f32v_l042"/>
+      <zone ulx="3666" uly="1599" lrx="3859" lry="1726" xml:id="z_f32v_l043"/>
+      <zone ulx="3672" uly="1686" lrx="3859" lry="1829" xml:id="z_f32v_l044"/>
+      <zone ulx="3660" uly="1801" lrx="3887" lry="1925" xml:id="z_f32v_l045"/>
+      <zone ulx="3654" uly="1891" lrx="3881" lry="2019" xml:id="z_f32v_l046"/>
+      <zone ulx="3657" uly="1988" lrx="3878" lry="2118" xml:id="z_f32v_l047"/>
+      <zone ulx="3657" uly="2087" lrx="3868" lry="2218" xml:id="z_f32v_l048"/>
+      <zone ulx="3650" uly="2174" lrx="3875" lry="2320" xml:id="z_f32v_l049"/>
+      <zone ulx="3641" uly="2296" lrx="3878" lry="2423" xml:id="z_f32v_l050"/>
+      <zone ulx="3647" uly="2398" lrx="3859" lry="2507" xml:id="z_f32v_l051"/>
+      <zone ulx="3641" uly="2492" lrx="3884" lry="2613" xml:id="z_f32v_l052"/>
+      <zone ulx="3666" uly="2585" lrx="3853" lry="2722" xml:id="z_f32v_l053"/>
+      <zone ulx="3660" uly="2678" lrx="3840" lry="2812" xml:id="z_f32v_l054"/>
+      <zone ulx="3641" uly="2781" lrx="3831" lry="2930" xml:id="z_f32v_l055"/>
+      <zone ulx="3660" uly="2884" lrx="3837" lry="3033" xml:id="z_f32v_l056"/>
+      <zone ulx="3629" uly="2986" lrx="3859" lry="3117" xml:id="z_f32v_l057"/>
+      <zone ulx="3644" uly="3101" lrx="3859" lry="3226" xml:id="z_f32v_l058"/>
+      <zone ulx="3626" uly="3195" lrx="3871" lry="3319" xml:id="z_f32v_l059"/>
+      <zone ulx="3622" uly="3269" lrx="3853" lry="3419" xml:id="z_f32v_l060"/>
+      <zone ulx="868" uly="3353" lrx="3865" lry="3580" xml:id="z_f32v_l061"/>
+      <zone ulx="837" uly="3459" lrx="2838" lry="3683" xml:id="z_f32v_l062"/>
+      <zone ulx="1179" uly="3537" lrx="2997" lry="3748" xml:id="z_f32v_l063"/>
+      <zone ulx="3626" uly="3478" lrx="3862" lry="3602" xml:id="z_f32v_l064"/>
+      <zone ulx="3585" uly="3571" lrx="3871" lry="3714" xml:id="z_f32v_l065"/>
+      <zone ulx="859" uly="3615" lrx="3563" lry="3845" xml:id="z_f32v_l066"/>
+      <zone ulx="865" uly="3699" lrx="3871" lry="3948" xml:id="z_f32v_l067"/>
+      <zone ulx="3650" uly="3789" lrx="3853" lry="3926" xml:id="z_f32v_l068"/>
+      <zone ulx="871" uly="3811" lrx="3588" lry="4050" xml:id="z_f32v_l069"/>
+      <zone ulx="865" uly="3941" lrx="3570" lry="4134" xml:id="z_f32v_l070"/>
+      <zone ulx="871" uly="4028" lrx="3585" lry="4228" xml:id="z_f32v_l071"/>
+      <zone ulx="3626" uly="3876" lrx="3847" lry="4019" xml:id="z_f32v_l072"/>
+      <zone ulx="3675" uly="3979" lrx="3847" lry="4122" xml:id="z_f32v_l073"/>
+      <zone ulx="3719" uly="4097" lrx="3865" lry="4224" xml:id="z_f32v_l074"/>
+      <zone ulx="874" uly="4134" lrx="3856" lry="4333" xml:id="z_f32v_l075"/>
+      <zone ulx="868" uly="4246" lrx="3862" lry="4411" xml:id="z_f32v_l076"/>
+      <zone ulx="868" uly="4333" lrx="3871" lry="4526" xml:id="z_f32v_l077"/>
+      <zone ulx="880" uly="4445" lrx="3856" lry="4660" xml:id="z_f32v_l078"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f32v_l001" xml:id="catmus_f32v_l001"/>
+          <seg type="raw_unreviewed">47</seg>
+          <lb facs="#z_f32v_l002" xml:id="catmus_f32v_l002"/>
+          <seg type="raw_unreviewed">stĩs docli pͣtt̾re pc ͦ sũ Et cͥdñe dd sot ae te uiu̾er⁊dĩg̃ cͤ diund Rao te</seg>
+          <lb facs="#z_f32v_l003" xml:id="catmus_f32v_l003"/>
+          <seg type="raw_unreviewed">occ̃a /si tu rogan̾is oñ /⁊ pr̃roges uit cͥ Iudul t̾ dũs h. ẜ ĩ me</seg>
+          <lb facs="#z_f32v_l004" xml:id="catmus_f32v_l004"/>
+          <seg type="raw_unreviewed">deliqͥst eui cecꝭ niho ãgło ait Indult ẽ t̃ põm bnĩ Nõ ẽdꝭꝙ de</seg>
+          <lb facs="#z_f32v_l005" xml:id="catmus_f32v_l005"/>
+          <seg type="raw_unreviewed">q̃ te tot ãi̾s custodi apcc̃is poss eccꝭ ꝑ unã uacte alilpit mlẽ</seg>
+          <lb facs="#z_f32v_l006" xml:id="catmus_f32v_l006"/>
+          <seg type="raw_unreviewed">custidie Et młrdixͭ Goidũs ds̃ tli ꝓcude dig̃t st̾ie ⁊ unie</seg>
+          <lb facs="#z_f32v_l007" xml:id="catmus_f32v_l007"/>
+          <seg type="raw_unreviewed">in sꝑo de eiim̃a unͣs / ꝓ boluri. I pedilhite It. Rogpte sc̃ ^ ut des m</seg>
+          <lb facs="#z_f32v_l008" xml:id="catmus_f32v_l008"/>
+          <seg type="raw_unreviewed">ꝯsilm̃. Iua ͬ silue aũa meil Queriou dixit fuciã dño dõ adem̃dĩ</seg>
+          <lb facs="#z_f32v_l009" xml:id="catmus_f32v_l009"/>
+          <seg type="raw_unreviewed">UQ </seg>
+          <lb facs="#z_f32v_l010" xml:id="catmus_f32v_l010"/>
+          <seg type="raw_unreviewed">Iꝑ Aniob</seg>
+          <lb facs="#z_f32v_l011" xml:id="catmus_f32v_l011"/>
+          <seg type="raw_unreviewed">AUE aliue</seg>
+          <lb facs="#z_f32v_l012" xml:id="catmus_f32v_l012"/>
+          <seg type="raw_unreviewed">ed aelius</seg>
+          <lb facs="#z_f32v_l013" xml:id="catmus_f32v_l013"/>
+          <seg type="raw_unreviewed">l</seg>
+          <lb facs="#z_f32v_l014" xml:id="catmus_f32v_l014"/>
+          <seg type="raw_unreviewed">pphudi</seg>
+          <lb facs="#z_f32v_l015" xml:id="catmus_f32v_l015"/>
+          <seg type="raw_unreviewed">Qui eͥ rũ Gurize ⁊scque Que scutĩ secubi e ip̃m Q uidũtes hoĩes aelubue</seg>
+          <lb facs="#z_f32v_l016" xml:id="catmus_f32v_l016"/>
+          <seg type="raw_unreviewed">ũ iii ᷝ ͤᷤ si clamalãit eñ d ͭ ͥᷤ diũ moche diuͤude aib.iãsia mã</seg>
+          <lb facs="#z_f32v_l017" xml:id="catmus_f32v_l017"/>
+          <seg type="raw_unreviewed">m̃ꝙ bode ultꝭ cũ ex Nult uriserũtei ipe noultũ eruit icͣ cñ</seg>
+          <lb facs="#z_f32v_l018" xml:id="catmus_f32v_l018"/>
+          <seg type="raw_unreviewed">diuu sit eͣ e uesabi ec pties abai b̾certꝭ panꝑib disc̃bũt sua</seg>
+          <lb facs="#z_f32v_l019" xml:id="catmus_f32v_l019"/>
+          <seg type="raw_unreviewed">tiicib i duẽd isecũ adhemũ abi auilẽbat deduxͣ. iluq qͥ fesstũ ipc</seg>
+          <lb facs="#z_f32v_l020" xml:id="catmus_f32v_l020"/>
+          <seg type="raw_unreviewed">audit .i. qr surdos eut eũ xꝰ alꝙ tp̃t qui ͤ suc̃ ꝓcũa ᷑ set q ei ĩebu</seg>
+          <lb facs="#z_f32v_l021" xml:id="catmus_f32v_l021"/>
+          <seg type="raw_unreviewed">suĩͫ pnũ rme᷑ suũ cupeliã. itu ut c̃ ip̃e celebt᷑ nussut iiͥ  ip̃a</seg>
+          <lb facs="#z_f32v_l022" xml:id="catmus_f32v_l022"/>
+          <seg type="raw_unreviewed">i spice corꝰ^dũicũ Et dĩ die uõ pit̾ rx ͦ r ĩis qui ad pua iopõe</seg>
+          <lb facs="#z_f32v_l023" xml:id="catmus_f32v_l023"/>
+          <seg type="raw_unreviewed">at dñi mig̃nit Qui aũi ipa uidũte sũiłiacelũ suste punt Ipũ</seg>
+          <lb facs="#z_f32v_l024" xml:id="catmus_f32v_l024"/>
+          <seg type="raw_unreviewed">pͥ fũ olutũ ins sox ĩpna ꝓuuluẽs silmudim̃ ẽ reepta</seg>
+          <lb facs="#z_f32v_l025" xml:id="catmus_f32v_l025"/>
+          <seg type="raw_unreviewed">dequoda luice frẽ quo plꝰ stunt ũ tm̃ ties lrã s. ũbũ iugra rruffĩ</seg>
+          <lb facs="#z_f32v_l026" xml:id="catmus_f32v_l026"/>
+          <seg type="raw_unreviewed">Suo srebcarnales / unꝰ cl̃iaꝰ ilt layard sĩqͥdi cenolud ad e̾gluiꝭ dese</seg>
+          <lb facs="#z_f32v_l027" xml:id="catmus_f32v_l027"/>
+          <seg type="raw_unreviewed">hĩtũ st̃ r̾cepti eũ at clĩus ip̃c legñds scbũdo dic̾e ꝯsueniss qͣdi</seg>
+          <lb facs="#z_f32v_l028" xml:id="catmus_f32v_l028"/>
+          <seg type="raw_unreviewed">uice laicũ ĩtroga ͭ ĩ qͦ ep̃t deduc̾et /c̃ liũd iguoar Qui rͣ ẽñ te</seg>
+          <lb facs="#z_f32v_l029" xml:id="catmus_f32v_l029"/>
+          <seg type="raw_unreviewed">lrĩs erͣdoi didicitual cocbdie ruolus ĩcdrg ũ nolui qͣꝵ prima</seg>
+          <lb facs="#z_f32v_l030" xml:id="catmus_f32v_l030"/>
+          <seg type="raw_unreviewed">mgͣ p̃ma ẜͦ ruliua ec̃ut allia ul cũdidu ꝙpbau᷑ Illa nõ dñ uoĩa</seg>
+          <lb facs="#z_f32v_l031" xml:id="catmus_f32v_l031"/>
+          <seg type="raw_unreviewed">eurẽt</seg>
+          <lb facs="#z_f32v_l032" xml:id="catmus_f32v_l032"/>
+          <seg type="raw_unreviewed">reͭ Ipͣ ẽ rcordac̃o pccõꝵ que tꝙ ngͣ ⁊ gͣius sarciũ</seg>
+          <lb facs="#z_f32v_l033" xml:id="catmus_f32v_l033"/>
+          <seg type="raw_unreviewed">corquẽt ⁊ cciãt coctidie ꝓtas men ome crordaco tene̾brose</seg>
+          <lb facs="#z_f32v_l034" xml:id="catmus_f32v_l034"/>
+          <seg type="raw_unreviewed">uo ieuꝵ isui ĩtenebitꝭ ⁊ ĩ ũbru sedũt Ocrã ẽ r̃cordacõ</seg>
+          <lb facs="#z_f32v_l035" xml:id="catmus_f32v_l035"/>
+          <seg type="raw_unreviewed">i sañ ͦ /sine pussiõis mei stgidcatorꝭ / qui ꝑnte miso</seg>
+          <lb facs="#z_f32v_l036" xml:id="catmus_f32v_l036"/>
+          <seg type="raw_unreviewed">trei</seg>
+          <lb facs="#z_f32v_l037" xml:id="catmus_f32v_l037"/>
+          <seg type="raw_unreviewed">icce ceqũq niuils sai p̃ciosi fagⁱ cotꝭ fudit nuĩcr᷑ ilrũdau</seg>
+          <lb facs="#z_f32v_l038" xml:id="catmus_f32v_l038"/>
+          <seg type="raw_unreviewed">r</seg>
+          <lb facs="#z_f32v_l039" xml:id="catmus_f32v_l039"/>
+          <seg type="raw_unreviewed">Tcia õ desideĩ Ice lost̃ gandoꝵ ulu sequi coqũq eierit hiid̃</seg>
+          <lb facs="#z_f32v_l040" xml:id="catmus_f32v_l040"/>
+          <seg type="raw_unreviewed">auditꝭ sũ lrãtꝰ eruẜuit / sueus eͣ declus lñs fũs sui oñ soa</seg>
+          <lb facs="#z_f32v_l041" xml:id="catmus_f32v_l041"/>
+          <seg type="raw_unreviewed">MIT NsI QRo</seg>
+          <lb facs="#z_f32v_l042" xml:id="catmus_f32v_l042"/>
+          <seg type="raw_unreviewed">eU mułt</seg>
+          <lb facs="#z_f32v_l043" xml:id="catmus_f32v_l043"/>
+          <seg type="raw_unreviewed">lidĩ air</seg>
+          <lb facs="#z_f32v_l044" xml:id="catmus_f32v_l044"/>
+          <seg type="raw_unreviewed">iIUS AE</seg>
+          <lb facs="#z_f32v_l045" xml:id="catmus_f32v_l045"/>
+          <seg type="raw_unreviewed">Isq fouedi</seg>
+          <lb facs="#z_f32v_l046" xml:id="catmus_f32v_l046"/>
+          <seg type="raw_unreviewed">e niuie Inũ</seg>
+          <lb facs="#z_f32v_l047" xml:id="catmus_f32v_l047"/>
+          <seg type="raw_unreviewed">ditẽ Bui e</seg>
+          <lb facs="#z_f32v_l048" xml:id="catmus_f32v_l048"/>
+          <seg type="raw_unreviewed">isũedas opp̃</seg>
+          <lb facs="#z_f32v_l049" xml:id="catmus_f32v_l049"/>
+          <seg type="raw_unreviewed">Ilã abous</seg>
+          <lb facs="#z_f32v_l050" xml:id="catmus_f32v_l050"/>
+          <seg type="raw_unreviewed">I qr̃ quitr</seg>
+          <lb facs="#z_f32v_l051" xml:id="catmus_f32v_l051"/>
+          <seg type="raw_unreviewed">I N h̃ al</seg>
+          <lb facs="#z_f32v_l052" xml:id="catmus_f32v_l052"/>
+          <seg type="raw_unreviewed">gobs. Qotl iẽ</seg>
+          <lb facs="#z_f32v_l053" xml:id="catmus_f32v_l053"/>
+          <seg type="raw_unreviewed">Msbi ĩ f</seg>
+          <lb facs="#z_f32v_l054" xml:id="catmus_f32v_l054"/>
+          <seg type="raw_unreviewed">s side fe</seg>
+          <lb facs="#z_f32v_l055" xml:id="catmus_f32v_l055"/>
+          <seg type="raw_unreviewed"> usub</seg>
+          <lb facs="#z_f32v_l056" xml:id="catmus_f32v_l056"/>
+          <seg type="raw_unreviewed">Ieae i diss</seg>
+          <lb facs="#z_f32v_l057" xml:id="catmus_f32v_l057"/>
+          <seg type="raw_unreviewed">iblest̃te ĩ </seg>
+          <lb facs="#z_f32v_l058" xml:id="catmus_f32v_l058"/>
+          <seg type="raw_unreviewed">ni Reuiset</seg>
+          <lb facs="#z_f32v_l059" xml:id="catmus_f32v_l059"/>
+          <seg type="raw_unreviewed">im ñ quleũ</seg>
+          <lb facs="#z_f32v_l060" xml:id="catmus_f32v_l060"/>
+          <seg type="raw_unreviewed">uso quisiss</seg>
+          <lb facs="#z_f32v_l061" xml:id="catmus_f32v_l061"/>
+          <seg type="raw_unreviewed">suã n r̾quitũdo N gͦ cl̾icoꝵ ritũ ⁊ iube̾s despiciat sipliciũ laudit Aatil at</seg>
+          <lb facs="#z_f32v_l062" xml:id="catmus_f32v_l062"/>
+          <seg type="raw_unreviewed">escit i. homo urꝭ odie ul amd̃e digioie</seg>
+          <lb facs="#z_f32v_l063" xml:id="catmus_f32v_l063"/>
+          <seg type="raw_unreviewed">o bona uolũdis sepe ap dni ꝓsco r̾iua᷑᷑</seg>
+          <lb facs="#z_f32v_l064" xml:id="catmus_f32v_l064"/>
+          <seg type="raw_unreviewed"> aessole</seg>
+          <lb facs="#z_f32v_l065" xml:id="catmus_f32v_l065"/>
+          <seg type="raw_unreviewed">ql algxe pue</seg>
+          <lb facs="#z_f32v_l066" xml:id="catmus_f32v_l066"/>
+          <seg type="raw_unreviewed">duo sic̃i iͨ ligiosi adoĩss a luriti scõꝵ ꝑit enbes so ubra cuilli</seg>
+          <lb facs="#z_f32v_l067" xml:id="catmus_f32v_l067"/>
+          <seg type="raw_unreviewed">arbotꝭ cũ ĩfrigerii ꝯsidun̾t ĩ una Quoꝵ unꝰ ale̾r̾ dicelut uigila ͥ urĩ qũe</seg>
+          <lb facs="#z_f32v_l068" xml:id="catmus_f32v_l068"/>
+          <seg type="raw_unreviewed">ne di fed̾s</seg>
+          <lb facs="#z_f32v_l069" xml:id="catmus_f32v_l069"/>
+          <seg type="raw_unreviewed">sr̃ cui̾ssiẽ ⁊⁊ ꝓmͣte me alusũ lũ ħ derim̾e /pꝰea ta doruco /icꝰ sibr</seg>
+          <lb facs="#z_f32v_l070" xml:id="catmus_f32v_l070"/>
+          <seg type="raw_unreviewed">Wigilabo Et ꝓtiuꝰ dormunt accidit ac medde tp̃e ^q̃dũ iũdicꝰ/ ⁊ mud̃</seg>
+          <lb facs="#z_f32v_l071" xml:id="catmus_f32v_l071"/>
+          <seg type="raw_unreviewed">esmẽs ꝙ p̃teru i ꝙ dũ sũ uigilãd ꝯspee ͭ nã mot itͣ se silr̃ or</seg>
+          <lb facs="#z_f32v_l072" xml:id="catmus_f32v_l072"/>
+          <seg type="raw_unreviewed">s Ici ueller</seg>
+          <lb facs="#z_f32v_l073" xml:id="catmus_f32v_l073"/>
+          <seg type="raw_unreviewed">Eore Nͥ</seg>
+          <lb facs="#z_f32v_l074" xml:id="catmus_f32v_l074"/>
+          <seg type="raw_unreviewed">O ho</seg>
+          <lb facs="#z_f32v_l075" xml:id="catmus_f32v_l075"/>
+          <seg type="raw_unreviewed">gibiͭ Omĩcori ds utius ut ho demios hĩe ut illi unde pars e lenti d̃</seg>
+          <lb facs="#z_f32v_l076" xml:id="catmus_f32v_l076"/>
+          <seg type="raw_unreviewed">iãqua tiũ cella caloers roamisea ꝓuiden / ħ qõ cogitũte sulr eis Ac̃ mlit Et</seg>
+          <lb facs="#z_f32v_l077" xml:id="catmus_f32v_l077"/>
+          <seg type="raw_unreviewed">laᵗ dñ at iᵉ q̃ euigiliᵗ eoꝭdoriuiuisẜ en̾gilud abe ou̾utes abire relidipll ẽ</seg>
+          <lb facs="#z_f32v_l078" xml:id="catmus_f32v_l078"/>
+          <seg type="raw_unreviewed">cepint eadisuntꝭ urõib sr q̃ pur derieit Iad suũ comitẽ de lilistl</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f32v_l001" xml:id="medusa_f32v_l001"/>
+          <seg type="raw_unreviewed">la</seg>
+          <lb facs="#z_f32v_l002" xml:id="medusa_f32v_l002"/>
+          <seg type="raw_unreviewed">scio de tli p̃mitte sͥeꝰ sũ Et cꝰdus d̾s scit c̃te te b̃nere ⁊ d̃iũg᷑ cꝰ d̃m̃te</seg>
+          <lb facs="#z_f32v_l003" xml:id="medusa_f32v_l003"/>
+          <seg type="raw_unreviewed">peccã / si tu rogaturs eũ / ⁊ p̃mã mag̃es / ut iᵃ indulut᷑ dñs hᶜ . ꝙ ĩ me</seg>
+          <lb facs="#z_f32v_l004" xml:id="medusa_f32v_l004"/>
+          <seg type="raw_unreviewed">deluisti eum eccꝭ mox anglo aut Indultum est tibi pccm̃ tuum Nõ edꝭ ꝙ de</seg>
+          <lb facs="#z_f32v_l005" xml:id="medusa_f32v_l005"/>
+          <seg type="raw_unreviewed">qͥ te tot ãnis custodi᷑ apẽcĩs possi᷑ ecꝭ per unũ noctẽ alique in le</seg>
+          <lb facs="#z_f32v_l006" xml:id="medusa_f32v_l006"/>
+          <seg type="raw_unreviewed">cusa dire Et muldixt Eoi dñs ds̃ cleb̃ p̃cũtrem dng̃t᷑ scie ⁊ uine</seg>
+          <lb facs="#z_f32v_l007" xml:id="medusa_f32v_l007"/>
+          <seg type="raw_unreviewed">in foro de Oriniña magister / pro habentibus pedibus pe) d. Rotz te frt ut des m</seg>
+          <lb facs="#z_f32v_l008" xml:id="medusa_f32v_l008"/>
+          <seg type="raw_unreviewed">consilii . qua silue antʳ a neis Cuneant u duxis ficiũ dño de ademda</seg>
+          <lb facs="#z_f32v_l009" xml:id="medusa_f32v_l009"/>
+          <seg type="raw_unreviewed">y. Ciii r.</seg>
+          <lb facs="#z_f32v_l010" xml:id="medusa_f32v_l010"/>
+          <seg type="raw_unreviewed">d̃ noĩos</seg>
+          <lb facs="#z_f32v_l011" xml:id="medusa_f32v_l011"/>
+          <seg type="raw_unreviewed">marchis ann</seg>
+          <lb facs="#z_f32v_l012" xml:id="medusa_f32v_l012"/>
+          <seg type="raw_unreviewed">res coe</seg>
+          <lb facs="#z_f32v_l013" xml:id="medusa_f32v_l013"/>
+          <seg type="raw_unreviewed">sui</seg>
+          <lb facs="#z_f32v_l014" xml:id="medusa_f32v_l014"/>
+          <seg type="raw_unreviewed">ptunde</seg>
+          <lb facs="#z_f32v_l015" xml:id="medusa_f32v_l015"/>
+          <seg type="raw_unreviewed">Cui e̾ rũt Gurize ⁊ sequere Que statim secuta ẽ ip̃m Q⁊ uidũtes hoĩes</seg>
+          <lb facs="#z_f32v_l016" xml:id="medusa_f32v_l016"/>
+          <seg type="raw_unreviewed">ū testres sc̃ clamaui̾nt eũ dare / dum nũche dunt᷑ ab nãquaz moĩt</seg>
+          <lb facs="#z_f32v_l017" xml:id="medusa_f32v_l017"/>
+          <seg type="raw_unreviewed">mũy bnde wlt/ cũ eo / ⁊ uult uiserunt ei ipse u̾u niscũ eruit ic̃ eñ</seg>
+          <lb facs="#z_f32v_l018" xml:id="medusa_f32v_l018"/>
+          <seg type="raw_unreviewed">dum sit etc. O i nesabi et prion abea tcept paupibus distribunt sua</seg>
+          <lb facs="#z_f32v_l019" xml:id="medusa_f32v_l019"/>
+          <seg type="raw_unreviewed">tunc in dominos secum ad huncmodi ubi antebat deduxit ibique confessionem ipsi</seg>
+          <lb facs="#z_f32v_l020" xml:id="medusa_f32v_l020"/>
+          <seg type="raw_unreviewed">audita 1. qr siudios erit eũ pꝰ aliiꝑ tp̃e ꝯu̾one sue̾ ꝓcunt᷑ / set q: ei ĩclu</seg>
+          <lb facs="#z_f32v_l021" xml:id="medusa_f32v_l021"/>
+          <seg type="raw_unreviewed">sibiꝰ pͥmum iuxta suã crͥpellã ita ut c̃ ip̃e celebͥtꝰ missas / pꝰr ipsa</seg>
+          <lb facs="#z_f32v_l022" xml:id="medusa_f32v_l022"/>
+          <seg type="raw_unreviewed">in spiritu corporis dominici Et omni die uo pariter uxoͣ ux ad annis ipsuͦm ad pueritiam in uter</seg>
+          <lb facs="#z_f32v_l023" xml:id="medusa_f32v_l023"/>
+          <seg type="raw_unreviewed">ad dñm migrauit . Qui aũtm ipsũ uidente / nuncuncelũ suscepuit Ipsũ</seg>
+          <lb facs="#z_f32v_l024" xml:id="medusa_f32v_l024"/>
+          <seg type="raw_unreviewed">pꝰ fu̇ obtitũ ĩuis xx ĩpnia ꝑmanẽs sibũ uͣdum c̃rcepta</seg>
+          <lb facs="#z_f32v_l025" xml:id="medusa_f32v_l025"/>
+          <seg type="raw_unreviewed">De quo daʒ louco frẽ q̃ nõ plꝰ sc̃uuit uͥ tñ tres lr̃as s. ũbũ uigra ⁊ ruffi</seg>
+          <lb facs="#z_f32v_l026" xml:id="medusa_f32v_l026"/>
+          <seg type="raw_unreviewed">duo fratres carnales / unꝰ clericus multo laycus sĩ qͦdmꝰ cenobio ad regulam dis</seg>
+          <lb facs="#z_f32v_l027" xml:id="medusa_f32v_l027"/>
+          <seg type="raw_unreviewed">hĩtũ st̃ recepti Cũ at̃ cl̃icus tpc̃ legũdo sc̃bũdo dic̾e ꝯsueuiss; qⁱat</seg>
+          <lb facs="#z_f32v_l028" xml:id="medusa_f32v_l028"/>
+          <seg type="raw_unreviewed">vice suam ĩterrogat in .i. tempore deduceret s̃t bene ignorar: Qui ut/ eñi tres</seg>
+          <lb facs="#z_f32v_l029" xml:id="medusa_f32v_l029"/>
+          <seg type="raw_unreviewed">lũis gnediciz didicitius coctidie r̾uolus ĩcorde r̾uolus qͣr prima</seg>
+          <lb facs="#z_f32v_l030" xml:id="medusa_f32v_l030"/>
+          <seg type="raw_unreviewed">litr̃is hii dñi didicisti me</seg>
+          <lb facs="#z_f32v_l031" xml:id="medusa_f32v_l031"/>
+          <seg type="raw_unreviewed">fuerunt</seg>
+          <lb facs="#z_f32v_l032" xml:id="medusa_f32v_l032"/>
+          <seg type="raw_unreviewed">reᵗ ip̃a ẽ r̃cordacõ pecõꝵ 1. sue tp̃ magͣ ⁊ gr̃ius sarcia</seg>
+          <lb facs="#z_f32v_l033" xml:id="medusa_f32v_l033"/>
+          <seg type="raw_unreviewed">torquent᷑ ⁊ c̃cuiũt coctidie pt̃as meã Sine r̃cordacõ tenebrose</seg>
+          <lb facs="#z_f32v_l034" xml:id="medusa_f32v_l034"/>
+          <seg type="raw_unreviewed">suo et eorum qui in tenedonibus et in uͤbra sedunt . Decreta est reuordacio</seg>
+          <lb facs="#z_f32v_l035" xml:id="medusa_f32v_l035"/>
+          <seg type="raw_unreviewed">in facto rerum et sue intencione tenendorum / sine premissorum mei fagatorum / qui proute mipsor</seg>
+          <lb facs="#z_f32v_l036" xml:id="medusa_f32v_l036"/>
+          <seg type="raw_unreviewed">tre ĩ</seg>
+          <lb facs="#z_f32v_l037" xml:id="medusa_f32v_l037"/>
+          <seg type="raw_unreviewed">ĩ ecclesie uestrumque riumbus sui preciosi fagiorum sudeit nuncere ⁊ hũidari</seg>
+          <lb facs="#z_f32v_l038" xml:id="medusa_f32v_l038"/>
+          <seg type="raw_unreviewed">12</seg>
+          <lb facs="#z_f32v_l039" xml:id="medusa_f32v_l039"/>
+          <seg type="raw_unreviewed">ĩ ecclesie ieriqumque nimbꝰ sui potestatis gaudiorꝭ ubi sequitur cequumque erit. Ipsis</seg>
+          <lb facs="#z_f32v_l040" xml:id="medusa_f32v_l040"/>
+          <seg type="raw_unreviewed">c̾cia c̃ desideiꝰ celest̃ gaudebãt / siueus exͫ dec̃ibus bñs fr̃is sui / oĩi scũ</seg>
+          <lb facs="#z_f32v_l041" xml:id="medusa_f32v_l041"/>
+          <seg type="raw_unreviewed">mune / ubi a re</seg>
+          <lb facs="#z_f32v_l042" xml:id="medusa_f32v_l042"/>
+          <seg type="raw_unreviewed">de m̃lti</seg>
+          <lb facs="#z_f32v_l043" xml:id="medusa_f32v_l043"/>
+          <seg type="raw_unreviewed">Quidam vir</seg>
+          <lb facs="#z_f32v_l044" xml:id="medusa_f32v_l044"/>
+          <seg type="raw_unreviewed">ministris opp</seg>
+          <lb facs="#z_f32v_l045" xml:id="medusa_f32v_l045"/>
+          <seg type="raw_unreviewed">claresque fones</seg>
+          <lb facs="#z_f32v_l046" xml:id="medusa_f32v_l046"/>
+          <seg type="raw_unreviewed">he͛ m͛tũs / vm̃</seg>
+          <lb facs="#z_f32v_l047" xml:id="medusa_f32v_l047"/>
+          <seg type="raw_unreviewed">in uirtutem. Qui e</seg>
+          <lb facs="#z_f32v_l048" xml:id="medusa_f32v_l048"/>
+          <seg type="raw_unreviewed">bñ quẽdam opp</seg>
+          <lb facs="#z_f32v_l049" xml:id="medusa_f32v_l049"/>
+          <seg type="raw_unreviewed">alleant ab omni</seg>
+          <lb facs="#z_f32v_l050" xml:id="medusa_f32v_l050"/>
+          <seg type="raw_unreviewed">dñs nr̃ mortuꝰ</seg>
+          <lb facs="#z_f32v_l051" xml:id="medusa_f32v_l051"/>
+          <seg type="raw_unreviewed">se pu᷑ au</seg>
+          <lb facs="#z_f32v_l052" xml:id="medusa_f32v_l052"/>
+          <seg type="raw_unreviewed">signis. Quarto nũ</seg>
+          <lb facs="#z_f32v_l053" xml:id="medusa_f32v_l053"/>
+          <seg type="raw_unreviewed">de hospicio in t</seg>
+          <lb facs="#z_f32v_l054" xml:id="medusa_f32v_l054"/>
+          <seg type="raw_unreviewed">se sede̾ so</seg>
+          <lb facs="#z_f32v_l055" xml:id="medusa_f32v_l055"/>
+          <seg type="raw_unreviewed">cum clausulo ex hujusmodi</seg>
+          <lb facs="#z_f32v_l056" xml:id="medusa_f32v_l056"/>
+          <seg type="raw_unreviewed">ylmaie i cussi</seg>
+          <lb facs="#z_f32v_l057" xml:id="medusa_f32v_l057"/>
+          <seg type="raw_unreviewed">delestũte ĩ</seg>
+          <lb facs="#z_f32v_l058" xml:id="medusa_f32v_l058"/>
+          <seg type="raw_unreviewed">nũ benisset</seg>
+          <lb facs="#z_f32v_l059" xml:id="medusa_f32v_l059"/>
+          <seg type="raw_unreviewed">stota nĩ mueis</seg>
+          <lb facs="#z_f32v_l060" xml:id="medusa_f32v_l060"/>
+          <seg type="raw_unreviewed">ignis pro misis</seg>
+          <lb facs="#z_f32v_l061" xml:id="medusa_f32v_l061"/>
+          <seg type="raw_unreviewed">sua nͭ r̾putando uꝰ gͦ clicorꝭ uitũ ⁊ moẽs despiciat siplicũ litigios</seg>
+          <lb facs="#z_f32v_l062" xml:id="medusa_f32v_l062"/>
+          <seg type="raw_unreviewed">sua etc. Homo utiꝭ odio uł amore dignꝰ est</seg>
+          <lb facs="#z_f32v_l063" xml:id="medusa_f32v_l063"/>
+          <seg type="raw_unreviewed">ex bona voluntas sepe apud dñm pro seculo munia</seg>
+          <lb facs="#z_f32v_l064" xml:id="medusa_f32v_l064"/>
+          <seg type="raw_unreviewed" subtype="changed_decoding_unreviewed">106</seg>
+          <lb facs="#z_f32v_l065" xml:id="medusa_f32v_l065"/>
+          <seg type="raw_unreviewed">plus diligere pot</seg>
+          <lb facs="#z_f32v_l066" xml:id="medusa_f32v_l066"/>
+          <seg type="raw_unreviewed">dno frẽs r̾ligiosi advisu luita sc̃oꝵ ꝑitꝰ embes sb̃ u̾bra cuidarꝰ</seg>
+          <lb facs="#z_f32v_l067" xml:id="medusa_f32v_l067"/>
+          <seg type="raw_unreviewed">duo frẽs r̾ligiosi aͥuistͣ a lurita scõꝵ ꝑit omittet ibi u̾bũ</seg>
+          <lb facs="#z_f32v_l068" xml:id="medusa_f32v_l068"/>
+          <seg type="raw_unreviewed">wurt d̶. Reuͥs</seg>
+          <lb facs="#z_f32v_l069" xml:id="medusa_f32v_l069"/>
+          <seg type="raw_unreviewed">arborꝭ et refrigerii considerunt in una Quorum</seg>
+          <lb facs="#z_f32v_l070" xml:id="medusa_f32v_l070"/>
+          <seg type="raw_unreviewed">vigilabo Et ꝓtiuꝰ dormivit Accidit autem medio tpe iꝰqdam nũdicꝰ ⁊ nundꝰ</seg>
+          <lb facs="#z_f32v_l071" xml:id="medusa_f32v_l071"/>
+          <seg type="raw_unreviewed">esurientes ꝙ p̃teriti 1. ꝙ dũ fu̇ uigilias conspexiͭ mĩa motꝰ ĩt᷑ se sil̃m cor</seg>
+          <lb facs="#z_f32v_l072" xml:id="medusa_f32v_l072"/>
+          <seg type="raw_unreviewed">cũ sac̾e uellent</seg>
+          <lb facs="#z_f32v_l073" xml:id="medusa_f32v_l073"/>
+          <seg type="raw_unreviewed">eire ĩ qͥ</seg>
+          <lb facs="#z_f32v_l074" xml:id="medusa_f32v_l074"/>
+          <seg type="raw_unreviewed">qomo</seg>
+          <lb facs="#z_f32v_l075" xml:id="medusa_f32v_l075"/>
+          <seg type="raw_unreviewed">gitur Omnino corꝰ de utina ne ho denarios hibe ut illi unde pauper</seg>
+          <lb facs="#z_f32v_l076" xml:id="medusa_f32v_l076"/>
+          <seg type="raw_unreviewed">ĩ aigua tum cella calceis et camisera providen / hoc ipso cogitante Iohanne eius</seg>
+          <lb facs="#z_f32v_l077" xml:id="medusa_f32v_l077"/>
+          <seg type="raw_unreviewed">lat / dum autem iᶜᵒ q̃ eugiliat eccꝭ deranumissꝰ eugiliũs alias om̃ites abire</seg>
+          <lb facs="#z_f32v_l078" xml:id="medusa_f32v_l078"/>
+          <seg type="raw_unreviewed">ceperunt eam de finitib suis qui prius deriuierant iad suum comitem d</seg>
+        </ab>
+      <note type="processing">Segments 64: separate same-crop recovery experiment selected after token-limit repetition. Greedy single-line generation, max_new_tokens=256, repetition_penalty=1.08. Original attempts retained in page checkpoint and medusa-before-recovery.json. EOS termination is not accuracy verification.</note></div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f32v_l001" xml:id="u_32v_001">[...]</p>
+        <note type="editorial" corresp="#u_32v_001" xml:lang="cs">Drobná izolovaná značka, ne text hlavního řádku.</note>
+        <p facs="#z_f32v_l002 #z_f32v_l003 #z_f32v_l004 #z_f32v_l005 #z_f32v_l006 #z_f32v_l007 #z_f32v_l008" xml:id="u_32v_002">[...] dolui, praeterire peccatum suum [...]. Et [...] Deus det [...] vivere et diligere [...] . Rogo te [...] si tu rogaveris eum [...] . Dicit: Indulgeat Deus tibi quod in me deliquisti. Cui [...] angelus ait: Indultum est peccatum tuum. Non est [...] quod te tot annis custodivit a peccatis [...] per unam noctem [...] male custodivit. Et mulier dixit: Quomodo Deus [...] dignatus servire [...]. Rogo pater sancte ut des mihi consilium, qualiter salvem animam meam. Cui ille dixit: Faciam [...] emendationem.</p>
+        <note type="editorial" corresp="#u_32v_002" xml:lang="cs">Pokračování 32r: odpuštění ženy a její prosba o vedení. Některé teologické a časové vazby nejasné.</note>
+        <p facs="#z_f32v_l009 #z_f32v_l010 #z_f32v_l011 #z_f32v_l012 #z_f32v_l013 #z_f32v_l014" xml:id="u_32v_003">[...]</p>
+        <note type="editorial" corresp="#u_32v_003" xml:lang="cs">Odděleno od hlavního textu.</note>
+        <p facs="#z_f32v_l015 #z_f32v_l016 #z_f32v_l017 #z_f32v_l018 #z_f32v_l019 #z_f32v_l020 #z_f32v_l021 #z_f32v_l022 #z_f32v_l023 #z_f32v_l024" xml:id="u_32v_004">Qui ei ait: Surge et sequere. Quae statim secuta est ipsum. Quos videntes homines [...] clamabant [...] monache [...] . [...] multum erubescentem [...] . [...] pauperibus distribuit sua [...] et ducens secum ad heremum ubi habitabat deduxit. Illaque [...] audit [...] quia surda erat [...]. [...] capellam, ita ut cum ipse celebraret missam, ipsa [...] aspiceret corpus dominicum. Et die [...] misit [...] ad [...] dominus migravit. Qui animam ipsam videntem sancti [...] susceperunt. Ipse [...] in terram provolvens [...] silvam [...]</p>
+        <note type="editorial" corresp="#u_32v_004" xml:lang="cs">Závěr příběhu jen částečně obnoven. Není bezpečně určeno pořadí některých událostí ani postavení kaple. Zájmena nevyplňuji domnělými jmény.</note>
+        <p facs="#z_f32v_l025 #z_f32v_l026 #z_f32v_l027 #z_f32v_l028 #z_f32v_l029 #z_f32v_l030 #z_f32v_l031 #z_f32v_l032" xml:id="u_32v_005">De quodam laico fratre qui plus scivit in tribus litteris quam [...] magister. Duo fratres carnales, unus clericus, alter laicus, in quodam coenobio ad regulam [...] recepti [...]. Clericus [...] legenda secum [...] . Quadam vice laicum interrogavit in quo [...] cum litteras ignoraret. Qui respondit: [...] tres litteras didici, quas cotidie revolvo in corde et [...] . Prima nigra, secunda rubea, tertia alba vel candida [...]. Prima est recordatio peccatorum quae [...]</p>
+        <note type="editorial" corresp="#u_32v_005" xml:lang="cs">31 je sousední fragment; hlavní text běží 30→32. Pořadí barev viditelné, další označení nedoplňována.</note>
+        <p facs="#z_f32v_l033 #z_f32v_l034 #z_f32v_l035 #z_f32v_l036 #z_f32v_l037 #z_f32v_l038 #z_f32v_l039 #z_f32v_l040" xml:id="u_32v_006">[...] cor [...] et cruciat cotidie [...]. Haec recordatio tenebrosa facit [...] in tenebris et in umbra sedere. Secunda est recordatio passionis mei salvatoris, qui pro me misericorditer [...] sanguinem pretiosum [...] fudit misericorditer [...]. Tertia est desiderium caelestis gaudii, illum sequi quocumque ierit. His auditis frater [...] erubuit, sciens [...] illum [...]</p>
+        <note type="editorial" corresp="#u_32v_006" xml:lang="cs">36 a 38 pouze sousední zbytky. Biblickou narážku nepřepisuji do kanonického znění.</note>
+        <p facs="#z_f32v_l041 #z_f32v_l042 #z_f32v_l043 #z_f32v_l044 #z_f32v_l045 #z_f32v_l046 #z_f32v_l047 #z_f32v_l048 #z_f32v_l049 #z_f32v_l050 #z_f32v_l051 #z_f32v_l052 #z_f32v_l053 #z_f32v_l054 #z_f32v_l055 #z_f32v_l056 #z_f32v_l057 #z_f32v_l058 #z_f32v_l059 #z_f32v_l060" xml:id="u_32v_007">[...]</p>
+        <note type="editorial" corresp="#u_32v_007" xml:lang="cs">Celý rozsah tvoří úzké okrajové detekce.</note>
+        <p facs="#z_f32v_l061 #z_f32v_l062 #z_f32v_l063 #z_f32v_l064 #z_f32v_l065" xml:id="u_32v_008">[...] suam [...] requirendo. Ne ergo clericorum [...] quis despiciat simplicium [...]. Nescit [...] homo utrum odio vel amore dignus [...]. Ex bona voluntate saepe apud Deum [...]</p>
+        <note type="editorial" corresp="#u_32v_008" xml:lang="cs">64–65 protější fragmenty. Závěrečné poučení částečně čitelné; pravděpodobnou citaci nenahrazuji plným biblickým zněním.</note>
+        <p facs="#z_f32v_l066 #z_f32v_l067 #z_f32v_l068 #z_f32v_l069 #z_f32v_l070 #z_f32v_l071" xml:id="u_32v_009">Duo fratres religiosi [...] a [...] sub umbra cuiusdam arboris causa refrigerii consederunt in via. Quorum unus alteri dicebat: Vigila tu, dormio [...] promittе mihi [...] hoc [...] ; postea tu dormies. [...] Vigilabo. Et primus dormit. Accidit autem meridiei tempore [...] et cogitans [...] dum suus vigilando [...] .</p>
+        <note type="editorial" corresp="#u_32v_009" xml:lang="cs">68 je sousední fragment. Začátek nového exempla; okolnosti cesty nejasné.</note>
+        <p facs="#z_f32v_l072 #z_f32v_l073 #z_f32v_l074 #z_f32v_l075 #z_f32v_l076 #z_f32v_l077 #z_f32v_l078" xml:id="u_32v_010">[...] Omnipotens Deus, utinam [...] dormires [...] , et illi [...] lentis [...] cella [...] providens. [...] Et [...] frater [...] qui evigilavit [...] . [...] cepit et [...] omnibus [...] qui prius dormivit [...] suum comitem [...].</p>
+        <note type="editorial" corresp="#u_32v_010" xml:lang="cs">72–74 sousední detekce. Poslední čtyři hlavní řádky obtížné, překládám jen rozpoznané fragmenty. Pokračuje 33r.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_32v_001">[Písařská či okrajová stopa.]</p>
+        <p corresp="#u_32v_002">[...] Litovala jsem [...] svého hříchu [...]. A Bůh dej [...] žít a milovat [...]. Prosím tě [...], jestliže ho požádáš [...]. Řekla: Bůh ti odpusť to, čím ses proti mně provinil. Anděl mu [řekl]: Tvůj hřích byl odpuštěn. [...] Tolik let tě chránil před hříchy [...], ale po jednu noc [...] špatně chránil [...]. Žena řekla: Jak Bůh [...] ráčil sloužit [...]. Prosím, svatý otče, poraď mi, jak mám spasit svou duši. On jí řekl: Učiním [...] nápravu.</p>
+        <p corresp="#u_32v_003">[Úzké zbytky sousední stránky.]</p>
+        <p corresp="#u_32v_004">Řekl jí: Vstaň a následuj mě. Ihned ho následovala. Když je lidé viděli, [...] pokřikovali: [...] mnichu [...]. Velmi se červenal [...]. [...] Rozdala chudým svůj [majetek?] a on ji vzal do pouště, kde bydlel [...]. Ona [...] slyšela [...] , neboť byla hluchá [...]. [...] Kapli [upravili?] tak, aby při sloužení mše mohla hledět na tělo Páně. Jednoho dne [...] odešla k Pánu. Svatí [...] přijali její duši [...]. On [...] padl na zem [...] v lese [...].</p>
+        <p corresp="#u_32v_005">O laickém bratru, který věděl ve třech písmenech více než [...] mistr. Dva rodní bratři, jeden klerik a druhý laik, byli přijati do jistého kláštera [...]. Klerik [...] s sebou četbu [...]. Jednou se laika zeptal, čím se zabývá, když nezná písmena. Odpověděl: Naučil jsem se tři písmena, která denně promýšlím v srdci [...]. První je černé, druhé červené, třetí bílé či zářivé [...]. První je vzpomínka na hříchy [...].</p>
+        <p corresp="#u_32v_006">[...] Srdce [...] denně trápí a mučí [...]. Tato temná vzpomínka působí [...], že sedí v temnotě a stínu. Druhá je vzpomínka na utrpení mého Spasitele, který pro mě milosrdně [...] prolil svou drahocennou krev [...]. Třetí je touha po nebeské radosti a následování jeho kamkoli jde. Když to bratr slyšel, [...] zastyděl se, protože věděl [...].</p>
+        <p corresp="#u_32v_007">[Neúplné zbytky protější stránky.]</p>
+        <p corresp="#u_32v_008">[...] Svou [...] zkoumaje. Ať tedy [...] z kleriků nepohrdá prostými [...]. Člověk neví, zda je hoden nenávisti, nebo lásky [...]. Z dobré vůle často u Boha [...].</p>
+        <p corresp="#u_32v_009">Dva řeholní bratři [...] si cestou sedli do stínu stromu, aby se osvěžili. Jeden řekl druhému: Bdi ty, já budu spát [...], slib mi [...] ; potom budeš spát ty. [...] Budu bdít. První usnul. V poledne se přihodilo [...]; [druhý?] uvažoval [...], zatímco jeho [druh?] bděl [...].</p>
+        <p corresp="#u_32v_010">[...] Všemohoucí Bože, kéž [...] bys spal [...]; jemu [...] čočky [...] cela [...] obstarávaje [...]. [...] Bratr [...] který se probudil [...]. [...] Začal [...] všem [...]; ten, který předtím spal, [...] svého druha [...].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

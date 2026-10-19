@@ -3,7 +3,8 @@ import path from 'node:path';
 import {isDeepStrictEqual} from 'node:util';
 import {HTR_FIELDS,SEGMENTATION_FIELDS,LEGACY_DOCUMENT,HTR_TEXT_FIELDS} from '../public/issue-form-core.mjs';
 import {makeSegmentationProposal} from '../public/segmentation-core.mjs';
-const JSON_FIELDS=new Set([...HTR_TEXT_FIELDS,'source_segment_ids','bbox','original_segments','proposed_regions','coordinate_system','image_width','image_height','expert_review']);
+import {proposalCoordinates} from '../public/coordinate-core.mjs';
+const JSON_FIELDS=new Set([...HTR_TEXT_FIELDS,'source_segment_ids','bbox','original_segments','proposed_regions','coordinate_source','coordinate_system','image_width','image_height','expert_review']);
 export const VALIDATION_MARKER='<!-- manuscripty-proposal-validation-v1 -->';
 export function parseIssue(body,type) {
  if(typeof body!=='string'||body.length>100000)throw Error('Chybí formulář nebo je příliš dlouhý.');
@@ -27,15 +28,24 @@ export function parseIssue(body,type) {
 function fail(condition,message){if(!condition)throw Error(message);}
 function same(a,b){return isDeepStrictEqual(a,b);}
 export async function validateProposal(p,type,publicRoot) {
- fail(p.schema===(type==='htr'?'manuscripty-htr-proposal-v1':'manuscripty-segmentation-proposal-v1'),'Neznámé nebo nesprávné schema.');
+ const schemaPrefix=type==='htr'?'manuscripty-htr-proposal-v':'manuscripty-segmentation-proposal-v';
+ fail(p.schema===schemaPrefix+'1'||p.schema===schemaPrefix+'2','Neznámé nebo nesprávné schema.');
  const document=p.document_id||LEGACY_DOCUMENT;
  fail(typeof document==='string'&&/^[a-z0-9][a-z0-9-]{0,100}$/.test(document),'Neplatný document_id.');
- fail(typeof p.folio==='string'&&/^[a-zA-Z0-9]{1,20}$/.test(p.folio),'Neplatné folio.');
+ fail(typeof p.folio==='string'&&/^[a-zA-Z0-9_-]{1,20}$/.test(p.folio),'Neplatné folio.');
  const candidates=[path.join(publicRoot,'data',document,p.folio,'page.json'),path.join(publicRoot,'rukopisy',document,'data',p.folio,'page.json')];
  if(document===LEGACY_DOCUMENT)candidates.push(path.join(publicRoot,'data',p.folio,'page.json'));
  let page=null;for(const file of candidates){try{page=JSON.parse(await fs.readFile(file,'utf8'));break;}catch(e){if(e.code!=='ENOENT')throw e;}}
  fail(page&&page.folio===p.folio&&page.document_id===document,'Dokument nebo folio v publikovaných datech neexistuje.');
  fail(typeof p.source_sha256==='string'&&/^[a-f0-9]{64}$/.test(p.source_sha256)&&p.source_sha256===page.source_sha256,'source_sha256 neodpovídá původnímu skenu.');
+ const coordinates=proposalCoordinates(page);
+ if(coordinates.coordinate_source){
+  fail(p.schema===schemaPrefix+'2','Koordinační obraz vyžaduje návrh v2.');
+  fail(same(p.coordinate_source,coordinates.coordinate_source)&&same(p.coordinate_system,coordinates.coordinate_system),'Identita nebo transformace koordinačního obrazu neodpovídá publikovaným datům.');
+ }else{
+  fail(p.schema===schemaPrefix+'1'&&p.coordinate_source===undefined,'Návrh v2 nemá publikovaný koordinační zdroj.');
+  if(type==='htr')fail(p.coordinate_system===undefined,'Starý návrh HTR nemůže označovat jiný souřadnicový systém.');
+ }
  fail(p.status==='proposed'&&p.expert_review===false,'Návrh musí mít status proposed a expert_review false.');
  fail(typeof p.id==='string'&&p.id.length>0&&p.id.length<=200,'Chybí ID návrhu.');
  fail(typeof p.reason_cs==='string'&&p.reason_cs.trim()&&p.reason_cs.length<=2000,'Chybí zdůvodnění nebo je příliš dlouhé.');
@@ -49,7 +59,7 @@ export async function validateProposal(p,type,publicRoot) {
   lineIds=[line.id];
  }else{
   fail(p.image_width===page.width&&p.image_height===page.height&&p.source_original===page.source_original,'Rozměry nebo zdrojový soubor neodpovídají.');
-  fail(same(p.coordinate_system,{origin:'top-left',units:'original-image-pixels',bbox_format:['x','y','width','height']}),'Neplatný souřadnicový systém.');
+  fail(same(p.coordinate_system,coordinates.coordinate_system||{origin:'top-left',units:'original-image-pixels',bbox_format:['x','y','width','height']}),'Neplatný souřadnicový systém.');
   fail(Array.isArray(p.original_segments)&&Array.isArray(p.proposed_regions),'Chybí původní segmenty nebo nové oblasti.');
   const segments=page.lines.map(l=>({id:l.id,bbox:l.bbox,source_segment_ids:l.source_segment_ids}));
   const rebuilt=makeSegmentationProposal({...page,segments},p.operation,p.original_segments.map(s=>s.id),p.proposed_regions.map(s=>s.bbox),p.reason_cs,p.id,p.created_utc);

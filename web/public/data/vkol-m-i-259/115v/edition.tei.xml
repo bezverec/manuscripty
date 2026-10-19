@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 115v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_115v">
+      <graphic url="../pages/115v/image.png"/>
+      <zone ulx="1104" uly="401" lrx="1294" lry="497" xml:id="z_f115v_l001"/>
+      <zone ulx="946" uly="429" lrx="3517" lry="575" xml:id="z_f115v_l002"/>
+      <zone ulx="883" uly="532" lrx="3520" lry="659" xml:id="z_f115v_l003"/>
+      <zone ulx="949" uly="609" lrx="3517" lry="737" xml:id="z_f115v_l004"/>
+      <zone ulx="883" uly="693" lrx="3535" lry="830" xml:id="z_f115v_l005"/>
+      <zone ulx="887" uly="768" lrx="3090" lry="911" xml:id="z_f115v_l006"/>
+      <zone ulx="887" uly="855" lrx="3529" lry="1001" xml:id="z_f115v_l007"/>
+      <zone ulx="899" uly="936" lrx="3037" lry="1076" xml:id="z_f115v_l008"/>
+      <zone ulx="943" uly="1011" lrx="3006" lry="1160" xml:id="z_f115v_l009"/>
+      <zone ulx="927" uly="1104" lrx="3526" lry="1250" xml:id="z_f115v_l010"/>
+      <zone ulx="896" uly="1191" lrx="3436" lry="1334" xml:id="z_f115v_l011"/>
+      <zone ulx="905" uly="1272" lrx="3563" lry="1428" xml:id="z_f115v_l012"/>
+      <zone ulx="939" uly="1359" lrx="3501" lry="1527" xml:id="z_f115v_l013"/>
+      <zone ulx="887" uly="1459" lrx="2795" lry="1602" xml:id="z_f115v_l014"/>
+      <zone ulx="902" uly="1508" lrx="3532" lry="1698" xml:id="z_f115v_l015"/>
+      <zone ulx="893" uly="1608" lrx="3526" lry="1779" xml:id="z_f115v_l016"/>
+      <zone ulx="902" uly="1711" lrx="3598" lry="1848" xml:id="z_f115v_l017"/>
+      <zone ulx="896" uly="1798" lrx="3529" lry="1950" xml:id="z_f115v_l018"/>
+      <zone ulx="896" uly="1885" lrx="3579" lry="2034" xml:id="z_f115v_l019"/>
+      <zone ulx="911" uly="1975" lrx="3551" lry="2106" xml:id="z_f115v_l020"/>
+      <zone ulx="902" uly="2059" lrx="3563" lry="2208" xml:id="z_f115v_l021"/>
+      <zone ulx="908" uly="2146" lrx="3514" lry="2311" xml:id="z_f115v_l022"/>
+      <zone ulx="911" uly="2246" lrx="3563" lry="2401" xml:id="z_f115v_l023"/>
+      <zone ulx="887" uly="2342" lrx="3548" lry="2485" xml:id="z_f115v_l024"/>
+      <zone ulx="902" uly="2439" lrx="3551" lry="2582" xml:id="z_f115v_l025"/>
+      <zone ulx="893" uly="2526" lrx="3570" lry="2666" xml:id="z_f115v_l026"/>
+      <zone ulx="902" uly="2613" lrx="3548" lry="2759" xml:id="z_f115v_l027"/>
+      <zone ulx="902" uly="2700" lrx="3545" lry="2824" xml:id="z_f115v_l028"/>
+      <zone ulx="899" uly="2781" lrx="3554" lry="2905" xml:id="z_f115v_l029"/>
+      <zone ulx="911" uly="2865" lrx="3538" lry="2996" xml:id="z_f115v_l030"/>
+      <zone ulx="915" uly="2952" lrx="3535" lry="3083" xml:id="z_f115v_l031"/>
+      <zone ulx="3710" uly="438" lrx="3868" lry="550" xml:id="z_f115v_l032"/>
+      <zone ulx="3713" uly="516" lrx="3868" lry="631" xml:id="z_f115v_l033"/>
+      <zone ulx="3722" uly="581" lrx="3871" lry="703" xml:id="z_f115v_l034"/>
+      <zone ulx="3769" uly="672" lrx="3868" lry="771" xml:id="z_f115v_l035"/>
+      <zone ulx="3700" uly="731" lrx="3884" lry="855" xml:id="z_f115v_l036"/>
+      <zone ulx="3710" uly="821" lrx="3875" lry="945" xml:id="z_f115v_l037"/>
+      <zone ulx="3707" uly="908" lrx="3875" lry="1036" xml:id="z_f115v_l038"/>
+      <zone ulx="3707" uly="989" lrx="3878" lry="1126" xml:id="z_f115v_l039"/>
+      <zone ulx="3691" uly="1082" lrx="3868" lry="1207" xml:id="z_f115v_l040"/>
+      <zone ulx="3697" uly="1176" lrx="3884" lry="1281" xml:id="z_f115v_l041"/>
+      <zone ulx="3685" uly="1253" lrx="3856" lry="1375" xml:id="z_f115v_l042"/>
+      <zone ulx="3679" uly="1340" lrx="3887" lry="1456" xml:id="z_f115v_l043"/>
+      <zone ulx="3694" uly="1424" lrx="3881" lry="1536" xml:id="z_f115v_l044"/>
+      <zone ulx="3675" uly="1505" lrx="3875" lry="1633" xml:id="z_f115v_l045"/>
+      <zone ulx="3679" uly="1605" lrx="3868" lry="1729" xml:id="z_f115v_l046"/>
+      <zone ulx="3691" uly="1673" lrx="3853" lry="1801" xml:id="z_f115v_l047"/>
+      <zone ulx="3688" uly="1767" lrx="3884" lry="1882" xml:id="z_f115v_l048"/>
+      <zone ulx="3685" uly="1844" lrx="3887" lry="1969" xml:id="z_f115v_l049"/>
+      <zone ulx="3679" uly="1932" lrx="3884" lry="2062" xml:id="z_f115v_l050"/>
+      <zone ulx="3679" uly="2012" lrx="3887" lry="2143" xml:id="z_f115v_l051"/>
+      <zone ulx="3685" uly="2112" lrx="3887" lry="2236" xml:id="z_f115v_l052"/>
+      <zone ulx="3688" uly="2196" lrx="3887" lry="2314" xml:id="z_f115v_l053"/>
+      <zone ulx="3679" uly="2286" lrx="3881" lry="2398" xml:id="z_f115v_l054"/>
+      <zone ulx="3685" uly="2373" lrx="3884" lry="2495" xml:id="z_f115v_l055"/>
+      <zone ulx="3713" uly="2473" lrx="3847" lry="2600" xml:id="z_f115v_l056"/>
+      <zone ulx="3679" uly="2538" lrx="3871" lry="2688" xml:id="z_f115v_l057"/>
+      <zone ulx="3657" uly="2641" lrx="3881" lry="2759" xml:id="z_f115v_l058"/>
+      <zone ulx="3666" uly="2722" lrx="3850" lry="2874" xml:id="z_f115v_l059"/>
+      <zone ulx="3663" uly="2831" lrx="3887" lry="2949" xml:id="z_f115v_l060"/>
+      <zone ulx="3660" uly="2899" lrx="3887" lry="3011" xml:id="z_f115v_l061"/>
+      <zone ulx="3647" uly="2983" lrx="3887" lry="3101" xml:id="z_f115v_l062"/>
+      <zone ulx="930" uly="3033" lrx="3884" lry="3182" xml:id="z_f115v_l063"/>
+      <zone ulx="905" uly="3126" lrx="3526" lry="3285" xml:id="z_f115v_l064"/>
+      <zone ulx="908" uly="3220" lrx="2262" lry="3366" xml:id="z_f115v_l065"/>
+      <zone ulx="911" uly="3266" lrx="3566" lry="3462" xml:id="z_f115v_l066"/>
+      <zone ulx="911" uly="3378" lrx="3538" lry="3537" xml:id="z_f115v_l067"/>
+      <zone ulx="924" uly="3462" lrx="3507" lry="3630" xml:id="z_f115v_l068"/>
+      <zone ulx="915" uly="3549" lrx="3570" lry="3708" xml:id="z_f115v_l069"/>
+      <zone ulx="911" uly="3633" lrx="3548" lry="3786" xml:id="z_f115v_l070"/>
+      <zone ulx="915" uly="3736" lrx="3532" lry="3892" xml:id="z_f115v_l071"/>
+      <zone ulx="908" uly="3832" lrx="3579" lry="3954" xml:id="z_f115v_l072"/>
+      <zone ulx="918" uly="3923" lrx="3542" lry="4050" xml:id="z_f115v_l073"/>
+      <zone ulx="927" uly="4010" lrx="3535" lry="4125" xml:id="z_f115v_l074"/>
+      <zone ulx="921" uly="4081" lrx="3598" lry="4224" xml:id="z_f115v_l075"/>
+      <zone ulx="924" uly="4175" lrx="3573" lry="4312" xml:id="z_f115v_l076"/>
+      <zone ulx="927" uly="4262" lrx="3554" lry="4424" xml:id="z_f115v_l077"/>
+      <zone ulx="927" uly="4352" lrx="2798" lry="4504" xml:id="z_f115v_l078"/>
+      <zone ulx="3650" uly="3151" lrx="3884" lry="3266" xml:id="z_f115v_l079"/>
+      <zone ulx="3641" uly="3241" lrx="3887" lry="3363" xml:id="z_f115v_l080"/>
+      <zone ulx="3644" uly="3332" lrx="3887" lry="3453" xml:id="z_f115v_l081"/>
+      <zone ulx="3650" uly="3409" lrx="3887" lry="3534" xml:id="z_f115v_l082"/>
+      <zone ulx="3647" uly="3506" lrx="3887" lry="3618" xml:id="z_f115v_l083"/>
+      <zone ulx="3638" uly="3584" lrx="3887" lry="3702" xml:id="z_f115v_l084"/>
+      <zone ulx="3638" uly="3677" lrx="3887" lry="3795" xml:id="z_f115v_l085"/>
+      <zone ulx="3635" uly="3780" lrx="3884" lry="3870" xml:id="z_f115v_l086"/>
+      <zone ulx="3635" uly="3851" lrx="3887" lry="3954" xml:id="z_f115v_l087"/>
+      <zone ulx="3632" uly="3951" lrx="3890" lry="4047" xml:id="z_f115v_l088"/>
+      <zone ulx="3632" uly="4010" lrx="3887" lry="4172" xml:id="z_f115v_l089"/>
+      <zone ulx="3629" uly="4106" lrx="3887" lry="4221" xml:id="z_f115v_l090"/>
+      <zone ulx="3635" uly="4181" lrx="3887" lry="4299" xml:id="z_f115v_l091"/>
+      <zone ulx="3632" uly="4280" lrx="3884" lry="4405" xml:id="z_f115v_l092"/>
+      <zone ulx="3638" uly="4368" lrx="3881" lry="4489" xml:id="z_f115v_l093"/>
+      <zone ulx="939" uly="4436" lrx="3875" lry="4607" xml:id="z_f115v_l094"/>
+      <zone ulx="918" uly="4529" lrx="3520" lry="4688" xml:id="z_f115v_l095"/>
+      <zone ulx="3626" uly="4554" lrx="3871" lry="4657" xml:id="z_f115v_l096"/>
+      <zone ulx="930" uly="4620" lrx="3887" lry="4775" xml:id="z_f115v_l097"/>
+      <zone ulx="918" uly="4710" lrx="3548" lry="4859" xml:id="z_f115v_l098"/>
+      <zone ulx="930" uly="4788" lrx="3514" lry="4946" xml:id="z_f115v_l099"/>
+      <zone ulx="927" uly="4856" lrx="3345" lry="5027" xml:id="z_f115v_l100"/>
+      <zone ulx="943" uly="4928" lrx="3542" lry="5167" xml:id="z_f115v_l101"/>
+      <zone ulx="3647" uly="4710" lrx="3878" lry="4859" xml:id="z_f115v_l102"/>
+      <zone ulx="3644" uly="4834" lrx="3884" lry="4949" xml:id="z_f115v_l103"/>
+      <zone ulx="3644" uly="4903" lrx="3840" lry="5108" xml:id="z_f115v_l104"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f115v_l001" xml:id="catmus_f115v_l001"/>
+          <seg type="raw_unreviewed">crlcis</seg>
+          <lb facs="#z_f115v_l002" xml:id="catmus_f115v_l002"/>
+          <seg type="raw_unreviewed">Egriẽs ĩ se uõ ẽ muliid hoxxon qͥ/ Q dux ẽ nẽguͦ u licita ⁊ illiciti</seg>
+          <lb facs="#z_f115v_l003" xml:id="catmus_f115v_l003"/>
+          <seg type="raw_unreviewed">ibit̃ soruicii ẽꝵ negriꝰ sñ picło aĩe ecei̾ ũ p̃t de p. du qͣͭ ͥ st̃ negocis</seg>
+          <lb facs="#z_f115v_l004" xml:id="catmus_f115v_l004"/>
+          <seg type="raw_unreviewed">houesta cl̾it᷑ ẽ nic̾ecũ ĩlid̾ / It negociatae̾ clicũ. ⁊ eĩ oye diuitem</seg>
+          <lb facs="#z_f115v_l005" xml:id="catmus_f115v_l005"/>
+          <seg type="raw_unreviewed">scñi. ⁊ et ignoblr᷑ gu̾osũ. qi qͣu pestẽ suge .d lxxxuiii negoci ͭ ͤ̃ Q uegociacõ</seg>
+          <lb facs="#z_f115v_l006" xml:id="catmus_f115v_l006"/>
+          <seg type="raw_unreviewed">uietat . ut t̾bua᷑ paupib ⁊ pupiłus. ꝑmlti clĩc̃. ibid̃ decrenit</seg>
+          <lb facs="#z_f115v_l007" xml:id="catmus_f115v_l007"/>
+          <seg type="raw_unreviewed">Degociacõ. q̃ sii ꝓc̃cr̃ . a uix aͥ nũꝙ eiceĩ pũt dopdo negociũ/ Et ꝑfcm ñ</seg>
+          <lb facs="#z_f115v_l008" xml:id="catmus_f115v_l008"/>
+          <seg type="raw_unreviewed">ẽ uccm r̾pet̾e nego  ꝙ añ siĩ pcc̃o d̾ecuerũt de ꝑd u uõco.</seg>
+          <lb facs="#z_f115v_l009" xml:id="catmus_f115v_l009"/>
+          <seg type="raw_unreviewed">dophicus diͬ nõui᷑ tfide ul ĩt̾ligiõe plantatꝭs xloni p </seg>
+          <lb facs="#z_f115v_l010" xml:id="catmus_f115v_l010"/>
+          <seg type="raw_unreviewed">oblitus moꝵ plꝰ̃ oruit ꝙ̃ genituꝵ id pleꝵ n ͨ loci u ͨ gu̾is nobli ͭ. ẜ u̾tule x</seg>
+          <lb facs="#z_f115v_l011" xml:id="catmus_f115v_l011"/>
+          <seg type="raw_unreviewed">gr̃a ucq̃u᷑d̾ pl i ᵈͤ eꝵ mobłiti defert᷑ ĩ pene. xexcessa ĩpoĩcoe .xxiiii.qͥi qui</seg>
+          <lb facs="#z_f115v_l012" xml:id="catmus_f115v_l012"/>
+          <seg type="raw_unreviewed">m̃ uͥñ ꝑꝑ scĩ detesta ᷑. deyͣua ᷑ dxoii nãtꝭ e axᵉ xani nuĩtĩ. doqd. iii p</seg>
+          <lb facs="#z_f115v_l013" xml:id="catmus_f115v_l013"/>
+          <seg type="raw_unreviewed">upcie amib̃do a . eo ꝙ puelle pudoꝵ gͣeri ca̾ uela̾e soleãt xxx q ult̾</seg>
+          <lb facs="#z_f115v_l014" xml:id="catmus_f115v_l014"/>
+          <seg type="raw_unreviewed">en uuptie t̾ul ĩplit. u̾gĩtus padisũ . Xxxii qi nupcie</seg>
+          <lb facs="#z_f115v_l015" xml:id="catmus_f115v_l015"/>
+          <seg type="raw_unreviewed">¶bediẽtia ẽ. ꝙꝙ asupiõe utiłr ĩ ꝑatũ fu̾i̾t olepore xxiii qi sit e obe</seg>
+          <lb facs="#z_f115v_l016" xml:id="catmus_f115v_l016"/>
+          <seg type="raw_unreviewed">sula fidei nũtũ possid. sine qͣ qͥsq ĩ fidelis quinci. ⁊ ꝑ ꝙ fidelis õẽ iudica᷑ uni q</seg>
+          <lb facs="#z_f115v_l017" xml:id="catmus_f115v_l017"/>
+          <seg type="raw_unreviewed">i srsseꝵ obe ͭ ⁊ spt d pu̾ti ᷤ xxxiii .ꝓ.ꝙ / Q obedi ͣ⁊ desi dou̾l. ⁊ obeᵈ ͤ. pns</seg>
+          <lb facs="#z_f115v_l018" xml:id="catmus_f115v_l018"/>
+          <seg type="raw_unreviewed">p̃t ͣ uolũ ͤ n  ẽ ole ͥ itt It̃ obe ͥ qr cugił de sỹ alieã potestate. iul d eẽ ꝓp̾ũ</seg>
+          <lb facs="#z_f115v_l019" xml:id="catmus_f115v_l019"/>
+          <seg type="raw_unreviewed">uii qi ũ Ieꝵ obeͣ ẽ fructuosu. Rr ꝑ ip̃a ĩ pñti m̾ent᷑ griid xcuii uͣ It̃ sutũ</seg>
+          <lb facs="#z_f115v_l020" xml:id="catmus_f115v_l020"/>
+          <seg type="raw_unreviewed">u ip̃u m̾eni᷑ srlute dxcri sisst̃ siĩ ipũ ⁊̃ c̾iiuꝰ et̾uã r̾ꝓbatõ iludi Q ꝑꝑ olem</seg>
+          <lb facs="#z_f115v_l021" xml:id="catmus_f115v_l021"/>
+          <seg type="raw_unreviewed">In ẽ uoͫ obm̃tũd ẜ mũꝙ malũ mõrbs cłpe ad u̾tũd N qui .ỹIt ĩ du biie</seg>
+          <lb facs="#z_f115v_l022" xml:id="catmus_f115v_l022"/>
+          <seg type="raw_unreviewed">sꝑ ẽ obedĩoꝵ x .i.. y Q aliis ꝓpõitus. ũ d fr̾e moleste aliħ s płat̃ õẽ</seg>
+          <lb facs="#z_f115v_l023" xml:id="catmus_f115v_l023"/>
+          <seg type="raw_unreviewed">s obediũ ꝙ̃ xigit abaliis ipe ĩpũdutd xxii. Ĩeꝵ ũ ẽ ꝑẜmalũ. ñ obe</seg>
+          <lb facs="#z_f115v_l024" xml:id="catmus_f115v_l024"/>
+          <seg type="raw_unreviewed">dĩe. qr cũ p̃cip ab̾ q̃ deũ. pluto ũ ẽ obedied xi qui nõ seꝵꝵ ẜuꝰ ebediẽs dño</seg>
+          <lb facs="#z_f115v_l025" xml:id="catmus_f115v_l025"/>
+          <seg type="raw_unreviewed">sue ĩ malo ꝯcusa᷑ ꝓtãto qr ẜuꝰ ẜ nõ ꝓtoto xxii qx qͥseꝵ suꝑioi̾b ñ ẽ obedi</seg>
+          <lb facs="#z_f115v_l026" xml:id="catmus_f115v_l026"/>
+          <seg type="raw_unreviewed">eccdi sscinluid xcũ si seꝵꝵ leo ẽ pnᵗ obediẽd. dem q piłt ꝓ / dn̾i rõne</seg>
+          <lb facs="#z_f115v_l027" xml:id="catmus_f115v_l027"/>
+          <seg type="raw_unreviewed">ecc̃e diligñcii.d xii p̃cept᷑ It̃ epĩs uii .i. qr It scla̾i̾b ptãtib.d uni q̃s sc̃ qͥl</seg>
+          <lb facs="#z_f115v_l028" xml:id="catmus_f115v_l028"/>
+          <seg type="raw_unreviewed">suo sup oriuꝰ pcr a subdiacomiꝰ /eꝵ pꝰ deũ iõ roue occe iugꝭ ẽ obedie In sr ip̃u</seg>
+          <lb facs="#z_f115v_l029" xml:id="catmus_f115v_l029"/>
+          <seg type="raw_unreviewed">Tcaᵈ ⁊ m̃t ocꝰ in dxu ũ deꝙst selũlii ꝑtõtibi. sͨ ẽ obẽdiẽ . ut de Iñ offidi</seg>
+          <lb facs="#z_f115v_l030" xml:id="catmus_f115v_l030"/>
+          <seg type="raw_unreviewed">d uui q ĩsie st̃ abbatilꝰ mechi ⁊alii r̾ligiosi ꝓpeciasi sus p̃łuto. ĩ li q̃ spcãt</seg>
+          <lb facs="#z_f115v_l031" xml:id="catmus_f115v_l031"/>
+          <seg type="raw_unreviewed">adi ͫ n ep̃o tenen᷑ obedi̾e. it tlicus płi te᷑ obet ͤ sui ep̃o nꝙ arep̃o .xxiii.i</seg>
+          <lb facs="#z_f115v_l032" xml:id="catmus_f115v_l032"/>
+          <seg type="raw_unreviewed"> que</seg>
+          <lb facs="#z_f115v_l033" xml:id="catmus_f115v_l033"/>
+          <seg type="raw_unreviewed">płio dca</seg>
+          <lb facs="#z_f115v_l034" xml:id="catmus_f115v_l034"/>
+          <seg type="raw_unreviewed">. al  ͫ</seg>
+          <lb facs="#z_f115v_l035" xml:id="catmus_f115v_l035"/>
+          <seg type="raw_unreviewed">Iue5</seg>
+          <lb facs="#z_f115v_l036" xml:id="catmus_f115v_l036"/>
+          <seg type="raw_unreviewed">CDn D</seg>
+          <lb facs="#z_f115v_l037" xml:id="catmus_f115v_l037"/>
+          <seg type="raw_unreviewed">pdb sud</seg>
+          <lb facs="#z_f115v_l038" xml:id="catmus_f115v_l038"/>
+          <seg type="raw_unreviewed">gyod.</seg>
+          <lb facs="#z_f115v_l039" xml:id="catmus_f115v_l039"/>
+          <seg type="raw_unreviewed">msĩ cẽ</seg>
+          <lb facs="#z_f115v_l040" xml:id="catmus_f115v_l040"/>
+          <seg type="raw_unreviewed">Ie Byaꝰ</seg>
+          <lb facs="#z_f115v_l041" xml:id="catmus_f115v_l041"/>
+          <seg type="raw_unreviewed">essul. I os</seg>
+          <lb facs="#z_f115v_l042" xml:id="catmus_f115v_l042"/>
+          <seg type="raw_unreviewed">ir depe</seg>
+          <lb facs="#z_f115v_l043" xml:id="catmus_f115v_l043"/>
+          <seg type="raw_unreviewed">aneet̃o</seg>
+          <lb facs="#z_f115v_l044" xml:id="catmus_f115v_l044"/>
+          <seg type="raw_unreviewed">nulus̃ ã pi</seg>
+          <lb facs="#z_f115v_l045" xml:id="catmus_f115v_l045"/>
+          <seg type="raw_unreviewed">sob ciscol</seg>
+          <lb facs="#z_f115v_l046" xml:id="catmus_f115v_l046"/>
+          <seg type="raw_unreviewed">x. iu ͦ pi</seg>
+          <lb facs="#z_f115v_l047" xml:id="catmus_f115v_l047"/>
+          <seg type="raw_unreviewed">nep bꝵ p</seg>
+          <lb facs="#z_f115v_l048" xml:id="catmus_f115v_l048"/>
+          <seg type="raw_unreviewed">dĩ fr̃ui2</seg>
+          <lb facs="#z_f115v_l049" xml:id="catmus_f115v_l049"/>
+          <seg type="raw_unreviewed">URS HOX</seg>
+          <lb facs="#z_f115v_l050" xml:id="catmus_f115v_l050"/>
+          <seg type="raw_unreviewed">e ͦ sbla</seg>
+          <lb facs="#z_f115v_l051" xml:id="catmus_f115v_l051"/>
+          <seg type="raw_unreviewed">apit̃ i asł</seg>
+          <lb facs="#z_f115v_l052" xml:id="catmus_f115v_l052"/>
+          <seg type="raw_unreviewed">QRID 2</seg>
+          <lb facs="#z_f115v_l053" xml:id="catmus_f115v_l053"/>
+          <seg type="raw_unreviewed">e illicitꝰ </seg>
+          <lb facs="#z_f115v_l054" xml:id="catmus_f115v_l054"/>
+          <seg type="raw_unreviewed">ditꝭ drfif</seg>
+          <lb facs="#z_f115v_l055" xml:id="catmus_f115v_l055"/>
+          <seg type="raw_unreviewed">symet pol</seg>
+          <lb facs="#z_f115v_l056" xml:id="catmus_f115v_l056"/>
+          <seg type="raw_unreviewed">ꝑ pũ</seg>
+          <lb facs="#z_f115v_l057" xml:id="catmus_f115v_l057"/>
+          <seg type="raw_unreviewed">de ꝑpolu̾e</seg>
+          <lb facs="#z_f115v_l058" xml:id="catmus_f115v_l058"/>
+          <seg type="raw_unreviewed">grii cũtãte</seg>
+          <lb facs="#z_f115v_l059" xml:id="catmus_f115v_l059"/>
+          <seg type="raw_unreviewed">pi p̃t is</seg>
+          <lb facs="#z_f115v_l060" xml:id="catmus_f115v_l060"/>
+          <seg type="raw_unreviewed">luepo</seg>
+          <lb facs="#z_f115v_l061" xml:id="catmus_f115v_l061"/>
+          <seg type="raw_unreviewed">nre trelie</seg>
+          <lb facs="#z_f115v_l062" xml:id="catmus_f115v_l062"/>
+          <seg type="raw_unreviewed">us q̃ Renio</seg>
+          <lb facs="#z_f115v_l063" xml:id="catmus_f115v_l063"/>
+          <seg type="raw_unreviewed"> . inͣi eꝵ õi suꝑloi̾b. dñ ͦ ñ st̃ hetici. l sit aᵈ  mali Iui d̾m eccũ cuoͥ tollolit susid ĩ ciuu</seg>
+          <lb facs="#z_f115v_l064" xml:id="catmus_f115v_l064"/>
+          <seg type="raw_unreviewed">ẽ eis obedĩet. n ꝯoii sar̾doter e indexobediẽdo ptat᷑ legittĩeͭ si ꝙ̃ quiħ</seg>
+          <lb facs="#z_f115v_l065" xml:id="catmus_f115v_l065"/>
+          <seg type="raw_unreviewed">occibeit. nõ culpil. qm q u mules</seg>
+          <lb facs="#z_f115v_l066" xml:id="catmus_f115v_l066"/>
+          <seg type="raw_unreviewed">Oblatõ ẽ diex u spuũlis q̃ ẽ corꝰ ⁊ scig  x. ⁊ tpal q̃ fit or h m̃drde . diith</seg>
+          <lb facs="#z_f115v_l067" xml:id="catmus_f115v_l067"/>
+          <seg type="raw_unreviewed">otꝰ obla᷑ enba q̃ pñe ppũalis. ee obla ͦ p̃cellit de. Idii ioͭ Eꝵ ab oĩ sorde</seg>
+          <lb facs="#z_f115v_l068" xml:id="catmus_f115v_l068"/>
+          <seg type="raw_unreviewed">p̾gati d̃ oblucõ offerreidł et fit̃ ĩ ũdi ab huc obli ͭ ͤ ꝓhibenid hexxiia</seg>
+          <lb facs="#z_f115v_l069" xml:id="catmus_f115v_l069"/>
+          <seg type="raw_unreviewed">st̃ l ħ olla᷑ st̃i sit ũ tñ ĩdñ  effeu̾s cã scĩfica᷑. s pbꝰ pollmiqicꝓpho</seg>
+          <lb facs="#z_f115v_l070" xml:id="catmus_f115v_l070"/>
+          <seg type="raw_unreviewed">es Toblaᵈ a. tpuliũ. de^ plꝰ peusat bolũ offu̾ᵃl.pͣ oblat᷑ Exiq i</seg>
+          <lb facs="#z_f115v_l071" xml:id="catmus_f115v_l071"/>
+          <seg type="raw_unreviewed">Oꝵ quil pair uide᷑ tenei offri ĩ festiᵇ. deqdi os It̃ obla exiiiͦ ẽ</seg>
+          <lb facs="#z_f115v_l072" xml:id="catmus_f115v_l072"/>
+          <seg type="raw_unreviewed">macłata. 2io ĩ srnctuo sui xemii qi ĩ inolũs / It obli ͦ ͦ ĩuiꝵ ñ p̾iicil</seg>
+          <lb facs="#z_f115v_l073" xml:id="catmus_f115v_l073"/>
+          <seg type="raw_unreviewed">de I. sᵈ odiin̾ea cam ũ r̾spexit in quii ĩ gmħ / It̃ ꝙ̃ ꝙ ĩ saic̾sicõ dei</seg>
+          <lb facs="#z_f115v_l074" xml:id="catmus_f115v_l074"/>
+          <seg type="raw_unreviewed">exstelẽ ꝯfftur. ũ placat Cius mracũdia iẜ irritatiql ũ ẽtite</seg>
+          <lb facs="#z_f115v_l075" xml:id="catmus_f115v_l075"/>
+          <seg type="raw_unreviewed">oblatõs distordantiũ. ⁊ paupes opp̾inẽtĩ. lĩ st̃ r̾cipiẽde ⁊ xc oblieb</seg>
+          <lb facs="#z_f115v_l076" xml:id="catmus_f115v_l076"/>
+          <seg type="raw_unreviewed">eꝵ uolũtale oblatõs. pũt accipi sñ pcc̃o. ui q i/ Ista ł eꝵ ĩdig ẽ</seg>
+          <lb facs="#z_f115v_l077" xml:id="catmus_f115v_l077"/>
+          <seg type="raw_unreviewed">offi̾re lõ. ꝙ dedignit᷑ hoid ꝓlix cũ eꝵ illi oblatõs nõ dĩ ꝑciꝑe. qui</seg>
+          <lb facs="#z_f115v_l078" xml:id="catmus_f115v_l078"/>
+          <seg type="raw_unreviewed">uix ualẽt ꝓse. ne dñ ꝑaliis orab e qi hanc</seg>
+          <lb facs="#z_f115v_l079" xml:id="catmus_f115v_l079"/>
+          <seg type="raw_unreviewed">a bibuia uigi</seg>
+          <lb facs="#z_f115v_l080" xml:id="catmus_f115v_l080"/>
+          <seg type="raw_unreviewed">pot alĩm. q̃i </seg>
+          <lb facs="#z_f115v_l081" xml:id="catmus_f115v_l081"/>
+          <seg type="raw_unreviewed"> fficq</seg>
+          <lb facs="#z_f115v_l082" xml:id="catmus_f115v_l082"/>
+          <seg type="raw_unreviewed">hegũtes se</seg>
+          <lb facs="#z_f115v_l083" xml:id="catmus_f115v_l083"/>
+          <seg type="raw_unreviewed">inp̃ a iułtis</seg>
+          <lb facs="#z_f115v_l084" xml:id="catmus_f115v_l084"/>
+          <seg type="raw_unreviewed">mis uõ ocrid</seg>
+          <lb facs="#z_f115v_l085" xml:id="catmus_f115v_l085"/>
+          <seg type="raw_unreviewed">l p̃t Roliꝰ</seg>
+          <lb facs="#z_f115v_l086" xml:id="catmus_f115v_l086"/>
+          <seg type="raw_unreviewed">Iusũ Diũ u</seg>
+          <lb facs="#z_f115v_l087" xml:id="catmus_f115v_l087"/>
+          <seg type="raw_unreviewed">IOpa Bouit</seg>
+          <lb facs="#z_f115v_l088" xml:id="catmus_f115v_l088"/>
+          <seg type="raw_unreviewed">sũ fenemũ. 2.</seg>
+          <lb facs="#z_f115v_l089" xml:id="catmus_f115v_l089"/>
+          <seg type="raw_unreviewed">Aorsõ opa</seg>
+          <lb facs="#z_f115v_l090" xml:id="catmus_f115v_l090"/>
+          <seg type="raw_unreviewed">ssit ꝑpuusi. il</seg>
+          <lb facs="#z_f115v_l091" xml:id="catmus_f115v_l091"/>
+          <seg type="raw_unreviewed">a ualẽt ir</seg>
+          <lb facs="#z_f115v_l092" xml:id="catmus_f115v_l092"/>
+          <seg type="raw_unreviewed">Uñ fͦ st̃ diie</seg>
+          <lb facs="#z_f115v_l093" xml:id="catmus_f115v_l093"/>
+          <seg type="raw_unreviewed">¶e ũ pr̃iqi</seg>
+          <lb facs="#z_f115v_l094" xml:id="catmus_f115v_l094"/>
+          <seg type="raw_unreviewed">¶ uligaꝰ fit ꝑꝑ suta̾ cautelai uii qͥ ͥ  eoꝵ cou̾ dõ. tñi obligat sipꝰ ũ. qnͣt ñ a bolũ</seg>
+          <lb facs="#z_f115v_l095" xml:id="catmus_f115v_l095"/>
+          <seg type="raw_unreviewed">m̃am̃tũ xxñ q u ma ͭ ͣ eꝵ oblignti adrr̃cia. ũ d ubordiẽs umoui dl p̾sꝭ</seg>
+          <lb facs="#z_f115v_l096" xml:id="catmus_f115v_l096"/>
+          <seg type="raw_unreviewed">I. C̃iIño</seg>
+          <lb facs="#z_f115v_l097" xml:id="catmus_f115v_l097"/>
+          <seg type="raw_unreviewed">Obstĩa ẽ ꝯsliis salutri̾b uolle acq̾est̾e d phaem ꝙ Ic̃dbstiatiẽ qui pꝰ Hẽdũs de.</seg>
+          <lb facs="#z_f115v_l098" xml:id="catmus_f115v_l098"/>
+          <seg type="raw_unreviewed">ĩspu̾ ͦ cãl r̾ueliꝰꝰ s̾ fcm. ĩ eo ꝙ enri̾at ꝑseu̾enit .s uni ꝯsueᵈ ͦ Qd</seg>
+          <lb facs="#z_f115v_l099" xml:id="catmus_f115v_l099"/>
+          <seg type="raw_unreviewed">obsciãtꝭ ĩ nullicia deꝰ mũy miẜͭͥfuit. u᷑ miẜe̾᷑ iaxm q ꝯͥ legatur</seg>
+          <lb facs="#z_f115v_l100" xml:id="catmus_f115v_l100"/>
+          <seg type="raw_unreviewed">M iõ obstiãti ĩ digni sc̃ uerã. Ir pcat exc̃tu mllicia .duiii n sue ᵈ</seg>
+          <lb facs="#z_f115v_l101" xml:id="catmus_f115v_l101"/>
+          <seg type="raw_unreviewed">Occasio nõ ẽ daudia alicui ꝑmalũ exͫͫ.xi qi nolosst u ꝑfame</seg>
+          <lb facs="#z_f115v_l102" xml:id="catmus_f115v_l102"/>
+          <seg type="raw_unreviewed">. ¶ eNõ</seg>
+          <lb facs="#z_f115v_l103" xml:id="catmus_f115v_l103"/>
+          <seg type="raw_unreviewed">oII</seg>
+          <lb facs="#z_f115v_l104" xml:id="catmus_f115v_l104"/>
+          <seg type="raw_unreviewed">ii c̃ sui</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f115v_l001" xml:id="medusa_f115v_l001"/>
+          <seg type="raw_unreviewed">cracis</seg>
+          <lb facs="#z_f115v_l002" xml:id="medusa_f115v_l002"/>
+          <seg type="raw_unreviewed">Regum in se non est mala d lxxviii qͥ M dux est neguo videlicet licita et illicita</seg>
+          <lb facs="#z_f115v_l003" xml:id="medusa_f115v_l003"/>
+          <seg type="raw_unreviewed">ibid̃ fornicariꝰ 23 negrꝰ sine p̃icho ñe excreĩ ñ pt̃ de p̃ d̃ u qͣtus ¶ It̃ negocus</seg>
+          <lb facs="#z_f115v_l004" xml:id="medusa_f115v_l004"/>
+          <seg type="raw_unreviewed">honesta cl̾icꝭ ẽ in t̾cia ĩb̃itꝰ ¶ Item negociatoeꝭ cl̾icũ . ⁊ ex ĩope d̾miten</seg>
+          <lb facs="#z_f115v_l005" xml:id="medusa_f115v_l005"/>
+          <seg type="raw_unreviewed">factum et ex ignobili generosi qͣi ipsam pestem fugere d̃ lxxxuiii negociorum / Quid negociacio</seg>
+          <lb facs="#z_f115v_l006" xml:id="medusa_f115v_l006"/>
+          <seg type="raw_unreviewed">pietatis ut tribuantur pauperibus et pupillis . permittitur clericis ibidem decreuerit</seg>
+          <lb facs="#z_f115v_l007" xml:id="medusa_f115v_l007"/>
+          <seg type="raw_unreviewed">Negociatõ q̃ sine p̃cepo nꝰ uix nͥ unꝰ ex t̾ei pũt᷑ de p̃d̃o negociũ ¶ 4 ꝑ fr̃s. ñ</seg>
+          <lb facs="#z_f115v_l008" xml:id="medusa_f115v_l008"/>
+          <seg type="raw_unreviewed">ẽ u̾cam r̾petere negoᵐ. q. aũ siĩ pcc̃o exonerũt .d. p. d. u. nẽgoᵐ</seg>
+          <lb facs="#z_f115v_l009" xml:id="medusa_f115v_l009"/>
+          <seg type="raw_unreviewed">eophicus d᷑r nom̃ ĩ fide ũl ĩ tͣsigõe plantatꝰ. d̶ xlviii sᵒ</seg>
+          <lb facs="#z_f115v_l010" xml:id="medusa_f115v_l010"/>
+          <seg type="raw_unreviewed">nobilitas noꝵ plꝰ ornat ꝙ̃ geniturꝰ d̾ ꝙl ¶ Eꝰ nᶜ loci nᶜ gen̾is nobilitate ẜ u̾tute x</seg>
+          <lb facs="#z_f115v_l011" xml:id="medusa_f115v_l011"/>
+          <seg type="raw_unreviewed">grã acqͥri᷑ d̃ xlᵈ eꝵ nobiliti᷑ defert᷑ ĩ pene. p ex cessu ĩpoĩcioe xxiiii. qͥn</seg>
+          <lb facs="#z_f115v_l012" xml:id="medusa_f115v_l012"/>
+          <seg type="raw_unreviewed">Domini mͦ ccͦ xxͦi detestaͦ ⁊ de pͣna dͦ xuii mͣtis / eꝵ moͦ xͥani noñnuͤ d̶. vii d̶. iiii pͥ</seg>
+          <lb facs="#z_f115v_l013" xml:id="medusa_f115v_l013"/>
+          <seg type="raw_unreviewed">Nuptie anibũdo d᷑ eo ꝙ puelle pudor g᷑cia cait̾ne sue soleãt. xxx. q ultꝰ</seg>
+          <lb facs="#z_f115v_l014" xml:id="medusa_f115v_l014"/>
+          <seg type="raw_unreviewed">Quod nupcie t̾raꝵ ĩplũt. u̾gĩtas padisũ .xxxii. in nupcie</seg>
+          <lb facs="#z_f115v_l015" xml:id="medusa_f115v_l015"/>
+          <seg type="raw_unreviewed">Obediẽcia ẽ ꝙͥꝙͥ a suꝑiore utiliter ĩ potestate fuerit obsequire .xxiii.ii. sit ¶ Ꝙ obe-</seg>
+          <lb facs="#z_f115v_l016" xml:id="medusa_f115v_l016"/>
+          <seg type="raw_unreviewed">sola fidei nutu possid. sine qͣ qͥsq; infidelis. inutis. ⁊ ꝑ ꝙ fidelis ẽe iudicis. uiii. qͥ</seg>
+          <lb facs="#z_f115v_l017" xml:id="medusa_f115v_l017"/>
+          <seg type="raw_unreviewed">⁊ ita ¶ Ex obeᵗ ⁊ r̾ꝭtꝭ d pñti .d̾ xxxiii. ꝙͣ ꝙ M obeᵈᵉ ⁊ desdoe̾ł. ⁊ obeᵈᵉ ꝙͣ u̾is</seg>
+          <lb facs="#z_f115v_l018" xml:id="medusa_f115v_l018"/>
+          <seg type="raw_unreviewed">p̃t̃ solue; nᵃ ẽ obeᵃ ibid̃ ¶ Item obeᵃ qz cogit̃ eẽ sb̃ alienã potestate. nil d; eẽ ꝓpͥũ</seg>
+          <lb facs="#z_f115v_l019" xml:id="medusa_f115v_l019"/>
+          <seg type="raw_unreviewed">xii q 1 ũ sed obeᵃ ẽ fructuosa qr ꝑ ipsam ĩ pñte meru᷑ grãc d̾ xciii nᵃ It̃ futũq</seg>
+          <lb facs="#z_f115v_l020" xml:id="medusa_f115v_l020"/>
+          <seg type="raw_unreviewed">ꝑ ip̃a u̾enũ salute. Secum si ¶ t̃ sñ ip̃a ĩ eͥrum eternã r̾putõ. ibid̃ ¶ Q ꝑꝑ obẽt</seg>
+          <lb facs="#z_f115v_l021" xml:id="medusa_f115v_l021"/>
+          <seg type="raw_unreviewed">qñ ebon obm̃tũd̃ s̃ nũꝙ malũ mo͂rb̃s c̾lpe ad m̃tũd̃. 11. 111. 1y ¶ It̃ ĩ duabus</seg>
+          <lb facs="#z_f115v_l022" xml:id="medusa_f115v_l022"/>
+          <seg type="raw_unreviewed">ꝑꝑ ẽ obediõ .XI.I. p̃. ¶ Si aliis p̃positus. ũ d fi̾e moleste. absq sibi p̃bat̃ ẽẽ</seg>
+          <lb facs="#z_f115v_l023" xml:id="medusa_f115v_l023"/>
+          <seg type="raw_unreviewed">siediaq exigit ab aliis ipse inprendat. d. xxiii. q. ¶ Sed nõ ẽ ꝑꝑmalũ. nõ obe-</seg>
+          <lb facs="#z_f115v_l024" xml:id="medusa_f115v_l024"/>
+          <seg type="raw_unreviewed">de .12. cũ p̃cipiũt q̃ deũ. placo ñ ẽ obedied̃ .xiiiii. nõ ¶ eꝵ ẜuꝰ obedires dñi</seg>
+          <lb facs="#z_f115v_l025" xml:id="medusa_f115v_l025"/>
+          <seg type="raw_unreviewed">suo ĩ male excusarꝭ ꝓtãte. qr ẜuꝰ ẜ nõ ꝓ toto .xxiiq. uii. Ex supͥorib: ñ ẽ obedi</seg>
+          <lb facs="#z_f115v_l026" xml:id="medusa_f115v_l026"/>
+          <seg type="raw_unreviewed">eidem festum d̶ xciii si. 162 leo ẽ pnꝰ obediẽd̶ d̶ viii q xi 17 It̃ p̃ dñi rõne</seg>
+          <lb facs="#z_f115v_l027" xml:id="medusa_f115v_l027"/>
+          <seg type="raw_unreviewed">ecc̃e diligñcei d̃ xii p̃ceptꝭ ¶ st̃ ep̃is uii q 10 ¶ It̃ scłaribꝰ ptãtibꝰ d̃ uiii ꝯ ¶ st̃ ꝯl</seg>
+          <lb facs="#z_f115v_l028" xml:id="medusa_f115v_l028"/>
+          <seg type="raw_unreviewed">suo superiori d̃ xcm a subdiacione ¶ Ex pꝰ deũ ĩo nͣue ecc̃e magꝭ ẽ obedie̾n. se ip̃m</seg>
+          <lb facs="#z_f115v_l029" xml:id="medusa_f115v_l029"/>
+          <seg type="raw_unreviewed">Tcaᵈ ⁊ nr̃ oᶜꝰ ⟦exi⟧ d̾xou ñ de; / It̃ scłarib ptãtib 5᷑ ẽ obedie̾ I. ut de; ñ offẽdu</seg>
+          <lb facs="#z_f115v_l030" xml:id="medusa_f115v_l030"/>
+          <seg type="raw_unreviewed">d̃ un .i. ĩ fine ¶ It̃ abbatibꝰ mo͂chi ⁊ alii r̾ligiosi specialibꝰ suo p̃lato. ĩ hiis q̃ spcãt</seg>
+          <lb facs="#z_f115v_l031" xml:id="medusa_f115v_l031"/>
+          <seg type="raw_unreviewed">ad rᵃꝰ. iiiiᵒ ep̃o tenen᷑ obedie̾. iᶜ cl̃icus plꝰ te᷑ obedie̾ suo ep̃o ũy a 2ᵒ ep̃o .xviii. q</seg>
+          <lb facs="#z_f115v_l032" xml:id="medusa_f115v_l032"/>
+          <seg type="raw_unreviewed">auxil</seg>
+          <lb facs="#z_f115v_l033" xml:id="medusa_f115v_l033"/>
+          <seg type="raw_unreviewed">hat pùd octo</seg>
+          <lb facs="#z_f115v_l034" xml:id="medusa_f115v_l034"/>
+          <seg type="raw_unreviewed">do. als aor.</seg>
+          <lb facs="#z_f115v_l035" xml:id="medusa_f115v_l035"/>
+          <seg type="raw_unreviewed">sue c</seg>
+          <lb facs="#z_f115v_l036" xml:id="medusa_f115v_l036"/>
+          <seg type="raw_unreviewed">miti corde d.</seg>
+          <lb facs="#z_f115v_l037" xml:id="medusa_f115v_l037"/>
+          <seg type="raw_unreviewed">sp̃liꝰis ĩ tñd̃</seg>
+          <lb facs="#z_f115v_l038" xml:id="medusa_f115v_l038"/>
+          <seg type="raw_unreviewed">nos. xxv d.</seg>
+          <lb facs="#z_f115v_l039" xml:id="medusa_f115v_l039"/>
+          <seg type="raw_unreviewed">otiosum esse</seg>
+          <lb facs="#z_f115v_l040" xml:id="medusa_f115v_l040"/>
+          <seg type="raw_unreviewed">te dyaꝰ</seg>
+          <lb facs="#z_f115v_l041" xml:id="medusa_f115v_l041"/>
+          <seg type="raw_unreviewed">12150. 11. 12151.</seg>
+          <lb facs="#z_f115v_l042" xml:id="medusa_f115v_l042"/>
+          <seg type="raw_unreviewed">ore de pe</seg>
+          <lb facs="#z_f115v_l043" xml:id="medusa_f115v_l043"/>
+          <seg type="raw_unreviewed">cõ correctione</seg>
+          <lb facs="#z_f115v_l044" xml:id="medusa_f115v_l044"/>
+          <seg type="raw_unreviewed">culus ⁊ pu</seg>
+          <lb facs="#z_f115v_l045" xml:id="medusa_f115v_l045"/>
+          <seg type="raw_unreviewed">en los castos</seg>
+          <lb facs="#z_f115v_l046" xml:id="medusa_f115v_l046"/>
+          <seg type="raw_unreviewed">nigt . ne</seg>
+          <lb facs="#z_f115v_l047" xml:id="medusa_f115v_l047"/>
+          <seg type="raw_unreviewed">ones leꝵ p</seg>
+          <lb facs="#z_f115v_l048" xml:id="medusa_f115v_l048"/>
+          <seg type="raw_unreviewed">dñi fr̃um. 2</seg>
+          <lb facs="#z_f115v_l049" xml:id="medusa_f115v_l049"/>
+          <seg type="raw_unreviewed">hoͤres d̶ lxix</seg>
+          <lb facs="#z_f115v_l050" xml:id="medusa_f115v_l050"/>
+          <seg type="raw_unreviewed">xiiic</seg>
+          <lb facs="#z_f115v_l051" xml:id="medusa_f115v_l051"/>
+          <seg type="raw_unreviewed">in peccato nec illi</seg>
+          <lb facs="#z_f115v_l052" xml:id="medusa_f115v_l052"/>
+          <seg type="raw_unreviewed">desen̾d . 12</seg>
+          <lb facs="#z_f115v_l053" xml:id="medusa_f115v_l053"/>
+          <seg type="raw_unreviewed">se illicite</seg>
+          <lb facs="#z_f115v_l054" xml:id="medusa_f115v_l054"/>
+          <seg type="raw_unreviewed">pelit artifi</seg>
+          <lb facs="#z_f115v_l055" xml:id="medusa_f115v_l055"/>
+          <seg type="raw_unreviewed">officiarius metropolitici</seg>
+          <lb facs="#z_f115v_l056" xml:id="medusa_f115v_l056"/>
+          <seg type="raw_unreviewed">s. s. par.</seg>
+          <lb facs="#z_f115v_l057" xml:id="medusa_f115v_l057"/>
+          <seg type="raw_unreviewed">die ꝑsolue</seg>
+          <lb facs="#z_f115v_l058" xml:id="medusa_f115v_l058"/>
+          <seg type="raw_unreviewed">ex un cuntate</seg>
+          <lb facs="#z_f115v_l059" xml:id="medusa_f115v_l059"/>
+          <seg type="raw_unreviewed">xii pt</seg>
+          <lb facs="#z_f115v_l060" xml:id="medusa_f115v_l060"/>
+          <seg type="raw_unreviewed">gyn suer Je</seg>
+          <lb facs="#z_f115v_l061" xml:id="medusa_f115v_l061"/>
+          <seg type="raw_unreviewed">no iure credi</seg>
+          <lb facs="#z_f115v_l062" xml:id="medusa_f115v_l062"/>
+          <seg type="raw_unreviewed">mis q̃  mis</seg>
+          <lb facs="#z_f115v_l063" xml:id="medusa_f115v_l063"/>
+          <seg type="raw_unreviewed">ii. iiiiͦ. Ex oĩbꝰ suꝑio̾ibꝰ. dñiᵒʳ u̾ st̃ h̾etici. l sĩt aꝰ mali. qmͣ dñi eccã eod tollent</seg>
+          <lb facs="#z_f115v_l064" xml:id="medusa_f115v_l064"/>
+          <seg type="raw_unreviewed">ẽ eis obedie̾o. q qun sacerdotes eꝵ indeo obediendo ptati legittime. si ñ quitꝰ</seg>
+          <lb facs="#z_f115v_l065" xml:id="medusa_f115v_l065"/>
+          <seg type="raw_unreviewed">occide̾it. nõ culpis. xiii q u miles</seg>
+          <lb facs="#z_f115v_l066" xml:id="medusa_f115v_l066"/>
+          <seg type="raw_unreviewed">Oblatio ẽ dux u spiritualis q̃ ẽ corꝰ ⁊ scig̃ꝭ xꝭ. ⁊ tꝑal̃ q̃ fit ex tꝰh m̃di de .i. d̃ ii tꝰh</seg>
+          <lb facs="#z_f115v_l067" xml:id="medusa_f115v_l067"/>
+          <seg type="raw_unreviewed" subtype="changed_decoding_unreviewed">oꝵ obla᷑ eukra᷑ q̃ pueͬ spiritis . ẽẽ obla᷑ꝭ p̃cellit de idii iᶜ Eꝰ ab oĩ sorte</seg>
+          <lb facs="#z_f115v_l068" xml:id="medusa_f115v_l068"/>
+          <seg type="raw_unreviewed">p̾zati s̃ oblacõ offerre d̃ l et It̃ ĩ nũdi ab hoc oblacoe ꝓhiben᷑ d lxxii</seg>
+          <lb facs="#z_f115v_l069" xml:id="medusa_f115v_l069"/>
+          <seg type="raw_unreviewed">sc̃ l h oblaꝰ sc̃i sit. ũ tñ ĩdignꝰ offer̾is cũ sc̃ifici᷑. s ptꝰ popluꝰ .i. i cꝓpho</seg>
+          <lb facs="#z_f115v_l070" xml:id="medusa_f115v_l070"/>
+          <seg type="raw_unreviewed">¶ M ĩ oblatarũ tꝑaliũ . de iͥ plꝰ pensat bobuͤꝭ offuͤᵃ l. p̃ oblat̃ . xxiiii i</seg>
+          <lb facs="#z_f115v_l071" xml:id="medusa_f115v_l071"/>
+          <seg type="raw_unreviewed">or quilibet parꝰ uideͫ teneiͥ offerre ĩ festibꝰ de qd̵ i oͣs ¶ It̃ oblitꝭ ex ĩnĩ ẽ</seg>
+          <lb facs="#z_f115v_l072" xml:id="medusa_f115v_l072"/>
+          <seg type="raw_unreviewed">maculata ⁊ nõ ĩ fructuosa XXIIII q u ĩ ĩmolas ¶ It̃ obliˢᵒˢ ĩ u̾ꝭ ñ r̾spicit</seg>
+          <lb facs="#z_f115v_l073" xml:id="medusa_f115v_l073"/>
+          <seg type="raw_unreviewed">deꝰ. sᵒ ordinatione c̃iuii ñ respexit. iii. ꝑui ĩ gͣnibꝰ ¶ Itẽ ꝙ ꝙ ĩ sacrficõ dei</seg>
+          <lb facs="#z_f115v_l074" xml:id="medusa_f115v_l074"/>
+          <seg type="raw_unreviewed">exstele͛ offur. ũ placat ipsius iracũduã. s. irritat. 1 qui ñ ẽ ¶ Item</seg>
+          <lb facs="#z_f115v_l075" xml:id="medusa_f115v_l075"/>
+          <seg type="raw_unreviewed">oblatõs discordancium. ⁊ paupẽs opprimencium. ĩ st recipiende. ex</seg>
+          <lb facs="#z_f115v_l076" xml:id="medusa_f115v_l076"/>
+          <seg type="raw_unreviewed">Quod voluntate oblatõs. pũt accipi sine pccõ. xiiii ii i ista. Quod ĩdignꝰ ẽ</seg>
+          <lb facs="#z_f115v_l077" xml:id="medusa_f115v_l077"/>
+          <seg type="raw_unreviewed">offere deo .q. dedignant᷑ hoᵒ d̾ plix cũ eꝵ illi oblacõs nõ d ꝓcipe . qm̃</seg>
+          <lb facs="#z_f115v_l078" xml:id="medusa_f115v_l078"/>
+          <seg type="raw_unreviewed">uix ualeb̃t ꝑse . ne dũ ꝓ aliis orreͥ . x i hanc</seg>
+          <lb facs="#z_f115v_l079" xml:id="medusa_f115v_l079"/>
+          <seg type="raw_unreviewed">na bona uigi</seg>
+          <lb facs="#z_f115v_l080" xml:id="medusa_f115v_l080"/>
+          <seg type="raw_unreviewed">precit aum .</seg>
+          <lb facs="#z_f115v_l081" xml:id="medusa_f115v_l081"/>
+          <seg type="raw_unreviewed">defficiunt</seg>
+          <lb facs="#z_f115v_l082" xml:id="medusa_f115v_l082"/>
+          <seg type="raw_unreviewed">peregũtes ¶</seg>
+          <lb facs="#z_f115v_l083" xml:id="medusa_f115v_l083"/>
+          <seg type="raw_unreviewed">uñ nñ. ⁊ m̃ltiu</seg>
+          <lb facs="#z_f115v_l084" xml:id="medusa_f115v_l084"/>
+          <seg type="raw_unreviewed">suees nõ occid</seg>
+          <lb facs="#z_f115v_l085" xml:id="medusa_f115v_l085"/>
+          <seg type="raw_unreviewed">alli pt̃ solutem</seg>
+          <lb facs="#z_f115v_l086" xml:id="medusa_f115v_l086"/>
+          <seg type="raw_unreviewed">constu dũ3 5</seg>
+          <lb facs="#z_f115v_l087" xml:id="medusa_f115v_l087"/>
+          <seg type="raw_unreviewed">enopa kom</seg>
+          <lb facs="#z_f115v_l088" xml:id="medusa_f115v_l088"/>
+          <seg type="raw_unreviewed">q̃ ñ tenetur. 2.</seg>
+          <lb facs="#z_f115v_l089" xml:id="medusa_f115v_l089"/>
+          <seg type="raw_unreviewed">ex soͣ oꝑa</seg>
+          <lb facs="#z_f115v_l090" xml:id="medusa_f115v_l090"/>
+          <seg type="raw_unreviewed">distunt  pp nna 3 18</seg>
+          <lb facs="#z_f115v_l091" xml:id="medusa_f115v_l091"/>
+          <seg type="raw_unreviewed">nec ñ ualent nꝰ</seg>
+          <lb facs="#z_f115v_l092" xml:id="medusa_f115v_l092"/>
+          <seg type="raw_unreviewed">te ñ ti̾ st̃ dñm</seg>
+          <lb facs="#z_f115v_l093" xml:id="medusa_f115v_l093"/>
+          <seg type="raw_unreviewed">h̃re ñ pt. 1. qt</seg>
+          <lb facs="#z_f115v_l094" xml:id="medusa_f115v_l094"/>
+          <seg type="raw_unreviewed">Obligacio fit ꝑꝑ suꝑraͣ cautela in vii. qͦnͣtꝭ eꝵ coaͣ dõ. tm̃ obligat supͣꝭ ũ. qͣnt</seg>
+          <lb facs="#z_f115v_l095" xml:id="medusa_f115v_l095"/>
+          <seg type="raw_unreviewed">num̃tũ xxii. q u. num̃tũ ex obligati ad r̃ciã. ñ d abordie̾s ꝓmoͥuͥ d. l. pͥsꝭ</seg>
+          <lb facs="#z_f115v_l096" xml:id="medusa_f115v_l096"/>
+          <seg type="raw_unreviewed">mad. T. Pissani</seg>
+          <lb facs="#z_f115v_l097" xml:id="medusa_f115v_l097"/>
+          <seg type="raw_unreviewed">Obstiã ẽ ꝯsiliis salutarib nolle acquescere d̾ xlxxiii m It̃ d̃bstrãt ĩe qui pꝰ</seg>
+          <lb facs="#z_f115v_l098" xml:id="medusa_f115v_l098"/>
+          <seg type="raw_unreviewed">ĩspu̾t᷑ c̃ti r̾meb̃t᷑ gͥ fc̃m. ⁊ eo ꝙ erruãit ꝑseuerent. d̾ uiii. ꝯsueˡᵒ. Qd̵</seg>
+          <lb facs="#z_f115v_l099" xml:id="medusa_f115v_l099"/>
+          <seg type="raw_unreviewed">obstrãtꝭ ĩ musica deꝰ nũiq misitꝰ fuit. n᷑e miserit .xxiiii. q c̃i legatur</seg>
+          <lb facs="#z_f115v_l100" xml:id="medusa_f115v_l100"/>
+          <seg type="raw_unreviewed">Qd̵ nõ obstãti ĩdignii st̃ uenã .I. pͣrit ex c̃ta malicia .d. uiii ii sue᷑ᷤ</seg>
+          <lb facs="#z_f115v_l101" xml:id="medusa_f115v_l101"/>
+          <seg type="raw_unreviewed">Occasio nõ c̃danda alicui ꝑ malũ exᵐ. xii q 1 nolo ¶ It̃ nᶜ ꝑfamẽ</seg>
+          <lb facs="#z_f115v_l102" xml:id="medusa_f115v_l102"/>
+          <seg type="raw_unreviewed">di m̃ eꝵ cũ</seg>
+          <lb facs="#z_f115v_l103" xml:id="medusa_f115v_l103"/>
+          <seg type="raw_unreviewed">oĩoĩs b</seg>
+          <lb facs="#z_f115v_l104" xml:id="medusa_f115v_l104"/>
+          <seg type="raw_unreviewed">melior e qua</seg>
+        </ab>
+      <note type="processing">Segments 67: separate same-crop recovery experiment selected after token-limit repetition. Greedy single-line generation, max_new_tokens=256, repetition_penalty=1.08. Original attempts retained in page checkpoint and medusa-before-recovery.json. EOS termination is not accuracy verification.</note></div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f115v_l001 #z_f115v_l002 #z_f115v_l003 #z_f115v_l004 #z_f115v_l005 #z_f115v_l006 #z_f115v_l007 #z_f115v_l008" xml:id="u_115v_001">Negotium in se non est malum. [---] Duplex est negotiatio, vel licita vel illicita. [---] Servitium [---] negotiis sine periculo animae exerceri non potest. [---] Honesta clericis [---]. Item negotiatorem clericum et ex inope divitem factum et ignobilem gloriosum quasi quamdam pestem fuge. [---] Negotiatione [---] ut tribuatur pauperibus et pupillis [---]. Negotiatio quae fit [---] vix aut numquam exerceri potest [---]. Et perfectum non est [---] repetere negotia quae ante sine peccato [---].</p>
+        <note type="editorial" corresp="#u_115v_001" xml:lang="cs">Pracovní čtení hesla o obchodování, zvláště kleriků.1 je malá nadřádková oprava úvodního znění, nikoli odřezek protější stránky. Výjimky a přesný poslední výrok jsou neúplné.</note>
+        <p facs="#z_f115v_l009" xml:id="u_115v_002">Neophytus dicitur noviter in fide vel in religione plantatus.</p>
+        <note type="editorial" corresp="#u_115v_002" xml:lang="cs">Krátké heslo, citační odkaz nerozluštěn.</note>
+        <p facs="#z_f115v_l010 #z_f115v_l011 #z_f115v_l012" xml:id="u_115v_003">Oblitus maiorum plus [---] quam genitorum [---]. Non loci nec generis nobilitas sed virtute et gratia acquiritur. [---] Nobilitas defertur in poenae excessu [---]. [---] Propter [---] detestatur [---].</p>
+        <note type="editorial" corresp="#u_115v_003" xml:lang="cs">Heslo Nobilitas a zkratkové výroky. Podmínky u trestu i přechod k dalšímu příkladu nejsou bezpečně čitelné; znění není harmonizováno.</note>
+        <p facs="#z_f115v_l013 #z_f115v_l014" xml:id="u_115v_004">Nuptiae a nubendo [---], eo quod puellae pudorem [---] velare soleant. [---] Nuptiae terram implent, virginitas paradisum.</p>
+        <note type="editorial" corresp="#u_115v_004" xml:lang="cs">Etymologické vysvětlení má neúplnou vložku. Závěrečné srovnání je historickým mravním výrokem.</note>
+        <p facs="#z_f115v_l015 #z_f115v_l016 #z_f115v_l017 #z_f115v_l018 #z_f115v_l019 #z_f115v_l020 #z_f115v_l021" xml:id="u_115v_005">Oboedientia est [---] quod a superiore utiliter imperatum fuerit obtemperare. [---] Fides [---] sine qua [---] infidelis [---]. Item [---] oboedire [---] parentibus. Oboedientia [---] voluntatem [---] non est oboedientia. [---] Exigit de sua alienam potestatem [---]. Oboedientia est fructuosa: per ipsam in praesenti meremur gratiam, [---] meremur salutem, sine ipsa etiam [---] aeternam reprobationem [---]. Propter oboedientiam numquam malum moribus culpae admittendum. In dubiis semper est oboediendum.</p>
+        <note type="editorial" corresp="#u_115v_005" xml:lang="cs">Rozsáhlé heslo Oboedientia začíná definicí a několika autoritami. Neúplné věty o vůli a moci se nevykládají jako úplná teorie poslušnosti. Poslední dvě věty zachycují odlišně podmíněné výroky, ne jeden současný příkaz.</note>
+        <p facs="#z_f115v_l022 #z_f115v_l023 #z_f115v_l024 #z_f115v_l025 #z_f115v_l026 #z_f115v_l027 #z_f115v_l028 #z_f115v_l029 #z_f115v_l030 #z_f115v_l031" xml:id="u_115v_006">Qui aliis praepositus non debet ferre moleste alium sibi praelatum; oboedientiam quam exigit ab aliis ipse impendat. Non est per se malum non oboedire, quia cum praecipitur adversum Deum, praelato non est oboediendum. Servus oboediens domino suo in malo excusatur pro tanto quia servus, sed non pro toto. Superioribus non est oboediendum [---]. Deo [---] praelato pro ratione ecclesiae [---]. Item episcopis [---], saecularibus potestatibus [---], et unicuique suo superiori [---] subdiaconibus [---] post Deum [---]. In spiritualibus et [---] non debemus saecularibus potestatibus [---] oboedire. Monachi et alii religiosi praecise suis praelatis in his quae spectant ad [---], non episcopo tenentur oboedire. Clericus [---] tenetur oboedire suo episcopo, non archiepiscopo.</p>
+        <note type="editorial" corresp="#u_115v_006" xml:lang="cs">Podmínky u jednotlivých stavů a některé negace jsou neúplné. Jde o historický kanonický výtah a zdánlivé rozpory se nesjednocují. Poslední věta pokračuje po geometricky vsunutých odřezcích.</note>
+        <p facs="#z_f115v_l032 #z_f115v_l033 #z_f115v_l034 #z_f115v_l035 #z_f115v_l036 #z_f115v_l037 #z_f115v_l038 #z_f115v_l039 #z_f115v_l040 #z_f115v_l041 #z_f115v_l042 #z_f115v_l043 #z_f115v_l044 #z_f115v_l045 #z_f115v_l046 #z_f115v_l047 #z_f115v_l048 #z_f115v_l049 #z_f115v_l050 #z_f115v_l051 #z_f115v_l052 #z_f115v_l053 #z_f115v_l054 #z_f115v_l055 #z_f115v_l056 #z_f115v_l057 #z_f115v_l058 #z_f115v_l059 #z_f115v_l060 #z_f115v_l061 #z_f115v_l062" xml:id="u_115v_007">[---]</p>
+        <note type="editorial" corresp="#u_115v_007" xml:lang="cs">Všech31 fragmentů skutečně otevřeno; nejsou dalšími pravidly o poslušnosti.</note>
+        <p facs="#z_f115v_l063 #z_f115v_l064 #z_f115v_l065" xml:id="u_115v_008">[---] omnibus superioribus, dummodo non sint haeretici; licet sint aliter mali, [---] dum eorum vitium [---] tolleratur [---] oboediendum. Sacerdos et iudex oboediendo potestati legitimae, si [---] occiderit, non culpatur, quemadmodum miles.</p>
+        <note type="editorial" corresp="#u_115v_008" xml:lang="cs">Pokračování hesla po odřezcích protější stránky. Podmínka u zákonné moci je zásadní a nerozluštěná; výrok není přejat jako současné obecné právní pravidlo.</note>
+        <p facs="#z_f115v_l066 #z_f115v_l067 #z_f115v_l068 #z_f115v_l069 #z_f115v_l070 #z_f115v_l071 #z_f115v_l072" xml:id="u_115v_009">Oblatio est duplex: spiritualis, quae est corporis et sanguinis Christi, et temporalis, quae fit [---]. [---] Oblatio eucharistiae quam paene [---] oblatio praecellit [---]. Ab omni sorde purgati debent oblationem offerre [---] et [---] immundi ab hac oblatione prohibentur. [---] Non tam indignam [---] sanctificat, sed [---] polluit [---]. In oblatione temporalium Deus plus pensat voluntatem offerentis quam [---] oblationem. [---] Quilibet pater videtur teneri offerre in festivitatibus [---]. Oblatio ex iniquo est maculata [---].</p>
+        <note type="editorial" corresp="#u_115v_009" xml:lang="cs">Heslo Oblatio rozlišuje eucharistii a hmotné dary. Jemné rozlišení důstojnosti obětujícího a oběti je fragmentární; nepřidává se očekávané dogmatické řešení.</note>
+        <p facs="#z_f115v_l073 #z_f115v_l074 #z_f115v_l075 #z_f115v_l076 #z_f115v_l077 #z_f115v_l078" xml:id="u_115v_010">Oblatio iniquorum non placet Deo, [---] munera Cain non respexit. [---] Quod in sacrificio Dei ex scelere offertur non placat eius iracundiam, sed irritat. [---] Oblationes discordantium et pauperes opprimentium non sunt recipiendae. [---] Voluntariae oblationes possunt accipi sine peccato [---]. [---] Indignus est offerre [---] qui vix valet pro se, nedum pro aliis orare.</p>
+        <note type="editorial" corresp="#u_115v_010" xml:lang="cs">Výroky o zdroji daru a stavu dárce mají různé podmínky. Nerozluštěné přechody jsou ponechány otevřené.</note>
+        <p facs="#z_f115v_l079 #z_f115v_l080 #z_f115v_l081 #z_f115v_l082 #z_f115v_l083 #z_f115v_l084 #z_f115v_l085 #z_f115v_l086 #z_f115v_l087 #z_f115v_l088 #z_f115v_l089 #z_f115v_l090 #z_f115v_l091 #z_f115v_l092 #z_f115v_l093" xml:id="u_115v_011">[---]</p>
+        <note type="editorial" corresp="#u_115v_011" xml:lang="cs">Skutečně otevřeny všechny fragmenty mezi koncem oběti a začátkem obligace.</note>
+        <p facs="#z_f115v_l094 #z_f115v_l095 #z_f115v_l096" xml:id="u_115v_012">Obligatio fit propter futuram cautelam [---]. [---] Obligare se contra divina mandata [---] obligat simpliciter non, quia [---]. [---] Obligatio ad ordinem [---] non debet [---].</p>
+        <note type="editorial" corresp="#u_115v_012" xml:lang="cs">Velmi zkratkové heslo Obligatio.96 je protější fragment, nikoli součást právního výroku. Závěr o poslušnosti či neposlušnosti není bezpečně čitelný.</note>
+        <p facs="#z_f115v_l097 #z_f115v_l098 #z_f115v_l099 #z_f115v_l100" xml:id="u_115v_013">Obstinatio est consiliis salutaribus nolle acquiescere. [---] Obstinatus qui post [---] inspirationis [---] revelatum [---] in eo quod erraverat perseveravit. [---] Obstinatus in malitia Dei [---] misericordia [---]. Non obstinati indigni sunt venia. Item peccatum excusat malitiam [---].</p>
+        <note type="editorial" corresp="#u_115v_013" xml:lang="cs">Přesné negace v posledních větách jsou obtížné. Návrh výslovně nepředstírá jednoznačný teologický závěr a ponechává nejistotu v překladu.</note>
+        <p facs="#z_f115v_l101" xml:id="u_115v_014">Occasio non est danda alicui per malum exemplum.</p>
+        <note type="editorial" corresp="#u_115v_014" xml:lang="cs">Krátké nové heslo Occasio; kanonický odkaz nebyl bibliograficky ověřen.</note>
+        <p facs="#z_f115v_l102 #z_f115v_l103 #z_f115v_l104" xml:id="u_115v_015">[---]</p>
+        <note type="editorial" corresp="#u_115v_015" xml:lang="cs">Závěrečné tři fragmenty jsou skutečně otevřeny.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_115v_001">Obchod či činnost nejsou samy o sobě zlem. [---] Obchod je dvojí: dovolený a nedovolený. [---] Služba [---] nemůže být při obchodu vykonávána bez nebezpečí pro duši. [---] Pro kleriky počestné [---]. Klerikovi obchodníkovi, který z chudáka zbohatl a z nevýznamného se stal slavným, se vyhýbej jako nákaze. [---] Obchodem [---] aby bylo dáváno chudým a sirotkům [---]. Obchod, který se děje [---], lze stěží nebo nikdy vykonávat [---]. A není dokonalé [---] znovu vykonávat činnosti, jež dříve bez hříchu [---].</p>
+        <p corresp="#u_115v_002">Neofytou se nazývá ten, kdo je nově zasazen ve víře nebo v řeholním životě.</p>
+        <p corresp="#u_115v_003">Zapomínaje na předky více [---] než na rodiče [---]. Urozenost se nezískává místem ani rodem, nýbrž ctností a milostí. [---] Na urozenost se bere ohled při nadměrném uložení trestu [---]. [---] Pro [---] se zavrhuje [---].</p>
+        <p corresp="#u_115v_004">Svatba od zahalování [---], protože dívky obvykle zakrývají stud [---]. [---] Svatby naplňují zemi, panenství ráj.</p>
+        <p corresp="#u_115v_005">Poslušnost je [---] podrobit se tomu, co nadřízený užitečně přikázal. [---] Víra [---], bez níž [---] nevěřící [---]. Dále [---] poslouchat rodiče [---]. Poslušnost [---] vůli [---] není poslušnost. [---] Vyžaduje z vlastní [---] cizí moc [---]. Poslušnost přináší plody: skrze ni v přítomnosti získáváme milost [---] a spásu, bez ní také [---] věčné zavržení [---]. Kvůli poslušnosti se nikdy nesmí dopustit mravního zla viny. V pochybnostech je třeba vždy poslouchat.</p>
+        <p corresp="#u_115v_006">Kdo je představen ostatním, nemá těžce nést, je-li někdo představen jemu; poslušnost, kterou vyžaduje od druhých, má sám poskytovat. Neposlechnout není samo o sobě zlé: pokud se přikazuje proti Bohu, představeného poslouchat nelze. Služebník, který pána poslouchá ve zlém, je omluven potud, že je služebníkem, ale ne zcela. Nadřízené není třeba poslouchat [---]. Boha [---] představeného z důvodu církve [---]. Dále biskupy [---], světské moci [---], každého vlastního představeného [---] podjáhny [---] po Bohu [---]. V duchovních a [---] nemáme poslouchat světské moci [---]. Mniši a jiní řeholníci jsou v tom, co přísluší k [---], vázáni poslouchat své představené, ne biskupa. Klerik [---] má poslouchat svého biskupa, nikoli arcibiskupa.</p>
+        <p corresp="#u_115v_007">[Úzké odřezky sousední stránky bez souvislého překladu.]</p>
+        <p corresp="#u_115v_008">[---] Všem nadřízeným, pokud nejsou kacíři; ačkoli jsou jinak zlí, [---] dokud se jejich provinění [---] trpí, má se poslouchat. Kněz a soudce poslouchající zákonnou moc, jestliže [---] někoho zabije, není vinen, podobně jako voják.</p>
+        <p corresp="#u_115v_009">Oběť je dvojí: duchovní, totiž tělo a krev Krista, a časná, která se koná [---]. [---] Eucharistická oběť [---] převyšuje [---]. Oběť mají přinášet očištění od veškeré poskvrny [---] a nečistí jsou od této oběti vyloučeni [---]. [---] Neposvěcuje [---] nehodného, ale [---] poskvrňuje [---]. Při časných darech Bůh více hodnotí vůli dárce než [---] dar. [---] Každý otec se zdá být povinen přinášet dar o svátcích [---]. Dar z bezpráví je poskvrněný [---].</p>
+        <p corresp="#u_115v_010">Dar nespravedlivých se Bohu nelíbí [---], na Kainovy dary nevzhlédl. [---] Co se jako oběť Bohu přináší ze zločinu, netiší jeho hněv, ale rozněcuje jej. [---] Dary těch, kdo žijí ve sváru a utiskují chudé, se nemají přijímat. [---] Dobrovolné dary se mohou přijímat bez hříchu [---]. [---] Přinášet [---] je nehoden ten, kdo se stěží může modlit za sebe, natož za jiné.</p>
+        <p corresp="#u_115v_011">[Další odřezky sousední stránky bez souvislého překladu.]</p>
+        <p corresp="#u_115v_012">Závazek vzniká pro budoucí zajištění [---]. [---] Zavázat se proti Božím přikázáním [---] prostě nezavazuje, protože [---]. [---] Závazek vůči řádu [---] nemá [---].</p>
+        <p corresp="#u_115v_013">Zatvrzelost je nechtít se podrobit spasitelným radám. [---] Zatvrzelý, který po [---] vnuknutí [---] zjeveném [---] setrval v omylu. [---] Zatvrzelému ve zlobě Boží [---] milosrdenství [---]. Nezatvrzelí jsou [ne?]hodni odpuštění. Dále hřích omlouvá zlobu [---].</p>
+        <p corresp="#u_115v_014">Nikomu se nemá dávat příležitost ke zlému špatným příkladem.</p>
+        <p corresp="#u_115v_015">[Odřezky protější stránky bez souvislého překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 40v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Exempla. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_40v_coordinate; PNG SHA256 74dc2aefbbbc36f03b62c791965be531a8de3c8fe9b0cda68dd841a35614001b; archival TIFF SHA256 bf15dd1d26de5ef7095bc23a8dc701b1f85ea5ae4c1ef4cf4fc11c396ac188cd; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_40v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#40v"/>
+      <zone ulx="3613" uly="556" lrx="3868" lry="678" xml:id="z_f40v_l001"/>
+      <zone ulx="3629" uly="616" lrx="3881" lry="777" xml:id="z_f40v_l002"/>
+      <zone ulx="3629" uly="728" lrx="3871" lry="855" xml:id="z_f40v_l003"/>
+      <zone ulx="3682" uly="812" lrx="3871" lry="948" xml:id="z_f40v_l004"/>
+      <zone ulx="3685" uly="920" lrx="3862" lry="1085" xml:id="z_f40v_l005"/>
+      <zone ulx="3679" uly="1017" lrx="3822" lry="1169" xml:id="z_f40v_l006"/>
+      <zone ulx="3644" uly="1154" lrx="3884" lry="1300" xml:id="z_f40v_l007"/>
+      <zone ulx="3632" uly="1266" lrx="3753" lry="1409" xml:id="z_f40v_l008"/>
+      <zone ulx="3657" uly="1375" lrx="3822" lry="1496" xml:id="z_f40v_l009"/>
+      <zone ulx="3650" uly="1468" lrx="3868" lry="1599" xml:id="z_f40v_l010"/>
+      <zone ulx="706" uly="560" lrx="3445" lry="737" xml:id="z_f40v_l011"/>
+      <zone ulx="718" uly="681" lrx="3433" lry="836" xml:id="z_f40v_l012"/>
+      <zone ulx="712" uly="774" lrx="3330" lry="920" xml:id="z_f40v_l013"/>
+      <zone ulx="718" uly="883" lrx="3423" lry="1029" xml:id="z_f40v_l014"/>
+      <zone ulx="718" uly="964" lrx="3504" lry="1135" xml:id="z_f40v_l015"/>
+      <zone ulx="722" uly="1060" lrx="3389" lry="1232" xml:id="z_f40v_l016"/>
+      <zone ulx="718" uly="1169" lrx="3383" lry="1331" xml:id="z_f40v_l017"/>
+      <zone ulx="725" uly="1269" lrx="3078" lry="1424" xml:id="z_f40v_l018"/>
+      <zone ulx="3131" uly="1334" lrx="3401" lry="1480" xml:id="z_f40v_l019"/>
+      <zone ulx="718" uly="1368" lrx="3227" lry="1530" xml:id="z_f40v_l020"/>
+      <zone ulx="725" uly="1468" lrx="3367" lry="1683" xml:id="z_f40v_l021"/>
+      <zone ulx="718" uly="1564" lrx="3339" lry="1773" xml:id="z_f40v_l022"/>
+      <zone ulx="722" uly="1673" lrx="3380" lry="1876" xml:id="z_f40v_l023"/>
+      <zone ulx="706" uly="1760" lrx="3361" lry="1972" xml:id="z_f40v_l024"/>
+      <zone ulx="715" uly="1872" lrx="3349" lry="2047" xml:id="z_f40v_l025"/>
+      <zone ulx="684" uly="1972" lrx="3383" lry="2156" xml:id="z_f40v_l026"/>
+      <zone ulx="712" uly="2078" lrx="3386" lry="2255" xml:id="z_f40v_l027"/>
+      <zone ulx="681" uly="2174" lrx="3445" lry="2373" xml:id="z_f40v_l028"/>
+      <zone ulx="734" uly="2271" lrx="3454" lry="2470" xml:id="z_f40v_l029"/>
+      <zone ulx="697" uly="2367" lrx="3430" lry="2588" xml:id="z_f40v_l030"/>
+      <zone ulx="703" uly="2482" lrx="3377" lry="2660" xml:id="z_f40v_l031"/>
+      <zone ulx="697" uly="2579" lrx="3486" lry="2778" xml:id="z_f40v_l032"/>
+      <zone ulx="700" uly="2678" lrx="3395" lry="2874" xml:id="z_f40v_l033"/>
+      <zone ulx="715" uly="2775" lrx="3433" lry="2952" xml:id="z_f40v_l034"/>
+      <zone ulx="700" uly="2868" lrx="3423" lry="3061" xml:id="z_f40v_l035"/>
+      <zone ulx="2894" uly="3014" lrx="3482" lry="3188" xml:id="z_f40v_l036"/>
+      <zone ulx="694" uly="2946" lrx="2801" lry="3132" xml:id="z_f40v_l037"/>
+      <zone ulx="675" uly="3052" lrx="3386" lry="3263" xml:id="z_f40v_l038"/>
+      <zone ulx="700" uly="3154" lrx="3473" lry="3353" xml:id="z_f40v_l039"/>
+      <zone ulx="703" uly="3257" lrx="2823" lry="3403" xml:id="z_f40v_l040"/>
+      <zone ulx="703" uly="3353" lrx="2894" lry="3506" xml:id="z_f40v_l041"/>
+      <zone ulx="2969" uly="3319" lrx="3538" lry="3484" xml:id="z_f40v_l042"/>
+      <zone ulx="3093" uly="3428" lrx="3445" lry="3565" xml:id="z_f40v_l043"/>
+      <zone ulx="700" uly="3459" lrx="3296" lry="3608" xml:id="z_f40v_l044"/>
+      <zone ulx="675" uly="3546" lrx="3433" lry="3720" xml:id="z_f40v_l045"/>
+      <zone ulx="690" uly="3640" lrx="3392" lry="3804" xml:id="z_f40v_l046"/>
+      <zone ulx="678" uly="3748" lrx="3451" lry="3882" xml:id="z_f40v_l047"/>
+      <zone ulx="678" uly="3842" lrx="3445" lry="3988" xml:id="z_f40v_l048"/>
+      <zone ulx="694" uly="3935" lrx="3349" lry="4084" xml:id="z_f40v_l049"/>
+      <zone ulx="712" uly="4019" lrx="3464" lry="4187" xml:id="z_f40v_l050"/>
+      <zone ulx="694" uly="4116" lrx="3364" lry="4274" xml:id="z_f40v_l051"/>
+      <zone ulx="684" uly="4209" lrx="3367" lry="4349" xml:id="z_f40v_l052"/>
+      <zone ulx="694" uly="4302" lrx="3482" lry="4445" xml:id="z_f40v_l053"/>
+      <zone ulx="700" uly="4399" lrx="3398" lry="4610" xml:id="z_f40v_l054"/>
+      <zone ulx="3616" uly="3098" lrx="3837" lry="3198" xml:id="z_f40v_l055"/>
+      <zone ulx="3610" uly="3164" lrx="3871" lry="3294" xml:id="z_f40v_l056"/>
+      <zone ulx="3594" uly="3251" lrx="3868" lry="3394" xml:id="z_f40v_l057"/>
+      <zone ulx="3601" uly="3347" lrx="3834" lry="3503" xml:id="z_f40v_l058"/>
+      <zone ulx="3610" uly="3462" lrx="3859" lry="3580" xml:id="z_f40v_l059"/>
+      <zone ulx="3598" uly="3543" lrx="3881" lry="3686" xml:id="z_f40v_l060"/>
+      <zone ulx="3607" uly="3674" lrx="3812" lry="3789" xml:id="z_f40v_l061"/>
+      <zone ulx="3588" uly="3752" lrx="3871" lry="3888" xml:id="z_f40v_l062"/>
+      <zone ulx="3588" uly="3845" lrx="3875" lry="3982" xml:id="z_f40v_l063"/>
+      <zone ulx="3579" uly="3944" lrx="3884" lry="4084" xml:id="z_f40v_l064"/>
+      <zone ulx="3573" uly="4044" lrx="3881" lry="4193" xml:id="z_f40v_l065"/>
+      <zone ulx="3619" uly="4156" lrx="3756" lry="4277" xml:id="z_f40v_l066"/>
+      <zone ulx="3598" uly="4259" lrx="3853" lry="4358" xml:id="z_f40v_l067"/>
+      <zone ulx="3591" uly="4346" lrx="3881" lry="4464" xml:id="z_f40v_l068"/>
+      <zone ulx="3594" uly="4417" lrx="3871" lry="4595" xml:id="z_f40v_l069"/>
+      <zone ulx="3641" uly="1717" lrx="3722" lry="1810" xml:id="z_f40v_l070"/>
+      <zone ulx="3647" uly="1779" lrx="3837" lry="1891" xml:id="z_f40v_l071"/>
+      <zone ulx="3725" uly="1888" lrx="3862" lry="1969" xml:id="z_f40v_l072"/>
+      <zone ulx="3619" uly="2205" lrx="3815" lry="2311" xml:id="z_f40v_l073"/>
+      <zone ulx="3675" uly="2292" lrx="3837" lry="2408" xml:id="z_f40v_l074"/>
+      <zone ulx="3650" uly="2464" lrx="3694" lry="2507" xml:id="z_f40v_l075"/>
+      <zone ulx="3622" uly="2476" lrx="3725" lry="2597" xml:id="z_f40v_l076"/>
+      <zone ulx="3613" uly="2554" lrx="3725" lry="2688" xml:id="z_f40v_l077"/>
+      <zone ulx="3610" uly="2647" lrx="3747" lry="2796" xml:id="z_f40v_l078"/>
+      <zone ulx="3694" uly="2803" lrx="3791" lry="2868" xml:id="z_f40v_l079"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f40v_l001" xml:id="catmus_f40v_l001"/>
+          <seg type="raw_unreviewed">¶ cũ ut</seg>
+          <lb facs="#z_f40v_l002" xml:id="catmus_f40v_l002"/>
+          <seg type="raw_unreviewed">ci desẽt</seg>
+          <lb facs="#z_f40v_l003" xml:id="catmus_f40v_l003"/>
+          <seg type="raw_unreviewed">iĩ Reuit</seg>
+          <lb facs="#z_f40v_l004" xml:id="catmus_f40v_l004"/>
+          <seg type="raw_unreviewed">acdim</seg>
+          <lb facs="#z_f40v_l005" xml:id="catmus_f40v_l005"/>
+          <seg type="raw_unreviewed">saiboi</seg>
+          <lb facs="#z_f40v_l006" xml:id="catmus_f40v_l006"/>
+          <seg type="raw_unreviewed">CB</seg>
+          <lb facs="#z_f40v_l007" xml:id="catmus_f40v_l007"/>
+          <seg type="raw_unreviewed">sarugi los</seg>
+          <lb facs="#z_f40v_l008" xml:id="catmus_f40v_l008"/>
+          <seg type="raw_unreviewed">aps ĩ</seg>
+          <lb facs="#z_f40v_l009" xml:id="catmus_f40v_l009"/>
+          <seg type="raw_unreviewed">R</seg>
+          <lb facs="#z_f40v_l010" xml:id="catmus_f40v_l010"/>
+          <seg type="raw_unreviewed">hbrisere</seg>
+          <lb facs="#z_f40v_l011" xml:id="catmus_f40v_l011"/>
+          <seg type="raw_unreviewed">uoluit Isine sũcdoti pbitato bollũt uoiꝰ ĩ quir iuũ tñ sĩ suspe </seg>
+          <lb facs="#z_f40v_l012" xml:id="catmus_f40v_l012"/>
+          <seg type="raw_unreviewed">fuit cõbgͭ ĩquada u̾lla nõ młt aulitꝭ uilla rmota / qͥbũ obisessꝰ</seg>
+          <lb facs="#z_f40v_l013" xml:id="catmus_f40v_l013"/>
+          <seg type="raw_unreviewed">eẽti si qͣ deõn cũ uequã ent Iut coa̾ astuu ᵇ ĩ ꝓperae̾t pocu ĩ</seg>
+          <lb facs="#z_f40v_l014" xml:id="catmus_f40v_l014"/>
+          <seg type="raw_unreviewed">ꝑꝯfossiõ nu nã suñt tertu Oꝑ cũ nules ecultoꝵ r̾la ᶜ ͤ didicissi</seg>
+          <lb facs="#z_f40v_l015" xml:id="catmus_f40v_l015"/>
+          <seg type="raw_unreviewed">roga ͭ suspͤtũ suedote Iut ad collaq̾ũ secũ ire uell raiem̃t suc̾des</seg>
+          <lb facs="#z_f40v_l016" xml:id="catmus_f40v_l016"/>
+          <seg type="raw_unreviewed">Et eũ sił ueĩssẽt aduillã Iubi eat obsess Iꝯsciꝰ d sue̾do s ¶susptu</seg>
+          <lb facs="#z_f40v_l017" xml:id="catmus_f40v_l017"/>
+          <seg type="raw_unreviewed">hm̃t militẽ Iqr uõ lateluit eũ ꝙ sitẽdos obsessꝰ acĩ ueñi deõe</seg>
+          <lb facs="#z_f40v_l018" xml:id="catmus_f40v_l018"/>
+          <seg type="raw_unreviewed">ĩoud uilla hiciit Tiens q uite sue si adrõe ꝓdẽ Incͣrͣi</seg>
+          <lb facs="#z_f40v_l019" xml:id="catmus_f40v_l019"/>
+          <seg type="raw_unreviewed"> ilte</seg>
+          <lb facs="#z_f40v_l020" xml:id="catmus_f40v_l020"/>
+          <seg type="raw_unreviewed">siluaus sitͣuit srabl̃m udsnu mititꝭ i pedib dei ꝓ sc̃bis ait</seg>
+          <lb facs="#z_f40v_l021" xml:id="catmus_f40v_l021"/>
+          <seg type="raw_unreviewed">te ꝓptͤ diũ iut indis ifesslõ moa / quẽ exptuescõs leua ͭ eñ</seg>
+          <lb facs="#z_f40v_l022" xml:id="catmus_f40v_l022"/>
+          <seg type="raw_unreviewed">audiẽs q̃ ala ͦ dicelutu : stã uo ꝯfessiõ e ^cũ s suc̾ios ĩ nĩ</seg>
+          <lb facs="#z_f40v_l023" xml:id="catmus_f40v_l023"/>
+          <seg type="raw_unreviewed">pniũ p̃cꝑet iẜu sat pͥdũ᷑ ruͭ d. Qũtũ alii̾ suẽdoti xile</seg>
+          <lb facs="#z_f40v_l024" xml:id="catmus_f40v_l024"/>
+          <seg type="raw_unreviewed">cͥmie ⁊̃ ĩge̾t ħ̃ sit satiffc̃o uiu sicꝙ exiẽs  sociu̾er adocciut</seg>
+          <lb facs="#z_f40v_l025" xml:id="catmus_f40v_l025"/>
+          <seg type="raw_unreviewed">cũ nilite ueᵗiq̃ demoisũ accedutes rͣquisib ẽ. mmitite iłs uõ</seg>
+          <lb facs="#z_f40v_l026" xml:id="catmus_f40v_l026"/>
+          <seg type="raw_unreviewed">Nest ãd deme Il ꝙĩdusorra sc̃m̃ ꝑ ^ut suc̃doti tollẽt suspicam</seg>
+          <lb facs="#z_f40v_l027" xml:id="catmus_f40v_l027"/>
+          <seg type="raw_unreviewed">Cui cũ deõn rũde̾t nesdo / adiecit Quid t᷑ uide᷑ de dño tr</seg>
+          <lb facs="#z_f40v_l028" xml:id="catmus_f40v_l028"/>
+          <seg type="raw_unreviewed">Rñ ͭ ũ stio de eo Et cũ l dixissi ligira then ͨ i mex sħiũ xͭ latĩe</seg>
+          <lb facs="#z_f40v_l029" xml:id="catmus_f40v_l029"/>
+          <seg type="raw_unreviewed">ii stulo instificat ⁊ Null ꝰ tiĩ adeat cłioꝵ / Apellomi Sut uute</seg>
+          <lb facs="#z_f40v_l030" xml:id="catmus_f40v_l030"/>
+          <seg type="raw_unreviewed">ꝙ uã spõte sua Ioͥ haͬ latĩsoi srõs dic tẽẽsui llõ ẽ ꝑuissꝰ lequi</seg>
+          <lb facs="#z_f40v_l031" xml:id="catmus_f40v_l031"/>
+          <seg type="raw_unreviewed">cheu ͭ ͤ i ne nules ũ gono faĩ iilligẽt In ͨ tnĩ bid̾e liant I nt</seg>
+          <lb facs="#z_f40v_l032" xml:id="catmus_f40v_l032"/>
+          <seg type="raw_unreviewed">ueutẽ.Ifessiõis suoͭ oñde̾t Icesaiꝰ uue̾dos nõ ĩ meũr crliate bũsas</seg>
+          <lb facs="#z_f40v_l033" xml:id="catmus_f40v_l033"/>
+          <seg type="raw_unreviewed">ĩmexr s / scłm deseruit / ñquodũ ceuolui ordĩs noĩ mac̃lse st</seg>
+          <lb facs="#z_f40v_l034" xml:id="catmus_f40v_l034"/>
+          <seg type="raw_unreviewed">It iᵈ a Cũ deirn maxĩe quadu tp̃e maxĩe ĩ sostuͭ r occumͭ᷑</seg>
+          <lb facs="#z_f40v_l035" xml:id="catmus_f40v_l035"/>
+          <seg type="raw_unreviewed">pnã u̾głe ⁊cũ ꝯsito᷑ enaiĩt abeu dixuut q̃da ad demõen</seg>
+          <lb facs="#z_f40v_l036" xml:id="catmus_f40v_l036"/>
+          <seg type="raw_unreviewed">dio̾e ⁊ ait illis</seg>
+          <lb facs="#z_f40v_l037" xml:id="catmus_f40v_l037"/>
+          <seg type="raw_unreviewed">Nosti odya dũĩta orr̃ Fã ͭ opͤ stio rugab/ ẽ</seg>
+          <lb facs="#z_f40v_l038" xml:id="catmus_f40v_l038"/>
+          <seg type="raw_unreviewed">pr̃ nr̃ q̃ es ĩ celis ue tuũ/ fuit uolũtus ⁊ ĩ cĩri pilnẽ nm</seg>
+          <lb facs="#z_f40v_l039" xml:id="catmus_f40v_l039"/>
+          <seg type="raw_unreviewed">cctidiãnũ da nb ho ͨ s lilũ nos amalo Et cũ ples ĩeid om̃</seg>
+          <lb facs="#z_f40v_l040" xml:id="catmus_f40v_l040"/>
+          <seg type="raw_unreviewed">fuic̾e̾t salti wbartiaris ͤi cacgiãnde sb̃ĩxͭ Etce si</seg>
+          <lb facs="#z_f40v_l041" xml:id="catmus_f40v_l041"/>
+          <seg type="raw_unreviewed">sic dic̾e olõui urã Roguisitꝰ eocꝭ de sibło sdixͣ su bñ</seg>
+          <lb facs="#z_f40v_l042" xml:id="catmus_f40v_l042"/>
+          <seg type="raw_unreviewed">os luis soletꝭ</seg>
+          <lb facs="#z_f40v_l043" xml:id="catmus_f40v_l043"/>
+          <seg type="raw_unreviewed">s ͨ ĩciine</seg>
+          <lb facs="#z_f40v_l044" xml:id="catmus_f40v_l044"/>
+          <seg type="raw_unreviewed">Crede diu pr̃e oĩpotũͤI eui cũ qͥdm dicent ^dic̃e dẽs credo</seg>
+          <lb facs="#z_f40v_l045" xml:id="catmus_f40v_l045"/>
+          <seg type="raw_unreviewed">du̾isi Iiũxͭ Crece de ui laͥati qui ct̃ adeu̾nt Iuã di m̃utes</seg>
+          <lb facs="#z_f40v_l046" xml:id="catmus_f40v_l046"/>
+          <seg type="raw_unreviewed">et unu accusutĩ ĩctũgũtes sĩ soterũt ut dio̾et /ciedo ĩ deuni</seg>
+          <lb facs="#z_f40v_l047" xml:id="catmus_f40v_l047"/>
+          <seg type="raw_unreviewed">⁊ nẽ potuert̃ adeũ ħ ĩduce /Nũ crele̾ ĩdiu̾ ⁊ ꝑdilõi ire ĩdi</seg>
+          <lb facs="#z_f40v_l048" xml:id="catmus_f40v_l048"/>
+          <seg type="raw_unreviewed">Iacol dͭ deõn cdit ⁊ ꝯtmescit Iẜ nõ diluᵗ ¶oxcł. p deud põit c̃ulłsi</seg>
+          <lb facs="#z_f40v_l049" xml:id="catmus_f40v_l049"/>
+          <seg type="raw_unreviewed">Aalior Ida ĩ rgioe bargñdie nmnẽs iaqᵈ a peculũte dño / ui</seg>
+          <lb facs="#z_f40v_l050" xml:id="catmus_f40v_l050"/>
+          <seg type="raw_unreviewed">anis hsita er iffibe qseusu si edibli uexati ẽ liludie appa</seg>
+          <lb facs="#z_f40v_l051" xml:id="catmus_f40v_l051"/>
+          <seg type="raw_unreviewed">rux̾at ai ĩ sp̃e palch milit i sepe abiitelus ea ĩuiseblt᷑</seg>
+          <lb facs="#z_f40v_l052" xml:id="catmus_f40v_l052"/>
+          <seg type="raw_unreviewed">moĩto eiis cũ ea ĩead /lecto culiale lastiui e sp̃s ex ui</seg>
+          <lb facs="#z_f40v_l053" xml:id="catmus_f40v_l053"/>
+          <seg type="raw_unreviewed">auo tiore mortꝭ compa uetͭ ĩend curi ͭ ͤ sco lñ. claeuilleñ</seg>
+          <lb facs="#z_f40v_l054" xml:id="catmus_f40v_l054"/>
+          <seg type="raw_unreviewed">abate imiẜ nł̃i adpedes ee Icoiruit Ipassiõ ho iriblẽ ⁊lidifte</seg>
+          <lb facs="#z_f40v_l055" xml:id="catmus_f40v_l055"/>
+          <seg type="raw_unreviewed">seusepi</seg>
+          <lb facs="#z_f40v_l056" xml:id="catmus_f40v_l056"/>
+          <seg type="raw_unreviewed">nbibi ciecib</seg>
+          <lb facs="#z_f40v_l057" xml:id="catmus_f40v_l057"/>
+          <seg type="raw_unreviewed">Iisto ꝓobrrise</seg>
+          <lb facs="#z_f40v_l058" xml:id="catmus_f40v_l058"/>
+          <seg type="raw_unreviewed">H AGOEB S</seg>
+          <lb facs="#z_f40v_l059" xml:id="catmus_f40v_l059"/>
+          <seg type="raw_unreviewed">inssã </seg>
+          <lb facs="#z_f40v_l060" xml:id="catmus_f40v_l060"/>
+          <seg type="raw_unreviewed">uili uilł. hũ</seg>
+          <lb facs="#z_f40v_l061" xml:id="catmus_f40v_l061"/>
+          <seg type="raw_unreviewed">aD fual ꝓle</seg>
+          <lb facs="#z_f40v_l062" xml:id="catmus_f40v_l062"/>
+          <seg type="raw_unreviewed">Iigi petuella</seg>
+          <lb facs="#z_f40v_l063" xml:id="catmus_f40v_l063"/>
+          <seg type="raw_unreviewed">allĩ ase rꝰpli</seg>
+          <lb facs="#z_f40v_l064" xml:id="catmus_f40v_l064"/>
+          <seg type="raw_unreviewed">LE mi. Itige</seg>
+          <lb facs="#z_f40v_l065" xml:id="catmus_f40v_l065"/>
+          <seg type="raw_unreviewed">Ãi ũcitũ affi̾o</seg>
+          <lb facs="#z_f40v_l066" xml:id="catmus_f40v_l066"/>
+          <seg type="raw_unreviewed">ssũpco</seg>
+          <lb facs="#z_f40v_l067" xml:id="catmus_f40v_l067"/>
+          <seg type="raw_unreviewed">uostis puiest</seg>
+          <lb facs="#z_f40v_l068" xml:id="catmus_f40v_l068"/>
+          <seg type="raw_unreviewed">¶C̃ AEI</seg>
+          <lb facs="#z_f40v_l069" xml:id="catmus_f40v_l069"/>
+          <seg type="raw_unreviewed">lã mue ffia</seg>
+          <lb facs="#z_f40v_l070" xml:id="catmus_f40v_l070"/>
+          <seg type="raw_unreviewed">d ql</seg>
+          <lb facs="#z_f40v_l071" xml:id="catmus_f40v_l071"/>
+          <seg type="raw_unreviewed">e luob</seg>
+          <lb facs="#z_f40v_l072" xml:id="catmus_f40v_l072"/>
+          <seg type="raw_unreviewed">ii qiit</seg>
+          <lb facs="#z_f40v_l073" xml:id="catmus_f40v_l073"/>
+          <seg type="raw_unreviewed">q cddis</seg>
+          <lb facs="#z_f40v_l074" xml:id="catmus_f40v_l074"/>
+          <seg type="raw_unreviewed">qiuue</seg>
+          <lb facs="#z_f40v_l075" xml:id="catmus_f40v_l075"/>
+          <seg type="raw_unreviewed">i</seg>
+          <lb facs="#z_f40v_l076" xml:id="catmus_f40v_l076"/>
+          <seg type="raw_unreviewed">ste e</seg>
+          <lb facs="#z_f40v_l077" xml:id="catmus_f40v_l077"/>
+          <seg type="raw_unreviewed">a Po</seg>
+          <lb facs="#z_f40v_l078" xml:id="catmus_f40v_l078"/>
+          <seg type="raw_unreviewed">que fon</seg>
+          <lb facs="#z_f40v_l079" xml:id="catmus_f40v_l079"/>
+          <seg type="raw_unreviewed">du</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f40v_l001" xml:id="medusa_f40v_l001"/>
+          <seg type="raw_unreviewed">dantur cum nomen</seg>
+          <lb facs="#z_f40v_l002" xml:id="medusa_f40v_l002"/>
+          <seg type="raw_unreviewed">h͛ facere debet</seg>
+          <lb facs="#z_f40v_l003" xml:id="medusa_f40v_l003"/>
+          <seg type="raw_unreviewed">cuntin termit</seg>
+          <lb facs="#z_f40v_l004" xml:id="medusa_f40v_l004"/>
+          <seg type="raw_unreviewed">de aerrin</seg>
+          <lb facs="#z_f40v_l005" xml:id="medusa_f40v_l005"/>
+          <seg type="raw_unreviewed">ꝓsecutor</seg>
+          <lb facs="#z_f40v_l006" xml:id="medusa_f40v_l006"/>
+          <seg type="raw_unreviewed">dub</seg>
+          <lb facs="#z_f40v_l007" xml:id="medusa_f40v_l007"/>
+          <seg type="raw_unreviewed">fornication</seg>
+          <lb facs="#z_f40v_l008" xml:id="medusa_f40v_l008"/>
+          <seg type="raw_unreviewed">ceps ĩ</seg>
+          <lb facs="#z_f40v_l009" xml:id="medusa_f40v_l009"/>
+          <seg type="raw_unreviewed">dcoĩs ex</seg>
+          <lb facs="#z_f40v_l010" xml:id="medusa_f40v_l010"/>
+          <seg type="raw_unreviewed">a briser</seg>
+          <lb facs="#z_f40v_l011" xml:id="medusa_f40v_l011"/>
+          <seg type="raw_unreviewed">voluit / sine su̾dote / beateo uoluit uen̾i ĩquiri / nõ tñ si suspiᵉᵒ</seg>
+          <lb facs="#z_f40v_l012" xml:id="medusa_f40v_l012"/>
+          <seg type="raw_unreviewed">fuit / contigᵗ ĩ quadaz uilla nõ młt itauilitꝭ uilla remota / q̃dũ obsessi</seg>
+          <lb facs="#z_f40v_l013" xml:id="medusa_f40v_l013"/>
+          <seg type="raw_unreviewed">eẽt s̃t qͣ deoñ tr̃i uerba e̾nt / ut eua᷑ a scinluᵇ ĩꝓperia̾et po̾ri / q̃</seg>
+          <lb facs="#z_f40v_l014" xml:id="medusa_f40v_l014"/>
+          <seg type="raw_unreviewed">ꝑ confessionem nostram fuerunt tecta. Et cum milites ex nobileore nobis dare didicissent</seg>
+          <lb facs="#z_f40v_l015" xml:id="medusa_f40v_l015"/>
+          <seg type="raw_unreviewed">rogat suspic̃tũ suẽbetez / ut ad collaꝙ̃ũ secũ ire uell / ⁊ nũc enĩt sacerdos</seg>
+          <lb facs="#z_f40v_l016" xml:id="medusa_f40v_l016"/>
+          <seg type="raw_unreviewed">Et eũ scł uenissẽs ad uillã / ubi erat ob sessus / iꝰ secus eiꝰ suẽ dow / suspicatum</seg>
+          <lb facs="#z_f40v_l017" xml:id="medusa_f40v_l017"/>
+          <seg type="raw_unreviewed">hũit militem / qr nũ lateluit eũ ꝙ frẽdes obsessꝰ ac ĩ neq̃ deõe</seg>
+          <lb facs="#z_f40v_l018" xml:id="medusa_f40v_l018"/>
+          <seg type="raw_unreviewed">in eadem villa habitat Tientsque uite sue si adeane ꝓdẽ ⁊ nce</seg>
+          <lb facs="#z_f40v_l019" xml:id="medusa_f40v_l019"/>
+          <seg type="raw_unreviewed">multe</seg>
+          <lb facs="#z_f40v_l020" xml:id="medusa_f40v_l020"/>
+          <seg type="raw_unreviewed">siluani intͣuit scabtim ad suum militum / pedibus ei pro seclus ait</seg>
+          <lb facs="#z_f40v_l021" xml:id="medusa_f40v_l021"/>
+          <seg type="raw_unreviewed">audiẽs q̃ alio dicebatur / fac̃ mo ꝯfestiõe / t̃n leuat eũ</seg>
+          <lb facs="#z_f40v_l022" xml:id="medusa_f40v_l022"/>
+          <seg type="raw_unreviewed">audiẽs q̃ aliã dicelatur / facta meͥ confessioꝵ / cũ G. succ̾dos ĩ nũ</seg>
+          <lb facs="#z_f40v_l023" xml:id="medusa_f40v_l023"/>
+          <seg type="raw_unreviewed">pͥmũq p̃cipet / s̾uꝰ satꝭ pͥdũ rũt d. Cratũ alnꝰ sacerdoci ꝓhib</seg>
+          <lb facs="#z_f40v_l024" xml:id="medusa_f40v_l024"/>
+          <seg type="raw_unreviewed">cͥmĩe ĩnũget / ħ sit satisfc̃o ur̃n sicꝙ exiẽs se c̾uor ad ecc̃m</seg>
+          <lb facs="#z_f40v_l025" xml:id="medusa_f40v_l025"/>
+          <seg type="raw_unreviewed">cũ milite ueᵗ ĩ qͣ demõisũ accredited / requisitꝭ c̃ armate ĩs uñ</seg>
+          <lb facs="#z_f40v_l026" xml:id="medusa_f40v_l026"/>
+          <seg type="raw_unreviewed">Nestr̃ ãs deme / hᶜ exindusori fcm̃ pꝰ / ut suĩdoti tollẽt / suspicãm</seg>
+          <lb facs="#z_f40v_l027" xml:id="medusa_f40v_l027"/>
+          <seg type="raw_unreviewed">Cui cũ deoñi rũde̾t nescio / advocet Quid tͥ uide᷑ de dño tuo</seg>
+          <lb facs="#z_f40v_l028" xml:id="medusa_f40v_l028"/>
+          <seg type="raw_unreviewed">Rũt uł scio de eo Et cũ h diciss ligw.i theu i mox scumix latine</seg>
+          <lb facs="#z_f40v_l029" xml:id="medusa_f40v_l029"/>
+          <seg type="raw_unreviewed">in scab̃io iustificatꝭ ⁊ nullꝰ tñi aduentꝭ cl̃icorꝭ apelloniꝰ subpoto</seg>
+          <lb facs="#z_f40v_l030" xml:id="medusa_f40v_l030"/>
+          <seg type="raw_unreviewed">ꝙ nõ sponte sua 10ᵃ hoꝭ latĩscit fere s⁊ dicꝰ ⁊ ẽe sciꝰ / Nõ ẽ ꝑmissꝭ loqui</seg>
+          <lb facs="#z_f40v_l031" xml:id="medusa_f40v_l031"/>
+          <seg type="raw_unreviewed">theuͣe ne miles u̾ ex uo̾ fcm̃ ĩbligẽt / nͨ tñ tuc̾e licent / ut</seg>
+          <lb facs="#z_f40v_l032" xml:id="medusa_f40v_l032"/>
+          <seg type="raw_unreviewed">ventẽ .i. fessioĩs suõꝭ on̾der̃t / cesarꝰ bnedos nõ ĩ meõr coluit bñfici</seg>
+          <lb facs="#z_f40v_l033" xml:id="medusa_f40v_l033"/>
+          <seg type="raw_unreviewed">ĩ meyr s̃ sclm̃ deseruit / nĩ quodã cruslue ordĩs noĩ u̾d ch se f</seg>
+          <lb facs="#z_f40v_l034" xml:id="medusa_f40v_l034"/>
+          <seg type="raw_unreviewed">Cũ de mon maxime quadam tpo maxime ĩ festu et occipit</seg>
+          <lb facs="#z_f40v_l035" xml:id="medusa_f40v_l035"/>
+          <seg type="raw_unreviewed">mn̾i u̾gẽs ⁊ eũ ꝯfitu᷑ euauiũit ab eo / dixiunt qd̵a ad demõen</seg>
+          <lb facs="#z_f40v_l036" xml:id="medusa_f40v_l036"/>
+          <seg type="raw_unreviewed">dicere et ut illis</seg>
+          <lb facs="#z_f40v_l037" xml:id="medusa_f40v_l037"/>
+          <seg type="raw_unreviewed">Mosi odyaᵒ dñicaꝵ oirõ fũt opꝰ suo / regas/ ẽ</seg>
+          <lb facs="#z_f40v_l038" xml:id="medusa_f40v_l038"/>
+          <seg type="raw_unreviewed">pr̃ nr̃ q̃ es ĩ celis neᷠ tuũ / fuit uolũtās ⁊ ĩ Erri / pance nr̃m</seg>
+          <lb facs="#z_f40v_l039" xml:id="medusa_f40v_l039"/>
+          <seg type="raw_unreviewed">octidãmũ da ũb hie S lib̃a nos amalo Et cũ plẽs ĩ eod̃ oñm</seg>
+          <lb facs="#z_f40v_l040" xml:id="medusa_f40v_l040"/>
+          <seg type="raw_unreviewed">fueret saltꝰ ⁊ barbaris iᵃ cathaudo subnixꝭ Ecce si</seg>
+          <lb facs="#z_f40v_l041" xml:id="medusa_f40v_l041"/>
+          <seg type="raw_unreviewed">sic dicere omnium nostram / Requisitus ex parte de sibilo / dixit se ha</seg>
+          <lb facs="#z_f40v_l042" xml:id="medusa_f40v_l042"/>
+          <seg type="raw_unreviewed">des luts selet</seg>
+          <lb facs="#z_f40v_l043" xml:id="medusa_f40v_l043"/>
+          <seg type="raw_unreviewed">sunt incipientes</seg>
+          <lb facs="#z_f40v_l044" xml:id="medusa_f40v_l044"/>
+          <seg type="raw_unreviewed">Crede dñi patrem omnipotũ / eui cũ qͥdam dic̾ent / dic̾e ds̃ credo</seg>
+          <lb facs="#z_f40v_l045" xml:id="medusa_f40v_l045"/>
+          <seg type="raw_unreviewed">dui. fũmꝭ credo de u̾ latro / qui tc̃ uide̾unt / uã dr̃ nõ utro</seg>
+          <lb facs="#z_f40v_l046" xml:id="medusa_f40v_l046"/>
+          <seg type="raw_unreviewed">et um accusati ĩtͣcũgũres sĩ sote rũt ut dic̾et / credo ĩdemi</seg>
+          <lb facs="#z_f40v_l047" xml:id="medusa_f40v_l047"/>
+          <seg type="raw_unreviewed">⁊ nõ potuerũt ad eũ hinc inducere / Nũ crede̾ ĩ dñm 3 ꝓdicaõ nr̃e ĩ dñm</seg>
+          <lb facs="#z_f40v_l048" xml:id="medusa_f40v_l048"/>
+          <seg type="raw_unreviewed">Jacobus d̃t deñm credat ⁊ gͣtuere scit / s nõ dilu̾it ¶ Ex 1.1. ꝙ deus potest c̃ młtbo</seg>
+          <lb facs="#z_f40v_l049" xml:id="medusa_f40v_l049"/>
+          <seg type="raw_unreviewed">Mulier qdaʒ ĩ rgiõe burgundie natu᷑es iuqdaʒ peculũ te dno / u</seg>
+          <lb facs="#z_f40v_l050" xml:id="medusa_f40v_l050"/>
+          <seg type="raw_unreviewed">amis huiusmodi consensu / incredibili nexatu ẽ libidine Appu-</seg>
+          <lb facs="#z_f40v_l051" xml:id="medusa_f40v_l051"/>
+          <seg type="raw_unreviewed">mouert et in spe pulchri militis sepe abutebatur ea inuisibiliter</seg>
+          <lb facs="#z_f40v_l052" xml:id="medusa_f40v_l052"/>
+          <seg type="raw_unreviewed">maĩto eius cũ ea in eadem lecto culuãte bastinꝰ . iᵒ sp̃s e r̃ un</seg>
+          <lb facs="#z_f40v_l053" xml:id="medusa_f40v_l053"/>
+          <seg type="raw_unreviewed">anno tione mortꝭ corpꝭ / uenite ĩ eisdem cunite sc̃o bni. clarumbeñ</seg>
+          <lb facs="#z_f40v_l054" xml:id="medusa_f40v_l054"/>
+          <seg type="raw_unreviewed">abate / misse mlt̃ ad pedes eĩc corruit / passioʒ horriblẽʒ et ludi ffe</seg>
+          <lb facs="#z_f40v_l055" xml:id="medusa_f40v_l055"/>
+          <seg type="raw_unreviewed">ẽ ĩ europa</seg>
+          <lb facs="#z_f40v_l056" xml:id="medusa_f40v_l056"/>
+          <seg type="raw_unreviewed">imditati euecic</seg>
+          <lb facs="#z_f40v_l057" xml:id="medusa_f40v_l057"/>
+          <seg type="raw_unreviewed">de cristo contruise</seg>
+          <lb facs="#z_f40v_l058" xml:id="medusa_f40v_l058"/>
+          <seg type="raw_unreviewed">rubr de cõs 12</seg>
+          <lb facs="#z_f40v_l059" xml:id="medusa_f40v_l059"/>
+          <seg type="raw_unreviewed">nitissiam naturis</seg>
+          <lb facs="#z_f40v_l060" xml:id="medusa_f40v_l060"/>
+          <seg type="raw_unreviewed">meduʳ ml̃. hũ</seg>
+          <lb facs="#z_f40v_l061" xml:id="medusa_f40v_l061"/>
+          <seg type="raw_unreviewed">mich tuͦn sil</seg>
+          <lb facs="#z_f40v_l062" xml:id="medusa_f40v_l062"/>
+          <seg type="raw_unreviewed">froza petruellaz</seg>
+          <lb facs="#z_f40v_l063" xml:id="medusa_f40v_l063"/>
+          <seg type="raw_unreviewed">puella a se repu</seg>
+          <lb facs="#z_f40v_l064" xml:id="medusa_f40v_l064"/>
+          <seg type="raw_unreviewed">sont aune isting</seg>
+          <lb facs="#z_f40v_l065" xml:id="medusa_f40v_l065"/>
+          <seg type="raw_unreviewed">domini nuntium affluens</seg>
+          <lb facs="#z_f40v_l066" xml:id="medusa_f40v_l066"/>
+          <seg type="raw_unreviewed">missum pccu</seg>
+          <lb facs="#z_f40v_l067" xml:id="medusa_f40v_l067"/>
+          <seg type="raw_unreviewed">questut promist</seg>
+          <lb facs="#z_f40v_l068" xml:id="medusa_f40v_l068"/>
+          <seg type="raw_unreviewed">susa e admirẽz</seg>
+          <lb facs="#z_f40v_l069" xml:id="medusa_f40v_l069"/>
+          <seg type="raw_unreviewed">me qfui</seg>
+          <lb facs="#z_f40v_l070" xml:id="medusa_f40v_l070"/>
+          <seg type="raw_unreviewed">a qd</seg>
+          <lb facs="#z_f40v_l071" xml:id="medusa_f40v_l071"/>
+          <seg type="raw_unreviewed">ertē / was</seg>
+          <lb facs="#z_f40v_l072" xml:id="medusa_f40v_l072"/>
+          <seg type="raw_unreviewed">ii a</seg>
+          <lb facs="#z_f40v_l073" xml:id="medusa_f40v_l073"/>
+          <seg type="raw_unreviewed">sed quod credit</seg>
+          <lb facs="#z_f40v_l074" xml:id="medusa_f40v_l074"/>
+          <seg type="raw_unreviewed">minne</seg>
+          <lb facs="#z_f40v_l075" xml:id="medusa_f40v_l075"/>
+          <seg type="raw_unreviewed">des</seg>
+          <lb facs="#z_f40v_l076" xml:id="medusa_f40v_l076"/>
+          <seg type="raw_unreviewed">locte</seg>
+          <lb facs="#z_f40v_l077" xml:id="medusa_f40v_l077"/>
+          <seg type="raw_unreviewed">liti lĩ</seg>
+          <lb facs="#z_f40v_l078" xml:id="medusa_f40v_l078"/>
+          <seg type="raw_unreviewed">que fu</seg>
+          <lb facs="#z_f40v_l079" xml:id="medusa_f40v_l079"/>
+          <seg type="raw_unreviewed">da</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f40v_l001 #z_f40v_l002 #z_f40v_l003 #z_f40v_l004 #z_f40v_l005 #z_f40v_l006 #z_f40v_l007 #z_f40v_l008 #z_f40v_l009 #z_f40v_l010" xml:id="u_40v_001">[...]</p>
+        <note type="editorial" corresp="#u_40v_001" xml:lang="cs">Nespojuji je s hlavním příběhem.</note>
+        <p facs="#z_f40v_l011 #z_f40v_l012 #z_f40v_l013 #z_f40v_l014 #z_f40v_l015 #z_f40v_l016 #z_f40v_l017 #z_f40v_l018" xml:id="u_40v_002">[...] voluit. Sine sacerdotis [...] voluit [...] inquirere [...] suspicionem. Fuit [...] in quadam villa non multum ab illius villa remota quidam obsessus, in quo daemon cum [...] erat [...] coram [...] improperaret peccata per confessionem nondum [...] . Quod cum miles ex occultorum relatione didicisset, rogavit suspectum sacerdotem ut ad colloquium secum ire vellet. [...] Cum venissent ad villam ubi erat obsessus, conscius [...] sacerdos suspectum habuit militem, quia non latuit eum quod [...] obsessus [...] daemon [...] in eadem villa faceret. Timensque vitae suae, si [...] proderet [...].</p>
+        <note type="editorial" corresp="#u_40v_002" xml:lang="cs">Pokračování 40r. Předloha líčí údajnou schopnost démona odhalovat hříchy; není to naše faktické hodnocení.</note>
+        <p facs="#z_f40v_l019" xml:id="u_40v_003">[...]</p>
+        <note type="editorial" corresp="#u_40v_003" xml:lang="cs">Vlastní drobný fragment, nepostačí k samostatnému čtení.</note>
+        <p facs="#z_f40v_l020 #z_f40v_l021 #z_f40v_l022 #z_f40v_l023 #z_f40v_l024" xml:id="u_40v_004">[...] silvam [...] ad [...] militis [...] prostratus ait: Rogo te propter Deum ut audias confessionem meam. Quem [...] levavit eum audiens quae [...] dicebantur. Facta vero confessione et cum [...] sacerdos [...] poenitentiam praeciperet, [...] respondit: Quantum alii sacerdoti [...] satisfactione [...] . Et [...] sociaverunt [...]</p>
+        <note type="editorial" corresp="#u_40v_004" xml:lang="cs">Kněz zpovídá svůj hřích rytíři; přesná výměna o pokání nevyřešena. Nezaměňuji rytíře za druhého kněze tam, kde osoby nejsou jisté.</note>
+        <p facs="#z_f40v_l025 #z_f40v_l026 #z_f40v_l027 #z_f40v_l028 #z_f40v_l029 #z_f40v_l030 #z_f40v_l031 #z_f40v_l032" xml:id="u_40v_005">Cum milite [...] ad daemonium accedentes requisivit eum [...] . Nosti [...] domine [...] ? [...] ut sacerdoti tolleret suspicionem. Cui cum daemon responderet: Nescio, adiecit: Quid tibi videtur de domino [...]? Respondit: Nescio de eo. Et cum hoc dixisset, [...] lingua [...] latine: In psalterio [...] iustificat et nullus [...] clericorum. [...] Diabolus non sua sponte [...] , sed [...] permissum loqui [...] ne miles [...] intelligat. In hoc tamen videre licuit [...] virtutem confessionis [...]</p>
+        <note type="editorial" corresp="#u_40v_005" xml:lang="cs">Latinská replika démona a vysvětlení užití jazyka neúplné. Nedoplňuji konkrétní žalmový verš z paměti.</note>
+        <p facs="#z_f40v_l033 #z_f40v_l034 #z_f40v_l035 #z_f40v_l036 #z_f40v_l037 #z_f40v_l038 #z_f40v_l039 #z_f40v_l040" xml:id="u_40v_006">[...] sacerdos [...] saeculum deseruit [...] ordinis nostri [...] . [...] Cum daemones [...] quodam tempore [...] maxime [...] inter primam et vigiliam [...] , [...] quidam ad daemonem dixit: Nosti orationem dominicam? [...] Pater noster qui es in caelis, [...] fiat voluntas [...] et in terra, panem nostrum cotidianum da nobis hodie, sed libera nos a malo. Et cum plures [...] omissiones fecisset [...] cachinnando subiunxit: Ecce sic [...] orationem.</p>
+        <note type="editorial" corresp="#u_40v_006" xml:lang="cs">Začíná další exemplum. Modlitba je v rukopise záměrně neúplná; nedoplňuji vynechané prosby ani předchozí nezajištěná slova.</note>
+        <p facs="#z_f40v_l041 #z_f40v_l042 #z_f40v_l043" xml:id="u_40v_007">[...] Requisitus [...] de symbolo dixit [...] sicut [...] soletis.</p>
+        <note type="editorial" corresp="#u_40v_007" xml:lang="cs">42–43 malé rozdělené konce souvětí, čtení neúplné.</note>
+        <p facs="#z_f40v_l044 #z_f40v_l045 #z_f40v_l046 #z_f40v_l047 #z_f40v_l048" xml:id="u_40v_008">Credo Deum patrem omnipotentem. Cui cum quidam dicerent: Dic: Credo in Deum, [...] increpat eos [...] qui [...] ad Deum [...] . [...] unam accusativi [...] ut diceret: Credo in Deum, et non potuerunt ad eum hoc inducere. Nam credere in Deum [...] . Iacobus dicit: Daemon credit et contremiscit, sed non diligit. [...]</p>
+        <note type="editorial" corresp="#u_40v_008" xml:lang="cs">Právě rozdíl Deum / in Deum je čitelným jádrem poučení. Český nezvyklý tvar Věřím Boha zachovává jeho jazykový kontrast; vysvětlující věta po Nam nečitelná.</note>
+        <p facs="#z_f40v_l049 #z_f40v_l050 #z_f40v_l051 #z_f40v_l052 #z_f40v_l053 #z_f40v_l054" xml:id="u_40v_009">Mulier quaedam in regione Burgundiae manens, [...] peccant[e?] [...] , sex annis [...] ab incub[o?] vexata est libidine. Apparuerat ei in specie pulchri militis et saepe [...] eam invisibiliter, marito eius cum ea in eodem lecto cubante, lascivi [...] . [...] timore mortis compuncta venit ad curiam [...] sancti Bernhardi Claraevallensis abbatis. Immiss[a?] [...] ad pedes eius corruit, passionem horribilem et [...]</p>
+        <note type="editorial" corresp="#u_40v_009" xml:lang="cs">Nové exemplum pokračuje 41r. Přesný vstupní hřích a démonologický termín nejisté. Nevykládám legendární sexuální útoky jako skutečně prokázané nadpřirozené dění.</note>
+        <p facs="#z_f40v_l055 #z_f40v_l056 #z_f40v_l057 #z_f40v_l058 #z_f40v_l059 #z_f40v_l060 #z_f40v_l061 #z_f40v_l062 #z_f40v_l063 #z_f40v_l064 #z_f40v_l065 #z_f40v_l066 #z_f40v_l067 #z_f40v_l068 #z_f40v_l069 #z_f40v_l070 #z_f40v_l071 #z_f40v_l072 #z_f40v_l073 #z_f40v_l074 #z_f40v_l075 #z_f40v_l076 #z_f40v_l077 #z_f40v_l078 #z_f40v_l079" xml:id="u_40v_010">[...]</p>
+        <note type="editorial" corresp="#u_40v_010" xml:lang="cs">Všechny tyto výřezy skutečně otevřeny; nedoplňuji z nich hlavní text 40v.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_40v_001">[Úzké okrajové útržky sousedního textu.]</p>
+        <p corresp="#u_40v_002">[...] chtěl [...]. Chtěl [...] vyšetřit [...] podezření, aniž [poškodil?] kněze [...]. V jedné nedaleké vsi byl posedlý člověk; démon v něm [...] přede všemi vyčítal hříchy, které dosud [...] zpovědí [...]. Když se rytíř dozvěděl o odhalování skrytých věcí, požádal podezřelého kněze, aby s ním šel promluvit [...]. Došli do vsi s posedlým. Kněz si byl vědom [...] a začal rytíře podezírat, neboť věděl, co démon [...] v oné vsi dělá. Bál se o život, kdyby [...] prozradil [...].</p>
+        <p corresp="#u_40v_003">[Odtržený konec řádku.]</p>
+        <p corresp="#u_40v_004">[...] v lese [...] u rytíře padl na zem a řekl: Prosím tě pro Boha, vyslechni mou zpověď. On ho [...] pozvedl a vyslechl, co [...] bylo řečeno. Po zpovědi [...] a když [...] kněz [...] ukládal pokání, [...] odpověděl: Kolik jinému knězi [...] zadostiučiněním [...]. Potom se [...] připojili [...].</p>
+        <p corresp="#u_40v_005">Spolu s rytířem přistoupili k démonovi a tázal se ho [...]: Znáš [...] pána [...]? [...] aby kněze zbavil podezření. Démon odpověděl: Nevím. Dodal: Co soudíš o pánu [...]? Odpověděl: Nevím o něm. Když to řekl, [...] latinsky: V žaltáři [...] ospravedlňuje a nikdo [...] kleriků. [...] Ďábel nemluvil z vlastní vůle [...], ale bylo mu dovoleno [...] , aby rytíř [...] nerozuměl. Přesto tu bylo možno spatřit [...] moc zpovědi [...].</p>
+        <p corresp="#u_40v_006">[...] Kněz opustil světský život [...] našeho řádu [...]. [...] Když démoni [...] v určité době [...] mezi primou a vigilií [...], někdo se démona otázal: Znáš modlitbu Páně? [...] Otče náš, jenž jsi na nebesích [...] buď vůle [...] i na zemi; chléb náš vezdejší dej nám dnes, ale zbav nás od zlého. Vynechal přitom více [...] a se smíchem dodal: Hle, tak [...] modlitbu.</p>
+        <p corresp="#u_40v_007">[...] Když byl dotázán na vyznání víry, řekl [...] jak [...] obvykle říkáte.</p>
+        <p corresp="#u_40v_008">Věřím Boha, Otce všemohoucího. Když mu někteří řekli: Řekni Věřím v Boha, [...] vyčinil jim [...] kteří [...] k Bohu [...]. [...] [předložku před?] akuzativem [...] , aby řekl Věřím v Boha; nedokázali ho však k tomu přimět. Věřit v Boha totiž [...] . Jakub říká: Démon věří a chvěje se, ale nemiluje. [...]</p>
+        <p corresp="#u_40v_009">Jistá žena žijící v Burgundsku [...] šest let [...] byla trápena [inkubovou?] chlípností. Zjevil se jí v podobě krásného rytíře a často [...] ji neviditelně navštěvoval, i když její manžel ležel s ní v témže lůžku [...]. [...] Zkroušená strachem ze smrti přišla [...] ke svatému Bernardovi, opatu z Clairvaux. [...] Padla mu k nohám a vyjevila hrozné trápení [...].</p>
+        <p corresp="#u_40v_010">[Nesouvislé úzké zbytky protější stránky.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

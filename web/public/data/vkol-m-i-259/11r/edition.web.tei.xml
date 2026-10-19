@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 11r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_11r_coordinate; PNG SHA256 5485bdc36821aaf77379c41351f8d213facb9481bd061a65c862c344b502d947; archival TIFF SHA256 813a4f88a45c82cb75c9294658741e4f69effa473a7196fd83345cec75096bd0; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_11r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#11r"/>
+      <zone ulx="529" uly="560" lrx="3215" lry="724" xml:id="z_f11r_l001"/>
+      <zone ulx="529" uly="665" lrx="3274" lry="830" xml:id="z_f11r_l002"/>
+      <zone ulx="529" uly="768" lrx="3221" lry="952" xml:id="z_f11r_l003"/>
+      <zone ulx="554" uly="880" lrx="3187" lry="1082" xml:id="z_f11r_l004"/>
+      <zone ulx="806" uly="992" lrx="3196" lry="1185" xml:id="z_f11r_l005"/>
+      <zone ulx="787" uly="1104" lrx="3193" lry="1303" xml:id="z_f11r_l006"/>
+      <zone ulx="821" uly="1216" lrx="3196" lry="1424" xml:id="z_f11r_l007"/>
+      <zone ulx="516" uly="1331" lrx="3184" lry="1533" xml:id="z_f11r_l008"/>
+      <zone ulx="544" uly="1449" lrx="3227" lry="1676" xml:id="z_f11r_l009"/>
+      <zone ulx="529" uly="1589" lrx="3181" lry="1779" xml:id="z_f11r_l010"/>
+      <zone ulx="547" uly="1726" lrx="3193" lry="1900" xml:id="z_f11r_l011"/>
+      <zone ulx="3252" uly="833" lrx="3672" lry="980" xml:id="z_f11r_l012"/>
+      <zone ulx="554" uly="1860" lrx="3289" lry="2028" xml:id="z_f11r_l013"/>
+      <zone ulx="547" uly="1981" lrx="3209" lry="2140" xml:id="z_f11r_l014"/>
+      <zone ulx="563" uly="2112" lrx="3246" lry="2292" xml:id="z_f11r_l015"/>
+      <zone ulx="554" uly="2236" lrx="3265" lry="2408" xml:id="z_f11r_l016"/>
+      <zone ulx="544" uly="2355" lrx="3224" lry="2544" xml:id="z_f11r_l017"/>
+      <zone ulx="547" uly="2482" lrx="3212" lry="2656" xml:id="z_f11r_l018"/>
+      <zone ulx="538" uly="2616" lrx="3268" lry="2790" xml:id="z_f11r_l019"/>
+      <zone ulx="473" uly="2744" lrx="3268" lry="2912" xml:id="z_f11r_l020"/>
+      <zone ulx="547" uly="2856" lrx="3215" lry="3042" xml:id="z_f11r_l021"/>
+      <zone ulx="2269" uly="2980" lrx="2477" lry="3070" xml:id="z_f11r_l022"/>
+      <zone ulx="544" uly="2983" lrx="3249" lry="3160" xml:id="z_f11r_l023"/>
+      <zone ulx="557" uly="3098" lrx="3249" lry="3285" xml:id="z_f11r_l024"/>
+      <zone ulx="560" uly="3226" lrx="3265" lry="3419" xml:id="z_f11r_l025"/>
+      <zone ulx="547" uly="3347" lrx="3255" lry="3543" xml:id="z_f11r_l026"/>
+      <zone ulx="569" uly="3465" lrx="3249" lry="3689" xml:id="z_f11r_l027"/>
+      <zone ulx="557" uly="3612" lrx="3255" lry="3804" xml:id="z_f11r_l028"/>
+      <zone ulx="566" uly="3745" lrx="3336" lry="3951" xml:id="z_f11r_l029"/>
+      <zone ulx="566" uly="3867" lrx="3237" lry="4084" xml:id="z_f11r_l030"/>
+      <zone ulx="1780" uly="3997" lrx="2026" lry="4075" xml:id="z_f11r_l031"/>
+      <zone ulx="554" uly="4004" lrx="3209" lry="4234" xml:id="z_f11r_l032"/>
+      <zone ulx="566" uly="4140" lrx="3221" lry="4352" xml:id="z_f11r_l033"/>
+      <zone ulx="550" uly="4284" lrx="3321" lry="4483" xml:id="z_f11r_l034"/>
+      <zone ulx="578" uly="4433" lrx="3324" lry="4635" xml:id="z_f11r_l035"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f11r_l001" xml:id="catmus_f11r_l001"/>
+          <seg type="raw_unreviewed">Eccehic t̾ã thema posui cres clansulas disouxidequi</seg>
+          <lb facs="#z_f11r_l002" xml:id="catmus_f11r_l002"/>
+          <seg type="raw_unreviewed">uus tres nõuilitates exaaxi et cuilib nõbilitati addidi c̾a</seg>
+          <lb facs="#z_f11r_l003" xml:id="catmus_f11r_l003"/>
+          <seg type="raw_unreviewed">mẽbra que adinricẽ des refre sicut docet titulꝰ te rub̾ct</seg>
+          <lb facs="#z_f11r_l004" xml:id="catmus_f11r_l004"/>
+          <seg type="raw_unreviewed">sic et tu fac simłt ꝑdem ꝑuisra ꝑ supͣ in om̃ui ẜmone tuo</seg>
+          <lb facs="#z_f11r_l005" xml:id="catmus_f11r_l005"/>
+          <seg type="raw_unreviewed">Omeõriã duc quid Dequo Oruae quib. Qualibi</seg>
+          <lb facs="#z_f11r_l006" xml:id="catmus_f11r_l006"/>
+          <seg type="raw_unreviewed">loquais Item quod fuit nõbilitates quot mẽbra</seg>
+          <lb facs="#z_f11r_l007" xml:id="catmus_f11r_l007"/>
+          <seg type="raw_unreviewed">etsi ẜmonisas lrãtis pone ad quãłib nõbilitatẽ</seg>
+          <lb facs="#z_f11r_l008" xml:id="catmus_f11r_l008"/>
+          <seg type="raw_unreviewed">mnembt̾a ciusd̃ mu ut eo minꝰ erres Si aũt illrãtis</seg>
+          <lb facs="#z_f11r_l009" xml:id="catmus_f11r_l009"/>
+          <seg type="raw_unreviewed">simonisas tĩc hoc nõ est necesse nisi uelis Itẽ sim fra ẜ</seg>
+          <lb facs="#z_f11r_l010" xml:id="catmus_f11r_l010"/>
+          <seg type="raw_unreviewed">monẽ baũ ꝙabsit oblicus suis aliquã nõbilitatẽ nel</seg>
+          <lb facs="#z_f11r_l011" xml:id="catmus_f11r_l011"/>
+          <seg type="raw_unreviewed">oliq mẽbrũ uł aliquã ꝑbacõm tũc fac siouit bolpes et</seg>
+          <lb facs="#z_f11r_l012" xml:id="catmus_f11r_l012"/>
+          <seg type="raw_unreviewed">demeõriia</seg>
+          <lb facs="#z_f11r_l013" xml:id="catmus_f11r_l013"/>
+          <seg type="raw_unreviewed">in duc aliqũã auctoitatẽ tuibłem nel dulcẽ Et exclama</seg>
+          <lb facs="#z_f11r_l014" xml:id="catmus_f11r_l014"/>
+          <seg type="raw_unreviewed">uł allude et hoc p̃cipue aput lrãtos Item in pudica</seg>
+          <lb facs="#z_f11r_l015" xml:id="catmus_f11r_l015"/>
+          <seg type="raw_unreviewed">exprime no des ut est illud ddappiens wluam qui co</seg>
+          <lb facs="#z_f11r_l016" xml:id="catmus_f11r_l016"/>
+          <seg type="raw_unreviewed">ieit cmi masculo ccum fennã uasei debito Cũ iniuẽto</seg>
+          <lb facs="#z_f11r_l017" xml:id="catmus_f11r_l017"/>
+          <seg type="raw_unreviewed">Et ꝯsimilia Di aũt luiquiodi in cidũt expͥmas ea ꝑicũ</seg>
+          <lb facs="#z_f11r_l018" xml:id="catmus_f11r_l018"/>
+          <seg type="raw_unreviewed">locucõnes urbanas ploluã dic uentit̃ ꝓaliis pcc̃is</seg>
+          <lb facs="#z_f11r_l019" xml:id="catmus_f11r_l019"/>
+          <seg type="raw_unreviewed">dic Qau cõtra nãm picãnit Et ꝑ similia exꝑone simmba</seg>
+          <lb facs="#z_f11r_l020" xml:id="catmus_f11r_l020"/>
+          <seg type="raw_unreviewed">Item si cõfessor fuis cͥane dilligent nomiq recices que</seg>
+          <lb facs="#z_f11r_l021" xml:id="catmus_f11r_l021"/>
+          <seg type="raw_unreviewed">audiẽis ꝑ cõfessiõm ułillis similia utrũ sint pñtes</seg>
+          <lb facs="#z_f11r_l022" xml:id="catmus_f11r_l022"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f11r_l023" xml:id="catmus_f11r_l023"/>
+          <seg type="raw_unreviewed">nel ab sentes quos huiq moĩ pͥccã iecus qui a sepe mł</seg>
+          <lb facs="#z_f11r_l024" xml:id="catmus_f11r_l024"/>
+          <seg type="raw_unreviewed">ta mala exhoc ꝯtiugũt ꝓptea sigind ꝑ dicõnis est uo</seg>
+          <lb facs="#z_f11r_l025" xml:id="catmus_f11r_l025"/>
+          <seg type="raw_unreviewed">ce uideluc et corde Item nõ Si quiꝯmodi exoculto cor</seg>
+          <lb facs="#z_f11r_l026" xml:id="catmus_f11r_l026"/>
+          <seg type="raw_unreviewed">dis habitacõnt eg̾sa nõ potĩs eintae̾ quia forte lacq</seg>
+          <lb facs="#z_f11r_l027" xml:id="catmus_f11r_l027"/>
+          <seg type="raw_unreviewed">sc̃ptũe h ͨ exigit tunc bisfer te ad ꝑsonam aliquã dãp</seg>
+          <lb facs="#z_f11r_l028" xml:id="catmus_f11r_l028"/>
+          <seg type="raw_unreviewed">nacõnis nel saluacõnis quc huiꝯmodi uiciũ uł ututẽ</seg>
+          <lb facs="#z_f11r_l029" xml:id="catmus_f11r_l029"/>
+          <seg type="raw_unreviewed">oꝑata sit teste theologia et tũc grã illuis ꝑ sone ꝑfcr</seg>
+          <lb facs="#z_f11r_l030" xml:id="catmus_f11r_l030"/>
+          <seg type="raw_unreviewed">in mediũ illud uiciũ nel uirtutẽ hãc et deludis au</seg>
+          <lb facs="#z_f11r_l031" xml:id="catmus_f11r_l031"/>
+          <seg type="raw_unreviewed">taugio</seg>
+          <lb facs="#z_f11r_l032" xml:id="catmus_f11r_l032"/>
+          <seg type="raw_unreviewed">diẽtib quos huiꝯmodi cahũt nemponãt tibi ꝓdicõ</seg>
+          <lb facs="#z_f11r_l033" xml:id="catmus_f11r_l033"/>
+          <seg type="raw_unreviewed">nis notã Ctillud o ẜiserua iomi ẜmone artis nel</seg>
+          <lb facs="#z_f11r_l034" xml:id="catmus_f11r_l034"/>
+          <seg type="raw_unreviewed">snrĩs Itẽ nõ si laytis ẜmonisas et si ecip̃ip tec̾cũstãt</seg>
+          <lb facs="#z_f11r_l035" xml:id="catmus_f11r_l035"/>
+          <seg type="raw_unreviewed">te nel sedẽt et b̃c iu inmedio eoꝵstas tus qũq utas</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f11r_l001" xml:id="medusa_f11r_l001"/>
+          <seg type="raw_unreviewed">Ecce hic thema posui tres clausulas distinxi de qui</seg>
+          <lb facs="#z_f11r_l002" xml:id="medusa_f11r_l002"/>
+          <seg type="raw_unreviewed">bus tres nobilitates extraxi et cuilibet nobilitati addidi ca</seg>
+          <lb facs="#z_f11r_l003" xml:id="medusa_f11r_l003"/>
+          <seg type="raw_unreviewed">membra que ad invicem des refere sicut docet titulus te rubric</seg>
+          <lb facs="#z_f11r_l004" xml:id="medusa_f11r_l004"/>
+          <seg type="raw_unreviewed">sic et tu fac similiter ꝑidem ꝑmistra ꝑsup in om̃i ẜmone tuo</seg>
+          <lb facs="#z_f11r_l005" xml:id="medusa_f11r_l005"/>
+          <seg type="raw_unreviewed">Dinẽoriam duc quid De quo Genae quib: Genalib:</seg>
+          <lb facs="#z_f11r_l006" xml:id="medusa_f11r_l006"/>
+          <seg type="raw_unreviewed">loquans Item quod sunt nobilitates quot membra</seg>
+          <lb facs="#z_f11r_l007" xml:id="medusa_f11r_l007"/>
+          <seg type="raw_unreviewed">et si symonisias literatis pene ad quãlib: nobilitatẽ</seg>
+          <lb facs="#z_f11r_l008" xml:id="medusa_f11r_l008"/>
+          <seg type="raw_unreviewed">membra eiusdem nni ut eo minꝰ erres Si aut illiratis</seg>
+          <lb facs="#z_f11r_l009" xml:id="medusa_f11r_l009"/>
+          <seg type="raw_unreviewed">simonisas tũc hoc nõ est necesse nisi uelis Itẽ si in fraꝵ</seg>
+          <lb facs="#z_f11r_l010" xml:id="medusa_f11r_l010"/>
+          <seg type="raw_unreviewed">monẽ tuũ ꝙ absit oblitus fu̾is aliquã nobilitatẽ nel</seg>
+          <lb facs="#z_f11r_l011" xml:id="medusa_f11r_l011"/>
+          <seg type="raw_unreviewed">olique mẽbrũ uł aliquã ꝓbacõm tũc fac sicut uulpes et</seg>
+          <lb facs="#z_f11r_l012" xml:id="medusa_f11r_l012"/>
+          <seg type="raw_unreviewed">de memoria</seg>
+          <lb facs="#z_f11r_l013" xml:id="medusa_f11r_l013"/>
+          <seg type="raw_unreviewed">induc aliquã auctoritatẽ t̾riblem nel dulce Et exclama</seg>
+          <lb facs="#z_f11r_l014" xml:id="medusa_f11r_l014"/>
+          <seg type="raw_unreviewed">uł allude et hoc p̃cipie aput lr̃atos Item in pudica</seg>
+          <lb facs="#z_f11r_l015" xml:id="medusa_f11r_l015"/>
+          <seg type="raw_unreviewed">exprime nõ des̃ ut est illud ad aꝑiens uolun̾am qui co</seg>
+          <lb facs="#z_f11r_l016" xml:id="medusa_f11r_l016"/>
+          <seg type="raw_unreviewed">erit cum masculino cum femina uase in debito Cũ munẽto</seg>
+          <lb facs="#z_f11r_l017" xml:id="medusa_f11r_l017"/>
+          <seg type="raw_unreviewed">Et consimilia Si autem huiusmodi incidunt expͥmas ea ꝑteritur</seg>
+          <lb facs="#z_f11r_l018" xml:id="medusa_f11r_l018"/>
+          <seg type="raw_unreviewed">locuciones urbanas per uulua dic ventrem ꝓ aliis pccis</seg>
+          <lb facs="#z_f11r_l019" xml:id="medusa_f11r_l019"/>
+          <seg type="raw_unreviewed">dit Qui contra nrm pitant Et ꝑ similia ex pone similia</seg>
+          <lb facs="#z_f11r_l020" xml:id="medusa_f11r_l020"/>
+          <seg type="raw_unreviewed">Item si confessor fu̾is care dilligenter ne mq̃ recites que</seg>
+          <lb facs="#z_f11r_l021" xml:id="medusa_f11r_l021"/>
+          <seg type="raw_unreviewed">audieris ꝑ cõfessionẽ uł illis similia utrum sint pñtes</seg>
+          <lb facs="#z_f11r_l022" xml:id="medusa_f11r_l022"/>
+          <seg type="raw_unreviewed">tangie</seg>
+          <lb facs="#z_f11r_l023" xml:id="medusa_f11r_l023"/>
+          <seg type="raw_unreviewed">uel absentes quos huiꝰmodi pccã ‸ ⟦techunt⟧ qui a sepe mul</seg>
+          <lb facs="#z_f11r_l024" xml:id="medusa_f11r_l024"/>
+          <seg type="raw_unreviewed">ta mala ex hoc contingũt ꝓpterea signũ ꝓdicõnis est vo</seg>
+          <lb facs="#z_f11r_l025" xml:id="medusa_f11r_l025"/>
+          <seg type="raw_unreviewed">te uidelicet et corde Item non Si huiusmodi ex oculco cor</seg>
+          <lb facs="#z_f11r_l026" xml:id="medusa_f11r_l026"/>
+          <seg type="raw_unreviewed">dis habitacõne egͥsa nõ potis emtae quia forte lacꝰ</seg>
+          <lb facs="#z_f11r_l027" xml:id="medusa_f11r_l027"/>
+          <seg type="raw_unreviewed">scripture h  exigit tunc transfer te ad personam aliquam damp</seg>
+          <lb facs="#z_f11r_l028" xml:id="medusa_f11r_l028"/>
+          <seg type="raw_unreviewed">nacõnis nel saluacõnis que huiꝰ modi uicinũ uł u̾tutẽ</seg>
+          <lb facs="#z_f11r_l029" xml:id="medusa_f11r_l029"/>
+          <seg type="raw_unreviewed">oꝑata sit teste theologia et tũc grã illius ꝑsone ꝓfer</seg>
+          <lb facs="#z_f11r_l030" xml:id="medusa_f11r_l030"/>
+          <seg type="raw_unreviewed">in me dm̃ illud uicium nͥel uirtutẽ hãc et de ludis au</seg>
+          <lb facs="#z_f11r_l031" xml:id="medusa_f11r_l031"/>
+          <seg type="raw_unreviewed">sangui</seg>
+          <lb facs="#z_f11r_l032" xml:id="medusa_f11r_l032"/>
+          <seg type="raw_unreviewed">dientibus quos huiꝰmodi ne inponant tibi ꝓdicõ</seg>
+          <lb facs="#z_f11r_l033" xml:id="medusa_f11r_l033"/>
+          <seg type="raw_unreviewed">nis notã Et illud o p̃serua in om̃i ẜmone artis nel</seg>
+          <lb facs="#z_f11r_l034" xml:id="medusa_f11r_l034"/>
+          <seg type="raw_unreviewed">nr̃is. Item nõ si laycis sermonis sas et si et ip̃e ꝑ te c̃cũstant</seg>
+          <lb facs="#z_f11r_l035" xml:id="medusa_f11r_l035"/>
+          <seg type="raw_unreviewed">te nel sedẽt et tũc tu in medio eorum stas tũc qũq: u̾tas</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f11r_l001 #z_f11r_l002 #z_f11r_l003 #z_f11r_l004" xml:id="u_11r_001">Ecce hic thema posui et tres clausulas distinxi, de quibus tres notabilitates extraxi, et cuilibet notabilitati addidi tria membra quae ad invicem debes referre sicut docet titulus et rubrica. Sic et tu fac similiter per [praevisa?] per suprascripta in omni sermone tuo.</p>
+        <note type="editorial" corresp="#u_11r_001" xml:lang="cs">Výslovně odkazuje na skutečný větvený diagram na10v. Poslední spojení před per suprascripta je nejisté. Členy nejsou zaměňovány za tři fyzické řádky.</note>
+        <p facs="#z_f11r_l005 #z_f11r_l006 #z_f11r_l007 #z_f11r_l008 #z_f11r_l009 #z_f11r_l010 #z_f11r_l011 #z_f11r_l012 #z_f11r_l013 #z_f11r_l014" xml:id="u_11r_002">Memoriae duc quid, de quo, quae, quibus, qualibus loquaris. Item quot sunt notabilitates, quot membra. Et si sermonizas litteratis, pone ad quamlibet notabilitatem membra eiusdem numeri ut eo minus erres. Si autem illitteratis sermonizas, tunc hoc non est necesse nisi velis. Item si infra sermonem tuum, quod absit, oblitus fueris aliquam notabilitatem vel aliquod membrum vel aliquam probationem, tunc fac sicut vulpes et induce aliquam auctoritatem terribilem vel dulcem et exclama vel allude, et hoc praecipue apud litteratos.</p>
+        <note type="editorial" corresp="#u_11r_002" xml:lang="cs">Memoriae duc je návrhové rozvedení úvodního pokynu. Segment12 je okrajové de memoria, nikoli slovo navíc v hlavní větě. Liščí přirovnání je v textu skutečně uvedeno.</note>
+        <p facs="#z_f11r_l015 #z_f11r_l016 #z_f11r_l017 #z_f11r_l018 #z_f11r_l019" xml:id="u_11r_003">Item impudica exprimere non debes, ut est illud adaperiens vulvam, qui coit cum masculo, cum femina vase indebito, cum iumento, et similia. Si autem huiusmodi incidunt, exprimas ea per circumlocutiones urbanas. Pro vulva dic ventrem; pro aliis peccatis dic: Qui contra naturam peccavit. Et per similia expone similia.</p>
+        <note type="editorial" corresp="#u_11r_003" xml:lang="cs">Jde o historický návod k eufemistickému jazyku v kázání; dobové mravní hodnocení se překládá jako obsah rukopisu. Zkratky a slovní členění citovaných příkladů jsou návrhové, bez doplňování dalšího výčtu.</note>
+        <p facs="#z_f11r_l020 #z_f11r_l021 #z_f11r_l022 #z_f11r_l023 #z_f11r_l024 #z_f11r_l025" xml:id="u_11r_004">Item si confessor fueris, cave diligenter ne umquam recites quae audieris per confessionem vel illis similia, utrum sint praesentes vel absentes quos huiusmodi peccata [...] , quia saepe multa mala ex hoc contingunt. Propterea [...] proditionis [...] voce videlicet et corde. Item nota: Si huiusmodi ex occulto cordis …</p>
+        <note type="editorial" corresp="#u_11r_004" xml:lang="cs">Výslovné varování před opakováním zpovědí je zřetelné. Věta o znamení či nebezpečí vyzrazení má několik nejasných slov; český překlad je nepřekrývá domněle přesnou kanonickou normou. Segment22 je malý korekturový fragment.</note>
+        <p facs="#z_f11r_l026 #z_f11r_l027 #z_f11r_l028 #z_f11r_l029 #z_f11r_l030 #z_f11r_l031 #z_f11r_l032 #z_f11r_l033" xml:id="u_11r_005">… cordis habitatione egressa non poteris evitare quia forte locus scripturae hoc exigit, tunc transfer te ad personam aliquam damnationis vel salvationis quae huiusmodi vitium vel virtutem operata sit teste theologia. Et tunc gratia illius personae profer in medium illud vitium vel virtutem; [...] audientibus quos huiusmodi tangunt ne imponant tibi proditionis notam. Et illud observa in omni sermone artis vel …</p>
+        <note type="editorial" corresp="#u_11r_005" xml:lang="cs">Postup je odlišen od skutečného zveřejňování něčí zpovědi: autor doporučuje známý příklad z Písma. Začátek a přechod před audientibus jsou nejisté; segment31 je korekturový doplněk tangunt.</note>
+        <p facs="#z_f11r_l034 #z_f11r_l035" xml:id="u_11r_006">… naturae. Item nota: Si laicis sermonizas, et si circum te circumstant vel sedent et tu in medio eorum stas, tunc [quocumque?] vertas …</p>
+        <note type="editorial" corresp="#u_11r_006" xml:lang="cs">Poslední instrukce pokračuje na11v pokynem obracet se jako pomalé kolo. Po společné četbě obou stran opraveno původní mylné dělení závěru na quinque voces; není zde výčet pěti hlasů. Opozice ars/natura je překlad autorova pojmosloví.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_11r_001">Zde jsem položil téma, rozlišil tři větné části, vyvodil z nich tři hlavní myšlenky a ke každé přidal tři členy, které máš navzájem vztahovat podle nadpisu a rubriky. Tak postupuj i ty v každém svém kázání podle [...] výše napsaného.</p>
+        <p corresp="#u_11r_002">Pamatuj, co, o čem, které věci, komu a jakým lidem říkáš; také kolik máš hlavních myšlenek a členů. Kážeš-li vzdělaným, připojuj ke každé hlavní myšlence stejný počet členů, aby ses méně mýlil. U nevzdělaných to není nutné, ledaže chceš. Kdybys během kázání, což se nemá stát, zapomněl některou myšlenku, člen nebo důkaz, počínej si jako liška: uveď nějaký strašný nebo lahodný autoritativní výrok a přidej zvolání či rétorické oslovení, zvláště před vzdělanými posluchači.</p>
+        <p corresp="#u_11r_003">Neslušné věci nemáš vyjadřovat přímo, například otevření lůna, styk s mužem, styk se ženou na nepatřičném místě, styk se zvířetem a podobně. Dostaneš-li se k nim, vyjádři je zdvořilými opisy. Místo vulva řekni břicho; u jiných hříchů řekni: Kdo zhřešil proti přirozenosti. Podobné věci vykládej podobně.</p>
+        <p corresp="#u_11r_004">Jsi-li zpovědníkem, pečlivě se vyvaruj toho, abys někdy opakoval, co jsi slyšel při zpovědi, nebo něco tomu podobného, ať jsou dotyční přítomní, či nepřítomní. Často z toho totiž vzniká mnoho zla. Proto [...] vyzrazení [...] hlasem i v srdci. Dále věz: Jestliže takovým věcem ze skrytého nitra …</p>
+        <p corresp="#u_11r_005">… nebudeš moci vyhnout, protože to snad vyžaduje místo v Písmu, převeď řeč na některou zavrženou nebo spasenou osobu, která podle svědectví teologie vykonala příslušnou neřest či ctnost. Na jejím příkladu pak neřest či ctnost veřejně předlož [...] tak, aby posluchači, jichž se věc dotýká, nepodezírali kazatele z vyzrazení. Zachovávej to v každé řeči umění nebo …</p>
+        <p corresp="#u_11r_006">… přirozenosti. Dále věz: Kážeš-li laikům, kteří stojí či sedí kolem tebe, zatímco ty stojíš mezi nimi, pak [kamkoli?] obrátíš …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

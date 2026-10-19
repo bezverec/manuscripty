@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 151r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_151r_coordinate; PNG SHA256 c29b9520d6af439baa141bf79ed2ab08a2e63d2dc62cb5cc430568466d8bd8a9; archival TIFF SHA256 c7b2b7d77804020ab6951f5969f507a287d71af0cc5dcb1dacc8dfa60e5ff5e8; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_151r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#151r"/>
+      <zone ulx="420" uly="500" lrx="3162" lry="684" xml:id="z_f151r_l001"/>
+      <zone ulx="438" uly="622" lrx="3152" lry="824" xml:id="z_f151r_l002"/>
+      <zone ulx="423" uly="762" lrx="3131" lry="964" xml:id="z_f151r_l003"/>
+      <zone ulx="395" uly="902" lrx="3221" lry="1082" xml:id="z_f151r_l004"/>
+      <zone ulx="398" uly="1036" lrx="3246" lry="1225" xml:id="z_f151r_l005"/>
+      <zone ulx="385" uly="1172" lrx="3246" lry="1368" xml:id="z_f151r_l006"/>
+      <zone ulx="417" uly="1309" lrx="3233" lry="1505" xml:id="z_f151r_l007"/>
+      <zone ulx="420" uly="1449" lrx="3159" lry="1673" xml:id="z_f151r_l008"/>
+      <zone ulx="413" uly="1599" lrx="3146" lry="1813" xml:id="z_f151r_l009"/>
+      <zone ulx="407" uly="1757" lrx="2483" lry="1938" xml:id="z_f151r_l010"/>
+      <zone ulx="417" uly="1910" lrx="2542" lry="2087" xml:id="z_f151r_l011"/>
+      <zone ulx="485" uly="2044" lrx="3152" lry="2215" xml:id="z_f151r_l012"/>
+      <zone ulx="516" uly="2177" lrx="3261" lry="2348" xml:id="z_f151r_l013"/>
+      <zone ulx="429" uly="2311" lrx="3249" lry="2485" xml:id="z_f151r_l014"/>
+      <zone ulx="426" uly="2451" lrx="3430" lry="2622" xml:id="z_f151r_l015"/>
+      <zone ulx="423" uly="2579" lrx="3302" lry="2759" xml:id="z_f151r_l016"/>
+      <zone ulx="420" uly="2716" lrx="3274" lry="2896" xml:id="z_f151r_l017"/>
+      <zone ulx="432" uly="2849" lrx="3370" lry="3039" xml:id="z_f151r_l018"/>
+      <zone ulx="429" uly="3002" lrx="3352" lry="3179" xml:id="z_f151r_l019"/>
+      <zone ulx="417" uly="3132" lrx="3380" lry="3332" xml:id="z_f151r_l020"/>
+      <zone ulx="420" uly="3300" lrx="3296" lry="3484" xml:id="z_f151r_l021"/>
+      <zone ulx="413" uly="3434" lrx="3305" lry="3658" xml:id="z_f151r_l022"/>
+      <zone ulx="438" uly="3599" lrx="2293" lry="3789" xml:id="z_f151r_l023"/>
+      <zone ulx="429" uly="3742" lrx="2552" lry="3948" xml:id="z_f151r_l024"/>
+      <zone ulx="613" uly="3885" lrx="3224" lry="4128" xml:id="z_f151r_l025"/>
+      <zone ulx="610" uly="4053" lrx="3408" lry="4271" xml:id="z_f151r_l026"/>
+      <zone ulx="432" uly="4184" lrx="3324" lry="4399" xml:id="z_f151r_l027"/>
+      <zone ulx="423" uly="4327" lrx="3202" lry="4539" xml:id="z_f151r_l028"/>
+      <zone ulx="435" uly="4461" lrx="3330" lry="4679" xml:id="z_f151r_l029"/>
+      <zone ulx="429" uly="4616" lrx="3405" lry="4868" xml:id="z_f151r_l030"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f151r_l001" xml:id="catmus_f151r_l001"/>
+          <seg type="raw_unreviewed">dab sy mich euphaen in yrherof , und lued ig̃lichn geld̃</seg>
+          <lb facs="#z_f151r_l002" xml:id="catmus_f151r_l002"/>
+          <seg type="raw_unreviewed">seyus hi und sp̃cħ Iu de ersten uoie uil coltu auenitẽ</seg>
+          <lb facs="#z_f151r_l003" xml:id="catmus_f151r_l003"/>
+          <seg type="raw_unreviewed">hĩ gebii et sp̃cq̃ hundut moꝵ ols: do spch er iu iui</seg>
+          <lb facs="#z_f151r_l004" xml:id="catmus_f151r_l004"/>
+          <seg type="raw_unreviewed">nu schieib drote funifiric / do sp̃ih er iu de audni uois</seg>
+          <lb facs="#z_f151r_l005" xml:id="catmus_f151r_l005"/>
+          <seg type="raw_unreviewed">quil soltu ex spch hundut mor weys ym de brisf</seg>
+          <lb facs="#z_f151r_l006" xml:id="catmus_f151r_l006"/>
+          <seg type="raw_unreviewed">uud schreis achg̃ig uud lobt d̾ hre de meier das er</seg>
+          <lb facs="#z_f151r_l007" xml:id="catmus_f151r_l007"/>
+          <seg type="raw_unreviewed">weislich hett getã Woemĩ dy biid̃ dis rolt uenser</seg>
+          <lb facs="#z_f151r_l008" xml:id="catmus_f151r_l008"/>
+          <seg type="raw_unreviewed">sint den dy kuit des lichtes und ich sag euch macht</seg>
+          <lb facs="#z_f151r_l009" xml:id="catmus_f151r_l009"/>
+          <seg type="raw_unreviewed">ench frerout uõ de gut d̾ pozheit ueñ yr Rumpt</seg>
+          <lb facs="#z_f151r_l010" xml:id="catmus_f151r_l010"/>
+          <seg type="raw_unreviewed">das sy ench euphoen in di eroige heros̾</seg>
+          <lb facs="#z_f151r_l011" xml:id="catmus_f151r_l011"/>
+          <seg type="raw_unreviewed">diuca p̃ Cã appuiq̃r̃et ihus rit̃m lãt pix.</seg>
+          <lb facs="#z_f151r_l012" xml:id="catmus_f151r_l012"/>
+          <seg type="raw_unreviewed">Do ihũs nahẽt iuiulm und do er die stat sache do</seg>
+          <lb facs="#z_f151r_l013" xml:id="catmus_f151r_l013"/>
+          <seg type="raw_unreviewed">weynt er und spai, hestu derkant was dir iufrid</seg>
+          <lb facs="#z_f151r_l014" xml:id="catmus_f151r_l014"/>
+          <seg type="raw_unreviewed">uud Iuguoden solt rouiẽ mi suit sy rorporgñ uordem</seg>
+          <lb facs="#z_f151r_l015" xml:id="catmus_f151r_l015"/>
+          <seg type="raw_unreviewed">auge Is uodent di tage konẽ das dich deyn fuide uiub</seg>
+          <lb facs="#z_f151r_l016" xml:id="catmus_f151r_l016"/>
+          <seg type="raw_unreviewed">gebin unt eym grabũ und besitgent und beangstigẽt dih</seg>
+          <lb facs="#z_f151r_l017" xml:id="catmus_f151r_l017"/>
+          <seg type="raw_unreviewed">ablenthalbũ uud Iustorẽt dich̃ uud dem kut dy in dit</seg>
+          <lb facs="#z_f151r_l018" xml:id="catmus_f151r_l018"/>
+          <seg type="raw_unreviewed">seyn und lossent in dir ein stai nicht uff de audĩ Dorũ</seg>
+          <lb facs="#z_f151r_l019" xml:id="catmus_f151r_l019"/>
+          <seg type="raw_unreviewed">das du nich̃t erlãt hast dygeit de mes hails, und gie</seg>
+          <lb facs="#z_f151r_l020" xml:id="catmus_f151r_l020"/>
+          <seg type="raw_unreviewed">in de templ und treib doraus dy ubausf und di bauff</seg>
+          <lb facs="#z_f151r_l021" xml:id="catmus_f151r_l021"/>
+          <seg type="raw_unreviewed">uiũ sp̃ch es ist geschben. das mem haies ist em pet᷑</seg>
+          <lb facs="#z_f151r_l022" xml:id="catmus_f151r_l022"/>
+          <seg type="raw_unreviewed">hairs yr habt ab is gemacht Iu erñ hol d̃ dyep und</seg>
+          <lb facs="#z_f151r_l023" xml:id="catmus_f151r_l023"/>
+          <seg type="raw_unreviewed">was lerũde teglich in de tempel</seg>
+          <lb facs="#z_f151r_l024" xml:id="catmus_f151r_l024"/>
+          <seg type="raw_unreviewed">duca piͣ dixit Ihũs ad qͣrdam ilũc xuui.</seg>
+          <lb facs="#z_f151r_l025" xml:id="catmus_f151r_l025"/>
+          <seg type="raw_unreviewed">hũs sp̃ch ⁊u sem Iuugn und Iu sumilichm dy in sedbn</seg>
+          <lb facs="#z_f151r_l026" xml:id="catmus_f151r_l026"/>
+          <seg type="raw_unreviewed">incht tracete als die recheũ do poppil / Giren mẽ</seg>
+          <lb facs="#z_f151r_l027" xml:id="catmus_f151r_l027"/>
+          <seg type="raw_unreviewed">schen giengẽ auff peten in tempel: Eyn phaiseus und</seg>
+          <lb facs="#z_f151r_l028" xml:id="catmus_f151r_l028"/>
+          <seg type="raw_unreviewed">em effeubar sund Id̾ pharisens scund und pett unt imi</seg>
+          <lb facs="#z_f151r_l029" xml:id="catmus_f151r_l029"/>
+          <seg type="raw_unreviewed">selbs hy got ich sag dir daucs i deeũ ich pmi nich̃t als</seg>
+          <lb facs="#z_f151r_l030" xml:id="catmus_f151r_l030"/>
+          <seg type="raw_unreviewed">aud̃ leroth larobꝰ ungerecht hurer als ouch der publicae l</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f151r_l001" xml:id="medusa_f151r_l001"/>
+          <seg type="raw_unreviewed">das sy mich enphaen in yr hewusze und lued iglichen geld</seg>
+          <lb facs="#z_f151r_l002" xml:id="medusa_f151r_l002"/>
+          <seg type="raw_unreviewed">seins h͛sz und sp͛ch zu dē ersten wie vil soltu meyne͛</seg>
+          <lb facs="#z_f151r_l003" xml:id="medusa_f151r_l003"/>
+          <seg type="raw_unreviewed">hẏ gebn̄ er sp̄ch hindirt mozzöls / do sp̄ch er zu im</seg>
+          <lb facs="#z_f151r_l004" xml:id="medusa_f151r_l004"/>
+          <seg type="raw_unreviewed">nu schrib drote funnfczig · do sp͛ch er zuͦ dē andh · wie</seg>
+          <lb facs="#z_f151r_l005" xml:id="medusa_f151r_l005"/>
+          <seg type="raw_unreviewed">vil soltu / er sp͛ch hindeirt moͤsz weysz / nym dē briiff</seg>
+          <lb facs="#z_f151r_l006" xml:id="medusa_f151r_l006"/>
+          <seg type="raw_unreviewed">und schrib achtzig und lobt d̄ hie dē myer das er</seg>
+          <lb facs="#z_f151r_l007" xml:id="medusa_f151r_l007"/>
+          <seg type="raw_unreviewed">weislich hett getaͮ · wenn dy kind͛ disz w̾lt weisser</seg>
+          <lb facs="#z_f151r_l008" xml:id="medusa_f151r_l008"/>
+          <seg type="raw_unreviewed">sint den̄ dy kint des liches / und ich sag euch / macht</seg>
+          <lb facs="#z_f151r_l009" xml:id="medusa_f151r_l009"/>
+          <seg type="raw_unreviewed">en̄ch frewut vō dē gut d͛ poͤzheit / wen̄ yr kumpt</seg>
+          <lb facs="#z_f151r_l010" xml:id="medusa_f151r_l010"/>
+          <seg type="raw_unreviewed">das sy euch enphoēn in dy ewige hew͛sz</seg>
+          <lb facs="#z_f151r_l011" xml:id="medusa_f151r_l011"/>
+          <seg type="raw_unreviewed">dominica prima Ca apperuerunt Ihesus in Ierusalem Luc. xix.</seg>
+          <lb facs="#z_f151r_l012" xml:id="medusa_f151r_l012"/>
+          <seg type="raw_unreviewed">Do ihuͤs nahet zu Ieruͤm vnd do er die stat sach · do</seg>
+          <lb facs="#z_f151r_l013" xml:id="medusa_f151r_l013"/>
+          <seg type="raw_unreviewed">weynt er vnd sp̃ch / hestu derkant / was dir zufrid</seg>
+          <lb facs="#z_f151r_l014" xml:id="medusa_f151r_l014"/>
+          <seg type="raw_unreviewed">und zuguoden solt komē / nu sint sy vorporegēn vor dem</seg>
+          <lb facs="#z_f151r_l015" xml:id="medusa_f151r_l015"/>
+          <seg type="raw_unreviewed">augē / es w͛dent dy tage komē / das dich deyn fúnde umb</seg>
+          <lb facs="#z_f151r_l016" xml:id="medusa_f151r_l016"/>
+          <seg type="raw_unreviewed">gebün mit eyn grabn̄ und besitczent und beangstigēt dich</seg>
+          <lb facs="#z_f151r_l017" xml:id="medusa_f151r_l017"/>
+          <seg type="raw_unreviewed">allenthalben und zustoͤrēt dich und dein kint. dy in dir</seg>
+          <lb facs="#z_f151r_l018" xml:id="medusa_f151r_l018"/>
+          <seg type="raw_unreviewed">seyn · vnd lossent in dir ein stam nicht uff dē andn̄ · dorū</seg>
+          <lb facs="#z_f151r_l019" xml:id="medusa_f151r_l019"/>
+          <seg type="raw_unreviewed">das du nicht erkant hast dy czeit deines hails / vnd gie</seg>
+          <lb facs="#z_f151r_l020" xml:id="medusa_f151r_l020"/>
+          <seg type="raw_unreviewed">in dē templ und treib darans dy u͛kauff und dy kauff</seg>
+          <lb facs="#z_f151r_l021" xml:id="medusa_f151r_l021"/>
+          <seg type="raw_unreviewed">und sp̃ch es ist geschriben · das mein haws ist ein pet</seg>
+          <lb facs="#z_f151r_l022" xml:id="medusa_f151r_l022"/>
+          <seg type="raw_unreviewed">haws / yr habt ab͛ is gemacht zu eyd͛ hol d͛ dyeꝑ und</seg>
+          <lb facs="#z_f151r_l023" xml:id="medusa_f151r_l023"/>
+          <seg type="raw_unreviewed">was leuͤnde teglich in dē tempel</seg>
+          <lb facs="#z_f151r_l024" xml:id="medusa_f151r_l024"/>
+          <seg type="raw_unreviewed">dominica xiᵃ dixit Ihesus ad qͦsdam Luc. xviiiᵒ.</seg>
+          <lb facs="#z_f151r_l025" xml:id="medusa_f151r_l025"/>
+          <seg type="raw_unreviewed">hus sp̃ch zu sein jungn̄ und zu suu̶lichin / dy in selbn̄</seg>
+          <lb facs="#z_f151r_l026" xml:id="medusa_f151r_l026"/>
+          <seg type="raw_unreviewed">nicht trawbē als die rechtū daz peippil / Cʒweniē</seg>
+          <lb facs="#z_f151r_l027" xml:id="medusa_f151r_l027"/>
+          <seg type="raw_unreviewed">schen giengē auff peten in tempel · Eyn phariseus und</seg>
+          <lb facs="#z_f151r_l028" xml:id="medusa_f151r_l028"/>
+          <seg type="raw_unreviewed">ein offenbar sünd / d̄ pharisēus stand und pett mit jm</seg>
+          <lb facs="#z_f151r_l029" xml:id="medusa_f151r_l029"/>
+          <seg type="raw_unreviewed">selbs h̶r̶ got ich sag dir danck / wein̄ ich pin nicht als</seg>
+          <lb facs="#z_f151r_l030" xml:id="medusa_f151r_l030"/>
+          <seg type="raw_unreviewed">and͛ lewch Rawb̄ ungerecht hurer / als ouch der publicꝰ</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f151r_l001 #z_f151r_l002 #z_f151r_l003 #z_f151r_l004 #z_f151r_l005 #z_f151r_l006 #z_f151r_l007 #z_f151r_l008 #z_f151r_l009 #z_f151r_l010" xml:id="u_151r_001">Das sy mich enphahen in yr hewser. Und lued [igklich?] gelt seyns herrn und sprach zu de ersten: Wie vil soltu meynem herrn geben? Er sprach: Hundert mocz ols. Do sprach er zu ym: Nim schreib [---] funfzig. Do sprach er zu de andern: Wie vil soltu? Er sprach: Hundert mocz weyz. Nym den brief und schreib achtzig. Und lobt der her den meyer, das er weyslich hett getan. Wenn dy kind dis welt weyser sint denn dy kint des liechtes. Und ich sag euch: Macht euch freunt von de gute der pozheit. Wenn yr kumpt, das sy euch enphahen in dy ewige hewß.</p>
+        <note type="editorial" corresp="#u_151r_001" xml:lang="cs">Pokračování z předchozího listu; začátek příběhu se nedoplňuje. Výraz před funfzig ani označení volaných osob není bezpečně rozluštěno. Moc(z) přeloženo obecně jako míra, bez předstíraného převodu. Formulace posledních vět ponechává nejistou vazbu rukopisu; není nahrazena moderní biblickou citací.</note>
+        <p facs="#z_f151r_l011 #z_f151r_l012 #z_f151r_l013 #z_f151r_l014 #z_f151r_l015 #z_f151r_l016 #z_f151r_l017 #z_f151r_l018 #z_f151r_l019 #z_f151r_l020 #z_f151r_l021 #z_f151r_l022 #z_f151r_l023" xml:id="u_151r_002">Dominica [X?]. [Cum appropinquaret Iesus ---], Luc[as] [---]. Do Ihesus nahet zu Ierusalem und do er die stat sach, do weynet er und sprach: Hestu derkant, was dir zu frid und zu gnaden solt kome[n]. Nu sint si vorporgen vor dein augen. Es werdent dy tage komen, das dich deyn feinde [---] mit eym graben und besetzen und beangstigen dich allenthalben und zustoren dich und dein kint, dy in dir seyn, und lassen in dir ein stain nicht uff de andern, dorum das du nicht erkent hast dy zeit deines hails. Und gie in den tempel und treib daraus dy vorkauff und dy kauff und sprach: Es ist geschriben, das mein haws ist ein pet haws. Yr habt ab es gemacht zu eyn[er] hol[e] der diepp. Und was lerende teglich in den tempel.</p>
+        <note type="editorial" corresp="#u_151r_002" xml:lang="cs">Latinský nadpis je zkratkový a zčásti nejistý; není doplněn celým standardním incipitem nebo číslem kapitoly. Nejisté sloveso v obléhání ponecháno mezerou. Český překlad vychází z přečtené německé podoby, například zeit deines hails, a netvrdí shodu s celou biblickou předlohou.</note>
+        <p facs="#z_f151r_l024 #z_f151r_l025 #z_f151r_l026 #z_f151r_l027 #z_f151r_l028 #z_f151r_l029 #z_f151r_l030" xml:id="u_151r_003">Dominica [XI?]. Dixit Iesus ad quosdam, Luc[as] [---]. Ihesus sprach zu sein jungern und zu suntlichern, dy in selber [---] trawete als die rechten, das peyspil: Zwey menschen giengen auff peten in tempel, eyn phariseus und eyn offenber sunder. Der phariseus stund und pett mit ym selbs: Her got, ich sag dir danck, wenn ich pin nicht als ander lewth, raub, ungerecht, hurer, als auch der publican [---].</p>
+        <note type="editorial" corresp="#u_151r_003" xml:lang="cs">Konec pokračuje na151v. Místo za trawen není bezpečně rozluštěno; očekávané tvrzení o spravedlivosti se nedoplňuje. Německé offenber sunder a latinizující publican zůstávají rozlišeny. Katalogový rozsah po84 se rozchází s fyzickou foliací; ID151r je název snímku, nikoli ověřené fyzické číslo listu. Začátek slova před trawete zůstává nejistý; nenahrazen očekávanou biblickou formulací.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_151r_001">Aby mě přijali do svých domů. A zavolal [jednotlivé?] dlužníky svého pána a řekl prvnímu: Kolik máš dát mému pánu? Odpověděl: Sto měr oleje. Řekl mu: Vezmi [---], napiš padesát. Pak se zeptal druhého: Kolik máš dát ty? Odpověděl: Sto měr pšenice. Vezmi list a napiš osmdesát. A pán pochválil správce, že jednal rozumně. Neboť děti tohoto světa jsou rozumnější než děti světla. A já vám říkám: Získávejte si přátele z nepoctivého majetku. Až přijdete, aby vás přijali do věčných domovů.</p>
+        <p corresp="#u_151r_002">Neděle [X?]. [Když se Ježíš přibližoval ---], Lukáš [---]. Když se Ježíš blížil k Jeruzalému a spatřil město, rozplakal se a řekl: Kéž bys poznalo, co by ti mělo přinést pokoj a milost. Nyní je to skryto před tvýma očima. Přijdou dny, kdy tě tvoji nepřátelé [---] příkopem, obklopí tě a ze všech stran tě budou tísnit; zničí tebe i tvé děti, které jsou v tobě, a nenechají v tobě kámen na kameni, protože jsi nepoznalo čas své spásy. A vešel do chrámu, vyhnal odtud prodávající a kupující a řekl: Je psáno, že můj dům je domem modlitby. Vy jste z něho však udělali doupě zlodějů. A denně učil v chrámu.</p>
+        <p corresp="#u_151r_003">Neděle [XI?]. Ježíš řekl některým, Lukáš [---]. Ježíš promluvil ke svým učedníkům a k některým, kteří sami sobě [---] důvěřovali jako spravedliví, toto podobenství: Dva lidé vystoupili do chrámu modlit se, jeden farizeus a jeden zjevný hříšník. Farizeus stál a modlil se sám u sebe: Pane Bože, děkuji ti, neboť nejsem jako jiní lidé, lupiči, nespravedliví, smilníci, jako také tento celník [---].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

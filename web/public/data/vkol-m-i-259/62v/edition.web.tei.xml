@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 62v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Utrum viris ecclesiasticis seu clericis liceat aliquid possidere. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_62v_coordinate; PNG SHA256 ccfaf2536dfc28284d0913525f4e17f8109f8815bd109266c36a90806013ecf7; archival TIFF SHA256 59ab55c02cc6ab4a4012e8eeff520d8a7c094d1f5b688a0a9739833a2e5b48c3; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_62v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#62v"/>
+      <zone ulx="793" uly="398" lrx="3473" lry="556" xml:id="z_f62v_l001"/>
+      <zone ulx="603" uly="507" lrx="3454" lry="640" xml:id="z_f62v_l002"/>
+      <zone ulx="610" uly="603" lrx="3473" lry="737" xml:id="z_f62v_l003"/>
+      <zone ulx="616" uly="693" lrx="3473" lry="830" xml:id="z_f62v_l004"/>
+      <zone ulx="613" uly="784" lrx="3492" lry="930" xml:id="z_f62v_l005"/>
+      <zone ulx="606" uly="871" lrx="3436" lry="1008" xml:id="z_f62v_l006"/>
+      <zone ulx="600" uly="958" lrx="3448" lry="1095" xml:id="z_f62v_l007"/>
+      <zone ulx="610" uly="1051" lrx="3442" lry="1191" xml:id="z_f62v_l008"/>
+      <zone ulx="610" uly="1138" lrx="3479" lry="1278" xml:id="z_f62v_l009"/>
+      <zone ulx="606" uly="1232" lrx="3495" lry="1390" xml:id="z_f62v_l010"/>
+      <zone ulx="613" uly="1334" lrx="3426" lry="1468" xml:id="z_f62v_l011"/>
+      <zone ulx="606" uly="1421" lrx="3489" lry="1568" xml:id="z_f62v_l012"/>
+      <zone ulx="597" uly="1515" lrx="3461" lry="1664" xml:id="z_f62v_l013"/>
+      <zone ulx="591" uly="1614" lrx="3473" lry="1757" xml:id="z_f62v_l014"/>
+      <zone ulx="619" uly="1708" lrx="3482" lry="1851" xml:id="z_f62v_l015"/>
+      <zone ulx="603" uly="1801" lrx="3470" lry="1953" xml:id="z_f62v_l016"/>
+      <zone ulx="600" uly="1891" lrx="3464" lry="2040" xml:id="z_f62v_l017"/>
+      <zone ulx="603" uly="1981" lrx="3433" lry="2137" xml:id="z_f62v_l018"/>
+      <zone ulx="585" uly="2072" lrx="3439" lry="2227" xml:id="z_f62v_l019"/>
+      <zone ulx="597" uly="2177" lrx="3430" lry="2333" xml:id="z_f62v_l020"/>
+      <zone ulx="606" uly="2277" lrx="3414" lry="2423" xml:id="z_f62v_l021"/>
+      <zone ulx="597" uly="2367" lrx="3430" lry="2516" xml:id="z_f62v_l022"/>
+      <zone ulx="597" uly="2470" lrx="3495" lry="2594" xml:id="z_f62v_l023"/>
+      <zone ulx="594" uly="2569" lrx="3467" lry="2719" xml:id="z_f62v_l024"/>
+      <zone ulx="600" uly="2663" lrx="3542" lry="2824" xml:id="z_f62v_l025"/>
+      <zone ulx="610" uly="2768" lrx="3442" lry="2908" xml:id="z_f62v_l026"/>
+      <zone ulx="597" uly="2849" lrx="3489" lry="3020" xml:id="z_f62v_l027"/>
+      <zone ulx="619" uly="2946" lrx="3501" lry="3129" xml:id="z_f62v_l028"/>
+      <zone ulx="594" uly="3042" lrx="3454" lry="3235" xml:id="z_f62v_l029"/>
+      <zone ulx="600" uly="3151" lrx="3448" lry="3344" xml:id="z_f62v_l030"/>
+      <zone ulx="597" uly="3244" lrx="3414" lry="3422" xml:id="z_f62v_l031"/>
+      <zone ulx="603" uly="3347" lrx="3439" lry="3503" xml:id="z_f62v_l032"/>
+      <zone ulx="600" uly="3450" lrx="3498" lry="3612" xml:id="z_f62v_l033"/>
+      <zone ulx="594" uly="3546" lrx="3470" lry="3702" xml:id="z_f62v_l034"/>
+      <zone ulx="591" uly="3636" lrx="3492" lry="3811" xml:id="z_f62v_l035"/>
+      <zone ulx="591" uly="3742" lrx="3380" lry="3898" xml:id="z_f62v_l036"/>
+      <zone ulx="588" uly="3836" lrx="3131" lry="3988" xml:id="z_f62v_l037"/>
+      <zone ulx="3152" uly="3876" lrx="3430" lry="4028" xml:id="z_f62v_l038"/>
+      <zone ulx="3632" uly="2442" lrx="3828" lry="2560" xml:id="z_f62v_l039"/>
+      <zone ulx="3616" uly="2635" lrx="3856" lry="2768" xml:id="z_f62v_l040"/>
+      <zone ulx="3647" uly="2740" lrx="3850" lry="2880" xml:id="z_f62v_l041"/>
+      <zone ulx="3632" uly="2865" lrx="3825" lry="3002" xml:id="z_f62v_l042"/>
+      <zone ulx="3650" uly="2964" lrx="3812" lry="3095" xml:id="z_f62v_l043"/>
+      <zone ulx="3604" uly="3360" lrx="3825" lry="3450" xml:id="z_f62v_l044"/>
+      <zone ulx="3570" uly="3450" lrx="3856" lry="3565" xml:id="z_f62v_l045"/>
+      <zone ulx="3601" uly="3549" lrx="3853" lry="3661" xml:id="z_f62v_l046"/>
+      <zone ulx="3604" uly="3621" lrx="3856" lry="3748" xml:id="z_f62v_l047"/>
+      <zone ulx="3588" uly="3711" lrx="3834" lry="3892" xml:id="z_f62v_l048"/>
+      <zone ulx="3579" uly="3839" lrx="3859" lry="3938" xml:id="z_f62v_l049"/>
+      <zone ulx="3585" uly="3907" lrx="3859" lry="4035" xml:id="z_f62v_l050"/>
+      <zone ulx="588" uly="3929" lrx="3875" lry="4119" xml:id="z_f62v_l051"/>
+      <zone ulx="606" uly="4032" lrx="3445" lry="4200" xml:id="z_f62v_l052"/>
+      <zone ulx="585" uly="4131" lrx="3451" lry="4296" xml:id="z_f62v_l053"/>
+      <zone ulx="3601" uly="4100" lrx="3859" lry="4246" xml:id="z_f62v_l054"/>
+      <zone ulx="3585" uly="4203" lrx="3871" lry="4324" xml:id="z_f62v_l055"/>
+      <zone ulx="591" uly="4221" lrx="3868" lry="4405" xml:id="z_f62v_l056"/>
+      <zone ulx="585" uly="4324" lrx="3875" lry="4511" xml:id="z_f62v_l057"/>
+      <zone ulx="600" uly="4433" lrx="3507" lry="4579" xml:id="z_f62v_l058"/>
+      <zone ulx="591" uly="4526" lrx="3271" lry="4644" xml:id="z_f62v_l059"/>
+      <zone ulx="3526" uly="4486" lrx="3862" lry="4610" xml:id="z_f62v_l060"/>
+      <zone ulx="582" uly="4592" lrx="3875" lry="4766" xml:id="z_f62v_l061"/>
+      <zone ulx="582" uly="4688" lrx="3859" lry="4924" xml:id="z_f62v_l062"/>
+      <zone ulx="3644" uly="385" lrx="3772" lry="510" xml:id="z_f62v_l063"/>
+      <zone ulx="3638" uly="472" lrx="3784" lry="616" xml:id="z_f62v_l064"/>
+      <zone ulx="3725" uly="563" lrx="3769" lry="678" xml:id="z_f62v_l065"/>
+      <zone ulx="3629" uly="759" lrx="3766" lry="896" xml:id="z_f62v_l066"/>
+      <zone ulx="3638" uly="933" lrx="3778" lry="1073" xml:id="z_f62v_l067"/>
+      <zone ulx="3663" uly="1051" lrx="3738" lry="1194" xml:id="z_f62v_l068"/>
+      <zone ulx="3598" uly="3111" lrx="3728" lry="3176" xml:id="z_f62v_l069"/>
+      <zone ulx="3604" uly="3170" lrx="3843" lry="3279" xml:id="z_f62v_l070"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f62v_l001" xml:id="catmus_f62v_l001"/>
+          <seg type="raw_unreviewed">  arͣ qa nichil ꝯsulint eis. quͥ ẽẽt bonũ ⁊ lauͭ ͤ ⁊̃ utile̾ ¶ It̃ sriss aĩc</seg>
+          <lb facs="#z_f62v_l002" xml:id="catmus_f62v_l002"/>
+          <seg type="raw_unreviewed">alti du̾et salubͤ ꝯsiliũ. .Yr nõ fuc̾et. dator ꝯsli se r̾putarĩ aliqͣ spretũ.</seg>
+          <lb facs="#z_f62v_l003" xml:id="catmus_f62v_l003"/>
+          <seg type="raw_unreviewed">ig obu̾tũs ꝯsilia xͥ. aliquõ ꝯtp̃uit xͫ ͥ. qͥ siĩ ꝓcce ñ pt̃ ꝯtpui ¶t ipẽ Cõ</seg>
+          <lb facs="#z_f62v_l004" xml:id="catmus_f62v_l004"/>
+          <seg type="raw_unreviewed">stũtiuꝰ ded ͭ poss ͦ ͥ ecce̾. le᷑ uex audita decel d. ho. bene liꝑgi ꝑecal.</seg>
+          <lb facs="#z_f62v_l005" xml:id="catmus_f62v_l005"/>
+          <seg type="raw_unreviewed"> li ͨ uide / ꝑ effrm. qr om stisuutta. dis iultipl uice ⁊ cilrliũ. os disseusi ꝰ ᷤ̾</seg>
+          <lb facs="#z_f62v_l006" xml:id="catmus_f62v_l006"/>
+          <seg type="raw_unreviewed">oĩ nulla .Iuilꝰ sũme ut affligi᷑ ecci. et ocusioẽ posẜ sup̃sunt ꝓi̾gĩe᷑</seg>
+          <lb facs="#z_f62v_l007" xml:id="catmus_f62v_l007"/>
+          <seg type="raw_unreviewed">Bude añ haꝵ posẜoĩonũ adepcõ. log̃e paccacuꝰ ⁊ coreliꝰ regẽbãtm</seg>
+          <lb facs="#z_f62v_l008" xml:id="catmus_f62v_l008"/>
+          <seg type="raw_unreviewed">eccra/ qni lriis nĩs tꝑibi. ĩq̾b ẽ ĩ ex̾ma nulloꝵ oiͫ Et apłanta ped̾ꝭ</seg>
+          <lb facs="#z_f62v_l009" xml:id="catmus_f62v_l009"/>
+          <seg type="raw_unreviewed">usq adũti ᷑ ĩ uiꝵ ĩda st saitus Cosiłr arguũt qͣ diu suc̾ dotũ pp̃e si</seg>
+          <lb facs="#z_f62v_l010" xml:id="catmus_f62v_l010"/>
+          <seg type="raw_unreviewed">⁊ cpõrex ͭ n. ñm tle diuꝰ ꝙͥcuit . linĩ io .uiii muli̾e ĩ udultio de p̃ħũ-</seg>
+          <lb facs="#z_f62v_l011" xml:id="catmus_f62v_l011"/>
+          <seg type="raw_unreviewed">pi qd p̃ne uoluit. Mulier ĩ ꝙubi st̃ qui te acusabũt. neu te qd p̃miᶜ.</seg>
+          <lb facs="#z_f62v_l012" xml:id="catmus_f62v_l012"/>
+          <seg type="raw_unreviewed">dleo due. neq eg̃e te qdpmbo. Oi petũti abes lace pii argr̃.d sr̃i mes</seg>
+          <lb facs="#z_f62v_l013" xml:id="catmus_f62v_l013"/>
+          <seg type="raw_unreviewed">ut mecũ dundat hediͭᵉ ĩdixͭ ho qͥs me ꝯstituit iudice a diuisõꝵ ĩ ter</seg>
+          <lb facs="#z_f62v_l014" xml:id="catmus_f62v_l014"/>
+          <seg type="raw_unreviewed">uos itꝭ It õe trale dõiiũ iłlixit. ⁊ ep̃sse ꝓhibuit mͭ ii scitꝭ qr pu.</seg>
+          <lb facs="#z_f62v_l015" xml:id="catmus_f62v_l015"/>
+          <seg type="raw_unreviewed">gr ld. coꝵ. uõ itũ c̾i̾t ił uos ẜ t̃ Ead suĩa eaꝭ scbe luce xxii. pancꝭ u̾bit̃</seg>
+          <lb facs="#z_f62v_l016" xml:id="catmus_f62v_l016"/>
+          <seg type="raw_unreviewed">ã mutatꝭ. ꝙ e p̃ssi dici pt̃ de ꝓhibiͤ tꝑilie dñmi. et exħ uide᷑ y ecc̃ũt</seg>
+          <lb facs="#z_f62v_l017" xml:id="catmus_f62v_l017"/>
+          <seg type="raw_unreviewed">pũtiũ sac̾dotũ recedũciũ hĩta cẽplid sc̃is ⁊ dc̃is e .s. suulgõ satha ͨ</seg>
+          <lb facs="#z_f62v_l018" xml:id="catmus_f62v_l018"/>
+          <seg type="raw_unreviewed">deliuisus nũi ͣ di. ꝑꝑ tdicõs huas. fituẽtes bolup  ⁊deliciis carlibqr</seg>
+          <lb facs="#z_f62v_l019" xml:id="catmus_f62v_l019"/>
+          <seg type="raw_unreviewed">In dec̾talib aut alibi scribi. bñ maltãdo eccũ ipalr̃. dep̾uũt eum</seg>
+          <lb facs="#z_f62v_l020" xml:id="catmus_f62v_l020"/>
+          <seg type="raw_unreviewed">spuũl. Bñ hodierno tp̃e lugñdi ẽ. fiti qͣ iᵈ aplicũ Molite etĩgue</seg>
+          <lb facs="#z_f62v_l021" xml:id="catmus_f62v_l021"/>
+          <seg type="raw_unreviewed">spi Et uirsus qͣ.d neo militũs deo. ĩ pl. Quis .n. hoͤ ẽ occitus. ĩ</seg>
+          <lb facs="#z_f62v_l022" xml:id="catmus_f62v_l022"/>
+          <seg type="raw_unreviewed">nõ e toto c̾rat ad t̾renoꝵ ãnũstcõm. ⁊ spuũli ͭ ͤ pẽĩt/ nichiliyẽdit.</seg>
+          <lb facs="#z_f62v_l023" xml:id="catmus_f62v_l023"/>
+          <seg type="raw_unreviewed">liee rõs uc ĩ medit uenerãt / ꝙͣꝵ alique nͥ obiecte st̃ Ia ͤ st̾budo ocͣ</seg>
+          <lb facs="#z_f62v_l024" xml:id="catmus_f62v_l024"/>
+          <seg type="raw_unreviewed">perũt / scio cogitituti alism̃ di plunius alias suisse oc̃suũs ¶Istu ẽ</seg>
+          <lb facs="#z_f62v_l025" xml:id="catmus_f62v_l025"/>
+          <seg type="raw_unreviewed">sciã nulti ¶ Nũt r̾stiit ꝑtẽ oppõĩtũ fulcie. ꝑ qudũtand. ꝙ po sẜdignu</seg>
+          <lb facs="#z_f62v_l026" xml:id="catmus_f62v_l026"/>
+          <seg type="raw_unreviewed">qdu ꝯsistũt ĩ rbi moblili. ut ĩano rargũto. ac suppel imõs uaiͭ</seg>
+          <lb facs="#z_f62v_l027" xml:id="catmus_f62v_l027"/>
+          <seg type="raw_unreviewed">olueda n̾o ĩ r̾bã mõibi ut ĩ doĩb ag̾s seu p̃diis it ⁊ deut̾usq uolo</seg>
+          <lb facs="#z_f62v_l028" xml:id="catmus_f62v_l028"/>
+          <seg type="raw_unreviewed">ꝓba̾e̾ ꝙ l clitꝭ posside Ocdo adutũd. ꝙ m̃ltũ r̾ fert q̃re. bt licent</seg>
+          <lb facs="#z_f62v_l029" xml:id="catmus_f62v_l029"/>
+          <seg type="raw_unreviewed">ecri hrẽ posẜ ͦᷤ. ⁊ utꝭ hͨ sit ꝯpediẽs Muĩfestã u. diri poͬ apłs</seg>
+          <lb facs="#z_f62v_l030" xml:id="catmus_f62v_l030"/>
+          <seg type="raw_unreviewed">ĩ ter licitũ ⁊ cxpedĩes dn. Qiͣ in licẽt. s ũ oĩi expediũt Qrd̃ ꝙͥ n</seg>
+          <lb facs="#z_f62v_l031" xml:id="catmus_f62v_l031"/>
+          <seg type="raw_unreviewed">expedit licet. s nõ quti Terco adũtũdi. ꝙ diuitntꝵ posẜͦ. ũ est</seg>
+          <lb facs="#z_f62v_l032" xml:id="catmus_f62v_l032"/>
+          <seg type="raw_unreviewed">dese mla. neq ꝑ hobita siplicit. Er siͤ dicit Terẽteꝰ de diniciis . ¶</seg>
+          <lb facs="#z_f62v_l033" xml:id="catmus_f62v_l033"/>
+          <seg type="raw_unreviewed">ꝑude sũt. ut̃i illiꝰ amuiꝰ ẽ qͥ ea possid̃ / qͥuti stit ir̃e ei bonil. ei no</seg>
+          <lb facs="#z_f62v_l034" xml:id="catmus_f62v_l034"/>
+          <seg type="raw_unreviewed">qui nõ uti᷑ rcẽ. mala. p ccꝭ ꝑh e prĩarche sui̾it dinites ⁊rln.</seg>
+          <lb facs="#z_f62v_l035" xml:id="catmus_f62v_l035"/>
+          <seg type="raw_unreviewed">ioseplũ Abirihã suił re ⁊ septuu̾ sac̃ nõ tñi deeo. ẜ sui siliis dicit</seg>
+          <lb facs="#z_f62v_l036" xml:id="catmus_f62v_l036"/>
+          <seg type="raw_unreviewed">esꝵ eñt ualde diuites / ⁊ tñ prĩarche funt ualde boĩ u Et pt̃ l</seg>
+          <lb facs="#z_f62v_l037" xml:id="catmus_f62v_l037"/>
+          <seg type="raw_unreviewed">addi.  diuicie nõ r̾pũgruãt ꝑ scõmi stitꝰ. p Adubħam dix</seg>
+          <lb facs="#z_f62v_l038" xml:id="catmus_f62v_l038"/>
+          <seg type="raw_unreviewed">d̾s Eñ</seg>
+          <lb facs="#z_f62v_l039" xml:id="catmus_f62v_l039"/>
+          <seg type="raw_unreviewed">cnar</seg>
+          <lb facs="#z_f62v_l040" xml:id="catmus_f62v_l040"/>
+          <seg type="raw_unreviewed">ussł OPtRO</seg>
+          <lb facs="#z_f62v_l041" xml:id="catmus_f62v_l041"/>
+          <seg type="raw_unreviewed">sse. tñ si</seg>
+          <lb facs="#z_f62v_l042" xml:id="catmus_f62v_l042"/>
+          <seg type="raw_unreviewed">abe isola</seg>
+          <lb facs="#z_f62v_l043" xml:id="catmus_f62v_l043"/>
+          <seg type="raw_unreviewed"> pafius</seg>
+          <lb facs="#z_f62v_l044" xml:id="catmus_f62v_l044"/>
+          <seg type="raw_unreviewed">Ute pp̃rõ</seg>
+          <lb facs="#z_f62v_l045" xml:id="catmus_f62v_l045"/>
+          <seg type="raw_unreviewed">a l defere</seg>
+          <lb facs="#z_f62v_l046" xml:id="catmus_f62v_l046"/>
+          <seg type="raw_unreviewed">Isus bͥi alulo</seg>
+          <lb facs="#z_f62v_l047" xml:id="catmus_f62v_l047"/>
+          <seg type="raw_unreviewed">asoc tes</seg>
+          <lb facs="#z_f62v_l048" xml:id="catmus_f62v_l048"/>
+          <seg type="raw_unreviewed">ips t̃</seg>
+          <lb facs="#z_f62v_l049" xml:id="catmus_f62v_l049"/>
+          <seg type="raw_unreviewed">M Iiᵈͫ. ui mo</seg>
+          <lb facs="#z_f62v_l050" xml:id="catmus_f62v_l050"/>
+          <seg type="raw_unreviewed">Ho sũdũ do</seg>
+          <lb facs="#z_f62v_l051" xml:id="catmus_f62v_l051"/>
+          <seg type="raw_unreviewed">xuiiͦ ambula cou̾ me. ⁊ esto ꝑscũs / nullibi p̃cepit cĩ abit̾e dinious. Añ ẽ em̃.</seg>
+          <lb facs="#z_f62v_l052" xml:id="catmus_f62v_l052"/>
+          <seg type="raw_unreviewed">ĩ nõ r̾pugnãt ꝑstõui .h i p ꝑ anͣt ͦ ꝰ qirg ͫ di ͭ  Q celibatꝰ Iohĩs</seg>
+          <lb facs="#z_f62v_l053" xml:id="catmus_f62v_l053"/>
+          <seg type="raw_unreviewed">ũ p̃fertur quigio abirihe/ ⁊ tñ istatꝭ celibatũ Iohĩs ꝑtiu̾e ad ꝑ srõ</seg>
+          <lb facs="#z_f62v_l054" xml:id="catmus_f62v_l054"/>
+          <seg type="raw_unreviewed">se sidio adis</seg>
+          <lb facs="#z_f62v_l055" xml:id="catmus_f62v_l055"/>
+          <seg type="raw_unreviewed">aliad dinitie</seg>
+          <lb facs="#z_f62v_l056" xml:id="catmus_f62v_l056"/>
+          <seg type="raw_unreviewed">stulꝰ Iñ ecꝭ ĩ quigĩ Abħũ potuit ee ꝑsc̃s Oc̾ at̃ Itig ĩ ł̾d posses. lndãl yecũ</seg>
+          <lb facs="#z_f62v_l057" xml:id="catmus_f62v_l057"/>
+          <seg type="raw_unreviewed">soes abnti posẜ ͤ ͥ ᷤ suis. ⁊ sic ꝯtungit paupes ñ ͤ pessi ͬ ͣ abnti pituꝑtilte ubfloꝵ ꝓbeĩe</seg>
+          <lb facs="#z_f62v_l058" xml:id="catmus_f62v_l058"/>
+          <seg type="raw_unreviewed">Bnĩ si stliit oraciꝰ m igͫ panꝑies hͨ obpłium mbet cõuidis futere</seg>
+          <lb facs="#z_f62v_l059" xml:id="catmus_f62v_l059"/>
+          <seg type="raw_unreviewed">⁊ pati uirtutis/ q̃ uiu desoit. ardue. Isiden̾t᷑ fucta iñ dicancĩ</seg>
+          <lb facs="#z_f62v_l060" xml:id="catmus_f62v_l060"/>
+          <seg type="raw_unreviewed">a de una uib</seg>
+          <lb facs="#z_f62v_l061" xml:id="catmus_f62v_l061"/>
+          <seg type="raw_unreviewed">fc̃i possidũciũ clicoꝵ/ ĩ ꝯsessiõibꝰ audiedꝭ/ĩ p̃dicit ͥ ᷤ ꝓfen̾ S / raliis Mwa lotũ</seg>
+          <lb facs="#z_f62v_l062" xml:id="catmus_f62v_l062"/>
+          <seg type="raw_unreviewed">actib gcud Nõ ĩberẽnt᷑ scli̾es clici. plues abusꝰ qmutte qͣm r̾ligiõsi resisstabũ</seg>
+          <lb facs="#z_f62v_l063" xml:id="catmus_f62v_l063"/>
+          <seg type="raw_unreviewed">hos ile</seg>
+          <lb facs="#z_f62v_l064" xml:id="catmus_f62v_l064"/>
+          <seg type="raw_unreviewed">A</seg>
+          <lb facs="#z_f62v_l065" xml:id="catmus_f62v_l065"/>
+          <seg type="raw_unreviewed">si</seg>
+          <lb facs="#z_f62v_l066" xml:id="catmus_f62v_l066"/>
+          <seg type="raw_unreviewed">pe lli</seg>
+          <lb facs="#z_f62v_l067" xml:id="catmus_f62v_l067"/>
+          <seg type="raw_unreviewed">ũ s̾e</seg>
+          <lb facs="#z_f62v_l068" xml:id="catmus_f62v_l068"/>
+          <seg type="raw_unreviewed">lx</seg>
+          <lb facs="#z_f62v_l069" xml:id="catmus_f62v_l069"/>
+          <seg type="raw_unreviewed">sa</seg>
+          <lb facs="#z_f62v_l070" xml:id="catmus_f62v_l070"/>
+          <seg type="raw_unreviewed">In. detli inp</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f62v_l001" xml:id="medusa_f62v_l001"/>
+          <seg type="raw_unreviewed">aᵈ ar̃ qa nichil ꝯsubnit eis. quͥ eẽt bonũ ⁊ lauᷝᵉ ⁊ utile ¶ Item si qis aĩcꝰ</seg>
+          <lb facs="#z_f62v_l002" xml:id="medusa_f62v_l002"/>
+          <seg type="raw_unreviewed">alt̾i daret salub̾ ꝯsiliũ . yr̃ nõ faceret . daret ꝯsiliꝰ se reputar3 aliqͣ ẜpretũ.</seg>
+          <lb facs="#z_f62v_l003" xml:id="medusa_f62v_l003"/>
+          <seg type="raw_unreviewed">ig᷑ obvintus consilia x. aliquo contempnit x ͫ . qͥ sive pccõ nͨ pt contempni ¶ It ipẽ cõ-</seg>
+          <lb facs="#z_f62v_l004" xml:id="medusa_f62v_l004"/>
+          <seg type="raw_unreviewed">stãturꝰ dedˢ possid̃t ecc̃e leͫ uox audita decẽ d. hr̃ beneᵐ pꝑeꝵ ꝑ ecc̃n.</seg>
+          <lb facs="#z_f62v_l005" xml:id="medusa_f62v_l005"/>
+          <seg type="raw_unreviewed">2 51ᵃ uide / ꝑ effem . 12 om̃i scisimta . om̃s multipliᵒ uiceꝭ c̃i᷑rliũ . os dissensoᷤᷤ</seg>
+          <lb facs="#z_f62v_l006" xml:id="medusa_f62v_l006"/>
+          <seg type="raw_unreviewed">oĩ mala quibꝰ summe ut affligi ecca ex ocasioe possiꝰᵐ suprͣsu̾it oĩgẽ</seg>
+          <lb facs="#z_f62v_l007" xml:id="medusa_f62v_l007"/>
+          <seg type="raw_unreviewed">unde ante huiꝰ possessionum adepcõm . longe paccatim et modicè recipiebantur</seg>
+          <lb facs="#z_f62v_l008" xml:id="medusa_f62v_l008"/>
+          <seg type="raw_unreviewed">eccĩa / qmͣ hiis nostris tꝑib . ĩ qͥb ẽ ĩ exͣpma maloꝵ orⁿ / ut a planta pedꝭ</seg>
+          <lb facs="#z_f62v_l009" xml:id="medusa_f62v_l009"/>
+          <seg type="raw_unreviewed">nisi adu̾tiꝰ ⁊ uix ĩ ea sit sententia Consilr̃ argum̃t ꝙ dnm̃ sacerdotũ . pape .s.</seg>
+          <lb facs="#z_f62v_l010" xml:id="medusa_f62v_l010"/>
+          <seg type="raw_unreviewed">episcoporum xxᶜ . ii. numquam tle domini ex cuit . uii. io. uiii mulieꝰ ĩ adultero de p̃ho</seg>
+          <lb facs="#z_f62v_l011" xml:id="medusa_f62v_l011"/>
+          <seg type="raw_unreviewed">nã qd p̃mare noluit. Mulier ĩ qͣr u̾bi st̃ qui te acusabũt. neõ te ꝯdẽpnae̾</seg>
+          <lb facs="#z_f62v_l012" xml:id="medusa_f62v_l012"/>
+          <seg type="raw_unreviewed">Nemõ dñe neq ego te ꝯdẽpnabo. Si petũti abeo luce xii mgr̃. d fr̃i meo</seg>
+          <lb facs="#z_f62v_l013" xml:id="medusa_f62v_l013"/>
+          <seg type="raw_unreviewed">ut meum dividat hereditatem dixit . homo qomo qomo me constituit iudicem a divisione inter</seg>
+          <lb facs="#z_f62v_l014" xml:id="medusa_f62v_l014"/>
+          <seg type="raw_unreviewed">vos etcetera. Item oẽ trinale dominium int̾dixit . 2 ex p̃sse ꝓhibuit mᵗ iiꝰ Scitꝭ qr p̃m</seg>
+          <lb facs="#z_f62v_l015" xml:id="medusa_f62v_l015"/>
+          <seg type="raw_unreviewed">gn̾a d̃ eorꝭ nõ ita e̾it ĩt̾ uoẜ sẏ tꝭ Eid̃ sum̃ eorꝭ sc̃bi᷑ luce xxii paritꝭ u̾bis</seg>
+          <lb facs="#z_f62v_l016" xml:id="medusa_f62v_l016"/>
+          <seg type="raw_unreviewed">immunitatis . quod expressis dici pt de prohibite temporis dominii . et ex hoc vide . y ecclesie</seg>
+          <lb facs="#z_f62v_l017" xml:id="medusa_f62v_l017"/>
+          <seg type="raw_unreviewed">presenium sacerdotum receduncium habita exemplo facto et dictis ex. s̃ singuͥ sathae</seg>
+          <lb facs="#z_f62v_l018" xml:id="medusa_f62v_l018"/>
+          <seg type="raw_unreviewed">de linquũs nũtᵃ d̃i. pp t̃dicõs hũas. famẽtes bonũpꝰ ⁊ deliciis car̃libus</seg>
+          <lb facs="#z_f62v_l019" xml:id="medusa_f62v_l019"/>
+          <seg type="raw_unreviewed">In dectabilis aut alibi scribitur . uñ ex altande eccuͥa tpałr . de pͥmunt eum</seg>
+          <lb facs="#z_f62v_l020" xml:id="medusa_f62v_l020"/>
+          <seg type="raw_unreviewed">spuãli . Uñ hodie rno tpe lugndi e. / fitiqi qͣ iᵈ apłicũ Moli te cõtignere</seg>
+          <lb facs="#z_f62v_l021" xml:id="medusa_f62v_l021"/>
+          <seg type="raw_unreviewed">spm̃ Et nirsus q̃ .iᵈ. Nẽo militñs deo. ĩ p. Cunt̾ .i. ho᷑ ẽ eccĩcus. qͥ</seg>
+          <lb facs="#z_f62v_l022" xml:id="medusa_f62v_l022"/>
+          <seg type="raw_unreviewed">nõ ex toto c̾rit ad t̾renorum annu̾sat̃onem . ⁊ spũaliᵗᵉꝰ peĩt / nichil pẽdit</seg>
+          <lb facs="#z_f62v_l023" xml:id="medusa_f62v_l023"/>
+          <seg type="raw_unreviewed">hee rõs nc̃ ĩmem̾atꝰ uenerũt / 1ꝭ a̾lune uͥ obiecte st̃ 1ᵃ sc̃bñdo ocꝰ</seg>
+          <lb facs="#z_f62v_l024" xml:id="medusa_f62v_l024"/>
+          <seg type="raw_unreviewed">rerũt / scio cogitituti aliqun̾d̾m plurmias alias fuisse otͬs maͥs / Isti ẽ</seg>
+          <lb facs="#z_f62v_l025" xml:id="medusa_f62v_l025"/>
+          <seg type="raw_unreviewed">secũdã matutĩ / Nũc r̾sunt ꝑtẽ oppoĩtũ fulcie . ꝓ qͣndu̾tando . ꝙ possu̾ionem</seg>
+          <lb facs="#z_f62v_l026" xml:id="medusa_f62v_l026"/>
+          <seg type="raw_unreviewed">q̃dã consistũt ĩ tribus mobłibꝰ ut ĩ auro ⁊ argñto ac suppelⁿⁱ ling̾e uariate</seg>
+          <lb facs="#z_f62v_l027" xml:id="medusa_f62v_l027"/>
+          <seg type="raw_unreviewed">Medicamentis non in tribus in minisb ut in doib agꝰ seu p̃diis etc. et de utrisq: u̾lo</seg>
+          <lb facs="#z_f62v_l028" xml:id="medusa_f62v_l028"/>
+          <seg type="raw_unreviewed">ꝓbare ꝙ l cl̾icꝭ possidere Secundo ut nutum ꝙ multum refert q̃re uti liceat</seg>
+          <lb facs="#z_f62v_l029" xml:id="medusa_f62v_l029"/>
+          <seg type="raw_unreviewed">ecc̃ie habere possidens / et uter hoc sit expediens / manifestam etc. Domini etc. post apostolis</seg>
+          <lb facs="#z_f62v_l030" xml:id="medusa_f62v_l030"/>
+          <seg type="raw_unreviewed">ĩter licitũ ⁊ expedieñs dñs. Qmͣ nͨ licẽt. s ñ oĩa expedim̃t eꝵdͥ ꝙ nͣ</seg>
+          <lb facs="#z_f62v_l031" xml:id="medusa_f62v_l031"/>
+          <seg type="raw_unreviewed">expedit licet. s nõ qn̾ti᷑ Terc̃o aduertendum. ꝙ diuicarꝭ possid̃. ñ est</seg>
+          <lb facs="#z_f62v_l032" xml:id="medusa_f62v_l032"/>
+          <seg type="raw_unreviewed">de se mala neq ꝓhibita simplicit̾. Quia si dicit Terẽciꝰ de diuiciis. h</seg>
+          <lb facs="#z_f62v_l033" xml:id="medusa_f62v_l033"/>
+          <seg type="raw_unreviewed">ꝑinde sũt. uti illꝰ aũuꝰ ẽ q̃ ea possit / q̃ uti scit rce̾ ei bona. ei noᶜ</seg>
+          <lb facs="#z_f62v_l034" xml:id="medusa_f62v_l034"/>
+          <seg type="raw_unreviewed">qui nõ uti᷑ rce̾. mala. p ecꝭ ꝑ hᶜ Eꝵ prĩarche fu̾it dñites. 2111.</seg>
+          <lb facs="#z_f62v_l035" xml:id="medusa_f62v_l035"/>
+          <seg type="raw_unreviewed">Iosephũ Abrahã fuit rex / ⁊ sc̃ptura sic̃ nõ tm̃ de eo. s⁊ suis filiis dicit</seg>
+          <lb facs="#z_f62v_l036" xml:id="medusa_f62v_l036"/>
+          <seg type="raw_unreviewed">qz enĩt ualde diuites / ⁊ tñ prũarche fu̾it ualde boni uirꝰ Et pt̃ s</seg>
+          <lb facs="#z_f62v_l037" xml:id="medusa_f62v_l037"/>
+          <seg type="raw_unreviewed">ad di. ydnicie nõ repugnant ꝑ sc̃oni statꝰ. p Adulh̃am dix</seg>
+          <lb facs="#z_f62v_l038" xml:id="medusa_f62v_l038"/>
+          <seg type="raw_unreviewed">des En̄</seg>
+          <lb facs="#z_f62v_l039" xml:id="medusa_f62v_l039"/>
+          <seg type="raw_unreviewed">miles cãtarum.</seg>
+          <lb facs="#z_f62v_l040" xml:id="medusa_f62v_l040"/>
+          <seg type="raw_unreviewed">nͣ nobilitate excedit</seg>
+          <lb facs="#z_f62v_l041" xml:id="medusa_f62v_l041"/>
+          <seg type="raw_unreviewed">sside . tñ si</seg>
+          <lb facs="#z_f62v_l042" xml:id="medusa_f62v_l042"/>
+          <seg type="raw_unreviewed">urbis consolatio</seg>
+          <lb facs="#z_f62v_l043" xml:id="medusa_f62v_l043"/>
+          <seg type="raw_unreviewed">paterna</seg>
+          <lb facs="#z_f62v_l044" xml:id="medusa_f62v_l044"/>
+          <seg type="raw_unreviewed">edotes pape 120</seg>
+          <lb facs="#z_f62v_l045" xml:id="medusa_f62v_l045"/>
+          <seg type="raw_unreviewed">genͥe ñ de fere</seg>
+          <lb facs="#z_f62v_l046" xml:id="medusa_f62v_l046"/>
+          <seg type="raw_unreviewed">li suis bi ant</seg>
+          <lb facs="#z_f62v_l047" xml:id="medusa_f62v_l047"/>
+          <seg type="raw_unreviewed">ad hoc etc. ter</seg>
+          <lb facs="#z_f62v_l048" xml:id="medusa_f62v_l048"/>
+          <seg type="raw_unreviewed">qͥsmissi st̃</seg>
+          <lb facs="#z_f62v_l049" xml:id="medusa_f62v_l049"/>
+          <seg type="raw_unreviewed">stos pͤet᷑. nͥ mo</seg>
+          <lb facs="#z_f62v_l050" xml:id="medusa_f62v_l050"/>
+          <seg type="raw_unreviewed">dico rũdũ do</seg>
+          <lb facs="#z_f62v_l051" xml:id="medusa_f62v_l051"/>
+          <seg type="raw_unreviewed">xuiii° Ambula terra me ⁊ esto ꝑscus / nullibi p̃cepit ei abire divinus.</seg>
+          <lb facs="#z_f62v_l052" xml:id="medusa_f62v_l052"/>
+          <seg type="raw_unreviewed">i᷑ nõ r̃pungunt ꝑfconũ. Hic idem p ꝑ aũtoritatem magistri domini dñtꝭ celebratꝰ Johannis</seg>
+          <lb facs="#z_f62v_l053" xml:id="medusa_f62v_l053"/>
+          <seg type="raw_unreviewed">ũ p̃fertur ꝯuigio abrahie / ⁊ tñ q statꝭ celi batũ Ioh̃is ꝑtine̾ ad ꝑ sr̃o</seg>
+          <lb facs="#z_f62v_l054" xml:id="medusa_f62v_l054"/>
+          <seg type="raw_unreviewed">este sacͥs adu̾si</seg>
+          <lb facs="#z_f62v_l055" xml:id="medusa_f62v_l055"/>
+          <seg type="raw_unreviewed">aliis divitiis</seg>
+          <lb facs="#z_f62v_l056" xml:id="medusa_f62v_l056"/>
+          <seg type="raw_unreviewed">scuti Igꝰ ecꝭ ĩ qingno abhũ potuit eẽ ꝑfr̃s Oidatꝰ itũ ĩ R̃d posses</seg>
+          <lb facs="#z_f62v_l057" xml:id="medusa_f62v_l057"/>
+          <seg type="raw_unreviewed">sores habenti possessoribus suis. et sic contingit pauperes nec possidentes habenti paupertate</seg>
+          <lb facs="#z_f62v_l058" xml:id="medusa_f62v_l058"/>
+          <seg type="raw_unreviewed">Gñ s̃ sc̃bit oracł magꝰ pauperes hᶜ ob pluuim nibe̾t cõmodius facere</seg>
+          <lb facs="#z_f62v_l059" xml:id="medusa_f62v_l059"/>
+          <seg type="raw_unreviewed">⁊ pati uirtutis / q̃ una de seit . ardue .isident᷑ facta in dicancũ</seg>
+          <lb facs="#z_f62v_l060" xml:id="medusa_f62v_l060"/>
+          <seg type="raw_unreviewed">dites de una uir</seg>
+          <lb facs="#z_f62v_l061" xml:id="medusa_f62v_l061"/>
+          <seg type="raw_unreviewed">fratris possidencium clericorum / in confessionibus / audientis / in predicatoribus profendorum / et aliis</seg>
+          <lb facs="#z_f62v_l062" xml:id="medusa_f62v_l062"/>
+          <seg type="raw_unreviewed">actibꝰ exscũd̃. Nõ ĩuenĩt᷑ stla̾es clic̃i. plures abusꝰ ꝯmittere qͣm religiosi</seg>
+          <lb facs="#z_f62v_l063" xml:id="medusa_f62v_l063"/>
+          <seg type="raw_unreviewed">Het alle</seg>
+          <lb facs="#z_f62v_l064" xml:id="medusa_f62v_l064"/>
+          <seg type="raw_unreviewed">st̃ de ñ diffi</seg>
+          <lb facs="#z_f62v_l065" xml:id="medusa_f62v_l065"/>
+          <seg type="raw_unreviewed">istum</seg>
+          <lb facs="#z_f62v_l066" xml:id="medusa_f62v_l066"/>
+          <seg type="raw_unreviewed">siii neq</seg>
+          <lb facs="#z_f62v_l067" xml:id="medusa_f62v_l067"/>
+          <seg type="raw_unreviewed">sũtũ. ĩ re</seg>
+          <lb facs="#z_f62v_l068" xml:id="medusa_f62v_l068"/>
+          <seg type="raw_unreviewed">plexo</seg>
+          <lb facs="#z_f62v_l069" xml:id="medusa_f62v_l069"/>
+          <seg type="raw_unreviewed">quor qr s</seg>
+          <lb facs="#z_f62v_l070" xml:id="medusa_f62v_l070"/>
+          <seg type="raw_unreviewed">d̃ s̃m detli m̃i</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f62v_l001 #z_f62v_l002 #z_f62v_l003 #z_f62v_l004 #z_f62v_l005 #z_f62v_l006 #z_f62v_l007 #z_f62v_l008 #z_f62v_l009" xml:id="u_62v_001">[…] quia nihil consuluit eis, quod esset bonum et laudabile et utile. Item si quis alteri daret salubre consilium, ipse non faceret, dator consilii se reputaret aliquatenus spretum. Igitur […] consilia Christi […] Christum, qui sine peccato non potest contemni. Item ipse Constantinus dedit possessiones ecclesiae. Legitur vox audita de caelo: Hodie […] ecclesiae […]. […] per effectum, quia […] in ecclesia multiplicata […] dissensiones […]. Unde ante harum possessionum adeptionem longe pacatius et [rectius?] regebantur ecclesiae quam his nostris temporibus […]. Et a planta pedis usque ad verticem […] non est sanitas.</p>
+        <note type="editorial" corresp="#u_62v_001" xml:lang="cs">Pokračuje argumentace proti církevnímu vlastnictví; ještě nejde o závěrečné stanovisko autora. Konstantinova donace je tvrzením rukopisného textu, nikoli zde ověřenou historickou událostí. Nejasný nebeský výrok4–5 nedoplňuji jeho známou verzí.</note>
+        <p facs="#z_f62v_l010 #z_f62v_l011 #z_f62v_l012 #z_f62v_l013 #z_f62v_l014 #z_f62v_l015 #z_f62v_l016" xml:id="u_62v_002">[…] Dominus […] Ioannis VIII mulierem in adulterio deprehensam, quam damnare noluit: Mulier, inquit, ubi sunt qui te accusabant? Nemo te condemnavit? […] Neque ego te condemnabo. […] Dic fratri meo ut mecum dividat hereditatem. […] Homo, quis me constituit iudicem et divisorem inter vos? Item omne temporale dominium […] et expresse prohibuit Matthaei XX: Scitis quia principes gentium […] Non ita erit inter vos […]. Eadem sententia […] Lucae XXII paucis verbis immutatis. Quid expressius dici potest de prohibitione temporalis dominii?</p>
+        <note type="editorial" corresp="#u_62v_002" xml:lang="cs">Číslování a evangelijní jména jsou návrhovým čtením rukopisných zkratek. Citace nejsou doplněny na úplné biblické verše. Argument má povahu dobové polemiky; úvodní spojení10 a sloveso14 zůstávají nejasné.</note>
+        <p facs="#z_f62v_l017 #z_f62v_l018 #z_f62v_l019 #z_f62v_l020 #z_f62v_l021 #z_f62v_l022 #z_f62v_l023 #z_f62v_l024" xml:id="u_62v_003">[…] sacerdotum recedentium […] exemplis sanctis et dictis Christi […] synagoga Sathanae […] Dei propter traditiones humanas, fruentes voluptatibus et deliciis carnalibus. In decretalibus aut alibi scribitur […] exaltando ecclesiam temporalem deprimunt eam spiritualem. […] hodierno tempore lugendum est […] apostolicum: Nolite extinguere spiritum. Et rursus: Nemo militans Deo […]. Quis enim hodie est […] qui non ex toto […] ad terrenorum administrationem et spiritualitatem […] nihil pendit? Hae rationes […] in medium venerunt […], sed cogitavi aliquando […] alias fuisse occupatus […].</p>
+        <note type="editorial" corresp="#u_62v_003" xml:lang="cs">Silně rétorická pasáž je čtena fragmentárně; nejasná syntax poslední otázky nesmí být vydávána za úplný překlad. Rukopisné polemické označení synagoga Sathanae nepřisuzuji současným lidem ani komunitám. Autorův přechod23–24 je místy nejasný.</note>
+        <p facs="#z_f62v_l025 #z_f62v_l026 #z_f62v_l027 #z_f62v_l028 #z_f62v_l029 #z_f62v_l030 #z_f62v_l031" xml:id="u_62v_004">[…] Nunc restat partem oppositam fulcire. Pro quo notandum quod possessionum et divitiarum quaedam consistunt in rebus mobilibus, ut in auro et argento ac supellectilium variis […]; quaedam vero in rebus immobilibus, ut in domibus, agris seu praediis, et de utrisque volo probare quod licet clericis possidere. Secundo advertendum quod multum refert quaerere utrum liceat ecclesiae habere possessiones et utrum hoc sit expediens. Manifestam enim differentiam ponit apostolus inter licitum et expediens dicens: Omnia mihi licent sed non omnia expediunt. Quidquid enim expedit licet, sed non [convertitur?]. Tertio advertendum quod divitiarum possessio non est …</p>
+        <note type="editorial" corresp="#u_62v_004" xml:lang="cs">Zřetelný obrat disputace k obhajobě možnosti církevního vlastnictví. Závěr31 pokračuje v32. Některá substantiva26 a závěrečná logická zkratka31 jsou návrhové; citát není ověřen v edici.</note>
+        <p facs="#z_f62v_l032 #z_f62v_l033 #z_f62v_l034 #z_f62v_l035 #z_f62v_l036 #z_f62v_l037 #z_f62v_l038" xml:id="u_62v_005">[…] de se mala, neque per habita simpliciter. Et sic dicit Terentius de divitiis: Perinde sunt ut illius animus est qui ea possidet; qui uti scit, ei bona; ei qui non utitur recte, mala. […] patriarchae fuerunt divites […] Ioseph. Abraham fuit […] septem […] Domino, sed suis filiis dicit […] erant valde divites et tamen patriarchae fuerunt valde boni. Et potest addi quod divitiae non repugnant perfectioni status, quia Abrahae dixit Deus: Ego …</p>
+        <note type="editorial" corresp="#u_62v_005" xml:lang="cs">Připsání výroku Terentiovi je přímo součástí textu; žádná edice nebyla vyhledána. Čtení34–35 je fragmentární.38 je oddělený krátký konec hlavního řádku; následující skutečný hlavní řádek je až51.</note>
+        <p facs="#z_f62v_l039 #z_f62v_l040 #z_f62v_l041 #z_f62v_l042 #z_f62v_l043 #z_f62v_l044 #z_f62v_l045 #z_f62v_l046 #z_f62v_l047 #z_f62v_l048 #z_f62v_l049 #z_f62v_l050" xml:id="u_62v_006">[…]</p>
+        <note type="editorial" corresp="#u_62v_006" xml:lang="cs">Uříznuté zlomky sousední popsané plochy vpravo; nespojuji je s hlavním textem. HTR zachováno. Všechny pásy byly otevřeny.</note>
+        <p facs="#z_f62v_l051 #z_f62v_l052 #z_f62v_l053" xml:id="u_62v_007">[…] XVII: Ambula coram me et esto perfectus. Nullibi praecepit ei abicere divitias. […] non repugnant perfectioni. […] Hieronymus dicit: Caelibatus Ioannis non praefertur coniugio Abrahae; et tamen constat caelibatum Ioannis pertinere ad perfectionis …</p>
+        <note type="editorial" corresp="#u_62v_007" xml:lang="cs">51 spojuje záběr hlavního řádku a odřezek sousední stránky; rekonstrukce obsahuje jen hlavní řádek. Zdroj zkratky u jména Hieronymus není bibliograficky ověřen. Konec53 je doplněn až v56.</note>
+        <p facs="#z_f62v_l054 #z_f62v_l055" xml:id="u_62v_008">[…]</p>
+        <note type="editorial" corresp="#u_62v_008" xml:lang="cs">Uříznuté zlomky sousední popsané plochy vpravo; nespojuji je s hlavním textem. HTR zachováno. Všechny pásy byly otevřeny.</note>
+        <p facs="#z_f62v_l056 #z_f62v_l057 #z_f62v_l058 #z_f62v_l059" xml:id="u_62v_009">[…] statum. Ergo et in coniugio Abraham potuit esse perfectus. […] litigant […] possessiones habentes […] possessionibus suis; et sic contingit pauperes […] possessiones habenti paupertate […] praeire. Unde […] Horatius: […] pauperies hoc opprobrium habet […] virtutis […] deserit arduae. […] facta non dicam …</p>
+        <note type="editorial" corresp="#u_62v_009" xml:lang="cs">V56–57 segmentace připojila vpravo i okraj sousední stránky. Přepisuje se pouze hlavní text. Horatiovský citát je rozeznán jen zlomkovitě a nebyl nahrazen známým vydaným zněním. Překlad58–59 je proto výslovně fragmentární.</note>
+        <p facs="#z_f62v_l060" xml:id="u_62v_010">[…]</p>
+        <note type="editorial" corresp="#u_62v_010" xml:lang="cs">Uříznuté zlomky sousední popsané plochy vpravo; nespojuji je s hlavním textem. HTR zachováno. Všechny pásy byly otevřeny.</note>
+        <p facs="#z_f62v_l061 #z_f62v_l062" xml:id="u_62v_011">[…] possessionum clericorum in confessionibus audiendis, in praedicationibus proferendis et aliis […] actibus gerendis. Non […] saeculares clerici plures abusus committere quam religiosi […].</p>
+        <note type="editorial" corresp="#u_62v_011" xml:lang="cs">Poslední dva řádky obsahují i odřezky pravého sousedního textu. Z hlavního textu je rozpoznatelné srovnání světských a řeholních duchovních, ale záporná vazba a sloveso62 nejsou dost jisté k úplnému výroku. Nevyvozuji autorův závěr.</note>
+        <p facs="#z_f62v_l063 #z_f62v_l064 #z_f62v_l065 #z_f62v_l066 #z_f62v_l067 #z_f62v_l068 #z_f62v_l069 #z_f62v_l070" xml:id="u_62v_012">[…]</p>
+        <note type="editorial" corresp="#u_62v_012" xml:lang="cs">Uříznuté zlomky sousední popsané plochy vpravo; nespojuji je s hlavním textem. HTR zachováno. Všechny pásy byly otevřeny.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_62v_001">[…] protože jim neporadil nic, co by bylo dobré, chvályhodné a užitečné. Dále kdyby někdo druhému dal prospěšnou radu a ten ji neuposlechl, považoval by se rádce do jisté míry za odmítnutého. Proto […] Kristovy rady […] Krista, jímž nelze bez hříchu pohrdat. Dále sám Konstantin dal církvi majetky. Čte se, že byl z nebe slyšet hlas: Dnes […] církve […]. […] Z následků, protože se v církvi rozmnožily […] a rozepře […]. Před nabytím těchto majetků byly tedy církve spravovány mnohem pokojněji a [řádněji?] než v našich časech […]. A od chodidla nohy až po temeno […] není zdraví.</p>
+        <p corresp="#u_62v_002">[…] Pán […] v osmé kapitole Jana ženu přistiženou při cizoložství, kterou nechtěl odsoudit: Ženo, praví, kde jsou ti, kteří tě žalovali? Nikdo tě neodsoudil? […] Ani já tě neodsoudím. […] Řekni mému bratru, aby se se mnou rozdělil o dědictví. […] Člověče, kdo mě ustanovil soudcem a dělitelem mezi vámi? Dále všechno světské panování […] a výslovně zakázal ve dvacáté kapitole Matouše: Víte, že vládci národů […] Tak tomu mezi vámi nebude […]. Týž výrok […] u Lukáše22 s drobně změněnými slovy. Co výslovnějšího lze říci o zákazu světského panování?</p>
+        <p corresp="#u_62v_003">[…] kněží odchylujících se […] od svatých příkladů a Kristových slov […] synagoga satanova […] Boha pro lidská ustanovení, užívajíce tělesných rozkoší a požitků. V dekretálech či jinde se píše […] povyšováním časné církve ponižují církev duchovní. […] V dnešní době je třeba naříkat […] apoštolské: Nezhášejte Ducha. A znovu: Nikdo, kdo slouží Bohu […]. Kdo je totiž dnes […] takový, že by se cele […] správě pozemských věcí a duchovnosti […] nepřikládal žádnou cenu? Tyto důvody […] byly předloženy […], ale někdy jsem uvažoval […] jindy byl zaneprázdněn […].</p>
+        <p corresp="#u_62v_004">[…] Nyní zbývá podepřít opačnou stranu. K tomu je třeba poznamenat, že některé majetky a bohatství spočívají v movitých věcech, například ve zlatě, stříbře a různém vybavení […], jiné v nemovitostech, například v domech, polích či statcích. O obojím chci prokázat, že je duchovním dovoleno vlastnit je. Za druhé je třeba dbát, že je velký rozdíl ptát se, zda církvi smí patřit majetky, a zda je to prospěšné. Apoštol totiž klade zřetelný rozdíl mezi dovoleným a prospěšným: Všechno smím, ale ne všechno prospívá. Cokoli totiž prospívá, je dovoleno, ale neplatí [obráceně?]. Za třetí je třeba poznamenat, že držba bohatství není …</p>
+        <p corresp="#u_62v_005">[…] sama o sobě zlá ani prostě tím, že ji někdo má. Tak praví Terentius o bohatství: Je takové, jaká je mysl toho, kdo je vlastní; kdo s ním umí zacházet, tomu je dobrem, kdo je neužívá správně, tomu zlem. […] Patriarchové byli bohatí […] Josef. Abraham byl […] [následující příklad není zcela rozluštěn] […] byli velmi bohatí a přesto byli patriarchové velmi dobří. Lze dodat, že bohatství neodporuje dokonalosti stavu, neboť Bůh řekl Abrahamovi: Já …</p>
+        <p corresp="#u_62v_006">[Uříznuté zlomky sousední textové plochy při pravém okraji.]</p>
+        <p corresp="#u_62v_007">[…]17: Choď přede mnou a buď dokonalý. Nikde mu nepřikázal odhodit bohatství. […] Neodporují dokonalosti. […] Jeroným praví: Janův celibát se nestaví před Abrahamovo manželství; a přece je zřejmé, že Janův celibát patří k […] dokonalosti …</p>
+        <p corresp="#u_62v_008">[Uříznuté zlomky sousední textové plochy.]</p>
+        <p corresp="#u_62v_009">[…] stavu. I v manželství tedy Abraham mohl být dokonalý. […] Ti, kdo mají majetky, se přou […] o své majetky; tak se stává, že chudí […] předčí člověka s majetkem chudobou […]. Proto […] Horatius: […] Chudoba má tuto hanbu […] opouští […] cestu obtížné ctnosti. […] O skutcích neřeknu …</p>
+        <p corresp="#u_62v_010">[Okrajový odřezek sousední stránky.]</p>
+        <p corresp="#u_62v_011">[…] duchovních s majetky při vyslýchání zpovědí, při pronášení kázání a při konání jiných […] skutků. Světští duchovní […] více zneužití než řeholníci […].</p>
+        <p corresp="#u_62v_012">[Další drobné zlomky sousední stránky při pravém okraji; bez úplného významu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

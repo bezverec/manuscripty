@@ -1,0 +1,2524 @@
+{
+  "folio": "117v",
+  "label": "Snímek 117v",
+  "kind": "segments",
+  "width": 3900,
+  "height": 5600,
+  "models": {
+    "catmus": "CATMuS medieval 1.6.0",
+    "medusa": "Medusa 0.2Line-4B"
+  },
+  "source_original": "EX/M_I_259_____09Z2NI6EX0117V.TIF",
+  "source_sha256": "60b3652b5dbe8aa434643e76e0f2b82b1ea5bdbbc45b7c82c0a1301e9b145d8d",
+  "coordinate_source": {
+    "id": "vkol-m-i-259_117v_coordinate",
+    "sha256": "687ff6b521abe7194c75758be0901aa79e7ea2c2259f69c9860953084fe0f8af",
+    "width": 3900,
+    "height": 5600,
+    "frame": 0,
+    "derived_from_sha256": "60b3652b5dbe8aa434643e76e0f2b82b1ea5bdbbc45b7c82c0a1301e9b145d8d",
+    "original_tiff_frame": 0,
+    "rotation_ccw_degrees": 0,
+    "source_to_coordinate_pixel_edge_affine": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "bbox_format": "xywh",
+    "origin": "top-left"
+  },
+  "language": "la",
+  "analysis_scope": "Oba původní HTR kandidáti po stejných segmentech. Samostatné doplňkové obrazové čtení není HTR. Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "notes": "Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "lines": [
+    {
+      "id": "f117v_l001",
+      "source_segment_ids": [
+        "f117v_l001"
+      ],
+      "bbox": [
+        943,
+        435,
+        2611,
+        153
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l001.webp",
+      "raw_htr": {
+        "catmus": "ep̃t nõ s i̾ cipiẽlemei q uii si plu̾es E pr̃õui eccãs. u ꝯfre u auff̾i",
+        "medusa": "ep̃c nõ st̃ r̃cipiẽde .xvi. q̃ ui. si plures ¶ S. p̃noũ ecc̃iis .n. ꝯf̾re n. ausf̾re"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l002",
+      "source_segment_ids": [
+        "f117v_l002"
+      ],
+      "bbox": [
+        946,
+        535,
+        2605,
+        152
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l002.webp",
+      "raw_htr": {
+        "catmus": "pnĩt sine ꝯsẜͦ epi .xxi. i ult᷑ st r̾nc̃culꝰ ecci ͥ bñsios ĩ nulioꝰ ꝓroui ũ t sñ ĩss",
+        "medusa": "pot̃it fine .i. ssꝰ ep̃i .xui. i ul̃t It̃ r̾nũcia᷑ ecc̃ie sñficis ⁊ nuloꝰ pũmi ũtꝰ sñ qss"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l003",
+      "source_segment_ids": [
+        "f117v_l003"
+      ],
+      "bbox": [
+        992,
+        616,
+        2574,
+        149
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l003.webp",
+      "raw_htr": {
+        "catmus": "puꝵ uii qii qͥsuldus It̃ ñ pr̃onꝰ. ẜ op̃t d dotẽ ocdiũre ecce. x qi nouer",
+        "medusa": "xpi .m. uii ii i. nasdus / ̃s̃ nõ pr̃onꝰ s ep̃c d dotẽ ordinie ecc̃e. xͦ ꝯi noue᷑"
+      },
+      "words": [],
+      "flags": [
+        "medusa_changed_decoding_unreviewed"
+      ],
+      "note": "Obnovovací běh Medusy se změněným dekódováním (repetition_penalty 1,08); původní předchozí výstup je zachován ve výzkumných datech. Není odborně ověřeno.",
+      "hit_token_limit": false,
+      "decoding_recovery": true
+    },
+    {
+      "id": "f117v_l004",
+      "source_segment_ids": [
+        "f117v_l004"
+      ],
+      "bbox": [
+        964,
+        696,
+        2624,
+        156
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l004.webp",
+      "raw_htr": {
+        "catmus": "el que pr̃ouiis pñtut suifiͭ. si nõ ꝓle᷑ malul. t̾ eũ ex̃t r̾cipo . xuiuii mͣ",
+        "medusa": "e R̃ quẽ pr̃domus pũitat suffiᶜ. si nõ ꝓbe᷑ malus. t᷑ eũ ept̃ r̃cipu. x. qͥ i. novem."
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l005",
+      "source_segment_ids": [
+        "f117v_l005"
+      ],
+      "bbox": [
+        958,
+        784,
+        2652,
+        146
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l005.webp",
+      "raw_htr": {
+        "catmus": "It sprete pr̃ono. ep̃c ullmi d ad eccũ ordinue abid ¶c̃ ub̃i plue̾s pr̃o",
+        "medusa": "Item spretorum . episcopus ultimus d. ad ecclesiam ordinare . ibidem Item ubi plures pr"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l006",
+      "source_segment_ids": [
+        "f117v_l006"
+      ],
+      "bbox": [
+        958,
+        868,
+        2543,
+        133
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l006.webp",
+      "raw_htr": {
+        "catmus": "inͥ suꝑ offendo ꝯbenderĩt. ut ĩunũ ipẽciũt. st̃ ꝑep̃m qplluduxoi a ult ",
+        "medusa": "ni super offendo ꝯtenderit ut in unum ȷsecuerit. It per ipsum ꝯpliciti .xv. qui ultra"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l007",
+      "source_segment_ids": [
+        "f117v_l007"
+      ],
+      "bbox": [
+        964,
+        955,
+        2578,
+        130
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l007.webp",
+      "raw_htr": {
+        "catmus": "Paulus ap̃ło. nõ iõ fefellit. qr melid̾ibi occũpati. adyspanĩa qͥ ire",
+        "medusa": "Paulus apolo. nõ ĩo fefellit. qr melioribꝰ occupatꝰ. ad yspaniaꝵ qͥ me"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l008",
+      "source_segment_ids": [
+        "f117v_l008"
+      ],
+      "bbox": [
+        862,
+        995,
+        149,
+        165
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l008.webp",
+      "raw_htr": {
+        "catmus": "",
+        "medusa": "L"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l009",
+      "source_segment_ids": [
+        "f117v_l009"
+      ],
+      "bbox": [
+        952,
+        1032,
+        2621,
+        131
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l009.webp",
+      "raw_htr": {
+        "catmus": "misi ͬ uõ iit . xxii.i n leat II magu p̃dicaꝰ suit ĩ pedirtẽ. aci ͤ prudt",
+        "medusa": "misⁿᵗᵒ̃ nõ int̃t .xxii. in beatꝭ It̃ magũ p̃dicacⁿᵘ̃ suũ ĩ pedibꝰ ecebe"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l010",
+      "source_segment_ids": [
+        "f117v_l010"
+      ],
+      "bbox": [
+        961,
+        1110,
+        2593,
+        140
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l010.webp",
+      "raw_htr": {
+        "catmus": "⁊ corriuheñ sachane trad̾idit xxui q u.c ꝙ it̃ pꝑ ĩcũtiũ uicił corie",
+        "medusa": "⁊ Corrinheñ Nichaue tradidit .xxuii. iiii c. m. ¶ Item pro inc̃tum uicẽꝭ corpꝰ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l011",
+      "source_segment_ids": [
+        "f117v_l011"
+      ],
+      "bbox": [
+        961,
+        1191,
+        2609,
+        143
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l011.webp",
+      "raw_htr": {
+        "catmus": "suũ uigliis ⁊ sluglł custiᵈ ĩ ẜnitutẽ redegit .xxxii qx p̃ paul Ist̃ auł",
+        "medusa": "suũ uigiliis ⁊ flagiis castiᵈᵉ ĩs̾mitutẽ redẽgit. xxxii. q. u. p̃ paul. ¶ It̃ aue"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l012",
+      "source_segment_ids": [
+        "f117v_l012"
+      ],
+      "bbox": [
+        955,
+        1269,
+        2611,
+        165
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l012.webp",
+      "raw_htr": {
+        "catmus": "⁊ argũtũ nõ ꝯcupiͭ. si ꝓp̾irs maib lubui᷑. x q̃ i pdiᵈͣ Ic̃ qͥ fugli Id̾ r̾cer",
+        "medusa": "⁊ argentũ nõ ꝯcupit᷑. s ꝓpͥnis manibꝰ laborit᷑. xxi i. p̃dicor. ¶ Item q̃ fagll̃ scd̃ r̾cep"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l013",
+      "source_segment_ids": [
+        "f117v_l013"
+      ],
+      "bbox": [
+        964,
+        1347,
+        1373,
+        143
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l013.webp",
+      "raw_htr": {
+        "catmus": "plii oĩb u̾bo eõtꝭ᷑ luboa. Cxiii quii qͥs",
+        "medusa": "plꝰ oĩb u̾bo uͬitꝭ laboã xiii qui qͥs"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l014",
+      "source_segment_ids": [
+        "f117v_l014"
+      ],
+      "bbox": [
+        964,
+        1431,
+        2606,
+        140
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l014.webp",
+      "raw_htr": {
+        "catmus": "Dalurtus ñ ẽ qlpũda qr cũ xͨ dedituł xii q i glirst dñs locuł̃ qͣs hrẽbut",
+        "medusa": "Prinptus ñ ẽ ꝯspũdri qr eã xᶜ dedit᷑ .xii. q. ii gl̃ia ¶ It̃ dñs locũl qͣs hẽbat"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l015",
+      "source_segment_ids": [
+        "f117v_l015"
+      ],
+      "bbox": [
+        949,
+        1527,
+        2633,
+        137
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l015.webp",
+      "raw_htr": {
+        "catmus": "ncc̃it᷑ᷤ paupm sicblembat Xem quii duos E nerꝰ pauꝑ uil q̃rit qre ext",
+        "medusa": "ncc̃itoe paup̃m suablem̃bat. xxiii q. iii i duo ¶ Eꝵ neꝵ paup̃ nil q̃rit h̃re ex"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l016",
+      "source_segment_ids": [
+        "f117v_l016"
+      ],
+      "bbox": [
+        961,
+        1614,
+        2627,
+        134
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l016.webp",
+      "raw_htr": {
+        "catmus": "xͫ yn qt cłiciseꝵ pauꝑ l᷑. qui se ciõre pauꝑtat. ĩ nĩo piuprii ꝯstitu",
+        "medusa": "xᵐ. xii qr clicꝰ ¶ eꝵ paup̃ Ar. qui se eiõre paup̃tatꝰ. ĩ nũo paup̃m constitit"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l017",
+      "source_segment_ids": [
+        "f117v_l017"
+      ],
+      "bbox": [
+        967,
+        1692,
+        2599,
+        146
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l017.webp",
+      "raw_htr": {
+        "catmus": "ut itu ciii p.euꝑ. nolũtrli ꝰ unult. i ꝯii soerutes / Eꝵ pauꝑtus ir̃ ñ ẽ mula",
+        "medusa": "ut ita eñi paꝑ. uolũtatiꝰ unuit. i. q ii. soc̾botes eꝰ paꝑtias nr̃ ñ ẽ mala"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l018",
+      "source_segment_ids": [
+        "f117v_l018"
+      ],
+      "bbox": [
+        961,
+        1767,
+        2633,
+        155
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l018.webp",
+      "raw_htr": {
+        "catmus": "r̾ pntãdo. u ͨ ĩ mĩo malaꝵ ꝯputãdu xxqi iͥ e deiꝰ pituꝑ ͭ ͣ uoluit ut",
+        "medusa": "in presentibus. ut in nostris nummorum computanda. xvi i c. Ego d. pape te. voluit et"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l019",
+      "source_segment_ids": [
+        "f117v_l019"
+      ],
+      "bbox": [
+        971,
+        1854,
+        2608,
+        155
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l019.webp",
+      "raw_htr": {
+        "catmus": "sustinẽtes ppacĩm c̾ona̾en ᷑ ⁊ dinites ĩ ip̃is auereai ⁊d ꝓboñ ᵈ seꝵ ꝑstius",
+        "medusa": "sustinentes pacũm c̾emuer⁊ dinites ĩ ip̃is auereu᷑. s. ꝓben᷑ 10 eꝵ ꝑscũis"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l020",
+      "source_segment_ids": [
+        "f117v_l020"
+      ],
+      "bbox": [
+        977,
+        1938,
+        2636,
+        180
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l020.webp",
+      "raw_htr": {
+        "catmus": "ẽ biͣ ꝑxxͭ debuqu̾e ꝙͣ pauꝑiꝰ disebirõda ẜule .xii qi et pedͭ It honustꝰ",
+        "medusa": "ẽ d̃i ꝑp̃x de linquere nꝙ pauperiꝰ discriõda s̾uile .xii. ii expedat It̃ honustꝰ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l021",
+      "source_segment_ids": [
+        "f117v_l021"
+      ],
+      "bbox": [
+        974,
+        2047,
+        2655,
+        143
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l021.webp",
+      "raw_htr": {
+        "catmus": "ami põde. xͫ piuꝑe sisui ũ pt. pii q ii soctes/ et epc̃ palup d oẽ uictu",
+        "medusa": "aũ po̾de̾ xᵐ pauperoꝫ s̃riũ ñ pt̃ .xii. ii ii soͣctes Eꝵ ep̃c paup̃ d oẽ uictu"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l022",
+      "source_segment_ids": [
+        "f117v_l022"
+      ],
+      "bbox": [
+        964,
+        2137,
+        2590,
+        134
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l022.webp",
+      "raw_htr": {
+        "catmus": "diues nuitꝭid ꝑli ep̃t IIc̃ p̃dicuto̾es paupes dũt ce̾. 2 a tẽnen᷑ ĩis",
+        "medusa": "dines mutũ d̃ xli ep̃c ¶ It̃ p̃dicatores pauperes dũt eẽ . 2 aꝰ tenen᷑ ipsis"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l023",
+      "source_segment_ids": [
+        "f117v_l023"
+      ],
+      "bbox": [
+        964,
+        2221,
+        2609,
+        146
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l023.webp",
+      "raw_htr": {
+        "catmus": "ucc̃i nĩsciei in sac̾dos e glũ ẽ epĩ. paupni opib ꝓuide̾. ẜ fruba̾e̾",
+        "medusa": "ncc̃itꝰ m̃isc̃ie .i. ii. sacerdos eꝵ gl̃ia ẽ ep̃i. paup̃m oꝑibꝰ ꝓuide̾. ẜ fructuꝰ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l024",
+      "source_segment_ids": [
+        "f117v_l024"
+      ],
+      "bbox": [
+        989,
+        2308,
+        2602,
+        152
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l024.webp",
+      "raw_htr": {
+        "catmus": "ꝙ ẽ paupni. sac̾legiũ ẽ quĩbe yii q ii glusiaꝵ religios. q̃ ꝑfessꝰ ẽ pauꝑͭ ꝭ",
+        "medusa": "ꝙ ẽ paupm. sac̾legum ẽ ꝯm̃te. yni .i. ii glũ/ e⁊ r̃esigros/. q̃ ꝑfessꝰ ẽ paupetꝰ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l025",
+      "source_segment_ids": [
+        "f117v_l025"
+      ],
+      "bbox": [
+        971,
+        2398,
+        2627,
+        153
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l025.webp",
+      "raw_htr": {
+        "catmus": "si ep̃t effici᷑. ñ Iuͣgit botũ. qr sit ir̃ ecc̃e dispũsator ũ usi pator̃ an",
+        "medusa": "si ep̃c efficit᷑. ũ suget botũ. qr sit nr̃ ecc̃e dispũsator ũ usurpator."
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l026",
+      "source_segment_ids": [
+        "f117v_l026"
+      ],
+      "bbox": [
+        980,
+        2479,
+        2608,
+        140
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l026.webp",
+      "raw_htr": {
+        "catmus": "A. expedit eꝵ lõ eccũꝵ st̃ uona pauꝑm .xii q ĩ dih E p̃cipue paupib",
+        "medusa": "qͥ expedit ¶ Q: 60 eccĩarum st̃ bona pauperum .xii. ii. ii. ĩdiz᷑ Ex pͥcipue pauperibꝰ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l027",
+      "source_segment_ids": [
+        "f117v_l027"
+      ],
+      "bbox": [
+        980,
+        2557,
+        2624,
+        146
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l027.webp",
+      "raw_htr": {
+        "catmus": "aui labou̾e nõ pũł ẽsb̃ueĩendi. d hoxpii ex̃ eꝵ ĩ pauꝑib ing̃ battrida",
+        "medusa": "qui habere nõ pũt ẽ sc̃ueiend̃. d̃ lxxxxii ep̃s eꝵ ĩ paup̃ib utꝭ c̃att̃ndi"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l028",
+      "source_segment_ids": [
+        "f117v_l028"
+      ],
+      "bbox": [
+        967,
+        2635,
+        2627,
+        158
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l028.webp",
+      "raw_htr": {
+        "catmus": "da r̾ligro ꝙ̃ panꝑtus ꝓui qi cult̾ /eꝵ ũ mrꝰ cͥdelis ẽ. qͥ apape osuuo es",
+        "medusa": "da religio ꝙ paupertas .xui. qͥ cultꝰ eꝵ ñ mrꝰ credelis ẽ . qͥ ap̃mꝑe u̾su̾as ex"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l029",
+      "source_segment_ids": [
+        "f117v_l029"
+      ],
+      "bbox": [
+        983,
+        2719,
+        2611,
+        158
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l029.webp",
+      "raw_htr": {
+        "catmus": "igit. qna qui diuiti iupit xiiii qiii qͥd seꝵ pauꝑ qͥ ũ ħ due̾. ũ solũ etỹt",
+        "medusa": "igitur qͣm qui dimiti u̾pit xiiii ii iiii qͥd̃ eꝵ paꝑꝵ qͥ ñ h; dñe ñ solũ ꝯtꝑ-"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l030",
+      "source_segment_ids": [
+        "f117v_l030"
+      ],
+      "bbox": [
+        980,
+        2809,
+        2590,
+        143
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l030.webp",
+      "raw_htr": {
+        "catmus": "ui.. si ⁊̃ qͣ uĩ  opp̾mi ͥ ꝙi q ii pauꝑ eꝵ uẽo panꝑi ĩnulla cã d oẽ uũcors u",
+        "medusa": "nũ. s ⁊̃ ꝙ u̾iꝰ oppͥmꝰ x i. qͦm patuꝑ. ¶ Eꝵ neõ patuꝑi ĩ nulla cã d ẽẽ nũcior u"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l031",
+      "source_segment_ids": [
+        "f117v_l031"
+      ],
+      "bbox": [
+        958,
+        2887,
+        2605,
+        152
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l031.webp",
+      "raw_htr": {
+        "catmus": "pax huiina tũ dultꝭ ẽ ꝓhnu. sulute. qũto dil̃tior ẽ pax di̾u qui si reg",
+        "medusa": "Pax humana tũ Dulcis ẽ ꝓhina salute. qũto dulcior ẽ pax diu̾is / qui si res"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l032",
+      "source_segment_ids": [
+        "f117v_l032"
+      ],
+      "bbox": [
+        974,
+        2971,
+        2620,
+        149
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l032.webp",
+      "raw_htr": {
+        "catmus": "bce̾mi salute yxmii qi noli Eꝵ xͭ neũĩs rocuit pacẽ. ded ͭ patẽ. ⁊ r̃. lusuit",
+        "medusa": "ꝓ extrema salute. xxiii. i. i. noli. Ego Christum nemo͂is recruit patẽ. dedit patẽ. ⁊ reliquit"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l033",
+      "source_segment_ids": [
+        "f117v_l033"
+      ],
+      "bbox": [
+        967,
+        3052,
+        2603,
+        146
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l033.webp",
+      "raw_htr": {
+        "catmus": "putẽ. ibid̃ Q par ũ ĩri ᷑ ut bellũ socea᷑. s bellũ gri̾t᷑: ut paꝵ ucqͥui᷑",
+        "medusa": "putem ibidem ¶ Quia pax non imperiatur bellum excercetur sed bellum geritur ut pax acquiritur"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l034",
+      "source_segment_ids": [
+        "f117v_l034"
+      ],
+      "bbox": [
+        977,
+        3136,
+        2565,
+        155
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l034.webp",
+      "raw_htr": {
+        "catmus": "ili d̃ oꝵ bõꝵ bella nõ cͣdeliͭ ⁊ cupidi ͭͤ s patꝭ studie gerũ. ilud eꝵ qͥ",
+        "medusa": "ibi d̃ Eꝵ bõarum bella nõ c᷑deliᵗᵉ ⁊ cupidiᵗᵉ s pacꝭ studie gerũ᷑ ibid̃ / Eꝵ qͥ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l035",
+      "source_segment_ids": [
+        "f117v_l035"
+      ],
+      "bbox": [
+        980,
+        3226,
+        2618,
+        143
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l035.webp",
+      "raw_htr": {
+        "catmus": "Udicut pate. d ẜuie pace i q ui h̃. eꝵ muli qñ st̃ tollaluda iper",
+        "medusa": "p̃dicit patet. s: sine patet. iii. iui h. eor mala qñ st tollenda ꝓpter"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l036",
+      "source_segment_ids": [
+        "f117v_l036"
+      ],
+      "bbox": [
+        983,
+        3304,
+        2596,
+        164
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l036.webp",
+      "raw_htr": {
+        "catmus": "ce sruandit ⁊x iii q iii c occe /eꝵ pacific/ d : qui curirgᵗͭ ꝙ p̃t̃. Auui",
+        "medusa": "ce smutubia. xx iii q iiii c ccc. Ex pacifici d᷑i qui corrigᵗ ꝙ pt̃. eꝯmuni"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l037",
+      "source_segment_ids": [
+        "f117v_l037"
+      ],
+      "bbox": [
+        980,
+        3412,
+        554,
+        131
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l037.webp",
+      "raw_htr": {
+        "catmus": "supportat. iluid̃",
+        "medusa": "supportat. aliquid"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l038",
+      "source_segment_ids": [
+        "f117v_l038"
+      ],
+      "bbox": [
+        989,
+        3428,
+        2587,
+        187
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l038.webp",
+      "raw_htr": {
+        "catmus": "Bccutũ ẽ dict. sigẽale ⁊ actiulle de p. dmi ꝑtutꝭ / eꝵ oige̾le pcc̃m di⁊",
+        "medusa": "supportat. aliud. oĩgeãle ⁊ actiuale de p. d̾ iii i ꝑtus / ex oĩgele pccm̃ d. r"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l039",
+      "source_segment_ids": [
+        "f117v_l039"
+      ],
+      "bbox": [
+        961,
+        3531,
+        2640,
+        165
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l039.webp",
+      "raw_htr": {
+        "catmus": "Tpauitas caruis. lũguor nẽ. ⁊ ꝯcup carius xuiii q ut Qꝵ l bapꝰ delet",
+        "medusa": "ĩ finitas carnis. linguor ne. ⁊ concupⁿ carnis. xuiii q ut E⁊ s bapꝰ deler"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l040",
+      "source_segment_ids": [
+        "f117v_l040"
+      ],
+      "bbox": [
+        1002,
+        3618,
+        2561,
+        171
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l040.webp",
+      "raw_htr": {
+        "catmus": "oigẽle r aeucoi. liĩ reatꝰ siue somes ũ tolli᷑ deqdmi lĩseꝵ mõrle pcc̃us ẽ",
+        "medusa": "oĩgẽbe ⁊ oĩ pecc̃i. sñ reatꝭ sine fomes ñ tolli᷑. deii d̾m nͥ eꝵ morͤse pcc̃m ẽ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l041",
+      "source_segment_ids": [
+        "f117v_l041"
+      ],
+      "bbox": [
+        983,
+        3702,
+        2571,
+        174
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l041.webp",
+      "raw_htr": {
+        "catmus": "Golũtas s. t̾iendi aił ꝯrẽciẽdi. Yistiͣ uetatixu qa q̃ ẜͣ ^eꝵ uco indle pcc̃m",
+        "medusa": "solũtas a tñendi ãil ꝯsẽciẽdi . ꝙ instũ netat .xvii. 1 5. eR nõ mo̾le pcc̃m"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l042",
+      "source_segment_ids": [
+        "f117v_l042"
+      ],
+      "bbox": [
+        989,
+        3792,
+        2568,
+        184
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l042.webp",
+      "raw_htr": {
+        "catmus": "quit̾e̾ appeͭ᷑ ꝑꝑ ip̃n. ẜ ꝑꝑ iᵈ ꝙ exeo ꝯsoqui eo qi me̾iti eert duo pccũ",
+        "medusa": "q nute̾ appeᵗ ꝑꝑ ip̃m. s̃ ꝑꝑ iᶜ ꝙ ex eo ꝯsequim᷑ ex iͥi me̾ito Ex ĩt̃ duo pccã"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l043",
+      "source_segment_ids": [
+        "f117v_l043"
+      ],
+      "bbox": [
+        983,
+        3867,
+        2618,
+        196
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l043.webp",
+      "raw_htr": {
+        "catmus": "xtꝓq uitaĩ ñ pc̃. miꝰ ẽ eligndi. dxii duo ^ek ĩ eod gu̾e pcã. gͣm ^ poc̃at",
+        "medusa": "ꝙ nͣite appare͂t ꝑꝑ ip̃m. s ꝑꝑ i͂ ꝙ ex eo i͂seru͂t. Ex ista materia Ex ista materia"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l044",
+      "source_segment_ids": [
+        "f117v_l044"
+      ],
+      "bbox": [
+        996,
+        3976,
+        2617,
+        164
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l044.webp",
+      "raw_htr": {
+        "catmus": "Uaieꝰ quã pagitir/ ꝓxxi qmi ĩ eo ¶t̃ uide᷑. ꝙ u ᷑ uerĩ ᷑ quis d̾ pcae. ut",
+        "medusa": "xͥanꝰ quã pagariꝰ .xxxii. qͥ iiiĩ ĩ eo ¶ It̃ uide᷑ ꝙ nᷠ uen̾it quis d pᶜͣre. ut"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l045",
+      "source_segment_ids": [
+        "f117v_l045"
+      ],
+      "bbox": [
+        992,
+        4060,
+        2593,
+        155
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l045.webp",
+      "raw_htr": {
+        "catmus": "alt̾ uit morle ꝙpui q u cĩ hõ ou ocłtũ pcc di᷑. ꝙu ͭ ꝯsessiõe nͨ ỹbue",
+        "medusa": "alt̃ uic morͣle cxpui q uͣ cũ hõ Ex ockum pcam di᷑ ꝙ nͨ ꝯfessõe nͨ ꝓboe̾"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l046",
+      "source_segment_ids": [
+        "f117v_l046"
+      ],
+      "bbox": [
+        986,
+        4153,
+        2587,
+        134
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l046.webp",
+      "raw_htr": {
+        "catmus": "publitat xx q uc alt᷑ e pubt pccrĩ cea̾ oĩbi ẽ ꝑmendi n qi si er d p̃",
+        "medusa": "publicas .xv. q. u. c. ult̃ eꝵ publiᶜᵃ p̃cañ trꝰaꝰ oĩb: ẽ p̃mẽnd̃ .ii. q. i. i. ord̃ p̃"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l047",
+      "source_segment_ids": [
+        "f117v_l047"
+      ],
+      "bbox": [
+        996,
+        4243,
+        2564,
+        137
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l047.webp",
+      "raw_htr": {
+        "catmus": "latorp ul i̾ ligrosoꝵ. pp miliꝰ stitublui õ celandi dxcoi ĩ siptu̾s eꝵ pccũ ĩ",
+        "medusa": "latorꝵ ũl religioseꝵ . pp maiꝰ scandlm̃ ẽ celandꝰ dxcoi ĩscripturis ex pccã ĩ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l048",
+      "source_segment_ids": [
+        "f117v_l048"
+      ],
+      "bbox": [
+        980,
+        4324,
+        2596,
+        159
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l048.webp",
+      "raw_htr": {
+        "catmus": "corrigibliũ. l nõ possit ꝓbãt. liĩ st̃ p̃latꝭ̃ deuc̃ciũdan qu ũ E ꝓcc̃m i",
+        "medusa": "corrigeblium. sed nõ possint probare. bñ st̃ plures denunciandi. u. q. u. Ex pccm̃ an"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l049",
+      "source_segment_ids": [
+        "f117v_l049"
+      ],
+      "bbox": [
+        983,
+        4424,
+        2568,
+        152
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l049.webp",
+      "raw_htr": {
+        "catmus": "spm̃ sc̃m quĩtit.q̃ ex ꝓpdĩtõ uoͫ deẜit ⁊ malũ.ciiq admortẽ faͬ. depdi ¶ p̃t",
+        "medusa": "spm̃ scm̃. 3 m̃tit. q̃ ex poꝑtito bo ͫ deẜit. ⁊ malũ. usq ad mortẽ faᵗ. de pᵈi e p̃t"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l050",
+      "source_segment_ids": [
+        "f117v_l050"
+      ],
+      "bbox": [
+        980,
+        4520,
+        2574,
+        131
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l050.webp",
+      "raw_htr": {
+        "catmus": "eꝵ assuue pc̃anciũ nõ mĩẜe᷑ di d xcii diaciui Ic̃ sĩ peͣ ũ diĩtũ᷑ iqr aut",
+        "medusa": "Quod assidue pͥtantium nõ misertꝰ d̾s. d̾ xciii d̃iacoũ ¶ It̃ sñi peͣ ñ d̾nũtur qr aut"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l051",
+      "source_segment_ids": [
+        "f117v_l051"
+      ],
+      "bbox": [
+        971,
+        4604,
+        2592,
+        118
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l051.webp",
+      "raw_htr": {
+        "catmus": "Selhũit. a̾ hõ. de ꝑd̾ i mediciã / It̃ dimssũ ultͣ nõ pũit ĩde y dmq auẽ  uꝰ",
+        "medusa": "de punit. aͥ hoͣ de pd̃ 1 medicum / Item dimissũ ultra nõ punit᷑ de p. d̃ in qͣ aueᵗᵃˢ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l052",
+      "source_segment_ids": [
+        "f117v_l052"
+      ],
+      "bbox": [
+        967,
+        4694,
+        2624,
+        125
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l052.webp",
+      "raw_htr": {
+        "catmus": "It dimissa qñ reddie dñt᷑: de ꝑdiui s ꝑtrĩt It duissu ũ sc̃ r̾ ꝯcitanda d",
+        "medusa": "¶ It̃ d̃missa qm̃ reddi̾e dñr᷑ de p̃d̃m se̾ ꝑtine̾ ¶ It̃ d̃missa ũ st̃ r̃ ꝯgitanda ad"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l053",
+      "source_segment_ids": [
+        "f117v_l053"
+      ],
+      "bbox": [
+        3707,
+        472,
+        174,
+        88
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l053.webp",
+      "raw_htr": {
+        "catmus": "sites bõ",
+        "medusa": "m̃tes .bõ."
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l054",
+      "source_segment_ids": [
+        "f117v_l054"
+      ],
+      "bbox": [
+        3716,
+        522,
+        146,
+        131
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l054.webp",
+      "raw_htr": {
+        "catmus": "ti& po",
+        "medusa": "entit / de p."
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l055",
+      "source_segment_ids": [
+        "f117v_l055"
+      ],
+      "bbox": [
+        3722,
+        616,
+        121,
+        130
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l055.webp",
+      "raw_htr": {
+        "catmus": "q̃ efiiu",
+        "medusa": "min eñne"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l056",
+      "source_segment_ids": [
+        "f117v_l056"
+      ],
+      "bbox": [
+        3731,
+        696,
+        125,
+        119
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l056.webp",
+      "raw_htr": {
+        "catmus": "ha fuche",
+        "medusa": "cor facio"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l057",
+      "source_segment_ids": [
+        "f117v_l057"
+      ],
+      "bbox": [
+        3744,
+        787,
+        106,
+        127
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l057.webp",
+      "raw_htr": {
+        "catmus": "sãꝰ",
+        "medusa": "scu̾ꝵ ĩ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l058",
+      "source_segment_ids": [
+        "f117v_l058"
+      ],
+      "bbox": [
+        3735,
+        1599,
+        124,
+        84
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l058.webp",
+      "raw_htr": {
+        "catmus": "s aper",
+        "medusa": "xᵉ apec"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l059",
+      "source_segment_ids": [
+        "f117v_l059"
+      ],
+      "bbox": [
+        3710,
+        1658,
+        149,
+        115
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l059.webp",
+      "raw_htr": {
+        "catmus": "¶ ¶ du‸",
+        "medusa": "ut dñs"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l060",
+      "source_segment_ids": [
+        "f117v_l060"
+      ],
+      "bbox": [
+        3716,
+        1751,
+        162,
+        118
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l060.webp",
+      "raw_htr": {
+        "catmus": "sãc uitu",
+        "medusa": "hãt uic̃u ·"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l061",
+      "source_segment_ids": [
+        "f117v_l061"
+      ],
+      "bbox": [
+        3710,
+        1844,
+        165,
+        103
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l061.webp",
+      "raw_htr": {
+        "catmus": "ne. muori",
+        "medusa": "tre. mort"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l062",
+      "source_segment_ids": [
+        "f117v_l062"
+      ],
+      "bbox": [
+        3722,
+        1932,
+        109,
+        115
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l062.webp",
+      "raw_htr": {
+        "catmus": "IIui",
+        "medusa": "subjuncta"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l063",
+      "source_segment_ids": [
+        "f117v_l063"
+      ],
+      "bbox": [
+        3691,
+        2140,
+        159,
+        112
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l063.webp",
+      "raw_htr": {
+        "catmus": "iuxlo si",
+        "medusa": "m̃ xlii s̃"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l064",
+      "source_segment_ids": [
+        "f117v_l064"
+      ],
+      "bbox": [
+        3691,
+        2212,
+        171,
+        127
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l064.webp",
+      "raw_htr": {
+        "catmus": "sficd̃ el",
+        "medusa": "nꝑslicõ e"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l065",
+      "source_segment_ids": [
+        "f117v_l065"
+      ],
+      "bbox": [
+        3710,
+        2299,
+        133,
+        155
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l065.webp",
+      "raw_htr": {
+        "catmus": "eu p",
+        "medusa": "sunt p"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l066",
+      "source_segment_ids": [
+        "f117v_l066"
+      ],
+      "bbox": [
+        3685,
+        2426,
+        149,
+        118
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l066.webp",
+      "raw_htr": {
+        "catmus": "ciIi",
+        "medusa": "de xxxiiii"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l067",
+      "source_segment_ids": [
+        "f117v_l067"
+      ],
+      "bbox": [
+        3688,
+        2516,
+        168,
+        128
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l067.webp",
+      "raw_htr": {
+        "catmus": "iM iiio",
+        "medusa": "Sig. Petri"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l068",
+      "source_segment_ids": [
+        "f117v_l068"
+      ],
+      "bbox": [
+        3685,
+        2597,
+        165,
+        143
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l068.webp",
+      "raw_htr": {
+        "catmus": "un pleꝵ",
+        "medusa": "un plor"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l069",
+      "source_segment_ids": [
+        "f117v_l069"
+      ],
+      "bbox": [
+        3682,
+        2924,
+        189,
+        84
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l069.webp",
+      "raw_htr": {
+        "catmus": "tilli u",
+        "medusa": "ist illi in"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l070",
+      "source_segment_ids": [
+        "f117v_l070"
+      ],
+      "bbox": [
+        3679,
+        2968,
+        189,
+        133
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l070.webp",
+      "raw_htr": {
+        "catmus": "Apeis di",
+        "medusa": "sĩneis dus"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l071",
+      "source_segment_ids": [
+        "f117v_l071"
+      ],
+      "bbox": [
+        3719,
+        3073,
+        149,
+        137
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l071.webp",
+      "raw_htr": {
+        "catmus": " piñł",
+        "medusa": "nec punit"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l072",
+      "source_segment_ids": [
+        "f117v_l072"
+      ],
+      "bbox": [
+        3666,
+        3179,
+        209,
+        134
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l072.webp",
+      "raw_htr": {
+        "catmus": "pe spiseo⁊",
+        "medusa": "p̃e tꝑalis etc."
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l073",
+      "source_segment_ids": [
+        "f117v_l073"
+      ],
+      "bbox": [
+        3672,
+        3276,
+        162,
+        87
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l073.webp",
+      "raw_htr": {
+        "catmus": " iii e",
+        "medusa": "iii q iii e"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l074",
+      "source_segment_ids": [
+        "f117v_l074"
+      ],
+      "bbox": [
+        3657,
+        3338,
+        227,
+        112
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l074.webp",
+      "raw_htr": {
+        "catmus": "idit. qui cu",
+        "medusa": "fudit. qui eum"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l075",
+      "source_segment_ids": [
+        "f117v_l075"
+      ],
+      "bbox": [
+        3650,
+        3422,
+        221,
+        109
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l075.webp",
+      "raw_htr": {
+        "catmus": "laid e. dx",
+        "medusa": "men di e . d . x ."
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l076",
+      "source_segment_ids": [
+        "f117v_l076"
+      ],
+      "bbox": [
+        3682,
+        3503,
+        168,
+        127
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l076.webp",
+      "raw_htr": {
+        "catmus": "ose . do",
+        "medusa": "Unsre"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l077",
+      "source_segment_ids": [
+        "f117v_l077"
+      ],
+      "bbox": [
+        3654,
+        3587,
+        211,
+        155
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l077.webp",
+      "raw_htr": {
+        "catmus": "re abigilꝰ .",
+        "medusa": "gn̾e . ⁊ bigriꝰ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l078",
+      "source_segment_ids": [
+        "f117v_l078"
+      ],
+      "bbox": [
+        3722,
+        3692,
+        140,
+        122
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l078.webp",
+      "raw_htr": {
+        "catmus": "iii cũ",
+        "medusa": "iiii. cum"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l079",
+      "source_segment_ids": [
+        "f117v_l079"
+      ],
+      "bbox": [
+        3663,
+        3776,
+        215,
+        103
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l079.webp",
+      "raw_htr": {
+        "catmus": "uuł ꝓulłuli",
+        "medusa": "mũt et m̃ilum"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l080",
+      "source_segment_ids": [
+        "f117v_l080"
+      ],
+      "bbox": [
+        3650,
+        3867,
+        231,
+        130
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l080.webp",
+      "raw_htr": {
+        "catmus": "ingor pea",
+        "medusa": "rigor p̃ep"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l081",
+      "source_segment_ids": [
+        "f117v_l081"
+      ],
+      "bbox": [
+        3660,
+        3963,
+        218,
+        115
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l081.webp",
+      "raw_htr": {
+        "catmus": "esail petul",
+        "medusa": "santa paus"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l082",
+      "source_segment_ids": [
+        "f117v_l082"
+      ],
+      "bbox": [
+        3660,
+        4041,
+        202,
+        112
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l082.webp",
+      "raw_htr": {
+        "catmus": "atuãces",
+        "medusa": "ꝯtinuaces"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l083",
+      "source_segment_ids": [
+        "f117v_l083"
+      ],
+      "bbox": [
+        3679,
+        4140,
+        183,
+        140
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l083.webp",
+      "raw_htr": {
+        "catmus": "hẽ ec̃",
+        "medusa": "tprae ecc̃i"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l084",
+      "source_segment_ids": [
+        "f117v_l084"
+      ],
+      "bbox": [
+        3666,
+        4240,
+        209,
+        103
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l084.webp",
+      "raw_htr": {
+        "catmus": "L. i i",
+        "medusa": "minꝰ uii"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l085",
+      "source_segment_ids": [
+        "f117v_l085"
+      ],
+      "bbox": [
+        3647,
+        4312,
+        237,
+        105
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l085.webp",
+      "raw_htr": {
+        "catmus": "po etlil des",
+        "medusa": "pẽ etiam de"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l086",
+      "source_segment_ids": [
+        "f117v_l086"
+      ],
+      "bbox": [
+        3675,
+        4392,
+        206,
+        119
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l086.webp",
+      "raw_htr": {
+        "catmus": "mibucul ẽ",
+        "medusa": "Anituncul e"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l087",
+      "source_segment_ids": [
+        "f117v_l087"
+      ],
+      "bbox": [
+        3650,
+        4486,
+        237,
+        130
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l087.webp",
+      "raw_htr": {
+        "catmus": "abisse ip̃o e",
+        "medusa": "G. Mse ipso"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l088",
+      "source_segment_ids": [
+        "f117v_l088"
+      ],
+      "bbox": [
+        3682,
+        4579,
+        186,
+        109
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l088.webp",
+      "raw_htr": {
+        "catmus": "hidcũ",
+        "medusa": "f. u̾d̾cũ."
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l089",
+      "source_segment_ids": [
+        "f117v_l089"
+      ],
+      "bbox": [
+        3669,
+        4669,
+        196,
+        109
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l089.webp",
+      "raw_htr": {
+        "catmus": "il ppecta",
+        "medusa": "petra"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l090",
+      "source_segment_ids": [
+        "f117v_l090"
+      ],
+      "bbox": [
+        980,
+        4775,
+        2885,
+        131
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l090.webp",
+      "raw_htr": {
+        "catmus": "delcõ. s ad aia ituet ꝓmĩe.d in ci eni qui ĩ plnib pc̃as man̾. de uuo pcr̃o pniũ Iseihi tet",
+        "medusa": "delcõm s. ad antueeꝭ pnĩe d. m. e. i. qm̃ ĩ pluribꝰ p̃coĩs manꝭ de uno p̃co pnũs"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l091",
+      "source_segment_ids": [
+        "f117v_l091"
+      ],
+      "bbox": [
+        964,
+        4856,
+        2624,
+        143
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l091.webp",
+      "raw_htr": {
+        "catmus": "uera age ũ pt̃. qr deꝰ/ ꝑtẽqdon̾e ñ no de ꝑd iu exgña di pietus ueuĩ ñ di",
+        "medusa": "uerũ ag̾e ñ pt̃ qr deꝰ ꝑte̾ ꝯdonare. ñ noᵗ de p d̾ m ex sñã d̾ pietas. neũ ñ di"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l092",
+      "source_segment_ids": [
+        "f117v_l092"
+      ],
+      "bbox": [
+        980,
+        4937,
+        2618,
+        187
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l092.webp",
+      "raw_htr": {
+        "catmus": "midiab. Aut uͭ. a titũ. ꝓpicutudo dabl eꝵ ꝑccõib. tñ. ssuludꝰ ẽ. ut ĩstiltu ꝓc̃",
+        "medusa": "miduab̃. Aut uᶜ. a̾tetũ ꝓpiciando dab̃ / Qꝵ pccõib tñ. qͥsuluđ ẽ. ut ĩ statu pccã"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l093",
+      "source_segment_ids": [
+        "f117v_l093"
+      ],
+      "bbox": [
+        3685,
+        4840,
+        168,
+        103
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l093.webp",
+      "raw_htr": {
+        "catmus": "dã O",
+        "medusa": "dũ 103 1"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l094",
+      "source_segment_ids": [
+        "f117v_l094"
+      ],
+      "bbox": [
+        3700,
+        4934,
+        75,
+        177
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l094.webp",
+      "raw_htr": {
+        "catmus": "¶i",
+        "medusa": "153"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l095",
+      "source_segment_ids": [
+        "f117v_l095"
+      ],
+      "bbox": [
+        3787,
+        1129,
+        75,
+        121
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l095.webp",
+      "raw_htr": {
+        "catmus": "sorf",
+        "medusa": "ioif"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f117v_l096",
+      "source_segment_ids": [
+        "f117v_l096"
+      ],
+      "bbox": [
+        3769,
+        1493,
+        74,
+        90
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/117v/f117v_l096.webp",
+      "raw_htr": {
+        "catmus": "udi",
+        "medusa": "nod"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    }
+  ],
+  "passages": [
+    {
+      "id": "u_117v_001",
+      "title": "Úsek 1",
+      "line_ids": [
+        "f117v_l001",
+        "f117v_l002",
+        "f117v_l003",
+        "f117v_l004",
+        "f117v_l005",
+        "f117v_l006"
+      ],
+      "latin": "[…] episcopi non sunt […] Item patroni ecclesias nec conferre nec auferre possunt sine consensu episcopi […]. Patrimonium ecclesiae […] in manus patroni non […] Item non patronus sed episcopus debet dotem ordinare ecclesiae […]. Quem patronus praesentat sufficientem, si non probetur malus, tenetur […] recipere […]. Spreto patrono episcopus alium non debet ad ecclesiam ordinare […]. Cum plures patroni super offerendo contenderint, ut in unum conveniant sunt per episcopum compellendi […].",
+      "czech": "[…] biskupové nemají […] Dále: patroni nemohou bez biskupova souhlasu kostely udílet ani odnímat […]. Církevní majetek […] do rukou patrona ne […] Dále: nadání kostela má uspořádat biskup, nikoli patron […]. Toho, koho patron předkládá jako způsobilého, je povinen […] přijmout, pokud se neprokáže jeho špatnost […]. Biskup nemá pohrdnout patronem a ustanovit ke kostelu jiného […]. Když se více patronů pře o předkládaného, mají být biskupem donuceni shodnout se na jednom […].",
+      "notes": "Pokračování Patronatus z117r.2druhá majetková věta neúplná;4subjekt povinnosti a úplné podmínky nejisté.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_002",
+      "title": "Úsek 2",
+      "line_ids": [
+        "f117v_l007"
+      ],
+      "latin": "Paulus apostolus non […] fefellit, quia […] occupatus ad Hispaniam […] ire […]",
+      "czech": "Apoštol Pavel […] neoklamal, protože byl zaměstnán […] do Hispánie […] jít […].",
+      "notes": "Začátek Paulus, pokračuje9. Přesný objekt přislíbené cesty nedoplněn zBible.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_003",
+      "title": "Úsek 3",
+      "line_ids": [
+        "f117v_l008"
+      ],
+      "latin": "[Izolovaný tah iniciály.]",
+      "czech": "[Bez souvislého překladu.]",
+      "notes": "Neobsahuje samostatné slovo.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_004",
+      "title": "Úsek 4",
+      "line_ids": [
+        "f117v_l009",
+        "f117v_l010",
+        "f117v_l011",
+        "f117v_l012",
+        "f117v_l013"
+      ],
+      "latin": "[…] promisit, non iit […]. Magnus praedicator fuit et propter […] videntiam […] Corinthium Satanae tradidit […]. Propter incontinentiam […] corpus suum vigiliis et flagellis castigavit et in servitutem redegit […]. Aurum et argentum non concupivit sed propriis manibus laboravit […]. Qui […] recipere […] omnibus verbo […] laboravit […].",
+      "czech": "[…] slíbil, nešel […]. Byl velkým kazatelem a kvůli […] důkazu […] vydal Korinťana satanovi […]. Kvůli nezdrženlivosti […] své tělo krotil bděním a bičováním a uváděl do služby […]. Netoužil po zlatě a stříbře, nýbrž pracoval vlastníma rukama […]. Kdo […] přijímat […] všem slovem […] pracoval […].",
+      "notes": "Historická Pavlova exempla.10–11příčiny a subjekty částečné; biblické citáty nerozšířeny na celé standardní znění.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_005",
+      "title": "Úsek 5",
+      "line_ids": [
+        "f117v_l014",
+        "f117v_l015",
+        "f117v_l016",
+        "f117v_l017"
+      ],
+      "latin": "Paupertas non est culpanda, quia eam Christus […] Item Dominus loculos quos habebat necessitatibus pauperum […] Item vere pauper nihil quaerit praeter Christum […]. Pauper est qui se propter Christum paupertat […] pauper voluntarius […]",
+      "czech": "Chudoba se nemá obviňovat, protože ji Kristus […] Dále: Pán pokladničky, které měl, potřebám chudých […] Dále: skutečný chudý nehledá nic kromě Krista […]. Chudým je ten, kdo se kvůli Kristu ochuzuje […] dobrovolně chudý […].",
+      "notes": "Paupertas/Pauper.14a16–17druhé členy neúplné.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_006",
+      "title": "Úsek 6",
+      "line_ids": [
+        "f117v_l018",
+        "f117v_l019",
+        "f117v_l020",
+        "f117v_l021",
+        "f117v_l022"
+      ],
+      "latin": "Paupertas ipsa non est mala reputanda nec in numero malorum computanda […]. Deus paupertatem voluit ut sustinentes per patientiam coronarentur et divites in ipsis […] Item praestat […] quam pauperibus distribuenda servare […]. Honestus […] pauperem sequi non potest […]. Episcopus pauper debet esse victu, dives […] Item praedicatores pauperes debent esse […].",
+      "czech": "Chudoba sama nemá být pokládána za zlo ani počítána mezi zla […]. Bůh chtěl chudobu, aby byli trpící korunováni trpělivostí a bohatí na nich […] Dále: je lépe […] než uchovávat to, co se má rozdat chudým […]. Počestný […] nemůže následovat chudého […]. Biskup má být chudý v živobytí, bohatý […] Dále: kazatelé mají být chudí […].",
+      "notes": "19účel ve vztahu k bohatým,20majetkové doporučení a21antiteze nečitelné. Historická tvrzení, nikoli vlastní hodnocení chudoby.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_007",
+      "title": "Úsek 7",
+      "line_ids": [
+        "f117v_l023",
+        "f117v_l024",
+        "f117v_l025",
+        "f117v_l026"
+      ],
+      "latin": "Gloria est episcopi pauperum opibus providere; sed fraudare quod est pauperum sacrilegium est […]. Religiosus qui professus est paupertatem, si episcopus efficitur non infringit votum, quia fit rerum ecclesiae dispensator, non usurpator […]. Bona ecclesiae sunt bona pauperum […].",
+      "czech": "Biskupovou slávou je z prostředků pečovat o chudé; připravovat je o to, co jim patří, je však svatokrádež […]. Řeholník, který slíbil chudobu, neporušuje slib tím, že se stane biskupem, protože se stává správcem církevních věcí, nikoli jejich uchvatitelem […]. Církevní statky jsou statky chudých […].",
+      "notes": "Jasnější morální a majetkové výroky, právní odkazy zkratkové.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_008",
+      "title": "Úsek 8",
+      "line_ids": [
+        "f117v_l027",
+        "f117v_l028",
+        "f117v_l029",
+        "f117v_l030"
+      ],
+      "latin": "Praecipue pauperibus qui laborare non possunt est subveniendum […]. In pauperibus […] consideranda religio quam paupertas […]. Non minus crudelis est qui a paupere […] exigit quam qui diviti rapit […]. Pauper qui non habet unde reddere, non solum […] sed etiam […] opprimitur […]. Vero pauperi in nulla causa debet esse […]",
+      "czech": "Pomáhat se má zvláště chudým, kteří nemohou pracovat […]. U chudých […] se má posuzovat zbožnost než chudoba […]. Neméně krutý je ten, kdo od chudého […] vymáhá, než ten, kdo okrádá bohatého […]. Chudý, který nemá z čeho splatit, nejen […], nýbrž i […] je utlačován […]. Skutečný chudý v žádné věci […]",
+      "notes": "27druhá věta má nejisté porovnání.30poslední negace a přísudek jsou natolik nejisté, že nelze z překladu odvozovat obecnou normu milosrdenství.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_009",
+      "title": "Úsek 9",
+      "line_ids": [
+        "f117v_l031",
+        "f117v_l032",
+        "f117v_l033",
+        "f117v_l034"
+      ],
+      "latin": "Pax humana tantum diligitur pro humana salute; quanto diligentius est pax divina quae […] aeternam salutem […]. Christus […] pacem dedit […] pacem reliquit […]. Pax non quaeritur ut bellum exerceatur, sed bellum geritur ut pax acquiratur […]. Boni bella non crudelitate et cupiditate sed pacis studio gerunt […].",
+      "czech": "Lidský pokoj je tak milován kvůli lidskému blahu; oč více má být milován Boží pokoj, který […] věčnou spásu […]. Kristus […] dal pokoj […] zanechal pokoj […]. Pokoj se nehledá proto, aby se vedla válka, nýbrž válka se vede, aby se získal pokoj […]. Dobří nevedou války z krutosti a chamtivosti, nýbrž z úsilí o pokoj […].",
+      "notes": "Heslo Pax,31a32neúplné věty a citace.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_010",
+      "title": "Úsek 10",
+      "line_ids": [
+        "f117v_l035",
+        "f117v_l036",
+        "f117v_l037"
+      ],
+      "latin": "Qui indicat pacem debet servare pacem […]. Mali quandoque sunt tolerandi pro pace servanda […]. Pacificus dicitur qui corrigit quod potest, quod non […] supportat […].",
+      "czech": "Kdo vyhlašuje pokoj, má pokoj zachovávat […]. Zlí mají být někdy snášeni kvůli zachování pokoje […]. Mírumilovným se nazývá ten, kdo napravuje, co může, a co nemůže […], snáší […].",
+      "notes": "37je předsazený konec předchozí definice. Nečitelná vazba zůstává mezerou.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_011",
+      "title": "Úsek 11",
+      "line_ids": [
+        "f117v_l038",
+        "f117v_l039",
+        "f117v_l040"
+      ],
+      "latin": "Peccatum est duplex, originale et actuale […]. Originale peccatum dicitur […] carnis, languor animae et concupiscentia carnis […]. Baptismus delet originale et actuale; tamen […] fomes non tollitur […].",
+      "czech": "Hřích je dvojí: prvotní a osobní […]. Prvotním hříchem se nazývá […] těla, slabost duše a tělesná žádostivost […]. Křest smývá prvotní i osobní hřích; přesto se […] podnět k hříchu neodstraňuje […].",
+      "notes": "Historická teologická terminologie.39první označení a40mezičlen vztahu viny/fomes neúplný.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_012",
+      "title": "Úsek 12",
+      "line_ids": [
+        "f117v_l041",
+        "f117v_l042",
+        "f117v_l043",
+        "f117v_l044"
+      ],
+      "latin": "Mortale peccatum est voluntas retinendi aut consequendi quod iustitia vetat […]. Veniale peccatum […] non appetitur propter ipsum sed propter id quod ex eo consequitur […]. Cum duo peccata […] utrumque vitari non potest, minus est eligendum […]. In eodem genere peccati gravius peccat […] quam […] Item videtur quod non […] quis debet peccare ut […]",
+      "czech": "Smrtelným hříchem je vůle podržet nebo dosáhnout toho, co spravedlnost zakazuje […]. Všední hřích […] není chtěn kvůli sobě, nýbrž kvůli tomu, co z něj následuje […]. Když dvěma hříchům […] nelze se vyhnout oběma, má se volit menší […]. Ve stejném druhu hříchu hřeší těžčeji […] než […] Dále: zdá se, že nikdo nemá […] hřešit, aby […].",
+      "notes": "42definice má nečitelné upřesnění,43–44podmínka volby a srovnání nejsou úplné. Neharmonizováno s jinými hesly a normami.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_013",
+      "title": "Úsek 13",
+      "line_ids": [
+        "f117v_l045",
+        "f117v_l046",
+        "f117v_l047",
+        "f117v_l048"
+      ],
+      "latin": "[…] alter vitet mortale […]. Occultum peccatum dicitur quod nec confessione nec probatione publicatur […]. Publica peccata […] omnibus […] Item praelatorum vel religiosorum […] celanda […]. Peccata incorrigibilia, licet non possint probari, tamen sunt praelatis denuntianda […].",
+      "czech": "[…] aby druhý unikl smrtelnému [hříchu] […]. Skrytým hříchem se nazývá ten, který nebyl zveřejněn ani vyznáním, ani důkazem […]. Veřejné hříchy […] všem […] Dále: představených nebo řeholníků […] se mají skrývat […]. Nenapravitelné hříchy, i když nemohou být prokázány, mají se přesto oznámit představeným […].",
+      "notes": "46doporučení veřejného pokání a47důvody zatajování nečitelné. Překlad nepodává úplný režim oznamování provinění.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_014",
+      "title": "Úsek 14",
+      "line_ids": [
+        "f117v_l049",
+        "f117v_l050",
+        "f117v_l051",
+        "f117v_l052"
+      ],
+      "latin": "Peccatum in Spiritum sanctum committit qui ex proposito […] bonum […] malum […] ad mortem facit […]. Assidua peccantium non miseretur Deus […]. Sine poena non dimittuntur quia aut Deus aut homo […] Item dimissa ultra non punit […]. Dimissa quandoque redire dicuntur […]. Item dimissa non sunt recolitanda […]",
+      "czech": "Proti Duchu svatému hřeší ten, kdo záměrně […] dobro […] zlo […] činí k smrti […]. Bůh se neslitovává nad vytrvale hřešícími […]. Bez trestu se neodpouštějí, protože buď Bůh, nebo člověk […] Dále: odpuštěné již netrestá […]. Odpuštěné se někdy vracejí […]. Dále: odpuštěné se nemají znovu připomínat […].",
+      "notes": "49zásadně neúplná definice;50–52různé autority o odpuštění a trestu zachovány bez sjednocení.52pokračuje90.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_015",
+      "title": "Úsek 15",
+      "line_ids": [
+        "f117v_l053",
+        "f117v_l054",
+        "f117v_l055",
+        "f117v_l056",
+        "f117v_l057",
+        "f117v_l058",
+        "f117v_l059",
+        "f117v_l060",
+        "f117v_l061",
+        "f117v_l062",
+        "f117v_l063",
+        "f117v_l064",
+        "f117v_l065",
+        "f117v_l066",
+        "f117v_l067",
+        "f117v_l068",
+        "f117v_l069",
+        "f117v_l070",
+        "f117v_l071",
+        "f117v_l072",
+        "f117v_l073",
+        "f117v_l074",
+        "f117v_l075",
+        "f117v_l076",
+        "f117v_l077",
+        "f117v_l078",
+        "f117v_l079",
+        "f117v_l080",
+        "f117v_l081",
+        "f117v_l082",
+        "f117v_l083",
+        "f117v_l084",
+        "f117v_l085",
+        "f117v_l086",
+        "f117v_l087",
+        "f117v_l088",
+        "f117v_l089"
+      ],
+      "latin": "[Úzké fragmenty protější strany ve žlábku.]",
+      "czech": "[Bez souvislého překladu.]",
+      "notes": "Cizí pravý sloupek mimo vlastní text této strany.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_016",
+      "title": "Úsek 16",
+      "line_ids": [
+        "f117v_l090",
+        "f117v_l091",
+        "f117v_l092"
+      ],
+      "latin": "[…] ad delectationem sed ad […] poenitentiam […]. Qui in pluribus peccatis manet de uno peccato poenitentiam veram agere non potest, quia Deus per partes donare non novit […]. Pietas veniam non dimidiabit: aut totum […] Propinquitudo diaboli […] peccatoribus […]",
+      "czech": "[…] pro potěšení, nýbrž pro […] pokání […]. Kdo zůstává ve více hříších, nemůže činit pravé pokání za jediný, protože Bůh neumí odpouštět po částech […]. Slitovnost nerozpůlí odpuštění: buď vše […] Blízkost ďábla […] hříšníkům […].",
+      "notes": "90navazuje52s připojeným cizím pravým koncem.92poslední definice je zlomková a pokračuje118r.",
+      "operations": [],
+      "language": "la"
+    },
+    {
+      "id": "u_117v_017",
+      "title": "Úsek 17",
+      "line_ids": [
+        "f117v_l093",
+        "f117v_l094",
+        "f117v_l095",
+        "f117v_l096"
+      ],
+      "latin": "[Úzké cizí fragmenty a okrajové tahy.]",
+      "czech": "[Bez souvislého překladu.]",
+      "notes": "Pravý žlábek mimo hlavní sloupec.",
+      "operations": [],
+      "language": "la"
+    }
+  ],
+  "supplemental_readings": [],
+  "preview": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/previews/117v.webp",
+  "tiles": {
+    "type": "dzi",
+    "width": 3900,
+    "height": 5600,
+    "tileSize": 512,
+    "tileOverlap": 1,
+    "tilesUrl": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/tiles/117v/",
+    "fileFormat": "webp"
+  },
+  "blank": false,
+  "expert_review": false,
+  "downloads": [
+    {
+      "name": "Neupravené HTR a geometrie JSON",
+      "href": "/data/vkol-m-i-259/117v/comparison.json"
+    },
+    {
+      "name": "catmus · původní TXT",
+      "href": "/data/vkol-m-i-259/117v/catmus.raw.txt"
+    },
+    {
+      "name": "catmus · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/117v/catmus.alto.xml"
+    },
+    {
+      "name": "medusa · původní TXT",
+      "href": "/data/vkol-m-i-259/117v/medusa.raw.txt"
+    },
+    {
+      "name": "medusa · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/117v/medusa.alto.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · původní místní TEI P5 4.12.0",
+      "href": "/data/vkol-m-i-259/117v/edition.tei.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · TEI s webovými odkazy",
+      "href": "/data/vkol-m-i-259/117v/edition.web.tei.xml"
+    },
+    {
+      "name": "Rekonstrukce a překlad JSON (původní jednotky)",
+      "href": "/data/vkol-m-i-259/117v/reconstruction.json"
+    },
+    {
+      "name": "Rekonstrukce TXT",
+      "href": "/data/vkol-m-i-259/117v/reconstruction.txt"
+    },
+    {
+      "name": "Český překlad TXT",
+      "href": "/data/vkol-m-i-259/117v/translation.cs.txt"
+    },
+    {
+      "name": "Doklady obrazové kontroly JSON",
+      "href": "/data/vkol-m-i-259/117v/evidence.json"
+    }
+  ],
+  "document_id": "vkol-m-i-259",
+  "document_uri": "https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-i-259",
+  "repository": {
+    "name": "Vědecká knihovna v Olomouci",
+    "uri": "https://www.vkol.cz/",
+    "settlement": "Olomouc",
+    "country": "Česko"
+  },
+  "model_input": {
+    "sha256": "687ff6b521abe7194c75758be0901aa79e7ea2c2259f69c9860953084fe0f8af",
+    "operation": "Native RGB TIFF frame 0, full page, unmasked; no resampling",
+    "reading_zone_xyxy": [
+      0,
+      0,
+      3900,
+      5600
+    ],
+    "masked_pilot": false
+  }
+}

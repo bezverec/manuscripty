@@ -1,0 +1,178 @@
+{
+  "folio": "FC",
+  "label": "Přední deska",
+  "kind": "segments",
+  "width": 4120,
+  "height": 5820,
+  "models": {
+    "catmus": "CATMuS medieval 1.6.0",
+    "medusa": "Medusa 0.2Line-4B"
+  },
+  "source_original": "EX/M_I_259_____09Z2NI6EX000FC.TIF",
+  "source_sha256": "46f35b7ce9d6f7ecc39241e0a27c05ca0f4eb31d602a49d1cc994dc5cd189372",
+  "coordinate_source": {
+    "id": "vkol-m-i-259_FC_coordinate",
+    "sha256": "3e4a92b91b2da7e2ce34dabed9687799c783d18aa1974fd2ee04dbcfd4409387",
+    "width": 4120,
+    "height": 5820,
+    "frame": 0,
+    "derived_from_sha256": "46f35b7ce9d6f7ecc39241e0a27c05ca0f4eb31d602a49d1cc994dc5cd189372",
+    "original_tiff_frame": 0,
+    "rotation_ccw_degrees": 0,
+    "source_to_coordinate_pixel_edge_affine": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "bbox_format": "xywh",
+    "origin": "top-left"
+  },
+  "language": "la",
+  "analysis_scope": "Oba původní HTR kandidáti po stejných segmentech. Samostatné doplňkové obrazové čtení není HTR. Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "notes": "Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "lines": [
+    {
+      "id": "fFC_l001",
+      "source_segment_ids": [
+        "fFC_l001"
+      ],
+      "bbox": [
+        766,
+        827,
+        598,
+        168
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/FC/fFC_l001.webp",
+      "raw_htr": {
+        "catmus": "m",
+        "medusa": "d"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    }
+  ],
+  "passages": [
+    {
+      "id": "u_FC_001",
+      "title": "Úsek 1",
+      "line_ids": [
+        "fFC_l001"
+      ],
+      "latin": "[M?]",
+      "czech": "[Signaturní písmeno M?]",
+      "notes": "Automatický segment obsahuje jen malou část štítku. Celý štítek M259 je samostatně čtený z nativního výřezu níže; tento segment není vydáván za jeho úplnou geometrii.",
+      "operations": [],
+      "language": "la"
+    }
+  ],
+  "supplemental_readings": [
+    {
+      "id": "label",
+      "source_region_xyxy": [
+        450,
+        300,
+        1650,
+        1000
+      ],
+      "crop_rotation_ccw_degrees": 0,
+      "reconstruction": "M 259",
+      "translation_cs": "M 259 [signaturní štítek]",
+      "note_cs": "PísmenoM a číslo259 čteny přímo v nativním výřezu.",
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/supplemental/FC/label.webp",
+      "status": "proposed",
+      "expert_review": false
+    }
+  ],
+  "preview": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/previews/FC.webp",
+  "tiles": {
+    "type": "dzi",
+    "width": 4120,
+    "height": 5820,
+    "tileSize": 512,
+    "tileOverlap": 1,
+    "tilesUrl": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/tiles/FC/",
+    "fileFormat": "webp"
+  },
+  "blank": false,
+  "expert_review": false,
+  "downloads": [
+    {
+      "name": "Neupravené HTR a geometrie JSON",
+      "href": "/data/vkol-m-i-259/FC/comparison.json"
+    },
+    {
+      "name": "catmus · původní TXT",
+      "href": "/data/vkol-m-i-259/FC/catmus.raw.txt"
+    },
+    {
+      "name": "catmus · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/FC/catmus.alto.xml"
+    },
+    {
+      "name": "medusa · původní TXT",
+      "href": "/data/vkol-m-i-259/FC/medusa.raw.txt"
+    },
+    {
+      "name": "medusa · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/FC/medusa.alto.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · původní místní TEI P5 4.12.0",
+      "href": "/data/vkol-m-i-259/FC/edition.tei.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · TEI s webovými odkazy",
+      "href": "/data/vkol-m-i-259/FC/edition.web.tei.xml"
+    },
+    {
+      "name": "Rekonstrukce a překlad JSON (původní jednotky)",
+      "href": "/data/vkol-m-i-259/FC/reconstruction.json"
+    },
+    {
+      "name": "Rekonstrukce TXT",
+      "href": "/data/vkol-m-i-259/FC/reconstruction.txt"
+    },
+    {
+      "name": "Český překlad TXT",
+      "href": "/data/vkol-m-i-259/FC/translation.cs.txt"
+    },
+    {
+      "name": "Doklady obrazové kontroly JSON",
+      "href": "/data/vkol-m-i-259/FC/evidence.json"
+    }
+  ],
+  "document_id": "vkol-m-i-259",
+  "document_uri": "https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-i-259",
+  "repository": {
+    "name": "Vědecká knihovna v Olomouci",
+    "uri": "https://www.vkol.cz/",
+    "settlement": "Olomouc",
+    "country": "Česko"
+  },
+  "model_input": {
+    "sha256": "3e4a92b91b2da7e2ce34dabed9687799c783d18aa1974fd2ee04dbcfd4409387",
+    "operation": "Native RGB TIFF frame 0, full page, unmasked; no resampling",
+    "reading_zone_xyxy": [
+      0,
+      0,
+      4120,
+      5820
+    ],
+    "masked_pilot": false
+  }
+}

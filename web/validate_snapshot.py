@@ -99,7 +99,7 @@ require(len(tei.findall('.//t:facsimile/t:surface', NS)) == 677, 'Incomplete who
 registry = load(ROOT / 'web/manuscripts.json')
 require(registry['schema'] == 'manuscripty-static-registry-v1', 'Unexpected manuscript registry schema')
 registered = registry['manuscripts']
-require(len(registered) == 2 and {m['id'] for m in registered} == {'vkol-m-ii-220', 'vkol-m-ii-153'}, 'Expected exactly two registered manuscripts')
+require(len(registered) == 3 and {m['id'] for m in registered} == {'vkol-m-ii-220', 'vkol-m-ii-153', 'vkol-m-i-259'}, 'Expected exactly three registered manuscripts')
 registry_by_id = {m['id']: m for m in registered}
 require(all(m['default_model'] == 'catmus' for m in registered), 'Unexpected default HTR model')
 require(registry_by_id['vkol-m-ii-220']['manifest'].lstrip('/') == 'pilot-data.js', 'Changed legacy registry manifest')
@@ -177,11 +177,129 @@ rng.assertValid(tei153)
 scan_divs153 = tei153.findall('.//t:text/t:body/t:div[@type="scan"]', NS)
 require(len(scan_divs153) == 197 and {div.get('n') for div in scan_divs153} == scans153, 'Incomplete M II 153 whole-document TEI scan index')
 
+
+# M I 259 has an independent acceptance corpus. Its scan IDs are physical
+# inventory identifiers, including the two additional scans, not proved foliation.
+require(registry_by_id['vkol-m-i-259']['manifest'].lstrip('/') == 'data/vkol-m-i-259/manifest.json', 'Wrong M I 259 registry manifest')
+order259 = ['FC', 'FS', 'F001R', 'F001V']
+for n in range(1, 181):
+    for side in ('r', 'v'):
+        f = str(n) + side
+        order259.append(f)
+        if f in ('83v', '84r'):
+            order259.append('extra-' + f)
+order259 += ['B001R', 'B001V', 'BS', 'BC', 'SP']
+manifest259 = load(public_file(registry_by_id['vkol-m-i-259']['manifest']))
+require(manifest259['schema'] == 'manuscripty-public-v1' and manifest259['publication_ready'] is True, 'M I 259 is not a complete publication snapshot')
+entries259 = manifest259['pages']
+require(len(entries259) == 371 and [p['folio'] for p in entries259] == order259, 'M I 259 scan order/coverage or duplicate scan')
+document259 = manifest259['document']
+require(document259['id'] == 'vkol-m-i-259' and document259['repository']['name'] == 'Vědecká knihovna v Olomouci', 'Wrong M I 259 document identity/institution')
+actual259 = dict.fromkeys(('pages', 'lines', 'passages', 'blank', 'text_pages', 'supplemental_readings'), 0)
+actual259['pages'] = len(entries259)
+pages259 = {}
+masked259 = set()
+rotation259 = {'FS': 90, 'B001R': 90, 'BS': 90, 'B001V': 270}
+coordinate_ids259 = set()
+for entry in entries259:
+    f = entry['folio']
+    prefix = 'data/vkol-m-i-259/' + f + '/'
+    require(entry['data'].lstrip('/') == prefix + 'page.json', 'Wrong M I 259 page URL: ' + f)
+    p = load(public_file(entry['data']))
+    pages259[f] = p
+    require(p['folio'] == f and p['document_id'] == 'vkol-m-i-259' and p['document_uri'] == document259['uri'], 'Wrong M I 259 page identity: ' + f)
+    require(p['repository'] == document259['repository'], 'Wrong M I 259 holding institution: ' + f)
+    require(p['expert_review'] is False and isinstance(p['source_sha256'], str) and re.fullmatch('[a-f0-9]{64}', p['source_sha256']), 'Wrong M I 259 provenance/review state: ' + f)
+    require(isinstance(p['source_original'], str) and re.fullmatch(r'EX/[^/\\]+\.[Tt][Ii][Ff][Ff]?', p['source_original']), 'Missing M I 259 archival TIFF identity: ' + f)
+    require(all(isinstance(p[k], int) and not isinstance(p[k], bool) and p[k] > 0 for k in ('width', 'height')), 'Invalid M I 259 raster dimensions: ' + f)
+    c = p['coordinate_source']
+    require(c['id'] not in coordinate_ids259 and c['id'] == 'vkol-m-i-259_' + f + '_coordinate', 'Duplicate/missing M I 259 coordinate raster ID: ' + f)
+    coordinate_ids259.add(c['id'])
+    require(c['derived_from_sha256'] == p['source_sha256'] and re.fullmatch('[a-f0-9]{64}', c['sha256']), 'M I 259 coordinate/TIFF hash mismatch: ' + f)
+    require((c['width'], c['height']) == (p['width'], p['height']) and c['frame'] == 0 and c['original_tiff_frame'] == 0 and c['bbox_format'] == 'xywh' and c['origin'] == 'top-left', 'Wrong M I 259 coordinate space: ' + f)
+    rotation = rotation259.get(f, 0)
+    affine = {0: [[1, 0, 0], [0, 1, 0], [0, 0, 1]], 90: [[0, 1, 0], [-1, 0, c['height']], [0, 0, 1]], 180: [[-1, 0, c['width']], [0, -1, c['height']], [0, 0, 1]], 270: [[0, -1, c['width']], [1, 0, 0], [0, 0, 1]]}
+    require(c['rotation_ccw_degrees'] == rotation and c['source_to_coordinate_pixel_edge_affine'] == affine[rotation], 'Wrong M I 259 TIFF-to-coordinate pixel-edge affine: ' + f)
+    require('model_input' not in c, 'M I 259 coordinate raster conflates model input: ' + f)
+    model_input = p['model_input']
+    require(isinstance(model_input, dict) and re.fullmatch('[a-f0-9]{64}', model_input['sha256']) and isinstance(model_input['masked_pilot'], bool), 'Missing M I 259 separate model-input provenance: ' + f)
+    require(isinstance(model_input['operation'], str) and model_input['operation'], 'Missing M I 259 model-input operation: ' + f)
+    mx, my, mx1, my1 = model_input['reading_zone_xyxy']
+    require(all(isinstance(v, int) and not isinstance(v, bool) for v in (mx, my, mx1, my1)) and 0 <= mx < mx1 <= p['width'] and 0 <= my < my1 <= p['height'], 'Invalid M I 259 model-input reading zone: ' + f)
+    if model_input['masked_pilot']:
+        masked259.add(f)
+        require(model_input['sha256'] != c['sha256'], 'M I 259 mask hash used as full coordinate raster: ' + f)
+    else:
+        require(model_input['sha256'] == c['sha256'] and model_input['reading_zone_xyxy'] == [0, 0, p['width'], p['height']], 'M I 259 full model input differs from coordinate raster: ' + f)
+    require(isinstance(p['blank'], bool) and entry['blank'] == p['blank'] and p['blank'] == (not p['lines']), 'M I 259 blank state mismatch: ' + f)
+    actual259['blank' if p['blank'] else 'text_pages'] += 1
+    comparison = load(public_file(prefix + 'comparison.json'))
+    reconstruction = load(public_file(prefix + 'reconstruction.json'))
+    evidence = load(public_file(prefix + 'evidence.json'))
+    require(comparison['folio'] == f and comparison['expert_review'] is False and comparison['coordinate_source'] == c and comparison['source_original'] == p['source_original'] and comparison['source_sha256'] == p['source_sha256'], 'M I 259 comparison provenance mismatch: ' + f)
+    require(reconstruction['folio'] == f and reconstruction['status'] == 'proposed' and reconstruction['expert_review'] is False and evidence['folio'] == f and evidence['status'] == 'proposed' and evidence['expert_review'] is False, 'M I 259 interpretation/evidence identity or review state: ' + f)
+    fingerprint = hashlib.sha256(json.dumps([[r['bbox_xyxy'], r['boundary'], r['baseline']] for r in comparison['lines']], sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+    require(comparison['geometry_fingerprint'] == reconstruction['geometry_fingerprint'] == evidence['geometry_fingerprint'] == fingerprint, 'M I 259 geometry/evidence fingerprint mismatch: ' + f)
+    require(all(re.fullmatch('[a-f0-9]{64}', evidence[k]) for k in ('author_sha256', 'inspection_sha256')), 'Missing M I 259 author/inspection evidence hash: ' + f)
+    line_order = [line['id'] for line in p['lines']]
+    ids = set(line_order)
+    require(len(ids) == len(line_order) and [r['id'] for r in comparison['lines']] == line_order, 'M I 259 duplicate/mismatched line IDs: ' + f)
+    for line, raw in zip(p['lines'], comparison['lines']):
+        x, y, w, h = line['bbox']
+        require(all(isinstance(v, int) and not isinstance(v, bool) for v in (x, y, w, h)) and x >= 0 and y >= 0 and w > 0 and h > 0 and x + w <= p['width'] and y + h <= p['height'], 'Out-of-bounds M I 259 geometry: ' + line['id'])
+        require(raw['bbox_xyxy'] == [x, y, x + w, y + h] and line['source_segment_ids'] == [line['id']], 'Changed M I 259 source segment geometry/identity: ' + line['id'])
+        require(set(line['raw_htr']) == {'catmus', 'medusa'} and all(isinstance(line['raw_htr'][model], str) and line['raw_htr'][model] == raw['candidates'][model]['raw'] for model in ('catmus', 'medusa')), 'Changed M I 259 HTR candidate Unicode: ' + line['id'])
+    require(len({v['id'] for v in p['passages']}) == len(p['passages']), 'Duplicate M I 259 passage ID: ' + f)
+    coverage = []
+    require(len(p['passages']) == len(reconstruction['units']), 'M I 259 interpretation unit count mismatch: ' + f)
+    unit_indices = []
+    for passage, unit in zip(p['passages'], reconstruction['units']):
+        require(passage['latin'] and passage['czech'] and passage['line_ids'] and set(passage['line_ids']) <= ids, 'Invalid M I 259 passage linkage: ' + f)
+        require(passage['line_ids'] == line_order[unit['start'] - 1:unit['end']] and passage['latin'] == unit['reconstruction'] and passage['czech'] == unit['translation_cs'], 'Changed M I 259 interpretation range/text: ' + f)
+        coverage.extend(passage['line_ids'])
+        unit_indices.extend(range(unit['start'], unit['end'] + 1))
+    require(coverage == line_order and unit_indices == list(range(1, len(line_order) + 1)), 'Uncovered, overlapping or reordered M I 259 text segments: ' + f)
+    supplemental = p['supplemental_readings']
+    require(len({v['id'] for v in supplemental}) == len(supplemental) and not ({v['id'] for v in supplemental} & ids), 'M I 259 supplemental/HTR ID collision: ' + f)
+    original_supplemental = reconstruction.get('supplemental_readings', [])
+    require(len(supplemental) == len(original_supplemental), 'M I 259 supplemental count mismatch: ' + f)
+    for reading, original in zip(supplemental, original_supplemental):
+        require(reading['status'] == 'proposed' and reading['expert_review'] is False and 'raw_htr' not in reading and 'line_ids' not in reading, 'M I 259 supplemental reading claims HTR/review: ' + f)
+        require(all(reading[k] == original[k] for k in ('id', 'source_region_xyxy', 'crop_rotation_ccw_degrees', 'reconstruction', 'translation_cs', 'note_cs')), 'Changed M I 259 supplemental reading: ' + f)
+        x, y, x1, y1 = reading['source_region_xyxy']
+        require(all(isinstance(v, int) and not isinstance(v, bool) for v in (x, y, x1, y1)) and 0 <= x < x1 <= p['width'] and 0 <= y < y1 <= p['height'] and reading['crop_rotation_ccw_degrees'] in (0, 90, 180, 270), 'Invalid M I 259 supplemental geometry: ' + f)
+    require(entry['segments'] == len(p['lines']) and entry['passages'] == len(p['passages']) and entry['supplemental_readings'] == len(supplemental), 'M I 259 header/data count mismatch: ' + f)
+    required_downloads = {prefix + name for name in ('comparison.json', 'catmus.raw.txt', 'medusa.raw.txt', 'catmus.alto.xml', 'medusa.alto.xml', 'edition.tei.xml', 'edition.web.tei.xml', 'reconstruction.json', 'reconstruction.txt', 'translation.cs.txt', 'evidence.json')}
+    require(required_downloads <= {d['href'].lstrip('/') for d in p['downloads']}, 'Missing M I 259 source/interpretation download: ' + f)
+    for download in p['downloads']:
+        public_file(download['href'])
+    for model in ('catmus', 'medusa'):
+        require(public_file(prefix + model + '.raw.txt').read_bytes().decode('utf8') == '\n'.join(line['raw_htr'][model] for line in p['lines']), 'M I 259 raw TXT identity differs: ' + f + '/' + model)
+    actual259['lines'] += len(p['lines'])
+    actual259['passages'] += len(p['passages'])
+    actual259['supplemental_readings'] += len(supplemental)
+require(actual259 == manifest259['counts'] == document259['counts'] and actual259['supplemental_readings'] == 3, 'Actual M I 259 counts disagree with complete manifest')
+require(masked259 == {'1r', '14r', '18r', '25r', '46r', '62r', '88r', '100r', '135r', '145r'}, 'Wrong M I 259 masked-pilot inventory')
+structure259 = load(public_file(manifest259['structure_url']))
+require(structure259['status'] == 'proposed' and structure259['expert_review'] is False and structure259['counts'] == actual259, 'Wrong M I 259 structure state/counts')
+leaves259 = [p for g in structure259['groups'] for p in g['pages']]
+require([p['folio'] for p in leaves259] == order259, 'Incomplete/reordered M I 259 working structure')
+for leaf in leaves259:
+    p = pages259[leaf['folio']]
+    require(leaf['blank'] == p['blank'] and leaf['source_sha256'] == p['source_sha256'], 'M I 259 structure/page provenance mismatch: ' + p['folio'])
+    require([v['id'] for v in leaf['passages']] == [v['id'] for v in p['passages']] and [v['line_id'] for v in leaf['passages']] == [v['line_ids'][0] for v in p['passages']], 'M I 259 structure/page passage linkage mismatch: ' + p['folio'])
+tei259 = etree.parse(str(public_file('tei/vkol-m-i-259.xml')), parser)
+require(tei259.getroot().get('version') == '4.12.0', 'Wrong M I 259 whole-document TEI version')
+rng.assertValid(tei259)
+surfaces259 = tei259.findall('.//t:facsimile/t:surface', NS)
+require(len(surfaces259) == 371 and [surface.get('n') for surface in surfaces259] == order259, 'Incomplete/reordered M I 259 whole-document TEI surface index')
+
 report = {'status': 'passed', 'copied_files_sha256_verified': len(record['files']), 'bytes': sum(f['bytes'] for f in record['files']), 'syntax': syntax,
           'counts': counts, 'bbox_checked': counts['lines'], 'whole_document_tei_relaxng': 'passed', 'expert_review': False,
           'registry_manuscripts': len(registered),
           'manuscripts': {'vkol-m-ii-220': {'counts': counts, 'bbox_checked': counts['lines'], 'whole_document_tei_relaxng': 'passed', 'tei_surface_count': 677},
-                          'vkol-m-ii-153': {'counts': actual153, 'folios': len(folios153), 'binding_scans': len(bindings153), 'bbox_checked': actual153['lines'], 'whole_document_tei_relaxng': 'passed', 'tei_scan_div_count': len(scan_divs153), 'interpretation_status': 'proposed'}},
+                          'vkol-m-ii-153': {'counts': actual153, 'folios': len(folios153), 'binding_scans': len(bindings153), 'bbox_checked': actual153['lines'], 'whole_document_tei_relaxng': 'passed', 'tei_scan_div_count': len(scan_divs153), 'interpretation_status': 'proposed'},
+                          'vkol-m-i-259': {'counts': actual259, 'bbox_checked': actual259['lines'], 'raw_candidate_unicode_and_txt': 'passed', 'coordinate_source_and_affine': 'passed', 'masked_pilot_pages': len(masked259), 'supplemental_readings_separate': actual259['supplemental_readings'], 'whole_document_tei_relaxng': 'passed', 'tei_surface_count': len(surfaces259), 'interpretation_status': 'proposed'}},
           'scope': 'Text snapshot integrity, syntax, page/download/passage links, geometry and whole-document TEI index. Not new image inspection or full schema revalidation of every existing edition.'}
 (ROOT / 'docs/validation/repository-snapshot-validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf8', newline='\n')
 print(json.dumps(report, ensure_ascii=False))
