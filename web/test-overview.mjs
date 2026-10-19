@@ -39,8 +39,8 @@ try{
   assert.equal(await page.locator('.ai-theme').count(),7);
   assert.equal(await page.locator('.source-entry').count(),items);
   assert.equal(await page.locator('.source-label').count(),2);
-  assert.equal(await page.locator('.digitization-support').count(),2);
-  assert.deepEqual(await page.locator('.digitization-support p').allTextContents(),['Zdigitalizováno ve VISK 6','Zdigitalizováno ve VISK 6']);
+  assert.equal(await page.locator('.digitization-support').count(),1);
+  assert.deepEqual(await page.locator('.digitization-support p').allTextContents(),['Zdigitalizováno ve VISK 6']);
   await page.locator('.digitization-support img').first().waitFor({state:'visible'});
   assert.ok(await page.locator('.digitization-support img').first().evaluate(img=>img.complete && img.naturalWidth>0 && img.getBoundingClientRect().width<=150),'Official logo must load at a modest size');
   assert.equal(await page.locator('link[rel=canonical]').getAttribute('href'),'https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-'+id);

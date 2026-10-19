@@ -6,7 +6,7 @@ from pathlib import Path
 
 PACKAGE = Path(__file__).resolve().parent
 LOGO_SHA = '4a56caf133530ed276a94a4d57280c0fb888235bc23a70f8719144030ff0facf'
-REV = '20261016-1'
+REV = '20261019-1'
 CREDIT = '<aside class="digitization-support" aria-label="Podpora digitalizace"><p>Zdigitalizováno ve VISK 6</p><a href="https://www.mk.gov.cz/" aria-label="Ministerstvo kultury"><img src="/brand/logo-mk.svg" alt="Ministerstvo kultury" width="150" height="86" decoding="async"></a></aside>'
 
 
@@ -26,13 +26,14 @@ def stylesheet(text):
 
 def decorate_record(text):
     text = re.sub(r'<aside class="digitization-support".*?</aside>', '', text, flags=re.S)
-    text, count = re.subn(r'(<div class="hero-actions">.*?</div>)', lambda m: m[1]+CREDIT, text, count=1, flags=re.S)
-    if count != 1:
-        raise ValueError('Missing manuscript overview actions')
     summary_credit = CREDIT.replace('aria-label="Podpora digitalizace"', 'aria-label="Podpora digitalizace předlohy u shrnutí"', 1)
     text, count = re.subn(r'(<article id="ai-shrnuti"[^>]*>)', lambda m: m[1]+summary_credit, text)
     if count > 1:
         raise ValueError('Ambiguous AI summary section')
+    if count == 0:
+        text, count = re.subn(r'(<div class="hero-actions">.*?</div>)', lambda m: m[1]+CREDIT, text, count=1, flags=re.S)
+        if count != 1:
+            raise ValueError('Missing manuscript overview actions')
     return stylesheet(text)
 
 

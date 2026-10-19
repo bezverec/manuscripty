@@ -12,8 +12,10 @@ podklad. Generátory přehledů, prohlížeče a folií vkládají stejné motiv
 `digitization_support.py --public-root /site/public` přidá malé označení
 „Zdigitalizováno ve VISK 6“ a původní logo Ministerstva kultury k oběma
 přehledům a do části Popis společného prohlížeče.
-V přehledech se označení opakuje také na začátku sekce `#ai-shrnuti`, aby
-bylo vidět při otevření přímého odkazu na shrnutí.
+V každém přehledu je označení pouze jednou, na začátku sekce `#ai-shrnuti`,
+aby bylo vidět také při otevření přímého odkazu na shrnutí. Pokud sestavovaná
+stránka zatím shrnutí nemá, označení se vloží pod hlavní odkazy; pozdější
+sestavení přehledu je přesune ke shrnutí bez duplikace.
 Zdrojové SVG v `assets/` je připnuté SHA, kopíruje se beze změny a nevyžaduje síť při sestavení.
 Generátory přehledů i společného prohlížeče zachovávají stejné označení.
 Podpora se vztahuje k digitalizaci rukopisů; nejde o označení výkladů AI.
