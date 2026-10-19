@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 21v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Breves annotationes theologicae. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_21v_coordinate; PNG SHA256 2638b517b378fa9d4935d79293fbf53481428c0466d7dba085f1048456cd9990; archival TIFF SHA256 bef60f4e91beae280e9bcc1d8e9a2ecfece319d2568365b07238ebe638c4dd27; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_21v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#21v"/>
+      <zone ulx="1266" uly="510" lrx="2405" lry="650" xml:id="z_f21v_l001"/>
+      <zone ulx="2474" uly="360" lrx="2860" lry="550" xml:id="z_f21v_l002"/>
+      <zone ulx="893" uly="597" lrx="3364" lry="765" xml:id="z_f21v_l003"/>
+      <zone ulx="840" uly="715" lrx="3311" lry="849" xml:id="z_f21v_l004"/>
+      <zone ulx="849" uly="808" lrx="3339" lry="939" xml:id="z_f21v_l005"/>
+      <zone ulx="846" uly="892" lrx="3352" lry="1023" xml:id="z_f21v_l006"/>
+      <zone ulx="827" uly="976" lrx="3358" lry="1129" xml:id="z_f21v_l007"/>
+      <zone ulx="796" uly="1054" lrx="3352" lry="1225" xml:id="z_f21v_l008"/>
+      <zone ulx="827" uly="1138" lrx="3392" lry="1316" xml:id="z_f21v_l009"/>
+      <zone ulx="834" uly="1235" lrx="3364" lry="1403" xml:id="z_f21v_l010"/>
+      <zone ulx="827" uly="1322" lrx="3327" lry="1487" xml:id="z_f21v_l011"/>
+      <zone ulx="855" uly="1403" lrx="3439" lry="1583" xml:id="z_f21v_l012"/>
+      <zone ulx="846" uly="1490" lrx="3436" lry="1680" xml:id="z_f21v_l013"/>
+      <zone ulx="837" uly="1580" lrx="3339" lry="1770" xml:id="z_f21v_l014"/>
+      <zone ulx="834" uly="1664" lrx="3358" lry="1860" xml:id="z_f21v_l015"/>
+      <zone ulx="849" uly="1748" lrx="3345" lry="1947" xml:id="z_f21v_l016"/>
+      <zone ulx="824" uly="1835" lrx="3324" lry="2022" xml:id="z_f21v_l017"/>
+      <zone ulx="874" uly="1919" lrx="3370" lry="2115" xml:id="z_f21v_l018"/>
+      <zone ulx="849" uly="2012" lrx="3333" lry="2199" xml:id="z_f21v_l019"/>
+      <zone ulx="855" uly="2078" lrx="3321" lry="2280" xml:id="z_f21v_l020"/>
+      <zone ulx="859" uly="2162" lrx="3405" lry="2364" xml:id="z_f21v_l021"/>
+      <zone ulx="849" uly="2243" lrx="3336" lry="2432" xml:id="z_f21v_l022"/>
+      <zone ulx="846" uly="2345" lrx="3327" lry="2498" xml:id="z_f21v_l023"/>
+      <zone ulx="859" uly="2436" lrx="3339" lry="2579" xml:id="z_f21v_l024"/>
+      <zone ulx="868" uly="2516" lrx="3423" lry="2669" xml:id="z_f21v_l025"/>
+      <zone ulx="862" uly="2604" lrx="3333" lry="2750" xml:id="z_f21v_l026"/>
+      <zone ulx="859" uly="2675" lrx="3349" lry="2831" xml:id="z_f21v_l027"/>
+      <zone ulx="883" uly="2756" lrx="3442" lry="2908" xml:id="z_f21v_l028"/>
+      <zone ulx="862" uly="2843" lrx="3358" lry="2989" xml:id="z_f21v_l029"/>
+      <zone ulx="877" uly="2927" lrx="3317" lry="3055" xml:id="z_f21v_l030"/>
+      <zone ulx="855" uly="3005" lrx="3504" lry="3151" xml:id="z_f21v_l031"/>
+      <zone ulx="874" uly="3086" lrx="3364" lry="3226" xml:id="z_f21v_l032"/>
+      <zone ulx="868" uly="3170" lrx="3426" lry="3322" xml:id="z_f21v_l033"/>
+      <zone ulx="893" uly="3254" lrx="3386" lry="3409" xml:id="z_f21v_l034"/>
+      <zone ulx="899" uly="3341" lrx="3395" lry="3493" xml:id="z_f21v_l035"/>
+      <zone ulx="883" uly="3434" lrx="3386" lry="3565" xml:id="z_f21v_l036"/>
+      <zone ulx="759" uly="3512" lrx="3395" lry="3658" xml:id="z_f21v_l037"/>
+      <zone ulx="924" uly="3593" lrx="3383" lry="3748" xml:id="z_f21v_l038"/>
+      <zone ulx="902" uly="3686" lrx="3377" lry="3832" xml:id="z_f21v_l039"/>
+      <zone ulx="915" uly="3767" lrx="3417" lry="3926" xml:id="z_f21v_l040"/>
+      <zone ulx="936" uly="3857" lrx="3308" lry="3994" xml:id="z_f21v_l041"/>
+      <zone ulx="905" uly="3951" lrx="3386" lry="4081" xml:id="z_f21v_l042"/>
+      <zone ulx="899" uly="4028" lrx="3486" lry="4181" xml:id="z_f21v_l043"/>
+      <zone ulx="871" uly="4119" lrx="3336" lry="4268" xml:id="z_f21v_l044"/>
+      <zone ulx="915" uly="4203" lrx="3386" lry="4355" xml:id="z_f21v_l045"/>
+      <zone ulx="911" uly="4287" lrx="3327" lry="4529" xml:id="z_f21v_l046"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f21v_l001" xml:id="catmus_f21v_l001"/>
+          <seg type="raw_unreviewed">Dequi depr nr. mͭ ui i</seg>
+          <lb facs="#z_f21v_l002" xml:id="catmus_f21v_l002"/>
+          <seg type="raw_unreviewed">e</seg>
+          <lb facs="#z_f21v_l003" xml:id="catmus_f21v_l003"/>
+          <seg type="raw_unreviewed">rẽs kñu ꝑtotũ anũ nb pdior descit᷑ stitũ Iã de do Iñ bestĩs. Q s</seg>
+          <lb facs="#z_f21v_l004" xml:id="catmus_f21v_l004"/>
+          <seg type="raw_unreviewed">ta orõe marissie / bñ nõ ħ or̃o suꝑos or̃oes quida᷑ ascis ꝓp t̾a. qd</seg>
+          <lb facs="#z_f21v_l005" xml:id="catmus_f21v_l005"/>
+          <seg type="raw_unreviewed">ipeꝰ dig̾tate. qr abip̃o dño ꝯpõita s̃ ⁊ edocta luce xi eũ dñs nr̃.</seg>
+          <lb facs="#z_f21v_l006" xml:id="catmus_f21v_l006"/>
+          <seg type="raw_unreviewed">u ͭ dẽt᷑ ĩqrdã loco ⁊ ora ͭ. dix ͭ unꝰ ꝯodis ͭ ͥ ᷤ suis ad eũ. due doce nos</seg>
+          <lb facs="#z_f21v_l007" xml:id="catmus_f21v_l007"/>
+          <seg type="raw_unreviewed">bru̾e rayt ilłis Cũ orau̾it᷑ dicite pr̃ nr̃. Oͥ ꝑꝑ ipmꝰ orõis bnitutẽ</seg>
+          <lb facs="#z_f21v_l008" xml:id="catmus_f21v_l008"/>
+          <seg type="raw_unreviewed">ureuẽ eñ ea fecit diuib decius. pͥ ͦ ut cicrꝰ adisca2 ͦ ut sqũtiꝰ</seg>
+          <lb facs="#z_f21v_l009" xml:id="catmus_f21v_l009"/>
+          <seg type="raw_unreviewed">dica᷑ s̃ ͦ ꝑꝑ ipmr or̃onis u̾tite. bnĩ ẽ nouͫꝰ ꝙ. dͦ. bitũ hoĩs ꝓ lõgat</seg>
+          <lb facs="#z_f21v_l010" xml:id="catmus_f21v_l010"/>
+          <seg type="raw_unreviewed">amortis ꝑilo libe̾it demoẽs sugat. pcca delet. Celũ clandit rapit</seg>
+          <lb facs="#z_f21v_l011" xml:id="catmus_f21v_l011"/>
+          <seg type="raw_unreviewed">deũ ĩ clũt ad hoĩo bolinta᷑  ĩuuicos uincit/ Mortuos suscitãt ĩ</seg>
+          <lb facs="#z_f21v_l012" xml:id="catmus_f21v_l012"/>
+          <seg type="raw_unreviewed">uͦ dicr Ø ͦ deuota rstã. bitã hoĩs ꝓlogat . usa yexoni Egrrtuͭ eechras</seg>
+          <lb facs="#z_f21v_l013" xml:id="catmus_f21v_l013"/>
+          <seg type="raw_unreviewed">asq admertẽ. ⁊itunt adeũ ysi ꝓpħũ. ⁊ dixͭ ei ħ dͭ dñs. dispõe dom</seg>
+          <lb facs="#z_f21v_l014" xml:id="catmus_f21v_l014"/>
+          <seg type="raw_unreviewed">tue qr mol̾ecꝭ tri ⁊ nõ uies et qu̾tit ezechias faciẽ suũi adꝑieter</seg>
+          <lb facs="#z_f21v_l015" xml:id="catmus_f21v_l015"/>
+          <seg type="raw_unreviewed">a ouiͭ ad dñii rdix ͭ Obsec̃ dñe rmuem̃to. p̃po q ͦ ͦ ãbulanem cõã te</seg>
+          <lb facs="#z_f21v_l016" xml:id="catmus_f21v_l016"/>
+          <seg type="raw_unreviewed">ĩ ui̾tate ⁊ corde psto icꝭ cũ fletu magnũ Et soñ ẽ ũ diũ ud ysa d</seg>
+          <lb facs="#z_f21v_l017" xml:id="catmus_f21v_l017"/>
+          <seg type="raw_unreviewed">Bade ⁊ dic ere ͤ ħ d ͭ dñs andim oix̃ tua. ⁊ uidi lacnuis t. ecce</seg>
+          <lb facs="#z_f21v_l018" xml:id="catmus_f21v_l018"/>
+          <seg type="raw_unreviewed">adicia suꝑ dies tuos xu ãnos icffre oro amortꝭ pictõ liba̾t extir</seg>
+          <lb facs="#z_f21v_l019" xml:id="catmus_f21v_l019"/>
+          <seg type="raw_unreviewed">dezusitnu ⁊ Rix ͭ ds et̾ue ic ⁊ oandi ͭ orꝵ̃ co/ẜͦ deõs fugat m ͭ x</seg>
+          <lb facs="#z_f21v_l020" xml:id="catmus_f21v_l020"/>
+          <seg type="raw_unreviewed">ẽi apłi aqͦdã demõi^ dic̾e̾ nõ possẽt. dñs citieus di cis. qriᵈ ge </seg>
+          <lb facs="#z_f21v_l021" xml:id="catmus_f21v_l021"/>
+          <seg type="raw_unreviewed">ĩ n ͦ cici̾ nͥ orr̃e riemiuo Pͦ pccũ delet leͥ de u. agᵒ.ꝙ ꝯspice̾t demõe</seg>
+          <lb facs="#z_f21v_l022" xml:id="catmus_f21v_l022"/>
+          <seg type="raw_unreviewed">libꝵ mag  ĩ humetꝭ baiulante q̃ abee ꝑtinꝰ aduurs ut is ibi septi</seg>
+          <lb facs="#z_f21v_l023" xml:id="catmus_f21v_l023"/>
+          <seg type="raw_unreviewed">labeant sͥ pandat Qui pcca hoi ibi sc̃ptu asẜuit Iau̾ ꝙ̃cepit s ut</seg>
+          <lb facs="#z_f21v_l024" xml:id="catmus_f21v_l024"/>
+          <seg type="raw_unreviewed">N depct̃is suis ibi ad hrẽ Irũ ͭ Riaꝰ ita. seł opłctoi̾  eobli  obnũsr ͥ</seg>
+          <lb facs="#z_f21v_l025" xml:id="catmus_f21v_l025"/>
+          <seg type="raw_unreviewed">ucipiẽs dya ͦ ut suũ p̃stola̾et.wuentũ Ecria ẽ ĩgssus ⁊ ꝯpletͫ d̾uolte</seg>
+          <lb facs="#z_f21v_l026" xml:id="catmus_f21v_l026"/>
+          <seg type="raw_unreviewed">Dixͭ Reu̾sꝰ q d. ei ut p̃dci locũ s̾ oñdat rlegud Qui dũ cbro</seg>
+          <lb facs="#z_f21v_l027" xml:id="catmus_f21v_l027"/>
+          <seg type="raw_unreviewed">duolue̾t. ⁊ tand locũ uacuũ epẽiss. Demon dix ͭ t̾pit̾ me decepist</seg>
+          <lb facs="#z_f21v_l028" xml:id="catmus_f21v_l028"/>
+          <seg type="raw_unreviewed">ꝑ ꝓccm tñũ oũiua truꝵ u̾tute delesti x̃sꝰ celũ cland ͬ r apit ia. ule</seg>
+          <lb facs="#z_f21v_l029" xml:id="catmus_f21v_l029"/>
+          <seg type="raw_unreviewed">lelias lis̃ cat slłis nb. rorõe oraͭ ait nõ plu̾et icꝭ sb ͦ iłũt deĩ</seg>
+          <lb facs="#z_f21v_l030" xml:id="catmus_f21v_l030"/>
+          <seg type="raw_unreviewed">ad hõis belũ ͦ I. le̾ cũ uosue pñgnae̾t. ꝯͣ quiħ r̾ges amorreoꝵ</seg>
+          <lb facs="#z_f21v_l031" xml:id="catmus_f21v_l031"/>
+          <seg type="raw_unreviewed">adidiss ꝙ dñe crdde̾t dob ĩ nutrꝰ silutꝵ ñ sl. dix ͭ solz bũi ne moue</seg>
+          <lb facs="#z_f21v_l032" xml:id="catmus_f21v_l032"/>
+          <seg type="raw_unreviewed">arꝭ. stetit q sol ⁊ lnu ĩ meͥ celi. rũ festĩau̾t ocũbe̾ spocio bnĩꝰ</seg>
+          <lb facs="#z_f21v_l033" xml:id="catmus_f21v_l033"/>
+          <seg type="raw_unreviewed">diei don ͨ ulore᷑ de ĩnntꝭ̃ suis Ia ꝯ ͦ ĩ ĩmicõt̾ uniat le᷑ cũ ppͣłs</seg>
+          <lb facs="#z_f21v_l034" xml:id="catmus_f21v_l034"/>
+          <seg type="raw_unreviewed">ꝑ mdysen de ogipto duc̾e᷑. abhosoih armis ĩuudñ. Moises ãt ĩ mõte</seg>
+          <lb facs="#z_f21v_l035" xml:id="catmus_f21v_l035"/>
+          <seg type="raw_unreviewed">extũs muib orribat. ⁊ ir̃sł hostes sꝑobaͭ  ultio s̾ morturs sastitut</seg>
+          <lb facs="#z_f21v_l036" xml:id="catmus_f21v_l036"/>
+          <seg type="raw_unreviewed">le ũ ꝙ ꝓorõs m̃łti s̃i mltos mortuos suscitituu̾it ecꝭde ĩ cul hñtis</seg>
+          <lb facs="#z_f21v_l037" xml:id="catmus_f21v_l037"/>
+          <seg type="raw_unreviewed"> It̃ uõ ꝙ deqstitreᵈͥ  ui caͦ di ꝙronꝰ/ pontisex inõ suicord̃ adaut. Et</seg>
+          <lb facs="#z_f21v_l038" xml:id="catmus_f21v_l038"/>
+          <seg type="raw_unreviewed">illi errãt qͥ d ͥ ͣ ꝙ ĩ dulgñcie ppe uł ep̃i u ᷝ st̃ ͨ ꝓsũt ir ͦI pcr̃oꝵ ubli</seg>
+          <lb facs="#z_f21v_l039" xml:id="catmus_f21v_l039"/>
+          <seg type="raw_unreviewed">nc ꝙ t̾a sc̃ ĩ ecc̃ia militanti. pͦ claner qͥb plati ligũt ⁊ soluñt ^4</seg>
+          <lb facs="#z_f21v_l040" xml:id="catmus_f21v_l040"/>
+          <seg type="raw_unreviewed">anͣt ͭ ᷤᷤ ĩ plati st̃ dĩgm adligilmuũi ⁊ seluẽdi. pͦ thezitur/eoiẽ. qͥ  suit</seg>
+          <lb facs="#z_f21v_l041" xml:id="catmus_f21v_l041"/>
+          <seg type="raw_unreviewed">uii sacł ⁊ ĩ dulgiͦ p̃lateꝵ. ⁊ a cheram ꝯpassid̃e dñi nr̃a i</seg>
+          <lb facs="#z_f21v_l042" xml:id="catmus_f21v_l042"/>
+          <seg type="raw_unreviewed">de sũg ͦ effusioii ⁊ unita martiꝰ ⁊ scoꝵ. ac euntꝭ toci ꝰ ectie</seg>
+          <lb facs="#z_f21v_l043" xml:id="catmus_f21v_l043"/>
+          <seg type="raw_unreviewed">ł mĩa di oĩpotũtꝭ ꝓue ͭ Cclrͣ cͣhi᷑ edcie doctoꝵ de pnĩa rr̾missiõs ic</seg>
+          <lb facs="#z_f21v_l044" xml:id="catmus_f21v_l044"/>
+          <seg type="raw_unreviewed">¶It hetiai d ͭ ꝙ tye ĩt̾dã pplłs nõ d obedie sac̾docib qr s̃ mug̃</seg>
+          <lb facs="#z_f21v_l045" xml:id="catmus_f21v_l045"/>
+          <seg type="raw_unreviewed">huiũt dy᷑ quã do. cũ ñ cani᷑᷑ pꝑ ꝙ ud ꝙ duꝰ ẽ ẜuitꝰ q ud di̾ uiidł</seg>
+          <lb facs="#z_f21v_l046" xml:id="catmus_f21v_l046"/>
+          <seg type="raw_unreviewed">ẜuib/ ocl̃tus ⁊taãti. 2. ẜui teneñ aõ ⁊ sĩgl̃i obedie dõ ⁊ ẜuĩe</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f21v_l001" xml:id="medusa_f21v_l001"/>
+          <seg type="raw_unreviewed">Sequitur de presente noster capituli vi etc.</seg>
+          <lb facs="#z_f21v_l002" xml:id="medusa_f21v_l002"/>
+          <seg type="raw_unreviewed">213</seg>
+          <lb facs="#z_f21v_l003" xml:id="medusa_f21v_l003"/>
+          <seg type="raw_unreviewed">fr̃es km̃ ꝑtotum ãnũ nb̃ p̃dicor de sacͣ sciptur̃ iã de doͥ iã de scis̃. s⁊ d</seg>
+          <lb facs="#z_f21v_l004" xml:id="medusa_f21v_l004"/>
+          <seg type="raw_unreviewed">iᵗᵃ or̃e naissie / uñ nõ ħ or̃o suꝑ õs or̃oes quindar a scis ꝑꝑ tũ. p̾</seg>
+          <lb facs="#z_f21v_l005" xml:id="medusa_f21v_l005"/>
+          <seg type="raw_unreviewed">ipsius dignitatem . quia ab ipso domino composita est et edocta luce xi Cũ dñs nr̃</seg>
+          <lb facs="#z_f21v_l006" xml:id="medusa_f21v_l006"/>
+          <seg type="raw_unreviewed">xᶜ eẽt ĩ ꝙdũ loco ⁊ oraᵗ. Dixᵗ unꝰ ex disˡᵘˢ suis ad eũ. Dñe doce nos</seg>
+          <lb facs="#z_f21v_l007" xml:id="medusa_f21v_l007"/>
+          <seg type="raw_unreviewed">oraͥe rayt illis Cũ orantꝭ dicite / pr̃ nr̃. Sẏ ꝑꝑ ipuiꝰ orõis bͤnitatẽ</seg>
+          <lb facs="#z_f21v_l008" xml:id="medusa_f21v_l008"/>
+          <seg type="raw_unreviewed">Breve enim eam fecit duabus decimis. pͥo ut circũ adiscar . 2ͦ ut si qũtiꝰ</seg>
+          <lb facs="#z_f21v_l009" xml:id="medusa_f21v_l009"/>
+          <seg type="raw_unreviewed">dicarꝭ. 3ᵃ ꝑꝑ ip̃um orationis u̾tutẽ. Uñ ẽ notũ ꝙ . 2ᵒ. uitũ hoĩs ꝓlõcat</seg>
+          <lb facs="#z_f21v_l010" xml:id="medusa_f21v_l010"/>
+          <seg type="raw_unreviewed">a mortis periculo liberat / demonēs fugat. pecora delet. Celum claudit et caput</seg>
+          <lb facs="#z_f21v_l011" xml:id="medusa_f21v_l011"/>
+          <seg type="raw_unreviewed">deñ ĩcluĩt ad hoiẽ voluntatꝭ inimicos uincit / mortuos sustitat</seg>
+          <lb facs="#z_f21v_l012" xml:id="medusa_f21v_l012"/>
+          <seg type="raw_unreviewed">pͥo dicõ uͦ de nota ⁊ sc̃a . bita hoĩs prolõgat . usir xxxuii Egrata᷑ Ezechias</seg>
+          <lb facs="#z_f21v_l013" xml:id="medusa_f21v_l013"/>
+          <seg type="raw_unreviewed">usqz ad mortẽ. et intͦuit ad eũ ysero proph. et dixit ei / Hec dicit dominus dispõe domi</seg>
+          <lb facs="#z_f21v_l014" xml:id="medusa_f21v_l014"/>
+          <seg type="raw_unreviewed">tue qr moͥetꝭ tu ⁊ nõ unies Et quͥtit ezechias facie suũ ad p̃rete</seg>
+          <lb facs="#z_f21v_l015" xml:id="medusa_f21v_l015"/>
+          <seg type="raw_unreviewed">in veritate et corde p̃fto etc. cum confetu magno et sancte</seg>
+          <lb facs="#z_f21v_l016" xml:id="medusa_f21v_l016"/>
+          <seg type="raw_unreviewed">ĩ u̾itate ⁊ corde ꝑfcõ etc. cũ fetu magno Et scum ẽ u̾ dñm nbdym d</seg>
+          <lb facs="#z_f21v_l017" xml:id="medusa_f21v_l017"/>
+          <seg type="raw_unreviewed">bade ⁊ dic exempcio hoc dicit dominus Andree Ordeimonte tucta et vidi lacrimas t. ecce</seg>
+          <lb facs="#z_f21v_l018" xml:id="medusa_f21v_l018"/>
+          <seg type="raw_unreviewed">⁊ adiciãz super dies tuos xx annos etc. 2ᵒ or̃o amortꝭ ꝑiculo subit ex</seg>
+          <lb facs="#z_f21v_l019" xml:id="medusa_f21v_l019"/>
+          <seg type="raw_unreviewed">Deus gratia ⁊ duxt d̃s eterne etc. et exaudit orẽm eiꝰ / 3ᵒ Deos fugat mˢ x</seg>
+          <lb facs="#z_f21v_l020" xml:id="medusa_f21v_l020"/>
+          <seg type="raw_unreviewed">En apłi aqͦdã demõii oic̾e nõ possẽt. dñs ciciens d. eis. p. he</seg>
+          <lb facs="#z_f21v_l021" xml:id="medusa_f21v_l021"/>
+          <seg type="raw_unreviewed">liberꝭ magꝭ ħmuetꝭ Batulantez. qͥ abeo ꝑtinꝰ admoꝵ ꝙ ꝯspicet᷑ demõe</seg>
+          <lb facs="#z_f21v_l022" xml:id="medusa_f21v_l022"/>
+          <seg type="raw_unreviewed">librarum magⁿᵃ ĩ huiuetꝭ b̃a uilante qͥ ab eo ꝓtuꝰ adiuuar̃ ut iħ ibi scripta</seg>
+          <lb facs="#z_f21v_l023" xml:id="medusa_f21v_l023"/>
+          <seg type="raw_unreviewed">lateant sibi pericula Qui peccata huiusmodi ibi scripta asseruit nunc precepit sibi ut</seg>
+          <lb facs="#z_f21v_l024" xml:id="medusa_f21v_l024"/>
+          <seg type="raw_unreviewed">si de ꝑtĩs suis ibi ad h̃re iur̃ dyaꝰ ita . vel qͦplẽtoꝵ exobliꝰ obmisi</seg>
+          <lb facs="#z_f21v_l025" xml:id="medusa_f21v_l025"/>
+          <seg type="raw_unreviewed">p̃cipiẽs dyono ut suũ p̃stola̾et . Wuentũ Carrãz ẽ ĩgressus et oꝑletꝰ d̃ note</seg>
+          <lb facs="#z_f21v_l026" xml:id="medusa_f21v_l026"/>
+          <seg type="raw_unreviewed">dixit Reversusque d. ei ut predictum locum sibi ordinet relegendum Qui dum c̾bro</seg>
+          <lb facs="#z_f21v_l027" xml:id="medusa_f21v_l027"/>
+          <seg type="raw_unreviewed">re uolueret . et tandem locum uacuum reperisset . Demoum dixit tunc pit me decepisti</seg>
+          <lb facs="#z_f21v_l028" xml:id="medusa_f21v_l028"/>
+          <seg type="raw_unreviewed">per peccatuum omnium tuarum uͥtute delesti capitur celum claudit et aput Ia. ułi</seg>
+          <lb facs="#z_f21v_l029" xml:id="medusa_f21v_l029"/>
+          <seg type="raw_unreviewed">helias hõ erat s̃b̃s ũb̃ ⁊ orõe orat sic nõ plueret etc. ¶ 6ᵒ ĩcludit dei</seg>
+          <lb facs="#z_f21v_l030" xml:id="medusa_f21v_l030"/>
+          <seg type="raw_unreviewed">ad heis volun ͤ 1 . le ͬ cũ uosue pugnaret . ꝯͣ qn 12 r̃ges amorroꝵ</seg>
+          <lb facs="#z_f21v_l031" xml:id="medusa_f21v_l031"/>
+          <seg type="raw_unreviewed">vidissit quod dñs tradidit eos ĩ mutuꝰ siluꝵ ñ sũ duxit sol ⁊ bm̃ ne moue</seg>
+          <lb facs="#z_f21v_l032" xml:id="medusa_f21v_l032"/>
+          <seg type="raw_unreviewed">aꝭs. stetit q sol ⁊ lma ĩ meꝰ celi. ⁊ ũ festau̾it ocãbe̾ spacio bñꝰ</seg>
+          <lb facs="#z_f21v_l033" xml:id="medusa_f21v_l033"/>
+          <seg type="raw_unreviewed">diei donꝰ ulorem de immunitate suis Iiꝰ 9ᵒ ĩ immunitate unicit le͂ cũ ppłs</seg>
+          <lb facs="#z_f21v_l034" xml:id="medusa_f21v_l034"/>
+          <seg type="raw_unreviewed">per moysen de egipto ducere. ab hostibus armis invidere. moyses autem in monte</seg>
+          <lb facs="#z_f21v_l035" xml:id="medusa_f21v_l035"/>
+          <seg type="raw_unreviewed">extũs manibꝰ oribat et nr̃s hostes spoliat / Ultĩo o mortuos sustitit</seg>
+          <lb facs="#z_f21v_l036" xml:id="medusa_f21v_l036"/>
+          <seg type="raw_unreviewed">ler nũ q per or̃s młti sũ młtos mortuos suscitiuerunt etc. Deĩ Engherris</seg>
+          <lb facs="#z_f21v_l037" xml:id="medusa_f21v_l037"/>
+          <seg type="raw_unreviewed">¶Item nõ ꝙ de ꝯstitucˢᵇ̃ ui caꝰ d᷑᷑ ꝙ roͣneꝰ pontifex nr̃a suicordia adu̾it. Et</seg>
+          <lb facs="#z_f21v_l038" xml:id="medusa_f21v_l038"/>
+          <seg type="raw_unreviewed">illi errãt qͥ dⁿᵘᵗ ꝙ ĩ dulgnicie ppe uł epĩ nᶜ st̃ .nᶜ ꝓsũt i᷑rᵘꝰ / pt̃oꝵ b̃li</seg>
+          <lb facs="#z_f21v_l039" xml:id="medusa_f21v_l039"/>
+          <seg type="raw_unreviewed">Iaꝰ ꝙ tã st̃ ĩ eccĩa militanti. pꝰ claves qͥbꝰ prelati ligũt ⁊ solṽit / 2ᵒ</seg>
+          <lb facs="#z_f21v_l040" xml:id="medusa_f21v_l040"/>
+          <seg type="raw_unreviewed">aũctas qͣ prelati st̃ dñm adligamꝰ ⁊ subied̃. 3ᵒ thesauri eccie. qͥ ꝙsi sit</seg>
+          <lb facs="#z_f21v_l041" xml:id="medusa_f21v_l041"/>
+          <seg type="raw_unreviewed">uii sacͣc̃ ⁊ ĩ dulgnᵒ p̃latorum ⁊ iᶜ thesauri ex passione dñi nr̃i</seg>
+          <lb facs="#z_f21v_l042" xml:id="medusa_f21v_l042"/>
+          <seg type="raw_unreviewed">De .i. sanctis effusionibus et merita martirum et aliorum sanctorum ac exemplarum totius ecclesie</seg>
+          <lb facs="#z_f21v_l043" xml:id="medusa_f21v_l043"/>
+          <seg type="raw_unreviewed">et gracia dei omnipotuntis gratia . Et hec thesauri ordinarie doctorum de penitencia et remissione etc.</seg>
+          <lb facs="#z_f21v_l044" xml:id="medusa_f21v_l044"/>
+          <seg type="raw_unreviewed">¶ Item heretici dicunt quod tempore interpretati nullus non debet obedire sacerdote quia sunt magne</seg>
+          <lb facs="#z_f21v_l045" xml:id="medusa_f21v_l045"/>
+          <seg type="raw_unreviewed">sunt dyo quã do. cũ ñ cani᷑᷑ ꝓpꝰ u̾d ꝙ duꝰ ẽ s̃uitꝰ qͦ ad dũ. una</seg>
+          <lb facs="#z_f21v_l046" xml:id="medusa_f21v_l046"/>
+          <seg type="raw_unreviewed">servitus occultus et tacitus et iᵃ serviᵗᵉ tenent᷑ oĩes et singuli obedire domini et serviere</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f21v_l001 #z_f21v_l002 #z_f21v_l003 #z_f21v_l004 #z_f21v_l005 #z_f21v_l006 #z_f21v_l007 #z_f21v_l008" xml:id="u_21v_001">[rubrika: Sermo de Pater noster et virtutibus?; novější přípis259/1] […] Ista oratio maxime [...] alias orationes propter ipsius dignitatem, quia ab ipso Domino composita est et edocta. Lucae XI: Cum Dominus noster [...] in quodam loco et oraret, dixit unus de discipulis suis ad eum: Domine doce nos orare. Ait illis: Cum oraveritis dicite: Pater noster. Secundo propter ipsius orationis brevitatem; brevem enim eam fecit duabus de causis: primo ut citius addiscatur, secundo ut frequentius …</p>
+        <note type="editorial" corresp="#u_21v_001" xml:lang="cs">Jiná, drobná ruka a nový textový celek; nepřipojuji mechanicky pokračování21r. První hlavní řádek má obtížnou či zkrácenou část, kterou nedoplňuji. Podobu nadpisu uvádím návrhově. Biblicky znějící text je přeložen podle viditelného rozsahu, ne z externího znění.</note>
+        <p facs="#z_f21v_l009 #z_f21v_l010 #z_f21v_l011 #z_f21v_l012 #z_f21v_l013 #z_f21v_l014 #z_f21v_l015 #z_f21v_l016 #z_f21v_l017 #z_f21v_l018" xml:id="u_21v_002">… dicatur. Tertio propter ipsius orationis virtutem. Breviter enim novimus quod devota oratio vitam hominis prolongat, a mortis periculo liberat, daemones fugat, peccata delet, caelum claudit et aperit, Deum inclinat ad hominis voluntatem, inimicos vincit, mortuos suscitat. Primo devota oratio vitam hominis prolongat. Isaiae XXXVIII: Aegrotavit Ezechias usque ad mortem, et intravit ad eum Isaias propheta et dixit ei: Haec dicit Dominus, dispone domui tuae quia morieris tu et non vives. Et convertit Ezechias faciem suam ad parietem et oravit ad Dominum et dixit: Obsecro Domine, memento [...] quomodo ambulaverim coram te in veritate et corde perfecto, et flevit fletu magno. Et factum est verbum Domini ad Isaiam dicens: Vade et dic Ezechiae: Haec dicit Dominus, audivi orationem tuam et vidi lacrimas tuas; ecce adiciam super dies tuos XV annos. Item oratio a mortis periculo liberat …</p>
+        <note type="editorial" corresp="#u_21v_002" xml:lang="cs">Text nabízí osm účinků modlitby a příklady; překládám je jako tvrzení tohoto kázání, nikoli jako naše faktické záruky. XV je viditelné, nepřejaté z biblické znalosti. Citace Isaiae XXXVIII je návrhově rozvedená zkratka.</note>
+        <p facs="#z_f21v_l019 #z_f21v_l020 #z_f21v_l021 #z_f21v_l022 #z_f21v_l023 #z_f21v_l024" xml:id="u_21v_003">[…] Dixit: Deus aeterne [...] et exaudivit orationem […]. Tertio daemones fugat. Matthaei XVII: Cum apostoli quendam daemonem eicere non possent, Dominus [...] dixit: Hoc genus non eicitur nisi oratione et ieiunio. Quarto peccata delet. Legitur de [beato Augustino?] quod conspiceret daemonem librum magnum in humeris baiulantem, [...] qui peccata hominum ibi scripta asseruit. Iam [...] de peccatis suis ibi ad horam […].</p>
+        <note type="editorial" corresp="#u_21v_003" xml:lang="cs">Úvodní příklad záchrany před smrtí a část rozhovoru o knize jsou nedočtené. Augustinovo jméno je nejisté rozvedení zkratky, ne identifikace podle známé legendy. Nevyplňuji chybějící obsah seznamem kajících žalmů, který zde bezpečně přečten není.</note>
+        <p facs="#z_f21v_l025 #z_f21v_l026 #z_f21v_l027 #z_f21v_l028" xml:id="u_21v_004">[…] incipiens diabolo ut suum praestolaretur adventum. Ecclesiam est ingressus et [...] devote dixit. Reversusque [...] ut praedictum locum sibi ostendat et relegat. Qui dum crebro devolveret et tandem locum vacuum reperisset, daemon dixit: Turpiter me decepisti; per orationem tuam omnia [...] virtute delesti. Quinto caelum claudit et aperit […].</p>
+        <note type="editorial" corresp="#u_21v_004" xml:lang="cs">Zachován konkrétní děj, který je z pásu čitelný, s mezerami v pokynu i označení modlitby. Nejde o doplnění celé legendy z paměti. Poslední slova v řeči démona jsou nejistá.</note>
+        <p facs="#z_f21v_l029 #z_f21v_l030 #z_f21v_l031 #z_f21v_l032 #z_f21v_l033 #z_f21v_l034 #z_f21v_l035 #z_f21v_l036" xml:id="u_21v_005">Iacobi ultimo [?]: Elias similis erat nobis et oratione oravit ut non plueret […]. Sexto inclinat Deum ad hominis voluntatem. Legitur cum Iosue pugnaret contra quinque reges Amorrhaeorum et audivisset quod Dominus traderet eos in manus filiorum Israel, dixit: Sol contra [Gabaon?] ne movearis. Stetitque sol et luna in medio caeli, nec festinaverunt occumbere spatio unius diei, donec ulcisceretur de inimicis suis. Item septimo inimicos vincit: legitur cum populus per Moysen de Aegypto duceretur, ab hostibus armis invaditur. Moyses autem in monte extensis manibus orabat et Israel hostes superabat. Ultimo mortuos suscitat: legitur quod per orationes multi sancti multos mortuos suscitaverunt, et de hoc in [...] habetur.</p>
+        <note type="editorial" corresp="#u_21v_005" xml:lang="cs">Příklady jsou přeloženy podle zapsané podoby. Gabaon a závěrečná zkratka zdroje zůstávají nejisté. Nedoplňuji počet měsíců Eliášova sucha ani původce útoku na Izrael z jiného znění příběhu.</note>
+        <p facs="#z_f21v_l037 #z_f21v_l038 #z_f21v_l039 #z_f21v_l040 #z_f21v_l041 #z_f21v_l042 #z_f21v_l043" xml:id="u_21v_006">Item nota quod de [...] VI capitulo [...] pontifex [...]. Et illi errant qui dicunt quod indulgentiae papae vel episcopi [...] tantum prosunt in foro [...]. Nota quod tria sunt in ecclesia militanti: primo claves quibus praelati ligant et solvunt; [...] in praelatis [...] ad ligandum et solvendum; [...] thesaurus ecclesiae, qui sunt [...] sacramenta et indulgentiae praelatorum, et [...] compassionis Domini nostri [...] sanguinis effusione et merita martyrum et sanctorum, ac [...] totius ecclesiae et misericordia Dei omnipotentis [...] de poenitentia et remissionibus.</p>
+        <note type="editorial" corresp="#u_21v_006" xml:lang="cs">Tento drobný právně teologický dodatek má velmi husté zkratky; dostupné čtení je fragmentární. Neidentifikuji nejistou právní citaci ani nerozhoduji z domněnky o rozsahu odpustků. Číslování tří položek zůstává nedočtené.</note>
+        <p facs="#z_f21v_l044 #z_f21v_l045 #z_f21v_l046" xml:id="u_21v_007">Item [haereticus?] dicit quod tempore interdicti populus non debet obedire sacerdotibus, quia magis serviunt diabolo quam Deo; cum [...] servitus [...] servis occultus et [...] et secundo tenentur omnes et singuli obedire Deo et servire …</p>
+        <note type="editorial" corresp="#u_21v_007" xml:lang="cs">Zachycená polemická věta neznamená, že ji autor sám schvaluje. Nejasný subjekt i navazující zdůvodnění zůstávají výslovně označeny. Tento úsek není použit k připisování textu určité historické straně nebo autorovi.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_21v_001">[Rubrika: Kázání o Otčenáši a jeho účincích?; novější přípis259/1.] […] Tato modlitba [vyniká nad?] ostatními pro svou důstojnost, protože ji sestavil a naučil sám Pán. V11. kapitole Lukáše: Když se náš Pán modlil na jistém místě, jeden z jeho učedníků řekl: Pane, nauč nás modlit se. Řekl jim: Když se modlíte, říkejte: Otče náš. Zadruhé pro stručnost této modlitby: učinil ji krátkou ze dvou důvodů, aby se jí člověk rychleji naučil a aby ji častěji …</p>
+        <p corresp="#u_21v_002">… říkal. Zatřetí pro její sílu: zbožná modlitba prodlužuje lidský život, osvobozuje od nebezpečí smrti, zahání démony, maže hříchy, zavírá a otevírá nebe, sklání Boha k lidské vůli, přemáhá nepřátele a křísí mrtvé. První příklad: v38. kapitole Izaiáše Ezechiáš smrtelně onemocněl. Prorok Izaiáš přišel a řekl: Pán praví, uspořádej svůj dům, zemřeš a nebudeš žít. Ezechiáš se obrátil tváří ke stěně a modlil se: Prosím, Pane, pamatuj, jak jsem před tebou chodil v pravdě a s dokonalým srdcem. Velice plakal. Pánovo slovo přišlo k Izaiášovi: Jdi a řekni Ezechiášovi, slyšel jsem tvou modlitbu a viděl tvé slzy; přidám k tvým dnům patnáct let. Dále modlitba osvobozuje od nebezpečí smrti …</p>
+        <p corresp="#u_21v_003">[…] Řekl: Věčný Bože […] a vyslyšel modlitbu […]. Zatřetí zahání démony: v17. kapitole Matouše apoštolové nedokázali vyhnat jednoho démona a Pán řekl, že tento druh nevychází jinak než modlitbou a postem. Začtvrté maže hříchy. Čte se o [svatém Augustinovi?], že spatřil démona nesoucího na ramenou velikou knihu; tvrdil, že jsou v ní zapsány lidské hříchy. […] o vlastních hříších na danou dobu […].</p>
+        <p corresp="#u_21v_004">[…] požádal ďábla, aby počkal na jeho návrat. Vešel do kostela a zbožně se pomodlil […]. Když se vrátil, žádal, aby mu znovu ukázal a přečetl příslušné místo. Démon dlouho listoval; nakonec našel místo prázdné a řekl: Hanebně jsi mne oklamal, svou modlitbou jsi všechno […] svou silou vymazal. Zapáté zavírá a otevírá nebe […].</p>
+        <p corresp="#u_21v_005">V závěru Jakuba [?]: Eliáš byl podobný nám a vroucně se modlil, aby nepršelo […]. Zašesté sklání Boha k lidské vůli. Když Jozue bojoval proti pěti amorejským králům a slyšel, že je Pán vydá do rukou Izraelových synů, řekl: Slunce, proti [Gabaonu?], nehýbej se. Slunce a měsíc se zastavily uprostřed nebe a po dobu jednoho dne nepospíchaly zapadnout, dokud se nepomstil nepřátelům. Zasedmé přemáhá nepřátele: když Mojžíš vedl lid z Egypta, napadli je ozbrojení nepřátelé. Mojžíš se na hoře modlil se vztaženýma rukama a Izrael vítězil. Konečně křísí mrtvé: mnozí svatí modlitbami vzkřísili mnoho mrtvých; o tom pojednává […] …</p>
+        <p corresp="#u_21v_006">Dále poznamenej, že v […] šesté kapitole […] papež […]. Mýlí se ti, kteří tvrdí, že odpustky papeže nebo biskupa […] prospívají pouze ve […] fóru. Poznamenej, že v bojující církvi jsou tři věci: zaprvé klíče, jimiž představení svazují a rozvazují; […] moc představených svazovat a rozvazovat; […] poklad církve, […] svátosti a odpustky představených, […] utrpení našeho Pána a prolití jeho krve, zásluhy mučedníků a svatých i […] celé církve a milosrdenství všemohoucího Boha, […] o pokání a odpouštění.</p>
+        <p corresp="#u_21v_007">Dále [kacíř? — označení nejisté] tvrdí, že v době interdiktu nemá lid poslouchat kněze, protože slouží více ďáblu než Bohu; […] služba […] a zadruhé všichni i každý jednotlivě jsou povinni poslouchat Boha a sloužit mu …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 4r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_4r_coordinate; PNG SHA256 675c80fbbd96dcb9db921c5821278812214d65dbc69e0c7b2a9b5b1420e3fa6a; archival TIFF SHA256 422a2f6bd27738d0748d121a0d360be1580a11f8d0aed99850d2cca5ee80be54; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_4r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#4r"/>
+      <zone ulx="560" uly="556" lrx="3199" lry="756" xml:id="z_f4r_l001"/>
+      <zone ulx="544" uly="715" lrx="3202" lry="877" xml:id="z_f4r_l002"/>
+      <zone ulx="563" uly="805" lrx="3261" lry="1001" xml:id="z_f4r_l003"/>
+      <zone ulx="569" uly="924" lrx="3227" lry="1138" xml:id="z_f4r_l004"/>
+      <zone ulx="572" uly="1060" lrx="2191" lry="1216" xml:id="z_f4r_l005"/>
+      <zone ulx="541" uly="1166" lrx="3205" lry="1353" xml:id="z_f4r_l006"/>
+      <zone ulx="3302" uly="986" lrx="3725" lry="1166" xml:id="z_f4r_l007"/>
+      <zone ulx="616" uly="1281" lrx="3305" lry="1484" xml:id="z_f4r_l008"/>
+      <zone ulx="803" uly="1409" lrx="3327" lry="1586" xml:id="z_f4r_l009"/>
+      <zone ulx="594" uly="1524" lrx="3261" lry="1701" xml:id="z_f4r_l010"/>
+      <zone ulx="575" uly="1648" lrx="3237" lry="1823" xml:id="z_f4r_l011"/>
+      <zone ulx="572" uly="1779" lrx="3240" lry="1938" xml:id="z_f4r_l012"/>
+      <zone ulx="575" uly="1894" lrx="3218" lry="2068" xml:id="z_f4r_l013"/>
+      <zone ulx="569" uly="2028" lrx="3339" lry="2177" xml:id="z_f4r_l014"/>
+      <zone ulx="575" uly="2149" lrx="3224" lry="2320" xml:id="z_f4r_l015"/>
+      <zone ulx="591" uly="2264" lrx="3268" lry="2429" xml:id="z_f4r_l016"/>
+      <zone ulx="582" uly="2392" lrx="3221" lry="2548" xml:id="z_f4r_l017"/>
+      <zone ulx="585" uly="2520" lrx="3230" lry="2684" xml:id="z_f4r_l018"/>
+      <zone ulx="588" uly="2635" lrx="3249" lry="2806" xml:id="z_f4r_l019"/>
+      <zone ulx="597" uly="2768" lrx="3261" lry="2927" xml:id="z_f4r_l020"/>
+      <zone ulx="557" uly="2902" lrx="3233" lry="3064" xml:id="z_f4r_l021"/>
+      <zone ulx="603" uly="3017" lrx="3215" lry="3188" xml:id="z_f4r_l022"/>
+      <zone ulx="603" uly="3142" lrx="3255" lry="3307" xml:id="z_f4r_l023"/>
+      <zone ulx="610" uly="3257" lrx="3261" lry="3444" xml:id="z_f4r_l024"/>
+      <zone ulx="606" uly="3375" lrx="3221" lry="3574" xml:id="z_f4r_l025"/>
+      <zone ulx="547" uly="3496" lrx="3252" lry="3661" xml:id="z_f4r_l026"/>
+      <zone ulx="3289" uly="3465" lrx="3763" lry="3627" xml:id="z_f4r_l027"/>
+      <zone ulx="974" uly="3593" lrx="3731" lry="3798" xml:id="z_f4r_l028"/>
+      <zone ulx="996" uly="3736" lrx="3243" lry="3913" xml:id="z_f4r_l029"/>
+      <zone ulx="964" uly="3857" lrx="3243" lry="4047" xml:id="z_f4r_l030"/>
+      <zone ulx="267" uly="3976" lrx="3261" lry="4162" xml:id="z_f4r_l031"/>
+      <zone ulx="616" uly="4097" lrx="3268" lry="4271" xml:id="z_f4r_l032"/>
+      <zone ulx="631" uly="4215" lrx="3249" lry="4399" xml:id="z_f4r_l033"/>
+      <zone ulx="616" uly="4346" lrx="3308" lry="4514" xml:id="z_f4r_l034"/>
+      <zone ulx="619" uly="4464" lrx="3271" lry="4651" xml:id="z_f4r_l035"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f4r_l001" xml:id="catmus_f4r_l001"/>
+          <seg type="raw_unreviewed">bis ne fascidiũ facias audiẽtibi stẽ in allegoria in</seg>
+          <lb facs="#z_f4r_l002" xml:id="catmus_f4r_l002"/>
+          <seg type="raw_unreviewed">Tropologia inanagogia expone sicut nis quia</seg>
+          <lb facs="#z_f4r_l003" xml:id="catmus_f4r_l003"/>
+          <seg type="raw_unreviewed">ibi errare nõ potes ictamẽ hͨcaneas ne ꝯtrariũ</seg>
+          <lb facs="#z_f4r_l004" xml:id="catmus_f4r_l004"/>
+          <seg type="raw_unreviewed">paliud qͣriũ exponas ubi grã Dyablus nõ sigfica</seg>
+          <lb facs="#z_f4r_l005" xml:id="catmus_f4r_l005"/>
+          <seg type="raw_unreviewed">deũ nec ecõnso etsic dealiis</seg>
+          <lb facs="#z_f4r_l006" xml:id="catmus_f4r_l006"/>
+          <seg type="raw_unreviewed">¶ llusio est cõpacta exintimo cordis sub surta</seg>
+          <lb facs="#z_f4r_l007" xml:id="catmus_f4r_l007"/>
+          <seg type="raw_unreviewed">&amp; allisio.</seg>
+          <lb facs="#z_f4r_l008" xml:id="catmus_f4r_l008"/>
+          <seg type="raw_unreviewed">¶enictaco Om̃es cui allussio deb hre 3ͨͦ sm̃as</seg>
+          <lb facs="#z_f4r_l009" xml:id="catmus_f4r_l009"/>
+          <seg type="raw_unreviewed">quaꝵ quelibz q̃t tres clansulas et quelib dau</seg>
+          <lb facs="#z_f4r_l010" xml:id="catmus_f4r_l010"/>
+          <seg type="raw_unreviewed">sula duas ducones ⁊ sic erũt uom᷑ diccõnes ĩqlib</seg>
+          <lb facs="#z_f4r_l011" xml:id="catmus_f4r_l011"/>
+          <seg type="raw_unreviewed">allnsione ita dico positine s nõerũt nisi uĩessẽ.</seg>
+          <lb facs="#z_f4r_l012" xml:id="catmus_f4r_l012"/>
+          <seg type="raw_unreviewed">cia quia nii ͦͬ exhiis ter poni debẽt Et simtillenu</seg>
+          <lb facs="#z_f4r_l013" xml:id="catmus_f4r_l013"/>
+          <seg type="raw_unreviewed">que 3ͣ ponũt᷑ Exquibh p̾ma sm̃a cõstatita u ꝙ p̾ͥ</seg>
+          <lb facs="#z_f4r_l014" xml:id="catmus_f4r_l014"/>
+          <seg type="raw_unreviewed">diccõ pine clansule et p̾me sine idem sit ⁊ sic 3ͣuomi᷑</seg>
+          <lb facs="#z_f4r_l015" xml:id="catmus_f4r_l015"/>
+          <seg type="raw_unreviewed">Dirilr ille tres diccõnes quib eade duto t̾ monit</seg>
+          <lb facs="#z_f4r_l016" xml:id="catmus_f4r_l016"/>
+          <seg type="raw_unreviewed">in pñcipio cuiqlib clansule ẜ ͤ ⁊ 3 ͨ siñe repetat᷑ et fit̾</seg>
+          <lb facs="#z_f4r_l017" xml:id="catmus_f4r_l017"/>
+          <seg type="raw_unreviewed">me et sicipe o ponũt᷑ Itẽ nõ ey om̃e tͥ posilũ hẽbit</seg>
+          <lb facs="#z_f4r_l018" xml:id="catmus_f4r_l018"/>
+          <seg type="raw_unreviewed">cõsonaciã int̾ se subeod̃ casu mĩo r ꝑ sonat Item</seg>
+          <lb facs="#z_f4r_l019" xml:id="catmus_f4r_l019"/>
+          <seg type="raw_unreviewed">omis allusio fit duplici cñsitu uidelic iit̃ cͤatorem</seg>
+          <lb facs="#z_f4r_l020" xml:id="catmus_f4r_l020"/>
+          <seg type="raw_unreviewed">et cͤaturã Etĩt caturã ⁊ caturã u̾bi grã nc̃ cͤatore</seg>
+          <lb facs="#z_f4r_l021" xml:id="catmus_f4r_l021"/>
+          <seg type="raw_unreviewed">rcͤaturã Adam nbi es u qui magna sciuisci mag</seg>
+          <lb facs="#z_f4r_l022" xml:id="catmus_f4r_l022"/>
+          <seg type="raw_unreviewed">na fecisti magna offẽdisti Gonisti bonũ ffecisti</seg>
+          <lb facs="#z_f4r_l023" xml:id="catmus_f4r_l023"/>
+          <seg type="raw_unreviewed">malũ Offendisti deũ Gcinisti ĩ mortalitat᷑e fecisti</seg>
+          <lb facs="#z_f4r_l024" xml:id="catmus_f4r_l024"/>
+          <seg type="raw_unreviewed">iniquitatẽ Offendisti t̾nitatõ Eite hec᷑ allu sio ĩ</seg>
+          <lb facs="#z_f4r_l025" xml:id="catmus_f4r_l025"/>
+          <seg type="raw_unreviewed">qua cõtinet᷑ tocũ quod supis docui deallusione</seg>
+          <lb facs="#z_f4r_l026" xml:id="catmus_f4r_l026"/>
+          <seg type="raw_unreviewed">⁊tali mõ nel consmle formabis omes tobln̾siones</seg>
+          <lb facs="#z_f4r_l027" xml:id="catmus_f4r_l027"/>
+          <seg type="raw_unreviewed">allusionct</seg>
+          <lb facs="#z_f4r_l028" xml:id="catmus_f4r_l028"/>
+          <seg type="raw_unreviewed">Oñclusio est cõpetẽs cuiqlib oꝑacõnis ĩ po d cõclusio</seg>
+          <lb facs="#z_f4r_l029" xml:id="catmus_f4r_l029"/>
+          <seg type="raw_unreviewed">sicio ꝑt ant cõcludi mediate uł ĩ mediate</seg>
+          <lb facs="#z_f4r_l030" xml:id="catmus_f4r_l030"/>
+          <seg type="raw_unreviewed">sicut dc̃m ess deĩnocacõne Cum igi̾is cõ</seg>
+          <lb facs="#z_f4r_l031" xml:id="catmus_f4r_l031"/>
+          <seg type="raw_unreviewed">iuconẽ clude u̾tas u̾ba ad thronũ uł ad sedẽ uł adgla̾m</seg>
+          <lb facs="#z_f4r_l032" xml:id="catmus_f4r_l032"/>
+          <seg type="raw_unreviewed">nel adlaudẽ nł adregnũ uł adbndiccõm ad ꝑmi</seg>
+          <lb facs="#z_f4r_l033" xml:id="catmus_f4r_l033"/>
+          <seg type="raw_unreviewed">sums ĩmorbtatẽ adpriam nel quietẽ addõnũ nel</seg>
+          <lb facs="#z_f4r_l034" xml:id="catmus_f4r_l034"/>
+          <seg type="raw_unreviewed">caritatẽ ad ꝯgnicõm uel nisionẽ adꝯmomuł ꝑpe</seg>
+          <lb facs="#z_f4r_l035" xml:id="catmus_f4r_l035"/>
+          <seg type="raw_unreviewed">tiacõm Ethoc sc̃o in fermore rolpis ⁊ ad huc qui</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f4r_l001" xml:id="medusa_f4r_l001"/>
+          <seg type="raw_unreviewed">bis ne fastidiũ facias audientib: ¶ Item allegoria in</seg>
+          <lb facs="#z_f4r_l002" xml:id="medusa_f4r_l002"/>
+          <seg type="raw_unreviewed">Tropologia in anagogia expone sicut nis quia</seg>
+          <lb facs="#z_f4r_l003" xml:id="medusa_f4r_l003"/>
+          <seg type="raw_unreviewed">ibi errare nõ potes Actamen hᶜ caneas ne ꝯtrariũ</seg>
+          <lb facs="#z_f4r_l004" xml:id="medusa_f4r_l004"/>
+          <seg type="raw_unreviewed">ꝑ aliud q̃rim exponas u̾bi grã dyabulus nõ significat</seg>
+          <lb facs="#z_f4r_l005" xml:id="medusa_f4r_l005"/>
+          <seg type="raw_unreviewed">deu̾ nec econtrario et sic de aliis</seg>
+          <lb facs="#z_f4r_l006" xml:id="medusa_f4r_l006"/>
+          <seg type="raw_unreviewed">Illusion est cõpacta ex intimo cordis sub surta</seg>
+          <lb facs="#z_f4r_l007" xml:id="medusa_f4r_l007"/>
+          <seg type="raw_unreviewed">de allusion</seg>
+          <lb facs="#z_f4r_l008" xml:id="medusa_f4r_l008"/>
+          <seg type="raw_unreviewed">exiccatõ Om̃es crĩ allussio deb⁊ h̃re 3ᶜˢ sm̃as</seg>
+          <lb facs="#z_f4r_l009" xml:id="medusa_f4r_l009"/>
+          <seg type="raw_unreviewed">quarum que lib: h: tres clausulas et que lib: cla</seg>
+          <lb facs="#z_f4r_l010" xml:id="medusa_f4r_l010"/>
+          <seg type="raw_unreviewed">sula duas dictõnes ⁊ sic erũt xuiiiᵒ dictõnes ĩ q̃lib:</seg>
+          <lb facs="#z_f4r_l011" xml:id="medusa_f4r_l011"/>
+          <seg type="raw_unreviewed">allusione ita dico positine s noerũt nisi x ĩ esse</seg>
+          <lb facs="#z_f4r_l012" xml:id="medusa_f4r_l012"/>
+          <seg type="raw_unreviewed">cia quia iiiior ex hiis terponi debẽt Et sunt ille iii</seg>
+          <lb facs="#z_f4r_l013" xml:id="medusa_f4r_l013"/>
+          <seg type="raw_unreviewed">que 3 ponuntur Ex quibus prima sententia constat ita videlicet quod p</seg>
+          <lb facs="#z_f4r_l014" xml:id="medusa_f4r_l014"/>
+          <seg type="raw_unreviewed">dicto pͥme clausule et pͥme sine idem sit ⁊ sic 3᷑ ponũ᷑</seg>
+          <lb facs="#z_f4r_l015" xml:id="medusa_f4r_l015"/>
+          <seg type="raw_unreviewed">Similiter ille tres dicciones quibus eadem dicto t̃ proponit</seg>
+          <lb facs="#z_f4r_l016" xml:id="medusa_f4r_l016"/>
+          <seg type="raw_unreviewed">in principio cuiꝰlib: clausule 5ᵉ 2 3ᵉ sine repetitioe est</seg>
+          <lb facs="#z_f4r_l017" xml:id="medusa_f4r_l017"/>
+          <seg type="raw_unreviewed">ip̃e et sic ip̃e s̃ ponũt᷑ Itẽ nõ ty om̃e tͥ posiũ hẽbit</seg>
+          <lb facs="#z_f4r_l018" xml:id="medusa_f4r_l018"/>
+          <seg type="raw_unreviewed">cõsonanciã int̾ se ⁊ sub eod̃ casu moͣr personã. Item</seg>
+          <lb facs="#z_f4r_l019" xml:id="medusa_f4r_l019"/>
+          <seg type="raw_unreviewed">onis allusio fit duplici c̃nsitu uidelicet inter c̃atorem</seg>
+          <lb facs="#z_f4r_l020" xml:id="medusa_f4r_l020"/>
+          <seg type="raw_unreviewed">et cͤaturã Et .t. cͤaturã ⁊ cͤaturã Ubi grã int̾ cͤatorẽ</seg>
+          <lb facs="#z_f4r_l021" xml:id="medusa_f4r_l021"/>
+          <seg type="raw_unreviewed">⁊ c᷑ata Ad am nbi es u qui magna scinisci mag</seg>
+          <lb facs="#z_f4r_l022" xml:id="medusa_f4r_l022"/>
+          <seg type="raw_unreviewed">na fecisti magna offedisti Scinisti bonũ fecisti</seg>
+          <lb facs="#z_f4r_l023" xml:id="medusa_f4r_l023"/>
+          <seg type="raw_unreviewed">malũ Offendisti deũ Scinisti ĩ mortalitatẽ fecisti</seg>
+          <lb facs="#z_f4r_l024" xml:id="medusa_f4r_l024"/>
+          <seg type="raw_unreviewed">iniquitatem Offendisti tͥnitatẽ Ecce hec allusio ĩ</seg>
+          <lb facs="#z_f4r_l025" xml:id="medusa_f4r_l025"/>
+          <seg type="raw_unreviewed">qua continetur tocius quod superius docui de allusione</seg>
+          <lb facs="#z_f4r_l026" xml:id="medusa_f4r_l026"/>
+          <seg type="raw_unreviewed">⁊ tali modo nel consimili formabis omnes conclusiones</seg>
+          <lb facs="#z_f4r_l027" xml:id="medusa_f4r_l027"/>
+          <seg type="raw_unreviewed">allusiones</seg>
+          <lb facs="#z_f4r_l028" xml:id="medusa_f4r_l028"/>
+          <seg type="raw_unreviewed">Conclusio est competens cuiꝰlib: oꝑationis ĩ po</seg>
+          <lb facs="#z_f4r_l029" xml:id="medusa_f4r_l029"/>
+          <seg type="raw_unreviewed">sicio pt̃ aut cõcludi mediate uł immediate</seg>
+          <lb facs="#z_f4r_l030" xml:id="medusa_f4r_l030"/>
+          <seg type="raw_unreviewed">sicut dcm̃ est dei nocaione Cum ignis cõ</seg>
+          <lb facs="#z_f4r_l031" xml:id="medusa_f4r_l031"/>
+          <seg type="raw_unreviewed">⟦sine⟧ clude̾ u̾itas u̾ba ad thronũ uł ad sedẽ uł ad gl̃oꝝm</seg>
+          <lb facs="#z_f4r_l032" xml:id="medusa_f4r_l032"/>
+          <seg type="raw_unreviewed">uel ad laudẽ uel ad regnũ uel ad bndictõm ad p̃mũ</seg>
+          <lb facs="#z_f4r_l033" xml:id="medusa_f4r_l033"/>
+          <seg type="raw_unreviewed">sum in morbitate ad patriam uel quiete ad domum uel</seg>
+          <lb facs="#z_f4r_l034" xml:id="medusa_f4r_l034"/>
+          <seg type="raw_unreviewed">claritatem ad congnicionem uel uisionem ad conionem uel pape</seg>
+          <lb facs="#z_f4r_l035" xml:id="medusa_f4r_l035"/>
+          <seg type="raw_unreviewed">ciacionem Et hoc facto in fer more wlpis ⁊ adhuc qui</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f4r_l001 #z_f4r_l002 #z_f4r_l003 #z_f4r_l004 #z_f4r_l005" xml:id="u_4r_001">… bis ne fastidium facias audientibus. Item in allegoria, in tropologia, in anagogia expone sicut vis quia ibi errare non potes; tamen hoc caveas ne contrarium aliquid alicui exponas. Verbi gratia: diabolus non significat Deum nec e contrario, et sic de aliis.</p>
+        <note type="editorial" corresp="#u_4r_001" xml:lang="cs">Věta navazuje na pokyn opakovat vykládané znění na 3v. Tvrzení o nemožnosti omylu je názor tohoto textu, nikoli záruka správnosti našeho výkladu.</note>
+        <p facs="#z_f4r_l006 #z_f4r_l007 #z_f4r_l008 #z_f4r_l009 #z_f4r_l010 #z_f4r_l011 #z_f4r_l012 #z_f4r_l013 #z_f4r_l014 #z_f4r_l015 #z_f4r_l016 #z_f4r_l017" xml:id="u_4r_002">Allusio est compacta ex intimo cordis [subsuscitata?] excitatio. Omnis enim allusio debet habere tres summas, quarum quaelibet habet tres clausulas et quaelibet clausula duas dictiones, et sic erunt novem [?] dictiones in qualibet allusione, ita dico positive, sed non erunt nisi sex [?] essentia, quia quatuor ex his ter poni debent. Et sunt illae quae tertio ponuntur. Ex quibus prima summa constat ita, videlicet quod prima dictio primae clausulae et primae summae idem sit, et sic tertio ponitur. Similiter illae tres dictiones quibus eadem dictio terminatur in principio cuiuslibet clausulae secundae et tertiae summae repetantur; [...] et sic novem ponuntur.</p>
+        <note type="editorial" corresp="#u_4r_002" xml:lang="cs">Allusio zde znamená rétorické oslovení se systematickým opakováním; není to prostá moderní narážka. Číselná zkratková místa a syntax výpočtu jsou nejisté. Nepočítám z nich domněle ověřenou strukturu. Segment 7 je okrajové de allusione.</note>
+        <p facs="#z_f4r_l018 #z_f4r_l019 #z_f4r_l020 #z_f4r_l021 #z_f4r_l022 #z_f4r_l023 #z_f4r_l024 #z_f4r_l025 #z_f4r_l026" xml:id="u_4r_003">Item nota quod omne tripositum habeat consonantiam inter se sub eodem casu, numero et persona. Item omnis allusio fit duplici transitu, videlicet inter creatorem et creaturam et inter creaturam et creaturam. Verbi gratia inter creatorem et creaturam: Adam, ubi es? Qui magna scivisti, magna fecisti, magna offendisti. Scivisti bonum, fecisti malum, offendisti Deum. Scivisti immortalitatem, fecisti iniquitatem, offendisti Trinitatem. Ecce haec est allusio in qua continetur totum quod superius docui de allusione. Et tali modo vel consimili formabis omnes …</p>
+        <note type="editorial" corresp="#u_4r_003" xml:lang="cs">Příklad je skutečně čitelný na obraze; různé opakované tvary scivisti, fecisti, offendisti nepřebírám z obecného biblického kontextu. Trojice stupňovaných vět je zde lépe doložena než předchozí číselný návod.</note>
+        <p facs="#z_f4r_l027 #z_f4r_l028 #z_f4r_l029 #z_f4r_l030 #z_f4r_l031 #z_f4r_l032 #z_f4r_l033 #z_f4r_l034 #z_f4r_l035" xml:id="u_4r_004">[okraj: allusiones; de conclusione] Conclusio est competens cuiuslibet operationis impositio. Potest autem concludi mediate vel immediate, sicut dictum est de invocatione. Cum igitur vis concludere, vertas verba ad thronum vel ad sedem vel ad gloriam vel ad laudem vel ad regnum vel ad benedictionem, ad [...] immortalitatem, ad patriam vel quietem, ad donum vel caritatem, ad cognitionem vel visionem, ad communionem vel participationem. Et hoc scito [...] et adhuc qui …</p>
+        <note type="editorial" corresp="#u_4r_004" xml:lang="cs">Závěrečný výčet je modlitební návod; jedna položka a konec věty jsou nejasné. Poslední věta pokračuje na 4v; nepřidávám její předpokládané znění.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_4r_001">… dvakrát, abys posluchače neunavil. V alegorickém, mravním a anagogickém smyslu vykládej podle své volby, neboť tam nemůžeš chybovat; přesto se vyvaruj toho, abys něčemu přisoudil protikladný význam. Například ďábel neoznačuje Boha ani naopak. A podobně v jiných případech.</p>
+        <p corresp="#u_4r_002">Allusio je soustředěné podnícení vycházející z hloubi srdce [přesný výraz nejistý]. Každá taková řeč má mít tři celky, každý o třech větách a každá věta o dvou slovech. Dále text rozlišuje počet slovních pozic a odlišných výrazů [číslice jsou nejisté]; čtyři se mají opakovat třikrát. První celek se tvoří tak, že se počáteční slovo první věty opakuje třikrát. Obdobně se tři další výrazy opakují na počátku vět druhého a třetího celku. [Závěr početního vysvětlení není bezpečně přečten.]</p>
+        <p corresp="#u_4r_003">Každý třikrát opakovaný výraz má být souzvučný a shodný v pádu, čísle a osobě. Oslovení se děje dvojím přechodem: mezi Stvořitelem a tvorem nebo mezi dvěma tvory. Příkladem prvního je: Adame, kde jsi? Velké věci jsi poznal, velké jsi vykonal, velice ses provinil. Poznal jsi dobro, vykonal zlo, urazil Boha. Poznal jsi nesmrtelnost, dopustil se nepravosti, urazil Trojici. V tomto oslovení je obsaženo vše, co jsem výše učil. Takto či podobně budeš tvořit všechny …</p>
+        <p corresp="#u_4r_004">[Na okraji odkazy na oslovení a závěr.] Závěr je náležité dovršení každého díla. Uzavírat lze prostřednictvím jiného nebo bezprostředně, jak bylo řečeno o vzývání. Chceš-li tedy uzavřít, obrať slova k trůnu či sídlu, slávě, chvále, království, požehnání, [...] nesmrtelnosti, vlasti či odpočinku, daru či lásce, poznání či vidění, společenství či účasti. A toto věz [...] a dále kdo …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

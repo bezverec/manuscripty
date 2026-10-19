@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 53r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Auctoritates diversorum doctorum (praesertim circa confessionem ac obedienciam). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_53r_coordinate; PNG SHA256 e18ae3b4bb668907f9e03318270d29c4992f03956310753675a844ac8739090b; archival TIFF SHA256 95d428fd93638b6bb50a7c9a87bfcbe88005a4d06d754edbe63271ae85a33373; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_53r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#53r"/>
+      <zone ulx="121" uly="3341" lrx="239" lry="3431" xml:id="z_f53r_l001"/>
+      <zone ulx="364" uly="488" lrx="2963" lry="672" xml:id="z_f53r_l002"/>
+      <zone ulx="373" uly="591" lrx="3000" lry="752" xml:id="z_f53r_l003"/>
+      <zone ulx="373" uly="687" lrx="3003" lry="836" xml:id="z_f53r_l004"/>
+      <zone ulx="367" uly="784" lrx="2891" lry="927" xml:id="z_f53r_l005"/>
+      <zone ulx="277" uly="868" lrx="3028" lry="1039" xml:id="z_f53r_l006"/>
+      <zone ulx="385" uly="970" lrx="3112" lry="1107" xml:id="z_f53r_l007"/>
+      <zone ulx="389" uly="1070" lrx="3056" lry="1222" xml:id="z_f53r_l008"/>
+      <zone ulx="385" uly="1160" lrx="2421" lry="1303" xml:id="z_f53r_l009"/>
+      <zone ulx="389" uly="1244" lrx="3090" lry="1381" xml:id="z_f53r_l010"/>
+      <zone ulx="389" uly="1337" lrx="3072" lry="1465" xml:id="z_f53r_l011"/>
+      <zone ulx="392" uly="1418" lrx="3081" lry="1564" xml:id="z_f53r_l012"/>
+      <zone ulx="401" uly="1505" lrx="3053" lry="1645" xml:id="z_f53r_l013"/>
+      <zone ulx="398" uly="1602" lrx="3022" lry="1736" xml:id="z_f53r_l014"/>
+      <zone ulx="398" uly="1692" lrx="3019" lry="1820" xml:id="z_f53r_l015"/>
+      <zone ulx="376" uly="1773" lrx="3090" lry="1910" xml:id="z_f53r_l016"/>
+      <zone ulx="398" uly="1866" lrx="3016" lry="1994" xml:id="z_f53r_l017"/>
+      <zone ulx="404" uly="1950" lrx="3124" lry="2100" xml:id="z_f53r_l018"/>
+      <zone ulx="392" uly="2037" lrx="2991" lry="2187" xml:id="z_f53r_l019"/>
+      <zone ulx="420" uly="2134" lrx="3022" lry="2283" xml:id="z_f53r_l020"/>
+      <zone ulx="417" uly="2224" lrx="3034" lry="2373" xml:id="z_f53r_l021"/>
+      <zone ulx="417" uly="2317" lrx="3103" lry="2464" xml:id="z_f53r_l022"/>
+      <zone ulx="417" uly="2408" lrx="3025" lry="2554" xml:id="z_f53r_l023"/>
+      <zone ulx="420" uly="2495" lrx="3124" lry="2635" xml:id="z_f53r_l024"/>
+      <zone ulx="417" uly="2585" lrx="3137" lry="2725" xml:id="z_f53r_l025"/>
+      <zone ulx="417" uly="2678" lrx="3068" lry="2812" xml:id="z_f53r_l026"/>
+      <zone ulx="420" uly="2772" lrx="3196" lry="2921" xml:id="z_f53r_l027"/>
+      <zone ulx="417" uly="2865" lrx="3106" lry="3011" xml:id="z_f53r_l028"/>
+      <zone ulx="435" uly="2958" lrx="3187" lry="3098" xml:id="z_f53r_l029"/>
+      <zone ulx="407" uly="3042" lrx="3159" lry="3198" xml:id="z_f53r_l030"/>
+      <zone ulx="429" uly="3129" lrx="3152" lry="3288" xml:id="z_f53r_l031"/>
+      <zone ulx="445" uly="3223" lrx="3096" lry="3384" xml:id="z_f53r_l032"/>
+      <zone ulx="426" uly="3313" lrx="3053" lry="3472" xml:id="z_f53r_l033"/>
+      <zone ulx="423" uly="3406" lrx="3087" lry="3574" xml:id="z_f53r_l034"/>
+      <zone ulx="426" uly="3509" lrx="3146" lry="3668" xml:id="z_f53r_l035"/>
+      <zone ulx="432" uly="3602" lrx="3156" lry="3758" xml:id="z_f53r_l036"/>
+      <zone ulx="435" uly="3699" lrx="3209" lry="3851" xml:id="z_f53r_l037"/>
+      <zone ulx="445" uly="3792" lrx="3075" lry="3935" xml:id="z_f53r_l038"/>
+      <zone ulx="426" uly="3876" lrx="3215" lry="4025" xml:id="z_f53r_l039"/>
+      <zone ulx="463" uly="3963" lrx="3096" lry="4109" xml:id="z_f53r_l040"/>
+      <zone ulx="451" uly="4060" lrx="3112" lry="4184" xml:id="z_f53r_l041"/>
+      <zone ulx="457" uly="4140" lrx="3131" lry="4274" xml:id="z_f53r_l042"/>
+      <zone ulx="454" uly="4231" lrx="3230" lry="4377" xml:id="z_f53r_l043"/>
+      <zone ulx="454" uly="4324" lrx="3106" lry="4567" xml:id="z_f53r_l044"/>
+      <zone ulx="3451" uly="3282" lrx="3501" lry="3409" xml:id="z_f53r_l045"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f53r_l001" xml:id="catmus_f53r_l001"/>
+          <seg type="raw_unreviewed">lut che</seg>
+          <lb facs="#z_f53r_l002" xml:id="catmus_f53r_l002"/>
+          <seg type="raw_unreviewed">fux apłi deopcẽdo di q̃stõnai̾os iũdacia ĩ ꝑrochia dic̾e ꝑuuistũt ꝑtẽ</seg>
+          <lb facs="#z_f53r_l003" xml:id="catmus_f53r_l003"/>
+          <seg type="raw_unreviewed">cũ os hr̃ẽt si ĩdulgu᷑ ꝑse debit cũ nõ poss uł ieccĩ sua ycułgui ͭ</seg>
+          <lb facs="#z_f53r_l004" xml:id="catmus_f53r_l004"/>
+          <seg type="raw_unreviewed">plc̃o quã funt si cũ sbdit suis diff ᷝ ͤ dispũsa ͭ sñ cũ iñbłi noͣ qd</seg>
+          <lb facs="#z_f53r_l005" xml:id="catmus_f53r_l005"/>
+          <seg type="raw_unreviewed">sac̃dos nõ d officiũ Face̾ ꝓbolũ ͤ ẜ dipẽ uł desõo 2lpag᷑ itra e ͭ rdep</seg>
+          <lb facs="#z_f53r_l006" xml:id="catmus_f53r_l006"/>
+          <seg type="raw_unreviewed">Der̾ligios p̃latꝭ id quer᷑ utꝭ fuit iẽplure utꝭ ꝯtilt se ĩ efficia</seg>
+          <lb facs="#z_f53r_l007" xml:id="catmus_f53r_l007"/>
+          <seg type="raw_unreviewed">ueꝵꝭ ĩ pcc̃is maiͭ dissiluut Si ei indo fuit si uͬ ep̃psit si ĩtoric᷑oe</seg>
+          <lb facs="#z_f53r_l008" xml:id="catmus_f53r_l008"/>
+          <seg type="raw_unreviewed">ecessit modũ si malos qsue n ͤᷤ ĩ dip uł ĩ scituit ui nrd  cĩ sb̃dictꝭ</seg>
+          <lb facs="#z_f53r_l009" xml:id="catmus_f53r_l009"/>
+          <seg type="raw_unreviewed">suus dispũsat uł durimiuis suit de indiabus spual</seg>
+          <lb facs="#z_f53r_l010" xml:id="catmus_f53r_l010"/>
+          <seg type="raw_unreviewed">Qu̾e c̃ca indice sine quẽcũq aũcͭ  hũte ordĩaria uł delegatãt Qua᷑ ꝓtãtẽ</seg>
+          <lb facs="#z_f53r_l011" xml:id="catmus_f53r_l011"/>
+          <seg type="raw_unreviewed">accepit soĩace uł usurpaͬͤ Nũo ne/ qr usur pati aũcͭ ͥ ᷤ ptũs nõ dat auͭ ͤ</seg>
+          <lb facs="#z_f53r_l012" xml:id="catmus_f53r_l012"/>
+          <seg type="raw_unreviewed">si ip̃e uł qͥc aliꝰ kñs opl̃ias falsi ip̃o me ẽ equĩ ͭͫ Ei fines mãdati</seg>
+          <lb facs="#z_f53r_l013" xml:id="catmus_f53r_l013"/>
+          <seg type="raw_unreviewed">sui docessit di dibacõs aliiͣs qͣ iuis fecit si ca odii ũl dilcõis uł tõr mnr̾itiͭ</seg>
+          <lb facs="#z_f53r_l014" xml:id="catmus_f53r_l014"/>
+          <seg type="raw_unreviewed">suãs me aꝓbatis di reo qũes secitadqͥs iñde̾ seͭ tenela᷑ Si appłiã ᷤ es</seg>
+          <lb facs="#z_f53r_l015" xml:id="catmus_f53r_l015"/>
+          <seg type="raw_unreviewed">legatiãs uõ dnuisit Bi niiuis ĩꝑgus ⁊ĩ suffici ͥͤ de indiciis se ĩcmist aĩ</seg>
+          <lb facs="#z_f53r_l016" xml:id="catmus_f53r_l016"/>
+          <seg type="raw_unreviewed">frc̃uge̾ potuĩt di ĩ dubis nag pitos nẽ qsuit si p uꝑib uidius rorpud</seg>
+          <lb facs="#z_f53r_l017" xml:id="catmus_f53r_l017"/>
+          <seg type="raw_unreviewed">nõ sõuet di allegn ͤ ͤ frgelas admisit si tulit .iͣ uĩtatẽ suiũs Si peuã ĩ</seg>
+          <lb facs="#z_f53r_l018" xml:id="catmus_f53r_l018"/>
+          <seg type="raw_unreviewed">ordiãte ⁊ sĩca suffiͭͥ xmisit uł auxͭ uł miuuit sea nutiͭ Iẽ ubicũq</seg>
+          <lb facs="#z_f53r_l019" xml:id="catmus_f53r_l019"/>
+          <seg type="raw_unreviewed">Iudex ꝓter alt̾a uł abias sc̃ie Redit uł g̃ciat. uõ so ͥpcat morͣ</seg>
+          <lb facs="#z_f53r_l020" xml:id="catmus_f53r_l020"/>
+          <seg type="raw_unreviewed">s tenẽ adusaͦ ehar ꝑapius dolam a ͤ cͣssa ignoaucia ꝓessuñt soctã</seg>
+          <lb facs="#z_f53r_l021" xml:id="catmus_f53r_l021"/>
+          <seg type="raw_unreviewed">id̾ ꝓt̃ Iu̾e de Iusticia de ad ueto ⁊ ꝑciutoe que si uniꝙͣ ĩtmist se decũ</seg>
+          <lb facs="#z_f53r_l022" xml:id="catmus_f53r_l022"/>
+          <seg type="raw_unreviewed">id iuã ĩ suffi s̾ suit si scieͬ cñ i. qu̾it assupsit ãł ꝓ lỹ ũquũ dẽ copit nõ</seg>
+          <lb facs="#z_f53r_l023" xml:id="catmus_f53r_l023"/>
+          <seg type="raw_unreviewed">stati deseru̾it si pauꝑib ⁊ allusis suis ud affuct ic decagrr quere</seg>
+          <lb facs="#z_f53r_l024" xml:id="catmus_f53r_l024"/>
+          <seg type="raw_unreviewed">D. ĩsuff  assupsit s officiũ docũdi Si negaᵗ udeneo lic̃ii ͣ docũdi bi</seg>
+          <lb facs="#z_f53r_l025" xml:id="catmus_f53r_l025"/>
+          <seg type="raw_unreviewed">sãat pħibitͦ didicit. ut ignã de arte nõtsi̾a ⁊ sor ͥ ͦ⁊ ldi Si sto ⁊</seg>
+          <lb facs="#z_f53r_l026" xml:id="catmus_f53r_l026"/>
+          <seg type="raw_unreviewed">laed neglexͭ. rubi se neglien habuerũt iindĩb ⁊ nõ cenent de</seg>
+          <lb facs="#z_f53r_l027" xml:id="catmus_f53r_l027"/>
+          <seg type="raw_unreviewed">buit gi nimꝰ de scolai acceptt ui colleg̃ᵗ collcã abhas aq̃li uł q̃ ñ debuit</seg>
+          <lb facs="#z_f53r_l028" xml:id="catmus_f53r_l028"/>
+          <seg type="raw_unreviewed">ut apau ͭ ric̃ ĩ ꝯsueta Aiedice d̾i aiꝙ suit tũsg̃ssor srdis apłice ĩ</seg>
+          <lb facs="#z_f53r_l029" xml:id="catmus_f53r_l029"/>
+          <seg type="raw_unreviewed">qͣ p̃cipi᷑ uł cũ medici us̾u᷑ ad ĩ fmoe añ oĩa mouẽat ⁊ iduõit ut aduocẽt</seg>
+          <lb facs="#z_f53r_l030" xml:id="catmus_f53r_l030"/>
+          <seg type="raw_unreviewed">pus medices aĩa ꝵ/ Rr nõnũꝙ sxpcc̃o corporalis ue ĩ fi̾itas st si ꝓ salite</seg>
+          <lb facs="#z_f53r_l031" xml:id="catmus_f53r_l031"/>
+          <seg type="raw_unreviewed">cut aliꝙͥ ꝯsuluit s ꝙ u̾tebit᷑ ĩꝑul̃m aĩe iꝓ ĩced dectul philẽ st̃anatte ᵈ</seg>
+          <lb facs="#z_f53r_l032" xml:id="catmus_f53r_l032"/>
+          <seg type="raw_unreviewed">di clici ã suc̾e bũf ͦ fligiosi ĩ tͥniẜuũt se oꝑari / de medc̃is ũ gͣ̃tꝭ᷑</seg>
+          <lb facs="#z_f53r_l033" xml:id="catmus_f53r_l033"/>
+          <seg type="raw_unreviewed">ꝓmiha̾błis ꝑ suĩo uł suis ꝯsag ᵈ ᷤ Ic̃ si ĩdaute. ruxg sñ arte oꝑat e</seg>
+          <lb facs="#z_f53r_l034" xml:id="catmus_f53r_l034"/>
+          <seg type="raw_unreviewed">uł ob̾muis ad de iting̃icca ĩ finos qͥs odcũa suã osuphot deu̾cuto ib</seg>
+          <lb facs="#z_f53r_l035" xml:id="catmus_f53r_l035"/>
+          <seg type="raw_unreviewed">et buritii q. ut de frande ⁊ dolo si uimis ca̾e bend̾idet ꝓ ꝑꝑus p̃cio euit</seg>
+          <lb facs="#z_f53r_l036" xml:id="catmus_f53r_l036"/>
+          <seg type="raw_unreviewed">siuiciũ rei uendũs ttrat. ã s̾ uendũtẽ decrpͭ᷑ Ie deuĩsiũs dettroloid</seg>
+          <lb facs="#z_f53r_l037" xml:id="catmus_f53r_l037"/>
+          <seg type="raw_unreviewed">de decccone si p̃tiũ ir ep̃taꝵ scututo tꝑe nõ soluit Bi res fois uł rapbis</seg>
+          <lb facs="#z_f53r_l038" xml:id="catmus_f53r_l038"/>
+          <seg type="raw_unreviewed">stẽͬ xui ͭ aͥ ĩsofie ͣ ͤ r̃ceꝑit di m̾oito̾es inter se soatũ fuciũt uł uue</seg>
+          <lb facs="#z_f53r_l039" xml:id="catmus_f53r_l039"/>
+          <seg type="raw_unreviewed">bcie bendũt gͣni pcͨ̃ant It dem̃dacis si ꝑciul niiuis cuiũla ͭ ⁊ del ĩ ẜꝑluã</seg>
+          <lb facs="#z_f53r_l040" xml:id="catmus_f53r_l040"/>
+          <seg type="raw_unreviewed">poupͭ si uccieutib uł sauẽtib qͣ insti  astitit si uile mutaͭ ꝓ melio ĩ</seg>
+          <lb facs="#z_f53r_l041" xml:id="catmus_f53r_l041"/>
+          <seg type="raw_unreviewed">ut auonã uenã ꝑ autiqui Crca kofice q. ⁊ ꝯsidea s̃ artisiciũ soum</seg>
+          <lb facs="#z_f53r_l042" xml:id="catmus_f53r_l042"/>
+          <seg type="raw_unreviewed">sũ pcc̃o ꝯx̾c̾e̾ uõ pt̃ qropat sũt uisi adusũ manũ. rtlia oꝑt dũt̾e</seg>
+          <lb facs="#z_f53r_l043" xml:id="catmus_f53r_l043"/>
+          <seg type="raw_unreviewed">i ĩ ag̾et/ ꝓnia Candã ⁊̃ sciũt ꝙ lix fĩ pũt sĩ poũ ut incc̃o ĩ alu ꝓoui᷑</seg>
+          <lb facs="#z_f53r_l044" xml:id="catmus_f53r_l044"/>
+          <seg type="raw_unreviewed">mũ stc̃o ad bolia ⁊ pliat Ic si alia oꝑati pũt cẽ ad lonũ ⁊adiulli ut ꝓ in</seg>
+          <lb facs="#z_f53r_l045" xml:id="catmus_f53r_l045"/>
+          <seg type="raw_unreviewed">I</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f53r_l001" xml:id="medusa_f53r_l001"/>
+          <seg type="raw_unreviewed">ant die</seg>
+          <lb facs="#z_f53r_l002" xml:id="medusa_f53r_l002"/>
+          <seg type="raw_unreviewed">super populi deopiendo si q̃stionarios mandata in parrochia dicere permiserit per t̃o</seg>
+          <lb facs="#z_f53r_l003" xml:id="medusa_f53r_l003"/>
+          <seg type="raw_unreviewed">cum eis habuerit . Si indulgunt per se desit cum non possunt vel in ecclesia sua proclamant</seg>
+          <lb facs="#z_f53r_l004" xml:id="medusa_f53r_l004"/>
+          <seg type="raw_unreviewed">plẽs quã fuit Si cũ subditꝭ suis diffˡᵉ dispensat sñ cũ iũbili Noͣ qd̵</seg>
+          <lb facs="#z_f53r_l005" xml:id="medusa_f53r_l005"/>
+          <seg type="raw_unreviewed">sacerdos nõ d officiũ facere pro boluᵗᵉ s d̾ t̾re ul̃ de sc̃is 2ͣ lyag̃ ĩ t̾ra 11 2 de 1</seg>
+          <lb facs="#z_f53r_l006" xml:id="medusa_f53r_l006"/>
+          <seg type="raw_unreviewed">De religiosis prelatis idem queritur utrum fuerit exemplare utrum extulit se in officio</seg>
+          <lb facs="#z_f53r_l007" xml:id="medusa_f53r_l007"/>
+          <seg type="raw_unreviewed">utꝭ ĩ ꝓce̾s manꝭ dissoluuit Si eiꝰ uideꝵ fuit S. n.ꝰ opposit Si ĩ coriicõe</seg>
+          <lb facs="#z_f53r_l008" xml:id="medusa_f53r_l008"/>
+          <seg type="raw_unreviewed">excessit modum si malos ꝯsueues ĩduxit uł ĩstituit si nr̃oꝵ cũ subditꝭ</seg>
+          <lb facs="#z_f53r_l009" xml:id="medusa_f53r_l009"/>
+          <seg type="raw_unreviewed">suis dispũsit ũl dnr nimis fuit / De iudeobus spũab</seg>
+          <lb facs="#z_f53r_l010" xml:id="medusa_f53r_l010"/>
+          <seg type="raw_unreviewed">Quo c̾ta iudice sine quocũq; aũtꝭ hũte; ordinaꝵ ul delegatã Quia ptãtẽ</seg>
+          <lb facs="#z_f53r_l011" xml:id="medusa_f53r_l011"/>
+          <seg type="raw_unreviewed">accepit sponãtem uł usurpaⁿᵉ̃ / ⁊ nõ ñe / qr usurpatu cunctis p̃tũs nõ dat aũtᵉm</seg>
+          <lb facs="#z_f53r_l012" xml:id="medusa_f53r_l012"/>
+          <seg type="raw_unreviewed">Si ip̃e nĩl ꝙͣmꝰ a lꝰ bñs apłicas falsiᵐᵗ ip̃o nr̃e ẽ exiũtꝰ Si fines mãdati</seg>
+          <lb facs="#z_f53r_l013" xml:id="medusa_f53r_l013"/>
+          <seg type="raw_unreviewed">sui excessit Si debacioris aliquis qͣuis fecit Si cã odii uł dilectionis uł fororum mutavit</seg>
+          <lb facs="#z_f53r_l014" xml:id="medusa_f53r_l014"/>
+          <seg type="raw_unreviewed">suas me approbatas Si reo qões fecit ad qͣs rñde̾ fecit tenebit᷑ Si appłares</seg>
+          <lb facs="#z_f53r_l015" xml:id="medusa_f53r_l015"/>
+          <seg type="raw_unreviewed">legaciis nõ dimisit Si nimis ĩꝑitus ⁊ ĩsufficius de iudiciis se intͣuist aũ</seg>
+          <lb facs="#z_f53r_l016" xml:id="medusa_f53r_l016"/>
+          <seg type="raw_unreviewed">sb̃ fugere potuit Si ĩ dubiis magꝭ ꝑitos nõ ĩsint Si pauꝑib uiduis ⁊ orpͥno</seg>
+          <lb facs="#z_f53r_l017" xml:id="medusa_f53r_l017"/>
+          <seg type="raw_unreviewed">nõ suet Si allegiis frigelos adnũsit Si tulit ꝙ u̾itatẽ suãs Si penã ĩ</seg>
+          <lb facs="#z_f53r_l018" xml:id="medusa_f53r_l018"/>
+          <seg type="raw_unreviewed">ordinẽ ⁊ sũcũ suffiᵗᵉ r̾muit ũl aux̃ ũl minu̾it seu mutat᷑ Qm̃ ubicũq</seg>
+          <lb facs="#z_f53r_l019" xml:id="medusa_f53r_l019"/>
+          <seg type="raw_unreviewed">iudex partem alterã uł alias sciẽcedit uł g̃ciat. nõ sũ p̃cat moͣr</seg>
+          <lb facs="#z_f53r_l020" xml:id="medusa_f53r_l020"/>
+          <seg type="raw_unreviewed">s tenẽt adversaᵒʳ eorꝰ ꝑipũus dolom aᶜ t᷑ssañ ignoꝑanciam possunt</seg>
+          <lb facs="#z_f53r_l021" xml:id="medusa_f53r_l021"/>
+          <seg type="raw_unreviewed">id pt̃. qͣre de justicia de. ad u̾d̾t̃o ⁊ ꝓcurato͂re qͣre si unꝙ̃ ĩtͦmisset se decĩ</seg>
+          <lb facs="#z_f53r_l022" xml:id="medusa_f53r_l022"/>
+          <seg type="raw_unreviewed">ad quã ĩ suffiᵘˢ sint Si scĩe᷑ oñ: ĩ quã assũpsit nõł p᷑h ñ quã eẽ copit nõ</seg>
+          <lb facs="#z_f53r_l023" xml:id="medusa_f53r_l023"/>
+          <seg type="raw_unreviewed">statĩ deseruit Si pauꝑib ⁊ abbusis suis nõ affuit etc. De magr̃o quere</seg>
+          <lb facs="#z_f53r_l024" xml:id="medusa_f53r_l024"/>
+          <seg type="raw_unreviewed">Si ĩ suffᵘᵒ assumpsit sᵗ officium docundi Si negat ydoneo licitꝰ docundi Si</seg>
+          <lb facs="#z_f53r_l025" xml:id="medusa_f53r_l025"/>
+          <seg type="raw_unreviewed">scias ꝓhibito didicic . ut uigiliaᵐ de arte nõtoria ⁊ secrꝭ ⁊ hodi Si scis</seg>
+          <lb facs="#z_f53r_l026" xml:id="medusa_f53r_l026"/>
+          <seg type="raw_unreviewed">laed neglexͭ. ⁊ ubi se negligen᷑ habuerũt ĩ moĩb ⁊ nõ cecerr̾unt de</seg>
+          <lb facs="#z_f53r_l027" xml:id="medusa_f53r_l027"/>
+          <seg type="raw_unreviewed">bunt Si numuꝰ de scolar̃ accept Si collegͭ collc̃i abhis a q̃b ũl q̃ ñ debuit</seg>
+          <lb facs="#z_f53r_l028" xml:id="medusa_f53r_l028"/>
+          <seg type="raw_unreviewed">ut apaculicꝰ riciꝰ ĩ ꝯsueta. Amedicꝰ eiꝰ uĩq̃ fuit tũsg̃ssor sedis apostolice ĩ</seg>
+          <lb facs="#z_f53r_l029" xml:id="medusa_f53r_l029"/>
+          <seg type="raw_unreviewed">qͣ p̃cipi᷑ ut cũ medici uen̾᷑ ad ĩf̾mos añ oĩa mon̾eat ⁊ ĩduoĩt ut aduocẽt</seg>
+          <lb facs="#z_f53r_l030" xml:id="medusa_f53r_l030"/>
+          <seg type="raw_unreviewed">p̃us medicus nostrꝰ / .q. nonnunꝙ̃ ex pcc̃o corporalibꝰ ne ĩf̾mitas / It̃ si ꝓ salute</seg>
+          <lb facs="#z_f53r_l031" xml:id="medusa_f53r_l031"/>
+          <seg type="raw_unreviewed">coꝵ aliꝙ̃ ꝯsubunt fiꝰ ꝙ u̾tebra᷑ ĩ ꝑutũ aĩe ꝙ ĩ eĩd̃ dec̃ta p̃sybe᷑ sc̃i matheo᷑</seg>
+          <lb facs="#z_f53r_l032" xml:id="medusa_f53r_l032"/>
+          <seg type="raw_unreviewed">Si cr̃fici ã sac̾s bñfˢⁱ religiosi ĩtͣmisuñt se oꝑari / de medicĩs nͥ g̃tꝭ</seg>
+          <lb facs="#z_f53r_l033" xml:id="medusa_f53r_l033"/>
+          <seg type="raw_unreviewed">ꝓ miserabiliꝫ ꝑsonis ũl suis ꝯsignꝭs / 11c si ĩ citute. ⁊ negaͫ / sũ arte oꝑas</seg>
+          <lb facs="#z_f53r_l034" xml:id="medusa_f53r_l034"/>
+          <seg type="raw_unreviewed">uł ob̃misi᷑ aͥb de iusticiab c̃ca ĩf̾mos qͣs ordina͂t suũ asump͂unt De u̾icaturibus</seg>
+          <lb facs="#z_f53r_l035" xml:id="medusa_f53r_l035"/>
+          <seg type="raw_unreviewed">et burgensi q. ut de fraude ⁊ dolo Si nimis care vendiderit . ꝙ ꝑpo p̃cio eũt</seg>
+          <lb facs="#z_f53r_l036" xml:id="medusa_f53r_l036"/>
+          <seg type="raw_unreviewed">Si nom̃ rei uendũs tacuit aꝰ sꝰ uendũtẽ deceptꝰ se de m̃suis de theobano</seg>
+          <lb facs="#z_f53r_l037" xml:id="medusa_f53r_l037"/>
+          <seg type="raw_unreviewed">de detͣccione si p̃tum nr̃ ep̃tarꝭ statuto tꝑe nõ solut Si res fr̾is ũl rapis</seg>
+          <lb facs="#z_f53r_l038" xml:id="medusa_f53r_l038"/>
+          <seg type="raw_unreviewed">sce͂ꝰ emꝰ aꝰ ĩsolucione receꝑit Si mercatores inter se statũ faciũt ũl une</seg>
+          <lb facs="#z_f53r_l039" xml:id="medusa_f53r_l039"/>
+          <seg type="raw_unreviewed">p̃cio vendunt gr̃nꝰ p̃ciant sc̃ de nndaciis Si p̃ciũt nimo cuu̾ha᷑ ⁊ de hᶜ ĩ suꝑbia</seg>
+          <lb facs="#z_f53r_l040" xml:id="medusa_f53r_l040"/>
+          <seg type="raw_unreviewed">prout Di accĩentib uł famẽtib qͣ iustia astitit Di uile / muta᷑ ꝓ melioꝵ</seg>
+          <lb facs="#z_f53r_l041" xml:id="medusa_f53r_l041"/>
+          <seg type="raw_unreviewed">ut aveuã uenã ꝓ aũtiqno Cuta aRb. sicẽ q. ⁊ ꝯsideã sᵃ artificiũ sum</seg>
+          <lb facs="#z_f53r_l042" xml:id="medusa_f53r_l042"/>
+          <seg type="raw_unreviewed">sũ pcc̃o ex̾ce̾ nõ pt̃ qr oꝑata sũt nisi ad usũ manũ. ⁊ tła oꝑtꝭ dnm̃ te</seg>
+          <lb facs="#z_f53r_l043" xml:id="medusa_f53r_l043"/>
+          <seg type="raw_unreviewed">qr nõ ag̾et / p̃maꝵ Condũ ⁊ scunt ꝙ uix fi̾ pũt sũ poꝵ ut m̃tio ĩ alia ꝓo</seg>
+          <lb facs="#z_f53r_l044" xml:id="medusa_f53r_l044"/>
+          <seg type="raw_unreviewed">cuius sc̃io ad uerba et f̃bunt Ie̾ si aliq̃ oꝑata pũt eẽ ad benũ et ad mirab̃ũ ut p; m</seg>
+          <lb facs="#z_f53r_l045" xml:id="medusa_f53r_l045"/>
+          <seg type="raw_unreviewed">l</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f53r_l001 #z_f53r_l002 #z_f53r_l003 #z_f53r_l004 #z_f53r_l005" xml:id="u_53r_001">[sousední úlomek] […] sacramenta apostolica […] Si quaestuarios mendacia in parochia dicere permisit ut partem cum eis haberet. Si indulgentias per se dedit cum non possit vel in ecclesia sua […] plures quam sunt. Si cum subditis suis difficulter dispensat sine causa rationabili. Nota quod sacerdos non debet officium facere pro voluntate sed […] de […] et […]</p>
+        <note type="editorial" corresp="#u_53r_001" xml:lang="cs">Pracovní obrazová rekonstrukce zpovědních otázek, neúplné a sporné části ponechány; odborně nerevidováno.</note>
+        <p facs="#z_f53r_l006 #z_f53r_l007 #z_f53r_l008 #z_f53r_l009" xml:id="u_53r_002">De religiosis praelatis quaeratur utrum fuit in […] vel contulit se in officia […] in peccatis […] Si […] ignarus fuit, si […] in correctione excessit modum, si malas consuetudines […] instituit, si nimis cum subditis suis dispensat vel durus nimis fuit. De iudicibus spiritualibus.</p>
+        <note type="editorial" corresp="#u_53r_002" xml:lang="cs">Pracovní obrazová rekonstrukce zpovědních otázek, neúplné a sporné části ponechány; odborně nerevidováno.</note>
+        <p facs="#z_f53r_l010 #z_f53r_l011 #z_f53r_l012 #z_f53r_l013 #z_f53r_l014" xml:id="u_53r_003">Quaere circa iudicem seu quemcumque auctoritatem habentem ordinariam vel delegatam quam potestatem accepit simoniace vel usurpavit. […] Usurpata auctoritas […] non dat auctoritatem. Si ipse vel quicumque alius […] apostolicas falsas ipso […] excommunicatus […]. Si fines mandati sui excessit, si dilationes alias quam ius fecit, si causa odii vel dilectionis vel timoris […] suis […] approbatis; si reum quaesitis […] in […] tenebat. Si appellationes […].</p>
+        <note type="editorial" corresp="#u_53r_003" xml:lang="cs">Pracovní obrazová rekonstrukce zpovědních otázek, neúplné a sporné části ponechány; odborně nerevidováno.</note>
+        <p facs="#z_f53r_l015 #z_f53r_l016 #z_f53r_l017 #z_f53r_l018 #z_f53r_l019 #z_f53r_l020" xml:id="u_53r_004">[…] legitimas non dimisit. Si nimis imperitus et insufficiens de iudiciis se intromisit aut […] potuit. Si in dubiis magis peritos non consuluit, si pauperibus […] non subvenit, si allegationes frivolas admisit, si tulit contra veritatem sententiam; si poenam inordinatam et sine causa sufficienti remisit vel auxit vel minuit sua auctoritate. Item ubicumque iudex propter alteram vel alias […] reddit vel […] non solum peccat mortaliter sed tenetur ad restitutionem […]. Propter dolum aut crassam ignorantiam […] doctam […].</p>
+        <note type="editorial" corresp="#u_53r_004" xml:lang="cs">Pracovní obrazová rekonstrukce zpovědních otázek, neúplné a sporné části ponechány; odborně nerevidováno.</note>
+        <p facs="#z_f53r_l021 #z_f53r_l022 #z_f53r_l023" xml:id="u_53r_005">Idem potest quaeri de advocato et procuratore, si officium assumpsit quod decenter non […] Si sciens causam iniustam assumpsit aut postquam […] cognovit non statim deseruit. Si pauperibus et aliis suis […] auxilium denegavit […].</p>
+        <note type="editorial" corresp="#u_53r_005" xml:lang="cs">Pracovní obrazová rekonstrukce zpovědních otázek, neúplné a sporné části ponechány; odborně nerevidováno.</note>
+        <p facs="#z_f53r_l024 #z_f53r_l025 #z_f53r_l026 #z_f53r_l027" xml:id="u_53r_006">De docentibus: si insufficiens assumpsit officium docendi; si negavit idoneo licentiam docendi; si scientiam prohibitam didicit ut […] de arte notoria et sortilegio et ludo. Si studium et lectiones neglexit, vel se negligentem habuit in […] et non docendo debuit; si nimis de scholaribus accepit vel collegit collectam […] quam non debuit ut a pauperibus in consueta […].</p>
+        <note type="editorial" corresp="#u_53r_006" xml:lang="cs">Pracovní obrazová rekonstrukce zpovědních otázek, neúplné a sporné části ponechány; odborně nerevidováno.</note>
+        <p facs="#z_f53r_l028 #z_f53r_l029 #z_f53r_l030 #z_f53r_l031" xml:id="u_53r_007">Medico: si aliquis fuit transgressor sedis apostolicae in qua praecipitur ut cum medici fuerint ad infirmos ante omnia moneant et inducant ut advocent […] medicos animarum. […] Nonnumquam ex peccato corporalis venit infirmitas. Si pro salute corporis alicui consuluit quod verteretur in periculum animae […] decretalium prohibetur sub anathemate […].</p>
+        <note type="editorial" corresp="#u_53r_007" xml:lang="cs">Historické teologické chápání nemocí, nikoli současná medicínská interpretace.</note>
+        <p facs="#z_f53r_l032 #z_f53r_l033 #z_f53r_l034" xml:id="u_53r_008">Si clerici in sacris beneficiati religiosi intermiscent se operari de medicinis non gratis […] pro […] personis vel suis consanguineis. Item si ignorans chirurgiam sine arte operatus est vel […] ad […] infirmos quia doctrinam suam […] De mercatoribus.</p>
+        <note type="editorial" corresp="#u_53r_008" xml:lang="cs">Pracovní obrazová rekonstrukce zpovědních otázek, neúplné a sporné části ponechány; odborně nerevidováno.</note>
+        <p facs="#z_f53r_l035 #z_f53r_l036 #z_f53r_l037 #z_f53r_l038 #z_f53r_l039 #z_f53r_l040" xml:id="u_53r_009">Et quaeritur ut de fraude et dolo: si nimis care vendidit pro […] pretio emit; si vitium rei vendens tacet aut scienter vendentem decepit. Item de mensuris […] de deceptione. Si pretium rei emptae statuto tempore non solvit. Si res furtivas vel rapinas scienter vendidit aut in societate recepit. Si mercatores inter se societatem faciunt vel una vice vendunt graviter peccant. Item de mendaciis. Si pecuniam nimis cumulavit et […] superflua consumpsit; si […] contra iustitiam astitit; si vile mutavit pro meliori […].</p>
+        <note type="editorial" corresp="#u_53r_009" xml:lang="cs">Právní rozlišení dovoleného/nedovoleného sdružení není v textu bezpečně celé; nepřebírám obecný zákaz obchodu.</note>
+        <p facs="#z_f53r_l041 #z_f53r_l042 #z_f53r_l043 #z_f53r_l044 #z_f53r_l045" xml:id="u_53r_010">[…] ut annonam novam pro antiqua. Circa artificem quaere et considera si artificium suum sine peccato exercere non potest, quia opera sunt nisi ad usum malum, talia oportet dimittere […] Candam et sciunt quod haec fieri possunt sine peccato ut […] prostitutarum […] ad […] et […] Si alia opera possunt esse ad bonum et ad malum, ut pro in […]. [tenká stopa]</p>
+        <note type="editorial" corresp="#u_53r_010" xml:lang="cs">Prostitutarum je nejisté čtení, věta 43–44 nesestavena podle morálních traktátů.45 netextová stopa.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_53r_001">[Sousední úlomek.] […] apoštolská svátost […] Zda dovolil sběračům almužen pronášet ve farnosti lži, aby se s nimi podílel [na zisku]. Zda sám udílel odpustky, ačkoli nemohl, nebo ve svém kostele […] více, než jich je. Zda podřízeným nesnadno udílí dispens bez rozumného důvodu. Kněz nemá vykonávat úřad podle libovůle, ale […]</p>
+        <p corresp="#u_53r_002">O řeholních představených se má zkoumat, zda byl […] nebo se ujal úřadů […] ve hříších […] zda byl neznalý, zda při kárání překročil míru, zda […] zaváděl špatné zvyky, zda podřízeným uděloval příliš mnoho dispensí či byl naopak příliš tvrdý. O duchovních soudcích.</p>
+        <p corresp="#u_53r_003">U soudce nebo jiného nositele řádné či svěřené pravomoci zjišťuj, zda ji získal simonií nebo si ji přisvojil […]. Přisvojená autorita […] nedává autoritu. Zda on nebo jiný […] falešné apoštolské listiny […] je exkomunikován […]. Zda překročil meze pověření, poskytoval odklady jiné, než dovoluje právo, jednal z nenávisti, náklonnosti či strachu […] podle svých […] Zda obviněného […] držel […]. Zda odvolání […]</p>
+        <p corresp="#u_53r_004">[…] nedovolil řádná [odvolání]. Zda se jako příliš nezkušený a nezpůsobilý ujal soudů […] Zda se v pochybnostech neradil se zkušenějšími, nepomohl chudým […], připustil plané námitky, vynesl rozsudek proti pravdě nebo bez dostatečného důvodu vlastní pravomocí prominul, zvětšil či zmenšil nepřiměřený trest. Soudce, který kvůli druhé či jiné […] rozhoduje […], nejen smrtelně hřeší, ale je povinen k náhradě […]. Pro podvod nebo hrubou nevědomost […]</p>
+        <p corresp="#u_53r_005">Podobně lze zkoumat advokáta a prokurátora: zda přijal úřad, který náležitě nezvládal […], zda se vědomě ujal nespravedlivé věci nebo ji ihned neopustil, když ji poznal […], zda odepřel pomoc chudým a jiným svým […]</p>
+        <p corresp="#u_53r_006">O učitelích: zda nezpůsobilý přijal učitelský úřad, odepřel způsobilému dovolení učit, učil se zakázané vědě, jako […] notornímu umění, čarodějnictví a hře; zda zanedbával studium a přednášky nebo se choval nedbale […] a neučil, jak měl; zda přijímal od žáků příliš nebo vybíral příspěvek […] který neměl, například od chudých […]</p>
+        <p corresp="#u_53r_007">Lékaři: zda někdo přestoupil nařízení apoštolského stolce, podle něhož mají lékaři u nemocných především napomínat a vést je k přivolání […] lékařů duše. Z hříchu někdy pochází tělesná nemoc […]. Zda někomu pro zdraví těla radil něco, co by ohrozilo duši […] v dekretálech se zakazuje pod klatbou […]</p>
+        <p corresp="#u_53r_008">Zda klerici s obročími a řeholníci […] provozují lékařství za úplatu […] pro […] osoby či své příbuzné. Zda neznalý chirurgie operoval bez umění nebo […] u nemocných, protože svou nauku […] O obchodnících.</p>
+        <p corresp="#u_53r_009">A zkoumá se podvod a klam: zda prodával příliš draze nebo kupoval za […] cenu, při prodeji zatajoval vadu či vědomě oklamal prodávajícího; o mírách […] o podvodu. Zda ve stanoveném čase nezaplatil koupenou věc; zda vědomě prodával kradené či uloupené věci nebo je přijímal do společenství. Obchodníci, kteří mezi sebou utvářejí společenství či prodávají společně […], těžce hřeší. Také o lžích, hromadění peněz, nadbytečné spotřebě, pomoci […] proti spravedlnosti a záměně horšího za lepší […]</p>
+        <p corresp="#u_53r_010">[…] například nové obilí za staré. U řemeslníka se ptej a posuzuj, zda své řemeslo nemůže vykonávat bez hříchu, protože jeho výrobky slouží jen ke zlému; takové má opustit […]. A vědí, že to může být bez hříchu, jako […] nevěstek […] pro […] Jiná díla mohou sloužit dobrému i zlému, jako například […] [Tenká stopa.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

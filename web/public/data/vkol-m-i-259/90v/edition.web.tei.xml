@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 90v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_90v_coordinate; PNG SHA256 d8ea01d977d1395f65c07f5d199e6fc92508c7dd99598f500769094ac83d98c1; archival TIFF SHA256 eb5029faed71a74f2540e281920b74f12c8780acf1a2e30ba4ee235876c8e860; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_90v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#90v"/>
+      <zone ulx="703" uly="301" lrx="3514" lry="472" xml:id="z_f90v_l001"/>
+      <zone ulx="784" uly="423" lrx="3112" lry="563" xml:id="z_f90v_l002"/>
+      <zone ulx="753" uly="516" lrx="3050" lry="656" xml:id="z_f90v_l003"/>
+      <zone ulx="768" uly="606" lrx="3498" lry="774" xml:id="z_f90v_l004"/>
+      <zone ulx="790" uly="703" lrx="2960" lry="846" xml:id="z_f90v_l005"/>
+      <zone ulx="725" uly="793" lrx="3594" lry="983" xml:id="z_f90v_l006"/>
+      <zone ulx="756" uly="880" lrx="3470" lry="1098" xml:id="z_f90v_l007"/>
+      <zone ulx="765" uly="986" lrx="2443" lry="1138" xml:id="z_f90v_l008"/>
+      <zone ulx="778" uly="1073" lrx="3174" lry="1260" xml:id="z_f90v_l009"/>
+      <zone ulx="753" uly="1172" lrx="3289" lry="1378" xml:id="z_f90v_l010"/>
+      <zone ulx="787" uly="1281" lrx="2577" lry="1421" xml:id="z_f90v_l011"/>
+      <zone ulx="778" uly="1368" lrx="3171" lry="1521" xml:id="z_f90v_l012"/>
+      <zone ulx="778" uly="1456" lrx="3140" lry="1627" xml:id="z_f90v_l013"/>
+      <zone ulx="775" uly="1552" lrx="3551" lry="1736" xml:id="z_f90v_l014"/>
+      <zone ulx="768" uly="1655" lrx="3149" lry="1801" xml:id="z_f90v_l015"/>
+      <zone ulx="806" uly="1742" lrx="2433" lry="1869" xml:id="z_f90v_l016"/>
+      <zone ulx="3190" uly="1708" lrx="3464" lry="1872" xml:id="z_f90v_l017"/>
+      <zone ulx="787" uly="1826" lrx="3482" lry="1988" xml:id="z_f90v_l018"/>
+      <zone ulx="778" uly="1916" lrx="3401" lry="2090" xml:id="z_f90v_l019"/>
+      <zone ulx="809" uly="2019" lrx="3386" lry="2165" xml:id="z_f90v_l020"/>
+      <zone ulx="759" uly="2112" lrx="3467" lry="2255" xml:id="z_f90v_l021"/>
+      <zone ulx="796" uly="2208" lrx="2910" lry="2336" xml:id="z_f90v_l022"/>
+      <zone ulx="3152" uly="2246" lrx="3454" lry="2364" xml:id="z_f90v_l023"/>
+      <zone ulx="787" uly="2289" lrx="3177" lry="2429" xml:id="z_f90v_l024"/>
+      <zone ulx="775" uly="2380" lrx="3143" lry="2507" xml:id="z_f90v_l025"/>
+      <zone ulx="3184" uly="2345" lrx="3464" lry="2482" xml:id="z_f90v_l026"/>
+      <zone ulx="799" uly="2464" lrx="3439" lry="2613" xml:id="z_f90v_l027"/>
+      <zone ulx="781" uly="2572" lrx="1425" lry="2691" xml:id="z_f90v_l028"/>
+      <zone ulx="775" uly="2625" lrx="3386" lry="2784" xml:id="z_f90v_l029"/>
+      <zone ulx="784" uly="2740" lrx="3430" lry="2884" xml:id="z_f90v_l030"/>
+      <zone ulx="768" uly="2834" lrx="3056" lry="2968" xml:id="z_f90v_l031"/>
+      <zone ulx="790" uly="2924" lrx="3461" lry="3080" xml:id="z_f90v_l032"/>
+      <zone ulx="781" uly="3014" lrx="2885" lry="3160" xml:id="z_f90v_l033"/>
+      <zone ulx="771" uly="3101" lrx="3361" lry="3257" xml:id="z_f90v_l034"/>
+      <zone ulx="762" uly="3201" lrx="3498" lry="3335" xml:id="z_f90v_l035"/>
+      <zone ulx="756" uly="3288" lrx="3476" lry="3437" xml:id="z_f90v_l036"/>
+      <zone ulx="753" uly="3378" lrx="2474" lry="3521" xml:id="z_f90v_l037"/>
+      <zone ulx="765" uly="3453" lrx="3451" lry="3621" xml:id="z_f90v_l038"/>
+      <zone ulx="849" uly="3546" lrx="3087" lry="3692" xml:id="z_f90v_l039"/>
+      <zone ulx="756" uly="3608" lrx="3591" lry="3808" xml:id="z_f90v_l040"/>
+      <zone ulx="759" uly="3711" lrx="3461" lry="3895" xml:id="z_f90v_l041"/>
+      <zone ulx="750" uly="3795" lrx="3535" lry="3994" xml:id="z_f90v_l042"/>
+      <zone ulx="762" uly="3885" lrx="3345" lry="4094" xml:id="z_f90v_l043"/>
+      <zone ulx="750" uly="3994" lrx="2353" lry="4184" xml:id="z_f90v_l044"/>
+      <zone ulx="765" uly="4063" lrx="3218" lry="4268" xml:id="z_f90v_l045"/>
+      <zone ulx="796" uly="4265" lrx="831" lry="4352" xml:id="z_f90v_l046"/>
+      <zone ulx="849" uly="4150" lrx="3302" lry="4358" xml:id="z_f90v_l047"/>
+      <zone ulx="753" uly="4243" lrx="3268" lry="4448" xml:id="z_f90v_l048"/>
+      <zone ulx="771" uly="4346" lrx="3249" lry="4536" xml:id="z_f90v_l049"/>
+      <zone ulx="753" uly="4430" lrx="3604" lry="4648" xml:id="z_f90v_l050"/>
+      <zone ulx="747" uly="4539" lrx="3327" lry="4741" xml:id="z_f90v_l051"/>
+      <zone ulx="740" uly="4632" lrx="3588" lry="4822" xml:id="z_f90v_l052"/>
+      <zone ulx="737" uly="4725" lrx="3538" lry="4943" xml:id="z_f90v_l053"/>
+      <zone ulx="743" uly="4816" lrx="3230" lry="5105" xml:id="z_f90v_l054"/>
+      <zone ulx="3660" uly="3422" lrx="3865" lry="3512" xml:id="z_f90v_l055"/>
+      <zone ulx="3679" uly="3478" lrx="3859" lry="3599" xml:id="z_f90v_l056"/>
+      <zone ulx="3669" uly="3584" lrx="3865" lry="3692" xml:id="z_f90v_l057"/>
+      <zone ulx="3672" uly="3649" lrx="3847" lry="3786" xml:id="z_f90v_l058"/>
+      <zone ulx="3660" uly="3767" lrx="3856" lry="3864" xml:id="z_f90v_l059"/>
+      <zone ulx="3669" uly="3842" lrx="3834" lry="3957" xml:id="z_f90v_l060"/>
+      <zone ulx="3650" uly="3923" lrx="3831" lry="4075" xml:id="z_f90v_l061"/>
+      <zone ulx="3644" uly="4153" lrx="3865" lry="4277" xml:id="z_f90v_l062"/>
+      <zone ulx="3641" uly="4240" lrx="3881" lry="4355" xml:id="z_f90v_l063"/>
+      <zone ulx="3672" uly="4327" lrx="3865" lry="4452" xml:id="z_f90v_l064"/>
+      <zone ulx="3622" uly="4417" lrx="3871" lry="4548" xml:id="z_f90v_l065"/>
+      <zone ulx="3641" uly="4517" lrx="3868" lry="4660" xml:id="z_f90v_l066"/>
+      <zone ulx="3619" uly="4610" lrx="3862" lry="4778" xml:id="z_f90v_l067"/>
+      <zone ulx="3622" uly="4747" lrx="3843" lry="4862" xml:id="z_f90v_l068"/>
+      <zone ulx="3647" uly="4834" lrx="3843" lry="5033" xml:id="z_f90v_l069"/>
+      <zone ulx="3728" uly="1412" lrx="3815" lry="1633" xml:id="z_f90v_l070"/>
+      <zone ulx="3675" uly="1636" lrx="3850" lry="1729" xml:id="z_f90v_l071"/>
+      <zone ulx="3697" uly="1704" lrx="3856" lry="1848" xml:id="z_f90v_l072"/>
+      <zone ulx="3763" uly="1854" lrx="3837" lry="1928" xml:id="z_f90v_l073"/>
+      <zone ulx="3710" uly="1894" lrx="3859" lry="2003" xml:id="z_f90v_l074"/>
+      <zone ulx="3694" uly="2016" lrx="3853" lry="2106" xml:id="z_f90v_l075"/>
+      <zone ulx="3750" uly="2084" lrx="3812" lry="2196" xml:id="z_f90v_l076"/>
+      <zone ulx="3700" uly="2162" lrx="3828" lry="2280" xml:id="z_f90v_l077"/>
+      <zone ulx="3700" uly="2286" lrx="3843" lry="2380" xml:id="z_f90v_l078"/>
+      <zone ulx="3735" uly="2398" lrx="3834" lry="2476" xml:id="z_f90v_l079"/>
+      <zone ulx="3735" uly="2482" lrx="3822" lry="2560" xml:id="z_f90v_l080"/>
+      <zone ulx="3675" uly="2544" lrx="3853" lry="2678" xml:id="z_f90v_l081"/>
+      <zone ulx="3663" uly="2644" lrx="3875" lry="2772" xml:id="z_f90v_l082"/>
+      <zone ulx="3660" uly="2740" lrx="3881" lry="2877" xml:id="z_f90v_l083"/>
+      <zone ulx="3682" uly="2843" lrx="3856" lry="2955" xml:id="z_f90v_l084"/>
+      <zone ulx="3772" uly="2943" lrx="3815" lry="3036" xml:id="z_f90v_l085"/>
+      <zone ulx="3675" uly="3027" lrx="3868" lry="3145" xml:id="z_f90v_l086"/>
+      <zone ulx="3682" uly="3108" lrx="3837" lry="3257" xml:id="z_f90v_l087"/>
+      <zone ulx="3672" uly="3226" lrx="3850" lry="3335" xml:id="z_f90v_l088"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f90v_l001" xml:id="catmus_f90v_l001"/>
+          <seg type="raw_unreviewed">oADiti ͥnõ õ deseiid̃ max ͦ sac̾do ᷝͥ ĩ altiꝰ dec̾iuẽtũ xiii qu dñif</seg>
+          <lb facs="#z_f90v_l002" xml:id="catmus_f90v_l002"/>
+          <seg type="raw_unreviewed">st̃ prĩa ñl socios defeudũdo insti ẽixxui q in sortie</seg>
+          <lb facs="#z_f90v_l003" xml:id="catmus_f90v_l003"/>
+          <seg type="raw_unreviewed">Itui ecc̃i ᷑ ao aculũpͦ ᵇ̃ opp̾mitu ᷑ st̃ admãdi ini ꝯ t deꝰ</seg>
+          <lb facs="#z_f90v_l004" xml:id="catmus_f90v_l004"/>
+          <seg type="raw_unreviewed">eꝵ p̃lati suoꝵ slditoꝵ p̃cipue d̃ oe adintões ⁊ ulto rsixxii quii sc̾ie</seg>
+          <lb facs="#z_f90v_l005" xml:id="catmus_f90v_l005"/>
+          <seg type="raw_unreviewed">Admoicõ d p̃cede̾ accusa  rnł exqĩoi ꝰ ⁊̃ xui qi quidã</seg>
+          <lb facs="#z_f90v_l006" xml:id="catmus_f90v_l006"/>
+          <seg type="raw_unreviewed">It admouẽdi st̃ p̃ ͦ ħetici. ab erroe disc̾e ꝙͣ tdaĩ peneixxiii quii lla</seg>
+          <lb facs="#z_f90v_l007" xml:id="catmus_f90v_l007"/>
+          <seg type="raw_unreviewed">st̃ ad nũscͣtoe̾s sclu̾i digͥͭ ᵘ dmouẽdi st abep̃is suꝑ paupeꝵ ⁊ uidu</seg>
+          <lb facs="#z_f90v_l008" xml:id="catmus_f90v_l008"/>
+          <seg type="raw_unreviewed">arp de fenside .xxiii .i. u udnũst̾toes</seg>
+          <lb facs="#z_f90v_l009" xml:id="catmus_f90v_l009"/>
+          <seg type="raw_unreviewed">It Iudices admouẽdi st̃ ip̃lates ad opa pie xmii qui hu</seg>
+          <lb facs="#z_f90v_l010" xml:id="catmus_f90v_l010"/>
+          <seg type="raw_unreviewed">It uidne mouẽde st̃ al sc̃udia castitat i xxuii qͣi de uidius</seg>
+          <lb facs="#z_f90v_l011" xml:id="catmus_f90v_l011"/>
+          <seg type="raw_unreviewed">A dolestrĩtia ĩ malũ ꝓuit e .xii. Iie i</seg>
+          <lb facs="#z_f90v_l012" xml:id="catmus_f90v_l012"/>
+          <seg type="raw_unreviewed">etꝵ iil ĩ c̾cras quũ uit̃a adolestũ tumii qi ci de hac</seg>
+          <lb facs="#z_f90v_l013" xml:id="catmus_f90v_l013"/>
+          <seg type="raw_unreviewed">Adoãrr cogebau᷑ iusci slãꝵ ar̾ge nabu  ixxiii i un</seg>
+          <lb facs="#z_f90v_l014" xml:id="catmus_f90v_l014"/>
+          <seg type="raw_unreviewed">et. ad oarde ymagĩes. ñ pictuu᷑. s pictũe r̾pũtiꝰ ueneaui. deq dui</seg>
+          <lb facs="#z_f90v_l015" xml:id="catmus_f90v_l015"/>
+          <seg type="raw_unreviewed">Adiian/ pp̃ pͥn kitrolũ manꝰ ꝓdefũsiõe ecc̃e. de frrĩcia</seg>
+          <lb facs="#z_f90v_l016" xml:id="catmus_f90v_l016"/>
+          <seg type="raw_unreviewed">iutalul uootuit ilxin di cud̾riamꝰ</seg>
+          <lb facs="#z_f90v_l017" xml:id="catmus_f90v_l017"/>
+          <seg type="raw_unreviewed">¶p̃sat̃</seg>
+          <lb facs="#z_f90v_l018" xml:id="catmus_f90v_l018"/>
+          <seg type="raw_unreviewed">¶ dũet spc̃ sc̃i pp et̾ apłi p̃dii mltoꝵo hoi ꝰ corda sacitidei diui</seg>
+          <lb facs="#z_f90v_l019" xml:id="catmus_f90v_l019"/>
+          <seg type="raw_unreviewed">Wabadurtu dĩu uf adoc   epħẽ ũ ẽ mĩlud xxii .i. ndc̃uͭ ⁊ ꝓp̾e</seg>
+          <lb facs="#z_f90v_l020" xml:id="catmus_f90v_l020"/>
+          <seg type="raw_unreviewed">¶t̃e ꝙ uͨ cad̃ tp̃e uͨ ipcie st celebũde .xxxiii .i un ũ o</seg>
+          <lb facs="#z_f90v_l021" xml:id="catmus_f90v_l021"/>
+          <seg type="raw_unreviewed">Adũsitas insroꝵ ũ ẽ signũ r̾ꝓbatõis. s ꝯocioũ u̾tg tutꝭ. en qͥ ad</seg>
+          <lb facs="#z_f90v_l022" xml:id="catmus_f90v_l022"/>
+          <seg type="raw_unreviewed">ꝯꝵ pie adu̾ sa᷑. qͥ coreipit uicusũ . xxiiii. u ciĩme</seg>
+          <lb facs="#z_f90v_l023" xml:id="catmus_f90v_l023"/>
+          <seg type="raw_unreviewed">ssasitas</seg>
+          <lb facs="#z_f90v_l024" xml:id="catmus_f90v_l024"/>
+          <seg type="raw_unreviewed">¶ B aĩcus utir̃ u̾lens pp̃oi aĩco ĩ utilt bladiẽti .xxiii qun</seg>
+          <lb facs="#z_f90v_l025" xml:id="catmus_f90v_l025"/>
+          <seg type="raw_unreviewed">dulaͥ ꝓcro i dit auduciũ pcrã angñtadi. plos di sioid</seg>
+          <lb facs="#z_f90v_l026" xml:id="catmus_f90v_l026"/>
+          <seg type="raw_unreviewed">uluuiͫ</seg>
+          <lb facs="#z_f90v_l027" xml:id="catmus_f90v_l027"/>
+          <seg type="raw_unreviewed">Q adula ᷑ q̃ alion t̾buit beꝰ. ꝙ ñ ħ. ⁊ hͨ ẽ morle qñ ꝯi̾ta</seg>
+          <lb facs="#z_f90v_l028" xml:id="catmus_f90v_l028"/>
+          <seg type="raw_unreviewed">stiã fit .xUi</seg>
+          <lb facs="#z_f90v_l029" xml:id="catmus_f90v_l029"/>
+          <seg type="raw_unreviewed">¶t adula᷑ qͥ ꝓꝓpbat malũ ꝙ ẽ ĩ aliqͥ ⁊ ħr̾ꝓba ⁊ di plui clicrs</seg>
+          <lb facs="#z_f90v_l030" xml:id="catmus_f90v_l030"/>
+          <seg type="raw_unreviewed">It pastor q̃ lupoꝵ lautes q̃rit. oues neglig.d lxxxiii Richil</seg>
+          <lb facs="#z_f90v_l031" xml:id="catmus_f90v_l031"/>
+          <seg type="raw_unreviewed">st clicr atulacõib desimes d degͣdansi xloi cli̾cꝰ</seg>
+          <lb facs="#z_f90v_l032" xml:id="catmus_f90v_l032"/>
+          <seg type="raw_unreviewed">it̃ meliI ẽ ꝓui ͭ ͤ pati suppli .ħ padula  asseq̃ bñficiũ Miiiii lẽo</seg>
+          <lb facs="#z_f90v_l033" xml:id="catmus_f90v_l033"/>
+          <seg type="raw_unreviewed">¶dulci ⁊ͤ alieni cħori uioluduixxxui qi lex</seg>
+          <lb facs="#z_f90v_l034" xml:id="catmus_f90v_l034"/>
+          <seg type="raw_unreviewed">eꝵ gͣmi ẜi ꝑmendi sc̃iꝙ seiẽ ꝑadultio. xxxi q ui Iudignan᷑</seg>
+          <lb facs="#z_f90v_l035" xml:id="catmus_f90v_l035"/>
+          <seg type="raw_unreviewed">Badultꝭ uxoe adulta̾ta ñ pt̃ dmte n ͨ accar ixxii qui ꝑtotũ</seg>
+          <lb facs="#z_f90v_l036" xml:id="catmus_f90v_l036"/>
+          <seg type="raw_unreviewed">Qꝵ płꝰ pcͨͣat iĩ uxo̾e qũs c̃ altͥ imꝑta adull̃t᷑. ꝙ ult̾ius uxoe</seg>
+          <lb facs="#z_f90v_l037" xml:id="catmus_f90v_l037"/>
+          <seg type="raw_unreviewed">uio landoixpy q un ꝙ̃ admo O sunt</seg>
+          <lb facs="#z_f90v_l038" xml:id="catmus_f90v_l038"/>
+          <seg type="raw_unreviewed">e pũiti᷑ potiꝰ adulli .I. u upois adulte hoĩcidiũ .xxxiii qu siꝙ</seg>
+          <lb facs="#z_f90v_l039" xml:id="catmus_f90v_l039"/>
+          <seg type="raw_unreviewed">Q̾ Wolent᷑ opp̃sse ñ p̃t pp̃oĩ adulti xxxii q u piita</seg>
+          <lb facs="#z_f90v_l040" xml:id="catmus_f90v_l040"/>
+          <seg type="raw_unreviewed">ꝙ 2 . canões. uir ⁊ iułr pũ rͥ ͦ ã adult̾u Idp̃itn ixxxiii qu p̾aua</seg>
+          <lb facs="#z_f90v_l041" xml:id="catmus_f90v_l041"/>
+          <seg type="raw_unreviewed">a uir uxee deadult̾io accãre ũ pt̃ isi ĩpre ꝑiter fui̾t sornicatꝰ/i</seg>
+          <lb facs="#z_f90v_l042" xml:id="catmus_f90v_l042"/>
+          <seg type="raw_unreviewed">It si dedit ei occ̃omi adulb̾udi xpol qn sics xxx i q uiti 2 iise</seg>
+          <lb facs="#z_f90v_l043" xml:id="catmus_f90v_l043"/>
+          <seg type="raw_unreviewed">st̃ si ccdebat ip̃ i utꝵ mortuũ. c alto qcͣhũdoixxxiiii qni si u̾go</seg>
+          <lb facs="#z_f90v_l044" xml:id="catmus_f90v_l044"/>
+          <seg type="raw_unreviewed">it si fu̾t ui opssaix xxii q n ꝓpoĩto</seg>
+          <lb facs="#z_f90v_l045" xml:id="catmus_f90v_l045"/>
+          <seg type="raw_unreviewed">at si aleꝰ sumaiti spẽ. cũ ip̃a cubuit . xxxim i i scgs ĩlcĩ</seg>
+          <lb facs="#z_f90v_l046" xml:id="catmus_f90v_l046"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f90v_l047" xml:id="catmus_f90v_l047"/>
+          <seg type="raw_unreviewed">si p adulã qͥmissũ. eã exꝯ sẜͦ c̾truuitixxxni q. sequis</seg>
+          <lb facs="#z_f90v_l048" xml:id="catmus_f90v_l048"/>
+          <seg type="raw_unreviewed">e prõnus t̾pitudĩs ẽ q̃ adultĩ᷑ / exotꝭ celit . xxxii qi apͭ</seg>
+          <lb facs="#z_f90v_l049" xml:id="catmus_f90v_l049"/>
+          <seg type="raw_unreviewed">et uir ĩnocũs at ulta s̃cape ũ cogii xxxii q i debũdco</seg>
+          <lb facs="#z_f90v_l050" xml:id="catmus_f90v_l050"/>
+          <seg type="raw_unreviewed">et q̃ uxoe suã p ldula  stĩe q̃gnou̾it ĩ pedi abordiũ ꝓiocisẽ.</seg>
+          <lb facs="#z_f90v_l051" xml:id="catmus_f90v_l051"/>
+          <seg type="raw_unreviewed">di xxxiiii si cuiꝰ ¶ esꝵ clicus uictideadult̾io depo Ihoxxi di bi qͥs</seg>
+          <lb facs="#z_f90v_l052" xml:id="catmus_f90v_l052"/>
+          <seg type="raw_unreviewed">oqruiłr abrrihã. ⁊ iarob escusau᷑ deadult̾io ꝯͥgnostũdo auollas. x</seg>
+          <lb facs="#z_f90v_l053" xml:id="catmus_f90v_l053"/>
+          <seg type="raw_unreviewed">xxii .i.iiii di zurrisseꝵ y ͨ ẽaduõt/ nr̃ ap pͣrẽydepe dn Ecu siue</seg>
+          <lb facs="#z_f90v_l054" xml:id="catmus_f90v_l054"/>
+          <seg type="raw_unreviewed">ee p̃t de mu cũ ꝑsi ꝙͣ polluit ꝑadaltl.i xxxi q. demq</seg>
+          <lb facs="#z_f90v_l055" xml:id="catmus_f90v_l055"/>
+          <seg type="raw_unreviewed">Amillu god</seg>
+          <lb facs="#z_f90v_l056" xml:id="catmus_f90v_l056"/>
+          <seg type="raw_unreviewed">m q̃ die</seg>
+          <lb facs="#z_f90v_l057" xml:id="catmus_f90v_l057"/>
+          <seg type="raw_unreviewed">InL IXI</seg>
+          <lb facs="#z_f90v_l058" xml:id="catmus_f90v_l058"/>
+          <seg type="raw_unreviewed">plex hoĩs</seg>
+          <lb facs="#z_f90v_l059" xml:id="catmus_f90v_l059"/>
+          <seg type="raw_unreviewed">lũls treati</seg>
+          <lb facs="#z_f90v_l060" xml:id="catmus_f90v_l060"/>
+          <seg type="raw_unreviewed">ed</seg>
+          <lb facs="#z_f90v_l061" xml:id="catmus_f90v_l061"/>
+          <seg type="raw_unreviewed">asõgles qͥ.</seg>
+          <lb facs="#z_f90v_l062" xml:id="catmus_f90v_l062"/>
+          <seg type="raw_unreviewed">Lcor ꝓ̃peid</seg>
+          <lb facs="#z_f90v_l063" xml:id="catmus_f90v_l063"/>
+          <seg type="raw_unreviewed">Pall sne cor</seg>
+          <lb facs="#z_f90v_l064" xml:id="catmus_f90v_l064"/>
+          <seg type="raw_unreviewed">P OLIAXO</seg>
+          <lb facs="#z_f90v_l065" xml:id="catmus_f90v_l065"/>
+          <seg type="raw_unreviewed">sũ ediꝰ dĩẽ</seg>
+          <lb facs="#z_f90v_l066" xml:id="catmus_f90v_l066"/>
+          <seg type="raw_unreviewed">¶ILXXX</seg>
+          <lb facs="#z_f90v_l067" xml:id="catmus_f90v_l067"/>
+          <seg type="raw_unreviewed">Iedisitẽ</seg>
+          <lb facs="#z_f90v_l068" xml:id="catmus_f90v_l068"/>
+          <seg type="raw_unreviewed">xil .xxiiiie</seg>
+          <lb facs="#z_f90v_l069" xml:id="catmus_f90v_l069"/>
+          <seg type="raw_unreviewed">MsCOR</seg>
+          <lb facs="#z_f90v_l070" xml:id="catmus_f90v_l070"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f90v_l071" xml:id="catmus_f90v_l071"/>
+          <seg type="raw_unreviewed">In res eo</seg>
+          <lb facs="#z_f90v_l072" xml:id="catmus_f90v_l072"/>
+          <seg type="raw_unreviewed">iñĩ asĩ</seg>
+          <lb facs="#z_f90v_l073" xml:id="catmus_f90v_l073"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f90v_l074" xml:id="catmus_f90v_l074"/>
+          <seg type="raw_unreviewed">mdns dle</seg>
+          <lb facs="#z_f90v_l075" xml:id="catmus_f90v_l075"/>
+          <seg type="raw_unreviewed">tixbi</seg>
+          <lb facs="#z_f90v_l076" xml:id="catmus_f90v_l076"/>
+          <seg type="raw_unreviewed">4</seg>
+          <lb facs="#z_f90v_l077" xml:id="catmus_f90v_l077"/>
+          <seg type="raw_unreviewed">nñ ⁊ ilf</seg>
+          <lb facs="#z_f90v_l078" xml:id="catmus_f90v_l078"/>
+          <seg type="raw_unreviewed">ATLIO</seg>
+          <lb facs="#z_f90v_l079" xml:id="catmus_f90v_l079"/>
+          <seg type="raw_unreviewed">aui</seg>
+          <lb facs="#z_f90v_l080" xml:id="catmus_f90v_l080"/>
+          <seg type="raw_unreviewed">Nil d</seg>
+          <lb facs="#z_f90v_l081" xml:id="catmus_f90v_l081"/>
+          <seg type="raw_unreviewed">ull a si</seg>
+          <lb facs="#z_f90v_l082" xml:id="catmus_f90v_l082"/>
+          <seg type="raw_unreviewed">IAL. fET</seg>
+          <lb facs="#z_f90v_l083" xml:id="catmus_f90v_l083"/>
+          <seg type="raw_unreviewed">slal t ii tes</seg>
+          <lb facs="#z_f90v_l084" xml:id="catmus_f90v_l084"/>
+          <seg type="raw_unreviewed">mbr̃ hnns</seg>
+          <lb facs="#z_f90v_l085" xml:id="catmus_f90v_l085"/>
+          <seg type="raw_unreviewed">1x</seg>
+          <lb facs="#z_f90v_l086" xml:id="catmus_f90v_l086"/>
+          <seg type="raw_unreviewed">N ẽude</seg>
+          <lb facs="#z_f90v_l087" xml:id="catmus_f90v_l087"/>
+          <seg type="raw_unreviewed">I silUE</seg>
+          <lb facs="#z_f90v_l088" xml:id="catmus_f90v_l088"/>
+          <seg type="raw_unreviewed">MeBqui</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f90v_l001" xml:id="medusa_f90v_l001"/>
+          <seg type="raw_unreviewed">¶ Antorꝰ nõ e̶ de feundꝰ maxime sacerdoᷝꝰ ĩ alt̾iꝰ de tͥmentũ .xiiii. quod d̾mꝙ</seg>
+          <lb facs="#z_f90v_l002" xml:id="medusa_f90v_l002"/>
+          <seg type="raw_unreviewed">¶ Item patras ũl socios defendendo nisci ẽ .xxiii. q. in sortida</seg>
+          <lb facs="#z_f90v_l003" xml:id="medusa_f90v_l003"/>
+          <seg type="raw_unreviewed">Item uͥ ecc̃ie ne a calũpniis opprimatur sunt ad monadi iii i de</seg>
+          <lb facs="#z_f90v_l004" xml:id="medusa_f90v_l004"/>
+          <seg type="raw_unreviewed">eꝵ p̃lati suꝑ sũditorꝵ p̃cipue d ẽe adnitoͬes ⁊ ultoͬes xxiii iun scie̾</seg>
+          <lb facs="#z_f90v_l005" xml:id="medusa_f90v_l005"/>
+          <seg type="raw_unreviewed">Admoĩcõ d p̃cede̾ accusaⁱᵒʳ uł exqͣioiⁱᵒʳ xui. 1. quidã</seg>
+          <lb facs="#z_f90v_l006" xml:id="medusa_f90v_l006"/>
+          <seg type="raw_unreviewed">¶ Item ad moned̃ s̃t p̾ꝰ heretici ab errore disce̾ ꝙ̃ traditur pene xxiii qͥm Nõ</seg>
+          <lb facs="#z_f90v_l007" xml:id="medusa_f90v_l007"/>
+          <seg type="raw_unreviewed">¶ It̃ admi̾st̾roes sc̃lmͫ d̃igͣc̃ũ admoñedi st̃ ab ep̃is suꝑ paup̃eꝭ ⁊ vidu</seg>
+          <lb facs="#z_f90v_l008" xml:id="medusa_f90v_l008"/>
+          <seg type="raw_unreviewed">arum de fensione .xxiii. q. v. adm̃stroe̾s</seg>
+          <lb facs="#z_f90v_l009" xml:id="medusa_f90v_l009"/>
+          <seg type="raw_unreviewed">Item iudices ad monendum sunt prelates ab episcopi preb. xiiii q vi hii</seg>
+          <lb facs="#z_f90v_l010" xml:id="medusa_f90v_l010"/>
+          <seg type="raw_unreviewed">¶ Dolestuͤcia ĩ malũ pͥma ẽ. xiii. 1. de viduis</seg>
+          <lb facs="#z_f90v_l011" xml:id="medusa_f90v_l011"/>
+          <seg type="raw_unreviewed">Ad ostẽtiũ ĩ malũ ꝓua ẽ. xii.</seg>
+          <lb facs="#z_f90v_l012" xml:id="medusa_f90v_l012"/>
+          <seg type="raw_unreviewed">eꝵ mł ĩ c̾cuis iiii vitia adolescentũ .xii. q. c. de hac</seg>
+          <lb facs="#z_f90v_l013" xml:id="medusa_f90v_l013"/>
+          <seg type="raw_unreviewed">Hdoare cogebant᷑ nisti silarꝭ arge nabum xxiii ii mi</seg>
+          <lb facs="#z_f90v_l014" xml:id="medusa_f90v_l014"/>
+          <seg type="raw_unreviewed">e. udo. udo ymagĩes. ĩ pictur̃is. s pictur̃e rep̃ntaᵒˢ uenẽrari. de .i. d̃ in</seg>
+          <lb facs="#z_f90v_l015" xml:id="medusa_f90v_l015"/>
+          <seg type="raw_unreviewed">Adrianus pape primus Karolum magnum pro defensione ecclesie de francia</seg>
+          <lb facs="#z_f90v_l016" xml:id="medusa_f90v_l016"/>
+          <seg type="raw_unreviewed">ĩ ytaluͤ wettint · lxiii di c adrianꝰ</seg>
+          <lb facs="#z_f90v_l017" xml:id="medusa_f90v_l017"/>
+          <seg type="raw_unreviewed">¶ p̃lat</seg>
+          <lb facs="#z_f90v_l018" xml:id="medusa_f90v_l018"/>
+          <seg type="raw_unreviewed">Hͥdñetꝰ sp̃it sancti ꝑꝑet apostoli p̃dic̃oꝵ ultorẽ sp̃it corda sac̾int. deꝰ d̃m</seg>
+          <lb facs="#z_f90v_l019" xml:id="medusa_f90v_l019"/>
+          <seg type="raw_unreviewed">Quod ab adventu dñi nñ ad oc̃m ephẽ ñ ẽ m̃tund̃ xxii. ii. ii d̃c̃u᷑t / ꝓpͥe</seg>
+          <lb facs="#z_f90v_l020" xml:id="medusa_f90v_l020"/>
+          <seg type="raw_unreviewed">Item ꝙ nͨ eod̃ tpe nͨ amptie st̃ celebͣnde . xxxiii. i. iiii. ũ o</seg>
+          <lb facs="#z_f90v_l021" xml:id="medusa_f90v_l021"/>
+          <seg type="raw_unreviewed">Diversitas m̃strorum nͥ ẽ signũ r̾probacionis s⁊ exͣcionũ utꝭ tutꝭ enꝰ qͥ ad</seg>
+          <lb facs="#z_f90v_l022" xml:id="medusa_f90v_l022"/>
+          <seg type="raw_unreviewed">Q̃ pie adu̾sa᷑. qͥ corripit uic̃iũ .xxiii. u. c. i. ĩ me</seg>
+          <lb facs="#z_f90v_l023" xml:id="medusa_f90v_l023"/>
+          <seg type="raw_unreviewed">Astrae</seg>
+          <lb facs="#z_f90v_l024" xml:id="medusa_f90v_l024"/>
+          <seg type="raw_unreviewed">S. aĩcus utilr̃ u̾ben̾nt p̃poĩ aĩco ĩ utilr̃ bladiẽti xxiii. qui</seg>
+          <lb facs="#z_f90v_l025" xml:id="medusa_f90v_l025"/>
+          <seg type="raw_unreviewed">ducaꝵ petro dat audaciũ pccã augm̃tãdi .xlv. di sios</seg>
+          <lb facs="#z_f90v_l026" xml:id="medusa_f90v_l026"/>
+          <seg type="raw_unreviewed">Nim .</seg>
+          <lb facs="#z_f90v_l027" xml:id="medusa_f90v_l027"/>
+          <seg type="raw_unreviewed">Qr adula᷑. q̃ alicui tͥbuit beᵃᵐ. yũ h. ⁊ hᶜ ẽ mor̃le. qñ exi̾ta</seg>
+          <lb facs="#z_f90v_l028" xml:id="medusa_f90v_l028"/>
+          <seg type="raw_unreviewed">stun fit . xxii</seg>
+          <lb facs="#z_f90v_l029" xml:id="medusa_f90v_l029"/>
+          <seg type="raw_unreviewed">Item cedula r̃ q̃ approbat malũ ꝙ ẽ ĩ a̾baꝰ. ⁊ hᶜ r̃probat᷑. d̃i xlvi claris</seg>
+          <lb facs="#z_f90v_l030" xml:id="medusa_f90v_l030"/>
+          <seg type="raw_unreviewed">¶ Item pastor iiᵒ lupoꝵ laudes q̃rit. oues neglig. d̃ lxxxiii nichil</seg>
+          <lb facs="#z_f90v_l031" xml:id="medusa_f90v_l031"/>
+          <seg type="raw_unreviewed">¶ Item clericis abularionibus desynones debent de gradum . Si xliii clericis</seg>
+          <lb facs="#z_f90v_l032" xml:id="medusa_f90v_l032"/>
+          <seg type="raw_unreviewed">Item meliꝰ ẽ ꝓ uͥᵗᵉ pati supplicꝰ ꝙ padulauͤ asseꝗi bñficiũ .xiiiii. Neõ</seg>
+          <lb facs="#z_f90v_l033" xml:id="medusa_f90v_l033"/>
+          <seg type="raw_unreviewed">H̃dulciꝰ talieni theori uolacio .xxxui. 11 lex</seg>
+          <lb facs="#z_f90v_l034" xml:id="medusa_f90v_l034"/>
+          <seg type="raw_unreviewed">eꝵ g̃mꝰ bĩ pnĩendi st̃. q̃ seĩe ꝓ ad ultĩo. xxxiiui Indignum᷑</seg>
+          <lb facs="#z_f90v_l035" xml:id="medusa_f90v_l035"/>
+          <seg type="raw_unreviewed">¶ De adultꝭ uxoreꝵ adult̾ita ñ pt̃ dimte̾ nᶜ accare xxxii iui ꝑtotũ</seg>
+          <lb facs="#z_f90v_l036" xml:id="medusa_f90v_l036"/>
+          <seg type="raw_unreviewed">q plꝰ pͨcat q̃ uxore hñs c̃ alter multipra adu̾stariꝰ ꝙ alterius uxore</seg>
+          <lb facs="#z_f90v_l037" xml:id="medusa_f90v_l037"/>
+          <seg type="raw_unreviewed">violando xxxi vii q̃ admoii q fiunt</seg>
+          <lb facs="#z_f90v_l038" xml:id="medusa_f90v_l038"/>
+          <seg type="raw_unreviewed">Quod p̃ntitur pocius adulterium . ymo oris adulte homicidium . xxxiii . qn si q</seg>
+          <lb facs="#z_f90v_l039" xml:id="medusa_f90v_l039"/>
+          <seg type="raw_unreviewed">u̇ uiolent̃ opp̃sse ñ pt̃ pp̃oi adult̾iꝰ .xxxii. 1 u̇ p̃nto</seg>
+          <lb facs="#z_f90v_l040" xml:id="medusa_f90v_l040"/>
+          <seg type="raw_unreviewed">M. 2. cãones vir ⁊ u̾b̃r puͨ rͥᵒʳ ĩ adult̾io .i. d̃p̃nut᷑ .xxxiii. 10 p̾ma</seg>
+          <lb facs="#z_f90v_l041" xml:id="medusa_f90v_l041"/>
+          <seg type="raw_unreviewed">M2ᵃ canones uir ⁊ uxoͥe de adult̾io accũre ñ pt̃ si ip̃e pater fuerit fornicatꝰ</seg>
+          <lb facs="#z_f90v_l042" xml:id="medusa_f90v_l042"/>
+          <seg type="raw_unreviewed">Item si dedit ei occiõm ad ultũ vi xxii q͂m si tu</seg>
+          <lb facs="#z_f90v_l043" xml:id="medusa_f90v_l043"/>
+          <seg type="raw_unreviewed">¶ It si dedit ei occaũ ad aliam uxorem. xxxiiii ii si u̾go</seg>
+          <lb facs="#z_f90v_l044" xml:id="medusa_f90v_l044"/>
+          <seg type="raw_unreviewed">It si fu̾it ui oꝑssu .xxxii. q. 2. ꝓpoĩto</seg>
+          <lb facs="#z_f90v_l045" xml:id="medusa_f90v_l045"/>
+          <seg type="raw_unreviewed">¶ It̃ si fuerit un opressũ .xxxii. q. ii. scͥb̃s ĩ l̃on</seg>
+          <lb facs="#z_f90v_l046" xml:id="medusa_f90v_l046"/>
+          <seg type="raw_unreviewed">F</seg>
+          <lb facs="#z_f90v_l047" xml:id="medusa_f90v_l047"/>
+          <seg type="raw_unreviewed">sibi aleꝰ sc̃i marti sp̃e. eũ ip̃a habuit. xxxiiii. qͥ seque</seg>
+          <lb facs="#z_f90v_l048" xml:id="medusa_f90v_l048"/>
+          <seg type="raw_unreviewed">Et si p̃adult̾iꝰ commissꝰ ea exꝰq; r̾tinuit .xxxii. q. a pͥ</seg>
+          <lb facs="#z_f90v_l049" xml:id="medusa_f90v_l049"/>
+          <seg type="raw_unreviewed">Quod pronomis tpitudis est qͥabulum</seg>
+          <lb facs="#z_f90v_l050" xml:id="medusa_f90v_l050"/>
+          <seg type="raw_unreviewed">eꝵ uir ĩnotus at natus accipere uxorẽ.</seg>
+          <lb facs="#z_f90v_l051" xml:id="medusa_f90v_l051"/>
+          <seg type="raw_unreviewed">d̃i xxxiiii si tuꝰ ¶ sed cl̃icus uictꝰ de adult̾io depoꝰ lxxxi di si qͥs</seg>
+          <lb facs="#z_f90v_l052" xml:id="medusa_f90v_l052"/>
+          <seg type="raw_unreviewed">di xxiiii si tuꝰ ¶ Eꝑ clicus nichilenoꝵ deꝑe nullo ꝯgnoscũde a moillat. x</seg>
+          <lb facs="#z_f90v_l053" xml:id="medusa_f90v_l053"/>
+          <seg type="raw_unreviewed">xxii .i. iiii dux zara / Ex eã advõti noster ap̃ prẽm de pedii C cu sine</seg>
+          <lb facs="#z_f90v_l054" xml:id="medusa_f90v_l054"/>
+          <seg type="raw_unreviewed">xxii. 1. iiii. duxzarii / Dxxx. 1. de iiiiq:</seg>
+          <lb facs="#z_f90v_l055" xml:id="medusa_f90v_l055"/>
+          <seg type="raw_unreviewed">⟦od̾ millũ od̾</seg>
+          <lb facs="#z_f90v_l056" xml:id="medusa_f90v_l056"/>
+          <seg type="raw_unreviewed">grã q̃ de mi</seg>
+          <lb facs="#z_f90v_l057" xml:id="medusa_f90v_l057"/>
+          <seg type="raw_unreviewed">antur ·xv·</seg>
+          <lb facs="#z_f90v_l058" xml:id="medusa_f90v_l058"/>
+          <seg type="raw_unreviewed">complexus hominis</seg>
+          <lb facs="#z_f90v_l059" xml:id="medusa_f90v_l059"/>
+          <seg type="raw_unreviewed">Angls creati</seg>
+          <lb facs="#z_f90v_l060" xml:id="medusa_f90v_l060"/>
+          <seg type="raw_unreviewed">xp̃i m eꝰ d</seg>
+          <lb facs="#z_f90v_l061" xml:id="medusa_f90v_l061"/>
+          <seg type="raw_unreviewed">ab ãgloᷤᷤ q̃</seg>
+          <lb facs="#z_f90v_l062" xml:id="medusa_f90v_l062"/>
+          <seg type="raw_unreviewed">Lã corꝰ p̃ponitur</seg>
+          <lb facs="#z_f90v_l063" xml:id="medusa_f90v_l063"/>
+          <seg type="raw_unreviewed">Deaia sine cor</seg>
+          <lb facs="#z_f90v_l064" xml:id="medusa_f90v_l064"/>
+          <seg type="raw_unreviewed">y ssʳ ouz .x.</seg>
+          <lb facs="#z_f90v_l065" xml:id="medusa_f90v_l065"/>
+          <seg type="raw_unreviewed">fuit non creda</seg>
+          <lb facs="#z_f90v_l066" xml:id="medusa_f90v_l066"/>
+          <seg type="raw_unreviewed">die h̃titie xxx</seg>
+          <lb facs="#z_f90v_l067" xml:id="medusa_f90v_l067"/>
+          <seg type="raw_unreviewed">depe di 15 itẽ</seg>
+          <lb facs="#z_f90v_l068" xml:id="medusa_f90v_l068"/>
+          <seg type="raw_unreviewed">vent. xxiiii d</seg>
+          <lb facs="#z_f90v_l069" xml:id="medusa_f90v_l069"/>
+          <seg type="raw_unreviewed">filie defuncto P.</seg>
+          <lb facs="#z_f90v_l070" xml:id="medusa_f90v_l070"/>
+          <seg type="raw_unreviewed">p̃sdyp̃o</seg>
+          <lb facs="#z_f90v_l071" xml:id="medusa_f90v_l071"/>
+          <seg type="raw_unreviewed">gan red co</seg>
+          <lb facs="#z_f90v_l072" xml:id="medusa_f90v_l072"/>
+          <seg type="raw_unreviewed">secunda alie</seg>
+          <lb facs="#z_f90v_l073" xml:id="medusa_f90v_l073"/>
+          <seg type="raw_unreviewed">iiiii</seg>
+          <lb facs="#z_f90v_l074" xml:id="medusa_f90v_l074"/>
+          <seg type="raw_unreviewed">müetti ole</seg>
+          <lb facs="#z_f90v_l075" xml:id="medusa_f90v_l075"/>
+          <seg type="raw_unreviewed">ecclesia exodi</seg>
+          <lb facs="#z_f90v_l076" xml:id="medusa_f90v_l076"/>
+          <seg type="raw_unreviewed">it</seg>
+          <lb facs="#z_f90v_l077" xml:id="medusa_f90v_l077"/>
+          <seg type="raw_unreviewed">min̾i ⁊ ab</seg>
+          <lb facs="#z_f90v_l078" xml:id="medusa_f90v_l078"/>
+          <seg type="raw_unreviewed">sta̾e m̃ d̾</seg>
+          <lb facs="#z_f90v_l079" xml:id="medusa_f90v_l079"/>
+          <seg type="raw_unreviewed">treuͦ</seg>
+          <lb facs="#z_f90v_l080" xml:id="medusa_f90v_l080"/>
+          <seg type="raw_unreviewed">and i</seg>
+          <lb facs="#z_f90v_l081" xml:id="medusa_f90v_l081"/>
+          <seg type="raw_unreviewed">oblatio 2 si</seg>
+          <lb facs="#z_f90v_l082" xml:id="medusa_f90v_l082"/>
+          <seg type="raw_unreviewed">Mastie. Recui</seg>
+          <lb facs="#z_f90v_l083" xml:id="medusa_f90v_l083"/>
+          <seg type="raw_unreviewed">op u̾stald ĩ .i.ᷤͭͥ ͤter</seg>
+          <lb facs="#z_f90v_l084" xml:id="medusa_f90v_l084"/>
+          <seg type="raw_unreviewed">mor / Anub</seg>
+          <lb facs="#z_f90v_l085" xml:id="medusa_f90v_l085"/>
+          <seg type="raw_unreviewed">xx</seg>
+          <lb facs="#z_f90v_l086" xml:id="medusa_f90v_l086"/>
+          <seg type="raw_unreviewed">Inhibico e ad e</seg>
+          <lb facs="#z_f90v_l087" xml:id="medusa_f90v_l087"/>
+          <seg type="raw_unreviewed">müte laben</seg>
+          <lb facs="#z_f90v_l088" xml:id="medusa_f90v_l088"/>
+          <seg type="raw_unreviewed">mẽs qui ĩ</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f90v_l001 #z_f90v_l002 #z_f90v_l003 #z_f90v_l004" xml:id="u_90v_001">Adiutorium non est deferendum maxime sacerdotum in alterius detrimentum […] Dominis. Item proximos nostros defendendo iustum est […] In sorte. Item ecclesiae non calumniosae oppressae sunt adiuvandae […] De […]. Quod praelati suorum subditorum praecipue debent esse adiutores et ultores […] Scire.</p>
+        <note type="editorial" corresp="#u_90v_001" xml:lang="cs">Návrh četby nativních pásů. Historická rejstříková právní tvrzení; odkazy a nejisté části ponechány neúplné, odborně nerevidováno.</note>
+        <p facs="#z_f90v_l005 #z_f90v_l006 #z_f90v_l007 #z_f90v_l008 #z_f90v_l009 #z_f90v_l010" xml:id="u_90v_002">Admonitio debet praecedere accusationem vel excommunicationem […] Quidam. Item admonendi sunt primo haeretici ab errore discedere quam tradantur poenae […] Illa. Item administratores saecularium dignitatum admonendi sunt ab episcopis super pauperum et viduarum defensione […] Administratores. Item iudices admonendi sunt a praelatis ad opera pia […]. Item viduae monendae sunt ad studium castitatis […] De viduis.</p>
+        <note type="editorial" corresp="#u_90v_002" xml:lang="cs">Návrh četby nativních pásů. Historická rejstříková právní tvrzení; odkazy a nejisté části ponechány neúplné, odborně nerevidováno.</note>
+        <p facs="#z_f90v_l011 #z_f90v_l012 #z_f90v_l013 #z_f90v_l014 #z_f90v_l015 #z_f90v_l016 #z_f90v_l017" xml:id="u_90v_003">Adolescentia ad malum prona est […]. Quod nihil ita in ecclesias quam vitia adolescentum […] De hac. Adorare cogebantur […] statuam a rege Nabuchodonosor […]. Quod adorare imagines non prohibentur, sed picturae repraesentatae venerantur […] De […]. Adrianus papa primus Karolum magnum pro defensione ecclesiae […] invocavit […] Desideramus. [pulsat?]</p>
+        <note type="editorial" corresp="#u_90v_003" xml:lang="cs">Věta o obrazech je zkratková a nejistá; nepřepisuji ji podle moderní teologické formulace. Segment 17 je drobný text při přechodu k Adventu.</note>
+        <p facs="#z_f90v_l018 #z_f90v_l019 #z_f90v_l020 #z_f90v_l021 #z_f90v_l022 #z_f90v_l023" xml:id="u_90v_004">Adventus […] Spiritus sancti […] apostoli praedicando multorum corda sanctificaverunt […]. Quod ab adventu Domini usque ad octavam Epiphaniae non est nubendum […] Nec […]. Item quod non eodem tempore non incipiendae sunt celebrationes […] Non […]. Adversitas iustorum non est signum reprobationis sed potius […] virtutis […] Ad […]. Quod pie adversatur qui corripit vitiosum […] Cum […].</p>
+        <note type="editorial" corresp="#u_90v_004" xml:lang="cs">Segment 23 je kratičký oddělený konec slova z hlavního bloku; přesná první věta Adventus je nejistá.</note>
+        <p facs="#z_f90v_l024 #z_f90v_l025 #z_f90v_l026 #z_f90v_l027 #z_f90v_l028 #z_f90v_l029 #z_f90v_l030 #z_f90v_l031 #z_f90v_l032" xml:id="u_90v_005">[…] amicus utiliter vulnerans proponitur amico inutiliter blandienti […]. Adulator peccatori dat audaciam peccata augmentandi […] Si quid. Quod adulator qui alicui tribuit bonum quod non habet, et hoc est mortale quando ex […] fit […]. Item adulator qui approbat malum quod est in aliquo et hoc reprobat […] Clericos. Item pastor qui luporum laudes quaerit oves negligit […] Nihil. Item clericus adulationibus deserviens debet degradari […] Clericus. Item melius est pro veritate pati supplicium quam per adulationem assequi beneficium […] Nemo.</p>
+        <note type="editorial" corresp="#u_90v_005" xml:lang="cs">Krátké segmenty 26 a 28 jsou pokračování hlavních vět, nikoli sousední list.</note>
+        <p facs="#z_f90v_l033 #z_f90v_l034 #z_f90v_l035 #z_f90v_l036 #z_f90v_l037 #z_f90v_l038 #z_f90v_l039 #z_f90v_l040" xml:id="u_90v_006">Adulterium est alieni thori violatio […] Lex. Quod gravius servi puniendi sunt quam domini pro adulterio […] Indignantur. Quod adulter uxorem adulteratam non potest dimittere nec accusare […] per totum. Quod plus peccat in uxorem qui cum altero committit adulterium quam alterius uxorem violando […] Quam admodum […] sunt. Quod punitur potius adulterium […] homicidium […] Si […]. Quod violenter oppressa non potest proprie adultera […] Puerita. Quod secundum canones vir et mulier pari poena in adulterio […] Pervenit.</p>
+        <note type="editorial" corresp="#u_90v_006" xml:lang="cs">Tvrzení 36–38 jsou syntakticky neúplná; srovnání trestů v segmentu 38 nedoplňuji. Jde o středověká historická tvrzení.</note>
+        <p facs="#z_f90v_l041 #z_f90v_l042 #z_f90v_l043 #z_f90v_l044 #z_f90v_l045 #z_f90v_l046 #z_f90v_l047 #z_f90v_l048" xml:id="u_90v_007">Quod vir uxorem de adulterio accusare non potest si ipse pariter fuerit fornicatus. Item si dedit ei occasionem adulterandi […] Si […]. Item si credebat ipsum virum mortuum cum alio contrahendo […] Si vero. Item si fuerit vi oppressa […] Proposito. Item si alter sub mariti specie cum ipsa cubuit […]. Item si post adulterium commissum eam ex confessione retinuit […] Si quis. Quod patronus turpitudinis est qui adulterium uxoris celat […] Apud.</p>
+        <note type="editorial" corresp="#u_90v_007" xml:lang="cs">Segment 46 je kratičký oddělený fragment hlavního textu, nikoli samostatná věta.</note>
+        <p facs="#z_f90v_l049 #z_f90v_l050 #z_f90v_l051 #z_f90v_l052 #z_f90v_l053 #z_f90v_l054" xml:id="u_90v_008">Quod vir innocens adulteram suscipere non cogitur […] De […]. Quod qui uxorem suam pro adulterio […] cognovit non […] ab ordine […] Si cuius. Item quod clericus convictus de adulterio deponitur […] Si quis. Quomodo Abraham et Iacob excusantur de adulterio cognoscendo ancillas […] Diximus. Quod non est adulter […] De poenitentia […] Eum […]. Quod potest cum marito […] quam polluit per adulterium […] Denique.</p>
+        <note type="editorial" corresp="#u_90v_008" xml:lang="cs">Segmenty 50,53–54 obsahují nejasné podmínky. Neodvozuji výslednou právní kvalifikaci.</note>
+        <p facs="#z_f90v_l055 #z_f90v_l056 #z_f90v_l057 #z_f90v_l058 #z_f90v_l059 #z_f90v_l060 #z_f90v_l061 #z_f90v_l062 #z_f90v_l063 #z_f90v_l064 #z_f90v_l065 #z_f90v_l066 #z_f90v_l067 #z_f90v_l068 #z_f90v_l069 #z_f90v_l070 #z_f90v_l071 #z_f90v_l072 #z_f90v_l073 #z_f90v_l074 #z_f90v_l075 #z_f90v_l076 #z_f90v_l077 #z_f90v_l078 #z_f90v_l079 #z_f90v_l080 #z_f90v_l081 #z_f90v_l082 #z_f90v_l083 #z_f90v_l084 #z_f90v_l085 #z_f90v_l086 #z_f90v_l087 #z_f90v_l088" xml:id="u_90v_009">[fragmenty sousedního listu: […] triplex […] sortilegus […] cor […] scriptura […] ecclesia […] Christus […] vox […] anima […] crux […]]</p>
+        <note type="editorial" corresp="#u_90v_009" xml:lang="cs">Úzký pravý pruh sousední stránky, fyzicky oříznuté věty; prohlédnut ve všech pásmech. Bez domýšlení celých hesel.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_90v_001">Pomoc se nemá poskytovat, zejména [pomoc?] kněží, ke škodě jiného […]. Dále je spravedlivé hájit naše bližní […]. Dále je třeba pomáhat neprávem utiskovaným kostelům […]. Představení mají především být pomocníky a zastánci svých podřízených […].</p>
+        <p corresp="#u_90v_002">Napomenutí má předcházet obžalobě nebo exkomunikaci […]. Dále mají být kacíři nejprve napomenuti, aby upustili od bludu, než budou předáni k trestu […]. Dále mají biskupové napomínat nositele světských úřadů k ochraně chudých a vdov […]. Dále mají představení napomínat soudce ke skutkům zbožnosti […]. Vdovy mají být povzbuzovány k zachovávání čistoty […].</p>
+        <p corresp="#u_90v_003">Mládí je náchylné ke zlému […]. Že nic tak […] v církvích jako neřesti mladých […]. Klanět se byli nuceni […] soše krále Nabuchodonosora […]. Že klanění obrazům není zakázáno, ale uctíváno je to, co malby představují […]. Papež Hadrián I. povolal Karla Velikého k obraně církve […] Desideramus. [tluče?]</p>
+        <p corresp="#u_90v_004">Příchod […] Ducha svatého […] apoštolové kázáním posvětili srdce mnohých […]. Že od adventu Páně až do oktávu Zjevení Páně se nemají uzavírat sňatky […]. Dále že v téže době […] nemají začínat slavnosti […]. Protivenství spravedlivých není znamením zavržení, nýbrž spíše […] ctnosti […]. Že zbožně odporuje ten, kdo napravuje neřestného […].</p>
+        <p corresp="#u_90v_005">[…] přítel, který prospěšně zraňuje, má přednost před přítelem, který bez užitku lichotí […]. Lichotník dodává hříšníkovi odvahu rozmnožovat hříchy […]. Lichotník je ten, kdo někomu připisuje dobro, které nemá; a je to smrtelné, když se to děje z […] […]. Dále lichotník je ten, kdo schvaluje zlo, jež je v někom, a toto se kárá […]. Pastýř, který vyhledává chválu vlků, zanedbává ovce […]. Klerik sloužící lichocení má být sesazen […]. Je lepší snášet trest pro pravdu než dosáhnout dobrodiní lichocením […].</p>
+        <p corresp="#u_90v_006">Cizoložství je porušení cizího lože […]. Že sluhové mají být za cizoložství trestáni přísněji než páni […]. Cizoložník nemůže propustit ani žalovat cizoložnou manželku […]. Více hřeší proti manželce ten, kdo se s jinou dopouští cizoložství, než [ten, kdo?] porušuje manželství jiného […]. Že cizoložství je trestáno spíše […] vražda […]. Násilím přemožená žena nemůže být ve vlastním smyslu cizoložnicí […]. Podle kánonů jsou muž a žena při cizoložství [podrobeni?] stejnému trestu […].</p>
+        <p corresp="#u_90v_007">Muž nemůže žalovat manželku pro cizoložství, pokud se sám rovněž dopustil smilstva. Dále jestliže jí poskytl příležitost k cizoložství […]. Dále jestliže se domnívala, že její muž zemřel, když uzavírala manželství s jiným […]. Dále jestliže byla násilím přemožena […]. Dále jestliže s ní jiný ležel v podobě manžela […]. Dále jestliže si ji po spáchaném cizoložství podržel na základě přiznání […]. Kdo skrývá cizoložství manželky, je ochráncem hanebnosti […].</p>
+        <p corresp="#u_90v_008">Nevinný muž není nucen přijmout cizoložnici […]. Kdo poznal svou manželku […] pro cizoložství, není […] ze svěcení […] Si cuius. Klerik usvědčený z cizoložství je sesazen […]. Jak jsou Abraham a Jakub omlouváni z cizoložství pro styk se služebnicemi […]. Že není cizoložníkem […] O pokání […]. Že může s manželem […] kterou poskvrnil cizoložstvím […].</p>
+        <p corresp="#u_90v_009">[Fragmenty sousedního listu: […] trojí […] věštec […] srdce […] Písmo […] církev […] Kristus […] hlas […] duše […] kříž […].]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

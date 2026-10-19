@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 5r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_5r_coordinate; PNG SHA256 0f68b60fcd3584f70e63d30aa8515aa888cc30eab4b8572126f6dcfae886864c; archival TIFF SHA256 63941bc7521ec481d29ffc5c42e5098f17cc4482fc358f444be0c09409661342; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_5r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#5r"/>
+      <zone ulx="563" uly="547" lrx="3261" lry="734" xml:id="z_f5r_l001"/>
+      <zone ulx="557" uly="672" lrx="3302" lry="840" xml:id="z_f5r_l002"/>
+      <zone ulx="554" uly="784" lrx="3277" lry="955" xml:id="z_f5r_l003"/>
+      <zone ulx="557" uly="908" lrx="3202" lry="1073" xml:id="z_f5r_l004"/>
+      <zone ulx="566" uly="1017" lrx="3314" lry="1185" xml:id="z_f5r_l005"/>
+      <zone ulx="582" uly="1129" lrx="3190" lry="1312" xml:id="z_f5r_l006"/>
+      <zone ulx="526" uly="1256" lrx="3246" lry="1428" xml:id="z_f5r_l007"/>
+      <zone ulx="557" uly="1387" lrx="3243" lry="1536" xml:id="z_f5r_l008"/>
+      <zone ulx="563" uly="1496" lrx="3321" lry="1652" xml:id="z_f5r_l009"/>
+      <zone ulx="563" uly="1620" lrx="3317" lry="1776" xml:id="z_f5r_l010"/>
+      <zone ulx="566" uly="1723" lrx="3252" lry="1900" xml:id="z_f5r_l011"/>
+      <zone ulx="560" uly="1857" lrx="3305" lry="2022" xml:id="z_f5r_l012"/>
+      <zone ulx="526" uly="1975" lrx="3252" lry="2124" xml:id="z_f5r_l013"/>
+      <zone ulx="572" uly="2090" lrx="3221" lry="2252" xml:id="z_f5r_l014"/>
+      <zone ulx="582" uly="2212" lrx="3271" lry="2370" xml:id="z_f5r_l015"/>
+      <zone ulx="588" uly="2311" lrx="3255" lry="2495" xml:id="z_f5r_l016"/>
+      <zone ulx="575" uly="2445" lrx="3187" lry="2616" xml:id="z_f5r_l017"/>
+      <zone ulx="585" uly="2566" lrx="3193" lry="2740" xml:id="z_f5r_l018"/>
+      <zone ulx="582" uly="2678" lrx="3205" lry="2859" xml:id="z_f5r_l019"/>
+      <zone ulx="578" uly="2796" lrx="3255" lry="2989" xml:id="z_f5r_l020"/>
+      <zone ulx="572" uly="2936" lrx="3268" lry="3098" xml:id="z_f5r_l021"/>
+      <zone ulx="575" uly="3055" lrx="3280" lry="3235" xml:id="z_f5r_l022"/>
+      <zone ulx="588" uly="3188" lrx="3221" lry="3347" xml:id="z_f5r_l023"/>
+      <zone ulx="585" uly="3310" lrx="3255" lry="3465" xml:id="z_f5r_l024"/>
+      <zone ulx="578" uly="3431" lrx="3224" lry="3608" xml:id="z_f5r_l025"/>
+      <zone ulx="572" uly="3565" lrx="3293" lry="3745" xml:id="z_f5r_l026"/>
+      <zone ulx="563" uly="3702" lrx="3286" lry="3864" xml:id="z_f5r_l027"/>
+      <zone ulx="575" uly="3826" lrx="3224" lry="3994" xml:id="z_f5r_l028"/>
+      <zone ulx="560" uly="3960" lrx="3271" lry="4122" xml:id="z_f5r_l029"/>
+      <zone ulx="582" uly="4081" lrx="3237" lry="4259" xml:id="z_f5r_l030"/>
+      <zone ulx="582" uly="4212" lrx="3271" lry="4386" xml:id="z_f5r_l031"/>
+      <zone ulx="582" uly="4315" lrx="3265" lry="4511" xml:id="z_f5r_l032"/>
+      <zone ulx="656" uly="4442" lrx="3364" lry="4676" xml:id="z_f5r_l033"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f5r_l001" xml:id="catmus_f5r_l001"/>
+          <seg type="raw_unreviewed">quotiẽs uolm̾s Dicẽs gosic uł su Item ĩquixtione</seg>
+          <lb facs="#z_f5r_l002" xml:id="catmus_f5r_l002"/>
+          <seg type="raw_unreviewed">tibi nõ pono mim sed comisce cot nõbilitates ut tad</seg>
+          <lb facs="#z_f5r_l003" xml:id="catmus_f5r_l003"/>
+          <seg type="raw_unreviewed">menas quid queras. Item ica disc᷑fmi ꝓcede ĩlatiõ</seg>
+          <lb facs="#z_f5r_l004" xml:id="catmus_f5r_l004"/>
+          <seg type="raw_unreviewed">nel mat̾no uł in ntroq et h ͨͦ ẜ ͫ placitũ tius Itẽ in</seg>
+          <lb facs="#z_f5r_l005" xml:id="catmus_f5r_l005"/>
+          <seg type="raw_unreviewed">natũa hebis istu modũ Dolus eis intenebris et coa</seg>
+          <lb facs="#z_f5r_l006" xml:id="catmus_f5r_l006"/>
+          <seg type="raw_unreviewed">gula dilliget᷑ scdm sensum cuũ dem subcoagula si</seg>
+          <lb facs="#z_f5r_l007" xml:id="catmus_f5r_l007"/>
+          <seg type="raw_unreviewed">ꝯiecesse fint Dem̃ coagnlata uł utrũq pone ĩ apice</seg>
+          <lb facs="#z_f5r_l008" xml:id="catmus_f5r_l008"/>
+          <seg type="raw_unreviewed">to et fac suiam etinde quid exhac resultet exhac sie</seg>
+          <lb facs="#z_f5r_l009" xml:id="catmus_f5r_l009"/>
+          <seg type="raw_unreviewed">dcm est sup Itẽ ampliae̾ potes in om̃i ẜimone etĩ oñi</seg>
+          <lb facs="#z_f5r_l010" xml:id="catmus_f5r_l010"/>
+          <seg type="raw_unreviewed">pte oronis in qua pp̃osicõ apponit᷑ neluiqua ꝑ gradꝰ</seg>
+          <lb facs="#z_f5r_l011" xml:id="catmus_f5r_l011"/>
+          <seg type="raw_unreviewed">ꝓcedit᷑ Itẽ ꝓhibeo tibi ne niquã subamplies nͨ sub</seg>
+          <lb facs="#z_f5r_l012" xml:id="catmus_f5r_l012"/>
+          <seg type="raw_unreviewed">articules nec subinebres n ͨ subybes n ͨ subex ponas</seg>
+          <lb facs="#z_f5r_l013" xml:id="catmus_f5r_l013"/>
+          <seg type="raw_unreviewed">nec suballudes quia ĩuolues t̾e tot ronibus quod</seg>
+          <lb facs="#z_f5r_l014" xml:id="catmus_f5r_l014"/>
+          <seg type="raw_unreviewed">icipies errare Itẽ inarticulatõne hoc obẜna ne</seg>
+          <lb facs="#z_f5r_l015" xml:id="catmus_f5r_l015"/>
+          <seg type="raw_unreviewed">ponas mimia mẽbra et talia que cõueniãt et ꝓba</seg>
+          <lb facs="#z_f5r_l016" xml:id="catmus_f5r_l016"/>
+          <seg type="raw_unreviewed">re possis Itẽ mẽbracõ nõ est semꝑ necessai̾a s sicut</seg>
+          <lb facs="#z_f5r_l017" xml:id="catmus_f5r_l017"/>
+          <seg type="raw_unreviewed">nis et tempꝰ exigit nͥ est semꝑ nccesse ꝓba e sed̾</seg>
+          <lb facs="#z_f5r_l018" xml:id="catmus_f5r_l018"/>
+          <seg type="raw_unreviewed">qñq simplicit potes narrle scem in ꝑbaconibus</seg>
+          <lb facs="#z_f5r_l019" xml:id="catmus_f5r_l019"/>
+          <seg type="raw_unreviewed">hot obserna ꝙͥ sufficit uiueridẽ admaxi  dbi cõ</seg>
+          <lb facs="#z_f5r_l020" xml:id="catmus_f5r_l020"/>
+          <seg type="raw_unreviewed">nibus ꝓua̾e et fia̾t ꝓbacõ urenit̾ Icẽ noca ꝙ nilla</seg>
+          <lb facs="#z_f5r_l021" xml:id="catmus_f5r_l021"/>
+          <seg type="raw_unreviewed">m̾tas dequa ignorat᷑ utrs sit uł nõ sit nõ pt̃ nͨ dẽs</seg>
+          <lb facs="#z_f5r_l022" xml:id="catmus_f5r_l022"/>
+          <seg type="raw_unreviewed">admicti ꝙ ꝓbet᷑ allegorice Trapologice dnagogice</seg>
+          <lb facs="#z_f5r_l023" xml:id="catmus_f5r_l023"/>
+          <seg type="raw_unreviewed">sedoiimõ qistoi̾ce sicut in fra melius ptẽbit. Item</seg>
+          <lb facs="#z_f5r_l024" xml:id="catmus_f5r_l024"/>
+          <seg type="raw_unreviewed">omis exposico fiat bicuit delrã sicut pits pdo</seg>
+          <lb facs="#z_f5r_l025" xml:id="catmus_f5r_l025"/>
+          <seg type="raw_unreviewed">cu̾ur sed̾ maxie G a u I. uñꝰ Augusta dealiis aut</seg>
+          <lb facs="#z_f5r_l026" xml:id="catmus_f5r_l026"/>
+          <seg type="raw_unreviewed">cribi illegoria Tcopologia Amagoia ꝑcede sicut</seg>
+          <lb facs="#z_f5r_l027" xml:id="catmus_f5r_l027"/>
+          <seg type="raw_unreviewed">uis ⁊ nĩquã eirabis in aliquo. Potes eciã degra</seg>
+          <lb facs="#z_f5r_l028" xml:id="catmus_f5r_l028"/>
+          <seg type="raw_unreviewed">matica nł alia sc̃iẽcia aliquid in simone tuo expo</seg>
+          <lb facs="#z_f5r_l029" xml:id="catmus_f5r_l029"/>
+          <seg type="raw_unreviewed">ꝯie tꝑe et locoste onũs allusio fiat sicut docui et</seg>
+          <lb facs="#z_f5r_l030" xml:id="catmus_f5r_l030"/>
+          <seg type="raw_unreviewed">adminꝰ in quolib ẜmone semel alludas qualis</seg>
+          <lb facs="#z_f5r_l031" xml:id="catmus_f5r_l031"/>
+          <seg type="raw_unreviewed">ecĩam fu̾it simo sine latinꝯ siue inaõnus sineĩt̾nx</seg>
+          <lb facs="#z_f5r_l032" xml:id="catmus_f5r_l032"/>
+          <seg type="raw_unreviewed">tus Item om̃is ꝯclusio tua fiat subtili. et breuib</seg>
+          <lb facs="#z_f5r_l033" xml:id="catmus_f5r_l033"/>
+          <seg type="raw_unreviewed">ibis et si fint ẜ̾mo latinꝰ uelun tiixtq ul monialibi</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f5r_l001" xml:id="medusa_f5r_l001"/>
+          <seg type="raw_unreviewed">quotiens uoln̾is Dicẽs go sic uł sic Item ĩ commixtione</seg>
+          <lb facs="#z_f5r_l002" xml:id="medusa_f5r_l002"/>
+          <seg type="raw_unreviewed">tibi nõ pono m̾m sed comisce tot nobilitates ut tãd̃</seg>
+          <lb facs="#z_f5r_l003" xml:id="medusa_f5r_l003"/>
+          <seg type="raw_unreviewed">menas quid queras. Item circa diversim proceđe ĩlacio</seg>
+          <lb facs="#z_f5r_l004" xml:id="medusa_f5r_l004"/>
+          <seg type="raw_unreviewed">nel materno uł in utroq: et hᶜ ẜᵐ placitũ t̾m tẽ in</seg>
+          <lb facs="#z_f5r_l005" xml:id="medusa_f5r_l005"/>
+          <seg type="raw_unreviewed">natu᷑a habẽbis istũ modũ Solus eis in tenebris et coa</seg>
+          <lb facs="#z_f5r_l006" xml:id="medusa_f5r_l006"/>
+          <seg type="raw_unreviewed">gula diligẽter scdm̃ sensum tuũ dẽm subcoagula si</seg>
+          <lb facs="#z_f5r_l007" xml:id="medusa_f5r_l007"/>
+          <seg type="raw_unreviewed">necesse fu̾it Deum coagulata uł utru̾q: pone ĩ apice</seg>
+          <lb facs="#z_f5r_l008" xml:id="medusa_f5r_l008"/>
+          <seg type="raw_unreviewed">to et fac signum et inde quid ex hac resultet ex hac sic</seg>
+          <lb facs="#z_f5r_l009" xml:id="medusa_f5r_l009"/>
+          <seg type="raw_unreviewed">dc̃m est supͣ Item ampliare potes in om̃i ẜmone et ĩ om̃i</seg>
+          <lb facs="#z_f5r_l010" xml:id="medusa_f5r_l010"/>
+          <seg type="raw_unreviewed">pte orationis in qua prepositio apponitur ne in qua per gradus</seg>
+          <lb facs="#z_f5r_l011" xml:id="medusa_f5r_l011"/>
+          <seg type="raw_unreviewed">p̃ceditur Item ꝓhibeo tibi ne nunquam subamples nͨ sub</seg>
+          <lb facs="#z_f5r_l012" xml:id="medusa_f5r_l012"/>
+          <seg type="raw_unreviewed">articles nec submẽbres nc sub ꝓbes nc sub exponas</seg>
+          <lb facs="#z_f5r_l013" xml:id="medusa_f5r_l013"/>
+          <seg type="raw_unreviewed">nec suballudes quia ĩuolnes te tot r̃onibus quod</seg>
+          <lb facs="#z_f5r_l014" xml:id="medusa_f5r_l014"/>
+          <seg type="raw_unreviewed">incipies errare/ Itẽ in articulacõne hoc obẜua ne</seg>
+          <lb facs="#z_f5r_l015" xml:id="medusa_f5r_l015"/>
+          <seg type="raw_unreviewed">ponas mĩma mẽbra et talia que cõueniãt et ꝓba</seg>
+          <lb facs="#z_f5r_l016" xml:id="medusa_f5r_l016"/>
+          <seg type="raw_unreviewed">re possis Item embratio nõ est semꝑ necessaria s sicut</seg>
+          <lb facs="#z_f5r_l017" xml:id="medusa_f5r_l017"/>
+          <seg type="raw_unreviewed">nis et tempꝰ exigite n est semꝑ necesse ꝑba̾e sed</seg>
+          <lb facs="#z_f5r_l018" xml:id="medusa_f5r_l018"/>
+          <seg type="raw_unreviewed">quinque simplicitate potes narrare. Item in ꝑbationibus</seg>
+          <lb facs="#z_f5r_l019" xml:id="medusa_f5r_l019"/>
+          <seg type="raw_unreviewed">hoc obserua ꝙ sufficit uniuerside ad maxim ẜb: cõ</seg>
+          <lb facs="#z_f5r_l020" xml:id="medusa_f5r_l020"/>
+          <seg type="raw_unreviewed">nibus probare et fiat probacio brevit̾ / Item nota quod nulla</seg>
+          <lb facs="#z_f5r_l021" xml:id="medusa_f5r_l021"/>
+          <seg type="raw_unreviewed">nitas de qua ignoratur utrum sit uł nõ sit nõ pt̃ nͨdẽ</seg>
+          <lb facs="#z_f5r_l022" xml:id="medusa_f5r_l022"/>
+          <seg type="raw_unreviewed">admitti ꝙ ꝓbet᷑ Allegorice Tropologice Anagogice</seg>
+          <lb facs="#z_f5r_l023" xml:id="medusa_f5r_l023"/>
+          <seg type="raw_unreviewed">sed om̃o h̃istorie sicut infra melius p̃tẽbit. Item</seg>
+          <lb facs="#z_f5r_l024" xml:id="medusa_f5r_l024"/>
+          <seg type="raw_unreviewed">omnĩs exposicio fiat brevit̃ declarata sicut presens predo</seg>
+          <lb facs="#z_f5r_l025" xml:id="medusa_f5r_l025"/>
+          <seg type="raw_unreviewed">cunt sed maxime Gd B. Bnꝰ Augustꝰ de aliis aut̃</seg>
+          <lb facs="#z_f5r_l026" xml:id="medusa_f5r_l026"/>
+          <seg type="raw_unreviewed">ribi Allegoria Tropologia Dilogia ꝓcede sicut</seg>
+          <lb facs="#z_f5r_l027" xml:id="medusa_f5r_l027"/>
+          <seg type="raw_unreviewed">nis ⁊ nũquam errabis in aliquo. Potes eciam de gra</seg>
+          <lb facs="#z_f5r_l028" xml:id="medusa_f5r_l028"/>
+          <seg type="raw_unreviewed">matica uł alia sciencia aliquid in symone tuo expo</seg>
+          <lb facs="#z_f5r_l029" xml:id="medusa_f5r_l029"/>
+          <seg type="raw_unreviewed">ne tpe et loco. Item om̃s allusion fiat sicut docui et</seg>
+          <lb facs="#z_f5r_l030" xml:id="medusa_f5r_l030"/>
+          <seg type="raw_unreviewed">admirimꝰ in quolibet sermonẽ semel alludas qualis</seg>
+          <lb facs="#z_f5r_l031" xml:id="medusa_f5r_l031"/>
+          <seg type="raw_unreviewed">eciam fuit sine latino sine arabnis sine t̾mno</seg>
+          <lb facs="#z_f5r_l032" xml:id="medusa_f5r_l032"/>
+          <seg type="raw_unreviewed">tus Item omnis conclusio tua fiat subtiliter et breuiter</seg>
+          <lb facs="#z_f5r_l033" xml:id="medusa_f5r_l033"/>
+          <seg type="raw_unreviewed">bbis et si fu̾it primo latinꝰ uel in t̃mixta uł monialibꝰ</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f5r_l001 #z_f5r_l002 #z_f5r_l003 #z_f5r_l004 #z_f5r_l005 #z_f5r_l006 #z_f5r_l007 #z_f5r_l008 #z_f5r_l009 #z_f5r_l010" xml:id="u_5r_001">… quotiens volumus, dicens: ergo sic vel sic. Item in commixtione tibi non pono numerum sed commisce tot notabilitates ut tandem invenias quid quaeras. Item ita discurrendo procede in Latino vel materno vel in utroque, et hoc secundum placitum tuum. Item in natura habebis istum modum: [Dolus?] est in tenebris; et coagula diligenter secundum sensum tuum; deinde subcoagula, si necesse fuerit. Deinde coagulata vel utrumque pone in [...] et fac summam et vide quid ex hac resultet; [...] dictum est supra. Item ampliare potes in omni sermone et in omni parte orationis in qua praepositio apponitur vel in qua per gradus proceditur.</p>
+        <note type="editorial" corresp="#u_5r_001" xml:lang="cs">Jde o rekapitulaci postupů commixtio, discursus, natura a amplificatio. Latinský příklad a slovo určující umístění spojených výrazů jsou nejisté a nejsou doplněny z domnělé technické předlohy.</note>
+        <p facs="#z_f5r_l011 #z_f5r_l012 #z_f5r_l013 #z_f5r_l014 #z_f5r_l015 #z_f5r_l016 #z_f5r_l017 #z_f5r_l018" xml:id="u_5r_002">Item prohibeo tibi ne unquam subamplies nec subarticules nec submembres nec subprobes nec subexponas nec suballudas, quia involves te tot rationibus quod incipies errare. Item in articulatione hoc observa ne ponas nimia membra, et talia quae conveniant et probare possis. Item membratio non est semper necessaria sed sicut vis et tempus exigit; nec est semper necesse probare, sed quandoque simpliciter potes narrare.</p>
+        <note type="editorial" corresp="#u_5r_002" xml:lang="cs">Autorovy předponové technické výrazy jsou rozvedeny návrhově a v češtině vysvětleny. Překlad neznamená, že je zrekonstruována přesná moderní teorie hierarchického členění.</note>
+        <p facs="#z_f5r_l019 #z_f5r_l020 #z_f5r_l021 #z_f5r_l022 #z_f5r_l023" xml:id="u_5r_003">Item in probationibus hoc observa quod sufficit veritatem duabus aut maximis tribus rationibus probare, et fiat probatio breviter. Item nota quod nulla veritas de qua ignoratur utrum sit vel non sit non potest nec debet admitti quod probetur allegorice, tropologice, anagogice, sed omnino historice sicut infra melius patebit.</p>
+        <note type="editorial" corresp="#u_5r_003" xml:lang="cs">Počet důkazů dvěma či třemi je návrhové rozvinutí zkratek. Negovaná latinská věta má komplikovanou syntaxi; český překlad vyjadřuje rozpoznaný požadavek historického dokazování, bez tvrzení o bezchybně rozluštěném slovním přepisu.</note>
+        <p facs="#z_f5r_l024 #z_f5r_l025 #z_f5r_l026 #z_f5r_l027 #z_f5r_l028" xml:id="u_5r_004">Item omnis expositio fiat breviter de littera sicut prius praedocui secundum maxime G. A. B. I. [unus?] Augustinus. De aliis autem tribus, allegoria, tropologia, anagogia, procede sicut vis et numquam errabis in aliquo. Potes etiam de grammatica vel alia scientia aliquid in sermone tuo exponere …</p>
+        <note type="editorial" corresp="#u_5r_004" xml:lang="cs">Série jmen je zkratková a nejasná; nerozvádím ji automaticky na obvyklý seznam církevních otců. Tvrzení o možnosti nepochybit je výrok historického návodu, nikoli posouzení spolehlivosti AI.</note>
+        <p facs="#z_f5r_l029 #z_f5r_l030 #z_f5r_l031 #z_f5r_l032 #z_f5r_l033" xml:id="u_5r_005">… convenienter tempore et loco. Item omnis allusio fiat sicut docui et ad minus in quolibet sermone semel alludas, qualis etiam fuerit sermo, sive Latinus sive maternus sive intermixtus. Item omnis conclusio tua fiat subtilibus et brevibus verbis, et si fuerit sermo Latinus vel intermixtus vel monialibus …</p>
+        <note type="editorial" corresp="#u_5r_005" xml:lang="cs">Závěr pokračuje na 5v. Překlad pojmu allusio navazuje na vysvětlení na 4r; nejde pouze o nepřímou narážku. Poslední vedlejší věta není dokončena.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_5r_001">… kolikrát chceme, se slovy: tedy tak nebo tak. Při shromažďování myšlenek ti nepředepisuji počet; shromáždi jich tolik, až nalezneš to, co hledáš. Takto rozvíjej latinsky, mateřským jazykem nebo oběma podle své volby. Při postupu zvaném natura se drž tohoto způsobu: [Klam?] je v temnotách. Pečlivě spojuj výrazy podle svého porozumění; je-li třeba, spoj je ještě dále. Poté spojené výrazy nebo obojí uveď [...] a vytvoř celek; pozoruj, co z něj vzejde, jak bylo řečeno výše. Rozšiřovat můžeš v každém kázání a v každé části řeči, k níž lze připojit předložku nebo kde lze postupovat stupňováním.</p>
+        <p corresp="#u_5r_002">Zakazuji ti dále, abys vytvářel další rozšíření uvnitř rozšíření, členění uvnitř členění, části uvnitř částí, důkazy uvnitř důkazů, výklady uvnitř výkladů a oslovení uvnitř oslovení: zapletl by ses do tolika důvodů, že bys začal bloudit. Při členění dbej, abys neuváděl příliš mnoho členů a aby byly vhodné a doložitelné. Rozčlenění není nutné vždy, nýbrž podle tvého záměru a časových možností. Ani dokazovat nemusíš vždy: někdy můžeš prostě vyprávět.</p>
+        <p corresp="#u_5r_003">Při dokazování dbej, že pravdu stačí doložit dvěma nebo nanejvýš třemi důvody; důkaz má být krátký. U pravdy, o níž není známo, zda platí, nelze připustit, aby byla dokazována alegoricky, mravním nebo anagogickým výkladem; má se dokazovat pouze historickým smyslem, jak bude níže jasnější.</p>
+        <p corresp="#u_5r_004">Každý výklad doslovného smyslu má být krátký, jak jsem již učil, především podle [zkrácených jmen otců; následuje Augustinus?]. V ostatních třech smyslech, alegorickém, mravním a anagogickém, postupuj podle své volby a v ničem nepochybíš. V kázání můžeš vyložit také něco z gramatiky či jiné vědy …</p>
+        <p corresp="#u_5r_005">… přiměřeně času a místu. Každé rétorické oslovení tvoř podle mého návodu a v každém kázání je použij alespoň jednou, ať je kázání latinské, v mateřském jazyce nebo smíšené. Každý svůj závěr formuluj vytříbenými a stručnými slovy; je-li kázání latinské, smíšené nebo určené řeholnicím …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

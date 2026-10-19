@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 170r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Bez samostatně přiřazeného katalogového oddílu. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_170r_coordinate; PNG SHA256 438d4f51ce4685802ba58a94add416822cc871a83abdbf49bc07ddd0fe93f78c; archival TIFF SHA256 1dbad42fdc7ee1d46e0b7ccfa88953a69374aec6247dffcda716638e03a6751d; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_170r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#170r"/>
+      <zone ulx="1721" uly="476" lrx="1761" lry="497" xml:id="z_f170r_l001"/>
+      <zone ulx="1721" uly="603" lrx="1802" lry="650" xml:id="z_f170r_l002"/>
+      <zone ulx="2452" uly="276" lrx="2536" lry="320" xml:id="z_f170r_l003"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="und">
+          <lb facs="#z_f170r_l001" xml:id="catmus_f170r_l001"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f170r_l002" xml:id="catmus_f170r_l002"/>
+          <seg type="raw_unreviewed">;</seg>
+          <lb facs="#z_f170r_l003" xml:id="catmus_f170r_l003"/>
+          <seg type="raw_unreviewed">1</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="und">
+          <lb facs="#z_f170r_l001" xml:id="medusa_f170r_l001"/>
+          <seg type="raw_unreviewed">11</seg>
+          <lb facs="#z_f170r_l002" xml:id="medusa_f170r_l002"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_f170r_l003" xml:id="medusa_f170r_l003"/>
+          <seg type="raw_unreviewed">.</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="und">
+        <p facs="#z_f170r_l001" xml:id="u_170r_001">[Drobná materiálová stopa.]</p>
+        <note type="editorial" corresp="#u_170r_001" xml:lang="cs">Není to řádek souvislého hlavního textu; HTR kandidát není považován za správnou četbu.</note>
+        <p facs="#z_f170r_l002" xml:id="u_170r_002">[Drobné materiálové stopy.]</p>
+        <note type="editorial" corresp="#u_170r_002" xml:lang="cs">Není to řádek souvislého hlavního textu; HTR kandidát není považován za správnou četbu.</note>
+        <p facs="#z_f170r_l003" xml:id="u_170r_003">[Drobná materiálová stopa, bez jistého číselného významu.]</p>
+        <note type="editorial" corresp="#u_170r_003" xml:lang="cs">Není to řádek souvislého hlavního textu; HTR kandidát není považován za správnou četbu.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_170r_001">[Bez souvislého překladu.]</p>
+        <p corresp="#u_170r_002">[Bez souvislého překladu.]</p>
+        <p corresp="#u_170r_003">[Bez souvislého překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

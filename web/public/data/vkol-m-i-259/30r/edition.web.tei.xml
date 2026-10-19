@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 30r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Exempla. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_30r_coordinate; PNG SHA256 bb27c0b7800d4d6cb42f31d465104598514428fcf211a8e2799e3848ccdc5b76; archival TIFF SHA256 9383f4db68f9a17ba577c77f9c5975ebf70af8737ab014e45dc27765abb35fef; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_30r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#30r"/>
+      <zone ulx="71" uly="4442" lrx="146" lry="4601" xml:id="z_f30r_l001"/>
+      <zone ulx="143" uly="4480" lrx="280" lry="4663" xml:id="z_f30r_l002"/>
+      <zone ulx="395" uly="560" lrx="3140" lry="718" xml:id="z_f30r_l003"/>
+      <zone ulx="357" uly="665" lrx="3193" lry="830" xml:id="z_f30r_l004"/>
+      <zone ulx="364" uly="762" lrx="3159" lry="930" xml:id="z_f30r_l005"/>
+      <zone ulx="364" uly="861" lrx="3012" lry="1011" xml:id="z_f30r_l006"/>
+      <zone ulx="373" uly="967" lrx="3072" lry="1101" xml:id="z_f30r_l007"/>
+      <zone ulx="361" uly="1054" lrx="3131" lry="1200" xml:id="z_f30r_l008"/>
+      <zone ulx="361" uly="1157" lrx="3121" lry="1291" xml:id="z_f30r_l009"/>
+      <zone ulx="357" uly="1250" lrx="3193" lry="1393" xml:id="z_f30r_l010"/>
+      <zone ulx="364" uly="1347" lrx="3062" lry="1496" xml:id="z_f30r_l011"/>
+      <zone ulx="361" uly="1449" lrx="3056" lry="1589" xml:id="z_f30r_l012"/>
+      <zone ulx="364" uly="1543" lrx="3072" lry="1680" xml:id="z_f30r_l013"/>
+      <zone ulx="376" uly="1639" lrx="3224" lry="1804" xml:id="z_f30r_l014"/>
+      <zone ulx="379" uly="1745" lrx="3016" lry="1869" xml:id="z_f30r_l015"/>
+      <zone ulx="370" uly="1832" lrx="2925" lry="1975" xml:id="z_f30r_l016"/>
+      <zone ulx="445" uly="1919" lrx="2978" lry="2056" xml:id="z_f30r_l017"/>
+      <zone ulx="348" uly="2006" lrx="2810" lry="2146" xml:id="z_f30r_l018"/>
+      <zone ulx="2854" uly="2034" lrx="3025" lry="2165" xml:id="z_f30r_l019"/>
+      <zone ulx="361" uly="2103" lrx="3031" lry="2221" xml:id="z_f30r_l020"/>
+      <zone ulx="364" uly="2193" lrx="3196" lry="2333" xml:id="z_f30r_l021"/>
+      <zone ulx="351" uly="2289" lrx="3022" lry="2439" xml:id="z_f30r_l022"/>
+      <zone ulx="367" uly="2389" lrx="3137" lry="2538" xml:id="z_f30r_l023"/>
+      <zone ulx="373" uly="2479" lrx="3072" lry="2625" xml:id="z_f30r_l024"/>
+      <zone ulx="361" uly="2569" lrx="3100" lry="2722" xml:id="z_f30r_l025"/>
+      <zone ulx="351" uly="2669" lrx="3078" lry="2809" xml:id="z_f30r_l026"/>
+      <zone ulx="367" uly="2762" lrx="3044" lry="2890" xml:id="z_f30r_l027"/>
+      <zone ulx="413" uly="2846" lrx="2981" lry="3011" xml:id="z_f30r_l028"/>
+      <zone ulx="364" uly="2964" lrx="3022" lry="3108" xml:id="z_f30r_l029"/>
+      <zone ulx="367" uly="3055" lrx="3159" lry="3198" xml:id="z_f30r_l030"/>
+      <zone ulx="364" uly="3148" lrx="3109" lry="3304" xml:id="z_f30r_l031"/>
+      <zone ulx="376" uly="3244" lrx="3143" lry="3406" xml:id="z_f30r_l032"/>
+      <zone ulx="364" uly="3335" lrx="3106" lry="3487" xml:id="z_f30r_l033"/>
+      <zone ulx="357" uly="3437" lrx="3096" lry="3577" xml:id="z_f30r_l034"/>
+      <zone ulx="342" uly="3528" lrx="3106" lry="3683" xml:id="z_f30r_l035"/>
+      <zone ulx="367" uly="3633" lrx="3103" lry="3783" xml:id="z_f30r_l036"/>
+      <zone ulx="361" uly="3736" lrx="1593" lry="3882" xml:id="z_f30r_l037"/>
+      <zone ulx="600" uly="3811" lrx="2953" lry="3960" xml:id="z_f30r_l038"/>
+      <zone ulx="361" uly="3910" lrx="3087" lry="4056" xml:id="z_f30r_l039"/>
+      <zone ulx="373" uly="4010" lrx="3227" lry="4159" xml:id="z_f30r_l040"/>
+      <zone ulx="351" uly="4103" lrx="3134" lry="4252" xml:id="z_f30r_l041"/>
+      <zone ulx="370" uly="4209" lrx="3034" lry="4371" xml:id="z_f30r_l042"/>
+      <zone ulx="364" uly="4327" lrx="3215" lry="4476" xml:id="z_f30r_l043"/>
+      <zone ulx="367" uly="4417" lrx="3078" lry="4657" xml:id="z_f30r_l044"/>
+      <zone ulx="140" uly="1421" lrx="227" lry="1543" xml:id="z_f30r_l045"/>
+      <zone ulx="220" uly="2429" lrx="252" lry="2644" xml:id="z_f30r_l046"/>
+      <zone ulx="236" uly="3310" lrx="261" lry="3412" xml:id="z_f30r_l047"/>
+      <zone ulx="121" uly="4280" lrx="295" lry="4420" xml:id="z_f30r_l048"/>
+      <zone ulx="3327" uly="248" lrx="3548" lry="413" xml:id="z_f30r_l049"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f30r_l001" xml:id="catmus_f30r_l001"/>
+          <seg type="raw_unreviewed">.si</seg>
+          <lb facs="#z_f30r_l002" xml:id="catmus_f30r_l002"/>
+          <seg type="raw_unreviewed">i. oul</seg>
+          <lb facs="#z_f30r_l003" xml:id="catmus_f30r_l003"/>
+          <seg type="raw_unreviewed">feniũ q̃ emilta de kocõe sepi quĩcuibat er qũto pħ celestẽ cibũ</seg>
+          <lb facs="#z_f30r_l004" xml:id="catmus_f30r_l004"/>
+          <seg type="raw_unreviewed">capiebat itũto ãpli/ coͣi ᷝ ͤ icibũ copͭ fascidie Q ubi seus eopmissiõe</seg>
+          <lb facs="#z_f30r_l005" xml:id="catmus_f30r_l005"/>
+          <seg type="raw_unreviewed">scicdotꝭ sigł diũgꝭ diel qmĩcu ͭ Omi cib ẽ uitił tr̃tu ꝯtulit ser ͤ</seg>
+          <lb facs="#z_f30r_l006" xml:id="catmus_f30r_l006"/>
+          <seg type="raw_unreviewed">ut sĩ õi esta cõn ᷝͥ ꝓrũt exsptue̾t diũ̃di/ ħmlto ep̃e di̾nũ s</seg>
+          <lb facs="#z_f30r_l007" xml:id="catmus_f30r_l007"/>
+          <seg type="raw_unreviewed">gñs colatã p̃dc̃o sac̾dotiꝰ ꝯfessa ꝑ q n̾o epõ ꝯ loci u̾tulit alteꝰ</seg>
+          <lb facs="#z_f30r_l008" xml:id="catmus_f30r_l008"/>
+          <seg type="raw_unreviewed">rẽ tũ mable /epc̃ nõ tĩent illiꝙͣ falla᷑ ⁊̃ cũ eẽ sc uir sapiũs</seg>
+          <lb facs="#z_f30r_l009" xml:id="catmus_f30r_l009"/>
+          <seg type="raw_unreviewed">rũͭ Cũ denne benit adimitãd loco coꝵꝭ ꝓͥ hostul ũ lñͣ</seg>
+          <lb facs="#z_f30r_l010" xml:id="catmus_f30r_l010"/>
+          <seg type="raw_unreviewed">ei porrigad ꝑ quãcierꝰ rei hi ͥ epres uĩtitẽ Ꝙ cũ secisẜ sag̾os</seg>
+          <lb facs="#z_f30r_l011" xml:id="catmus_f30r_l011"/>
+          <seg type="raw_unreviewed">feiã cp̃tuto igneau̾s/ mor ut dõmu reddiitt tã behem̃᷑ esme</seg>
+          <lb facs="#z_f30r_l012" xml:id="catmus_f30r_l012"/>
+          <seg type="raw_unreviewed">cepit ^ut miitiu se creddẽt /si nr̃ ciciꝰ mãducaet .Currẽs</seg>
+          <lb facs="#z_f30r_l013" xml:id="catmus_f30r_l013"/>
+          <seg type="raw_unreviewed">tnĩ cibo udscic̾dote pus adendi falme suid riccĩs cpus ii pedil</seg>
+          <lb facs="#z_f30r_l014" xml:id="catmus_f30r_l014"/>
+          <seg type="raw_unreviewed">se ꝓstauit / ⁊ grũ diuĩt/ cellatũ Io scc̃ta nu̾abbr exposuͭ</seg>
+          <lb facs="#z_f30r_l015" xml:id="catmus_f30r_l015"/>
+          <seg type="raw_unreviewed">Ꝙ cũ ẽ audiuit grms nalde do gr̃us agũs / rei um corꝰ B̾</seg>
+          <lb facs="#z_f30r_l016" xml:id="catmus_f30r_l016"/>
+          <seg type="raw_unreviewed">dekit Em Iu̾tute mex cũ esm̾es rcesꝭ ⁊ qũ sbtcta accessit</seg>
+          <lb facs="#z_f30r_l017" xml:id="catmus_f30r_l017"/>
+          <seg type="raw_unreviewed">doemdõ qͥ cor^ x c̃ a ᷝ ͤ qũ haͥcii Is u̾slõ ĩpueꝵ ꝙ uidũs qũs Iũ</seg>
+          <lb facs="#z_f30r_l018" xml:id="catmus_f30r_l018"/>
+          <seg type="raw_unreviewed">Quida inde̾ belũo ꝯfunde̾ xtuos ĩsacra ebdo᷑ passr ͫ</seg>
+          <lb facs="#z_f30r_l019" xml:id="catmus_f30r_l019"/>
+          <seg type="raw_unreviewed">dñi</seg>
+          <lb facs="#z_f30r_l020" xml:id="catmus_f30r_l020"/>
+          <seg type="raw_unreviewed">muta lĩtu ẽ prus ĩqͣda magna ciueᵗ aleccia neᵗ iuli a  u̾</seg>
+          <lb facs="#z_f30r_l021" xml:id="catmus_f30r_l021"/>
+          <seg type="raw_unreviewed">sidelili coridiu suẽn ͦ oecꝭ indeꝰ accepͭ ⁊ mox saa̾s exmit</seg>
+          <lb facs="#z_f30r_l022" xml:id="catmus_f30r_l022"/>
+          <seg type="raw_unreviewed">uolũs id illui de xauis Cũꝙ iᵈ exx̾e ĩ nutũ sup̃siss istatĩ</seg>
+          <lb facs="#z_f30r_l023" xml:id="catmus_f30r_l023"/>
+          <seg type="raw_unreviewed">ĩsoruu ꝑm pũi sͥ dũd opꝑuit ridũde Cau t̾ntꝰ pocissiͫ fãce</seg>
+          <lb facs="#z_f30r_l024" xml:id="catmus_f30r_l024"/>
+          <seg type="raw_unreviewed">uesciekat Tĩebat᷑ .u. si cũ gnͣde uephus ad x̾auiꝵ noti ͣ Ae</seg>
+          <lb facs="#z_f30r_l025" xml:id="catmus_f30r_l025"/>
+          <seg type="raw_unreviewed">nei̾et ip̃m accident e mau̾ kai̾is ituꝙs ãgeisois ⁊ dolui sir</seg>
+          <lb facs="#z_f30r_l026" xml:id="catmus_f30r_l026"/>
+          <seg type="raw_unreviewed">iretibus exitũ taciꝰ ppłt decimitero p̃scola ÷ Et scõ ela</seg>
+          <lb facs="#z_f30r_l027" xml:id="catmus_f30r_l027"/>
+          <seg type="raw_unreviewed">pnulo monum̃ti tiuodã ãgło cũ man trmuoe puer</seg>
+          <lb facs="#z_f30r_l028" xml:id="catmus_f30r_l028"/>
+          <seg type="raw_unreviewed">eppluit Cũ q r̾cede̾t ꝓpean᷑ obum hũit cusuaͬ ep̃m ciiͭ</seg>
+          <lb facs="#z_f30r_l029" xml:id="catmus_f30r_l029"/>
+          <seg type="raw_unreviewed">Quo biso aloge cordiat ĩgeniuit cogĩtũs se Melle ea q̃ focent s</seg>
+          <lb facs="#z_f30r_l030" xml:id="catmus_f30r_l030"/>
+          <seg type="raw_unreviewed">ꝯfitei / ⁊ r̾ceptõ sacꝰ baptiiͭ s. panũ ħ eo cog̃tũts ep̃t ꝙpiq̃uit inde I</seg>
+          <lb facs="#z_f30r_l031" xml:id="catmus_f30r_l031"/>
+          <seg type="raw_unreviewed">n̾e itia coinẽs egcłiuit audi dñe ꝑsidũ ueolosũ sili uñ ocasb̾er</seg>
+          <lb facs="#z_f30r_l032" xml:id="catmus_f30r_l032"/>
+          <seg type="raw_unreviewed">ꝑitͥ ⁊ sepultõe Quib audit ep̃e suppĩaͭ descũdĩs deciq aud̾itu. Ifessi d</seg>
+          <lb facs="#z_f30r_l033" xml:id="catmus_f30r_l033"/>
+          <seg type="raw_unreviewed">ip̃. secũ .a.ũssiẽ flelut/ ⁊ bõco cliõ ⁊ ppło c̾uoͭ scũ demͦ ͤ mabia</seg>
+          <lb facs="#z_f30r_l034" xml:id="catmus_f30r_l034"/>
+          <seg type="raw_unreviewed">indeĩ uf ĩcinetẽt adtinułm pur segueluti Apto q sepulchᵒ pueꝵ</seg>
+          <lb facs="#z_f30r_l035" xml:id="catmus_f30r_l035"/>
+          <seg type="raw_unreviewed">nui ⁊ hilar ĩbenit que cu oñdet bius q̃ digni funt ĩsdr pui</seg>
+          <lb facs="#z_f30r_l036" xml:id="catmus_f30r_l036"/>
+          <seg type="raw_unreviewed">uisiblr̃ ꝓnt eriõ aᷝͦ q ain digni̾e̾nt /ĩ fõr pãe tũ ͦ ͤ indebl÷ Inde</seg>
+          <lb facs="#z_f30r_l037" xml:id="catmus_f30r_l037"/>
+          <seg type="raw_unreviewed">ituiss tłiꝗ ac sid̃ cathoii ẽ. su̾sus</seg>
+          <lb facs="#z_f30r_l038" xml:id="catmus_f30r_l038"/>
+          <seg type="raw_unreviewed">dequoda Pdone cꝰ eisꝰ qͣ suc̃doͭ ͤ cor scute ienua flexͭ</seg>
+          <lb facs="#z_f30r_l039" xml:id="catmus_f30r_l039"/>
+          <seg type="raw_unreviewed">rda tp̃e due p̃doẽs sil cq̃tuliaut ut s rais nccͣra rubẽẜ auffũde</seg>
+          <lb facs="#z_f30r_l040" xml:id="catmus_f30r_l040"/>
+          <seg type="raw_unreviewed">ꝓbudu̾t᷑ ubi possẽt in t̾ea dũ sũ icude m̃ł feꝰ c̾c̾a quistlm ꝑge̾nt</seg>
+          <lb facs="#z_f30r_l041" xml:id="catmus_f30r_l041"/>
+          <seg type="raw_unreviewed">ecce qͥda sacdes cũ cur dm̃i ad Iuẽdei. fu̾iũ desꝑabłragonisũtẽ</seg>
+          <lb facs="#z_f30r_l042" xml:id="catmus_f30r_l042"/>
+          <seg type="raw_unreviewed">obuĩ hũert ⁊ cũ adioicẽ benissẽt id pbr. tĩẽs cos por sulitaͭ</seg>
+          <lb facs="#z_f30r_l043" xml:id="catmus_f30r_l043"/>
+          <seg type="raw_unreviewed">eos ip̃i aũt coiꝰ dñi cũ sd̃e ꝯsidantes lenig rũ itãꝵ accos r̾bii</seg>
+          <lb facs="#z_f30r_l044" xml:id="catmus_f30r_l044"/>
+          <seg type="raw_unreviewed">liũt multã decã sulutisẽ. quicte gauisi Rñ.exeis iuouoꝵꝭ de</seg>
+          <lb facs="#z_f30r_l045" xml:id="catmus_f30r_l045"/>
+          <seg type="raw_unreviewed">t ab</seg>
+          <lb facs="#z_f30r_l046" xml:id="catmus_f30r_l046"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f30r_l047" xml:id="catmus_f30r_l047"/>
+          <seg type="raw_unreviewed">al</seg>
+          <lb facs="#z_f30r_l048" xml:id="catmus_f30r_l048"/>
+          <seg type="raw_unreviewed">ulti q̃</seg>
+          <lb facs="#z_f30r_l049" xml:id="catmus_f30r_l049"/>
+          <seg type="raw_unreviewed">20</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f30r_l001" xml:id="medusa_f30r_l001"/>
+          <seg type="raw_unreviewed">27</seg>
+          <lb facs="#z_f30r_l002" xml:id="medusa_f30r_l002"/>
+          <seg type="raw_unreviewed">nͣ c̃ul</seg>
+          <lb facs="#z_f30r_l003" xml:id="medusa_f30r_l003"/>
+          <seg type="raw_unreviewed">Femĩm q̃ ex młta de bocõe seꝑꝰ ꝯm̃icabat Er qũto pħ celestẽ cibũ</seg>
+          <lb facs="#z_f30r_l004" xml:id="medusa_f30r_l004"/>
+          <seg type="raw_unreviewed">capiebant itãto ãpliꝰ corꝰle cibũ cap⁊ fastidie̾ Crubi seuẜ ex ꝓmissione</seg>
+          <lb facs="#z_f30r_l005" xml:id="medusa_f30r_l005"/>
+          <seg type="raw_unreviewed">succentoris singulis dominicis diebus commictitur Qui cibum et vitalem / tantam contulit sortem</seg>
+          <lb facs="#z_f30r_l006" xml:id="medusa_f30r_l006"/>
+          <seg type="raw_unreviewed">ut si nõi esta corali procurator exspetiueret dominum / multo tpo diuun</seg>
+          <lb facs="#z_f30r_l007" xml:id="medusa_f30r_l007"/>
+          <seg type="raw_unreviewed">graciȩ colatum predicto sacerdoti confessa est se non episcopo cuius loci ut taliter alterius</seg>
+          <lb facs="#z_f30r_l008" xml:id="medusa_f30r_l008"/>
+          <seg type="raw_unreviewed">rẽ tã mirãbilem episcopus nõ tũerit aliꝙ fallere ⁊ cũ eã se uir sapientiis</seg>
+          <lb facs="#z_f30r_l009" xml:id="medusa_f30r_l009"/>
+          <seg type="raw_unreviewed">nũ Cũ derme uenit ad quincundum loco corꝭ ꝓ hostia nũ hũc</seg>
+          <lb facs="#z_f30r_l010" xml:id="medusa_f30r_l010"/>
+          <seg type="raw_unreviewed">ei porrigas / per quancier rei huius exꝑies ueritatem Qr cũ fecissit sacros</seg>
+          <lb facs="#z_f30r_l011" xml:id="medusa_f30r_l011"/>
+          <seg type="raw_unreviewed">frũ tptato ignearius / mox ut dõnũ reddit tã behemꝰ esme</seg>
+          <lb facs="#z_f30r_l012" xml:id="medusa_f30r_l012"/>
+          <seg type="raw_unreviewed">cepit / ut martintuiz se credde̾t / si nũc c̾erꝰ manducaret / Curie̾s</seg>
+          <lb facs="#z_f30r_l013" xml:id="medusa_f30r_l013"/>
+          <seg type="raw_unreviewed">tm cibo adstrictote prius adendum fame suis icar̃s ⁊ pueris pedibus</seg>
+          <lb facs="#z_f30r_l014" xml:id="medusa_f30r_l014"/>
+          <seg type="raw_unreviewed">se prostrauit / et graciis diuinitus collatum sanctitatis inu̾abilem exposuit</seg>
+          <lb facs="#z_f30r_l015" xml:id="medusa_f30r_l015"/>
+          <seg type="raw_unreviewed">ex cu audivit gratias malde de grans agens rei un cor</seg>
+          <lb facs="#z_f30r_l016" xml:id="medusa_f30r_l016"/>
+          <seg type="raw_unreviewed">dedit eius u̾tute innoxium e sum̾es recepit ⁊ cum sancta accessit</seg>
+          <lb facs="#z_f30r_l017" xml:id="medusa_f30r_l017"/>
+          <seg type="raw_unreviewed">Deinde qͥ cori xͥ t̃ aˢᵒ quĩlꝰ rͥcepꝰ . 1 f. u̾sio ĩ pͥuerꝭ . q. uidus iũs u̾o</seg>
+          <lb facs="#z_f30r_l018" xml:id="medusa_f30r_l018"/>
+          <seg type="raw_unreviewed">Guidatz inde voluns confunde xtnos in sacra obedi passione</seg>
+          <lb facs="#z_f30r_l019" xml:id="medusa_f30r_l019"/>
+          <seg type="raw_unreviewed">domini</seg>
+          <lb facs="#z_f30r_l020" xml:id="medusa_f30r_l020"/>
+          <seg type="raw_unreviewed">mũta habita c̃ presentis in quadam magna curie ad ecciam nebuli a quo</seg>
+          <lb facs="#z_f30r_l021" xml:id="medusa_f30r_l021"/>
+          <seg type="raw_unreviewed">fidelibus corpi domini sueniꝰ eccꝭ inde acceptet et maxime fuit exnuit</seg>
+          <lb facs="#z_f30r_l022" xml:id="medusa_f30r_l022"/>
+          <seg type="raw_unreviewed">voluns id illi dare patris eumque id exerce in nutum supersissus istas</seg>
+          <lb facs="#z_f30r_l023" xml:id="medusa_f30r_l023"/>
+          <seg type="raw_unreviewed">in forma perui pueri sibi dum d apperunt ridundo Qui tueri potissim facere</seg>
+          <lb facs="#z_f30r_l024" xml:id="medusa_f30r_l024"/>
+          <seg type="raw_unreviewed">nesciebat Ciebatur . si cũ grande nephus ad ximur notiam de</seg>
+          <lb facs="#z_f30r_l025" xml:id="medusa_f30r_l025"/>
+          <seg type="raw_unreviewed">neret / ipm̃ occiderunt sibi inimici / kariss et nq c̃gustis et dolis laꝰ</seg>
+          <lb facs="#z_f30r_l026" xml:id="medusa_f30r_l026"/>
+          <seg type="raw_unreviewed">metius exitum tuci populi decimiteio presconla et facto eba 3</seg>
+          <lb facs="#z_f30r_l027" xml:id="medusa_f30r_l027"/>
+          <seg type="raw_unreviewed">p̃mulo monum̃to ⁊ quodũ ãgl̃o cũ mag̃ timor̃ puerꝭ</seg>
+          <lb facs="#z_f30r_l028" xml:id="medusa_f30r_l028"/>
+          <seg type="raw_unreviewed">reppelinit / Cũq; recederet propterea obuii habuit casuari episcopum curie</seg>
+          <lb facs="#z_f30r_l029" xml:id="medusa_f30r_l029"/>
+          <seg type="raw_unreviewed">Quo visu a longe cordiat ingenium cogitans se velle ea q̃ fecerant s</seg>
+          <lb facs="#z_f30r_l030" xml:id="medusa_f30r_l030"/>
+          <seg type="raw_unreviewed">confitei᷑ ⁊ recepto sac̃ bapti᷑ᷤᷤe. su̇ xisti̾m / H̾ eo congregat̃s ep̃c̃o appuinqͣnit mde̾</seg>
+          <lb facs="#z_f30r_l031" xml:id="medusa_f30r_l031"/>
+          <seg type="raw_unreviewed">ne in terram tornenses exclamavit audi domine persidum et uolensum / si licet unde occisores</seg>
+          <lb facs="#z_f30r_l032" xml:id="medusa_f30r_l032"/>
+          <seg type="raw_unreviewed">peritꝰ et sepulturę . Quib auditis episcopus suspiciũt descendus de .I. audita . I. fess. de</seg>
+          <lb facs="#z_f30r_l033" xml:id="medusa_f30r_l033"/>
+          <seg type="raw_unreviewed">ip̃ secũ r̃misse fletat / et boͣco cl̃ico ⁊ pplo̾ c̃iuoꝭ scũ de uirgine marie</seg>
+          <lb facs="#z_f30r_l034" xml:id="medusa_f30r_l034"/>
+          <seg type="raw_unreviewed">indeum usque in cimiterium ad tumulum pueri sepulchri puerorum</seg>
+          <lb facs="#z_f30r_l035" xml:id="medusa_f30r_l035"/>
+          <seg type="raw_unreviewed">Vincentii et Hilarii c̃uenit / quod eum ante diem / b̃nmq̃ q̃ digni fuerit ĩ sepc̃ pun</seg>
+          <lb facs="#z_f30r_l036" xml:id="medusa_f30r_l036"/>
+          <seg type="raw_unreviewed">uisible prout episcopo / a ͥ ͦ q ͥ antequam digni eͥant in foro p. n. t. n ͦ uideba ⁊ iude</seg>
+          <lb facs="#z_f30r_l037" xml:id="medusa_f30r_l037"/>
+          <seg type="raw_unreviewed">itaq: tliq nͥ suꝑ cathoꝰ ẽ . Insuper</seg>
+          <lb facs="#z_f30r_l038" xml:id="medusa_f30r_l038"/>
+          <seg type="raw_unreviewed">de quodam priore eiusdem qomo succentore cor. / sentẽ uerum fleyt</seg>
+          <lb facs="#z_f30r_l039" xml:id="medusa_f30r_l039"/>
+          <seg type="raw_unreviewed">Es daz tpe die p̃dones sil eintubant / ut sͣ reiqs ncc̃ria iurẽ s̃ auffr̃de</seg>
+          <lb facs="#z_f30r_l040" xml:id="medusa_f30r_l040"/>
+          <seg type="raw_unreviewed">pluidunt ubi possent in terra dum sic itando nullus se contra eginstem pignoravit</seg>
+          <lb facs="#z_f30r_l041" xml:id="medusa_f30r_l041"/>
+          <seg type="raw_unreviewed">ecclesie quidam sacerdos cum coram dñi / adquendo in flumen de spriblir ac consunt</seg>
+          <lb facs="#z_f30r_l042" xml:id="medusa_f30r_l042"/>
+          <seg type="raw_unreviewed">ob unũ hũerẽt / ⁊ cũ ad uicẽ uenissẽt / idem p̃b̃r tĩes eos p̃ter salutã</seg>
+          <lb facs="#z_f30r_l043" xml:id="medusa_f30r_l043"/>
+          <seg type="raw_unreviewed">eos Ip̃i autem cor domini cum fore considerantes / benig̃ mᵗⁱ gr̃arum actõs r̾tu</seg>
+          <lb facs="#z_f30r_l044" xml:id="medusa_f30r_l044"/>
+          <seg type="raw_unreviewed">lunt multam decim salutis fer . quuĩte grauis / Dñm . 2 ex eis moĩor de</seg>
+          <lb facs="#z_f30r_l045" xml:id="medusa_f30r_l045"/>
+          <seg type="raw_unreviewed">Rab</seg>
+          <lb facs="#z_f30r_l046" xml:id="medusa_f30r_l046"/>
+          <seg type="raw_unreviewed">18</seg>
+          <lb facs="#z_f30r_l047" xml:id="medusa_f30r_l047"/>
+          <seg type="raw_unreviewed">al</seg>
+          <lb facs="#z_f30r_l048" xml:id="medusa_f30r_l048"/>
+          <seg type="raw_unreviewed">multa que</seg>
+          <lb facs="#z_f30r_l049" xml:id="medusa_f30r_l049"/>
+          <seg type="raw_unreviewed">30</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f30r_l001 #z_f30r_l002" xml:id="u_30r_001">[Fragmenta paginae oppositae.]</p>
+        <note type="editorial" corresp="#u_30r_001" xml:lang="cs">Dvě úzké levé detekce skutečně otevřeny; nepatří k hlavnímu textu.</note>
+        <p facs="#z_f30r_l003 #z_f30r_l004 #z_f30r_l005 #z_f30r_l006 #z_f30r_l007 #z_f30r_l008" xml:id="u_30r_002">Femina quaedam ex multa devotione saepe communicabat et quanto plus caelestem cibum capiebat tanto amplius corporalem cibum coepit fastidire. Quod ubi sciens ex permissione sacerdotis singulis [...] diebus communicaret, [...] tantam contulit satietatem ut sine omni cibo carnali posset [...] et multo tempore divinam [...] collatam praedicto sacerdoti confessa, [...] episcopo loci retulit tantam rem mirabilem. Episcopus autem timens ne in illa falleretur, et cum esset vir sapiens, respondit …</p>
+        <note type="editorial" corresp="#u_30r_002" xml:lang="cs">Navazuje rubrika29v45, jejíž nejisté čtení bylo podle tohoto skutečného pokračování opraveno. Přesný interval přijímání i doba bez jídla zůstávají nedočtené; nejde o vlastní zdravotní doporučení.</note>
+        <p facs="#z_f30r_l009 #z_f30r_l010 #z_f30r_l011 #z_f30r_l012 #z_f30r_l013 #z_f30r_l014 #z_f30r_l015 #z_f30r_l016" xml:id="u_30r_003">… Cum denuo venit ad communicandum, loco corporis Christi hostiam non consecratam ei porrigas, per quam certius rei huius expresses veritatem. Quod cum fecisset, [...] nihil [...] ignoravit. Mox ut domum rediit tam vehementer esurire coepit ut morituram se crederet, si non citius manducaret. Currens [...] ad sacerdotem prius ardorem famis suae [...] pedibus se prostravit et gratiam divinitus collatam [...] narrando exposuit. Quod cum ille audivit, [...] Deo gratias agens verum corpus Christi dedit, cuius virtute mox cum esuries recessit et [...] accessit.</p>
+        <note type="editorial" corresp="#u_30r_003" xml:lang="cs">Biskupův test i návrat hladu jsou čitelné. Knězova reakce a přesný poslední přísudek zůstávají neúplné. Příběh je zázračné exemplum a neslouží jako návod k hladovění nebo k manipulaci s přijímáním.</note>
+        <p facs="#z_f30r_l017 #z_f30r_l018 #z_f30r_l019 #z_f30r_l020 #z_f30r_l021 #z_f30r_l022 #z_f30r_l023 #z_f30r_l024" xml:id="u_30r_004">[rubrica: Quomodo [...] corpus Christi in specie pueri apparuit Iudaeo.] Quidam Iudaeus volens confundere Christianos in sacra hebdomada passionis Domini [...] in quadam magna civitate Alexandria [...] fidelibus corpus Domini sumentibus, accepit et mox fores exivit, volens illudere Christianis. Cumque id ex ore in manum sumpsisset, statim in forma parvi pueri [...] apparuit. Videns [...] territus quid faceret nesciebat. Timebat enim, si [...] ad Christianorum notitiam deveniret, ipsum occiderent …</p>
+        <note type="editorial" corresp="#u_30r_004" xml:lang="cs">Protižidovské exemplum překládám jako historický text, nikoli jako doklad o chování Židů. Alexandria je čtení jména v obrazu. Některé okolnosti přijímání a podoba dítěte jsou nedočtené.</note>
+        <p facs="#z_f30r_l025 #z_f30r_l026 #z_f30r_l027 #z_f30r_l028 #z_f30r_l029 #z_f30r_l030 #z_f30r_l031 #z_f30r_l032" xml:id="u_30r_005">… et [...] lacrimis, angustiis et doloribus [...] extra [...] cimiterio [...]. [...] parvulo monumenti [...] angulo cum magno timore puerum sepelivit. Cumque recederet [...] obvium habuit episcopum civitatis. Quo viso [...] ingemuit, cogitans se velle ea quae fecerat confiteri et recepto sacro baptismate salvari. [...] Genibus episcopi [...] dixit: Audi Domine, perfidus [...] Filium [...] crucifixionem et sepulturam. Quibus auditis episcopus stupefactus [...] …</p>
+        <note type="editorial" corresp="#u_30r_005" xml:lang="cs">Zkrácené vyznání nevyplňuji stereotypním úplným obviněním z opakovaného ukřižování. Čitelné je pohřbení dítěte, setkání s biskupem a žádost o křest.</note>
+        <p facs="#z_f30r_l033 #z_f30r_l034 #z_f30r_l035 #z_f30r_l036 #z_f30r_l037" xml:id="u_30r_006">[...] secum amarissime flebat, et convocato clero et populo cum summa devotione [...] Iudaeum usque in cimiterium ad tumulum pueri sequebantur. Apertoque sepulcro puerum vivum et hilarem invenerunt, quem cum ostenderet, [...] digni sunt in specie pueri visibiliter [...] aliis qui indigne [...] in forma panis tantum [...]. Inde reversus [...] ad fidem catholicam est conversus.</p>
+        <note type="editorial" corresp="#u_30r_006" xml:lang="cs">Závěrečná eucharistická aplikace má nedočtené spojky a přísudky; nepředkládám ji jako úplnou dogmatickou definici. Živé dítě a konverze tvoří čitelný závěr legendy.</note>
+        <p facs="#z_f30r_l038 #z_f30r_l039 #z_f30r_l040 #z_f30r_l041 #z_f30r_l042 #z_f30r_l043 #z_f30r_l044" xml:id="u_30r_007">[rubrica: De quodam praedone cuius equus [...] genua flexit.] Quodam tempore duo praedones sibi colloquebantur ut [...] crumenas rubentes auferre [...] in terra [...] cum [...] circa [...] pergerent. Ecce quidam sacerdos cum corpore Domini ad [...] infirmum desperabiliter agonizantem obvium habuerunt. Cum ad invicem venissent, presbyter timens eos [...] salutavit. Ipsi autem corpus Domini cum fide considerantes [...] equis [...] multa devota salutatione [...], quapropter gavisus [...] …</p>
+        <note type="editorial" corresp="#u_30r_007" xml:lang="cs">Nové exemplum pokračuje30v. Věty o úmyslu loupežníků a jejich konkrétním gestu jsou zkrácené; rubrika s kleknutím koně je čitelnější. Nepřidávám chybějící knězova slova.</note>
+        <p facs="#z_f30r_l045 #z_f30r_l046 #z_f30r_l047 #z_f30r_l048 #z_f30r_l049" xml:id="u_30r_008">[45–48 fragmenta paginae oppositae;49 recentior foliatio30.]</p>
+        <note type="editorial" corresp="#u_30r_008" xml:lang="cs">Skutečně otevřeny malé výřezy a samostatný obrázek49 s tužkovým30. Foliace není součást středověké věty ani údaj o počtu loupežníků.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_30r_001">[Útržky protější stránky.]</p>
+        <p corresp="#u_30r_002">Jedna žena z veliké zbožnosti často přijímala. Čím více přijímala nebeský pokrm, tím více se jí protivil pokrm tělesný. S knězovým svolením přijímala v jednotlivých […] dnech a […] dostalo se jí takové sytosti, že bez veškerého tělesného jídla mohla […] dlouho […]. Vyznala knězi udělenou Boží milost a ten to oznámil místnímu biskupovi jako veliký div. Biskup se obával, aby nešlo o klam, a protože byl moudrý muž, odpověděl …</p>
+        <p corresp="#u_30r_003">… Až znovu přijde k přijímání, dej jí místo Kristova těla nekonsekrovanou hostii, abys tím jistěji zjistil pravdu. Když to udělal, […] nic nepoznala […]. Jakmile přišla domů, začala tak strašně hladovět, že se bála smrti, pokud by se rychle nenajedla. Běžela […] ke knězi, […] padla mu k nohám a vyprávěla o dříve udělené milosti […]. Když to uslyšel, […] děkoval Bohu a dal jí pravé Kristovo tělo; jeho mocí ji ihned přešel hlad a […] přistoupila […].</p>
+        <p corresp="#u_30r_004">[Rubrika: Jak se […] Kristovo tělo v podobě dítěte ukázalo Židovi.] Jeden Žid chtěl zesměšnit křesťany a ve Svatém týdnu Pánova utrpení […] ve velkém městě Alexandrii […] přijal s věřícími Kristovo tělo. Hned vyšel ven, protože chtěl křesťany zesměšnit. Když je vyňal z úst do ruky, objevilo se v podobě malého dítěte […]. Polekal se a nevěděl, co dělat; bál se, že kdyby se to křesťané dozvěděli, zabili by ho …</p>
+        <p corresp="#u_30r_005">… se slzami, úzkostí a bolestí […] mimo […] hřbitov […]. V malém zákoutí hrobu s velikým strachem dítě pohřbil. Když odcházel, potkal městského biskupa. Při pohledu na něj […] vzdychal, rozhodl se vyznat, co učinil, a přijetím svatého křtu se zachránit. […] u biskupových kolen řekl: Slyš, pane, nevěrný […] Syna […] ukřižování a pohřbení. Biskup se při tom velmi podivil […] …</p>
+        <p corresp="#u_30r_006">[…] hořce s ním plakal, svolal duchovenstvo i lid a s velikou zbožností […] následovali Žida na hřbitov k dětskému hrobu. Otevřeli hrob a našli dítě živé a veselé. Když je ukazoval, […] těm, kteří jsou hodní, se zjevuje viditelně v podobě dítěte, ostatním, nehodným, […] pouze v podobě chleba […]. Po návratu […] se obrátil ke katolické víře.</p>
+        <p corresp="#u_30r_007">[Rubrika: O jednom loupežníkovi, jehož kůň […] poklekl.] Dva loupežníci se domlouvali, že […] budou brát červené měšce […]. Když šli […] krajem, potkali kněze s tělem Páně, který mířil k nemocnému umírajícímu bez naděje […]. Kněz se jich bál, ale pozdravil je. Oni ve víře rozpoznali Kristovo tělo […] z koní […] a pozdravili ho s velikou zbožností. To ho potěšilo […] …</p>
+        <p corresp="#u_30r_008">[45–48 útržky protější stránky;49 novější foliace30.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

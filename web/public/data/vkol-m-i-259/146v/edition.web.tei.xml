@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 146v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_146v_coordinate; PNG SHA256 04c8a46202de793ec803355015011635152efde83954cfa28bf13992cd01d558; archival TIFF SHA256 5bb382f1279444f67828a445af9927b1cba575298bfb005849140f0d6e75d7c6; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_146v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#146v"/>
+      <zone ulx="336" uly="2473" lrx="529" lry="2591" xml:id="z_f146v_l001"/>
+      <zone ulx="3072" uly="211" lrx="3096" lry="308" xml:id="z_f146v_l002"/>
+      <zone ulx="868" uly="519" lrx="3486" lry="693" xml:id="z_f146v_l003"/>
+      <zone ulx="862" uly="656" lrx="3473" lry="802" xml:id="z_f146v_l004"/>
+      <zone ulx="650" uly="771" lrx="3454" lry="933" xml:id="z_f146v_l005"/>
+      <zone ulx="647" uly="896" lrx="3417" lry="1064" xml:id="z_f146v_l006"/>
+      <zone ulx="641" uly="1023" lrx="3445" lry="1200" xml:id="z_f146v_l007"/>
+      <zone ulx="644" uly="1160" lrx="3507" lry="1325" xml:id="z_f146v_l008"/>
+      <zone ulx="638" uly="1309" lrx="3373" lry="1456" xml:id="z_f146v_l009"/>
+      <zone ulx="631" uly="1418" lrx="3417" lry="1580" xml:id="z_f146v_l010"/>
+      <zone ulx="628" uly="1564" lrx="3398" lry="1739" xml:id="z_f146v_l011"/>
+      <zone ulx="631" uly="1704" lrx="3380" lry="1879" xml:id="z_f146v_l012"/>
+      <zone ulx="625" uly="1844" lrx="3420" lry="2022" xml:id="z_f146v_l013"/>
+      <zone ulx="610" uly="1981" lrx="3420" lry="2159" xml:id="z_f146v_l014"/>
+      <zone ulx="613" uly="2093" lrx="3473" lry="2296" xml:id="z_f146v_l015"/>
+      <zone ulx="597" uly="2274" lrx="3451" lry="2454" xml:id="z_f146v_l016"/>
+      <zone ulx="613" uly="2392" lrx="3445" lry="2582" xml:id="z_f146v_l017"/>
+      <zone ulx="616" uly="2535" lrx="3458" lry="2719" xml:id="z_f146v_l018"/>
+      <zone ulx="600" uly="2663" lrx="3495" lry="2871" xml:id="z_f146v_l019"/>
+      <zone ulx="606" uly="2800" lrx="3504" lry="3036" xml:id="z_f146v_l020"/>
+      <zone ulx="600" uly="2961" lrx="2325" lry="3167" xml:id="z_f146v_l021"/>
+      <zone ulx="762" uly="3104" lrx="3458" lry="3341" xml:id="z_f146v_l022"/>
+      <zone ulx="690" uly="3272" lrx="3411" lry="3459" xml:id="z_f146v_l023"/>
+      <zone ulx="603" uly="3400" lrx="3414" lry="3599" xml:id="z_f146v_l024"/>
+      <zone ulx="594" uly="3531" lrx="3442" lry="3739" xml:id="z_f146v_l025"/>
+      <zone ulx="597" uly="3668" lrx="3414" lry="3879" xml:id="z_f146v_l026"/>
+      <zone ulx="591" uly="3798" lrx="3420" lry="4016" xml:id="z_f146v_l027"/>
+      <zone ulx="588" uly="3938" lrx="3417" lry="4147" xml:id="z_f146v_l028"/>
+      <zone ulx="544" uly="4084" lrx="3495" lry="4287" xml:id="z_f146v_l029"/>
+      <zone ulx="578" uly="4243" lrx="3473" lry="4430" xml:id="z_f146v_l030"/>
+      <zone ulx="575" uly="4389" lrx="3461" lry="4554" xml:id="z_f146v_l031"/>
+      <zone ulx="560" uly="4514" lrx="3473" lry="4691" xml:id="z_f146v_l032"/>
+      <zone ulx="569" uly="4641" lrx="3486" lry="4903" xml:id="z_f146v_l033"/>
+      <zone ulx="3791" uly="1076" lrx="3859" lry="1179" xml:id="z_f146v_l034"/>
+      <zone ulx="3781" uly="1648" lrx="3856" lry="1745" xml:id="z_f146v_l035"/>
+      <zone ulx="3738" uly="1779" lrx="3884" lry="1876" xml:id="z_f146v_l036"/>
+      <zone ulx="3731" uly="1876" lrx="3887" lry="2065" xml:id="z_f146v_l037"/>
+      <zone ulx="3725" uly="2053" lrx="3890" lry="2152" xml:id="z_f146v_l038"/>
+      <zone ulx="3722" uly="2146" lrx="3890" lry="2345" xml:id="z_f146v_l039"/>
+      <zone ulx="3713" uly="2320" lrx="3890" lry="2464" xml:id="z_f146v_l040"/>
+      <zone ulx="3722" uly="2442" lrx="3887" lry="2582" xml:id="z_f146v_l041"/>
+      <zone ulx="3735" uly="2579" lrx="3884" lry="2731" xml:id="z_f146v_l042"/>
+      <zone ulx="3713" uly="2762" lrx="3890" lry="2874" xml:id="z_f146v_l043"/>
+      <zone ulx="3716" uly="2868" lrx="3890" lry="3014" xml:id="z_f146v_l044"/>
+      <zone ulx="3713" uly="2996" lrx="3884" lry="3145" xml:id="z_f146v_l045"/>
+      <zone ulx="3707" uly="3188" lrx="3875" lry="3304" xml:id="z_f146v_l046"/>
+      <zone ulx="3707" uly="3294" lrx="3881" lry="3456" xml:id="z_f146v_l047"/>
+      <zone ulx="3719" uly="3403" lrx="3875" lry="3596" xml:id="z_f146v_l048"/>
+      <zone ulx="3691" uly="3888" lrx="3887" lry="4007" xml:id="z_f146v_l049"/>
+      <zone ulx="3694" uly="4010" lrx="3887" lry="4150" xml:id="z_f146v_l050"/>
+      <zone ulx="3679" uly="4137" lrx="3887" lry="4280" xml:id="z_f146v_l051"/>
+      <zone ulx="3694" uly="4299" lrx="3862" lry="4427" xml:id="z_f146v_l052"/>
+      <zone ulx="3688" uly="4445" lrx="3884" lry="4728" xml:id="z_f146v_l053"/>
+      <zone ulx="3700" uly="4601" lrx="3719" lry="4710" xml:id="z_f146v_l054"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f146v_l001" xml:id="catmus_f146v_l001"/>
+          <seg type="raw_unreviewed">XXIIE</seg>
+          <lb facs="#z_f146v_l002" xml:id="catmus_f146v_l002"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_f146v_l003" xml:id="catmus_f146v_l003"/>
+          <seg type="raw_unreviewed">ħũs sprrĩch ⁊n seute Inug̃ĩ Es ist em weiig geit das</seg>
+          <lb facs="#z_f146v_l004" xml:id="catmus_f146v_l004"/>
+          <seg type="raw_unreviewed">ie mich nu nich̃t secht und ist abꝰ ein kurge geit das</seg>
+          <lb facs="#z_f146v_l005" xml:id="catmus_f146v_l005"/>
+          <seg type="raw_unreviewed">le mich secht wann ich uar u meniẽ uat̾ do sp̃chen</seg>
+          <lb facs="#z_f146v_l006" xml:id="catmus_f146v_l006"/>
+          <seg type="raw_unreviewed">die Imuger iu emand Was ist das das ex uus sprich̃t</seg>
+          <lb facs="#z_f146v_l007" xml:id="catmus_f146v_l007"/>
+          <seg type="raw_unreviewed">Is ist nicht lang das ir mem nicht secht uud̃ ab̾ kurez</seg>
+          <lb facs="#z_f146v_l008" xml:id="catmus_f146v_l008"/>
+          <seg type="raw_unreviewed">das ir michi sech̃t woanñ ich crar in de uat Was ist dab-</seg>
+          <lb facs="#z_f146v_l009" xml:id="catmus_f146v_l009"/>
+          <seg type="raw_unreviewed">das ex sprch̃t ema ueurg ⁊ boir uoissen nicht was ex</seg>
+          <lb facs="#z_f146v_l010" xml:id="catmus_f146v_l010"/>
+          <seg type="raw_unreviewed">mayut ad reit. do ertãt ihũs das sy un woltũ fralfi</seg>
+          <lb facs="#z_f146v_l011" xml:id="catmus_f146v_l011"/>
+          <seg type="raw_unreviewed">und sp̃ch Iu in Irfragł und̃ euch uon de das icli sp̃cli</seg>
+          <lb facs="#z_f146v_l012" xml:id="catmus_f146v_l012"/>
+          <seg type="raw_unreviewed">hu eucti Is ist nicħt lag̃ das ie meỹ nicht sechtꝭ und̃</seg>
+          <lb facs="#z_f146v_l013" xml:id="catmus_f146v_l013"/>
+          <seg type="raw_unreviewed">ab̾ ncħt laug das ir mich secht Werlicti uolich icħ san</seg>
+          <lb facs="#z_f146v_l014" xml:id="catmus_f146v_l014"/>
+          <seg type="raw_unreviewed">euch das it wert traierni und waydẽ und das sich di</seg>
+          <lb facs="#z_f146v_l015" xml:id="catmus_f146v_l015"/>
+          <seg type="raw_unreviewed">u̾lt iu̾t sreroe und elo tiraerñ w̾t gechert in frerode </seg>
+          <lb facs="#z_f146v_l016" xml:id="catmus_f146v_l016"/>
+          <seg type="raw_unreviewed">do das weiy geput so ist sy tirairre uaun ingeit ist</seg>
+          <lb facs="#z_f146v_l017" xml:id="catmus_f146v_l017"/>
+          <seg type="raw_unreviewed">lome Io sy ab̾ daz buit geput, so gedeult fymche der</seg>
+          <lb facs="#z_f146v_l018" xml:id="catmus_f146v_l018"/>
+          <seg type="raw_unreviewed">not uon d freied iregũ mensch ist graporñ ĩ dise ireilt</seg>
+          <lb facs="#z_f146v_l019" xml:id="catmus_f146v_l019"/>
+          <seg type="raw_unreviewed">und ir habe n das trrroñ. Ich gesich euch ab und freirt</seg>
+          <lb facs="#z_f146v_l020" xml:id="catmus_f146v_l020"/>
+          <seg type="raw_unreviewed">sichi dem eio hie und̃ nympt nyeuias bas frrend uõ euchi</seg>
+          <lb facs="#z_f146v_l021" xml:id="catmus_f146v_l021"/>
+          <seg type="raw_unreviewed">duica qͦ uado ad cũ qui Io xuiᵒ</seg>
+          <lb facs="#z_f146v_l022" xml:id="catmus_f146v_l022"/>
+          <seg type="raw_unreviewed">hũs sp̃ch̃ Iusem Iuig̃ñ Ich̃ ge wid̃ Iu de d̾ mich hatt</seg>
+          <lb facs="#z_f146v_l023" xml:id="catmus_f146v_l023"/>
+          <seg type="raw_unreviewed">gesaut nu fragt mich elo Reyid, uo roil du hync</seg>
+          <lb facs="#z_f146v_l024" xml:id="catmus_f146v_l024"/>
+          <seg type="raw_unreviewed">dorube das ich euch̃ das hab gesadit das trubsal eefille</seg>
+          <lb facs="#z_f146v_l025" xml:id="catmus_f146v_l025"/>
+          <seg type="raw_unreviewed">euo htre uoecleich rolerch sag ith euch Is ist euch gul ab</seg>
+          <lb facs="#z_f146v_l026" xml:id="catmus_f146v_l026"/>
+          <seg type="raw_unreviewed">icħ cuar ob ich ncht hui uar so bompt d̾ heilig geiste</seg>
+          <lb facs="#z_f146v_l027" xml:id="catmus_f146v_l027"/>
+          <seg type="raw_unreviewed">uicht Iu euch lom ab̾ ich dac, so sente ich euch yn l</seg>
+          <lb facs="#z_f146v_l028" xml:id="catmus_f146v_l028"/>
+          <seg type="raw_unreviewed">d̾ dem lop̃t so scrosst et dy mlt umbe dy sunde cund</seg>
+          <lb facs="#z_f146v_l029" xml:id="catmus_f146v_l029"/>
+          <seg type="raw_unreviewed">uiub das recht und unib das rechs geric̃t, unb die</seg>
+          <lb facs="#z_f146v_l030" xml:id="catmus_f146v_l030"/>
+          <seg type="raw_unreviewed">suud das sy an mich̃ nicht glaubẽ uib das recht, das</seg>
+          <lb facs="#z_f146v_l031" xml:id="catmus_f146v_l031"/>
+          <seg type="raw_unreviewed">ich uar eu meyne uãt und mem ni nch̃t secht unn</seg>
+          <lb facs="#z_f146v_l032" xml:id="catmus_f146v_l032"/>
+          <seg type="raw_unreviewed">das ge tich̃e Wanĩ d̾ fuest diẜ uolt ist nugeurteit Ich</seg>
+          <lb facs="#z_f146v_l033" xml:id="catmus_f146v_l033"/>
+          <seg type="raw_unreviewed">han euch noch uil iusag̃ẽ yr mogt sem ab mi nicħt</seg>
+          <lb facs="#z_f146v_l034" xml:id="catmus_f146v_l034"/>
+          <seg type="raw_unreviewed">ou</seg>
+          <lb facs="#z_f146v_l035" xml:id="catmus_f146v_l035"/>
+          <seg type="raw_unreviewed">ue</seg>
+          <lb facs="#z_f146v_l036" xml:id="catmus_f146v_l036"/>
+          <seg type="raw_unreviewed">bud</seg>
+          <lb facs="#z_f146v_l037" xml:id="catmus_f146v_l037"/>
+          <seg type="raw_unreviewed">euth</seg>
+          <lb facs="#z_f146v_l038" xml:id="catmus_f146v_l038"/>
+          <seg type="raw_unreviewed">auit</seg>
+          <lb facs="#z_f146v_l039" xml:id="catmus_f146v_l039"/>
+          <seg type="raw_unreviewed">hmi</seg>
+          <lb facs="#z_f146v_l040" xml:id="catmus_f146v_l040"/>
+          <seg type="raw_unreviewed">piti</seg>
+          <lb facs="#z_f146v_l041" xml:id="catmus_f146v_l041"/>
+          <seg type="raw_unreviewed">euib</seg>
+          <lb facs="#z_f146v_l042" xml:id="catmus_f146v_l042"/>
+          <seg type="raw_unreviewed">lip he</seg>
+          <lb facs="#z_f146v_l043" xml:id="catmus_f146v_l043"/>
+          <seg type="raw_unreviewed">uar</seg>
+          <lb facs="#z_f146v_l044" xml:id="catmus_f146v_l044"/>
+          <seg type="raw_unreviewed">woud</seg>
+          <lb facs="#z_f146v_l045" xml:id="catmus_f146v_l045"/>
+          <seg type="raw_unreviewed">offiub</seg>
+          <lb facs="#z_f146v_l046" xml:id="catmus_f146v_l046"/>
+          <seg type="raw_unreviewed">du io</seg>
+          <lb facs="#z_f146v_l047" xml:id="catmus_f146v_l047"/>
+          <seg type="raw_unreviewed">fragi</seg>
+          <lb facs="#z_f146v_l048" xml:id="catmus_f146v_l048"/>
+          <seg type="raw_unreviewed">in die</seg>
+          <lb facs="#z_f146v_l049" xml:id="catmus_f146v_l049"/>
+          <seg type="raw_unreviewed">freui</seg>
+          <lb facs="#z_f146v_l050" xml:id="catmus_f146v_l050"/>
+          <seg type="raw_unreviewed">Roiuẽ</seg>
+          <lb facs="#z_f146v_l051" xml:id="catmus_f146v_l051"/>
+          <seg type="raw_unreviewed">duud</seg>
+          <lb facs="#z_f146v_l052" xml:id="catmus_f146v_l052"/>
+          <seg type="raw_unreviewed">tus ist</seg>
+          <lb facs="#z_f146v_l053" xml:id="catmus_f146v_l053"/>
+          <seg type="raw_unreviewed">llS</seg>
+          <lb facs="#z_f146v_l054" xml:id="catmus_f146v_l054"/>
+          <seg type="raw_unreviewed">2</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f146v_l001" xml:id="medusa_f146v_l001"/>
+          <seg type="raw_unreviewed">forem e</seg>
+          <lb facs="#z_f146v_l002" xml:id="medusa_f146v_l002"/>
+          <seg type="raw_unreviewed">ii</seg>
+          <lb facs="#z_f146v_l003" xml:id="medusa_f146v_l003"/>
+          <seg type="raw_unreviewed">huͤs sprich zuͦ seinē junghn̄ · Es ist ein wenig zeit das</seg>
+          <lb facs="#z_f146v_l004" xml:id="medusa_f146v_l004"/>
+          <seg type="raw_unreviewed">ir mich nu nicht secht / vnd ist ab͛ ein kurczē czeit das</seg>
+          <lb facs="#z_f146v_l005" xml:id="medusa_f146v_l005"/>
+          <seg type="raw_unreviewed">ir mich secht . Wann̄ ich var zuͦ men̄e vat͛ . do sp͛chen</seg>
+          <lb facs="#z_f146v_l006" xml:id="medusa_f146v_l006"/>
+          <seg type="raw_unreviewed">die junger zu einand͛ · Was ist das · das er vns spricht</seg>
+          <lb facs="#z_f146v_l007" xml:id="medusa_f146v_l007"/>
+          <seg type="raw_unreviewed">Js ist nicht lang · das ir mein nicht secht · vnd ab͛ kurz</seg>
+          <lb facs="#z_f146v_l008" xml:id="medusa_f146v_l008"/>
+          <seg type="raw_unreviewed">das ir mich secht wann ich wat in dē vat͛ was ist das</seg>
+          <lb facs="#z_f146v_l009" xml:id="medusa_f146v_l009"/>
+          <seg type="raw_unreviewed">das er spricht ein wenig / wir wissen nicht was er</seg>
+          <lb facs="#z_f146v_l010" xml:id="medusa_f146v_l010"/>
+          <seg type="raw_unreviewed">maynt aͧd rett . do erkät Ihuͤs das sy yn woltn̄ fragē</seg>
+          <lb facs="#z_f146v_l011" xml:id="medusa_f146v_l011"/>
+          <seg type="raw_unreviewed">und sp̃ch zu In Ir fragt und euch von dē das ich sp̃ch</seg>
+          <lb facs="#z_f146v_l012" xml:id="medusa_f146v_l012"/>
+          <seg type="raw_unreviewed">zu euch · Es ist nicht lüg das ir mey nicht secht · und</seg>
+          <lb facs="#z_f146v_l013" xml:id="medusa_f146v_l013"/>
+          <seg type="raw_unreviewed">ab͛ meht lang das ir mich secht . Werlich w͛lich ich sag</seg>
+          <lb facs="#z_f146v_l014" xml:id="medusa_f146v_l014"/>
+          <seg type="raw_unreviewed">euch das ir wert trawern̄ und waynē · und das sich dy</seg>
+          <lb facs="#z_f146v_l015" xml:id="medusa_f146v_l015"/>
+          <seg type="raw_unreviewed">w̶lt w͛t frowē / vnd ew͛ truwenn̄ w͛t gēchert in frowde</seg>
+          <lb facs="#z_f146v_l016" xml:id="medusa_f146v_l016"/>
+          <seg type="raw_unreviewed">So das weip gepirt so ist sy trawrig wann̄ irzeit ist</seg>
+          <lb facs="#z_f146v_l017" xml:id="medusa_f146v_l017"/>
+          <seg type="raw_unreviewed">komē / so sy ab͛ daz kunt gepurt / soͤ gedenkt sy nicht der</seg>
+          <lb facs="#z_f146v_l018" xml:id="medusa_f146v_l018"/>
+          <seg type="raw_unreviewed">not von d͛ frewd wegū mensch ist geporn̄ ī dise welt</seg>
+          <lb facs="#z_f146v_l019" xml:id="medusa_f146v_l019"/>
+          <seg type="raw_unreviewed">und ir habt nu das trawen̄ Jch gesich euch ab͛ und frewr</seg>
+          <lb facs="#z_f146v_l020" xml:id="medusa_f146v_l020"/>
+          <seg type="raw_unreviewed">sich dem ew͠ h͛cze / vnd nympt nyeuāb̄ we frrewd̄ vō euch</seg>
+          <lb facs="#z_f146v_l021" xml:id="medusa_f146v_l021"/>
+          <seg type="raw_unreviewed">dominica 5a madii ad eum qui Io xui</seg>
+          <lb facs="#z_f146v_l022" xml:id="medusa_f146v_l022"/>
+          <seg type="raw_unreviewed">huͤs sp͛ch zuͤ sem Ingeln Jch ge wid͛ zuͤ de d͛ mich hat</seg>
+          <lb facs="#z_f146v_l023" xml:id="medusa_f146v_l023"/>
+          <seg type="raw_unreviewed">gesant / Nu fragt mich ew keyẃ / wo wil du byn</seg>
+          <lb facs="#z_f146v_l024" xml:id="medusa_f146v_l024"/>
+          <seg type="raw_unreviewed">dorūbe das ich euch das hab gesagt / das trùbsal erfult</seg>
+          <lb facs="#z_f146v_l025" xml:id="medusa_f146v_l025"/>
+          <seg type="raw_unreviewed">ew͠ h͛tze · Werleich weleich sag ich euch · Js ist euch gut ab</seg>
+          <lb facs="#z_f146v_l026" xml:id="medusa_f146v_l026"/>
+          <seg type="raw_unreviewed">ich war / ob ich nicht hin var / so kompt d͛ heilig geiste</seg>
+          <lb facs="#z_f146v_l027" xml:id="medusa_f146v_l027"/>
+          <seg type="raw_unreviewed">nicht zu euch kom ab͛ ich daͮr / so sente ich euch yn do</seg>
+          <lb facs="#z_f146v_l028" xml:id="medusa_f146v_l028"/>
+          <seg type="raw_unreviewed">d͛ denn koͤpt · so strofft er dy w͛lt vmbe dy sunde · und</seg>
+          <lb facs="#z_f146v_l029" xml:id="medusa_f146v_l029"/>
+          <seg type="raw_unreviewed">umb das recht und umb das recht gericht · umb die</seg>
+          <lb facs="#z_f146v_l030" xml:id="medusa_f146v_l030"/>
+          <seg type="raw_unreviewed">sund das sy an mich nicht glaube͛ umb das recht das</seg>
+          <lb facs="#z_f146v_l031" xml:id="medusa_f146v_l031"/>
+          <seg type="raw_unreviewed">ich war zuͦ meynē vaͤt͛ und mein nu nicht secht / vm̄</seg>
+          <lb facs="#z_f146v_l032" xml:id="medusa_f146v_l032"/>
+          <seg type="raw_unreviewed">das gericht wann d͛ fùrst diẜ w͛lt ist ungenurtelt Jch</seg>
+          <lb facs="#z_f146v_l033" xml:id="medusa_f146v_l033"/>
+          <seg type="raw_unreviewed">han euch noch vil zu sagē yr mögt sein ab͛ mi nicht</seg>
+          <lb facs="#z_f146v_l034" xml:id="medusa_f146v_l034"/>
+          <seg type="raw_unreviewed">me</seg>
+          <lb facs="#z_f146v_l035" xml:id="medusa_f146v_l035"/>
+          <seg type="raw_unreviewed">nus</seg>
+          <lb facs="#z_f146v_l036" xml:id="medusa_f146v_l036"/>
+          <seg type="raw_unreviewed">bud.</seg>
+          <lb facs="#z_f146v_l037" xml:id="medusa_f146v_l037"/>
+          <seg type="raw_unreviewed">ench</seg>
+          <lb facs="#z_f146v_l038" xml:id="medusa_f146v_l038"/>
+          <seg type="raw_unreviewed">mit</seg>
+          <lb facs="#z_f146v_l039" xml:id="medusa_f146v_l039"/>
+          <seg type="raw_unreviewed">chinid</seg>
+          <lb facs="#z_f146v_l040" xml:id="medusa_f146v_l040"/>
+          <seg type="raw_unreviewed">Pittin</seg>
+          <lb facs="#z_f146v_l041" xml:id="medusa_f146v_l041"/>
+          <seg type="raw_unreviewed">euch</seg>
+          <lb facs="#z_f146v_l042" xml:id="medusa_f146v_l042"/>
+          <seg type="raw_unreviewed">lip ha</seg>
+          <lb facs="#z_f146v_l043" xml:id="medusa_f146v_l043"/>
+          <seg type="raw_unreviewed">vat</seg>
+          <lb facs="#z_f146v_l044" xml:id="medusa_f146v_l044"/>
+          <seg type="raw_unreviewed">wid͛</seg>
+          <lb facs="#z_f146v_l045" xml:id="medusa_f146v_l045"/>
+          <seg type="raw_unreviewed">offiul</seg>
+          <lb facs="#z_f146v_l046" xml:id="medusa_f146v_l046"/>
+          <seg type="raw_unreviewed">duͤ is</seg>
+          <lb facs="#z_f146v_l047" xml:id="medusa_f146v_l047"/>
+          <seg type="raw_unreviewed">frag</seg>
+          <lb facs="#z_f146v_l048" xml:id="medusa_f146v_l048"/>
+          <seg type="raw_unreviewed">In die</seg>
+          <lb facs="#z_f146v_l049" xml:id="medusa_f146v_l049"/>
+          <seg type="raw_unreviewed">frevu</seg>
+          <lb facs="#z_f146v_l050" xml:id="medusa_f146v_l050"/>
+          <seg type="raw_unreviewed">komu</seg>
+          <lb facs="#z_f146v_l051" xml:id="medusa_f146v_l051"/>
+          <seg type="raw_unreviewed">dyud</seg>
+          <lb facs="#z_f146v_l052" xml:id="medusa_f146v_l052"/>
+          <seg type="raw_unreviewed">tus ist</seg>
+          <lb facs="#z_f146v_l053" xml:id="medusa_f146v_l053"/>
+          <seg type="raw_unreviewed">Jch ma</seg>
+          <lb facs="#z_f146v_l054" xml:id="medusa_f146v_l054"/>
+          <seg type="raw_unreviewed">e</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f146v_l001 #z_f146v_l002" xml:id="u_146v_001">[Drobný levý a horní okrajový přípisek]</p>
+        <note type="editorial" corresp="#u_146v_001" xml:lang="cs">Drobné značky nelze automaticky rozvíjet jako souvislý text.</note>
+        <p facs="#z_f146v_l003 #z_f146v_l004 #z_f146v_l005 #z_f146v_l006 #z_f146v_l007 #z_f146v_l008 #z_f146v_l009 #z_f146v_l010 #z_f146v_l011 #z_f146v_l012 #z_f146v_l013 #z_f146v_l014 #z_f146v_l015 #z_f146v_l016 #z_f146v_l017 #z_f146v_l018 #z_f146v_l019 #z_f146v_l020" xml:id="u_146v_002">Ihesus sprach zu seinen iungern: Es ist ein wenig zeit das ir mich nimmer seht, und ist aber ein kurtze zeit das ir mich seht, wann ich var zu meinem vater. Do sprachen die iunger zueinander: Was ist das, das er uns spricht: Es ist nicht lang das ir mein nicht seht, und aber kurtz das ir mich seht, wann ich var zu dem vater? Was ist das das er spricht ein wenig? Wir wissen nicht was er meynet und redet. Do erkant Ihesus das sy in wollten fragen und sprach zu in: Ir fragt under euch von dem das ich sprach zu euch: Es ist nicht lang das ir mein nicht seht und aber nicht lang das ir mich seht. Werlich werlich ich sag euch das ir wert trawern und wainen, und das sich die welt wirt frewen. Und ewr trawern wirt gekert in frewde. So das weib gepirt so ist sy trawrig, wann ir zeit ist komen. So sy aber das kint gepirt, so gedenkt sy nicht der not von der frewde wegen, ein mensch ist geporn in dise werlt. Und ir habt nu das trawern. Ich gesich euch aber und frewt sich denn ewr herze und nimpt niemant die frewd von euch.</p>
+        <note type="editorial" corresp="#u_146v_002" xml:lang="cs">Opakování krátkého času a otázek patří rukopisu, není modelová smyčka a není zkráceno na shrnutí. Německý pravopis pracovně normalizován. </note>
+        <p facs="#z_f146v_l021" xml:id="u_146v_003">Dominica quarta. Vado ad eum qui. Iohannis XVI.</p>
+        <note type="editorial" corresp="#u_146v_003" xml:lang="cs"> </note>
+        <p facs="#z_f146v_l022 #z_f146v_l023 #z_f146v_l024 #z_f146v_l025 #z_f146v_l026 #z_f146v_l027 #z_f146v_l028 #z_f146v_l029 #z_f146v_l030 #z_f146v_l031 #z_f146v_l032 #z_f146v_l033" xml:id="u_146v_004">Ihesus sprach zu sein iungern: Ich ge nu zu dem der mich hat gesant, und fragt mich ewr keiner: Wo wiltu hin? Sunder darumb das ich euch das hab gesagt, das trubsal erfult ewr herze. Werlich werlich sag ich euch: Es ist euch gut das ich var. Ob ich nicht hin var, so kumpt der heilig geiste nicht zu euch. Wenn aber ich var, so sende ich euch in. So der denn kumpt, so strafft er die welt umb die sunde und umb das rechte und umb das gericht. Umb die sund, das sy an mich nicht glauben; umb das rechte, das ich var zu meinem vater und ir mein nu nicht seht; und umb das gericht, wann der furst dieser welt ist nu geurteilt. Ich han euch noch vil zu sagen, ir muget sein aber nu nicht […]</p>
+        <note type="editorial" corresp="#u_146v_004" xml:lang="cs">Heilig geiste explicitně čten místo jiného biblického titulu. Poslední sloveso pokračuje147r a není doplněno. </note>
+        <p facs="#z_f146v_l034 #z_f146v_l035 #z_f146v_l036 #z_f146v_l037 #z_f146v_l038 #z_f146v_l039 #z_f146v_l040 #z_f146v_l041 #z_f146v_l042 #z_f146v_l043 #z_f146v_l044 #z_f146v_l045 #z_f146v_l046 #z_f146v_l047 #z_f146v_l048 #z_f146v_l049 #z_f146v_l050 #z_f146v_l051 #z_f146v_l052 #z_f146v_l053 #z_f146v_l054" xml:id="u_146v_005">[Úzké fragmenty protější strany ve žlábku.]</p>
+        <note type="editorial" corresp="#u_146v_005" xml:lang="cs">Cizí fragmenty vyloučeny podle polohy a nativního obrazu; jejich úplná znaková četba neprovedena.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_146v_001">[Bez samostatného překladu.]</p>
+        <p corresp="#u_146v_002">Ježíš řekl učedníkům: Ještě krátký čas a již mě neuvidíte, a zase krátký čas a uvidíte mě, neboť odcházím ke svému Otci. Učedníci si řekli: Co znamená, co nám říká: Netrvá dlouho a neuvidíte mě, a zase zakrátko mě uvidíte, neboť odcházím k Otci? Co znamená to málo? Nevíme, co míní a říká. Ježíš poznal, že se jej chtějí ptát, a řekl jim: Ptáte se mezi sebou na to, co jsem řekl: Zakrátko mě neuvidíte a zase zakrátko mě uvidíte. Pravdivě, pravdivě vám říkám, budete truchlit a plakat a svět se bude radovat. Váš zármutek se obrátí v radost. Když žena rodí, je smutná, neboť přišel její čas. Když však dítě porodí, pro radost již nemyslí na bolest, neboť na tento svět se narodil člověk. I vy nyní máte zármutek. Já vás však zase spatřím, vaše srdce se zaraduje a nikdo vám vaši radost nevezme.</p>
+        <p corresp="#u_146v_003">Čtvrtá neděle. Odcházím k tomu, který. Jan XVI.</p>
+        <p corresp="#u_146v_004">Ježíš řekl učedníkům: Nyní odcházím k tomu, který mě poslal, a nikdo z vás se neptá: Kam chceš jít? Ale protože jsem vám to řekl, soužení naplnilo vaše srdce. Pravdivě, pravdivě vám říkám: Je pro vás dobré, že odcházím. Jestliže neodejdu, Duch svatý k vám nepřijde. Když však odejdu, pošlu vám jej. Až přijde, usvědčí svět z hříchu, o spravedlnosti a o soudu. Z hříchu, protože ve mne nevěří; o spravedlnosti, protože odcházím ke svému Otci a už mě nevidíte; o soudu, protože kníže tohoto světa je nyní odsouzen. Ještě vám mám mnoho co říci, ale nyní to nemůžete […].</p>
+        <p corresp="#u_146v_005">[Bez samostatného překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

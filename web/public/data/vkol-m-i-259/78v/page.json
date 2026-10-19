@@ -1,0 +1,253 @@
+{
+  "folio": "78v",
+  "label": "Snímek 78v",
+  "kind": "segments",
+  "width": 3900,
+  "height": 5600,
+  "models": {
+    "catmus": "CATMuS medieval 1.6.0",
+    "medusa": "Medusa 0.2Line-4B"
+  },
+  "source_original": "EX/M_I_259_____09Z2NI6EX0078V.TIF",
+  "source_sha256": "d0cded96ef2d811c6182b37cca00ec1b83c578b020fab2c040e9cd903dc64dea",
+  "coordinate_source": {
+    "id": "vkol-m-i-259_78v_coordinate",
+    "sha256": "e2e325f35692d6815cc86726a896008f9c28459de11a24bb5e73d22eddbf8cfc",
+    "width": 3900,
+    "height": 5600,
+    "frame": 0,
+    "derived_from_sha256": "d0cded96ef2d811c6182b37cca00ec1b83c578b020fab2c040e9cd903dc64dea",
+    "original_tiff_frame": 0,
+    "rotation_ccw_degrees": 0,
+    "source_to_coordinate_pixel_edge_affine": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "bbox_format": "xywh",
+    "origin": "top-left"
+  },
+  "language": "und",
+  "analysis_scope": "Oba původní HTR kandidáti po stejných segmentech. Samostatné doplňkové obrazové čtení není HTR. Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "notes": "Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "lines": [
+    {
+      "id": "f78v_l001",
+      "source_segment_ids": [
+        "f78v_l001"
+      ],
+      "bbox": [
+        734,
+        476,
+        72,
+        118
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/78v/f78v_l001.webp",
+      "raw_htr": {
+        "catmus": "ut",
+        "medusa": "ne"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f78v_l002",
+      "source_segment_ids": [
+        "f78v_l002"
+      ],
+      "bbox": [
+        967,
+        438,
+        2553,
+        165
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/78v/f78v_l002.webp",
+      "raw_htr": {
+        "catmus": "e quia ꝑlebẽt nõ habẽt n squnt r̾ ginũ aĩꝵꝭ. bin̾e uolũt de eu",
+        "medusa": "de quia plebẽs nõ habent / nͦ potuit r̾gim̃i aũrꝭ . b̶n̾ie uolũt de eũ"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f78v_l003",
+      "source_segment_ids": [
+        "f78v_l003"
+      ],
+      "bbox": [
+        725,
+        560,
+        426,
+        140
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/78v/f78v_l003.webp",
+      "raw_htr": {
+        "catmus": "nõ st̃ beĩ a",
+        "medusa": "non sunt bene ap"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f78v_l004",
+      "source_segment_ids": [
+        "f78v_l004"
+      ],
+      "bbox": [
+        1422,
+        544,
+        809,
+        177
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/78v/f78v_l004.webp",
+      "raw_htr": {
+        "catmus": "eudo atꝭ Expliat dep",
+        "medusa": "endo etc. Explicat de p"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f78v_l005",
+      "source_segment_ids": [
+        "f78v_l005"
+      ],
+      "bbox": [
+        2290,
+        544,
+        56,
+        149
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/78v/f78v_l005.webp",
+      "raw_htr": {
+        "catmus": "u",
+        "medusa": "red"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    }
+  ],
+  "passages": [
+    {
+      "id": "u_78v_001",
+      "title": "Úsek 1",
+      "line_ids": [
+        "f78v_l001",
+        "f78v_l002",
+        "f78v_l003",
+        "f78v_l004",
+        "f78v_l005"
+      ],
+      "latin": "[…] utpote qui plebes non habent nec exercent regimen animarum, vivere volunt de evangelio, non sunt veri apostoli sed pseudoapostoli. Explicit de pseudoapostolis.",
+      "czech": "[…] například ti, kdo nemají svěřený lid a nevykonávají správu duší, a přesto chtějí žít z evangelia, nejsou podle autora pravými, ale falešnými apoštoly. Končí text o falešných apoštolech.",
+      "notes": "Závěrečné dvě fyzické řádky hlavního textu byly prohlédnuty v nativním neřádkovaném výřezu. Kraken je rozděluje na pět nestejně úplných segmentů. Navazují na neúplnou větu78r; její obtížné spojení qui tamen/non habent není tímto zpětně vydáváno za jisté. Explicit čten jako návrh podle obrazu, nikoli převzat z katalogu.",
+      "operations": [],
+      "language": "und"
+    }
+  ],
+  "supplemental_readings": [],
+  "preview": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/previews/78v.webp",
+  "tiles": {
+    "type": "dzi",
+    "width": 3900,
+    "height": 5600,
+    "tileSize": 512,
+    "tileOverlap": 1,
+    "tilesUrl": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/tiles/78v/",
+    "fileFormat": "webp"
+  },
+  "blank": false,
+  "expert_review": false,
+  "downloads": [
+    {
+      "name": "Neupravené HTR a geometrie JSON",
+      "href": "/data/vkol-m-i-259/78v/comparison.json"
+    },
+    {
+      "name": "catmus · původní TXT",
+      "href": "/data/vkol-m-i-259/78v/catmus.raw.txt"
+    },
+    {
+      "name": "catmus · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/78v/catmus.alto.xml"
+    },
+    {
+      "name": "medusa · původní TXT",
+      "href": "/data/vkol-m-i-259/78v/medusa.raw.txt"
+    },
+    {
+      "name": "medusa · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/78v/medusa.alto.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · původní místní TEI P5 4.12.0",
+      "href": "/data/vkol-m-i-259/78v/edition.tei.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · TEI s webovými odkazy",
+      "href": "/data/vkol-m-i-259/78v/edition.web.tei.xml"
+    },
+    {
+      "name": "Rekonstrukce a překlad JSON (původní jednotky)",
+      "href": "/data/vkol-m-i-259/78v/reconstruction.json"
+    },
+    {
+      "name": "Rekonstrukce TXT",
+      "href": "/data/vkol-m-i-259/78v/reconstruction.txt"
+    },
+    {
+      "name": "Český překlad TXT",
+      "href": "/data/vkol-m-i-259/78v/translation.cs.txt"
+    },
+    {
+      "name": "Doklady obrazové kontroly JSON",
+      "href": "/data/vkol-m-i-259/78v/evidence.json"
+    }
+  ],
+  "document_id": "vkol-m-i-259",
+  "document_uri": "https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-i-259",
+  "repository": {
+    "name": "Vědecká knihovna v Olomouci",
+    "uri": "https://www.vkol.cz/",
+    "settlement": "Olomouc",
+    "country": "Česko"
+  },
+  "model_input": {
+    "sha256": "e2e325f35692d6815cc86726a896008f9c28459de11a24bb5e73d22eddbf8cfc",
+    "operation": "Native RGB TIFF frame 0, full page, unmasked; no resampling",
+    "reading_zone_xyxy": [
+      0,
+      0,
+      3900,
+      5600
+    ],
+    "masked_pilot": false
+  }
+}

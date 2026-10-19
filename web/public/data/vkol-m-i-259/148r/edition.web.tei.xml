@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 148r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_148r_coordinate; PNG SHA256 e49a7b3a9ed4e15d7bd0f8600284da61c6d987983deca2e64df465f34a8d6a09; archival TIFF SHA256 c6bb90cfafd0fc972de2c004da7d5f1f4709694a62effc9c14a5c2d0ea668b2f; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_148r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#148r"/>
+      <zone ulx="448" uly="485" lrx="3669" lry="703" xml:id="z_f148r_l001"/>
+      <zone ulx="438" uly="619" lrx="3361" lry="821" xml:id="z_f148r_l002"/>
+      <zone ulx="435" uly="740" lrx="3286" lry="942" xml:id="z_f148r_l003"/>
+      <zone ulx="429" uly="880" lrx="3280" lry="1060" xml:id="z_f148r_l004"/>
+      <zone ulx="438" uly="989" lrx="3358" lry="1188" xml:id="z_f148r_l005"/>
+      <zone ulx="432" uly="1129" lrx="3221" lry="1334" xml:id="z_f148r_l006"/>
+      <zone ulx="438" uly="1269" lrx="2328" lry="1471" xml:id="z_f148r_l007"/>
+      <zone ulx="423" uly="1418" lrx="2567" lry="1630" xml:id="z_f148r_l008"/>
+      <zone ulx="616" uly="1536" lrx="3274" lry="1742" xml:id="z_f148r_l009"/>
+      <zone ulx="482" uly="1667" lrx="3311" lry="1860" xml:id="z_f148r_l010"/>
+      <zone ulx="432" uly="1792" lrx="3233" lry="1981" xml:id="z_f148r_l011"/>
+      <zone ulx="435" uly="1919" lrx="3355" lry="2118" xml:id="z_f148r_l012"/>
+      <zone ulx="413" uly="2053" lrx="3339" lry="2246" xml:id="z_f148r_l013"/>
+      <zone ulx="441" uly="2190" lrx="3286" lry="2383" xml:id="z_f148r_l014"/>
+      <zone ulx="435" uly="2336" lrx="3330" lry="2526" xml:id="z_f148r_l015"/>
+      <zone ulx="438" uly="2464" lrx="3358" lry="2663" xml:id="z_f148r_l016"/>
+      <zone ulx="426" uly="2600" lrx="3349" lry="2803" xml:id="z_f148r_l017"/>
+      <zone ulx="413" uly="2747" lrx="3355" lry="2936" xml:id="z_f148r_l018"/>
+      <zone ulx="432" uly="2880" lrx="3336" lry="3064" xml:id="z_f148r_l019"/>
+      <zone ulx="463" uly="3014" lrx="3302" lry="3207" xml:id="z_f148r_l020"/>
+      <zone ulx="454" uly="3145" lrx="3364" lry="3322" xml:id="z_f148r_l021"/>
+      <zone ulx="441" uly="3288" lrx="3314" lry="3465" xml:id="z_f148r_l022"/>
+      <zone ulx="463" uly="3428" lrx="3261" lry="3602" xml:id="z_f148r_l023"/>
+      <zone ulx="435" uly="3562" lrx="3218" lry="3730" xml:id="z_f148r_l024"/>
+      <zone ulx="429" uly="3705" lrx="3240" lry="3873" xml:id="z_f148r_l025"/>
+      <zone ulx="420" uly="3829" lrx="3420" lry="4016" xml:id="z_f148r_l026"/>
+      <zone ulx="407" uly="3966" lrx="2854" lry="4178" xml:id="z_f148r_l027"/>
+      <zone ulx="432" uly="4106" lrx="2648" lry="4308" xml:id="z_f148r_l028"/>
+      <zone ulx="572" uly="4234" lrx="3355" lry="4455" xml:id="z_f148r_l029"/>
+      <zone ulx="438" uly="4396" lrx="3305" lry="4567" xml:id="z_f148r_l030"/>
+      <zone ulx="457" uly="4517" lrx="3383" lry="4707" xml:id="z_f148r_l031"/>
+      <zone ulx="451" uly="4644" lrx="3408" lry="4887" xml:id="z_f148r_l032"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f148r_l001" xml:id="catmus_f148r_l001"/>
+          <seg type="raw_unreviewed">hengnisse gebũ uoam ir uõ augenñ seit unt mit gerdest̃ / n eht</seg>
+          <lb facs="#z_f148r_l002" xml:id="catmus_f148r_l002"/>
+          <seg type="raw_unreviewed">dab han ich euch̃ qerett dab ir wt geergert Sy sunderut</seg>
+          <lb facs="#z_f148r_l003" xml:id="catmus_f148r_l003"/>
+          <seg type="raw_unreviewed">euch̃ uon d̃ memig nugtⁱab boiẽ dy geit. Abemiglil̃</seg>
+          <lb facs="#z_f148r_l004" xml:id="catmus_f148r_l004"/>
+          <seg type="raw_unreviewed">uer euch toit d̾ irent das er got gediẽt hab und tun euch</seg>
+          <lb facs="#z_f148r_l005" xml:id="catmus_f148r_l005"/>
+          <seg type="raw_unreviewed">das/ Roenii fy d benuẽt uoid̃ de uat noch unch dorudx.</seg>
+          <lb facs="#z_f148r_l006" xml:id="catmus_f148r_l006"/>
+          <seg type="raw_unreviewed">hab ich̃ euch dise wort gesagt so yr geit Ropt̃ das yr</seg>
+          <lb facs="#z_f148r_l007" xml:id="catmus_f148r_l007"/>
+          <seg type="raw_unreviewed">gedeukt was ich euch̃ geragt hab-</seg>
+          <lb facs="#z_f148r_l008" xml:id="catmus_f148r_l008"/>
+          <seg type="raw_unreviewed">In die Penth Wiquis diligit me Io xiiiiᵒ.</seg>
+          <lb facs="#z_f148r_l009" xml:id="catmus_f148r_l009"/>
+          <seg type="raw_unreviewed">hũs sꝑtach zu sem Iuugni/ Woer mich liy hat d̾ be-</seg>
+          <lb facs="#z_f148r_l010" xml:id="catmus_f148r_l010"/>
+          <seg type="raw_unreviewed">Lhalt men wort und. yni hat lip meñ uat und̾ bouie</seg>
+          <lb facs="#z_f148r_l011" xml:id="catmus_f148r_l011"/>
+          <seg type="raw_unreviewed">Iu cym und ħaby Roonug unit Im d̃ mich nicht lip hat</seg>
+          <lb facs="#z_f148r_l012" xml:id="catmus_f148r_l012"/>
+          <seg type="raw_unreviewed">d behalt nicht mem rẽd und̃ dy red die yrconom̃e habt</seg>
+          <lb facs="#z_f148r_l013" xml:id="catmus_f148r_l013"/>
+          <seg type="raw_unreviewed">uon mir dy ist nich̃t mem sund̾ des d̾ mich gresãt hat</seg>
+          <lb facs="#z_f148r_l014" xml:id="catmus_f148r_l014"/>
+          <seg type="raw_unreviewed">debiuaters das hab ich̃ euch gesagt bey euch̃ wouude d̾</seg>
+          <lb facs="#z_f148r_l015" xml:id="catmus_f148r_l015"/>
+          <seg type="raw_unreviewed">heilig geist d̾ trest̃ den euch̃d̃ uat̾ seut ĩ memẽ nacue</seg>
+          <lb facs="#z_f148r_l016" xml:id="catmus_f148r_l016"/>
+          <seg type="raw_unreviewed">D̾ leit es ench alles, bnd Rundet euch alles⁊ das ich̃ euch</seg>
+          <lb facs="#z_f148r_l017" xml:id="catmus_f148r_l017"/>
+          <seg type="raw_unreviewed">uõt sagũ den frid lasse icħ euchs meniẽ fad gib ich euch ÷</seg>
+          <lb facs="#z_f148r_l018" xml:id="catmus_f148r_l018"/>
+          <seg type="raw_unreviewed">uclit als die wlt geit s ith gis ench̾ ero he tienõr icht</seg>
+          <lb facs="#z_f148r_l019" xml:id="catmus_f148r_l019"/>
+          <seg type="raw_unreviewed">noch enficht nich̃t habt ir uornouiẽ das icħ euch ge</seg>
+          <lb facs="#z_f148r_l020" xml:id="catmus_f148r_l020"/>
+          <seg type="raw_unreviewed">ragt hali Ich uar und Rom ⁊u euch opir nicti lip het</seg>
+          <lb facs="#z_f148r_l021" xml:id="catmus_f148r_l021"/>
+          <seg type="raw_unreviewed">so wert ir fro/ Woanni icħ far iu dẽ uatᷝ dem d̾ uaterd̾</seg>
+          <lb facs="#z_f148r_l022" xml:id="catmus_f148r_l022"/>
+          <seg type="raw_unreviewed">ist mer demiĩ icħ, und han e euch nn gesagt, ee deuniez</seg>
+          <lb facs="#z_f148r_l023" xml:id="catmus_f148r_l023"/>
+          <seg type="raw_unreviewed">geschicht uemiĩ es ab geschicht das irs glaubt Icli red</seg>
+          <lb facs="#z_f148r_l024" xml:id="catmus_f148r_l024"/>
+          <seg type="raw_unreviewed">euch nu nicht uil, Es ist Roiẽ d fuist dis bolt und</seg>
+          <lb facs="#z_f148r_l025" xml:id="catmus_f148r_l025"/>
+          <seg type="raw_unreviewed">hat niche an mix sand̃ Bas dy wlt d̃ cheuue das ich</seg>
+          <lb facs="#z_f148r_l026" xml:id="catmus_f148r_l026"/>
+          <seg type="raw_unreviewed">nyue den uat uud als mur d̃ uat̾ gepent also tuich-</seg>
+          <lb facs="#z_f148r_l027" xml:id="catmus_f148r_l027"/>
+          <seg type="raw_unreviewed">Tuitatis Cũ ueiit paclitus uͨ d. pꝰ Astensio</seg>
+          <lb facs="#z_f148r_l028" xml:id="catmus_f148r_l028"/>
+          <seg type="raw_unreviewed">dũal ẜͣ. homo quidã eat diues ilut̃ uiͦ.</seg>
+          <lb facs="#z_f148r_l029" xml:id="catmus_f148r_l029"/>
+          <seg type="raw_unreviewed">hũs spirich iu sem Imuq̃n Is was em Reich man d̃ iras</seg>
+          <lb facs="#z_f148r_l030" xml:id="catmus_f148r_l030"/>
+          <seg type="raw_unreviewed">Agecleit nit phell und nie byssi und sas altag unt</seg>
+          <lb facs="#z_f148r_l031" xml:id="catmus_f148r_l031"/>
+          <seg type="raw_unreviewed">uout schafse und̾ wras ein armer pettlere d̾ hiez lazaras</seg>
+          <lb facs="#z_f148r_l032" xml:id="catmus_f148r_l032"/>
+          <seg type="raw_unreviewed">d lag iu seyu tũt uol fireres, und begert sich qusatten uoy</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f148r_l001" xml:id="medusa_f148r_l001"/>
+          <seg type="raw_unreviewed">czengnusse gebn̄ · wann ir vō angeng seit mit mir gewesē nicht</seg>
+          <lb facs="#z_f148r_l002" xml:id="medusa_f148r_l002"/>
+          <seg type="raw_unreviewed">das han ich euch gewett · das ir w͛t geergert sy sunderut</seg>
+          <lb facs="#z_f148r_l003" xml:id="medusa_f148r_l003"/>
+          <seg type="raw_unreviewed">euch von d͛ menig An wirt ab͛ komē dy cʒeit · das emiglich͛</seg>
+          <lb facs="#z_f148r_l004" xml:id="medusa_f148r_l004"/>
+          <seg type="raw_unreviewed">wer euch tott / d̄ weint das er got gediet hab / vnd tuͦn euch</seg>
+          <lb facs="#z_f148r_l005" xml:id="medusa_f148r_l005"/>
+          <seg type="raw_unreviewed">das / wenn sy d͛kennēt wid͛ dē vat͛ noch mich / dorūbe</seg>
+          <lb facs="#z_f148r_l006" xml:id="medusa_f148r_l006"/>
+          <seg type="raw_unreviewed">hab ich euch dise wort gesagt / so yr czeit koͤpt / das yr</seg>
+          <lb facs="#z_f148r_l007" xml:id="medusa_f148r_l007"/>
+          <seg type="raw_unreviewed">gedenkt was ich euch gesagt hab.</seg>
+          <lb facs="#z_f148r_l008" xml:id="medusa_f148r_l008"/>
+          <seg type="raw_unreviewed">In die Penthecoste Signus diligit me Io. xiiii°</seg>
+          <lb facs="#z_f148r_l009" xml:id="medusa_f148r_l009"/>
+          <seg type="raw_unreviewed">huͤs sprach zuͦ sem jùngn̄ / wer mich lip hat / d͛ be-</seg>
+          <lb facs="#z_f148r_l010" xml:id="medusa_f148r_l010"/>
+          <seg type="raw_unreviewed">halt mein wort · vnd yn hat lip me͛ vat͛ · vnd kouē</seg>
+          <lb facs="#z_f148r_l011" xml:id="medusa_f148r_l011"/>
+          <seg type="raw_unreviewed">zu ym und habn̄ wonnet mit im / d̄ mich nicht lip hat</seg>
+          <lb facs="#z_f148r_l012" xml:id="medusa_f148r_l012"/>
+          <seg type="raw_unreviewed">d̄ behalt nicht mein red / vnd dy red die yr v̶n̶o̶m̶e̶ habe</seg>
+          <lb facs="#z_f148r_l013" xml:id="medusa_f148r_l013"/>
+          <seg type="raw_unreviewed">von mir dy ist nicht mein / sunder des d̄ mich gesaͤt hat</seg>
+          <lb facs="#z_f148r_l014" xml:id="medusa_f148r_l014"/>
+          <seg type="raw_unreviewed">des vaters / Das hab ich euch gesagt bey euch wein̄de / d̄</seg>
+          <lb facs="#z_f148r_l015" xml:id="medusa_f148r_l015"/>
+          <seg type="raw_unreviewed">heilig geist d͛ troͤst͛ den euch d͛ vat͛ seit ī meīnē namē</seg>
+          <lb facs="#z_f148r_l016" xml:id="medusa_f148r_l016"/>
+          <seg type="raw_unreviewed">d̄ lert es euch alles / vnd kundet euch alles das ich euch</seg>
+          <lb facs="#z_f148r_l017" xml:id="medusa_f148r_l017"/>
+          <seg type="raw_unreviewed">w͛t sagē den frid lasse ich euch meinen frid gib ich euch</seg>
+          <lb facs="#z_f148r_l018" xml:id="medusa_f148r_l018"/>
+          <seg type="raw_unreviewed">nicht als die w̾lt geit ich gib euch ew͛ h͛cz traw͛r nicht</seg>
+          <lb facs="#z_f148r_l019" xml:id="medusa_f148r_l019"/>
+          <seg type="raw_unreviewed">noch enfürcht nicht habt ir uornomē · das ich euch ge</seg>
+          <lb facs="#z_f148r_l020" xml:id="medusa_f148r_l020"/>
+          <seg type="raw_unreviewed">sagt hab / ich var und kom zu euch / op ir mich lip het /</seg>
+          <lb facs="#z_f148r_l021" xml:id="medusa_f148r_l021"/>
+          <seg type="raw_unreviewed">so wert ir fro / wann̄ ich far zu dē vat͛ / wenn d͛ vater d͛</seg>
+          <lb facs="#z_f148r_l022" xml:id="medusa_f148r_l022"/>
+          <seg type="raw_unreviewed">ist mer denn ich · und han ez euch mi gesagt / ee denn ez</seg>
+          <lb facs="#z_f148r_l023" xml:id="medusa_f148r_l023"/>
+          <seg type="raw_unreviewed">geschicht wenn es ab͛ geschicht · das irs glaubt · Jch red</seg>
+          <lb facs="#z_f148r_l024" xml:id="medusa_f148r_l024"/>
+          <seg type="raw_unreviewed">enich anu nicht uil · Es ist komē d̾ fürst diẜ wlt · vnd</seg>
+          <lb facs="#z_f148r_l025" xml:id="medusa_f148r_l025"/>
+          <seg type="raw_unreviewed">hat nichtz an mir · sond͛ das dy w̾lt d͛ cheune · das ich</seg>
+          <lb facs="#z_f148r_l026" xml:id="medusa_f148r_l026"/>
+          <seg type="raw_unreviewed">mýne den vat͛ / und als mir d͛ vat͛ gepent also tu ich</seg>
+          <lb facs="#z_f148r_l027" xml:id="medusa_f148r_l027"/>
+          <seg type="raw_unreviewed">Euntatis Cum uenit paeditus uͦ d. pꝰ Ascensionis</seg>
+          <lb facs="#z_f148r_l028" xml:id="medusa_f148r_l028"/>
+          <seg type="raw_unreviewed">Dominica prima homo quidam erat duies. Luc. xuiͦ.</seg>
+          <lb facs="#z_f148r_l029" xml:id="medusa_f148r_l029"/>
+          <seg type="raw_unreviewed">huͤs sprach zuͦ sein jungn̄ Js was ein Reich man · d̄ was</seg>
+          <lb facs="#z_f148r_l030" xml:id="medusa_f148r_l030"/>
+          <seg type="raw_unreviewed">gecleit mit phell und mit byssz und sas altag mit</seg>
+          <lb facs="#z_f148r_l031" xml:id="medusa_f148r_l031"/>
+          <seg type="raw_unreviewed">wirtschafft / vnd was ein armer pettler d̄ hiez lazarus</seg>
+          <lb facs="#z_f148r_l032" xml:id="medusa_f148r_l032"/>
+          <seg type="raw_unreviewed">d̶ lag zu seyde tütt uol sweres / und begert sich zu satten von</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f148r_l001 #z_f148r_l002 #z_f148r_l003 #z_f148r_l004 #z_f148r_l005 #z_f148r_l006 #z_f148r_l007" xml:id="u_148r_001">zeugnusse geben, wann ir von angang seit mit mir gewesen. Das han ich euch geredt das ir nicht geergert. Sy sundern euch von der samenung. Nu kumpt die zeit das ein iglicher wer euch tut, der meynt das er got dienst hab. Und tun euch das wann sy den vater erkennen noch mich. Darumb hab ich euch dise wort gesagt, so ir zeit kumpt das ir gedenkt was ich euch gesagt hab.</p>
+        <note type="editorial" corresp="#u_148r_001" xml:lang="cs">Tut v souvislosti čteno usmrtí, ne prosté činí; náboženská polemika je řeč předlohy. U Vater erkennen dochází k nejasné negaci, překlad pracovní. Pravý krátký přípisek za prvním řádkem není bezpečně rozluštěn a není zahrnut.</note>
+        <p facs="#z_f148r_l008" xml:id="u_148r_002">In die Pentecostes. Si quis diligit me. Iohannis XIIII.</p>
+        <note type="editorial" corresp="#u_148r_002" xml:lang="cs"> </note>
+        <p facs="#z_f148r_l009 #z_f148r_l010 #z_f148r_l011 #z_f148r_l012 #z_f148r_l013 #z_f148r_l014 #z_f148r_l015 #z_f148r_l016 #z_f148r_l017 #z_f148r_l018 #z_f148r_l019 #z_f148r_l020 #z_f148r_l021 #z_f148r_l022 #z_f148r_l023 #z_f148r_l024 #z_f148r_l025 #z_f148r_l026" xml:id="u_148r_003">Ihesus sprach zu sein iungern: Wer mich liep hat, der behaltet mein wort, und in hat liep mein vater, und wir komen zu im und werden haben wonung mit im. Der mich nicht liep hat, der behaltet nicht mein rede. Und die rede die ir gehoret habt von mir die ist nicht mein, sunder des der mich gesant hat, des vaters. Das hab ich euch gesagt pey euch wonend. Der heilig geist, der trost, den euch der vater send in meinem namen, der leret es euch alles und kundet euch alles das ich euch hab gesagt. Den frid lasse ich euch, meinen frid gib ich euch, nicht als die welt geit ich gib euch. Ewr herz tawer nicht, noch enfurcht nicht. Hibet ir vernommen das ich euch gesagt han: Ich var und kom zu euch? Ob ir mich liep habt, so wert ir fro, wann ich fur zu dem vater, wann der vater ist mer denn ich. Und han es euch nu gesagt ee denn es geschicht, wann es aber geschicht das irs glaubt. Ich red euch nu nicht vil. Es ist komen der furst diser welt und hat nichts in mir, sunder das die welt erkenne das ich minne den vater, und als mir der vater gepoten, also tue ich.</p>
+        <note type="editorial" corresp="#u_148r_003" xml:lang="cs">Německé der trost u Ducha a časové formulace pracovně normalizovány. Poslední souvětí zůstává syntakticky blízko obrazu. </note>
+        <p facs="#z_f148r_l027" xml:id="u_148r_004">[Trinitatis?] Cum venit […]</p>
+        <note type="editorial" corresp="#u_148r_004" xml:lang="cs">Samostatná drobná latinská rubrika nad další nedělí není dostatečně přečtena, není nahrazena předpokládaným liturgickým incipitem. Drobný latinský rubrikální odkaz zůstává nejistý; nebyl nahrazen kanonickou formulací podle HTR.</note>
+        <p facs="#z_f148r_l028" xml:id="u_148r_005">Dominica prima. Homo quidam erat dives. Luce XVI.</p>
+        <note type="editorial" corresp="#u_148r_005" xml:lang="cs"> </note>
+        <p facs="#z_f148r_l029 #z_f148r_l030 #z_f148r_l031 #z_f148r_l032" xml:id="u_148r_006">Ihesus sprach zu sein iungern: Es was ein reich man der was gecleidet mit purpur und mit weissem und hette allezeit gut wirtschafft. Und was ein armer genant Lazarus, der lag zu sein tuer vol sweren und begert sich zu satten von […]</p>
+        <note type="editorial" corresp="#u_148r_006" xml:lang="cs">Wirtschaft v souvislosti přeloženo hodování; přesné označení druhé tkaniny není jisté. Věta pokračuje148v. </note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_148r_001">[…] vydávat svědectví, neboť jste se mnou od počátku. To jsem vám řekl, abyste se nepohoršili. Vyloučí vás ze shromáždění. Přichází čas, kdy každý, kdo vás zabije, bude myslet, že slouží Bohu. To vám učiní, protože neznají Otce ani mě. Proto jsem vám řekl tato slova, abyste si, až přijde jejich čas, vzpomněli, co jsem vám řekl.</p>
+        <p corresp="#u_148r_002">V den Letnic. Miluje-li mě někdo. Jan XIV.</p>
+        <p corresp="#u_148r_003">Ježíš řekl učedníkům: Kdo mě miluje, zachovává mé slovo, a toho miluje můj Otec. Přijdeme k němu a budeme u něho přebývat. Kdo mě nemiluje, nezachovává mou řeč. Řeč, kterou jste ode mě slyšeli, není má, ale toho, který mě poslal, Otce. To jsem vám řekl, když jsem přebýval u vás. Duch svatý, útěcha, kterého vám Otec pošle v mém jménu, vás všemu naučí a oznámí vám všechno, co jsem vám řekl. Pokoj vám zanechávám, svůj pokoj vám dávám; nedávám vám, jak dává svět. Vaše srdce ať se nermoutí a nebojí. Slyšeli jste, že jsem vám řekl: Odcházím a vracím se k vám? Kdybyste mě milovali, radovali byste se, že jdu k Otci, neboť Otec je větší než já. Řekl jsem vám to nyní, dříve než se to stane, abyste uvěřili, až se to stane. Již k vám mnoho nemluvím. Přišel kníže tohoto světa a nic ve mně nemá, ale aby svět poznal, že miluji Otce a činím tak, jak mi Otec přikázal.</p>
+        <p corresp="#u_148r_004">[Trojice?] Když přišel […].</p>
+        <p corresp="#u_148r_005">První neděle. Jeden člověk byl bohatý. Lukáš XVI.</p>
+        <p corresp="#u_148r_006">Ježíš řekl učedníkům: Byl bohatý muž oděný purpurem a bílým [plátnem], který měl stále dobré hodování. Byl také chudý jménem Lazar, ležel u jeho dveří plný vředů a toužil se nasytit z […].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 74v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: De pseudoprophetis. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_74v">
+      <graphic url="../pages/74v/image.png"/>
+      <zone ulx="404" uly="4153" lrx="588" lry="4277" xml:id="z_f74v_l001"/>
+      <zone ulx="622" uly="382" lrx="3591" lry="538" xml:id="z_f74v_l002"/>
+      <zone ulx="631" uly="488" lrx="3557" lry="616" xml:id="z_f74v_l003"/>
+      <zone ulx="638" uly="566" lrx="3554" lry="703" xml:id="z_f74v_l004"/>
+      <zone ulx="650" uly="644" lrx="3548" lry="793" xml:id="z_f74v_l005"/>
+      <zone ulx="638" uly="731" lrx="3566" lry="877" xml:id="z_f74v_l006"/>
+      <zone ulx="641" uly="802" lrx="3523" lry="955" xml:id="z_f74v_l007"/>
+      <zone ulx="634" uly="892" lrx="3573" lry="1048" xml:id="z_f74v_l008"/>
+      <zone ulx="641" uly="970" lrx="3532" lry="1169" xml:id="z_f74v_l009"/>
+      <zone ulx="669" uly="1057" lrx="3529" lry="1260" xml:id="z_f74v_l010"/>
+      <zone ulx="662" uly="1160" lrx="3526" lry="1334" xml:id="z_f74v_l011"/>
+      <zone ulx="653" uly="1253" lrx="3545" lry="1421" xml:id="z_f74v_l012"/>
+      <zone ulx="650" uly="1337" lrx="3529" lry="1502" xml:id="z_f74v_l013"/>
+      <zone ulx="647" uly="1418" lrx="3520" lry="1605" xml:id="z_f74v_l014"/>
+      <zone ulx="647" uly="1505" lrx="3548" lry="1692" xml:id="z_f74v_l015"/>
+      <zone ulx="647" uly="1596" lrx="3510" lry="1785" xml:id="z_f74v_l016"/>
+      <zone ulx="650" uly="1692" lrx="3529" lry="1876" xml:id="z_f74v_l017"/>
+      <zone ulx="662" uly="1788" lrx="3545" lry="1960" xml:id="z_f74v_l018"/>
+      <zone ulx="644" uly="1879" lrx="3532" lry="2040" xml:id="z_f74v_l019"/>
+      <zone ulx="647" uly="1963" lrx="3588" lry="2131" xml:id="z_f74v_l020"/>
+      <zone ulx="641" uly="2053" lrx="3579" lry="2208" xml:id="z_f74v_l021"/>
+      <zone ulx="647" uly="2143" lrx="3538" lry="2311" xml:id="z_f74v_l022"/>
+      <zone ulx="871" uly="2240" lrx="3486" lry="2398" xml:id="z_f74v_l023"/>
+      <zone ulx="647" uly="2348" lrx="3529" lry="2498" xml:id="z_f74v_l024"/>
+      <zone ulx="650" uly="2442" lrx="3557" lry="2582" xml:id="z_f74v_l025"/>
+      <zone ulx="653" uly="2544" lrx="883" lry="2722" xml:id="z_f74v_l026"/>
+      <zone ulx="899" uly="2513" lrx="3545" lry="2716" xml:id="z_f74v_l027"/>
+      <zone ulx="831" uly="2600" lrx="924" lry="2650" xml:id="z_f74v_l028"/>
+      <zone ulx="647" uly="2613" lrx="3604" lry="2759" xml:id="z_f74v_l029"/>
+      <zone ulx="653" uly="2712" lrx="3560" lry="2871" xml:id="z_f74v_l030"/>
+      <zone ulx="650" uly="2809" lrx="3510" lry="2955" xml:id="z_f74v_l031"/>
+      <zone ulx="662" uly="2899" lrx="3492" lry="3039" xml:id="z_f74v_l032"/>
+      <zone ulx="656" uly="2989" lrx="3526" lry="3136" xml:id="z_f74v_l033"/>
+      <zone ulx="666" uly="3083" lrx="3557" lry="3223" xml:id="z_f74v_l034"/>
+      <zone ulx="638" uly="3182" lrx="3529" lry="3316" xml:id="z_f74v_l035"/>
+      <zone ulx="3037" uly="3266" lrx="3134" lry="3360" xml:id="z_f74v_l036"/>
+      <zone ulx="669" uly="3272" lrx="3551" lry="3403" xml:id="z_f74v_l037"/>
+      <zone ulx="681" uly="3356" lrx="3507" lry="3496" xml:id="z_f74v_l038"/>
+      <zone ulx="666" uly="3447" lrx="3510" lry="3584" xml:id="z_f74v_l039"/>
+      <zone ulx="647" uly="3531" lrx="3548" lry="3683" xml:id="z_f74v_l040"/>
+      <zone ulx="656" uly="3627" lrx="3573" lry="3767" xml:id="z_f74v_l041"/>
+      <zone ulx="662" uly="3717" lrx="3554" lry="3857" xml:id="z_f74v_l042"/>
+      <zone ulx="662" uly="3804" lrx="3514" lry="3944" xml:id="z_f74v_l043"/>
+      <zone ulx="669" uly="3892" lrx="3507" lry="4050" xml:id="z_f74v_l044"/>
+      <zone ulx="666" uly="3979" lrx="3514" lry="4122" xml:id="z_f74v_l045"/>
+      <zone ulx="678" uly="4069" lrx="3548" lry="4218" xml:id="z_f74v_l046"/>
+      <zone ulx="659" uly="4156" lrx="3545" lry="4296" xml:id="z_f74v_l047"/>
+      <zone ulx="690" uly="4262" lrx="3501" lry="4396" xml:id="z_f74v_l048"/>
+      <zone ulx="678" uly="4349" lrx="3514" lry="4489" xml:id="z_f74v_l049"/>
+      <zone ulx="675" uly="4439" lrx="3514" lry="4579" xml:id="z_f74v_l050"/>
+      <zone ulx="672" uly="4520" lrx="3504" lry="4663" xml:id="z_f74v_l051"/>
+      <zone ulx="675" uly="4595" lrx="3526" lry="4747" xml:id="z_f74v_l052"/>
+      <zone ulx="669" uly="4713" lrx="3529" lry="4881" xml:id="z_f74v_l053"/>
+      <zone ulx="3716" uly="2401" lrx="3819" lry="2523" xml:id="z_f74v_l054"/>
+      <zone ulx="3679" uly="2470" lrx="3822" lry="2591" xml:id="z_f74v_l055"/>
+      <zone ulx="3650" uly="2554" lrx="3837" lry="2675" xml:id="z_f74v_l056"/>
+      <zone ulx="3663" uly="2638" lrx="3853" lry="2765" xml:id="z_f74v_l057"/>
+      <zone ulx="3663" uly="2737" lrx="3834" lry="2856" xml:id="z_f74v_l058"/>
+      <zone ulx="3644" uly="2818" lrx="3856" lry="2946" xml:id="z_f74v_l059"/>
+      <zone ulx="3641" uly="2902" lrx="3865" lry="3024" xml:id="z_f74v_l060"/>
+      <zone ulx="3638" uly="2992" lrx="3850" lry="3114" xml:id="z_f74v_l061"/>
+      <zone ulx="3647" uly="3070" lrx="3834" lry="3204" xml:id="z_f74v_l062"/>
+      <zone ulx="3635" uly="3170" lrx="3862" lry="3297" xml:id="z_f74v_l063"/>
+      <zone ulx="3719" uly="3260" lrx="3828" lry="3369" xml:id="z_f74v_l064"/>
+      <zone ulx="3644" uly="3353" lrx="3812" lry="3475" xml:id="z_f74v_l065"/>
+      <zone ulx="3635" uly="3447" lrx="3862" lry="3562" xml:id="z_f74v_l066"/>
+      <zone ulx="3647" uly="3534" lrx="3840" lry="3640" xml:id="z_f74v_l067"/>
+      <zone ulx="3647" uly="3608" lrx="3815" lry="3745" xml:id="z_f74v_l068"/>
+      <zone ulx="3638" uly="3702" lrx="3868" lry="3817" xml:id="z_f74v_l069"/>
+      <zone ulx="3626" uly="3789" lrx="3868" lry="3907" xml:id="z_f74v_l070"/>
+      <zone ulx="3638" uly="3879" lrx="3878" lry="4000" xml:id="z_f74v_l071"/>
+      <zone ulx="3635" uly="3976" lrx="3875" lry="4091" xml:id="z_f74v_l072"/>
+      <zone ulx="3632" uly="4069" lrx="3868" lry="4175" xml:id="z_f74v_l073"/>
+      <zone ulx="3626" uly="4144" lrx="3884" lry="4268" xml:id="z_f74v_l074"/>
+      <zone ulx="3647" uly="4224" lrx="3878" lry="4346" xml:id="z_f74v_l075"/>
+      <zone ulx="3685" uly="4327" lrx="3843" lry="4448" xml:id="z_f74v_l076"/>
+      <zone ulx="3641" uly="4411" lrx="3850" lry="4545" xml:id="z_f74v_l077"/>
+      <zone ulx="3626" uly="4504" lrx="3859" lry="4629" xml:id="z_f74v_l078"/>
+      <zone ulx="3619" uly="4588" lrx="3812" lry="4719" xml:id="z_f74v_l079"/>
+      <zone ulx="3622" uly="4697" lrx="3843" lry="4850" xml:id="z_f74v_l080"/>
+      <zone ulx="3632" uly="4816" lrx="3847" lry="4956" xml:id="z_f74v_l081"/>
+      <zone ulx="3672" uly="395" lrx="3856" lry="578" xml:id="z_f74v_l082"/>
+      <zone ulx="3672" uly="2146" lrx="3812" lry="2274" xml:id="z_f74v_l083"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f74v_l001" xml:id="catmus_f74v_l001"/>
+          <seg type="raw_unreviewed">⁊lẽ</seg>
+          <lb facs="#z_f74v_l002" xml:id="catmus_f74v_l002"/>
+          <seg type="raw_unreviewed">Quit ͣ aut̃ ꝓ bidũs sit uio ꝑsc̃e cũ u̾list dĩ Rñdeii oꝑaudo mĩibi sa ĩ tude</seg>
+          <lb facs="#z_f74v_l003" xml:id="catmus_f74v_l003"/>
+          <seg type="raw_unreviewed">moͣsti lubi heãt ucc̃ia uite / depͥ luce .xxii. bẽdite q̃ possidetꝭ ⁊ date elcõ słuã</seg>
+          <lb facs="#z_f74v_l004" xml:id="catmus_f74v_l004"/>
+          <seg type="raw_unreviewed">gilo ut oĩb mĩs seł spretꝭ pdo᷑ pꝰ cu oꝑenũ unũb urĩs uñ umutꝭ denͦ dicit</seg>
+          <lb facs="#z_f74v_l005" xml:id="catmus_f74v_l005"/>
+          <seg type="raw_unreviewed">actuũ ii ᷑ Gĩt illis oĩ quĩa / ⁊ nꝰ egebat ĩt̾ i ͤ. suꝑ qͦ edditu ẽ ꝯstitie̾ ecc̃ ͥ</seg>
+          <lb facs="#z_f74v_l006" xml:id="catmus_f74v_l006"/>
+          <seg type="raw_unreviewed">xii q ii uidũtes ibbi d der̾bi ecr̃e epi ⁊ sideles dispñsutoes eoꝵ / oih quĩ suici</seg>
+          <lb facs="#z_f74v_l007" xml:id="catmus_f74v_l007"/>
+          <seg type="raw_unreviewed">degere bolũtib. nũsẽre cucti uccͣul debẽt. ꝓut melꝰ potu̾t / ut nẽo ĩ eis</seg>
+          <lb facs="#z_f74v_l008" xml:id="catmus_f74v_l008"/>
+          <seg type="raw_unreviewed">egẽs ĩ noui᷑ Et ĩ fui ui qͥs ĩ mob̾u̾is a sutntꝭ tꝑib ĩuer̃᷑ ini ħ euelle m̃ta</seg>
+          <lb facs="#z_f74v_l009" xml:id="catmus_f74v_l009"/>
+          <seg type="raw_unreviewed">iũ dcũ dñpͦ fuat̾ seu̾it᷑ Ih ͨ ecꝭ ꝯstut ucciͫ ce̾ exͦ disci ᷝͥ dc̃i Iudas sclarines</seg>
+          <lb facs="#z_f74v_l010" xml:id="catmus_f74v_l010"/>
+          <seg type="raw_unreviewed">Iloculos ħebat Io .xii. qr f eat eqũti uc̃ st̃ suẽs gło. loculaꝵ diũ custe des</seg>
+          <lb facs="#z_f74v_l011" xml:id="catmus_f74v_l011"/>
+          <seg type="raw_unreviewed">ic xii .i.i. hbebat dñs loculos afidelib oblatu ꝯ ẜũis / ⁊ suiꝵ  ncaᷝ et</seg>
+          <lb facs="#z_f74v_l012" xml:id="catmus_f74v_l012"/>
+          <seg type="raw_unreviewed">aliis ĩdigñtib cbuebat It tñ dñs quã erꝰ upłi. ules x anas t̾cũduoebãt</seg>
+          <lb facs="#z_f74v_l013" xml:id="catmus_f74v_l013"/>
+          <seg type="raw_unreviewed">siꝰ s ͭgło. Corꝭ ix sr̃ iᵈ. liõne ptũtẽ ħoꝰ. ilem sorde c̃cũducũdi itꝭ ꝙͥai mͥ</seg>
+          <lb facs="#z_f74v_l014" xml:id="catmus_f74v_l014"/>
+          <seg type="raw_unreviewed">dũs. q aplis suis. deloculis uccia nũstbat ut dcii ẽ. ab ip̃is apłis corR</seg>
+          <lb facs="#z_f74v_l015" xml:id="catmus_f74v_l015"/>
+          <seg type="raw_unreviewed">xcessit ꝑ mortẽ ⁊r̾ͦ. ip̃i no udiũdicũtꝰ ꝑuterũt /s liq apłi. ⁊ p̃dicie̾ ᷤ ẽi</seg>
+          <lb facs="#z_f74v_l016" xml:id="catmus_f74v_l016"/>
+          <seg type="raw_unreviewed">⁊ subt abeis hre debent / qͥl p̃dicabãt/ uͭ tñ abeis q̃rebãt. icͨ iũdicubũt. s</seg>
+          <lb facs="#z_f74v_l017" xml:id="catmus_f74v_l017"/>
+          <seg type="raw_unreviewed">arte sua licita uictũ qu̾ebãt / quĩ unde uarent ũ habebũt Io. .xxidͭ..</seg>
+          <lb facs="#z_f74v_l018" xml:id="catmus_f74v_l018"/>
+          <seg type="raw_unreviewed">yon pe. Bado pistutũ.dͭ Ilo. pꝰ acceptũ ĩ sufflacõis spm̃. pꝰ uñerꝰ. Si mis</seg>
+          <lb facs="#z_f74v_l019" xml:id="catmus_f74v_l019"/>
+          <seg type="raw_unreviewed">me pr̃ reͥ nito uos Isb̃ito sũĩt apłi ꝙ suiit.s piscutodo hoi Iũ pistiũ d scit</seg>
+          <lb facs="#z_f74v_l020" xml:id="catmus_f74v_l020"/>
+          <seg type="raw_unreviewed">ẽ. ũ ꝓhibitos arte sua licitu uictũ qu̾ere / apłat ꝰ/ i teg̾tate ẜuita ẽ uñ uin̾tut</seg>
+          <lb facs="#z_f74v_l021" xml:id="catmus_f74v_l021"/>
+          <seg type="raw_unreviewed">ñ haben̾t/ 2 ͨ ił loban̾tib. adiecit dñsnccĩa. ĩ ꝓmisit oblati m̾ r̾apiebie</seg>
+          <lb facs="#z_f74v_l022" xml:id="catmus_f74v_l022"/>
+          <seg type="raw_unreviewed">Sciebãt .n. apłt. ꝙ ñ ẽ daud cuciͭ ͤ ul t̾sti ͥ ⁊ io n ͥ q̃rebãt i eotꝭiꝑ uie</seg>
+          <lb facs="#z_f74v_l023" xml:id="catmus_f74v_l023"/>
+          <seg type="raw_unreviewed">eut destiũ ĩaio . u exucc̃i ul t̾stia hylu̾e .i. datre diligit do. glo.</seg>
+          <lb facs="#z_f74v_l024" xml:id="catmus_f74v_l024"/>
+          <seg type="raw_unreviewed">dit ꝑꝑ pñtẽ pubõe/ a ut tedis it̾pellantꝭ cacat/ ⁊ rẽ r m̾ibĩ ꝑdᵗ Et iõ</seg>
+          <lb facs="#z_f74v_l025" xml:id="catmus_f74v_l025"/>
+          <seg type="raw_unreviewed">ꝯtũti erũt oblatꝭ. ⁊ r̾liiͣ uccia loboe ntiuiu acq̃rebũt. luce x. sr̃u ^edutꝭ</seg>
+          <lb facs="#z_f74v_l026" xml:id="catmus_f74v_l026"/>
+          <seg type="raw_unreviewed">2bif</seg>
+          <lb facs="#z_f74v_l027" xml:id="catmus_f74v_l027"/>
+          <seg type="raw_unreviewed">dapies sc dro lo. Iap̃t  go pdicimmsdestũdĩ s tñ  oblitꝭ cibo ⁊ por</seg>
+          <lb facs="#z_f74v_l028" xml:id="catmus_f74v_l028"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f74v_l029" xml:id="catmus_f74v_l029"/>
+          <seg type="raw_unreviewed">tu sĩt itũti paio .n. aplõꝵꝭ d ce gͣtui̾t/ yuu ecꝭ rogati apli. rape uelobãt.</seg>
+          <lb facs="#z_f74v_l030" xml:id="catmus_f74v_l030"/>
+          <seg type="raw_unreviewed">riẽntes ne ip̃os offeu̾tes gͣuiliẽt .ii. cor. uiii.d. apłr. cũ iultu obsocioẽ obse</seg>
+          <lb facs="#z_f74v_l031" xml:id="catmus_f74v_l031"/>
+          <seg type="raw_unreviewed">cuãtes bos. gło. cũ tumẽs/ eis nõ asfetio gc̃iã ⁊ idioue nũsti a ẜł in</seg>
+          <lb facs="#z_f74v_l032" xml:id="catmus_f74v_l032"/>
+          <seg type="raw_unreviewed">scõs.. olẜmibãt nos/ ut lice̾t suil dne. ñ qĩ ꝓp̾a. s isi quũ bñ si id.i</seg>
+          <lb facs="#z_f74v_l033" xml:id="catmus_f74v_l033"/>
+          <seg type="raw_unreviewed">edrꝭ ix Q̾s pustit gge ⁊ delacte gn ũ mũducut d. glo bat ggͣd̃ ma</seg>
+          <lb facs="#z_f74v_l034" xml:id="catmus_f74v_l034"/>
+          <seg type="raw_unreviewed">aplebe woĩtꝭ da ͬ hiis u̾bis satꝭ ĩdicut opłs. ũ s̾ ultͣ debitũ suũ u surpu̾e</seg>
+          <lb facs="#z_f74v_l035" xml:id="catmus_f74v_l035"/>
+          <seg type="raw_unreviewed">⁊ coaplõs suos / f si qͥstituit dũs uiuẽtes deetir. patuõ gͣtuitũ mũducubãt</seg>
+          <lb facs="#z_f74v_l036" xml:id="catmus_f74v_l036"/>
+          <seg type="raw_unreviewed">ne</seg>
+          <lb facs="#z_f74v_l037" xml:id="catmus_f74v_l037"/>
+          <seg type="raw_unreviewed">nõ qu̾ebũt comodu suit. s mita. ⁊ finctũ domĩciũ spħsill .iiii. Quer datii</seg>
+          <lb facs="#z_f74v_l038" xml:id="catmus_f74v_l038"/>
+          <seg type="raw_unreviewed">⁊ siuctũ.dͭ ipls. Qꝵ iñt dñs ĩdicilu̾it/ uel ees apłi. nũiẜ r̾ꝑi Alã d</seg>
+          <lb facs="#z_f74v_l039" xml:id="catmus_f74v_l039"/>
+          <seg type="raw_unreviewed">aquũ peciit amle samĩi ͥ Io in di da i bibe. iͭͫ nõ fuit iudicitus icũ sit</seg>
+          <lb facs="#z_f74v_l040" xml:id="catmus_f74v_l040"/>
+          <seg type="raw_unreviewed">usus quĩs aqͣrꝭ. nͨ bibe̾ uelebat aqũ mati̾alẽ cũ ũ dñ cõdisset s misut</seg>
+          <lb facs="#z_f74v_l041" xml:id="catmus_f74v_l041"/>
+          <seg type="raw_unreviewed">distiplos ĩtimi ͭ ͦ ut cibos emen̾t Iut di abil iẜ petebũt aquũ abeo ppuule</seg>
+          <lb facs="#z_f74v_l042" xml:id="catmus_f74v_l042"/>
+          <seg type="raw_unreviewed">i. sili. ⁊ ãmoebat ut ipã pete̾t spmi scm̃. ut d. gło ibid̃ st ꝙ pͨ ñ poeut</seg>
+          <lb facs="#z_f74v_l043" xml:id="catmus_f74v_l043"/>
+          <seg type="raw_unreviewed">m̃dici̾e abillis qͥb p̃dicabut pi sic. Cõscat uius. Y ip̃e pastor ea̾t Ie x</seg>
+          <lb facs="#z_f74v_l044" xml:id="catmus_f74v_l044"/>
+          <seg type="raw_unreviewed">e ͦ sũ pastor beꝰ sp̃e missꝰ eu̾t udenes q̃ ꝑier̃t Rosirsł s p̃dicatae suũ</seg>
+          <lb facs="#z_f74v_l045" xml:id="catmus_f74v_l045"/>
+          <seg type="raw_unreviewed">pasto̾e̾ supłꝰ sum̃e abeis qs tĩs gͣgem pastit. ũ e ĩdicitus si ptuĩs. ut d</seg>
+          <lb facs="#z_f74v_l046" xml:id="catmus_f74v_l046"/>
+          <seg type="raw_unreviewed">hło ii chy ii. luboante agrrlã. o p̾ͫ defuctib ꝑciꝑe ih cũ x ͬ oẽt pastot</seg>
+          <lb facs="#z_f74v_l047" xml:id="catmus_f74v_l047"/>
+          <seg type="raw_unreviewed">q missꝰ adp̃dicid Reliq̃tur ꝙ abillis qͥb p̃dicabat no potu̾t iũdicae ñme</seg>
+          <lb facs="#z_f74v_l048" xml:id="catmus_f74v_l048"/>
+          <seg type="raw_unreviewed">q̃ diͭ eñ m̃dicusse / ñ d ͭ eñ suisse pasto̾e̾. uͨ suisse missũ apt̃e ⁊ ꝑ qũs</seg>
+          <lb facs="#z_f74v_l049" xml:id="catmus_f74v_l049"/>
+          <seg type="raw_unreviewed">nõ suisse messia. ꝓtu̾ssũ ĩ lege nͨ siliũ di. bnĩ qͥhͭ dͭ. dest̾it sũdam̃tũ sidei</seg>
+          <lb facs="#z_f74v_l050" xml:id="catmus_f74v_l050"/>
+          <seg type="raw_unreviewed">uane ⁊ ñ tñi ẽ henciii s ⁊ hisiarcha st̃ ꝙ dñs ilucu pio. di Iuchoe sestinaus</seg>
+          <lb facs="#z_f74v_l051" xml:id="catmus_f74v_l051"/>
+          <seg type="raw_unreviewed">destũde̾. ñ suit mdiatus s orbaĩtas Stiebat .n. dũs/ ꝙ zuclse ⁊ si ñ ĩ uitubat</seg>
+          <lb facs="#z_f74v_l052" xml:id="catmus_f74v_l052"/>
+          <seg type="raw_unreviewed">eũ si uitãd iñ añ ge̾lat. unĩ gło ibi nõ ĩuitutꝰ ĩuitat/ qr ⁊ si ñ audiea̾t</seg>
+          <lb facs="#z_f74v_l053" xml:id="catmus_f74v_l053"/>
+          <seg type="raw_unreviewed">uoce muitut : iludiebat tñ affcm̃ Ꝙ aũt nõ liceat indicie / ualidũ corpõe</seg>
+          <lb facs="#z_f74v_l054" xml:id="catmus_f74v_l054"/>
+          <seg type="raw_unreviewed">miãb</seg>
+          <lb facs="#z_f74v_l055" xml:id="catmus_f74v_l055"/>
+          <seg type="raw_unreviewed">Iis ialeu</seg>
+          <lb facs="#z_f74v_l056" xml:id="catmus_f74v_l056"/>
+          <seg type="raw_unreviewed">gle.i. x</seg>
+          <lb facs="#z_f74v_l057" xml:id="catmus_f74v_l057"/>
+          <seg type="raw_unreviewed">lsuꝑłẽ uls</seg>
+          <lb facs="#z_f74v_l058" xml:id="catmus_f74v_l058"/>
+          <seg type="raw_unreviewed">s ui</seg>
+          <lb facs="#z_f74v_l059" xml:id="catmus_f74v_l059"/>
+          <seg type="raw_unreviewed">a alilĩt. ⁊</seg>
+          <lb facs="#z_f74v_l060" xml:id="catmus_f74v_l060"/>
+          <seg type="raw_unreviewed">slit o  . ii.</seg>
+          <lb facs="#z_f74v_l061" xml:id="catmus_f74v_l061"/>
+          <seg type="raw_unreviewed">n subua nõ</seg>
+          <lb facs="#z_f74v_l062" xml:id="catmus_f74v_l062"/>
+          <seg type="raw_unreviewed">APREO IdAT</seg>
+          <lb facs="#z_f74v_l063" xml:id="catmus_f74v_l063"/>
+          <seg type="raw_unreviewed">s̃ey. Uii aple</seg>
+          <lb facs="#z_f74v_l064" xml:id="catmus_f74v_l064"/>
+          <seg type="raw_unreviewed">uihisti</seg>
+          <lb facs="#z_f74v_l065" xml:id="catmus_f74v_l065"/>
+          <seg type="raw_unreviewed">igtil ad q̃</seg>
+          <lb facs="#z_f74v_l066" xml:id="catmus_f74v_l066"/>
+          <seg type="raw_unreviewed"> ũ bĩ ei</seg>
+          <lb facs="#z_f74v_l067" xml:id="catmus_f74v_l067"/>
+          <seg type="raw_unreviewed">elusu</seg>
+          <lb facs="#z_f74v_l068" xml:id="catmus_f74v_l068"/>
+          <seg type="raw_unreviewed">s̃t uͥ l</seg>
+          <lb facs="#z_f74v_l069" xml:id="catmus_f74v_l069"/>
+          <seg type="raw_unreviewed">IAL APAIEX</seg>
+          <lb facs="#z_f74v_l070" xml:id="catmus_f74v_l070"/>
+          <seg type="raw_unreviewed">bit. ⁊ iisii</seg>
+          <lb facs="#z_f74v_l071" xml:id="catmus_f74v_l071"/>
+          <seg type="raw_unreviewed"> den ꝑiueñꝰ</seg>
+          <lb facs="#z_f74v_l072" xml:id="catmus_f74v_l072"/>
+          <seg type="raw_unreviewed">osq ib siãtos</seg>
+          <lb facs="#z_f74v_l073" xml:id="catmus_f74v_l073"/>
+          <seg type="raw_unreviewed"> wueꝰ ẽ me u̾</seg>
+          <lb facs="#z_f74v_l074" xml:id="catmus_f74v_l074"/>
+          <seg type="raw_unreviewed">holũp . ub p̃dio</seg>
+          <lb facs="#z_f74v_l075" xml:id="catmus_f74v_l075"/>
+          <seg type="raw_unreviewed"> les qͥ st̃ũs.</seg>
+          <lb facs="#z_f74v_l076" xml:id="catmus_f74v_l076"/>
+          <seg type="raw_unreviewed">s ie ad.</seg>
+          <lb facs="#z_f74v_l077" xml:id="catmus_f74v_l077"/>
+          <seg type="raw_unreviewed">Aihitofel.</seg>
+          <lb facs="#z_f74v_l078" xml:id="catmus_f74v_l078"/>
+          <seg type="raw_unreviewed">U dM̃. Iñ det</seg>
+          <lb facs="#z_f74v_l079" xml:id="catmus_f74v_l079"/>
+          <seg type="raw_unreviewed">ps ñ Snd</seg>
+          <lb facs="#z_f74v_l080" xml:id="catmus_f74v_l080"/>
+          <seg type="raw_unreviewed">soaesglo</seg>
+          <lb facs="#z_f74v_l081" xml:id="catmus_f74v_l081"/>
+          <seg type="raw_unreviewed">IA SÃE.⁊ AF</seg>
+          <lb facs="#z_f74v_l082" xml:id="catmus_f74v_l082"/>
+          <seg type="raw_unreviewed">st̃</seg>
+          <lb facs="#z_f74v_l083" xml:id="catmus_f74v_l083"/>
+          <seg type="raw_unreviewed">m pri al</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f74v_l001" xml:id="medusa_f74v_l001"/>
+          <seg type="raw_unreviewed">216</seg>
+          <lb facs="#z_f74v_l002" xml:id="medusa_f74v_l002"/>
+          <seg type="raw_unreviewed">Quia autem pro bibundis sit u̾o ꝑfrõ cũ ĩlũq oĩ rũdeꝰ .n. oꝑando mñb. u. ĩ tndo</seg>
+          <lb facs="#z_f74v_l003" xml:id="medusa_f74v_l003"/>
+          <seg type="raw_unreviewed">moͣstiꝰ ubi haeũt neceͣa uite / de pꝰ luce xxii. bẽdite q̃ possidetis / ⁊ date elemosinã</seg>
+          <lb facs="#z_f74v_l004" xml:id="medusa_f74v_l004"/>
+          <seg type="raw_unreviewed">gle ut oĩbꝰ nr̃is seł spretꝭ ꝓboꝰ pꝰ cui oꝑe m̃i ⁊ nr̃ibꝰ ur̃is uñi unatꝭ de iiꝰ dicit</seg>
+          <lb facs="#z_f74v_l005" xml:id="medusa_f74v_l005"/>
+          <seg type="raw_unreviewed">Actum iii° erit illis omnia quia / et nꝰ egrebat ĩt᷑ iᵒˢ super qᵒ edicta ẽ constituc̃ ecc̃iᵃ</seg>
+          <lb facs="#z_f74v_l006" xml:id="medusa_f74v_l006"/>
+          <seg type="raw_unreviewed">xii . ii. videntes ibi s⁊ de rebus ecclesie / episcopi et fideles dispensatores eorum / omnibus quam vic</seg>
+          <lb facs="#z_f74v_l007" xml:id="medusa_f74v_l007"/>
+          <seg type="raw_unreviewed">de gere voluntibus . nũserere cuncta necessaria debent . prout melius potuerunt ut nũc in eis</seg>
+          <lb facs="#z_f74v_l008" xml:id="medusa_f74v_l008"/>
+          <seg type="raw_unreviewed">ecẽs ĩ nom̃ Et ĩ sua si qͥs ĩ mod̃nis uꝰ fuerũtꝭ tꝑibꝰ ĩ uenã uꝰ hec euellet᷑ nͥta</seg>
+          <lb facs="#z_f74v_l009" xml:id="medusa_f74v_l009"/>
+          <seg type="raw_unreviewed" subtype="changed_decoding_unreviewed">tam dc̃m dñm fr̃at͂ fuit seuit 1512 ecꝭ constat neccᵃꝰ cõ exͦ disci᷑l dti Judas Scherioth</seg>
+          <lb facs="#z_f74v_l010" xml:id="medusa_f74v_l010"/>
+          <seg type="raw_unreviewed">q̃ loculos habebat Io. xii. quia fuit erunt Qui autem sunt fratres glorie loculorum domini custodes</seg>
+          <lb facs="#z_f74v_l011" xml:id="medusa_f74v_l011"/>
+          <seg type="raw_unreviewed">q̃ loculos habebat . Jo. xii. que fuit</seg>
+          <lb facs="#z_f74v_l012" xml:id="medusa_f74v_l012"/>
+          <seg type="raw_unreviewed">aliis indigentibus subuebant . Item tã dominus quam eius apostoli . mulieres xristianas traducebant</seg>
+          <lb facs="#z_f74v_l013" xml:id="medusa_f74v_l013"/>
+          <seg type="raw_unreviewed">id est lo Cor ix fr iᵒ. Nõne ptãte hõꝰ mlem̃ sone᷑ c̾cũducn̾di etc q/ꝙ̃ nᵒ</seg>
+          <lb facs="#z_f74v_l014" xml:id="medusa_f74v_l014"/>
+          <seg type="raw_unreviewed">dominus q̃ apłis suis de loculis nccͣria m̃ist̾bat ut dc̃m ẽ ab ipsis apłis corꝰ fr̃</seg>
+          <lb facs="#z_f74v_l015" xml:id="medusa_f74v_l015"/>
+          <seg type="raw_unreviewed">cessit ꝑ mortẽ ⁊ r̾ꝰ ip̃i nõ ad iu̾dicũd̃ ꝑu̾terũt s lic apl̃i ⁊ p̃dicatoͥs ẽnt</seg>
+          <lb facs="#z_f74v_l016" xml:id="medusa_f74v_l016"/>
+          <seg type="raw_unreviewed">et subter ab eis h̃re debent / quibꝰ predicabũt / nͣł tñi ab eis q̃rebũt. nͨ m̃dicabũt. s</seg>
+          <lb facs="#z_f74v_l017" xml:id="medusa_f74v_l017"/>
+          <seg type="raw_unreviewed">arte sua licita victum querbunt / qm̃ unde venient ñ habebunt Io. XXI dᵗ eis</seg>
+          <lb facs="#z_f74v_l018" xml:id="medusa_f74v_l018"/>
+          <seg type="raw_unreviewed">Syon pe . bado present . dͭ glo . pꝰ acceptũ ĩ sufflacionis spm̃ . pꝰ vnͣ erꝰ . Biᵈ mis</seg>
+          <lb facs="#z_f74v_l019" xml:id="medusa_f74v_l019"/>
+          <seg type="raw_unreviewed">me pr reu nito uos / sb̃ito sint apli ꝙ fuit . s. p̃scatores hori iũ pistin e sta</seg>
+          <lb facs="#z_f74v_l020" xml:id="medusa_f74v_l020"/>
+          <seg type="raw_unreviewed">est . n. prohibitos arte sua licitu victum querere / apostolici integritate servati e. uñ uincet</seg>
+          <lb facs="#z_f74v_l021" xml:id="medusa_f74v_l021"/>
+          <seg type="raw_unreviewed">nec habuerit / 2ᵃ illi lebauritis adiecit dominus ncc̃u . q̃ promisit / oblata non recipiebant</seg>
+          <lb facs="#z_f74v_l022" xml:id="medusa_f74v_l022"/>
+          <seg type="raw_unreviewed">scribãt n. apostoli qd nͣ ẽ dandum ex nccͣi ͭ ͤ uł t̾stꝰ et iõ nͣl q̃rebãt n eutꝭ nꝓ su</seg>
+          <lb facs="#z_f74v_l023" xml:id="medusa_f74v_l023"/>
+          <seg type="raw_unreviewed">ut destrũt in aĩo. ñ ex ncc̃iᵗᵉ uł t̾stꝰa. hylu̾ez .u. ducrẽz diligit d̾o. gło.</seg>
+          <lb facs="#z_f74v_l024" xml:id="medusa_f74v_l024"/>
+          <seg type="raw_unreviewed">ut per presentem publicum / ut tedio et trespellantis careat / et rem et merum perditum Et non</seg>
+          <lb facs="#z_f74v_l025" xml:id="medusa_f74v_l025"/>
+          <seg type="raw_unreviewed">ꝯtnti erũt oblati . 2 reliqͣ neccsaria lobbeͥ manum acqͥrebũt . Luce x. super ad ebdn</seg>
+          <lb facs="#z_f74v_l026" xml:id="medusa_f74v_l026"/>
+          <seg type="raw_unreviewed">2 b tre</seg>
+          <lb facs="#z_f74v_l027" xml:id="medusa_f74v_l027"/>
+          <seg type="raw_unreviewed">q̃ apc̃iꝰ s̃t dᵗ gło. suꝑt / ex p̃dicacoe ꝯdescendit ⁊ sᵗ tñi. ut oblatꝭ cibo ⁊ po</seg>
+          <lb facs="#z_f74v_l028" xml:id="medusa_f74v_l028"/>
+          <seg type="raw_unreviewed">18</seg>
+          <lb facs="#z_f74v_l029" xml:id="medusa_f74v_l029"/>
+          <seg type="raw_unreviewed">en sint contumacii non apostolorum d. e. gr. tuis / ymo ec. rogati apostoli. recipe nobiscum.</seg>
+          <lb facs="#z_f74v_l030" xml:id="medusa_f74v_l030"/>
+          <seg type="raw_unreviewed">tientes ne ipõs offerentes gr̃uaret .ii. Cor. VIII d. apostolo. cũ multa obscoꝛõe / obse</seg>
+          <lb facs="#z_f74v_l031" xml:id="medusa_f74v_l031"/>
+          <seg type="raw_unreviewed">cũtes uos glo. cũ timẽs / eis nõ affẽt᷑e 3 gr̃ciã ⁊ nr̃one m̃iscuꝰ qꝙ fit in</seg>
+          <lb facs="#z_f74v_l032" xml:id="medusa_f74v_l032"/>
+          <seg type="raw_unreviewed">sanctos .i. obsemabunt nos / ut licet sua dare . ũ q̃i ꝓpͥar s qͥi 11ma / uñ se᷑ d</seg>
+          <lb facs="#z_f74v_l033" xml:id="medusa_f74v_l033"/>
+          <seg type="raw_unreviewed">eorꝰ uo eꝰs postit gͣgẽ / ⁊ de lacte gͣg̃ sũ m̃a ducat d. glo. lic gͣg̃ sꝰr ꝙ</seg>
+          <lb facs="#z_f74v_l034" xml:id="medusa_f74v_l034"/>
+          <seg type="raw_unreviewed">a plebe p̃positꝭ dant / hiis uerbis satis indicit apostolus. ũ s̃ ultͣ debitũ suũ usurpare</seg>
+          <lb facs="#z_f74v_l035" xml:id="medusa_f74v_l035"/>
+          <seg type="raw_unreviewed">⁊ caplõs suos / s⁊ sꝰ ꝯstituit dñs uinẽtes de ewꝰ pitum gratuitum manducabant</seg>
+          <lb facs="#z_f74v_l036" xml:id="medusa_f74v_l036"/>
+          <seg type="raw_unreviewed">nen</seg>
+          <lb facs="#z_f74v_l037" xml:id="medusa_f74v_l037"/>
+          <seg type="raw_unreviewed">nõ querebant comodum suũ . s. merta . et functum dominicũ Philippum . iiiiᵒᵉ. Querey datum</seg>
+          <lb facs="#z_f74v_l038" xml:id="medusa_f74v_l038"/>
+          <seg type="raw_unreviewed">est fructum domini apostoli . Quorum autem dominus indicauit / vel eciam apostoli minꝰ quam r̾periunt . Nam qd</seg>
+          <lb facs="#z_f74v_l039" xml:id="medusa_f74v_l039"/>
+          <seg type="raw_unreviewed">aquam peciit ambe saminꝰ 10 m d. da u̾ bibere 2a nõ fuit aũdicitas / cũ sit</seg>
+          <lb facs="#z_f74v_l040" xml:id="medusa_f74v_l040"/>
+          <seg type="raw_unreviewed">usus nostris nqͣrꝭ .n. bibere volebat aquam nut̾ialẽ / cũ n. dũ condidisset . s. misit</seg>
+          <lb facs="#z_f74v_l041" xml:id="medusa_f74v_l041"/>
+          <seg type="raw_unreviewed">discipulos ĩ cuit᷑ᷫ ut cibos eme̾nt / ut dicit᷑ ibidem / sę petebant aquam ab eo pp̃uam</seg>
+          <lb facs="#z_f74v_l042" xml:id="medusa_f74v_l042"/>
+          <seg type="raw_unreviewed">i. sibi ⁊ annuerebat ut ipsi peteret spiritum sanctum ut d. glo. ibidem Item ipse non potuit</seg>
+          <lb facs="#z_f74v_l043" xml:id="medusa_f74v_l043"/>
+          <seg type="raw_unreviewed">indicare ab illis qͥ b) p̃dicabant p. 3 sic . constat namque . 15 ipse pastor erat / se x</seg>
+          <lb facs="#z_f74v_l044" xml:id="medusa_f74v_l044"/>
+          <seg type="raw_unreviewed">eᵒ sũ pastor boꝰ ip̃e missꝰ eãt ad eues q̃ ꝑuerũt ad nr̃sł s⁊ p̃dicacõe suũ</seg>
+          <lb facs="#z_f74v_l045" xml:id="medusa_f74v_l045"/>
+          <seg type="raw_unreviewed">pastore sũptꝭ summe ab eis / qͣs tñq gͤgrem pastat . ũ ẽ indicitus s ptus . ut d</seg>
+          <lb facs="#z_f74v_l046" xml:id="medusa_f74v_l046"/>
+          <seg type="raw_unreviewed">glo. ii thy. ii. luberantẽ agri colũ . oʒ p᷑ꝰ de fructibꝰ ꝑciꝑe 15ꝰ cũ xᶜ ẽet pastor</seg>
+          <lb facs="#z_f74v_l047" xml:id="medusa_f74v_l047"/>
+          <seg type="raw_unreviewed">et missis ad predicandum relinquatur quod ab illis qui bii predicabunt / non poterit iudicare / ymo</seg>
+          <lb facs="#z_f74v_l048" xml:id="medusa_f74v_l048"/>
+          <seg type="raw_unreviewed">q̃ d ͭ eũ m̃dicusse / ñ d ͭ eũ fuisse pastorem u fuisse missũ a patre / ⁊ ꝑ quos</seg>
+          <lb facs="#z_f74v_l049" xml:id="medusa_f74v_l049"/>
+          <seg type="raw_unreviewed">nõ fuisse messag̃ ꝓmissũ ĩ lege uᵒ filiũ d̃i. Uñ q̃ hᶜ dᵗ. dest̾it sũbriantũ si dei</seg>
+          <lb facs="#z_f74v_l050" xml:id="medusa_f74v_l050"/>
+          <seg type="raw_unreviewed">pane / ⁊ ñ tm̃ ẽ hecici / s⁊ ⁊ hestiarcha st̃ ꝙ dñs ĩ lucilixxo d. zuchee festinaus</seg>
+          <lb facs="#z_f74v_l051" xml:id="medusa_f74v_l051"/>
+          <seg type="raw_unreviewed">de scũ de . ũ fuit m̃dicatus . s urbañtus / Sciebat n. dñs / ꝙ zuthꝰ / ⁊ si ñ ĩuitabat</seg>
+          <lb facs="#z_f74v_l052" xml:id="medusa_f74v_l052"/>
+          <seg type="raw_unreviewed">eũ ⁊ ĩuitandꝰ tñ am̃ gerbat. uñ glo. ibidem nõ ĩuitat / ĩuitat / qr ⁊ si ñ audierit</seg>
+          <lb facs="#z_f74v_l053" xml:id="medusa_f74v_l053"/>
+          <seg type="raw_unreviewed">voce . mutatis . audiebat tamen affectum . Quod autem non liceat iudicare ualidum corpore /</seg>
+          <lb facs="#z_f74v_l054" xml:id="medusa_f74v_l054"/>
+          <seg type="raw_unreviewed">ptriãd</seg>
+          <lb facs="#z_f74v_l055" xml:id="medusa_f74v_l055"/>
+          <seg type="raw_unreviewed">hina inden</seg>
+          <lb facs="#z_f74v_l056" xml:id="medusa_f74v_l056"/>
+          <seg type="raw_unreviewed">glo .i. xᵒ</seg>
+          <lb facs="#z_f74v_l057" xml:id="medusa_f74v_l057"/>
+          <seg type="raw_unreviewed">aliqua in parte mat</seg>
+          <lb facs="#z_f74v_l058" xml:id="medusa_f74v_l058"/>
+          <seg type="raw_unreviewed">sunt iob qui</seg>
+          <lb facs="#z_f74v_l059" xml:id="medusa_f74v_l059"/>
+          <seg type="raw_unreviewed">ante ambulat. 2</seg>
+          <lb facs="#z_f74v_l060" xml:id="medusa_f74v_l060"/>
+          <seg type="raw_unreviewed">obsistant cum ͭ ͤ ͥ ͥ</seg>
+          <lb facs="#z_f74v_l061" xml:id="medusa_f74v_l061"/>
+          <seg type="raw_unreviewed">seducere / non</seg>
+          <lb facs="#z_f74v_l062" xml:id="medusa_f74v_l062"/>
+          <seg type="raw_unreviewed">die bñꝵ / qͥ da3</seg>
+          <lb facs="#z_f74v_l063" xml:id="medusa_f74v_l063"/>
+          <seg type="raw_unreviewed">luĩtꝭ. vii. apostoli</seg>
+          <lb facs="#z_f74v_l064" xml:id="medusa_f74v_l064"/>
+          <seg type="raw_unreviewed">bitut</seg>
+          <lb facs="#z_f74v_l065" xml:id="medusa_f74v_l065"/>
+          <seg type="raw_unreviewed">in eternam ad quam</seg>
+          <lb facs="#z_f74v_l066" xml:id="medusa_f74v_l066"/>
+          <seg type="raw_unreviewed">scͥpturũ tñ adeo</seg>
+          <lb facs="#z_f74v_l067" xml:id="medusa_f74v_l067"/>
+          <seg type="raw_unreviewed">XIII Qui sunt</seg>
+          <lb facs="#z_f74v_l068" xml:id="medusa_f74v_l068"/>
+          <seg type="raw_unreviewed">existet u̾iti</seg>
+          <lb facs="#z_f74v_l069" xml:id="medusa_f74v_l069"/>
+          <seg type="raw_unreviewed">ducit ad uitam. 11.</seg>
+          <lb facs="#z_f74v_l070" xml:id="medusa_f74v_l070"/>
+          <seg type="raw_unreviewed">disabunt. 2 m̃iq.</seg>
+          <lb facs="#z_f74v_l071" xml:id="medusa_f74v_l071"/>
+          <seg type="raw_unreviewed">don de pueris</seg>
+          <lb facs="#z_f74v_l072" xml:id="medusa_f74v_l072"/>
+          <seg type="raw_unreviewed">Nostre sgr̃ ꝙ nᶜ hãtes</seg>
+          <lb facs="#z_f74v_l073" xml:id="medusa_f74v_l073"/>
+          <seg type="raw_unreviewed">hẽ ĩ wienẽ me . u̾</seg>
+          <lb facs="#z_f74v_l074" xml:id="medusa_f74v_l074"/>
+          <seg type="raw_unreviewed">q̃rio cũ pͥc. ad p̃dic</seg>
+          <lb facs="#z_f74v_l075" xml:id="medusa_f74v_l075"/>
+          <seg type="raw_unreviewed">⁊ .i. t̾res q̃ stũt</seg>
+          <lb facs="#z_f74v_l076" xml:id="medusa_f74v_l076"/>
+          <seg type="raw_unreviewed">sunt in tribus.</seg>
+          <lb facs="#z_f74v_l077" xml:id="medusa_f74v_l077"/>
+          <seg type="raw_unreviewed">der deachtosel .</seg>
+          <lb facs="#z_f74v_l078" xml:id="medusa_f74v_l078"/>
+          <seg type="raw_unreviewed">illud dnm̃. ⁊ cũ eẽt</seg>
+          <lb facs="#z_f74v_l079" xml:id="medusa_f74v_l079"/>
+          <seg type="raw_unreviewed">was sint eñ danid</seg>
+          <lb facs="#z_f74v_l080" xml:id="medusa_f74v_l080"/>
+          <seg type="raw_unreviewed">des spiritus sancti glosa</seg>
+          <lb facs="#z_f74v_l081" xml:id="medusa_f74v_l081"/>
+          <seg type="raw_unreviewed">hoͮr̶edũt. 21st</seg>
+          <lb facs="#z_f74v_l082" xml:id="medusa_f74v_l082"/>
+          <seg type="raw_unreviewed">in compissu est</seg>
+          <lb facs="#z_f74v_l083" xml:id="medusa_f74v_l083"/>
+          <seg type="raw_unreviewed">statu xiii annis</seg>
+        </ab>
+      <note type="processing">Segments 9: separate same-crop recovery experiment selected after token-limit repetition. Greedy single-line generation, max_new_tokens=256, repetition_penalty=1.08. Original attempts retained in page checkpoint and medusa-before-recovery.json. EOS termination is not accuracy verification.</note></div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f74v_l001" xml:id="u_74v_001">[…]</p>
+        <note type="editorial" corresp="#u_74v_001" xml:lang="cs">Samostatný okrajový fragment; souvislé čtení není možné.</note>
+        <p facs="#z_f74v_l002 #z_f74v_l003 #z_f74v_l004 #z_f74v_l005 #z_f74v_l006 #z_f74v_l007 #z_f74v_l008" xml:id="u_74v_002">Quintum autem probandum sit via perfectionis, cum […] operando manibus suis in […] monasteriali habeant necessaria vitae? […] Lucae XII: Vendite quae possidetis et date eleemosynam. Glossa: Ut omnibus simul semel spretis propter Deum cum oper[emini?] manibus vestris unde vivatis. Deinde dicitur Actuum IIII: Erant illis omnia communia et nemo egebat inter eos. Super quo edita est constitutio ecclesiae XII quaestione I […]: […] episcopi et fideles dispensatores eorum omnibus qui sanctam degere volunt vitam […] cuncta necessaria debent, prout melius poterunt, ut nemo in eis egens inveniatur. Et infra: Si quis in […] statutis temporibus inventus fuerit […].</p>
+        <note type="editorial" corresp="#u_74v_002" xml:lang="cs">Začátek pokračuje otázkou z předchozí strany. Právní odkaz a větší část poslední řádky nejasné; nedoplňuji celé znění dekretu.</note>
+        <p facs="#z_f74v_l009 #z_f74v_l010 #z_f74v_l011 #z_f74v_l012 #z_f74v_l013 #z_f74v_l014" xml:id="u_74v_003">[…] secundum dictum Domini […] severitatem […]. Item hoc etiam constat necessaria […] ex eo […] Iudas Scariotes loculos habebat, Ioannis XII, quia fur erat et ea quae mittebantur […] portabat. Glossa: loculos Dominus […] XII quaestione I: Habebat Dominus loculos a fidelibus oblata conservans; et suorum necessitatibus et aliis indigentibus tribuebat. Et tamen Dominus quam eius apostoli tales eleemosynas […] ducebant […]. Glossa I Corinthios IX super illud: Nonne potestatem habemus […] sororem circumducendi […]. Dominus qui apostolis suis de loculis necessaria ministrabat, ut dictum est […].</p>
+        <note type="editorial" corresp="#u_74v_003" xml:lang="cs">10–11 jsou dvě různé citace; nejasná slova kolem jejich spojení zůstávají neúplná. Nezaměňuji přijímání darů automaticky za žebrání.</note>
+        <p facs="#z_f74v_l015 #z_f74v_l016 #z_f74v_l017 #z_f74v_l018 #z_f74v_l019 #z_f74v_l020" xml:id="u_74v_004">[…] recessit per mortem et resurrectionem; ipsi non mendicantes […] fuerunt, licet apostoli et praedicatores essent et sumptus ab eis habere deberent quibus praedicabant; non tamen ab eis quaerebant nec mendicabant, sed arte sua licita victum quaerebant, quando unde viverent non habebant. Ioannis XXI dicit Simon Petrus: Vado piscatum. Dicit Glossa: Post acceptum insufflationis Spiritum, post […] Sicut misit me Pater et ego mitto vos, subito sunt apostoli quod fuerunt, scilicet piscatores […]. Hinc […] non prohibitos arte sua licita victum quaerere, apostolatus integritate servata […].</p>
+        <note type="editorial" corresp="#u_74v_004" xml:lang="cs">Návrh podle obrazů; zkratky rozvinuty, interpunkce doplněna. Hranaté závorky zachovávají nečitelné nebo nejisté znění.</note>
+        <p facs="#z_f74v_l021 #z_f74v_l022 #z_f74v_l023 #z_f74v_l024 #z_f74v_l025" xml:id="u_74v_005">[…] et haec laborantibus adiecit Dominus necessaria, qui promisit oblata non […] requirere. Sciebant enim apostoli quod non est dandum ex necessitate vel tristitia; et ideo non quaerebant ut […] necessitatem vel tristitiam: Hilarem enim datorem diligit Deus. Glossa: […] ut taedio interpellantis careat et rem et meritum perdit. Et ideo contenti erant oblatis, et reliqua necessaria labore manuum acquirebant. Lucae X super illud: Edentes […].</p>
+        <note type="editorial" corresp="#u_74v_005" xml:lang="cs">Spojovací formulace 21–23 je čtena neúplně; rozlišení dobrovolného daru a vynuceného vydání je však v obraze čitelné.</note>
+        <p facs="#z_f74v_l026" xml:id="u_74v_006">[…]</p>
+        <note type="editorial" corresp="#u_74v_006" xml:lang="cs">Segmentace zachycuje velmi úzký okraj; nezakládá samostatnou větu.</note>
+        <p facs="#z_f74v_l027" xml:id="u_74v_007">[…] quae sunt […] Glossa: […] praedicationes […] tamen oblatis cibo et potu […].</p>
+        <note type="editorial" corresp="#u_74v_007" xml:lang="cs">Řádek náleží hlavnímu textu, ale je čten jen částečně; nejde o automaticky odložený sousední fragment.</note>
+        <p facs="#z_f74v_l028" xml:id="u_74v_008">[…]</p>
+        <note type="editorial" corresp="#u_74v_008" xml:lang="cs">Drobný segment bez samostatného bezpečně přečteného slova.</note>
+        <p facs="#z_f74v_l029 #z_f74v_l030 #z_f74v_l031 #z_f74v_l032 #z_f74v_l033 #z_f74v_l034 #z_f74v_l035" xml:id="u_74v_009">[…] apostolorum […], quia etiam rogati apostoli recipere nolebant, timentes ne ipsos offerentes gravarent. II Corinthios VIII dicit apostolus: Cum multa obsecratione obsecrantes nos. Glossa: Cum tamen eis non […] gratiam et communionem ministerii quod fit in sanctos, obsecrabant nos ut liceret sibi dare; non quia […] sed ipsi […]. I Corinthios IX: Quis pascit gregem et de lacte gregis non manducat? Glossa: […] a plebe […] his verbis satis indicat apostolus non se ultra debitum suum usurpare et coapostolos suos, sed sicut constituit Dominus viventes de evangelio, panem gratuitum manducabant […].</p>
+        <note type="editorial" corresp="#u_74v_009" xml:lang="cs">Návrh podle obrazů; zkratky rozvinuty, interpunkce doplněna. Hranaté závorky zachovávají nečitelné nebo nejisté znění.</note>
+        <p facs="#z_f74v_l036" xml:id="u_74v_010">[…]</p>
+        <note type="editorial" corresp="#u_74v_010" xml:lang="cs">Velmi malý okrajový výřez, neúplné znaky.</note>
+        <p facs="#z_f74v_l037 #z_f74v_l038 #z_f74v_l039 #z_f74v_l040 #z_f74v_l041 #z_f74v_l042" xml:id="u_74v_011">Non quaerebant commoda sua sed merita et fructum dantium, Philippenses IIII: Quaero […] fructum, dicit apostolus. Quod […] Dominus mendicaverit vel eius apostoli, nusquam reperitur. Aquam petiit a muliere Samaritana, Ioannis IIII: Da mihi bibere. Sed nec fuit mendicitas nec […] usus […] aquae […]. Nec bibere volebat aquam materialem […], sed misit discipulos […] ut cibos emerent. […] petebat aquam ab ea […] et admonebat ut ipsa peteret Spiritum sanctum, ut dicit Glossa ibidem.</p>
+        <note type="editorial" corresp="#u_74v_011" xml:lang="cs">Argument o vodě je autorův teologický výklad. Jeho jednotlivé důvody v řádcích39–41jsou nejasné a nejsou doplněny podle očekávaného smyslu.</note>
+        <p facs="#z_f74v_l043 #z_f74v_l044 #z_f74v_l045 #z_f74v_l046 #z_f74v_l047 #z_f74v_l048" xml:id="u_74v_012">[…] non poterat mendicare ab illis quibus praedicabat quia sic […] eius. Ipse pastor erat, Ioannis X: Ego sum pastor bonus; et missus erat ad oves quae perierant domus Israel. Sed praedicatores […] sumptus sumunt ab eis quorum […] gregem pascunt; non est mendicitas si petunt, ut dicit Glossa II Timothei II: Laborantem agricolam oportet primum de fructibus percipere. […] pastor et missus ad praedicandum. Relinquitur quod ab illis quibus praedicabat non poterat mendicare. Unde qui dicunt eum mendicasse non dicunt eum fuisse pastorem nec fuisse missum a Patre et per consequens […].</p>
+        <note type="editorial" corresp="#u_74v_012" xml:lang="cs">Návrh podle obrazů; zkratky rozvinuty, interpunkce doplněna. Hranaté závorky zachovávají nečitelné nebo nejisté znění.</note>
+        <p facs="#z_f74v_l049 #z_f74v_l050 #z_f74v_l051 #z_f74v_l052 #z_f74v_l053" xml:id="u_74v_013">[…] non fuisse Messiam promissum in lege nec Filium Dei. Unde qui hoc dicit destruit fundamentum fidei […] et non tantum est haereticus sed et haeresiarcha. Sed quod Dominus […] ad Zachaeum festinans descendere non fuit mendicitas sed urbanitas. Sciebat enim Dominus quod Zachaeus etsi non invitabat eum, invitandi tamen animum gerebat. Unde Glossa ibi: Non invitatus invitat, quia etsi non audierat vocem invitantis, audiebat tamen affectum. Quod autem non liceat mendicare valido corpore […].</p>
+        <note type="editorial" corresp="#u_74v_013" xml:lang="cs">Text používá vyhraněný polemický slovník. Překlad označuje tyto úsudky za autorovy, nikoli za potvrzenou obecnou interpretaci.</note>
+        <p facs="#z_f74v_l054 #z_f74v_l055 #z_f74v_l056 #z_f74v_l057 #z_f74v_l058 #z_f74v_l059 #z_f74v_l060 #z_f74v_l061 #z_f74v_l062 #z_f74v_l063 #z_f74v_l064 #z_f74v_l065 #z_f74v_l066 #z_f74v_l067 #z_f74v_l068 #z_f74v_l069 #z_f74v_l070 #z_f74v_l071 #z_f74v_l072 #z_f74v_l073 #z_f74v_l074 #z_f74v_l075 #z_f74v_l076 #z_f74v_l077 #z_f74v_l078 #z_f74v_l079 #z_f74v_l080 #z_f74v_l081 #z_f74v_l082 #z_f74v_l083" xml:id="u_74v_014">[…]</p>
+        <note type="editorial" corresp="#u_74v_014" xml:lang="cs">Otevřeny i všechny pásy57–83: jde o skutečný text sousedního listu, nikoli o prázdnou plochu. Jednotlivé fragmenty nejsou vmíchány do hlavní argumentace.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_74v_001">[Drobný ořez textu mimo hlavní textové pole.]</p>
+        <p corresp="#u_74v_002">Jak tedy prokázat cestu dokonalosti, když […] prací vlastních rukou v klášterním […] získávají nezbytné živobytí? Lukáš 12: Prodejte, co vlastníte, a dejte almužnu. Glosa: Když všeho naráz pro Boha zanecháte, […] pracujte vlastníma rukama, abyste měli z čeho žít. Skutky 4 říkají, že měli všechno společné a nikdo mezi nimi netrpěl nouzí. K tomu bylo vydáno církevní ustanovení […]: biskupové a věrní správci mají podle svých možností poskytovat vše potřebné těm, kteří chtějí žít svatým životem, aby mezi nimi nebyl nikdo v nouzi. Dále: Jestliže někdo […] ve stanovené době […].</p>
+        <p corresp="#u_74v_003">[…] podle Pánova výroku […] přísnost […]. Je to patrné také z toho, že Jidáš Iškariotský měl pokladničku, jak stojí u Jana 12; byl zlodějem a nosil, co do ní bylo vloženo […]. Glosa […] Pán měl pokladničku, v níž uchovával dary věřících, a z ní dával na potřeby svých lidí i ostatním potřebným. Přesto Pán ani jeho apoštolové takové almužny […] nepokládali […]. Glosa k prvnímu listu Korinťanům 9 o právu vodit s sebou sestru […] Pán poskytoval apoštolům nezbytné prostředky z pokladničky […].</p>
+        <p corresp="#u_74v_004">[…] po smrti a zmrtvýchvstání odešel; oni se nestali žebráky […], ačkoli byli apoštoly a kazateli a měli nárok na obživu od těch, jimž kázali. Přesto ji od nich nevyhledávali ani nevyžebrávali, ale opatřovali si živobytí dovoleným řemeslem, když neměli z čeho žít. U Jana 21 Šimon Petr říká, že jde lovit ryby. Glosa připomíná, že apoštolové se po přijetí Ducha a poslání od Krista vrátili k tomu, čím bývali, tedy k rybaření […]. Nebylo jim zakázáno získávat obživu dovoleným řemeslem při zachování apoštolského úřadu […].</p>
+        <p corresp="#u_74v_005">[…] pracujícím Pán přidal nezbytné prostředky […]. Apoštolové věděli, že se nemá dávat z donucení ani se zármutkem, a proto nežádali tak, aby […] způsobili nouzi či zármutek: Bůh miluje radostného dárce. Glosa […] člověk dá jen proto, aby se zbavil obtěžování prosebníka, a ztrácí věc i zásluhu. Proto se spokojovali s nabídnutými dary a ostatní potřeby si opatřovali prací vlastních rukou. U Lukáše 10 nad slovy „Jezte […]“.</p>
+        <p corresp="#u_74v_006">[Drobný oddělený ořez.]</p>
+        <p corresp="#u_74v_007">[…] Glosa […] kázání […], přesto nabízeným jídlem a pitím […].</p>
+        <p corresp="#u_74v_008">[Neúplný drobný segment.]</p>
+        <p corresp="#u_74v_009">[…] apoštolové […] někdy nechtěli přijmout ani nabízené dary, protože se báli zatížit dárce. Ve druhém listu Korinťanům 8 apoštol píše o naléhavém prosení […]. Glosa […] prosili nás, aby směli dávat a podílet se na službě svatým […]. První list Korinťanům 9: Kdo pase stádo a nepije z jeho mléka? Glosa […] těmito slovy apoštol ukazuje, že si se spoluapoštoly nepřisvojuje více, než na co má právo; podle Pánova ustanovení žijí z evangelia a jedli dobrovolně daný chléb […].</p>
+        <p corresp="#u_74v_010">[Úzký oddělený segment.]</p>
+        <p corresp="#u_74v_011">Nehledali vlastní prospěch, ale zásluhu a užitek dárců, jak apoštol píše Filipanům 4: Hledám […] ovoce. Nikde se nenachází, že by Pán nebo jeho apoštolové žebrali. Pán požádal Samaritánku o vodu, Jan 4: Dej mi napít. Ani to však nebylo žebrání […]. Nechtěl […] hmotnou vodu […]; poslal učedníky koupit jídlo. Tím, že ji žádal o vodu […], ji vybízel, aby sama prosila o Ducha svatého, jak říká tamní glosa.</p>
+        <p corresp="#u_74v_012">[…] nemohl žebrat u těch, jimž kázal […]. Sám byl pastýřem; u Jana 10 říká: Já jsem dobrý pastýř. Byl poslán k ovcím ztraceným z domu Izraele. Kazatelé přijímají obživu od těch, jejichž stádo pasou; požádat o ni není žebrání. Glosa k druhému listu Timoteovi 2 říká, že pracující rolník má jako první dostávat z plodů. […] pastýř a poslaný kazatel. Z toho autor dovozuje, že Kristus nemohl žebrat u těch, jimž kázal. Kdo tvrdí, že žebral, podle autora popírá jeho postavení pastýře a poslání od Otce a následně […].</p>
+        <p corresp="#u_74v_013">[…] že nebyl Mesiášem zaslíbeným v Zákoně ani Božím Synem. Autor tvrdí, že takový výrok boří základ víry a jeho hlasatel je nejen kacířem, ale původcem kacířství. Když však Pán […] vybídl Zachea, aby rychle sestoupil, nebylo to žebrání, ale zdvořilost. Věděl, že Zacheus, ačkoli ho nepozval slovy, má úmysl pozvat ho. Glosa: Nezván se zve, protože i když neslyšel hlas zvoucího, slyšel jeho náklonnost. Že tělesně zdravému není dovoleno žebrat […].</p>
+        <p corresp="#u_74v_014">[Oříznuté části sousední strany při pravém okraji snímku; souvislý text nelze bezpečně obnovit.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

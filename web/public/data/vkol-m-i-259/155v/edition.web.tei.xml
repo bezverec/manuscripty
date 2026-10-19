@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 155v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_155v_coordinate; PNG SHA256 0bf3e23f6c36fc5c79b7afcd6f337efaec7c9ca22552d1eaa82d2df0205c741c; archival TIFF SHA256 c0001e1a9f84b5856e987d7928da4685d4fcda6e96d3cf13419927a93e49b3ec; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_155v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#155v"/>
+      <zone ulx="681" uly="494" lrx="3495" lry="678" xml:id="z_f155v_l001"/>
+      <zone ulx="666" uly="640" lrx="3560" lry="821" xml:id="z_f155v_l002"/>
+      <zone ulx="669" uly="774" lrx="3445" lry="948" xml:id="z_f155v_l003"/>
+      <zone ulx="666" uly="886" lrx="3529" lry="1088" xml:id="z_f155v_l004"/>
+      <zone ulx="669" uly="1017" lrx="3588" lry="1228" xml:id="z_f155v_l005"/>
+      <zone ulx="662" uly="1151" lrx="3560" lry="1378" xml:id="z_f155v_l006"/>
+      <zone ulx="669" uly="1319" lrx="3461" lry="1502" xml:id="z_f155v_l007"/>
+      <zone ulx="666" uly="1443" lrx="3529" lry="1648" xml:id="z_f155v_l008"/>
+      <zone ulx="641" uly="1589" lrx="3448" lry="1792" xml:id="z_f155v_l009"/>
+      <zone ulx="647" uly="1726" lrx="3495" lry="1938" xml:id="z_f155v_l010"/>
+      <zone ulx="656" uly="1860" lrx="3451" lry="2093" xml:id="z_f155v_l011"/>
+      <zone ulx="662" uly="2022" lrx="3476" lry="2227" xml:id="z_f155v_l012"/>
+      <zone ulx="662" uly="2174" lrx="3445" lry="2376" xml:id="z_f155v_l013"/>
+      <zone ulx="669" uly="2324" lrx="3433" lry="2532" xml:id="z_f155v_l014"/>
+      <zone ulx="619" uly="2479" lrx="2377" lry="2650" xml:id="z_f155v_l015"/>
+      <zone ulx="535" uly="2604" lrx="3566" lry="2812" xml:id="z_f155v_l016"/>
+      <zone ulx="684" uly="2747" lrx="3629" lry="2946" xml:id="z_f155v_l017"/>
+      <zone ulx="628" uly="2871" lrx="3507" lry="3083" xml:id="z_f155v_l018"/>
+      <zone ulx="849" uly="3014" lrx="3489" lry="3220" xml:id="z_f155v_l019"/>
+      <zone ulx="638" uly="3129" lrx="3585" lry="3375" xml:id="z_f155v_l020"/>
+      <zone ulx="631" uly="3288" lrx="3520" lry="3515" xml:id="z_f155v_l021"/>
+      <zone ulx="634" uly="3434" lrx="3489" lry="3646" xml:id="z_f155v_l022"/>
+      <zone ulx="634" uly="3565" lrx="3548" lry="3801" xml:id="z_f155v_l023"/>
+      <zone ulx="631" uly="3711" lrx="3486" lry="3960" xml:id="z_f155v_l024"/>
+      <zone ulx="613" uly="3860" lrx="3486" lry="4072" xml:id="z_f155v_l025"/>
+      <zone ulx="638" uly="3994" lrx="3467" lry="4193" xml:id="z_f155v_l026"/>
+      <zone ulx="625" uly="4134" lrx="3535" lry="4368" xml:id="z_f155v_l027"/>
+      <zone ulx="638" uly="4274" lrx="3616" lry="4492" xml:id="z_f155v_l028"/>
+      <zone ulx="625" uly="4430" lrx="3486" lry="4623" xml:id="z_f155v_l029"/>
+      <zone ulx="628" uly="4595" lrx="3526" lry="4834" xml:id="z_f155v_l030"/>
+      <zone ulx="3722" uly="3490" lrx="3887" lry="3593" xml:id="z_f155v_l031"/>
+      <zone ulx="3713" uly="3621" lrx="3878" lry="3711" xml:id="z_f155v_l032"/>
+      <zone ulx="3710" uly="3708" lrx="3881" lry="3860" xml:id="z_f155v_l033"/>
+      <zone ulx="3722" uly="3879" lrx="3850" lry="3979" xml:id="z_f155v_l034"/>
+      <zone ulx="3725" uly="4010" lrx="3881" lry="4140" xml:id="z_f155v_l035"/>
+      <zone ulx="3710" uly="4153" lrx="3812" lry="4268" xml:id="z_f155v_l036"/>
+      <zone ulx="3703" uly="4284" lrx="3884" lry="4408" xml:id="z_f155v_l037"/>
+      <zone ulx="3703" uly="4396" lrx="3887" lry="4539" xml:id="z_f155v_l038"/>
+      <zone ulx="3697" uly="4539" lrx="3884" lry="4676" xml:id="z_f155v_l039"/>
+      <zone ulx="3750" uly="1770" lrx="3884" lry="1876" xml:id="z_f155v_l040"/>
+      <zone ulx="3750" uly="1907" lrx="3878" lry="2034" xml:id="z_f155v_l041"/>
+      <zone ulx="3741" uly="2031" lrx="3887" lry="2134" xml:id="z_f155v_l042"/>
+      <zone ulx="3744" uly="2174" lrx="3884" lry="2317" xml:id="z_f155v_l043"/>
+      <zone ulx="3744" uly="2314" lrx="3859" lry="2436" xml:id="z_f155v_l044"/>
+      <zone ulx="3741" uly="2454" lrx="3881" lry="2613" xml:id="z_f155v_l045"/>
+      <zone ulx="3750" uly="2582" lrx="3822" lry="2787" xml:id="z_f155v_l046"/>
+      <zone ulx="3744" uly="2765" lrx="3800" lry="2871" xml:id="z_f155v_l047"/>
+      <zone ulx="3753" uly="2890" lrx="3875" lry="3020" xml:id="z_f155v_l048"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f155v_l001" xml:id="catmus_f155v_l001"/>
+          <seg type="raw_unreviewed">uon dee uñ em iglich̃ d uon d̃ mit des erstm̃ ist geparii sol</seg>
+          <lb facs="#z_f155v_l002" xml:id="catmus_f155v_l002"/>
+          <seg type="raw_unreviewed">heilig heissen uon got und do sy onch prochten daz oppffenals</seg>
+          <lb facs="#z_f155v_l003" xml:id="catmus_f155v_l003"/>
+          <seg type="raw_unreviewed">es geschrbid̃ was and̾ ee Giou eñtal tairben und eiren</seg>
+          <lb facs="#z_f155v_l004" xml:id="catmus_f155v_l004"/>
+          <seg type="raw_unreviewed">hũnel d̾ tabũ I las ouch enii ciẽsoh do guistłmi dHyer</seg>
+          <lb facs="#z_f155v_l005" xml:id="catmus_f155v_l005"/>
+          <seg type="raw_unreviewed">Symco bnd S mesct̃i uous gerecht und forcht got und ueart</seg>
+          <lb facs="#z_f155v_l006" xml:id="catmus_f155v_l006"/>
+          <seg type="raw_unreviewed">des troses iscl und wab mit cym d̃ heilig geist uũi emphig̃</seg>
+          <lb facs="#z_f155v_l007" xml:id="catmus_f155v_l007"/>
+          <seg type="raw_unreviewed">di autirt rom heiligũ geiso das et nicht erstub ex racti</seg>
+          <lb facs="#z_f155v_l008" xml:id="catmus_f155v_l008"/>
+          <seg type="raw_unreviewed">den casten des hñ uud kañ ã de geist deshie in de templ</seg>
+          <lb facs="#z_f155v_l009" xml:id="catmus_f155v_l009"/>
+          <seg type="raw_unreviewed">uud do sy In do furcũ das Ruit Ihm̃ seỹ freuut das se</seg>
+          <lb facs="#z_f155v_l010" xml:id="catmus_f155v_l010"/>
+          <seg type="raw_unreviewed">uiub yn tatũ noch d̃ grõheit d̾ eec donam in dyuieoni</seg>
+          <lb facs="#z_f155v_l011" xml:id="catmus_f155v_l011"/>
+          <seg type="raw_unreviewed">ĩ sem aruy und lobt got uiũ sp̃ch nu lo hue dem Ruecht</seg>
+          <lb facs="#z_f155v_l012" xml:id="catmus_f155v_l012"/>
+          <seg type="raw_unreviewed">nech dẽ wort in frid und̾ mem auge habũ gesehin dem</seg>
+          <lb facs="#z_f155v_l013" xml:id="catmus_f155v_l013"/>
+          <seg type="raw_unreviewed">heyledas du gemacht hast qu augosicht aller uolt Eyn</seg>
+          <lb facs="#z_f155v_l014" xml:id="catmus_f155v_l014"/>
+          <seg type="raw_unreviewed">offyus liclit de heyden und em glori deius folles ist̾</seg>
+          <lb facs="#z_f155v_l015" xml:id="catmus_f155v_l015"/>
+          <seg type="raw_unreviewed">In die sc̃ Iohiũs upt̃e aluce pͥmo</seg>
+          <lb facs="#z_f155v_l016" xml:id="catmus_f155v_l016"/>
+          <seg type="raw_unreviewed">s y geit Clyzabeth do sy gepern solb̃ was etfulletibud ge</seg>
+          <lb facs="#z_f155v_l017" xml:id="catmus_f155v_l017"/>
+          <seg type="raw_unreviewed">par en son cdo daz ir nochge parõn und̾ yr frerut uoruo ⁊</seg>
+          <lb facs="#z_f155v_l018" xml:id="catmus_f155v_l018"/>
+          <seg type="raw_unreviewed">onomiẽ das unsir lt seui parnũq hett begangẽ des sag̃te</seg>
+          <lb facs="#z_f155v_l019" xml:id="catmus_f155v_l019"/>
+          <seg type="raw_unreviewed">in quod uicd an dẽ achten tag bomẽ sy ⁊ubesueydũ dus</seg>
+          <lb facs="#z_f155v_l020" xml:id="catmus_f155v_l020"/>
+          <seg type="raw_unreviewed">Ruit und hiessen In nacħ seim uãt Iachalas budsem nũt</seg>
+          <lb facs="#z_f155v_l021" xml:id="catmus_f155v_l021"/>
+          <seg type="raw_unreviewed">aner̾it furuais prechund nicht Er sol heissen Iohannes</seg>
+          <lb facs="#z_f155v_l022" xml:id="catmus_f155v_l022"/>
+          <seg type="raw_unreviewed">und fy sprochũ Iu yr m ist nyenãt ĩ deam geslecht der</seg>
+          <lb facs="#z_f155v_l023" xml:id="catmus_f155v_l023"/>
+          <seg type="raw_unreviewed">also heisset. und uoiukt seyu ual uoie et in hyez neuuen-</seg>
+          <lb facs="#z_f155v_l024" xml:id="catmus_f155v_l024"/>
+          <seg type="raw_unreviewed">und hye ymgebũ ein penzel und schrub Ioluẽs ist sem</seg>
+          <lb facs="#z_f155v_l025" xml:id="catmus_f155v_l025"/>
+          <seg type="raw_unreviewed">nam und̃ uounds sy des all do Iuhãt mas ausf getan</seg>
+          <lb facs="#z_f155v_l026" xml:id="catmus_f155v_l026"/>
+          <seg type="raw_unreviewed">sem mũd und sem trug und̃ lobt got das d ayscheñ sem</seg>
+          <lb facs="#z_f155v_l027" xml:id="catmus_f155v_l027"/>
+          <seg type="raw_unreviewed">nochparĩ uud erschallen alle dise wort ĩ d̾ Indischeit</seg>
+          <lb facs="#z_f155v_l028" xml:id="catmus_f155v_l028"/>
+          <seg type="raw_unreviewed">uud alle dy das uornome dy betrrichen ĩ yre hczen sprech-</seg>
+          <lb facs="#z_f155v_l029" xml:id="catmus_f155v_l029"/>
+          <seg type="raw_unreviewed">uico Reendirent ir das dis kunt crerd̃ ileich dy guad</seg>
+          <lb facs="#z_f155v_l030" xml:id="catmus_f155v_l030"/>
+          <seg type="raw_unreviewed">des helligẽ geists ist nut Im uud y achalas som Uat went</seg>
+          <lb facs="#z_f155v_l031" xml:id="catmus_f155v_l031"/>
+          <seg type="raw_unreviewed">Doui</seg>
+          <lb facs="#z_f155v_l032" xml:id="catmus_f155v_l032"/>
+          <seg type="raw_unreviewed">quir</seg>
+          <lb facs="#z_f155v_l033" xml:id="catmus_f155v_l033"/>
+          <seg type="raw_unreviewed">mest</seg>
+          <lb facs="#z_f155v_l034" xml:id="catmus_f155v_l034"/>
+          <seg type="raw_unreviewed">quct</seg>
+          <lb facs="#z_f155v_l035" xml:id="catmus_f155v_l035"/>
+          <seg type="raw_unreviewed">th ue</seg>
+          <lb facs="#z_f155v_l036" xml:id="catmus_f155v_l036"/>
+          <seg type="raw_unreviewed">ad̾</seg>
+          <lb facs="#z_f155v_l037" xml:id="catmus_f155v_l037"/>
+          <seg type="raw_unreviewed">Surct</seg>
+          <lb facs="#z_f155v_l038" xml:id="catmus_f155v_l038"/>
+          <seg type="raw_unreviewed">uud.</seg>
+          <lb facs="#z_f155v_l039" xml:id="catmus_f155v_l039"/>
+          <seg type="raw_unreviewed">Iui du</seg>
+          <lb facs="#z_f155v_l040" xml:id="catmus_f155v_l040"/>
+          <seg type="raw_unreviewed">won</seg>
+          <lb facs="#z_f155v_l041" xml:id="catmus_f155v_l041"/>
+          <seg type="raw_unreviewed">sons</seg>
+          <lb facs="#z_f155v_l042" xml:id="catmus_f155v_l042"/>
+          <seg type="raw_unreviewed">mor</seg>
+          <lb facs="#z_f155v_l043" xml:id="catmus_f155v_l043"/>
+          <seg type="raw_unreviewed">suud</seg>
+          <lb facs="#z_f155v_l044" xml:id="catmus_f155v_l044"/>
+          <seg type="raw_unreviewed">Su</seg>
+          <lb facs="#z_f155v_l045" xml:id="catmus_f155v_l045"/>
+          <seg type="raw_unreviewed">hait</seg>
+          <lb facs="#z_f155v_l046" xml:id="catmus_f155v_l046"/>
+          <seg type="raw_unreviewed">Nl</seg>
+          <lb facs="#z_f155v_l047" xml:id="catmus_f155v_l047"/>
+          <seg type="raw_unreviewed">de</seg>
+          <lb facs="#z_f155v_l048" xml:id="catmus_f155v_l048"/>
+          <seg type="raw_unreviewed">ual</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f155v_l001" xml:id="medusa_f155v_l001"/>
+          <seg type="raw_unreviewed">von d̄ ee wid͛ ein iglich͛ d̄ von d̄ mut des erstin ist geporn̄ sol</seg>
+          <lb facs="#z_f155v_l002" xml:id="medusa_f155v_l002"/>
+          <seg type="raw_unreviewed">heilig heissen von got vnd do sy ouch prochten daz oppffer als</seg>
+          <lb facs="#z_f155v_l003" xml:id="medusa_f155v_l003"/>
+          <seg type="raw_unreviewed">es geschribn̄ was an d̄ ee Etwu turtltawben̄ und zwey</seg>
+          <lb facs="#z_f155v_l004" xml:id="medusa_f155v_l004"/>
+          <seg type="raw_unreviewed">hümel d͛ tawbā / Es was ouch ein mēsch do zu Irl̃n d̶ h̶y̶e̶z̶</seg>
+          <lb facs="#z_f155v_l005" xml:id="medusa_f155v_l005"/>
+          <seg type="raw_unreviewed">Symō bud d̄ mẽsch was gerecht bud forcht got und wart</seg>
+          <lb facs="#z_f155v_l006" xml:id="medusa_f155v_l006"/>
+          <seg type="raw_unreviewed">des trostes ist. vnd was mit d͛ heilig geist · vn̄ emphig</seg>
+          <lb facs="#z_f155v_l007" xml:id="medusa_f155v_l007"/>
+          <seg type="raw_unreviewed">dy antẃt vom heiligē geist · das er nicht erstuͤrb · er sach</seg>
+          <lb facs="#z_f155v_l008" xml:id="medusa_f155v_l008"/>
+          <seg type="raw_unreviewed">den cristen des huͤ vnd kam ī dē geist des h̶i̶e̶ in dē templ</seg>
+          <lb facs="#z_f155v_l009" xml:id="medusa_f155v_l009"/>
+          <seg type="raw_unreviewed">und do sy in do furdn̄ das kint jhm̄ seȳ fremit / das sy</seg>
+          <lb facs="#z_f155v_l010" xml:id="medusa_f155v_l010"/>
+          <seg type="raw_unreviewed">umb yn taͤtn̄ noch d͛ gw͠oheit d͛ ee do nam jn Symeon</seg>
+          <lb facs="#z_f155v_l011" xml:id="medusa_f155v_l011"/>
+          <seg type="raw_unreviewed">ī sein arm. vnd lobt got und sp͛ch im lo h̶r̶ dem knecht</seg>
+          <lb facs="#z_f155v_l012" xml:id="medusa_f155v_l012"/>
+          <seg type="raw_unreviewed">noch dē wort in frid / vnd mein augē habn̄ gesehin dem</seg>
+          <lb facs="#z_f155v_l013" xml:id="medusa_f155v_l013"/>
+          <seg type="raw_unreviewed">heyledas du gemacht hast zu angesicht aller wlt Eyn</seg>
+          <lb facs="#z_f155v_l014" xml:id="medusa_f155v_l014"/>
+          <seg type="raw_unreviewed">offyus licht dē heyden vnd ein glori deins folks ist</seg>
+          <lb facs="#z_f155v_l015" xml:id="medusa_f155v_l015"/>
+          <seg type="raw_unreviewed">In die sancti Iohannis Baptiste et luce primo</seg>
+          <lb facs="#z_f155v_l016" xml:id="medusa_f155v_l016"/>
+          <seg type="raw_unreviewed">Dy czeit Elizabeth do sy geporn solt was erfüllet · vnd ge-</seg>
+          <lb facs="#z_f155v_l017" xml:id="medusa_f155v_l017"/>
+          <seg type="raw_unreviewed">par ein son · do daz ir noch gepaw̄n̄ vnd yr frownt voruo-</seg>
+          <lb facs="#z_f155v_l018" xml:id="medusa_f155v_l018"/>
+          <seg type="raw_unreviewed">nemen̄ das vnẜr h͛r sein yarmuug hett begangē des sagtē</seg>
+          <lb facs="#z_f155v_l019" xml:id="medusa_f155v_l019"/>
+          <seg type="raw_unreviewed">in gnad und an dē achten tag komē sy zu besueydū das</seg>
+          <lb facs="#z_f155v_l020" xml:id="medusa_f155v_l020"/>
+          <seg type="raw_unreviewed">kint · vnd hiessen jn nach sein vater Zacharias vnd sein mut</seg>
+          <lb facs="#z_f155v_l021" xml:id="medusa_f155v_l021"/>
+          <seg type="raw_unreviewed">antẅrt furnams sprechund nicht Er sol heissen Johannes</seg>
+          <lb facs="#z_f155v_l022" xml:id="medusa_f155v_l022"/>
+          <seg type="raw_unreviewed">und sy sprochē zu yr nu ist nyemāt ĩ dein geslecht der</seg>
+          <lb facs="#z_f155v_l023" xml:id="medusa_f155v_l023"/>
+          <seg type="raw_unreviewed">also heisset und wuͤkt seyn valt wie er in hyez nenmen</seg>
+          <lb facs="#z_f155v_l024" xml:id="medusa_f155v_l024"/>
+          <seg type="raw_unreviewed">und hyer ym gebn̄ ein pruzel und schrib Johannes ist sein</seg>
+          <lb facs="#z_f155v_l025" xml:id="medusa_f155v_l025"/>
+          <seg type="raw_unreviewed">nam und wunde sy des all So zuha͛t was auff getän</seg>
+          <lb facs="#z_f155v_l026" xml:id="medusa_f155v_l026"/>
+          <seg type="raw_unreviewed">sein muͦd · vnd̄ sein tzuͤg · vnd̄ lobt got · das d͛ ayschen̄ sein</seg>
+          <lb facs="#z_f155v_l027" xml:id="medusa_f155v_l027"/>
+          <seg type="raw_unreviewed">nochparm̄ · und erschallen alle dise wort ĩ d͛ judischeit</seg>
+          <lb facs="#z_f155v_l028" xml:id="medusa_f155v_l028"/>
+          <seg type="raw_unreviewed">vnd alle dy das vornomē dy betrachtn̄ ĩ yrē h͛czen sprech-</seg>
+          <lb facs="#z_f155v_l029" xml:id="medusa_f155v_l029"/>
+          <seg type="raw_unreviewed">und . wen weut ir das dis kint werd Weich dy guad</seg>
+          <lb facs="#z_f155v_l030" xml:id="medusa_f155v_l030"/>
+          <seg type="raw_unreviewed">des heiligē geists iſt mit Jm vnd zachalas ſein vat͛ wort</seg>
+          <lb facs="#z_f155v_l031" xml:id="medusa_f155v_l031"/>
+          <seg type="raw_unreviewed">deru</seg>
+          <lb facs="#z_f155v_l032" xml:id="medusa_f155v_l032"/>
+          <seg type="raw_unreviewed">mir</seg>
+          <lb facs="#z_f155v_l033" xml:id="medusa_f155v_l033"/>
+          <seg type="raw_unreviewed">most</seg>
+          <lb facs="#z_f155v_l034" xml:id="medusa_f155v_l034"/>
+          <seg type="raw_unreviewed">dutch</seg>
+          <lb facs="#z_f155v_l035" xml:id="medusa_f155v_l035"/>
+          <seg type="raw_unreviewed">ch von</seg>
+          <lb facs="#z_f155v_l036" xml:id="medusa_f155v_l036"/>
+          <seg type="raw_unreviewed">ad</seg>
+          <lb facs="#z_f155v_l037" xml:id="medusa_f155v_l037"/>
+          <seg type="raw_unreviewed">durct</seg>
+          <lb facs="#z_f155v_l038" xml:id="medusa_f155v_l038"/>
+          <seg type="raw_unreviewed">und</seg>
+          <lb facs="#z_f155v_l039" xml:id="medusa_f155v_l039"/>
+          <seg type="raw_unreviewed">In die</seg>
+          <lb facs="#z_f155v_l040" xml:id="medusa_f155v_l040"/>
+          <seg type="raw_unreviewed">wort</seg>
+          <lb facs="#z_f155v_l041" xml:id="medusa_f155v_l041"/>
+          <seg type="raw_unreviewed">son.</seg>
+          <lb facs="#z_f155v_l042" xml:id="medusa_f155v_l042"/>
+          <seg type="raw_unreviewed">mo</seg>
+          <lb facs="#z_f155v_l043" xml:id="medusa_f155v_l043"/>
+          <seg type="raw_unreviewed">sund</seg>
+          <lb facs="#z_f155v_l044" xml:id="medusa_f155v_l044"/>
+          <seg type="raw_unreviewed">du</seg>
+          <lb facs="#z_f155v_l045" xml:id="medusa_f155v_l045"/>
+          <seg type="raw_unreviewed">hait</seg>
+          <lb facs="#z_f155v_l046" xml:id="medusa_f155v_l046"/>
+          <seg type="raw_unreviewed">gib</seg>
+          <lb facs="#z_f155v_l047" xml:id="medusa_f155v_l047"/>
+          <seg type="raw_unreviewed">da</seg>
+          <lb facs="#z_f155v_l048" xml:id="medusa_f155v_l048"/>
+          <seg type="raw_unreviewed">was</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f155v_l001 #z_f155v_l002 #z_f155v_l003 #z_f155v_l004 #z_f155v_l005 #z_f155v_l006 #z_f155v_l007 #z_f155v_l008 #z_f155v_l009 #z_f155v_l010 #z_f155v_l011 #z_f155v_l012 #z_f155v_l013 #z_f155v_l014" xml:id="u_155v_001">[---] in der ee: Eyn iglich, der von der muter das erste ist geporen, sol heilig heissen von got. Und das sy auch prochten das oppfer, als es geschriben was in der ee: Eyn [turtel?]tauben und czwey junge tauben. Es was auch eyn mensch zu Ierusalem, der hies Symeon. Und der mensch was gerecht und forcht got und wartet des trosts Is[rae]l. Und was mit ym der heilig geist. Und enphieng dy antwort vom heiligen geist, das er nicht ersturb, er sech den Cristen des herrn. Und kam in dem geist [---] in den tempel. Und do sy yn do furten, das kint Ihesum, seyn freunde, das sy umb yn teten nach der gewonheit der ee, do nam yn Symeon in seyn arm und lobt got und sprach: Nu loß, her, deyn knecht nach deyn wort in frid. Und meyn auge haben gesehen deyn heyl, das du gemacht hast zu angesicht aller welt, eyn offenes licht der heyden und eyn glori deynes volcks Is[rae]l.</p>
+        <note type="editorial" corresp="#u_155v_001" xml:lang="cs">Pokračování z155r. Obětní seznam má čitelnou spojku und; nenahrazuji ji standardní biblickou alternativou nebo. První pojmenování ptáka je nejisté. Freunde přeloženo blízcí, nikoli automaticky rodiče. Zkratka istl je navržena jako Israel; text chvalozpěvu vychází z němčiny v obrazu, nikoli z převzaté české liturgické citace. Počet hrdliček není v obtížném označení bezpečně určen, proto český překlad nepředstírá přesně jednu.</note>
+        <p facs="#z_f155v_l015 #z_f155v_l016 #z_f155v_l017 #z_f155v_l018 #z_f155v_l019 #z_f155v_l020 #z_f155v_l021 #z_f155v_l022 #z_f155v_l023 #z_f155v_l024 #z_f155v_l025 #z_f155v_l026 #z_f155v_l027 #z_f155v_l028 #z_f155v_l029 #z_f155v_l030" xml:id="u_155v_002">In die sancti Iohannis Bapt[iste ---], Luc[as] primo. Dy czeit Elysabeth, do sy geperen solt, was erfullet, und gebar eyn son. Do das ir nachgepaurn und irn freunt vor[n]omen, das unser her seyn parmung het begangen, do sagten sy yr gnade. Und do an den achten tag kamen sy zu besneyden das kint und hiessen yn nach seynem vater Zacharias. Und seyn muter antwort sprechend: Nicht, er sol heissen Iohannes. Und sy sprachen zu yr: Nymant ist in deynem geschlecht, der also heisset. Und winckt seyn vater, wie er yn hies nemen, und hiez ym geben eyn pretzel und schreib: Iohannes ist seyn nam. Und wundert sy des all. Und zuhant wart auffgetan seyn mund und seyn czung und lobet got. Do der schrecken yn [---] und erschullen alle dise wort in der Iudischen [---]. Und alle, dy das vornomen, dy betrachtens in irn herzen sprechend: Wer meynt ir, das des kind werde? [---] dy gnad des heiligen geistes ist mit ym. Und Zacharias seyn vater wart [---].</p>
+        <note type="editorial" corresp="#u_155v_002" xml:lang="cs">Nadpis svatého Jana je částečně zkratkový. Tvar pretzel zde navržen jako psací tabulka podle popsaného úkonu, ne jako jídlo. Okolí posledních vět a zeměpisné označení za Iudischen jsou nejisté; jejich plné známé znění nedoplňuji. U dítěte je navrženo slovo gnad des heiligen geistes podle viditelných tahů, ne předpokládaná formulace ruka Páně. Závěr věty o Zachariášovi pokračuje na156r.</note>
+        <p facs="#z_f155v_l031 #z_f155v_l032 #z_f155v_l033 #z_f155v_l034 #z_f155v_l035 #z_f155v_l036 #z_f155v_l037 #z_f155v_l038 #z_f155v_l039 #z_f155v_l040 #z_f155v_l041 #z_f155v_l042 #z_f155v_l043 #z_f155v_l044 #z_f155v_l045 #z_f155v_l046 #z_f155v_l047 #z_f155v_l048" xml:id="u_155v_003">[---]</p>
+        <note type="editorial" corresp="#u_155v_003" xml:lang="cs">Obraz celé pracovní stránky skutečně otevřen. Segmenty z úplného pravého okraje se nenapojují na hlavní řádky této stránky. Původní HTR zachováno; nejde o úplné rozluštění všech těchto odřezků.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_155v_001">[---] v Zákoně: Každý, kdo se narodí z matky první, má být nazýván svatým Bohu. A aby také přinesli oběť, jak bylo napsáno v Zákoně: [hrdličky?] a dvě mladé holubice. V Jeruzalémě byl také člověk, který se jmenoval Simeon. Byl spravedlivý, bál se Boha a očekával útěchu Izraele. Byl s ním Duch svatý. Od Ducha svatého přijal odpověď, že nezemře, dokud nespatří Krista Páně. Přišel v Duchu [---] do chrámu. Když tam jeho blízcí přivedli dítě Ježíše, aby s ním učinili podle zvyklosti Zákona, vzal je Simeon do náruče, chválil Boha a řekl: Nyní, Pane, propusť svého služebníka podle svého slova v pokoji. Mé oči viděly tvou spásu, kterou jsi připravil před tváří celého světa, zjevné světlo pohanům a slávu svého lidu Izraele.</p>
+        <p corresp="#u_155v_002">Na den svatého Jana Křtitele [---], Lukáš, první [kapitola]. Naplnil se čas Alžbětina porodu a porodila syna. Když její sousedé a přátelé uslyšeli, že jí náš Pán prokázal své milosrdenství, blahopřáli jí. Osmého dne přišli dítě obřezat a nazývali je podle otce Zachariáš. Jeho matka odpověděla: Ne, má se jmenovat Jan. Řekli jí: Nikdo z tvého rodu se tak nejmenuje. Pokynuli jeho otci, jak jej chce nechat pojmenovat. Dal si přinést tabulku a napsal: Jan je jeho jméno. Všichni se tomu divili. Ihned se mu otevřela ústa a jeho jazyk chválil Boha. Zmocnila se jich bázeň [---] a všechny tyto zprávy se roznesly po judském [---]. Všichni, kdo to slyšeli, uvažovali ve svých srdcích: Co myslíte, že z toho dítěte bude? [---] Milost Ducha svatého je s ním. A jeho otec Zachariáš byl [---].</p>
+        <p corresp="#u_155v_003">[Úzké odřezky textu protějšího listu, zde nepřeloženy jako souvislý text.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

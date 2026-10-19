@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 147v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_147v_coordinate; PNG SHA256 43a1da4f15905215e74acf83761deccc660888c2ede93fc0424416faeb31c4b7; archival TIFF SHA256 6225663be3f8732a587071e2870f3d0a612fe762993c3153a10e02a35d300b49; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_147v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#147v"/>
+      <zone ulx="644" uly="535" lrx="3464" lry="706" xml:id="z_f147v_l001"/>
+      <zone ulx="582" uly="659" lrx="3395" lry="833" xml:id="z_f147v_l002"/>
+      <zone ulx="634" uly="799" lrx="3504" lry="955" xml:id="z_f147v_l003"/>
+      <zone ulx="638" uly="924" lrx="3470" lry="1079" xml:id="z_f147v_l004"/>
+      <zone ulx="613" uly="1042" lrx="3408" lry="1256" xml:id="z_f147v_l005"/>
+      <zone ulx="619" uly="1204" lrx="3458" lry="1378" xml:id="z_f147v_l006"/>
+      <zone ulx="613" uly="1350" lrx="3439" lry="1524" xml:id="z_f147v_l007"/>
+      <zone ulx="606" uly="1493" lrx="3411" lry="1642" xml:id="z_f147v_l008"/>
+      <zone ulx="603" uly="1608" lrx="3433" lry="1820" xml:id="z_f147v_l009"/>
+      <zone ulx="610" uly="1748" lrx="3426" lry="1963" xml:id="z_f147v_l010"/>
+      <zone ulx="541" uly="1885" lrx="2390" lry="2112" xml:id="z_f147v_l011"/>
+      <zone ulx="2860" uly="1916" lrx="3383" lry="2109" xml:id="z_f147v_l012"/>
+      <zone ulx="644" uly="2065" lrx="3442" lry="2274" xml:id="z_f147v_l013"/>
+      <zone ulx="622" uly="2215" lrx="3451" lry="2411" xml:id="z_f147v_l014"/>
+      <zone ulx="588" uly="2333" lrx="3423" lry="2541" xml:id="z_f147v_l015"/>
+      <zone ulx="606" uly="2485" lrx="3423" lry="2675" xml:id="z_f147v_l016"/>
+      <zone ulx="594" uly="2622" lrx="3520" lry="2821" xml:id="z_f147v_l017"/>
+      <zone ulx="588" uly="2753" lrx="3470" lry="2943" xml:id="z_f147v_l018"/>
+      <zone ulx="606" uly="2905" lrx="3445" lry="3114" xml:id="z_f147v_l019"/>
+      <zone ulx="582" uly="3058" lrx="3408" lry="3235" xml:id="z_f147v_l020"/>
+      <zone ulx="572" uly="3204" lrx="3408" lry="3391" xml:id="z_f147v_l021"/>
+      <zone ulx="575" uly="3353" lrx="3554" lry="3543" xml:id="z_f147v_l022"/>
+      <zone ulx="554" uly="3481" lrx="3473" lry="3692" xml:id="z_f147v_l023"/>
+      <zone ulx="535" uly="3640" lrx="3464" lry="3842" xml:id="z_f147v_l024"/>
+      <zone ulx="566" uly="3786" lrx="3451" lry="3994" xml:id="z_f147v_l025"/>
+      <zone ulx="554" uly="3904" lrx="3417" lry="4150" xml:id="z_f147v_l026"/>
+      <zone ulx="557" uly="4050" lrx="3062" lry="4277" xml:id="z_f147v_l027"/>
+      <zone ulx="557" uly="4206" lrx="2978" lry="4399" xml:id="z_f147v_l028"/>
+      <zone ulx="750" uly="4336" lrx="3436" lry="4557" xml:id="z_f147v_l029"/>
+      <zone ulx="762" uly="4492" lrx="3445" lry="4679" xml:id="z_f147v_l030"/>
+      <zone ulx="550" uly="4620" lrx="3454" lry="4890" xml:id="z_f147v_l031"/>
+      <zone ulx="3710" uly="2152" lrx="3875" lry="2252" xml:id="z_f147v_l032"/>
+      <zone ulx="3710" uly="2240" lrx="3884" lry="2389" xml:id="z_f147v_l033"/>
+      <zone ulx="3703" uly="2383" lrx="3875" lry="2557" xml:id="z_f147v_l034"/>
+      <zone ulx="3707" uly="2513" lrx="3878" lry="2669" xml:id="z_f147v_l035"/>
+      <zone ulx="3703" uly="2656" lrx="3868" lry="2809" xml:id="z_f147v_l036"/>
+      <zone ulx="3691" uly="2803" lrx="3884" lry="2952" xml:id="z_f147v_l037"/>
+      <zone ulx="3691" uly="2933" lrx="3887" lry="3095" xml:id="z_f147v_l038"/>
+      <zone ulx="3707" uly="3083" lrx="3887" lry="3241" xml:id="z_f147v_l039"/>
+      <zone ulx="3703" uly="3235" lrx="3884" lry="3344" xml:id="z_f147v_l040"/>
+      <zone ulx="3685" uly="3322" lrx="3881" lry="3459" xml:id="z_f147v_l041"/>
+      <zone ulx="3672" uly="3615" lrx="3868" lry="3780" xml:id="z_f147v_l042"/>
+      <zone ulx="3666" uly="3733" lrx="3890" lry="3885" xml:id="z_f147v_l043"/>
+      <zone ulx="3663" uly="3845" lrx="3878" lry="4000" xml:id="z_f147v_l044"/>
+      <zone ulx="3654" uly="4000" lrx="3887" lry="4156" xml:id="z_f147v_l045"/>
+      <zone ulx="3657" uly="4122" lrx="3875" lry="4280" xml:id="z_f147v_l046"/>
+      <zone ulx="3741" uly="4256" lrx="3871" lry="4455" xml:id="z_f147v_l047"/>
+      <zone ulx="3663" uly="4433" lrx="3881" lry="4576" xml:id="z_f147v_l048"/>
+      <zone ulx="3663" uly="4548" lrx="3875" lry="4728" xml:id="z_f147v_l049"/>
+      <zone ulx="3654" uly="4666" lrx="3812" lry="4853" xml:id="z_f147v_l050"/>
+      <zone ulx="3738" uly="519" lrx="3878" lry="672" xml:id="z_f147v_l051"/>
+      <zone ulx="3759" uly="715" lrx="3850" lry="805" xml:id="z_f147v_l052"/>
+      <zone ulx="3747" uly="790" lrx="3856" lry="920" xml:id="z_f147v_l053"/>
+      <zone ulx="3731" uly="933" lrx="3878" lry="1051" xml:id="z_f147v_l054"/>
+      <zone ulx="3735" uly="1036" lrx="3806" lry="1194" xml:id="z_f147v_l055"/>
+      <zone ulx="3747" uly="1372" lrx="3766" lry="1452" xml:id="z_f147v_l056"/>
+      <zone ulx="3719" uly="1885" lrx="3871" lry="2009" xml:id="z_f147v_l057"/>
+      <zone ulx="3722" uly="1981" lrx="3847" lry="2118" xml:id="z_f147v_l058"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f147v_l001" xml:id="catmus_f147v_l001"/>
+          <seg type="raw_unreviewed">inch̃e geĩt das er sem fieuut ist er scet doch uff uud gert</seg>
+          <lb facs="#z_f147v_l002" xml:id="catmus_f147v_l002"/>
+          <seg type="raw_unreviewed">yni durch seud ungestamhait Doie wol er bedarff. Ih</seg>
+          <lb facs="#z_f147v_l003" xml:id="catmus_f147v_l003"/>
+          <seg type="raw_unreviewed">sag auch ench, puct so uo̾t euch̃ gegl sucht und̃ yt fuidet</seg>
+          <lb facs="#z_f147v_l004" xml:id="catmus_f147v_l004"/>
+          <seg type="raw_unreviewed">hlolt so tut mã euch uff Roer put d̾ uyp̃t ccret sucht</seg>
+          <lb facs="#z_f147v_l005" xml:id="catmus_f147v_l005"/>
+          <seg type="raw_unreviewed">d fuidt und de blobladẽ u̾t off getã uleich uud̃</seg>
+          <lb facs="#z_f147v_l006" xml:id="catmus_f147v_l006"/>
+          <seg type="raw_unreviewed">euch put de uat des prots uudgeit um em scym̃e ad</seg>
+          <lb facs="#z_f147v_l007" xml:id="catmus_f147v_l007"/>
+          <seg type="raw_unreviewed">des uisch̃s, uud geit ex ym fur den fessih en slange⁊</seg>
+          <lb facs="#z_f147v_l008" xml:id="catmus_f147v_l008"/>
+          <seg type="raw_unreviewed">ad ay er put des ayes uud perot uni den storpẽr oꝑ</seg>
+          <lb facs="#z_f147v_l009" xml:id="catmus_f147v_l009"/>
+          <seg type="raw_unreviewed">dy posen cħlĩt die gatii gab gebũ exun bidii michels</seg>
+          <lb facs="#z_f147v_l010" xml:id="catmus_f147v_l010"/>
+          <seg type="raw_unreviewed">mereror uat uõ hunel grit de gute geist den die In</seg>
+          <lb facs="#z_f147v_l011" xml:id="catmus_f147v_l011"/>
+          <seg type="raw_unreviewed">In Astensios Recũbentit mt ultio</seg>
+          <lb facs="#z_f147v_l012" xml:id="catmus_f147v_l012"/>
+          <seg type="raw_unreviewed">do pitten</seg>
+          <lb facs="#z_f147v_l013" xml:id="catmus_f147v_l013"/>
+          <seg type="raw_unreviewed">Sd eyleff Iuug̃ sassen pey enrãd Iu Irliñ do erschem</seg>
+          <lb facs="#z_f147v_l014" xml:id="catmus_f147v_l014"/>
+          <seg type="raw_unreviewed">L in Ihus und strasst fy uiub yre ungilaube ⁊ unduin</seg>
+          <lb facs="#z_f147v_l015" xml:id="catmus_f147v_l015"/>
+          <seg type="raw_unreviewed">die herte ns hizen Ramĩ dy In hectẽ gesehũ ersten</seg>
+          <lb facs="#z_f147v_l016" xml:id="catmus_f147v_l016"/>
+          <seg type="raw_unreviewed">uo dẽ tod dy glaubtẽ sem nich̃t und̃ spch zu In Get</seg>
+          <lb facs="#z_f147v_l017" xml:id="catmus_f147v_l017"/>
+          <seg type="raw_unreviewed">⁊̃ alle dy ult uud̃ p̃digget das Ecrangeliũ all creatur</seg>
+          <lb facs="#z_f147v_l018" xml:id="catmus_f147v_l018"/>
+          <seg type="raw_unreviewed">A glaubt und getauist u̾t d̃ u̾t behaldã d abꝰ ncht</seg>
+          <lb facs="#z_f147v_l019" xml:id="catmus_f147v_l019"/>
+          <seg type="raw_unreviewed">glaube d̃ u̾t uordap̃t dise haichũ folgẽt den diedo</seg>
+          <lb facs="#z_f147v_l020" xml:id="catmus_f147v_l020"/>
+          <seg type="raw_unreviewed">glaubẽt, dy io̾fent die tersl ausĩ meynie nouẽ dy</seg>
+          <lb facs="#z_f147v_l021" xml:id="catmus_f147v_l021"/>
+          <seg type="raw_unreviewed">redũt uit nerõe gũge̾, dy habũt die sliug auffuñt</seg>
+          <lb facs="#z_f147v_l022" xml:id="catmus_f147v_l022"/>
+          <seg type="raw_unreviewed">d̾ haut , uud ap sy ichts codlichis truub̾ẽ das schat Innicht</seg>
+          <lb facs="#z_f147v_l023" xml:id="catmus_f147v_l023"/>
+          <seg type="raw_unreviewed">Auff dy sichñ legũt sy dis hent und bodent gefut und</seg>
+          <lb facs="#z_f147v_l024" xml:id="catmus_f147v_l024"/>
+          <seg type="raw_unreviewed">uiẜ h̾re Ihũs doruoch und ex gerett int yn/ do wart</seg>
+          <lb facs="#z_f147v_l025" xml:id="catmus_f147v_l025"/>
+          <seg type="raw_unreviewed">er geuonie in dõ himel, und̃ sicc iu d̃ gesem gotes dy</seg>
+          <lb facs="#z_f147v_l026" xml:id="catmus_f147v_l026"/>
+          <seg type="raw_unreviewed">wordũ p̃dige allenchabbũ unt d hilfs unfs hũ d̾ yri</seg>
+          <lb facs="#z_f147v_l027" xml:id="catmus_f147v_l027"/>
+          <seg type="raw_unreviewed">redbestate unt gaichũ dy do uach folgten-</seg>
+          <lb facs="#z_f147v_l028" xml:id="catmus_f147v_l028"/>
+          <seg type="raw_unreviewed">Dinca Infra astensib Cã ueuit paclitꝰ Io prͭ.</seg>
+          <lb facs="#z_f147v_l029" xml:id="catmus_f147v_l029"/>
+          <seg type="raw_unreviewed">hũs spch iu sem imuq̃n do d̾ trestlich geist bompt</seg>
+          <lb facs="#z_f147v_l030" xml:id="catmus_f147v_l030"/>
+          <seg type="raw_unreviewed">de icti euchsend uõ dẽ ual dẽ geist d Barhait. d̾</seg>
+          <lb facs="#z_f147v_l031" xml:id="catmus_f147v_l031"/>
+          <seg type="raw_unreviewed">do Rop̃t uo uat d̃ aut sagñ uichũd uon auir und ee. wt</seg>
+          <lb facs="#z_f147v_l032" xml:id="catmus_f147v_l032"/>
+          <seg type="raw_unreviewed">uon</seg>
+          <lb facs="#z_f147v_l033" xml:id="catmus_f147v_l033"/>
+          <seg type="raw_unreviewed">ReRCO</seg>
+          <lb facs="#z_f147v_l034" xml:id="catmus_f147v_l034"/>
+          <seg type="raw_unreviewed">helig</seg>
+          <lb facs="#z_f147v_l035" xml:id="catmus_f147v_l035"/>
+          <seg type="raw_unreviewed">Sler</seg>
+          <lb facs="#z_f147v_l036" xml:id="catmus_f147v_l036"/>
+          <seg type="raw_unreviewed">Ut sa</seg>
+          <lb facs="#z_f147v_l037" xml:id="catmus_f147v_l037"/>
+          <seg type="raw_unreviewed">Nicłst</seg>
+          <lb facs="#z_f147v_l038" xml:id="catmus_f147v_l038"/>
+          <seg type="raw_unreviewed">noche</seg>
+          <lb facs="#z_f147v_l039" xml:id="catmus_f147v_l039"/>
+          <seg type="raw_unreviewed">rage</seg>
+          <lb facs="#z_f147v_l040" xml:id="catmus_f147v_l040"/>
+          <seg type="raw_unreviewed">so ue</seg>
+          <lb facs="#z_f147v_l041" xml:id="catmus_f147v_l041"/>
+          <seg type="raw_unreviewed">ist i</seg>
+          <lb facs="#z_f147v_l042" xml:id="catmus_f147v_l042"/>
+          <seg type="raw_unreviewed">euch</seg>
+          <lb facs="#z_f147v_l043" xml:id="catmus_f147v_l043"/>
+          <seg type="raw_unreviewed">hat iue</seg>
+          <lb facs="#z_f147v_l044" xml:id="catmus_f147v_l044"/>
+          <seg type="raw_unreviewed">niyue</seg>
+          <lb facs="#z_f147v_l045" xml:id="catmus_f147v_l045"/>
+          <seg type="raw_unreviewed">Euita</seg>
+          <lb facs="#z_f147v_l046" xml:id="catmus_f147v_l046"/>
+          <seg type="raw_unreviewed">Suĩcael</seg>
+          <lb facs="#z_f147v_l047" xml:id="catmus_f147v_l047"/>
+          <seg type="raw_unreviewed">hls</seg>
+          <lb facs="#z_f147v_l048" xml:id="catmus_f147v_l048"/>
+          <seg type="raw_unreviewed">Lgeth</seg>
+          <lb facs="#z_f147v_l049" xml:id="catmus_f147v_l049"/>
+          <seg type="raw_unreviewed">uoitse</seg>
+          <lb facs="#z_f147v_l050" xml:id="catmus_f147v_l050"/>
+          <seg type="raw_unreviewed">d lag</seg>
+          <lb facs="#z_f147v_l051" xml:id="catmus_f147v_l051"/>
+          <seg type="raw_unreviewed">heue</seg>
+          <lb facs="#z_f147v_l052" xml:id="catmus_f147v_l052"/>
+          <seg type="raw_unreviewed">sb̾</seg>
+          <lb facs="#z_f147v_l053" xml:id="catmus_f147v_l053"/>
+          <seg type="raw_unreviewed">eucl</seg>
+          <lb facs="#z_f147v_l054" xml:id="catmus_f147v_l054"/>
+          <seg type="raw_unreviewed">wer.</seg>
+          <lb facs="#z_f147v_l055" xml:id="catmus_f147v_l055"/>
+          <seg type="raw_unreviewed">da</seg>
+          <lb facs="#z_f147v_l056" xml:id="catmus_f147v_l056"/>
+          <seg type="raw_unreviewed">b</seg>
+          <lb facs="#z_f147v_l057" xml:id="catmus_f147v_l057"/>
+          <seg type="raw_unreviewed">qcrai</seg>
+          <lb facs="#z_f147v_l058" xml:id="catmus_f147v_l058"/>
+          <seg type="raw_unreviewed">8 be</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f147v_l001" xml:id="medusa_f147v_l001"/>
+          <seg type="raw_unreviewed">nicht get das er sein friunt ist er stet doch uff und gett</seg>
+          <lb facs="#z_f147v_l002" xml:id="medusa_f147v_l002"/>
+          <seg type="raw_unreviewed">ym durch send ungesuͤnkhait · Wie wol er bedarff · Ich</seg>
+          <lb facs="#z_f147v_l003" xml:id="medusa_f147v_l003"/>
+          <seg type="raw_unreviewed">sag auch euch pitt so w͛t euch geg͛sucht und yr fundet</seg>
+          <lb facs="#z_f147v_l004" xml:id="medusa_f147v_l004"/>
+          <seg type="raw_unreviewed">klokt so tut mā euch uff / wer pitt d͛ nypt wer sucht</seg>
+          <lb facs="#z_f147v_l005" xml:id="medusa_f147v_l005"/>
+          <seg type="raw_unreviewed">d̃ findet vnd dē klobkūdē w͛t uff getā We͛lich und</seg>
+          <lb facs="#z_f147v_l006" xml:id="medusa_f147v_l006"/>
+          <seg type="raw_unreviewed">ouch pitt dē vat͛ des prots vnd geit ym ein stym̄e ad͛</seg>
+          <lb facs="#z_f147v_l007" xml:id="medusa_f147v_l007"/>
+          <seg type="raw_unreviewed">des vischs · und gott er ym fúr den fisch ein slange</seg>
+          <lb facs="#z_f147v_l008" xml:id="medusa_f147v_l008"/>
+          <seg type="raw_unreviewed">ad aper pit des ayes und pewt ym den scorpẽ op</seg>
+          <lb facs="#z_f147v_l009" xml:id="medusa_f147v_l009"/>
+          <seg type="raw_unreviewed">dy posen chür die gaten gab gebn̄ ewn̄ kindh̄ Michels</seg>
+          <lb facs="#z_f147v_l010" xml:id="medusa_f147v_l010"/>
+          <seg type="raw_unreviewed">mer ew̃r vater vō him̄el getr dē guͦtē geist den die sy</seg>
+          <lb facs="#z_f147v_l011" xml:id="medusa_f147v_l011"/>
+          <seg type="raw_unreviewed">In Ascensionem Recumbentibus ante ultimo</seg>
+          <lb facs="#z_f147v_l012" xml:id="medusa_f147v_l012"/>
+          <seg type="raw_unreviewed">do pitten</seg>
+          <lb facs="#z_f147v_l013" xml:id="medusa_f147v_l013"/>
+          <seg type="raw_unreviewed">Do eybess jung͛ sassen pey en̄ad͛ zu irhin̄ · do erschein</seg>
+          <lb facs="#z_f147v_l014" xml:id="medusa_f147v_l014"/>
+          <seg type="raw_unreviewed">jn jhūs vnd straͮfft sy umb yrē unglaubē · vnd un</seg>
+          <lb facs="#z_f147v_l015" xml:id="medusa_f147v_l015"/>
+          <seg type="raw_unreviewed">die herte irs h͛czen / Wann̄ dy jn hettē gesehen erften</seg>
+          <lb facs="#z_f147v_l016" xml:id="medusa_f147v_l016"/>
+          <seg type="raw_unreviewed">vō dē tod · dy glaubtē sem nicht · vnd sp̃ch zuͤ Jn =Get</seg>
+          <lb facs="#z_f147v_l017" xml:id="medusa_f147v_l017"/>
+          <seg type="raw_unreviewed">ī alle dy w̾lt und p̄diget das Ewangelū ab͛ creatur-</seg>
+          <lb facs="#z_f147v_l018" xml:id="medusa_f147v_l018"/>
+          <seg type="raw_unreviewed">d͛ glaubb und getaufft w̃t d̄ w̃t behaldn̄ d̄ ab͛ nicht</seg>
+          <lb facs="#z_f147v_l019" xml:id="medusa_f147v_l019"/>
+          <seg type="raw_unreviewed">glaubt d̄ w͛t uordap̄t . dise czaichn̄ folgēt den die do</seg>
+          <lb facs="#z_f147v_l020" xml:id="medusa_f147v_l020"/>
+          <seg type="raw_unreviewed">glanbēt . Sy w͛fent die twist aus ī meynē nemē Sy</seg>
+          <lb facs="#z_f147v_l021" xml:id="medusa_f147v_l021"/>
+          <seg type="raw_unreviewed">redūt mit newē c̶z̶u̶g̶e̶. sy habūt die stadt auff mit</seg>
+          <lb facs="#z_f147v_l022" xml:id="medusa_f147v_l022"/>
+          <seg type="raw_unreviewed">d̄ haut · vnd ap sy ichts todlichis trinkē das sohat jn nicht</seg>
+          <lb facs="#z_f147v_l023" xml:id="medusa_f147v_l023"/>
+          <seg type="raw_unreviewed">Auff dy sichn̄ legūt sy die heint und w̶d̶e̶u̶t̶ gefuͤt und</seg>
+          <lb facs="#z_f147v_l024" xml:id="medusa_f147v_l024"/>
+          <seg type="raw_unreviewed">unẜ hie Ihuͤs doruoch · vnd er gerett mit yn · do wart</seg>
+          <lb facs="#z_f147v_l025" xml:id="medusa_f147v_l025"/>
+          <seg type="raw_unreviewed">er genomē in dẽ himel · vnd̄ sitzt zu d͛ czesem gotes Sy</seg>
+          <lb facs="#z_f147v_l026" xml:id="medusa_f147v_l026"/>
+          <seg type="raw_unreviewed">worden p̄digē allenechabbe͛ mit d̶ hilff bufs h͛d d̶ yr-</seg>
+          <lb facs="#z_f147v_l027" xml:id="medusa_f147v_l027"/>
+          <seg type="raw_unreviewed">red bestatt mit czaichn̄ / dy do nach folgten</seg>
+          <lb facs="#z_f147v_l028" xml:id="medusa_f147v_l028"/>
+          <seg type="raw_unreviewed">dominica infra ascensionibus Cui uenit paclicus Io pro.</seg>
+          <lb facs="#z_f147v_l029" xml:id="medusa_f147v_l029"/>
+          <seg type="raw_unreviewed">huͤs sp͛ch zu sein iungn̄ So d̄ tröstlich geist kompt</seg>
+          <lb facs="#z_f147v_l030" xml:id="medusa_f147v_l030"/>
+          <seg type="raw_unreviewed">dē ich euch send vō dē vat͛ dē geist d͛ warhait d͛</seg>
+          <lb facs="#z_f147v_l031" xml:id="medusa_f147v_l031"/>
+          <seg type="raw_unreviewed">do koft vō vaͤt d͛ w͛t sagñ urchñd von mur vnd er w͛t</seg>
+          <lb facs="#z_f147v_l032" xml:id="medusa_f147v_l032"/>
+          <seg type="raw_unreviewed">von</seg>
+          <lb facs="#z_f147v_l033" xml:id="medusa_f147v_l033"/>
+          <seg type="raw_unreviewed">debw</seg>
+          <lb facs="#z_f147v_l034" xml:id="medusa_f147v_l034"/>
+          <seg type="raw_unreviewed">heilig</seg>
+          <lb facs="#z_f147v_l035" xml:id="medusa_f147v_l035"/>
+          <seg type="raw_unreviewed">d̾ lere</seg>
+          <lb facs="#z_f147v_l036" xml:id="medusa_f147v_l036"/>
+          <seg type="raw_unreviewed">wt sa</seg>
+          <lb facs="#z_f147v_l037" xml:id="medusa_f147v_l037"/>
+          <seg type="raw_unreviewed">nicht</seg>
+          <lb facs="#z_f147v_l038" xml:id="medusa_f147v_l038"/>
+          <seg type="raw_unreviewed">noch e</seg>
+          <lb facs="#z_f147v_l039" xml:id="medusa_f147v_l039"/>
+          <seg type="raw_unreviewed">ragt</seg>
+          <lb facs="#z_f147v_l040" xml:id="medusa_f147v_l040"/>
+          <seg type="raw_unreviewed">so we</seg>
+          <lb facs="#z_f147v_l041" xml:id="medusa_f147v_l041"/>
+          <seg type="raw_unreviewed">ist nu</seg>
+          <lb facs="#z_f147v_l042" xml:id="medusa_f147v_l042"/>
+          <seg type="raw_unreviewed">euch</seg>
+          <lb facs="#z_f147v_l043" xml:id="medusa_f147v_l043"/>
+          <seg type="raw_unreviewed">hat mit</seg>
+          <lb facs="#z_f147v_l044" xml:id="medusa_f147v_l044"/>
+          <seg type="raw_unreviewed">Miyue</seg>
+          <lb facs="#z_f147v_l045" xml:id="medusa_f147v_l045"/>
+          <seg type="raw_unreviewed">Tinta</seg>
+          <lb facs="#z_f147v_l046" xml:id="medusa_f147v_l046"/>
+          <seg type="raw_unreviewed">Dominici</seg>
+          <lb facs="#z_f147v_l047" xml:id="medusa_f147v_l047"/>
+          <seg type="raw_unreviewed">hu</seg>
+          <lb facs="#z_f147v_l048" xml:id="medusa_f147v_l048"/>
+          <seg type="raw_unreviewed">get</seg>
+          <lb facs="#z_f147v_l049" xml:id="medusa_f147v_l049"/>
+          <seg type="raw_unreviewed">wirtst</seg>
+          <lb facs="#z_f147v_l050" xml:id="medusa_f147v_l050"/>
+          <seg type="raw_unreviewed">d̃ lag</seg>
+          <lb facs="#z_f147v_l051" xml:id="medusa_f147v_l051"/>
+          <seg type="raw_unreviewed">tzeue</seg>
+          <lb facs="#z_f147v_l052" xml:id="medusa_f147v_l052"/>
+          <seg type="raw_unreviewed">das</seg>
+          <lb facs="#z_f147v_l053" xml:id="medusa_f147v_l053"/>
+          <seg type="raw_unreviewed">euch</seg>
+          <lb facs="#z_f147v_l054" xml:id="medusa_f147v_l054"/>
+          <seg type="raw_unreviewed">wer</seg>
+          <lb facs="#z_f147v_l055" xml:id="medusa_f147v_l055"/>
+          <seg type="raw_unreviewed">da</seg>
+          <lb facs="#z_f147v_l056" xml:id="medusa_f147v_l056"/>
+          <seg type="raw_unreviewed">e</seg>
+          <lb facs="#z_f147v_l057" xml:id="medusa_f147v_l057"/>
+          <seg type="raw_unreviewed">zuͦ yn</seg>
+          <lb facs="#z_f147v_l058" xml:id="medusa_f147v_l058"/>
+          <seg type="raw_unreviewed">d̾ be</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f147v_l001 #z_f147v_l002 #z_f147v_l003 #z_f147v_l004 #z_f147v_l005 #z_f147v_l006 #z_f147v_l007 #z_f147v_l008 #z_f147v_l009 #z_f147v_l010" xml:id="u_147v_001">nicht geit das er sein freunt ist, er stet doch uff und geit im durch sein ungestumhait wie vil er bedarff. Ich sag euch auch: Pitt, so wirt euch gegeben; suecht und ir vindet; klopft, so tut man euch uff. Wer pitt, der nimpt, wer suecht der vindet, und den klopfenden wirt uffgetan. Welcher aus euch pitt den vater des protes und geit im ein stein? Oder des visches, und geit er im fur den visch ein slange? Oder ob er pitt des ayes und peunt im den scorpion? Ob die posen chunnen die guten gab geben ewren kindern, wie vil mer ewr vater von himel geit den guten geist den die in do pitten.</p>
+        <note type="editorial" corresp="#u_147v_001" xml:lang="cs">Rukopisná syntax role otce a prosícího neobratná; překlad zachovává argument bez vložení nové německé věty. Poslední do pitten je samostatný dodatek u rubriky. Konec věty do pitten je samostatný pravý doplněk12, již připojen k odstavci.</note>
+        <p facs="#z_f147v_l011" xml:id="u_147v_002">In Ascensione. Recumbentibus. Marci ultimo.</p>
+        <note type="editorial" corresp="#u_147v_002" xml:lang="cs"> </note>
+        <p facs="#z_f147v_l012" xml:id="u_147v_003">do pitten.</p>
+        <note type="editorial" corresp="#u_147v_003" xml:lang="cs">Závěr předchozí perikopy, nikoli část rubriky; přeložen v jednotce1–10.</note>
+        <p facs="#z_f147v_l013 #z_f147v_l014 #z_f147v_l015 #z_f147v_l016 #z_f147v_l017 #z_f147v_l018 #z_f147v_l019 #z_f147v_l020 #z_f147v_l021 #z_f147v_l022 #z_f147v_l023 #z_f147v_l024 #z_f147v_l025 #z_f147v_l026 #z_f147v_l027" xml:id="u_147v_004">Do eylff iunger sassen pey einander zu tisch, do erscheyn in Ihesus und strafft sy umb iren ungelauben und umb die herte irs herzen, wann die in hetten gesehen erstanden von den toten, die glaubten sein nicht. Und sprach zu in: Get in alle die welt und prediget das ewangelium aller creatur. Der glaubt und getaufft wirt, der wirt behalten; der aber nicht glaubt, der wirt verdampt. Die zeichen folgent den die do glauben: Sy werfen die teuffel aus in meinem namen, sy redent mit neuen zungen, sy habent die schlang auff mit iren henden, und ob sy icht totliches trinken, das schadet in nicht. Uff die siechen legen sy die hend und werdent gesunt. Und nach der herr Ihesus geredt mit in, do wart er genomen in den himel und sitzet zu der rechten gotes. Die wurden predigen allenthalben mit der hilf des herrn, und die wort bestatet mit zeichen die darnach folgten.</p>
+        <note type="editorial" corresp="#u_147v_004" xml:lang="cs">Historické výroky o znameních přeloženy jako náboženský text, ne návod k jednání. Slovesná forma wurden predigen je pracovní četba. </note>
+        <p facs="#z_f147v_l028" xml:id="u_147v_005">Dominica infra Ascensionem. Cum venerit Paraclitus. Iohannis XV.</p>
+        <note type="editorial" corresp="#u_147v_005" xml:lang="cs"> </note>
+        <p facs="#z_f147v_l029 #z_f147v_l030 #z_f147v_l031" xml:id="u_147v_006">Ihesus sprach zu sein iungern: So der trostlich geist kumpt, den ich euch send von dem vater, der geist der warhait, der do kumpt von dem vater, der wirt sagen urkunde von mir. Und ir wirt […]</p>
+        <note type="editorial" corresp="#u_147v_006" xml:lang="cs">Latinský Paraclitus a německý trostlich geist odlišně vyjádřeny i v českých vrstvách. Pokračuje148r. </note>
+        <p facs="#z_f147v_l032 #z_f147v_l033 #z_f147v_l034 #z_f147v_l035 #z_f147v_l036 #z_f147v_l037 #z_f147v_l038 #z_f147v_l039 #z_f147v_l040 #z_f147v_l041 #z_f147v_l042 #z_f147v_l043 #z_f147v_l044 #z_f147v_l045 #z_f147v_l046 #z_f147v_l047 #z_f147v_l048 #z_f147v_l049 #z_f147v_l050 #z_f147v_l051 #z_f147v_l052 #z_f147v_l053 #z_f147v_l054 #z_f147v_l055 #z_f147v_l056 #z_f147v_l057 #z_f147v_l058" xml:id="u_147v_007">[Úzké fragmenty protější strany ve žlábku.]</p>
+        <note type="editorial" corresp="#u_147v_007" xml:lang="cs">Cizí fragmenty vyloučeny podle polohy a nativního obrazu; jejich úplná znaková četba neprovedena.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_147v_001">[…] nedá proto, že je jeho přítelem, přece vstane a pro jeho neodbytnost mu dá, kolik potřebuje. Také vám říkám: Proste a bude vám dáno, hledejte a naleznete, klepejte a bude vám otevřeno. Kdo prosí, přijímá; kdo hledá, nalézá, a klepajícímu se otevře. Kdo z vás prosí otce o chléb a dostane kámen? Nebo o rybu a on mu místo ní dá hada? Nebo prosí o vejce a podá mu štíra? Jestliže zlí umějí dávat dobré dary svým dětem, oč více dá váš nebeský Otec dobrého Ducha těm, kdo jej prosí.</p>
+        <p corresp="#u_147v_002">O Nanebevstoupení. Když stolovali. Marek, poslední kapitola.</p>
+        <p corresp="#u_147v_003">kteří prosí.</p>
+        <p corresp="#u_147v_004">Když jedenáct učedníků sedělo spolu u stolu, zjevil se jim Ježíš a pokáral je pro nevěru a tvrdost jejich srdce, protože nevěřili těm, kdo jej viděli vzkříšeného z mrtvých. Řekl jim: Jděte do celého světa a kažte evangelium všemu stvoření. Kdo věří a bude pokřtěn, bude spasen; kdo však nevěří, bude odsouzen. Ty, kdo věří, provázejí tato znamení: V mém jménu vyhánějí ďábly, mluví novými jazyky, berou hady do rukou, a jestliže vypijí něco smrtícího, neuškodí jim to. Na nemocné vkládají ruce a ti se uzdravují. Když k nim Pán Ježíš domluvil, byl vzat do nebe a sedí po Boží pravici. Šli kázat všude s Pánovou pomocí a potvrzovali slova znameními, která následovala.</p>
+        <p corresp="#u_147v_005">Neděle v době po Nanebevstoupení. Až přijde Utěšitel. Jan XV.</p>
+        <p corresp="#u_147v_006">Ježíš řekl učedníkům: Až přijde Duch útěchy, kterého vám posílám od Otce, Duch pravdy, který přichází od Otce, ten bude o mně vydávat svědectví. A vy budete […].</p>
+        <p corresp="#u_147v_007">[Bez samostatného překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

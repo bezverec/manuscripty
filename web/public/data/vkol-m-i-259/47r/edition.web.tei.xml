@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 47r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Notabilia iocosa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_47r_coordinate; PNG SHA256 0bdcb4b32855bd9ed023f243f2f05d180f1c7f02d54070fb618f58aff3661c60; archival TIFF SHA256 93d16603d76326c14d559e61fb1a562cb73b12444e667364dab853085ddca857; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_47r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#47r"/>
+      <zone ulx="46" uly="606" lrx="342" lry="712" xml:id="z_f47r_l001"/>
+      <zone ulx="59" uly="690" lrx="329" lry="833" xml:id="z_f47r_l002"/>
+      <zone ulx="423" uly="553" lrx="3156" lry="721" xml:id="z_f47r_l003"/>
+      <zone ulx="498" uly="681" lrx="3205" lry="815" xml:id="z_f47r_l004"/>
+      <zone ulx="504" uly="771" lrx="3227" lry="927" xml:id="z_f47r_l005"/>
+      <zone ulx="510" uly="877" lrx="3237" lry="1023" xml:id="z_f47r_l006"/>
+      <zone ulx="510" uly="973" lrx="3314" lry="1123" xml:id="z_f47r_l007"/>
+      <zone ulx="519" uly="1082" lrx="3149" lry="1228" xml:id="z_f47r_l008"/>
+      <zone ulx="498" uly="1188" lrx="3215" lry="1334" xml:id="z_f47r_l009"/>
+      <zone ulx="501" uly="1278" lrx="3271" lry="1440" xml:id="z_f47r_l010"/>
+      <zone ulx="519" uly="1384" lrx="3190" lry="1558" xml:id="z_f47r_l011"/>
+      <zone ulx="510" uly="1496" lrx="3184" lry="1670" xml:id="z_f47r_l012"/>
+      <zone ulx="501" uly="1599" lrx="1848" lry="1782" xml:id="z_f47r_l013"/>
+      <zone ulx="504" uly="1729" lrx="3187" lry="1891" xml:id="z_f47r_l014"/>
+      <zone ulx="507" uly="1844" lrx="3321" lry="1991" xml:id="z_f47r_l015"/>
+      <zone ulx="498" uly="1944" lrx="3187" lry="2093" xml:id="z_f47r_l016"/>
+      <zone ulx="504" uly="2044" lrx="3305" lry="2190" xml:id="z_f47r_l017"/>
+      <zone ulx="513" uly="2131" lrx="3218" lry="2302" xml:id="z_f47r_l018"/>
+      <zone ulx="513" uly="2233" lrx="3190" lry="2392" xml:id="z_f47r_l019"/>
+      <zone ulx="522" uly="2320" lrx="3439" lry="2504" xml:id="z_f47r_l020"/>
+      <zone ulx="513" uly="2429" lrx="3221" lry="2604" xml:id="z_f47r_l021"/>
+      <zone ulx="526" uly="2538" lrx="3230" lry="2703" xml:id="z_f47r_l022"/>
+      <zone ulx="513" uly="2650" lrx="3212" lry="2806" xml:id="z_f47r_l023"/>
+      <zone ulx="582" uly="2762" lrx="3408" lry="2933" xml:id="z_f47r_l024"/>
+      <zone ulx="554" uly="2880" lrx="3243" lry="3033" xml:id="z_f47r_l025"/>
+      <zone ulx="526" uly="2992" lrx="3224" lry="3157" xml:id="z_f47r_l026"/>
+      <zone ulx="519" uly="3101" lrx="3255" lry="3266" xml:id="z_f47r_l027"/>
+      <zone ulx="522" uly="3210" lrx="3308" lry="3388" xml:id="z_f47r_l028"/>
+      <zone ulx="519" uly="3319" lrx="3314" lry="3484" xml:id="z_f47r_l029"/>
+      <zone ulx="513" uly="3437" lrx="3296" lry="3593" xml:id="z_f47r_l030"/>
+      <zone ulx="516" uly="3562" lrx="3246" lry="3696" xml:id="z_f47r_l031"/>
+      <zone ulx="491" uly="3630" lrx="563" lry="3798" xml:id="z_f47r_l032"/>
+      <zone ulx="606" uly="3661" lrx="3258" lry="3811" xml:id="z_f47r_l033"/>
+      <zone ulx="513" uly="3767" lrx="3283" lry="3916" xml:id="z_f47r_l034"/>
+      <zone ulx="498" uly="3864" lrx="3389" lry="4019" xml:id="z_f47r_l035"/>
+      <zone ulx="516" uly="3963" lrx="3504" lry="4109" xml:id="z_f47r_l036"/>
+      <zone ulx="516" uly="4060" lrx="3504" lry="4212" xml:id="z_f47r_l037"/>
+      <zone ulx="522" uly="4159" lrx="3383" lry="4305" xml:id="z_f47r_l038"/>
+      <zone ulx="504" uly="4252" lrx="3364" lry="4414" xml:id="z_f47r_l039"/>
+      <zone ulx="488" uly="4358" lrx="2981" lry="4551" xml:id="z_f47r_l040"/>
+      <zone ulx="93" uly="920" lrx="342" lry="1017" xml:id="z_f47r_l041"/>
+      <zone ulx="93" uly="1636" lrx="326" lry="1764" xml:id="z_f47r_l042"/>
+      <zone ulx="105" uly="1879" lrx="326" lry="1988" xml:id="z_f47r_l043"/>
+      <zone ulx="205" uly="1963" lrx="220" lry="2100" xml:id="z_f47r_l044"/>
+      <zone ulx="205" uly="2535" lrx="333" lry="2635" xml:id="z_f47r_l045"/>
+      <zone ulx="127" uly="2803" lrx="333" lry="2930" xml:id="z_f47r_l046"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f47r_l001" xml:id="catmus_f47r_l001"/>
+          <seg type="raw_unreviewed">piret Et sin</seg>
+          <lb facs="#z_f47r_l002" xml:id="catmus_f47r_l002"/>
+          <seg type="raw_unreviewed"> Xxue. s</seg>
+          <lb facs="#z_f47r_l003" xml:id="catmus_f47r_l003"/>
+          <seg type="raw_unreviewed">It bũ mles qũs fuit ĩꝓbũ uiꝵ et dᵗ st adhrmũ q̃ p̾ud</seg>
+          <lb facs="#z_f47r_l004" xml:id="catmus_f47r_l004"/>
+          <seg type="raw_unreviewed">fuit magrꝰ rapter itunũn/ nõ aplĩdio lilũ hũsset unũ</seg>
+          <lb facs="#z_f47r_l005" xml:id="catmus_f47r_l005"/>
+          <seg type="raw_unreviewed">sditissiͣ Icasceliũ ꝙulcuit pẽs ronĩ/ qd ñłlũꝰ qre patuit tãd</seg>
+          <lb facs="#z_f47r_l006" xml:id="catmus_f47r_l006"/>
+          <seg type="raw_unreviewed">suit s̃ ꝯsultũ i qᵈ abi̾et istũ tirrauũi / isilu / ir qrus seraciͭ</seg>
+          <lb facs="#z_f47r_l007" xml:id="catmus_f47r_l007"/>
+          <seg type="raw_unreviewed">e futidac tułtꝭ c. acq̾siͭ icꝭ qͥ mñ s̾ puitat młta. ⁊ĩ ple ꝑauat</seg>
+          <lb facs="#z_f47r_l008" xml:id="catmus_f47r_l008"/>
+          <seg type="raw_unreviewed">ꝓ ea iͥ ppͣ sdbtinuit cascellũ ^/ citut ailes e mortu dicẽ</seg>
+          <lb facs="#z_f47r_l009" xml:id="catmus_f47r_l009"/>
+          <seg type="raw_unreviewed">Wa qdendelat cũ aĩi sui ⁊ ⁊ boluĩt aã hr̃e /T cĩa dix pibũ oĩa</seg>
+          <lb facs="#z_f47r_l010" xml:id="catmus_f47r_l010"/>
+          <seg type="raw_unreviewed">pelutur T̃t dixͭ duꝰ ẜ ã nñ penituisse ꝓcascelle. luxaia tura</seg>
+          <lb facs="#z_f47r_l011" xml:id="catmus_f47r_l011"/>
+          <seg type="raw_unreviewed">deat me h. rdux ꝙ ꝑe sc̃u acłi dr̃em s̾ ħ ꝯsulẽ ꝙ uesus</seg>
+          <lb facs="#z_f47r_l012" xml:id="catmus_f47r_l012"/>
+          <seg type="raw_unreviewed">d̃ casdellũ dixͭ dia ita ꝓpͣ nõ dispensit. ⁊ dissipauit tecũ</seg>
+          <lb facs="#z_f47r_l013" xml:id="catmus_f47r_l013"/>
+          <seg type="raw_unreviewed">⁊ tu lalde mecũ. ic dãpe sõut</seg>
+          <lb facs="#z_f47r_l014" xml:id="catmus_f47r_l014"/>
+          <seg type="raw_unreviewed">It suit tres frẽo / p̾uo dixͭ seẽe duutẽ ⁊ pauꝑg^⁊ꝰ dixͭ aͣ boͣ ho</seg>
+          <lb facs="#z_f47r_l015" xml:id="catmus_f47r_l015"/>
+          <seg type="raw_unreviewed">ẜ malã upo̾e t̃cii lo oĩ bona s nõ possũ cr̃ede̾ / benerũt gͦ añ senatũ</seg>
+          <lb facs="#z_f47r_l016" xml:id="catmus_f47r_l016"/>
+          <seg type="raw_unreviewed">ĩ oomianil cua peciẽted ꝯsilia/ pꝰ ꝓposuit sũ diued ⁊ pauꝑi bñ liẽ q̃</seg>
+          <lb facs="#z_f47r_l017" xml:id="catmus_f47r_l017"/>
+          <seg type="raw_unreviewed">mltus hõditates / cũ in auone ⁊ unul ⁊ alul uerĩt ad dorisũ ditissi</seg>
+          <lb facs="#z_f47r_l018" xml:id="catmus_f47r_l018"/>
+          <seg type="raw_unreviewed">⁊ p̃us quã aũ Ixpuit Imagꝭ ꝑdidi quã lue̾t / sui /⁊ ueseiit qd</seg>
+          <lb facs="#z_f47r_l019" xml:id="catmus_f47r_l019"/>
+          <seg type="raw_unreviewed">ꝓcurũ ⁊ ẜui sui qñ iã decimpis ꝑtute̾ funt inmalut ^ qd g</seg>
+          <lb facs="#z_f47r_l020" xml:id="catmus_f47r_l020"/>
+          <seg type="raw_unreviewed">cec̃i de celin̾s ⁊ horreĩo fuillitu᷑ ip̃o nestiete r nõ udũ tente Ir Iparsunt</seg>
+          <lb facs="#z_f47r_l021" xml:id="catmus_f47r_l021"/>
+          <seg type="raw_unreviewed">dxͭ hc̃o sutꝭ̃ s malũ xxde̾i ⁊ ꝑꝑ. iuescio ꝙ fuci petꝰ ĩ ꝯsilum</seg>
+          <lb facs="#z_f47r_l022" xml:id="catmus_f47r_l022"/>
+          <seg type="raw_unreviewed">3ͦ d. hc̃o eĩa bona ⁊nõ pñt omuede̾ ⁊̃ peto ꝯsiliũI / mẽ pͦ eu̾ et</seg>
+          <lb facs="#z_f47r_l023" xml:id="catmus_f47r_l023"/>
+          <seg type="raw_unreviewed">sep̃tũ rñI ĩ una cedula surge mãe^ 2ͦ cuͣssi ad iuolendi</seg>
+          <lb facs="#z_f47r_l024" xml:id="catmus_f47r_l024"/>
+          <seg type="raw_unreviewed">siptũ suit de zenati luide admitce Ip̃ fecit sb̃fuit sꝰ ꝯsaleũ</seg>
+          <lb facs="#z_f47r_l025" xml:id="catmus_f47r_l025"/>
+          <seg type="raw_unreviewed">renõ mãe unᵗ suos suos uiua de celabo ianõs de horres</seg>
+          <lb facs="#z_f47r_l026" xml:id="catmus_f47r_l026"/>
+          <seg type="raw_unreviewed">⁊ alia suãri s̾ ⁊ deꝑtii ⁊ l. ssidẽans emẽda ͭ ls fcnd dineo / 4</seg>
+          <lb facs="#z_f47r_l027" xml:id="catmus_f47r_l027"/>
+          <seg type="raw_unreviewed">tũssied adius lendiᵘ̃i ⁊ uidũd iliĩ asinos. Inᵗ boni bolentis̃ sace</seg>
+          <lb facs="#z_f47r_l028" xml:id="catmus_f47r_l028"/>
+          <seg type="raw_unreviewed">poussi sc̃ contꝭmnaxie si dix Iuiłr inda ũ lomĩ wᵗ fac̾e / uld̃i</seg>
+          <lb facs="#z_f47r_l029" xml:id="catmus_f47r_l029"/>
+          <seg type="raw_unreviewed">q̃ ꝑcuciã eã rei̾t boria/ istiie r seã ẽ liona / 3be ͭ admibcẽ / uidit</seg>
+          <lb facs="#z_f47r_l030" xml:id="catmus_f47r_l030"/>
+          <seg type="raw_unreviewed">di pueꝵ clañte resin̾entin p Iea nnt̾x ĩ trus sᵈ pulmĩtũ ⁊</seg>
+          <lb facs="#z_f47r_l031" xml:id="catmus_f47r_l031"/>
+          <seg type="raw_unreviewed">tatuĩt ir dixͭ ẽ osi me place̾t ibi comede sĩ istũ puer̾</seg>
+          <lb facs="#z_f47r_l032" xml:id="catmus_f47r_l032"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f47r_l033" xml:id="catmus_f47r_l033"/>
+          <seg type="raw_unreviewed">dix tu ẜꝑbis õẽ ipletꝰ / expecta ꝙ esm̾es ĩ uiidet te ⁊⁊ qd</seg>
+          <lb facs="#z_f47r_l034" xml:id="catmus_f47r_l034"/>
+          <seg type="raw_unreviewed">soii ẽ abscũt adaliy dies / płiea p lacuĩt eñ bñ comedẽ ⁊cꝭ</seg>
+          <lb facs="#z_f47r_l035" xml:id="catmus_f47r_l035"/>
+          <seg type="raw_unreviewed">st puĩeis uir dude debebat uetulã l ati idix ͭ adeetulã. oõ hoẽs loiũ</seg>
+          <lb facs="#z_f47r_l036" xml:id="catmus_f47r_l036"/>
+          <seg type="raw_unreviewed">pli. dx ͭ ascũde lrccũ x die reqbata c̃cũ macdelios ⁊t cᵈ bie mt̃ti ac̃rerũt</seg>
+          <lb facs="#z_f47r_l037" xml:id="catmus_f47r_l037"/>
+          <seg type="raw_unreviewed">2 ͦ s. de itũ secit eũ eituĩta̾e ꝑꝓ sͨ̃ ⁊ c̾cũ e̾cluĩ Iscatĩ nuĩꝰ hores a cierũt</seg>
+          <lb facs="#z_f47r_l038" xml:id="catmus_f47r_l038"/>
+          <seg type="raw_unreviewed"> die feͭ eñ e Itu̾e ĩ iͦ huro ułil ꝑtatũamii ⁊ añ tab̾uas ii. it ułłs</seg>
+          <lb facs="#z_f47r_l039" xml:id="catmus_f47r_l039"/>
+          <seg type="raw_unreviewed">acc̃rit  qr dixiu̾it ẽ ẽ qͥ hiis euebi diebẽqͭ ĩhe. s pꝰ ꝙ̃ ħ ĩ uetasstet</seg>
+          <lb facs="#z_f47r_l040" xml:id="catmus_f47r_l040"/>
+          <seg type="raw_unreviewed">ecc̃ hõies ne c̃abaa ⁊ tradet meõle inõ lequeu delł nꝭ</seg>
+          <lb facs="#z_f47r_l041" xml:id="catmus_f47r_l041"/>
+          <seg type="raw_unreviewed">uide at</seg>
+          <lb facs="#z_f47r_l042" xml:id="catmus_f47r_l042"/>
+          <seg type="raw_unreviewed">teo. i</seg>
+          <lb facs="#z_f47r_l043" xml:id="catmus_f47r_l043"/>
+          <seg type="raw_unreviewed">A ul</seg>
+          <lb facs="#z_f47r_l044" xml:id="catmus_f47r_l044"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f47r_l045" xml:id="catmus_f47r_l045"/>
+          <seg type="raw_unreviewed">aADUE</seg>
+          <lb facs="#z_f47r_l046" xml:id="catmus_f47r_l046"/>
+          <seg type="raw_unreviewed">BACaIIA</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f47r_l001" xml:id="medusa_f47r_l001"/>
+          <seg type="raw_unreviewed">paret / et sic</seg>
+          <lb facs="#z_f47r_l002" xml:id="medusa_f47r_l002"/>
+          <seg type="raw_unreviewed">id uxoͤeͫ. s⁊</seg>
+          <lb facs="#z_f47r_l003" xml:id="medusa_f47r_l003"/>
+          <seg type="raw_unreviewed">ut bu miles qui sibi fuit in prlato vir et d se adherium que prius</seg>
+          <lb facs="#z_f47r_l004" xml:id="medusa_f47r_l004"/>
+          <seg type="raw_unreviewed">fuit magister raptor et turannus / mox apud libum habuisset unum</seg>
+          <lb facs="#z_f47r_l005" xml:id="medusa_f47r_l005"/>
+          <seg type="raw_unreviewed">sotriissi castellum quod in eundem pondi romina / qd nullum grẽ potuit trad</seg>
+          <lb facs="#z_f47r_l006" xml:id="medusa_f47r_l006"/>
+          <seg type="raw_unreviewed">fuit sibi consultum quod abderet istum turemum . posilum / qr prius feraci</seg>
+          <lb facs="#z_f47r_l007" xml:id="medusa_f47r_l007"/>
+          <seg type="raw_unreviewed">⁊ fuit duꝰ młtꝭ c. acq̃sisitꝭ etc. que rñꝰ s̃ ꝓ u̾itas młta. ⁊ ĩ ꝑle pauca</seg>
+          <lb facs="#z_f47r_l008" xml:id="medusa_f47r_l008"/>
+          <seg type="raw_unreviewed">pro Iea etc. pape sancti obtinuit castellum titic et miled etc. mortui etc.</seg>
+          <lb facs="#z_f47r_l009" xml:id="medusa_f47r_l009"/>
+          <seg type="raw_unreviewed">dyaꝵ ꝯfidebunt cũ aĩa sua ⁊ uoluerit cũ hre / t̾t aĩa dixꝭ tũc oĩa</seg>
+          <lb facs="#z_f47r_l010" xml:id="medusa_f47r_l010"/>
+          <seg type="raw_unreviewed">penutium tamen duxit domum sed nec ante penutuisso procastelle duxit nam tum</seg>
+          <lb facs="#z_f47r_l011" xml:id="medusa_f47r_l011"/>
+          <seg type="raw_unreviewed">fecit me h c̃. r̾dix quod pro sancti clerici domini s̃ h c̃ consule quod de sua</seg>
+          <lb facs="#z_f47r_l012" xml:id="medusa_f47r_l012"/>
+          <seg type="raw_unreviewed">d̃ cadellũ iͨ xͨ dieꝰ ita ꝙ p̃ nõ dispensit . ⁊ dissipauit tecũ</seg>
+          <lb facs="#z_f47r_l013" xml:id="medusa_f47r_l013"/>
+          <seg type="raw_unreviewed">et tu hãde mecum .etc. damp. 5. etc.</seg>
+          <lb facs="#z_f47r_l014" xml:id="medusa_f47r_l014"/>
+          <seg type="raw_unreviewed">Item fuerunt tres fratres / primus dixerunt se esse divitem et pauperem / 2ꝰ dixerunt non habere</seg>
+          <lb facs="#z_f47r_l015" xml:id="medusa_f47r_l015"/>
+          <seg type="raw_unreviewed">s malũ uxoreꝵ tci) hõo oĩ bona s nõ possũ cõede̾ / beneerũt gꝰ añ senatũ</seg>
+          <lb facs="#z_f47r_l016" xml:id="medusa_f47r_l016"/>
+          <seg type="raw_unreviewed">in Romana curie petentes consilii / primus proposuit sũ duned et pauperum bene</seg>
+          <lb facs="#z_f47r_l017" xml:id="medusa_f47r_l017"/>
+          <seg type="raw_unreviewed">multas hereditates / eum nec auene et uine et alut uenit ad domum su</seg>
+          <lb facs="#z_f47r_l018" xml:id="medusa_f47r_l018"/>
+          <seg type="raw_unreviewed">ipsus quoq; autem uxpuit magꝭ ꝑdidit quam luerat / sui / et nescivit quod</seg>
+          <lb facs="#z_f47r_l019" xml:id="medusa_f47r_l019"/>
+          <seg type="raw_unreviewed">procuratores et servi sui qum cum decimpis partate fuerunt memoriali .i. idem s</seg>
+          <lb facs="#z_f47r_l020" xml:id="medusa_f47r_l020"/>
+          <seg type="raw_unreviewed">secr̃e de cebariis et horreis fir̃mabitur ip̃o uestire et non ndũ tente / 2ᵒ ꝓpoisuit</seg>
+          <lb facs="#z_f47r_l021" xml:id="medusa_f47r_l021"/>
+          <seg type="raw_unreviewed">dixit hęc satis sed malum xxu eum / et pꝑ iˢꝰ nostro q̃ faciam peto ⁊ ꝯsiliarii</seg>
+          <lb facs="#z_f47r_l022" xml:id="medusa_f47r_l022"/>
+          <seg type="raw_unreviewed">3ᵒ d. hȩo oĩa bona ⁊ nõ pũt comedere ⁊̃ peto q si bñ / mõ pᵒ erit</seg>
+          <lb facs="#z_f47r_l023" xml:id="medusa_f47r_l023"/>
+          <seg type="raw_unreviewed">scriptũ eñ / ĩ una cedula surge mãe 2° tussi ad invendim</seg>
+          <lb facs="#z_f47r_l024" xml:id="medusa_f47r_l024"/>
+          <seg type="raw_unreviewed">scriptum fuit de Zenato Lutde admbrcz . P. fecit sibi fuit sibi consulun</seg>
+          <lb facs="#z_f47r_l025" xml:id="medusa_f47r_l025"/>
+          <seg type="raw_unreviewed">fratres meos / uidelicet seruos suos una de celariis et amos de horreo</seg>
+          <lb facs="#z_f47r_l026" xml:id="medusa_f47r_l026"/>
+          <seg type="raw_unreviewed">⁊ alia suare s⁊ deꝑtaꝰ / ⁊ hꝰ ꝯside̾ans emẽdaᵗ hꝰ fcũ d̾ meo /</seg>
+          <lb facs="#z_f47r_l027" xml:id="medusa_f47r_l027"/>
+          <seg type="raw_unreviewed">tassione adino leudim . Vidũ ibi asinos . Int boni belentes facere</seg>
+          <lb facs="#z_f47r_l028" xml:id="medusa_f47r_l028"/>
+          <seg type="raw_unreviewed">ꝑcussi sunt contus maxime N. dixit I. ułl meo ut beni W. facere / W. dicit</seg>
+          <lb facs="#z_f47r_l029" xml:id="medusa_f47r_l029"/>
+          <seg type="raw_unreviewed">in ꝑtineria eam et eunt bona et scum e et ferum e bona / 3a beata admicte</seg>
+          <lb facs="#z_f47r_l030" xml:id="medusa_f47r_l030"/>
+          <seg type="raw_unreviewed">dum puerorum claustrorum et e sumenente / P. Iei mixtꝰ in trasitꝰ sibi prouhibitum et</seg>
+          <lb facs="#z_f47r_l031" xml:id="medusa_f47r_l031"/>
+          <seg type="raw_unreviewed">tacuit et dixit etc. et si me placeret in eum cernede. Sed istum puerum</seg>
+          <lb facs="#z_f47r_l032" xml:id="medusa_f47r_l032"/>
+          <seg type="raw_unreviewed">t</seg>
+          <lb facs="#z_f47r_l033" xml:id="medusa_f47r_l033"/>
+          <seg type="raw_unreviewed">dixⁿ tu sꝑbus es iͥpletꝰ / expecta quod esu̾es ĩuidet te ⁊ qd</seg>
+          <lb facs="#z_f47r_l034" xml:id="medusa_f47r_l034"/>
+          <seg type="raw_unreviewed">senior est abstinent ad alio die , prae , se u placuit eum bene comode etc.</seg>
+          <lb facs="#z_f47r_l035" xml:id="medusa_f47r_l035"/>
+          <seg type="raw_unreviewed">Et pueris un ducere debebat uetulã l: a uic: idixit ad uetulã . os hoẽs lo. in</seg>
+          <lb facs="#z_f47r_l036" xml:id="medusa_f47r_l036"/>
+          <seg type="raw_unreviewed">phꝰ dux / a scinde hrecũ p̃ die reqͥtuta c̃cũ macelios st̃t iᵒ die m̃l̃ti acͣrerunt</seg>
+          <lb facs="#z_f47r_l037" xml:id="medusa_f47r_l037"/>
+          <seg type="raw_unreviewed">2ᵒ .s. die it̃m fecit eũ em̃tiare ꝑ se ⁊ dc̃m eccl̃m scitũ unꝰ hoĩes ac̾uerũt</seg>
+          <lb facs="#z_f47r_l038" xml:id="medusa_f47r_l038"/>
+          <seg type="raw_unreviewed">3ᵒ die fecit eum e ieiune in 1ᵒ huro uilibus ꝑtatum cuneis et ante tabernas iei. ut nobis</seg>
+          <lb facs="#z_f47r_l039" xml:id="medusa_f47r_l039"/>
+          <seg type="raw_unreviewed">acc̃erit . 12 duxerunt e cꝰ q̃ hiis diebꝰ srebierꝰ ĩ hir. sᵒ ꝙ pꝰ hᶜ ĩretuisset</seg>
+          <lb facs="#z_f47r_l040" xml:id="medusa_f47r_l040"/>
+          <seg type="raw_unreviewed">eccꝭ hoĩes nõ curabũ ⁊ tradẽt meõie nõ loquere de hꝰ etc</seg>
+          <lb facs="#z_f47r_l041" xml:id="medusa_f47r_l041"/>
+          <seg type="raw_unreviewed">manne ant i</seg>
+          <lb facs="#z_f47r_l042" xml:id="medusa_f47r_l042"/>
+          <seg type="raw_unreviewed">tecũ t̃b</seg>
+          <lb facs="#z_f47r_l043" xml:id="medusa_f47r_l043"/>
+          <seg type="raw_unreviewed">up minẽ</seg>
+          <lb facs="#z_f47r_l044" xml:id="medusa_f47r_l044"/>
+          <seg type="raw_unreviewed">a</seg>
+          <lb facs="#z_f47r_l045" xml:id="medusa_f47r_l045"/>
+          <seg type="raw_unreviewed">ad apu</seg>
+          <lb facs="#z_f47r_l046" xml:id="medusa_f47r_l046"/>
+          <seg type="raw_unreviewed">baccas et al</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f47r_l001 #z_f47r_l002" xml:id="u_47r_001">[---]</p>
+        <note type="editorial" corresp="#u_47r_001" xml:lang="cs">Horní levé útržky nejsou začátkem příběhu.</note>
+        <p facs="#z_f47r_l003 #z_f47r_l004 #z_f47r_l005 #z_f47r_l006 #z_f47r_l007 #z_f47r_l008" xml:id="u_47r_002">Item unus miles [---] fuit in provincia et [---] ad [---], quod fuit magnus raptor et tyrannus; nec aliquando [---] habuisset unum fortissimum castellum [---] totam provinciam. [---] consultum quod abiret istum tyrannum, qui [---] et [---] multos. Acquisivit eius [---] propter multa et [---] paravit [---]; pro ea [---] obtinuit castellum [---].</p>
+        <note type="editorial" corresp="#u_47r_002" xml:lang="cs">Exemplum o loupeživém rytíři a zisku hradu. Začátek a jednání mezi oběma postavami jsou značně fragmentární; konkrétní slib, zrada nebo násilný čin nejsou domyšleny.</note>
+        <p facs="#z_f47r_l009 #z_f47r_l010 #z_f47r_l011 #z_f47r_l012 #z_f47r_l013" xml:id="u_47r_003">[---] miles est mortuus [---]. Diabolus [---] cum anima sua et voluit [---] habere. [---] omnia repetitur. Tunc dixit dux se ante non paenituisse pro castello. [---] Tua [---] fecit me hoc. Et dux [---] secundum consilium [---] consulenti quod [---] castellum. Dixit diabolus: Ita propria non dispensasti et dissipavit tecum, et tu [---] mecum. Item [---].</p>
+        <note type="editorial" corresp="#u_47r_003" xml:lang="cs">Moralizující konec s duší a ďáblem. Rozdělení viny mezi vládcem a rádcem je zkratkovité a nejasné; parafráze by mohla nepodloženě změnit pointu.</note>
+        <p facs="#z_f47r_l014 #z_f47r_l015 #z_f47r_l016 #z_f47r_l017 #z_f47r_l018 #z_f47r_l019 #z_f47r_l020 #z_f47r_l021 #z_f47r_l022 #z_f47r_l023 #z_f47r_l024" xml:id="u_47r_004">Item fuerunt tres fratres. Primus dixit se esse divitem et pauperem; secundus dixit se habere omnia bona sed malam uxorem; tertius: Habeo omnia bona sed non possum comedere. Venerunt ergo ante senatum [---] petentes consilia. Primus proposuit suam divitiam et paupertatem [---] multas hereditates. Cum in autumno hiemali et aestivali [---] ad domum [---], priusquam [---] incipiat, magis perdit quam lucratur [---]. Procurator et servi sui [---] decimis [---], de cellariis et horreis [---] ipso nesciente et non advertente. Secundus [---] malam uxorem [---]. Tertius [---] non potest comedere et peto consilium. [---] scriptum in una cedula: Surge mane; secundo [---] ad molendinum; tertio [---] de [---] ad [---].</p>
+        <note type="editorial" corresp="#u_47r_004" xml:lang="cs">Úvod tří propojených rad a jejich zkratkový zápis. Pasáž o majetku a přesná zadání druhému a třetímu jsou nejisté. Předchozí sešlé exemplum není s těmito bratry spojeno.</note>
+        <p facs="#z_f47r_l025 #z_f47r_l026 #z_f47r_l027 #z_f47r_l028 #z_f47r_l029" xml:id="u_47r_005">Primus [---] mane vidit servos suos vini de cellario, [---] de horreo et alia [---] et deprehendit eos [---] emendavit et factus dives. Secundus [---] ad molendinum et vidit ibi asinos, qui [---] facere [---] contumax. [---] dixit: Similiter mulier mea [---] facere; volo quod percutiam eam, et erit bona; et sic [---].</p>
+        <note type="editorial" corresp="#u_47r_005" xml:lang="cs">Historické exemplum obsahuje motiv bití manželky. Překlad jej zachycuje jako jednání a názor postavy, nikoli jako doporučení. Nejasná slova o oslech a výsledku jsou přiznána.</note>
+        <p facs="#z_f47r_l030 #z_f47r_l031 #z_f47r_l032 #z_f47r_l033 #z_f47r_l034" xml:id="u_47r_006">Tertius [---] vidit ibi puerum clamantem et flentem pro [---] in [---] pulmentum et [---]. Dixit: Si mihi placeret ibi comedere sine isto puero. [---] Dixit: Tu superbus [---] es; expecta quod esuries [---]. Et [---] cibus absit ad aliquos dies. Postea placuit ei bene comedere etc.</p>
+        <note type="editorial" corresp="#u_47r_006" xml:lang="cs">Obrazový podklad dovoluje motiv nechutenství a hladu, nikoli celý přesný dialog nebo jeho mluvčí.32 je úzký odříznutý levý tah, který nepředstavuje samostatnou větu.</note>
+        <p facs="#z_f47r_l035 #z_f47r_l036 #z_f47r_l037 #z_f47r_l038 #z_f47r_l039 #z_f47r_l040" xml:id="u_47r_007">Item quidam vir dives debebat vetulae [---] et noluit [---]. Dixit ad vetulam: Omnes homines [---]. Illa dixit: Ascende tectum et dic [---] macellarios etc. Eadem die multi accurrerunt. Secundo die iterum fecit eum [---] per totam [---] et [---] piscatorium, multi homines accurrerunt. Tertio die fecit eum [---] in foro [---] et ante tabernas etc., et nullus accurrit, quia dixerunt eum esse [---] qui his duobus diebus [---]. Sic [---] Ecclesia [---] non clamabit et tradet morte [---] sicut [---] diabolo etc.</p>
+        <note type="editorial" corresp="#u_47r_007" xml:lang="cs">Třetí exemplum s opakovaným veřejným voláním a dluhem stařeně. Konkrétní pokřiky i církevní aplikace na konci jsou neúplné; známý motiv planého poplachu neslouží k jejich doplnění.</note>
+        <p facs="#z_f47r_l041 #z_f47r_l042 #z_f47r_l043 #z_f47r_l044 #z_f47r_l045 #z_f47r_l046" xml:id="u_47r_008">[---]</p>
+        <note type="editorial" corresp="#u_47r_008" xml:lang="cs">Otevřeny všechny závěrečné fragmenty.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_47r_001">[Odřezky sousední stránky, bez souvislého překladu.]</p>
+        <p corresp="#u_47r_002">Jistý rytíř [---] byl v kraji [---]. Byl veliký lupič a tyran [---], měl velmi pevný hrad [---] a celý kraj [---]. [---] Bylo poraděno, aby šel k tomuto tyranovi, který [---] mnohé [---]. Získal jeho [---] mnohým [---] a připravil [---]; za to získal hrad [---].</p>
+        <p corresp="#u_47r_003">[---] Rytíř zemřel [---]. Ďábel [---] s jeho duší a chtěl [---] mít [---]. [---] Vše se požaduje zpět. Tehdy vévoda řekl, že předtím nelitoval [toho, co se týkalo] hradu [---]. Tvé [---] mě k tomu přimělo. A vévoda [---] podle rady [---] rádci, že [---] hrad. Ďábel řekl: Tak jsi nenakládal s vlastním a [---] s tebou; a ty [---] se mnou. Dále [---].</p>
+        <p corresp="#u_47r_004">Byli tři bratři. První řekl, že je bohatý a chudý; druhý, že má vše dobré, ale zlou ženu; třetí: Mám všechno dobré, ale nemohu jíst. Přišli tedy před senát [---] a žádali o radu. První vyložil své bohatství i chudobu [---] a mnohá dědictví. Když na podzim, v zimě a v létě [---] k domu [---], ještě než začne [---], více ztratí než získá. Správce a jeho služebníci [---] desátky [---], ze sklepů a stodol [---] bez jeho vědomí a pozornosti. Druhý [---] zlou manželku [---]. Třetí [---] nemůže jíst a žádá o radu. [---] Na lístku stálo: Vstaň ráno; druhému [---] do mlýna; třetímu [---] od [---] k [---].</p>
+        <p corresp="#u_47r_005">První ráno spatřil své služebníky [odnášet?] víno ze sklepa, [---] ze stodoly a další věci [---]; přistihl je, napravil [---] a zbohatl. Druhý [---] přišel do mlýna a spatřil tam osly, kteří [---] nechtěli [---]. Řekl: Podobně moje žena [---] jednat; chci ji bít, a bude dobrá; a tak [---].</p>
+        <p corresp="#u_47r_006">Třetí [---] tam spatřil chlapce, který křičel a plakal kvůli [---] jídlu [---]. Řekl: Kéž bych tam mohl jíst bez tohoto chlapce [---]. [---] Řekl: Jsi pyšný [---]; počkej, až dostaneš hlad [---]. A [---] ať mu několik dní chybí jídlo. Potom mu chutnalo dobře jíst atd.</p>
+        <p corresp="#u_47r_007">Jistý bohatý muž dlužil stařeně [---] a nechtěl [zaplatit?]. Řekl stařeně: Všichni lidé [---]. Ona řekla: Vylez na střechu a řekni [---] řezníky atd. Toho dne se seběhlo mnoho lidí. Druhého dne jej znovu přiměla [---] po celém [---] a [---] rybím trhu; seběhlo se mnoho lidí. Třetího dne jej nechala [---] na tržišti a před krčmami atd.; nikdo se neseběhl, protože říkali, že je to [---], který v těch dvou dnech [---]. Tak [---] církev [---] nebude volat a vydá smrti [---] jako [---] ďáblu atd.</p>
+        <p corresp="#u_47r_008">[Další odřezky sousední stránky; bez souvislého překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

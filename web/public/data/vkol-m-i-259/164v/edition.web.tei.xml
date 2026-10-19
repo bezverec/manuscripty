@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 164v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_164v_coordinate; PNG SHA256 a0ea3ded31ac9f8cb6e3a57754c0939bf3f9fbf8f54334a9321b914062f81514; archival TIFF SHA256 5113ac8f6b8aa7fdb6282967985889cf8e28f290e060ffb4dd297d50ff0d311e; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_164v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#164v"/>
+      <zone ulx="750" uly="588" lrx="3482" lry="768" xml:id="z_f164v_l001"/>
+      <zone ulx="737" uly="728" lrx="3492" lry="905" xml:id="z_f164v_l002"/>
+      <zone ulx="747" uly="864" lrx="3417" lry="1023" xml:id="z_f164v_l003"/>
+      <zone ulx="737" uly="1004" lrx="3442" lry="1166" xml:id="z_f164v_l004"/>
+      <zone ulx="756" uly="1141" lrx="3467" lry="1322" xml:id="z_f164v_l005"/>
+      <zone ulx="756" uly="1288" lrx="3588" lry="1468" xml:id="z_f164v_l006"/>
+      <zone ulx="747" uly="1428" lrx="3523" lry="1583" xml:id="z_f164v_l007"/>
+      <zone ulx="737" uly="1571" lrx="3514" lry="1736" xml:id="z_f164v_l008"/>
+      <zone ulx="787" uly="1708" lrx="3395" lry="1891" xml:id="z_f164v_l009"/>
+      <zone ulx="740" uly="1854" lrx="3473" lry="2022" xml:id="z_f164v_l010"/>
+      <zone ulx="747" uly="2009" lrx="3461" lry="2208" xml:id="z_f164v_l011"/>
+      <zone ulx="712" uly="2159" lrx="3420" lry="2333" xml:id="z_f164v_l012"/>
+      <zone ulx="706" uly="2308" lrx="3442" lry="2482" xml:id="z_f164v_l013"/>
+      <zone ulx="775" uly="2457" lrx="3510" lry="2650" xml:id="z_f164v_l014"/>
+      <zone ulx="781" uly="2604" lrx="3401" lry="2787" xml:id="z_f164v_l015"/>
+      <zone ulx="762" uly="2750" lrx="3479" lry="2927" xml:id="z_f164v_l016"/>
+      <zone ulx="743" uly="2902" lrx="3451" lry="3067" xml:id="z_f164v_l017"/>
+      <zone ulx="762" uly="3042" lrx="3398" lry="3235" xml:id="z_f164v_l018"/>
+      <zone ulx="750" uly="3195" lrx="3405" lry="3381" xml:id="z_f164v_l019"/>
+      <zone ulx="778" uly="3347" lrx="3588" lry="3528" xml:id="z_f164v_l020"/>
+      <zone ulx="762" uly="3512" lrx="3616" lry="3692" xml:id="z_f164v_l021"/>
+      <zone ulx="768" uly="3649" lrx="3411" lry="3832" xml:id="z_f164v_l022"/>
+      <zone ulx="762" uly="3798" lrx="3445" lry="3976" xml:id="z_f164v_l023"/>
+      <zone ulx="765" uly="3957" lrx="3563" lry="4131" xml:id="z_f164v_l024"/>
+      <zone ulx="762" uly="4084" lrx="3510" lry="4265" xml:id="z_f164v_l025"/>
+      <zone ulx="759" uly="4221" lrx="3476" lry="4430" xml:id="z_f164v_l026"/>
+      <zone ulx="771" uly="4364" lrx="3454" lry="4595" xml:id="z_f164v_l027"/>
+      <zone ulx="718" uly="4526" lrx="2664" lry="4809" xml:id="z_f164v_l028"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f164v_l001" xml:id="catmus_f164v_l001"/>
+          <seg type="raw_unreviewed">in ein scat inde und guigin zacharie haus uud grust</seg>
+          <lb facs="#z_f164v_l002" xml:id="catmus_f164v_l002"/>
+          <seg type="raw_unreviewed">Elizabeth uud is geschach all Clirabeth marcant</seg>
+          <lb facs="#z_f164v_l003" xml:id="catmus_f164v_l003"/>
+          <seg type="raw_unreviewed">erlort Mariã grus, do frente sich das kint ĩ ur̾e</seg>
+          <lb facs="#z_f164v_l004" xml:id="catmus_f164v_l004"/>
+          <seg type="raw_unreviewed">leichuã und wart erfullet Glirabeth des heiligẽ</seg>
+          <lb facs="#z_f164v_l005" xml:id="catmus_f164v_l005"/>
+          <seg type="raw_unreviewed">geistes und schray ut lairt scym sprechund du</seg>
+          <lb facs="#z_f164v_l006" xml:id="catmus_f164v_l006"/>
+          <seg type="raw_unreviewed">gesegente und̾ den weibũ gesegẽs ist difrucht dei-</seg>
+          <lb facs="#z_f164v_l007" xml:id="catmus_f164v_l007"/>
+          <seg type="raw_unreviewed">nes leibes uicd uon ddẽ nur das, das zu nurbop̃t̃</seg>
+          <lb facs="#z_f164v_l008" xml:id="catmus_f164v_l008"/>
+          <seg type="raw_unreviewed">die muit meues hid nun woar sich erlich̃ñ als pald</seg>
+          <lb facs="#z_f164v_l009" xml:id="catmus_f164v_l009"/>
+          <seg type="raw_unreviewed">geschẽ ist die scomme demes grus ĩ meyuẽ drn</seg>
+          <lb facs="#z_f164v_l010" xml:id="catmus_f164v_l010"/>
+          <seg type="raw_unreviewed">do hat sich erbebbet in freirde da kint ĩ meuii</seg>
+          <lb facs="#z_f164v_l011" xml:id="catmus_f164v_l011"/>
+          <seg type="raw_unreviewed">leichuã, bnd du selig die du glaubt hast. Wemĩ</seg>
+          <lb facs="#z_f164v_l012" xml:id="catmus_f164v_l012"/>
+          <seg type="raw_unreviewed">wolprrcht Roden an dir die dir gesprochiĩ suit</seg>
+          <lb facs="#z_f164v_l013" xml:id="catmus_f164v_l013"/>
+          <seg type="raw_unreviewed">uon de hũ / bud do sprech̃ maria hoct̃ lobt meni</seg>
+          <lb facs="#z_f164v_l014" xml:id="catmus_f164v_l014"/>
+          <seg type="raw_unreviewed">sele den brien, und mem grist hat sich gefrewet</seg>
+          <lb facs="#z_f164v_l015" xml:id="catmus_f164v_l015"/>
+          <seg type="raw_unreviewed">in got meyuẽ hailãt. Weun er hat augesehen</seg>
+          <lb facs="#z_f164v_l016" xml:id="catmus_f164v_l016"/>
+          <seg type="raw_unreviewed">dye dumutigbeit sei dume sech̃t dorub heisset</seg>
+          <lb facs="#z_f164v_l017" xml:id="catmus_f164v_l017"/>
+          <seg type="raw_unreviewed">ian mich selug ub alle mecp werlde woenne er</seg>
+          <lb facs="#z_f164v_l018" xml:id="catmus_f164v_l018"/>
+          <seg type="raw_unreviewed">hat mir gsse duil getã d̾ gewaltig ist und sem</seg>
+          <lb facs="#z_f164v_l019" xml:id="catmus_f164v_l019"/>
+          <seg type="raw_unreviewed">heilics nauiẽ, und sem paruũge uon eyuem</seg>
+          <lb facs="#z_f164v_l020" xml:id="catmus_f164v_l020"/>
+          <seg type="raw_unreviewed">geslechte in das audn die yn furchtii/ E hat ge</seg>
+          <lb facs="#z_f164v_l021" xml:id="catmus_f164v_l021"/>
+          <seg type="raw_unreviewed">walt getã uut seu̾d hãt iu stret hat er di hoffer-</seg>
+          <lb facs="#z_f164v_l022" xml:id="catmus_f164v_l022"/>
+          <seg type="raw_unreviewed">tigũ dez nucz irs hizen Apgesegt hat er dye</seg>
+          <lb facs="#z_f164v_l023" xml:id="catmus_f164v_l023"/>
+          <seg type="raw_unreviewed">mectitigẽ uon yre sculii uud hat derliocht diie</seg>
+          <lb facs="#z_f164v_l024" xml:id="catmus_f164v_l024"/>
+          <seg type="raw_unreviewed">dumutigẽ dy hungrigen hat er gesaltet des gu-</seg>
+          <lb facs="#z_f164v_l025" xml:id="catmus_f164v_l025"/>
+          <seg type="raw_unreviewed">tes bnd die rerchin hat er arm lassen w̾den. Et</seg>
+          <lb facs="#z_f164v_l026" xml:id="catmus_f164v_l026"/>
+          <seg type="raw_unreviewed">hat sem Ruit asil euꝑfaugẽ und qat gedocht</seg>
+          <lb facs="#z_f164v_l027" xml:id="catmus_f164v_l027"/>
+          <seg type="raw_unreviewed">seyũ pariung Als er gerett hat zu unsiiꝰ uae̾n</seg>
+          <lb facs="#z_f164v_l028" xml:id="catmus_f164v_l028"/>
+          <seg type="raw_unreviewed">Abrah̃a uud sem in d̃ werlde ac.</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f164v_l001" xml:id="medusa_f164v_l001"/>
+          <seg type="raw_unreviewed">in ein stat inde und ging in zacharie haus / und grùst</seg>
+          <lb facs="#z_f164v_l002" xml:id="medusa_f164v_l002"/>
+          <seg type="raw_unreviewed">Elizabeth / vnd is geschach als Elizabeth marran</seg>
+          <lb facs="#z_f164v_l003" xml:id="medusa_f164v_l003"/>
+          <seg type="raw_unreviewed">erhort Mariā grus / do freute sich das kint ī irē</seg>
+          <lb facs="#z_f164v_l004" xml:id="medusa_f164v_l004"/>
+          <seg type="raw_unreviewed">leichnā/ vnd wart erfullet Elizabeth des heiligē</seg>
+          <lb facs="#z_f164v_l005" xml:id="medusa_f164v_l005"/>
+          <seg type="raw_unreviewed">geistes / vnd schray mit lawe͛ stym̄ sprechnnd / da</seg>
+          <lb facs="#z_f164v_l006" xml:id="medusa_f164v_l006"/>
+          <seg type="raw_unreviewed">gesegente und͛ den weibrn̄ gesegēt ist dy frucht dei</seg>
+          <lb facs="#z_f164v_l007" xml:id="medusa_f164v_l007"/>
+          <seg type="raw_unreviewed">nes leibes. vnd von we͛ mir das. das zuͦ mir koͧpt</seg>
+          <lb facs="#z_f164v_l008" xml:id="medusa_f164v_l008"/>
+          <seg type="raw_unreviewed">die mut͛ meines hild min̄ war sich erlichn̄ als pald</seg>
+          <lb facs="#z_f164v_l009" xml:id="medusa_f164v_l009"/>
+          <seg type="raw_unreviewed">gesche͛ ist die stymme deines grus ī meyne oren̄</seg>
+          <lb facs="#z_f164v_l010" xml:id="medusa_f164v_l010"/>
+          <seg type="raw_unreviewed">do hat sich erwekket in friwdē daz kint ĩ mein</seg>
+          <lb facs="#z_f164v_l011" xml:id="medusa_f164v_l011"/>
+          <seg type="raw_unreviewed">leichnam / vnd du selig die du glaust hast · Wenn</seg>
+          <lb facs="#z_f164v_l012" xml:id="medusa_f164v_l012"/>
+          <seg type="raw_unreviewed">wohprocht w͛den an dir die dir gesprochn̄ fùr</seg>
+          <lb facs="#z_f164v_l013" xml:id="medusa_f164v_l013"/>
+          <seg type="raw_unreviewed">von dē huͦ / vnd do sp͛roch Maria hoch lebe mein</seg>
+          <lb facs="#z_f164v_l014" xml:id="medusa_f164v_l014"/>
+          <seg type="raw_unreviewed">sele den h͛ren / und mein geist hat sich gefrowet</seg>
+          <lb facs="#z_f164v_l015" xml:id="medusa_f164v_l015"/>
+          <seg type="raw_unreviewed">in got meyñe hailat . wenn er hat angesehen</seg>
+          <lb facs="#z_f164v_l016" xml:id="medusa_f164v_l016"/>
+          <seg type="raw_unreviewed">dye dumutigkeit seind dume secht do umb heisset</seg>
+          <lb facs="#z_f164v_l017" xml:id="medusa_f164v_l017"/>
+          <seg type="raw_unreviewed">man mich selig uͤb͛ alle weyp werlde . weenne er</seg>
+          <lb facs="#z_f164v_l018" xml:id="medusa_f164v_l018"/>
+          <seg type="raw_unreviewed">hat mir g͛sse drùk getaͮ/ d͛ gewaltig ist und sein</seg>
+          <lb facs="#z_f164v_l019" xml:id="medusa_f164v_l019"/>
+          <seg type="raw_unreviewed">heilig namē/ vnd sein parum̄ge von eynem</seg>
+          <lb facs="#z_f164v_l020" xml:id="medusa_f164v_l020"/>
+          <seg type="raw_unreviewed">geslechte in das audh die yn furchtñ. Er hat ge</seg>
+          <lb facs="#z_f164v_l021" xml:id="medusa_f164v_l021"/>
+          <seg type="raw_unreviewed">walt getän mit seind hät , zuͦ stret hat er dy hoffer</seg>
+          <lb facs="#z_f164v_l022" xml:id="medusa_f164v_l022"/>
+          <seg type="raw_unreviewed">tigū dez nucz irs h͛czen Apgeseczt hat er dye</seg>
+          <lb facs="#z_f164v_l023" xml:id="medusa_f164v_l023"/>
+          <seg type="raw_unreviewed">mechtigē von irē stuͤln vnd hat derhöcht die</seg>
+          <lb facs="#z_f164v_l024" xml:id="medusa_f164v_l024"/>
+          <seg type="raw_unreviewed">dumütigē/ dy hungrigen hat er gesattet des gu-</seg>
+          <lb facs="#z_f164v_l025" xml:id="medusa_f164v_l025"/>
+          <seg type="raw_unreviewed">tes / vnd die reichin hat er arm lassen w͛den / Er</seg>
+          <lb facs="#z_f164v_l026" xml:id="medusa_f164v_l026"/>
+          <seg type="raw_unreviewed">hat sein kint aͤsrl̃ enpfangē · vnd hat gedocht</seg>
+          <lb facs="#z_f164v_l027" xml:id="medusa_f164v_l027"/>
+          <seg type="raw_unreviewed">seind parnung . Als er gerett hat zuͦ Vnsze͛ Vate͛n</seg>
+          <lb facs="#z_f164v_l028" xml:id="medusa_f164v_l028"/>
+          <seg type="raw_unreviewed">Ibrahã vnd sein in d͛ werlde etcetera.</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f164v_l001 #z_f164v_l002 #z_f164v_l003 #z_f164v_l004 #z_f164v_l005 #z_f164v_l006 #z_f164v_l007 #z_f164v_l008 #z_f164v_l009 #z_f164v_l010 #z_f164v_l011 #z_f164v_l012 #z_f164v_l013 #z_f164v_l014 #z_f164v_l015 #z_f164v_l016 #z_f164v_l017 #z_f164v_l018 #z_f164v_l019 #z_f164v_l020 #z_f164v_l021 #z_f164v_l022 #z_f164v_l023 #z_f164v_l024 #z_f164v_l025 #z_f164v_l026 #z_f164v_l027 #z_f164v_l028" xml:id="u_164v_001">[---] in eyn stat Jude und gieng in Zacharie haus und grust Elizabeth. Und es geschach, als Elizabeth [durchgestrichen: Mariam?] erhort Maria grus, do frewte sich das kint in irem leichnam. Und wart erfult Elizabeth des heiligen geistes und schrey mit lawter stym sprechend: Du gesegente under den weiben, gesegente ist dy frucht deynes leibes. Und von wen mir das, das zu mir kumpt die muter meynes herren? Wenn sich erhallet alsbald geschehen ist die stymme deines gruzes in meynen oren, do hat sich erluckket in frewden das kint in meynem leichnam. Und du selig, die du gelaubt hast, wenn volpracht werden an dir die dir gesprochen sint von dem herren.
+
+Und do sprach Maria: Hoch lobt meyn sele den herren, und meyn geist hat sich gefrewet in got meyne hailant. Wenn er hat angesehen dye dymutigkeit seyn diner. Secht, dorumb heisset man mich selig [---] alle [---], wenn er hat mir grosse dink getan, der gewaltig ist, und seyn heilig name. Und seyn parmung von eynem geslechte in das ander, die yn furchten. Er hat gewalt getan mit seyn hant, zustort hat er dy hoffertigen des muts ires hertzen. Abgesetzt hat er dye mechtigen von iren stulen und hat derhocht dye dymutigen. Dy hungrigen hat er gesatet des gutes und dye reichen hat er arm lassen wider. Er hat seyn kint Israel enpfangen und hat gedacht seyn parmung, als er geredt hat zu unsern vatern, Abraham und seyn [---] in dy werlde [---].</p>
+        <note type="editorial" corresp="#u_164v_001" xml:lang="cs">Navazuje na164r. V úvodní větě je škrtnuté jméno či tvar Mariam; škrtnutí je zachováno jako čtenářská poznámka, nikoli vyhlazeno. Konstrukce Wenn sich erhallet... je obtížná; český překlad je významový návrh, nikoli nárok na jisté rozlišení všech slov.
+
+Německé Magnificat. Po selig i v posledním řádku jsou nejisté zkratky a slova; nedoplňuji automaticky všechna pokolení ani potomstvo podle známé verze. Závěrečné čtení in dy werlde může vyjadřovat věčnost, jeho rozvinutí je návrh. Na snímku po modlitbě následuje volná plocha, nikoli další hlavní text.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_164v_001">[---] do jednoho judského města a vešla do Zachariášova domu a pozdravila Alžbětu. Když Alžběta [přeškrtnuté: Mariam?] uslyšela Mariin pozdrav, zaradovalo se dítě v jejím těle. Alžběta byla naplněna Duchem svatým a zvolala hlasitě: Jsi požehnaná mezi ženami a požehnaný je plod tvého těla. Odkud mi to, že ke mně přichází matka mého Pána? Jakmile zazněl hlas tvého pozdravu v mých uších, dítě v mém těle poskočilo radostí. A jsi blahoslavená, že jsi uvěřila, neboť se na tobě naplní, co ti bylo řečeno od Pána.
+
+Maria řekla: Má duše vysoce velebí Pána a můj duch se zaradoval v Bohu, mém Spasiteli. Vždyť shlédl na pokoru své služebnice. Hle, proto mě nazývají blahoslavenou [---] všichni [---], neboť mi učinil veliké věci ten, který je mocný, a svaté je jeho jméno. Jeho slitování přechází z jednoho pokolení do druhého, k těm, kteří se ho bojí. Svou rukou projevil moc, rozptýlil pyšné ve smýšlení jejich srdcí. Mocné sesadil z jejich trůnů a ponížené povýšil. Hladové nasytil dobrým a bohaté nechal odejít chudé. Ujal se svého dítěte Izraele a pamatoval na své slitování, jak promluvil k našim otcům, Abrahamovi a jeho [---] na věky [---].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

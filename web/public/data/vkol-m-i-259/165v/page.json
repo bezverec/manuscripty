@@ -1,0 +1,195 @@
+{
+  "folio": "165v",
+  "label": "Snímek 165v",
+  "kind": "segments",
+  "width": 3900,
+  "height": 5600,
+  "models": {
+    "catmus": "CATMuS medieval 1.6.0",
+    "medusa": "Medusa 0.2Line-4B"
+  },
+  "source_original": "EX/M_I_259_____09Z2NI6EX0165V.TIF",
+  "source_sha256": "fd7bb69302ad5f2806853de46e6c84642885bea5a77ae3c8a92325755253aa6e",
+  "coordinate_source": {
+    "id": "vkol-m-i-259_165v_coordinate",
+    "sha256": "cb3e0542edf7cd86791b8da50e236005d61d160165925fc935d3d377221dc928",
+    "width": 3900,
+    "height": 5600,
+    "frame": 0,
+    "derived_from_sha256": "fd7bb69302ad5f2806853de46e6c84642885bea5a77ae3c8a92325755253aa6e",
+    "original_tiff_frame": 0,
+    "rotation_ccw_degrees": 0,
+    "source_to_coordinate_pixel_edge_affine": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "bbox_format": "xywh",
+    "origin": "top-left"
+  },
+  "language": "de",
+  "analysis_scope": "Oba původní HTR kandidáti po stejných segmentech. Samostatné doplňkové obrazové čtení není HTR. Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "notes": "Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.",
+  "lines": [
+    {
+      "id": "f165v_l001",
+      "source_segment_ids": [
+        "f165v_l001"
+      ],
+      "bbox": [
+        261,
+        5127,
+        96,
+        46
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/165v/f165v_l001.webp",
+      "raw_htr": {
+        "catmus": "1",
+        "medusa": "s"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    },
+    {
+      "id": "f165v_l002",
+      "source_segment_ids": [
+        "f165v_l002"
+      ],
+      "bbox": [
+        1291,
+        230,
+        97,
+        56
+      ],
+      "image": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/crops/165v/f165v_l002.webp",
+      "raw_htr": {
+        "catmus": ".",
+        "medusa": "1"
+      },
+      "words": [],
+      "flags": [],
+      "note": null,
+      "hit_token_limit": false,
+      "decoding_recovery": false
+    }
+  ],
+  "passages": [
+    {
+      "id": "u_165v_001",
+      "title": "Úsek 1",
+      "line_ids": [
+        "f165v_l001"
+      ],
+      "latin": "[Drobná tmavá značka či materiálová stopa u dolního levého okraje.]",
+      "czech": "[Bez souvislého překladu.]",
+      "notes": "Není to řádek souvislého hlavního textu; HTR kandidát není považován za správnou četbu.",
+      "operations": [],
+      "language": "de"
+    },
+    {
+      "id": "u_165v_002",
+      "title": "Úsek 2",
+      "line_ids": [
+        "f165v_l002"
+      ],
+      "latin": "[Drobná tmavá značka či materiálová stopa u horního okraje.]",
+      "czech": "[Bez souvislého překladu.]",
+      "notes": "Není to řádek souvislého hlavního textu; HTR kandidát není považován za správnou četbu.",
+      "operations": [],
+      "language": "de"
+    }
+  ],
+  "supplemental_readings": [],
+  "preview": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/previews/165v.webp",
+  "tiles": {
+    "type": "dzi",
+    "width": 3900,
+    "height": 5600,
+    "tileSize": 512,
+    "tileOverlap": 1,
+    "tilesUrl": "https://rukopisy-data.digitalizaty.cz/v2/vkol-m-i-259/tiles/165v/",
+    "fileFormat": "webp"
+  },
+  "blank": false,
+  "expert_review": false,
+  "downloads": [
+    {
+      "name": "Neupravené HTR a geometrie JSON",
+      "href": "/data/vkol-m-i-259/165v/comparison.json"
+    },
+    {
+      "name": "catmus · původní TXT",
+      "href": "/data/vkol-m-i-259/165v/catmus.raw.txt"
+    },
+    {
+      "name": "catmus · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/165v/catmus.alto.xml"
+    },
+    {
+      "name": "medusa · původní TXT",
+      "href": "/data/vkol-m-i-259/165v/medusa.raw.txt"
+    },
+    {
+      "name": "medusa · ALTO (souřadnice původního TIFF)",
+      "href": "/data/vkol-m-i-259/165v/medusa.alto.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · původní místní TEI P5 4.12.0",
+      "href": "/data/vkol-m-i-259/165v/edition.tei.xml"
+    },
+    {
+      "name": "Oba HTR a interpretace · TEI s webovými odkazy",
+      "href": "/data/vkol-m-i-259/165v/edition.web.tei.xml"
+    },
+    {
+      "name": "Rekonstrukce a překlad JSON (původní jednotky)",
+      "href": "/data/vkol-m-i-259/165v/reconstruction.json"
+    },
+    {
+      "name": "Rekonstrukce TXT",
+      "href": "/data/vkol-m-i-259/165v/reconstruction.txt"
+    },
+    {
+      "name": "Český překlad TXT",
+      "href": "/data/vkol-m-i-259/165v/translation.cs.txt"
+    },
+    {
+      "name": "Doklady obrazové kontroly JSON",
+      "href": "/data/vkol-m-i-259/165v/evidence.json"
+    }
+  ],
+  "document_id": "vkol-m-i-259",
+  "document_uri": "https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-i-259",
+  "repository": {
+    "name": "Vědecká knihovna v Olomouci",
+    "uri": "https://www.vkol.cz/",
+    "settlement": "Olomouc",
+    "country": "Česko"
+  },
+  "model_input": {
+    "sha256": "cb3e0542edf7cd86791b8da50e236005d61d160165925fc935d3d377221dc928",
+    "operation": "Native RGB TIFF frame 0, full page, unmasked; no resampling",
+    "reading_zone_xyxy": [
+      0,
+      0,
+      3900,
+      5600
+    ],
+    "masked_pilot": false
+  }
+}

@@ -1,6 +1,6 @@
 # Manuscripty
 
-Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy rekonstrukce v jazyce předlohy a českého překladu a jejich veřejné přezkoumání. Aktuální stav: **12. října 2026**, webová revize **20261012-6**.
+Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy rekonstrukce v jazyce předlohy a českého překladu a jejich veřejné přezkoumání. Aktuální stav: **19. října 2026**, čtenářská webová revize **20261019-1**.
 
 Rukopis **M II 220 z fondů Vědecké knihovny v Olomouci** je dostupný na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz). [Záznam celého dokumentu](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220) používá projektový identifikátor vkol-m-ii-220; nejde o knihovnou přidělené PID.
 
@@ -9,10 +9,18 @@ ze stejné instituce: 197 snímků (192 folií a 5 snímků vazby), oba původn�
 kandidáty na 15 013 segmentech, 3 531 pracovních interpretačních úseků s českým
 překladem a zdrojové AI shrnutí.
 Osm snímků nemá hlavní text ve vybraných oblastech. Celkem je zaregistrováno
-874 snímků. Oba kodexy mají souhrnný katalogový název **Textus varii**;
+874 snímků v prvních dvou dokumentech. Oba kodexy mají souhrnný katalogový název **Textus varii**;
 samostatná díla a jejich atribuce mají vlastní zdroje v popisu.
 
-Publikováno je **677 skenů**: 670 foliovaných snímků (1r–335v) a 7 snímků vazby a předsádky. Na 664 textových stranách jsou kandidáti CATMuS a Medusa 4B a celkem **5 634 návrhů rekonstrukce a českého překladu**. UI zobrazuje **50 297 segmentů**, původní datové vrstvy mají 50 299 segmentů; dvě dvojice fragmentů na 20v jsou v UI spojené. Šest foliovaných stran nemá hlavní text ve vybraných oblastech. Vazba a předsádky jsou označené jako dosud nepřepsané.
+Třetím dokumentem je [M I 259 · Textus varii](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-i-259):
+371 snímků včetně vazby, předsádek a dvou dodatečných záběrů, latinské a německé texty,
+původní kandidáti CATMuS a Medusa, pracovní rekonstrukce a český překlad. Knihovna tak
+obsahuje **1 245 snímků ve třech rukopisech**. [Metodika M I 259](docs/mi259-processing.md)
+vysvětluje meze segmentace, rozdíly mezi názvy skenů a psanou foliací i samostatné
+ruční výřezy. Nové návrhy oprav odkazují na přesně identifikovaný orientovaný
+souřadnicový obraz; původní archivní TIFF zůstává samostatně identifikován.
+
+U **M II 220** je publikováno **677 skenů**: 670 foliovaných snímků (1r–335v) a 7 snímků vazby a předsádky. Na 664 textových stranách jsou kandidáti CATMuS a Medusa 4B a celkem **5 634 návrhů rekonstrukce a českého překladu**. UI zobrazuje **50 297 segmentů**, původní datové vrstvy mají 50 299 segmentů; dvě dvojice fragmentů na 20v jsou v UI spojené. Šest foliovaných stran nemá hlavní text ve vybraných oblastech. Vazba a předsádky jsou označené jako dosud nepřepsané.
 
 Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER nebyly změřeny. Dokončení vybraného hlavního textu neznamená odborně ověřenou edici všech marginálií a zápisů.
 
@@ -20,6 +28,7 @@ Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER neby
 
 - [Současná architektura](docs/architecture.md)
 - [Publikace obou rukopisů, katalogové zdroje a kontroly](docs/TWO-MANUSCRIPT-PUBLICATION.md)
+- [M I 259: zpracování a publikace třetího rukopisu](docs/mi259-processing.md)
 - [Použité HTR technologie, modely, odkazy a revize](docs/htr-technologies.md)
 - [Aktuální stav a hranice výsledků](docs/research-status.md)
 - [Segmentační pilot Chandra / Kraken: přínos Chandry neprokázán](docs/experiments/2026-10-17-chandra/README.md)

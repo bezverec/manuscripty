@@ -87,6 +87,20 @@ body:
     validations:
       required: false
   - type: textarea
+    id: coordinate_source
+    attributes:
+      label: "coordinate_source"
+      description: "Volitelný blok JSON z exportu v2; identifikuje plný orientovaný koordinační obraz a jeho souřadnice."
+    validations:
+      required: false
+  - type: textarea
+    id: coordinate_system
+    attributes:
+      label: "coordinate_system"
+      description: "Volitelný blok JSON z exportu v2; identifikuje plný orientovaný koordinační obraz a jeho souřadnice."
+    validations:
+      required: false
+  - type: textarea
     id: document_uri
     attributes:
       label: "document_uri"
@@ -112,13 +126,6 @@ body:
     attributes:
       label: "image_height"
       description: "Hodnota z exportu návrhu; identitu původního podkladu neměňte."
-    validations:
-      required: false
-  - type: textarea
-    id: coordinate_system
-    attributes:
-      label: "coordinate_system"
-      description: "Hodnota JSON; zachovejte identifikátory a souřadnice původního obrazu."
     validations:
       required: false
   - type: textarea

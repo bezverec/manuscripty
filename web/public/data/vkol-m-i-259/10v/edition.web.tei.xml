@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 10v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_10v_coordinate; PNG SHA256 96e418d7f4b82bfa2b126ceff6ea6542e816271212a097d3ed1495baf388cf21; archival TIFF SHA256 fdf8d702eddc898e605eab299b89a13e0bb74ea646d7a571d1c0a55826b3068f; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_10v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#10v"/>
+      <zone ulx="174" uly="709" lrx="469" lry="855" xml:id="z_f10v_l001"/>
+      <zone ulx="171" uly="2342" lrx="342" lry="2457" xml:id="z_f10v_l002"/>
+      <zone ulx="675" uly="525" lrx="3370" lry="721" xml:id="z_f10v_l003"/>
+      <zone ulx="666" uly="672" lrx="2521" lry="836" xml:id="z_f10v_l004"/>
+      <zone ulx="697" uly="793" lrx="3305" lry="945" xml:id="z_f10v_l005"/>
+      <zone ulx="662" uly="902" lrx="3308" lry="1057" xml:id="z_f10v_l006"/>
+      <zone ulx="666" uly="1026" lrx="3342" lry="1172" xml:id="z_f10v_l007"/>
+      <zone ulx="662" uly="1132" lrx="3305" lry="1294" xml:id="z_f10v_l008"/>
+      <zone ulx="666" uly="1250" lrx="3361" lry="1424" xml:id="z_f10v_l009"/>
+      <zone ulx="687" uly="1375" lrx="3414" lry="1536" xml:id="z_f10v_l010"/>
+      <zone ulx="690" uly="1493" lrx="3392" lry="1667" xml:id="z_f10v_l011"/>
+      <zone ulx="650" uly="1599" lrx="3311" lry="1792" xml:id="z_f10v_l012"/>
+      <zone ulx="672" uly="1723" lrx="3324" lry="1907" xml:id="z_f10v_l013"/>
+      <zone ulx="694" uly="1848" lrx="3317" lry="2028" xml:id="z_f10v_l014"/>
+      <zone ulx="672" uly="1966" lrx="3321" lry="2165" xml:id="z_f10v_l015"/>
+      <zone ulx="703" uly="2106" lrx="2502" lry="2280" xml:id="z_f10v_l016"/>
+      <zone ulx="759" uly="2240" lrx="3308" lry="2395" xml:id="z_f10v_l017"/>
+      <zone ulx="793" uly="2464" lrx="818" lry="2516" xml:id="z_f10v_l018"/>
+      <zone ulx="921" uly="2345" lrx="3327" lry="2535" xml:id="z_f10v_l019"/>
+      <zone ulx="669" uly="2473" lrx="3321" lry="2684" xml:id="z_f10v_l020"/>
+      <zone ulx="666" uly="2591" lrx="3321" lry="2793" xml:id="z_f10v_l021"/>
+      <zone ulx="666" uly="2731" lrx="3364" lry="2927" xml:id="z_f10v_l022"/>
+      <zone ulx="628" uly="2856" lrx="2072" lry="3048" xml:id="z_f10v_l023"/>
+      <zone ulx="1048" uly="2996" lrx="1929" lry="3157" xml:id="z_f10v_l024"/>
+      <zone ulx="2359" uly="2834" lrx="3532" lry="3014" xml:id="z_f10v_l025"/>
+      <zone ulx="2219" uly="2983" lrx="3514" lry="3160" xml:id="z_f10v_l026"/>
+      <zone ulx="560" uly="3101" lrx="3557" lry="3360" xml:id="z_f10v_l027"/>
+      <zone ulx="1011" uly="3238" lrx="1957" lry="3409" xml:id="z_f10v_l028"/>
+      <zone ulx="1089" uly="3493" lrx="2508" lry="3708" xml:id="z_f10v_l029"/>
+      <zone ulx="2767" uly="3279" lrx="3317" lry="3444" xml:id="z_f10v_l030"/>
+      <zone ulx="2782" uly="3422" lrx="3277" lry="3605" xml:id="z_f10v_l031"/>
+      <zone ulx="2676" uly="3565" lrx="3240" lry="3739" xml:id="z_f10v_l032"/>
+      <zone ulx="2770" uly="3677" lrx="3454" lry="3832" xml:id="z_f10v_l033"/>
+      <zone ulx="2707" uly="3786" lrx="3458" lry="3948" xml:id="z_f10v_l034"/>
+      <zone ulx="1095" uly="3904" lrx="3454" lry="4153" xml:id="z_f10v_l035"/>
+      <zone ulx="1076" uly="4327" lrx="2536" lry="4526" xml:id="z_f10v_l036"/>
+      <zone ulx="2717" uly="4100" lrx="3314" lry="4293" xml:id="z_f10v_l037"/>
+      <zone ulx="2773" uly="4249" lrx="3308" lry="4427" xml:id="z_f10v_l038"/>
+      <zone ulx="2735" uly="4402" lrx="3299" lry="4635" xml:id="z_f10v_l039"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f10v_l001" xml:id="catmus_f10v_l001"/>
+          <seg type="raw_unreviewed">chabitu</seg>
+          <lb facs="#z_f10v_l002" xml:id="catmus_f10v_l002"/>
+          <seg type="raw_unreviewed">accri</seg>
+          <lb facs="#z_f10v_l003" xml:id="catmus_f10v_l003"/>
+          <seg type="raw_unreviewed">in bond mõ in malo r est nalde dulcissonũ / in quol ẜmone</seg>
+          <lb facs="#z_f10v_l004" xml:id="catmus_f10v_l004"/>
+          <seg type="raw_unreviewed">tuo habeas tres gestus ⁊tres uoces¬</seg>
+          <lb facs="#z_f10v_l005" xml:id="catmus_f10v_l005"/>
+          <seg type="raw_unreviewed">ubi gra qñ in nocab et cõcludis inspicies t̾ram semi</seg>
+          <lb facs="#z_f10v_l006" xml:id="catmus_f10v_l006"/>
+          <seg type="raw_unreviewed">clausis oculis et quasitrahes tacita uote sinaris ita</seg>
+          <lb facs="#z_f10v_l007" xml:id="catmus_f10v_l007"/>
+          <seg type="raw_unreviewed">bnĩ ut audiẽtes plene intelligãte Thema aũt et totum</seg>
+          <lb facs="#z_f10v_l008" xml:id="catmus_f10v_l008"/>
+          <seg type="raw_unreviewed">abiũ ẜimonẽ p̃t̾ allusiones loquais uoce mediocri</seg>
+          <lb facs="#z_f10v_l009" xml:id="catmus_f10v_l009"/>
+          <seg type="raw_unreviewed">et facie erecta nullũ cm̃ singula̾i̾t respicias sed omẽs</seg>
+          <lb facs="#z_f10v_l010" xml:id="catmus_f10v_l010"/>
+          <seg type="raw_unreviewed">sensus exc̾iores dige admcoꝵ in tellc̃m ut scias quot</seg>
+          <lb facs="#z_f10v_l011" xml:id="catmus_f10v_l011"/>
+          <seg type="raw_unreviewed">sut nõblitates quot mebra quot ꝓbacones et que sũt</seg>
+          <lb facs="#z_f10v_l012" xml:id="catmus_f10v_l012"/>
+          <seg type="raw_unreviewed">⁊iniquã ercabis Cum aũt allud̾is eĩge faciẽ tuã et</seg>
+          <lb facs="#z_f10v_l013" xml:id="catmus_f10v_l013"/>
+          <seg type="raw_unreviewed">alta uoce loqua̾is mo u̾tens uoltũ addextam mõ ad</seg>
+          <lb facs="#z_f10v_l014" xml:id="catmus_f10v_l014"/>
+          <seg type="raw_unreviewed">siuiscrã mõ ilłum respiciẽs mõ iscũ roculos opperi</seg>
+          <lb facs="#z_f10v_l015" xml:id="catmus_f10v_l015"/>
+          <seg type="raw_unreviewed">et ipõs c̾tũfer inde falconis et h mõ in onu ẜmone</seg>
+          <lb facs="#z_f10v_l016" xml:id="catmus_f10v_l016"/>
+          <seg type="raw_unreviewed">sme latino sie mac̾no procedas</seg>
+          <lb facs="#z_f10v_l017" xml:id="catmus_f10v_l017"/>
+          <seg type="raw_unreviewed">Umn uis smocinare ponethema in apiceto cõ</seg>
+          <lb facs="#z_f10v_l018" xml:id="catmus_f10v_l018"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f10v_l019" xml:id="catmus_f10v_l019"/>
+          <seg type="raw_unreviewed">grim hoco et temꝑi Dem sailla nobilitates ad</seg>
+          <lb facs="#z_f10v_l020" xml:id="catmus_f10v_l020"/>
+          <seg type="raw_unreviewed">clansulas et cuilib notabilitati in fer mc̃bta cõpe</seg>
+          <lb facs="#z_f10v_l021" xml:id="catmus_f10v_l021"/>
+          <seg type="raw_unreviewed">tẽcia et hec t̾a uidelic chema noͣbilitates ⁊ mẽbra</seg>
+          <lb facs="#z_f10v_l022" xml:id="catmus_f10v_l022"/>
+          <seg type="raw_unreviewed">tibi p̃micorꝑa cordetenus et sic efacili Heb̃is nec</seg>
+          <lb facs="#z_f10v_l023" xml:id="catmus_f10v_l023"/>
+          <seg type="raw_unreviewed">miqua demabis Wbigrã</seg>
+          <lb facs="#z_f10v_l024" xml:id="catmus_f10v_l024"/>
+          <seg type="raw_unreviewed">Mictamꝰ lignũ</seg>
+          <lb facs="#z_f10v_l025" xml:id="catmus_f10v_l025"/>
+          <seg type="raw_unreviewed">Iniqͥtatꝭ ꝯspi̾acõmutaꝰ.</seg>
+          <lb facs="#z_f10v_l026" xml:id="catmus_f10v_l026"/>
+          <seg type="raw_unreviewed">q bedẽpcorspassio inpa .e.</seg>
+          <lb facs="#z_f10v_l027" xml:id="catmus_f10v_l027"/>
+          <seg type="raw_unreviewed">Thoma Oupanem cins nũbis istis Cadib opinio . ⁊er edt ui.</seg>
+          <lb facs="#z_f10v_l028" xml:id="catmus_f10v_l028"/>
+          <seg type="raw_unreviewed">Etecadi eũ det̾aui</seg>
+          <lb facs="#z_f10v_l029" xml:id="catmus_f10v_l029"/>
+          <seg type="raw_unreviewed">Iniquitatꝭ cõspĩacõ Quesuit</seg>
+          <lb facs="#z_f10v_l030" xml:id="catmus_f10v_l030"/>
+          <seg type="raw_unreviewed">Gonsensin</seg>
+          <lb facs="#z_f10v_l031" xml:id="catmus_f10v_l031"/>
+          <seg type="raw_unreviewed">consilio</seg>
+          <lb facs="#z_f10v_l032" xml:id="catmus_f10v_l032"/>
+          <seg type="raw_unreviewed">Auxilio</seg>
+          <lb facs="#z_f10v_l033" xml:id="catmus_f10v_l033"/>
+          <seg type="raw_unreviewed">Inturpitudine</seg>
+          <lb facs="#z_f10v_l034" xml:id="catmus_f10v_l034"/>
+          <seg type="raw_unreviewed">Inamaitudiẽ</seg>
+          <lb facs="#z_f10v_l035" xml:id="catmus_f10v_l035"/>
+          <seg type="raw_unreviewed">Redẽptois passio Ethec fuit Inmltitudĩe</seg>
+          <lb facs="#z_f10v_l036" xml:id="catmus_f10v_l036"/>
+          <seg type="raw_unreviewed">Giroris oppinio Que suit</seg>
+          <lb facs="#z_f10v_l037" xml:id="catmus_f10v_l037"/>
+          <seg type="raw_unreviewed">Insiꝑictia</seg>
+          <lb facs="#z_f10v_l038" xml:id="catmus_f10v_l038"/>
+          <seg type="raw_unreviewed">iiordia</seg>
+          <lb facs="#z_f10v_l039" xml:id="catmus_f10v_l039"/>
+          <seg type="raw_unreviewed">InDuꝑbia</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f10v_l001" xml:id="medusa_f10v_l001"/>
+          <seg type="raw_unreviewed">habitum</seg>
+          <lb facs="#z_f10v_l002" xml:id="medusa_f10v_l002"/>
+          <seg type="raw_unreviewed">acta</seg>
+          <lb facs="#z_f10v_l003" xml:id="medusa_f10v_l003"/>
+          <seg type="raw_unreviewed">in bono mo in malo ⁊ est nalde ducisssom̃ in quolz ẜmone</seg>
+          <lb facs="#z_f10v_l004" xml:id="medusa_f10v_l004"/>
+          <seg type="raw_unreviewed">tuo habeas tres gestus ⁊ tres uoces.</seg>
+          <lb facs="#z_f10v_l005" xml:id="medusa_f10v_l005"/>
+          <seg type="raw_unreviewed">Ubi grã qñ in nocas et cõcludis inspicies terram semi</seg>
+          <lb facs="#z_f10v_l006" xml:id="medusa_f10v_l006"/>
+          <seg type="raw_unreviewed">clausis oculis et quasi trahens tacita uote fruaris ita</seg>
+          <lb facs="#z_f10v_l007" xml:id="medusa_f10v_l007"/>
+          <seg type="raw_unreviewed">tñ ut audientes plene intelligat. Thema autem et totum</seg>
+          <lb facs="#z_f10v_l008" xml:id="medusa_f10v_l008"/>
+          <seg type="raw_unreviewed">aliũ sermonẽ pt̃ allusionẽ loquans uoce mediocr</seg>
+          <lb facs="#z_f10v_l009" xml:id="medusa_f10v_l009"/>
+          <seg type="raw_unreviewed">et facie erecta nullũ tñ singulatim respicias sed omẽs</seg>
+          <lb facs="#z_f10v_l010" xml:id="medusa_f10v_l010"/>
+          <seg type="raw_unreviewed">sensus exteriores dĩge ad interiorum intellectũ ut scias quot</seg>
+          <lb facs="#z_f10v_l011" xml:id="medusa_f10v_l011"/>
+          <seg type="raw_unreviewed">sint nobilitates quot membra quot ꝓbaciones et que sũt</seg>
+          <lb facs="#z_f10v_l012" xml:id="medusa_f10v_l012"/>
+          <seg type="raw_unreviewed">⁊ niquam errabis Cum autem alludis eiꝰge facie tua et</seg>
+          <lb facs="#z_f10v_l013" xml:id="medusa_f10v_l013"/>
+          <seg type="raw_unreviewed">alta voce loquans mo vertens uultum ad dextͥam mo ad</seg>
+          <lb facs="#z_f10v_l014" xml:id="medusa_f10v_l014"/>
+          <seg type="raw_unreviewed">sinistra mõ illum respiciens mõ istũ ⁊ oculos apperi</seg>
+          <lb facs="#z_f10v_l015" xml:id="medusa_f10v_l015"/>
+          <seg type="raw_unreviewed">et ipõs c̾tũ fer moe falconis et hᶜ mo͂ in om̃i ẜmone</seg>
+          <lb facs="#z_f10v_l016" xml:id="medusa_f10v_l016"/>
+          <seg type="raw_unreviewed">sine latino sine magno procedas</seg>
+          <lb facs="#z_f10v_l017" xml:id="medusa_f10v_l017"/>
+          <seg type="raw_unreviewed">Uin uis synocinare ponethema in apiceto cõ</seg>
+          <lb facs="#z_f10v_l018" xml:id="medusa_f10v_l018"/>
+          <seg type="raw_unreviewed">dum</seg>
+          <lb facs="#z_f10v_l019" xml:id="medusa_f10v_l019"/>
+          <seg type="raw_unreviewed">grn̾i loco et tempori Deum stilla nobilitates ad</seg>
+          <lb facs="#z_f10v_l020" xml:id="medusa_f10v_l020"/>
+          <seg type="raw_unreviewed">clausulas et cuilibet notabilitati infer membra compe</seg>
+          <lb facs="#z_f10v_l021" xml:id="medusa_f10v_l021"/>
+          <seg type="raw_unreviewed">Tercia et hec tria videlicet thema Nobilitates et mẽbra</seg>
+          <lb facs="#z_f10v_l022" xml:id="medusa_f10v_l022"/>
+          <seg type="raw_unreviewed">tibi p̾mcorꝑa corde tenuis et sic ex facili habes nec</seg>
+          <lb facs="#z_f10v_l023" xml:id="medusa_f10v_l023"/>
+          <seg type="raw_unreviewed">minquam deminabis ubi gra</seg>
+          <lb facs="#z_f10v_l024" xml:id="medusa_f10v_l024"/>
+          <seg type="raw_unreviewed">mittamus ligam</seg>
+          <lb facs="#z_f10v_l025" xml:id="medusa_f10v_l025"/>
+          <seg type="raw_unreviewed">Iniquitatis conspiracionis</seg>
+          <lb facs="#z_f10v_l026" xml:id="medusa_f10v_l026"/>
+          <seg type="raw_unreviewed">Redemptoris passio in pa. e.</seg>
+          <lb facs="#z_f10v_l027" xml:id="medusa_f10v_l027"/>
+          <seg type="raw_unreviewed">Thoma In panem eins In u̾bis istis Ego is opinco i. et e d̃t vi</seg>
+          <lb facs="#z_f10v_l028" xml:id="medusa_f10v_l028"/>
+          <seg type="raw_unreviewed">Et eciam eum decani</seg>
+          <lb facs="#z_f10v_l029" xml:id="medusa_f10v_l029"/>
+          <seg type="raw_unreviewed">Iniquitatis conspiracione</seg>
+          <lb facs="#z_f10v_l030" xml:id="medusa_f10v_l030"/>
+          <seg type="raw_unreviewed">Conseisin</seg>
+          <lb facs="#z_f10v_l031" xml:id="medusa_f10v_l031"/>
+          <seg type="raw_unreviewed">Consilio</seg>
+          <lb facs="#z_f10v_l032" xml:id="medusa_f10v_l032"/>
+          <seg type="raw_unreviewed">Anxilio</seg>
+          <lb facs="#z_f10v_l033" xml:id="medusa_f10v_l033"/>
+          <seg type="raw_unreviewed">In turpitudine</seg>
+          <lb facs="#z_f10v_l034" xml:id="medusa_f10v_l034"/>
+          <seg type="raw_unreviewed">In a matudie</seg>
+          <lb facs="#z_f10v_l035" xml:id="medusa_f10v_l035"/>
+          <seg type="raw_unreviewed">Redemptoris passio Et hec fuit In multitudine</seg>
+          <lb facs="#z_f10v_l036" xml:id="medusa_f10v_l036"/>
+          <seg type="raw_unreviewed">Erroris oppinio cene sint</seg>
+          <lb facs="#z_f10v_l037" xml:id="medusa_f10v_l037"/>
+          <seg type="raw_unreviewed">Insipiencia</seg>
+          <lb facs="#z_f10v_l038" xml:id="medusa_f10v_l038"/>
+          <seg type="raw_unreviewed">nonndio</seg>
+          <lb facs="#z_f10v_l039" xml:id="medusa_f10v_l039"/>
+          <seg type="raw_unreviewed">In Supplicia</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f10v_l001 #z_f10v_l002 #z_f10v_l003 #z_f10v_l004 #z_f10v_l005 #z_f10v_l006 #z_f10v_l007 #z_f10v_l008" xml:id="u_10v_001">[okrajové poznámky: de habitu …] … in bono, modo in malo, et est valde dulcissimum. In quolibet sermone tuo habeas tres gestus et tres voces. Verbi gratia quando invocas et concludis, inspicias terram semiclausis oculis et quasi [...] tacita voce suavis ita tamen ut audientes plene intelligant te. Thema autem et totum alium sermonem praeter allusiones loquaris voce mediocri …</p>
+        <note type="editorial" corresp="#u_10v_001" xml:lang="cs">Navazuje na exclamatio z10r. Několik slov u tichého hlasu je nejasných; neskrývám je doplněnou přesnou instrukcí. Segmenty1–2 jsou okrajové štítky.</note>
+        <p facs="#z_f10v_l009 #z_f10v_l010 #z_f10v_l011 #z_f10v_l012 #z_f10v_l013 #z_f10v_l014 #z_f10v_l015 #z_f10v_l016" xml:id="u_10v_002">… et facie erecta; nullum tamen singulariter respicias, sed omnes sensus exteriores dirige ad interiorem intellectum, ut scias quot sunt notabilitates, quot membra, quot probationes et quae sunt, et numquam errabis. Cum autem alludis, erige faciem tuam et alta voce loquaris, modo vertens vultum ad dextram, modo ad sinistram, modo illum respiciens, modo istum, et oculos aperi et ipsos circumfer more falconis. Et hoc modo in omni sermone sive Latino sive materno procedas.</p>
+        <note type="editorial" corresp="#u_10v_002" xml:lang="cs">Sokolí přirovnání a odlišná hlasová poloha jsou na obraze čitelné. Závěrečná jistota návodu patří autorovi, nikoli hodnocení AI rekonstrukce.</note>
+        <p facs="#z_f10v_l017 #z_f10v_l018 #z_f10v_l019 #z_f10v_l020 #z_f10v_l021 #z_f10v_l022 #z_f10v_l023" xml:id="u_10v_003">Cum vis sermocinari, pone thema in [...] congruum loco et tempori. Deinde [...] notabilitates ad clausulas, et cuilibet notabilitati infer membra competentia. Et haec tria, videlicet thema, notabilitates et membra, tibi [...] cordetenus, et sic ex facili [...] nec numquam deviabis. Verbi gratia: [fragment iniciály].</p>
+        <note type="editorial" corresp="#u_10v_003" xml:lang="cs">V návodu je více zkratek a nejasných slov; vlastní návrh nepředstírá úplné slovní rozluštění. Následuje skutečný diagram, který se nesmí číst jako obyčejná lineární věta.</note>
+        <p facs="#z_f10v_l024 #z_f10v_l025 #z_f10v_l026 #z_f10v_l027 #z_f10v_l028" xml:id="u_10v_004">Thema: Mittamus lignum / in panem eius / et [eradicemus?] eum de terra viventium. Notabilitates: Iniquitatis conspiratio — mittamus; Redemptoris passio — in pane eius; Erroris opinio — [...] de terra viventium.</p>
+        <note type="editorial" corresp="#u_10v_004" xml:lang="cs">Vlastní návrh je odvozen i z nativního celého diagramu, ne pouze z oddělených řádkových pásem. Některé zkrácené spojnice a poslední sloveso zůstávají nejisté. Pořadí segmentů24–28 je algoritmická linearizace větveného schématu.</note>
+        <p facs="#z_f10v_l029 #z_f10v_l030 #z_f10v_l031 #z_f10v_l032 #z_f10v_l033 #z_f10v_l034 #z_f10v_l035 #z_f10v_l036 #z_f10v_l037 #z_f10v_l038 #z_f10v_l039" xml:id="u_10v_005">Iniquitatis conspiratio quae fuit: [consensu?], consilio, auxilio. Redemptoris passio, et haec fuit: in turpitudine, in amaritudine, in multitudine. Erroris opinio quae fuit: insipientia, [ignorantia?], in superbia.</p>
+        <note type="editorial" corresp="#u_10v_005" xml:lang="cs">Tři samostatné větvené diagramy mají vždy tři koncové členy. Případná pádová úprava při čtení consensu je jen návrhová; nejisté druhé slovo v posledním diagramu není vyřešeno pouhou významovou analogií. Rozložení není prohlášeno za správně segmentovaný souvislý text.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_10v_001">[Na okraji: o vystupování …] … jednou v dobrém, jednou ve zlém smyslu; je to velmi libé. V každém kázání užívej tři druhy držení těla a tři hlasové polohy. Když vzýváš a uzavíráš, hleď k zemi s přivřenýma očima a [...] tichým, příjemným hlasem, ale tak, aby ti posluchači plně rozuměli. Téma a ostatní kázání kromě rétorických oslovení pronášej středně silným hlasem …</p>
+        <p corresp="#u_10v_002">… se vztyčenou tváří. Nedívej se však jednotlivě na nikoho; vnější smysly obrať k vnitřnímu porozumění, abys věděl, kolik máš hlavních myšlenek, členů a důkazů a které to jsou. Pak nepochybíš. Při rétorickém oslovení pozvedni tvář, mluv silným hlasem a obracej se jednou doprava, jednou doleva, dívej se střídavě na jednoho i druhého, otevři oči a rozhlížej se jako sokol. Tak postupuj v každém kázání, latinském i v mateřském jazyce.</p>
+        <p corresp="#u_10v_003">Chceš-li kázat, polož téma [...] vhodné místu a času. Poté [...] přiřaď hlavní myšlenky jednotlivým částem a ke každé připoj vhodné členy. Tyto tři věci — téma, hlavní myšlenky a členy — si [...] zapamatuj srdcem. Pak snadno [...] a nikdy nesejdeš z cesty. Například: [fragment iniciály].</p>
+        <p corresp="#u_10v_004">Téma se větví do tří částí: Vložme dřevo / do jeho chleba / a vyhlaďme ho ze země živých. K nim patří hlavní myšlenky: spiknutí nepravosti — k vložení dřeva; utrpení Vykupitele — k jeho chlebu; mylná představa — k vyhlazení ze země živých.</p>
+        <p corresp="#u_10v_005">Spiknutí nepravosti se uskutečnilo [souhlasem?], radou a pomocí. Utrpení Vykupitele bylo v potupě, hořkosti a mnohosti. Mylná představa spočívala v nerozumnosti, [nevědomosti?] a pýše.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

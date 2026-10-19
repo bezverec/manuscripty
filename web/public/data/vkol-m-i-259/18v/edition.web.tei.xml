@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 18v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: De occulta vita Iesu Christi. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_18v_coordinate; PNG SHA256 2cff9232a9fa9013f4f258136e9ebf2432d6b74ba20ca383f843569315ebe8ab; archival TIFF SHA256 b7b06822b68203ec22f1558744083cf69b2c35f593b2d9bf468855bf80b8e4e3; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_18v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#18v"/>
+      <zone ulx="722" uly="1496" lrx="753" lry="1639" xml:id="z_f18v_l001"/>
+      <zone ulx="796" uly="600" lrx="3386" lry="777" xml:id="z_f18v_l002"/>
+      <zone ulx="799" uly="728" lrx="3289" lry="880" xml:id="z_f18v_l003"/>
+      <zone ulx="790" uly="843" lrx="3293" lry="1008" xml:id="z_f18v_l004"/>
+      <zone ulx="3314" uly="805" lrx="3352" lry="902" xml:id="z_f18v_l005"/>
+      <zone ulx="784" uly="976" lrx="3417" lry="1116" xml:id="z_f18v_l006"/>
+      <zone ulx="750" uly="1098" lrx="3296" lry="1256" xml:id="z_f18v_l007"/>
+      <zone ulx="793" uly="1225" lrx="3342" lry="1396" xml:id="z_f18v_l008"/>
+      <zone ulx="784" uly="1359" lrx="3433" lry="1546" xml:id="z_f18v_l009"/>
+      <zone ulx="784" uly="1487" lrx="3314" lry="1633" xml:id="z_f18v_l010"/>
+      <zone ulx="771" uly="1583" lrx="3302" lry="1751" xml:id="z_f18v_l011"/>
+      <zone ulx="768" uly="1720" lrx="3383" lry="1885" xml:id="z_f18v_l012"/>
+      <zone ulx="781" uly="1851" lrx="3333" lry="2006" xml:id="z_f18v_l013"/>
+      <zone ulx="775" uly="1969" lrx="3349" lry="2137" xml:id="z_f18v_l014"/>
+      <zone ulx="781" uly="2084" lrx="3392" lry="2274" xml:id="z_f18v_l015"/>
+      <zone ulx="778" uly="2218" lrx="3392" lry="2367" xml:id="z_f18v_l016"/>
+      <zone ulx="787" uly="2342" lrx="3445" lry="2504" xml:id="z_f18v_l017"/>
+      <zone ulx="796" uly="2448" lrx="3401" lry="2619" xml:id="z_f18v_l018"/>
+      <zone ulx="771" uly="2576" lrx="3361" lry="2722" xml:id="z_f18v_l019"/>
+      <zone ulx="784" uly="2697" lrx="3352" lry="2862" xml:id="z_f18v_l020"/>
+      <zone ulx="793" uly="2818" lrx="3414" lry="2980" xml:id="z_f18v_l021"/>
+      <zone ulx="747" uly="2930" lrx="3386" lry="3114" xml:id="z_f18v_l022"/>
+      <zone ulx="793" uly="3052" lrx="3370" lry="3238" xml:id="z_f18v_l023"/>
+      <zone ulx="781" uly="3173" lrx="3364" lry="3360" xml:id="z_f18v_l024"/>
+      <zone ulx="796" uly="3307" lrx="3401" lry="3500" xml:id="z_f18v_l025"/>
+      <zone ulx="806" uly="3419" lrx="3423" lry="3615" xml:id="z_f18v_l026"/>
+      <zone ulx="806" uly="3556" lrx="3411" lry="3755" xml:id="z_f18v_l027"/>
+      <zone ulx="803" uly="3696" lrx="3411" lry="3879" xml:id="z_f18v_l028"/>
+      <zone ulx="812" uly="3829" lrx="3377" lry="3988" xml:id="z_f18v_l029"/>
+      <zone ulx="818" uly="3944" lrx="3380" lry="4134" xml:id="z_f18v_l030"/>
+      <zone ulx="809" uly="4084" lrx="3339" lry="4249" xml:id="z_f18v_l031"/>
+      <zone ulx="824" uly="4206" lrx="3398" lry="4380" xml:id="z_f18v_l032"/>
+      <zone ulx="821" uly="4327" lrx="3361" lry="4573" xml:id="z_f18v_l033"/>
+      <zone ulx="3784" uly="908" lrx="3887" lry="992" xml:id="z_f18v_l034"/>
+      <zone ulx="3769" uly="995" lrx="3887" lry="1120" xml:id="z_f18v_l035"/>
+      <zone ulx="3778" uly="1151" lrx="3875" lry="1247" xml:id="z_f18v_l036"/>
+      <zone ulx="3769" uly="1266" lrx="3890" lry="1415" xml:id="z_f18v_l037"/>
+      <zone ulx="3759" uly="1381" lrx="3881" lry="1480" xml:id="z_f18v_l038"/>
+      <zone ulx="3769" uly="1540" lrx="3884" lry="1611" xml:id="z_f18v_l039"/>
+      <zone ulx="3766" uly="1788" lrx="3884" lry="1882" xml:id="z_f18v_l040"/>
+      <zone ulx="3756" uly="1888" lrx="3890" lry="2012" xml:id="z_f18v_l041"/>
+      <zone ulx="3750" uly="1969" lrx="3887" lry="2109" xml:id="z_f18v_l042"/>
+      <zone ulx="3784" uly="2380" lrx="3862" lry="2516" xml:id="z_f18v_l043"/>
+      <zone ulx="3750" uly="2569" lrx="3871" lry="2669" xml:id="z_f18v_l044"/>
+      <zone ulx="3735" uly="2694" lrx="3887" lry="2803" xml:id="z_f18v_l045"/>
+      <zone ulx="3741" uly="2812" lrx="3890" lry="2908" xml:id="z_f18v_l046"/>
+      <zone ulx="3756" uly="2949" lrx="3812" lry="3027" xml:id="z_f18v_l047"/>
+      <zone ulx="3735" uly="3058" lrx="3887" lry="3170" xml:id="z_f18v_l048"/>
+      <zone ulx="3738" uly="3195" lrx="3887" lry="3322" xml:id="z_f18v_l049"/>
+      <zone ulx="3735" uly="3341" lrx="3884" lry="3450" xml:id="z_f18v_l050"/>
+      <zone ulx="3728" uly="3440" lrx="3887" lry="3552" xml:id="z_f18v_l051"/>
+      <zone ulx="3744" uly="3602" lrx="3871" lry="3705" xml:id="z_f18v_l052"/>
+      <zone ulx="3738" uly="3696" lrx="3884" lry="3979" xml:id="z_f18v_l053"/>
+      <zone ulx="3763" uly="4212" lrx="3878" lry="4585" xml:id="z_f18v_l054"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f18v_l001" xml:id="catmus_f18v_l001"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_f18v_l002" xml:id="catmus_f18v_l002"/>
+          <seg type="raw_unreviewed">cãtes Illi honũ deo ox destũ nẽ aliquũ poss ast̾bi Ull</seg>
+          <lb facs="#z_f18v_l003" xml:id="catmus_f18v_l003"/>
+          <seg type="raw_unreviewed">lami tñ hũa at mudanã aꝑtitudiue̾ Sñdbat</seg>
+          <lb facs="#z_f18v_l004" xml:id="catmus_f18v_l004"/>
+          <seg type="raw_unreviewed">ut assol illa etas Erat eni aptus robi dinis</seg>
+          <lb facs="#z_f18v_l005" xml:id="catmus_f18v_l005"/>
+          <seg type="raw_unreviewed">h</seg>
+          <lb facs="#z_f18v_l006" xml:id="catmus_f18v_l006"/>
+          <seg type="raw_unreviewed">uis totꝰ dimꝰ cat Quaius odono nẽ indicia</seg>
+          <lb facs="#z_f18v_l007" xml:id="catmus_f18v_l007"/>
+          <seg type="raw_unreviewed">mlta susciꝑet quos mer ouribi aꝑtꝰ ess Et</seg>
+          <lb facs="#z_f18v_l008" xml:id="catmus_f18v_l008"/>
+          <seg type="raw_unreviewed">nupp cat cirde ꝙ panꝑcułl duobi tlis fais eb</seg>
+          <lb facs="#z_f18v_l009" xml:id="catmus_f18v_l009"/>
+          <seg type="raw_unreviewed">natꝰ Iudicaba maqꝭ digni. regie coneme qni</seg>
+          <lb facs="#z_f18v_l010" xml:id="catmus_f18v_l010"/>
+          <seg type="raw_unreviewed">oseph et maie d quiymo ignoabant eni archa</seg>
+          <lb facs="#z_f18v_l011" xml:id="catmus_f18v_l011"/>
+          <seg type="raw_unreviewed">na Ex alio aũt i surgobãt detractões indicia</seg>
+          <lb facs="#z_f18v_l012" xml:id="catmus_f18v_l012"/>
+          <seg type="raw_unreviewed">et habeba᷑ iguaros. sope reputatꝰ ⁊ stultꝰ ubi iã</seg>
+          <lb facs="#z_f18v_l013" xml:id="catmus_f18v_l013"/>
+          <seg type="raw_unreviewed">clare ĩ cipit hũilitas magña eiꝰ hic nõ stude</seg>
+          <lb facs="#z_f18v_l014" xml:id="catmus_f18v_l014"/>
+          <seg type="raw_unreviewed">bat nilicie nec sathagobat ꝓ corꝑis u̾tute pã</seg>
+          <lb facs="#z_f18v_l015" xml:id="catmus_f18v_l015"/>
+          <seg type="raw_unreviewed">dendasut se miꝰ foite a̾ magꝭ nt̾ suos coeros</seg>
+          <lb facs="#z_f18v_l016" xml:id="catmus_f18v_l016"/>
+          <seg type="raw_unreviewed">dudet Et si lacessitq int̾d quicia us manu aut</seg>
+          <lb facs="#z_f18v_l017" xml:id="catmus_f18v_l017"/>
+          <seg type="raw_unreviewed">u̾bo repẽdebat alicii uice Unde sugax ⁊ pusillanis</seg>
+          <lb facs="#z_f18v_l018" xml:id="catmus_f18v_l018"/>
+          <seg type="raw_unreviewed">qĩtꝰ esesartẽ ulla distobat unde captaet necessaia</seg>
+          <lb facs="#z_f18v_l019" xml:id="catmus_f18v_l019"/>
+          <seg type="raw_unreviewed">uite S aue patuis aut mat̾us luerf ⁊ int̾dũ</seg>
+          <lb facs="#z_f18v_l020" xml:id="catmus_f18v_l020"/>
+          <seg type="raw_unreviewed">questu uita frugali ⁊ pca hũilit̾ fouebat᷑ Et em</seg>
+          <lb facs="#z_f18v_l021" xml:id="catmus_f18v_l021"/>
+          <seg type="raw_unreviewed">comedebat ibibebat ⁊ dige̾bat ⁊ euuiltobat t homo</seg>
+          <lb facs="#z_f18v_l022" xml:id="catmus_f18v_l022"/>
+          <seg type="raw_unreviewed">Michil quia deus simlatũ agẽs / alienꝰ cat aco</seg>
+          <lb facs="#z_f18v_l023" xml:id="catmus_f18v_l023"/>
+          <seg type="raw_unreviewed">uiiis spectacła illa ind̾ebat Infeia nõ fige</seg>
+          <lb facs="#z_f18v_l024" xml:id="catmus_f18v_l024"/>
+          <seg type="raw_unreviewed">bat uisum nõ ad sra xpedic̃ten cantela ã</seg>
+          <lb facs="#z_f18v_l025" xml:id="catmus_f18v_l025"/>
+          <seg type="raw_unreviewed">deus h̃õ cat s ne notaet᷑ ꝓpt̾ secutũi ⁊ aptũ mis</seg>
+          <lb facs="#z_f18v_l026" xml:id="catmus_f18v_l026"/>
+          <seg type="raw_unreviewed">teriũ Illa pulctudo appcti uõ pot̾at᷑ ab ulla niu</seg>
+          <lb facs="#z_f18v_l027" xml:id="catmus_f18v_l027"/>
+          <seg type="raw_unreviewed">lie̾ magl uõ alios sanctificabat aspcus Iec ꝓpt̾</seg>
+          <lb facs="#z_f18v_l028" xml:id="catmus_f18v_l028"/>
+          <seg type="raw_unreviewed">exrmã essigis eius alicui corta aliqii cc̃pta</seg>
+          <lb facs="#z_f18v_l029" xml:id="catmus_f18v_l029"/>
+          <seg type="raw_unreviewed">tio uenat em depelle no oatar Pecana nõ</seg>
+          <lb facs="#z_f18v_l030" xml:id="catmus_f18v_l030"/>
+          <seg type="raw_unreviewed">fe̾b̃at ꝓ cul fecat largitatẽ iuenũ Nec emi</seg>
+          <lb facs="#z_f18v_l031" xml:id="catmus_f18v_l031"/>
+          <seg type="raw_unreviewed">hobat unde minꝰ aut decebat deisicos mo̾cs</seg>
+          <lb facs="#z_f18v_l032" xml:id="catmus_f18v_l032"/>
+          <seg type="raw_unreviewed">srequẽtabat aut synagogã indeo ꝵꝭ more Dta</seg>
+          <lb facs="#z_f18v_l033" xml:id="catmus_f18v_l033"/>
+          <seg type="raw_unreviewed">tutf aut tꝑibi uerebat ĩtemplũ Coqno secha</seg>
+          <lb facs="#z_f18v_l034" xml:id="catmus_f18v_l034"/>
+          <seg type="raw_unreviewed">uu</seg>
+          <lb facs="#z_f18v_l035" xml:id="catmus_f18v_l035"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f18v_l036" xml:id="catmus_f18v_l036"/>
+          <seg type="raw_unreviewed">et.</seg>
+          <lb facs="#z_f18v_l037" xml:id="catmus_f18v_l037"/>
+          <seg type="raw_unreviewed">cał o</seg>
+          <lb facs="#z_f18v_l038" xml:id="catmus_f18v_l038"/>
+          <seg type="raw_unreviewed">ita</seg>
+          <lb facs="#z_f18v_l039" xml:id="catmus_f18v_l039"/>
+          <seg type="raw_unreviewed">uos</seg>
+          <lb facs="#z_f18v_l040" xml:id="catmus_f18v_l040"/>
+          <seg type="raw_unreviewed">qrat</seg>
+          <lb facs="#z_f18v_l041" xml:id="catmus_f18v_l041"/>
+          <seg type="raw_unreviewed">Alri</seg>
+          <lb facs="#z_f18v_l042" xml:id="catmus_f18v_l042"/>
+          <seg type="raw_unreviewed">diil</seg>
+          <lb facs="#z_f18v_l043" xml:id="catmus_f18v_l043"/>
+          <seg type="raw_unreviewed">Ba</seg>
+          <lb facs="#z_f18v_l044" xml:id="catmus_f18v_l044"/>
+          <seg type="raw_unreviewed">satõ</seg>
+          <lb facs="#z_f18v_l045" xml:id="catmus_f18v_l045"/>
+          <seg type="raw_unreviewed">Idui</seg>
+          <lb facs="#z_f18v_l046" xml:id="catmus_f18v_l046"/>
+          <seg type="raw_unreviewed">more</seg>
+          <lb facs="#z_f18v_l047" xml:id="catmus_f18v_l047"/>
+          <seg type="raw_unreviewed">Ul</seg>
+          <lb facs="#z_f18v_l048" xml:id="catmus_f18v_l048"/>
+          <seg type="raw_unreviewed">laton</seg>
+          <lb facs="#z_f18v_l049" xml:id="catmus_f18v_l049"/>
+          <seg type="raw_unreviewed">coiiii</seg>
+          <lb facs="#z_f18v_l050" xml:id="catmus_f18v_l050"/>
+          <seg type="raw_unreviewed">cuił</seg>
+          <lb facs="#z_f18v_l051" xml:id="catmus_f18v_l051"/>
+          <seg type="raw_unreviewed">Cotro</seg>
+          <lb facs="#z_f18v_l052" xml:id="catmus_f18v_l052"/>
+          <seg type="raw_unreviewed">Iuoe</seg>
+          <lb facs="#z_f18v_l053" xml:id="catmus_f18v_l053"/>
+          <seg type="raw_unreviewed">SQS</seg>
+          <lb facs="#z_f18v_l054" xml:id="catmus_f18v_l054"/>
+          <seg type="raw_unreviewed">ls</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f18v_l001" xml:id="medusa_f18v_l001"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_f18v_l002" xml:id="medusa_f18v_l002"/>
+          <seg type="raw_unreviewed">cãtes / Illi hom̃i deo ex de facto nͥe aliquid poss ascribi Uł</seg>
+          <lb facs="#z_f18v_l003" xml:id="medusa_f18v_l003"/>
+          <seg type="raw_unreviewed">lam tñ hũa at mundanã apertitudinem ostendebat</seg>
+          <lb facs="#z_f18v_l004" xml:id="medusa_f18v_l004"/>
+          <seg type="raw_unreviewed">ut assol illa etas Erat enĩ aptus robi diuus</seg>
+          <lb facs="#z_f18v_l005" xml:id="medusa_f18v_l005"/>
+          <seg type="raw_unreviewed">p</seg>
+          <lb facs="#z_f18v_l006" xml:id="medusa_f18v_l006"/>
+          <seg type="raw_unreviewed">uno totꝰ dñmꝰ eãt Quamuis ex uno ne᷑ iudicia</seg>
+          <lb facs="#z_f18v_l007" xml:id="medusa_f18v_l007"/>
+          <seg type="raw_unreviewed">multa suscipiet quos mire omnibus aptus esset Et</seg>
+          <lb facs="#z_f18v_l008" xml:id="medusa_f18v_l008"/>
+          <seg type="raw_unreviewed">nirꝭ eãt credere ꝙ pauꝑcul duobꝰ t̾lis filiis osꝭ</seg>
+          <lb facs="#z_f18v_l009" xml:id="medusa_f18v_l009"/>
+          <seg type="raw_unreviewed">natus Iudicabitur magis dignitati regie convenire quam</seg>
+          <lb facs="#z_f18v_l010" xml:id="medusa_f18v_l010"/>
+          <seg type="raw_unreviewed">Ioseph et Marie Sd̃ quoniam ignoraͤbant eum archa</seg>
+          <lb facs="#z_f18v_l011" xml:id="medusa_f18v_l011"/>
+          <seg type="raw_unreviewed">na Ex alio autem insurgebant detractiones iudicia</seg>
+          <lb facs="#z_f18v_l012" xml:id="medusa_f18v_l012"/>
+          <seg type="raw_unreviewed">Et habebat ignaues sepe reputatus et stultus Ubi iam</seg>
+          <lb facs="#z_f18v_l013" xml:id="medusa_f18v_l013"/>
+          <seg type="raw_unreviewed">clare incipit humilitas magna eius / hic nõ scinde</seg>
+          <lb facs="#z_f18v_l014" xml:id="medusa_f18v_l014"/>
+          <seg type="raw_unreviewed">bat mulicie nec sathagabat ꝓ corporis u̾tute pã</seg>
+          <lb facs="#z_f18v_l015" xml:id="medusa_f18v_l015"/>
+          <seg type="raw_unreviewed">denda int̾ se minꝰ fortẽ aͥ magꝭ int̾ suos coeros</seg>
+          <lb facs="#z_f18v_l016" xml:id="medusa_f18v_l016"/>
+          <seg type="raw_unreviewed">oneret Et si lacessitꝰ interdꝰ ꝯuicia nõ manu aut</seg>
+          <lb facs="#z_f18v_l017" xml:id="medusa_f18v_l017"/>
+          <seg type="raw_unreviewed">u̾bo rep̃debat alicui uicẽ Unde fugax ⁊ pusillanĩs</seg>
+          <lb facs="#z_f18v_l018" xml:id="medusa_f18v_l018"/>
+          <seg type="raw_unreviewed">hitꝰ est arte nulla discibat unde captae̾t necessaria</seg>
+          <lb facs="#z_f18v_l019" xml:id="medusa_f18v_l019"/>
+          <seg type="raw_unreviewed">uite Sed aut paternis aut maternis lucrif. et interdictis</seg>
+          <lb facs="#z_f18v_l020" xml:id="medusa_f18v_l020"/>
+          <seg type="raw_unreviewed">questu vita frugali et per ea humiliter fovebatur Et eum</seg>
+          <lb facs="#z_f18v_l021" xml:id="medusa_f18v_l021"/>
+          <seg type="raw_unreviewed">comedebat ⁊ bibebat ⁊ digebat ⁊ emittebat ut homo</seg>
+          <lb facs="#z_f18v_l022" xml:id="medusa_f18v_l022"/>
+          <seg type="raw_unreviewed">Nichil quia deus simulatũ a gens alienꝰ ea̾t a cõ</seg>
+          <lb facs="#z_f18v_l023" xml:id="medusa_f18v_l023"/>
+          <seg type="raw_unreviewed">uniis spectacula nulla videbat Inferiam non fige</seg>
+          <lb facs="#z_f18v_l024" xml:id="medusa_f18v_l024"/>
+          <seg type="raw_unreviewed">bat uisum nõ ad suã expedientem cautela Nam</seg>
+          <lb facs="#z_f18v_l025" xml:id="medusa_f18v_l025"/>
+          <seg type="raw_unreviewed">dens ho eãt s ne notaret᷑ ꝓptꝰ secutũ ⁊ aꝑtũ mis</seg>
+          <lb facs="#z_f18v_l026" xml:id="medusa_f18v_l026"/>
+          <seg type="raw_unreviewed">teruũ / Illa pulcritudo appeti nõ pota̾t ab u̾lla mu</seg>
+          <lb facs="#z_f18v_l027" xml:id="medusa_f18v_l027"/>
+          <seg type="raw_unreviewed">liꝰe magꝭ u̾o alios sanctificabat aspectus Nec ꝓpter</seg>
+          <lb facs="#z_f18v_l028" xml:id="medusa_f18v_l028"/>
+          <seg type="raw_unreviewed">ex unam effigie eius alicui exorta aliquando scripta</seg>
+          <lb facs="#z_f18v_l029" xml:id="medusa_f18v_l029"/>
+          <seg type="raw_unreviewed">cio uenat eñi depelle nõ exccitare peccania nõ</seg>
+          <lb facs="#z_f18v_l030" xml:id="medusa_f18v_l030"/>
+          <seg type="raw_unreviewed">febat procul fecerat largitatem munera Nec enim</seg>
+          <lb facs="#z_f18v_l031" xml:id="medusa_f18v_l031"/>
+          <seg type="raw_unreviewed">habat unde / Minꝰ autem decebat deificos moͤes</seg>
+          <lb facs="#z_f18v_l032" xml:id="medusa_f18v_l032"/>
+          <seg type="raw_unreviewed">frequẽtabat aut̃ synagogã iudeoꝵ more. Beata</seg>
+          <lb facs="#z_f18v_l033" xml:id="medusa_f18v_l033"/>
+          <seg type="raw_unreviewed">tutꝭ aut̃ tꝑib ueniebat ĩ templũ Cognoscba</seg>
+          <lb facs="#z_f18v_l034" xml:id="medusa_f18v_l034"/>
+          <seg type="raw_unreviewed">mod</seg>
+          <lb facs="#z_f18v_l035" xml:id="medusa_f18v_l035"/>
+          <seg type="raw_unreviewed">cũ u</seg>
+          <lb facs="#z_f18v_l036" xml:id="medusa_f18v_l036"/>
+          <seg type="raw_unreviewed">et cetera</seg>
+          <lb facs="#z_f18v_l037" xml:id="medusa_f18v_l037"/>
+          <seg type="raw_unreviewed">cat e</seg>
+          <lb facs="#z_f18v_l038" xml:id="medusa_f18v_l038"/>
+          <seg type="raw_unreviewed">nita</seg>
+          <lb facs="#z_f18v_l039" xml:id="medusa_f18v_l039"/>
+          <seg type="raw_unreviewed">not.</seg>
+          <lb facs="#z_f18v_l040" xml:id="medusa_f18v_l040"/>
+          <seg type="raw_unreviewed">huar</seg>
+          <lb facs="#z_f18v_l041" xml:id="medusa_f18v_l041"/>
+          <seg type="raw_unreviewed">alme</seg>
+          <lb facs="#z_f18v_l042" xml:id="medusa_f18v_l042"/>
+          <seg type="raw_unreviewed">omnibus</seg>
+          <lb facs="#z_f18v_l043" xml:id="medusa_f18v_l043"/>
+          <seg type="raw_unreviewed">bã</seg>
+          <lb facs="#z_f18v_l044" xml:id="medusa_f18v_l044"/>
+          <seg type="raw_unreviewed">tato</seg>
+          <lb facs="#z_f18v_l045" xml:id="medusa_f18v_l045"/>
+          <seg type="raw_unreviewed">idum</seg>
+          <lb facs="#z_f18v_l046" xml:id="medusa_f18v_l046"/>
+          <seg type="raw_unreviewed">more</seg>
+          <lb facs="#z_f18v_l047" xml:id="medusa_f18v_l047"/>
+          <seg type="raw_unreviewed">yt</seg>
+          <lb facs="#z_f18v_l048" xml:id="medusa_f18v_l048"/>
+          <seg type="raw_unreviewed">lator</seg>
+          <lb facs="#z_f18v_l049" xml:id="medusa_f18v_l049"/>
+          <seg type="raw_unreviewed">conis</seg>
+          <lb facs="#z_f18v_l050" xml:id="medusa_f18v_l050"/>
+          <seg type="raw_unreviewed">cunt</seg>
+          <lb facs="#z_f18v_l051" xml:id="medusa_f18v_l051"/>
+          <seg type="raw_unreviewed">Gotto</seg>
+          <lb facs="#z_f18v_l052" xml:id="medusa_f18v_l052"/>
+          <seg type="raw_unreviewed">mete</seg>
+          <lb facs="#z_f18v_l053" xml:id="medusa_f18v_l053"/>
+          <seg type="raw_unreviewed">Oculi</seg>
+          <lb facs="#z_f18v_l054" xml:id="medusa_f18v_l054"/>
+          <seg type="raw_unreviewed">plerum</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f18v_l001 #z_f18v_l002 #z_f18v_l003 #z_f18v_l004 #z_f18v_l005 #z_f18v_l006 #z_f18v_l007 #z_f18v_l008 #z_f18v_l009 #z_f18v_l010" xml:id="u_18v_001">… tates. [Ille homo Deo …; initium sententiae incertum.] [Humanam atque mundanam aptitudinem …] prout assolet illa aetas. Erat enim aptus rebus divinis, immo totus divinus erat. Quamvis ex [divino?] non indicia multa susciperet, [quomodo?] mirum omnibus aptus esset. Et mirum erat eis de quo pauperculis duobus talis filius esset natus. Iudicabatur magis dignus regiae convenire quam Ioseph et Mariae, de quo [quasi?] ignorabant eius archa-…</p>
+        <note type="editorial" corresp="#u_18v_001" xml:lang="cs">Několik prvních vět je obtížných i po otevření celku, detailů a kandidátů; mezery výslovně přiznávám a nevytvářím hladký hypotetický životopis. Archa-/na je rozdělené slovo, nikoli artificia z předběžného čtení. První segment je grafický fragment, segment5 pouze úzký ořez.</note>
+        <p facs="#z_f18v_l011 #z_f18v_l012 #z_f18v_l013 #z_f18v_l014 #z_f18v_l015 #z_f18v_l016 #z_f18v_l017" xml:id="u_18v_002">… na. Ex alio autem insurgebant detractores invidia, et habebatur ignavus, saepe reputatus et stultus. Ubi iam clare incipit humilitatis magnitudo eius. Hic non studebat militiae nec satagebat pro corporis virtute pandenda, ut se minus fortem aut magis inter suos coaevos duceret. Et si lacessitus interdum [quicquam?], non manu aut verbo rependebat alicui vicem. Unde fugax et pusillanimis …</p>
+        <note type="editorial" corresp="#u_18v_002" xml:lang="cs">Je to autorovo rozjímání o Kristu, nikoli přepis biblické pasáže. Rozvedení militiae, coaevos a rependebat se opírá o obraz; krátké slovo v segmentu16 zůstává nejisté.</note>
+        <p facs="#z_f18v_l018 #z_f18v_l019 #z_f18v_l020 #z_f18v_l021 #z_f18v_l022 #z_f18v_l023 #z_f18v_l024 #z_f18v_l025" xml:id="u_18v_003">… habitus est. Artem nullam discebat unde captaret necessaria vitae, sed aut paternis aut maternis lucris et interdum quaestu vita frugali et parca humiliter fovebatur. Et cum comedebat et bibebat et digerebat et remittebat ut homo, nichil quia Deus simulatum agens. Alienus erat a conviviis, spectacula illa [ridebat?]. In feminas non figebat visum, non ad suam expedientem cautelam, quia Deus homo erat, sed ne notaretur propter [secretum et altum?] mys-…</p>
+        <note type="editorial" corresp="#u_18v_003" xml:lang="cs">In feminas je návrhové rozvedení stlačené zkratky v segmentu23. Věta o podívaných a výraz před mysterium nejsou jisté. Překlad zachovává tělesné funkce výslovně přítomné v textu a nepřidává jim dodatečný moralizující výklad.</note>
+        <p facs="#z_f18v_l026 #z_f18v_l027 #z_f18v_l028 #z_f18v_l029 #z_f18v_l030 #z_f18v_l031 #z_f18v_l032 #z_f18v_l033" xml:id="u_18v_004">… terium. Illa pulchritudo appeti non poterat ab ulla muliere, magis quos alios sanctificabat aspectus. Nec propter externam effigiem eius alicui coorta aliqua temptatio veniebat, [quam depellere non oporteret?]. Pecuniam non ferebat; procul fecit largitatem iuvenum. Nec enim habebat unde, minus autem decebat deliciosos mores. Frequentabat autem synagogam Iudaeorum more; statutis autem temporibus veniebat in templum. Cognosceba-…</p>
+        <note type="editorial" corresp="#u_18v_004" xml:lang="cs">Nejasnou negaci ve větě o pokušení nelze skrýt jednoznačnou parafrází. Deliciosos mores a cognosceba- jsou návrhová čtení. Tvrzení o jeho kráse je výklad středověkého autora, ne naše nezávislé historické zjištění.</note>
+        <p facs="#z_f18v_l034 #z_f18v_l035 #z_f18v_l036 #z_f18v_l037 #z_f18v_l038 #z_f18v_l039 #z_f18v_l040 #z_f18v_l041 #z_f18v_l042 #z_f18v_l043 #z_f18v_l044 #z_f18v_l045 #z_f18v_l046 #z_f18v_l047 #z_f18v_l048 #z_f18v_l049 #z_f18v_l050 #z_f18v_l051 #z_f18v_l052 #z_f18v_l053 #z_f18v_l054" xml:id="u_18v_005">[Fragmenta paginae oppositae: verba mutilata, lectio non certa.]</p>
+        <note type="editorial" corresp="#u_18v_005" xml:lang="cs">Detekce přidala úzké fragmenty sousedního folia na pravém okraji snímku. Nejde o pokračování vlastního textového sloupce18v; jeho chybějící obsah se podle19r nedoplňuje.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_18v_001">… [Pokračování z předchozí strany.] [Úvodní věta o člověku a Bohu není bezpečně rozřešena; následuje zmínka o lidské a světské způsobilosti.] Jak bývá obvyklé v onom věku. Byl totiž způsobilý pro božské věci, ba byl celý božský. Ačkoli [ze svého božství?] nepřijímal mnoho znamení, bylo pro všechny podivuhodné, jak byl způsobilý. Divili se, jak se dvěma chudým lidem mohl narodit takový syn. Soudili, že je hoden spíše královského dvora než Josefa a Marie, kteří [téměř?] neznali jeho tajem-…</p>
+        <p corresp="#u_18v_002">… ství. Z jiné strany však ze závisti povstávali pomlouvači; pokládali jej za nevýkonného a často i za hloupého. Zde již jasně začíná velikost jeho pokory. Necvičil se ve vojenství ani se nesnažil ukazovat tělesnou sílu, aby se mezi svými vrstevníky pokládal za méně či více silného. I když jej někdy [nějak?] napadali, nikomu neoplácel rukou ani slovem. Proto byl [pokládán] za prchajícího a malomyslného …</p>
+        <p corresp="#u_18v_003">… považován. Neučil se žádnému řemeslu, jímž by si opatřoval životní potřeby, ale pokorně se živil střídmým a skromným životem z otcových či matčiných výdělků a někdy z výdělku vlastního. Jedl, pil, trávil a vylučoval jako člověk, aniž by jako Bůh cokoli předstíral. Vyhýbal se hostinám a ona podívaná mu byla [k smíchu? — nejisté]. Neupíral pohled na ženy; ne kvůli opatrnosti, kterou by pro sebe potřeboval, neboť byl Bohočlověk, ale aby na sebe neupozorňoval pro [skryté a vznešené?] tajem-…</p>
+        <p corresp="#u_18v_004">… ství. Po oné kráse nemohla zatoužit žádná žena; jeho pohled spíše druhé posvěcoval. Ani kvůli jeho vnější podobě v někom nevznikalo pokušení [návaznost o jeho odhánění zůstává nejistá]. Nenosil peníze a dával stranou mladickou štědrost či rozhazovačnost. Neměl totiž z čeho a zhýralé způsoby mu tím méně slušely. Navštěvoval synagogu podle židovského zvyku a ve stanovených časech přicházel do chrámu. Byl pozná-…</p>
+        <p corresp="#u_18v_005">[Zlomky protější strany: oříznutá slova, četba není jistá.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

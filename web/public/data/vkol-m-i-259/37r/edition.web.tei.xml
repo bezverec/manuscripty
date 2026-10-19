@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 37r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Exempla. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_37r_coordinate; PNG SHA256 e57b47b70261ce197e5e658da908dbcb7af16fb6ceea24bba1e90374c1b199cf; archival TIFF SHA256 445fe6b0313465cae56ff51ef2adc0af9a6932ffc63c38457c59c7a174c4a6ed; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_37r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#37r"/>
+      <zone ulx="102" uly="575" lrx="152" lry="644" xml:id="z_f37r_l001"/>
+      <zone ulx="59" uly="616" lrx="298" lry="721" xml:id="z_f37r_l002"/>
+      <zone ulx="52" uly="684" lrx="305" lry="833" xml:id="z_f37r_l003"/>
+      <zone ulx="115" uly="1991" lrx="292" lry="2109" xml:id="z_f37r_l004"/>
+      <zone ulx="152" uly="2109" lrx="258" lry="2230" xml:id="z_f37r_l005"/>
+      <zone ulx="146" uly="2305" lrx="270" lry="2398" xml:id="z_f37r_l006"/>
+      <zone ulx="168" uly="2868" lrx="283" lry="2961" xml:id="z_f37r_l007"/>
+      <zone ulx="87" uly="3042" lrx="292" lry="3167" xml:id="z_f37r_l008"/>
+      <zone ulx="74" uly="3378" lrx="286" lry="3500" xml:id="z_f37r_l009"/>
+      <zone ulx="479" uly="538" lrx="2433" lry="712" xml:id="z_f37r_l010"/>
+      <zone ulx="448" uly="647" lrx="3162" lry="818" xml:id="z_f37r_l011"/>
+      <zone ulx="473" uly="752" lrx="3184" lry="883" xml:id="z_f37r_l012"/>
+      <zone ulx="479" uly="849" lrx="3134" lry="976" xml:id="z_f37r_l013"/>
+      <zone ulx="479" uly="927" lrx="3156" lry="1067" xml:id="z_f37r_l014"/>
+      <zone ulx="476" uly="1017" lrx="3252" lry="1151" xml:id="z_f37r_l015"/>
+      <zone ulx="498" uly="1098" lrx="3311" lry="1263" xml:id="z_f37r_l016"/>
+      <zone ulx="482" uly="1197" lrx="3177" lry="1350" xml:id="z_f37r_l017"/>
+      <zone ulx="466" uly="1291" lrx="3190" lry="1440" xml:id="z_f37r_l018"/>
+      <zone ulx="482" uly="1375" lrx="3165" lry="1530" xml:id="z_f37r_l019"/>
+      <zone ulx="482" uly="1465" lrx="3134" lry="1633" xml:id="z_f37r_l020"/>
+      <zone ulx="469" uly="1564" lrx="3296" lry="1717" xml:id="z_f37r_l021"/>
+      <zone ulx="469" uly="1655" lrx="3308" lry="1823" xml:id="z_f37r_l022"/>
+      <zone ulx="479" uly="1757" lrx="3205" lry="1938" xml:id="z_f37r_l023"/>
+      <zone ulx="476" uly="1851" lrx="3249" lry="2034" xml:id="z_f37r_l024"/>
+      <zone ulx="473" uly="1947" lrx="3221" lry="2124" xml:id="z_f37r_l025"/>
+      <zone ulx="476" uly="2047" lrx="3152" lry="2205" xml:id="z_f37r_l026"/>
+      <zone ulx="473" uly="2152" lrx="3190" lry="2314" xml:id="z_f37r_l027"/>
+      <zone ulx="473" uly="2240" lrx="3233" lry="2401" xml:id="z_f37r_l028"/>
+      <zone ulx="466" uly="2330" lrx="3199" lry="2510" xml:id="z_f37r_l029"/>
+      <zone ulx="476" uly="2436" lrx="3174" lry="2597" xml:id="z_f37r_l030"/>
+      <zone ulx="466" uly="2535" lrx="3184" lry="2697" xml:id="z_f37r_l031"/>
+      <zone ulx="469" uly="2635" lrx="2795" lry="2790" xml:id="z_f37r_l032"/>
+      <zone ulx="473" uly="2712" lrx="3168" lry="2865" xml:id="z_f37r_l033"/>
+      <zone ulx="479" uly="2803" lrx="3283" lry="2971" xml:id="z_f37r_l034"/>
+      <zone ulx="476" uly="2902" lrx="3193" lry="3058" xml:id="z_f37r_l035"/>
+      <zone ulx="463" uly="2989" lrx="3199" lry="3145" xml:id="z_f37r_l036"/>
+      <zone ulx="466" uly="3098" lrx="3165" lry="3238" xml:id="z_f37r_l037"/>
+      <zone ulx="466" uly="3201" lrx="3230" lry="3335" xml:id="z_f37r_l038"/>
+      <zone ulx="469" uly="3285" lrx="3212" lry="3444" xml:id="z_f37r_l039"/>
+      <zone ulx="469" uly="3384" lrx="3209" lry="3521" xml:id="z_f37r_l040"/>
+      <zone ulx="460" uly="3484" lrx="3289" lry="3612" xml:id="z_f37r_l041"/>
+      <zone ulx="476" uly="3580" lrx="3252" lry="3711" xml:id="z_f37r_l042"/>
+      <zone ulx="473" uly="3664" lrx="3177" lry="3804" xml:id="z_f37r_l043"/>
+      <zone ulx="482" uly="3758" lrx="3268" lry="3901" xml:id="z_f37r_l044"/>
+      <zone ulx="479" uly="3854" lrx="3305" lry="4000" xml:id="z_f37r_l045"/>
+      <zone ulx="488" uly="3941" lrx="3233" lry="4091" xml:id="z_f37r_l046"/>
+      <zone ulx="482" uly="4035" lrx="3181" lry="4168" xml:id="z_f37r_l047"/>
+      <zone ulx="479" uly="4125" lrx="3271" lry="4280" xml:id="z_f37r_l048"/>
+      <zone ulx="469" uly="4224" lrx="3255" lry="4380" xml:id="z_f37r_l049"/>
+      <zone ulx="479" uly="4321" lrx="3261" lry="4461" xml:id="z_f37r_l050"/>
+      <zone ulx="482" uly="4414" lrx="3230" lry="4588" xml:id="z_f37r_l051"/>
+      <zone ulx="3321" uly="1602" lrx="3349" lry="1683" xml:id="z_f37r_l052"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f37r_l001" xml:id="catmus_f37r_l001"/>
+          <seg type="raw_unreviewed">.</seg>
+          <lb facs="#z_f37r_l002" xml:id="catmus_f37r_l002"/>
+          <seg type="raw_unreviewed">ĩqe esssĩ</seg>
+          <lb facs="#z_f37r_l003" xml:id="catmus_f37r_l003"/>
+          <seg type="raw_unreviewed">trid ocade</seg>
+          <lb facs="#z_f37r_l004" xml:id="catmus_f37r_l004"/>
+          <seg type="raw_unreviewed">ẽmie o</seg>
+          <lb facs="#z_f37r_l005" xml:id="catmus_f37r_l005"/>
+          <seg type="raw_unreviewed">Itapd</seg>
+          <lb facs="#z_f37r_l006" xml:id="catmus_f37r_l006"/>
+          <seg type="raw_unreviewed">nulue</seg>
+          <lb facs="#z_f37r_l007" xml:id="catmus_f37r_l007"/>
+          <seg type="raw_unreviewed">Ui pos</seg>
+          <lb facs="#z_f37r_l008" xml:id="catmus_f37r_l008"/>
+          <seg type="raw_unreviewed"> nueliis</seg>
+          <lb facs="#z_f37r_l009" xml:id="catmus_f37r_l009"/>
+          <seg type="raw_unreviewed">uo ĩ uds</seg>
+          <lb facs="#z_f37r_l010" xml:id="catmus_f37r_l010"/>
+          <seg type="raw_unreviewed">Auracliũ E sani et Apollanii p̾ deqt ᵃ ͤ multłm</seg>
+          <lb facs="#z_f37r_l011" xml:id="catmus_f37r_l011"/>
+          <seg type="raw_unreviewed">Ieco ãno qͦ defuetꝰ ħ pͣp pruetẽn. mulier q̃dũ igne liobis fucdesa. ꝓpͥũ</seg>
+          <lb facs="#z_f37r_l012" xml:id="catmus_f37r_l012"/>
+          <seg type="raw_unreviewed">adca ͭ siliũ Requo ꝯcep ͭ ⁊ pepit slm̃ alters It̃ipe tã nephoi̾e quuedõe</seg>
+          <lb facs="#z_f37r_l013" xml:id="catmus_f37r_l013"/>
+          <seg type="raw_unreviewed">ꝑcussa. quol monu ͭ ͥ ciẽs se tradi salthae. uł morti sbĩtuea ĩtire</seg>
+          <lb facs="#z_f37r_l014" xml:id="catmus_f37r_l014"/>
+          <seg type="raw_unreviewed">to miẜante de satiffr̃de cogitue cepͭI ꝓħito pͥus ꝯsaio suc̾dot᷑ sui</seg>
+          <lb facs="#z_f37r_l015" xml:id="catmus_f37r_l015"/>
+          <seg type="raw_unreviewed">in fautulũ secũ tollũs romũ iuit Ie cũ mlta ĩ poetiũde dom ĩuocũcii</seg>
+          <lb facs="#z_f37r_l016" xml:id="catmus_f37r_l016"/>
+          <seg type="raw_unreviewed">ppͣ sclis re ĩgessit Icũ tatnt᷑ luc i ᷤ iłuo ib. cũctꝭ̾ audie ͣ faciẽs ꝯsessiõ</seg>
+          <lb facs="#z_f37r_l017" xml:id="catmus_f37r_l017"/>
+          <seg type="raw_unreviewed">ut oe u̾te̾t ĩ scupõe gastuͭ ĩ biuchie ĩsante Icomisi facõrꝭ cestẽ</seg>
+          <lb facs="#z_f37r_l018" xml:id="catmus_f37r_l018"/>
+          <seg type="raw_unreviewed">dũũs d. pp. qcõ ĩ sułe. ⁊ qr ẽẽt ne peĩtũs nũcordia motꝰ suꝑ eas</seg>
+          <lb facs="#z_f37r_l019" xml:id="catmus_f37r_l019"/>
+          <seg type="raw_unreviewed">sᵈ pͥdño medicꝰ Rolũs ĩfuna plene raibo saia̾e ^ mediciu ⁊̃. ic̃cõ ĩs</seg>
+          <lb facs="#z_f37r_l020" xml:id="catmus_f37r_l020"/>
+          <seg type="raw_unreviewed">ꝓba̾e p̃cepͭ ut ĩbłi ueste oꝑet si qͣ uen̾a̾t adfiliũ cũ peue̾t  ¶Illa</seg>
+          <lb facs="#z_f37r_l021" xml:id="catmus_f37r_l021"/>
+          <seg type="raw_unreviewed">ꝯsusiõ et̾ut tꝑali pp̃onẽs imox exunt destẽ depoᵗ Iĩcañsia rediĩt</seg>
+          <lb facs="#z_f37r_l022" xml:id="catmus_f37r_l022"/>
+          <seg type="raw_unreviewed">⁊ ꝙ patissia sõet adom̃ satiffcõ ĩcli olie satꝭ oñͭ ^Cosidẽatus d libã</seg>
+          <lb facs="#z_f37r_l023" xml:id="catmus_f37r_l023"/>
+          <seg type="raw_unreviewed">tissiꝰ tłi ebe᷑ tłi uecũdie tli pnĩe Iułłr pcci penã posse r̾sisseere</seg>
+          <lb facs="#z_f37r_l024" xml:id="catmus_f37r_l024"/>
+          <seg type="raw_unreviewed">qͥra oĩsi dix ͭ adiules ldimussũ ⁊ pccm um̃i uade ãpuce Irñ ãpliꝰ</seg>
+          <lb facs="#z_f37r_l025" xml:id="catmus_f37r_l025"/>
+          <seg type="raw_unreviewed">ĩuĩxͭ ei Andĩes qͤda ħ ecardĩal. ⁊cũ phri̾sto ꝯ̃ ppͣm iimu̾aus</seg>
+          <lb facs="#z_f37r_l026" xml:id="catmus_f37r_l026"/>
+          <seg type="raw_unreviewed">indicrꝰ ee r̾phũdit d/adtantũ culpã. tũ brene. pnĩu mi</seg>
+          <lb facs="#z_f37r_l027" xml:id="catmus_f37r_l027"/>
+          <seg type="raw_unreviewed">suffid C̾uc sp̃ rñͭ si eͦ ĩ inste cũ młe iͭ ⁊. ĩ suffᵘ ẽ coi̾t eo e</seg>
+          <lb facs="#z_f37r_l028" xml:id="catmus_f37r_l028"/>
+          <seg type="raw_unreviewed">ꝓnã ptũte heãt dyaꝰ ĩ gredi corꝰ meũ ⁊ cõo eĩb me bexet</seg>
+          <lb facs="#z_f37r_l029" xml:id="catmus_f37r_l029"/>
+          <seg type="raw_unreviewed">Ci no tu me ĩ iuste rp̃ħũdꝭ. sile tͤ fiait. Otutĩ dyaꝰ eũdi beou̾e</seg>
+          <lb facs="#z_f37r_l030" xml:id="catmus_f37r_l030"/>
+          <seg type="raw_unreviewed">cep᷑ ꝑcuꝰ dexado ꝑ stã puĩa mulierꝭ d̾s palã dũͭ Etidi oi</seg>
+          <lb facs="#z_f37r_l031" xml:id="catmus_f37r_l031"/>
+          <seg type="raw_unreviewed">dr̃oe p̾gntꝰ didieit ĩ suit ueoa ͭ dme mĩe decet̾o nõ oblatritre</seg>
+          <lb facs="#z_f37r_l032" xml:id="catmus_f37r_l032"/>
+          <seg type="raw_unreviewed">Ecce iͣ nłr ĩfu̾a cradit. ⁊ sauissiui srexit Itdeqterẽ apͣ</seg>
+          <lb facs="#z_f37r_l033" xml:id="catmus_f37r_l033"/>
+          <seg type="raw_unreviewed">uicnũ ͭ ͤ ida agᷝie puella hĩtu idei cuiꝰ filia et sacim ge / suũ srit</seg>
+          <lb facs="#z_f37r_l034" xml:id="catmus_f37r_l034"/>
+          <seg type="raw_unreviewed">spõcosa/ hãc iuẽis qͥda ilicudiepĩ eiust cmiᵗ ꝯgiuatꝰ eocie mai̾ot</seg>
+          <lb facs="#z_f37r_l035" xml:id="catmus_f37r_l035"/>
+          <seg type="raw_unreviewed">ecc̃ie canoio ut uidͭ ꝯcupiͭ ⁊ uĩe amatoi̾is adꝯseusũ sue libis ẽ mlto</seg>
+          <lb facs="#z_f37r_l036" xml:id="catmus_f37r_l036"/>
+          <seg type="raw_unreviewed">labo̾e ĩcliał Adcmꝰ ãploxꝰ dũ auhelu̾e̾t ⁊ ininiis ieeutiis estuũs. eã</seg>
+          <lb facs="#z_f37r_l037" xml:id="catmus_f37r_l037"/>
+          <seg type="raw_unreviewed">coctidie adquiix solicitu̾et. rũ ͭ iͥ prĩ mea sũ dilcã q̃ ĩtũtũ custoᵈ ͭ</seg>
+          <lb facs="#z_f37r_l038" xml:id="catmus_f37r_l038"/>
+          <seg type="raw_unreviewed">me. ut neq̃ eͣ adco neq tu ben̾i̾e passes odmue uͥ uocte sexte sõe que</seg>
+          <lb facs="#z_f37r_l039" xml:id="catmus_f37r_l039"/>
+          <seg type="raw_unreviewed">pascha ꝑ̃cedit bñn It .u. indei dicĩt labou̾re qͥdit ĩ sir mi ͭ ͤ. q̃ sluxꝰ sagis</seg>
+          <lb facs="#z_f37r_l040" xml:id="catmus_f37r_l040"/>
+          <seg type="raw_unreviewed">dĩ cca ꝙ occupat aliis lt possut uie ĩtũde funeĩo h̃ audies ⁊ ob̾</seg>
+          <lb facs="#z_f37r_l041" xml:id="catmus_f37r_l041"/>
+          <seg type="raw_unreviewed">amert mumetatẽ cares pene rone oblitꝰ uane uligiois ĩ mẽon dũce</seg>
+          <lb facs="#z_f37r_l042" xml:id="catmus_f37r_l042"/>
+          <seg type="raw_unreviewed">pussiõis Iuocte earͣdi adu̾gĩe neͭ husiq admultiãs cũ eͥ dorrũͭ. Iudeꝰ</seg>
+          <lb facs="#z_f37r_l043" xml:id="catmus_f37r_l043"/>
+          <seg type="raw_unreviewed">uo pr̃ puelle añ luce cñ lũeis cubitui itus neͭ udlcm bolus bide</seg>
+          <lb facs="#z_f37r_l044" xml:id="catmus_f37r_l044"/>
+          <seg type="raw_unreviewed">quõ iac̾e̾t silia Iuł si sorte opue aicciͭ ͤ hrẽt / uidũs ad bit/ ei^ũ dẽñ</seg>
+          <lb facs="#z_f37r_l045" xml:id="catmus_f37r_l045"/>
+          <seg type="raw_unreviewed">iatũbe muem ĩ fieniunt uers occide̾ crgitũs/ ꝯgnostũs ac ꝙ eẽt iguatꝰ</seg>
+          <lb facs="#z_f37r_l046" xml:id="catmus_f37r_l046"/>
+          <seg type="raw_unreviewed">ep̃i itioeᷤ illa manũ coiuit. ⁊ cũ mag̃ ir claͭ I quid fucꝭ h oquile</seg>
+          <lb facs="#z_f37r_l047" xml:id="catmus_f37r_l047"/>
+          <seg type="raw_unreviewed">utue iula ⁊ fides tua Iaibi ꝑ r̾ligio tui / traditꝰ es iusto de indiͦ  ĩ</seg>
+          <lb facs="#z_f37r_l048" xml:id="catmus_f37r_l048"/>
+          <seg type="raw_unreviewed">mau meas. si ñ trem dñm meũ ep̃m qui i spãle amie ⁊ sauu̾e</seg>
+          <lb facs="#z_f37r_l049" xml:id="catmus_f37r_l049"/>
+          <seg type="raw_unreviewed">ẽquictii qui ecꝭ te sequtu̾e domiũ mea nouit mõ occidẽ te. Ille</seg>
+          <lb facs="#z_f37r_l050" xml:id="catmus_f37r_l050"/>
+          <seg type="raw_unreviewed">tĩeus ⁊ ueĩã posculab᷑. tañ nulxĩ ifusiõe erect die eud cũ eys</seg>
+          <lb facs="#z_f37r_l051" xml:id="catmus_f37r_l051"/>
+          <seg type="raw_unreviewed">solep᷑ officiũ aduonã eẽt celebiur ⁊ inueĩs id̃ utpote elididaus</seg>
+          <lb facs="#z_f37r_l052" xml:id="catmus_f37r_l052"/>
+          <seg type="raw_unreviewed"/>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f37r_l001" xml:id="medusa_f37r_l001"/>
+          <seg type="raw_unreviewed">11</seg>
+          <lb facs="#z_f37r_l002" xml:id="medusa_f37r_l002"/>
+          <seg type="raw_unreviewed">ĩ q e erat ĩp</seg>
+          <lb facs="#z_f37r_l003" xml:id="medusa_f37r_l003"/>
+          <seg type="raw_unreviewed">frid ocridi</seg>
+          <lb facs="#z_f37r_l004" xml:id="medusa_f37r_l004"/>
+          <seg type="raw_unreviewed">temine su</seg>
+          <lb facs="#z_f37r_l005" xml:id="medusa_f37r_l005"/>
+          <seg type="raw_unreviewed">ut patet</seg>
+          <lb facs="#z_f37r_l006" xml:id="medusa_f37r_l006"/>
+          <seg type="raw_unreviewed">molner</seg>
+          <lb facs="#z_f37r_l007" xml:id="medusa_f37r_l007"/>
+          <seg type="raw_unreviewed">in pac</seg>
+          <lb facs="#z_f37r_l008" xml:id="medusa_f37r_l008"/>
+          <seg type="raw_unreviewed">in melania</seg>
+          <lb facs="#z_f37r_l009" xml:id="medusa_f37r_l009"/>
+          <seg type="raw_unreviewed">nõ ĩ meis</seg>
+          <lb facs="#z_f37r_l010" xml:id="medusa_f37r_l010"/>
+          <seg type="raw_unreviewed">Miraculum Cesium et Apollonii p de ꝯtͥbe miraculum</seg>
+          <lb facs="#z_f37r_l011" xml:id="medusa_f37r_l011"/>
+          <seg type="raw_unreviewed">Eo ãno quo defunctꝰ sz p̃p̃ yrotensis mulier qd̵m igne lib̃is fuccẽsis p̃p̃</seg>
+          <lb facs="#z_f37r_l012" xml:id="medusa_f37r_l012"/>
+          <seg type="raw_unreviewed">ad iuã filii / de quo concepit et peperit filium altere / terore tamen nepherie in iuane</seg>
+          <lb facs="#z_f37r_l013" xml:id="medusa_f37r_l013"/>
+          <seg type="raw_unreviewed">percussa quolibet monum̃to teneñ se tradi sathae . uł morti spirituałi ĩt̾re</seg>
+          <lb facs="#z_f37r_l014" xml:id="medusa_f37r_l014"/>
+          <seg type="raw_unreviewed">ro miserante de satisfactione cogitare cepit / prehabito prius consilio sacerdotis sui</seg>
+          <lb facs="#z_f37r_l015" xml:id="medusa_f37r_l015"/>
+          <seg type="raw_unreviewed">in faufulum secum tolluns remum mit / 12 cu mbera in portum de m in nocuncii</seg>
+          <lb facs="#z_f37r_l016" xml:id="medusa_f37r_l016"/>
+          <seg type="raw_unreviewed">pape oculus se ingressit / cum tantis lucernis et claris ibi . cunctis audientibus faciens confessionem</seg>
+          <lb facs="#z_f37r_l017" xml:id="medusa_f37r_l017"/>
+          <seg type="raw_unreviewed">ut o̶s u̾te̾t ĩ scupõe . 3. pastu᷑ ⁊ brichiiꝰ ĩfauteoꝵ . 1. comisi sucõrꝭ teste</seg>
+          <lb facs="#z_f37r_l018" xml:id="medusa_f37r_l018"/>
+          <seg type="raw_unreviewed">Quod nomen d. p. ꝯtẽs in subditos et quia esset nomen penitus invidium motus super eis</seg>
+          <lb facs="#z_f37r_l019" xml:id="medusa_f37r_l019"/>
+          <seg type="raw_unreviewed">sodomo predicto medicus / uelutis infirmis plene et cito sanare / medicum et iocoris</seg>
+          <lb facs="#z_f37r_l020" xml:id="medusa_f37r_l020"/>
+          <seg type="raw_unreviewed">probare precep⁊ ut ibi ueste appare̾t si qͣ uen̾at ad filium cũ pe̾neret ¶ Illi</seg>
+          <lb facs="#z_f37r_l021" xml:id="medusa_f37r_l021"/>
+          <seg type="raw_unreviewed">confusionem et nutu temporalis preponens iuxta exnunc deesse deposcunt / in crastina rediit</seg>
+          <lb facs="#z_f37r_l022" xml:id="medusa_f37r_l022"/>
+          <seg type="raw_unreviewed">⁊ ꝙ patissia fu̾et ad om̃ satifficõs ĩ cl̃i obe̾ satꝭ oñt / Considerans u̇ lib̃i</seg>
+          <lb facs="#z_f37r_l023" xml:id="medusa_f37r_l023"/>
+          <seg type="raw_unreviewed">tissꝰ t̃li obe̾ t̃li uẽndie t̃li pm̃e / m̃l̃i pcc̃i penã posse r̾sisscere</seg>
+          <lb facs="#z_f37r_l024" xml:id="medusa_f37r_l024"/>
+          <seg type="raw_unreviewed">qͦniam om̃ib dixˢ aduilem / dimissũ ÷ peciñ tm̃ uade ĩ pace / ⁊ nͣt ĩ plꝰ</seg>
+          <lb facs="#z_f37r_l025" xml:id="medusa_f37r_l025"/>
+          <seg type="raw_unreviewed">ĩ nũx ei Audiens qͥdam hᶜ excardinał. ⁊ cũ pharisao ꝙ ip̃m uͣniverus</seg>
+          <lb facs="#z_f37r_l026" xml:id="medusa_f37r_l026"/>
+          <seg type="raw_unreviewed">modicem exi r̃p̃hũdit domus / ad tantũ cupam tã breuẽ pnũatꝭ mi</seg>
+          <lb facs="#z_f37r_l027" xml:id="medusa_f37r_l027"/>
+          <seg type="raw_unreviewed">sufficere. Cui pp̃ rũt. Si e ͦ ĩ misere cũ nule a ͭ ͥ ⁊ ĩ suffic ͧ ᷤᷤ ẽ coitꝰ eo eiꝰ</seg>
+          <lb facs="#z_f37r_l028" xml:id="medusa_f37r_l028"/>
+          <seg type="raw_unreviewed">presentes habeat dominus ĩgredi cor. meũ ⁊ coram oĩb me uexet</seg>
+          <lb facs="#z_f37r_l029" xml:id="medusa_f37r_l029"/>
+          <seg type="raw_unreviewed">Ci nͥa tu me ĩ iuste ĩphũdamꝰ . si le tꝰ fiat . Otatum dyaꝰ eũdẽ lexue</seg>
+          <lb facs="#z_f37r_l030" xml:id="medusa_f37r_l030"/>
+          <seg type="raw_unreviewed">cepit percuere uxoriam per franciam punitam mulieris de palacio ecclesie Gandia orum</seg>
+          <lb facs="#z_f37r_l031" xml:id="medusa_f37r_l031"/>
+          <seg type="raw_unreviewed">orõne pͥgati didicit ĩ sua uxoˡᵉͤ diuine mine de cetero nõ oblatricie</seg>
+          <lb facs="#z_f37r_l032" xml:id="medusa_f37r_l032"/>
+          <seg type="raw_unreviewed">Eccẽ iᶜᵃ u̾ba ĩ f̃ma credidit. ⁊ semissia su̾exit I̾t de iusticie mᵃ</seg>
+          <lb facs="#z_f37r_l033" xml:id="medusa_f37r_l033"/>
+          <seg type="raw_unreviewed">Incinitate quadam anglie puella habitata et nuda cuius filia et sacramento genitum filium natum</seg>
+          <lb facs="#z_f37r_l034" xml:id="medusa_f37r_l034"/>
+          <seg type="raw_unreviewed">spociosa / hac minens quidam clericus episcopi eiusdem civitatis / cognatus ecclesie maiorum</seg>
+          <lb facs="#z_f37r_l035" xml:id="medusa_f37r_l035"/>
+          <seg type="raw_unreviewed">ecclesie canonicorum ut videlicet perciperet et ipsius canonicis ad consensum sue libidinis cum multo</seg>
+          <lb facs="#z_f37r_l036" xml:id="medusa_f37r_l036"/>
+          <seg type="raw_unreviewed">labore incutit Ad cuiꝰ apoplexiam dum anhelaret / ⁊ nimis incediis escuans eam</seg>
+          <lb facs="#z_f37r_l037" xml:id="medusa_f37r_l037"/>
+          <seg type="raw_unreviewed">coctidie ad quinqͥeͫꝭ solicituͬet . nũt iᶜ p̃u meo sũ dila̾i q̃ ĩ tãbũ custodꝭ</seg>
+          <lb facs="#z_f37r_l038" xml:id="medusa_f37r_l038"/>
+          <seg type="raw_unreviewed">me. ut neq eꝰ a te neq tu bene passet ad me / nͨ nocte sexte sie que</seg>
+          <lb facs="#z_f37r_l039" xml:id="medusa_f37r_l039"/>
+          <seg type="raw_unreviewed">pascha p̃cedit b̃rm̃ / t̃c .n. nidei dicũr habere / qͣdam ĩfirmite̾ . q̃ s̃luxꝰ sagⁿᵉˢ</seg>
+          <lb facs="#z_f37r_l040" xml:id="medusa_f37r_l040"/>
+          <seg type="raw_unreviewed">dicitur circa qm occupati aliis tamen possunt uinere in tunde . finemis h audiens etc</seg>
+          <lb facs="#z_f37r_l041" xml:id="medusa_f37r_l041"/>
+          <seg type="raw_unreviewed">anictis nimietatem carere pene ratione / oblitis prime religionis / in meorum dominice</seg>
+          <lb facs="#z_f37r_l042" xml:id="medusa_f37r_l042"/>
+          <seg type="raw_unreviewed">passionis / nocte eandem ad u̾gĩem neͭ / ⁊ usq ad matũas cũ aͥ dormiͭ. Indeꝰ</seg>
+          <lb facs="#z_f37r_l043" xml:id="medusa_f37r_l043"/>
+          <seg type="raw_unreviewed">no p̃r puelle añ lucez eñ lueñ cubicüm ĩ tris neᵗ / ad lciũ uolũs uid̃e</seg>
+          <lb facs="#z_f37r_l044" xml:id="medusa_f37r_l044"/>
+          <seg type="raw_unreviewed">quõ uiceret silua / uł si sorte oꝑare nccesse hrent / uidus adbat eicꝰ nã deum</seg>
+          <lb facs="#z_f37r_l045" xml:id="medusa_f37r_l045"/>
+          <seg type="raw_unreviewed">natuite nũerum in fienunt . uer occidere cognitus / cognoscuns autem quod esset ignari</seg>
+          <lb facs="#z_f37r_l046" xml:id="medusa_f37r_l046"/>
+          <seg type="raw_unreviewed">ep̃i / tñ e̾ illꝰ matrin coibuit . ⁊ cũ magͤ nra cl̃icꝭ / quid facꝭ hꝰ o male</seg>
+          <lb facs="#z_f37r_l047" xml:id="medusa_f37r_l047"/>
+          <seg type="raw_unreviewed">p̃tue / ubi ÷ fides tua / ubi ÷ religio tua / tradit / es nistro de mediꝰ / ĩ</seg>
+          <lb facs="#z_f37r_l048" xml:id="medusa_f37r_l048"/>
+          <seg type="raw_unreviewed">matris meas . si non treor dominum meum episcopum / qui mihi speciale amore et salute</seg>
+          <lb facs="#z_f37r_l049" xml:id="medusa_f37r_l049"/>
+          <seg type="raw_unreviewed">Tiquitii / qui eas te frequere domum meam nonit / non occide te. Ille</seg>
+          <lb facs="#z_f37r_l050" xml:id="medusa_f37r_l050"/>
+          <seg type="raw_unreviewed">tineus et ueniam postulas . tam m mixta confusione erectus est / die eadem cum episcopo</seg>
+          <lb facs="#z_f37r_l051" xml:id="medusa_f37r_l051"/>
+          <seg type="raw_unreviewed">solempͤ officium advenia eẽt celebrur . ⁊ inueĩs nĩ utpote ebda dars</seg>
+          <lb facs="#z_f37r_l052" xml:id="medusa_f37r_l052"/>
+          <seg type="raw_unreviewed">10</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f37r_l001 #z_f37r_l002 #z_f37r_l003 #z_f37r_l004 #z_f37r_l005 #z_f37r_l006 #z_f37r_l007 #z_f37r_l008 #z_f37r_l009" xml:id="u_37r_001">[...]</p>
+        <note type="editorial" corresp="#u_37r_001" xml:lang="cs">Nepatří do hlavního textu.</note>
+        <p facs="#z_f37r_l010 #z_f37r_l011 #z_f37r_l012 #z_f37r_l013 #z_f37r_l014 #z_f37r_l015 #z_f37r_l016 #z_f37r_l017" xml:id="u_37r_002">Miraculum [...] et Apollonii papae [...] . Eodem anno quo defunctus est [...] praeteriit mulier quaedam igne libidinis succensa proprium [...] filium. De quo concepit et peperit filium alterum. [...] tam nefaria [...] percussa [...] cogitare coepit, [...] sacerdotis sui [...] . Infantulum secum tollens Romam ivit, ubi cum multa [...] et domini invocatione papae [...] se ingessit. Cum [...] lacrimis [...] cunctis audientibus faciens confessionem [...] infantem commissi facinoris testem [...].</p>
+        <note type="editorial" corresp="#u_37r_002" xml:lang="cs">Jméno v rubrice nejasné, titul papae pravděpodobný; nic neurčuji ze známého exempla. Incestní motiv čtený v obrazu.</note>
+        <p facs="#z_f37r_l018 #z_f37r_l019 #z_f37r_l020 #z_f37r_l021 #z_f37r_l022 #z_f37r_l023 #z_f37r_l024" xml:id="u_37r_003">Videns dominus papa [...] quae et qualis esset [...], misericordia motus super eam [...] medicus, volens infirmam plene [...] sanare, medicinam [...] probare praecepit, ut [...] veste [...] ad filium [...]. Illa confusionem aeternam temporali praeponens mox [...] vestem deposuit [...] et [...] ad omnem satisfactionem [...] paratissima [...]. Considerans [...] talis doloris, talis verecundiae, talis paenitentiae, nullam peccati poenam posse resistere, [...] dixit: [...] dimissum est peccatum tuum, vade in pace. Nec amplius iniunxit ei.</p>
+        <note type="editorial" corresp="#u_37r_003" xml:lang="cs">Přesná zkouška není zajištěna; pořadí časné/věčné potupy v latinském souvětí nejisté, český převod dává jen pravděpodobný smysl.</note>
+        <p facs="#z_f37r_l025 #z_f37r_l026 #z_f37r_l027 #z_f37r_l028 #z_f37r_l029 #z_f37r_l030 #z_f37r_l031 #z_f37r_l032" xml:id="u_37r_004">Audiens quidam ex cardinalibus et cum pluribus contra papam murmurans iudicium eius reprehendit dicens: Ad tantam culpam tam brevem poenitentiam mihi sufficere [...]. Cui papa respondit: Si ego iniuste cum muliere egi et insufficiens [...] poenitentia [...], habeat diabolus ingredi corpus meum et coram omnibus me vexet. Si vero tu me iniuste reprehendis, tibi fiat. Statim diabolus eum [...] vexare coepit. [...] per sanctam poenitentiam mulieris [...] palam [...] . [...] didicit [...] deinceps non oblatrare [...]. [...] in terram cadit et sanissimus surrexit.</p>
+        <note type="editorial" corresp="#u_37r_004" xml:lang="cs">Závěrečný exorcismus jen částečně čitelný. Podmíněný výrok papeže a posednutí kardinála jsou jasné jádro vyprávění.</note>
+        <p facs="#z_f37r_l033 #z_f37r_l034 #z_f37r_l035 #z_f37r_l036 #z_f37r_l037 #z_f37r_l038 #z_f37r_l039 #z_f37r_l040" xml:id="u_37r_005">De Iudaeo et [...] . In Trevirensi vicinia [...] puella [...] Iudaei cuius filia erat [...] suae gentis sponsa. Hanc iuvenis quidam [...] episcopi [...] maioris ecclesiae canonicus, ut vidit, concupivit et [...] amatoris ad consensum suae libidinis multo labore inclinavit. Ad cuius amplexus dum anhelaret [...] cotidie [...] sollicitaret, respondit illi: Pater meus [...] ita [...] custodit me, ut neque ego ad te neque tu venire possis, nisi in nocte sextae feriae quae Pascha praecedit. [...] Iudaei [...] quidam [...] infirmitate [...] fluxus sanguinis [...] occupat [...].</p>
+        <note type="editorial" corresp="#u_37r_005" xml:lang="cs">Vyprávění obsahuje protižidovský stereotyp o krvotoku. Převod dokumentuje tvrzení předlohy, nepředstavuje jej jako skutečnou vlastnost Židů. Přesná formulace stereotypu je navíc částečně nečitelná.</note>
+        <p facs="#z_f37r_l041 #z_f37r_l042 #z_f37r_l043 #z_f37r_l044 #z_f37r_l045 #z_f37r_l046" xml:id="u_37r_006">Iuvenis [...] amore [...] carens paene ratione oblitus [...] religionis [...] dominicae passionis, nocte eadem ad virginem venit et usque ad matutinas cum ea dormivit. Iudaeus vero pater puellae ante lucem cum lumine cubiculum intravit ad lectum volens videre quomodo iaceret filia vel si forte opus [...] haberet. Videns ad latus eius iacentem iuvenem in fremitum versus occidere cogitavit. Cognoscens autem quod esset [...] episcopi, [...] manum continuit et cum magna ira clamavit: Quid facis hic, o vile [...]</p>
+        <note type="editorial" corresp="#u_37r_006" xml:lang="cs">Titul či příbuznost k biskupovi nevyřešeny. Text kritizuje také chování křesťanského kanovníka.</note>
+        <p facs="#z_f37r_l047 #z_f37r_l048 #z_f37r_l049 #z_f37r_l050 #z_f37r_l051" xml:id="u_37r_007">Ubi religio tua et fides tua? [...] Traditus es iusto Dei iudicio in manus meas. Si non timerem dominum meum episcopum, qui mihi speciale [...] amicitiae et favoris [...], qui [...] te sequi [...] domum meam novit, modo occiderem te. Ille timens et veniam postulans [...] . Ea die cum [...] sollemne officium ad nonam esset celebrandum [...]</p>
+        <note type="editorial" corresp="#u_37r_007" xml:lang="cs">Poslední věta pokračuje 37v. Nevyplňuji identitu mladíka ani biskupa.</note>
+        <p facs="#z_f37r_l052" xml:id="u_37r_008">[...]</p>
+        <note type="editorial" corresp="#u_37r_008" xml:lang="cs">Příliš úzká na čtení.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_37r_001">[Úzké zbytky protější stránky.]</p>
+        <p corresp="#u_37r_002">Zázrak [...] a papeže Apollonia [?] [...]. V témže roce, kdy zemřel [...] , jistá žena zanícená chtíčem [...] vlastního syna. Počala s ním a porodila druhého syna. [...] Zasažena tak nepravým [činem] [...] začala uvažovat [...] svého kněze [...]. Vzala dítě s sebou a šla do Říma; s mnohou [...] a vzýváním Pána se dostala před papeže [...]. Se slzami přede všemi vyznala svůj čin [...], přinesla dítě jako svědka spáchaného zločinu [...].</p>
+        <p corresp="#u_37r_003">Papež viděl [...], jaká je [...], slitoval se nad ní jako [...] lékař. Chtěl nemocnou zcela uzdravit [...] a přikázal vyzkoušet lék: aby [...] šat [...] k synovi [...]. Ona dala přednost časné potupě před věčnou [...] a ihned odložila oděv [...], připravena ke všemu zadostiučinění [...]. Zvážil její bolest, stud a pokání, jimž [...] trest hříchu nemůže odolat, a řekl: [...] Tvůj hřích je odpuštěn, jdi v pokoji. Nic dalšího jí neuložil.</p>
+        <p corresp="#u_37r_004">Jeden z kardinálů to slyšel a spolu s mnohými reptal proti papeži. Vytkl mu soud: Na tak velkou vinu tak krátké pokání [...] stačí [...]. Papež odpověděl: Jestliže jsem se ženou jednal nespravedlivě a pokání [...] nestačí, ať ďábel vstoupí do mého těla a přede všemi mě trápí. Jestliže mě však nespravedlivě káráš ty, ať se to stane tobě. Ďábel ho ihned začal [...] trápit. Skrze svaté pokání ženy [...] veřejně [...]. Naučil se [...] napříště neštěkat [proti úsudku?] [...]. [...] Padl na zem a povstal zcela zdráv.</p>
+        <p corresp="#u_37r_005">O Židovi a [...] . V okolí Trevíru [...] byla dívka, dcera Žida [...], zasnoubená muži svého národa. Když ji spatřil mladík [...] biskupa [...] , kanovník hlavního kostela, zatoužil po ní a s velkou námahou ji [...] přiměl svolit k jeho chtíči. Toužil po jejím objetí a denně na ni naléhal. Odpověděla: Můj otec mě tak [...] střeží, že ani já nemohu k tobě, ani ty ke mně; jedině v noci Velkého pátku před Velikonocemi [...]. Židé [...] určitou nemocí [...], krvotokem [...] zaměstnává [...].</p>
+        <p corresp="#u_37r_006">Mladík z lásky [...] téměř pozbyl rozum, zapomněl na své náboženství a utrpení Páně. Té noci šel k dívce a spal s ní do jitřní. Její židovský otec před úsvitem vešel se světlem do komnaty a chtěl se podívat, jak dcera leží a zda něco nepotřebuje. Uviděl mladíka po jejím boku, rozzuřil se a zamýšlel ho zabít. Když však poznal, že patří k [...] biskupovi, zadržel ruku a s velkým hněvem zvolal: Co tu děláš, ničemný [...].</p>
+        <p corresp="#u_37r_007">Kde je tvé náboženství a tvá víra? [...] Spravedlivým Božím soudem jsi vydán do mých rukou. Kdybych se nebál svého pána biskupa, který mi prokazuje zvláštní [...] přátelství a přízně [...], který [...] ví o mém domě [...], zabil bych tě hned. On se bál a prosil o odpuštění [...]. Téhož dne, kdy se mělo o noně sloužit slavnostní oficium [...].</p>
+        <p corresp="#u_37r_008">[Okrajová stopa.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

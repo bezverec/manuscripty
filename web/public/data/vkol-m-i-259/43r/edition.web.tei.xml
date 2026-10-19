@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 43r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Exempla. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_43r_coordinate; PNG SHA256 867614c7cba2fa7b6a7eb82ae1de188250d22c21fdb68fddff6d2fc67feb7c13; archival TIFF SHA256 8591720d7e27d631fd216a73d87231fee9497693b24b0c0b298d7f0ec8782f1d; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_43r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#43r"/>
+      <zone ulx="448" uly="622" lrx="3093" lry="771" xml:id="z_f43r_l001"/>
+      <zone ulx="448" uly="728" lrx="3202" lry="874" xml:id="z_f43r_l002"/>
+      <zone ulx="451" uly="821" lrx="3159" lry="980" xml:id="z_f43r_l003"/>
+      <zone ulx="441" uly="917" lrx="3196" lry="1079" xml:id="z_f43r_l004"/>
+      <zone ulx="451" uly="1008" lrx="3237" lry="1179" xml:id="z_f43r_l005"/>
+      <zone ulx="441" uly="1101" lrx="3181" lry="1263" xml:id="z_f43r_l006"/>
+      <zone ulx="451" uly="1204" lrx="3181" lry="1362" xml:id="z_f43r_l007"/>
+      <zone ulx="438" uly="1303" lrx="3124" lry="1456" xml:id="z_f43r_l008"/>
+      <zone ulx="438" uly="1412" lrx="3131" lry="1546" xml:id="z_f43r_l009"/>
+      <zone ulx="438" uly="1502" lrx="3128" lry="1645" xml:id="z_f43r_l010"/>
+      <zone ulx="441" uly="1592" lrx="3103" lry="1757" xml:id="z_f43r_l011"/>
+      <zone ulx="441" uly="1689" lrx="3112" lry="1851" xml:id="z_f43r_l012"/>
+      <zone ulx="448" uly="1801" lrx="3084" lry="1953" xml:id="z_f43r_l013"/>
+      <zone ulx="445" uly="1907" lrx="3121" lry="2040" xml:id="z_f43r_l014"/>
+      <zone ulx="445" uly="1997" lrx="3096" lry="2146" xml:id="z_f43r_l015"/>
+      <zone ulx="435" uly="2090" lrx="3246" lry="2240" xml:id="z_f43r_l016"/>
+      <zone ulx="438" uly="2184" lrx="3103" lry="2355" xml:id="z_f43r_l017"/>
+      <zone ulx="441" uly="2289" lrx="3121" lry="2470" xml:id="z_f43r_l018"/>
+      <zone ulx="445" uly="2404" lrx="3115" lry="2572" xml:id="z_f43r_l019"/>
+      <zone ulx="445" uly="2507" lrx="3143" lry="2681" xml:id="z_f43r_l020"/>
+      <zone ulx="454" uly="2607" lrx="3156" lry="2793" xml:id="z_f43r_l021"/>
+      <zone ulx="441" uly="2716" lrx="3171" lry="2896" xml:id="z_f43r_l022"/>
+      <zone ulx="441" uly="2828" lrx="3134" lry="2996" xml:id="z_f43r_l023"/>
+      <zone ulx="445" uly="2933" lrx="3165" lry="3098" xml:id="z_f43r_l024"/>
+      <zone ulx="438" uly="3036" lrx="3205" lry="3204" xml:id="z_f43r_l025"/>
+      <zone ulx="441" uly="3145" lrx="3103" lry="3304" xml:id="z_f43r_l026"/>
+      <zone ulx="435" uly="3244" lrx="3184" lry="3409" xml:id="z_f43r_l027"/>
+      <zone ulx="435" uly="3347" lrx="3212" lry="3515" xml:id="z_f43r_l028"/>
+      <zone ulx="435" uly="3459" lrx="3112" lry="3627" xml:id="z_f43r_l029"/>
+      <zone ulx="438" uly="3562" lrx="3106" lry="3755" xml:id="z_f43r_l030"/>
+      <zone ulx="420" uly="3680" lrx="3137" lry="3879" xml:id="z_f43r_l031"/>
+      <zone ulx="441" uly="3789" lrx="3168" lry="3985" xml:id="z_f43r_l032"/>
+      <zone ulx="426" uly="3910" lrx="3293" lry="4081" xml:id="z_f43r_l033"/>
+      <zone ulx="445" uly="4016" lrx="3168" lry="4184" xml:id="z_f43r_l034"/>
+      <zone ulx="435" uly="4122" lrx="3131" lry="4290" xml:id="z_f43r_l035"/>
+      <zone ulx="435" uly="4240" lrx="3124" lry="4380" xml:id="z_f43r_l036"/>
+      <zone ulx="423" uly="4336" lrx="3156" lry="4483" xml:id="z_f43r_l037"/>
+      <zone ulx="429" uly="4430" lrx="3177" lry="4626" xml:id="z_f43r_l038"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f43r_l001" xml:id="catmus_f43r_l001"/>
+          <seg type="raw_unreviewed">pandor hrẽt filiã u̾giẽ qũe cũ quodã ꝯcubẽs in p̃gnata</seg>
+          <lb facs="#z_f43r_l002" xml:id="catmus_f43r_l002"/>
+          <seg type="raw_unreviewed">hcepit Cum añt cognitũ fuiss ab eius ꝑutibus fcũ h̃oc nepha-</seg>
+          <lb facs="#z_f43r_l003" xml:id="catmus_f43r_l003"/>
+          <seg type="raw_unreviewed">nũ coꝑunt siliã affclige̾ douer ꝑdet de quo cõcepissi dit illa dix</seg>
+          <lb facs="#z_f43r_l004" xml:id="catmus_f43r_l004"/>
+          <seg type="raw_unreviewed">demanio mõcho qui qie firquẽt̾ mãsit tũ cario me op̃pssit</seg>
+          <lb facs="#z_f43r_l005" xml:id="catmus_f43r_l005"/>
+          <seg type="raw_unreviewed">s ciubui scr̃ ꝑde Pono scabm ꝑutrs eius ad mõstun ꝑt̾ ꝓpeant</seg>
+          <lb facs="#z_f43r_l006" xml:id="catmus_f43r_l006"/>
+          <seg type="raw_unreviewed">cnĩ slagiciũ abbati cum ĩsucltatõne euariãt  Ecce pr̃ abba qͣlr</seg>
+          <lb facs="#z_f43r_l007" xml:id="catmus_f43r_l007"/>
+          <seg type="raw_unreviewed">regꝭ ⁊doces filios ruos u moͣchoꝵ at custodes ggem tuũ / uiud</seg>
+          <lb facs="#z_f43r_l008" xml:id="catmus_f43r_l008"/>
+          <seg type="raw_unreviewed">nc̃ oucs s lupis nõ casti s ĩcestuosi a ꝑũit᷑ discipłi tui/ Etce quid</seg>
+          <lb facs="#z_f43r_l009" xml:id="catmus_f43r_l009"/>
+          <seg type="raw_unreviewed">fecit iuamꝰ Eal̾ cuus Iecc̃e qus decepit filiã icã eam q oppͥssit</seg>
+          <lb facs="#z_f43r_l010" xml:id="catmus_f43r_l010"/>
+          <seg type="raw_unreviewed">⁊ĩpguanit tũc scupeftũs abbas issit uocare mai̾nũ/ iliogans</seg>
+          <lb facs="#z_f43r_l011" xml:id="catmus_f43r_l011"/>
+          <seg type="raw_unreviewed">c enui si ĩfilia cor comisiss sclus h̃ nephanimꝰ /arauiꝰ u̾o</seg>
+          <lb facs="#z_f43r_l012" xml:id="catmus_f43r_l012"/>
+          <seg type="raw_unreviewed">aliquã din staus / ⁊cegitãs uit se quu ess dcũiri / ⁊ĩgoniẽscẽs</seg>
+          <lb facs="#z_f43r_l013" xml:id="catmus_f43r_l013"/>
+          <seg type="raw_unreviewed">dix̃ pcc̃am ꝑr pina ĩ pone ꝑ hoc sccle̾/ ⁊ora ꝓue/ abbas hec</seg>
+          <lb facs="#z_f43r_l014" xml:id="catmus_f43r_l014"/>
+          <seg type="raw_unreviewed">ardiẽs in iracũdiã raptus iussit cum gunit̾ affligi tandem dixit</seg>
+          <lb facs="#z_f43r_l015" xml:id="catmus_f43r_l015"/>
+          <seg type="raw_unreviewed">ci in uitate dico t̾ fle mõche ⁊ ncqͣ̃ opp̃ssor y̾ginũ c̾mũi actori</seg>
+          <lb facs="#z_f43r_l016" xml:id="catmus_f43r_l016"/>
+          <seg type="raw_unreviewed">⁊dedecus om̃i sim̃mm tu h̃ oc malũ opatii cs nõ manobis nõbtũ de ceto</seg>
+          <lb facs="#z_f43r_l017" xml:id="catmus_f43r_l017"/>
+          <seg type="raw_unreviewed">et deiecit oum foras moscum Ipã uo iuxͣ prĩs ꝯsiliũ / nũquam</seg>
+          <lb facs="#z_f43r_l018" xml:id="catmus_f43r_l018"/>
+          <seg type="raw_unreviewed">cõfessus est nũscim suñs ẜ abies ꝓiecit se añ foras mosc / Iacẽs</seg>
+          <lb facs="#z_f43r_l019" xml:id="catmus_f43r_l019"/>
+          <seg type="raw_unreviewed">an puĩa si̾ t̾rã ⁊ affligẽs se cauqͣ ipe peccasẜ̃ / ⁊tui c̾ie ꝯmisiss.</seg>
+          <lb facs="#z_f43r_l020" xml:id="catmus_f43r_l020"/>
+          <seg type="raw_unreviewed">tanta indĩgnatõe ꝯtra cã oĩs mochi/ ut uix una panis buccllã</seg>
+          <lb facs="#z_f43r_l021" xml:id="catmus_f43r_l021"/>
+          <seg type="raw_unreviewed">ab cis ml̃tis lac̾iuis ⁊ p̃cibus in petiaret iꝑtres ãuos h̃ sacitus/</seg>
+          <lb facs="#z_f43r_l022" xml:id="catmus_f43r_l022"/>
+          <seg type="raw_unreviewed">Alimus mõscn nõ e̾cessit ꝑ audorꝭ aũt mẽdaꝵ filias siliũ ꝑepit</seg>
+          <lb facs="#z_f43r_l023" xml:id="catmus_f43r_l023"/>
+          <seg type="raw_unreviewed">quẽ iñt puelle post ablactacõ laccepit secũ ad foras mõsc̃ii / Et</seg>
+          <lb facs="#z_f43r_l024" xml:id="catmus_f43r_l024"/>
+          <seg type="raw_unreviewed">añ podẽs mami ꝑiet̾it d. Ecce maie ucquã mõche genus tuũ</seg>
+          <lb facs="#z_f43r_l025" xml:id="catmus_f43r_l025"/>
+          <seg type="raw_unreviewed">nuitri filiũ tnũ quẽ scuprose genuisti¶ Et ilmquẽs oui ĩbire-</seg>
+          <lb facs="#z_f43r_l026" xml:id="catmus_f43r_l026"/>
+          <seg type="raw_unreviewed">cessit porro sca u̾go suscipiẽs puerũ tãquã ꝓp̾um de ip̃a panis</seg>
+          <lb facs="#z_f43r_l027" xml:id="catmus_f43r_l027"/>
+          <seg type="raw_unreviewed">buccella quã accipiebat ab init̾eñtibus mnt̾bat ꝑalios duos</seg>
+          <lb facs="#z_f43r_l028" xml:id="catmus_f43r_l028"/>
+          <seg type="raw_unreviewed">ãuos filiũ alienũ/ Post louga uo̾ tꝑa frc̃s ipius mõscn mi-</seg>
+          <lb facs="#z_f43r_l029" xml:id="catmus_f43r_l029"/>
+          <seg type="raw_unreviewed">selcordia moti adabbatẽ ingressi nogne̾ coꝑunt ut ecipet ĩ</seg>
+          <lb facs="#z_f43r_l030" xml:id="catmus_f43r_l030"/>
+          <seg type="raw_unreviewed">mosc̾im dicẽtes / Abba indulgesi suscipe frẽm manũ ĩgram</seg>
+          <lb facs="#z_f43r_l031" xml:id="catmus_f43r_l031"/>
+          <seg type="raw_unreviewed">Sic em̃ dñs ur̃ iħt pꝰ p̾cepit secce eñi quq aui sũt tusacti qͥbq</seg>
+          <lb facs="#z_f43r_l032" xml:id="catmus_f43r_l032"/>
+          <seg type="raw_unreviewed">ipnĩa aũ sotas mõsti iacõs / iisquã ab inde recessit uixat</seg>
+          <lb facs="#z_f43r_l033" xml:id="catmus_f43r_l033"/>
+          <seg type="raw_unreviewed">frẽs obtuunerũt ab abbate ut c̾cipet᷑ ingiãm inpetta uo̾ uenia</seg>
+          <lb facs="#z_f43r_l034" xml:id="catmus_f43r_l034"/>
+          <seg type="raw_unreviewed">uissit cum abbas ad se int̾duci / cui dixit Nosti maie quã mag</seg>
+          <lb facs="#z_f43r_l035" xml:id="catmus_f43r_l035"/>
+          <seg type="raw_unreviewed">uephas ꝓpec̾sci /⁊ nũc iugredi iussus es cũ filio tuo / quẽ scuptose</seg>
+          <lb facs="#z_f43r_l036" xml:id="catmus_f43r_l036"/>
+          <seg type="raw_unreviewed">guasti/ ecce qũõi ĩ samã Phoc accissti auõst̾io gñde et em̃ pc̃ãm</seg>
+          <lb facs="#z_f43r_l037" xml:id="catmus_f43r_l037"/>
+          <seg type="raw_unreviewed">secisti ꝙ magno uc̃te est expiari pnĩa uñ pcipiẽs ĩnĩgo cibi ut</seg>
+          <lb facs="#z_f43r_l038" xml:id="catmus_f43r_l038"/>
+          <seg type="raw_unreviewed">oiũs mosei foides / tu solus ausc̾as / ain quã moscm ꝑtes e de</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f43r_l001" xml:id="medusa_f43r_l001"/>
+          <seg type="raw_unreviewed">proinde habẽt filiam uͥginẽ / que cũ quodam concubẽs in p̃gnata</seg>
+          <lb facs="#z_f43r_l002" xml:id="medusa_f43r_l002"/>
+          <seg type="raw_unreviewed">concepit Cum autem cognitum fuisset ab eius parentibus factum hoc nepha-</seg>
+          <lb facs="#z_f43r_l003" xml:id="medusa_f43r_l003"/>
+          <seg type="raw_unreviewed">nũ cõꝑunt filiã affligere de uet ꝓdet de quo concepissunt dic illa dix</seg>
+          <lb facs="#z_f43r_l004" xml:id="medusa_f43r_l004"/>
+          <seg type="raw_unreviewed">de manno moncho qui hic frequenter mansit tũtano me oppresit</seg>
+          <lb facs="#z_f43r_l005" xml:id="medusa_f43r_l005"/>
+          <seg type="raw_unreviewed">sunt erubui factum perdes ¶ Porro statim per tres eius ad monasterium perdes prope erant</seg>
+          <lb facs="#z_f43r_l006" xml:id="medusa_f43r_l006"/>
+          <seg type="raw_unreviewed">tm̃ flacizium abbati cum ĩsuctatione emant d . Ecce pr̃ abba q̃lir</seg>
+          <lb facs="#z_f43r_l007" xml:id="medusa_f43r_l007"/>
+          <seg type="raw_unreviewed">regis et doces filios tuos uʳ monchos atq: custodes gͤgensi tuium / ymo</seg>
+          <lb facs="#z_f43r_l008" xml:id="medusa_f43r_l008"/>
+          <seg type="raw_unreviewed">nõ oues s̃ lupi / nõ casti s̃ ĩcestuosi aꝑunt᷑ / discipłi mi Ece quid</seg>
+          <lb facs="#z_f43r_l009" xml:id="medusa_f43r_l009"/>
+          <seg type="raw_unreviewed">fecit manꝰ N. ar̃ tuus. Ecce quõ decepit filiã nr̃am eamq: opp̃ssit</seg>
+          <lb facs="#z_f43r_l010" xml:id="medusa_f43r_l010"/>
+          <seg type="raw_unreviewed">⁊ impgrauit / tũc stupefactus abbas / iussit vocare man̾ium / ĩ Erogans</seg>
+          <lb facs="#z_f43r_l011" xml:id="medusa_f43r_l011"/>
+          <seg type="raw_unreviewed">enim si in filia eoꝵ comisisset seclus hᶜ nephatum / aꝵaunꝰ uero</seg>
+          <lb facs="#z_f43r_l012" xml:id="medusa_f43r_l012"/>
+          <seg type="raw_unreviewed">aliquã diu stans / ⁊ cogitans inter se quid esset deum / ⁊ ingemescens</seg>
+          <lb facs="#z_f43r_l013" xml:id="medusa_f43r_l013"/>
+          <seg type="raw_unreviewed">dix / pccãm pr̃ pnĩa ĩpone ꝓ hoc scleꝰ / ⁊ ora ꝓ me / abbas hoc</seg>
+          <lb facs="#z_f43r_l014" xml:id="medusa_f43r_l014"/>
+          <seg type="raw_unreviewed">audiens in iracundiam raptus iussit eum gr̃ius affligi tandem dixit</seg>
+          <lb facs="#z_f43r_l015" xml:id="medusa_f43r_l015"/>
+          <seg type="raw_unreviewed">ci / in ueritate dico tibi fle nocthe ⁊ neꝙͣ oppͥssor u̾gͥnũ tͥnũ actor</seg>
+          <lb facs="#z_f43r_l016" xml:id="medusa_f43r_l016"/>
+          <seg type="raw_unreviewed">⁊ dedecus om̃i suũm tu hoc malũ oꝑatiꝰ es nõ manebis nob̃tũ de cetero</seg>
+          <lb facs="#z_f43r_l017" xml:id="medusa_f43r_l017"/>
+          <seg type="raw_unreviewed">et deiecit eum foras in ostium / Ipsa uo̶ uix p̃ris consilium / nunquam</seg>
+          <lb facs="#z_f43r_l018" xml:id="medusa_f43r_l018"/>
+          <seg type="raw_unreviewed">confessus est nũscum suũ / s⁊ abiẽs preecit se añ foras mõscũ / Iacẽs</seg>
+          <lb facs="#z_f43r_l019" xml:id="medusa_f43r_l019"/>
+          <seg type="raw_unreviewed">in pnĩa sibi facta et affligens se tanquam ipse peccasset et tamen crimen commisisset</seg>
+          <lb facs="#z_f43r_l020" xml:id="medusa_f43r_l020"/>
+          <seg type="raw_unreviewed">tanta indignacione contra cã omnes modich / ut uix una panis buttellã</seg>
+          <lb facs="#z_f43r_l021" xml:id="medusa_f43r_l021"/>
+          <seg type="raw_unreviewed">ab eis młtris lacrimis ⁊ p̃cibus inpetiaret iꝑtites ãnos h̃ faciens /</seg>
+          <lb facs="#z_f43r_l022" xml:id="medusa_f43r_l022"/>
+          <seg type="raw_unreviewed">Alimono monasterii nõ recessit / pandores autem mendax filia / filium peccat</seg>
+          <lb facs="#z_f43r_l023" xml:id="medusa_f43r_l023"/>
+          <seg type="raw_unreviewed">que mr̃ puelle post ab lactacõm / accepit secũ ad foras mõscii Et</seg>
+          <lb facs="#z_f43r_l024" xml:id="medusa_f43r_l024"/>
+          <seg type="raw_unreviewed">añ pedes man̾ii ꝓrectit .d. Ego man̾ie nequã monche genus mu</seg>
+          <lb facs="#z_f43r_l025" xml:id="medusa_f43r_l025"/>
+          <seg type="raw_unreviewed">nutri filium tuum / quem scuprose genuisti / Et relinquens omnia ibi re</seg>
+          <lb facs="#z_f43r_l026" xml:id="medusa_f43r_l026"/>
+          <seg type="raw_unreviewed">cessit / porro sancta uirgo suscipiens puerum tamquam proprium de ipsa panis</seg>
+          <lb facs="#z_f43r_l027" xml:id="medusa_f43r_l027"/>
+          <seg type="raw_unreviewed">buccella quam accipiebat ab interentibus intrebat per alios duos</seg>
+          <lb facs="#z_f43r_l028" xml:id="medusa_f43r_l028"/>
+          <seg type="raw_unreviewed">annos filium alienum / Post longa uero tempora fratres ipsius monasterii mi-</seg>
+          <lb facs="#z_f43r_l029" xml:id="medusa_f43r_l029"/>
+          <seg type="raw_unreviewed">seu cordia moti ad abbatẽ ingressi rogare ceperunt ut recipet ĩ</seg>
+          <lb facs="#z_f43r_l030" xml:id="medusa_f43r_l030"/>
+          <seg type="raw_unreviewed">monasterii dicentes / Abb̃a indulge / et suscipe fratrem manerium in gratiam</seg>
+          <lb facs="#z_f43r_l031" xml:id="medusa_f43r_l031"/>
+          <seg type="raw_unreviewed">Sic enĩ dñs nr̃ ihc pꝰ precepit / ecce enĩ quinq ãni sũt tñsacti qͥbꝰ</seg>
+          <lb facs="#z_f43r_l032" xml:id="medusa_f43r_l032"/>
+          <seg type="raw_unreviewed">in pͥma autem fortis monasterii iacens / nusquam ab inde recessit / Uix autem</seg>
+          <lb facs="#z_f43r_l033" xml:id="medusa_f43r_l033"/>
+          <seg type="raw_unreviewed">frẽs obtinuerũt ab abbate ut c̾cipet᷑ in grãm / impetra u̾o ueniam</seg>
+          <lb facs="#z_f43r_l034" xml:id="medusa_f43r_l034"/>
+          <seg type="raw_unreviewed">iussit eum abbas ad se introduci / cui dixit . Nosti manere / quam mag</seg>
+          <lb facs="#z_f43r_l035" xml:id="medusa_f43r_l035"/>
+          <seg type="raw_unreviewed">nephas petscii / ⁊ nunc migrẽdi missus es cũ filio tuo / quẽ stuprose</seg>
+          <lb facs="#z_f43r_l036" xml:id="medusa_f43r_l036"/>
+          <seg type="raw_unreviewed">gnasti / Ecce qntũ in famam Phoc atc̃quasti munestio / grande et enĩ pcc̃um</seg>
+          <lb facs="#z_f43r_l037" xml:id="medusa_f43r_l037"/>
+          <seg type="raw_unreviewed">fecisti ꝙ magno nccesse est exipari pniã / uñ p̃cipiẽs ĩ mĩgo tibi / ut</seg>
+          <lb facs="#z_f43r_l038" xml:id="medusa_f43r_l038"/>
+          <seg type="raw_unreviewed">om̃s monseñores sordes / tu solus auferas / aqͥe qͣnͥa monseñores partes de</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f43r_l001 #z_f43r_l002 #z_f43r_l003 #z_f43r_l004 #z_f43r_l005 #z_f43r_l006 #z_f43r_l007 #z_f43r_l008 #z_f43r_l009 #z_f43r_l010" xml:id="u_43r_001">Pandocus habuit filiam virginem, quae cum quodam concubens impraegnata [---]. Cum autem cognitum fuisset ab eius parentibus factum hoc nefandum, coeperunt filiam affligere, donec proderet de quo concepisset. At illa dixit: De Marino monacho, qui hic frequenter mansit cum carro; me oppressit [---]. Porro statim parentes eius ad monasterium properant, crimen flagitium abbati cum insultatione enarrant: Ecce, pater abba, qualiter regis et doces filios tuos, ut monachorum atque custodum gregem tuum [---]; non oves sed lupi, non casti sed incestuosi apparent discipuli tui. Ecce quid fecit Marinus [---], ecce quomodo decepit filiam nostram, eamque oppressit et impraegnavit. Tunc stupefactus abbas iussit vocare Marinum, interrogans [---].</p>
+        <note type="editorial" corresp="#u_43r_001" xml:lang="cs">Pokračování legendy z42v: první věta uvádí jiného muže, zatímco dcera přičítá skutek Marinovi. Překlad proto rozlišuje výpověď postavy od vypravěčova údaje. Několik slov mezi oppressit a začátkem Porro i ve výčitce opatovi je nerozřešených.</note>
+        <p facs="#z_f43r_l011 #z_f43r_l012 #z_f43r_l013 #z_f43r_l014 #z_f43r_l015 #z_f43r_l016 #z_f43r_l017 #z_f43r_l018 #z_f43r_l019 #z_f43r_l020 #z_f43r_l021" xml:id="u_43r_002">[---] eum si in filia [---] commisisset scelus hoc nefandum. Marinus vero aliquantulum stans et cogitans ut se, qui esset [---] Dei, et ingemiscens dixit: Peccavi, pater; poenam impone pro hoc scelere et ora pro me. Abbas haec audiens in iracundiam raptus iussit eum graviter affligi. Tandem dixit ei: In veritate dico tibi, false monache et nequam, oppressor virginum, criminum actor et dedecus omnium sanctorum, tu hoc malum operatus es; non manebis nobiscum de cetero. Et deiecit eum foras monasterium. Ipsa vero iuxta patris consilium numquam confessus est [---] suum, sed abiens proiecit se ante fores monasterii, iacens in [---] terra et affligens se tamquam ipse peccasset et tantum crimen commisisset. Tanta indignatione contra eam omnes monachi, ut vix unam panis buccellam ab eis multis lacrimis et precibus impetraret. Per tres annos hoc faciens [---].</p>
+        <note type="editorial" corresp="#u_43r_002" xml:lang="cs">Vlastní vyjádření Peccavi a rozkaz vyhnání jsou čitelné. Nevyřešené slovo za confessus est se nedoplňuje automaticky jako její pohlaví, ačkoli dějová souvislost tuto interpretaci nabízí. Text sám střídá mužské označení Marinus a ženské Ipsa; rekonstrukce tuto zvláštnost nevyhlazuje.</note>
+        <p facs="#z_f43r_l022 #z_f43r_l023 #z_f43r_l024 #z_f43r_l025 #z_f43r_l026 #z_f43r_l027 #z_f43r_l028" xml:id="u_43r_003">[---] monasterii non recessit. Pandocus autem mendacis filiae filium [---], quem mater puellae post ablactationem accepit secum ad fores monasterii. Et ante pedes Marini proiecit dicens: Ecce, Marine, nequam monache, genus tuum; nutri filium tuum, quem [---] genuisti. Et relinquens eum ibi recessit. Porro sancta virgo suscipiens puerum tamquam proprium, de ipsa panis buccella quam accipiebat ab intereuntibus nutriebat per alios duos annos filium alienum.</p>
+        <note type="editorial" corresp="#u_43r_003" xml:lang="cs">Lživé obvinění je zde výslovně označeno mendacis. Číslovka dva pro další roky péče je čtena přímo. Některá slovesa v úvodu a hodnotící příslovce v nadávce jsou nejistá.</note>
+        <p facs="#z_f43r_l029 #z_f43r_l030 #z_f43r_l031 #z_f43r_l032 #z_f43r_l033 #z_f43r_l034 #z_f43r_l035 #z_f43r_l036 #z_f43r_l037 #z_f43r_l038" xml:id="u_43r_004">Post longa vero tempora fratres ipsius monasterii misericordia moti ad abbatem ingressi rogare coeperunt, ut reciperet in monasterium, dicentes: Abba, indulge, suscipe fratrem Marinum in [---]. Sic enim Dominus noster Iesus [Christus?] praecepit. Ecce enim quinque anni sunt transacti, quibus in poena ante portas monasterii iacens numquam abinde recessit. Vix autem fratres obtinuerunt ab abbate, ut reciperetur iterum. Impetrata vero venia iussit eum abbas ad se introduci, cui dixit: Nosti, Marine, quam magnum nefas [perpetrasti?]; et nunc ingredi iussus es cum filio tuo, quem [---] genuisti. Ecce quoniam infamiam hoc attulisti monasterio grandem et enorme peccatum fecisti, quod magno necesse est expiari poenitentia, unde praecipiens iniungo tibi, ut omnes monasterii sordes tu solus auferas [---].</p>
+        <note type="editorial" corresp="#u_43r_004" xml:lang="cs">Pět let ve výpovědi bratrů souhlasí s předchozími třemi a dalšími dvěma roky na tomto snímku. Nejde o odhad datace rukopisu. Závěrečný rozkaz pokračuje na43v; doplněné části jména Kristus a sloves jsou vyznačeny jako návrhy.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_43r_001">Hostinský měl dceru, která otěhotněla s jistým mužem [---]. Když se rodiče dozvěděli o tomto neslýchaném činu, začali na dceru naléhat, aby prozradila, s kým počala. Řekla: S mnichem Marinem, který tu často pobýval s vozem; přemohl mě [---]. Její rodiče ihned spěchali do kláštera a s výčitkami opatovi vyprávěli o zločinu: Hle, otče opate, jak vedeš a učíš své syny, své stádo mnichů a strážců [---]. Tvoji učedníci se ukazují jako vlci, nikoli ovce, ne jako čistí, nýbrž jako smilníci. Hle, co učinil Marinus [---], jak svedl naši dceru, přemohl ji a způsobil, že otěhotněla. Užaslý opat přikázal Marina zavolat a vyptával se [---].</p>
+        <p corresp="#u_43r_002">[---] zda na dceři [---] spáchal tento neslýchaný zločin. Marinus chvíli stál, přemýšlel [nejasná vazba k Bohu ---] a s nářkem řekl: Zhřešil jsem, otče; ulož mi za ten zločin trest a modli se za mne. Opat se rozhněval a dal jej těžce potrestat. Nakonec řekl: Vpravdě ti říkám, falešný a ničemný mnichu, utiskovateli panen, pachateli zločinů a hanbo všech svatých, toto zlo jsi spáchal; nadále s námi nezůstaneš. Vyhnal jej z kláštera. Ona se podle otcovy rady nikdy nepřiznala ke svému [---], ale odešla a vrhla se před klášterní dveře. Ležela na [---] zemi a trápila se, jako by sama zhřešila a spáchala tak veliký zločin. Všichni mniši k ní měli takový odpor, že od nich sotva vyprosila slzami a prosbami jediné sousto chleba. Takto činila po tři roky [---].</p>
+        <p corresp="#u_43r_003">[---] neodešla od kláštera. Hostinský pak syna své lživé dcery [---]; po odstavení jej matka dívky vzala ke klášterním dveřím. Položila jej Marinovi před nohy a řekla: Hle, Marine, ničemný mnichu, tvůj potomek; živ svého syna, kterého jsi [---] zplodil. Nechala ho tam a odešla. Svatá panna přijala chlapce jako vlastního a z toho sousta chleba, které dostávala od kolemjdoucích, živila cizí dítě po další dva roky.</p>
+        <p corresp="#u_43r_004">Po dlouhé době se bratři kláštera slitovali, přišli k opatovi a prosili, aby jej přijal zpět: Opate, odpusť, přijmi bratra Marina do [---]. Tak nám přikázal náš Pán Ježíš [Kristus?]. Hle, uplynulo pět let, po která leží v trestu před klášterní branou a nikdy odtud neodešel. Sotva bratři od opata dosáhli, aby byl znovu přijat. Když bylo odpuštění vyprošeno, dal si jej opat přivést a řekl: Víš, Marine, jak veliký zločin jsi [spáchal?]. Nyní jsi byl vpuštěn se svým synem, kterého jsi [---] zplodil. Přinesl jsi klášteru velikou hanbu a spáchal nesmírný hřích, který je nutno odčinit velkým pokáním. Proto ti přikazuji, abys sám odnášel všechnu klášterní nečistotu [---].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

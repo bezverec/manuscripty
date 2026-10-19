@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 113r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_113r_coordinate; PNG SHA256 0c6195487bea8e08c93f0a02f28d4667881b3e5386ec6b69f4835d5308d6064d; archival TIFF SHA256 61056575b73a640c9dfa00e235aa05c1431fe0d34f3d87a204e39d08efed2416; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_113r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#113r"/>
+      <zone ulx="74" uly="1474" lrx="261" lry="1580" xml:id="z_f113r_l001"/>
+      <zone ulx="152" uly="1574" lrx="252" lry="1652" xml:id="z_f113r_l002"/>
+      <zone ulx="199" uly="1642" lrx="236" lry="1739" xml:id="z_f113r_l003"/>
+      <zone ulx="401" uly="407" lrx="2984" lry="550" xml:id="z_f113r_l004"/>
+      <zone ulx="392" uly="513" lrx="3044" lry="634" xml:id="z_f113r_l005"/>
+      <zone ulx="401" uly="591" lrx="2953" lry="715" xml:id="z_f113r_l006"/>
+      <zone ulx="401" uly="672" lrx="3056" lry="793" xml:id="z_f113r_l007"/>
+      <zone ulx="398" uly="756" lrx="2997" lry="886" xml:id="z_f113r_l008"/>
+      <zone ulx="389" uly="833" lrx="2969" lry="967" xml:id="z_f113r_l009"/>
+      <zone ulx="389" uly="917" lrx="3068" lry="1051" xml:id="z_f113r_l010"/>
+      <zone ulx="385" uly="995" lrx="2994" lry="1129" xml:id="z_f113r_l011"/>
+      <zone ulx="385" uly="1082" lrx="3025" lry="1222" xml:id="z_f113r_l012"/>
+      <zone ulx="376" uly="1166" lrx="3028" lry="1309" xml:id="z_f113r_l013"/>
+      <zone ulx="385" uly="1256" lrx="3065" lry="1384" xml:id="z_f113r_l014"/>
+      <zone ulx="379" uly="1337" lrx="3040" lry="1484" xml:id="z_f113r_l015"/>
+      <zone ulx="385" uly="1437" lrx="3009" lry="1568" xml:id="z_f113r_l016"/>
+      <zone ulx="385" uly="1521" lrx="2997" lry="1655" xml:id="z_f113r_l017"/>
+      <zone ulx="389" uly="1611" lrx="3016" lry="1732" xml:id="z_f113r_l018"/>
+      <zone ulx="382" uly="1708" lrx="3068" lry="1835" xml:id="z_f113r_l019"/>
+      <zone ulx="379" uly="1782" lrx="3031" lry="1916" xml:id="z_f113r_l020"/>
+      <zone ulx="385" uly="1869" lrx="3050" lry="2022" xml:id="z_f113r_l021"/>
+      <zone ulx="385" uly="1969" lrx="3022" lry="2100" xml:id="z_f113r_l022"/>
+      <zone ulx="382" uly="2056" lrx="3093" lry="2190" xml:id="z_f113r_l023"/>
+      <zone ulx="376" uly="2143" lrx="3112" lry="2292" xml:id="z_f113r_l024"/>
+      <zone ulx="392" uly="2240" lrx="3012" lry="2376" xml:id="z_f113r_l025"/>
+      <zone ulx="379" uly="2324" lrx="3003" lry="2473" xml:id="z_f113r_l026"/>
+      <zone ulx="382" uly="2423" lrx="2984" lry="2566" xml:id="z_f113r_l027"/>
+      <zone ulx="376" uly="2501" lrx="3034" lry="2653" xml:id="z_f113r_l028"/>
+      <zone ulx="382" uly="2597" lrx="2972" lry="2737" xml:id="z_f113r_l029"/>
+      <zone ulx="379" uly="2688" lrx="3003" lry="2831" xml:id="z_f113r_l030"/>
+      <zone ulx="379" uly="2784" lrx="3034" lry="2905" xml:id="z_f113r_l031"/>
+      <zone ulx="379" uly="2868" lrx="3012" lry="3005" xml:id="z_f113r_l032"/>
+      <zone ulx="382" uly="2955" lrx="3050" lry="3089" xml:id="z_f113r_l033"/>
+      <zone ulx="395" uly="3052" lrx="3093" lry="3195" xml:id="z_f113r_l034"/>
+      <zone ulx="385" uly="3160" lrx="2823" lry="3276" xml:id="z_f113r_l035"/>
+      <zone ulx="385" uly="3229" lrx="2947" lry="3384" xml:id="z_f113r_l036"/>
+      <zone ulx="395" uly="3322" lrx="2972" lry="3481" xml:id="z_f113r_l037"/>
+      <zone ulx="376" uly="3409" lrx="3003" lry="3571" xml:id="z_f113r_l038"/>
+      <zone ulx="361" uly="3496" lrx="2963" lry="3671" xml:id="z_f113r_l039"/>
+      <zone ulx="348" uly="3590" lrx="3022" lry="3767" xml:id="z_f113r_l040"/>
+      <zone ulx="364" uly="3680" lrx="3019" lry="3851" xml:id="z_f113r_l041"/>
+      <zone ulx="367" uly="3776" lrx="3056" lry="3948" xml:id="z_f113r_l042"/>
+      <zone ulx="361" uly="3860" lrx="2988" lry="4066" xml:id="z_f113r_l043"/>
+      <zone ulx="370" uly="3938" lrx="3037" lry="4150" xml:id="z_f113r_l044"/>
+      <zone ulx="367" uly="4047" lrx="2994" lry="4249" xml:id="z_f113r_l045"/>
+      <zone ulx="370" uly="4125" lrx="3093" lry="4377" xml:id="z_f113r_l046"/>
+      <zone ulx="451" uly="4221" lrx="2947" lry="4464" xml:id="z_f113r_l047"/>
+      <zone ulx="389" uly="4352" lrx="2975" lry="4545" xml:id="z_f113r_l048"/>
+      <zone ulx="438" uly="4414" lrx="2956" lry="4638" xml:id="z_f113r_l049"/>
+      <zone ulx="451" uly="4517" lrx="2960" lry="4707" xml:id="z_f113r_l050"/>
+      <zone ulx="351" uly="4610" lrx="2412" lry="4788" xml:id="z_f113r_l051"/>
+      <zone ulx="373" uly="4704" lrx="2978" lry="4887" xml:id="z_f113r_l052"/>
+      <zone ulx="361" uly="4803" lrx="2960" lry="4977" xml:id="z_f113r_l053"/>
+      <zone ulx="364" uly="4896" lrx="2963" lry="5127" xml:id="z_f113r_l054"/>
+      <zone ulx="3112" uly="2488" lrx="3221" lry="2632" xml:id="z_f113r_l055"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f113r_l001" xml:id="catmus_f113r_l001"/>
+          <seg type="raw_unreviewed">eIQI</seg>
+          <lb facs="#z_f113r_l002" xml:id="catmus_f113r_l002"/>
+          <seg type="raw_unreviewed">i</seg>
+          <lb facs="#z_f113r_l003" xml:id="catmus_f113r_l003"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_f113r_l004" xml:id="catmus_f113r_l004"/>
+          <seg type="raw_unreviewed">E̾xcpe Xxxiiii iiͥ e esem dubitãs iuditaũ. ũ d̃ qͣhe ⁊ si qͣħit. d</seg>
+          <lb facs="#z_f113r_l005" xml:id="catmus_f113r_l005"/>
+          <seg type="raw_unreviewed">cui redde debitũ qͥusq c̾tifice i xxxiiii qn ci w It̃ ĩ credũs morbĩ</seg>
+          <lb facs="#z_f113r_l006" xml:id="catmus_f113r_l006"/>
+          <seg type="raw_unreviewed">⁊ tñ ẽ mortuus. si qͣhit ũ sepur. s pniũ tr̃ ꝑadultĩo ĩ po ar .xx.</seg>
+          <lb facs="#z_f113r_l007" xml:id="catmus_f113r_l007"/>
+          <seg type="raw_unreviewed">qn hoĩes Ieꝵ si pꝰ duoꝵ sideliũ quc̃tõ. ĩ aliq ip̃uꝵ ħeẜ supiiũt. alt</seg>
+          <lb facs="#z_f113r_l008" xml:id="catmus_f113r_l008"/>
+          <seg type="raw_unreviewed">pp ħ. ñ p̃t alt̾i coplar exoni qc ult᷑ Ist̃ seꝑatꝰ obforuͦ uiuẽte r̃lũ</seg>
+          <lb facs="#z_f113r_l009" xml:id="catmus_f113r_l009"/>
+          <seg type="raw_unreviewed">nõ pt cũ ultã copului xxxii q uii ⁊ cħt neo apllũdͥ Tud mĩo i.</seg>
+          <lb facs="#z_f113r_l010" xml:id="catmus_f113r_l010"/>
+          <seg type="raw_unreviewed">uaco soꝑat ixxxi q ii si neꝵ Iea pbr̃ uxo̾e ducũs. abordĩe b depon</seg>
+          <lb facs="#z_f113r_l011" xml:id="catmus_f113r_l011"/>
+          <seg type="raw_unreviewed">duxgui ꝓbr̃ Ien uͨ latĩ u ͨ gci. ĩ sat̾s ordib pũt ꝯͣłre. s bolũtes gͣci</seg>
+          <lb facs="#z_f113r_l012" xml:id="catmus_f113r_l012"/>
+          <seg type="raw_unreviewed">se uxoes. ĩ mioih ꝯstituti qͣhũt. 2ͨ ã itr̃o ultiͣ ꝓubuen ᷑ d xxxi</seg>
+          <lb facs="#z_f113r_l013" xml:id="catmus_f113r_l013"/>
+          <seg type="raw_unreviewed">nicriuies cͤucẽs ĩ exꝯ̾e ꝙ̃ p̾uõ ħũit ꝯcubĩ.⁊ uͥgĩe. ũ posse ui᷑</seg>
+          <lb facs="#z_f113r_l014" xml:id="catmus_f113r_l014"/>
+          <seg type="raw_unreviewed">panduen di xxxiii mlitũt o uxor ꝓ moti ad sac̾s orͣdiẽs. ip̃a isũtie.</seg>
+          <lb facs="#z_f113r_l015" xml:id="catmus_f113r_l015"/>
+          <seg type="raw_unreviewed">te. ũ pt ⁊̃ ip̃o mortus auriori qcheid ꝙxxunii q st̃¶ Q error sortuẽ</seg>
+          <lb facs="#z_f113r_l016" xml:id="catmus_f113r_l016"/>
+          <seg type="raw_unreviewed">ut cũ puta᷑ qͥs ciues iͥ pauꝵ ẽ. ũ ĩpedit mr axix qi eist̃ nꝰ</seg>
+          <lb facs="#z_f113r_l017" xml:id="catmus_f113r_l017"/>
+          <seg type="raw_unreviewed">error qͣli ͭ  ut cũ putar qsbo. Iiq ẽ mal nbc E pꝰ puĩa cũ i ͥ pr̃ qͥs</seg>
+          <lb facs="#z_f113r_l018" xml:id="catmus_f113r_l018"/>
+          <seg type="raw_unreviewed">qle qni yuus pollut ꝑuculti.I uͥ ĩmoitẽ ui machĩ ͦ e fides adultere</seg>
+          <lb facs="#z_f113r_l019" xml:id="catmus_f113r_l019"/>
+          <seg type="raw_unreviewed">dabu suit cũ effcmxxxi qic i Ꝙ fidelis dimss ab ĩ sideli ũ baptizato</seg>
+          <lb facs="#z_f113r_l020" xml:id="catmus_f113r_l020"/>
+          <seg type="raw_unreviewed">ũ ĩpedi᷑ ꝯͣhe̾ cũ ult̾oixxonꝰ q urc ult̾ esꝵ cũ silia quirĩs spuut᷑. pt̃</seg>
+          <lb facs="#z_f113r_l021" xml:id="catmus_f113r_l021"/>
+          <seg type="raw_unreviewed">stͣħi inris  ⁊ pr̃ cũ fili curualii filii spuũss ã p̃t. q̃ cũgulͦ ppuubs</seg>
+          <lb facs="#z_f113r_l022" xml:id="catmus_f113r_l022"/>
+          <seg type="raw_unreviewed">destũdͭ a pr̃e ĩ siłiũ. ũ afi ĩ ꝑ. astũdit afiłio ĩ preꝯ. xxx qui c ult̾</seg>
+          <lb facs="#z_f113r_l023" xml:id="catmus_f113r_l023"/>
+          <seg type="raw_unreviewed">q sisii pũt qͣlie cũ filialib cõprm. exceptu ꝑsont qͣ mediũte qͣłri cõg</seg>
+          <lb facs="#z_f113r_l024" xml:id="catmus_f113r_l024"/>
+          <seg type="raw_unreviewed">nac̃o spuulis . xxx .i ii suꝑ qbi ¶ It̃ bys. cida sii dispũ suᵈ ͤ c̃ d ꝯherxxiii</seg>
+          <lb facs="#z_f113r_l025" xml:id="catmus_f113r_l025"/>
+          <seg type="raw_unreviewed">q i ĩ t̾scu̾e̾s Ieꝵ dispũsir᷑ ĩ miuio c̾cagͣdus acilusẽ ꝓhitos ⁊xͣxu q ii</seg>
+          <lb facs="#z_f113r_l026" xml:id="catmus_f113r_l026"/>
+          <seg type="raw_unreviewed">qdã It̃ y pͥ nocte quiges d̃ abstiue. ip r̾ue̾ie ͥ sar̃do ͭ ᷤ sñ  ͤd xxiii</seg>
+          <lb facs="#z_f113r_l027" xml:id="catmus_f113r_l027"/>
+          <seg type="raw_unreviewed">spõs ¶t qs ĩ mr̃rio quiiste᷑ cã ꝑlie ꝑꝓoͣtude ũ ẽ ꝓamidxxu sa ͥ ͥ st̃ cñ</seg>
+          <lb facs="#z_f113r_l028" xml:id="catmus_f113r_l028"/>
+          <seg type="raw_unreviewed">iedlũdi debitũ. ũ õ pccĩ i xxxii qu ꝙ iͥssIc̃ cñ libidĩs explũde. ꝙ cꝙͣ cu</seg>
+          <lb facs="#z_f113r_l029" xml:id="catmus_f113r_l029"/>
+          <seg type="raw_unreviewed">adultũ uł metce ẽ ꝓccm morleiten Iiii dĩgr. alleu᷑ uĩ piñs e</seg>
+          <lb facs="#z_f113r_l030" xml:id="catmus_f113r_l030"/>
+          <seg type="raw_unreviewed">bo  mr̃oni ꝑxxii q uii dultii ex abstionti ĩ puta᷑ ud ycr̃m. si p ħ̃ q̃lter</seg>
+          <lb facs="#z_f113r_l031" xml:id="catmus_f113r_l031"/>
+          <seg type="raw_unreviewed">nugũ ĩ pctus labi .xxxii i q si tu / eꝵ uxor maito loꝑ so uẽl qͣeñq mõ</seg>
+          <lb facs="#z_f113r_l032" xml:id="catmus_f113r_l032"/>
+          <seg type="raw_unreviewed">beblitato til de formato redde̾ Rebitũ t̾ xuii q ii horm̃s. Qꝵ unus</seg>
+          <lb facs="#z_f113r_l033" xml:id="catmus_f113r_l033"/>
+          <seg type="raw_unreviewed">ꝯigiũ. sñ alti̾ꝰ uolũ ͭ ͬ ꝯtĩencia uou̾e ũ ptix xxiii q ue i t n ͨ pt p̾ligrõ</seg>
+          <lb facs="#z_f113r_l034" xml:id="catmus_f113r_l034"/>
+          <seg type="raw_unreviewed">ĩ gͣdi. nͨ ꝑꝑ sorncit ͫ unꝰ abalt̾o ꝑsũa ep̃i s sepat xxuii q ii st̃ /et cõsẽ</seg>
+          <lb facs="#z_f113r_l035" xml:id="catmus_f113r_l035"/>
+          <seg type="raw_unreviewed">cies Wuẽti ⁊ ũ uoniõs. ñ ꝑt cũ altu qͣhe. u pꝰ morte nouẽtꝭ .xxuni</seg>
+          <lb facs="#z_f113r_l036" xml:id="catmus_f113r_l036"/>
+          <seg type="raw_unreviewed">siqͥs t̃ añ copulã cĩtile. ut̾q quigũ. A ĩtre rligiõ. alt̾o ĩ uitdixx uii q</seg>
+          <lb facs="#z_f113r_l037" xml:id="catmus_f113r_l037"/>
+          <seg type="raw_unreviewed">n Socce Ie uxonti nõ dñr ĩcc̃rã ⁊ p̃cipue c̃ca altue̾ deẜu̾e. Ron i</seg>
+          <lb facs="#z_f113r_l038" xml:id="catmus_f113r_l038"/>
+          <seg type="raw_unreviewed">sũltiꝵꝰ es ĩ beti lege uxd̾e̾ sceili ꝑmluẽte. licite exancillis liberos</seg>
+          <lb facs="#z_f113r_l039" xml:id="catmus_f113r_l039"/>
+          <seg type="raw_unreviewed">ꝓc̾ubiant .xxxii i ii si ⁊ iiic re  uent̾ quigũ pt̃ alt̾i c̾uẽ olit̾e. qñ</seg>
+          <lb facs="#z_f113r_l040" xml:id="catmus_f113r_l040"/>
+          <seg type="raw_unreviewed">utdq c̾men ꝯsta̾git. exxiui qͥ ir ĩ laĩr ¶ dediuortio/ et mr̃r ͥ snĩ qͤ i</seg>
+          <lb facs="#z_f113r_l041" xml:id="catmus_f113r_l041"/>
+          <seg type="raw_unreviewed">ñ d si i xxuii qͦ ir̃ist̃ ꝑꝑ mullesitiũ s si c̾ cessa᷑ r̃scibui .eͥgui ql st ꝑ eꝵ</seg>
+          <lb facs="#z_f113r_l042" xml:id="catmus_f113r_l042"/>
+          <seg type="raw_unreviewed">mr̃o ͥ ĩ tͤ fr̃es spm̃les uł udoptĩos diriuu . xxx q ui q e iseꝵ apf̃tas re</seg>
+          <lb facs="#z_f113r_l043" xml:id="catmus_f113r_l043"/>
+          <seg type="raw_unreviewed">mar. hiͦ iuai̾a ᷑ͬ ꝑ ꝙͣ̃ itẽa ẽ xxu q x qi seꝵ añ diuorciũ ꝯsag. et</seg>
+          <lb facs="#z_f113r_l044" xml:id="catmus_f113r_l044"/>
+          <seg type="raw_unreviewed">ꝑpiiiui dĩ ñat̾i cestisi ᷑ de mir̃io. uł senes rãtiq̃ qͥb uota oẽ ut̃ cĩ</seg>
+          <lb facs="#z_f113r_l045" xml:id="catmus_f113r_l045"/>
+          <seg type="raw_unreviewed">sug ͭ  ᷤ .xxxi qui abisci Ieꝵꝵ mĩri nõ dimi᷑ ꝑ botũ spp ͦ aũcedũsidi</seg>
+          <lb facs="#z_f113r_l046" xml:id="catmus_f113r_l046"/>
+          <seg type="raw_unreviewed">Xxuii ci Ied ñ seꝑi᷑ abuxõe. q̃ iguoau᷑ ꝯguoͭ uxo̾bs sue sorrit ĩ xggun</seg>
+          <lb facs="#z_f113r_l047" xml:id="catmus_f113r_l047"/>
+          <seg type="raw_unreviewed"> qͥ ¶Eꝵ sine ꝑꝑ adulti sĩ ꝑꝑ alũd niit̃ quges fiit diuorciũ. ñ y</seg>
+          <lb facs="#z_f113r_l048" xml:id="catmus_f113r_l048"/>
+          <seg type="raw_unreviewed">s rupi inroim xxxii q uii it̾ueĩ ͭ slis mioͬ spãle quĩt pͥrdc̃te xxͣͫ.</seg>
+          <lb facs="#z_f113r_l049" xml:id="catmus_f113r_l049"/>
+          <seg type="raw_unreviewed"> cũ /eꝵ mrõrꝰ ꝑ carle copula. ũ ꝑstũ̃. ũ ẽ sac ͭ ͧ 3recc̃e ꝯxon</seg>
+          <lb facs="#z_f113r_l050" xml:id="catmus_f113r_l050"/>
+          <seg type="raw_unreviewed">^cũ Ist ppuãle mr̃o ͥ ꝯͣthi᷑ ĩt̾ nroe̾s c̃ie ⁊ oe cccapion qi sicus</seg>
+          <lb facs="#z_f113r_l051" xml:id="catmus_f113r_l051"/>
+          <seg type="raw_unreviewed">¶ẽ puille mrõi ͫ ẽ ⁊̃tͤ xͣͫ ⁊ filelẽ aĩaixxuii si q̃ xͣ</seg>
+          <lb facs="#z_f113r_l052" xml:id="catmus_f113r_l052"/>
+          <seg type="raw_unreviewed">Iechatro dux u spũalis ⁊ cũrlis .xxuni qi ũ e mechaꝰ spũł</seg>
+          <lb facs="#z_f113r_l053" xml:id="catmus_f113r_l053"/>
+          <seg type="raw_unreviewed">ẽ udolũ fat̾e uł ydol sac̾ ibid Ip cãrlis ẽ sĩs illieitꝰ ꝯcubitꝰ. at</seg>
+          <lb facs="#z_f113r_l054" xml:id="catmus_f113r_l054"/>
+          <seg type="raw_unreviewed">illoꝵmĩbꝵ nõ legilti /usꝰ xxxii q iiii m̾etces st mectid : q̃ dimissa</seg>
+          <lb facs="#z_f113r_l055" xml:id="catmus_f113r_l055"/>
+          <seg type="raw_unreviewed">210</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f113r_l001" xml:id="medusa_f113r_l001"/>
+          <seg type="raw_unreviewed">u ũ M</seg>
+          <lb facs="#z_f113r_l002" xml:id="medusa_f113r_l002"/>
+          <seg type="raw_unreviewed">liii. i. v.</seg>
+          <lb facs="#z_f113r_l003" xml:id="medusa_f113r_l003"/>
+          <seg type="raw_unreviewed">311</seg>
+          <lb facs="#z_f113r_l004" xml:id="medusa_f113r_l004"/>
+          <seg type="raw_unreviewed">eͥ r̃cipe .xxxiiii. ii. ¶ Cꝰ dubitans mortuũ. ũ d qͣheͥ . ⁊ si qͣhit . d</seg>
+          <lb facs="#z_f113r_l005" xml:id="medusa_f113r_l005"/>
+          <seg type="raw_unreviewed">tm̃ redde debitũ qͦusq certifice᷑ xxxiiii ii c i Ex. It̃ ĩ credũs mortuũ</seg>
+          <lb facs="#z_f113r_l006" xml:id="medusa_f113r_l006"/>
+          <seg type="raw_unreviewed">⁊ tñ ẽ mortuus. si qͣlit ũ separ. s⁊ pnĩa tñq. ꝓ adulterio ĩ po. ar. xx.</seg>
+          <lb facs="#z_f113r_l007" xml:id="medusa_f113r_l007"/>
+          <seg type="raw_unreviewed">qii hoĩes ¶ Quod si pꝰ duorum fidełium ꝯmẽtõ. ĩ alus ip̃oꝵ h̾esꝰ suꝑnu̾it. alt̃</seg>
+          <lb facs="#z_f113r_l008" xml:id="medusa_f113r_l008"/>
+          <seg type="raw_unreviewed">ꝑ hũ ñ pt̃ alt̾i cõplañ xxuiii c ult̃ Itẽ seꝑatꝰ ob formoꝵ uñete r̃ lni</seg>
+          <lb facs="#z_f113r_l009" xml:id="medusa_f113r_l009"/>
+          <seg type="raw_unreviewed">nõ pt̃ cũ altera copulũ .xxxii. vii c. It̃ ñeõ ꝯplũ dꝰ ẽ ad nr̃o.</seg>
+          <lb facs="#z_f113r_l010" xml:id="medusa_f113r_l010"/>
+          <seg type="raw_unreviewed">contracti seꝑantur .xxxii. ii si uxor eorum pbr̃ uxorem ducũs .ib. ordine sed depoĩ.</seg>
+          <lb facs="#z_f113r_l011" xml:id="medusa_f113r_l011"/>
+          <seg type="raw_unreviewed">d̃ XXIIII pbr̃ ¶ Q: nͨ latĩ nͨ gr̃i. ĩ sac̾s ordĩb pũt ꝯhr̃. s voluntas gr̃i</seg>
+          <lb facs="#z_f113r_l012" xml:id="medusa_f113r_l012"/>
+          <seg type="raw_unreviewed">ꝯhe uxoͥes. ĩ m̃oribꝰ ꝯstituti qͣhũt. 2ᶜ ĩ nr̃o ult̾i promouen.᷑ d̃ xxxi</seg>
+          <lb facs="#z_f113r_l013" xml:id="medusa_f113r_l013"/>
+          <seg type="raw_unreviewed">nicem. eꝵ ducẽs ĩ uxore ꝙ̃ prius habuit ꝯcubum ⁊ u̾grem. ñ posse ui</seg>
+          <lb facs="#z_f113r_l014" xml:id="medusa_f113r_l014"/>
+          <seg type="raw_unreviewed">promoueri d̃ xxxiii militũ quod uxor promoti ad sacͤs ordines ip̃a ꝯsũciẽ</seg>
+          <lb facs="#z_f113r_l015" xml:id="medusa_f113r_l015"/>
+          <seg type="raw_unreviewed">te. ũ pt̃ ⁊̃ ip̃o mortuo nũciorum ꝯtͣheͦ. d̃ xxxviii i. p. st̃ ¶ Quod error sortune</seg>
+          <lb facs="#z_f113r_l016" xml:id="medusa_f113r_l016"/>
+          <seg type="raw_unreviewed">ut tũ putr qͥs erues ii paup̃ ẽ. ũ ĩpedit nũp ͥ  .xxxix. 1. 5. ¶ Item uͦ</seg>
+          <lb facs="#z_f113r_l017" xml:id="medusa_f113r_l017"/>
+          <seg type="raw_unreviewed">error q̃ seͨt ut cũ putur qͥs uo 5 1 ẽ mul 1645. ¶ Ex p. pͥmã cũ 5 ͣ pt̃ qͥs</seg>
+          <lb facs="#z_f113r_l018" xml:id="medusa_f113r_l018"/>
+          <seg type="raw_unreviewed">q̃he qmͣ p̾us possunt ꝑiculurꝰ . uͥ ĩ mortẽ uͥ mathũo c fides adultere</seg>
+          <lb facs="#z_f113r_l019" xml:id="medusa_f113r_l019"/>
+          <seg type="raw_unreviewed">dara fuerit tũ effcũ .xxx. q. c. ¶ Q. fidelis dimissꝰ ab ĩfidel. ĩ baptizato</seg>
+          <lb facs="#z_f113r_l020" xml:id="medusa_f113r_l020"/>
+          <seg type="raw_unreviewed">ñ ĩpedi ⁊ ꝯhẽ cũ altero xxviii q nrc ultꝭ eꝵ cũ filia q nũris spoĩalꝭ pt</seg>
+          <lb facs="#z_f113r_l021" xml:id="medusa_f113r_l021"/>
+          <seg type="raw_unreviewed">qͣl̃m nr̃oᵐ ⁊ pr̃ cũ filia carnali filii spiritualis ñ pt̃. q̃ cũ generatio spiritualis</seg>
+          <lb facs="#z_f113r_l022" xml:id="medusa_f113r_l022"/>
+          <seg type="raw_unreviewed">descendit a patre in filium. unde afi. in p. ascendit a filio in patre. xxxii cult.</seg>
+          <lb facs="#z_f113r_l023" xml:id="medusa_f113r_l023"/>
+          <seg type="raw_unreviewed">Quod filii pũt qͣliere cũ filiabus cõpim . excepta persona .qͣ mediante qͣli cõs</seg>
+          <lb facs="#z_f113r_l024" xml:id="medusa_f113r_l024"/>
+          <seg type="raw_unreviewed">nũco spũalis .xxx. i iii suꝑ qͥbꝰ It̃ bryon. ci d. i. sñ dispũsue. cã d c̃he. xxxiii</seg>
+          <lb facs="#z_f113r_l025" xml:id="medusa_f113r_l025"/>
+          <seg type="raw_unreviewed">q 11 ĩ escuͥes Lez dispũsars ĩ auronio c̾ca g̾dus acanuse ꝓhĩtos .xxx. q. iii</seg>
+          <lb facs="#z_f113r_l026" xml:id="medusa_f113r_l026"/>
+          <seg type="raw_unreviewed">q̃dam Item pro pͥa nocte coniges d̃m abstine̾. pro r̾n̾enᵃ sac̃doᵇˢ. b̃nᵒˢ d̃ xxiii</seg>
+          <lb facs="#z_f113r_l027" xml:id="medusa_f113r_l027"/>
+          <seg type="raw_unreviewed">sp̃os ¶ It̃ qͥs ĩ nr̃o iõ ꝯuĩste᷑ c̃a ꝓlis ꝓ oͣmĩbe ñ ẽ pccm̃. d̾ xxu cⁿᵃᵗ It̃ t̃n</seg>
+          <lb facs="#z_f113r_l028" xml:id="medusa_f113r_l028"/>
+          <seg type="raw_unreviewed">redẽdũ sibi debitũ. cũ ẽ pccm̃. xxxii. qͥii ꝙ ꝙ It̃ cũ libidĩes explũde. qr cũ</seg>
+          <lb facs="#z_f113r_l029" xml:id="medusa_f113r_l029"/>
+          <seg type="raw_unreviewed">adultũ uł merere. ẽ pccm̃ mor̃le. xxxii. iiii or̾go. alleua᷑ tñ pn̾o qr</seg>
+          <lb facs="#z_f113r_l030" xml:id="medusa_f113r_l030"/>
+          <seg type="raw_unreviewed">boᵐ nr̃o ii. xxxii. q. uii. adultꝰ ex abstiõati ĩ pñitaꝵ ad pcc̃m. si ꝓp hᶜ aliter</seg>
+          <lb facs="#z_f113r_l031" xml:id="medusa_f113r_l031"/>
+          <seg type="raw_unreviewed">quingũ ĩ peciũ labiˢ xxxii.ii.ii si tu Tecꝵ uxor marito loꝑse uẽl qͣrcũq nõ</seg>
+          <lb facs="#z_f113r_l032" xml:id="medusa_f113r_l032"/>
+          <seg type="raw_unreviewed">hebilitate talis de formato reddere debitum t̃. xxxii q iii i horribus. 23 Unus</seg>
+          <lb facs="#z_f113r_l033" xml:id="medusa_f113r_l033"/>
+          <seg type="raw_unreviewed">ꝯingñ sñ alt̾ꝰ uolũˢᵉ ꝯtĩencuã uou̾e ũ pt̃ .xxxiii. q u c. It̃ nꝰ pt̃ ĩligãõ</seg>
+          <lb facs="#z_f113r_l034" xml:id="medusa_f113r_l034"/>
+          <seg type="raw_unreviewed">ĩ gͣdi .nͨ. ꝑꝑ fornicacⁿⁱ uirꝭ ab ult̾o ꝑ sinã ep̃i st̃ sepat. xxuii .ii. ii st Ieꝵ cõse</seg>
+          <lb facs="#z_f113r_l035" xml:id="medusa_f113r_l035"/>
+          <seg type="raw_unreviewed">ciẽs b̃uen̾ti. ⁊ ñ bonos. ñ pt̃ cũ alia qͣlre u̾ pꝰ mortẽ nonẽtꝭ xxuii.</seg>
+          <lb facs="#z_f113r_l036" xml:id="medusa_f113r_l036"/>
+          <seg type="raw_unreviewed">sis. Item añ copulã c̃tẽlo uͭiꝰq qingũ. l ĩ t̃re r̾ligiõs. alt̾o ĩ uito .xxuii. q</seg>
+          <lb facs="#z_f113r_l037" xml:id="medusa_f113r_l037"/>
+          <seg type="raw_unreviewed">II 62 ece M uxoũti nõ dũt ĩ ecrã . ⁊ p̃cipue cr̃a ultne deẜuie . xxuii. ii</seg>
+          <lb facs="#z_f113r_l038" xml:id="medusa_f113r_l038"/>
+          <seg type="raw_unreviewed">m̃ltorꝭ. Ego inbeti lege uxore scẽsi ꝑmutuẽte . licite ex ancillis liberos</seg>
+          <lb facs="#z_f113r_l039" xml:id="medusa_f113r_l039"/>
+          <seg type="raw_unreviewed">ꝓcubant .xxxii iiiiii C i. et iii c se. quoniam uentꝰ gngũ pt̃ alt̾i c̾uẽ obute̾. qñ</seg>
+          <lb facs="#z_f113r_l040" xml:id="medusa_f113r_l040"/>
+          <seg type="raw_unreviewed">utrdq: t̾men constu̾git . xxxiiii ii ii ĩ lcm̃ dediuorcio eꝵ nr̃om sñ ꝯssꝰ ep̃i</seg>
+          <lb facs="#z_f113r_l041" xml:id="medusa_f113r_l041"/>
+          <seg type="raw_unreviewed">ũ d si͂ .xxvii. s. ii. Ist̃ ꝑꝑ muliericium. s si cꝰt cessar restitui .xxxiii. s. i. s. Ist̃</seg>
+          <lb facs="#z_f113r_l042" xml:id="medusa_f113r_l042"/>
+          <seg type="raw_unreviewed">nr̃o ⁊ ĩt̃ frẽs spũales ad adoptios dirimꝰ xxxiiiii M</seg>
+          <lb facs="#z_f113r_l043" xml:id="medusa_f113r_l043"/>
+          <seg type="raw_unreviewed">manz. Hic moniarum per q̃ contigat CXXXVIIIX I Cui ante dmortum consagꝭ et</seg>
+          <lb facs="#z_f113r_l044" xml:id="medusa_f113r_l044"/>
+          <seg type="raw_unreviewed">ꝓpinqui d martiri testifiˢᵉ de nr̃oio. ũl senes ⁊ a̾tius. q̃b nota ẽẽ pt̃ cõ-</seg>
+          <lb facs="#z_f113r_l045" xml:id="medusa_f113r_l045"/>
+          <seg type="raw_unreviewed">xxuii c. Ier. ñ scipit᷑ ab uno q̃ iudicauit</seg>
+          <lb facs="#z_f113r_l046" xml:id="medusa_f113r_l046"/>
+          <seg type="raw_unreviewed">xxuii c. Ieꝵ ñ scipit᷑ ab uxore. q̃ ignou̾nꝰ ignou̾t uxores sue sororꝭ. xxxiiii</seg>
+          <lb facs="#z_f113r_l047" xml:id="medusa_f113r_l047"/>
+          <seg type="raw_unreviewed">q̃ ex sine p̃p adulterii siñ p̃p alius int̾ coniuges fiat divorciũ. ñ u</seg>
+          <lb facs="#z_f113r_l048" xml:id="medusa_f113r_l048"/>
+          <seg type="raw_unreviewed" subtype="changed_decoding_unreviewed">II II cũ eꝵ nr̃m ꝑ carleꝭ copulã ñ usũ ⁊ ĩtẽtĩe les nr̃m spulse qñt u̾rrece xxii</seg>
+          <lb facs="#z_f113r_l049" xml:id="medusa_f113r_l049"/>
+          <seg type="raw_unreviewed">II cũ eꝵ nr̃m ꝑ carle capulã. ũ ꝑ scum. ũ ẽ sacͣtũ et eccẽ XXVII</seg>
+          <lb facs="#z_f113r_l050" xml:id="medusa_f113r_l050"/>
+          <seg type="raw_unreviewed">ii cũ It̃ pp̃imile nr̃om ꝯtͣhi᷑ ĩ tͥ rroͥe ecc̃ie ⁊ deꝰ ecc̃aꝵ .vii.ii. sicus</seg>
+          <lb facs="#z_f113r_l051" xml:id="medusa_f113r_l051"/>
+          <seg type="raw_unreviewed">Item speciale nostrum est et cetera. pͥus et fidele añno xxvii. si q̃ x</seg>
+          <lb facs="#z_f113r_l052" xml:id="medusa_f113r_l052"/>
+          <seg type="raw_unreviewed">methatri dux uʳ spũalis ⁊ car̃lis xxviii ii iͧ̃ . et methaͥ spũli</seg>
+          <lb facs="#z_f113r_l053" xml:id="medusa_f113r_l053"/>
+          <seg type="raw_unreviewed">ẽ ydolũ facere uł ydolꝰ facere ibid̃ ¶ Item ca̾bas ẽ oĩs illicitꝰ concubitꝰ at</seg>
+          <lb facs="#z_f113r_l054" xml:id="medusa_f113r_l054"/>
+          <seg type="raw_unreviewed">illorum nũb̃ꝵ nõ legitte usꝰ xxxii q iiiii nũc̃tes ¶ It̃ mechꝰ dⁱ ⁊ q̃ dimissio</seg>
+          <lb facs="#z_f113r_l055" xml:id="medusa_f113r_l055"/>
+          <seg type="raw_unreviewed">217</seg>
+        </ab>
+      <note type="processing">Segments 48: separate same-crop recovery experiment selected after token-limit repetition. Greedy single-line generation, max_new_tokens=256, repetition_penalty=1.08. Original attempts retained in page checkpoint and medusa-before-recovery.json. EOS termination is not accuracy verification.</note></div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f113r_l001 #z_f113r_l002 #z_f113r_l003" xml:id="u_113r_001">[Drobné fragmenty při levém žlábku.]</p>
+        <note type="editorial" corresp="#u_113r_001" xml:lang="cs">Mimo hlavní sloupec, nerozšiřují vlastní text strany.</note>
+        <p facs="#z_f113r_l004 #z_f113r_l005 #z_f113r_l006 #z_f113r_l007 #z_f113r_l008 #z_f113r_l009" xml:id="u_113r_002">[…] dubitans […] non debet contrahere; et si contraxerit, debet ei reddere debitum quousque certificetur […]. Item credens mortuum et tamen non est mortuus, si contrahit non separatur, sed poenitentia pro adulterio […] Item si post duorum fidelium coniunctionem in aliquo ipsorum haeresis supervenit […] non potest alteri copulari […]. Separatus ob fornicationem vivente […] non potest cum altera copulari […].</p>
+        <note type="editorial" corresp="#u_113r_002" xml:lang="cs">Pokračování Matrimonium z112v.4–6mají zásadní nečitelné podmínky a nejistou negaci, proto nejde o spolehlivé pravidlo opětovného sňatku.8–9též chybí přesný subjekt.</note>
+        <p facs="#z_f113r_l010 #z_f113r_l011 #z_f113r_l012 #z_f113r_l013 #z_f113r_l014 #z_f113r_l015" xml:id="u_113r_003">Presbyter uxorem ducens ab ordine debet deponi […]. Nec Latini nec Graeci in sacris ordinibus possunt contrahere; sed solum Graeci […] uxores in minoribus constituti contrahunt et a matrimonio ultra prohibentur […]. Item clericus in uxorem quam primo habuit concubinam […] non potest […] Item uxor promoti ad sacros ordines, ipsa consentiente, non potest etiam ipso mortuo alii contrahere […].</p>
+        <note type="editorial" corresp="#u_113r_003" xml:lang="cs">Historická kanonická pravidla, ne současné právo.11–13podmínky a výjimky neúplné;15závěr čten pracovně.</note>
+        <p facs="#z_f113r_l016 #z_f113r_l017 #z_f113r_l018" xml:id="u_113r_004">Error fortunae, ut cum putatur quis dives et pauper est, non impedit matrimonium […]. Error qualitatis, ut cum putatur quis bonus et est malus, […] Item post poenitentiam cum […] quam prius polluit per adulterium […]</p>
+        <note type="editorial" corresp="#u_113r_004" xml:lang="cs">Konec15už obsahuje titul Error fortunae.17–18přechod k cizoložství a jeho důsledkům neúplný.</note>
+        <p facs="#z_f113r_l019 #z_f113r_l020 #z_f113r_l021 #z_f113r_l022 #z_f113r_l023 #z_f113r_l024" xml:id="u_113r_005">[…] in mortem […] machinatio et fides adulterae data fuit cum effectu […]. Item fidelis dimissus ab infideli non baptizato non impeditur contrahere cum altero […]. Cum filia […] spiritualis […] pater contrahere […] et pater cum filii carnalis filia spirituali non potest, quia cognatio spiritualis descendit a patre in filium, non […] ascendit a filio in patrem […]. Filii possunt contrahere cum filialibus compatrum, excepta persona qua mediante contrahitur cognatio spiritualis […].</p>
+        <note type="editorial" corresp="#u_113r_005" xml:lang="cs">Historické překážky manželství a duchovní příbuzenství.19chybí podmínky,20–23vztahy osob nejsou všechny bezpečné. Nepřekládá se jako úplný rodinný diagram.</note>
+        <p facs="#z_f113r_l025 #z_f113r_l026" xml:id="u_113r_006">Dispensatur in matrimonio circa gradus […] prohibitos […]. Item per primam noctem coniuges debent abstinere propter reverentiam sacerdotalis benedictionis […].</p>
+        <note type="editorial" corresp="#u_113r_006" xml:lang="cs">Začátek25navazuje24, konkrétní čísla stupňů nerozluštěna.</note>
+        <p facs="#z_f113r_l027 #z_f113r_l028 #z_f113r_l029 #z_f113r_l030" xml:id="u_113r_007">Qui in matrimonio coniunguntur causa prolis procreandae non est peccatum […]. Causa reddendi debitum non est peccatum […]. Item causa libidinis explendae […] cum adultera vel meretrice est peccatum mortale […]. […] alleviatur […] bonum matrimonii […]. Abstinentia imputatur ad peccatum si per hanc […] in peccatum labi […].</p>
+        <note type="editorial" corresp="#u_113r_007" xml:lang="cs">28–30neúplné rozlišení okolností a viny; chybějící části nedoplněny z morálních příruček.</note>
+        <p facs="#z_f113r_l031 #z_f113r_l032 #z_f113r_l033 #z_f113r_l034 #z_f113r_l035" xml:id="u_113r_008">Uxor marito leproso vel quocumque modo debilitato vel deformato reddere debitum tenetur […]. Unus coniugum sine alterius voluntate continentiam vovere non potest […]. Nec potest per religionem ingredi nec propter fornicationem unus ab altero sine episcopi […] separari […]. Item consentiens […] et non vovens non potest cum altero contrahere nisi post mortem voventis […].</p>
+        <note type="editorial" corresp="#u_113r_008" xml:lang="cs">Historické normy s neúplnými procesními podmínkami34–35. Označení choroby je slovo rukopisu, nikoli diagnóza.</note>
+        <p facs="#z_f113r_l036 #z_f113r_l037 #z_f113r_l038 #z_f113r_l039" xml:id="u_113r_009">Ante copulam carnalem uterque coniugum […] intrare religionem altero invito […]. Uxorati non debent […] et praecipue […] adulterii […] Item multis etiam in veteri lege […] uxore sterili permanente licite ex ancillis liberos procreabant […].</p>
+        <note type="editorial" corresp="#u_113r_009" xml:lang="cs">37neúplná mravní norma;38–39historické biblické exemplum, nikoli vlastní doporučení.</note>
+        <p facs="#z_f113r_l040 #z_f113r_l041 #z_f113r_l042 #z_f113r_l043 #z_f113r_l044" xml:id="u_113r_010">[…] alter alteri crimen obicere quando utrumque crimen constringit […]. De divortio. Matrimonium […] non debet […] Item propter maleficium, si cessat […] matrimonium inter fratres spirituales vel adoptivos dirimitur […]. Item […] propinquitas rem […] iure […] Item ante divortium consanguinitas et propinquitas […] testificatur de matrimonio, vel senes et antiqui quibus nota est utriusque […]</p>
+        <note type="editorial" corresp="#u_113r_010" xml:lang="cs">Nadpis De divortio a několik kanonických ustanovení.40–44podmínky zásadně neúplné, nepovažovat za soudržný procesní návod.</note>
+        <p facs="#z_f113r_l045 #z_f113r_l046 #z_f113r_l047 #z_f113r_l048 #z_f113r_l049" xml:id="u_113r_011">Matrimonium non dirimitur per votum simplex antecedens […] Item non separatur ab uxore qui ignorans cognovit uxoris suae sororem […]. Sive propter adulterium sive propter aliud […] inter coniuges fiat divortium, non rumpitur matrimonium […]. […] spirituale […] Item matrimonium per carnalem copulam non perfectum non est sacramentum Christi et ecclesiae coniunctionis […].</p>
+        <note type="editorial" corresp="#u_113r_011" xml:lang="cs">Historický rozdíl rozvodu a trvání svazku.45nečitelné dokončení slibu;48další podmínka nerozluštěna.49negace pracovní.</note>
+        <p facs="#z_f113r_l050 #z_f113r_l051" xml:id="u_113r_012">Spirituale matrimonium contrahitur inter […] et ecclesiam […]. Item spirituale matrimonium est etiam inter Christum et fidelem animam […].</p>
+        <note type="editorial" corresp="#u_113r_012" xml:lang="cs">První subjekt50není bezpečně čitelný, nedoplněn na biskupa podle očekávání.</note>
+        <p facs="#z_f113r_l052 #z_f113r_l053 #z_f113r_l054" xml:id="u_113r_013">Moechatio duplex, spiritualis et carnalis […]. Moechatio spiritualis est idolum facere vel idolis sacrificare […]. Carnalis est omnis illicitus concubitus atque […] membrorum non legitimus usus […]. Item moechatur qui dimissa […]</p>
+        <note type="editorial" corresp="#u_113r_013" xml:lang="cs">Poslední věta pokračuje113v. Definice pracovní, ne moderní právní terminologie.</note>
+        <p facs="#z_f113r_l055" xml:id="u_113r_014">[Drobná červená okrajová reference.]</p>
+        <note type="editorial" corresp="#u_113r_014" xml:lang="cs">Není nový hlavní řádek.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_113r_001">[Bez souvislého překladu.]</p>
+        <p corresp="#u_113r_002">[…] pochybující […] nemá uzavírat sňatek; jestliže jej uzavřel, má plnit manželskou povinnost, dokud nezíská jistotu […]. Dále: pokládá-li [manžela] za mrtvého, a on přece není mrtev, po uzavření sňatku se neodděluje, avšak pokání za cizoložství […] Dále: jestliže po spojení dvou věřících u některého z nich nastoupí hereze […], nemůže se spojit s jiným […]. Oddělený kvůli smilstvu se za života […] nemůže spojit s jinou […].</p>
+        <p corresp="#u_113r_003">Kněz pojímající manželku má být sesazen ze svěcení […]. Ani latinští, ani řečtí [klerici] nemohou uzavírat sňatek ve vyšších svěceních; avšak jen řečtí […] pojímají manželky v nižších stupních a další manželství se jim zakazuje […]. Dále: klerik s manželkou, kterou měl nejprve za konkubínu, […] nemůže […] Dále: manželka toho, kdo byl s jejím souhlasem povýšen do vyšších svěcení, nemůže ani po jeho smrti uzavřít sňatek s jiným […].</p>
+        <p corresp="#u_113r_004">Omyl v majetkovém postavení, například když je někdo pokládán za bohatého a je chudý, nebrání manželství […]. Omyl ve vlastnosti, například když je někdo pokládán za dobrého a je zlý, […] Dále: po pokání s […] kterou předtím poskvrnil cizoložstvím […].</p>
+        <p corresp="#u_113r_005">[…] strojilo se o smrt […] a slib byl dán cizoložnici s účinkem […]. Dále: věřícímu opuštěnému nepokřtěným nevěřícím nebrání nic uzavřít sňatek s jiným […]. S dcerou […] duchovního […] otec uzavřít […] a otec nemůže s duchovní dcerou svého tělesného syna, protože duchovní příbuzenství sestupuje z otce na syna, nikoli […] ze syna na otce […]. Synové mohou uzavírat sňatky s dcerami spolu kmotrů, vyjma osoby, jejímž prostřednictvím vzniká duchovní příbuzenství […].</p>
+        <p corresp="#u_113r_006">V manželství se dispenzuje ohledně […] zakázaných stupňů […]. Dále: první noc se mají manželé zdržet [styku] z úcty ke kněžskému požehnání […].</p>
+        <p corresp="#u_113r_007">Spojují-li se v manželství za účelem zplození potomstva, není to hřích […]. Plnit manželskou povinnost není hřích […]. Dále: kvůli naplnění žádostivosti […] s cizoložnicí nebo nevěstkou je smrtelným hříchem […]. […] zmírňuje se […] dobro manželství […]. Zdrženlivost se počítá za hřích, jestliže kvůli ní […] padne do hříchu […].</p>
+        <p corresp="#u_113r_008">Manželka je povinna plnit manželskou povinnost manželovi postiženému malomocenstvím nebo jakkoli oslabenému či znetvořenému […]. Jeden z manželů nemůže bez vůle druhého slíbit zdrženlivost […]. Ani nemůže vstoupit do řehole a ani pro smilstvo se nemůže jeden od druhého oddělit bez biskupova […] Dále: ten, kdo souhlasí […], ale sám neslibuje, nemůže uzavřít sňatek s jiným před smrtí slibujícího […].</p>
+        <p corresp="#u_113r_009">Před tělesným spojením může každý z manželů […] vstoupit do řehole proti vůli druhého […]. Ženatí nemají […] a zvláště […] cizoložství […] Dále: mnohým i ve starém Zákoně […] při trvající neplodnosti manželky bylo dovoleno plodit děti se služebnicemi […].</p>
+        <p corresp="#u_113r_010">[…] jeden druhému namítat provinění, když provinění váže oba […]. O rozvodu. Manželství […] nemá […] Dále: kvůli očarování, jestliže pomine […] manželství mezi duchovními nebo adoptivními sourozenci se rozlučuje […]. Dále: […] příbuzenství […] právem […] Dále: před rozvodem se příbuzenství a blízkost […] dosvědčuje o manželství nebo staří lidé, kterým je známa […] obou […].</p>
+        <p corresp="#u_113r_011">Manželství se nerozlučuje předchozím prostým slibem […] Dále: neodděluje se od manželky ten, kdo nevědomky poznal její sestru […]. Ať se mezi manžely provede rozvod kvůli cizoložství, nebo z jiné […] příčiny, manželství se nepřetrhává […]. […] duchovní […] Dále: manželství nedovršené tělesným spojením není svátostí spojení Krista a církve […].</p>
+        <p corresp="#u_113r_012">Duchovní manželství se uzavírá mezi […] a církví […]. Dále: duchovní manželství existuje též mezi Kristem a věrnou duší […].</p>
+        <p corresp="#u_113r_013">Cizoložství je dvojí: duchovní a tělesné […]. Duchovní cizoložství znamená vytvořit modlu nebo modlám obětovat […]. Tělesným je každý nedovolený styk a […] nezákonné užívání údů […]. Dále: cizoloží ten, kdo po propuštění […].</p>
+        <p corresp="#u_113r_014">[Bez souvislého překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

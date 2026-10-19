@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 1r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_1r_coordinate; PNG SHA256 2723b2744e8bd23f3ff4571441f07ab98a72aef1b54b2cb6614c47799550925b; archival TIFF SHA256 e66e38337310acdf0bb168eae15841702a4f7b1801aa2e98acb474859500783e; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_1r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#1r"/>
+      <zone ulx="488" uly="868" lrx="550" lry="1042" xml:id="z_f1r_l001"/>
+      <zone ulx="638" uly="500" lrx="3196" lry="693" xml:id="z_f1r_l002"/>
+      <zone ulx="578" uly="672" lrx="3249" lry="833" xml:id="z_f1r_l003"/>
+      <zone ulx="943" uly="796" lrx="3224" lry="939" xml:id="z_f1r_l004"/>
+      <zone ulx="1052" uly="896" lrx="3271" lry="1023" xml:id="z_f1r_l005"/>
+      <zone ulx="1048" uly="998" lrx="3277" lry="1148" xml:id="z_f1r_l006"/>
+      <zone ulx="924" uly="1104" lrx="3268" lry="1266" xml:id="z_f1r_l007"/>
+      <zone ulx="747" uly="1222" lrx="3218" lry="1387" xml:id="z_f1r_l008"/>
+      <zone ulx="1182" uly="1325" lrx="3233" lry="1493" xml:id="z_f1r_l009"/>
+      <zone ulx="566" uly="1428" lrx="3265" lry="1583" xml:id="z_f1r_l010"/>
+      <zone ulx="550" uly="1527" lrx="3258" lry="1698" xml:id="z_f1r_l011"/>
+      <zone ulx="510" uly="1648" lrx="3277" lry="1798" xml:id="z_f1r_l012"/>
+      <zone ulx="498" uly="2996" lrx="516" lry="3182" xml:id="z_f1r_l013"/>
+      <zone ulx="554" uly="1745" lrx="3274" lry="1904" xml:id="z_f1r_l014"/>
+      <zone ulx="560" uly="1863" lrx="3296" lry="2006" xml:id="z_f1r_l015"/>
+      <zone ulx="569" uly="1978" lrx="3283" lry="2128" xml:id="z_f1r_l016"/>
+      <zone ulx="566" uly="2081" lrx="3233" lry="2255" xml:id="z_f1r_l017"/>
+      <zone ulx="796" uly="2193" lrx="3224" lry="2361" xml:id="z_f1r_l018"/>
+      <zone ulx="728" uly="2305" lrx="3296" lry="2470" xml:id="z_f1r_l019"/>
+      <zone ulx="718" uly="2414" lrx="3258" lry="2576" xml:id="z_f1r_l020"/>
+      <zone ulx="563" uly="2526" lrx="3296" lry="2681" xml:id="z_f1r_l021"/>
+      <zone ulx="560" uly="2619" lrx="3286" lry="2803" xml:id="z_f1r_l022"/>
+      <zone ulx="560" uly="2744" lrx="3280" lry="2927" xml:id="z_f1r_l023"/>
+      <zone ulx="522" uly="2852" lrx="3289" lry="3048" xml:id="z_f1r_l024"/>
+      <zone ulx="469" uly="3372" lrx="538" lry="3587" xml:id="z_f1r_l025"/>
+      <zone ulx="541" uly="2961" lrx="3237" lry="3167" xml:id="z_f1r_l026"/>
+      <zone ulx="554" uly="3086" lrx="3249" lry="3294" xml:id="z_f1r_l027"/>
+      <zone ulx="588" uly="3195" lrx="3255" lry="3409" xml:id="z_f1r_l028"/>
+      <zone ulx="578" uly="3316" lrx="3280" lry="3534" xml:id="z_f1r_l029"/>
+      <zone ulx="572" uly="3428" lrx="3299" lry="3655" xml:id="z_f1r_l030"/>
+      <zone ulx="554" uly="3549" lrx="3280" lry="3773" xml:id="z_f1r_l031"/>
+      <zone ulx="566" uly="3683" lrx="3277" lry="3876" xml:id="z_f1r_l032"/>
+      <zone ulx="831" uly="3814" lrx="2536" lry="3988" xml:id="z_f1r_l033"/>
+      <zone ulx="2819" uly="3792" lrx="3240" lry="3923" xml:id="z_f1r_l034"/>
+      <zone ulx="569" uly="3913" lrx="3261" lry="4119" xml:id="z_f1r_l035"/>
+      <zone ulx="859" uly="4019" lrx="3227" lry="4221" xml:id="z_f1r_l036"/>
+      <zone ulx="491" uly="4140" lrx="3249" lry="4305" xml:id="z_f1r_l037"/>
+      <zone ulx="557" uly="4277" lrx="3230" lry="4427" xml:id="z_f1r_l038"/>
+      <zone ulx="575" uly="4402" lrx="3218" lry="4672" xml:id="z_f1r_l039"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f1r_l001" xml:id="catmus_f1r_l001"/>
+          <seg type="raw_unreviewed">T</seg>
+          <lb facs="#z_f1r_l002" xml:id="catmus_f1r_l002"/>
+          <seg type="raw_unreviewed">ncipit amrissa fratus Iacobi de Sareponthqͣ</seg>
+          <lb facs="#z_f1r_l003" xml:id="catmus_f1r_l003"/>
+          <seg type="raw_unreviewed">qui in telligit pͥodest loqui detheologia qͥdc uolt</seg>
+          <lb facs="#z_f1r_l004" xml:id="catmus_f1r_l004"/>
+          <seg type="raw_unreviewed">heologia est suẽtia ꝓnatuato anacurate ad</seg>
+          <lb facs="#z_f1r_l005" xml:id="catmus_f1r_l005"/>
+          <seg type="raw_unreviewed">magnũ quid edica Et dicit᷑ agto theos quodẽ</seg>
+          <lb facs="#z_f1r_l006" xml:id="catmus_f1r_l006"/>
+          <seg type="raw_unreviewed">deus et logos ꝙ est sermo uel sciecia intheo</seg>
+          <lb facs="#z_f1r_l007" xml:id="catmus_f1r_l007"/>
+          <seg type="raw_unreviewed">logia quasi ẜmo nł sciã dei Dimidit᷑ aut̃theo</seg>
+          <lb facs="#z_f1r_l008" xml:id="catmus_f1r_l008"/>
+          <seg type="raw_unreviewed">logia ĩnomł ⁊ uetus tescamẽtũ quoꝵ clib</seg>
+          <lb facs="#z_f1r_l009" xml:id="catmus_f1r_l009"/>
+          <seg type="raw_unreviewed">dmidis᷑ in diu̾sos libros din̾sorp auctorũ</seg>
+          <lb facs="#z_f1r_l010" xml:id="catmus_f1r_l010"/>
+          <seg type="raw_unreviewed">Qui libri discigront̃ ꝑcapͥla ⁊ capla usecant ĩ sen</seg>
+          <lb facs="#z_f1r_l011" xml:id="catmus_f1r_l011"/>
+          <seg type="raw_unreviewed">tẽcias hab aũt cheologia plua nomĩa Dicit᷑ em̃ lep</seg>
+          <lb facs="#z_f1r_l012" xml:id="catmus_f1r_l012"/>
+          <seg type="raw_unreviewed">Cestametũ Canon p̃ceptũ pagina sacra Textus dei</seg>
+          <lb facs="#z_f1r_l013" xml:id="catmus_f1r_l013"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f1r_l014" xml:id="catmus_f1r_l014"/>
+          <seg type="raw_unreviewed">mandatũ dei doct̾na dei uestimetũ ihũ xp̃i dque ui</seg>
+          <lb facs="#z_f1r_l015" xml:id="catmus_f1r_l015"/>
+          <seg type="raw_unreviewed">ne Continet aũt theologia ꝓphetas Gesta Pabolas</seg>
+          <lb facs="#z_f1r_l016" xml:id="catmus_f1r_l016"/>
+          <seg type="raw_unreviewed">Dimilitudines Euiginata Subbno tꝑm Quatuor u̾o</seg>
+          <lb facs="#z_f1r_l017" xml:id="catmus_f1r_l017"/>
+          <seg type="raw_unreviewed">modis cheolegia infundit᷑ natũe de Rpecieb theolo</seg>
+          <lb facs="#z_f1r_l018" xml:id="catmus_f1r_l018"/>
+          <seg type="raw_unreviewed">git̃ scdm quatuor ftma padisi secũdũ quateor</seg>
+          <lb facs="#z_f1r_l019" xml:id="catmus_f1r_l019"/>
+          <seg type="raw_unreviewed">elemẽta secũdũ iii ͦͬ m̃alia que udit Ezechielse</seg>
+          <lb facs="#z_f1r_l020" xml:id="catmus_f1r_l020"/>
+          <seg type="raw_unreviewed">cudũ uescẽ diu in qͣtuor ꝑtes diuisam ⁊ ͥsqͣtuor</seg>
+          <lb facs="#z_f1r_l021" xml:id="catmus_f1r_l021"/>
+          <seg type="raw_unreviewed">uentos celisit ꝓporconalr sunt q̃tuor spes que dilu</seg>
+          <lb facs="#z_f1r_l022" xml:id="catmus_f1r_l022"/>
+          <seg type="raw_unreviewed">cidãt theologiã ł. uistoi̾a enĩ est mẽa m̾tas lr̃e que nõ</seg>
+          <lb facs="#z_f1r_l023" xml:id="catmus_f1r_l023"/>
+          <seg type="raw_unreviewed">alit̾ ponat quã scti pres edidu̾it maxime añt gq</seg>
+          <lb facs="#z_f1r_l024" xml:id="catmus_f1r_l024"/>
+          <seg type="raw_unreviewed">quigꝰ doubrosiq Beda somiꝰ u̾nꝙIillegoia est de Eccia</seg>
+          <lb facs="#z_f1r_l025" xml:id="catmus_f1r_l025"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f1r_l026" xml:id="catmus_f1r_l026"/>
+          <seg type="raw_unreviewed">Tropologia est deamia Inagoya est depriã etħee</seg>
+          <lb facs="#z_f1r_l027" xml:id="catmus_f1r_l027"/>
+          <seg type="raw_unreviewed">bres discurrũt ĩ mistico forĩc cuiłib nobũtarie ĩ suo</seg>
+          <lb facs="#z_f1r_l028" xml:id="catmus_f1r_l028"/>
+          <seg type="raw_unreviewed">sensu qͥuasi apicetũ Ihrłm hiscoĩte Est cinitas t̾ccua</seg>
+          <lb facs="#z_f1r_l029" xml:id="catmus_f1r_l029"/>
+          <seg type="raw_unreviewed">hrłm allegorice est pũs cicia Ihrlui Tropoloyte ẽ</seg>
+          <lb facs="#z_f1r_l030" xml:id="catmus_f1r_l030"/>
+          <seg type="raw_unreviewed">fidelis amiã Ihrlus doiagoice est celestis pria Incont</seg>
+          <lb facs="#z_f1r_l031" xml:id="catmus_f1r_l031"/>
+          <seg type="raw_unreviewed">riis aũt hoc id̾em sidm se ͭ Rabilon ⁊ Egyptus ⁊ cct̾a</seg>
+          <lb facs="#z_f1r_l032" xml:id="catmus_f1r_l032"/>
+          <seg type="raw_unreviewed">Dehiis itaq iii ͦ ͤ spebus subtõi at̾ omĩs dnũtatꝭ</seg>
+          <lb facs="#z_f1r_l033" xml:id="catmus_f1r_l033"/>
+          <seg type="raw_unreviewed">Ecino est dognia de dermo</seg>
+          <lb facs="#z_f1r_l034" xml:id="catmus_f1r_l034"/>
+          <seg type="raw_unreviewed">÷ sermo</seg>
+          <lb facs="#z_f1r_l035" xml:id="catmus_f1r_l035"/>
+          <seg type="raw_unreviewed">Ouchemẽs in cauisaꝵ cau sa simplicit̾ nel in quid</seg>
+          <lb facs="#z_f1r_l036" xml:id="catmus_f1r_l036"/>
+          <seg type="raw_unreviewed">ansatũ Qui ꝑtit᷑ in practitũ et in lheorgitũ</seg>
+          <lb facs="#z_f1r_l037" xml:id="catmus_f1r_l037"/>
+          <seg type="raw_unreviewed">Practicies fermo est qñ uunui dei plectro natu̾e uł</seg>
+          <lb facs="#z_f1r_l038" xml:id="catmus_f1r_l038"/>
+          <seg type="raw_unreviewed">artis in fudit᷑ in aures in telligẽciarst Tq̃eorgicus</seg>
+          <lb facs="#z_f1r_l039" xml:id="catmus_f1r_l039"/>
+          <seg type="raw_unreviewed">ecmo est qn anũa noculta gitacõne cibo sc̃ spus</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f1r_l001" xml:id="medusa_f1r_l001"/>
+          <seg type="raw_unreviewed">T</seg>
+          <lb facs="#z_f1r_l002" xml:id="medusa_f1r_l002"/>
+          <seg type="raw_unreviewed">Incipit aurissa fratris Jacobi de Sareponte qͣ</seg>
+          <lb facs="#z_f1r_l003" xml:id="medusa_f1r_l003"/>
+          <seg type="raw_unreviewed">qui intelligit potest loqui de theologia qͥdꝙ u̾bo</seg>
+          <lb facs="#z_f1r_l004" xml:id="medusa_f1r_l004"/>
+          <seg type="raw_unreviewed">Theologia est sciẽtia ꝓnatiuata a natura ad</seg>
+          <lb facs="#z_f1r_l005" xml:id="medusa_f1r_l005"/>
+          <seg type="raw_unreviewed">magiñ quid edica Et dicit᷑ agͤto theos quod ẽ</seg>
+          <lb facs="#z_f1r_l006" xml:id="medusa_f1r_l006"/>
+          <seg type="raw_unreviewed">deus et logos q est sermo uel sciencia in the</seg>
+          <lb facs="#z_f1r_l007" xml:id="medusa_f1r_l007"/>
+          <seg type="raw_unreviewed">logia quasi sermo uł scĩa dei Diuidit aut̃ the</seg>
+          <lb facs="#z_f1r_l008" xml:id="medusa_f1r_l008"/>
+          <seg type="raw_unreviewed">logia in omni et vetus testamentum quorum quolibet</seg>
+          <lb facs="#z_f1r_l009" xml:id="medusa_f1r_l009"/>
+          <seg type="raw_unreviewed">dividitur in diversos libros diversorum auctorum</seg>
+          <lb facs="#z_f1r_l010" xml:id="medusa_f1r_l010"/>
+          <seg type="raw_unreviewed">Quin libri distingunt᷑ ꝑ capla ⁊ capla ⁊ secant᷑ ĩ sen</seg>
+          <lb facs="#z_f1r_l011" xml:id="medusa_f1r_l011"/>
+          <seg type="raw_unreviewed">tẽtias hab&amp; aũt theologia plura nomina Dicit᷑ eñ lex</seg>
+          <lb facs="#z_f1r_l012" xml:id="medusa_f1r_l012"/>
+          <seg type="raw_unreviewed">Testamentũ Canon p̃ceptũ pagina sacra Textus dei</seg>
+          <lb facs="#z_f1r_l013" xml:id="medusa_f1r_l013"/>
+          <seg type="raw_unreviewed">g</seg>
+          <lb facs="#z_f1r_l014" xml:id="medusa_f1r_l014"/>
+          <seg type="raw_unreviewed">Mandatum dei doctrina dei uestimẽtum ihesu xp̃i deque vi</seg>
+          <lb facs="#z_f1r_l015" xml:id="medusa_f1r_l015"/>
+          <seg type="raw_unreviewed">ne Continet aut̃ theologia prophetas Gesta pabolas</seg>
+          <lb facs="#z_f1r_l016" xml:id="medusa_f1r_l016"/>
+          <seg type="raw_unreviewed">Similitudines enginata sub uno tpm Ornatuor u̾o</seg>
+          <lb facs="#z_f1r_l017" xml:id="medusa_f1r_l017"/>
+          <seg type="raw_unreviewed">modis theologia infundit᷑ natuͬe De speciebus theolo</seg>
+          <lb facs="#z_f1r_l018" xml:id="medusa_f1r_l018"/>
+          <seg type="raw_unreviewed">gis scdm̃ quatuor f̃mina paradisi secundũ quatuor</seg>
+          <lb facs="#z_f1r_l019" xml:id="medusa_f1r_l019"/>
+          <seg type="raw_unreviewed">elementa secundum iiiior animalia que vidit Ezechiel se</seg>
+          <lb facs="#z_f1r_l020" xml:id="medusa_f1r_l020"/>
+          <seg type="raw_unreviewed">cũdũ ueste dñi in quatuor partes dimisdam 2.ᵃ quatuor</seg>
+          <lb facs="#z_f1r_l021" xml:id="medusa_f1r_l021"/>
+          <seg type="raw_unreviewed">uentos celi sic proporcionaliter sunt quatuor species que dilu</seg>
+          <lb facs="#z_f1r_l022" xml:id="medusa_f1r_l022"/>
+          <seg type="raw_unreviewed">cidat theologia Historia enĩ est mera u̾itas lre que nõ</seg>
+          <lb facs="#z_f1r_l023" xml:id="medusa_f1r_l023"/>
+          <seg type="raw_unreviewed">aliter ponatur quam sancti patres ediderunt maxime ante gra</seg>
+          <lb facs="#z_f1r_l024" xml:id="medusa_f1r_l024"/>
+          <seg type="raw_unreviewed">Augꝰ Ambrosius Beda Ieronius Bernꝰ Allegoria est de Ecclesia</seg>
+          <lb facs="#z_f1r_l025" xml:id="medusa_f1r_l025"/>
+          <seg type="raw_unreviewed">2</seg>
+          <lb facs="#z_f1r_l026" xml:id="medusa_f1r_l026"/>
+          <seg type="raw_unreviewed">Tropologia est de anima Anagoya est de pria ethee</seg>
+          <lb facs="#z_f1r_l027" xml:id="medusa_f1r_l027"/>
+          <seg type="raw_unreviewed">tres discurrũt ĩ mistico formẽ cuilib: uolũtarie ĩ sua</seg>
+          <lb facs="#z_f1r_l028" xml:id="medusa_f1r_l028"/>
+          <seg type="raw_unreviewed">sensu quasi apicem Iherobii historie Est cinitas trena</seg>
+          <lb facs="#z_f1r_l029" xml:id="medusa_f1r_l029"/>
+          <seg type="raw_unreviewed">Ihrlm allegorice est pñs eccĩa Ihrlm Tropoloyce ẽ</seg>
+          <lb facs="#z_f1r_l030" xml:id="medusa_f1r_l030"/>
+          <seg type="raw_unreviewed">fidelis anima Iherbisdanagoice est celestis prĩa Incõpo</seg>
+          <lb facs="#z_f1r_l031" xml:id="medusa_f1r_l031"/>
+          <seg type="raw_unreviewed">riis aut hoc idem scd̃m se Babilon ⁊ Egyptus ⁊ cet̾a</seg>
+          <lb facs="#z_f1r_l032" xml:id="medusa_f1r_l032"/>
+          <seg type="raw_unreviewed">De hiis itaque iiiiᵒʳ species subtemnat omnes diuitatꝭ</seg>
+          <lb facs="#z_f1r_l033" xml:id="medusa_f1r_l033"/>
+          <seg type="raw_unreviewed">Ermoe est de gina de Sermo</seg>
+          <lb facs="#z_f1r_l034" xml:id="medusa_f1r_l034"/>
+          <seg type="raw_unreviewed">sermo</seg>
+          <lb facs="#z_f1r_l035" xml:id="medusa_f1r_l035"/>
+          <seg type="raw_unreviewed">nehenies in causarum causa simpliciter vel in quid</seg>
+          <lb facs="#z_f1r_l036" xml:id="medusa_f1r_l036"/>
+          <seg type="raw_unreviewed">raisatũ Qui ꝑtiter in practicũ et in theoricũ</seg>
+          <lb facs="#z_f1r_l037" xml:id="medusa_f1r_l037"/>
+          <seg type="raw_unreviewed">Practicus sermo est tñ u̾bum dei plectro nature uł</seg>
+          <lb facs="#z_f1r_l038" xml:id="medusa_f1r_l038"/>
+          <seg type="raw_unreviewed">artis infunditur in aures intelligenciae Theorgicus</seg>
+          <lb facs="#z_f1r_l039" xml:id="medusa_f1r_l039"/>
+          <seg type="raw_unreviewed">secundo est tñ anima in oculta habitacõne cibo sc̃i spũs</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f1r_l001 #z_f1r_l002 #z_f1r_l003" xml:id="u_1r_001">Incipit Aurissa fratris Iacobi de Sareponth, quam qui intelligit potest loqui de theologia quidquid vult.</p>
+        <note type="editorial" corresp="#u_1r_001" xml:lang="cs">Návrh podle obrazu červené rubriky; katalog potvrzuje titul a jméno. Segment 1 je oddělený fragment iniciály, nikoli další slovo. Zkratky rozvedeny návrhově.</note>
+        <p facs="#z_f1r_l004 #z_f1r_l005 #z_f1r_l006 #z_f1r_l007 #z_f1r_l008 #z_f1r_l009" xml:id="u_1r_002">Theologia est scientia pro naturato a naturante [ad magnum quid …?]. Et dicitur a Graeco theos, quod est Deus, et logos, quod est sermo vel scientia; inde theologia quasi sermo vel scientia Dei. Dividitur autem theologia in novum et vetus testamentum, quorum quodlibet dividitur in diversos libros diversorum auctorum.</p>
+        <note type="editorial" corresp="#u_1r_002" xml:lang="cs">Řádky 4–5 mají nejistý konec úvodní definice; překladem jej nedoplňuji. Přírodní terminologie naturans/naturatum přeložena výkladově. V řádku 8 navrhuji novum podle obrazu, oproti omni v Meduse.</note>
+        <p facs="#z_f1r_l010 #z_f1r_l011 #z_f1r_l012 #z_f1r_l013 #z_f1r_l014 #z_f1r_l015 #z_f1r_l016" xml:id="u_1r_003">Qui libri distinguuntur per capitula et capitula resecantur in sententias. Habet autem theologia plura nomina. Dicitur enim lex, testamentum, canon, praeceptum, pagina sacra, textus Dei, mandatum Dei, doctrina Dei, vestimentum Iesu Christi [další označení nejisté]. Continet autem theologia prophetas, gesta, parabolas, similitudines, aenigmata [sub …?]. Quatuor vero …</p>
+        <note type="editorial" corresp="#u_1r_003" xml:lang="cs">Segment 13 je prázdný či okrajový fragment a nepřidává samostatný obsah. Nejasná slova na rozhraní 14–15 a v 16 ponechána otevřená; nejde o úplně rozluštěný slovní přepis.</note>
+        <p facs="#z_f1r_l017 #z_f1r_l018 #z_f1r_l019 #z_f1r_l020 #z_f1r_l021" xml:id="u_1r_004">… modis theologia infunditur naturae. De speciebus theologiae: secundum quatuor flumina paradisi, secundum quatuor elementa, secundum quatuor animalia quae vidit Ezechiel, secundum vestem Domini in quatuor partes divisam et secundum quatuor ventos caeli, sic proportionaliter sunt quatuor species quae dilucidant theologiam.</p>
+        <note type="editorial" corresp="#u_1r_004" xml:lang="cs">Začátek věty navazuje na poslední slova předchozího úseku. Červená rubrika De speciebus theologiae oddělena od hlavní věty; rozvinutí zkratek i členění zůstávají návrhem.</note>
+        <p facs="#z_f1r_l022 #z_f1r_l023 #z_f1r_l024 #z_f1r_l025" xml:id="u_1r_005">Historia enim est mera veritas litterae, quae non aliter ponatur quam sancti patres ediderunt, maxime autem Gregorius, Augustinus, Ambrosius, Beda, Hieronymus, Bernardus. Allegoria est de Ecclesia.</p>
+        <note type="editorial" corresp="#u_1r_005" xml:lang="cs">Jména otců jsou návrhově rozvinuta ze zkratek. Segment 25 je úzký oddělený fragment předchozího řádku. Littera zde označuje doslovný smysl Písma.</note>
+        <p facs="#z_f1r_l026 #z_f1r_l027 #z_f1r_l028 #z_f1r_l029 #z_f1r_l030 #z_f1r_l031" xml:id="u_1r_006">Tropologia est de anima. Anagogia est de patria. Et hae tres discurrunt in mystico sermone [cuilibet voluntarie?] in suo sensu. Quasi: appellatur Ierusalem historice, est civitas terrena; Ierusalem allegorice est praesens Ecclesia; Ierusalem tropologice est fidelis anima; Ierusalem anagogice est caelestis patria. In contrariis autem hoc idem secundum se: Babylon et Aegyptus et cetera.</p>
+        <note type="editorial" corresp="#u_1r_006" xml:lang="cs">Výklad čtyř smyslů je v obraze dobře rozpoznatelný; gramaticky obtížné místo v řádku 27 nepřevádím do zdánlivě jisté věty. Čtení sermone je návrh proti chybným kandidátům HTR.</note>
+        <p facs="#z_f1r_l032 #z_f1r_l033 #z_f1r_l034 #z_f1r_l035 #z_f1r_l036" xml:id="u_1r_007">De hiis itaque quatuor speciebus [subterminatur?] omnis divinitatis … Sermo est dogma. De sermone. [Vehemens?] in causarum causa simpliciter vel in quid causatum. Qui partitur in practicum et in theoricum.</p>
+        <note type="editorial" corresp="#u_1r_007" xml:lang="cs">Přechod k oddílu De sermone a začátek definice jsou nejisté. Nejde o pojednání o číslech: rubrika v obraze je De sermone. Segment 34 opakuje oddělené koncové sermo a není přeložen podruhé. Nedoplňuji syntaxi z domnělé paralelní předlohy.</note>
+        <p facs="#z_f1r_l037 #z_f1r_l038 #z_f1r_l039" xml:id="u_1r_008">Practicus sermo est quando verbum Dei plectro naturae vel artis infunditur in aures intelligentiae. Theoricus sermo est quando anima in occulta [agitatione?] cibo sancti Spiritus …</p>
+        <note type="editorial" corresp="#u_1r_008" xml:lang="cs">Poslední věta pokračuje za koncem vybrané strany; nedokončuji ji. Agitatione je nejisté obrazové čtení, HTR nabízí i habitacione. Plectrum přeloženo obrazně jako nástroj.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_1r_001">Začíná Aurissa bratra Jakuba ze Sareponthu. Kdo jí rozumí, může o teologii hovořit, o čemkoli chce.</p>
+        <p corresp="#u_1r_002">Teologie je vědění pro stvořené, pocházející od tvůrce [následující část definice není spolehlivě přečtena]. Její název se odvozuje z řeckého theos, tedy Bůh, a logos, tedy řeč nebo vědění: teologie je tak řeč či vědění o Bohu. Dělí se na Nový a Starý zákon; každý z nich se dále dělí na jednotlivé knihy různých autorů.</p>
+        <p corresp="#u_1r_003">Tyto knihy se člení na kapitoly a kapitoly na jednotlivé výroky. Teologie má více označení: zákon, smlouva či Zákon, kánon, přikázání, svatá stránka, Boží text, Boží příkaz, Boží nauka, roucho Ježíše Krista [další označení je nejasné]. Obsahuje proroky, skutky, podobenství, přirovnání a hádanky [konec výčtu je nejistý]. Čtyřmi pak …</p>
+        <p corresp="#u_1r_004">… způsoby se teologie vlévá do přirozenosti. O druzích teologie: podle čtyř rajských řek, čtyř živlů, čtyř bytostí, které spatřil Ezechiel, Pánova roucha rozděleného na čtyři části a čtyř nebeských větrů se obdobně rozlišují čtyři druhy, které objasňují teologii.</p>
+        <p corresp="#u_1r_005">Historický smysl je prostá pravda litery, kterou je třeba podávat tak, jak ji vyložili svatí otcové, především Řehoř, Augustin, Ambrož, Beda, Jeroným a Bernard. Alegorický smysl se vztahuje k církvi.</p>
+        <p corresp="#u_1r_006">Tropologický, tedy mravní smysl se týká duše. Anagogický smysl se týká nebeské vlasti. Tyto tři se uplatňují v duchovním výkladu [část věty o jejich použití je nejistá]. Příkladem je Jeruzalém: v historickém smyslu je to pozemské město, v alegorickém současná církev, v mravním věřící duše a v anagogickém nebeská vlast. U protikladných obrazů je tomu obdobně: Babylon, Egypt a další.</p>
+        <p corresp="#u_1r_007">Těmito čtyřmi druhy se tedy [vymezuje?] veškerý teologický … Řeč je nauka. O řeči. [Nejasný začátek:] vztahující se prostě k příčině příčin nebo k něčemu způsobenému. Dělí se na řeč praktickou a teoretickou.</p>
+        <p corresp="#u_1r_008">Praktická řeč nastává, když se Boží slovo nástrojem přirozenosti nebo umění vlévá do sluchu porozumění. Teoretická řeč nastává, když se duše ve skrytém [vnitřním pohybu?] pokrmem Ducha svatého …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

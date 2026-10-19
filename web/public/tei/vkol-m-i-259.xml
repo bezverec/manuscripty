@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259 — Textus varii: úplný převzatý katalogový popis a inventář snímků</title>
+        <respStmt>
+          <resp>Místní převod dodaného popisu do TEI; nejde o novou odbornou katalogizaci</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní výzkumné zpracování od2026-10-19. Katalogová tvrzení jsou převzata ze zdroje; neprohlašují nový obrazový nebo odborný průzkum.<ref target="https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-i-259">Veřejný záznam rukopisu</ref></p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="metadata-source" corresp="urn:sha256:896eee4a9a3b80a60bebcd2e409eceede8374807fdd8441efa7cb98472f931b3">Úplný msDesc včetně fyzického popisu, vazby, historie, bibliografie a poznámek zachovává původní text i atributy, s výjimkou projektového xml:id kořene msDesc.</note>
+      </notesStmt>
+      <sourceDesc><msDesc xml:id="ms-vkol-m-i-259" xml:lang="cs">
+					<msIdentifier>
+						<country>Česko</country>
+						<settlement>Olomouc</settlement>
+						<institution>Vědecká knihovna v Olomouci</institution>
+						<repository>Vědecká knihovna v Olomouci</repository>
+						<idno>M I 259</idno>
+						<altIdentifier type="former">
+							<idno>2 VI 17</idno>
+						</altIdentifier>
+						<altIdentifier type="former">
+							<idno>II f 17</idno>
+						</altIdentifier>
+					</msIdentifier>
+					<head>
+						<title>Textus varii</title>
+						<origDate notBefore="1400" notAfter="1450">1. polovina 15. století</origDate>
+					</head>
+					<msContents>
+						<msItem n="1">
+							<locus from="#IDf001r" to="#IDf001v">Přední předsádka</locus>
+							<title>Litterae, fragmentum</title>
+							<note>Obsahuje zlomek pergamenové listiny vyhotovené roku 1390 (
+<q>in civitate Ticzin anno Domini millesimo trecentesimo nonagesimo</q>; srov. 
+<bibl>Dr. Schwab, Urkundliches aus Einbänden der Olmützer Studienbibliothek, Zeitschrift des Deutschen Vereines für die Geschichte Mährens und Schlesiens 31, 1929, s. 66</bibl>). Dále je zde připojen konspekt kodexu psaný rukou z 18. století.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="2">
+							<locus from="1r" to="14r">1r–14r</locus>
+							<author ref="https://www.wikidata.org/wiki/Q139935455">Iacobus de Saraponte</author>
+							<title>Aurissa</title>
+							<rubric>Incipit Aurissa fratris Iacobi de Sareponth, quam qui intelligit, potest loqui de theologia, quidquid vult</rubric>
+							<incipit>Theologia est sciencia pro naturato a naturante</incipit>
+							<explicit>ut me miserum peccatorem facias oracionum tuarum participem. Amen.</explicit>
+							<finalRubric>Explicit Aurissa, michi lector sis precorissa / Qui facit non fit, facit et fit, non facit et fit / Non relegas versus, cui presit nescio sensus. - Perdicitur, persubditur, peradditur, peradiungitur.</finalRubric>
+							<note>Týž text se nachází v rukopisu Knihovny pražské metropolitní kapituly D LXI /Podlaha 627/, fol. 1r–15r.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="3">
+							<locus from="14r" to="14v">14r–14v</locus>
+							<title>De modo sermocinandi latine et bohemice</title>
+							<incipit>Extrahe notabilitates in latino a clausulis, similiter et in Bohemico</incipit>
+							<explicit>poteris ordinare secundum voluntatem tuam etc. Amen.</explicit>
+							<note>Všude, kde původní písař uvedl 
+<q>in Bohemico</q>, opravila pozdější ruka text na 
+<q>in Theutonico</q>. Srov. rkp uvedený v předchozí poznámce.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="4">
+							<locus from="15r" to="17v">15r–17v</locus>
+							<incipit>Membra Christi. Membra ecclesie triumphantis. Membra ecclesie militantis. Membra diaboli. Membra inferni. Omnipotens</incipit>
+							<explicit>desperatus</explicit>
+							<note>Nedokončeno, text končí odstavcem 
+<q>Membra ecclesie militantis</q>. Podobný textový úsek se nachází v rukopisu Knihovny pražské metropolitní kapituly D LXI na fol. 16r–18v.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="5">
+							<locus from="18r" to="21r">18r–21r</locus>
+							<title>De occulta vita Iesu Christi</title>
+							<incipit>Inter cetera, que menti merita Iesu consideranti accrescat ad miraculum</incipit>
+							<explicit>nisi certum esset exterius adeo positum verbum</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="6">
+							<locus from="21v" to="24v">21v–24v</locus>
+							<title>Breves annotationes theologicae</title>
+							<note>Krátké poznámky a výpisky 
+<q>De Pater noster</q>, 
+<q>De indulgenciis</q>, 
+<q>De caritate</q> a další.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="7">
+							<locus from="25r" to="45v">25r–45v</locus>
+							<title>Exempla</title>
+							<incipit>Legitur quidam piscator beati Theobaldi</incipit>
+							<explicit>et hoc facit eum humilem, et sic placet Deo</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="8">
+							<locus from="46r" to="48v">46r–48v</locus>
+							<title>Notabilia iocosa</title>
+							<rubric>Secuntur notabilia iocosa, que in sermone post prandium in die Pasche dicuntur</rubric>
+							<incipit>Notabile iocosum in Pascha. Fuerunt duo compatres</incipit>
+							<explicit>usque dum exalaret spiritum etc.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="9">
+							<locus from="49r" to="60r">49r–60v</locus>
+							<title>Auctoritates diversorum doctorum (praesertim circa confessionem ac obedienciam)</title>
+							<rubric>Secuntur auctoritates diversorum doctorum</rubric>
+							<incipit>Augustinus: Si vis, quod Dominus figat auribus oracionem tuam</incipit>
+							<explicit>et quod habeant pacienciam, ne desperent</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="10">
+							<locus from="61r" to="61v">61r–61v</locus>
+							<author ref="https://www.wikidata.org/wiki/Q7795514">Thomas de Chobham (Pseudo-Innocentius IV.)</author>
+							<title>Fragmentum Summae casuum poenitentiae</title>
+							<incipit>Cum miseraciones Domini sunt super omnia opera eius</incipit>
+							<note>Úplný text této Summy je obsažen v rukopisu M II 91, ff. 1r-84v</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>J. Kejř: Summae confessorum a jiná díla pro foro interno v rukopisech českých a moravských knihoven, Praha 2003, s. 40-44 (rkp. uveden na s. 41)</bibl>
+						</msItem>
+						<msItem n="11">
+							<locus from="62r" to="68r">62r–68r</locus>
+							<author ref="https://www.wikidata.org/wiki/Q16644429">Iacobus de Noviano</author>
+							<title>Utrum viris ecclesiasticis seu clericis liceat aliquid possidere</title>
+							<incipit>Nota utrum viris ecclesiasticis seu clericis liceat aliquid possidere</incipit>
+							<explicit>quibus post vitam benignissime Salvator aggregare queso dignare amen</explicit>
+							<note>Na závěr poznámka 
+<q>Sancta Maria et omnes sancti orate pro nobis, ut veritas probetur, et tu sancte Vikleff erra pro tuis, ut falsitas condempnetur etc.</q>
+							</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>J. Sedlák: Jacobi de Noviano, Mgri Parisiensis, Disputatio cum Hussitis, Brunae 1914 (rkp. neuveden)</bibl>
+						</msItem>
+						<msItem n="12">
+							<locus from="68r" to="78r">68r–78v</locus>
+							<title>De pseudoprophetis</title>
+							<incipit>Ecce videntes clamabunt foris, angeli pacis amare flebunt Ysaie 33,7. Sicut prophete in sacris litteris appellabantur videntes</incipit>
+							<explicit>non sunt boni apostoli, sed pseudo. Etc. </explicit>
+							<finalRubric>Explicit de pseudoprophetis</finalRubric>
+							<note>Anonymní text dochovaný rovněž v rukopisu Fiecht, Stiftsbibliothek 55, fol. 1ra–25va (podle identifikace Dr. T. Kaeppeliho).</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="13">
+							<locus from="88r" to="90r">88r–90r</locus>
+							<title>Expositio brevis arboris consanguinitatis et affinitatis praecedente tabula</title>
+							<incipit>
+								<locus from="88v" to="88v">88v</locus>Ad dicendum arborem consanguinitatis precedentem</incipit>
+							<incipit>
+								<locus from="89v" to="89v">89v</locus>Ad arborem affinitatis et eius materiam</incipit>
+							<explicit>secundum regulas, quas tradidi in proxima</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="14">
+							<locus from="90v" to="131v">90v–131v</locus>
+							<author ref="https://www.wikidata.org/wiki/Q431054">Martinus Oppaviensis dictus Polonus O.P.</author>
+							<title>Margarita Decreti</title>
+							<incipit>Inter alia quecumque ad fidelium Christi doctrinam scripta sunt, liber decretorum ad ipsorum doctrinam et consolacionem conscriptus reperitur ut per ipsam tam clerici, quam laici regulentur...ego frater Martinus de ordine Predicatorum domini pape penitenciarius et cappelanus, multa diligencia hunc librum studui compilare etc. Sequitur per totum alphabetum et primo de A etc. Aaron, quod suo sacerdocio</incipit>
+							<explicit>
+								<locus from="131r" to="131r">131r</locus>Zyzania… colligunt zyzaniam ad coburendum XXIII q. 1.</explicit>
+							<finalRubric>Explicit Margaritha Decreti Iohannis Clemanni etc. compilata per fratrem Martinum ordinis Predicatorum penitenciarium domini pape et cappellanum</finalRubric>
+							<note>
+								<bibl>L. Hain: Repertorium bibliographicum, Stuttgart 1826-1838 (č. 10.834–10.851)</bibl>; srov. 
+<bibl>A. Van Hove: Prologomena ad Codicem iuris canonici, editio altera, Mechliniae - Romae 1945, s. 485 a tamtéž uvedená literatura v pozn. 3</bibl>.</note>
+							<textLang mainLang="la">latinsky</textLang>
+							<bibl>T. Kaeppeli: Scriptores Ordinis Praedicatorum Medii Aevi, tomus III, Romae ad S. Sabinae 1980, č. 2973 (rkp. uveden)</bibl>
+						</msItem>
+						<msItem n="15">
+							<locus from="131v" to="133r">131v–133r</locus>
+							<title>De hereticis</title>
+							<incipit>Nota secundum doctores iuris canonici hereticus dicitur</incipit>
+							<explicit>de imperiali clementia restitucionis beneficium in integrum consequitur etc.</explicit>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+						<msItem n="16">
+							<locus from="135r" to="165v">135r–165v</locus>
+							<title>Evangelia dominicalia et festivalia per circulum anni (germanice)</title>
+							<incipit>Do sy naheten zu Ierusalem und komen zu Bethfage zu dem berge Oliveti, do sant Iesus czwen sein jungen sprechund</incipit>
+							<incipit>
+								<locus from="165r" to="165r">165r</locus>Maria aufstuend und ging aylund auff das gepirge</incipit>
+							<explicit>Als er gerett hat zu unseren vatern, Abraham und sein in der werlde etc.</explicit>
+							<textLang mainLang="de">německy</textLang>
+							<bibl>M. Grolig: Die deutschen Handschriften der Studienbibliothek in Olmütz, Zeitschrift des deutschen Vereines für die Geschichte Mährens und Schlesiens 31, 1929, s. 85-113, zde s. 94, č. 33</bibl>
+						</msItem>
+						<msItem n="17">
+							<locus from="#IDb001r" to="#IDb001r">Zadní předsádka</locus>
+							<title>Litterae, fragmentum</title>
+							<note>Tvořena zlomkem pergamenové listiny, kterou vydávají 
+<q>Arclebus de Turri, senior canonicus, et noc capitulum ecclesie Olomucensis</q> dne 25. února 1400 ve prospěch 
+<q>domini Luce Iohannis Lynczel de Nausedlicz</q>; srov. 
+<bibl>Dr. Schwab, Urkundliches aus Einbänden der Olmützer Studienbibliothek, Zeitschrift des Deutschen Vereines für die Geschichte Mährens und Schlesiens 31, 1929, s. 66</bibl>.</note>
+							<textLang mainLang="la">latinsky</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<p>
+							<term>Kodex, kniha, rukopis.</term>
+						</p>
+						<objectDesc form="codex">
+							<supportDesc material="chart">
+								<support>Papír, předsádky (fol. I vpředu a vzadu) pergamen.</support>
+								<extent>I + 181 + I ff. (digitální dokument I + 180 + I ff.). Ff. 83/84 tvoří nerozřezaný dvojlist, v digitálním dokumentu je fol. 84 uvedeno jako chybějící a u obrazů fol. 83 jde ve skutečnosti o stranu recto fol. 83 a stranu verso fol. 84. 
+<dimensions type="leaf" unit="cm">
+										<height>23,5</height>
+										<width>15</width>
+									</dimensions>
+								</extent>
+								<collation>Skladba: 5.VI + 1.VII + 8.VI + 1.VI-1 f. (181 ff.). Na prvních listech složek jsou dochovány číselné kustody. </collation>
+							</supportDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Kodex je dílem několika písařských rukou, které se střídají s odlišnou grafickou úpravou zrcadla strany.</p>
+						</handDesc>
+						<bindingDesc>
+							<binding>
+								<p>Dobová vazba; dřevěné desky černě barvené, bílý hřbet.</p>
+							</binding>
+						</bindingDesc>
+					</physDesc>
+					<history>
+						<origin notBefore="1400" notAfter="1450">1. polovina 15. století</origin>
+						<provenance>Dřívější vlastník: 
+<orgName type="owner">
+								<placeName key="29465" cert="medium">kartuziánský klášter v Dolanech</placeName>
+							</orgName> (nelze ale s jistotou říci, zda ještě v době, kdy klášter sídlil v Dolanech, nebo až po jeho přestěhování do Olomouce,  latinský vlastnický přípis na 
+<locus from="#IDf001r" to="#IDf001r">přední předsádce recto</locus>: 
+<q>Iste liber est fratrum Carthusiensium de Dolano</q>.).</provenance>
+					</history>
+					<additional>
+						<adminInfo>
+							<recordHist>
+								<p>Popis vytvořen 7. 7. 2026 podle podkladů VK Olomouc.</p>
+							</recordHist>
+						</adminInfo>
+						<listBibl>
+							<bibl>BOHÁČEK, Miroslav – ČÁDA, František: Beschreibung der mittelalterlichen Handschriften der Wissenschaftlichen Staatsbibliothek von Olmütz. Köln – Weimar – Wien 1994, č. 80, s. 170–172.</bibl>
+							<bibl>https://handschriftencensus.de/19260</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Tento soubor obsahuje katalogový popis a obrazový inventář, nikoli dokončenou edici celého textu. Samostatné řádkové TEI exporty vznikají průběžně. Stabilní ID snímků vycházejí ze souborů a nejsou automaticky ztotožněna s fyzickou foliací. Případná bezztrátová rotace pracovních PNG je zaznamenána v manifestu; originální TIFFy se nemění.</p>
+    <p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p></encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="surface_FC" n="FC">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#FC" width="4120px" height="5820px"/>
+    </surface>
+    <surface xml:id="surface_FS" n="FS">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#FS" width="5784px" height="4200px"/>
+    </surface>
+    <surface xml:id="surface_F001R" n="F001R">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#F001R" width="3900px" height="5600px"/>
+      <zone xml:id="IDf001r"/>
+    </surface>
+    <surface xml:id="surface_F001V" n="F001V">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#F001V" width="3900px" height="5600px"/>
+      <zone xml:id="IDf001v"/>
+    </surface>
+    <surface xml:id="surface_1r" n="1r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#1r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_1v" n="1v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#1v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_2r" n="2r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#2r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_2v" n="2v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#2v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_3r" n="3r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#3r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_3v" n="3v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#3v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_4r" n="4r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#4r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_4v" n="4v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#4v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_5r" n="5r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#5r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_5v" n="5v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#5v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_6r" n="6r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#6r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_6v" n="6v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#6v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_7r" n="7r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#7r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_7v" n="7v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#7v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_8r" n="8r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#8r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_8v" n="8v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#8v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_9r" n="9r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#9r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_9v" n="9v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#9v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_10r" n="10r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#10r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_10v" n="10v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#10v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_11r" n="11r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#11r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_11v" n="11v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#11v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_12r" n="12r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#12r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_12v" n="12v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#12v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_13r" n="13r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#13r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_13v" n="13v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#13v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_14r" n="14r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#14r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_14v" n="14v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#14v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_15r" n="15r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#15r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_15v" n="15v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#15v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_16r" n="16r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#16r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_16v" n="16v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#16v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_17r" n="17r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#17r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_17v" n="17v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#17v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_18r" n="18r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#18r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_18v" n="18v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#18v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_19r" n="19r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#19r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_19v" n="19v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#19v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_20r" n="20r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#20r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_20v" n="20v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#20v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_21r" n="21r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#21r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_21v" n="21v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#21v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_22r" n="22r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#22r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_22v" n="22v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#22v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_23r" n="23r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#23r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_23v" n="23v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#23v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_24r" n="24r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#24r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_24v" n="24v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#24v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_25r" n="25r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#25r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_25v" n="25v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#25v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_26r" n="26r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#26r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_26v" n="26v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#26v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_27r" n="27r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#27r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_27v" n="27v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#27v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_28r" n="28r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#28r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_28v" n="28v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#28v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_29r" n="29r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#29r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_29v" n="29v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#29v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_30r" n="30r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#30r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_30v" n="30v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#30v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_31r" n="31r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#31r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_31v" n="31v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#31v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_32r" n="32r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#32r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_32v" n="32v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#32v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_33r" n="33r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#33r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_33v" n="33v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#33v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_34r" n="34r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#34r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_34v" n="34v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#34v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_35r" n="35r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#35r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_35v" n="35v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#35v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_36r" n="36r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#36r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_36v" n="36v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#36v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_37r" n="37r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#37r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_37v" n="37v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#37v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_38r" n="38r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#38r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_38v" n="38v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#38v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_39r" n="39r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#39r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_39v" n="39v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#39v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_40r" n="40r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#40r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_40v" n="40v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#40v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_41r" n="41r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#41r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_41v" n="41v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#41v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_42r" n="42r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#42r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_42v" n="42v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#42v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_43r" n="43r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#43r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_43v" n="43v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#43v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_44r" n="44r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#44r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_44v" n="44v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#44v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_45r" n="45r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#45r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_45v" n="45v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#45v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_46r" n="46r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#46r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_46v" n="46v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#46v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_47r" n="47r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#47r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_47v" n="47v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#47v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_48r" n="48r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#48r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_48v" n="48v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#48v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_49r" n="49r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#49r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_49v" n="49v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#49v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_50r" n="50r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#50r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_50v" n="50v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#50v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_51r" n="51r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#51r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_51v" n="51v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#51v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_52r" n="52r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#52r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_52v" n="52v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#52v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_53r" n="53r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#53r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_53v" n="53v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#53v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_54r" n="54r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#54r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_54v" n="54v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#54v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_55r" n="55r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#55r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_55v" n="55v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#55v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_56r" n="56r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#56r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_56v" n="56v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#56v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_57r" n="57r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#57r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_57v" n="57v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#57v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_58r" n="58r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#58r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_58v" n="58v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#58v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_59r" n="59r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#59r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_59v" n="59v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#59v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_60r" n="60r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#60r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_60v" n="60v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#60v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_61r" n="61r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#61r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_61v" n="61v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#61v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_62r" n="62r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#62r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_62v" n="62v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#62v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_63r" n="63r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#63r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_63v" n="63v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#63v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_64r" n="64r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#64r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_64v" n="64v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#64v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_65r" n="65r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#65r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_65v" n="65v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#65v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_66r" n="66r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#66r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_66v" n="66v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#66v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_67r" n="67r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#67r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_67v" n="67v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#67v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_68r" n="68r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#68r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_68v" n="68v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#68v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_69r" n="69r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#69r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_69v" n="69v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#69v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_70r" n="70r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#70r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_70v" n="70v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#70v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_71r" n="71r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#71r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_71v" n="71v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#71v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_72r" n="72r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#72r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_72v" n="72v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#72v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_73r" n="73r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#73r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_73v" n="73v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#73v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_74r" n="74r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#74r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_74v" n="74v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#74v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_75r" n="75r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#75r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_75v" n="75v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#75v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_76r" n="76r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#76r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_76v" n="76v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#76v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_77r" n="77r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#77r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_77v" n="77v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#77v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_78r" n="78r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#78r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_78v" n="78v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#78v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_79r" n="79r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#79r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_79v" n="79v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#79v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_80r" n="80r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#80r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_80v" n="80v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#80v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_81r" n="81r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#81r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_81v" n="81v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#81v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_82r" n="82r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#82r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_82v" n="82v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#82v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_83r" n="83r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#83r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_83v" n="83v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#83v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_extra-83v" n="extra-83v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#extra-83v" width="4220px" height="5216px"/>
+    </surface>
+    <surface xml:id="surface_84r" n="84r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#84r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_extra-84r" n="extra-84r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#extra-84r" width="4190px" height="5276px"/>
+    </surface>
+  <surface xml:id="surface_84v" n="84v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#84v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_85r" n="85r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#85r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_85v" n="85v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#85v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_86r" n="86r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#86r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_86v" n="86v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#86v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_87r" n="87r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#87r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_87v" n="87v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#87v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_88r" n="88r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#88r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_88v" n="88v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#88v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_89r" n="89r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#89r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_89v" n="89v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#89v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_90r" n="90r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#90r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_90v" n="90v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#90v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_91r" n="91r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#91r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_91v" n="91v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#91v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_92r" n="92r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#92r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_92v" n="92v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#92v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_93r" n="93r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#93r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_93v" n="93v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#93v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_94r" n="94r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#94r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_94v" n="94v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#94v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_95r" n="95r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#95r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_95v" n="95v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#95v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_96r" n="96r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#96r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_96v" n="96v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#96v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_97r" n="97r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#97r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_97v" n="97v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#97v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_98r" n="98r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#98r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_98v" n="98v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#98v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_99r" n="99r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#99r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_99v" n="99v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#99v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_100r" n="100r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#100r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_100v" n="100v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#100v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_101r" n="101r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#101r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_101v" n="101v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#101v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_102r" n="102r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#102r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_102v" n="102v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#102v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_103r" n="103r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#103r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_103v" n="103v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#103v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_104r" n="104r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#104r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_104v" n="104v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#104v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_105r" n="105r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#105r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_105v" n="105v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#105v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_106r" n="106r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#106r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_106v" n="106v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#106v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_107r" n="107r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#107r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_107v" n="107v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#107v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_108r" n="108r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#108r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_108v" n="108v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#108v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_109r" n="109r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#109r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_109v" n="109v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#109v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_110r" n="110r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#110r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_110v" n="110v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#110v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_111r" n="111r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#111r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_111v" n="111v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#111v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_112r" n="112r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#112r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_112v" n="112v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#112v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_113r" n="113r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#113r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_113v" n="113v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#113v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_114r" n="114r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#114r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_114v" n="114v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#114v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_115r" n="115r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#115r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_115v" n="115v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#115v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_116r" n="116r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#116r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_116v" n="116v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#116v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_117r" n="117r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#117r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_117v" n="117v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#117v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_118r" n="118r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#118r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_118v" n="118v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#118v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_119r" n="119r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#119r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_119v" n="119v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#119v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_120r" n="120r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#120r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_120v" n="120v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#120v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_121r" n="121r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#121r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_121v" n="121v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#121v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_122r" n="122r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#122r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_122v" n="122v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#122v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_123r" n="123r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#123r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_123v" n="123v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#123v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_124r" n="124r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#124r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_124v" n="124v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#124v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_125r" n="125r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#125r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_125v" n="125v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#125v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_126r" n="126r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#126r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_126v" n="126v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#126v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_127r" n="127r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#127r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_127v" n="127v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#127v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_128r" n="128r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#128r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_128v" n="128v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#128v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_129r" n="129r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#129r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_129v" n="129v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#129v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_130r" n="130r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#130r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_130v" n="130v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#130v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_131r" n="131r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#131r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_131v" n="131v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#131v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_132r" n="132r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#132r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_132v" n="132v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#132v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_133r" n="133r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#133r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_133v" n="133v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#133v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_134r" n="134r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#134r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_134v" n="134v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#134v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_135r" n="135r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#135r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_135v" n="135v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#135v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_136r" n="136r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#136r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_136v" n="136v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#136v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_137r" n="137r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#137r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_137v" n="137v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#137v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_138r" n="138r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#138r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_138v" n="138v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#138v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_139r" n="139r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#139r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_139v" n="139v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#139v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_140r" n="140r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#140r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_140v" n="140v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#140v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_141r" n="141r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#141r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_141v" n="141v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#141v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_142r" n="142r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#142r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_142v" n="142v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#142v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_143r" n="143r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#143r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_143v" n="143v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#143v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_144r" n="144r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#144r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_144v" n="144v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#144v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_145r" n="145r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#145r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_145v" n="145v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#145v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_146r" n="146r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#146r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_146v" n="146v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#146v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_147r" n="147r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#147r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_147v" n="147v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#147v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_148r" n="148r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#148r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_148v" n="148v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#148v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_149r" n="149r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#149r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_149v" n="149v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#149v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_150r" n="150r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#150r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_150v" n="150v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#150v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_151r" n="151r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#151r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_151v" n="151v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#151v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_152r" n="152r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#152r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_152v" n="152v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#152v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_153r" n="153r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#153r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_153v" n="153v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#153v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_154r" n="154r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#154r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_154v" n="154v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#154v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_155r" n="155r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#155r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_155v" n="155v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#155v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_156r" n="156r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#156r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_156v" n="156v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#156v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_157r" n="157r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#157r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_157v" n="157v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#157v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_158r" n="158r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#158r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_158v" n="158v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#158v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_159r" n="159r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#159r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_159v" n="159v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#159v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_160r" n="160r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#160r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_160v" n="160v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#160v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_161r" n="161r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#161r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_161v" n="161v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#161v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_162r" n="162r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#162r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_162v" n="162v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#162v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_163r" n="163r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#163r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_163v" n="163v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#163v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_164r" n="164r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#164r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_164v" n="164v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#164v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_165r" n="165r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#165r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_165v" n="165v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#165v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_166r" n="166r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#166r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_166v" n="166v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#166v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_167r" n="167r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#167r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_167v" n="167v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#167v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_168r" n="168r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#168r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_168v" n="168v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#168v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_169r" n="169r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#169r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_169v" n="169v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#169v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_170r" n="170r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#170r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_170v" n="170v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#170v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_171r" n="171r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#171r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_171v" n="171v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#171v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_172r" n="172r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#172r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_172v" n="172v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#172v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_173r" n="173r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#173r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_173v" n="173v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#173v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_174r" n="174r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#174r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_174v" n="174v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#174v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_175r" n="175r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#175r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_175v" n="175v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#175v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_176r" n="176r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#176r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_176v" n="176v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#176v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_177r" n="177r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#177r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_177v" n="177v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#177v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_178r" n="178r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#178r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_178v" n="178v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#178v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_179r" n="179r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#179r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_179v" n="179v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#179v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_180r" n="180r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#180r" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_180v" n="180v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#180v" width="3900px" height="5600px"/>
+    </surface>
+    <surface xml:id="surface_B001R" n="B001R">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#B001R" width="5600px" height="3900px"/>
+      <zone xml:id="IDb001r"/>
+    </surface>
+    <surface xml:id="surface_B001V" n="B001V">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#B001V" width="5600px" height="3900px"/>
+    </surface>
+    <surface xml:id="surface_BS" n="BS">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#BS" width="5760px" height="4256px"/>
+    </surface>
+    <surface xml:id="surface_BC" n="BC">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#BC" width="4424px" height="5736px"/>
+    </surface>
+    <surface xml:id="surface_SP" n="SP">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#SP" width="1504px" height="5728px"/>
+    </surface>
+    </facsimile>
+  <text>
+    <body><p>Úplný převzatý katalogový popis a index 371 snímků. Nejde o úplnou odbornou edici. Pracovní HTR, rekonstrukce a české překlady bez odborné revize. Identifikátory snímků nejsou ověřenou původní foliací.</p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#FC">Přední deska</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#FS">Přední přídeští</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#F001R">Přední předsádka · recto</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#F001V">Přední předsádka · verso</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#1r">Snímek 1r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#1v">Snímek 1v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#2r">Snímek 2r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#2v">Snímek 2v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#3r">Snímek 3r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#3v">Snímek 3v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#4r">Snímek 4r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#4v">Snímek 4v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#5r">Snímek 5r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#5v">Snímek 5v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#6r">Snímek 6r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#6v">Snímek 6v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#7r">Snímek 7r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#7v">Snímek 7v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#8r">Snímek 8r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#8v">Snímek 8v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#9r">Snímek 9r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#9v">Snímek 9v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#10r">Snímek 10r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#10v">Snímek 10v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#11r">Snímek 11r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#11v">Snímek 11v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#12r">Snímek 12r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#12v">Snímek 12v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#13r">Snímek 13r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#13v">Snímek 13v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#14r">Snímek 14r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#14v">Snímek 14v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#15r">Snímek 15r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#15v">Snímek 15v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#16r">Snímek 16r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#16v">Snímek 16v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#17r">Snímek 17r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#17v">Snímek 17v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#18r">Snímek 18r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#18v">Snímek 18v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#19r">Snímek 19r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#19v">Snímek 19v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#20r">Snímek 20r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#20v">Snímek 20v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#21r">Snímek 21r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#21v">Snímek 21v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#22r">Snímek 22r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#22v">Snímek 22v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#23r">Snímek 23r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#23v">Snímek 23v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#24r">Snímek 24r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#24v">Snímek 24v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#25r">Snímek 25r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#25v">Snímek 25v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#26r">Snímek 26r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#26v">Snímek 26v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#27r">Snímek 27r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#27v">Snímek 27v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#28r">Snímek 28r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#28v">Snímek 28v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#29r">Snímek 29r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#29v">Snímek 29v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#30r">Snímek 30r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#30v">Snímek 30v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#31r">Snímek 31r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#31v">Snímek 31v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#32r">Snímek 32r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#32v">Snímek 32v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#33r">Snímek 33r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#33v">Snímek 33v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#34r">Snímek 34r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#34v">Snímek 34v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#35r">Snímek 35r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#35v">Snímek 35v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#36r">Snímek 36r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#36v">Snímek 36v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#37r">Snímek 37r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#37v">Snímek 37v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#38r">Snímek 38r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#38v">Snímek 38v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#39r">Snímek 39r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#39v">Snímek 39v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#40r">Snímek 40r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#40v">Snímek 40v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#41r">Snímek 41r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#41v">Snímek 41v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#42r">Snímek 42r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#42v">Snímek 42v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#43r">Snímek 43r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#43v">Snímek 43v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#44r">Snímek 44r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#44v">Snímek 44v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#45r">Snímek 45r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#45v">Snímek 45v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#46r">Snímek 46r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#46v">Snímek 46v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#47r">Snímek 47r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#47v">Snímek 47v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#48r">Snímek 48r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#48v">Snímek 48v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#49r">Snímek 49r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#49v">Snímek 49v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#50r">Snímek 50r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#50v">Snímek 50v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#51r">Snímek 51r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#51v">Snímek 51v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#52r">Snímek 52r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#52v">Snímek 52v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#53r">Snímek 53r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#53v">Snímek 53v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#54r">Snímek 54r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#54v">Snímek 54v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#55r">Snímek 55r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#55v">Snímek 55v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#56r">Snímek 56r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#56v">Snímek 56v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#57r">Snímek 57r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#57v">Snímek 57v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#58r">Snímek 58r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#58v">Snímek 58v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#59r">Snímek 59r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#59v">Snímek 59v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#60r">Snímek 60r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#60v">Snímek 60v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#61r">Snímek 61r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#61v">Snímek 61v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#62r">Snímek 62r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#62v">Snímek 62v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#63r">Snímek 63r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#63v">Snímek 63v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#64r">Snímek 64r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#64v">Snímek 64v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#65r">Snímek 65r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#65v">Snímek 65v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#66r">Snímek 66r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#66v">Snímek 66v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#67r">Snímek 67r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#67v">Snímek 67v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#68r">Snímek 68r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#68v">Snímek 68v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#69r">Snímek 69r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#69v">Snímek 69v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#70r">Snímek 70r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#70v">Snímek 70v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#71r">Snímek 71r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#71v">Snímek 71v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#72r">Snímek 72r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#72v">Snímek 72v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#73r">Snímek 73r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#73v">Snímek 73v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#74r">Snímek 74r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#74v">Snímek 74v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#75r">Snímek 75r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#75v">Snímek 75v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#76r">Snímek 76r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#76v">Snímek 76v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#77r">Snímek 77r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#77v">Snímek 77v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#78r">Snímek 78r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#78v">Snímek 78v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#79r">Snímek 79r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#79v">Snímek 79v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#80r">Snímek 80r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#80v">Snímek 80v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#81r">Snímek 81r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#81v">Snímek 81v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#82r">Snímek 82r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#82v">Snímek 82v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#83r">Snímek 83r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#83v">Snímek 83v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#extra-83v">Dodatečný snímek extra-83v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#84r">Snímek 84r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#extra-84r">Dodatečný snímek extra-84r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#84v">Snímek 84v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#85r">Snímek 85r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#85v">Snímek 85v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#86r">Snímek 86r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#86v">Snímek 86v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#87r">Snímek 87r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#87v">Snímek 87v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#88r">Snímek 88r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#88v">Snímek 88v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#89r">Snímek 89r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#89v">Snímek 89v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#90r">Snímek 90r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#90v">Snímek 90v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#91r">Snímek 91r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#91v">Snímek 91v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#92r">Snímek 92r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#92v">Snímek 92v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#93r">Snímek 93r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#93v">Snímek 93v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#94r">Snímek 94r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#94v">Snímek 94v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#95r">Snímek 95r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#95v">Snímek 95v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#96r">Snímek 96r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#96v">Snímek 96v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#97r">Snímek 97r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#97v">Snímek 97v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#98r">Snímek 98r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#98v">Snímek 98v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#99r">Snímek 99r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#99v">Snímek 99v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#100r">Snímek 100r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#100v">Snímek 100v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#101r">Snímek 101r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#101v">Snímek 101v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#102r">Snímek 102r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#102v">Snímek 102v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#103r">Snímek 103r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#103v">Snímek 103v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#104r">Snímek 104r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#104v">Snímek 104v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#105r">Snímek 105r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#105v">Snímek 105v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#106r">Snímek 106r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#106v">Snímek 106v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#107r">Snímek 107r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#107v">Snímek 107v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#108r">Snímek 108r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#108v">Snímek 108v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#109r">Snímek 109r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#109v">Snímek 109v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#110r">Snímek 110r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#110v">Snímek 110v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#111r">Snímek 111r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#111v">Snímek 111v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#112r">Snímek 112r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#112v">Snímek 112v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#113r">Snímek 113r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#113v">Snímek 113v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#114r">Snímek 114r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#114v">Snímek 114v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#115r">Snímek 115r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#115v">Snímek 115v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#116r">Snímek 116r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#116v">Snímek 116v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#117r">Snímek 117r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#117v">Snímek 117v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#118r">Snímek 118r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#118v">Snímek 118v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#119r">Snímek 119r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#119v">Snímek 119v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#120r">Snímek 120r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#120v">Snímek 120v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#121r">Snímek 121r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#121v">Snímek 121v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#122r">Snímek 122r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#122v">Snímek 122v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#123r">Snímek 123r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#123v">Snímek 123v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#124r">Snímek 124r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#124v">Snímek 124v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#125r">Snímek 125r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#125v">Snímek 125v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#126r">Snímek 126r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#126v">Snímek 126v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#127r">Snímek 127r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#127v">Snímek 127v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#128r">Snímek 128r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#128v">Snímek 128v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#129r">Snímek 129r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#129v">Snímek 129v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#130r">Snímek 130r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#130v">Snímek 130v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#131r">Snímek 131r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#131v">Snímek 131v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#132r">Snímek 132r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#132v">Snímek 132v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#133r">Snímek 133r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#133v">Snímek 133v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#134r">Snímek 134r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#134v">Snímek 134v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#135r">Snímek 135r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#135v">Snímek 135v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#136r">Snímek 136r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#136v">Snímek 136v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#137r">Snímek 137r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#137v">Snímek 137v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#138r">Snímek 138r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#138v">Snímek 138v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#139r">Snímek 139r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#139v">Snímek 139v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#140r">Snímek 140r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#140v">Snímek 140v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#141r">Snímek 141r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#141v">Snímek 141v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#142r">Snímek 142r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#142v">Snímek 142v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#143r">Snímek 143r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#143v">Snímek 143v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#144r">Snímek 144r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#144v">Snímek 144v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#145r">Snímek 145r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#145v">Snímek 145v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#146r">Snímek 146r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#146v">Snímek 146v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#147r">Snímek 147r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#147v">Snímek 147v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#148r">Snímek 148r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#148v">Snímek 148v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#149r">Snímek 149r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#149v">Snímek 149v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#150r">Snímek 150r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#150v">Snímek 150v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#151r">Snímek 151r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#151v">Snímek 151v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#152r">Snímek 152r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#152v">Snímek 152v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#153r">Snímek 153r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#153v">Snímek 153v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#154r">Snímek 154r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#154v">Snímek 154v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#155r">Snímek 155r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#155v">Snímek 155v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#156r">Snímek 156r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#156v">Snímek 156v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#157r">Snímek 157r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#157v">Snímek 157v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#158r">Snímek 158r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#158v">Snímek 158v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#159r">Snímek 159r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#159v">Snímek 159v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#160r">Snímek 160r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#160v">Snímek 160v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#161r">Snímek 161r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#161v">Snímek 161v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#162r">Snímek 162r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#162v">Snímek 162v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#163r">Snímek 163r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#163v">Snímek 163v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#164r">Snímek 164r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#164v">Snímek 164v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#165r">Snímek 165r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#165v">Snímek 165v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#166r">Snímek 166r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#166v">Snímek 166v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#167r">Snímek 167r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#167v">Snímek 167v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#168r">Snímek 168r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#168v">Snímek 168v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#169r">Snímek 169r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#169v">Snímek 169v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#170r">Snímek 170r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#170v">Snímek 170v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#171r">Snímek 171r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#171v">Snímek 171v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#172r">Snímek 172r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#172v">Snímek 172v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#173r">Snímek 173r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#173v">Snímek 173v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#174r">Snímek 174r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#174v">Snímek 174v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#175r">Snímek 175r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#175v">Snímek 175v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#176r">Snímek 176r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#176v">Snímek 176v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#177r">Snímek 177r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#177v">Snímek 177v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#178r">Snímek 178r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#178v">Snímek 178v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#179r">Snímek 179r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#179v">Snímek 179v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#180r">Snímek 180r</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#180v">Snímek 180v</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#B001R">Zadní předsádka · recto</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#B001V">Zadní předsádka · verso</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#BS">Zadní přídeští</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#BC">Zadní deska</ref></p><p><ref target="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#SP">Hřbet</ref></p></body></text>
+</TEI>

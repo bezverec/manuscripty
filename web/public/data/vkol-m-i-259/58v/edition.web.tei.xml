@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 58v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Auctoritates diversorum doctorum (praesertim circa confessionem ac obedienciam). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_58v_coordinate; PNG SHA256 fe4e12572791d2a2b9a5921d81e2049f1759619cf146e5c5fa7b8efe19348be2; archival TIFF SHA256 49507f7d3388a472f3ab66216b9fc628d0d956912f46b8f2ae46944f21a2db4e; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_58v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#58v"/>
+      <zone ulx="1400" uly="385" lrx="1942" lry="522" xml:id="z_f58v_l001"/>
+      <zone ulx="709" uly="544" lrx="3430" lry="703" xml:id="z_f58v_l002"/>
+      <zone ulx="731" uly="656" lrx="3445" lry="790" xml:id="z_f58v_l003"/>
+      <zone ulx="740" uly="743" lrx="3383" lry="874" xml:id="z_f58v_l004"/>
+      <zone ulx="756" uly="827" lrx="3430" lry="970" xml:id="z_f58v_l005"/>
+      <zone ulx="731" uly="914" lrx="3442" lry="1054" xml:id="z_f58v_l006"/>
+      <zone ulx="753" uly="1001" lrx="3448" lry="1141" xml:id="z_f58v_l007"/>
+      <zone ulx="743" uly="1088" lrx="3439" lry="1225" xml:id="z_f58v_l008"/>
+      <zone ulx="743" uly="1172" lrx="3467" lry="1309" xml:id="z_f58v_l009"/>
+      <zone ulx="740" uly="1256" lrx="3401" lry="1409" xml:id="z_f58v_l010"/>
+      <zone ulx="750" uly="1347" lrx="2960" lry="1474" xml:id="z_f58v_l011"/>
+      <zone ulx="684" uly="1440" lrx="3373" lry="1580" xml:id="z_f58v_l012"/>
+      <zone ulx="747" uly="1524" lrx="3479" lry="1695" xml:id="z_f58v_l013"/>
+      <zone ulx="750" uly="1602" lrx="3405" lry="1776" xml:id="z_f58v_l014"/>
+      <zone ulx="734" uly="1704" lrx="3448" lry="1879" xml:id="z_f58v_l015"/>
+      <zone ulx="747" uly="1795" lrx="3436" lry="1960" xml:id="z_f58v_l016"/>
+      <zone ulx="743" uly="1885" lrx="3458" lry="2065" xml:id="z_f58v_l017"/>
+      <zone ulx="743" uly="1966" lrx="3405" lry="2149" xml:id="z_f58v_l018"/>
+      <zone ulx="740" uly="2053" lrx="3037" lry="2221" xml:id="z_f58v_l019"/>
+      <zone ulx="759" uly="2140" lrx="3398" lry="2333" xml:id="z_f58v_l020"/>
+      <zone ulx="3177" uly="2134" lrx="3433" lry="2258" xml:id="z_f58v_l021"/>
+      <zone ulx="762" uly="2221" lrx="3430" lry="2420" xml:id="z_f58v_l022"/>
+      <zone ulx="737" uly="2305" lrx="3395" lry="2485" xml:id="z_f58v_l023"/>
+      <zone ulx="731" uly="2389" lrx="3417" lry="2588" xml:id="z_f58v_l024"/>
+      <zone ulx="448" uly="2485" lrx="3392" lry="2660" xml:id="z_f58v_l025"/>
+      <zone ulx="747" uly="2572" lrx="2477" lry="2716" xml:id="z_f58v_l026"/>
+      <zone ulx="2692" uly="2610" lrx="3349" lry="2768" xml:id="z_f58v_l027"/>
+      <zone ulx="731" uly="2660" lrx="3408" lry="2849" xml:id="z_f58v_l028"/>
+      <zone ulx="747" uly="2744" lrx="3420" lry="2952" xml:id="z_f58v_l029"/>
+      <zone ulx="740" uly="2828" lrx="3380" lry="3042" xml:id="z_f58v_l030"/>
+      <zone ulx="734" uly="2927" lrx="3386" lry="3132" xml:id="z_f58v_l031"/>
+      <zone ulx="731" uly="3020" lrx="3386" lry="3226" xml:id="z_f58v_l032"/>
+      <zone ulx="737" uly="3111" lrx="2941" lry="3332" xml:id="z_f58v_l033"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f58v_l001" xml:id="catmus_f58v_l001"/>
+          <seg type="raw_unreviewed">de ebefiẽtirl</seg>
+          <lb facs="#z_f58v_l002" xml:id="catmus_f58v_l002"/>
+          <seg type="raw_unreviewed">It̃ pole ͣ ̃d̾ suluat᷑. ⁊ ꝑ cu ͥcͣsgssiõ. indꝰ tots poĩt ẽĩmulignd</seg>
+          <lb facs="#z_f58v_l003" xml:id="catmus_f58v_l003"/>
+          <seg type="raw_unreviewed">⁊ ĩ misens ĩ enarrubłił. ut p Sñ i arͦ inp nris putrbi ⁊ bito gu̾e</seg>
+          <lb facs="#z_f58v_l004" xml:id="catmus_f58v_l004"/>
+          <seg type="raw_unreviewed">sim̃lm. Qr sĩ ꝯle ͥ uẽo dĩ plus  ͨ suluui pẽ .2. laps ͦ scõꝵ doctrd.</seg>
+          <lb facs="#z_f58v_l005" xml:id="catmus_f58v_l005"/>
+          <seg type="raw_unreviewed">Ip pͥꝰ ẽs̃ Nũ q̃ ep̾ut ole᷑ utili. ⁊ ĩ obe᷑ itriarii d. Qqñtũ intiũ</seg>
+          <lb facs="#z_f58v_l006" xml:id="catmus_f58v_l006"/>
+          <seg type="raw_unreviewed">tebe᷑.I ãgło clu. adũ pacisũ saul rͫ. Salõn age̾ dnm̃ ꝓdic. Et</seg>
+          <lb facs="#z_f58v_l007" xml:id="catmus_f58v_l007"/>
+          <seg type="raw_unreviewed">stĩ ag. s  lxxxx ui st dt si ieninau̾s̾. dieliiat nactib u sec̾i̾s.</seg>
+          <lb facs="#z_f58v_l008" xml:id="catmus_f58v_l008"/>
+          <seg type="raw_unreviewed">ẜc ĩsucti nł cuĩefu̾s. si uil ad scci̾s ũ ꝙ p̃ceptũ ẽ e ilege. ⁊t̾ ipi uisꝰ</seg>
+          <lb facs="#z_f58v_l009" xml:id="catmus_f58v_l009"/>
+          <seg type="raw_unreviewed">siu̾o supĩes. r ꝯbedies pri tro spũali nõ suis oi u̾tutes ꝓdidisti. Et n ͨ</seg>
+          <lb facs="#z_f58v_l010" xml:id="catmus_f58v_l010"/>
+          <seg type="raw_unreviewed">bledies pñ suit us ad nortẽ adphil isar Et sc̃e uũ dł altũdites</seg>
+          <lb facs="#z_f58v_l011" xml:id="catmus_f58v_l011"/>
+          <seg type="raw_unreviewed">frẽs ꝯbeͣsuliteiꝭ nr̃. ne ꝑde̾t obe . ꝓ didit uitũ.</seg>
+          <lb facs="#z_f58v_l012" xml:id="catmus_f58v_l012"/>
+          <seg type="raw_unreviewed">It dic̾e̾e nultus d eẜqm̃᷑ ñ axxs. rũ alialis. nõ duẽ oxqmi᷑ q̃dar</seg>
+          <lb facs="#z_f58v_l013" xml:id="catmus_f58v_l013"/>
+          <seg type="raw_unreviewed">ocultu ⁊ ĩ ꝓp̃a. Ĩuspło x ꝓcedit. ⁊tli xqĩ subho  exqm̃ait ut deꝰ. haĩe</seg>
+          <lb facs="#z_f58v_l014" xml:id="catmus_f58v_l014"/>
+          <seg type="raw_unreviewed">om̃e ꝓmõrli pccõ ⁊ ꝑcobe. er ĩobe q̃i sꝑĩclud nutele ꝑccm. Et iũ</seg>
+          <lb facs="#z_f58v_l015" xml:id="catmus_f58v_l015"/>
+          <seg type="raw_unreviewed">mñi ĩ obe ͬ ͧ ꝙqsm̃cuu᷑. s ar eis ꝑticipũtes. Ir uide eoꝵ c̾is̃ ꝯfortare.</seg>
+          <lb facs="#z_f58v_l016" xml:id="catmus_f58v_l016"/>
+          <seg type="raw_unreviewed">r eid ĩ c̾mie ꝙertre ⁊ĩ crũt anm̃e. dexxqui qdᵗ. Qui equi ͥ stien</seg>
+          <lb facs="#z_f58v_l017" xml:id="catmus_f58v_l017"/>
+          <seg type="raw_unreviewed">⁊ sponte ꝑcicipat ead suu ecõnis ĩuide᷑ u ab solm pt̃. uͥ ꝑsodi app</seg>
+          <lb facs="#z_f58v_l018" xml:id="catmus_f58v_l018"/>
+          <seg type="raw_unreviewed">err s. curus. ꝯsẽcietes ⁊ fuciẽtes. pai pr pmũ Et sic exsm̃atti abofficio</seg>
+          <lb facs="#z_f58v_l019" xml:id="catmus_f58v_l019"/>
+          <seg type="raw_unreviewed">dig̾tatꝭ exercũdi sc̃ suspũsi. als si excuert mõrlr̃ pcũt</seg>
+          <lb facs="#z_f58v_l020" xml:id="catmus_f58v_l020"/>
+          <seg type="raw_unreviewed">⁊ ã ingrͣli pcr̃o. i yuit oĩ utili ͭ ͤ o. bõꝵ opeꝵ. qͥmi uitũ er̾nũ et l̃</seg>
+          <lb facs="#z_f58v_l021" xml:id="catmus_f58v_l021"/>
+          <seg type="raw_unreviewed">ĩ durni</seg>
+          <lb facs="#z_f58v_l022" xml:id="catmus_f58v_l022"/>
+          <seg type="raw_unreviewed">uꝰ ĩ corᷝ mortuiꝭ exqui ͥ iultoꝵ. qr ĩ du exquĩtim᷑ ĩtet nuluent</seg>
+          <lb facs="#z_f58v_l023" xml:id="catmus_f58v_l023"/>
+          <seg type="raw_unreviewed">⁊ absolu ͤ sr̃uerẽti mex soluũ᷑ Io ex qui efficia coceꝰ ͥ epc̃e. ꝑue xtilitꝭ</seg>
+          <lb facs="#z_f58v_l024" xml:id="catmus_f58v_l024"/>
+          <seg type="raw_unreviewed">e. uius mrir̃ pait p̃t̃ hod diᵈ ͦ. iribidebitũ soluit obluzitũ iroꝑ it̃ nõ</seg>
+          <lb facs="#z_f58v_l025" xml:id="catmus_f58v_l025"/>
+          <seg type="raw_unreviewed">t qpqũ st̃ missi s. p̃dialto̾ee̾ s suũ exquĩs unicłãti. l p̃dicitres iuissi p̃dicant</seg>
+          <lb facs="#z_f58v_l026" xml:id="catmus_f58v_l026"/>
+          <seg type="raw_unreviewed">nẽ misẜ. ⁊ ur̃lati obticẽt d. ꝙ posst uliqͣ ⁊</seg>
+          <lb facs="#z_f58v_l027" xml:id="catmus_f58v_l027"/>
+          <seg type="raw_unreviewed">qñ uellẽt. ꝙ.q̃</seg>
+          <lb facs="#z_f58v_l028" xml:id="catmus_f58v_l028"/>
+          <seg type="raw_unreviewed">s paulũ id Rõ .x. Qno p̃dici. niui. Et ĩinuoctĩ ppͣ. Qm̃i de lfetioꝭ</seg>
+          <lb facs="#z_f58v_l029" xml:id="catmus_f58v_l029"/>
+          <seg type="raw_unreviewed">exquĩcir /dͭ. Nõnulli saci̾otes tnc ͭ ͤ p̃dicandi uẽdicũt ⁊ usurpante</seg>
+          <lb facs="#z_f58v_l030" xml:id="catmus_f58v_l030"/>
+          <seg type="raw_unreviewed">ũ missi. apło qͣiiãde asãdu / ep̃id. ut ꝓhibeĩt tliã ẜi. Sid. adusiuus</seg>
+          <lb facs="#z_f58v_l031" xml:id="catmus_f58v_l031"/>
+          <seg type="raw_unreviewed">misi sum Iuxͥ ar ultir̃ Cũtes ĩũd .u. pre .Ø.c. Ibi testie cupio er</seg>
+          <lb facs="#z_f58v_l032" xml:id="catmus_f58v_l032"/>
+          <seg type="raw_unreviewed">duẜ ẽ missis eruedã hĩtuul. riͥ locuł. hĩtuuł f . ixͦ. ꝑepi iscitũ Et</seg>
+          <lb facs="#z_f58v_l033" xml:id="catmus_f58v_l033"/>
+          <seg type="raw_unreviewed">eͦ sit ꝓp̃laci loci adiuissiõ. ⁊ deistu ĩtud d. pilul ⁊ puicõeii</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f58v_l001" xml:id="medusa_f58v_l001"/>
+          <seg type="raw_unreviewed">de obediencia</seg>
+          <lb facs="#z_f58v_l002" xml:id="medusa_f58v_l002"/>
+          <seg type="raw_unreviewed">se per obedienciam nostram suscipiatur et per eum cum signa ssignorum nostrorum totius potestatis est in nulis gno</seg>
+          <lb facs="#z_f58v_l003" xml:id="medusa_f58v_l003"/>
+          <seg type="raw_unreviewed">et in miseris inemarrabilibus . ut patet Epistole iiiᵒ. apostoli in pͥis nostris presentibus et toto genere</seg>
+          <lb facs="#z_f58v_l004" xml:id="medusa_f58v_l004"/>
+          <seg type="raw_unreviewed">huminone . eir sñi obeᵃ meo dñi plac⁊ nr̃ saluum pr̃ . 2ᵐ affeõ sc̃oꝵ doctorũ</seg>
+          <lb facs="#z_f58v_l005" xml:id="medusa_f58v_l005"/>
+          <seg type="raw_unreviewed">qomo p̃pꝰ ẽ s⁊ Rur̃. q̃ exp̃ruit obe᷑ utiliꝰ. ⁊ ĩ obe᷑ moriꝰmꝭ s. Oqum uicũ</seg>
+          <lb facs="#z_f58v_l006" xml:id="medusa_f58v_l006"/>
+          <seg type="raw_unreviewed">rebe . I. añ lo̾ celu . adũ patisũ . Eaul r̃yꝰ. Galõii aͥoͥe dñm ꝑditꝰ. Et</seg>
+          <lb facs="#z_f58v_l007" xml:id="medusa_f58v_l007"/>
+          <seg type="raw_unreviewed">sancti agni fidei lxxixx ui quinte domini G. iemmanuͦs . die liiut martis . gr̃e fecimus .</seg>
+          <lb facs="#z_f58v_l008" xml:id="medusa_f58v_l008"/>
+          <seg type="raw_unreviewed">sic in iucto uł cure fueris . si nil aliud faceris . nͥ . pro preceptũ ẽ tͥ clegis . ⁊ tͥ ipi uiri</seg>
+          <lb facs="#z_f58v_l009" xml:id="medusa_f58v_l009"/>
+          <seg type="raw_unreviewed">fuerũt picipiẽs. ⁊ obedientes patri tuo spirituali nõ sũis. cõ u̾tutes ꝑdideis. Et pꝰ</seg>
+          <lb facs="#z_f58v_l010" xml:id="medusa_f58v_l010"/>
+          <seg type="raw_unreviewed">obediẽs pr̃i fuit usque ad mortẽ ad philipum isꝰcuiꝰ et sanctus uerũ dicit altitudines</seg>
+          <lb facs="#z_f58v_l011" xml:id="medusa_f58v_l011"/>
+          <seg type="raw_unreviewed">frẽd obediẽtsulmutarum nr̃i . ne ꝑderet obeˢˢ . ꝑdidit uitũ</seg>
+          <lb facs="#z_f58v_l012" xml:id="medusa_f58v_l012"/>
+          <seg type="raw_unreviewed">Item dicere multus debet exqummo non maximo. et non abundans non dicitur esse exqummo. quod dicitur</seg>
+          <lb facs="#z_f58v_l013" xml:id="medusa_f58v_l013"/>
+          <seg type="raw_unreviewed">ocultis et imp̃piis . In apostolo x° procedit et tlm̃ eximũ sub x eximunt ut deꝰ hãbe</seg>
+          <lb facs="#z_f58v_l014" xml:id="medusa_f58v_l014"/>
+          <seg type="raw_unreviewed">om̃e: ꝓmoꝵ li pecũ et ꝓ cobⁱ. et in obeᵗ. q̃i sꝑ ĩcludⁱᵉ mor̃le pecũ. Et nõ</seg>
+          <lb facs="#z_f58v_l015" xml:id="medusa_f58v_l015"/>
+          <seg type="raw_unreviewed">tm ĩ ebe res exsuncant᷑ . s aris eis ꝑticipantur . qe uide᷑ arꝭ c̾ure q fortire</seg>
+          <lb facs="#z_f58v_l016" xml:id="medusa_f58v_l016"/>
+          <seg type="raw_unreviewed">⁊ eidem in c̃mune ꝯpresente ⁊ in c̃erunt aũtem de xxiiᵗᵉ quos s̃t . Qui xxiiᵗᵒ sc̃re</seg>
+          <lb facs="#z_f58v_l017" xml:id="medusa_f58v_l017"/>
+          <seg type="raw_unreviewed">et sponte participat eadem summa ex communs in modo etc. absolute potest etc. per sebi appon.</seg>
+          <lb facs="#z_f58v_l018" xml:id="medusa_f58v_l018"/>
+          <seg type="raw_unreviewed">et 8. canones concientes et facientes pui pue pum et sic eximiciti abofficio</seg>
+          <lb facs="#z_f58v_l019" xml:id="medusa_f58v_l019"/>
+          <seg type="raw_unreviewed">dignitatis exercendo sunt suppunsi. alias si exierint mortui sunt</seg>
+          <lb facs="#z_f58v_l020" xml:id="medusa_f58v_l020"/>
+          <seg type="raw_unreviewed">et in morali peccato . y p̾uat om̃ utiles or̃m bonorum operum . qͥm unum erunet et hoc</seg>
+          <lb facs="#z_f58v_l021" xml:id="medusa_f58v_l021"/>
+          <seg type="raw_unreviewed">in dominum</seg>
+          <lb facs="#z_f58v_l022" xml:id="medusa_f58v_l022"/>
+          <seg type="raw_unreviewed">p in corꝭ mortuꝵ exquiꝭ multorum qr ip̃ domini exquincunt et hoc</seg>
+          <lb facs="#z_f58v_l023" xml:id="medusa_f58v_l023"/>
+          <seg type="raw_unreviewed">et absolue seueenti nix solum se ex quintus officiis ecclesie exerce . perue utilitatis</seg>
+          <lb facs="#z_f58v_l024" xml:id="medusa_f58v_l024"/>
+          <seg type="raw_unreviewed">est ymo melius pectet preter hodie domini . .  et ibi debitum soluit obligatum et utiliter</seg>
+          <lb facs="#z_f58v_l025" xml:id="medusa_f58v_l025"/>
+          <seg type="raw_unreviewed">exinde sunt missi s. predicatores . sed sunt ex omnibus vinculati . hoc predicatores missi predicant</seg>
+          <lb facs="#z_f58v_l026" xml:id="medusa_f58v_l026"/>
+          <seg type="raw_unreviewed">nõ missi ⁊ uĩclati obtinet d. ꝙ possit ubique ⁊</seg>
+          <lb facs="#z_f58v_l027" xml:id="medusa_f58v_l027"/>
+          <seg type="raw_unreviewed">ii velẽt ꝙ ẽ q</seg>
+          <lb facs="#z_f58v_l028" xml:id="medusa_f58v_l028"/>
+          <seg type="raw_unreviewed">e paulum ad Ro. X. Quomodo predica. uerbum. Et in innocentum spiritum. Cum de hec tic</seg>
+          <lb facs="#z_f58v_l029" xml:id="medusa_f58v_l029"/>
+          <seg type="raw_unreviewed">ex comiciis scilicet . Nonnulli sacerdotes auctoritate predictandi vendicant et usurpant</seg>
+          <lb facs="#z_f58v_l030" xml:id="medusa_f58v_l030"/>
+          <seg type="raw_unreviewed">in missi apostolo qͣriando mandu episcopus ac prohibent tlm fr° . Gid adversarius</seg>
+          <lb facs="#z_f58v_l031" xml:id="medusa_f58v_l031"/>
+          <seg type="raw_unreviewed">misi sum iuxta mr. ultimũ Testes in iudicio v. p. c. Ibi testificari cupio ex</seg>
+          <lb facs="#z_f58v_l032" xml:id="medusa_f58v_l032"/>
+          <seg type="raw_unreviewed">dux est missis ernedam h̃itual et aͥ locum h̃itual fͭ moͣ ꝑ ep̃i . I secum et</seg>
+          <lb facs="#z_f58v_l033" xml:id="medusa_f58v_l033"/>
+          <seg type="raw_unreviewed">aꝰ sit pplaci loci admissioñ. ⁊ de ista ĩtũdᵗꝰ paulꝰ ⁊ punicõn</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f58v_l001" xml:id="u_58v_001">De obedientia.</p>
+        <note type="editorial" corresp="#u_58v_001" xml:lang="cs">Předsazený titul.</note>
+        <p facs="#z_f58v_l002 #z_f58v_l003 #z_f58v_l004" xml:id="u_58v_002">Per obedientiam mundus salvatur et per eius transgressionem mundus totus positus est in maligno et in miseriis inenarrabilibus […] in […] aere, terra, aqua et igne, […] patria et […] Inferno […]. Sine obedientia nemo potest salvari […] et […] sanctorum doctorum.</p>
+        <note type="editorial" corresp="#u_58v_002" xml:lang="cs">3výčet oblastí velmi zkratkový,4argumentace a odkaz neúplné.</note>
+        <p facs="#z_f58v_l005 #z_f58v_l006 #z_f58v_l007 #z_f58v_l008" xml:id="u_58v_003">Samuel: Numquid […] oves […] ut oboediatur […]? Quantum intulit inobedientia, angelos caelo, Adam paradiso, Saul regno, Salomonem […] prodidit […]. Augustinus […] Si ieiunaveris diebus et noctibus, non […] si voluntatem […] praeceptum […]</p>
+        <note type="editorial" corresp="#u_58v_003" xml:lang="cs">Citáty a biblická exempla jsou velmi neúplné, nesestavovány do standardního znění.</note>
+        <p facs="#z_f58v_l009 #z_f58v_l010 #z_f58v_l011" xml:id="u_58v_004">[…] inobediens patri tuo spirituali […] omnes virtutes prodidisti. Et Christus obediens Patri fuit usque ad mortem […]. Sciens […] obedias […] Ne perdat obedientiam, perdidit vitam.</p>
+        <note type="editorial" corresp="#u_58v_004" xml:lang="cs">9může mít nečitelné upřesnění vztahu poslušnosti a ctností.11subjekt posledního příkladu nejasný.</note>
+        <p facs="#z_f58v_l012 #z_f58v_l013 #z_f58v_l014 #z_f58v_l015" xml:id="u_58v_005">Dicere: Multos de excommunicatis non […] sed […] occultos et in propria […] Item […] excommunicat ut Deus […] omnem pro mortali peccato et per inobedientiam quae semper includit mortale peccatum […]. Inobedientes […] non solum […] sed et eis participantes […]</p>
+        <note type="editorial" corresp="#u_58v_005" xml:lang="cs">12–15zásadní výklad exkomunikace a jeho negace velmi fragmentární. Nejde o úplné stanovisko textu k platnosti klatby.</note>
+        <p facs="#z_f58v_l016 #z_f58v_l017 #z_f58v_l018 #z_f58v_l019" xml:id="u_58v_006">[…] eos in crimine confortare et […] animam […]. Qui scienter et sponte participat eadem excommunicationis […] non absolvi potest nisi per […] Item consentientes et facientes pari poena puniuntur […]. Excommunicati ab officio dignitatis exercendo sunt suspensi, alioquin si exercent mortaliter peccant.</p>
+        <note type="editorial" corresp="#u_58v_006" xml:lang="cs">16pokračování předchozího.17příslušný absolvent a19rozsah suspenze částečné.</note>
+        <p facs="#z_f58v_l020 #z_f58v_l021 #z_f58v_l022 #z_f58v_l023 #z_f58v_l024" xml:id="u_58v_007">[…] in mortali peccato […] privat omni utilitate bonorum operum quoad vitam aeternam […] excommunicationem […] quia in ea excommunicatione […] absolutionem sacramentalem non consequitur […]. Qui extra […] episcopi […] utilitas […] debitum solvit […]</p>
+        <note type="editorial" corresp="#u_58v_007" xml:lang="cs">20–24mnoho chybějících podmínek, vyloučení/zproštění nelze vyložit souvisle.21oddělený konec hlavní věty.</note>
+        <p facs="#z_f58v_l025 #z_f58v_l026 #z_f58v_l027 #z_f58v_l028" xml:id="u_58v_008">Non quicumque sunt missi sunt praedicatores, sed […] excommunicationis vinculo […] Praedicatores non missi praedicant […] praelati […] quod possent […] quando vellent […]. Paulus ad Romanos X: Quomodo praedicabunt nisi mittantur? Et Innocentius papa […] de haereticis […]</p>
+        <note type="editorial" corresp="#u_58v_008" xml:lang="cs">Polemický přechod k pověření kazatelů.25–27nečitelné podmínky a negace zůstávají otevřené.</note>
+        <p facs="#z_f58v_l029 #z_f58v_l030 #z_f58v_l031 #z_f58v_l032 #z_f58v_l033" xml:id="u_58v_009">Nonnulli sacerdotes auctoritatem praedicandi vendicant et usurpant non missi, […] episcopi prohibeant talia fieri […]. Missus sum […] Ite in mundum […] praedicate […] Ibi […] duplex est missio […] habitualis […] praeceptum […]. Et […] praelati loci admissionem […]</p>
+        <note type="editorial" corresp="#u_58v_009" xml:lang="cs">29jasnější polemická věta,30–33argumentace o dvojí misi a místním pověření neúplná; nepoužita kanonická paralela ani určení konkrétní polemické osoby.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_58v_001">O poslušnosti.</p>
+        <p corresp="#u_58v_002">Poslušností se svět zachraňuje a jejím přestoupením je celý svět postaven do zlého a do nevýslovných strastí […] ve […] vzduchu, zemi, vodě a ohni, […] vlasti a […] pekle […]. Bez poslušnosti nemůže být nikdo spasen […] a […] svatých učitelů.</p>
+        <p corresp="#u_58v_003">Samuel: Cožpak […] ovce […] aby byl poslouchán […]? Kolik způsobila neposlušnost: anděly připravila o nebe, Adama o ráj, Saula o království, Šalomouna o […] Augustin […] Kdybys se postil ve dne i v noci, ne […] pokud vůli […] příkaz […].</p>
+        <p corresp="#u_58v_004">[…] neposlušný svému duchovnímu otci […] ztratil jsi všechny ctnosti. A Kristus byl poslušný Otci až k smrti […]. Vědouc […] poslouchej […] Aby neztratil poslušnost, ztratil život.</p>
+        <p corresp="#u_58v_005">Říkat: Mnohé z exkomunikovaných ne […] nýbrž […] skryté a vlastní […] Dále: […] exkomunikuje jako Bůh […] každého za smrtelný hřích a neposlušnost, která vždy zahrnuje smrtelný hřích […]. Neposlušní […] nejen […] ale i ti, kdo se na nich podílejí […].</p>
+        <p corresp="#u_58v_006">[…] posilovat je v provinění a […] duši […]. Kdo se vědomě a dobrovolně podílí na téže exkomunikaci […], nemůže být zproštěn leda skrze […] Dále: souhlasící i konající se trestají stejným trestem […]. Exkomunikovaní jsou suspendováni z výkonu důstojného úřadu, jinak při jeho výkonu smrtelně hřeší.</p>
+        <p corresp="#u_58v_007">[…] ve smrtelném hříchu […] zbavuje veškerého užitku dobrých skutků vzhledem k věčnému životu […] exkomunikaci […], protože v této exkomunikaci […] nedosahuje svátostného rozhřešení […]. Kdo mimo […] biskupa […] užitek […] splácí dluh […].</p>
+        <p corresp="#u_58v_008">Ne všichni vyslaní jsou kazatelé, nýbrž […] poutem exkomunikace […] Kazatelé, kteří nebyli vysláni, káží […] představení […] mohli by […] kdykoli chtěli […]. Pavel Římanům10: Jak budou kázat, nebudou-li posláni? A papež Inocenc […] o kacířích […].</p>
+        <p corresp="#u_58v_009">Někteří kněží si nárokují a přisvojují pravomoc kázat, ačkoli nebyli vysláni, […] biskupové ať takovému jednání zabrání […]. Byl jsem poslán […] Jděte do světa […] kažte […] Tam […] poslání je dvojí […] habituální […] příkaz […]. A […] svolení místního představeného […].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

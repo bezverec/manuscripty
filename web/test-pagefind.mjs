@@ -40,5 +40,13 @@ try{
   assert.ok(results.some(p=>/\/vkol-m-ii-153\/64v(?:\.html)?$/.test(new URL(p.url,'https://local.invalid').pathname)),'Second manuscript source must be found');
   assert.ok(results.every(p=>new URL(p.url,'https://local.invalid').pathname.includes('/vkol-m-ii-153/')),'Filter must exclude legacy folia');
  }
+ if(manuscripts.some(m=>m.doc.id==='vkol-m-i-259')){
+  const third=JSON.parse(await fs.readFile(path.join(publicRoot,'data/vkol-m-i-259/151r/page.json'),'utf8'));
+  assert.ok(third.passages.some(p=>p.latin.includes('enphahen')),'German reconstruction acceptance word must exist');
+  const found=await pagefind.search('enphahen',{filters:{rukopis:'vkol-m-i-259'}});
+  const results=await Promise.all(found.results.map(r=>r.data()));
+  assert.ok(results.some(p=>/\/vkol-m-i-259\/151r(?:\.html)?$/.test(new URL(p.url,'https://local.invalid').pathname)),'Third manuscript German reconstruction must be searchable');
+  assert.ok(results.every(p=>new URL(p.url,'https://local.invalid').pathname.includes('/vkol-m-i-259/')),'Third manuscript filter must exclude both older manuscripts');
+ }
  console.log(JSON.stringify({status:'passed',indexed_pages:expected,query:'glosa',source:'raw catmus20v',found_20v:true,matching_pages:pages.length,engine:'Pagefind1.4.0 browser API + real WASM'}));
 }finally{pagefind?.destroy();globalThis.fetch=nativeFetch;}

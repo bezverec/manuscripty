@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 76r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: De pseudoprophetis. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_76r_coordinate; PNG SHA256 dc12b8e41fa1a14b403b591137c5c1ee0e78d09b7caf005bc70c442195fae565; archival TIFF SHA256 4e7bb264d3fa8a2aea8d98667edfb7836b8c286fb5fc800548fce867278a8863; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_76r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#76r"/>
+      <zone ulx="130" uly="2100" lrx="217" lry="2205" xml:id="z_f76r_l001"/>
+      <zone ulx="140" uly="2320" lrx="171" lry="2361" xml:id="z_f76r_l002"/>
+      <zone ulx="348" uly="482" lrx="3168" lry="616" xml:id="z_f76r_l003"/>
+      <zone ulx="323" uly="563" lrx="3202" lry="706" xml:id="z_f76r_l004"/>
+      <zone ulx="329" uly="637" lrx="3171" lry="780" xml:id="z_f76r_l005"/>
+      <zone ulx="329" uly="721" lrx="3205" lry="846" xml:id="z_f76r_l006"/>
+      <zone ulx="339" uly="796" lrx="3218" lry="927" xml:id="z_f76r_l007"/>
+      <zone ulx="339" uly="877" lrx="3137" lry="1004" xml:id="z_f76r_l008"/>
+      <zone ulx="333" uly="955" lrx="3162" lry="1088" xml:id="z_f76r_l009"/>
+      <zone ulx="329" uly="1042" lrx="3205" lry="1185" xml:id="z_f76r_l010"/>
+      <zone ulx="345" uly="1129" lrx="3165" lry="1260" xml:id="z_f76r_l011"/>
+      <zone ulx="339" uly="1204" lrx="3271" lry="1365" xml:id="z_f76r_l012"/>
+      <zone ulx="336" uly="1300" lrx="3249" lry="1437" xml:id="z_f76r_l013"/>
+      <zone ulx="336" uly="1378" lrx="3162" lry="1527" xml:id="z_f76r_l014"/>
+      <zone ulx="329" uly="1462" lrx="3212" lry="1611" xml:id="z_f76r_l015"/>
+      <zone ulx="342" uly="1555" lrx="3140" lry="1683" xml:id="z_f76r_l016"/>
+      <zone ulx="329" uly="1617" lrx="3177" lry="1782" xml:id="z_f76r_l017"/>
+      <zone ulx="323" uly="1695" lrx="3246" lry="1848" xml:id="z_f76r_l018"/>
+      <zone ulx="326" uly="1804" lrx="3187" lry="1938" xml:id="z_f76r_l019"/>
+      <zone ulx="336" uly="1866" lrx="3171" lry="2019" xml:id="z_f76r_l020"/>
+      <zone ulx="333" uly="1941" lrx="3212" lry="2115" xml:id="z_f76r_l021"/>
+      <zone ulx="329" uly="2022" lrx="3109" lry="2187" xml:id="z_f76r_l022"/>
+      <zone ulx="333" uly="2087" lrx="3240" lry="2271" xml:id="z_f76r_l023"/>
+      <zone ulx="333" uly="2174" lrx="3174" lry="2358" xml:id="z_f76r_l024"/>
+      <zone ulx="326" uly="2246" lrx="3156" lry="2445" xml:id="z_f76r_l025"/>
+      <zone ulx="329" uly="2339" lrx="3165" lry="2523" xml:id="z_f76r_l026"/>
+      <zone ulx="320" uly="2420" lrx="3177" lry="2604" xml:id="z_f76r_l027"/>
+      <zone ulx="326" uly="2523" lrx="3171" lry="2694" xml:id="z_f76r_l028"/>
+      <zone ulx="320" uly="2594" lrx="3224" lry="2768" xml:id="z_f76r_l029"/>
+      <zone ulx="329" uly="2684" lrx="3237" lry="2849" xml:id="z_f76r_l030"/>
+      <zone ulx="320" uly="2778" lrx="3159" lry="2927" xml:id="z_f76r_l031"/>
+      <zone ulx="326" uly="2859" lrx="3246" lry="3017" xml:id="z_f76r_l032"/>
+      <zone ulx="323" uly="2946" lrx="3168" lry="3086" xml:id="z_f76r_l033"/>
+      <zone ulx="320" uly="3033" lrx="3159" lry="3185" xml:id="z_f76r_l034"/>
+      <zone ulx="326" uly="3108" lrx="3190" lry="3272" xml:id="z_f76r_l035"/>
+      <zone ulx="326" uly="3204" lrx="3261" lry="3363" xml:id="z_f76r_l036"/>
+      <zone ulx="320" uly="3297" lrx="3140" lry="3431" xml:id="z_f76r_l037"/>
+      <zone ulx="329" uly="3384" lrx="3243" lry="3518" xml:id="z_f76r_l038"/>
+      <zone ulx="333" uly="3468" lrx="3143" lry="3615" xml:id="z_f76r_l039"/>
+      <zone ulx="323" uly="3562" lrx="3143" lry="3686" xml:id="z_f76r_l040"/>
+      <zone ulx="323" uly="3643" lrx="3196" lry="3764" xml:id="z_f76r_l041"/>
+      <zone ulx="323" uly="3720" lrx="3146" lry="3851" xml:id="z_f76r_l042"/>
+      <zone ulx="326" uly="3798" lrx="3146" lry="3938" xml:id="z_f76r_l043"/>
+      <zone ulx="317" uly="3892" lrx="3152" lry="4016" xml:id="z_f76r_l044"/>
+      <zone ulx="320" uly="3969" lrx="3143" lry="4106" xml:id="z_f76r_l045"/>
+      <zone ulx="314" uly="4050" lrx="3131" lry="4200" xml:id="z_f76r_l046"/>
+      <zone ulx="326" uly="4128" lrx="3159" lry="4296" xml:id="z_f76r_l047"/>
+      <zone ulx="323" uly="4209" lrx="3128" lry="4355" xml:id="z_f76r_l048"/>
+      <zone ulx="339" uly="4284" lrx="3296" lry="4448" xml:id="z_f76r_l049"/>
+      <zone ulx="317" uly="4361" lrx="3187" lry="4542" xml:id="z_f76r_l050"/>
+      <zone ulx="314" uly="4433" lrx="3124" lry="4610" xml:id="z_f76r_l051"/>
+      <zone ulx="320" uly="4508" lrx="3243" lry="4685" xml:id="z_f76r_l052"/>
+      <zone ulx="314" uly="4585" lrx="3165" lry="4760" xml:id="z_f76r_l053"/>
+      <zone ulx="320" uly="4666" lrx="3162" lry="4844" xml:id="z_f76r_l054"/>
+      <zone ulx="311" uly="4747" lrx="3181" lry="4971" xml:id="z_f76r_l055"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f76r_l001" xml:id="catmus_f76r_l001"/>
+          <seg type="raw_unreviewed">de i</seg>
+          <lb facs="#z_f76r_l002" xml:id="catmus_f76r_l002"/>
+          <seg type="raw_unreviewed">nu</seg>
+          <lb facs="#z_f76r_l003" xml:id="catmus_f76r_l003"/>
+          <seg type="raw_unreviewed">fuaebut. Uñ di p̃dicis exaltuet᷑ Illi p̃dicato̾es. Ĩ se pociꝰ ꝙ̃di doct̾ͥ im̃dare</seg>
+          <lb facs="#z_f76r_l004" xml:id="catmus_f76r_l004"/>
+          <seg type="raw_unreviewed">polũt. ẽ st̃ uei apłi ẜ psendo. a ͫ ͥsisi ẽ ꝙ uei apli᷑. ñ p̃dicũt u̾ mussi Rꝵ Quo</seg>
+          <lb facs="#z_f76r_l005" xml:id="catmus_f76r_l005"/>
+          <seg type="raw_unreviewed">p̃d̾. aͥ in. iiła. ñ st uei apłi uͥ missi u ͨ ͥ enĩ saͣ ututũ. eis testio  philẽt. Qũi</seg>
+          <lb facs="#z_f76r_l006" xml:id="catmus_f76r_l006"/>
+          <seg type="raw_unreviewed">aũt st̃ missi. dc̃n ẽ s ͬ n ͥcꝰ. gii sugꝰ ẽ. ꝑ cũ ꝓseme auẽte ñ ħileũt abũ młi</seg>
+          <lb facs="#z_f76r_l007" xml:id="catmus_f76r_l007"/>
+          <seg type="raw_unreviewed">suo bendicãt auẽte. ii eor x. Nõ. i ituleꝰ ues ĩ sẽre̾ a qꝑile qͥlusdil icogło.</seg>
+          <lb facs="#z_f76r_l008" xml:id="catmus_f76r_l008"/>
+          <seg type="raw_unreviewed">usendo ũ uccepti ptãte uloͫ. s usur pata dĩri bolũt nõi sũ bedicũtes auẽdo</seg>
+          <lb facs="#z_f76r_l009" xml:id="catmus_f76r_l009"/>
+          <seg type="raw_unreviewed">riõ ħ forte dicũt se ado mssos ꝑͥ ĩspuicõ . sͨ.d. õs̃ hẽtici cũ n̾ ꝓbaueriut</seg>
+          <lb facs="#z_f76r_l010" xml:id="catmus_f76r_l010"/>
+          <seg type="raw_unreviewed">suũ missiõ. a ꝑspuãle ꝓphecia .pi Ie. bãp.d. eͦ Rexclantꝭ ĩdeẜte. Sduit ysa.</seg>
+          <lb facs="#z_f76r_l011" xml:id="catmus_f76r_l011"/>
+          <seg type="raw_unreviewed">a pmuacm̃ si mdiises q̃ qn̾tit u̾gũ ĩceluses. i eqͣrio Ro uii / ooꝯincue dũt</seg>
+          <lb facs="#z_f76r_l012" xml:id="catmus_f76r_l012"/>
+          <seg type="raw_unreviewed">son ͨ cessẽt ap̃dicado dehe Cũ ꝙĩiucti muli tñ ũ cent su ͥ testĩo᷑ iuffi-</seg>
+          <lb facs="#z_f76r_l013" xml:id="catmus_f76r_l013"/>
+          <seg type="raw_unreviewed">ciẽs missiõis c̃ fiãt sreqũt᷑ amalis .i.q.i. ẽeneaꝰ ⁊ nulxĩe ĩ fuili eccũ. sus</seg>
+          <lb facs="#z_f76r_l014" xml:id="catmus_f76r_l014"/>
+          <seg type="raw_unreviewed">spta debẽt muallã cũ dicut dñs m xxm suriẽt ⁊ ꝓpħẽ fulsi. ⁊ dabt̃ signa</seg>
+          <lb facs="#z_f76r_l015" xml:id="catmus_f76r_l015"/>
+          <seg type="raw_unreviewed">mgria. ⁊ ꝓdigii. Illi ñ qͥ bendiãit nõi sue añetẽ cũ ins ũ hcunt. ñ st̃ nẽi apłi.</seg>
+          <lb facs="#z_f76r_l016" xml:id="catmus_f76r_l016"/>
+          <seg type="raw_unreviewed">s p̃sendo. ⁊ h ͨ fuciũt mõihi mẽdici. ix  suyꝰ ꝙ penio plũdũtes supũu. ĩ</seg>
+          <lb facs="#z_f76r_l017" xml:id="catmus_f76r_l017"/>
+          <seg type="raw_unreviewed">suꝑstiaeͤ ⁊ lĩcli ͭ ͤ. t̾dicõs suis r̾ligiõs appłłant qͥ pocrꝰ st̃ sac̾legñi qnĩ adꝵ</seg>
+          <lb facs="#z_f76r_l018" xml:id="catmus_f76r_l018"/>
+          <seg type="raw_unreviewed">inira. e usurpũt głorinde .s. ĩplebi alieĩs uelio iĩ. loquẽ apłs deprendod.</seg>
+          <lb facs="#z_f76r_l019" xml:id="catmus_f76r_l019"/>
+          <seg type="raw_unreviewed">2= p̃ceptu ⁊ doct̾uus hom / ̃ sc rõnõ Ĩlũ hũcia sapĩe ĩ suꝑ sticiꝰ ⁊ hũili ͨ</seg>
+          <lb facs="#z_f76r_l020" xml:id="catmus_f76r_l020"/>
+          <seg type="raw_unreviewed">gbe .i. ĩsiłatu r̾lgioe/ I tdic̃e suiae r̾ ligiõis no ippłicũt. ut rligio applle</seg>
+          <lb facs="#z_f76r_l021" xml:id="catmus_f76r_l021"/>
+          <seg type="raw_unreviewed">cũ s sac̾legiũ / qr qͣ aũc ͦI ẽ satlega mẽte auẽtũ / Certũ ẽ añł..ͦ qͣ aut᷑ ͥ ͤ</seg>
+          <lb facs="#z_f76r_l022" xml:id="catmus_f76r_l022"/>
+          <seg type="raw_unreviewed">ea qͣ deũ ẽ belle ⁊̾ g̾e̾ ꝓplm̃ alienũ / sñ mãdato plbñi deut xpui Iu</seg>
+          <lb facs="#z_f76r_l023" xml:id="catmus_f76r_l023"/>
+          <seg type="raw_unreviewed">g̾ssus uiẽm ꝓxĩ tui / anuede unũ qutũ placu̾it t̾ sdas ar ne mi speas tecũ</seg>
+          <lb facs="#z_f76r_l024" xml:id="catmus_f76r_l024"/>
+          <seg type="raw_unreviewed">hło. ĩ alti^ epii pt̃ ałt̾/ aliqͥs corrig̾e, uł lge ul ungni negoͫͥ itae Et ꝙ</seg>
+          <lb facs="#z_f76r_l025" xml:id="catmus_f76r_l025"/>
+          <seg type="raw_unreviewed">nõ l ex̃o ĩ dyocꝭ aleã cõstat qr ũ l ci qnõ dũ p̃ ẽim̾sdicon sadh fuͬ or</seg>
+          <lb facs="#z_f76r_l026" xml:id="catmus_f76r_l026"/>
+          <seg type="raw_unreviewed">ler ui qui ucptũ ẽ/ ⁊ ix q ii ꝑtrtũ Illi gł p̃dire  qͥ c̃dicõs suas q̃ den</seg>
+          <lb facs="#z_f76r_l027" xml:id="catmus_f76r_l027"/>
+          <seg type="raw_unreviewed">sine q̃ st̃ptus diuas Istũs uligõs. Ippellas ñ st̃ uoi apłi s ꝑsende /do Isun e</seg>
+          <lb facs="#z_f76r_l028" xml:id="catmus_f76r_l028"/>
+          <seg type="raw_unreviewed">ꝙ uei apłi pꝑdmi / ⁊ salutẽ tm̃ aũaꝵꝭ p̃dicũt / ũ ꝑꝑ tꝑale luaꝭ n so/ ius ñ</seg>
+          <lb facs="#z_f76r_l029" xml:id="catmus_f76r_l029"/>
+          <seg type="raw_unreviewed">udicie uodiuipõs. gło p̃dic᷑ nr̃. ũ tũd udgłũ mũ. ul lueꝭ nrm .ẜ ad xͥgl̃</seg>
+          <lb facs="#z_f76r_l030" xml:id="catmus_f76r_l030"/>
+          <seg type="raw_unreviewed">S p̃dici ꝓsende. ad qri  eñdᵗ. philla oiue ꝑ occasiõ. sine ꝑ ui̾cutẽ xͨ. aut</seg>
+          <lb facs="#z_f76r_l031" xml:id="catmus_f76r_l031"/>
+          <seg type="raw_unreviewed">cie᷑.d glo. psende exoccusiõ exñgeͣ q̃rũtes comoda sũ uł pecin̾are a</seg>
+          <lb facs="#z_f76r_l032" xml:id="catmus_f76r_l032"/>
+          <seg type="raw_unreviewed">ũl ħ. p. ñl land qũue/ mõħ bolũtes acripe nunoa. nõ cũ salutẽ q̃r̃tes</seg>
+          <lb facs="#z_f76r_l033" xml:id="catmus_f76r_l033"/>
+          <seg type="raw_unreviewed">col tiuͥncaat u tm comodũ suũ Et ita. qs qo ado̾. p̃t̾ deũ u̾i q̃ut/ ũ custe dũ</seg>
+          <lb facs="#z_f76r_l034" xml:id="catmus_f76r_l034"/>
+          <seg type="raw_unreviewed">q̃rit ii eotꝭ xiii. u q̃ro q̃ urc̃i st̃/ gło is duncias illuuuĩs c̃itruo uł argũte</seg>
+          <lb facs="#z_f76r_l035" xml:id="catmus_f76r_l035"/>
+          <seg type="raw_unreviewed">s uos/ gło. Malr̃ ñ sie̾t/ uͥ asup̃tib ꝑciue abstiue̾t/ uł ĩalig̃ntes iir pciuẽ</seg>
+          <lb facs="#z_f76r_l036" xml:id="catmus_f76r_l036"/>
+          <seg type="raw_unreviewed">ip̃o ͭ eos Iut tund gioscent affcm̃ ilu I. ergui se / Illi gͦ p̃di ͭ ͥᷤ. q̃ ꝑplutꝵꝭ tꝑa-</seg>
+          <lb facs="#z_f76r_l037" xml:id="catmus_f76r_l037"/>
+          <seg type="raw_unreviewed">le il ꝑꝑ qouile̾ hontnũ. a ͦ iꝑ lam hũa ĩ p̃dicũt / ũ st̃ ue. apłi s psende s </seg>
+          <lb facs="#z_f76r_l038" xml:id="catmus_f76r_l038"/>
+          <seg type="raw_unreviewed">nõ scie᷑.. Iñ p̃d̾icũt ud gła suũ cũ ip̃i laudãt dn Rũdeꝰ. qñ p̃dicũt ũ uoͣti</seg>
+          <lb facs="#z_f76r_l039" xml:id="catmus_f76r_l039"/>
+          <seg type="raw_unreviewed">i eoiꝭ pii e iͥ gła ĩdño głie gło ꝙ ũ pt̃ iͤ qͥ ũ h ado̾ ꝑtãtẽ Islsͣ dc̃m õ</seg>
+          <lb facs="#z_f76r_l040" xml:id="catmus_f76r_l040"/>
+          <seg type="raw_unreviewed">ur suͣ ͥ ẽ.iħ psende siluunu celpie iaioͥe ielũ iꝵ. quã eccuꝵ cres et</seg>
+          <lb facs="#z_f76r_l041" xml:id="catmus_f76r_l041"/>
+          <seg type="raw_unreviewed">pastoe̾o / cũ tiiͣ eoꝵ cũa nõ habeũt. qͣ.ͦ ꝙ d gla.i. tess ii. fri simeꝰ ꝓnuli ĩt</seg>
+          <lb facs="#z_f76r_l042" xml:id="catmus_f76r_l042"/>
+          <seg type="raw_unreviewed">uoi tis si unt sduent plios suos. gło alios filios nutrit młr ꝓu̾ccẽde. nõ</seg>
+          <lb facs="#z_f76r_l043" xml:id="catmus_f76r_l043"/>
+          <seg type="raw_unreviewed">ꝙande/. ꝓp̾os u̾o ĩdilcõe Illi g ͥ p̃dicatres. q̃ silant se hre nulio̾e zeluu</seg>
+          <lb facs="#z_f76r_l044" xml:id="catmus_f76r_l044"/>
+          <seg type="raw_unreviewed">uiãꝵ qñ coꝵ icre̾s. ñ st̃ nei apli ẜ ꝑsend̾i / pii ͫ sin ꝙ ue. apłi. ñ seudẽt</seg>
+          <lb facs="#z_f76r_l045" xml:id="catmus_f76r_l045"/>
+          <seg type="raw_unreviewed">elegũ  a qpoicõis u̾loꝵ. psendo at eqrio i cerꝭ pr alã si ĩ ꝑit/ siĩ ẜmone</seg>
+          <lb facs="#z_f76r_l046" xml:id="catmus_f76r_l046"/>
+          <seg type="raw_unreviewed">gło. erũt eloqudes apłi s ꝓrende uã ꝯponelũt It suꝑcod̃ a glo Or̃thi</seg>
+          <lb facs="#z_f76r_l047" xml:id="catmus_f76r_l047"/>
+          <seg type="raw_unreviewed">ꝑfe̾bũt apłis neaꝭ psemo. tũ acactati ẜmõis st .. eotꝭa. Aõ ĩ suꝑiũ xbi ut ĩ</seg>
+          <lb facs="#z_f76r_l048" xml:id="catmus_f76r_l048"/>
+          <seg type="raw_unreviewed">eiuicua᷑ crux pͥ. ũ ĩ lepo cul oriltu aĩeꝵ/ qr u̾lugo pauasũ ĩdinĩ põpit ⁊</seg>
+          <lb facs="#z_f76r_l049" xml:id="catmus_f76r_l049"/>
+          <seg type="raw_unreviewed">ustu ẜmẽis It a. cotꝭ i. ii ⁊ lo.sm᷑ ñ ĩ dect᷑ snu sapĩe u̾bis gło. iᵈ suo ebũt psdu</seg>
+          <lb facs="#z_f76r_l050" xml:id="catmus_f76r_l050"/>
+          <seg type="raw_unreviewed">do mulebat .a.. apłs e uar.s. suit. sola pu̾ieute̾ uitutꝭ oũde. Ini elosũͤ sustie</seg>
+          <lb facs="#z_f76r_l051" xml:id="catmus_f76r_l051"/>
+          <seg type="raw_unreviewed">Illi g q̃ studeł clanũtie a ꝯpoĩ uõꝵ ũ sd noi apłi s ꝑseudo xui ͥ^ su ^ẽ ꝙ uei</seg>
+          <lb facs="#z_f76r_l052" xml:id="catmus_f76r_l052"/>
+          <seg type="raw_unreviewed">apłi. ũ adulan᷑ hc̃il. s ꝑsendo aduli᷑ qstꝰ cũ. daiili ꝯe. xii. ue qͥ ꝯsinuũt pu</seg>
+          <lb facs="#z_f76r_l053" xml:id="catmus_f76r_l053"/>
+          <seg type="raw_unreviewed">pillos snoĩ cubitu mluꝰ. ⁊ friciũt o̾uicalia subcupite uniue etatꝭ gło .i. siutne</seg>
+          <lb facs="#z_f76r_l054" xml:id="catmus_f76r_l054"/>
+          <seg type="raw_unreviewed">adolaᵈͥ ⁊ uiolabãt me ad ipłm meũ ꝑꝑ pugillũ ordei ⁊ frãgine pũisa puiseccõe</seg>
+          <lb facs="#z_f76r_l055" xml:id="catmus_f76r_l055"/>
+          <seg type="raw_unreviewed">uentus. ut ĩt̾siciãt aiuãd q̃ ũ moiũ hło mortuos di ͭ ͤ ͦ bi u da. Imippũł . ore</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f76r_l001" xml:id="medusa_f76r_l001"/>
+          <seg type="raw_unreviewed">dem</seg>
+          <lb facs="#z_f76r_l002" xml:id="medusa_f76r_l002"/>
+          <seg type="raw_unreviewed">ne</seg>
+          <lb facs="#z_f76r_l003" xml:id="medusa_f76r_l003"/>
+          <seg type="raw_unreviewed">faciebant . Cum di predicare exultarent et illi predicator es . q se parerunt / q di docerent et iudeum dare</seg>
+          <lb facs="#z_f76r_l004" xml:id="medusa_f76r_l004"/>
+          <seg type="raw_unreviewed">volunt. ut sancti nostri apostoli secundum prsendo. aꝰ signi est. quod nostri apostoli. non predicunt nisi missi. R̾x orno</seg>
+          <lb facs="#z_f76r_l005" xml:id="medusa_f76r_l005"/>
+          <seg type="raw_unreviewed">p̃d. uͥ in .glo. ñ st̃ neͣe michi uͥ missi. nᶜ enĩ sigͣ u̾tutũ. eis testimoͫ ꝑhibet᷑. Qui</seg>
+          <lb facs="#z_f76r_l006" xml:id="medusa_f76r_l006"/>
+          <seg type="raw_unreviewed">autem sunt missi . Decanꝰ est sᵗ iiᵒ canonicꝰ . 11 8m suꝑint̃ est . 12 cũ presentẽ aũcte̾ nã habent᷑ abir̃. nũ</seg>
+          <lb facs="#z_f76r_l007" xml:id="medusa_f76r_l007"/>
+          <seg type="raw_unreviewed">suo benedicat aũente .ii. eor. x. ⁊ uo. ii. mbe. nos ĩ seue .i. ꝯpise qbusdũ etc. 76.</seg>
+          <lb facs="#z_f76r_l008" xml:id="medusa_f76r_l008"/>
+          <seg type="raw_unreviewed">pseudonun accepta potestate abo . sed usurpata dominari voluit nomen suum benedicentes autem</seg>
+          <lb facs="#z_f76r_l009" xml:id="medusa_f76r_l009"/>
+          <seg type="raw_unreviewed">⁊ iõ ħ forte dicunt se a de missos per inspirationem. qͥ d. o. he̾tici. cũ nͥ ꝓbatuerint</seg>
+          <lb facs="#z_f76r_l010" xml:id="medusa_f76r_l010"/>
+          <seg type="raw_unreviewed">suã missio3 . 1ᵒ per spiritualem prophetiam . 2ᵒ Jo. Bapt. d. eꝰ rex clauitꝭ ĩ besy te. 8ᵈ ut ysa.</seg>
+          <lb facs="#z_f76r_l011" xml:id="medusa_f76r_l011"/>
+          <seg type="raw_unreviewed">a᷑ primacium scilicet menses qͣ quͥntit u̾gũ ĩc̃esulꝵ .i. aqͣrie Exo uii excomunicati erũt</seg>
+          <lb facs="#z_f76r_l012" xml:id="medusa_f76r_l012"/>
+          <seg type="raw_unreviewed">sunt cessent a prediccando de habere eum eximictu multa tamen non cent sint testimo suffi</seg>
+          <lb facs="#z_f76r_l013" xml:id="medusa_f76r_l013"/>
+          <seg type="raw_unreviewed">ciones missionis / cum fuerit frequens annualis .i.ii.i. teneamur et maxime in finali ecclesia sus-</seg>
+          <lb facs="#z_f76r_l014" xml:id="medusa_f76r_l014"/>
+          <seg type="raw_unreviewed">spͥta debent minisũ . cũ dicat dñs mᵗ xxiii surgẽt ⁊ ꝓphẽ falsi . ⁊ dabũt signa</seg>
+          <lb facs="#z_f76r_l015" xml:id="medusa_f76r_l015"/>
+          <seg type="raw_unreviewed">magna et prodigua . Illi igitur qui benedicant nomen sue mentẽ . cum nobis non habent . non sunt nomen apostoli</seg>
+          <lb facs="#z_f76r_l016" xml:id="medusa_f76r_l016"/>
+          <seg type="raw_unreviewed">sibi prebendo . et hoc faciunt monasterii mendici / ixᵃ sibi quod pendulo prebendantes supran. ĩ</seg>
+          <lb facs="#z_f76r_l017" xml:id="medusa_f76r_l017"/>
+          <seg type="raw_unreviewed">supersticione et humilitate tradicionis suis religiosos applicant / q̃ pocius sunt sacrilegum / quam aorum</seg>
+          <lb facs="#z_f76r_l018" xml:id="medusa_f76r_l018"/>
+          <seg type="raw_unreviewed">nostra sibi usurpant gloriando sibi in plebibus alienis . Ex libro ii° loquens apostolus de pseudodoxis</seg>
+          <lb facs="#z_f76r_l019" xml:id="medusa_f76r_l019"/>
+          <seg type="raw_unreviewed">et in precepta et doctrinis hominum / que sunt ratione quedam humilita sapientie in superstitione et humilitate</seg>
+          <lb facs="#z_f76r_l020" xml:id="medusa_f76r_l020"/>
+          <seg type="raw_unreviewed">gbe .i. insilatu religione .q. tradicionem humani religionis non applicunt . ut religio applicetur</seg>
+          <lb facs="#z_f76r_l021" xml:id="medusa_f76r_l021"/>
+          <seg type="raw_unreviewed">cũ sⁱ sac̾legũ / qr ꝯͣ auc̃tor e sac̾legii mẽte minẽtũ / Certũ ẽ aut̃ .1. pꝰ qͣ auc̃tor⁊</seg>
+          <lb facs="#z_f76r_l022" xml:id="medusa_f76r_l022"/>
+          <seg type="raw_unreviewed">cũ s̃ sarlegni / 12 9 mecthe sacre</seg>
+          <lb facs="#z_f76r_l023" xml:id="medusa_f76r_l023"/>
+          <seg type="raw_unreviewed">guss biento proxi tui / come de uniuersum placuerit tibi / p̃das aut ne mi ffeas tecum /</seg>
+          <lb facs="#z_f76r_l024" xml:id="medusa_f76r_l024"/>
+          <seg type="raw_unreviewed">gessus uenit proxi tum commode uinci potuit etiam</seg>
+          <lb facs="#z_f76r_l025" xml:id="medusa_f76r_l025"/>
+          <seg type="raw_unreviewed">nõ l ep̃o ĩ dyoc̃ alea / cõstat / qr ñ l ei / qͥ nõ dũ p̃ ẽ iurisdicõn / ad h c̃fit ꝙ</seg>
+          <lb facs="#z_f76r_l026" xml:id="medusa_f76r_l026"/>
+          <seg type="raw_unreviewed">non l ep̃o ĩ dyoc̃ Alea/ costat / q2 nͥ l eiꝰ qͥ eum</seg>
+          <lb facs="#z_f76r_l027" xml:id="medusa_f76r_l027"/>
+          <seg type="raw_unreviewed">sine q̃ scriptus divinus istus religiosos appellat non sunt nomini apostoli sed presendere / xcm signatum est</seg>
+          <lb facs="#z_f76r_l028" xml:id="medusa_f76r_l028"/>
+          <seg type="raw_unreviewed">quod neque apostolici / neque domini / et salute tm̃ anime predicunt / ñ pro temporale lucrum ii C sc. iiiior ñ</seg>
+          <lb facs="#z_f76r_l029" xml:id="medusa_f76r_l029"/>
+          <seg type="raw_unreviewed">p̃dicie nos nuz ipsos . glo p̃dicie nr̃a . ũ tnd udlu nuz ul luer nrm . h udlu</seg>
+          <lb facs="#z_f76r_l030" xml:id="medusa_f76r_l030"/>
+          <seg type="raw_unreviewed">U̾ est p̃dicacio pseudo ad qͣm ⁊ tnd̃ᵗ . Phil̃i .i. Que ꝑ occasiõ . sine ꝑ u̾tutẽ pᶜ aut</seg>
+          <lb facs="#z_f76r_l031" xml:id="medusa_f76r_l031"/>
+          <seg type="raw_unreviewed">ne 2ᵒ gͭ gͦlo. p̃sende ex occisioni ewñge iuͣt q̃ rũtes crumuda sua / uł pecunia</seg>
+          <lb facs="#z_f76r_l032" xml:id="medusa_f76r_l032"/>
+          <seg type="raw_unreviewed">ũl hũorum uł laudꝭ habite / quolibet uolũtes acapiere munera nõ tã salutẽ q̃ rñtes</seg>
+          <lb facs="#z_f76r_l033" xml:id="medusa_f76r_l033"/>
+          <seg type="raw_unreviewed">eiꝰ tum nccesitatem . Imd comodum suum Et ita . qd̵ ipsi nobis preter deum mo qͣsit / nõ custe dñi</seg>
+          <lb facs="#z_f76r_l034" xml:id="medusa_f76r_l034"/>
+          <seg type="raw_unreviewed">igitur II Cor. XII. ñ q̃ro q̃ unum sit, gło is duntias inbernas in arare uł argu̾te</seg>
+          <lb facs="#z_f76r_l035" xml:id="medusa_f76r_l035"/>
+          <seg type="raw_unreviewed">sed uos, glossa: quod aliter non fieret, nec a sumptibus pecunie abstineret, vel intelligentes uir pecunie</seg>
+          <lb facs="#z_f76r_l036" xml:id="medusa_f76r_l036"/>
+          <seg type="raw_unreviewed">põit eos ut tandem cognoscerent affinem illi I. erga se / illi gͦ prediˢᵉˢ. q̃ ꝓp luteꝭ tꝑa-</seg>
+          <lb facs="#z_f76r_l037" xml:id="medusa_f76r_l037"/>
+          <seg type="raw_unreviewed">le / il ꝑꝑ honne᷑ hontin / il ꝑꝑ lam̃ hũa ÷ p̃dicũt / nõ st̃ ueꝰ aplĩ s⁊ presbe s⁊</seg>
+          <lb facs="#z_f76r_l038" xml:id="medusa_f76r_l038"/>
+          <seg type="raw_unreviewed">ipso strer . II predicunt ad gloriis suam cum ipsi laudant domini Rude . II quando predicunt non uoci-</seg>
+          <lb facs="#z_f76r_l039" xml:id="medusa_f76r_l039"/>
+          <seg type="raw_unreviewed">ii Cor. XII Corin. gloriatur in debilitate gloriatur glori. quod non potest etc. qui cum habet ad se potentem / sibi sicut dictum est</seg>
+          <lb facs="#z_f76r_l040" xml:id="medusa_f76r_l040"/>
+          <seg type="raw_unreviewed">xii sig. e. i. p. p̃sende siluando se hie maner zelumiar quã ecclesie aures et</seg>
+          <lb facs="#z_f76r_l041" xml:id="medusa_f76r_l041"/>
+          <seg type="raw_unreviewed">pastoreo / cũ tñ eorꝰ curam non habent . qͣ iᵈ q. d. glo. i. tess. ii. fci sine / per muli ĩ t</seg>
+          <lb facs="#z_f76r_l042" xml:id="medusa_f76r_l042"/>
+          <seg type="raw_unreviewed">bos / tñ si mutꝭ souent filios suos .glo. alios filios nutrit młt prouidẽte / nõ</seg>
+          <lb facs="#z_f76r_l043" xml:id="medusa_f76r_l043"/>
+          <seg type="raw_unreviewed">ex amore / ꝓpͥos u̾o ĩ dilecõe illi gͥ p̃dicatores .q̃ si hãnt se sp̃e amare zelum</seg>
+          <lb facs="#z_f76r_l044" xml:id="medusa_f76r_l044"/>
+          <seg type="raw_unreviewed">nostrarum gracie corporales . ũ st̃ noster apostolici s. presbitero / xiiᵐ suꝰ quod noster apostolici . ñ scudec</seg>
+          <lb facs="#z_f76r_l045" xml:id="medusa_f76r_l045"/>
+          <seg type="raw_unreviewed">eleni nꝰ oppoicõis u̾boꝵ . p̃sendo ãt oñrio ii Cor. p. Nõ si ĩ ꝑiti sñ ẜmone</seg>
+          <lb facs="#z_f76r_l046" xml:id="medusa_f76r_l046"/>
+          <seg type="raw_unreviewed">glo. erũt eloquentes apłi s⁊ prende uñ.  imponebũt se super eod̃ iᵃ glo. Corinthi</seg>
+          <lb facs="#z_f76r_l047" xml:id="medusa_f76r_l047"/>
+          <seg type="raw_unreviewed">prefebunt apostolis nostris presente tamen acutrate fratribus sancta. Corin. Non in sapientia xui. ut in</seg>
+          <lb facs="#z_f76r_l048" xml:id="medusa_f76r_l048"/>
+          <seg type="raw_unreviewed">emictuntur crux Christi . non in leporum cruantu . uerum / quia religio christiana / cum in cruce pona</seg>
+          <lb facs="#z_f76r_l049" xml:id="medusa_f76r_l049"/>
+          <seg type="raw_unreviewed">de malebant n. apłs n.</seg>
+          <lb facs="#z_f76r_l050" xml:id="medusa_f76r_l050"/>
+          <seg type="raw_unreviewed">de malebat n. npt̃s uͥ uͣ s. sua sola pu̾itate u̾itatis oñde . p̃m eło. iũ sustie</seg>
+          <lb facs="#z_f76r_l051" xml:id="medusa_f76r_l051"/>
+          <seg type="raw_unreviewed">apli ũ adulan ⁊ hãbitꝰ s̃ p̃sencio a b̃ular q̃stio</seg>
+          <lb facs="#z_f76r_l052" xml:id="medusa_f76r_l052"/>
+          <seg type="raw_unreviewed">apostoli in adulantibus habentibus . sed presendo abulant quesitus cum . de iubi e .xiii. ue qisumunt pu</seg>
+          <lb facs="#z_f76r_l053" xml:id="medusa_f76r_l053"/>
+          <seg type="raw_unreviewed">pillos sibi in cubitu nutu . et faciunt cruralia sub capite unumque etatis glo .i. sine</seg>
+          <lb facs="#z_f76r_l054" xml:id="medusa_f76r_l054"/>
+          <seg type="raw_unreviewed">violacionibus et violabunt me ad populum meum per pignillum ordeim et fraternitatem puerorum .i. pro uersacione</seg>
+          <lb facs="#z_f76r_l055" xml:id="medusa_f76r_l055"/>
+          <seg type="raw_unreviewed">pentis. Ut ĩtͥficiũt aũs q̃ ñ moͥm᷑ glo. mortuos diᵗᵉˢ bi ñ da᷑. In ip̃a ĩ ore</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f76r_l001 #z_f76r_l002" xml:id="u_76r_001">[…]</p>
+        <note type="editorial" corresp="#u_76r_001" xml:lang="cs">Nepřipojovány k větě hlavního listu.</note>
+        <p facs="#z_f76r_l003 #z_f76r_l004 #z_f76r_l005 #z_f76r_l006 #z_f76r_l007 #z_f76r_l008" xml:id="u_76r_002">[…] faciebat, ut Dei praedicatio exaltaretur. Illi praedicatores qui se potius quam Dei doctrinam commendari volunt non sunt veri apostoli sed pseudo. Septimum signum est quod veri apostoli non praedicant nisi missi. Romanos X: Quomodo praedicabunt nisi mittantur? Non sunt veri apostoli nisi missi nec enim […] eis testimonium perhibent. Quomodo autem sunt missi dictum est supra […]. Octavum signum est per quod pseudo […] non habent […] suo vindicant […]. II Corinthios X: Non […] nos inserere aut comparare quibusdam. Glossa: Pseudo non accepta potestate a Domino, sed usurpata dominatione volunt […].</p>
+        <note type="editorial" corresp="#u_76r_002" xml:lang="cs">5–8jsou místy zvláště zkrácené a obtížné. Výklad osmého znamení se nesnažím vyhladit do přesné neověřené definice.</note>
+        <p facs="#z_f76r_l009 #z_f76r_l010 #z_f76r_l011 #z_f76r_l012 #z_f76r_l013 #z_f76r_l014 #z_f76r_l015 #z_f76r_l016" xml:id="u_76r_003">[…] forte dicunt se a Deo missos per inspirationem, sicut dicunt omnes haeretici, cum non probaverunt suam missionem aut per specialem prophetiam, sicut Ioannes Baptista […]: Ego vox clamantis in deserto; sicut Isa[ias?] […] aut per miracula, sicut Moyses qui fecit signa coram filiis Israel. […] quos […] debent […] a praedicando […]. Cum etiam iniqui miracula […] non erunt suae missionis sufficiens testimonium, cum fiant frequenter a malis, I quaestione I […]; et maxime in fine ecclesiae suspecta debent miracula, cum dicat Dominus Matthaei XXIIII: Surgent […] prophetae falsi et dabunt signa magna et prodigia. Illi ergo qui vindicant […] cum ius non habeant non sunt veri apostoli sed pseudo. Et hoc faciunt monachi mendici […].</p>
+        <note type="editorial" corresp="#u_76r_003" xml:lang="cs">9–13jsou místy vyškrtnuté či jinak inkoustově narušené. Spojení Jana Křtitele, Izaiáše a Mojžíše je čteno jen po částech.</note>
+        <p facs="#z_f76r_l017 #z_f76r_l018 #z_f76r_l019 #z_f76r_l020 #z_f76r_l021 #z_f76r_l022 #z_f76r_l023 #z_f76r_l024" xml:id="u_76r_004">[…] superstitione et humilitate traditiones suas religiones appellant, quae potius sunt sacrilegia, quia ad […] usurpant gloriando, scilicet in plebibus alienis. Colossenses II, loquens apostolus de pseudo, dicit: Secundum praecepta et doctrinas hominum, quae sunt rationem quidem habentia sapientiae in superstitione et humilitate. Glossa: id est simulata religione. Et traditiones suae religionis non appellant ut religio appelletur cum sit sacrilegium, quia quando auctoritas est sacrilega mens […]? Certum est […] velle regere populum alienum sine mandato praelati. Unde Proverbia: Ingressus vineam proximi tui, comede […] quantum placuerit tibi, […] ne […] tecum. Glossa: in alterius episcopi potestate alter aliquis corrigere vel legere vel […] negotiari […].</p>
+        <note type="editorial" corresp="#u_76r_004" xml:lang="cs">21obsahuje rétorickou vazbu čtenou jen zčásti. V23se název biblické knihy jeví jako Proverbia; neopravuji jej podle běžného umístění vinice v Písmu.</note>
+        <p facs="#z_f76r_l025 #z_f76r_l026 #z_f76r_l027 #z_f76r_l028 #z_f76r_l029 #z_f76r_l030 #z_f76r_l031 #z_f76r_l032" xml:id="u_76r_005">Et quod non licet […] in dioecesi aliena constat, quia non licet ei […] iurisdictionem […]. […] Illi ergo praedicatores qui traditiones suas quae divinae […] scripturae […] religiones appellant non sunt veri apostoli sed pseudo. Decimum signum est quod veri apostoli propter Deum et salutem tantum animarum praedicant, non propter temporale lucrum. II Corinthios IIII: Non nos […] praedicamus. Glossa: Praedicatio nostra non tendit ad gloriam nostram vel lucrum nostrum, sed ad Christi gloriam. Sed praedicti pseudo ad quaestum […]. Philippenses I: Sive per occasionem sive per veritatem Christus annuntietur. Glossa: Pseudo ex occasione evangelii quaerentes commoda sua vel pecuniae […], volentes accipere nummos, non eorum salutem quaerentes […].</p>
+        <note type="editorial" corresp="#u_76r_005" xml:lang="cs">25–27zvlášť nejisté právní citace a podmínky. Text devátého znamení začíná již na předchozím úseku; jeho označení zde není zcela bezpečné.</note>
+        <p facs="#z_f76r_l033 #z_f76r_l034 #z_f76r_l035 #z_f76r_l036 #z_f76r_l037 #z_f76r_l038 #z_f76r_l039" xml:id="u_76r_006">[…] temporale commodum suum. Et ita quasi quodammodo […] Deum […] non caste Deum quaerit. II Corinthios XII: Non quaero quae vestra sunt. Glossa: id est divitias illorum in auro vel argento, sed vos. Glossa: Mali non […] qui aut a sumptibus percipiendis abstinerent aut indigentes […] ipso […]; […] cognoscent affectum […] erga se. Illi ergo praedicatores qui propter lucrum temporale vel propter favorem hominum aut propter laudem humanam praedicant non sunt veri apostoli sed pseudo. Sed nonne […] praedicant ad gloriam suam cum ipsi laudant Deum? Respondendum: quia praedicant non vocati […]. II Corinthios X: Qui gloriatur in Domino glorietur. Glossa: Quod non potest is qui non habet a Domino potestatem.</p>
+        <note type="editorial" corresp="#u_76r_006" xml:lang="cs">33–36jsou čitelné jen fragmentárně; závěr námitky38je rovněž nejistý a nevytvářím přesnou logickou formulaci nad rámec obrazu.</note>
+        <p facs="#z_f76r_l040 #z_f76r_l041 #z_f76r_l042 #z_f76r_l043 #z_f76r_l044" xml:id="u_76r_007">[…] signum est quod pseudo simulant se habere maiorem zelum animarum quam earum rectores et pastores, cum tamen earum curam non habeant. […] I Thessalonicenses II: Facti sumus parvuli inter vos, tamquam si nutrix foveat filios suos. Glossa: Alienos filios nutrit mater propter mercedem, non […] proprios vero in dilectione. Illi ergo praedicatores qui simulant se habere maiorem zelum animarum quam earum rectores non sunt veri apostoli sed pseudo.</p>
+        <note type="editorial" corresp="#u_76r_007" xml:lang="cs">Číslo znamení v40není bezpečně přečteno; zachován však smysl viditelného odstavce.</note>
+        <p facs="#z_f76r_l045 #z_f76r_l046 #z_f76r_l047 #z_f76r_l048 #z_f76r_l049 #z_f76r_l050 #z_f76r_l051" xml:id="u_76r_008">[…] signum est quod veri apostoli non student elegantiae aut compositioni verborum, pseudo autem e contrario. II Corinthios XI: Nam etsi imperitus sermone […]. Glossa: Erant eloquentes apostoli, sed […] verba non componebant. Et super eodem […] Glossa: Corinthii praeferebant apostolis veros pseudo […] affectatione sermonis […]. I Corinthios I: Non in sapientia verbi, ut non evacuetur crux Christi. Non in lepore vel ornatu […] quia verbum […] in divinis […] non […] astu sermonis. Et I Corinthios II: Et […] sermo […] non in doctis humanae sapientiae verbis. Glossa: […] pseudo […] sola puritate veritatis […] nec eloquentiae fust[i?]. Illi ergo qui student eloquentiae aut compositioni verborum non sunt veri apostoli sed pseudo.</p>
+        <note type="editorial" corresp="#u_76r_008" xml:lang="cs">48–50mají několik obtížných slov a překryvů; konec50není bezpečně rekonstruován. Číslo znamení v44/45a51nejasné.</note>
+        <p facs="#z_f76r_l052 #z_f76r_l053 #z_f76r_l054 #z_f76r_l055" xml:id="u_76r_009">[…] veri apostoli non adulantur hominibus, sed pseudo adulantur quaestus causa. Dicit Ezechiel XIII: Vae quae consuunt pulvillos sub omni cubitu manus et faciunt cervicalia sub capite universae aetatis. Glossa: […] adulando. Et violabant me ad populum meum propter pugillum hordei et fragmen panis […], ut interficerent animas quae non moriuntur. Glossa: Mortuos dicit […] qui a Deo sunt […] ore […].</p>
+        <note type="editorial" corresp="#u_76r_009" xml:lang="cs">Závěrečná glosa je neúplná a pokračuje na následujícím listu. Citace není doplněna na úplné znění Ezechiela.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_76r_001">[Dvě velmi úzké části sousední strany vlevo.]</p>
+        <p corresp="#u_76r_002">[…] činil, aby bylo vyvýšeno Boží kázání. Kazatelé, kteří chtějí více chválit sebe než Boží nauku, nejsou pravými, ale falešnými apoštoly. Sedmé znamení: praví apoštolové nekážou, pokud nebyli posláni. Římanům 10: Jak budou kázat, nebudou-li posláni? […] Jak jsou posláni, bylo řečeno výše. Osmé znamení […] falešní si přisvojují […] co jim nenáleží. Druhý list Korinťanům 10 […] sami sebe zařazovat nebo srovnávat s některými. Glosa: Falešní nepřijali pravomoc od Pána, nýbrž chtějí […] uchvácenou vládou […].</p>
+        <p corresp="#u_76r_003">Snad říkají, že jsou od Boha posláni vnuknutím, jak to říkají všichni kacíři, aniž by poslání prokázali zvláštním proroctvím jako Jan Křtitel […], nebo zázraky jako Mojžíš před Izraelity […]. […] mají přestat kázat […]. Ani zázraky nejsou dostatečným svědectvím poslání, protože je často konají také zlí […]. Zvláště na konci časů mají být zázraky podezřelé, neboť Pán u Matouše 24 říká, že povstanou falešní proroci a učiní velká znamení a divy. Kdo si tedy nárokuje […] bez práva, není podle autora pravý apoštol. Autor to vztahuje na žebravé mnichy […].</p>
+        <p corresp="#u_76r_004">[…] nazývají své tradice náboženstvím, přestože jde spíše o svatokrádež, protože si […] s chloubou přisvojují působení mezi cizím lidem. List Kolosanům 2 mluví o lidských příkazech a naukách, které mají zdání moudrosti v pověře a pokoře; glosa to označuje za předstírané náboženství. […] nazývá se náboženstvím to, co je svatokrádež […]. Je jisté […] chtít spravovat cizí lid bez pověření jeho preláta […]. Přísloví připomínají vstup do sousedovy vinice a jídlo […]. Glosa to vztahuje na pravomoc druhého biskupa: jiný člověk […] napravovat nebo vyučovat […].</p>
+        <p corresp="#u_76r_005">Není dovoleno […] v cizí diecézi, neboť není dovoleno […] pravomoc […]. Kazatelé, kteří své […] tradice nazývají náboženstvím, podle autora nejsou pravými apoštoly. Desáté znamení: praví apoštolové káží pro Boha a jen pro spásu duší, nikoli pro dočasný zisk. Druhý list Korinťanům 4 […] nekážeme sebe. Glosa: Naše kázání nesměřuje k vlastní slávě nebo zisku, ale ke Kristově slávě. Falešní však směřují k výdělku […]. Filipanům 1: Ať se Kristus zvěstuje ze záminky, nebo pravdivě. Glosa […] využívají evangelium k vlastnímu prospěchu nebo penězům […], chtějí přijímat mince a nehledají spásu svých posluchačů […].</p>
+        <p corresp="#u_76r_006">[…] vlastní dočasný prospěch. Tak […] Boha nehledají čistě. Druhý list Korinťanům 12: Nehledám to, co je vaše; glosa vysvětluje, že nehledá bohatství ve zlatě ani stříbře, ale vás. […] sami poznají náklonnost […] vůči sobě. Kazatelé, kteří káží pro dočasný zisk, přízeň lidí nebo lidskou chválu, podle autora nejsou pravými apoštoly. Námitka se ptá, zda snad nekážou k vlastní slávě, když přece chválí Boha. Odpověď […] káží bez povolání. Kdo se chlubí, má se chlubit v Pánu; glosa říká, že to nemůže ten, kdo od Pána nemá pravomoc.</p>
+        <p corresp="#u_76r_007">[…] dalším znamením je, že falešní učitelé předstírají větší horlivost pro duše než jejich vlastní správci a pastýři, ačkoli jim péče o ně nebyla svěřena. První list Soluňanům 2: Byli jsme mezi vámi jako malí, jako když chůva pečuje o své děti. Glosa: O cizí děti se stará […] za odměnu, o vlastní z lásky. Kazatelé, kteří předstírají větší horlivost o duše než jejich řádní správci, podle autora nejsou pravými apoštoly.</p>
+        <p corresp="#u_76r_008">[…] praví apoštolové neusilují o uhlazenost a umné skládání slov; falešní jednají opačně. Druhý list Korinťanům 11: I když jsem neobratný v řeči […]. Glosa: Apoštolové byli výmluvní, ale […] svá slova uměle neskládali. Korinťané dávali před pravými apoštoly přednost falešným kvůli strojené řeči […]. První list Korinťanům 1: Ne v moudrosti slov, aby nebyl vyprázdněn Kristův kříž. […] ne v půvabu a ozdobě […], ne v řečnické lstivosti. První list Korinťanům 2 […] ne v naučených slovech lidské moudrosti. Glosa […] pouze čistotou pravdy […]. Autor tedy znovu odlišuje strojenou výmluvnost od pravého apoštolství.</p>
+        <p corresp="#u_76r_009">[…] praví apoštolové lidem nelichotí, kdežto falešní lichotí pro zisk. Ezechiel 13: Běda těm, které šijí polštářky pod každý loket a vyrábějí podušky pod hlavy lidí každého věku. Glosa […] lichocením. Znesvěcovaly mě před mým lidem pro hrst ječmene a kus chleba […], aby usmrcovaly duše, které neumírají. Glosa: Mrtvými nazývá […] kteří jsou od Boha […] ústy […].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

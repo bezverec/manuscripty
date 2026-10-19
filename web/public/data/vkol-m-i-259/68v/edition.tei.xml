@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 68v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: De pseudoprophetis. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_68v">
+      <graphic url="../pages/68v/image.png"/>
+      <zone ulx="600" uly="308" lrx="3523" lry="463" xml:id="z_f68v_l001"/>
+      <zone ulx="606" uly="410" lrx="3554" lry="581" xml:id="z_f68v_l002"/>
+      <zone ulx="613" uly="488" lrx="3514" lry="665" xml:id="z_f68v_l003"/>
+      <zone ulx="606" uly="578" lrx="3563" lry="765" xml:id="z_f68v_l004"/>
+      <zone ulx="600" uly="672" lrx="3579" lry="864" xml:id="z_f68v_l005"/>
+      <zone ulx="610" uly="765" lrx="3514" lry="942" xml:id="z_f68v_l006"/>
+      <zone ulx="575" uly="858" lrx="3501" lry="1029" xml:id="z_f68v_l007"/>
+      <zone ulx="600" uly="948" lrx="3025" lry="1101" xml:id="z_f68v_l008"/>
+      <zone ulx="370" uly="1779" lrx="603" lry="1910" xml:id="z_f68v_l009"/>
+      <zone ulx="392" uly="1882" lrx="578" lry="2022" xml:id="z_f68v_l010"/>
+      <zone ulx="451" uly="3836" lrx="554" lry="3960" xml:id="z_f68v_l011"/>
+      <zone ulx="619" uly="1042" lrx="2966" lry="1197" xml:id="z_f68v_l012"/>
+      <zone ulx="610" uly="1132" lrx="2832" lry="1278" xml:id="z_f68v_l013"/>
+      <zone ulx="3040" uly="1020" lrx="3591" lry="1163" xml:id="z_f68v_l014"/>
+      <zone ulx="3044" uly="1107" lrx="3566" lry="1247" xml:id="z_f68v_l015"/>
+      <zone ulx="2956" uly="1185" lrx="3585" lry="1350" xml:id="z_f68v_l016"/>
+      <zone ulx="616" uly="1219" lrx="3514" lry="1390" xml:id="z_f68v_l017"/>
+      <zone ulx="610" uly="1309" lrx="3510" lry="1493" xml:id="z_f68v_l018"/>
+      <zone ulx="606" uly="1396" lrx="3523" lry="1586" xml:id="z_f68v_l019"/>
+      <zone ulx="610" uly="1484" lrx="2981" lry="1667" xml:id="z_f68v_l020"/>
+      <zone ulx="619" uly="1577" lrx="2577" lry="1720" xml:id="z_f68v_l021"/>
+      <zone ulx="3047" uly="1574" lrx="3560" lry="1726" xml:id="z_f68v_l022"/>
+      <zone ulx="3109" uly="1686" lrx="3230" lry="1773" xml:id="z_f68v_l023"/>
+      <zone ulx="672" uly="1664" lrx="3548" lry="1872" xml:id="z_f68v_l024"/>
+      <zone ulx="3330" uly="1726" lrx="3563" lry="1807" xml:id="z_f68v_l025"/>
+      <zone ulx="647" uly="1760" lrx="3514" lry="1950" xml:id="z_f68v_l026"/>
+      <zone ulx="2178" uly="1844" lrx="2234" lry="1919" xml:id="z_f68v_l027"/>
+      <zone ulx="2293" uly="1876" lrx="3056" lry="2025" xml:id="z_f68v_l028"/>
+      <zone ulx="638" uly="1841" lrx="2085" lry="1969" xml:id="z_f68v_l029"/>
+      <zone ulx="625" uly="1928" lrx="3504" lry="2118" xml:id="z_f68v_l030"/>
+      <zone ulx="3059" uly="1919" lrx="3570" lry="2078" xml:id="z_f68v_l031"/>
+      <zone ulx="616" uly="2006" lrx="3507" lry="2205" xml:id="z_f68v_l032"/>
+      <zone ulx="3252" uly="2187" lrx="3573" lry="2330" xml:id="z_f68v_l033"/>
+      <zone ulx="625" uly="2100" lrx="3096" lry="2252" xml:id="z_f68v_l034"/>
+      <zone ulx="641" uly="2187" lrx="3492" lry="2376" xml:id="z_f68v_l035"/>
+      <zone ulx="622" uly="2274" lrx="3495" lry="2445" xml:id="z_f68v_l036"/>
+      <zone ulx="619" uly="2361" lrx="3476" lry="2554" xml:id="z_f68v_l037"/>
+      <zone ulx="619" uly="2451" lrx="3479" lry="2628" xml:id="z_f68v_l038"/>
+      <zone ulx="619" uly="2541" lrx="3476" lry="2712" xml:id="z_f68v_l039"/>
+      <zone ulx="619" uly="2632" lrx="3467" lry="2790" xml:id="z_f68v_l040"/>
+      <zone ulx="616" uly="2728" lrx="3482" lry="2874" xml:id="z_f68v_l041"/>
+      <zone ulx="631" uly="2809" lrx="3489" lry="2961" xml:id="z_f68v_l042"/>
+      <zone ulx="638" uly="2899" lrx="3560" lry="3045" xml:id="z_f68v_l043"/>
+      <zone ulx="619" uly="2986" lrx="3551" lry="3136" xml:id="z_f68v_l044"/>
+      <zone ulx="622" uly="3080" lrx="3492" lry="3223" xml:id="z_f68v_l045"/>
+      <zone ulx="613" uly="3167" lrx="3495" lry="3325" xml:id="z_f68v_l046"/>
+      <zone ulx="594" uly="3254" lrx="3486" lry="3425" xml:id="z_f68v_l047"/>
+      <zone ulx="610" uly="3356" lrx="3542" lry="3503" xml:id="z_f68v_l048"/>
+      <zone ulx="610" uly="3450" lrx="3470" lry="3596" xml:id="z_f68v_l049"/>
+      <zone ulx="619" uly="3528" lrx="3526" lry="3705" xml:id="z_f68v_l050"/>
+      <zone ulx="631" uly="3618" lrx="3542" lry="3780" xml:id="z_f68v_l051"/>
+      <zone ulx="715" uly="3702" lrx="3473" lry="3873" xml:id="z_f68v_l052"/>
+      <zone ulx="619" uly="3798" lrx="3467" lry="3969" xml:id="z_f68v_l053"/>
+      <zone ulx="610" uly="3885" lrx="3498" lry="4063" xml:id="z_f68v_l054"/>
+      <zone ulx="622" uly="3979" lrx="3510" lry="4162" xml:id="z_f68v_l055"/>
+      <zone ulx="616" uly="4072" lrx="3476" lry="4246" xml:id="z_f68v_l056"/>
+      <zone ulx="610" uly="4165" lrx="3476" lry="4324" xml:id="z_f68v_l057"/>
+      <zone ulx="616" uly="4259" lrx="3476" lry="4417" xml:id="z_f68v_l058"/>
+      <zone ulx="610" uly="4352" lrx="3498" lry="4508" xml:id="z_f68v_l059"/>
+      <zone ulx="613" uly="4445" lrx="3473" lry="4576" xml:id="z_f68v_l060"/>
+      <zone ulx="588" uly="4526" lrx="3529" lry="4672" xml:id="z_f68v_l061"/>
+      <zone ulx="610" uly="4604" lrx="3504" lry="4756" xml:id="z_f68v_l062"/>
+      <zone ulx="610" uly="4676" lrx="3542" lry="4853" xml:id="z_f68v_l063"/>
+      <zone ulx="578" uly="4766" lrx="3454" lry="4980" xml:id="z_f68v_l064"/>
+      <zone ulx="3713" uly="1424" lrx="3840" lry="1536" xml:id="z_f68v_l065"/>
+      <zone ulx="3666" uly="1502" lrx="3850" lry="1630" xml:id="z_f68v_l066"/>
+      <zone ulx="3697" uly="1652" lrx="3825" lry="1720" xml:id="z_f68v_l067"/>
+      <zone ulx="3682" uly="2202" lrx="3831" lry="2289" xml:id="z_f68v_l068"/>
+      <zone ulx="3669" uly="2252" lrx="3850" lry="2401" xml:id="z_f68v_l069"/>
+      <zone ulx="3663" uly="2364" lrx="3865" lry="2504" xml:id="z_f68v_l070"/>
+      <zone ulx="3647" uly="2464" lrx="3822" lry="2585" xml:id="z_f68v_l071"/>
+      <zone ulx="3663" uly="2554" lrx="3847" lry="2653" xml:id="z_f68v_l072"/>
+      <zone ulx="3647" uly="2622" lrx="3875" lry="2756" xml:id="z_f68v_l073"/>
+      <zone ulx="3663" uly="2737" lrx="3862" lry="2859" xml:id="z_f68v_l074"/>
+      <zone ulx="3710" uly="2815" lrx="3850" lry="2933" xml:id="z_f68v_l075"/>
+      <zone ulx="3719" uly="2912" lrx="3856" lry="3014" xml:id="z_f68v_l076"/>
+      <zone ulx="3719" uly="3005" lrx="3809" lry="3114" xml:id="z_f68v_l077"/>
+      <zone ulx="3641" uly="3565" lrx="3831" lry="3680" xml:id="z_f68v_l078"/>
+      <zone ulx="3629" uly="3649" lrx="3875" lry="3758" xml:id="z_f68v_l079"/>
+      <zone ulx="3619" uly="3733" lrx="3875" lry="3842" xml:id="z_f68v_l080"/>
+      <zone ulx="3641" uly="3792" lrx="3868" lry="3944" xml:id="z_f68v_l081"/>
+      <zone ulx="3632" uly="3892" lrx="3843" lry="4016" xml:id="z_f68v_l082"/>
+      <zone ulx="3619" uly="3997" lrx="3878" lry="4103" xml:id="z_f68v_l083"/>
+      <zone ulx="3632" uly="4066" lrx="3871" lry="4203" xml:id="z_f68v_l084"/>
+      <zone ulx="3632" uly="4159" lrx="3881" lry="4277" xml:id="z_f68v_l085"/>
+      <zone ulx="3632" uly="4252" lrx="3856" lry="4361" xml:id="z_f68v_l086"/>
+      <zone ulx="3632" uly="4343" lrx="3875" lry="4461" xml:id="z_f68v_l087"/>
+      <zone ulx="3613" uly="4430" lrx="3856" lry="4560" xml:id="z_f68v_l088"/>
+      <zone ulx="3616" uly="4520" lrx="3868" lry="4623" xml:id="z_f68v_l089"/>
+      <zone ulx="3619" uly="4610" lrx="3865" lry="4722" xml:id="z_f68v_l090"/>
+      <zone ulx="3610" uly="4713" lrx="3859" lry="4865" xml:id="z_f68v_l091"/>
+      <zone ulx="3750" uly="336" lrx="3868" lry="441" xml:id="z_f68v_l092"/>
+      <zone ulx="3772" uly="1888" lrx="3837" lry="1984" xml:id="z_f68v_l093"/>
+      <zone ulx="3703" uly="1963" lrx="3847" lry="2090" xml:id="z_f68v_l094"/>
+      <zone ulx="3682" uly="3182" lrx="3843" lry="3316" xml:id="z_f68v_l095"/>
+      <zone ulx="3647" uly="3276" lrx="3853" lry="3409" xml:id="z_f68v_l096"/>
+      <zone ulx="3647" uly="3363" lrx="3859" lry="3478" xml:id="z_f68v_l097"/>
+      <zone ulx="3650" uly="3475" lrx="3856" lry="3574" xml:id="z_f68v_l098"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f68v_l001" xml:id="catmus_f68v_l001"/>
+          <seg type="raw_unreviewed">cid subixͭ d. Tesaficor cou̾ do ⁊ xͦ ch̃ũ qͥ idicaturꝰ ẽ uniõs ⁊ mortuos.</seg>
+          <lb facs="#z_f68v_l002" xml:id="catmus_f68v_l002"/>
+          <seg type="raw_unreviewed">ꝑaduẽtũ ip̃iꝰ ⁊ r̾gm ei p̃dica .u. di. ĩ sta optime. imꝑtime. argne obsocͣ.</seg>
+          <lb facs="#z_f68v_l003" xml:id="catmus_f68v_l003"/>
+          <seg type="raw_unreviewed">i adiuri. nolẽtes ĩ cpa. asꝑis u̾b̃. r̃sistũtes ĩoi paciẽcia r̾ plignũtiũ/</seg>
+          <lb facs="#z_f68v_l004" xml:id="catmus_f68v_l004"/>
+          <seg type="raw_unreviewed">⁊ doct̾uã accipiẽtiũ .i. itu ut pacie᷑ sustieũs r̾ pñgutes ⁊ doceas accipiẽtes</seg>
+          <lb facs="#z_f68v_l005" xml:id="catmus_f68v_l005"/>
+          <seg type="raw_unreviewed">si gło bic n ͦ p. ꝙ ucc̃itris uos ĩ pellit ad dcũ ꝑicła p̃dicũda ⁊ adselli</seg>
+          <lb facs="#z_f68v_l006" xml:id="catmus_f68v_l006"/>
+          <seg type="raw_unreviewed">citũdos platos suꝑillis ĩq̾rendꝭ in hriis aũt sibũdꝭ pielis ꝓcedeꝰ li mũ</seg>
+          <lb facs="#z_f68v_l007" xml:id="catmus_f68v_l007"/>
+          <seg type="raw_unreviewed">ꝙp ͦ ꝙ ĩ eccũ di᷑. młtr ⁊ mag̃ pcclũ sut sutã Ocdõ. pͥtruꝰ moĩ hoĩes sũt</seg>
+          <lb facs="#z_f68v_l008" xml:id="catmus_f68v_l008"/>
+          <seg type="raw_unreviewed">futũa Tercio qm̃ hĩblies ⁊ ydonei ecũt ad ꝑiclũ ĩducũda. ¶</seg>
+          <lb facs="#z_f68v_l009" xml:id="catmus_f68v_l009"/>
+          <seg type="raw_unreviewed">U si u̾st̃o</seg>
+          <lb facs="#z_f68v_l010" xml:id="catmus_f68v_l010"/>
+          <seg type="raw_unreviewed">ł ẜẜa</seg>
+          <lb facs="#z_f68v_l011" xml:id="catmus_f68v_l011"/>
+          <seg type="raw_unreviewed">U</seg>
+          <lb facs="#z_f68v_l012" xml:id="catmus_f68v_l012"/>
+          <seg type="raw_unreviewed">ͥ ꝑicla. q̃ ĩducẽt i rͦ qͣ ͬ illi ꝓcedũt ĩꝑułis ĩ ducũsꝭ. G</seg>
+          <lb facs="#z_f68v_l013" xml:id="catmus_f68v_l013"/>
+          <seg type="raw_unreviewed">cĩtes. m̃ltu ꝑiclã ĩ iltꝭ ꝑulis. ⁊ ip̃t erãt ꝯstituti. s</seg>
+          <lb facs="#z_f68v_l014" xml:id="catmus_f68v_l014"/>
+          <seg type="raw_unreviewed">cuiꝰ mri erũt</seg>
+          <lb facs="#z_f68v_l015" xml:id="catmus_f68v_l015"/>
+          <seg type="raw_unreviewed">nõ ⁊ ip̃i p̃di</seg>
+          <lb facs="#z_f68v_l016" xml:id="catmus_f68v_l016"/>
+          <seg type="raw_unreviewed">rr se ip̃os ꝯstituẽt</seg>
+          <lb facs="#z_f68v_l017" xml:id="catmus_f68v_l017"/>
+          <seg type="raw_unreviewed">rͨ. ꝯñdeꝰ ĩqb piłis ⁊ ip̃i erũt ꝯsotuti. 4ͫͦ. ꝙ qͥũ p̃indeũt i ͭ picubi.</seg>
+          <lb facs="#z_f68v_l018" xml:id="catmus_f68v_l018"/>
+          <seg type="raw_unreviewed">a̾ p̃msa ũ pd̾icaueñt pibũt ĩ ilł. ixͦ. ne q̃s dicit. dep̃dcĩo ꝑiclis. nõ</seg>
+          <lb facs="#z_f68v_l019" xml:id="catmus_f68v_l019"/>
+          <seg type="raw_unreviewed">dũ c̃ẽ cũand. bepote ad huc nuotꝭ. cũ deꝰ ꝑ quedũ sign/ iͥͥ pitlã nõ</seg>
+          <lb facs="#z_f68v_l020" xml:id="catmus_f68v_l020"/>
+          <seg type="raw_unreviewed">lõge rͥ motu. s satꝭ ꝓpiuq. ⁊ iõ.  eoꝵ ĩq̾sic̃o ⁊ r pulsio. ĩ</seg>
+          <lb facs="#z_f68v_l021" xml:id="catmus_f68v_l021"/>
+          <seg type="raw_unreviewed">U. qͦp õ i ꝑicłã p̃mbe ⁊ p̃uc̃tule /rafidelib x.</seg>
+          <lb facs="#z_f68v_l022" xml:id="catmus_f68v_l022"/>
+          <seg type="raw_unreviewed">a pliꝰ diffen̾de</seg>
+          <lb facs="#z_f68v_l023" xml:id="catmus_f68v_l023"/>
+          <seg type="raw_unreviewed">pe</seg>
+          <lb facs="#z_f68v_l024" xml:id="catmus_f68v_l024"/>
+          <seg type="raw_unreviewed">pitlã tenen᷑ p̃ide ⁊ p̃ucciae̾/ ⁊ abeccũ r plłe si nõ p̃ndeũt ei rp̃ue</seg>
+          <lb facs="#z_f68v_l025" xml:id="catmus_f68v_l025"/>
+          <seg type="raw_unreviewed">icrẽt</seg>
+          <lb facs="#z_f68v_l026" xml:id="catmus_f68v_l026"/>
+          <seg type="raw_unreviewed">iet ⁊ r̾ pellũt xii.. ne biden᷑ ĩ possi ᷝ ͦͥ repelli. cũ suit ꝓphetite p̃ dcũ</seg>
+          <lb facs="#z_f68v_l027" xml:id="catmus_f68v_l027"/>
+          <seg type="raw_unreviewed">1.</seg>
+          <lb facs="#z_f68v_l028" xml:id="catmus_f68v_l028"/>
+          <seg type="raw_unreviewed">pelliptit Nusi qn</seg>
+          <lb facs="#z_f68v_l029" xml:id="catmus_f68v_l029"/>
+          <seg type="raw_unreviewed">ꝯñde.. ꝙ ad tp̃c r̾pelli poten̾it᷑ͦ stute</seg>
+          <lb facs="#z_f68v_l030" xml:id="catmus_f68v_l030"/>
+          <seg type="raw_unreviewed">sine qͣlr̃ repliũdi pũt ixuiiͦ ꝙ nõ pũt r̾pelli r ͥ piclã. u̾ ꝯguosb̾e̾utur</seg>
+          <lb facs="#z_f68v_l031" xml:id="catmus_f68v_l031"/>
+          <seg type="raw_unreviewed">sit̃ .r̾ pelũd</seg>
+          <lb facs="#z_f68v_l032" xml:id="catmus_f68v_l032"/>
+          <seg type="raw_unreviewed">illi qui p̃dcũ ꝑula ꝓcũabũt ⁊ iõ oũdeꝰ ubi potelut illi pĩctõ si hoĩde</seg>
+          <lb facs="#z_f68v_l033" xml:id="catmus_f68v_l033"/>
+          <seg type="raw_unreviewed">potem̾t</seg>
+          <lb facs="#z_f68v_l034" xml:id="catmus_f68v_l034"/>
+          <seg type="raw_unreviewed">ĩ uenur rsͦ oñdo.. Idũ plã sigͣ ĩ fullibliũ. q̃daꝵ a̾o rbł ᷝͫ.</seg>
+          <lb facs="#z_f68v_l035" xml:id="catmus_f68v_l035"/>
+          <seg type="raw_unreviewed">ũdc̃i hõies ꝯgnosti Si. Is nõ subtilis. ac philosephicii dispututor qͣ eu</seg>
+          <lb facs="#z_f68v_l036" xml:id="catmus_f68v_l036"/>
+          <seg type="raw_unreviewed">⁊̃ pi / dicũba prĩt duxit oppouẽdi / ut sic añi lcõr assplicitat᷑ uitate</seg>
+          <lb facs="#z_f68v_l037" xml:id="catmus_f68v_l037"/>
+          <seg type="raw_unreviewed">au̾tit. nõ iõ lcor cito mouea a suo sesu s udnos r̾cͣsũ hr̃e dignet ⁊</seg>
+          <lb facs="#z_f68v_l038" xml:id="catmus_f68v_l038"/>
+          <seg type="raw_unreviewed">Qñi puti sumꝰ ad om̃ obicõ cc̃r istũ nu fuciẽdã opitulũte dne rcũd ͤ</seg>
+          <lb facs="#z_f68v_l039" xml:id="catmus_f68v_l039"/>
+          <seg type="raw_unreviewed">nõ ꝑ disputuꝰ ⁊ alcricucõ pħõi ᵈ. ã sophĩstũ q̃ ud uichil utilis ẽ. uͥ uł</seg>
+          <lb facs="#z_f68v_l040" xml:id="catmus_f68v_l040"/>
+          <seg type="raw_unreviewed">subi̾siõ audieciũ d potiꝰ ꝑcollaꝰ Icatho ͫ. q̃ sola d eo ĩt ẜm crĩsci</seg>
+          <lb facs="#z_f68v_l041" xml:id="catmus_f68v_l041"/>
+          <seg type="raw_unreviewed">rux̃ doctuũ apli ii Thy iiᵒ. d. Noli uĩs. Itũde. ad unchil u utile est</seg>
+          <lb facs="#z_f68v_l042" xml:id="catmus_f68v_l042"/>
+          <seg type="raw_unreviewed">uͥ ad sbu̾siõne undieciũ. gło. qr ꝯtũcio nͭ pt. uͥ sbnte audĩẽtes / Qun</seg>
+          <lb facs="#z_f68v_l043" xml:id="catmus_f68v_l043"/>
+          <seg type="raw_unreviewed">xkosus pur ẽ uel suꝑior ui̾o cuthoͭ Cõcũtio ecꝭ mi ͥscubliͭ᷑ uł sructi</seg>
+          <lb facs="#z_f68v_l044" xml:id="catmus_f68v_l044"/>
+          <seg type="raw_unreviewed">osiͭ gu̾it sepe scruiꝑlin/ Dolẽt ecꝭ itũ ͦ ͤ tliũ oppoi elimãto moliuolĩ</seg>
+          <lb facs="#z_f68v_l045" xml:id="catmus_f68v_l045"/>
+          <seg type="raw_unreviewed">argniũto. ut moneãt ãs ĩsipiẽtiũ siñi Et iti. neo pu᷑ se uniti</seg>
+          <lb facs="#z_f68v_l046" xml:id="catmus_f68v_l046"/>
+          <seg type="raw_unreviewed">u̾bis. l stuit &amp; na q̃ audit Colluꝰ gͥ ĩt̾ suos p ẽẽd ñ alcricacõ</seg>
+          <lb facs="#z_f68v_l047" xml:id="catmus_f68v_l047"/>
+          <seg type="raw_unreviewed">ꝓtestam᷑ aũt abĩuto ꝙ oeͣ iĩ ħ adcantelã ⁊ ĩsc̾ctõ ecꝭ occ̃e uniu̾sẽ</seg>
+          <lb facs="#z_f68v_l048" xml:id="catmus_f68v_l048"/>
+          <seg type="raw_unreviewed">nõ ꝯͣ ꝑsonũ aluii/ n ͨ qͣ statu aliquẽ. ꝑ ecca aꝓꝑbatũ/ s qͣ ꝓcucitatẽ nul</seg>
+          <lb facs="#z_f68v_l049" xml:id="catmus_f68v_l049"/>
+          <seg type="raw_unreviewed">loꝵ. ⁊ ꝑiclã ecce qũulis dictiũ sumꝰ/ ũ ĩuencõe nra. s ꝙ ui ͭ ͤ sas</seg>
+          <lb facs="#z_f68v_l050" xml:id="catmus_f68v_l050"/>
+          <seg type="raw_unreviewed">sẽptũe collegiꝰ Alichiloi tñ oiͣ eccͣice cort̾tõi suppoiꝰ si ꝙ ĩ eis uisũ sui̾t corregũs</seg>
+          <lb facs="#z_f68v_l051" xml:id="catmus_f68v_l051"/>
+          <seg type="raw_unreviewed">ꝓꝑca pͥ ca ͥ nõnͥ e. ꝙ d apłs .ii. Thy.iiiͦ. ꝙ ĩ fulli ecc̃a ĩ minebũt p</seg>
+          <lb facs="#z_f68v_l052" xml:id="catmus_f68v_l052"/>
+          <seg type="raw_unreviewed">iclũ occ̃e uniu̾se. qr di ͭ apłs ĩ hiis u̾b. h ac scito / ꝙ ĩuouissĩs dicb</seg>
+          <lb facs="#z_f68v_l053" xml:id="catmus_f68v_l053"/>
+          <seg type="raw_unreviewed">ĩ scubũt tpu piclosaat᷑ nło.d ͭ. Scĩs. õs at qͥ st̃ de eccã ñ nõ tñi fi</seg>
+          <lb facs="#z_f68v_l054" xml:id="catmus_f68v_l054"/>
+          <seg type="raw_unreviewed">m̾ito. sc̃i dicũ. ⁊ ita uniuebũt ecc̃e yuiu̾se Ne alntẽ credẽt᷑. ꝙĩ exiĩs</seg>
+          <lb facs="#z_f68v_l055" xml:id="catmus_f68v_l055"/>
+          <seg type="raw_unreviewed">tꝑib cm̃ / u. tp̃e aũx̾ ĩminerẽt i ͥ ꝓul̃a diͬ. gło. quẽiõn᷑ suꝑiꝰ uõ Ex</seg>
+          <lb facs="#z_f68v_l056" xml:id="catmus_f68v_l056"/>
+          <seg type="raw_unreviewed">hiis st̃ q̃ penetrãt domos. ꝙ ẽ ĩẜuĩtiã ecc̃a. quidũ tłes fun̾t ꝑ qͤles</seg>
+          <lb facs="#z_f68v_l057" xml:id="catmus_f68v_l057"/>
+          <seg type="raw_unreviewed">l̃ stabũt i ͥ ꝑiclã oͥ ꝑpimtũte ĩ mai̾oi m̃łtr ueĩent ⁊ hͨ sͭ st̃ Iõ hoꝵ</seg>
+          <lb facs="#z_f68v_l058" xml:id="catmus_f68v_l058"/>
+          <seg type="raw_unreviewed">Gũccii q̃da. ẜ ĩ sine plues sutiũ st̃/ u ͨ dicus ĩ sine i. tp̃e aux tñ. ¶z</seg>
+          <lb facs="#z_f68v_l059" xml:id="catmus_f68v_l059"/>
+          <seg type="raw_unreviewed">ĩt di᷑ ꝑ secutõ ilũx. cũ ꝑsetutõ ĩ min silis. ꝑseticoi aũx̾ iͣ Ioł. ii ucrꝰ</seg>
+          <lb facs="#z_f68v_l060" xml:id="catmus_f68v_l060"/>
+          <seg type="raw_unreviewed">qnĩ nonissiã hoa̾ ẽ. gło. a silis uouissie. qr silis ẽ ꝑsecucõi futũe Et ibide</seg>
+          <lb facs="#z_f68v_l061" xml:id="catmus_f68v_l061"/>
+          <seg type="raw_unreviewed">Aluc̃ ãt uilti sc̃i sr̃ añy gło cũ Iũto ĩpetu ⁊ tirie audiscꝭ sutuꝵ aũ poru</seg>
+          <lb facs="#z_f68v_l062" xml:id="catmus_f68v_l062"/>
+          <seg type="raw_unreviewed">cũ tãtu uiolũ ⁊ isti ueniẽt Et nͣ ẽħesẜ ii ͦ. d ͭ apłs de au̾tioͦ misceliñ</seg>
+          <lb facs="#z_f68v_l063" xml:id="catmus_f68v_l063"/>
+          <seg type="raw_unreviewed">iñ oꝑa᷑ ĩiq̾tutꝭ. gło iã app añx̃ ĩpietas. s misticl .i. uo᷑ pietatꝭ pollicĩda.</seg>
+          <lb facs="#z_f68v_l064" xml:id="catmus_f68v_l064"/>
+          <seg type="raw_unreviewed">ut uelut hrci mĩstri . cũ suit ꝑsendo sic p. ꝙ ꝓpe fuulle eccũ</seg>
+          <lb facs="#z_f68v_l065" xml:id="catmus_f68v_l065"/>
+          <seg type="raw_unreviewed">siet ii</seg>
+          <lb facs="#z_f68v_l066" xml:id="catmus_f68v_l066"/>
+          <seg type="raw_unreviewed">nss a plae</seg>
+          <lb facs="#z_f68v_l067" xml:id="catmus_f68v_l067"/>
+          <seg type="raw_unreviewed">ce</seg>
+          <lb facs="#z_f68v_l068" xml:id="catmus_f68v_l068"/>
+          <seg type="raw_unreviewed">mes mi</seg>
+          <lb facs="#z_f68v_l069" xml:id="catmus_f68v_l069"/>
+          <seg type="raw_unreviewed">E ꝓdtoet</seg>
+          <lb facs="#z_f68v_l070" xml:id="catmus_f68v_l070"/>
+          <seg type="raw_unreviewed">mi al ꝓcrt</seg>
+          <lb facs="#z_f68v_l071" xml:id="catmus_f68v_l071"/>
+          <seg type="raw_unreviewed">Eratii</seg>
+          <lb facs="#z_f68v_l072" xml:id="catmus_f68v_l072"/>
+          <seg type="raw_unreviewed"> Iumidi</seg>
+          <lb facs="#z_f68v_l073" xml:id="catmus_f68v_l073"/>
+          <seg type="raw_unreviewed">ailes desici</seg>
+          <lb facs="#z_f68v_l074" xml:id="catmus_f68v_l074"/>
+          <seg type="raw_unreviewed">i hõq̃ añui</seg>
+          <lb facs="#z_f68v_l075" xml:id="catmus_f68v_l075"/>
+          <seg type="raw_unreviewed">lue ift</seg>
+          <lb facs="#z_f68v_l076" xml:id="catmus_f68v_l076"/>
+          <seg type="raw_unreviewed">fuiuibi</seg>
+          <lb facs="#z_f68v_l077" xml:id="catmus_f68v_l077"/>
+          <seg type="raw_unreviewed">siri</seg>
+          <lb facs="#z_f68v_l078" xml:id="catmus_f68v_l078"/>
+          <seg type="raw_unreviewed">hene risress</seg>
+          <lb facs="#z_f68v_l079" xml:id="catmus_f68v_l079"/>
+          <seg type="raw_unreviewed">NeOI que di</seg>
+          <lb facs="#z_f68v_l080" xml:id="catmus_f68v_l080"/>
+          <seg type="raw_unreviewed">inĩ qstie. uoe</seg>
+          <lb facs="#z_f68v_l081" xml:id="catmus_f68v_l081"/>
+          <seg type="raw_unreviewed">s ablami </seg>
+          <lb facs="#z_f68v_l082" xml:id="catmus_f68v_l082"/>
+          <seg type="raw_unreviewed">ii. gle. pil</seg>
+          <lb facs="#z_f68v_l083" xml:id="catmus_f68v_l083"/>
+          <seg type="raw_unreviewed">aace q sin</seg>
+          <lb facs="#z_f68v_l084" xml:id="catmus_f68v_l084"/>
+          <seg type="raw_unreviewed">psoli hostũi</seg>
+          <lb facs="#z_f68v_l085" xml:id="catmus_f68v_l085"/>
+          <seg type="raw_unreviewed">dnil xspͤtt</seg>
+          <lb facs="#z_f68v_l086" xml:id="catmus_f68v_l086"/>
+          <seg type="raw_unreviewed">uapi ũ d E</seg>
+          <lb facs="#z_f68v_l087" xml:id="catmus_f68v_l087"/>
+          <seg type="raw_unreviewed">A dolose/ et</seg>
+          <lb facs="#z_f68v_l088" xml:id="catmus_f68v_l088"/>
+          <seg type="raw_unreviewed">Aeabir iỹii</seg>
+          <lb facs="#z_f68v_l089" xml:id="catmus_f68v_l089"/>
+          <seg type="raw_unreviewed">ls sim̃ alieiiii.</seg>
+          <lb facs="#z_f68v_l090" xml:id="catmus_f68v_l090"/>
+          <seg type="raw_unreviewed">ehenͥ s̃ ĩ</seg>
+          <lb facs="#z_f68v_l091" xml:id="catmus_f68v_l091"/>
+          <seg type="raw_unreviewed">Iuidulĩ lo</seg>
+          <lb facs="#z_f68v_l092" xml:id="catmus_f68v_l092"/>
+          <seg type="raw_unreviewed">‸ caliii</seg>
+          <lb facs="#z_f68v_l093" xml:id="catmus_f68v_l093"/>
+          <seg type="raw_unreviewed">re</seg>
+          <lb facs="#z_f68v_l094" xml:id="catmus_f68v_l094"/>
+          <seg type="raw_unreviewed">o de d̾i</seg>
+          <lb facs="#z_f68v_l095" xml:id="catmus_f68v_l095"/>
+          <seg type="raw_unreviewed">dingͭ ils</seg>
+          <lb facs="#z_f68v_l096" xml:id="catmus_f68v_l096"/>
+          <seg type="raw_unreviewed">piiłũ ie</seg>
+          <lb facs="#z_f68v_l097" xml:id="catmus_f68v_l097"/>
+          <seg type="raw_unreviewed">peuefĩt d</seg>
+          <lb facs="#z_f68v_l098" xml:id="catmus_f68v_l098"/>
+          <seg type="raw_unreviewed">Sñ ꝑh. 2</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f68v_l001" xml:id="medusa_f68v_l001"/>
+          <seg type="raw_unreviewed">cũ submixit d. Testificor coram deo et Christo. qui iudicaturus est viuos et mortuos.</seg>
+          <lb facs="#z_f68v_l002" xml:id="medusa_f68v_l002"/>
+          <seg type="raw_unreviewed">ꝑ aduentũ ipsis et regni ejus predicati G. Dei gratia in sua optime</seg>
+          <lb facs="#z_f68v_l003" xml:id="medusa_f68v_l003"/>
+          <seg type="raw_unreviewed">i. acrima. nolentes ĩcipi. a ssꝑis u̾b. r̃sistentes ĩ oĩ patiencia r̃pungnãtim</seg>
+          <lb facs="#z_f68v_l004" xml:id="medusa_f68v_l004"/>
+          <seg type="raw_unreviewed">et Doctrinam accipientes .i. ita ut paciem sustineñs repugnantes / et doceas accipientes</seg>
+          <lb facs="#z_f68v_l005" xml:id="medusa_f68v_l005"/>
+          <seg type="raw_unreviewed">ditꝰ glo. Sic grȩ p. ꝙ ncc̃itas nos ĩpellit ad dc̃m p̃dca̅m p̃dicãdam ⁊ ad sesti</seg>
+          <lb facs="#z_f68v_l006" xml:id="medusa_f68v_l006"/>
+          <seg type="raw_unreviewed">citũdos p̃latos suꝑ illis ĩqͥrendꝭ In hiis aut̃ sc̃bũdꝭ ꝑiclis ꝓcedenꝭ hᶜ mo</seg>
+          <lb facs="#z_f68v_l007" xml:id="medusa_f68v_l007"/>
+          <seg type="raw_unreviewed">p̾ᵒ ꝙ ĩ ecc̃a diᵒ. multi ⁊ magi ꝑculũ sint futu᷑ Secdõ ꝑturꝰ moĩ hoĩes sint</seg>
+          <lb facs="#z_f68v_l008" xml:id="medusa_f68v_l008"/>
+          <seg type="raw_unreviewed">futurum Tercio qm̃ habiles et ydonei erũt ad periculum et dñcũda.</seg>
+          <lb facs="#z_f68v_l009" xml:id="medusa_f68v_l009"/>
+          <seg type="raw_unreviewed">e so verlin</seg>
+          <lb facs="#z_f68v_l010" xml:id="medusa_f68v_l010"/>
+          <seg type="raw_unreviewed">t᷑ s̃ pa</seg>
+          <lb facs="#z_f68v_l011" xml:id="medusa_f68v_l011"/>
+          <seg type="raw_unreviewed">a</seg>
+          <lb facs="#z_f68v_l012" xml:id="medusa_f68v_l012"/>
+          <seg type="raw_unreviewed">iᵃ p̃dicti q̃ induent iᵒ qᵒ illi procedunt ĩ p̃nitis ĩdncũdꝭ. 6</seg>
+          <lb facs="#z_f68v_l013" xml:id="medusa_f68v_l013"/>
+          <seg type="raw_unreviewed">ante sibi inultu peribant in multis periculis . et ipsi erunt constituti</seg>
+          <lb facs="#z_f68v_l014" xml:id="medusa_f68v_l014"/>
+          <seg type="raw_unreviewed">tuis / min erunt</seg>
+          <lb facs="#z_f68v_l015" xml:id="medusa_f68v_l015"/>
+          <seg type="raw_unreviewed">ipso et ipsi predi</seg>
+          <lb facs="#z_f68v_l016" xml:id="medusa_f68v_l016"/>
+          <seg type="raw_unreviewed">se ipsos constituent</seg>
+          <lb facs="#z_f68v_l017" xml:id="medusa_f68v_l017"/>
+          <seg type="raw_unreviewed">aᵒ. condere in quibus participis et ipsi erũt constituti. Quoquoq. q̃ nͥ p̃miderũt iᵗⁱ picum</seg>
+          <lb facs="#z_f68v_l018" xml:id="medusa_f68v_l018"/>
+          <seg type="raw_unreviewed">a priori non predicaverunt pabunt in illi . ixᵒ. ne ips dicat . de predicto periculo . non</seg>
+          <lb facs="#z_f68v_l019" xml:id="medusa_f68v_l019"/>
+          <seg type="raw_unreviewed">dũ eẽ cunand. utpote ad huc remotꝭ. oñ deꝰ ꝑ quodrũ signa / in ꝑtĩã nõ</seg>
+          <lb facs="#z_f68v_l020" xml:id="medusa_f68v_l020"/>
+          <seg type="raw_unreviewed">longe r̾mota. s satꝭ ꝓpinqͣ. ⁊ iõ. ꝙ eoꝵ ĩqͥsicõ ⁊ r̃ pulsio. ĩ</seg>
+          <lb facs="#z_f68v_l021" xml:id="medusa_f68v_l021"/>
+          <seg type="raw_unreviewed">Christo qͣm o iᵒ per clausam p̃mbe͂ ⁊ p̃nuntiae / ⁊ a fidelibus r</seg>
+          <lb facs="#z_f68v_l022" xml:id="medusa_f68v_l022"/>
+          <seg type="raw_unreviewed">plꝰ diffen̾da</seg>
+          <lb facs="#z_f68v_l023" xml:id="medusa_f68v_l023"/>
+          <seg type="raw_unreviewed">pe</seg>
+          <lb facs="#z_f68v_l024" xml:id="medusa_f68v_l024"/>
+          <seg type="raw_unreviewed">et p̃dictũ tenent᷑ p̃mde̾ et p̃nctuar̾e et ab ecca r̾pelle si nõ p̃vinderũt eis et p̃nẽ</seg>
+          <lb facs="#z_f68v_l025" xml:id="medusa_f68v_l025"/>
+          <seg type="raw_unreviewed">ĩtret</seg>
+          <lb facs="#z_f68v_l026" xml:id="medusa_f68v_l026"/>
+          <seg type="raw_unreviewed">nienter pellunt / xiiᵃ. ne videar in possidetur repelli cum sint propheticе p̃dicu</seg>
+          <lb facs="#z_f68v_l027" xml:id="medusa_f68v_l027"/>
+          <seg type="raw_unreviewed">11</seg>
+          <lb facs="#z_f68v_l028" xml:id="medusa_f68v_l028"/>
+          <seg type="raw_unreviewed">pelli presentibus</seg>
+          <lb facs="#z_f68v_l029" xml:id="medusa_f68v_l029"/>
+          <seg type="raw_unreviewed">onde / quod ad tempus repelli poterunt / forte</seg>
+          <lb facs="#z_f68v_l030" xml:id="medusa_f68v_l030"/>
+          <seg type="raw_unreviewed">sine qualibet repulendi putant / xiiiio quod non putant repelli nisi per piclam uerisimiliter sit repelli</seg>
+          <lb facs="#z_f68v_l031" xml:id="medusa_f68v_l031"/>
+          <seg type="raw_unreviewed">sĩt r̃ pellũdu</seg>
+          <lb facs="#z_f68v_l032" xml:id="medusa_f68v_l032"/>
+          <seg type="raw_unreviewed">illi qui p̃dicta ꝑula ꝓcurabunt / ⁊ iõ on̾dem ubi potuerit illi ꝑiculo si homines</seg>
+          <lb facs="#z_f68v_l033" xml:id="medusa_f68v_l033"/>
+          <seg type="raw_unreviewed">potent</seg>
+          <lb facs="#z_f68v_l034" xml:id="medusa_f68v_l034"/>
+          <seg type="raw_unreviewed">ĩ beniri etc. ondus . qdũ plũ sigꝭ ĩfalsibulum . qdaz uͦ p̃bⁿᵘˢ</seg>
+          <lb facs="#z_f68v_l035" xml:id="medusa_f68v_l035"/>
+          <seg type="raw_unreviewed">predicti homines cognoscit. Si. Qis non subtilis. ac philosophici disputatorum. per q̃ potest</seg>
+          <lb facs="#z_f68v_l036" xml:id="medusa_f68v_l036"/>
+          <seg type="raw_unreviewed">et p̃diciũs a nũt duxit opponẽdum / ut sic am̃i licterꝭ a supplicitatibꝰ u̾itate</seg>
+          <lb facs="#z_f68v_l037" xml:id="medusa_f68v_l037"/>
+          <seg type="raw_unreviewed">aꝟerit. nõ iõ scõr cito mouea᷑ a suo sẽsu. s ad nos rc̃sũ h̃re dignet᷑</seg>
+          <lb facs="#z_f68v_l038" xml:id="medusa_f68v_l038"/>
+          <seg type="raw_unreviewed">Domini puti sumus ad om̃m obiciõm c̾ca ista nũc faciẽdã. o pitulante dñe. rũde</seg>
+          <lb facs="#z_f68v_l039" xml:id="medusa_f68v_l039"/>
+          <seg type="raw_unreviewed">non per disputatio et altercationem philosophorum sophistam / que ad nichil utilis est. nec ad</seg>
+          <lb facs="#z_f68v_l040" xml:id="medusa_f68v_l040"/>
+          <seg type="raw_unreviewed">subversiõ andiẽcũ s potius ꝑcollaꝰ cathoᶜᵘˢ. q̃ sola d eo ĩt̾ suo cristi</seg>
+          <lb facs="#z_f68v_l041" xml:id="medusa_f68v_l041"/>
+          <seg type="raw_unreviewed">ux̃ doctum apostoli iiᵃ. Thy iiᵒ. d. Noli uis. Itũ de̾. ad nichil n. utile est</seg>
+          <lb facs="#z_f68v_l042" xml:id="medusa_f68v_l042"/>
+          <seg type="raw_unreviewed">nͥ ad sb̃nacionẽ audientium gło qr contũcio nͥl pt̃ nͥ sb̃nate audientes / Cum</seg>
+          <lb facs="#z_f68v_l043" xml:id="medusa_f68v_l043"/>
+          <seg type="raw_unreviewed">verbosus par ẽ / uel superior uero cathoᶜᵘ̃ Concuncio ecꝭ minꝰ scabiłꝭ uł fructi</seg>
+          <lb facs="#z_f68v_l044" xml:id="medusa_f68v_l044"/>
+          <seg type="raw_unreviewed">oĩꝭ gn̾at sepe sancti plii / Eo beẽt ecꝭ ĩ tuͭeͤ clu̾ oppoĩ eliminato molino lucie</seg>
+          <lb facs="#z_f68v_l045" xml:id="medusa_f68v_l045"/>
+          <seg type="raw_unreviewed">argumento . ut moueant nostris insipientium finem Et ita . nemo paꝵ se unci</seg>
+          <lb facs="#z_f68v_l046" xml:id="medusa_f68v_l046"/>
+          <seg type="raw_unreviewed">u̾bis. l sciat eũ maͣ q̃ audiat collaꝰ 3ᵒ ĩt̾ s̾uos xͥ eẽ d. ñ altricacio</seg>
+          <lb facs="#z_f68v_l047" xml:id="medusa_f68v_l047"/>
+          <seg type="raw_unreviewed">protestamur autem ab initio / quod omnes non habent ad cautelam et instructionem et fidei ecclesie universe</seg>
+          <lb facs="#z_f68v_l048" xml:id="medusa_f68v_l048"/>
+          <seg type="raw_unreviewed">no q̃ personam aliqũ / nq̃ statum aliquem per eccãm approbatum / sed q̃ ꝓ curatutẽ uni</seg>
+          <lb facs="#z_f68v_l049" xml:id="medusa_f68v_l049"/>
+          <seg type="raw_unreviewed">lorꝭ. ⁊ ꝑiclũ eccẽ gen̾alis dictum sumꝰ / ũ ĩ uenõe nr̃a. s ex bᵘte sacꝭ</seg>
+          <lb facs="#z_f68v_l050" xml:id="medusa_f68v_l050"/>
+          <seg type="raw_unreviewed">scripture collegii michilomnesi tam omnia ecclesie correctioni supposicioni si qum in eis visum fuerit corrigendum</seg>
+          <lb facs="#z_f68v_l051" xml:id="medusa_f68v_l051"/>
+          <seg type="raw_unreviewed">secũ p̃m caꝭ num̃ ẽ. 1ꝙ dᵗ apłs .II. Th̃o. III. 1ꝙ ĩ fuili ecc̃a ĩminebũt ꝑ</seg>
+          <lb facs="#z_f68v_l052" xml:id="medusa_f68v_l052"/>
+          <seg type="raw_unreviewed">icla eccẽ uniu̾se / qr dicit apostolus ĩ hiis u̾b: h̃ ut scito / ꝑ ĩnouissis diebꝰ</seg>
+          <lb facs="#z_f68v_l053" xml:id="medusa_f68v_l053"/>
+          <seg type="raw_unreviewed">ĩ scibũt tꝑu piclõsiacꝰ glo. dᵗ. scĩs. õs ut qͥ st̃ de ecc̃a. ñ nũo tm̃ f</seg>
+          <lb facs="#z_f68v_l054" xml:id="medusa_f68v_l054"/>
+          <seg type="raw_unreviewed">merito sancti dicuntur et ita munirebunt ecclesie uniuersse / ne autem credentur et quod in exemplis</seg>
+          <lb facs="#z_f68v_l055" xml:id="medusa_f68v_l055"/>
+          <seg type="raw_unreviewed">temporibus tñi / U. tꝑre aũx ĩnumerẽt iᵃ p̃nciᵃ. dᵗ. glo. qum̃onꝰ super iᵃ uõ Ex</seg>
+          <lb facs="#z_f68v_l056" xml:id="medusa_f68v_l056"/>
+          <seg type="raw_unreviewed">hiis st̃ q̃ penetrat de mos. q̃ ẽ ĩ p̃miciũ ecc̃ia. quidũ tle̾s fuer̃t / ꝑ qͥles</seg>
+          <lb facs="#z_f68v_l057" xml:id="medusa_f68v_l057"/>
+          <seg type="raw_unreviewed">ĩstabũt iᵃ pulã s⁊ appropinquãte ĩ maĩeri młti᷑ uẽient ⁊ hᶜ dᵗ st iõ horꝵ</seg>
+          <lb facs="#z_f68v_l058" xml:id="medusa_f68v_l058"/>
+          <seg type="raw_unreviewed">p̃sũtii qͥdã s̃ ĩsine plures sutiũ st̃ / nᶜ dicus ĩ sine .i. tpe aũx tñi. 13</seg>
+          <lb facs="#z_f68v_l059" xml:id="medusa_f68v_l059"/>
+          <seg type="raw_unreviewed">t̃t dr̃ ꝑsecucõ iunx̃. cũ ꝑsecucõ ĩmin silis. ꝑsecucõ i unx̃. ĩ Joh. IIᵃ sty</seg>
+          <lb facs="#z_f68v_l060" xml:id="medusa_f68v_l060"/>
+          <seg type="raw_unreviewed">im̃ novissiũ hoã ẽ. gło .i. siłis novissie. qr siłis ẽ ꝑsecucõi futu᷑e Et ibidem</seg>
+          <lb facs="#z_f68v_l061" xml:id="medusa_f68v_l061"/>
+          <seg type="raw_unreviewed">Nũc ãt młti fcĩ sr̃ anͥxͥ. glo. cũ fn̾to ĩ petu ⁊ t̾re audiscꝭ futurꝭ añ xii</seg>
+          <lb facs="#z_f68v_l062" xml:id="medusa_f68v_l062"/>
+          <seg type="raw_unreviewed">cũ tãtu violũ ⁊ isti benĩet Et iiͣ thesꝭ iiͦ. dᵗ apl̃s de antixᵒ. m̃steriũ</seg>
+          <lb facs="#z_f68v_l063" xml:id="medusa_f68v_l063"/>
+          <seg type="raw_unreviewed">in opera et iniquitatibus glosa in appropinquare impietas sed misericordia .i. nomen pietatis publicum</seg>
+          <lb facs="#z_f68v_l064" xml:id="medusa_f68v_l064"/>
+          <seg type="raw_unreviewed">ut uelint h̃ri ministri x. cũ sint p̃sentes sic p. ꝙ ꝓpe finalem ecc̃iã</seg>
+          <lb facs="#z_f68v_l065" xml:id="medusa_f68v_l065"/>
+          <seg type="raw_unreviewed">siẽt ci</seg>
+          <lb facs="#z_f68v_l066" xml:id="medusa_f68v_l066"/>
+          <seg type="raw_unreviewed">et sancte p̃lat</seg>
+          <lb facs="#z_f68v_l067" xml:id="medusa_f68v_l067"/>
+          <seg type="raw_unreviewed">her a d̃a</seg>
+          <lb facs="#z_f68v_l068" xml:id="medusa_f68v_l068"/>
+          <seg type="raw_unreviewed">m̃tes mi</seg>
+          <lb facs="#z_f68v_l069" xml:id="medusa_f68v_l069"/>
+          <seg type="raw_unreviewed">fiet pro ditoe</seg>
+          <lb facs="#z_f68v_l070" xml:id="medusa_f68v_l070"/>
+          <seg type="raw_unreviewed">yt̃ii uł ꝓcatorum</seg>
+          <lb facs="#z_f68v_l071" xml:id="medusa_f68v_l071"/>
+          <seg type="raw_unreviewed">li fiet ceti</seg>
+          <lb facs="#z_f68v_l072" xml:id="medusa_f68v_l072"/>
+          <seg type="raw_unreviewed">hẽt imidi</seg>
+          <lb facs="#z_f68v_l073" xml:id="medusa_f68v_l073"/>
+          <seg type="raw_unreviewed">carinales desicunt</seg>
+          <lb facs="#z_f68v_l074" xml:id="medusa_f68v_l074"/>
+          <seg type="raw_unreviewed">se ip̃s aãm</seg>
+          <lb facs="#z_f68v_l075" xml:id="medusa_f68v_l075"/>
+          <seg type="raw_unreviewed">sine affa</seg>
+          <lb facs="#z_f68v_l076" xml:id="medusa_f68v_l076"/>
+          <seg type="raw_unreviewed">tuunde</seg>
+          <lb facs="#z_f68v_l077" xml:id="medusa_f68v_l077"/>
+          <seg type="raw_unreviewed">hiis</seg>
+          <lb facs="#z_f68v_l078" xml:id="medusa_f68v_l078"/>
+          <seg type="raw_unreviewed">ndie n̾d̾ confess</seg>
+          <lb facs="#z_f68v_l079" xml:id="medusa_f68v_l079"/>
+          <seg type="raw_unreviewed">hãd oorn . que de</seg>
+          <lb facs="#z_f68v_l080" xml:id="medusa_f68v_l080"/>
+          <seg type="raw_unreviewed">domini ꝯstruere . not</seg>
+          <lb facs="#z_f68v_l081" xml:id="medusa_f68v_l081"/>
+          <seg type="raw_unreviewed">aiz h3 aherin</seg>
+          <lb facs="#z_f68v_l082" xml:id="medusa_f68v_l082"/>
+          <seg type="raw_unreviewed">patin. glo. pu</seg>
+          <lb facs="#z_f68v_l083" xml:id="medusa_f68v_l083"/>
+          <seg type="raw_unreviewed">nostrum actumque sine</seg>
+          <lb facs="#z_f68v_l084" xml:id="medusa_f68v_l084"/>
+          <seg type="raw_unreviewed">pastor hospitum</seg>
+          <lb facs="#z_f68v_l085" xml:id="medusa_f68v_l085"/>
+          <seg type="raw_unreviewed">edicunt exspectant</seg>
+          <lb facs="#z_f68v_l086" xml:id="medusa_f68v_l086"/>
+          <seg type="raw_unreviewed">recipi ñ d e</seg>
+          <lb facs="#z_f68v_l087" xml:id="medusa_f68v_l087"/>
+          <seg type="raw_unreviewed">sedie dolose / et</seg>
+          <lb facs="#z_f68v_l088" xml:id="medusa_f68v_l088"/>
+          <seg type="raw_unreviewed">saͤbit a biis pꝰ ne</seg>
+          <lb facs="#z_f68v_l089" xml:id="medusa_f68v_l089"/>
+          <seg type="raw_unreviewed">dass syn̄ allenn̄</seg>
+          <lb facs="#z_f68v_l090" xml:id="medusa_f68v_l090"/>
+          <seg type="raw_unreviewed">wi esenĩ / nõ ĩ t̾</seg>
+          <lb facs="#z_f68v_l091" xml:id="medusa_f68v_l091"/>
+          <seg type="raw_unreviewed">meum fundulum. u.</seg>
+          <lb facs="#z_f68v_l092" xml:id="medusa_f68v_l092"/>
+          <seg type="raw_unreviewed">gaultier</seg>
+          <lb facs="#z_f68v_l093" xml:id="medusa_f68v_l093"/>
+          <seg type="raw_unreviewed">ĩ re</seg>
+          <lb facs="#z_f68v_l094" xml:id="medusa_f68v_l094"/>
+          <seg type="raw_unreviewed">eos de die</seg>
+          <lb facs="#z_f68v_l095" xml:id="medusa_f68v_l095"/>
+          <seg type="raw_unreviewed">subung ap</seg>
+          <lb facs="#z_f68v_l096" xml:id="medusa_f68v_l096"/>
+          <seg type="raw_unreviewed">et iᵃ ꝑula</seg>
+          <lb facs="#z_f68v_l097" xml:id="medusa_f68v_l097"/>
+          <seg type="raw_unreviewed">penetrat d</seg>
+          <lb facs="#z_f68v_l098" xml:id="medusa_f68v_l098"/>
+          <seg type="raw_unreviewed">Bn̾ ꝑt . 21</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f68v_l001 #z_f68v_l002 #z_f68v_l003 #z_f68v_l004 #z_f68v_l005" xml:id="u_68v_001">[…] subicit: Testificor coram Deo et Iesu Christo qui iudicaturus est vivos et mortuos per adventum ipsius et regnum eius: Praedica verbum Dei, insta opportune, importune, argue, obsecra, […] nolentes in culpa asperis verbis, resistentes in omni patientia et doctrina accipientes, id est ita ut patienter sustineas repugnantes et doceas accipientes. Haec Glossa. Hinc ergo patet quod necessitas nos impellit ad dicta pericula praedicanda […].</p>
+        <note type="editorial" corresp="#u_68v_001" xml:lang="cs">Citace a glosa nejsou na3 syntakticky zcela jasné, proto mezera; nerozvedeno podle Bible. Zde se obhajuje povinnost upozorňovat na nebezpečí.</note>
+        <p facs="#z_f68v_l006 #z_f68v_l007 #z_f68v_l008" xml:id="u_68v_002">[…] ad sollicitandos praelatos super illis inquirendis. In his autem […] periculis procedemus hoc modo, quod primo quod in ecclesia Dei multa et magna pericula sunt futura; secundo per […] cuiusmodi homines sunt futura; tertio quam habiles et idonei erunt ad pericula inducenda […].</p>
+        <note type="editorial" corresp="#u_68v_002" xml:lang="cs">Začátek členěného programu spisu. Nejasný začátek6 ponechán, výčet pokračuje fragmenty9–34.</note>
+        <p facs="#z_f68v_l009 #z_f68v_l010 #z_f68v_l011 #z_f68v_l012 #z_f68v_l013 #z_f68v_l014 #z_f68v_l015 #z_f68v_l016 #z_f68v_l017 #z_f68v_l018 #z_f68v_l019 #z_f68v_l020 #z_f68v_l021 #z_f68v_l022 #z_f68v_l023 #z_f68v_l024 #z_f68v_l025 #z_f68v_l026 #z_f68v_l027 #z_f68v_l028 #z_f68v_l029 #z_f68v_l030 #z_f68v_l031 #z_f68v_l032 #z_f68v_l033 #z_f68v_l034" xml:id="u_68v_003">[…] pericula quae inducent; quinto, qualiter illi procedunt in periculis inducendis; […] dicentes multa pericula in illis periculis et ipsi erunt constituti […]. […] Nonum, et ipsi […] se ipsos constituent […]. […] consideremus in quibus periculis et ipsi erunt constituti. Decimo, quod qui non praevideant ista pericula a praemissis non praecaveant, peribunt in illis. […] ne quis dicat de praedictis periculis non debere esse curandum, utpote adhuc remotis, ostendemus per quaedam signa ista pericula non longe remota sed satis propinqua, et ideo eorum inquisitio et repulsio non amplius differenda. […] Quod omnes ista pericula praevidere et praecavere, praecipue fideles Christi […]. […] pericula tenentur praevidere et praecavere et ab ecclesia repellere, si non praevident et […] repellunt […]. […] ne videantur impossibilia repelli, cum fuerint prophetice praedicta, […] ostendemus quod ad tempus repelli poterunt […]. […] quod non possunt repelli ista pericula nisi cognoscantur illi qui praedicta pericula procurabunt, et ideo ostendemus ubi poterunt illi […] inveniri et cognosci. […] Item plura signa infallibilia, quaedam vero probabilia […].</p>
+        <note type="editorial" corresp="#u_68v_003" xml:lang="cs">Silně rozpadlá segmentace číslovaného programu: drobné části9–11,14–16,22–23,25,27–29,31,33 patří převážně do hlavního textu nebo jeho oprav, nikoli automaticky k sousednímu listu. Pořadí a číslování celé osnovy se nepodařilo spolehlivě obnovit. Viditelné škrty26–30 nepřevádím na hladkou definitivní osnovu; konzervativní výběr čitelných vět s mezerami.</note>
+        <p facs="#z_f68v_l035 #z_f68v_l036 #z_f68v_l037 #z_f68v_l038 #z_f68v_l039 #z_f68v_l040" xml:id="u_68v_004">[…] praedicti homines cognosci. Si quis non subtilis ac philosophicus disputator contra eum […] quae dicenda sunt duxit opponendum, ut sic animi lectorum a simplicitate veritatis avertat, non ideo lector cito moveatur a suo sensu, sed ad nos recursum habere dignetur. Quoniam parati sumus ad omnem obiectionem contra istud opus faciendam, opitulante Domino, respondere, non per disputationem et altercationem philosophicam aut sophisticam quae ad nihil utilis est nisi ad subversionem audientium, sed potius per collationem catholicam quae sola debet esse inter servos Christi […].</p>
+        <note type="editorial" corresp="#u_68v_004" xml:lang="cs">Začátek35 není syntakticky jistý; záporné non může být součástí předchozí vazby, proto v překladu nejistota. Prohlášení o způsobu obhajoby díla je od37 čitelnější.</note>
+        <p facs="#z_f68v_l041 #z_f68v_l042 #z_f68v_l043 #z_f68v_l044 #z_f68v_l045 #z_f68v_l046" xml:id="u_68v_005">[…] iuxta doctrinam apostoli II Timothei II: Noli verbis contendere, ad nihil enim utile est nisi ad subversionem audientium. Glossa: Quia contentio non potest nisi subvertere audientes, quando contentiosus par est vel superior viro catholico. Contentio etiam […] vel fructuositas generat saepe scrupulum. […] argumentis, ut moveant animos insipientium […]. Et ita nec debet se […] verbis licet sciat esse vera quae audit. […] inter suos per […] non altercatione […].</p>
+        <note type="editorial" corresp="#u_68v_005" xml:lang="cs">43–46 velmi fragmentární, domnělé fructuositas zvlášť nejisté; nesmí být citováno jako hotový překlad celé glosy. Jádro citace41–42 čitelné.</note>
+        <p facs="#z_f68v_l047 #z_f68v_l048 #z_f68v_l049 #z_f68v_l050" xml:id="u_68v_006">Protestamur autem ab initio quod omnia quae hic ad cautelam et instructionem ecclesiae universae, non contra personam alicuius nec contra statum aliquem per ecclesiam approbatum, sed contra pravitatem malorum et pericula ecclesiae […] dicturi sumus, non inventione nostra sed […] sacrae scripturae collegimus. Nihilominus tamen omnia ecclesiasticae correctioni supponimus, si quid in eis visum fuerit corrigendum.</p>
+        <note type="editorial" corresp="#u_68v_006" xml:lang="cs">Výslovné vymezení cíle spisu a podřízení církevní korekci. Několik slov49 nerozluštěno; obsahový smysl zde nejde zaměňovat s moderním expertním přezkoumáním našeho přepisu.</note>
+        <p facs="#z_f68v_l051 #z_f68v_l052 #z_f68v_l053 #z_f68v_l054 #z_f68v_l055 #z_f68v_l056 #z_f68v_l057 #z_f68v_l058" xml:id="u_68v_007">[…] II Timothei III quod in fine ecclesiae imminebunt pericula ecclesiae universae, quia dicit apostolus in his verbis: Hoc scito, quod in novissimis diebus instabunt tempora periculosa. […] ait: Ex devotis, id est […] qui sunt de ecclesia non nomine tantum sed merito sancti dicuntur. Et ita imminebunt ecclesiae universae. Ne autem crederetur quod in extremis temporibus tantum, ut tempore Antichristi, imminerent ista pericula, dicit Glossa […] super: Ex his sunt qui penetrant domos, quod et in primitiva ecclesia quidam tales fuerunt per quales instabunt ista pericula. […] In maiorem multitudinem venient […]: Iam horum praecursores quidam sunt, sed in fine plures futuri sunt; nec dicitur in fine, id est tempore Antichristi tantum.</p>
+        <note type="editorial" corresp="#u_68v_007" xml:lang="cs">51 patrně přechod k první části a52–54 nejasná glosa. Ex devotis53 je návrhové a může být chybně rozvedeno; přímý latinský obsah celé věty se nedoplňuje.</note>
+        <p facs="#z_f68v_l059 #z_f68v_l060 #z_f68v_l061 #z_f68v_l062 #z_f68v_l063 #z_f68v_l064" xml:id="u_68v_008">[…] dicitur persecutio Antichristi cum persecutioni imminet similis. Persecutio Antichristi, I Ioannis II: Quoniam novissima hora est; Glossa: a simili novissima quia similis est persecutioni futurae. Et ibidem: Nunc autem multi facti sunt antichristi; Glossa: Cum tanto impetu et terrore audistis futurum Antichristum venire, et isti veniunt. Et II Thessalonicenses II dicit apostolus de Antichristo: Mysterium iam operatur iniquitatis; Glossa: Iam apparet Antichristi impietas, sed mystice, id est nomine pietatis palliata, ut velut haeretici ministri, cum sint pseudo[…]. Sic patet quod prope finalem ecclesiam […].</p>
+        <note type="editorial" corresp="#u_68v_008" xml:lang="cs">Glosy59–64 jsou částečné; hlavně61–62 a závěr64 zůstávají mezerami. Nezaměňovat autorovo apokalyptické stanovisko za aktuální soud.</note>
+        <p facs="#z_f68v_l065 #z_f68v_l066 #z_f68v_l067 #z_f68v_l068 #z_f68v_l069 #z_f68v_l070 #z_f68v_l071 #z_f68v_l072 #z_f68v_l073 #z_f68v_l074 #z_f68v_l075 #z_f68v_l076 #z_f68v_l077 #z_f68v_l078 #z_f68v_l079 #z_f68v_l080 #z_f68v_l081 #z_f68v_l082 #z_f68v_l083 #z_f68v_l084 #z_f68v_l085 #z_f68v_l086 #z_f68v_l087 #z_f68v_l088 #z_f68v_l089 #z_f68v_l090 #z_f68v_l091 #z_f68v_l092 #z_f68v_l093 #z_f68v_l094 #z_f68v_l095 #z_f68v_l096 #z_f68v_l097 #z_f68v_l098" xml:id="u_68v_009">[…]</p>
+        <note type="editorial" corresp="#u_68v_009" xml:lang="cs">Okrajové segmenty mimo hlavní text; nejsou automaticky včleněny do latinských vět. Raw HTR ponecháno.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_68v_001">[…] dodává: Zapřísahám před Bohem a Ježíšem Kristem, který bude soudit živé i mrtvé při svém příchodu a svém kralování: Hlásej Boží slovo, naléhej ve vhod i nevhod, kárej, pros […], ty, kdo nechtějí, ve vině ostrými slovy, odpírající se vší trpělivostí a ty, kteří přijímají, učením; to znamená abys trpělivě snášel odpůrce a učil přijímající. Tolik Glosa. Z toho tedy vyplývá, že nás nutnost nutí hlásat uvedená nebezpečí […].</p>
+        <p corresp="#u_68v_002">[…] aby byli představení pobízeni je prozkoumat. O těchto […] nebezpečích budeme postupovat takto: za prvé, že v Boží církvi přijde mnoho velkých nebezpečí; za druhé, skrze […] jaké lidi mají přijít; za třetí, jak způsobilí a vhodní budou k jejich uvádění […].</p>
+        <p corresp="#u_68v_003">[…] nebezpečí, která uvedou; za páté, jak budou postupovat při uvádění nebezpečí […]. […] Říkajíce mnohá nebezpečí a sami v nich budou […] ustanoveni […]. […] Za deváté i sami […] sami sebe ustanoví […]. […] Uvažujme, v jakých nebezpečích i oni budou. Za desáté, že ti, kdo tato nebezpečí nepředvídají a nepředcházejí jim, v nich zahynou. […] Aby někdo neříkal, že o uvedená nebezpečí netřeba dbát, protože jsou dosud vzdálená, ukážeme určitými znameními, že nejsou vzdálená, nýbrž dosti blízká, a proto se nemá dále odkládat jejich zkoumání a odvracení. […] Že všichni mají tato nebezpečí předvídat a předcházet jim, zvláště Kristovi věrní […]. […] Jsou povinni nebezpečí předvídat, předcházet jim a odvracet je od církve; pokud je nepředvídají a […] neodvracejí […]. […] Aby se nezdálo nemožné je odvrátit, protože byla prorocky předpovězena, […] ukážeme, že je lze na čas odvrátit […]. […] Že tato nebezpečí nelze odvrátit, nepoznají-li se ti, kdo je budou působit; proto ukážeme, kde je bude možné […] nalézt a poznat. […] Dále více neklamných znamení, některá pak pravděpodobná […].</p>
+        <p corresp="#u_68v_004">[…] mají být uvedení lidé rozpoznáni. Pokud by nějaký […] jemný a filosofický disputátor proti tomu […] pokládal za vhodné namítat proti tomu, co má být řečeno, aby tak mysl čtenářů odvrátil od prostoty pravdy, ať se čtenář proto rychle neodvrací od svého přesvědčení, ale ať se obrátí k nám. S Pánovou pomocí jsme totiž připraveni odpovědět na každou námitku proti tomuto dílu: ne filosofickou či sofistickou disputací a hádkou, jež není k ničemu kromě rozvracení posluchačů, nýbrž spíše katolickým rozhovorem, který jediný má být mezi Kristovými služebníky […].</p>
+        <p corresp="#u_68v_005">[…] podle učení apoštola ve druhém Timoteovi2: Neveď slovní pře; není to k ničemu, leč k rozvracení posluchačů. Glosa: Spor nemůže jinak než rozvracet posluchače, když je svárlivý protivník roven nebo nadřazen katolickému muži. Spor také […] či plodnost často vyvolává pochybnost. […] důvody, aby pohnuli myslí nerozumných […]. A tak se nemá […] slovy, i když ví, že to, co slyší, je pravda. […] mezi svými […] nikoli hádkou […].</p>
+        <p corresp="#u_68v_006">Od počátku však prohlašujeme, že všechno, co zde pro opatrnost a poučení všeobecné církve hodláme říci — nikoli proti něčí osobě ani proti některému církví schválenému stavu, nýbrž proti zkaženosti zlých a nebezpečím církve […] — jsme shromáždili nikoli ze svého výmyslu, ale […] z Písma svatého. Přesto všechno podřizujeme církevní opravě, bude-li se v tom něco jevit jako hodné opravení.</p>
+        <p corresp="#u_68v_007">[…] Druhý Timoteovi3: Na konci církve budou všeobecné církvi hrozit nebezpečí, neboť apoštol říká: To věz, že v posledních dnech nastanou nebezpečné časy. […] Říká: Ze zbožných, to jest […] ti, kdo jsou z církve nejen jménem, ale i zásluhou, jsou nazýváni svatými. A tak budou hrozit celé církvi. Aby se však nemyslelo, že tato nebezpečí budou hrozit pouze na úplném konci, například za Antikrista, říká Glosa […] ke slovům: Z nich jsou ti, kdo pronikají do domů, že i v prvotní církvi byli někteří takoví lidé, skrze něž tato nebezpečí nastanou. […] Přijdou ve větším počtu […]: Někteří jejich předchůdci jsou již nyní, ale na konci jich bude více; konec zde neznamená pouze dobu Antikrista.</p>
+        <p corresp="#u_68v_008">[…] Nazývá se pronásledováním Antikrista, protože je podobné hrozícímu pronásledování. Pronásledování Antikrista, první Janův2: Je poslední hodina; Glosa: obdobně poslední, protože se podobá budoucímu pronásledování. A tamtéž: Nyní se již mnozí stali antikristy; Glosa: Slyšeli jste, že Antikrist přijde s takovým náporem a hrůzou, a tito přicházejí […]. A ve druhém Tesalonickým2 apoštol o Antikristu říká: Tajemství nepravosti již působí; Glosa: Již se ukazuje Antikristova bezbožnost, avšak tajemně, tedy zahalená jménem zbožnosti, jako […] heretičtí služebníci, ačkoli jsou falešnými […]. Tak se ukazuje, že blízko konečné církve […].</p>
+        <p corresp="#u_68v_009">[Uříznuté zlomky sousedního listu na pravém okraji.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

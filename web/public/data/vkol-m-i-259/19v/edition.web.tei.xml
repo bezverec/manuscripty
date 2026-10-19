@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 19v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: De occulta vita Iesu Christi. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_19v_coordinate; PNG SHA256 2111344f625995fe7a779d00c9e5b1fabfc6790922d310fbfc613ce1bb1f66bc; archival TIFF SHA256 82cbb7b135e14033efa8da1d1596e11ba89e009e725f45051c9d74c4023f3cbc; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_19v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#19v"/>
+      <zone ulx="217" uly="2933" lrx="672" lry="3092" xml:id="z_f19v_l001"/>
+      <zone ulx="865" uly="584" lrx="3395" lry="768" xml:id="z_f19v_l002"/>
+      <zone ulx="834" uly="731" lrx="3395" lry="892" xml:id="z_f19v_l003"/>
+      <zone ulx="815" uly="833" lrx="3420" lry="998" xml:id="z_f19v_l004"/>
+      <zone ulx="815" uly="955" lrx="3420" lry="1135" xml:id="z_f19v_l005"/>
+      <zone ulx="753" uly="1073" lrx="3383" lry="1272" xml:id="z_f19v_l006"/>
+      <zone ulx="793" uly="1204" lrx="3433" lry="1387" xml:id="z_f19v_l007"/>
+      <zone ulx="815" uly="1340" lrx="3377" lry="1499" xml:id="z_f19v_l008"/>
+      <zone ulx="815" uly="1452" lrx="3408" lry="1617" xml:id="z_f19v_l009"/>
+      <zone ulx="812" uly="1577" lrx="3451" lry="1754" xml:id="z_f19v_l010"/>
+      <zone ulx="809" uly="1698" lrx="3426" lry="1860" xml:id="z_f19v_l011"/>
+      <zone ulx="787" uly="1820" lrx="3467" lry="1997" xml:id="z_f19v_l012"/>
+      <zone ulx="793" uly="1950" lrx="3383" lry="2121" xml:id="z_f19v_l013"/>
+      <zone ulx="793" uly="2093" lrx="3430" lry="2255" xml:id="z_f19v_l014"/>
+      <zone ulx="806" uly="2224" lrx="3389" lry="2386" xml:id="z_f19v_l015"/>
+      <zone ulx="806" uly="2352" lrx="3417" lry="2520" xml:id="z_f19v_l016"/>
+      <zone ulx="803" uly="2476" lrx="3445" lry="2650" xml:id="z_f19v_l017"/>
+      <zone ulx="815" uly="2619" lrx="3377" lry="2784" xml:id="z_f19v_l018"/>
+      <zone ulx="818" uly="2750" lrx="3414" lry="2912" xml:id="z_f19v_l019"/>
+      <zone ulx="799" uly="2871" lrx="3414" lry="3042" xml:id="z_f19v_l020"/>
+      <zone ulx="196" uly="4203" lrx="815" lry="4392" xml:id="z_f19v_l021"/>
+      <zone ulx="818" uly="3005" lrx="3386" lry="3179" xml:id="z_f19v_l022"/>
+      <zone ulx="831" uly="3132" lrx="3445" lry="3304" xml:id="z_f19v_l023"/>
+      <zone ulx="827" uly="3254" lrx="3408" lry="3434" xml:id="z_f19v_l024"/>
+      <zone ulx="831" uly="3384" lrx="3439" lry="3559" xml:id="z_f19v_l025"/>
+      <zone ulx="837" uly="3506" lrx="3358" lry="3680" xml:id="z_f19v_l026"/>
+      <zone ulx="843" uly="3658" lrx="3367" lry="3826" xml:id="z_f19v_l027"/>
+      <zone ulx="849" uly="3776" lrx="3321" lry="3963" xml:id="z_f19v_l028"/>
+      <zone ulx="862" uly="3913" lrx="3395" lry="4097" xml:id="z_f19v_l029"/>
+      <zone ulx="868" uly="4056" lrx="3373" lry="4221" xml:id="z_f19v_l030"/>
+      <zone ulx="865" uly="4184" lrx="3436" lry="4358" xml:id="z_f19v_l031"/>
+      <zone ulx="880" uly="4315" lrx="3386" lry="4551" xml:id="z_f19v_l032"/>
+      <zone ulx="3700" uly="2090" lrx="3887" lry="2202" xml:id="z_f19v_l033"/>
+      <zone ulx="3691" uly="2171" lrx="3887" lry="2299" xml:id="z_f19v_l034"/>
+      <zone ulx="3700" uly="2283" lrx="3890" lry="2423" xml:id="z_f19v_l035"/>
+      <zone ulx="3719" uly="2448" lrx="3875" lry="2625" xml:id="z_f19v_l036"/>
+      <zone ulx="3694" uly="2576" lrx="3884" lry="2719" xml:id="z_f19v_l037"/>
+      <zone ulx="3682" uly="2697" lrx="3887" lry="2815" xml:id="z_f19v_l038"/>
+      <zone ulx="3694" uly="2800" lrx="3887" lry="3011" xml:id="z_f19v_l039"/>
+      <zone ulx="3685" uly="2980" lrx="3890" lry="3098" xml:id="z_f19v_l040"/>
+      <zone ulx="3682" uly="3061" lrx="3890" lry="3201" xml:id="z_f19v_l041"/>
+      <zone ulx="3691" uly="3216" lrx="3890" lry="3372" xml:id="z_f19v_l042"/>
+      <zone ulx="3688" uly="3304" lrx="3887" lry="3465" xml:id="z_f19v_l043"/>
+      <zone ulx="3675" uly="3490" lrx="3890" lry="3630" xml:id="z_f19v_l044"/>
+      <zone ulx="3682" uly="3593" lrx="3887" lry="3733" xml:id="z_f19v_l045"/>
+      <zone ulx="3675" uly="3755" lrx="3890" lry="3857" xml:id="z_f19v_l046"/>
+      <zone ulx="3685" uly="3845" lrx="3887" lry="3991" xml:id="z_f19v_l047"/>
+      <zone ulx="3688" uly="4025" lrx="3875" lry="4125" xml:id="z_f19v_l048"/>
+      <zone ulx="3685" uly="4119" lrx="3884" lry="4259" xml:id="z_f19v_l049"/>
+      <zone ulx="3691" uly="4237" lrx="3847" lry="4386" xml:id="z_f19v_l050"/>
+      <zone ulx="3685" uly="4386" lrx="3859" lry="4504" xml:id="z_f19v_l051"/>
+      <zone ulx="196" uly="1113" lrx="572" lry="1247" xml:id="z_f19v_l052"/>
+      <zone ulx="3741" uly="672" lrx="3794" lry="765" xml:id="z_f19v_l053"/>
+      <zone ulx="3713" uly="765" lrx="3887" lry="883" xml:id="z_f19v_l054"/>
+      <zone ulx="3710" uly="849" lrx="3887" lry="1004" xml:id="z_f19v_l055"/>
+      <zone ulx="3722" uly="995" lrx="3884" lry="1148" xml:id="z_f19v_l056"/>
+      <zone ulx="3710" uly="1113" lrx="3881" lry="1281" xml:id="z_f19v_l057"/>
+      <zone ulx="3707" uly="1244" lrx="3887" lry="1387" xml:id="z_f19v_l058"/>
+      <zone ulx="3700" uly="1365" lrx="3887" lry="1530" xml:id="z_f19v_l059"/>
+      <zone ulx="3700" uly="1480" lrx="3887" lry="1617" xml:id="z_f19v_l060"/>
+      <zone ulx="3710" uly="1611" lrx="3890" lry="1798" xml:id="z_f19v_l061"/>
+      <zone ulx="3725" uly="1810" lrx="3865" lry="1922" xml:id="z_f19v_l062"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f19v_l001" xml:id="catmus_f19v_l001"/>
+          <seg type="raw_unreviewed">ruderiii</seg>
+          <lb facs="#z_f19v_l002" xml:id="catmus_f19v_l002"/>
+          <seg type="raw_unreviewed">citat᷑ꝭ poꝑt ꝓnũ dei onũi scudĩo famã utntibq̃ ui</seg>
+          <lb facs="#z_f19v_l003" xml:id="catmus_f19v_l003"/>
+          <seg type="raw_unreviewed">cesiuratꝰ digito cõcuciet᷑ in corde et no tecusso</seg>
+          <lb facs="#z_f19v_l004" xml:id="catmus_f19v_l004"/>
+          <seg type="raw_unreviewed">turbabi᷑ requies nõ est sapiõtꝭ fistrlti uiuere</seg>
+          <lb facs="#z_f19v_l005" xml:id="catmus_f19v_l005"/>
+          <seg type="raw_unreviewed">oyinate ad i̾tatẽ oꝑt amblae credentes semꝑ</seg>
+          <lb facs="#z_f19v_l006" xml:id="catmus_f19v_l006"/>
+          <seg type="raw_unreviewed">ĩ iusuiis seͥ laboatores. spolabit᷑ uestitu i cidc̃s</seg>
+          <lb facs="#z_f19v_l007" xml:id="catmus_f19v_l007"/>
+          <seg type="raw_unreviewed">ĩ cos difficile fit alienũ si̾ ado onui ꝯsoite nate᷑</seg>
+          <lb facs="#z_f19v_l008" xml:id="catmus_f19v_l008"/>
+          <seg type="raw_unreviewed">si ꝯsorau scpe diuorciamt adeos piclosa ꝯgres</seg>
+          <lb facs="#z_f19v_l009" xml:id="catmus_f19v_l009"/>
+          <seg type="raw_unreviewed">sio ẽ ctae̾ cũ landibi unit̾e ututibi. famã ago</seg>
+          <lb facs="#z_f19v_l010" xml:id="catmus_f19v_l010"/>
+          <seg type="raw_unreviewed">izac̃õ est ueorp bonoꝵs nõ uiuit sibi qͦd uequi</seg>
+          <lb facs="#z_f19v_l011" xml:id="catmus_f19v_l011"/>
+          <seg type="raw_unreviewed">us est nec xp̃o qui donificanit ĩcordibi aliors</seg>
+          <lb facs="#z_f19v_l012" xml:id="catmus_f19v_l012"/>
+          <seg type="raw_unreviewed">uni̾e ĩ deiecta prudencia Redempco est aqͣriis</seg>
+          <lb facs="#z_f19v_l013" xml:id="catmus_f19v_l013"/>
+          <seg type="raw_unreviewed">a anquẽtũ ꝯtẽplatonis Iupossiᷝ ͤ fit ꝙ os</seg>
+          <lb facs="#z_f19v_l014" xml:id="catmus_f19v_l014"/>
+          <seg type="raw_unreviewed">heant corpalx secretũ s metꝭ oyti p̃ taare</seg>
+          <lb facs="#z_f19v_l015" xml:id="catmus_f19v_l015"/>
+          <seg type="raw_unreviewed">uclamẽ Extiores touebre at perales os</seg>
+          <lb facs="#z_f19v_l016" xml:id="catmus_f19v_l016"/>
+          <seg type="raw_unreviewed">t̾iora quentibi astistũt᷑ confidut iłti nõ ta</seg>
+          <lb facs="#z_f19v_l017" xml:id="catmus_f19v_l017"/>
+          <seg type="raw_unreviewed">de ĩ oñsione u̾tutꝭ Et si aliqii ita cedit admi</seg>
+          <lb facs="#z_f19v_l018" xml:id="catmus_f19v_l018"/>
+          <seg type="raw_unreviewed">uor no daus tã deoũsione ꝑceptũ magꝭ uõ</seg>
+          <lb facs="#z_f19v_l019" xml:id="catmus_f19v_l019"/>
+          <seg type="raw_unreviewed">assenans fut tucuis esse secrrtũ Igit᷑ omiã</seg>
+          <lb facs="#z_f19v_l020" xml:id="catmus_f19v_l020"/>
+          <seg type="raw_unreviewed">celabũt rudei Oꝑt folimi ucc̃teni nõ uolĩ</seg>
+          <lb facs="#z_f19v_l021" xml:id="catmus_f19v_l021"/>
+          <seg type="raw_unreviewed">al abunerut</seg>
+          <lb facs="#z_f19v_l022" xml:id="catmus_f19v_l022"/>
+          <seg type="raw_unreviewed">tatẽ ad oñsiomi in cansa suppone adocltand</seg>
+          <lb facs="#z_f19v_l023" xml:id="catmus_f19v_l023"/>
+          <seg type="raw_unreviewed">uitã siłr ⁊ ututẽ Ad iuxet̾a ẽ ꝑeg̾uato isolitu</seg>
+          <lb facs="#z_f19v_l024" xml:id="catmus_f19v_l024"/>
+          <seg type="raw_unreviewed">do S ignorãtes nłti ꝑ eg̾natõnis dicritõne</seg>
+          <lb facs="#z_f19v_l025" xml:id="catmus_f19v_l025"/>
+          <seg type="raw_unreviewed">i illa nanfragiu ytulerũt Ox oñsione ĩ hen</seg>
+          <lb facs="#z_f19v_l026" xml:id="catmus_f19v_l026"/>
+          <seg type="raw_unreviewed">tis boni ciues esstĩ ubi debunt qsse peguisꝑ</seg>
+          <lb facs="#z_f19v_l027" xml:id="catmus_f19v_l027"/>
+          <seg type="raw_unreviewed">repxrnt quã plnes ad int̾iora deẜli agẽtes</seg>
+          <lb facs="#z_f19v_l028" xml:id="catmus_f19v_l028"/>
+          <seg type="raw_unreviewed">iguotã homibi intã daẽtes colestib cunbi</seg>
+          <lb facs="#z_f19v_l029" xml:id="catmus_f19v_l029"/>
+          <seg type="raw_unreviewed">esse nõtã multi uo alit̾ occłtae nõ ualentes</seg>
+          <lb facs="#z_f19v_l030" xml:id="catmus_f19v_l030"/>
+          <seg type="raw_unreviewed">fatintate moĩb oñdunt. xp̃ifcam sapiãm</seg>
+          <lb facs="#z_f19v_l031" xml:id="catmus_f19v_l031"/>
+          <seg type="raw_unreviewed">meditãtes Aliqui ꝑsilentiũ ob mutiu̾it᷑</seg>
+          <lb facs="#z_f19v_l032" xml:id="catmus_f19v_l032"/>
+          <seg type="raw_unreviewed">subam celestiũ moꝵ drat en eis romrbꝰ de</seg>
+          <lb facs="#z_f19v_l033" xml:id="catmus_f19v_l033"/>
+          <seg type="raw_unreviewed">it ds</seg>
+          <lb facs="#z_f19v_l034" xml:id="catmus_f19v_l034"/>
+          <seg type="raw_unreviewed">care h</seg>
+          <lb facs="#z_f19v_l035" xml:id="catmus_f19v_l035"/>
+          <seg type="raw_unreviewed">placitio</seg>
+          <lb facs="#z_f19v_l036" xml:id="catmus_f19v_l036"/>
+          <seg type="raw_unreviewed">fcat</seg>
+          <lb facs="#z_f19v_l037" xml:id="catmus_f19v_l037"/>
+          <seg type="raw_unreviewed">fiora</seg>
+          <lb facs="#z_f19v_l038" xml:id="catmus_f19v_l038"/>
+          <seg type="raw_unreviewed">para</seg>
+          <lb facs="#z_f19v_l039" xml:id="catmus_f19v_l039"/>
+          <seg type="raw_unreviewed">si offt̾n</seg>
+          <lb facs="#z_f19v_l040" xml:id="catmus_f19v_l040"/>
+          <seg type="raw_unreviewed">iut ¶or</seg>
+          <lb facs="#z_f19v_l041" xml:id="catmus_f19v_l041"/>
+          <seg type="raw_unreviewed">Renude</seg>
+          <lb facs="#z_f19v_l042" xml:id="catmus_f19v_l042"/>
+          <seg type="raw_unreviewed">moros</seg>
+          <lb facs="#z_f19v_l043" xml:id="catmus_f19v_l043"/>
+          <seg type="raw_unreviewed">Qse cod</seg>
+          <lb facs="#z_f19v_l044" xml:id="catmus_f19v_l044"/>
+          <seg type="raw_unreviewed">homi e</seg>
+          <lb facs="#z_f19v_l045" xml:id="catmus_f19v_l045"/>
+          <seg type="raw_unreviewed">ALOPP</seg>
+          <lb facs="#z_f19v_l046" xml:id="catmus_f19v_l046"/>
+          <seg type="raw_unreviewed">Lomo</seg>
+          <lb facs="#z_f19v_l047" xml:id="catmus_f19v_l047"/>
+          <seg type="raw_unreviewed">bone</seg>
+          <lb facs="#z_f19v_l048" xml:id="catmus_f19v_l048"/>
+          <seg type="raw_unreviewed">uo q</seg>
+          <lb facs="#z_f19v_l049" xml:id="catmus_f19v_l049"/>
+          <seg type="raw_unreviewed">⁊ opƿe</seg>
+          <lb facs="#z_f19v_l050" xml:id="catmus_f19v_l050"/>
+          <seg type="raw_unreviewed">ꝓcde</seg>
+          <lb facs="#z_f19v_l051" xml:id="catmus_f19v_l051"/>
+          <seg type="raw_unreviewed">nali</seg>
+          <lb facs="#z_f19v_l052" xml:id="catmus_f19v_l052"/>
+          <seg type="raw_unreviewed">latroues</seg>
+          <lb facs="#z_f19v_l053" xml:id="catmus_f19v_l053"/>
+          <seg type="raw_unreviewed">Al</seg>
+          <lb facs="#z_f19v_l054" xml:id="catmus_f19v_l054"/>
+          <seg type="raw_unreviewed">ano</seg>
+          <lb facs="#z_f19v_l055" xml:id="catmus_f19v_l055"/>
+          <seg type="raw_unreviewed">cat /a</seg>
+          <lb facs="#z_f19v_l056" xml:id="catmus_f19v_l056"/>
+          <seg type="raw_unreviewed">ꝓccia</seg>
+          <lb facs="#z_f19v_l057" xml:id="catmus_f19v_l057"/>
+          <seg type="raw_unreviewed">Sigri</seg>
+          <lb facs="#z_f19v_l058" xml:id="catmus_f19v_l058"/>
+          <seg type="raw_unreviewed">mai</seg>
+          <lb facs="#z_f19v_l059" xml:id="catmus_f19v_l059"/>
+          <seg type="raw_unreviewed">dener</seg>
+          <lb facs="#z_f19v_l060" xml:id="catmus_f19v_l060"/>
+          <seg type="raw_unreviewed">orua</seg>
+          <lb facs="#z_f19v_l061" xml:id="catmus_f19v_l061"/>
+          <seg type="raw_unreviewed">Iulssol</seg>
+          <lb facs="#z_f19v_l062" xml:id="catmus_f19v_l062"/>
+          <seg type="raw_unreviewed">xtu</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f19v_l001" xml:id="medusa_f19v_l001"/>
+          <seg type="raw_unreviewed">Ruderm</seg>
+          <lb facs="#z_f19v_l002" xml:id="medusa_f19v_l002"/>
+          <seg type="raw_unreviewed">scitatis Opt servi dei omn studio famam uͣtutibus vi</seg>
+          <lb facs="#z_f19v_l003" xml:id="medusa_f19v_l003"/>
+          <seg type="raw_unreviewed">te / matꝰ digito concuciet᷑ in corde / et no concusso</seg>
+          <lb facs="#z_f19v_l004" xml:id="medusa_f19v_l004"/>
+          <seg type="raw_unreviewed">turbabitur requies. Non est sapientie secundum uinere</seg>
+          <lb facs="#z_f19v_l005" xml:id="medusa_f19v_l005"/>
+          <seg type="raw_unreviewed">opinate ad u̾itatem oꝑtꝰ ambulare credentes semꝑ</seg>
+          <lb facs="#z_f19v_l006" xml:id="medusa_f19v_l006"/>
+          <seg type="raw_unreviewed">in subsidiis sunt laboratores . spoliabitur nescitu incides</seg>
+          <lb facs="#z_f19v_l007" xml:id="medusa_f19v_l007"/>
+          <seg type="raw_unreviewed">in eos difficile fit alienum sibi ab omni consorte natere</seg>
+          <lb facs="#z_f19v_l008" xml:id="medusa_f19v_l008"/>
+          <seg type="raw_unreviewed">Si consorcium sepe divortiant adeo / periclosa congressio</seg>
+          <lb facs="#z_f19v_l009" xml:id="medusa_f19v_l009"/>
+          <seg type="raw_unreviewed">sio ẽ c̾tare cũ laudib uinc̾e u̾tutib. fama ago</seg>
+          <lb facs="#z_f19v_l010" xml:id="medusa_f19v_l010"/>
+          <seg type="raw_unreviewed">nizaco est ueroꝵ bonoꝵ. Nõ unuit sibi qͦd nequi</seg>
+          <lb facs="#z_f19v_l011" xml:id="medusa_f19v_l011"/>
+          <seg type="raw_unreviewed">ris est nec xp̃o qui domificauit in cordibus aliorum</seg>
+          <lb facs="#z_f19v_l012" xml:id="medusa_f19v_l012"/>
+          <seg type="raw_unreviewed">vire in derecta prudencia Redempcio est aqͣniis</seg>
+          <lb facs="#z_f19v_l013" xml:id="medusa_f19v_l013"/>
+          <seg type="raw_unreviewed">et augmentum contemplationis Inpossibile sit quod omnes</seg>
+          <lb facs="#z_f19v_l014" xml:id="medusa_f19v_l014"/>
+          <seg type="raw_unreviewed">habeant corporale secretum sed mentis operum pretaxata</seg>
+          <lb facs="#z_f19v_l015" xml:id="medusa_f19v_l015"/>
+          <seg type="raw_unreviewed">nclamen Exiores tenebre at penales os</seg>
+          <lb facs="#z_f19v_l016" xml:id="medusa_f19v_l016"/>
+          <seg type="raw_unreviewed">tiora querentibus assistuntur Confidunt multi non ca</seg>
+          <lb facs="#z_f19v_l017" xml:id="medusa_f19v_l017"/>
+          <seg type="raw_unreviewed">de in omnisione u̾tutꝭ Et si aliquando ita cedit ad mi</seg>
+          <lb facs="#z_f19v_l018" xml:id="medusa_f19v_l018"/>
+          <seg type="raw_unreviewed">ror nõ dans tã de oñsione p̃ceptũ magꝭ u̾o</seg>
+          <lb facs="#z_f19v_l019" xml:id="medusa_f19v_l019"/>
+          <seg type="raw_unreviewed">assenians fuit tucius esse secretum Igitur omnia</seg>
+          <lb facs="#z_f19v_l020" xml:id="medusa_f19v_l020"/>
+          <seg type="raw_unreviewed">celebuntur rũdei Optʒ solum nccẽtem nõ uolũ</seg>
+          <lb facs="#z_f19v_l021" xml:id="medusa_f19v_l021"/>
+          <seg type="raw_unreviewed">alias abmerunt</seg>
+          <lb facs="#z_f19v_l022" xml:id="medusa_f19v_l022"/>
+          <seg type="raw_unreviewed">tate ad omnisionem in causa supponere ad obtandum</seg>
+          <lb facs="#z_f19v_l023" xml:id="medusa_f19v_l023"/>
+          <seg type="raw_unreviewed">nita silr ⁊ u̾tute / Ad inuẽta ẽ ꝑegͥnacõ ⁊ solitu</seg>
+          <lb facs="#z_f19v_l024" xml:id="medusa_f19v_l024"/>
+          <seg type="raw_unreviewed">do S: ignorantes ml̃ti ꝑ egͥnacõnis directõne</seg>
+          <lb facs="#z_f19v_l025" xml:id="medusa_f19v_l025"/>
+          <seg type="raw_unreviewed">in illa nansfragum protulerunt ex oratione inhere</seg>
+          <lb facs="#z_f19v_l026" xml:id="medusa_f19v_l026"/>
+          <seg type="raw_unreviewed">tis boni Cives estis ubi debuerit esse peregrini / ꝑ</seg>
+          <lb facs="#z_f19v_l027" xml:id="medusa_f19v_l027"/>
+          <seg type="raw_unreviewed">reperiit quam plures ad interiora deserti agentes</seg>
+          <lb facs="#z_f19v_l028" xml:id="medusa_f19v_l028"/>
+          <seg type="raw_unreviewed">ignotam hominibus uitam scientes celestibus cineri</seg>
+          <lb facs="#z_f19v_l029" xml:id="medusa_f19v_l029"/>
+          <seg type="raw_unreviewed">esse notam multi uero aliter occltare nõ uolentes</seg>
+          <lb facs="#z_f19v_l030" xml:id="medusa_f19v_l030"/>
+          <seg type="raw_unreviewed">finitatem moͥbꝰ ondinuit xp̃iscam sapiam</seg>
+          <lb facs="#z_f19v_l031" xml:id="medusa_f19v_l031"/>
+          <seg type="raw_unreviewed">meditantes / aliqui per silencium obmutuerunt</seg>
+          <lb facs="#z_f19v_l032" xml:id="medusa_f19v_l032"/>
+          <seg type="raw_unreviewed">sub anim celestui moꝵ Erat enĩ eis rom̃bꝰ cẽ</seg>
+          <lb facs="#z_f19v_l033" xml:id="medusa_f19v_l033"/>
+          <seg type="raw_unreviewed">sit de u</seg>
+          <lb facs="#z_f19v_l034" xml:id="medusa_f19v_l034"/>
+          <seg type="raw_unreviewed">caue h</seg>
+          <lb facs="#z_f19v_l035" xml:id="medusa_f19v_l035"/>
+          <seg type="raw_unreviewed">placitum</seg>
+          <lb facs="#z_f19v_l036" xml:id="medusa_f19v_l036"/>
+          <seg type="raw_unreviewed">profat</seg>
+          <lb facs="#z_f19v_l037" xml:id="medusa_f19v_l037"/>
+          <seg type="raw_unreviewed">tiora.</seg>
+          <lb facs="#z_f19v_l038" xml:id="medusa_f19v_l038"/>
+          <seg type="raw_unreviewed">vana</seg>
+          <lb facs="#z_f19v_l039" xml:id="medusa_f19v_l039"/>
+          <seg type="raw_unreviewed">si offric</seg>
+          <lb facs="#z_f19v_l040" xml:id="medusa_f19v_l040"/>
+          <seg type="raw_unreviewed">int hoi</seg>
+          <lb facs="#z_f19v_l041" xml:id="medusa_f19v_l041"/>
+          <seg type="raw_unreviewed">de mido</seg>
+          <lb facs="#z_f19v_l042" xml:id="medusa_f19v_l042"/>
+          <seg type="raw_unreviewed">moros</seg>
+          <lb facs="#z_f19v_l043" xml:id="medusa_f19v_l043"/>
+          <seg type="raw_unreviewed">est seco</seg>
+          <lb facs="#z_f19v_l044" xml:id="medusa_f19v_l044"/>
+          <seg type="raw_unreviewed">hom d</seg>
+          <lb facs="#z_f19v_l045" xml:id="medusa_f19v_l045"/>
+          <seg type="raw_unreviewed">aliorum</seg>
+          <lb facs="#z_f19v_l046" xml:id="medusa_f19v_l046"/>
+          <seg type="raw_unreviewed">Romio</seg>
+          <lb facs="#z_f19v_l047" xml:id="medusa_f19v_l047"/>
+          <seg type="raw_unreviewed">bone</seg>
+          <lb facs="#z_f19v_l048" xml:id="medusa_f19v_l048"/>
+          <seg type="raw_unreviewed">no ꝙ</seg>
+          <lb facs="#z_f19v_l049" xml:id="medusa_f19v_l049"/>
+          <seg type="raw_unreviewed">⁊ oꝑpo</seg>
+          <lb facs="#z_f19v_l050" xml:id="medusa_f19v_l050"/>
+          <seg type="raw_unreviewed">pede.</seg>
+          <lb facs="#z_f19v_l051" xml:id="medusa_f19v_l051"/>
+          <seg type="raw_unreviewed">nam</seg>
+          <lb facs="#z_f19v_l052" xml:id="medusa_f19v_l052"/>
+          <seg type="raw_unreviewed">latrones</seg>
+          <lb facs="#z_f19v_l053" xml:id="medusa_f19v_l053"/>
+          <seg type="raw_unreviewed">des</seg>
+          <lb facs="#z_f19v_l054" xml:id="medusa_f19v_l054"/>
+          <seg type="raw_unreviewed">ad non</seg>
+          <lb facs="#z_f19v_l055" xml:id="medusa_f19v_l055"/>
+          <seg type="raw_unreviewed">tat a</seg>
+          <lb facs="#z_f19v_l056" xml:id="medusa_f19v_l056"/>
+          <seg type="raw_unreviewed">sunt ecclesia</seg>
+          <lb facs="#z_f19v_l057" xml:id="medusa_f19v_l057"/>
+          <seg type="raw_unreviewed">signi</seg>
+          <lb facs="#z_f19v_l058" xml:id="medusa_f19v_l058"/>
+          <seg type="raw_unreviewed">mani</seg>
+          <lb facs="#z_f19v_l059" xml:id="medusa_f19v_l059"/>
+          <seg type="raw_unreviewed">deuer</seg>
+          <lb facs="#z_f19v_l060" xml:id="medusa_f19v_l060"/>
+          <seg type="raw_unreviewed">omnia</seg>
+          <lb facs="#z_f19v_l061" xml:id="medusa_f19v_l061"/>
+          <seg type="raw_unreviewed">sub sole</seg>
+          <lb facs="#z_f19v_l062" xml:id="medusa_f19v_l062"/>
+          <seg type="raw_unreviewed">desz tri</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f19v_l001 #z_f19v_l002 #z_f19v_l003 #z_f19v_l004 #z_f19v_l005 #z_f19v_l006 #z_f19v_l007 #z_f19v_l008" xml:id="u_19v_001">[okrajová poznámka nejistá] … citatur. Oportet filium Dei omni studio famam virtutibus vitare [?]. [Designatus?] digito concutietur in corde, et non percusso turbabitur requies. Non est sapientis [fistulis?] vivere. Opinione ad veritatem oportet ambulare, credentes semper in [lusuriis?] esse laboratores. [Spoliabitur vestitu …] Difficile fit alienum fieri ab omni consorte naturae, si consortium saepe divaricant [ad eos?] …</p>
+        <note type="editorial" corresp="#u_19v_001" xml:lang="cs">Úvodní řádky mají několik obtížných vazeb; překlad proto není hladkým návodem domyšleným z tématu. Výrazy v hranatých závorkách zůstávají hypotézami. V segmentu6 je slovo laboratores přeškrtnuto; rekonstrukce jej uvádí jen jako nejisté čtení souvětí, raw zůstává zachováno.</note>
+        <p facs="#z_f19v_l009 #z_f19v_l010 #z_f19v_l011 #z_f19v_l012 #z_f19v_l013 #z_f19v_l014 #z_f19v_l015 #z_f19v_l016" xml:id="u_19v_002">… Periculosa congressio est cum laudibus vivere virtutibus. Famae agonizatio est [venenum?] bonorum. Non vivit sibi, quod nequius est, nec Christo, qui domicificavit in cordibus aliorum vivere, indeiecta prudentia [?]. Redemptio est [...] augmentum contemplationis. Impossibile fit quod obtineant corporale secretum, sed mentis [oculi?] per gloriae velamen […]. Exteriores tenebrae atque poenales exteriora quaerentibus acquiruntur. [Confunduntur?] illi non tar-…</p>
+        <note type="editorial" corresp="#u_19v_002" xml:lang="cs">Domicificavit je neobvyklé sloveso přeložené doslovně. Věta o ústraní, mysli a závoji má nejistou stavbu, nedělám z ní nezpochybnitelný výrok. Následující morální obrazy jsou součástí středověkého autora.</note>
+        <p facs="#z_f19v_l017 #z_f19v_l018 #z_f19v_l019 #z_f19v_l020 #z_f19v_l021 #z_f19v_l022 #z_f19v_l023 #z_f19v_l024" xml:id="u_19v_003">… de in ostensione virtutis. Et si aliquis ita cedit, admiror, non [dans?] tamen de ostensione praeceptum, magis non assevero, sed tutius esse secretum. Igitur omnia celabunt [in Deum?]. Oportet solam necessitatem, non voluntatem, ad ostensionem in causa supponere, ad occultandam vitam simul et virtutem. [marginální oprava nejistá] Adinventa est peregrinatio et solitudo; sed ignorantes multi peregrinationis discretionem …</p>
+        <note type="editorial" corresp="#u_19v_003" xml:lang="cs">Solam necessitatem versus voluntatem je zřetelné. Ostatní přechody k doporučení ústraní obsahují nejistá slovesa a marginální vsuvku. Netvrdím, že autor absolutně zakazuje veřejně konat dobro; právě výjimku nutnosti text rozlišuje.</note>
+        <p facs="#z_f19v_l025 #z_f19v_l026 #z_f19v_l027 #z_f19v_l028 #z_f19v_l029 #z_f19v_l030 #z_f19v_l031 #z_f19v_l032" xml:id="u_19v_004">… in illa naufragium pertulerunt ex ostensione inhaerentis boni [eius?]. [Et … ubi debent esse peregrini?] Perrexerunt quam plures ad interiora deserti, agentes ignotam hominibus vitam, cupientes caelestibus civibus esse notam. Multi vero aliter occultare non valentes fatuitatem moribus ostendunt, christificam sapientiam meditantes. Aliqui per silentium obmutuerunt [sublimem?] caelestium morum. Erat enim eis [rerum?] de-…</p>
+        <note type="editorial" corresp="#u_19v_004" xml:lang="cs">Ztroskotání je metafora duchovního neúspěchu. Fatuitatem neztotožňuji automaticky s pojmenováním určitého historického řádu či tradice. Poslední věta pokračuje na20r; její koncovka není doplněna podle očekávané formulace.</note>
+        <p facs="#z_f19v_l033 #z_f19v_l034 #z_f19v_l035 #z_f19v_l036 #z_f19v_l037 #z_f19v_l038 #z_f19v_l039 #z_f19v_l040 #z_f19v_l041 #z_f19v_l042 #z_f19v_l043 #z_f19v_l044 #z_f19v_l045 #z_f19v_l046 #z_f19v_l047 #z_f19v_l048 #z_f19v_l049 #z_f19v_l050 #z_f19v_l051 #z_f19v_l052 #z_f19v_l053 #z_f19v_l054 #z_f19v_l055 #z_f19v_l056 #z_f19v_l057 #z_f19v_l058 #z_f19v_l059 #z_f19v_l060 #z_f19v_l061 #z_f19v_l062" xml:id="u_19v_005">[Fragmenta paginae oppositae; praeterea in margine: latrones.]</p>
+        <note type="editorial" corresp="#u_19v_005" xml:lang="cs">Většina této skupiny jsou úzké části sousedního folia při pravém okraji fotografie. Segment52 však zachycuje skutečnou levookrajovou poznámku latrones, což je na otevřeném přehledu i pásu49–56 viditelné. Není to součást hlavní věty ani další úplný řádek.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_19v_001">[Nejistá okrajová poznámka.] … Boží syn se má vším úsilím [vyhýbat proslulosti při ctnostech?]. Když na něj někdo [ukáže?] prstem, otřese to jeho srdcem a pokoj se poruší, ačkoli nebyl udeřen. Moudrému nepřísluší žít [podle pískání? — výraz nejistý]. Od mínění je třeba kráčet k pravdě a stále si uvědomovat, že se člověk [namáhá v marnostech?]. [Věta o zbavení oděvu není rozřešena.] Je obtížné stát se cizím všem, kdo sdílejí naši přirozenost, i když se jejich společenství často rozchází […] …</p>
+        <p corresp="#u_19v_002">… Nebezpečným střetem je spojovat život ve ctnostech s chválou. Zápas o slávu je [jedem?] dobrých věcí. Nežije pro sebe, a co je horší, ani pro Krista ten, kdo si vystavěl obydlí v srdcích jiných [a chce tam žít; další vazba nejistá]. Vykoupení je […] rozhojnění rozjímání. Nelze dosáhnout tělesného ústraní, jestliže [pohled mysli zůstává za závojem slávy?]. Vnější a trestné temnoty si získávají ti, kdo hledají vnější věci. Ti budou [zahanbeni?] br-…</p>
+        <p corresp="#u_19v_003">… zy při vystavování ctnosti. A jestliže někdo takto postupuje, podivuji se; přesto [nedávám?] příkaz k veřejnému ukazování. Spíše netvrdím nic rozhodného, ale ústraní je bezpečnější. Ať tedy všechno skrývají [před Bohem či pro Boha?]. Důvodem, proč něco ukázat, má být pouze nutnost, nikoli vlastní přání, aby byl skryt život i ctnost. [Nejistá okrajová oprava.] Proto byly nalezeny pouť a samota; avšak mnozí, kteří nerozumějí rozlišování při pouti …</p>
+        <p corresp="#u_19v_004">… na ní ztroskotali, když dávali na odiv dobro, které v nich přebývá [další vazba o poutnících nejistá]. Mnozí odešli do nitra pouště a vedli život neznámý lidem, protože chtěli, aby byl znám nebeským občanům. Mnozí jiní se nedokázali skrýt jinak, a tak svým chováním ukazují pošetilost, zatímco rozjímají o moudrosti utvářené Kristem. Někteří se skrze mlčení odmlčeli [vazba o vznešených nebeských mravech není jistá]. Bylo jim totiž […] …</p>
+        <p corresp="#u_19v_005">[Útržky protější strany; dále na okraji: zloději či lupiči.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

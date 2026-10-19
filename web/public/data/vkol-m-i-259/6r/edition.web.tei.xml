@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 6r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Aurissa. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_6r_coordinate; PNG SHA256 3945a79f2f7d30caf95b55ca56c19e525ca809aedf21018a416d274589903858; archival TIFF SHA256 34eaec12aff47557780bc3e0a60c779cb1c91166689c3d0fb1dc0ac6bc94c495; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_6r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#6r"/>
+      <zone ulx="572" uly="547" lrx="3209" lry="731" xml:id="z_f6r_l001"/>
+      <zone ulx="566" uly="665" lrx="3205" lry="858" xml:id="z_f6r_l002"/>
+      <zone ulx="603" uly="787" lrx="3209" lry="983" xml:id="z_f6r_l003"/>
+      <zone ulx="582" uly="908" lrx="3302" lry="1101" xml:id="z_f6r_l004"/>
+      <zone ulx="582" uly="1026" lrx="3261" lry="1200" xml:id="z_f6r_l005"/>
+      <zone ulx="588" uly="1138" lrx="3296" lry="1331" xml:id="z_f6r_l006"/>
+      <zone ulx="610" uly="1278" lrx="3302" lry="1437" xml:id="z_f6r_l007"/>
+      <zone ulx="582" uly="1384" lrx="3286" lry="1574" xml:id="z_f6r_l008"/>
+      <zone ulx="603" uly="1515" lrx="3274" lry="1686" xml:id="z_f6r_l009"/>
+      <zone ulx="588" uly="1630" lrx="3215" lry="1816" xml:id="z_f6r_l010"/>
+      <zone ulx="588" uly="1754" lrx="3286" lry="1947" xml:id="z_f6r_l011"/>
+      <zone ulx="597" uly="1866" lrx="3246" lry="2075" xml:id="z_f6r_l012"/>
+      <zone ulx="600" uly="1994" lrx="3209" lry="2184" xml:id="z_f6r_l013"/>
+      <zone ulx="600" uly="2112" lrx="3268" lry="2302" xml:id="z_f6r_l014"/>
+      <zone ulx="591" uly="2230" lrx="3205" lry="2420" xml:id="z_f6r_l015"/>
+      <zone ulx="603" uly="2355" lrx="3321" lry="2554" xml:id="z_f6r_l016"/>
+      <zone ulx="597" uly="2488" lrx="3330" lry="2653" xml:id="z_f6r_l017"/>
+      <zone ulx="588" uly="2607" lrx="3274" lry="2784" xml:id="z_f6r_l018"/>
+      <zone ulx="597" uly="2719" lrx="3741" lry="2902" xml:id="z_f6r_l019"/>
+      <zone ulx="653" uly="2874" lrx="728" lry="3198" xml:id="z_f6r_l020"/>
+      <zone ulx="781" uly="2856" lrx="3293" lry="3014" xml:id="z_f6r_l021"/>
+      <zone ulx="768" uly="2971" lrx="3274" lry="3132" xml:id="z_f6r_l022"/>
+      <zone ulx="908" uly="3080" lrx="3265" lry="3238" xml:id="z_f6r_l023"/>
+      <zone ulx="597" uly="3182" lrx="3293" lry="3360" xml:id="z_f6r_l024"/>
+      <zone ulx="575" uly="3294" lrx="3296" lry="3500" xml:id="z_f6r_l025"/>
+      <zone ulx="575" uly="3416" lrx="3271" lry="3608" xml:id="z_f6r_l026"/>
+      <zone ulx="603" uly="3528" lrx="3286" lry="3724" xml:id="z_f6r_l027"/>
+      <zone ulx="588" uly="3661" lrx="3243" lry="3867" xml:id="z_f6r_l028"/>
+      <zone ulx="591" uly="3795" lrx="3271" lry="3985" xml:id="z_f6r_l029"/>
+      <zone ulx="572" uly="3932" lrx="3302" lry="4100" xml:id="z_f6r_l030"/>
+      <zone ulx="594" uly="4060" lrx="3227" lry="4231" xml:id="z_f6r_l031"/>
+      <zone ulx="591" uly="4193" lrx="3258" lry="4368" xml:id="z_f6r_l032"/>
+      <zone ulx="575" uly="4333" lrx="3196" lry="4486" xml:id="z_f6r_l033"/>
+      <zone ulx="659" uly="4448" lrx="3112" lry="4632" xml:id="z_f6r_l034"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f6r_l001" xml:id="catmus_f6r_l001"/>
+          <seg type="raw_unreviewed">cang̾e Dicit domĩꝰ admagd̾ alenã et tñ nullus elbn</seg>
+          <lb facs="#z_f6r_l002" xml:id="catmus_f6r_l002"/>
+          <seg type="raw_unreviewed">dicit cymagdalena wellet. D domĩquequaqͣ hoc̃</seg>
+          <lb facs="#z_f6r_l003" xml:id="catmus_f6r_l003"/>
+          <seg type="raw_unreviewed">dixiss si magdalena noluiss eii tange Et eice</seg>
+          <lb facs="#z_f6r_l004" xml:id="catmus_f6r_l004"/>
+          <seg type="raw_unreviewed">hec locuco dicit lociicõ subintẽcõnis quia unũ ponit</seg>
+          <lb facs="#z_f6r_l005" xml:id="catmus_f6r_l005"/>
+          <seg type="raw_unreviewed">et pallud unũ positũ aliudno positũ subuitendit</seg>
+          <lb facs="#z_f6r_l006" xml:id="catmus_f6r_l006"/>
+          <seg type="raw_unreviewed">Onilr cũ dicit᷑ Domĩꝰ iradebit eos et huiꝰ modi se</seg>
+          <lb facs="#z_f6r_l007" xml:id="catmus_f6r_l007"/>
+          <seg type="raw_unreviewed">sus est Dñs faciet eos iuideri et aquibus Certe</seg>
+          <lb facs="#z_f6r_l008" xml:id="catmus_f6r_l008"/>
+          <seg type="raw_unreviewed">ademonib qui ꝓpͥo arbito et exdẽp̾uata nolũptate</seg>
+          <lb facs="#z_f6r_l009" xml:id="catmus_f6r_l009"/>
+          <seg type="raw_unreviewed">sui cosus hoc demeruu̾it ut pnãnt offendẽtes et</seg>
+          <lb facs="#z_f6r_l010" xml:id="catmus_f6r_l010"/>
+          <seg type="raw_unreviewed">pono tibi exemplũ ni sible Quilib Rextiiqlibet</seg>
+          <lb facs="#z_f6r_l011" xml:id="catmus_f6r_l011"/>
+          <seg type="raw_unreviewed">regni hab suos littoes qui puniũt offedẽtes Cuii</seg>
+          <lb facs="#z_f6r_l012" xml:id="catmus_f6r_l012"/>
+          <seg type="raw_unreviewed">igĩ aliquis offendit lictor punit et tn rex dicitur</seg>
+          <lb facs="#z_f6r_l013" xml:id="catmus_f6r_l013"/>
+          <seg type="raw_unreviewed">oc fecisse et totũ aitbit᷑ regi qui a totũ fit ex</seg>
+          <lb facs="#z_f6r_l014" xml:id="catmus_f6r_l014"/>
+          <seg type="raw_unreviewed">sua potescate Diuilr cũ dici᷑ Dñs imdebit e õs</seg>
+          <lb facs="#z_f6r_l015" xml:id="catmus_f6r_l015"/>
+          <seg type="raw_unreviewed">et suułia dẽs in tellige no c dñs alique iuride̾t</seg>
+          <lb facs="#z_f6r_l016" xml:id="catmus_f6r_l016"/>
+          <seg type="raw_unreviewed">sed ꝙ hoc offendẽtibifici ad emonibi exsua ptãte</seg>
+          <lb facs="#z_f6r_l017" xml:id="catmus_f6r_l017"/>
+          <seg type="raw_unreviewed">utalia u̾ba inquib esc locuco subintẽtionis decła</seg>
+          <lb facs="#z_f6r_l018" xml:id="catmus_f6r_l018"/>
+          <seg type="raw_unreviewed">ret Desmłibi aũt ꝑsimilia rnde ut in utͦq sensu</seg>
+          <lb facs="#z_f6r_l019" xml:id="catmus_f6r_l019"/>
+          <seg type="raw_unreviewed">ut deus gaudet Tuscat᷑ dyabla letat᷑ ⁊c hiꝯmddi Ricaeuea</seg>
+          <lb facs="#z_f6r_l020" xml:id="catmus_f6r_l020"/>
+          <seg type="raw_unreviewed">¶</seg>
+          <lb facs="#z_f6r_l021" xml:id="catmus_f6r_l021"/>
+          <seg type="raw_unreviewed">qr cõuenietia smãꝵ est qñ una uł plu̾es sm̃e</seg>
+          <lb facs="#z_f6r_l022" xml:id="catmus_f6r_l022"/>
+          <seg type="raw_unreviewed">pona readem re posite admintẽ discordat</seg>
+          <lb facs="#z_f6r_l023" xml:id="catmus_f6r_l023"/>
+          <seg type="raw_unreviewed">oͥbui gra Qui ħ enuicã uẽdat eamremat</seg>
+          <lb facs="#z_f6r_l024" xml:id="catmus_f6r_l024"/>
+          <seg type="raw_unreviewed">gladiũ Et statim in alio loco dicit Qui glodiũ ac</seg>
+          <lb facs="#z_f6r_l025" xml:id="catmus_f6r_l025"/>
+          <seg type="raw_unreviewed">teꝑit gladio ꝑib̃it Ite lucas in ꝑabola scribit quã</seg>
+          <lb facs="#z_f6r_l026" xml:id="catmus_f6r_l026"/>
+          <seg type="raw_unreviewed">dam cenã matheus añt dicit. p̾candiu Itẽ moyt</seg>
+          <lb facs="#z_f6r_l027" xml:id="catmus_f6r_l027"/>
+          <seg type="raw_unreviewed">ses dicit ꝙ dũs p̾mofea̾t celum quã c̾tam quia ce</seg>
+          <lb facs="#z_f6r_l028" xml:id="catmus_f6r_l028"/>
+          <seg type="raw_unreviewed">lum p̾mo ponit dicẽs inpñcipio cant deus celũ</seg>
+          <lb facs="#z_f6r_l029" xml:id="catmus_f6r_l029"/>
+          <seg type="raw_unreviewed">etc̾cam Damd aũt dicit ꝙͥͣ pͥmo cͤanit u̾am quia</seg>
+          <lb facs="#z_f6r_l030" xml:id="catmus_f6r_l030"/>
+          <seg type="raw_unreviewed">umo poinit i̾ram dicẽs Inicio tu dñe cr̃am fudasci</seg>
+          <lb facs="#z_f6r_l031" xml:id="catmus_f6r_l031"/>
+          <seg type="raw_unreviewed">et oꝑa manũ cuaꝵꝭ sunt celt Itẽ aliamulta et</seg>
+          <lb facs="#z_f6r_l032" xml:id="catmus_f6r_l032"/>
+          <seg type="raw_unreviewed">in finita nncõueniẽcia istis supdict ꝭ osimibia ĩ ue</seg>
+          <lb facs="#z_f6r_l033" xml:id="catmus_f6r_l033"/>
+          <seg type="raw_unreviewed">amit᷑ in sacca pagina quorp exempla p̃teo Ad</seg>
+          <lb facs="#z_f6r_l034" xml:id="catmus_f6r_l034"/>
+          <seg type="raw_unreviewed">ec omili sic rñde talit᷑ Etdit licet iste sũe </seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f6r_l001" xml:id="medusa_f6r_l001"/>
+          <seg type="raw_unreviewed">tangere dicit dominus ad magdalena et tñi nullus ebt</seg>
+          <lb facs="#z_f6r_l002" xml:id="medusa_f6r_l002"/>
+          <seg type="raw_unreviewed">dicit cy Magdalena Wellet S. domini quequam hoc</seg>
+          <lb facs="#z_f6r_l003" xml:id="medusa_f6r_l003"/>
+          <seg type="raw_unreviewed">dixissit si magdalenam noluisse eum tangere Et ecce</seg>
+          <lb facs="#z_f6r_l004" xml:id="medusa_f6r_l004"/>
+          <seg type="raw_unreviewed">hec locuco dicis locuco sub intẽconis quia unum ponit</seg>
+          <lb facs="#z_f6r_l005" xml:id="medusa_f6r_l005"/>
+          <seg type="raw_unreviewed">et ꝑ illud unũ positũ aliud nõ positũ subintendit</seg>
+          <lb facs="#z_f6r_l006" xml:id="medusa_f6r_l006"/>
+          <seg type="raw_unreviewed">Similiter cum dicitur dominꝰ irridebit eos et huiꝰ modi se</seg>
+          <lb facs="#z_f6r_l007" xml:id="medusa_f6r_l007"/>
+          <seg type="raw_unreviewed">sus est Dñs faciet eos iuideri et a quibus certe</seg>
+          <lb facs="#z_f6r_l008" xml:id="medusa_f6r_l008"/>
+          <seg type="raw_unreviewed">a demonib: qui proprio arbitrio et ex deprivata voluntate</seg>
+          <lb facs="#z_f6r_l009" xml:id="medusa_f6r_l009"/>
+          <seg type="raw_unreviewed">in cosus hoc demeruit ut pniãnt offendẽtes et</seg>
+          <lb facs="#z_f6r_l010" xml:id="medusa_f6r_l010"/>
+          <seg type="raw_unreviewed">pono tibi exemplũ in sible Quilibet rex uniuslibet</seg>
+          <lb facs="#z_f6r_l011" xml:id="medusa_f6r_l011"/>
+          <seg type="raw_unreviewed">regni habet suos littores qui puniunt offendentes Cum</seg>
+          <lb facs="#z_f6r_l012" xml:id="medusa_f6r_l012"/>
+          <seg type="raw_unreviewed">igitur aliquis offendit lictor punit et tñ rex dicitur</seg>
+          <lb facs="#z_f6r_l013" xml:id="medusa_f6r_l013"/>
+          <seg type="raw_unreviewed">hoc fecisse et totum attulint regiqͥ quia totum fit ex</seg>
+          <lb facs="#z_f6r_l014" xml:id="medusa_f6r_l014"/>
+          <seg type="raw_unreviewed">sua potestate Similiter cũ dicit᷑ dñs irridebit eos</seg>
+          <lb facs="#z_f6r_l015" xml:id="medusa_f6r_l015"/>
+          <seg type="raw_unreviewed">et similia des̃ intellige̾ nõ ꝙ dñs aliquẽ iuridẽt</seg>
+          <lb facs="#z_f6r_l016" xml:id="medusa_f6r_l016"/>
+          <seg type="raw_unreviewed">sed ꝙ hoc offendentibꝰ fieri a demonibꝰ ex sua potestate</seg>
+          <lb facs="#z_f6r_l017" xml:id="medusa_f6r_l017"/>
+          <seg type="raw_unreviewed">ꝑtalia u̾ba in quib: est locuco sub intencionis decla</seg>
+          <lb facs="#z_f6r_l018" xml:id="medusa_f6r_l018"/>
+          <seg type="raw_unreviewed">ret De similibi autem ꝑ similia r̃ide ut in utroq: sensu</seg>
+          <lb facs="#z_f6r_l019" xml:id="medusa_f6r_l019"/>
+          <seg type="raw_unreviewed">ut deus gaudet Tristatur dyabłꝰ letatur etc. huiꝰmodi</seg>
+          <lb facs="#z_f6r_l020" xml:id="medusa_f6r_l020"/>
+          <seg type="raw_unreviewed">L</seg>
+          <lb facs="#z_f6r_l021" xml:id="medusa_f6r_l021"/>
+          <seg type="raw_unreviewed">qr cõueniẽtia signꝵ est qñ una uł plures sine</seg>
+          <lb facs="#z_f6r_l022" xml:id="medusa_f6r_l022"/>
+          <seg type="raw_unreviewed">per una ⁊ eadem re posite ad invicem discordant</seg>
+          <lb facs="#z_f6r_l023" xml:id="medusa_f6r_l023"/>
+          <seg type="raw_unreviewed">u̾bi grã Orni h ennicã uẽdat eam renuat</seg>
+          <lb facs="#z_f6r_l024" xml:id="medusa_f6r_l024"/>
+          <seg type="raw_unreviewed">gladiũ Et statim in alio loco dicit Qui gladiũ ac</seg>
+          <lb facs="#z_f6r_l025" xml:id="medusa_f6r_l025"/>
+          <seg type="raw_unreviewed">cepit gladio peribit Item lucas in parabola scribit quã</seg>
+          <lb facs="#z_f6r_l026" xml:id="medusa_f6r_l026"/>
+          <seg type="raw_unreviewed">dam cenã matheus autem dicit prandium. Item moy</seg>
+          <lb facs="#z_f6r_l027" xml:id="medusa_f6r_l027"/>
+          <seg type="raw_unreviewed">ses dicit ꝙ dñs pͥmo fecit celum quãtũtam quia ce</seg>
+          <lb facs="#z_f6r_l028" xml:id="medusa_f6r_l028"/>
+          <seg type="raw_unreviewed">liiii primo ponit dicẽs In p̃ncipio creavit deus celũ</seg>
+          <lb facs="#z_f6r_l029" xml:id="medusa_f6r_l029"/>
+          <seg type="raw_unreviewed">et terram David autem dicit quod primo creavit terram quia</seg>
+          <lb facs="#z_f6r_l030" xml:id="medusa_f6r_l030"/>
+          <seg type="raw_unreviewed">pͥmo ponit terram dicẽs Inicio tu dñe terram fundasti</seg>
+          <lb facs="#z_f6r_l031" xml:id="medusa_f6r_l031"/>
+          <seg type="raw_unreviewed">et oꝑa manũ eorꝰ sunt celi. Item alia multa et</seg>
+          <lb facs="#z_f6r_l032" xml:id="medusa_f6r_l032"/>
+          <seg type="raw_unreviewed">in finita in cõueniencia istis supradictis ꝯsimilia ĩue</seg>
+          <lb facs="#z_f6r_l033" xml:id="medusa_f6r_l033"/>
+          <seg type="raw_unreviewed">minis in sacra pagina quorum exempla preterea ad</seg>
+          <lb facs="#z_f6r_l034" xml:id="medusa_f6r_l034"/>
+          <seg type="raw_unreviewed">hec omnia sic rñde taliter Et dic licet iste sine</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f6r_l001 #z_f6r_l002 #z_f6r_l003 #z_f6r_l004 #z_f6r_l005" xml:id="u_6r_001">… tangere, dicit Dominus ad Magdalenam, et tamen nullus evangelista dicit quod Magdalena vellet. Sed Dominus nequaquam hoc dixisset si Magdalena noluisset eum tangere. Et ecce haec locutio dicitur locutio subintentionis quia unum ponit et per illud unum positum aliud non positum subintelligit.</p>
+        <note type="editorial" corresp="#u_6r_001" xml:lang="cs">Úvod dokončuje příklad Noli me z 5v. Rozvinutí evangelista je návrhové; přepis nevnucuje rukopisu delší kanonickou citaci. Jméno Magdalena je v textu skutečně čitelné.</note>
+        <p facs="#z_f6r_l006 #z_f6r_l007 #z_f6r_l008 #z_f6r_l009 #z_f6r_l010 #z_f6r_l011 #z_f6r_l012 #z_f6r_l013 #z_f6r_l014 #z_f6r_l015 #z_f6r_l016" xml:id="u_6r_002">Similiter cum dicitur: Dominus irridebit eos et huiusmodi, sensus est: Dominus faciet eos irrideri. Et a quibus? Certe a daemonibus qui proprio arbitrio et ex depravata voluntate sui casus hoc demeruerunt ut puniant offendentes. Et pono tibi exemplum visibile: Quilibet rex cuiuslibet regni habet suos lictores qui puniunt offendentes. Cum igitur aliquis offendit, lictor punit et tamen rex dicitur hoc fecisse et totum attribuitur regi quia totum fit ex sua potestate. Similiter cum dicitur: Dominus irridebit eos et similia, debes intelligere non quod Dominus aliquem irrideat sed quod hoc offendentibus fit a daemonibus ex sua potestate.</p>
+        <note type="editorial" corresp="#u_6r_002" xml:lang="cs">Jde o dobový teologický příklad přičítání vykonaného skutku nositeli moci. Čtení věty o vůli démonů je návrhové; není vydáváno za kontrolovaný dogmatický výklad.</note>
+        <p facs="#z_f6r_l017 #z_f6r_l018 #z_f6r_l019 #z_f6r_l020" xml:id="u_6r_003">Ut alia verba in quibus est locutio subintentionis declaret, de similibus autem per similia vide, ut in utroque sensu, ut Deus gaudet, tristatur, diabolus laetatur et huiusmodi. [okrajová rubrika; fragment iniciály]</p>
+        <note type="editorial" corresp="#u_6r_003" xml:lang="cs">Přechodová instrukce má nejistou syntaxi; překlad ji záměrně nepřevádí na přesný logický algoritmus. Segment 20 je oddělená část červené iniciály.</note>
+        <p facs="#z_f6r_l021 #z_f6r_l022 #z_f6r_l023 #z_f6r_l024 #z_f6r_l025 #z_f6r_l026" xml:id="u_6r_004">Inconvenientia sententiarum est quando una vel plures sententiae pro una eadem re positae ad invicem discordant. Verbi gratia: Qui habet tunicam vendat eam et emat gladium. Et statim in alio loco dicit: Qui gladium acceperit gladio peribit. Item Lucas in parabola scribit quandam cenam, Matthaeus autem dicit prandium.</p>
+        <note type="editorial" corresp="#u_6r_004" xml:lang="cs">Sententia je návrhové rozvedení zkratky. Biblické příklady jsou přeloženy v podobě skutečně uvedené na obraze; nic se neopravuje podle standardního biblického znění ani nedoplňují odkazy na kapitoly.</note>
+        <p facs="#z_f6r_l027 #z_f6r_l028 #z_f6r_l029 #z_f6r_l030 #z_f6r_l031 #z_f6r_l032 #z_f6r_l033 #z_f6r_l034" xml:id="u_6r_005">Item Moyses dicit quod Deus primo fecit caelum quam terram quia caelum primo ponit dicens: In principio creavit Deus caelum et terram. David autem dicit quia primo creavit terram quia primo ponit terram dicens: Initio tu, Domine, terram fundasti et opera manuum tuarum sunt caeli. Item alia multa et infinita inconvenientia istis supradictis consimilia inveniuntur in sacra pagina, quorum exempla praetereo. Ad haec omnia sic responde taliter, et dic: Licet istae sententiae …</p>
+        <note type="editorial" corresp="#u_6r_005" xml:lang="cs">Autorův argument o pořadí slov a stvoření je přeložen jako historická argumentace. Poslední odpověď začíná až zde a pokračuje na 6v; zde nedoplňuji její předpokládané řešení.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_6r_001">… dotýkat se, říká Pán Magdaléně. Žádný evangelista přitom neříká, že se ho Magdalena chtěla dotknout. Pán by to však jistě neřekl, kdyby se ho dotknout nechtěla. Tento výrok se nazývá vyjádřením se skrytým dodatkem: vyslovuje jednu věc a prostřednictvím vysloveného rozumí jinou, nevyslovenou.</p>
+        <p corresp="#u_6r_002">Podobně při výroku Pán se jim vysměje je smyslem: Pán způsobí, že budou vystaveni posměchu. Kým? Démony, kteří si vlastním rozhodnutím a zkaženou vůlí svého pádu zasloužili trestat provinilce. Dám ti viditelný příklad: každý král má ve svém království vykonavatele, kteří trestají provinilé. Když se někdo proviní, trestá jej vykonavatel; přesto se říká, že to učinil král, a vše se mu přičítá, protože se to děje z jeho moci. Tak je třeba rozumět výroku o Pánově posměchu: nikoli že se Bůh sám někomu vysmívá, nýbrž že se to provinilým děje od démonů z jeho moci.</p>
+        <p corresp="#u_6r_003">Tak objasňuj také jiná slova, v nichž je takové nevyslovené doplnění. U podobných případů postupuj pomocí podobností v obou smyslech, například Bůh se raduje, rmoutí se, ďábel se veselí a podobně. [Okrajová rubrika a fragment iniciály.]</p>
+        <p corresp="#u_6r_004">Nesoulad výroků nastává, když si jeden či více výroků o téže věci navzájem odporují. Například: Kdo má suknici, ať ji prodá a koupí meč. Jinde se však říká: Kdo vezme meč, mečem zahyne. Lukáš v podobenství píše o večeři, Matouš však říká oběd.</p>
+        <p corresp="#u_6r_005">Mojžíš říká, že Bůh stvořil nejprve nebe a pak zemi, protože nebe uvádí první: Na počátku stvořil Bůh nebe a zemi. David však uvádí, že stvořil nejprve zemi, neboť ji klade první: Na počátku jsi, Pane, založil zemi a nebesa jsou dílem tvých rukou. V Písmu se nalézá mnoho dalších podobných nesouladů, jejichž příklady pomíjím. Na všechny odpovídej takto: Ačkoli tyto výroky …</p>
+      </div>
+    </body>
+  </text>
+</TEI>

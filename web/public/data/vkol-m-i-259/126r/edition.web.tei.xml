@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 126r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_126r_coordinate; PNG SHA256 733e3466ff142393501d96096103d029c2c22c50063fd4382891e40825a9819b; archival TIFF SHA256 bee56c8f91d045e7acab50cbc0c9fe1b2c954f48974ee068b45a124d3710734c; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_126r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#126r"/>
+      <zone ulx="149" uly="435" lrx="258" lry="547" xml:id="z_f126r_l001"/>
+      <zone ulx="152" uly="2305" lrx="233" lry="2414" xml:id="z_f126r_l002"/>
+      <zone ulx="180" uly="2691" lrx="205" lry="2818" xml:id="z_f126r_l003"/>
+      <zone ulx="389" uly="385" lrx="2913" lry="532" xml:id="z_f126r_l004"/>
+      <zone ulx="370" uly="472" lrx="3016" lry="606" xml:id="z_f126r_l005"/>
+      <zone ulx="382" uly="547" lrx="2925" lry="693" xml:id="z_f126r_l006"/>
+      <zone ulx="379" uly="631" lrx="2975" lry="771" xml:id="z_f126r_l007"/>
+      <zone ulx="389" uly="715" lrx="2935" lry="849" xml:id="z_f126r_l008"/>
+      <zone ulx="395" uly="796" lrx="2928" lry="933" xml:id="z_f126r_l009"/>
+      <zone ulx="376" uly="880" lrx="2925" lry="1014" xml:id="z_f126r_l010"/>
+      <zone ulx="361" uly="964" lrx="3000" lry="1092" xml:id="z_f126r_l011"/>
+      <zone ulx="373" uly="1045" lrx="3019" lry="1204" xml:id="z_f126r_l012"/>
+      <zone ulx="379" uly="1126" lrx="1422" lry="1266" xml:id="z_f126r_l013"/>
+      <zone ulx="382" uly="1204" lrx="2919" lry="1359" xml:id="z_f126r_l014"/>
+      <zone ulx="354" uly="1294" lrx="3034" lry="1459" xml:id="z_f126r_l015"/>
+      <zone ulx="364" uly="1384" lrx="2922" lry="1527" xml:id="z_f126r_l016"/>
+      <zone ulx="364" uly="1477" lrx="2941" lry="1617" xml:id="z_f126r_l017"/>
+      <zone ulx="364" uly="1564" lrx="3016" lry="1714" xml:id="z_f126r_l018"/>
+      <zone ulx="367" uly="1652" lrx="1083" lry="1785" xml:id="z_f126r_l019"/>
+      <zone ulx="370" uly="1698" lrx="2935" lry="1857" xml:id="z_f126r_l020"/>
+      <zone ulx="357" uly="1782" lrx="2897" lry="1928" xml:id="z_f126r_l021"/>
+      <zone ulx="364" uly="1860" lrx="2944" lry="2009" xml:id="z_f126r_l022"/>
+      <zone ulx="370" uly="1944" lrx="2468" lry="2081" xml:id="z_f126r_l023"/>
+      <zone ulx="370" uly="2019" lrx="2975" lry="2184" xml:id="z_f126r_l024"/>
+      <zone ulx="370" uly="2124" lrx="1363" lry="2249" xml:id="z_f126r_l025"/>
+      <zone ulx="361" uly="2143" lrx="2966" lry="2320" xml:id="z_f126r_l026"/>
+      <zone ulx="361" uly="2243" lrx="2412" lry="2383" xml:id="z_f126r_l027"/>
+      <zone ulx="367" uly="2320" lrx="2947" lry="2464" xml:id="z_f126r_l028"/>
+      <zone ulx="357" uly="2395" lrx="2956" lry="2551" xml:id="z_f126r_l029"/>
+      <zone ulx="361" uly="2479" lrx="2928" lry="2622" xml:id="z_f126r_l030"/>
+      <zone ulx="370" uly="2560" lrx="2972" lry="2712" xml:id="z_f126r_l031"/>
+      <zone ulx="364" uly="2650" lrx="2963" lry="2787" xml:id="z_f126r_l032"/>
+      <zone ulx="361" uly="2731" lrx="1876" lry="2874" xml:id="z_f126r_l033"/>
+      <zone ulx="351" uly="2800" lrx="2941" lry="2949" xml:id="z_f126r_l034"/>
+      <zone ulx="357" uly="2896" lrx="2150" lry="3027" xml:id="z_f126r_l035"/>
+      <zone ulx="364" uly="2961" lrx="2941" lry="3108" xml:id="z_f126r_l036"/>
+      <zone ulx="361" uly="3061" lrx="2988" lry="3188" xml:id="z_f126r_l037"/>
+      <zone ulx="361" uly="3148" lrx="2903" lry="3269" xml:id="z_f126r_l038"/>
+      <zone ulx="364" uly="3226" lrx="3031" lry="3353" xml:id="z_f126r_l039"/>
+      <zone ulx="373" uly="3304" lrx="2994" lry="3440" xml:id="z_f126r_l040"/>
+      <zone ulx="361" uly="3403" lrx="2947" lry="3512" xml:id="z_f126r_l041"/>
+      <zone ulx="354" uly="3475" lrx="2947" lry="3593" xml:id="z_f126r_l042"/>
+      <zone ulx="361" uly="3549" lrx="3065" lry="3677" xml:id="z_f126r_l043"/>
+      <zone ulx="364" uly="3627" lrx="3022" lry="3758" xml:id="z_f126r_l044"/>
+      <zone ulx="361" uly="3711" lrx="3165" lry="3836" xml:id="z_f126r_l045"/>
+      <zone ulx="364" uly="3798" lrx="2969" lry="3926" xml:id="z_f126r_l046"/>
+      <zone ulx="351" uly="3873" lrx="2950" lry="4007" xml:id="z_f126r_l047"/>
+      <zone ulx="364" uly="3960" lrx="2938" lry="4091" xml:id="z_f126r_l048"/>
+      <zone ulx="364" uly="4041" lrx="2969" lry="4175" xml:id="z_f126r_l049"/>
+      <zone ulx="364" uly="4131" lrx="2963" lry="4271" xml:id="z_f126r_l050"/>
+      <zone ulx="367" uly="4224" lrx="3025" lry="4355" xml:id="z_f126r_l051"/>
+      <zone ulx="367" uly="4299" lrx="2963" lry="4458" xml:id="z_f126r_l052"/>
+      <zone ulx="367" uly="4374" lrx="2972" lry="4557" xml:id="z_f126r_l053"/>
+      <zone ulx="361" uly="4458" lrx="3075" lry="4651" xml:id="z_f126r_l054"/>
+      <zone ulx="357" uly="4548" lrx="3106" lry="4753" xml:id="z_f126r_l055"/>
+      <zone ulx="367" uly="4632" lrx="3022" lry="4816" xml:id="z_f126r_l056"/>
+      <zone ulx="364" uly="4713" lrx="2969" lry="4921" xml:id="z_f126r_l057"/>
+      <zone ulx="373" uly="4812" lrx="2256" lry="5036" xml:id="z_f126r_l058"/>
+      <zone ulx="3557" uly="5015" lrx="3638" lry="5226" xml:id="z_f126r_l059"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f126r_l001" xml:id="catmus_f126r_l001"/>
+          <seg type="raw_unreviewed">pesuitĩ</seg>
+          <lb facs="#z_f126r_l002" xml:id="catmus_f126r_l002"/>
+          <seg type="raw_unreviewed">g</seg>
+          <lb facs="#z_f126r_l003" xml:id="catmus_f126r_l003"/>
+          <seg type="raw_unreviewed">¶</seg>
+          <lb facs="#z_f126r_l004" xml:id="catmus_f126r_l004"/>
+          <seg type="raw_unreviewed">ꝑ debiti ꝯfficii ꝯ ecucoei u ñ uõsst̃ ꝓstͥp ͥuł iluxi᷑ . alitiꝰ ordid  uri sst̃ ꝓ</seg>
+          <lb facs="#z_f126r_l005" xml:id="catmus_f126r_l005"/>
+          <seg type="raw_unreviewed">suñe iuste maxre apluto ꝑlucõeiqui uentẽs / eꝵ sy ͦ ⁊̃ quĩti. cũ p̃lati acãtᵈͤ</seg>
+          <lb facs="#z_f126r_l006" xml:id="catmus_f126r_l006"/>
+          <seg type="raw_unreviewed">ex patto suꝑ sede in qiii euthe ͫ ed collutor syoe᷑ ab õffe suppũdi᷑ i. Ii si Ise</seg>
+          <lb facs="#z_f126r_l007" xml:id="catmus_f126r_l007"/>
+          <seg type="raw_unreviewed">adigͭ ͤ depo᷑ i. q. r̾ poni i It̃ si celebũt pollut sac̃si. offerũtiᵈ xlix suc̃tes</seg>
+          <lb facs="#z_f126r_l008" xml:id="catmus_f126r_l008"/>
+          <seg type="raw_unreviewed">oꝵ u ͥ d̾iipũsir̾ ẽ t̾eri symihãtos. aii dispũsa᷑ cũ eis. ut tñi luicã hẽãt coĩe</seg>
+          <lb facs="#z_f126r_l009" xml:id="catmus_f126r_l009"/>
+          <seg type="raw_unreviewed">ĩ s. asyoiꝭ siẽ ᷑ ihtp̃tũ ccc̃e ꝓuioti celebuu̾t.i q uii ¶st̃ dispẽsar᷑ ut tñi in</seg>
+          <lb facs="#z_f126r_l010" xml:id="catmus_f126r_l010"/>
+          <seg type="raw_unreviewed">moibi nũse̾e̾t. Iñ .s. ada ͦ eccũs bũffri nõ pñt. ẜ dei geuert̃ cluẽice</seg>
+          <lb facs="#z_f126r_l011" xml:id="catmus_f126r_l011"/>
+          <seg type="raw_unreviewed">uiu̾e ꝑiutũ. ibid It dispũsan᷑ ut u̾meãit ĩ susteptꝭ uũ tea ꝙ̃ eiue</seg>
+          <lb facs="#z_f126r_l012" xml:id="catmus_f126r_l012"/>
+          <seg type="raw_unreviewed">bũt s dea nuĩstie uolut.iocisst dispũsit᷑ ut astũdãt ad fupie ͦ qñ ĩstiis ip̃i</seg>
+          <lb facs="#z_f126r_l013" xml:id="catmus_f126r_l013"/>
+          <seg type="raw_unreviewed">ila ꝓ ip̃is si ħ quiiẜmt. ibid</seg>
+          <lb facs="#z_f126r_l014" xml:id="catmus_f126r_l014"/>
+          <seg type="raw_unreviewed">Simlacõ en ułi nõ ẽ ꝑccl̃m aie l qm̃ cũ ncilitꝭ silar ͤ ^ ptũde .xxii a</seg>
+          <lb facs="#z_f126r_l015" xml:id="catmus_f126r_l015"/>
+          <seg type="raw_unreviewed">ñ utile ꝙ  ipe de/ siłi ͭ re loluisse ymoͦ usat ꝙ̃ p̃ceput ⁊ ꝓꝰ ꝓlbuit silid̃</seg>
+          <lb facs="#z_f126r_l016" xml:id="catmus_f126r_l016"/>
+          <seg type="raw_unreviewed">It abqͣã ĩegipto Iarũ uxõe suã silui᷑ syibe suũ dẽ u tñ p̾cat᷑ ibid Iħ</seg>
+          <lb facs="#z_f126r_l017" xml:id="catmus_f126r_l017"/>
+          <seg type="raw_unreviewed">iacob s. se ¶uu pͥgeĩtu. ibid̃ It iustũ bellũ hũtib qm .i hostes oxpedͤ silacõ</seg>
+          <lb facs="#z_f126r_l018" xml:id="catmus_f126r_l018"/>
+          <seg type="raw_unreviewed">xxiii qii dñs en ułli p̃editat dolarri filiacõ .xxii u qͥcm̃ / Q baptii/ suliã</seg>
+          <lb facs="#z_f126r_l019" xml:id="catmus_f126r_l019"/>
+          <seg type="raw_unreviewed">tolꝰ nõ qͣͤsa i qi sp̃t</seg>
+          <lb facs="#z_f126r_l020" xml:id="catmus_f126r_l020"/>
+          <seg type="raw_unreviewed">Sĩplicitas colõbia di᷑. q̃ dolo cur ⁊ħ suaderui q. gom̾iti It sꝙ̃licitas in</seg>
+          <lb facs="#z_f126r_l021" xml:id="catmus_f126r_l021"/>
+          <seg type="raw_unreviewed">snata ⁊ si ꝯcrisat atãte ĩ. qmisẜ  st talupatẽ qlpliͭ ⁊ neiũ ꝯcedi᷑de qd u</seg>
+          <lb facs="#z_f126r_l022" xml:id="catmus_f126r_l022"/>
+          <seg type="raw_unreviewed">eq siplicitas ĩ ped ͭ ꝑmouẽd eR p̃lute ꝓiote si hãc hu̾it da᷑ ei cdudinꝰ</seg>
+          <lb facs="#z_f126r_l023" xml:id="catmus_f126r_l023"/>
+          <seg type="raw_unreviewed">lu ami ep̃oꝵ  elĩ sacͣ collas ͤ d õẽ sp̃ꝭ ⁊ sñ belitateꝙẜꝰ iq</seg>
+          <lb facs="#z_f126r_l024" xml:id="catmus_f126r_l024"/>
+          <seg type="raw_unreviewed">S ĩglai̾tas ĩ in̾chis ⁊ ꝯtplatĩs aꝓꝓbui xei qi si e sĩgluitas moꝵ ⁊̃ bõꝵ</seg>
+          <lb facs="#z_f126r_l025" xml:id="catmus_f126r_l025"/>
+          <seg type="raw_unreviewed">iqsuetos stundulizat .d xii</seg>
+          <lb facs="#z_f126r_l026" xml:id="catmus_f126r_l026"/>
+          <seg type="raw_unreviewed">Suuodꝰ exg̾co it conuitat uł et Iꝯcisꝰ nõ uoͣlctũ ẽ arõiis. eo ꝙ ttudi</seg>
+          <lb facs="#z_f126r_l027" xml:id="catmus_f126r_l027"/>
+          <seg type="raw_unreviewed">ui ilũ ͦ ͤ queiẽbãt.dxx syuod̾ꝰ. Idelt hẽs u̾ d᷑ deꝯciliis</seg>
+          <lb facs="#z_f126r_l028" xml:id="catmus_f126r_l028"/>
+          <seg type="raw_unreviewed">societus r̾quit ꝯcordia moꝵ ud xl . IQꝵ diffi ᷝ ͤ ẽ ĩ corruptũ ꝑ malne eiui</seg>
+          <lb facs="#z_f126r_l029" xml:id="catmus_f126r_l029"/>
+          <seg type="raw_unreviewed">cormpte socia᷑ . xxxiii.iiii p eo societaꝵ nulloꝵ ẽ.Iis telleauda.2. r̃si fuge</seg>
+          <lb facs="#z_f126r_l030" xml:id="catmus_f126r_l030"/>
+          <seg type="raw_unreviewed">ed .uii.. sugest ex ⁊ ͥ socici᷑ qͦs mal. a quitũdo. a filrẽde. a corr ipᵈͦ ibite</seg>
+          <lb facs="#z_f126r_l031" xml:id="catmus_f126r_l031"/>
+          <seg type="raw_unreviewed">Sodonul.  pccm sodo : ꝯ̾ce᷑ ĩ mascłio ⁊ fe ͦ.xxxii. iun us¶ eꝵ ĩ pcco sodor̃e</seg>
+          <lb facs="#z_f126r_l032" xml:id="catmus_f126r_l032"/>
+          <seg type="raw_unreviewed">de ordiũ ordiũ doi ⁊ ue̾ ibid̃. ru eg̃mꝰ. od ull̾io. ⁊ꝙ cũ ꝓp̾a mr̃e. ib id</seg>
+          <lb facs="#z_f126r_l033" xml:id="catmus_f126r_l033"/>
+          <seg type="raw_unreviewed">Sollicide tpũliũ suffocat spalia d plyx hĩt</seg>
+          <lb facs="#z_f126r_l034" xml:id="catmus_f126r_l034"/>
+          <seg type="raw_unreviewed">¶op̃uꝰ. q negliũs p̃bitꝰ dormieti qparu hoxeifrẽ seꝵ añ sop kanũ</seg>
+          <lb facs="#z_f126r_l035" xml:id="catmus_f126r_l035"/>
+          <seg type="raw_unreviewed">⁊ deceptii dormieꝰ ĩitũt demõs exxoi quii st</seg>
+          <lb facs="#z_f126r_l036" xml:id="catmus_f126r_l036"/>
+          <seg type="raw_unreviewed">sors ĩ ẽ aluy muli s res ĩ huã dubaͤ diuã ĩdicũs boluᵈ. xxxiq ii</seg>
+          <lb facs="#z_f126r_l037" xml:id="catmus_f126r_l037"/>
+          <seg type="raw_unreviewed">surs eꝵ l sortrh uil mali ĩ sit. lñ ꝑhibe᷑ hõib. ne sb̃ hac spẽ ad ãtiqiuos</seg>
+          <lb facs="#z_f126r_l038" xml:id="catmus_f126r_l038"/>
+          <seg type="raw_unreviewed">ndolat̾e̾ cultꝰ reddũt. ibid ¶eꝵ oẽ geꝰ sortiũ shamicte  phibe xxui q u</seg>
+          <lb facs="#z_f126r_l039" xml:id="catmus_f126r_l039"/>
+          <seg type="raw_unreviewed">surtee Ꝙꝵ tp̃o ncciꝭ ĩlibs diuis ymsia orr̃e dnĩcu ccla ᷑ sorteo uideu᷑ ꝯoedru Cu</seg>
+          <lb facs="#z_f126r_l040" xml:id="catmus_f126r_l040"/>
+          <seg type="raw_unreviewed">Gortilegũ. sorti ͥ st̃.I ꝑ qͣdm ĩ ppcr̃s sortiũ ũl sc̾p ͨ ͣ futã᷑ ꝓclitũ. xoxi</seg>
+          <lb facs="#z_f126r_l041" xml:id="catmus_f126r_l041"/>
+          <seg type="raw_unreviewed">qi sortile Eꝵ porta̾e suꝑ se lupider ꝑciosas uł hlub ũ ẽ sortile .i. ibid / eꝵ</seg>
+          <lb facs="#z_f126r_l042" xml:id="catmus_f126r_l042"/>
+          <seg type="raw_unreviewed">ĩ firmãtib carnuã sortilegiu iul ꝓficũt. ilid e q̃ huãt sortile ͥst pae</seg>
+          <lb facs="#z_f126r_l043" xml:id="catmus_f126r_l043"/>
+          <seg type="raw_unreviewed">sibi ⁊ bapͥ sui uiolutres xxxi quii ũ It Iorti adoa᷑ cui ẜucũt st̃ captiãt᷑. ilud̃</seg>
+          <lb facs="#z_f126r_l044" xml:id="catmus_f126r_l044"/>
+          <seg type="raw_unreviewed">It st̃ exqui ͥ ¶st abep̃is d̾e ꝑroctuis it epłlud̾e. iludꝰ st sorti reĩs associũtes</seg>
+          <lb facs="#z_f126r_l045" xml:id="catmus_f126r_l045"/>
+          <seg type="raw_unreviewed">ad accgue ũ st̃ adiu̾tũdimi  uii q̃ sams tqꝰ c̾dit sortilegꝭ eãnis ꝓ d̃ pei  ibid</seg>
+          <lb facs="#z_f126r_l046" xml:id="catmus_f126r_l046"/>
+          <seg type="raw_unreviewed">Sp̃c̃ st̃e eqͣlis ẽ pr̃i ⁊ silio de qd u despũ / It ꝙ ap̃re ⁊ siłio ꝓcedͭ. ibc O</seg>
+          <lb facs="#z_f126r_l047" xml:id="catmus_f126r_l047"/>
+          <seg type="raw_unreviewed">spmĩ sc̃o atc̾binꝰ potũ ͥ niacłãꝵ. ibid̃ It̃ spc̃ st̃r ꝯoͣ ecrã u ͭ oꝑa ⁊̃ xxiiii q</seg>
+          <lb facs="#z_f126r_l048" xml:id="catmus_f126r_l048"/>
+          <seg type="raw_unreviewed">acide / /en nõ sassuũs s uni ͦ aãntes sp̃r s accr ͭ ibid̃ e pcraꝭ tene ⁊</seg>
+          <lb facs="#z_f126r_l049" xml:id="catmus_f126r_l049"/>
+          <seg type="raw_unreviewed">dinit̾e til ex quĩca̾e opꝰ ẽ spt̃ o. ibũ el ĩ dño ꝑꝑ mai ͭ spc̃ d . ĩ.7 ui sc̃is</seg>
+          <lb facs="#z_f126r_l050" xml:id="catmus_f126r_l050"/>
+          <seg type="raw_unreviewed">qũ nulu esĩ n̾cedᵗ. de y dii ¶. quent / sst ꝙ blasphe ͬ ͤ spm sañ ẽ qͣ sat̾s</seg>
+          <lb facs="#z_f126r_l051" xml:id="catmus_f126r_l051"/>
+          <seg type="raw_unreviewed">canõs ꝑt̾ne age xxy qi mooloto̾es eR uii mõis ĩ spm̃ s. qs pcrit. bcũ</seg>
+          <lb facs="#z_f126r_l052" xml:id="catmus_f126r_l052"/>
+          <seg type="raw_unreviewed">qrͥ male sentit de ꝑsoͥ spc̃ d. de p.d ini ¶st cũ qͥs pcitũs deꝑꝑat ut crli It</seg>
+          <lb facs="#z_f126r_l053" xml:id="catmus_f126r_l053"/>
+          <seg type="raw_unreviewed">cũ qͣs uitatẽ ꝯgͥta ĩ ꝓnguãt. Il ilłi qͥ dixiu̾t pͬ ͥ ĩ behebind ac̾e demo ini</seg>
+          <lb facs="#z_f126r_l054" xml:id="catmus_f126r_l054"/>
+          <seg type="raw_unreviewed">It tũ qͥsͥ sciẽ᷑ ⁊̃ pcc̃o moili ꝑsenãtide ꝓ d̾m it̾ It̃ cũ qͥs qͥcũs uĩo idr̾ ͬ pͥcat</seg>
+          <lb facs="#z_f126r_l055" xml:id="catmus_f126r_l055"/>
+          <seg type="raw_unreviewed">nã exh ase sp̃m scũi fugũt. ilid ¶⁊ c̃q̾s istͭ ĩ pcc̃o. ħ ꝓpeñt mũỹ poĩte̾ de pdm</seg>
+          <lb facs="#z_f126r_l056" xml:id="catmus_f126r_l056"/>
+          <seg type="raw_unreviewed">Sꝓonse ꝓmisse nõ statĩ dũt daĩ ne uilescũt. ⁊ xuii q̃ .i ĩ stitũ eꝵ uno uiẽti</seg>
+          <lb facs="#z_f126r_l057" xml:id="catmus_f126r_l057"/>
+          <seg type="raw_unreviewed">alti nõ d quĩgi ilud̃ e utii ip̃oꝵ alt̾o iuite pt r̾ligio aꝓpbatũ ĩ tͣre</seg>
+          <lb facs="#z_f126r_l058" xml:id="catmus_f126r_l058"/>
+          <seg type="raw_unreviewed">ibid e oppiiẽs ppõsũ altiꝰ morte piũ . xxxiiq ii se</seg>
+          <lb facs="#z_f126r_l059" xml:id="catmus_f126r_l059"/>
+          <seg type="raw_unreviewed">¶</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f126r_l001" xml:id="medusa_f126r_l001"/>
+          <seg type="raw_unreviewed">pentatẽs</seg>
+          <lb facs="#z_f126r_l002" xml:id="medusa_f126r_l002"/>
+          <seg type="raw_unreviewed">ennẽ</seg>
+          <lb facs="#z_f126r_l003" xml:id="medusa_f126r_l003"/>
+          <seg type="raw_unreviewed">L</seg>
+          <lb facs="#z_f126r_l004" xml:id="medusa_f126r_l004"/>
+          <seg type="raw_unreviewed">pro debiti officii execucõe. us in no sunt prostrata uł auxit. alicuius ordinatione. usi sunt sunt</seg>
+          <lb facs="#z_f126r_l005" xml:id="medusa_f126r_l005"/>
+          <seg type="raw_unreviewed">sine iuste maxime a prelato ꝑlicõe . qui gentes eꝵ sẏᵃ ⁊ qnͣti᷑. cũ prelati a crͣcᵉ</seg>
+          <lb facs="#z_f126r_l006" xml:id="medusa_f126r_l006"/>
+          <seg type="raw_unreviewed">ex pacto suꝑ sede in iiii eutheꝰ eꝵ collator syͣoicͤ ab offiͣ suppũdi᷑ .i. iiii si</seg>
+          <lb facs="#z_f126r_l007" xml:id="medusa_f126r_l007"/>
+          <seg type="raw_unreviewed">ad ignite deponi .i. q.i. r. ponuntur. Item si celebrant pollut sacrifi offerunt d̃. xlix sacros</seg>
+          <lb facs="#z_f126r_l008" xml:id="medusa_f126r_l008"/>
+          <seg type="raw_unreviewed">Mᵃ uᵃ disppũsaⁿᵒ ẽ t̾ra symonatos ⁊ nũ disspũsa᷑ cũ eis . ut tm̃ licitã habeãt coriẽ</seg>
+          <lb facs="#z_f126r_l009" xml:id="medusa_f126r_l009"/>
+          <seg type="raw_unreviewed">ii. s. apostoli st̃e in christum ecc̃e promoti celebrant. i. i. vii. ¶ Item dispensatur ut tñs in</seg>
+          <lb facs="#z_f126r_l010" xml:id="medusa_f126r_l010"/>
+          <seg type="raw_unreviewed">m̃oib nũscet . In s. adͤᵃˢ ecc̃iis suffri nõ pot. s ĩcil ĩp emert cituice</seg>
+          <lb facs="#z_f126r_l011" xml:id="medusa_f126r_l011"/>
+          <seg type="raw_unreviewed">uniere permittitur ibidem ¶ Item dispensantur ut r. monerit in susceptis. si non ita qd eme</seg>
+          <lb facs="#z_f126r_l012" xml:id="medusa_f126r_l012"/>
+          <seg type="raw_unreviewed">rũt sibi ĩ ea ministrare nolunt .i. 10 c. ¶ Item dispensari ut ascendant ad superiores cum in suis ipsis</seg>
+          <lb facs="#z_f126r_l013" xml:id="medusa_f126r_l013"/>
+          <seg type="raw_unreviewed">alia pro ipsis synodis commisyunt . ibidem</seg>
+          <lb facs="#z_f126r_l014" xml:id="medusa_f126r_l014"/>
+          <seg type="raw_unreviewed">Similicẽ eꝙ ubi nõ ẽ ꝑiculum aĩe. l qñ cũ utilitꝭ si lũceꝭ ptũde̾ xxii.</seg>
+          <lb facs="#z_f126r_l015" xml:id="medusa_f126r_l015"/>
+          <seg type="raw_unreviewed">ii utile exꝰ ip̃e de/ siłit se boluisse ymoꝰ usat q̃ p̃cepat ⁊ pꝰ ꝓhibuit si lud̃</seg>
+          <lb facs="#z_f126r_l016" xml:id="medusa_f126r_l016"/>
+          <seg type="raw_unreviewed">Et abba ĩ egipto zarũ uxoe̾ suã si luͭ soroe̾ suã eũ nͨ tñ pͣnt ibid̃ ¶ Et</seg>
+          <lb facs="#z_f126r_l017" xml:id="medusa_f126r_l017"/>
+          <seg type="raw_unreviewed">Jacob s. se esse p̾hexitum ibid̃ ¶ Item nistũ bellum habentibus. qñ ñ hostes expedͭ se laco</seg>
+          <lb facs="#z_f126r_l018" xml:id="medusa_f126r_l018"/>
+          <seg type="raw_unreviewed">xxiii q ii dñs ¶ q nlli p̃iudicrit dolapri filiãco .xxiii u qͥcũq: ¶ q captis filiã</seg>
+          <lb facs="#z_f126r_l019" xml:id="medusa_f126r_l019"/>
+          <seg type="raw_unreviewed">toꝰ non qͣssiaꝰ i. q. spt</seg>
+          <lb facs="#z_f126r_l020" xml:id="medusa_f126r_l020"/>
+          <seg type="raw_unreviewed">Sĩplicitas colombina dicit᷑ q̃ dolo cuit ⁊ hoc funde᷑ . VI ꝙ i ꝯmũteꝰ ¶ It̃ simplicitas in</seg>
+          <lb facs="#z_f126r_l021" xml:id="medusa_f126r_l021"/>
+          <seg type="raw_unreviewed">nata ⁊ s⁊ excurat utr̃to ĩ .i. missi. st̃ tali. piti᷑ ꝯspcᵗⁱ ⁊ neũ ꝯcedi᷑ de .i. d. i.</seg>
+          <lb facs="#z_f126r_l022" xml:id="medusa_f126r_l022"/>
+          <seg type="raw_unreviewed">eꝙ simplicitas ĩpedit ꝑuonẽd̃ eꝵ plura ꝓmote si hãc habuit da᷑ ei condnͨ</seg>
+          <lb facs="#z_f126r_l023" xml:id="medusa_f126r_l023"/>
+          <seg type="raw_unreviewed">lx xiiii ep̃oꝵ Ieꝵ ĩ suᵗoꝵ collacio d oẽ sũꝑꝭ ⁊ sñi bełitateꝭ sũꝰ i .i. u</seg>
+          <lb facs="#z_f126r_l024" xml:id="medusa_f126r_l024"/>
+          <seg type="raw_unreviewed">¶ Ĩgͥluiteas ĩ m̃dithis ⁊ ꝯtͣplatis ⁊ ꝓbatꝭ xui q 1 si Cor singluiteas moꝵ ⁊ bõꝵ</seg>
+          <lb facs="#z_f126r_l025" xml:id="medusa_f126r_l025"/>
+          <seg type="raw_unreviewed">ĩ ꝯsuetos scindilibus d xii</seg>
+          <lb facs="#z_f126r_l026" xml:id="medusa_f126r_l026"/>
+          <seg type="raw_unreviewed">ĩ qͥsuetos scindibilizat d̃ xiiᵃ ͥ ͥ et i. qͥlib⁊ nõ noᵐ t̃tũ ẽ a r̃onis eo ꝙ t̃nd̃</seg>
+          <lb facs="#z_f126r_l027" xml:id="medusa_f126r_l027"/>
+          <seg type="raw_unreviewed">cõĩ ĩtũꝵ querẽbũt .d. xv synodꝰ. de hˢ hẽs u̾ dꝰ de iustitiis</seg>
+          <lb facs="#z_f126r_l028" xml:id="medusa_f126r_l028"/>
+          <seg type="raw_unreviewed">Societas requi̾t concordia moꝵ .d. xl. 1 M diffiˡᵉ ẽ ĩ corruptũ ꝑ manͥe qui</seg>
+          <lb facs="#z_f126r_l029" xml:id="medusa_f126r_l029"/>
+          <seg type="raw_unreviewed">corrupte sociũ XXIII q IIII qͥbꝰ Qd̵ societas muloꝵ ẽ qͣiꝰ tolleñda. 2. iñ suã</seg>
+          <lb facs="#z_f126r_l030" xml:id="medusa_f126r_l030"/>
+          <seg type="raw_unreviewed">Cda. vii. q. sugestꝭ Ex 2ᵃ socurꝰ. qͥs mal. aꝰ ꝯnutũbo. aꝰ fareb̃o. aꝰ corriꝑᵈᵒ. i. bide</seg>
+          <lb facs="#z_f126r_l031" xml:id="medusa_f126r_l031"/>
+          <seg type="raw_unreviewed">Sodoma. 1. 1. pcc̃m sodomẽ excẽ᷑ ĩ mastłis ⁊ feˢˢ. xxxii. qun us. eꝵ ĩ pcc̃o sodomẽ</seg>
+          <lb facs="#z_f126r_l032" xml:id="medusa_f126r_l032"/>
+          <seg type="raw_unreviewed">de ordiũ ordnũ dei ⁊ nẽ ibid̃ . 2.18 ẽg̃niꝰ. adristio. 2. ꝙ̃ cũ ꝓpͣa nr̃e . ibid̃</seg>
+          <lb facs="#z_f126r_l033" xml:id="medusa_f126r_l033"/>
+          <seg type="raw_unreviewed">Sollicito tpulũ suffocat spãlia d̶ plix hĩt</seg>
+          <lb facs="#z_f126r_l034" xml:id="medusa_f126r_l034"/>
+          <seg type="raw_unreviewed">Cõpũꝰ. ꝙ neglĩne p̃batꝰ dormiet̃ oꝑar̃. d̃ lxxxui frẽ / eꝵ añ sũpꝰ litũ</seg>
+          <lb facs="#z_f126r_l035" xml:id="medusa_f126r_l035"/>
+          <seg type="raw_unreviewed">r deceptiꝰ dormieˢ ĩntunt demõs xxui qui st</seg>
+          <lb facs="#z_f126r_l036" xml:id="medusa_f126r_l036"/>
+          <seg type="raw_unreviewed">Corpus non est aliquid mutli sed res inhumanam dubitate diuina indicus uoluntatis . xxuii</seg>
+          <lb facs="#z_f126r_l037" xml:id="medusa_f126r_l037"/>
+          <seg type="raw_unreviewed">sors/ eꝙ l; sortib: nil mali ĩsit: tñi ꝓhibe᷑ hoĩb: ne sb hac spẽ ad ñtiquos</seg>
+          <lb facs="#z_f126r_l038" xml:id="medusa_f126r_l038"/>
+          <seg type="raw_unreviewed">idolatͬe custͣ reddũt . ibid̃ Ieronymo ege͂ sortin̾ sancti mathe͂ ꝓhibe͂ . xxui . q . u</seg>
+          <lb facs="#z_f126r_l039" xml:id="medusa_f126r_l039"/>
+          <seg type="raw_unreviewed">sortes ¶ Quod tpo nccitꝭ ĩ lib̃s dñis p̃mispa oĩne dñica claꝭ sortes uideñ ꝯcedi .i. lib̃</seg>
+          <lb facs="#z_f126r_l040" xml:id="medusa_f126r_l040"/>
+          <seg type="raw_unreviewed">Sortilegium sortili st̃ iꝰ ꝑ qͣdam ĩspicio sortium ũl stꝑarꝭ futũ ꝓu̾tũ .xxvi.</seg>
+          <lb facs="#z_f126r_l041" xml:id="medusa_f126r_l041"/>
+          <seg type="raw_unreviewed">¶qͥ sortilegii Ex portae super se lapides p̃ciosas uł h̃bus ñ ẽ sortilegius ibid̃ Ex</seg>
+          <lb facs="#z_f126r_l042" xml:id="medusa_f126r_l042"/>
+          <seg type="raw_unreviewed">ĩ firmãtibꝰ carnũ sortilegia nil ꝓficiũt. ibid̃ R̾y qͥ sunt sortileꝰ st̃ psãe</seg>
+          <lb facs="#z_f126r_l043" xml:id="medusa_f126r_l043"/>
+          <seg type="raw_unreviewed">sid̃i ⁊ bapⁱ sui violaciones xxui q un ñ sc̃ portit᷑ ad y. aͥ cui s̃uicũt sc̃ captiũt᷑. ibid̃</seg>
+          <lb facs="#z_f126r_l044" xml:id="medusa_f126r_l044"/>
+          <seg type="raw_unreviewed">¶Item ex iurandi st̃ ab ep̃is de parrochis qr̃ expleũdi . i bud̃ Item sortii reĩs assocuñtes</seg>
+          <lb facs="#z_f126r_l045" xml:id="medusa_f126r_l045"/>
+          <seg type="raw_unreviewed">ad accẽmũ ñ st̃ adu̾tũd̃i. ii. ii. uii. qͥ semis ¶ st̃ qͥ c᷑dit sortilegꝭ uãuis s d̃i poĩ᷑ ibid̃</seg>
+          <lb facs="#z_f126r_l046" xml:id="medusa_f126r_l046"/>
+          <seg type="raw_unreviewed">Epc sc̃s ecc̃lis ẽ pr̃i ⁊ filio de .i. d̃ u de spũ / It̃ ꝙ ap̃re ⁊ filio ꝓcedit. ibid̃</seg>
+          <lb facs="#z_f126r_l047" xml:id="medusa_f126r_l047"/>
+          <seg type="raw_unreviewed">spũm sc̃o attͥbuir potu᷑ᷠ m̾aculorum ibidem ¶ Item spiritꝰ sc̃s u̾o eccã uł oꝑa . xxiiii. q</seg>
+          <lb facs="#z_f126r_l048" xml:id="medusa_f126r_l048"/>
+          <seg type="raw_unreviewed">u̾tũe / Qr nõ saissimꝰ s uirꝰ a̾nites spm̃ c̃ucriaᵗ ibiꝰ / Qr pcc̃a ẜ tenue ⁊</seg>
+          <lb facs="#z_f126r_l049" xml:id="medusa_f126r_l049"/>
+          <seg type="raw_unreviewed">d̾ mi̾t̾e ał ex ꝯnĩci̾e opꝰ ẽ spc̃ d. ibid̃ ICor. ĩ dño spc̃ d. ĩ aˢᵘˢ u̾b̃ scĩs</seg>
+          <lb facs="#z_f126r_l050" xml:id="medusa_f126r_l050"/>
+          <seg type="raw_unreviewed">qñq; nutu qñq; r̾ced̾t de p d̾ ii qͥ queñt ¶ It̃ ꝙ blasphe᷑ spm̃ sm̃ ẽ ꝯͣ sacͤs</seg>
+          <lb facs="#z_f126r_l051" xml:id="medusa_f126r_l051"/>
+          <seg type="raw_unreviewed">canõs ꝓt̾ne age̾ .xxv. qͥ molatores ¶ R̃. vii. moĩs ĩ spm̃ s. qͥs p̾nt. Et cũ</seg>
+          <lb facs="#z_f126r_l052" xml:id="medusa_f126r_l052"/>
+          <seg type="raw_unreviewed">qͥs male sentit de ꝑso spc̃s. de p. d̃ m. It̃ cũ qͥs poĩtus deꝑꝑat ut can It̃</seg>
+          <lb facs="#z_f126r_l053" xml:id="medusa_f126r_l053"/>
+          <seg type="raw_unreviewed">cũ qͥs u̾itatem qnta ĩpugniãt. q̃ illi qͥ dixerint xᵐ ĩ behebuid cur̃e de moͥ .i. I</seg>
+          <lb facs="#z_f126r_l054" xml:id="medusa_f126r_l054"/>
+          <seg type="raw_unreviewed">It̃ cũ qͥs scie̾ ĩ pcc̃o morͥli ꝑseu̾at. de ꝓ d̾ m. ⁊ cꝭ It̃ cũ qͥs qͥbꝰq nũ mod̃r᷑ pͨcat</seg>
+          <lb facs="#z_f126r_l055" xml:id="medusa_f126r_l055"/>
+          <seg type="raw_unreviewed">nũ ex li a se spm̃ scm̃ fugit. aliđ st̃ c̃ qͥs exist ĩ pcc̃o. isꝭ ꝓpũit nũq poĩte᷑ de p̃d̃m</seg>
+          <lb facs="#z_f126r_l056" xml:id="medusa_f126r_l056"/>
+          <seg type="raw_unreviewed">alt̾i nñ d᷑ ꝯm̃ti. ibid̃ 43 utꝑ nr̃m 3ᵒ 3ᵒ 3ᵒ</seg>
+          <lb facs="#z_f126r_l057" xml:id="medusa_f126r_l057"/>
+          <seg type="raw_unreviewed">alt̾i nõ d᷑ quĩgi. ibid̃ ¶ Q̃ utiꝭ ip̃oꝵ alt̃o ĩ uito pt̃ religõ approbatũ ĩ t̾re</seg>
+          <lb facs="#z_f126r_l058" xml:id="medusa_f126r_l058"/>
+          <seg type="raw_unreviewed">ibid̃ M oppͥmies ppõsu alt̾iꝰ morte pũr̃ xxii ii eẽ</seg>
+          <lb facs="#z_f126r_l059" xml:id="medusa_f126r_l059"/>
+          <seg type="raw_unreviewed">1</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f126r_l001 #z_f126r_l002 #z_f126r_l003" xml:id="u_126r_001">[Úzké fragmenty protější strany.]</p>
+        <p facs="#z_f126r_l004 #z_f126r_l005 #z_f126r_l006 #z_f126r_l007" xml:id="u_126r_002">Pro debiti officii executione […] prestiterit vel illuxerit aliquis […] pro suo munere […]. Symonia committitur cum prelati […] ex pacto supersedere in […] censuris. Collator symoniacus ab officio suspenditur. I q. I […]. Si […] deponitur. I q. I […]. Item si celebrat polluit sacramenta. […]</p>
+        <note type="editorial" corresp="#u_126r_002" xml:lang="cs">Pokračování simonie; první tři řádky velmi zkrácené a nejisté.</note>
+        <p facs="#z_f126r_l008 #z_f126r_l009 #z_f126r_l010 #z_f126r_l011 #z_f126r_l012 #z_f126r_l013" xml:id="u_126r_003">Non dispensandum est cum symoniacis. Aliquando dispensatur cum eis ut tantum laicam habeant communionem […]. A symoniacis sine […] ecclesie promoti celebraverunt. I q. VII […]. Dispensatur ut tantum in monasteriis maneant. Item si admodum […] beneficii non […] sed Dei providentia clementie vivere permittantur. Ibidem. Item dispensatur ut remaneant in susceptis […]. Item dispensatur ut ascendant ad superiora quando […] ipsi vel alii pro ipsis […] quieverunt. Ibidem.</p>
+        <note type="editorial" corresp="#u_126r_003" xml:lang="cs">Podmínky dispensí jen zčásti přečteny; nepovažovat za úplný výčet pravidel.</note>
+        <p facs="#z_f126r_l014 #z_f126r_l015 #z_f126r_l016 #z_f126r_l017 #z_f126r_l018 #z_f126r_l019" xml:id="u_126r_004">Simulatio aliquando non est peccatum. […] Cum utilitas simulandi pretenditur. XXII q. II Utile. Ipse Deus se simulasse […] notat, quando precepit et post prohibuit […]. Item Abraham in Egypto Saram uxorem suam simulavit sororem suam esse, nec tamen peccavit. Ibidem. Item Iacob se esse Esau primogenitum. Ibidem. Item iustum bellum habentibus […] hostes expedit simulatio. XXIII q. II […]. Aliud predictus dolus, aliud simulatio. XXII q. V […]. Baptismi simulatio […] non […] I q. I […].</p>
+        <note type="editorial" corresp="#u_126r_004" xml:lang="cs">Historické exemplum; pasáž o Božím jednání a závěr zůstávají neúplné.</note>
+        <p facs="#z_f126r_l020 #z_f126r_l021 #z_f126r_l022 #z_f126r_l023" xml:id="u_126r_005">Simplicitas columbina dicitur, quia dolo caret et habet suavitatem. VI q. I […]. Simplicitas in […] et si […] attamen […] et […] conceditur. De po. di. V […]. Simplicitas impedit promovendum […]; si hanc habuerit datur ei coadiutor […]. Episcopo […] collatio […] et […] habilitate […].</p>
+        <note type="editorial" corresp="#u_126r_005" xml:lang="cs">První definice čitelná; právní výjimky a větné vazby 21–23 nerozluštěné.</note>
+        <p facs="#z_f126r_l024 #z_f126r_l025" xml:id="u_126r_006">Singularitas in monachis et contemplativis approbatur. XXVII q. II […]. Singularitas morum etiam bonos insuetos scandalizat. D. XII.</p>
+        <note type="editorial" corresp="#u_126r_006" xml:lang="cs">Singularitas může znamenat odlišnost či výjimečnost způsobu života; překlad pracovní.</note>
+        <p facs="#z_f126r_l026 #z_f126r_l027" xml:id="u_126r_007">Synodus ex greco interpretatur comitatus vel cetus. Concilium non vocatur ab Arianis, eo quod studium […] querebant. D. XVI Synodus. [přeškrtnuto: Idem habes … de conciliis].</p>
+        <note type="editorial" corresp="#u_126r_007" xml:lang="cs">Závěr první definice a záporná věta nejisté; přeškrtnutý dodatek oddělen.</note>
+        <p facs="#z_f126r_l028 #z_f126r_l029 #z_f126r_l030" xml:id="u_126r_008">Societas requirit concordiam morum. D. XL. Difficile est incorruptum permanere ei qui corrupto sociatur. XXXIII q. IIII […]. Societas malorum est tollenda, et nisi fugere […]. Si prius […] malos a instruendo, a sustinendo, a corrigendo. Ibidem.</p>
+        <note type="editorial" corresp="#u_126r_008" xml:lang="cs">Závěrečný výčet fragmentární.</note>
+        <p facs="#z_f126r_l031 #z_f126r_l032" xml:id="u_126r_009">Sodomia. Peccatum sodomie committitur in masculis et feminis. XXXII q. VII […]. In peccato sodomie […] ordinem Dei et nature. Ibidem. […] adulterio, et […] cum propria uxore. Ibidem.</p>
+        <note type="editorial" corresp="#u_126r_009" xml:lang="cs">Historická rubrika a fragmenty klasifikace; vztahy mezi skutky nečitelné, nedoplňuji je.</note>
+        <p facs="#z_f126r_l033 #z_f126r_l034 #z_f126r_l035" xml:id="u_126r_010">Sollicitudo temporalium suffocat spiritualia. D. LXXXVIII […]. Somnus. Qui negligens prebitus dormienti comparatur […]. […] deceptis dormientibus illudunt demones. XXVI q. VII […].</p>
+        <note type="editorial" corresp="#u_126r_010" xml:lang="cs">Rubriky Sollicitudo a Somnus, druhá věta jen částečná.</note>
+        <p facs="#z_f126r_l036 #z_f126r_l037 #z_f126r_l038 #z_f126r_l039" xml:id="u_126r_011">Sors non est aliquid mali, sed res in humana dubietate divinam indicans voluntatem. XXVI q. II […]. Quamvis sortibus nihil mali insit, tamen prohibetur hominibus ne sub hac specie ad antiquos idolatrie cultus redeant. Ibidem. Omne genus sortium […] prohibetur. XXVI q. V […]. Tempore necessitatis in libris divinis, psalmis, oratione dominica […] sortes videntur concedi.</p>
+        <note type="editorial" corresp="#u_126r_011" xml:lang="cs">Výjimky výslovně neúplné; nelze je rekonstruovat pouze z obecné znalosti tématu.</note>
+        <p facs="#z_f126r_l040 #z_f126r_l041 #z_f126r_l042 #z_f126r_l043 #z_f126r_l044 #z_f126r_l045" xml:id="u_126r_012">Sortilegium. Sortilegi sunt qui per quasdam inspectiones sortium vel […] futura predicunt. XXVI q. I […]. Portare super se lapides preciosos vel herbas non est sortilegium. Ibidem. Infirmantibus carmina et sortilegia nihil proficiunt. Ibidem. Qui eunt ad sortilegos sunt […] et baptismi sui violatores. XXVI q. VII […]. Item sorti adoratur cui servitur, et captivatur. Ibidem. Item sunt excommunicandi, et ab episcopis debent per correctionem expelli. Ibidem. Item sortilegi […] ad agendum […] non sunt adiuvandi. VI q. […]. Quicumque credit sortilegis […] pro Domino perit. Ibidem.</p>
+        <note type="editorial" corresp="#u_126r_012" xml:lang="cs">Formulace 43 a 45 nejisté, ponechány fragmentárně.</note>
+        <p facs="#z_f126r_l046 #z_f126r_l047 #z_f126r_l048 #z_f126r_l049 #z_f126r_l050" xml:id="u_126r_013">Spiritus Sanctus equalis est Patri et Filio. De po. di. V […]. Item a Patre et Filio procedit. Ibidem. Spiritum Sanctum alteri dare non potest creatura. Ibidem. Spiritus Sanctus contra ecclesiam non operatur. XXIIII q. I […]. Non passionibus sed […] amantes Spiritum Sanctum accipiunt. Ibidem. Peccata tenere et dimittere vel excommunicare opus est Spiritus Sancti. Ibidem. […] Spiritus Domini […] nullus est qui recedat. De po. di. II […].</p>
+        <note type="editorial" corresp="#u_126r_013" xml:lang="cs">Některé teologické věty jasné, závěr a citace neúplné.</note>
+        <p facs="#z_f126r_l051 #z_f126r_l052 #z_f126r_l053 #z_f126r_l054 #z_f126r_l055" xml:id="u_126r_014">Blasphemare Spiritum Sanctum est contra sacros canones pertinaciter agere. XXV q. I Violatores. Sex modis in Spiritum Sanctum quis peccat: quando male sentit de persona Spiritus Sancti. De po. di. II. Item cum quis peccatis desperat ut Caym. Item cum quis veritatem cognitam impugnat. Item illi qui dixerunt Patrem in Beelzebub eicere demonia. Item cum quis scienter in peccato mortali perseverat. De po. di. IIII […]. Item cum quis quicumque […] peccat, nam ex hac causa Spiritum Sanctum fugant. Ibidem. Item cum quis existit in peccato habens propositum numquam penitere. De po. di. […].</p>
+        <note type="editorial" corresp="#u_126r_014" xml:lang="cs">CATMuS čte VII, ale počet je obrazově VI? (Sex) – navržené čtení; ověřit. Ve větě o Beelzebub je neobvyklé Patrem obrazově pracovní čtení, neopravováno podle bible.</note>
+        <p facs="#z_f126r_l056 #z_f126r_l057 #z_f126r_l058" xml:id="u_126r_015">Sponse promisse non statim debent dari ne vilescant. XXVII q. I […]. Uno nolente alter non debet coniungi. Ibidem. Uterque ipsorum altero invito potest religionem approbatam intrare. Ibidem. Opprimens sponsam alterius morte punitur. XXXII q. V […].</p>
+        <note type="editorial" corresp="#u_126r_015" xml:lang="cs">Historické právní heslo Sponse; některé zkratky a číslo poslední otázky nejisté.</note>
+        <p facs="#z_f126r_l059" xml:id="u_126r_016">[Okrajová značka; bez souvislého textu.]</p>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_126r_001">[Úzké fragmenty protější strany; bez překladu.]</p>
+        <p corresp="#u_126r_002">Za výkon povinného úřadu […] poskytl nebo […] někdo […] za svůj dar […]. Simonie se páchá, když představení […] podle dohody upouštějí od […] cenzur. Simonický udělovatel je suspendován z úřadu. I, otázka 1 […]. Jestliže […] je sesazen. I, otázka 1 […]. Také slaví-li, poskvrňuje svátosti. […]</p>
+        <p corresp="#u_126r_003">Simoniakům se nemá udělovat dispens. Někdy se jim uděluje, aby měli pouze laické společenství […]. Ti, kdo byli simoniaky bez […] církve povýšeni, slavili. I, otázka 7 […]. Uděluje se dispens, aby zůstávali jen v klášterech. Také jestliže […] beneficia […] ale bylo jim dovoleno žít z Boží milostivé prozřetelnosti. Tamtéž. Také se uděluje dispens, aby zůstali v přijatých […]. Také se uděluje dispens k postupu do vyšších [stupňů], když […] oni sami nebo jiní za ně […] ustali. Tamtéž.</p>
+        <p corresp="#u_126r_004">Předstírání někdy není hříchem. […] Když se uvádí užitečnost předstírání. XXII, otázka 2, Utile. Sám Bůh podle […] předstíral, když přikázal a později zakázal […]. Také Abraham v Egyptě předstíral, že jeho žena Sára je jeho sestrou, a přesto nezhřešil. Tamtéž. Také Jákob [předstíral], že je prvorozeným Ezauem. Tamtéž. Také těm, kteří vedou spravedlivou válku, […] proti nepřátelům prospívá předstírání. XXIII, otázka 2 […]. Jiná je zmíněná lest, jiné předstírání. XXII, otázka 5 […]. Předstíraný křest […] nikoli […] I, otázka 1 […].</p>
+        <p corresp="#u_126r_005">Prostota se nazývá holubičí, protože je bez lsti a má mírnost. VI, otázka 1 […]. Prostota v […] a jestliže […] přesto […] a […] se dovoluje. O pokání, distinkce 5 […]. Prostota brání tomu, kdo má být povýšen […]; má-li ji, je mu dán pomocník […]. Biskupovi […] udělení […] a […] způsobilost […].</p>
+        <p corresp="#u_126r_006">Osobitost u mnichů a těch, kdo vedou kontemplativní život, se schvaluje. XXVII, otázka 2 […]. Osobitost mravů pohoršuje i dobré, kteří na ni nejsou zvyklí. Distinkce XII.</p>
+        <p corresp="#u_126r_007">Synoda se z řečtiny vykládá jako doprovod nebo shromáždění. Koncil se nenazývá […] ariány, protože hledali úsilí […]. Distinkce XVI, Synodus. [Přeškrtnuto: Totéž máš … o koncilech.]</p>
+        <p corresp="#u_126r_008">Společenství vyžaduje shodu mravů. Distinkce XL. Je obtížné zůstat neporušený tomu, kdo se sdružuje s porušeným. XXXIII, otázka 4 […]. Společenství zlých je třeba odstranit a […] utíkat […]. Jestliže nejprve […] zlé od poučování, snášení a napravování. Tamtéž.</p>
+        <p corresp="#u_126r_009">Sodomie. Hřích sodomie se páchá u mužů i žen. XXXII, otázka 7 […]. Při hříchu sodomie […] řád Boží a přirozenosti. Tamtéž. […] cizoložství a […] s vlastní ženou. Tamtéž.</p>
+        <p corresp="#u_126r_010">Starost o časné věci dusí věci duchovní. Distinkce LXXXVIII […]. Spánek. Kdo se oddává nedbalosti, přirovnává se ke spícímu […]. […] Oklamaným spícím se vysmívají démoni. XXVI, otázka 7 […].</p>
+        <p corresp="#u_126r_011">Los není něčím zlým, nýbrž věcí, která v lidské pochybnosti ukazuje božskou vůli. XXVI, otázka 2 […]. Ačkoli v losech není nic zlého, přesto se lidem zakazují, aby se pod touto záminkou nevraceli ke starým modloslužebným kultům. Tamtéž. Každý druh losů […] se zakazuje. XXVI, otázka 5 […]. V době nutnosti v božských knihách, žalmech a modlitbě Páně […] se losy zjevně dovolují.</p>
+        <p corresp="#u_126r_012">Věštění. Věštci jsou ti, kdo pomocí určitých pozorování losů nebo […] předpovídají budoucnost. XXVI, otázka 1 […]. Nosit na sobě drahé kameny nebo byliny není věštění. Tamtéž. Nemocným zaklínání ani věštění nijak neprospívají. Tamtéž. Ti, kdo chodí k věštcům, jsou […] a porušují svůj křest. XXVI, otázka 7 […]. Také je uctíván los, jemuž se slouží, a [člověk] je zajímán. Tamtéž. Také mají být exkomunikováni a biskupy napravováni a vyhnáni. Tamtéž. Také věštcům […] k vykonání […] nemá být pomáháno. VI, otázka […]. Kdokoli věří věštcům […] místo Pánu, hyne. Tamtéž.</p>
+        <p corresp="#u_126r_013">Duch svatý je rovný Otci i Synu. O pokání, distinkce 5 […]. Také vychází z Otce i Syna. Tamtéž. Žádný tvor nemůže dát druhému Ducha svatého. Tamtéž. Duch svatý nepůsobí proti církvi. XXIV, otázka 1 […]. Ducha svatého přijímají ti, kdo milují nikoli vášně, nýbrž […]. Tamtéž. Zadržovat a odpouštět hříchy nebo exkomunikovat je dílem Ducha svatého. Tamtéž. […] Duch Páně […] nikdo neodchází. O pokání, distinkce 2 […].</p>
+        <p corresp="#u_126r_014">Rouhat se Duchu svatému znamená zatvrzele jednat proti posvátným kánonům. XXV, otázka 1, Violatores. Šesti způsoby člověk hřeší proti Duchu svatému: když smýšlí nesprávně o osobě Ducha svatého. O pokání, distinkce 2. Také když člověk kvůli hříchům zoufá jako Kain. Také když napadá poznanou pravdu. Také ti, kdo řekli, že Otec vyhání démony Belzebubem. Také když někdo vědomě setrvává ve smrtelném hříchu. O pokání, distinkce 4 […]. Také když kdokoli […] hřeší, neboť z této příčiny zahánějí Ducha svatého. Tamtéž. Také když člověk zůstává v hříchu s úmyslem nikdy nečinit pokání. O pokání, distinkce […].</p>
+        <p corresp="#u_126r_015">Slíbené nevěsty nemají být ihned odevzdány, aby neztratily vážnost. XXVII, otázka 1 […]. Nechce-li jeden, druhý nemá být spojen [v manželství]. Tamtéž. Každý z nich může proti vůli druhého vstoupit do schválené řehole. Tamtéž. Kdo znásilní snoubenku jiného, je trestán smrtí. XXXII, otázka 5 […].</p>
+        <p corresp="#u_126r_016">[Okrajová značka; bez překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

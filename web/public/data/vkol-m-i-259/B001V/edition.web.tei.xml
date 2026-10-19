@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, B001V: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Bez samostatně přiřazeného katalogového oddílu. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_B001V_coordinate; PNG SHA256 b9fb37bc3c347d10be4b71908ade9eb3e896cdda65f1d4556296fba66e469d58; archival TIFF SHA256 10af5b660a48200935c371744402b45e0acf174f4da5fe3a114e7a9300696b47; TIFF frame 0; counterclockwise rotation 270 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[0, -1, 5600], [1, 0, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_B001V">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#B001V"/>
+      <zone ulx="678" uly="658" lrx="5331" lry="797" xml:id="z_fB001V_l001"/>
+      <zone ulx="708" uly="764" lrx="5324" lry="907" xml:id="z_fB001V_l002"/>
+      <zone ulx="691" uly="879" lrx="5348" lry="1033" xml:id="z_fB001V_l003"/>
+      <zone ulx="710" uly="1000" lrx="5342" lry="1154" xml:id="z_fB001V_l004"/>
+      <zone ulx="691" uly="1120" lrx="5365" lry="1269" xml:id="z_fB001V_l005"/>
+      <zone ulx="691" uly="1235" lrx="5361" lry="1399" xml:id="z_fB001V_l006"/>
+      <zone ulx="697" uly="1360" lrx="5324" lry="1518" xml:id="z_fB001V_l007"/>
+      <zone ulx="713" uly="1469" lrx="5346" lry="1655" xml:id="z_fB001V_l008"/>
+      <zone ulx="708" uly="1607" lrx="4481" lry="1750" xml:id="z_fB001V_l009"/>
+      <zone ulx="4507" uly="1653" lrx="5372" lry="1796" xml:id="z_fB001V_l010"/>
+      <zone ulx="713" uly="1733" lrx="5372" lry="1895" xml:id="z_fB001V_l011"/>
+      <zone ulx="739" uly="1850" lrx="5404" lry="2004" xml:id="z_fB001V_l012"/>
+      <zone ulx="700" uly="1949" lrx="5391" lry="2136" xml:id="z_fB001V_l013"/>
+      <zone ulx="691" uly="2075" lrx="5402" lry="2255" xml:id="z_fB001V_l014"/>
+      <zone ulx="702" uly="2212" lrx="5409" lry="2359" xml:id="z_fB001V_l015"/>
+      <zone ulx="713" uly="2309" lrx="5428" lry="2487" xml:id="z_fB001V_l016"/>
+      <zone ulx="717" uly="2461" lrx="5415" lry="2615" xml:id="z_fB001V_l017"/>
+      <zone ulx="702" uly="2552" lrx="5394" lry="2740" xml:id="z_fB001V_l018"/>
+      <zone ulx="708" uly="2669" lrx="5411" lry="2864" xml:id="z_fB001V_l019"/>
+      <zone ulx="736" uly="2821" lrx="5387" lry="2968" xml:id="z_fB001V_l020"/>
+      <zone ulx="723" uly="2955" lrx="5326" lry="3098" xml:id="z_fB001V_l021"/>
+      <zone ulx="732" uly="3061" lrx="5218" lry="3254" xml:id="z_fB001V_l022"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_fB001V_l001" xml:id="catmus_fB001V_l001"/>
+          <seg type="raw_unreviewed">iirtlebus de Turu senor eononitꝰ et nos c̃apłm eccie elom Recognoscuuns tenore pucire</seg>
+          <lb facs="#z_fB001V_l002" xml:id="catmus_fB001V_l002"/>
+          <seg type="raw_unreviewed">nre consadaconis rite ad duximꝰ lubores sollicitudines et sidelia ẜuicia nobis et eccłie</seg>
+          <lb facs="#z_fB001V_l003" xml:id="catmus_fB001V_l003"/>
+          <seg type="raw_unreviewed">dum lucam Iohius lynal de uiansedlu ꝓpetuu uicam ecclle supradte sollerter et sructu</seg>
+          <lb facs="#z_fB001V_l004" xml:id="catmus_fB001V_l004"/>
+          <seg type="raw_unreviewed">ed pocius in oman euria in ardius agendis Ideo et si non scd̃m debitũ tamen aliquo</seg>
+          <lb facs="#z_fB001V_l005" xml:id="catmus_fB001V_l005"/>
+          <seg type="raw_unreviewed">rocompensam matura ataq delibacone pnia yi lien cum diundio aqroꝵ ymicu Qu</seg>
+          <lb facs="#z_fB001V_l006" xml:id="catmus_fB001V_l006"/>
+          <seg type="raw_unreviewed">uilla hruiffka als prerpalom ꝓpe diancedlu ałs Slalokolo de quibus abolim de lanco e</seg>
+          <lb facs="#z_fB001V_l007" xml:id="catmus_fB001V_l007"/>
+          <seg type="raw_unreviewed">medio lanco quadraquita grossi et duo pulli de qualibet uerꝑ curticta octo grossi et</seg>
+          <lb facs="#z_fB001V_l008" xml:id="catmus_fB001V_l008"/>
+          <seg type="raw_unreviewed">suit consuetum quos bone memorie quodlim dñs Mirzantis eanoicus Olomi ꝑ eccłui O</seg>
+          <lb facs="#z_fB001V_l009" xml:id="catmus_fB001V_l009"/>
+          <seg type="raw_unreviewed">brebizich cliente ꝓ triquitaquq urc qrossoꝵ pragen mũ moranicalis</seg>
+          <lb facs="#z_fB001V_l010" xml:id="catmus_fB001V_l010"/>
+          <seg type="raw_unreviewed">lcgittaue compa</seg>
+          <lb facs="#z_fB001V_l011" xml:id="catmus_fB001V_l011"/>
+          <seg type="raw_unreviewed">ꝑ turẽciis de consẜn¶lluscris quondam dui qdhanis marchionis moramẽ pricui Opitu</seg>
+          <lb facs="#z_fB001V_l012" xml:id="catmus_fB001V_l012"/>
+          <seg type="raw_unreviewed">Prune Anno du millesimo trecentesimo Sexagesimo intablati cxistunt. Et qui mode</seg>
+          <lb facs="#z_fB001V_l013" xml:id="catmus_fB001V_l013"/>
+          <seg type="raw_unreviewed">malu qloeriaꝵ que p̾ualuerũt in tra sunt desertati et incent absq ouuĩ utilitate desert</seg>
+          <lb facs="#z_fB001V_l014" xml:id="catmus_fB001V_l014"/>
+          <seg type="raw_unreviewed">et sinqulis censibus et utilitatibus eoꝵ cõmendauurꝰ et consuꝰ cõmendius et co</seg>
+          <lb facs="#z_fB001V_l015" xml:id="catmus_fB001V_l015"/>
+          <seg type="raw_unreviewed">domo luce ꝑ octo anuos concinuo se sequentes Aniui u festo suncti Gcoriin mit instant</seg>
+          <lb facs="#z_fB001V_l016" xml:id="catmus_fB001V_l016"/>
+          <seg type="raw_unreviewed">deudos utifimendos et qubernandos/ sub cali condicone qd ip̃e bosdem ꝑ tres pͥenuos anno</seg>
+          <lb facs="#z_fB001V_l017" xml:id="catmus_fB001V_l017"/>
+          <seg type="raw_unreviewed">libere tenere et cis uti licite possit et debeat ꝙ qui yerosequetes annos quolibet amuro ꝯ</seg>
+          <lb facs="#z_fB001V_l018" xml:id="catmus_fB001V_l018"/>
+          <seg type="raw_unreviewed">mediam inrt qrossoꝵ cantũ ad eccliam date et solu̾e teneatur Quibus transactis si ꝑ</seg>
+          <lb facs="#z_fB001V_l019" xml:id="catmus_fB001V_l019"/>
+          <seg type="raw_unreviewed">uoluit adinceqrum censum soluendũ erit astrictus Insuper eciam si p̃dc̃o duo luce aliqͥn</seg>
+          <lb facs="#z_fB001V_l020" xml:id="catmus_fB001V_l020"/>
+          <seg type="raw_unreviewed">facti in dictis airis inserretlir fortasse extũc eidem ꝑ cebrigacõe huꝰ modi cooꝑari uol</seg>
+          <lb facs="#z_fB001V_l021" xml:id="catmus_fB001V_l021"/>
+          <seg type="raw_unreviewed">In quoꝵ testimonin et robur Susillu mi ẽapłi de spttli uro mandato Pncibus est apo</seg>
+          <lb facs="#z_fB001V_l022" xml:id="catmus_fB001V_l022"/>
+          <seg type="raw_unreviewed">du mr ͦ quadrngentesimo die uicesimaq̃nta menẜ febrnan In nr̃o ecpło gñali</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_fB001V_l001" xml:id="medusa_fB001V_l001"/>
+          <seg type="raw_unreviewed">in Artlebus de Turni senior canonicus et nos capitulum ecclesie Olomucensis recognoscimus tenore presentium</seg>
+          <lb facs="#z_fB001V_l002" xml:id="medusa_fB001V_l002"/>
+          <seg type="raw_unreviewed">nostre consideracionis rite ad duximus labores / sollicitudines et fidelia servicia nobis et Ecclesie</seg>
+          <lb facs="#z_fB001V_l003" xml:id="medusa_fB001V_l003"/>
+          <seg type="raw_unreviewed">domini lucam johannis lynczel de Viansebliz ꝑpetuũ uicinũ eccłie supradicte sollerter et fructu</seg>
+          <lb facs="#z_fB001V_l004" xml:id="medusa_fB001V_l004"/>
+          <seg type="raw_unreviewed">sed potius in Roman curia in arduis agendis Ideo et si non secundum debitum tamen aliquo</seg>
+          <lb facs="#z_fB001V_l005" xml:id="medusa_fB001V_l005"/>
+          <seg type="raw_unreviewed">recompensam / matura atque deliberacione prima summ lumen cum dimidio agrorum vinearum duc</seg>
+          <lb facs="#z_fB001V_l006" xml:id="medusa_fB001V_l006"/>
+          <seg type="raw_unreviewed">villa hrusska/ als Pierpakow prope Munsedlicz/ als Slawkowo/ de quibus ab olim de lauro</seg>
+          <lb facs="#z_fB001V_l007" xml:id="medusa_fB001V_l007"/>
+          <seg type="raw_unreviewed">medio lanco quadraginta grossi et duo pulli de qualibet vero curticlã octo grossi et</seg>
+          <lb facs="#z_fB001V_l008" xml:id="medusa_fB001V_l008"/>
+          <seg type="raw_unreviewed">sint consuetum / quos bone memorie quondam dñs Mirzacus Canonicus Olom. pro eccłia</seg>
+          <lb facs="#z_fB001V_l009" xml:id="medusa_fB001V_l009"/>
+          <seg type="raw_unreviewed">bre bržich cliente pro trigintaquinque marcis grossorum pragensis ommi morauicalis</seg>
+          <lb facs="#z_fB001V_l010" xml:id="medusa_fB001V_l010"/>
+          <seg type="raw_unreviewed">legttine compo</seg>
+          <lb facs="#z_fB001V_l011" xml:id="medusa_fB001V_l011"/>
+          <seg type="raw_unreviewed">pertinenciis de conffrontationibus quondam domini Johannis marchionis moranie presentium</seg>
+          <lb facs="#z_fB001V_l012" xml:id="medusa_fB001V_l012"/>
+          <seg type="raw_unreviewed">Brune anno domini millesimo trecentesimo sexagesimo octo existunt. Et qui modo</seg>
+          <lb facs="#z_fB001V_l013" xml:id="medusa_fB001V_l013"/>
+          <seg type="raw_unreviewed">mala guerrarum que prius fuerunt in terra sunt desertati et in cent absque omni utilitate desert</seg>
+          <lb facs="#z_fB001V_l014" xml:id="medusa_fB001V_l014"/>
+          <seg type="raw_unreviewed">et singulis censibus et utilitatibus eorum commendamus et commisimus commendamus et com</seg>
+          <lb facs="#z_fB001V_l015" xml:id="medusa_fB001V_l015"/>
+          <seg type="raw_unreviewed">domino luce per octo annos continuo se sequentes / Annum a festo sancti Georgii nunc instanti</seg>
+          <lb facs="#z_fB001V_l016" xml:id="medusa_fB001V_l016"/>
+          <seg type="raw_unreviewed">dendos utifruendos et gubernandos sub tali condicione qd ipse eosdem ꝑ t̾ros perennos annue</seg>
+          <lb facs="#z_fB001V_l017" xml:id="medusa_fB001V_l017"/>
+          <seg type="raw_unreviewed">libere tenere et eis uti licite possit et debeat / per quinq: uero sequentes annos quolibet anno o</seg>
+          <lb facs="#z_fB001V_l018" xml:id="medusa_fB001V_l018"/>
+          <seg type="raw_unreviewed">mediam martis grossorum tantum ad Ecclesiam dare et solvere teneatur Quibus transactis si p</seg>
+          <lb facs="#z_fB001V_l019" xml:id="medusa_fB001V_l019"/>
+          <seg type="raw_unreviewed">voluerit ad integrum censum solvendũ erit astrictus Insuper eciam si p̃dc̃o dño Luce a licter</seg>
+          <lb facs="#z_fB001V_l020" xml:id="medusa_fB001V_l020"/>
+          <seg type="raw_unreviewed">facti in dictis agris inferretur fortasse Ex tunc eidem pro exbrigacione huiusmodi cooperari vos</seg>
+          <lb facs="#z_fB001V_l021" xml:id="medusa_fB001V_l021"/>
+          <seg type="raw_unreviewed">In quorum testimonium et robur sigillum nostri capituli de speciali nostro mandato presentibus est app</seg>
+          <lb facs="#z_fB001V_l022" xml:id="medusa_fB001V_l022"/>
+          <seg type="raw_unreviewed">domini m° quadringentesimo die vicesimaquinta mensis februario in nostro capitulo generali</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_fB001V_l001 #z_fB001V_l002 #z_fB001V_l003 #z_fB001V_l004" xml:id="u_B001V_001">[Wirtlebus?] de Turri senior canonicus et nos capitulum ecclesie Olom[ucensis] recognoscimus tenore presen[tium ---]. [Nostre?] consideracionis [---] labores, sollicitudines et fidelia servicia nobis et ecclesie [---] dominum Lucam Iohannis [Hynzel?] de [Unyedlitz?], perpetuum vicarium ecclesie supradicte, sollerter et fructu[ose ---]. Sed pocius in [---] curiam in arduis agendis [---] ideo etsi non secundum debitum tamen aliquo [---].</p>
+        <note type="editorial" corresp="#u_B001V_001" xml:lang="cs">Úvod listiny je čitelný jen s oříznutými konci. Osobní a místní jména jsou návrhy podle obrazu; neověřena v externích pramenech. Syntaktické vazby kolem jmen zůstávají nejisté.</note>
+        <p facs="#z_fB001V_l005 #z_fB001V_l006 #z_fB001V_l007 #z_fB001V_l008" xml:id="u_B001V_002">[---] recompensam, matura atque deliberacione previa, [---] laneum cum dimidio, agros [---] in villa [Hruisska?] alias [---] prope [Unyedlitz?] alias [Slabkolo?], de quibus ab olim de laneo [---] medio laneo quadraginta grossi et duo pulli, de qualibet vero curticula octo grossi et [---] fuit consuetum, quos bone memorie quondam dominus [Mirzantis?], canonicus Olom[ucensis], pro ecclesia [---].</p>
+        <note type="editorial" corresp="#u_B001V_002" xml:lang="cs">Pozemkové názvy a částky jsou obtížné, nikoli zjištěná identifikace dnešních obcí. Oříznuté části vět a chybějící rentovní položky se nedopočítávají.</note>
+        <p facs="#z_fB001V_l009 #z_fB001V_l010 #z_fB001V_l011 #z_fB001V_l012" xml:id="u_B001V_003">[---] [Brezich?] cliente pro triginta quinque marcis grossorum Pragensium numeri Moravicalis [---] legitime compa[r---]. [---] pertinenciis de consensu illustris quondam domini Iohannis marchionis Moravie [---] Brune anno domini millesimo trecentesimo sexagesimo intabulati existunt. Et qui modo [---].</p>
+        <note type="editorial" corresp="#u_B001V_003" xml:lang="cs">Segment10 je zlomek delší řádky, ne úplná formule koupě. Rok1360 je v textu staršího zápisu, není to datum samotné listiny.</note>
+        <p facs="#z_fB001V_l013 #z_fB001V_l014 #z_fB001V_l015 #z_fB001V_l016" xml:id="u_B001V_004">[---] malis gwerrarum que prevaluerunt in terra sunt desertati et iacent absque omni utilitate desert[i ---]. [---] et singulis censibus et utilitatibus eorum commendavimus et [---] commend[---]. [---] domino Luce per octo annos continuo se sequentes, a nunc in festo sancti Georgii nunc instant[e ---], [---] utifruendos et gubernandos sub tali condicione quod ipse eosdem per tres primos anno[s ---].</p>
+        <note type="editorial" corresp="#u_B001V_004" xml:lang="cs">Příčina zpustnutí gwerrarum je čtena z obrazu. Osm let, svátekJiří a první tři roky jsou viditelné; počátek a podrobnosti smluvních vět zůstávají neúplné.</note>
+        <p facs="#z_fB001V_l017 #z_fB001V_l018 #z_fB001V_l019 #z_fB001V_l020" xml:id="u_B001V_005">[---] libere tenere et eis uti licite possit et debeat, pro quinque vero sequentibus annis quolibet anno [---] mediam marcam grossorum tantum ad ecclesiam dare et solvere teneatur. Quibus transactis si [---] voluit, ad integrum censum solvendum erit astrictus. Insuper eciam si predicto domino Luce aliq[---] facta in dictis agris inferretur, forte extunc eidem pro [---] huiusmodi cooperari vol[---].</p>
+        <note type="editorial" corresp="#u_B001V_005" xml:lang="cs">Výše půlhřivny a pětileté období jsou čitelné. Druh újmy ani přesná pomoc kapituly není bezpečně rozluštěna. Právní účinek fragmentárního ustanovení se neinterpretuje jako jistý.</note>
+        <p facs="#z_fB001V_l021 #z_fB001V_l022" xml:id="u_B001V_006">In quorum testimonium et robur sigillum nostri capituli de speciali nostro mandato presentibus est app[ensum ---], anno domini millesimo quadringentesimo, die vicesima quinta mensis Februarii, in nostro capitulo generali.</p>
+        <note type="editorial" corresp="#u_B001V_006" xml:lang="cs">Datovací řádka přímo v obrazu dovoluje návrh25.února1400. Nezaměňuje se s rokem1360 v segmentu12. Závěr předposlední řádky je oříznutý, proto mezera zůstává.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_B001V_001">[Wirtlebus?] z Turri, starší kanovník, a my, kapitula olomouckého kostela, uznáváme touto [listinou ---]. [Našeho?] uvážení [---] práce, péči a věrné služby nám a kostelu [---] pana Lukáše, [Jana Hynzela?] z [Unyedlitz?], stálého vikáře uvedeného kostela, pilně a užitečně [---]. Ale spíše [---] dvůr v obtížných záležitostech [---], proto i když ne podle náležité míry, přece nějak [---].</p>
+        <p corresp="#u_B001V_002">[---] na odměnu, po zralém předchozím uvážení, [---] půldruhého lánu, pole [---] ve vsi [Hruisska?], jinak [---], poblíž [Unyedlitz?], jinak [Slabkolo?]. Z nich se odedávna z lánu [---], z půl lánu čtyřicet grošů a dvě kuřata, z každého dvorce osm grošů a [---] obvykle odvádělo. Ty někdejší pan [Mirzantis?] dobré paměti, olomoucký kanovník, pro kostel [---].</p>
+        <p corresp="#u_B001V_003">[---] od [Brezicha?], klienta či služebníka, za třicet pět hřiven pražských grošů podle moravského počtu [---] řádně kou[---]. [---] s příslušenstvím se souhlasem někdejšího urozeného pana Jana, markraběte moravského [---], jsou zapsány v Brně léta Páně tisícího třístého šedesátého. A které nyní [---].</p>
+        <p corresp="#u_B001V_004">[---] pro válečné pohromy, které převládly v zemi, byly zpustlé a leží opuštěné bez jakéhokoli užitku [---]. [---] se všemi jednotlivými platy a užitky jsme svěřili [---] panu Lukášovi na osm po sobě následujících let, od nyní nadcházejícího svátku svatého Jiří [---], k užívání a správě za podmínky, že je během prvních tří let [---].</p>
+        <p corresp="#u_B001V_005">[---] smí a má je svobodně držet a dovoleně užívat; po dalších pět let je povinen každoročně [---] pouze půl hřivny grošů kostelu dát a zaplatit. Po jejich uplynutí, jestliže [---] chtěl, bude zavázán platit celý úrok. Nadto kdyby uvedenému panu Lukášovi byla na uvedených polích způsobena nějaká [---], pak mu v takové [---] chtějí napomoci [---].</p>
+        <p corresp="#u_B001V_006">Na svědectví a potvrzení toho byla k této [listině] z našeho zvláštního příkazu přivěšena pečeť naší kapituly [---], léta Páně tisícího čtyřstého, dvacátého pátého dne měsíce února, na naší generální kapitule.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 159v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_159v_coordinate; PNG SHA256 35b82292119681c86362ccf96f686914005f43592b2910ac117c37bb6df81718; archival TIFF SHA256 a61201189aae84fad1c70a62ed9b82ccfbdc2b0152f3371d1696bc3ed447cfe2; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_159v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#159v"/>
+      <zone ulx="700" uly="532" lrx="3430" lry="718" xml:id="z_f159v_l001"/>
+      <zone ulx="575" uly="678" lrx="3380" lry="840" xml:id="z_f159v_l002"/>
+      <zone ulx="628" uly="799" lrx="3327" lry="970" xml:id="z_f159v_l003"/>
+      <zone ulx="634" uly="933" lrx="3321" lry="1129" xml:id="z_f159v_l004"/>
+      <zone ulx="625" uly="1070" lrx="1388" lry="1247" xml:id="z_f159v_l005"/>
+      <zone ulx="591" uly="1200" lrx="1646" lry="1396" xml:id="z_f159v_l006"/>
+      <zone ulx="781" uly="1328" lrx="3417" lry="1518" xml:id="z_f159v_l007"/>
+      <zone ulx="793" uly="1477" lrx="3355" lry="1652" xml:id="z_f159v_l008"/>
+      <zone ulx="625" uly="1602" lrx="3352" lry="1785" xml:id="z_f159v_l009"/>
+      <zone ulx="622" uly="1742" lrx="3339" lry="1925" xml:id="z_f159v_l010"/>
+      <zone ulx="631" uly="1894" lrx="3333" lry="2078" xml:id="z_f159v_l011"/>
+      <zone ulx="622" uly="2034" lrx="3420" lry="2218" xml:id="z_f159v_l012"/>
+      <zone ulx="610" uly="2187" lrx="3311" lry="2373" xml:id="z_f159v_l013"/>
+      <zone ulx="634" uly="2339" lrx="3405" lry="2516" xml:id="z_f159v_l014"/>
+      <zone ulx="610" uly="2485" lrx="3420" lry="2656" xml:id="z_f159v_l015"/>
+      <zone ulx="625" uly="2628" lrx="3433" lry="2837" xml:id="z_f159v_l016"/>
+      <zone ulx="709" uly="2775" lrx="2325" lry="2977" xml:id="z_f159v_l017"/>
+      <zone ulx="765" uly="2936" lrx="3405" lry="3145" xml:id="z_f159v_l018"/>
+      <zone ulx="793" uly="3073" lrx="3423" lry="3276" xml:id="z_f159v_l019"/>
+      <zone ulx="625" uly="3210" lrx="3454" lry="3412" xml:id="z_f159v_l020"/>
+      <zone ulx="610" uly="3353" lrx="3361" lry="3546" xml:id="z_f159v_l021"/>
+      <zone ulx="616" uly="3503" lrx="3367" lry="3714" xml:id="z_f159v_l022"/>
+      <zone ulx="625" uly="3652" lrx="3454" lry="3864" xml:id="z_f159v_l023"/>
+      <zone ulx="613" uly="3808" lrx="3336" lry="4010" xml:id="z_f159v_l024"/>
+      <zone ulx="619" uly="3948" lrx="3411" lry="4153" xml:id="z_f159v_l025"/>
+      <zone ulx="619" uly="4094" lrx="3436" lry="4293" xml:id="z_f159v_l026"/>
+      <zone ulx="606" uly="4234" lrx="3383" lry="4414" xml:id="z_f159v_l027"/>
+      <zone ulx="616" uly="4361" lrx="3361" lry="4539" xml:id="z_f159v_l028"/>
+      <zone ulx="600" uly="4501" lrx="3430" lry="4632" xml:id="z_f159v_l029"/>
+      <zone ulx="585" uly="4607" lrx="3423" lry="4834" xml:id="z_f159v_l030"/>
+      <zone ulx="3803" uly="1919" lrx="3881" lry="2028" xml:id="z_f159v_l031"/>
+      <zone ulx="3787" uly="2078" lrx="3884" lry="2187" xml:id="z_f159v_l032"/>
+      <zone ulx="3781" uly="2190" lrx="3868" lry="2311" xml:id="z_f159v_l033"/>
+      <zone ulx="3772" uly="2333" lrx="3887" lry="2464" xml:id="z_f159v_l034"/>
+      <zone ulx="3769" uly="2488" lrx="3887" lry="2638" xml:id="z_f159v_l035"/>
+      <zone ulx="3772" uly="2632" lrx="3887" lry="2737" xml:id="z_f159v_l036"/>
+      <zone ulx="3775" uly="2787" lrx="3887" lry="2958" xml:id="z_f159v_l037"/>
+      <zone ulx="3759" uly="2949" lrx="3890" lry="3064" xml:id="z_f159v_l038"/>
+      <zone ulx="3766" uly="3058" lrx="3859" lry="3160" xml:id="z_f159v_l039"/>
+      <zone ulx="3753" uly="3232" lrx="3881" lry="3338" xml:id="z_f159v_l040"/>
+      <zone ulx="3775" uly="3353" lrx="3828" lry="3459" xml:id="z_f159v_l041"/>
+      <zone ulx="3722" uly="4075" lrx="3868" lry="4175" xml:id="z_f159v_l042"/>
+      <zone ulx="3710" uly="4162" lrx="3887" lry="4315" xml:id="z_f159v_l043"/>
+      <zone ulx="3703" uly="4299" lrx="3878" lry="4501" xml:id="z_f159v_l044"/>
+      <zone ulx="3716" uly="4442" lrx="3881" lry="4582" xml:id="z_f159v_l045"/>
+      <zone ulx="3722" uly="4585" lrx="3875" lry="4713" xml:id="z_f159v_l046"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f159v_l001" xml:id="catmus_f159v_l001"/>
+          <seg type="raw_unreviewed"> sem ben sunde Nu mogen sy sich nich̃t ent scholdigen uõ.</seg>
+          <lb facs="#z_f159v_l002" xml:id="catmus_f159v_l002"/>
+          <seg type="raw_unreviewed">Iren sundẽ d̃ mich hasse d̃ hasse ouch menꝭ uat̾ ap ich</seg>
+          <lb facs="#z_f159v_l003" xml:id="catmus_f159v_l003"/>
+          <seg type="raw_unreviewed">die xrxrchi nicht hette begangẽ die miniãt aud̾s cet Go</seg>
+          <lb facs="#z_f159v_l004" xml:id="catmus_f159v_l004"/>
+          <seg type="raw_unreviewed">hetten si ã sunden nicht: nu habũt sy is gesehũ und̃.</seg>
+          <lb facs="#z_f159v_l005" xml:id="catmus_f159v_l005"/>
+          <seg type="raw_unreviewed">hassent mich</seg>
+          <lb facs="#z_f159v_l006" xml:id="catmus_f159v_l006"/>
+          <seg type="raw_unreviewed">In die unus discipł</seg>
+          <lb facs="#z_f159v_l007" xml:id="catmus_f159v_l007"/>
+          <seg type="raw_unreviewed">hũs sp̃cħ Iu sem Iuug̃n d̃ euch̃ hort d̃ hort moti auch</seg>
+          <lb facs="#z_f159v_l008" xml:id="catmus_f159v_l008"/>
+          <seg type="raw_unreviewed">und d euch cusiuecĩt d̃ rorsinecht ouch mich: der</seg>
+          <lb facs="#z_f159v_l009" xml:id="catmus_f159v_l009"/>
+          <seg type="raw_unreviewed">micħ alui osiech̃t d̃ u̾sinecht ouch dei d̾ mch gesant</seg>
+          <lb facs="#z_f159v_l010" xml:id="catmus_f159v_l010"/>
+          <seg type="raw_unreviewed">har, do bomẽ ioud dy girecond subengig nut frerodõ</seg>
+          <lb facs="#z_f159v_l011" xml:id="catmus_f159v_l011"/>
+          <seg type="raw_unreviewed">sprechuud hr̃ di teroftł sem uus uud̾tan in deym namẽ</seg>
+          <lb facs="#z_f159v_l012" xml:id="catmus_f159v_l012"/>
+          <seg type="raw_unreviewed">do spch̃ exs icli sach de terrisl uallẽ uõ dei hymel, als eñ</seg>
+          <lb facs="#z_f159v_l013" xml:id="catmus_f159v_l013"/>
+          <seg type="raw_unreviewed">plibku gescho ich̃ hab ouch̃ den grralt qugebl̃ geg</seg>
+          <lb facs="#z_f159v_l014" xml:id="catmus_f159v_l014"/>
+          <seg type="raw_unreviewed">zutreto off dy slangẽ. uud auff dy scorꝑe bnd auff ali</seg>
+          <lb facs="#z_f159v_l015" xml:id="catmus_f159v_l015"/>
+          <seg type="raw_unreviewed">dy crafst dez couige und euch̃ ut nch̃t donõ sobt ir ench</seg>
+          <lb facs="#z_f159v_l016" xml:id="catmus_f159v_l016"/>
+          <seg type="raw_unreviewed">des nicħt frerrẽ deñ das eiõr nam zu hymel geschbũ ist</seg>
+          <lb facs="#z_f159v_l017" xml:id="catmus_f159v_l017"/>
+          <seg type="raw_unreviewed">ꝯ die unius mr̃is Cũ audie̾i̾tꝭ płia</seg>
+          <lb facs="#z_f159v_l018" xml:id="catmus_f159v_l018"/>
+          <seg type="raw_unreviewed">hũs sp̃th yu seui Iuig̃n So ir hor̃t urleg uũ stormũg</seg>
+          <lb facs="#z_f159v_l019" xml:id="catmus_f159v_l019"/>
+          <seg type="raw_unreviewed">ro dexbompt aucht, das mus des exsten ergen/. Es hat</seg>
+          <lb facs="#z_f159v_l020" xml:id="catmus_f159v_l020"/>
+          <seg type="raw_unreviewed">auo dennoch nich̃t ende Et spc̃t Iu yn Eyn diet scet auff</seg>
+          <lb facs="#z_f159v_l021" xml:id="catmus_f159v_l021"/>
+          <seg type="raw_unreviewed">coid̃ de audii und em Reich̃ coid̃ das aud amd ũdent</seg>
+          <lb facs="#z_f159v_l022" xml:id="catmus_f159v_l022"/>
+          <seg type="raw_unreviewed">erdpydem und sterbcond huug̃ und forcht nõ hymel uud</seg>
+          <lb facs="#z_f159v_l023" xml:id="catmus_f159v_l023"/>
+          <seg type="raw_unreviewed">gͦsse geichu ee das alles ergen. so folet sy enth und actrtẽt</seg>
+          <lb facs="#z_f159v_l024" xml:id="catmus_f159v_l024"/>
+          <seg type="raw_unreviewed">ench uud gebut euc iii dy lput uud quelsũt eich fur dy</seg>
+          <lb facs="#z_f159v_l025" xml:id="catmus_f159v_l025"/>
+          <seg type="raw_unreviewed">lnuiq und fut di gͣfsen durch̃ meni nauiẽ, das geschich̃t</seg>
+          <lb facs="#z_f159v_l026" xml:id="catmus_f159v_l026"/>
+          <seg type="raw_unreviewed">encħi zu eqm urkuud do betracht nicht ĩ erom hezen ui</seg>
+          <lb facs="#z_f159v_l027" xml:id="catmus_f159v_l027"/>
+          <seg type="raw_unreviewed">ue autirt cichi gib euch̃ mũd uud creisheyt de nicͥh̃t uodd̾</seg>
+          <lb facs="#z_f159v_l028" xml:id="catmus_f159v_l028"/>
+          <seg type="raw_unreviewed">sten mote nocti uid̾ sprechr̃, able dy exõr wartẽt ir</seg>
+          <lb facs="#z_f159v_l029" xml:id="catmus_f159v_l029"/>
+          <seg type="raw_unreviewed">wert uourtũ cos eroñ uaterĩ und prudhi und nefen on</seg>
+          <lb facs="#z_f159v_l030" xml:id="catmus_f159v_l030"/>
+          <seg type="raw_unreviewed">fceunden und pieuge euch̃ Iu dẽ tod und wert alle lenobẽ</seg>
+          <lb facs="#z_f159v_l031" xml:id="catmus_f159v_l031"/>
+          <seg type="raw_unreviewed">mo</seg>
+          <lb facs="#z_f159v_l032" xml:id="catmus_f159v_l032"/>
+          <seg type="raw_unreviewed">nii</seg>
+          <lb facs="#z_f159v_l033" xml:id="catmus_f159v_l033"/>
+          <seg type="raw_unreviewed">ste</seg>
+          <lb facs="#z_f159v_l034" xml:id="catmus_f159v_l034"/>
+          <seg type="raw_unreviewed">uu</seg>
+          <lb facs="#z_f159v_l035" xml:id="catmus_f159v_l035"/>
+          <seg type="raw_unreviewed">aus</seg>
+          <lb facs="#z_f159v_l036" xml:id="catmus_f159v_l036"/>
+          <seg type="raw_unreviewed">que</seg>
+          <lb facs="#z_f159v_l037" xml:id="catmus_f159v_l037"/>
+          <seg type="raw_unreviewed">soa</seg>
+          <lb facs="#z_f159v_l038" xml:id="catmus_f159v_l038"/>
+          <seg type="raw_unreviewed">ma</seg>
+          <lb facs="#z_f159v_l039" xml:id="catmus_f159v_l039"/>
+          <seg type="raw_unreviewed">nut</seg>
+          <lb facs="#z_f159v_l040" xml:id="catmus_f159v_l040"/>
+          <seg type="raw_unreviewed">d̾ M</seg>
+          <lb facs="#z_f159v_l041" xml:id="catmus_f159v_l041"/>
+          <seg type="raw_unreviewed">U.</seg>
+          <lb facs="#z_f159v_l042" xml:id="catmus_f159v_l042"/>
+          <seg type="raw_unreviewed">uud</seg>
+          <lb facs="#z_f159v_l043" xml:id="catmus_f159v_l043"/>
+          <seg type="raw_unreviewed">Porue</seg>
+          <lb facs="#z_f159v_l044" xml:id="catmus_f159v_l044"/>
+          <seg type="raw_unreviewed">uuist</seg>
+          <lb facs="#z_f159v_l045" xml:id="catmus_f159v_l045"/>
+          <seg type="raw_unreviewed">Ruet</seg>
+          <lb facs="#z_f159v_l046" xml:id="catmus_f159v_l046"/>
+          <seg type="raw_unreviewed">Das e</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f159v_l001" xml:id="medusa_f159v_l001"/>
+          <seg type="raw_unreviewed">sy sein kein sunde Nu mögen sy sich nicht entscholdigen vō</seg>
+          <lb facs="#z_f159v_l002" xml:id="medusa_f159v_l002"/>
+          <seg type="raw_unreviewed">wen sunde͛ d͛ mich hasset d͛ hasset ouch mein vater ap̄ ich</seg>
+          <lb facs="#z_f159v_l003" xml:id="medusa_f159v_l003"/>
+          <seg type="raw_unreviewed">die werch nicht hette begangē die manāt and͛s tet: So</seg>
+          <lb facs="#z_f159v_l004" xml:id="medusa_f159v_l004"/>
+          <seg type="raw_unreviewed">hetten sy d̄ sundern nicht . nu habent sy is gesehū und</seg>
+          <lb facs="#z_f159v_l005" xml:id="medusa_f159v_l005"/>
+          <seg type="raw_unreviewed">hassent mich</seg>
+          <lb facs="#z_f159v_l006" xml:id="medusa_f159v_l006"/>
+          <seg type="raw_unreviewed">in die unns discipli</seg>
+          <lb facs="#z_f159v_l007" xml:id="medusa_f159v_l007"/>
+          <seg type="raw_unreviewed">hūs sp̄ch zuͦ sein jung͛n d͛ euch hört d͛ hört möch auch</seg>
+          <lb facs="#z_f159v_l008" xml:id="medusa_f159v_l008"/>
+          <seg type="raw_unreviewed">und d͛ euch v͛sünecht d͛ uorsmecht ouch mich der</seg>
+          <lb facs="#z_f159v_l009" xml:id="medusa_f159v_l009"/>
+          <seg type="raw_unreviewed">mich aw͛ v͛smercht d͛ v͛smercht ouch den d͛ auch gesant</seg>
+          <lb facs="#z_f159v_l010" xml:id="medusa_f159v_l010"/>
+          <seg type="raw_unreviewed">hat do komē wid͛ dy tzeͤw und sübentzig mit frowdē</seg>
+          <lb facs="#z_f159v_l011" xml:id="medusa_f159v_l011"/>
+          <seg type="raw_unreviewed">sprechnuid . h̶t̶ dy tewͤffl̶ sein uns und͛tan in deyin namē</seg>
+          <lb facs="#z_f159v_l012" xml:id="medusa_f159v_l012"/>
+          <seg type="raw_unreviewed">do sp͛ch er / ich sach dē tewͤff waͤllē vō dem hynnel / als eÿ</seg>
+          <lb facs="#z_f159v_l013" xml:id="medusa_f159v_l013"/>
+          <seg type="raw_unreviewed">plikkig gesehcz · ich hab ouch den gwalt gegebē geg</seg>
+          <lb facs="#z_f159v_l014" xml:id="medusa_f159v_l014"/>
+          <seg type="raw_unreviewed">zutretē off dy stangē · vnd auff dy storpē · vnd auff all</seg>
+          <lb facs="#z_f159v_l015" xml:id="medusa_f159v_l015"/>
+          <seg type="raw_unreviewed">dy trafft dez wuͤncz · und euch wͧe meht · do uōn̄ solt ir euch</seg>
+          <lb facs="#z_f159v_l016" xml:id="medusa_f159v_l016"/>
+          <seg type="raw_unreviewed">des nicht frowē den̄ das ew̄r nam zuͤ hymel geschribn̄ ist</seg>
+          <lb facs="#z_f159v_l017" xml:id="medusa_f159v_l017"/>
+          <seg type="raw_unreviewed">in die unns m̃tis . Cũ audientibus p̃lia</seg>
+          <lb facs="#z_f159v_l018" xml:id="medusa_f159v_l018"/>
+          <seg type="raw_unreviewed">huͤs sp͛ch zuͤ sein jung͛n So ir hoͤrt urleg bñ stornuͤng</seg>
+          <lb facs="#z_f159v_l019" xml:id="medusa_f159v_l019"/>
+          <seg type="raw_unreviewed">so derkompt nicht. das mus des ersten ergen. Es hat</seg>
+          <lb facs="#z_f159v_l020" xml:id="medusa_f159v_l020"/>
+          <seg type="raw_unreviewed">aw dennoch nicht ende Er sp͛ch zu yn Eyn diet stet auff</seg>
+          <lb facs="#z_f159v_l021" xml:id="medusa_f159v_l021"/>
+          <seg type="raw_unreviewed">wid͛ dz andn̄. vnd ein Reich wid͛ das and͛. und w̾dent</seg>
+          <lb facs="#z_f159v_l022" xml:id="medusa_f159v_l022"/>
+          <seg type="raw_unreviewed">erdpydem · vnd sterb und hung͛ und forcht · vō hynnel vnd</seg>
+          <lb facs="#z_f159v_l023" xml:id="medusa_f159v_l023"/>
+          <seg type="raw_unreviewed">gͦsse czeichn̄ ee das alles ergen · so fohēt sy euch und achtēt</seg>
+          <lb facs="#z_f159v_l024" xml:id="medusa_f159v_l024"/>
+          <seg type="raw_unreviewed">euch · vnd gebuͤt euch in dy hut · vnd ziebuͤt euch fur dy</seg>
+          <lb facs="#z_f159v_l025" xml:id="medusa_f159v_l025"/>
+          <seg type="raw_unreviewed">künig und fùr dy gͣssen durch mein namē das geschicht</seg>
+          <lb facs="#z_f159v_l026" xml:id="medusa_f159v_l026"/>
+          <seg type="raw_unreviewed">en̄ch zu eyn urkünd So betracht nicht ĩ ewm h͛czen wy</seg>
+          <lb facs="#z_f159v_l027" xml:id="medusa_f159v_l027"/>
+          <seg type="raw_unreviewed">ir antẅrt ich gib euch muͦd̄ und weisheyt . dē nicht wid͛</seg>
+          <lb facs="#z_f159v_l028" xml:id="medusa_f159v_l028"/>
+          <seg type="raw_unreviewed">sten mögē noch wid͛ spiechū / alle dz ew͛r wartēt . ir</seg>
+          <lb facs="#z_f159v_l029" xml:id="medusa_f159v_l029"/>
+          <seg type="raw_unreviewed">wert vonotē von ewẏ vaterñ und prudh̄ und neferñ vn̄</seg>
+          <lb facs="#z_f159v_l030" xml:id="medusa_f159v_l030"/>
+          <seg type="raw_unreviewed">freunden und preugē euch zu dē tod. und wert allēbẅte</seg>
+          <lb facs="#z_f159v_l031" xml:id="medusa_f159v_l031"/>
+          <seg type="raw_unreviewed">mo</seg>
+          <lb facs="#z_f159v_l032" xml:id="medusa_f159v_l032"/>
+          <seg type="raw_unreviewed">nu</seg>
+          <lb facs="#z_f159v_l033" xml:id="medusa_f159v_l033"/>
+          <seg type="raw_unreviewed">ste</seg>
+          <lb facs="#z_f159v_l034" xml:id="medusa_f159v_l034"/>
+          <seg type="raw_unreviewed">un̾</seg>
+          <lb facs="#z_f159v_l035" xml:id="medusa_f159v_l035"/>
+          <seg type="raw_unreviewed">auf</seg>
+          <lb facs="#z_f159v_l036" xml:id="medusa_f159v_l036"/>
+          <seg type="raw_unreviewed">eue</seg>
+          <lb facs="#z_f159v_l037" xml:id="medusa_f159v_l037"/>
+          <seg type="raw_unreviewed">so v</seg>
+          <lb facs="#z_f159v_l038" xml:id="medusa_f159v_l038"/>
+          <seg type="raw_unreviewed">ma</seg>
+          <lb facs="#z_f159v_l039" xml:id="medusa_f159v_l039"/>
+          <seg type="raw_unreviewed">mit</seg>
+          <lb facs="#z_f159v_l040" xml:id="medusa_f159v_l040"/>
+          <seg type="raw_unreviewed">da</seg>
+          <lb facs="#z_f159v_l041" xml:id="medusa_f159v_l041"/>
+          <seg type="raw_unreviewed">u</seg>
+          <lb facs="#z_f159v_l042" xml:id="medusa_f159v_l042"/>
+          <seg type="raw_unreviewed">und</seg>
+          <lb facs="#z_f159v_l043" xml:id="medusa_f159v_l043"/>
+          <seg type="raw_unreviewed">dorũ</seg>
+          <lb facs="#z_f159v_l044" xml:id="medusa_f159v_l044"/>
+          <seg type="raw_unreviewed">wist</seg>
+          <lb facs="#z_f159v_l045" xml:id="medusa_f159v_l045"/>
+          <seg type="raw_unreviewed">kuer</seg>
+          <lb facs="#z_f159v_l046" xml:id="medusa_f159v_l046"/>
+          <seg type="raw_unreviewed">das e</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f159v_l001 #z_f159v_l002 #z_f159v_l003 #z_f159v_l004 #z_f159v_l005" xml:id="u_159v_001">[---] sy [---] keyn sunde. Nu mogen sy sich nicht entschuldigen von iren sunden. Der mich hasst, der hasst auch meyn vater. Ob ich die werch nicht hette begangen, die nymant anders tet, so hetten sy der sunden nicht. Nu habent sy es gesehen und hassen mich.</p>
+        <note type="editorial" corresp="#u_159v_001" xml:lang="cs">Pokračování z159r. Úplná vazba první věty se mezi stránkami nedoplňuje, neboť její začátek je nejistý. Poslední čitelné mich nepřidávám automaticky také Otce podle známé předlohy.</note>
+        <p facs="#z_f159v_l006 #z_f159v_l007 #z_f159v_l008 #z_f159v_l009 #z_f159v_l010 #z_f159v_l011 #z_f159v_l012 #z_f159v_l013 #z_f159v_l014 #z_f159v_l015 #z_f159v_l016" xml:id="u_159v_002">In die unius discipuli. Ihesus sprach zu seyn jungern: Der euch hort, der hort mich auch, und der euch vorsmecht, der vorsmecht auch mich. Der mich aber vorsmecht, der vorsmecht auch den, der mich gesant hat. Do komen wider dy czwe und sibenczig mit frewden sprechend: Her, dy teuffel seyn uns undertan in deynem namen. Do sprach er: Ich sach den teuffel vallen von dem hymel als den plik[e]z. Ich hab euch den gewalt [gestrichen] gegeben zu treten uff dy slangen und auff dy scorpien und auff all dy crafft des veindes, und euch wirt nicht schaden. Des solt ir euch nicht frewen, denn das ewr namen zu hymel geschriben ist.</p>
+        <note type="editorial" corresp="#u_159v_002" xml:lang="cs">Číslovka je v rukopise čtena jako72; nemění se na70podle jiné textové tradice. Škrt za gewalt se nepřipojuje jako platné opakování. Sváteční nadpis unius discipuli je návrh podle obrazu, bez identifikace konkrétního učedníka.</note>
+        <p facs="#z_f159v_l017 #z_f159v_l018 #z_f159v_l019 #z_f159v_l020 #z_f159v_l021 #z_f159v_l022 #z_f159v_l023 #z_f159v_l024 #z_f159v_l025 #z_f159v_l026 #z_f159v_l027 #z_f159v_l028 #z_f159v_l029 #z_f159v_l030" xml:id="u_159v_003">In die unius martiris. Cum audieritis [---]. Ihesus sprach zu seyn jungern: So ir horet krieg und storung, so derkompt nicht. Das muß des ersten ergeen. Es hat aber denoch nicht ende. Er sprach zu yn: Eyn diet stet auff wider dy andern und eyn reich wider das ander, und werden erdpidem und sterb und hungersnot von stat zu stat und grosse czeichen. Ee das alles erget, so fahen sy euch und achten euch und geben euch in dy hut und geleyten euch fur dy kunig und fur dy grossen durch meynen namen, das geret euch zu eynem urkund. So betrachtet nicht in ewrn herzen, wie ir antwort. Ich gib euch mund und weisheit, dy nicht widersten mogen euch und sprechen alle dy ewrn wider[sacher?]. Ir werdet vor[r]aten von ewrn vetern und prudern und etlichen ewrn frewnden und pringen euch zu dem tod, und wert allen lewten [---].</p>
+        <note type="editorial" corresp="#u_159v_003" xml:lang="cs">Označení mučednické perikopy neříká, že tyto události popisují vlastní vznik nebo historii rukopisu. Obrat o odpovědi a protivnících je gramaticky obtížný; překlad je navržený. Na konci chybí pokračování věty, které je až na160r.</note>
+        <p facs="#z_f159v_l031 #z_f159v_l032 #z_f159v_l033 #z_f159v_l034 #z_f159v_l035 #z_f159v_l036 #z_f159v_l037 #z_f159v_l038 #z_f159v_l039 #z_f159v_l040 #z_f159v_l041 #z_f159v_l042 #z_f159v_l043 #z_f159v_l044 #z_f159v_l045 #z_f159v_l046" xml:id="u_159v_004">[---]</p>
+        <note type="editorial" corresp="#u_159v_004" xml:lang="cs">Skutečně otevřené nativní pásy ukazují tyto fragmenty při úplném pravém okraji. Nejsou připojeny k hlavnímu textu této stránky; nešlo o úplné rozluštění odřezků.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_159v_001">[---] žádný hřích. Nyní se nemohou omluvit ze svých hříchů. Kdo nenávidí mne, nenávidí i mého Otce. Kdybych nevykonal skutky, které nikdo jiný neučinil, neměli by hřích. Nyní je viděli a nenávidí mne.</p>
+        <p corresp="#u_159v_002">Na den jednoho učedníka. Ježíš řekl svým učedníkům: Kdo poslouchá vás, poslouchá i mne; kdo pohrdá vámi, pohrdá i mnou. Kdo pohrdá mnou, pohrdá i tím, kdo mě poslal. Dvaasedmdesát se vrátilo s radostí a říkali: Pane, i ďáblové jsou nám poddáni v tvém jménu. Řekl: Viděl jsem ďábla padat z nebe jako blesk. Dal jsem vám moc šlapat na hady a štíry i na všechnu sílu nepřítele a nic vám neublíží. Z toho se nemáte radovat, nýbrž z toho, že vaše jména jsou zapsána v nebi.</p>
+        <p corresp="#u_159v_003">Na den jednoho mučedníka. Až uslyšíte [---]. Ježíš řekl svým učedníkům: Až uslyšíte o válkách a nepokojích, neděste se. To musí nastat nejdříve, ale ještě to není konec. Řekl jim: Jeden národ povstane proti druhému a království proti království. Budou zemětřesení, mor, hlad od místa k místu a veliká znamení. Než se to všechno stane, zajmou vás, budou vás pronásledovat a uvězní vás; povedou vás před krále a přední muže kvůli mému jménu. Bude vám to ke svědectví. Nepřemýšlejte předem ve svých srdcích, jak odpovíte. Dám vám ústa a moudrost, které nebudou moci odporovat ani proti nim mluvit všichni vaši [protivníci?]. Zradí vás vaši otcové, bratři a někteří vaši přátelé, přivedou vás na smrt a budete všem lidem [---].</p>
+        <p corresp="#u_159v_004">[Odřezky písma protější stránky; nepřekládají se zde jako souvislý text.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

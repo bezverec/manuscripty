@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 73r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: De pseudoprophetis. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_73r_coordinate; PNG SHA256 40a4b37025860d1ae807d3e3d79f25dd298ac5741e44684b07c2e43148466f46; archival TIFF SHA256 ccdbbb9cef4d61d83d53f128123f1007f2cec6c8994edefa578f5e9868e18b7b; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_73r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#73r"/>
+      <zone ulx="158" uly="432" lrx="351" lry="528" xml:id="z_f73r_l001"/>
+      <zone ulx="174" uly="989" lrx="339" lry="1141" xml:id="z_f73r_l002"/>
+      <zone ulx="186" uly="1085" lrx="339" lry="1200" xml:id="z_f73r_l003"/>
+      <zone ulx="177" uly="1169" lrx="301" lry="1284" xml:id="z_f73r_l004"/>
+      <zone ulx="189" uly="1260" lrx="295" lry="1378" xml:id="z_f73r_l005"/>
+      <zone ulx="236" uly="1344" lrx="277" lry="1502" xml:id="z_f73r_l006"/>
+      <zone ulx="124" uly="1456" lrx="329" lry="1552" xml:id="z_f73r_l007"/>
+      <zone ulx="149" uly="1521" lrx="314" lry="1630" xml:id="z_f73r_l008"/>
+      <zone ulx="80" uly="1596" lrx="342" lry="1714" xml:id="z_f73r_l009"/>
+      <zone ulx="56" uly="1686" lrx="339" lry="1829" xml:id="z_f73r_l010"/>
+      <zone ulx="158" uly="1776" lrx="345" lry="1907" xml:id="z_f73r_l011"/>
+      <zone ulx="277" uly="1876" lrx="333" lry="2003" xml:id="z_f73r_l012"/>
+      <zone ulx="87" uly="1975" lrx="329" lry="2081" xml:id="z_f73r_l013"/>
+      <zone ulx="158" uly="2317" lrx="323" lry="2417" xml:id="z_f73r_l014"/>
+      <zone ulx="177" uly="2725" lrx="295" lry="2772" xml:id="z_f73r_l015"/>
+      <zone ulx="249" uly="2737" lrx="326" lry="2871" xml:id="z_f73r_l016"/>
+      <zone ulx="102" uly="2828" lrx="323" lry="2933" xml:id="z_f73r_l017"/>
+      <zone ulx="105" uly="2905" lrx="311" lry="3033" xml:id="z_f73r_l018"/>
+      <zone ulx="140" uly="2983" lrx="336" lry="3123" xml:id="z_f73r_l019"/>
+      <zone ulx="146" uly="3089" lrx="326" lry="3216" xml:id="z_f73r_l020"/>
+      <zone ulx="118" uly="3176" lrx="333" lry="3291" xml:id="z_f73r_l021"/>
+      <zone ulx="292" uly="3257" lrx="314" lry="3360" xml:id="z_f73r_l022"/>
+      <zone ulx="130" uly="3468" lrx="329" lry="3556" xml:id="z_f73r_l023"/>
+      <zone ulx="121" uly="3643" lrx="171" lry="3770" xml:id="z_f73r_l024"/>
+      <zone ulx="59" uly="3739" lrx="345" lry="3864" xml:id="z_f73r_l025"/>
+      <zone ulx="130" uly="3829" lrx="208" lry="3935" xml:id="z_f73r_l026"/>
+      <zone ulx="112" uly="3901" lrx="314" lry="4038" xml:id="z_f73r_l027"/>
+      <zone ulx="398" uly="398" lrx="3152" lry="538" xml:id="z_f73r_l028"/>
+      <zone ulx="404" uly="479" lrx="3196" lry="637" xml:id="z_f73r_l029"/>
+      <zone ulx="423" uly="566" lrx="3115" lry="706" xml:id="z_f73r_l030"/>
+      <zone ulx="407" uly="650" lrx="3168" lry="796" xml:id="z_f73r_l031"/>
+      <zone ulx="395" uly="731" lrx="3227" lry="905" xml:id="z_f73r_l032"/>
+      <zone ulx="404" uly="827" lrx="3156" lry="992" xml:id="z_f73r_l033"/>
+      <zone ulx="398" uly="914" lrx="3156" lry="1076" xml:id="z_f73r_l034"/>
+      <zone ulx="404" uly="1008" lrx="3212" lry="1154" xml:id="z_f73r_l035"/>
+      <zone ulx="420" uly="1095" lrx="3202" lry="1247" xml:id="z_f73r_l036"/>
+      <zone ulx="426" uly="1182" lrx="3149" lry="1340" xml:id="z_f73r_l037"/>
+      <zone ulx="410" uly="1275" lrx="3165" lry="1424" xml:id="z_f73r_l038"/>
+      <zone ulx="413" uly="1365" lrx="3240" lry="1499" xml:id="z_f73r_l039"/>
+      <zone ulx="410" uly="1452" lrx="3243" lry="1586" xml:id="z_f73r_l040"/>
+      <zone ulx="410" uly="1543" lrx="3134" lry="1686" xml:id="z_f73r_l041"/>
+      <zone ulx="404" uly="1624" lrx="3174" lry="1773" xml:id="z_f73r_l042"/>
+      <zone ulx="417" uly="1708" lrx="2860" lry="1848" xml:id="z_f73r_l043"/>
+      <zone ulx="460" uly="1782" lrx="3209" lry="1935" xml:id="z_f73r_l044"/>
+      <zone ulx="476" uly="1866" lrx="3146" lry="2003" xml:id="z_f73r_l045"/>
+      <zone ulx="395" uly="1944" lrx="3243" lry="2087" xml:id="z_f73r_l046"/>
+      <zone ulx="417" uly="2031" lrx="3177" lry="2159" xml:id="z_f73r_l047"/>
+      <zone ulx="410" uly="2106" lrx="3131" lry="2233" xml:id="z_f73r_l048"/>
+      <zone ulx="413" uly="2174" lrx="3159" lry="2311" xml:id="z_f73r_l049"/>
+      <zone ulx="410" uly="2246" lrx="3265" lry="2401" xml:id="z_f73r_l050"/>
+      <zone ulx="410" uly="2327" lrx="3156" lry="2476" xml:id="z_f73r_l051"/>
+      <zone ulx="413" uly="2408" lrx="3152" lry="2557" xml:id="z_f73r_l052"/>
+      <zone ulx="404" uly="2498" lrx="3252" lry="2625" xml:id="z_f73r_l053"/>
+      <zone ulx="407" uly="2576" lrx="3128" lry="2700" xml:id="z_f73r_l054"/>
+      <zone ulx="410" uly="2660" lrx="3149" lry="2800" xml:id="z_f73r_l055"/>
+      <zone ulx="407" uly="2744" lrx="3215" lry="2890" xml:id="z_f73r_l056"/>
+      <zone ulx="410" uly="2828" lrx="3199" lry="2968" xml:id="z_f73r_l057"/>
+      <zone ulx="404" uly="2902" lrx="3190" lry="3064" xml:id="z_f73r_l058"/>
+      <zone ulx="404" uly="2980" lrx="3181" lry="3145" xml:id="z_f73r_l059"/>
+      <zone ulx="410" uly="3064" lrx="3258" lry="3223" xml:id="z_f73r_l060"/>
+      <zone ulx="398" uly="3151" lrx="3156" lry="3304" xml:id="z_f73r_l061"/>
+      <zone ulx="404" uly="3229" lrx="3162" lry="3384" xml:id="z_f73r_l062"/>
+      <zone ulx="401" uly="3322" lrx="3171" lry="3468" xml:id="z_f73r_l063"/>
+      <zone ulx="404" uly="3406" lrx="3196" lry="3546" xml:id="z_f73r_l064"/>
+      <zone ulx="404" uly="3484" lrx="3215" lry="3658" xml:id="z_f73r_l065"/>
+      <zone ulx="417" uly="3568" lrx="2072" lry="3730" xml:id="z_f73r_l066"/>
+      <zone ulx="494" uly="3624" lrx="3190" lry="3786" xml:id="z_f73r_l067"/>
+      <zone ulx="485" uly="3717" lrx="3196" lry="3885" xml:id="z_f73r_l068"/>
+      <zone ulx="404" uly="3817" lrx="3193" lry="3935" xml:id="z_f73r_l069"/>
+      <zone ulx="410" uly="3901" lrx="3112" lry="4028" xml:id="z_f73r_l070"/>
+      <zone ulx="401" uly="3988" lrx="3177" lry="4131" xml:id="z_f73r_l071"/>
+      <zone ulx="410" uly="4072" lrx="3165" lry="4218" xml:id="z_f73r_l072"/>
+      <zone ulx="420" uly="4156" lrx="3149" lry="4302" xml:id="z_f73r_l073"/>
+      <zone ulx="417" uly="4243" lrx="3156" lry="4383" xml:id="z_f73r_l074"/>
+      <zone ulx="410" uly="4340" lrx="3140" lry="4455" xml:id="z_f73r_l075"/>
+      <zone ulx="413" uly="4408" lrx="3146" lry="4532" xml:id="z_f73r_l076"/>
+      <zone ulx="423" uly="4489" lrx="3022" lry="4613" xml:id="z_f73r_l077"/>
+      <zone ulx="504" uly="4570" lrx="3143" lry="4707" xml:id="z_f73r_l078"/>
+      <zone ulx="532" uly="4654" lrx="3159" lry="4834" xml:id="z_f73r_l079"/>
+      <zone ulx="3221" uly="3201" lrx="3240" lry="3419" xml:id="z_f73r_l080"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f73r_l001" xml:id="catmus_f73r_l001"/>
+          <seg type="raw_unreviewed">de belt sot</seg>
+          <lb facs="#z_f73r_l002" xml:id="catmus_f73r_l002"/>
+          <seg type="raw_unreviewed">m siõe õ</seg>
+          <lb facs="#z_f73r_l003" xml:id="catmus_f73r_l003"/>
+          <seg type="raw_unreviewed">Ibi ai qmi</seg>
+          <lb facs="#z_f73r_l004" xml:id="catmus_f73r_l004"/>
+          <seg type="raw_unreviewed"> C</seg>
+          <lb facs="#z_f73r_l005" xml:id="catmus_f73r_l005"/>
+          <seg type="raw_unreviewed">Itiiͦ</seg>
+          <lb facs="#z_f73r_l006" xml:id="catmus_f73r_l006"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f73r_l007" xml:id="catmus_f73r_l007"/>
+          <seg type="raw_unreviewed">ẽti im  ui</seg>
+          <lb facs="#z_f73r_l008" xml:id="catmus_f73r_l008"/>
+          <seg type="raw_unreviewed">le </seg>
+          <lb facs="#z_f73r_l009" xml:id="catmus_f73r_l009"/>
+          <seg type="raw_unreviewed">tir. Dissi ẽ le</seg>
+          <lb facs="#z_f73r_l010" xml:id="catmus_f73r_l010"/>
+          <seg type="raw_unreviewed">euẽt c IX</seg>
+          <lb facs="#z_f73r_l011" xml:id="catmus_f73r_l011"/>
+          <seg type="raw_unreviewed">Bis ẽ sese</seg>
+          <lb facs="#z_f73r_l012" xml:id="catmus_f73r_l012"/>
+          <seg type="raw_unreviewed">dt</seg>
+          <lb facs="#z_f73r_l013" xml:id="catmus_f73r_l013"/>
+          <seg type="raw_unreviewed">dur ꝑusll.ux</seg>
+          <lb facs="#z_f73r_l014" xml:id="catmus_f73r_l014"/>
+          <seg type="raw_unreviewed">ał irĩsy</seg>
+          <lb facs="#z_f73r_l015" xml:id="catmus_f73r_l015"/>
+          <seg type="raw_unreviewed">nun</seg>
+          <lb facs="#z_f73r_l016" xml:id="catmus_f73r_l016"/>
+          <seg type="raw_unreviewed">xyx.</seg>
+          <lb facs="#z_f73r_l017" xml:id="catmus_f73r_l017"/>
+          <seg type="raw_unreviewed">ui lnen G</seg>
+          <lb facs="#z_f73r_l018" xml:id="catmus_f73r_l018"/>
+          <seg type="raw_unreviewed">uit . ssuitcõ</seg>
+          <lb facs="#z_f73r_l019" xml:id="catmus_f73r_l019"/>
+          <seg type="raw_unreviewed">u̾ne sili alie</seg>
+          <lb facs="#z_f73r_l020" xml:id="catmus_f73r_l020"/>
+          <seg type="raw_unreviewed">suil ꝑpissed</seg>
+          <lb facs="#z_f73r_l021" xml:id="catmus_f73r_l021"/>
+          <seg type="raw_unreviewed">iiii. ⁊ lt scãdl</seg>
+          <lb facs="#z_f73r_l022" xml:id="catmus_f73r_l022"/>
+          <seg type="raw_unreviewed">D</seg>
+          <lb facs="#z_f73r_l023" xml:id="catmus_f73r_l023"/>
+          <seg type="raw_unreviewed">luter. uł</seg>
+          <lb facs="#z_f73r_l024" xml:id="catmus_f73r_l024"/>
+          <seg type="raw_unreviewed">iii</seg>
+          <lb facs="#z_f73r_l025" xml:id="catmus_f73r_l025"/>
+          <seg type="raw_unreviewed">⁊ huhiẽ dillee</seg>
+          <lb facs="#z_f73r_l026" xml:id="catmus_f73r_l026"/>
+          <seg type="raw_unreviewed">x.s</seg>
+          <lb facs="#z_f73r_l027" xml:id="catmus_f73r_l027"/>
+          <seg type="raw_unreviewed">E st s̃plle</seg>
+          <lb facs="#z_f73r_l028" xml:id="catmus_f73r_l028"/>
+          <seg type="raw_unreviewed">iIsuãcõ scłi. 2 doloe̾ qͥ e̾i̾t tpo aũ x. ñ ĩchoae̾ p uͣ. ẜũs ãpł diffen̾da</seg>
+          <lb facs="#z_f73r_l029" xml:id="catmus_f73r_l029"/>
+          <seg type="raw_unreviewed">ẽ spenliꝰ rr̃ pulsio dcoꝵ picloꝵ Et p̃cipue cũ adepe apłi. mudu ͭ eũ apłs p</seg>
+          <lb facs="#z_f73r_l030" xml:id="catmus_f73r_l030"/>
+          <seg type="raw_unreviewed">diciuui ⁊̃ ĩstãci. tã uoletilꝰ. quĩ bolatib tã lipũgutib ꝙͣ s̾ apiẽtibi</seg>
+          <lb facs="#z_f73r_l031" xml:id="catmus_f73r_l031"/>
+          <seg type="raw_unreviewed">Et tnĩ subm̃xͭ ĩ. inĩ stuꝵ e̾it ut iulti siluũ doctiu nõ r̾aipiẽt isud</seg>
+          <lb facs="#z_f73r_l032" xml:id="catmus_f73r_l032"/>
+          <seg type="raw_unreviewed">uolent e ͭͥ s̾ p̃dica̾s uñ q̃ libũ audũt Et h. uideꝰ eꝑib istꝭ. cũ h̾dci hoĩes</seg>
+          <lb facs="#z_f73r_l033" xml:id="catmus_f73r_l033"/>
+          <seg type="raw_unreviewed">sustiu̾e ñ pñt. ut dc̃oꝵ ꝑcloꝵ lũtus p̃dice nͣ ẽħy iii ẽqrs ͫ co̾u̾ doͤ et</seg>
+          <lb facs="#z_f73r_l034" xml:id="catmus_f73r_l034"/>
+          <seg type="raw_unreviewed">chũ x.i. admro teste di prẽ rihũ x̾ ii uetur ẽindi ui rui. p̃dial ũbũ</seg>
+          <lb facs="#z_f73r_l035" xml:id="catmus_f73r_l035"/>
+          <seg type="raw_unreviewed">esta oꝑtũe ĩ ꝑtueitꝭut pͥm dani ẽ / ei̾t enĩ tp̃c cũ sanũ doctuã ã sustest̃</seg>
+          <lb facs="#z_f73r_l036" xml:id="catmus_f73r_l036"/>
+          <seg type="raw_unreviewed">qło si diuis sit eit di r sua desideu̾i coaec̾babũt e iugiõs. gło m̃ltos</seg>
+          <lb facs="#z_f73r_l037" xml:id="catmus_f73r_l037"/>
+          <seg type="raw_unreviewed">qͥ ea doceãt q̃ bolũt ꝓphecia esti apłi. q̃ suit p̃stiꝰ suti  In doct̾ina ic</seg>
+          <lb facs="#z_f73r_l038" xml:id="catmus_f73r_l038"/>
+          <seg type="raw_unreviewed">p̃cepit ĩstam / ut c̃cu hͨ ꝙ sutuꝵ e̾ut ppare᷑ accũ / ẽales u. dͭ sutuoõ</seg>
+          <lb facs="#z_f73r_l039" xml:id="catmus_f73r_l039"/>
+          <seg type="raw_unreviewed">Iui ꝓdeside̾s suis docei belet ut uiugnis ꝯsantib ⁊ reãcb arͨ hos cõu </seg>
+          <lb facs="#z_f73r_l040" xml:id="catmus_f73r_l040"/>
+          <seg type="raw_unreviewed">tũtur/. Iui ħ illos deceãt. q̃ libũt᷑ aui̾int. Ir uitas eis asꝑa uideb. ut relis</seg>
+          <lb facs="#z_f73r_l041" xml:id="catmus_f73r_l041"/>
+          <seg type="raw_unreviewed">ta uͥ doct̾uu. fablĩs bacõti ⁊ ĩf᷑ Et utĩa tliħ qͣles ĩtenchei cc̃itũt ⁊ ñ</seg>
+          <lb facs="#z_f73r_l042" xml:id="catmus_f73r_l042"/>
+          <seg type="raw_unreviewed">tlib qͣles adusus deũ iuig̾e potu . ¶ẽt Iã ĩsipũn deleꝰ ⁊ niam᷑ aui̾acia sͦ</seg>
+          <lb facs="#z_f73r_l043" xml:id="catmus_f73r_l043"/>
+          <seg type="raw_unreviewed">hͦ ł o pdcis ppĩqͣ ꝑtiã. ⁊ ppecłã ᷑ ⁊̃q̾sitõ rr̾ pulsie ũ sĩt ãpliꝰ diffeude</seg>
+          <lb facs="#z_f73r_l044" xml:id="catmus_f73r_l044"/>
+          <seg type="raw_unreviewed">Ittu ix ͬ ^cu. qͣp̃ ẽ ꝓuide̾ rr̾ pelle̾. ⁊ ĩ quiere p̃dc̃i piclã do ͫ ꝓ p̃łati q̾h</seg>
+          <lb facs="#z_f73r_l045" xml:id="catmus_f73r_l045"/>
+          <seg type="raw_unreviewed">dcurꝰ ẽ dñs ĩ idicõ id e xui. ubi ẽ giex q datꝰ ẽt. pecus ĩclitũ tnũ i</seg>
+          <lb facs="#z_f73r_l046" xml:id="catmus_f73r_l046"/>
+          <seg type="raw_unreviewed">benen᷑ redde̾ dãp̃nũ gg Senĩ xi Gco oẽ dapꝰ reddebũ t̾ ir.y fiu ꝑibut</seg>
+          <lb facs="#z_f73r_l047" xml:id="catmus_f73r_l047"/>
+          <seg type="raw_unreviewed">ame ꝙigelus er̾h ecꝭ di pu xxiiii Que eos qͥ ducũ in morte. rees qͥ cͣhũ</seg>
+          <lb facs="#z_f73r_l048" xml:id="catmus_f73r_l048"/>
+          <seg type="raw_unreviewed">adiudiciũ. bbxar ue cesses Si dixerꝭ ui̾es ñ suppetũt. q̃ ĩspłor ẽ cord̾. ip̃e in</seg>
+          <lb facs="#z_f73r_l049" xml:id="catmus_f73r_l049"/>
+          <seg type="raw_unreviewed">tlłiget ⁊ saluatta̾e ar̃e tue ncħil fullit ip̃i ĩ qui p̃lati qͥ ppeculatoes st̃ acce</seg>
+          <lb facs="#z_f73r_l050" xml:id="catmus_f73r_l050"/>
+          <seg type="raw_unreviewed">ut dere in Opetulate̾e dedi ic uñ suꝑ id lii lox spãuatoꝵ tuoꝵ gł ope.</seg>
+          <lb facs="#z_f73r_l051" xml:id="catmus_f73r_l051"/>
+          <seg type="raw_unreviewed">culatoee st̃ q̃ ĩppecłã st̃. ut oiã p̃meat. ⁊ sb̃itos p̃uiuult/ Et oł ehymũ</seg>
+          <lb facs="#z_f73r_l052" xml:id="catmus_f73r_l052"/>
+          <seg type="raw_unreviewed">mi Inneu Isis ipibi discedẽt qͥda aꝑid̾e.dͭ qło. q̃ qͣs ãpliꝰ uigłand̃ ẽ ut</seg>
+          <lb facs="#z_f73r_l053" xml:id="catmus_f73r_l053"/>
+          <seg type="raw_unreviewed">p̃idita eccã sollicitũ sit. ne ablpmo hoĩh crũuenĩ Epoꝵai offi ẽ ꝑsen</seg>
+          <lb facs="#z_f73r_l054" xml:id="catmus_f73r_l054"/>
+          <seg type="raw_unreviewed">do p̃dicato ib iͥ sist̾e ut sͭ gło. i eliy . ii ĩ puͦ hiis u̾bis ẽhyms r̾licti ĩ</seg>
+          <lb facs="#z_f73r_l055" xml:id="catmus_f73r_l055"/>
+          <seg type="raw_unreviewed">cpheso. ep̃o st̃psit apłe. de pl eplaĩ offiͦ .iͥ rᵈ ͦ ꝑsemde i̾ sisn ᷑ Et iõpol i</seg>
+          <lb facs="#z_f73r_l056" xml:id="catmus_f73r_l056"/>
+          <seg type="raw_unreviewed">deli m̃d̾ũ ꝙc ephesir his u̾bis adnõ ucro i aꝑꝓbo oꝑa tut ⁊ luboe̾ tuũ</seg>
+          <lb facs="#z_f73r_l057" xml:id="catmus_f73r_l057"/>
+          <seg type="raw_unreviewed">.i. ebubitõ tua. r qui ũ petes sustine̾ malde. In em̃das ⁊ ꝯopelles Et ꝓbusta</seg>
+          <lb facs="#z_f73r_l058" xml:id="catmus_f73r_l058"/>
+          <seg type="raw_unreviewed">cos. q̃ sed apłos ⁊ ũ fut.i aissos se udb̾ d. ut facibꝰ decipũt Et ĩ beĩsti eos</seg>
+          <lb facs="#z_f73r_l059" xml:id="catmus_f73r_l059"/>
+          <seg type="raw_unreviewed">iũdaces. ⁊ pacułi ħẽs ĩmullit̾. q̃ ip̃i quĩti ꝑtrenas ptãtes ĩgerĩt. Et sustiuu ᷝ </seg>
+          <lb facs="#z_f73r_l060" xml:id="catmus_f73r_l060"/>
+          <seg type="raw_unreviewed">Iꝑ noꝰ meũ ⁊ ñ ꝑ ħma᷑ laude st̃ ħ ẽ pcus ep̃oꝵ. ut ĩdiot suis se leũ ĩ qrãt.</seg>
+          <lb facs="#z_f73r_l061" xml:id="catmus_f73r_l061"/>
+          <seg type="raw_unreviewed">indicẽt r ulastitũ absq ĩpeͭ ͦ aliciꝰ. ecꝭ pubͭͣ aup  si ucc̃e fu̾it ĩ beciudo</seg>
+          <lb facs="#z_f73r_l062" xml:id="catmus_f73r_l062"/>
+          <seg type="raw_unreviewed">de off oic iͥ pgn̾e̾ .n. dũt dietꝭ suas mubis hoĩbꝰ / lnĩcũii: suit mi ĩ scitr p̃s</seg>
+          <lb facs="#z_f73r_l063" xml:id="catmus_f73r_l063"/>
+          <seg type="raw_unreviewed">dis ꝓ uĩtie C de off p̃si l p̃res . ħ n ͦ obsãte p̃ulegro eubi. deor agi .M.</seg>
+          <lb facs="#z_f73r_l064" xml:id="catmus_f73r_l064"/>
+          <seg type="raw_unreviewed">uũt Iͣ ĩ ꝓunncia/ asaxuẽ ãt dũt purgrie suas dyoc̃ abħetit ⁊ seĩmᵈ urrras</seg>
+          <lb facs="#z_f73r_l065" xml:id="catmus_f73r_l065"/>
+          <seg type="raw_unreviewed">Aliaquͣ depdnẽdi st/ re loci ip̃oꝵ sub satuedi dehẽticꝭ exqm̃aiꝰ Et s p qꝵ</seg>
+          <lb facs="#z_f73r_l066" xml:id="catmus_f73r_l066"/>
+          <seg type="raw_unreviewed">ẽ p̃dcũ ꝑulũ iq̃re. r abeccũ r̾płłe u pͣlateꝵ</seg>
+          <lb facs="#z_f73r_l067" xml:id="catmus_f73r_l067"/>
+          <seg type="raw_unreviewed">Irca p ͣ lesi u. quã pẽn ĩ t̾rẽt płti. si cc̃a p̃dñ fuerit uegliẽtes sci</seg>
+          <lb facs="#z_f73r_l068" xml:id="catmus_f73r_l068"/>
+          <seg type="raw_unreviewed">at. y pi p̃dca ñ fecerĩt sagnis.  iill ꝑielis ꝑibũt de ip̃oꝵ mãĩbus</seg>
+          <lb facs="#z_f73r_l069" xml:id="catmus_f73r_l069"/>
+          <seg type="raw_unreviewed">ĩIre᷑ eze miͦ sig̾ͥ ic et ptͣ hũc peii q̃ eit ĩfutuõ pnen ⁊ ĩ pũti Qr</seg>
+          <lb facs="#z_f73r_l070" xml:id="catmus_f73r_l070"/>
+          <seg type="raw_unreviewed">d damele bno desiloꝵ dcu ẽ stãti ĩ gdu sui damꝭx. beĩ ãt ut doce te..</seg>
+          <lb facs="#z_f73r_l071" xml:id="catmus_f73r_l071"/>
+          <seg type="raw_unreviewed">uentũ st ĩnonissis dieli ppłr tio Ita mͦ e̾pĩs ũ sũtib ĩ gͣᵈu suo i ueglie ᷝ</seg>
+          <lb facs="#z_f73r_l072" xml:id="catmus_f73r_l072"/>
+          <seg type="raw_unreviewed">ẽcu pdca. corda coꝵ ꝯatabũ᷑ ut ũ possit illli e dcrui ꝑicla. nͨ p̃cau̾e s⁊ iõ</seg>
+          <lb facs="#z_f73r_l073" xml:id="catmus_f73r_l073"/>
+          <seg type="raw_unreviewed">piut ĩ illis Et l ͨ ẽ ꝙd ysa ui Excrca tor ꝓpli heꝰ  autꝭ st ĩłsͨ pnĩen</seg>
+          <lb facs="#z_f73r_l074" xml:id="catmus_f73r_l074"/>
+          <seg type="raw_unreviewed">specul.itões eccẽi si nõ strtent sccͣͣ speclãs suis. ad puidnĩꝰ ⁊ p̃ucculd picla</seg>
+          <lb facs="#z_f73r_l075" xml:id="catmus_f73r_l075"/>
+          <seg type="raw_unreviewed">ecc̃e iinĩ cũ ꝑꝑ uegi ͥ^ sr̃a. ip̃o sto une̾au᷑ dice patẽ ⁊ seciu̾ ͤ lt r̾pũtr̃ litit</seg>
+          <lb facs="#z_f73r_l076" xml:id="catmus_f73r_l076"/>
+          <seg type="raw_unreviewed">nẽĩet sr̃ eͥ ͦ. ⁊ sr̃ sbditese .rͣnd ͭ apłs .i. ẽess u loqũs dem̃ltꝭ tpisꝰ cũ</seg>
+          <lb facs="#z_f73r_l077" xml:id="catmus_f73r_l077"/>
+          <seg type="raw_unreviewed">ir dixei̾at px ⁊ se. st r̾ͥ m has pẽs płti ⁊ sb̃diti ĩ trẽt si suerĩt nẽgli ͭ ͧ̃</seg>
+          <lb facs="#z_f73r_l078" xml:id="catmus_f73r_l078"/>
+          <seg type="raw_unreviewed">Itca prͥict ine forte płati.Rꝭ st i pda ł r pelle̾ dice̾ possit Gocita sulꝵꝭ</seg>
+          <lb facs="#z_f73r_l079" xml:id="catmus_f73r_l079"/>
+          <seg type="raw_unreviewed">ꝓha aplo ñ possu ꝑicła iͥ tͥpelle Iõ uccrit It apls ni chy in d qͣlul in</seg>
+          <lb facs="#z_f73r_l080" xml:id="catmus_f73r_l080"/>
+          <seg type="raw_unreviewed"/>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f73r_l001" xml:id="medusa_f73r_l001"/>
+          <seg type="raw_unreviewed">de treit sat</seg>
+          <lb facs="#z_f73r_l002" xml:id="medusa_f73r_l002"/>
+          <seg type="raw_unreviewed">in nomine</seg>
+          <lb facs="#z_f73r_l003" xml:id="medusa_f73r_l003"/>
+          <seg type="raw_unreviewed">Ibi m.</seg>
+          <lb facs="#z_f73r_l004" xml:id="medusa_f73r_l004"/>
+          <seg type="raw_unreviewed">be᷑ eho</seg>
+          <lb facs="#z_f73r_l005" xml:id="medusa_f73r_l005"/>
+          <seg type="raw_unreviewed">eterni</seg>
+          <lb facs="#z_f73r_l006" xml:id="medusa_f73r_l006"/>
+          <seg type="raw_unreviewed">h̾b</seg>
+          <lb facs="#z_f73r_l007" xml:id="medusa_f73r_l007"/>
+          <seg type="raw_unreviewed">Räto m. Va</seg>
+          <lb facs="#z_f73r_l008" xml:id="medusa_f73r_l008"/>
+          <seg type="raw_unreviewed">ler ewig</seg>
+          <lb facs="#z_f73r_l009" xml:id="medusa_f73r_l009"/>
+          <seg type="raw_unreviewed">tir. dnisu e</seg>
+          <lb facs="#z_f73r_l010" xml:id="medusa_f73r_l010"/>
+          <seg type="raw_unreviewed">kenẽt ew͠ I̶x̶</seg>
+          <lb facs="#z_f73r_l011" xml:id="medusa_f73r_l011"/>
+          <seg type="raw_unreviewed">onsa ẽ ĩ ecã</seg>
+          <lb facs="#z_f73r_l012" xml:id="medusa_f73r_l012"/>
+          <seg type="raw_unreviewed">set in</seg>
+          <lb facs="#z_f73r_l013" xml:id="medusa_f73r_l013"/>
+          <seg type="raw_unreviewed">dñs ysa. xx</seg>
+          <lb facs="#z_f73r_l014" xml:id="medusa_f73r_l014"/>
+          <seg type="raw_unreviewed">ut prem̃.</seg>
+          <lb facs="#z_f73r_l015" xml:id="medusa_f73r_l015"/>
+          <seg type="raw_unreviewed">modum</seg>
+          <lb facs="#z_f73r_l016" xml:id="medusa_f73r_l016"/>
+          <seg type="raw_unreviewed">xxiii</seg>
+          <lb facs="#z_f73r_l017" xml:id="medusa_f73r_l017"/>
+          <seg type="raw_unreviewed">noͧmēn e</seg>
+          <lb facs="#z_f73r_l018" xml:id="medusa_f73r_l018"/>
+          <seg type="raw_unreviewed">gnis . 1. sunicõn</seg>
+          <lb facs="#z_f73r_l019" xml:id="medusa_f73r_l019"/>
+          <seg type="raw_unreviewed">sine sc̃tũ illi</seg>
+          <lb facs="#z_f73r_l020" xml:id="medusa_f73r_l020"/>
+          <seg type="raw_unreviewed">sua. pꝑ ꝙ nũc</seg>
+          <lb facs="#z_f73r_l021" xml:id="medusa_f73r_l021"/>
+          <seg type="raw_unreviewed">iiii. 2 It scidus</seg>
+          <lb facs="#z_f73r_l022" xml:id="medusa_f73r_l022"/>
+          <seg type="raw_unreviewed">ad</seg>
+          <lb facs="#z_f73r_l023" xml:id="medusa_f73r_l023"/>
+          <seg type="raw_unreviewed">Zantes ult</seg>
+          <lb facs="#z_f73r_l024" xml:id="medusa_f73r_l024"/>
+          <seg type="raw_unreviewed">111</seg>
+          <lb facs="#z_f73r_l025" xml:id="medusa_f73r_l025"/>
+          <seg type="raw_unreviewed">et michie a ltre p</seg>
+          <lb facs="#z_f73r_l026" xml:id="medusa_f73r_l026"/>
+          <seg type="raw_unreviewed">xͥ. 5</seg>
+          <lb facs="#z_f73r_l027" xml:id="medusa_f73r_l027"/>
+          <seg type="raw_unreviewed">Et st̃ ĩ plebe</seg>
+          <lb facs="#z_f73r_l028" xml:id="medusa_f73r_l028"/>
+          <seg type="raw_unreviewed">qisumãtem scłi. ⁊ doloꝵ .q. eĩt tpõ an x. nã ichoare. p g. ꝙ nõ aꝑlꝰ diffeñda</seg>
+          <lb facs="#z_f73r_l029" xml:id="medusa_f73r_l029"/>
+          <seg type="raw_unreviewed">ẽ speculatio et r̾pulsio dictoꝵ p̃istłoꝵ Et p̃cipue cũ a ip̃e apostoli mandũt eũ apostolis p</seg>
+          <lb facs="#z_f73r_l030" xml:id="medusa_f73r_l030"/>
+          <seg type="raw_unreviewed">dicui ⁊ in staciu. tum nolentibus. quam uolentibus. tum repugantibus quam non repugantibus</seg>
+          <lb facs="#z_f73r_l031" xml:id="medusa_f73r_l031"/>
+          <seg type="raw_unreviewed">Et tamen submoxtum qomo futurum erit ut multi si tamen dictum est non recipient sed</seg>
+          <lb facs="#z_f73r_l032" xml:id="medusa_f73r_l032"/>
+          <seg type="raw_unreviewed">volent rͥ sͥ p̃dicare uñ q̃ lib̃n aud̃unt Et hͨ uideꝰ temporibꝰ istꝭ. cũ qͥdm̃ homines</seg>
+          <lb facs="#z_f73r_l033" xml:id="medusa_f73r_l033"/>
+          <seg type="raw_unreviewed">sustinere nõ pũit ut dc̃oꝵ ꝑiloꝵ h̃itus p̃dicetur iiͣ Thy. iiii. c̃cupiscit corͥa᷑ db̃ et</seg>
+          <lb facs="#z_f73r_l034" xml:id="medusa_f73r_l034"/>
+          <seg type="raw_unreviewed">Ihũ xͦ .i. anno teste d̃ p̃re / ⁊ Ihũ xͦ .ii. veturꝰ c̃ iudi vi et in .p̃dicu u̾bũ</seg>
+          <lb facs="#z_f73r_l035" xml:id="medusa_f73r_l035"/>
+          <seg type="raw_unreviewed">in sta oꝑtuẽ ĩ ꝑtuẽ ut pͥmꝰ dñi ẽ / eiꝰt enĩ tpc cũ saũm docemã ñ sustenẽt</seg>
+          <lb facs="#z_f73r_l036" xml:id="medusa_f73r_l036"/>
+          <seg type="raw_unreviewed">gbo qͣi omnes sic eis S; 2.ᵐ sua desideria concurbunt uͥ migros glo multos</seg>
+          <lb facs="#z_f73r_l037" xml:id="medusa_f73r_l037"/>
+          <seg type="raw_unreviewed">qͥ ea doceũt q̃ uolũt . prophetia ẽ sc̃i apostoli . qͥ fuit p̃stiꝰ suꝑiorꝭ in doctrina re</seg>
+          <lb facs="#z_f73r_l038" xml:id="medusa_f73r_l038"/>
+          <seg type="raw_unreviewed">precepit in standum / ut c̃tra hoc ꝙ futurꝭ eũt preparet eorũ / tales n. et futuros</seg>
+          <lb facs="#z_f73r_l039" xml:id="medusa_f73r_l039"/>
+          <seg type="raw_unreviewed">qui pro desideriis suis doceri uellent ut magistris constantibus et ueracibus nec hodie con</seg>
+          <lb facs="#z_f73r_l040" xml:id="medusa_f73r_l040"/>
+          <seg type="raw_unreviewed">tũtur / qui hꝰ illos decean̾t . q̃ libũt᷑ anu̾ũt . qr u̾itas oĩs aẜꝑa videb᷑. ut relic-</seg>
+          <lb facs="#z_f73r_l041" xml:id="medusa_f73r_l041"/>
+          <seg type="raw_unreviewed">ta ma doctͥma. fablis barõti ⁊ ĩfꝭ Et utrã tłib q̃les ĩ teuchri ccĩtũt / ⁊ ĩ</seg>
+          <lb facs="#z_f73r_l042" xml:id="medusa_f73r_l042"/>
+          <seg type="raw_unreviewed">tlibus quales adversus deum singere potuissent iam in spiritum deileti et munimur animacionem sc</seg>
+          <lb facs="#z_f73r_l043" xml:id="medusa_f73r_l043"/>
+          <seg type="raw_unreviewed">hꝰ pꝰ ex p̃dicis pp̃iꝰꝰ ꝑtiã. ⁊ ppecl̃aꝵ ĩ qͥsicõ ⁊ r̃ pulsiõ ũ sĩt ñ plꝰ diffen̾de</seg>
+          <lb facs="#z_f73r_l044" xml:id="medusa_f73r_l044"/>
+          <seg type="raw_unreviewed">prc̃tu ixᵃ. i. crid̃. 1. qr ẽ ꝓvide̾ ⁊ r̃ pelle̾. ⁊ ĩquiere p̃dca̾ p̃dicã Soᵐ. p̃lcati. qͥbꝰ</seg>
+          <lb facs="#z_f73r_l045" xml:id="medusa_f73r_l045"/>
+          <seg type="raw_unreviewed">dicturꝰ est dominus in iudicio id se xiii. ubi est grex que datum est t. pecia inclitum tamen / 11</seg>
+          <lb facs="#z_f73r_l046" xml:id="medusa_f73r_l046"/>
+          <seg type="raw_unreviewed">teneñ redde dampnum gͥgꝭ Gen̾. XXXI. Ergo oe̾ dampꝰ reddebũt᷑ 2. ꝙ ft̃m ꝑibunt</seg>
+          <lb facs="#z_f73r_l047" xml:id="medusa_f73r_l047"/>
+          <seg type="raw_unreviewed">anne congregat᷑ erb̃ oꝭ d᷑ ꝓnᶜ xxiiii Cune eos qͥ ducũ in mortẽ ⁊ eos qͥ tͣhũ</seg>
+          <lb facs="#z_f73r_l048" xml:id="medusa_f73r_l048"/>
+          <seg type="raw_unreviewed">ad iudicium . libera ne cypress . Si dixeret uires ñ suppetunt . qͥ inspctor est cordis . ipse in</seg>
+          <lb facs="#z_f73r_l049" xml:id="medusa_f73r_l049"/>
+          <seg type="raw_unreviewed">tlliget / et saluatorẽ me me nihil fallit ipsi inquam prelati . qͥ speculatones st̃ ecc̃e</seg>
+          <lb facs="#z_f73r_l050" xml:id="medusa_f73r_l050"/>
+          <seg type="raw_unreviewed">ut dicitur in speculatores dedi etc. unde super idem lii. LXx speculatores tuorum glosa spe</seg>
+          <lb facs="#z_f73r_l051" xml:id="medusa_f73r_l051"/>
+          <seg type="raw_unreviewed">culatores sunt qui in speciali sunt ut omnia promurant et subros promuniunt / Et ut Theon</seg>
+          <lb facs="#z_f73r_l052" xml:id="medusa_f73r_l052"/>
+          <seg type="raw_unreviewed">mi in nonnisso ipibus d. stede. q̃d. qlo. q̃ qͥs apłi uiglande c. ut</seg>
+          <lb facs="#z_f73r_l053" xml:id="medusa_f73r_l053"/>
+          <seg type="raw_unreviewed">p̃muita ecc̃a sollicita sit . ne ab ipm̃ hoĩbꝰ c̃tinuenter exope̾m offiᵐ c̃p̃seu</seg>
+          <lb facs="#z_f73r_l054" xml:id="medusa_f73r_l054"/>
+          <seg type="raw_unreviewed">de predicatib. u. r. si ste. ut s. t. gle. 1. Thy. II. in pu. hiis u̾bis Thymon relati in</seg>
+          <lb facs="#z_f73r_l055" xml:id="medusa_f73r_l055"/>
+          <seg type="raw_unreviewed">ephepo ep̃o scripsit apostolo. De p̃s episcopi offici. i. iᵒʳ p̃sente tͥ sign᷑ Et in opus</seg>
+          <lb facs="#z_f73r_l056" xml:id="medusa_f73r_l056"/>
+          <seg type="raw_unreviewed">de hac gaudeat ipse Ephesiius hiis verbis adium scio idest approbo opera tua et laborem tuum</seg>
+          <lb facs="#z_f73r_l057" xml:id="medusa_f73r_l057"/>
+          <seg type="raw_unreviewed">i. tribulacioʳ tua. 2. qm̃ ñ potes suꝑnere malos. qnͣ eundas ⁊ ꝙ̃ pelles Et ꝓbansit</seg>
+          <lb facs="#z_f73r_l058" xml:id="medusa_f73r_l058"/>
+          <seg type="raw_unreviewed">cos . q̃ se d. apłos ⁊ ñ sũt .i. missos se uł d. ut facilius decipiunt Et ĩuenisti eos</seg>
+          <lb facs="#z_f73r_l059" xml:id="medusa_f73r_l059"/>
+          <seg type="raw_unreviewed">m̃daces . et pacũtꝰ hẽs ĩmortalis . q̃ ip̃i quĩci ꝑt̾renus potentes ĩgerũt . Et sustinuⁿᵗ</seg>
+          <lb facs="#z_f73r_l060" xml:id="medusa_f73r_l060"/>
+          <seg type="raw_unreviewed">pro nobis meum et n. pro huiusmodi laude sunt . Hii ẽ ptus ep̃oꝵ ut induit suis scilicet inquirant</seg>
+          <lb facs="#z_f73r_l061" xml:id="medusa_f73r_l061"/>
+          <seg type="raw_unreviewed">inducent et ultra statum ubique inpetum alicuius et cetera publicum auxilium si necesse fuerit in becundo /</seg>
+          <lb facs="#z_f73r_l062" xml:id="medusa_f73r_l062"/>
+          <seg type="raw_unreviewed">de officiis etc. 1° p̃gnere .n. dunt diocꝭ suas mulie̾s hoĩbꝰ / unncumque sint ut ĩ stat p̃s</seg>
+          <lb facs="#z_f73r_l063" xml:id="medusa_f73r_l063"/>
+          <seg type="raw_unreviewed">dis ꝓvince c de off p̃si l p̃ses . h uꝰ obsonte p̃uilege c uii de or agi o.</seg>
+          <lb facs="#z_f73r_l064" xml:id="medusa_f73r_l064"/>
+          <seg type="raw_unreviewed">sunt qͣ in prouincia / maxime ut dunt purgare suas dyocesis ab hereticis et feundis errores</seg>
+          <lb facs="#z_f73r_l065" xml:id="medusa_f73r_l065"/>
+          <seg type="raw_unreviewed">aliquem deponendi sunt / etc. loco ipsorum substituedi behereticis excommunicis Et si p. q.</seg>
+          <lb facs="#z_f73r_l066" xml:id="medusa_f73r_l066"/>
+          <seg type="raw_unreviewed">est p̃dicta ꝑrochia inqͥre . et ab ecclesia rep̃stare . uͥi psatorum</seg>
+          <lb facs="#z_f73r_l067" xml:id="medusa_f73r_l067"/>
+          <seg type="raw_unreviewed">predicta pericula impendere et ab ectrum repellere . videlicet prelatorum</seg>
+          <lb facs="#z_f73r_l068" xml:id="medusa_f73r_l068"/>
+          <seg type="raw_unreviewed">it . quod si predicta non fecerint sagius nͣꝭ qͥ int̾ periclis ꝑibunt de ip̃oꝫ man̾bus</seg>
+          <lb facs="#z_f73r_l069" xml:id="medusa_f73r_l069"/>
+          <seg type="raw_unreviewed">reqͥre᷑ eze. iiiᵒ Reg. etc. et preter hunc penam qe erit in futurum punicionem et in presenti Quia</seg>
+          <lb facs="#z_f73r_l070" xml:id="medusa_f73r_l070"/>
+          <seg type="raw_unreviewed">id danieli . u̾o de fr̃oꝵ dc̃m ẽ sancti ĩ g̃du suo damꝭx . beĩ at̃ ut docẽ te . q</seg>
+          <lb facs="#z_f73r_l071" xml:id="medusa_f73r_l071"/>
+          <seg type="raw_unreviewed">uentũ st̃ ĩ nouissis diebꝰ ppło tuo Ita eꝙ episcꝰ ũ santibꝰ ĩ gꝰsu suo .i. neglẽtꝰ</seg>
+          <lb facs="#z_f73r_l072" xml:id="medusa_f73r_l072"/>
+          <seg type="raw_unreviewed">ec̃ca predicta corda eorum exoccabuntur ut non possint illuminare dictum periculum nec precavere sed omnia</seg>
+          <lb facs="#z_f73r_l073" xml:id="medusa_f73r_l073"/>
+          <seg type="raw_unreviewed">ꝑbunt ĩ illis Et hᶜ ẽ. yd ysa. ui Ex caa cor ppli heꝰ et au. ⁊c. st̃ ĩ hᶜ pũen.</seg>
+          <lb facs="#z_f73r_l074" xml:id="medusa_f73r_l074"/>
+          <seg type="raw_unreviewed">speculatores eccẽ / si nõ stoterit sc̃ptꝰ speculũs suas ad p̃uidnͣ ⁊ p̃uicanciam ꝑiculũ</seg>
+          <lb facs="#z_f73r_l075" xml:id="medusa_f73r_l075"/>
+          <seg type="raw_unreviewed">ecc̃e. Im̃ cũ ꝑꝑ negⁿⁱ sũt. ip̃o facto videan᷑ dic̾e pacẽ ⁊ secum᷑ⁱ. Et r̃ pñtẽ ĩ tĩt</seg>
+          <lb facs="#z_f73r_l076" xml:id="medusa_f73r_l076"/>
+          <seg type="raw_unreviewed">ueniet super eis et super subditos eorum et in ii capitulis . I . cessionis u. legum de multis tribus Cui</seg>
+          <lb facs="#z_f73r_l077" xml:id="medusa_f73r_l077"/>
+          <seg type="raw_unreviewed">n dixerint pax ⁊ se. tt̃ r̾. etc. has pẽs prelati ⁊ subditĩ ĩterrent si fuerĩt negl̃iᵗᵉ</seg>
+          <lb facs="#z_f73r_l078" xml:id="medusa_f73r_l078"/>
+          <seg type="raw_unreviewed">irca punicum ne forte prelati. frater est iᵗᵃ p̃dca ĩt̾pellere dicere possit Ex quo fuit</seg>
+          <lb facs="#z_f73r_l079" xml:id="medusa_f73r_l079"/>
+          <seg type="raw_unreviewed">propheta apło. ũ possuꝰ ꝑiclũ iᵗ rᵗ pelle̾ iõ occ᷑rit Ier apło ii ehy iii d̃. q̃ sua m̾</seg>
+          <lb facs="#z_f73r_l080" xml:id="medusa_f73r_l080"/>
+          <seg type="raw_unreviewed">11</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f73r_l001 #z_f73r_l002 #z_f73r_l003 #z_f73r_l004 #z_f73r_l005 #z_f73r_l006 #z_f73r_l007 #z_f73r_l008 #z_f73r_l009 #z_f73r_l010 #z_f73r_l011 #z_f73r_l012 #z_f73r_l013 #z_f73r_l014 #z_f73r_l015 #z_f73r_l016 #z_f73r_l017 #z_f73r_l018 #z_f73r_l019 #z_f73r_l020 #z_f73r_l021 #z_f73r_l022 #z_f73r_l023 #z_f73r_l024 #z_f73r_l025 #z_f73r_l026 #z_f73r_l027" xml:id="u_73r_001">[…]</p>
+        <note type="editorial" corresp="#u_73r_001" xml:lang="cs">Nejsou souvislým hlavním textem73r, raw HTR zachováno.</note>
+        <p facs="#z_f73r_l028 #z_f73r_l029 #z_f73r_l030 #z_f73r_l031 #z_f73r_l032 #z_f73r_l033 #z_f73r_l034 #z_f73r_l035" xml:id="u_73r_002">[…] consummationem saeculi et dolorem qui erit tempore Antichristi non inchoare patet […]. Sed non amplius differenda est specialius repulsio dictorum periculorum. Et praecipue cum […] mandavit eam apostolus praedicandam et instandum tam nolentibus quam volentibus, tam repugnantibus quam recipentibus. Et tamen subiunxit […] futurum erit ut multi sanam doctrinam non recipient sed volent sibi praedicari ea quae libenter audiant. Et hoc videmus experiri istis […], cum huiusmodi homines sustinere non possunt ut dictorum periculorum quantitas praedicetur. II TimotheiIIII: Testificor coram Deo et Christo Iesu, id est invoco testem Deum Patrem et Iesum Christum […]. Praedica verbum, insta opportune, importune, ut prius dictum est.</p>
+        <note type="editorial" corresp="#u_73r_002" xml:lang="cs">28 obzvlášť nejasný zápor, proto jej nespojuji v jistý závěr o tom, zda konec již začal.32–34 přesný sled citace a výkladu fragmentární.Číselný odkaz33návrhověIIII.</note>
+        <p facs="#z_f73r_l036 #z_f73r_l037 #z_f73r_l038 #z_f73r_l039 #z_f73r_l040 #z_f73r_l041 #z_f73r_l042 #z_f73r_l043" xml:id="u_73r_003">Erit enim tempus cum sanam doctrinam non sustinebunt; Glossa: Non recipient; sed ad sua desideria coacervabunt sibi magistros; Glossa: multos qui ea doceant quae volunt. Prophetia est sancti apostoli qui fuit praescius futuri. In doctrina […] praecepit instandum ut contra hoc quod futurum erat praepararet […] Tales enim dixit futuros qui pro desideriis suis doceri velint ut a magistris consentientibus et rectificari […] committantur, qui hoc illos doceant quod libenter audiant. Veritas eis aspera videbitur ut relicta veritatis doctrina fabulis vacent. Et infra: Et utinam tales quales inter homines exsistunt et non tales quales adversus Deum […] possunt […]. Et sic patet quod propinqua pericula et periculorum inquisitio et repulsio non sint amplius differenda.</p>
+        <note type="editorial" corresp="#u_73r_003" xml:lang="cs">37–42 glosa fragmentární a místy syntakticky nejistá, žádné doplnění z Bible.43závěr čitelný.</note>
+        <p facs="#z_f73r_l044 #z_f73r_l045 #z_f73r_l046 #z_f73r_l047 #z_f73r_l048 #z_f73r_l049 #z_f73r_l050 #z_f73r_l051 #z_f73r_l052 #z_f73r_l053" xml:id="u_73r_004">Circa nonum, quam necessarium est providere et repellere et inquirere praedicta pericula, dominos praelatos quibus dicturus est Dominus in iudicio, IeremiaeXIII: Ubi est grex qui datus est tibi, pecus inclitum tuum? Et tenentur reddere damna gregis, GenesisXXXI: Ego omne damnum reddebam, quidquid furto peribat a me exigebas. Unde etiam dicit ProverbiorumXXIIII: Erue eos qui ducuntur in mortem et eos qui trahuntur ad interitum liberare ne cesses. Si dixeris: Vires non suppetunt, qui inspector est cordis ipse intelligit, et servatorem animae tuae nihil fallit. Ipsi inquam praelati qui speculatores sunt ecclesiae […] EzechielisIII: Speculatorem dedi te […]. Unde super illud IsaiaeLII: Vox speculatorum tuorum; Glossa: Speculatores sunt qui in specula sunt, ut omnia praemoneant et subditos praemuniant. Et I TimotheiIIII: In novissimis temporibus discedent quidam a fide; dicit Glossa quod quia amplius vigilandum est ut praedicta ecclesia sollicita sit ne ab huiusmodi hominibus circumveniatur.</p>
+        <note type="editorial" corresp="#u_73r_004" xml:lang="cs">44 podmětová vazba neúplná; odkazyJer13/Ez3 jsou návrhová rozvedení vizuálních zkratek.52glosa je zkrácená, nedoplňována z edice.</note>
+        <p facs="#z_f73r_l054 #z_f73r_l055 #z_f73r_l056 #z_f73r_l057 #z_f73r_l058 #z_f73r_l059 #z_f73r_l060" xml:id="u_73r_005">Episcoporum enim officium est pseudo praedicatoribus resistere, ut dicit Glossa I TimotheiI in principio his verbis: Timotheum relictum in Epheso episcopum scripsit apostolus […] episcopali officio, id est quomodo pseudo resistendum. Et ideo […] in Apocalypsi […] Ephesio his verbis: Novi opera tua, id est approbo opera tua, et laborem tuum, id est tribulationem tuam, et quia non potes sustinere malos, id est emendas et compellis, et probasti eos qui se dicunt apostolos et non sunt, id est missos se ad hoc dicunt ut facilius decipiant, et invenisti eos mendaces et patientiam habes in malis quae ipsi quasi per […] potestates ingerunt, et sustinuisti propter nomen meum et non defecisti.</p>
+        <note type="editorial" corresp="#u_73r_005" xml:lang="cs">55–56 přechod mezi citacemi a59určení moci neúplné. Zachován sled biblických slov a glos, jejich hranice však nejsou diplomatickým kritickým aparátem.</note>
+        <p facs="#z_f73r_l061 #z_f73r_l062 #z_f73r_l063 #z_f73r_l064 #z_f73r_l065 #z_f73r_l066" xml:id="u_73r_006">[…] Haec est cura episcoporum ut in dioecesi sua sollicite inquirant, indicent et vastent absque impeditione alicuius etiam publice […] si necesse fuerit in […] De officio ordinarii […]. Debent suas dioeceses malis hominibus […] providere […] De officio praesidis […], hoc non obstante privilegio […] Item debent purgare suas dioeceses ab haereticis et seminibus errorum, alioquin deponendi sunt et loco ipsorum substituendi, De haereticis Excommunicamus. Et sic patet quam necessarium est praedicta pericula inquirere et ab ecclesia repellere, videlicet praelatis.</p>
+        <note type="editorial" corresp="#u_73r_006" xml:lang="cs">61–64 právní citace jsou silně fragmentární; indicent et vastent je nejisté čtení. Nedoplňuji konkrétní represivní pravomoci z právních edic.65–66 čitelnější, ale stále návrh historického textu.</note>
+        <p facs="#z_f73r_l067 #z_f73r_l068 #z_f73r_l069 #z_f73r_l070 #z_f73r_l071 #z_f73r_l072 #z_f73r_l073" xml:id="u_73r_007">Circa decimum, quam poenam incurrent praelati si circa praedicta fuerint negligentes, sciendum quod si praedicta non fecerint sanguis eorum qui in illis periculis peribunt de ipsorum manibus requiretur, EzechielisIII […]. Et praeter hanc poenam quae erit in futuro punientur in praesenti. Quia […] Danielis […] Desideriorum […] stanti in gradu suo: Veni autem ut docerem te quae ventura sunt in novissimis diebus populo tuo. Ita […] episcopis non stantibus in gradu suo sed negligentibus praedicta, corda eorum excaecabuntur ut non possint intelligere dicta pericula nec praecavere, et ideo peribunt in illis. Et hoc est quod IsaiaeVI: Excaeca cor populi huius […].</p>
+        <note type="editorial" corresp="#u_73r_007" xml:lang="cs">70–71 Danielovský odkaz a oslovení silně nezřetelné; nedoplňuji vir desideriorum jako jisté, i když je očekávatelné. Aplikace na biskupy72 čitelná.</note>
+        <p facs="#z_f73r_l074 #z_f73r_l075 #z_f73r_l076 #z_f73r_l077 #z_f73r_l078 #z_f73r_l079" xml:id="u_73r_008">Et ita fiet speculatoribus ecclesiae si non steterint circa speculas suas ad providenda et praecavenda pericula ecclesiae; immo cum propter negligentiam suam ipsos […] dicentes pacem et securitatem reputantes […] veniet super eos repentinus interitus, ut praedicit apostolus I ThessalonicensesV loquens de novissimis temporibus: Cum dixerint Pax et securitas […]. Istas poenas praelati et subditi incurrent si fuerint negligentes. Circa undecimum, ne forte praelati […] ad praedicta repellenda dicere possent […] prophetia apostoli non possunt pericula ista repelli, ideo necessarium […] apostolus II TimotheiIII dicit qualiter […].</p>
+        <note type="editorial" corresp="#u_73r_008" xml:lang="cs">75–76 a78–79 neúplná syntaktická vazba, druhá zahajuje odpověď na námitku o předpověděném neodvratném zlu. Nedoplňuji její řešení před dalšístranou.</note>
+        <p facs="#z_f73r_l080" xml:id="u_73r_009">[okraj]</p>
+        <note type="editorial" corresp="#u_73r_009" xml:lang="cs">Nepřekládá se.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_73r_001">[Četné levé odřezky textu sousedního listu.]</p>
+        <p corresp="#u_73r_002">[…] Dokonání světa a bolest, jež bude v době Antikrista, […] je patrné […]. Odvracení uvedených nebezpečí se však už nemá odkládat. Zvláště když […] apoštol přikázal je hlásat a naléhat na chtějící i nechtějící, na odpírající i přijímající. A přece dodal […], že nastane doba, kdy mnozí nepřijmou zdravé učení, ale budou chtít, aby se jim kázalo to, co rádi slyší. To vidíme zakoušet […] když takoví lidé nesnesou, aby se hlásala velikost uvedených nebezpečí. Druhý Timoteovi4: Zapřísahám před Bohem a Kristem Ježíšem, tedy volám za svědka Boha Otce a Ježíše Krista […]. Hlásej slovo, naléhej ve vhod i nevhod, jak již bylo řečeno.</p>
+        <p corresp="#u_73r_003">Nastane totiž čas, kdy nesnesou zdravé učení; Glosa: Nepřijmou je, ale podle svých žádostí si nahromadí učitele; Glosa: Mnohé, kteří budou učit, co si přejí. Je to proroctví svatého apoštola, jenž předem znal budoucnost. Při učení […] přikázal naléhat, aby […] připravil proti tomu, co mělo přijít. Řekl, že přijdou takoví, kteří se budou chtít učit podle svých žádostí od souhlasících učitelů a […] jim se svěří, aby je učili to, co rádi slyší. Pravda se jim bude zdát drsná, takže opustí pravdivé učení a budou se věnovat bájím. A dále: Kéž by byli takoví, jací se vyskytují mezi lidmi, a ne takoví, jací proti Bohu […] mohou […]. Tak je zřejmé, že nebezpečí jsou blízko a jejich zkoumání a odvracení se už nemá odkládat.</p>
+        <p corresp="#u_73r_004">K devátému bodu, jak nezbytné je předvídat, odvracet a zkoumat uvedená nebezpečí, […] představení, jimž Pán při soudu řekne, Jeremiáš13: Kde je stádo, které ti bylo dáno, tvůj slavný dobytek? Jsou povinni nahradit škody stáda, Genesis31: Každou škodu jsem nahrazoval; cokoli se ztratilo krádeží, požadoval jsi ode mne. Proto Přísloví24 říká: Vysvoboď ty, kteří jsou vedeni na smrt, a nepřestávej zachraňovat ty, které vlečou k záhubě. Řekneš-li: Síly nestačí, ten, kdo zkoumá srdce, tomu rozumí, a strážci tvé duše nic neunikne. Sami představení, říkám, kteří jsou strážci církve […] Ezechiel3: Ustanovil jsem tě strážcem […]. Proto se k Izajášovi52: Hlas tvých strážců, vykládá: Strážci jsou ti, kdo stojí na hlídce, aby před vším varovali a připravili podřízené. A první Timoteovi4: V posledních časech někteří odpadnou od víry; Glosa říká, že je třeba tím více bdít, aby se církev měla na pozoru a nebyla takovými lidmi oklamána.</p>
+        <p corresp="#u_73r_005">Úřadem biskupů je totiž stavět se falešným kazatelům, jak říká Glosa na začátku prvního Timoteovi1: Apoštol napsal Timoteovi, ponechanému jako biskup v Efezu, […] o biskupském úřadu, tedy jak čelit falešným. A proto […] v Apokalypse […] Efezskému těmito slovy: Znám tvé skutky, tedy schvaluji tvé skutky, a tvou námahu, tedy tvé soužení; nemůžeš snášet zlé, tedy napravuješ a nutíš; a prověřil jsi ty, kdo se nazývají apoštoly a nejsou jimi, tedy říkají, že jsou k tomu posláni, aby snáze klamali; a shledal jsi je lháři a máš trpělivost ve zlém, které oni jakoby skrze […] moc vnášejí; a vytrval jsi pro mé jméno a neochabl jsi.</p>
+        <p corresp="#u_73r_006">[…] To je péče biskupů: aby ve své diecézi pečlivě vyšetřovali, […] a odstraňovali bez překážky kohokoli, i veřejně […] bude-li to třeba […], O úřadu ordináře […]. Mají své diecéze […] zlými lidmi […] opatřit […], O úřadu místodržitele […], bez ohledu na privilegium […]. Také mají čistit své diecéze od heretiků a zárodků omylů; jinak mají být sesazeni a na jejich místo dosazeni jiní, O hereticích, Excommunicamus. Tak je zřejmé, jak nezbytné je uvedená nebezpečí vyšetřovat a odvracet je od církve, totiž představeným.</p>
+        <p corresp="#u_73r_007">K desátému bodu, jaký trest stihne představené, budou-li v uvedeném nedbalí, je třeba vědět, že neučiní-li popsané, bude z jejich rukou požadována krev těch, kdo v oněch nebezpečích zahynou, Ezechiel3 […]. A kromě budoucího trestu budou potrestáni i nyní. Neboť […] u Daniela […] touhy […] stojícímu na svém stupni: Přišel jsem tě poučit, co přijde na tvůj lid v posledních dnech. Podobně […] biskupům, kteří nestojí na svém stupni, ale zanedbávají uvedené, se srdce zaslepí, takže nebudou moci pochopit popsaná nebezpečí ani se před nimi vystříhat, a proto v nich zahynou. To je ono z Izajáše6: Zaslep srdce tohoto lidu […].</p>
+        <p corresp="#u_73r_008">Tak se stane strážcům církve, nebudou-li stát na svých hlídkách, aby předvídali nebezpečí církve a předcházeli jim. A když pro svou nedbalost sami […] říkají pokoj a bezpečí a považují […] přijde na ně náhlá záhuba, jak apoštol v prvním Tesalonickým5 předpovídá o posledních časech: Až budou říkat pokoj a bezpečí […]. Tyto tresty postihnou představené a podřízené, budou-li nedbalí. K jedenáctému bodu, aby snad představení […] při odvracení uvedeného nemohli říci […] apoštolovo proroctví, tato nebezpečí nelze odvrátit; proto je nezbytné […] apoštol ve druhém Timoteovi3 říká, jak […].</p>
+        <p corresp="#u_73r_009">[Velmi úzký netextový okraj.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

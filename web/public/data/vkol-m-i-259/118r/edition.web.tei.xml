@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 118r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_118r_coordinate; PNG SHA256 9acacc7c2952f535b3eaed82db5af13122c3d793407d75c4d81924ae2dc52ec5; archival TIFF SHA256 b61f8e817f46c20b39a853cac1b0f5049439d49467edecc9f9f409fca7bfe0b1; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_118r">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#118r"/>
+      <zone ulx="354" uly="398" lrx="2956" lry="575" xml:id="z_f118r_l001"/>
+      <zone ulx="342" uly="497" lrx="2947" lry="656" xml:id="z_f118r_l002"/>
+      <zone ulx="361" uly="588" lrx="2928" lry="746" xml:id="z_f118r_l003"/>
+      <zone ulx="345" uly="672" lrx="2938" lry="824" xml:id="z_f118r_l004"/>
+      <zone ulx="345" uly="759" lrx="2953" lry="914" xml:id="z_f118r_l005"/>
+      <zone ulx="348" uly="849" lrx="2941" lry="1001" xml:id="z_f118r_l006"/>
+      <zone ulx="345" uly="933" lrx="2938" lry="1076" xml:id="z_f118r_l007"/>
+      <zone ulx="351" uly="1014" lrx="2941" lry="1179" xml:id="z_f118r_l008"/>
+      <zone ulx="351" uly="1101" lrx="2941" lry="1256" xml:id="z_f118r_l009"/>
+      <zone ulx="351" uly="1188" lrx="2969" lry="1359" xml:id="z_f118r_l010"/>
+      <zone ulx="336" uly="1284" lrx="2944" lry="1437" xml:id="z_f118r_l011"/>
+      <zone ulx="348" uly="1375" lrx="2938" lry="1533" xml:id="z_f118r_l012"/>
+      <zone ulx="364" uly="1471" lrx="2919" lry="1617" xml:id="z_f118r_l013"/>
+      <zone ulx="345" uly="1564" lrx="2592" lry="1695" xml:id="z_f118r_l014"/>
+      <zone ulx="348" uly="1652" lrx="2925" lry="1779" xml:id="z_f118r_l015"/>
+      <zone ulx="351" uly="1742" lrx="2932" lry="1882" xml:id="z_f118r_l016"/>
+      <zone ulx="351" uly="1838" lrx="2988" lry="1978" xml:id="z_f118r_l017"/>
+      <zone ulx="351" uly="1919" lrx="2851" lry="2078" xml:id="z_f118r_l018"/>
+      <zone ulx="354" uly="2012" lrx="2960" lry="2187" xml:id="z_f118r_l019"/>
+      <zone ulx="357" uly="2112" lrx="2994" lry="2274" xml:id="z_f118r_l020"/>
+      <zone ulx="376" uly="2202" lrx="2981" lry="2367" xml:id="z_f118r_l021"/>
+      <zone ulx="379" uly="2299" lrx="2891" lry="2457" xml:id="z_f118r_l022"/>
+      <zone ulx="361" uly="2398" lrx="2925" lry="2541" xml:id="z_f118r_l023"/>
+      <zone ulx="379" uly="2492" lrx="2960" lry="2644" xml:id="z_f118r_l024"/>
+      <zone ulx="392" uly="2585" lrx="2935" lry="2722" xml:id="z_f118r_l025"/>
+      <zone ulx="364" uly="2681" lrx="2935" lry="2815" xml:id="z_f118r_l026"/>
+      <zone ulx="357" uly="2768" lrx="2928" lry="2899" xml:id="z_f118r_l027"/>
+      <zone ulx="357" uly="2859" lrx="2947" lry="2996" xml:id="z_f118r_l028"/>
+      <zone ulx="348" uly="2949" lrx="2997" lry="3092" xml:id="z_f118r_l029"/>
+      <zone ulx="357" uly="3048" lrx="3053" lry="3179" xml:id="z_f118r_l030"/>
+      <zone ulx="367" uly="3136" lrx="3050" lry="3272" xml:id="z_f118r_l031"/>
+      <zone ulx="357" uly="3226" lrx="2984" lry="3363" xml:id="z_f118r_l032"/>
+      <zone ulx="364" uly="3310" lrx="2941" lry="3447" xml:id="z_f118r_l033"/>
+      <zone ulx="357" uly="3394" lrx="2910" lry="3528" xml:id="z_f118r_l034"/>
+      <zone ulx="361" uly="3478" lrx="2947" lry="3621" xml:id="z_f118r_l035"/>
+      <zone ulx="361" uly="3568" lrx="2950" lry="3702" xml:id="z_f118r_l036"/>
+      <zone ulx="361" uly="3649" lrx="2935" lry="3783" xml:id="z_f118r_l037"/>
+      <zone ulx="364" uly="3742" lrx="2953" lry="3879" xml:id="z_f118r_l038"/>
+      <zone ulx="364" uly="3817" lrx="2941" lry="3948" xml:id="z_f118r_l039"/>
+      <zone ulx="364" uly="3913" lrx="2981" lry="4053" xml:id="z_f118r_l040"/>
+      <zone ulx="364" uly="4004" lrx="2888" lry="4128" xml:id="z_f118r_l041"/>
+      <zone ulx="370" uly="4081" lrx="2941" lry="4243" xml:id="z_f118r_l042"/>
+      <zone ulx="370" uly="4190" lrx="2935" lry="4321" xml:id="z_f118r_l043"/>
+      <zone ulx="367" uly="4280" lrx="2938" lry="4411" xml:id="z_f118r_l044"/>
+      <zone ulx="370" uly="4368" lrx="2991" lry="4501" xml:id="z_f118r_l045"/>
+      <zone ulx="373" uly="4455" lrx="2988" lry="4582" xml:id="z_f118r_l046"/>
+      <zone ulx="367" uly="4542" lrx="2963" lry="4676" xml:id="z_f118r_l047"/>
+      <zone ulx="376" uly="4632" lrx="2941" lry="4760" xml:id="z_f118r_l048"/>
+      <zone ulx="376" uly="4716" lrx="2984" lry="4840" xml:id="z_f118r_l049"/>
+      <zone ulx="373" uly="4800" lrx="2947" lry="4924" xml:id="z_f118r_l050"/>
+      <zone ulx="373" uly="4878" lrx="2913" lry="5083" xml:id="z_f118r_l051"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f118r_l001" xml:id="catmus_f118r_l001"/>
+          <seg type="raw_unreviewed">ex istũtet. bo.face nõ oluutãtide p. d u flas/ Nũ ꝑꝑ ħ de. a coripoꝵ ad puũt</seg>
+          <lb facs="#z_f118r_l002" xml:id="catmus_f118r_l002"/>
+          <seg type="raw_unreviewed">llistrat de ꝑ. do fulus. a ip̃es ĩpũti uita tꝑaͬ r̾mu̾at dey. diis es exhs</seg>
+          <lb facs="#z_f118r_l003" xml:id="catmus_f118r_l003"/>
+          <seg type="raw_unreviewed">ĩ ip̃m et̾uui supplctũ tollõdibiliꝰ siet. ibd̃.  Que cũ morli suĩt dat bõ</seg>
+          <lb facs="#z_f118r_l004" xml:id="catmus_f118r_l004"/>
+          <seg type="raw_unreviewed">t̾re Corfaciũt abile. minũt torñta yehẽne. Nã de ũ oblustr᷑ paurors</seg>
+          <lb facs="#z_f118r_l005" xml:id="catmus_f118r_l005"/>
+          <seg type="raw_unreviewed">louiꝵ. scm̃ꝵ ĩ ml ꝓcc̃oꝵ. de ꝑ.dii / Q u pcr̃̃ ẽ ud̾ beuile ꝙ ũ fiat morle</seg>
+          <lb facs="#z_f118r_l006" xml:id="catmus_f118r_l006"/>
+          <seg type="raw_unreviewed">dũ plagis xxx e̾mũs / eꝵ qr keralia de fingli ͭͤ uã qmitũ᷑ ulłs hõ pt̃ ca</seg>
+          <lb facs="#z_f118r_l007" xml:id="catmus_f118r_l007"/>
+          <seg type="raw_unreviewed">uitare de y. di auedicũt eri oocepto deo õs yc̃ae yũt ide ꝓ dii cui Ieꝵ</seg>
+          <lb facs="#z_f118r_l008" xml:id="catmus_f118r_l008"/>
+          <seg type="raw_unreviewed">posse pccar̾ ũ ẽ posse. dep d̾ aũsiẽ ¶Eꝵ neialua delen᷑ ꝑ dncũ o ͤ ⁊ ꝑeleõre</seg>
+          <lb facs="#z_f118r_l009" xml:id="catmus_f118r_l009"/>
+          <seg type="raw_unreviewed">large pptotꝭ lũsio. r ꝑie ͥͥ custigni ͦ ide ꝓ di aueditĩa ¶ It ꝑ aq̃ bñͭ᷑ asꝑsiͣͥ. de .</seg>
+          <lb facs="#z_f118r_l010" xml:id="catmus_f118r_l010"/>
+          <seg type="raw_unreviewed">dñ aꝙ ¶ It ꝑ eulie dĩg surꝰ. de qdii aũsst ꝑ ep̃il ꝓbr̃i bn ͥꝰdxxumi ꝓbrm</seg>
+          <lb facs="#z_f118r_l011" xml:id="catmus_f118r_l011"/>
+          <seg type="raw_unreviewed">P ecĩa di ᷑ apecoi̾b Ir ãt̃iqͥ q ꝙ heãbãt ĩ peceib hebał iniui tetũ /e largo</seg>
+          <lb facs="#z_f118r_l012" xml:id="catmus_f118r_l012"/>
+          <seg type="raw_unreviewed">uo᷑. y ꝙ hoĩes ĩ t̾ra possidet peciña uoͣt᷑ ibid aꝵ dor ꝓcane qͣrr᷑ iusci ᷑ xi</seg>
+          <lb facs="#z_f118r_l013" xml:id="catmus_f118r_l013"/>
+          <seg type="raw_unreviewed">Peagrũ nonũ ĩponẽtes. st̃ ꝯquicãdi .xxiiii iii si quis ¶q ii q̃ir̃e</seg>
+          <lb facs="#z_f118r_l014" xml:id="catmus_f118r_l014"/>
+          <seg type="raw_unreviewed">eꝵ max᷑ aꝑeg̾nis ⁊ afideᷝ u̾cutoib ũ sc̃ pedugia accipiẽditubid̃</seg>
+          <lb facs="#z_f118r_l015" xml:id="catmus_f118r_l015"/>
+          <seg type="raw_unreviewed">pemi ẽ daĩr. tpal ⁊ et̾iãl de ꝓ dni cauc ͧ ᷤ st tp̃alis dux uil ĩ uita</seg>
+          <lb facs="#z_f118r_l016" xml:id="catmus_f118r_l016"/>
+          <seg type="raw_unreviewed">a ͥ pꝰ hãt uitũ .dxxox ¶It ĩ hac uita peͣ tpalis ade ĩ flicta ꝓpcc̃o. s ẽ eg̾ de</seg>
+          <lb facs="#z_f118r_l017" xml:id="catmus_f118r_l017"/>
+          <seg type="raw_unreviewed">uarꝑtue.mors uo e nula dt᷑ N0 q ii ͥ It pe egipc̃oꝵ suit udo̾ ad corrco</seg>
+          <lb facs="#z_f118r_l018" xml:id="catmus_f118r_l018"/>
+          <seg type="raw_unreviewed">coꝵ. ilid̃ m ͨ It̃ do̾ tꝑi pũit qñ ut ĩetn uu ccretixxii qu q g</seg>
+          <lb facs="#z_f118r_l019" xml:id="catmus_f118r_l019"/>
+          <seg type="raw_unreviewed">st qũ ip̃u pelitas taffer᷑ ĩ postros. dy dni Secce Ist pniũ aio anĩ młti</seg>
+          <lb facs="#z_f118r_l020" xml:id="catmus_f118r_l020"/>
+          <seg type="raw_unreviewed">ꝓꝑ unũ xloi ẜ iᵈ st neo d mulri de affticcõe bõꝵ. ⁊ de yspitate nulloꝵ ĩpnĩti</seg>
+          <lb facs="#z_f118r_l021" xml:id="catmus_f118r_l021"/>
+          <seg type="raw_unreviewed">ꝑ afflicc̃o e boĩe ĩ diciũ salut̃ ⁊ ꝑspĩtus malis iudiciũ rͥ ꝓbaͦ ͥ ꝰ deꝑ dui</seg>
+          <lb facs="#z_f118r_l022" xml:id="catmus_f118r_l022"/>
+          <seg type="raw_unreviewed"> għꝰ eꝵ pũit᷑ ͥs ꝓaͦ ado tpiͭͣ. etm᷑ iłłs. aĩa dnu q̃ pcitult ip̃a tñi</seg>
+          <lb facs="#z_f118r_l023" xml:id="catmus_f118r_l023"/>
+          <seg type="raw_unreviewed">moie i xxii qbi q i pꝰ ¶t̃ ptu᷑ qͥs ado pa tpu ĩ iustii ꝓłiusto. ut petriꝰ</seg>
+          <lb facs="#z_f118r_l024" xml:id="catmus_f118r_l024"/>
+          <seg type="raw_unreviewed">yidurxon qi ñ t̾ba᷑ It pũi᷑ ĩiustꝰ puisco si moi̾a ir̃ ꝓmoyse leỹ ꝑcri</seg>
+          <lb facs="#z_f118r_l025" xml:id="catmus_f118r_l025"/>
+          <seg type="raw_unreviewed">I q uii ploꝵ It̃ qͥs piũt᷑ abligĩe ꝓałio corͣ nt ĩc̾mũe lese mlrestutis</seg>
+          <lb facs="#z_f118r_l026" xml:id="catmus_f118r_l026"/>
+          <seg type="raw_unreviewed">ti he̾s ui .i. Cueꝵ ist̃ pñi. Ib ꝓa spuu ex quiͣ pon quii mlo IIten</seg>
+          <lb facs="#z_f118r_l027" xml:id="catmus_f118r_l027"/>
+          <seg type="raw_unreviewed">pũs qͥb paͦ pi. nt ĩ pua᷑ ͤ offraꝵ diuoꝵ. facusiã pꝑ dñii uuil᷑ xiii</seg>
+          <lb facs="#z_f118r_l028" xml:id="catmus_f118r_l028"/>
+          <seg type="raw_unreviewed">s qͥs It illi nõ ꝑuut ido bis ĩidipm̃. qtt̾ flagłi. pñm egerũł deyd̾ us</seg>
+          <lb facs="#z_f118r_l029" xml:id="catmus_f118r_l029"/>
+          <seg type="raw_unreviewed">¶t q̃ ĩ pẽu diu̾ores efficiũ᷑: tp̃e suppliciũ sĩt eio et̾ue Sãpᵒ ͤiudiciũ bd</seg>
+          <lb facs="#z_f118r_l030" xml:id="catmus_f118r_l030"/>
+          <seg type="raw_unreviewed">t de. sn pũt pancob. ut exls iulti ͭ ͣ ad plua ꝓbece᷑ xxiii qmͣiͣ. rillisaĩ</seg>
+          <lb facs="#z_f118r_l031" xml:id="catmus_f118r_l031"/>
+          <seg type="raw_unreviewed">D pẽ tpulis meitoi̾e ĩ fligi᷑ abhoie. qr u s̃ sie̾t. aũltiplicu̾eu᷑ nulłe ftre̾s</seg>
+          <lb facs="#z_f118r_l032" xml:id="catmus_f118r_l032"/>
+          <seg type="raw_unreviewed">xoui q ñ̃̃ ẽ st̃ culpa ẽ nõ pum̾ecłpũ . dxxuni qr en maxͣ cm p̃latꝭ</seg>
+          <lb facs="#z_f118r_l033" xml:id="catmus_f118r_l033"/>
+          <seg type="raw_unreviewed">offũdit. qui culpũ ĩpñita dm̾itit .xii q nu sris Qꝵĩeo q̃ qͦs pcat</seg>
+          <lb facs="#z_f118r_l034" xml:id="catmus_f118r_l034"/>
+          <seg type="raw_unreviewed">ꝓmẽudꝰ e. d xcui si q̾s / e par peͣ agites ⁊ꝯsent ᷑ ᷤ d ispħũde̾ixuni a</seg>
+          <lb facs="#z_f118r_l035" xml:id="catmus_f118r_l035"/>
+          <seg type="raw_unreviewed">in õs It̃ ad pũit᷑ sĩ cilpa. s ñ sĩcũ. sᵈ ꝯtius cũ coꝵpta qm̃ c̾sͭ eẽ</seg>
+          <lb facs="#z_f118r_l036" xml:id="catmus_f118r_l036"/>
+          <seg type="raw_unreviewed">bgĩe. ⁊ bigiiꝰ effici᷑ d li qui It maloꝵ pe du̾iti᷑. ubi stisia timet ⁊</seg>
+          <lb facs="#z_f118r_l037" xml:id="catmus_f118r_l037"/>
+          <seg type="raw_unreviewed">eri q in cũ Iar stuł ĩculpa. sapiẽs sit ĩpẽ. d̾ pppomi hal I Ite </seg>
+          <lb facs="#z_f118r_l038" xml:id="catmus_f118r_l038"/>
+          <seg type="raw_unreviewed">puiaũt eulul. cũ quili hoiẽs pcͣiau̾it. ne r̾fricteu᷑ ꝓccũ peq÷ młr</seg>
+          <lb facs="#z_f118r_l039" xml:id="catmus_f118r_l039"/>
+          <seg type="raw_unreviewed">O rigor pẽꝵ canõicuꝵ epa  ꝑꝑ ncc cp̃is ⁊ utilitꝭ i uii r̾ꝯnt err</seg>
+          <lb facs="#z_f118r_l040" xml:id="catmus_f118r_l040"/>
+          <seg type="raw_unreviewed">ĩ ĩ fen̾di pena. m̃lta sc̃ ĩsidean̾da u digtas qrt̾ꝭ pm̃i᷑ ꝑdig soltr̾is</seg>
+          <lb facs="#z_f118r_l041" xml:id="catmus_f118r_l041"/>
+          <seg type="raw_unreviewed">dl ꝯtuũces ¶It̃ dĩtes peͣ pecũ  d paupes pẽ corli goxin q i</seg>
+          <lb facs="#z_f118r_l042" xml:id="catmus_f118r_l042"/>
+          <seg type="raw_unreviewed">qui It̃ pẽ occiͭͥ ẽ dig̾tatib pͥmde poi.i. sc qͥs It̃ peͣ pgiltoñ ⁊ si ũ ust</seg>
+          <lb facs="#z_f118r_l043" xml:id="catmus_f118r_l043"/>
+          <seg type="raw_unreviewed">et̾ui. mir tñ mõ gͣnis ẽ. ecedũs oẽ pũtc penã id xxu quĩ uᵈ</seg>
+          <lb facs="#z_f118r_l044" xml:id="catmus_f118r_l044"/>
+          <seg type="raw_unreviewed">e pe etlul da᷑ cã pcc̃o ꝑ sereantibi ⁊ fidei lũsisui̾h. pii qi scimꝰ</seg>
+          <lb facs="#z_f118r_l045" xml:id="catmus_f118r_l045"/>
+          <seg type="raw_unreviewed">s enitũctul ẽ dux. u dei ⁊ hon. ppii q mi ã quu lͥs ed peĩtere</seg>
+          <lb facs="#z_f118r_l046" xml:id="catmus_f118r_l046"/>
+          <seg type="raw_unreviewed">dei ẽ. ase ip̃o ordĩitit. cũ uoluit ĩ mure ibt̃ It pnũ gõis ẽ qda</seg>
+          <lb facs="#z_f118r_l047" xml:id="catmus_f118r_l047"/>
+          <seg type="raw_unreviewed">dolũtꝭ uĩdcũ. sꝑ pẽitũs ĩ se. ꝙ dol adinisi ꝵ deꝑd̾m ꝗ acꝭst ꝓnus</seg>
+          <lb facs="#z_f118r_l048" xml:id="catmus_f118r_l048"/>
+          <seg type="raw_unreviewed">ẽpccã ppec̾ta doplang̾e. ⁊ ulangũda ũ petreubũ It̃ peni̾tẽ ẽ</seg>
+          <lb facs="#z_f118r_l049" xml:id="catmus_f118r_l049"/>
+          <seg type="raw_unreviewed">qĩ ꝑꝑ peni tene doydin c̃capu᷑ ͫ/ It̃ ꝑma ẽ R ͣ tullũ ꝑ Inausragiũ de</seg>
+          <lb facs="#z_f118r_l050" xml:id="catmus_f118r_l050"/>
+          <seg type="raw_unreviewed">p. di aũ /eo ꝓm̃a ẽ a ͦ y̾mita ad solep̃ms siĩ pub ͭ  ͥd lss. Io It̃ p̾ulta</seg>
+          <lb facs="#z_f118r_l051" xml:id="catmus_f118r_l051"/>
+          <seg type="raw_unreviewed">diũsus h sͦ deyd i meditĩi a ͦ ẽãcipiõ ł.a ͨ ꝓficie᷑  .iͦ ꝑstoꝵ. de ꝓ</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f118r_l001" xml:id="medusa_f118r_l001"/>
+          <seg type="raw_unreviewed">existentes bonum facere nõ obligant de p. d̃ u flis / Nũ ꝑꝑ hᶜ dr̃. nͥ cor ip̃oꝫ ad pũam</seg>
+          <lb facs="#z_f118r_l002" xml:id="medusa_f118r_l002"/>
+          <seg type="raw_unreviewed">illustrat de p. d̃o fassus. q̃ ip̃os ĩ pñti uita tꝑa᷑ r̾muit. de p. d̃ iii exhᶜ</seg>
+          <lb facs="#z_f118r_l003" xml:id="medusa_f118r_l003"/>
+          <seg type="raw_unreviewed">lꝰ ip̃m eternũ supplicũ tolerabilis fiet. 1 bch. 17. Que cũ modis sint dat bo</seg>
+          <lb facs="#z_f118r_l004" xml:id="medusa_f118r_l004"/>
+          <seg type="raw_unreviewed">t̾re eoꝵ faciũt abile. minũt terrorũ yhe̾ne. Nã ds̃ ñ obliuiscr᷑ paucorꝭ</seg>
+          <lb facs="#z_f118r_l005" xml:id="medusa_f118r_l005"/>
+          <seg type="raw_unreviewed">bened̃. sc̃oꝵ ĩ młte pcc̃oꝵ. de p.d. iii. ¶ Qr nᵒ peni e̾ u̾b̃ uen̾le ꝙ ñ fiat m̃rle</seg>
+          <lb facs="#z_f118r_l006" xml:id="medusa_f118r_l006"/>
+          <seg type="raw_unreviewed">dũ placꝰ s̃ xxu eͥmũs Ecꝙ qr ben̾alia de singliᵗᵉ hũmᵃ ꝯnͣtũ᷑. nll̃s hõ pt̃ eũ</seg>
+          <lb facs="#z_f118r_l007" xml:id="medusa_f118r_l007"/>
+          <seg type="raw_unreviewed">vitare de p. d. i. medicũ / ea excepto deo õs p̾care pñt. de p. d. ii. crũ Ex</seg>
+          <lb facs="#z_f118r_l008" xml:id="medusa_f118r_l008"/>
+          <seg type="raw_unreviewed">posse pccm̃e ñ ẽ posse. de p d̃. añ sĩẽ Qr̃ nẽialm̃ debeu᷑ ꝑ dñicã or̃ ꝑ leõne</seg>
+          <lb facs="#z_f118r_l009" xml:id="medusa_f118r_l009"/>
+          <seg type="raw_unreviewed">largioꝵ ⁊ pp̃torũ tñsioꝵ. ⁊ preb̃ cusciguꝰ. de p di auiditũ. Item p añ bnͣte asꝑsiꝰ. de.</seg>
+          <lb facs="#z_f118r_l010" xml:id="medusa_f118r_l010"/>
+          <seg type="raw_unreviewed">d̃ mͥ añ ¶ It̃ ꝑ eukr̃ dig̃ sup͂ꝰ de qd̃n aũ ¶ It̃ ꝑ ep̃i l̃ pb̃ri b̃atꝰ iᵈ xxuiii pb̃rm̃</seg>
+          <lb facs="#z_f118r_l011" xml:id="medusa_f118r_l011"/>
+          <seg type="raw_unreviewed">pecunia d᷑᷑ apertoribꝰ .qr ãtiquꝰ hᶜ ꝙ habebãt ⁊ ĩ pecũiis habebãt .ui. iii totum Ex largo</seg>
+          <lb facs="#z_f118r_l012" xml:id="medusa_f118r_l012"/>
+          <seg type="raw_unreviewed">noͣ ͤ. ymꝰ hoĩes ⁊ t̾ra possidet pecunia uoͣt᷑ ibid̃ / eꝵ aũt pecunie ꝯu̾ti᷑ in sc̃i. x.</seg>
+          <lb facs="#z_f118r_l013" xml:id="medusa_f118r_l013"/>
+          <seg type="raw_unreviewed">Pedagium novum ĩponentes. st̃ expunẽndi. xxiiii ii iii. si quis</seg>
+          <lb facs="#z_f118r_l014" xml:id="medusa_f118r_l014"/>
+          <seg type="raw_unreviewed">M. max. a peci̾nis ⁊ a fidebꝰ mercatoribꝰ ñ st̃ pedagia accipiẽda. ibid̃</seg>
+          <lb facs="#z_f118r_l015" xml:id="medusa_f118r_l015"/>
+          <seg type="raw_unreviewed">P̃Eua ẽ dñx. sp̃al ⁊ et̾nal. de p d̃ m q̃ aũct̃as ¶ It̃ sp̃cilis dñx. una ĩ vita</seg>
+          <lb facs="#z_f118r_l016" xml:id="medusa_f118r_l016"/>
+          <seg type="raw_unreviewed">aˢ pꝰ hãc uitã. iͨ xͦxv. ¶ It̃ ĩ hac vita pẽ tꝑalis. idẽ ĩflictu ꝓpcc̃o. sᵈ c̃eg̃do</seg>
+          <lb facs="#z_f118r_l017" xml:id="medusa_f118r_l017"/>
+          <seg type="raw_unreviewed">panꝑtas. mors nõ c̃mula drᵃ. xiiq. i. 11a ¶ It̃ pe̾ egiptioꝵ fuit adoꝰ ab eorꝵq</seg>
+          <lb facs="#z_f118r_l018" xml:id="medusa_f118r_l018"/>
+          <seg type="raw_unreviewed">eoꝵ ibid̃ nᶜ It̃ d̾s tꝑitꝰ pñit ꝯñ. ut ĩ et̃nũ uñ c̾eret xxiii ꝯu ꝙ 5</seg>
+          <lb facs="#z_f118r_l019" xml:id="medusa_f118r_l019"/>
+          <seg type="raw_unreviewed">sc̃ qñ ip̃i p̃esitas transfer̃ ĩ posteros. d̾ ꝓ d̾ in 4 cccc. ¶ It̃ p̃mũ a d̾ ꝯñ multi</seg>
+          <lb facs="#z_f118r_l020" xml:id="medusa_f118r_l020"/>
+          <seg type="raw_unreviewed">ꝑ unũ ꝑloꝰ s̃ iᵈ ¶ It̃ ne̾o d mueri de affl̃cione boꝵ. ⁊ de xp̃i tate muloeꝵ ĩ pñti</seg>
+          <lb facs="#z_f118r_l021" xml:id="medusa_f118r_l021"/>
+          <seg type="raw_unreviewed">afflictõ ẽ boĩs ĩdicm̃ salutꝭ ⁊ ꝓspit̾us malis iudicm̃ r̾ꝓbaˢᵒˢ de p d̾m</seg>
+          <lb facs="#z_f118r_l022" xml:id="medusa_f118r_l022"/>
+          <seg type="raw_unreviewed">ex hoc Quid punit᷑ qͥs ꝓba᷑ adoͥ tꝑuͭ. eterna ułls. aũ eñ q̃ p̃cavit ip̃a tm̃</seg>
+          <lb facs="#z_f118r_l023" xml:id="medusa_f118r_l023"/>
+          <seg type="raw_unreviewed">moĩe᷑ xxiiii qᵉⁱ 4 1 pꝰ ¶ It̃ pũꝰ qͥs ad̃ ꝓaꝰ tp̃a᷑ iustꝰ ꝓ ĩiusto. ut petꝰ</seg>
+          <lb facs="#z_f118r_l024" xml:id="medusa_f118r_l024"/>
+          <seg type="raw_unreviewed">ꝑ u̾ba .xxiii. q. ñ t᷑bar¶ It̃ pñi᷑ ĩ mistꝭ p̃misto. siꝰ maĩa n᷑. ꝑ moyse leẏ ꝑen</seg>
+          <lb facs="#z_f118r_l025" xml:id="medusa_f118r_l025"/>
+          <seg type="raw_unreviewed">m. i. uii plor. ¶ Item qͥs pũit᷑ ab hie ꝑ alio corꝰ ut ⁊ c̃rune lese manentis</seg>
+          <lb facs="#z_f118r_l026" xml:id="medusa_f118r_l026"/>
+          <seg type="raw_unreviewed">tal h̃es u. q. fuerunt Item p̃mꝰ. qͥs p̃mꝰ spin̾ ex ꝯmᵃ. xuii qui m̃ios Item</seg>
+          <lb facs="#z_f118r_l027" xml:id="medusa_f118r_l027"/>
+          <seg type="raw_unreviewed">pũc qͥs patͤ ipmũ . ut ĩ pͥuare offiꝵ d̃iuerꝭ faculã ꝑꝑ dm̃ pͥuat᷑ xii</seg>
+          <lb facs="#z_f118r_l028" xml:id="medusa_f118r_l028"/>
+          <seg type="raw_unreviewed">s. qͥs ¶ It̃ illi nõ puĩt᷑ ad u̾bẽ ĩdipnũ. qͥ ĩt̾ flaglla. puĩn egerũt. de p d. n.</seg>
+          <lb facs="#z_f118r_l029" xml:id="medusa_f118r_l029"/>
+          <seg type="raw_unreviewed">Item qui in penis diuiores efficiuntur tempore supplicium sit eis eterne dampnatio indicium ibid</seg>
+          <lb facs="#z_f118r_l030" xml:id="medusa_f118r_l030"/>
+          <seg type="raw_unreviewed">¶Item de .ii. p̃nt paucos. ut ex hoc multiᵗᵘᵃ ad pnñtꝰ ꝓbecer̃ xxiii. iiiiᵃ. illi p̃nꝰ</seg>
+          <lb facs="#z_f118r_l031" xml:id="medusa_f118r_l031"/>
+          <seg type="raw_unreviewed">q p̃e tꝑalis merito iñflig⁊ abhõe .n. uᶜ sᶜ siet᷑. młtiplicueu᷑ malefices</seg>
+          <lb facs="#z_f118r_l032" xml:id="medusa_f118r_l032"/>
+          <seg type="raw_unreviewed">xxiiii q nũ e ¶It culpa ẽ nõ punire culpã d xxviii qr ex maxͤ gmͬ p̃bat</seg>
+          <lb facs="#z_f118r_l033" xml:id="medusa_f118r_l033"/>
+          <seg type="raw_unreviewed">offũdit. qui culpr̃ ĩ pnĩtaꝵ dimitit. xxiii qui suis eꝵ ĩ eo qͦ qͥs pͨerit</seg>
+          <lb facs="#z_f118r_l034" xml:id="medusa_f118r_l034"/>
+          <seg type="raw_unreviewed">p̃mẽnd̃ ẽ. d̃ ꝑcun si qͥs e3 par pͣ agñtes ⁊ ꝯsentioꝭ d ꝯphũde̾ .xvii. q.</seg>
+          <lb facs="#z_f118r_l035" xml:id="medusa_f118r_l035"/>
+          <seg type="raw_unreviewed">mi oñs ¶ It̃ eos puĩt᷑ sñ culpa. s⁊ ũ sñ cã. qd̾ ꝯfth̃us cũ colpa qmͣ c᷑sᵗ ẽẽ</seg>
+          <lb facs="#z_f118r_l036" xml:id="medusa_f118r_l036"/>
+          <seg type="raw_unreviewed">egĩe. ⁊ bigiꝰ effici᷑. d li qui Ist malꝵ p᷑ dnu̾ti᷑. ubi scisima timet᷑</seg>
+          <lb facs="#z_f118r_l037" xml:id="medusa_f118r_l037"/>
+          <seg type="raw_unreviewed">xxiii iiii cũ Cii scultꝰ ĩ culpa . sapientꝰ sit ĩpẽ . d̃ xxxviii hͥ er Itẽ</seg>
+          <lb facs="#z_f118r_l038" xml:id="medusa_f118r_l038"/>
+          <seg type="raw_unreviewed">puniant᷑ m̃alii. cũ quilibi hoiẽs pccavit. ne r̾fricent᷑ pccã .xuii. młr</seg>
+          <lb facs="#z_f118r_l039" xml:id="medusa_f118r_l039"/>
+          <seg type="raw_unreviewed">Quod rigor p̃erꝭ canõnicꝭ ep̃aꝵ ꝑꝑ ncc̃aꝭ tꝑis ⁊ utiliˢ qr</seg>
+          <lb facs="#z_f118r_l040" xml:id="medusa_f118r_l040"/>
+          <seg type="raw_unreviewed">ĩ ĩferenda pena. multa sc̃ ꝯside̾n᷑da u dig̾tas. n. 2. 5. pn̾ꝭ ꝑ dig̾t̃ sub t̃tõ;</seg>
+          <lb facs="#z_f118r_l041" xml:id="medusa_f118r_l041"/>
+          <seg type="raw_unreviewed">d̃l ꝯtinuaces ¶ It̃ dm̃ites pe͂ pecuͥaͥa s⁊ paupẽs pe͂ cor̃li xxiiii ii</seg>
+          <lb facs="#z_f118r_l042" xml:id="medusa_f118r_l042"/>
+          <seg type="raw_unreviewed">qui ¶ It̃ pe͂ ecc̃iᶜⁱ ẽ dignitatibꝰ ꝓmoe̾ xui.5. si qͥs ¶ It̃ pe͂ p̃grikoñ ⁊ si ñ est</seg>
+          <lb facs="#z_f118r_l043" xml:id="medusa_f118r_l043"/>
+          <seg type="raw_unreviewed">et̾na. miro tñi nño gr̃nis ẽ. excedũs oẽs pñtes penã. d̾ xxu. qui uᵈ</seg>
+          <lb facs="#z_f118r_l044" xml:id="medusa_f118r_l044"/>
+          <seg type="raw_unreviewed">q p̃e et̾na da᷑. ĩ pcc̃o ꝑseuerantibꝰ ⁊ fidei cũ sig̃ssoribꝰ .xii. i. primꝰ</seg>
+          <lb facs="#z_f118r_l045" xml:id="medusa_f118r_l045"/>
+          <seg type="raw_unreviewed">Penitũcia ẽ dux. u dei ⁊ hoĩs. xxi. i iii ĩ qnũˡⁱˢ ex peĩtere</seg>
+          <lb facs="#z_f118r_l046" xml:id="medusa_f118r_l046"/>
+          <seg type="raw_unreviewed">dei ẽ. a se ip̃o ordinãtit. cũ uoluit ĩ mure. ibi¶ It̃ pnĩa hoĩs ẽ q̃dã</seg>
+          <lb facs="#z_f118r_l047" xml:id="medusa_f118r_l047"/>
+          <seg type="raw_unreviewed">dolũtꝭ uã dc̃m. ssꝑ pẽitũs ĩ se .u. deb admĩsire. de p̃d̾m ꝙ ac. / It̃ p̃mũ</seg>
+          <lb facs="#z_f118r_l048" xml:id="medusa_f118r_l048"/>
+          <seg type="raw_unreviewed">ẽ pcc̃a ꝑpetua depingere. ⁊ plangũda ũ ꝑpetre. ibid̃ ¶ It̃ penitẽ ẽ</seg>
+          <lb facs="#z_f118r_l049" xml:id="medusa_f118r_l049"/>
+          <seg type="raw_unreviewed">q̃ ꝑ penitꝰ teñe dop d̾ m c̃tapuᵐ It̃ pnĩa c̃ pᵃ tabulã p̃ Inaugurium de</seg>
+          <lb facs="#z_f118r_l050" xml:id="medusa_f118r_l050"/>
+          <seg type="raw_unreviewed">p. d. aũ ¶ Q: pnĩa ẽ a᷑ p̃mita a᷑ solepnis sc̃i pubᶜⁱ 8ᵃ. l. ss. 18¶ It̃ p̃mita</seg>
+          <lb facs="#z_f118r_l051" xml:id="medusa_f118r_l051"/>
+          <seg type="raw_unreviewed">diu̾sis h ssꝭ de ꝑd̃i medi̾cũ aᷠ ẽ ĩcipioᷠ aᷠ ꝓficioᷠ aᷠ ꝑscoꝵ de ꝓ</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f118r_l001 #z_f118r_l002 #z_f118r_l003 #z_f118r_l004" xml:id="u_118r_001">[...] bona facere non ob [...] . Nam propter hoc Deus [...] a corpore ad paenitentiam [...] . [...] ipse in praesenti vita temporali remunerat, [...] in ipsum aeterni supplicii tolerabilius [...] . Quae cum mortalia sunt [...] bon[...] facere [...] , minuunt tormenta gehennae. [...]</p>
+        <note type="editorial" corresp="#u_118r_001" xml:lang="cs">Začátek navazuje na 117v. První argument a podmínky hodnoty dobrých skutků neúplné; červená vodorovná čára v 3–4 protíná část textu.</note>
+        <p facs="#z_f118r_l005 #z_f118r_l006 #z_f118r_l007 #z_f118r_l008 #z_f118r_l009 #z_f118r_l010" xml:id="u_118r_002">Quod nullum peccatum est adeo veniale quod non fiat mortale dum placet. [...] de singulis [...] nullus homo potest ea vitare [...] . [...] excepto Deo omnes peccare possunt. [...] posse peccare non est posse. [...] Venialia delentur per dominicam orationem et per eleemosynae largitatem, pectoris tunsionem et per ieiunii castigationem [...]. Item per aquae benedictae aspersionem [...]. Item per eucharistiae [...] sumptionem [...] et per episcopi benedictionem [...].</p>
+        <note type="editorial" corresp="#u_118r_002" xml:lang="cs">Kanonické odkazy v drobných zkratkách nerozřešuji na jisté moderní citace. Některé prostředky očištění jsou čitelné pouze jako stručná hesla.</note>
+        <p facs="#z_f118r_l011 #z_f118r_l012 #z_f118r_l013 #z_f118r_l014" xml:id="u_118r_003">Pecunia dicitur a pecoribus. Antiqui qui quod habebant in pecoribus habebant [...] . Et [...] quod homines in terra possident pecunia vocatur, ibidem. [...] Pagano novum imponentes [...] excommunicandi, XXIIII, III, Si quis [...]. [...] maxime a peregrinis et a fidelibus mercatoribus non sunt pedagia accipienda, ibidem.</p>
+        <note type="editorial" corresp="#u_118r_003" xml:lang="cs">Slovníková etymologie; heslo mezi penězi a tresty obtížné, čtení Pagano/novum nejisté. Čísla pramenného odkazu přebírám jen tam, kde se rozeznají.</note>
+        <p facs="#z_f118r_l015 #z_f118r_l016 #z_f118r_l017 #z_f118r_l018 #z_f118r_l019 #z_f118r_l020" xml:id="u_118r_004">Poena est duplex, temporalis et aeterna [...] . Temporalis duplex vel in vita vel post hanc vitam [...] . Item in hac vita poena temporalis a Deo infligitur pro peccato, [...] mors [...] . Item poena Aegyptiorum fuit ad correctionem eorum, ibidem. Item Deus temporaliter punit quemdam ut in aeternum non cruciet [...]. [...] ipsius poenalitas transfertur in posteros [...]. Item poena unius [...] multi pro uno [...] sed [...] pro multis [...]. De afflictione bonorum et de prosperitate malorum [...].</p>
+        <note type="editorial" corresp="#u_118r_004" xml:lang="cs">Scholastická a kanonická hesla, nikoli aktuální normativní návod. Část výjimek a příkladů nečitelná.</note>
+        <p facs="#z_f118r_l021 #z_f118r_l022 #z_f118r_l023 #z_f118r_l024 #z_f118r_l025 #z_f118r_l026" xml:id="u_118r_005">Per afflictionem bonis indicium salutis et prosperitas malis indicium reprobationis [...]. [...] carnis afflictio [...] anima quae peccaverit ipsa tantum morietur [...]. Item punitur quis a Deo poena temporali iniustus pro iusto, ut Petrus [...] Herodis [...] . Item punitur iniustus pro iniusto, sicut Maria [...] pro Moyse [...] . Item quis punitur ab homine pro alio, ut in crimine laesae maiestatis et haeresis [...] . [...] poena [...] ex qua [...] malorum.</p>
+        <note type="editorial" corresp="#u_118r_005" xml:lang="cs">Příklady Petra, Heroda a Marie/Mojžíše zkrácené a nejasné; nedoplňuji biblické příběhy. Český text dokumentuje tvrzení předlohy.</note>
+        <p facs="#z_f118r_l027 #z_f118r_l028 #z_f118r_l029 #z_f118r_l030" xml:id="u_118r_006">[...] punitur [...] ut in privatione officiorum divinorum [...] . Item illi non puniuntur a Deo bis in idipsum qui inter flagella poenitentiam egerunt [...]. Item qui in poenis duriores efficiuntur, temporale supplicium fit eis aeternae damnationis indicium, ibidem. [...] puniuntur parvuli ut ex eis adulti ad plenam [...] .</p>
+        <note type="editorial" corresp="#u_118r_006" xml:lang="cs">Začátek 27 a konec 30 neúplný; zachovávám historickou argumentaci se zjevnými mezerami.</note>
+        <p facs="#z_f118r_l031 #z_f118r_l032 #z_f118r_l033 #z_f118r_l034 #z_f118r_l035 #z_f118r_l036 #z_f118r_l037 #z_f118r_l038" xml:id="u_118r_007">Poena temporalis meritorie infligitur ab homine, quia nisi timeretur multiplicarentur malefactores [...]. Sicut culpa est non punire culpam [...]. Qui enim magis [...] praelatus offendit qui culpam impunitam dimittit [...]. Quis [...] peccat promovendus est [...] . Item pari poena agentes et consentientes [...] . Item aliquis punitur sine culpa, sed non sine causa, sicut contrahit cum corrupta quam credit esse virginem et bigamus efficitur [...]. Item malorum poena [...] ut [...] timeat [...]. Stultus in culpa sapiens fit in poena [...]. Item [...] puniantur [...] qualiter homines peccaverint ne refricentur peccata [...].</p>
+        <note type="editorial" corresp="#u_118r_007" xml:lang="cs">Právní pojmy vědomě podány v kontextu středověkého textu. V 34 je promovendus zvlášť nejisté; nevyvozuji z něho samostatnou nauku.</note>
+        <p facs="#z_f118r_l039 #z_f118r_l040 #z_f118r_l041 #z_f118r_l042 #z_f118r_l043 #z_f118r_l044" xml:id="u_118r_008">Rigor poenarum canonicarum [...] propter necessitatem temporis et utilitatem [...] recon[...] . In inferenda poena multa sunt consideranda, ut dignitas [...] pro dignitate [...] et [...] . Item divites poena pecuniaria, sed pauperes poena corporali [...]. Item poena [...] dignitatibus [...]. Item poena purgatorii etsi non sit aeterna, mira tamen [...] gravis est, excedens omnem [...] poenam [...]. Item poena aeterna datur [...] in peccato perseverantibus et fidei [...]</p>
+        <note type="editorial" corresp="#u_118r_008" xml:lang="cs">Začátek o zmírnění či přizpůsobení kanonických trestů není plně čitelný. Rozdělení bohatých/chudých je historické tvrzení rukopisu.</note>
+        <p facs="#z_f118r_l045 #z_f118r_l046 #z_f118r_l047 #z_f118r_l048" xml:id="u_118r_009">Poenitentia est duplex, videlicet Dei et hominis [...]. Poenitere Dei est [...] ab ipso ordinatum [...] cum [...] . Item poenitentia hominis est quaedam dolentis vindicta, semper puniens in se quod doluit admisisse [...]. [...] praeterita peccata deplangere et plangenda non perpetrare, ibidem.</p>
+        <note type="editorial" corresp="#u_118r_009" xml:lang="cs">Mnohoznačnost poenitentia zachována: u Boha jde o tradiční otázku změny jednání, přesné vysvětlení je však neúplné.</note>
+        <p facs="#z_f118r_l049 #z_f118r_l050 #z_f118r_l051" xml:id="u_118r_010">[...] poenitentia [...] . Item poenitentia est secunda tabula post naufragium [...]. Eadem poenitentia est [...] a sollemni [...] et publica [...]. Item praed[...] divisus [...] de meditatione [...] emancipatione [...] proficitur [...]</p>
+        <note type="editorial" corresp="#u_118r_010" xml:lang="cs">Závěr s typy pokání a řadou odkazů zůstává značně nečitelný; nepředkládám plný právní výklad.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_118r_001">[...] konat dobré [...] nikoli [...]. Neboť proto Bůh [...] od těla k pokání [...]. Sám odměňuje v nynějším časném životě [...] a věčný trest [...] snesitelnější [...]. Když jsou smrtelné [hříchy?] [...] dobré skutky [...] zmenšují pekelná muka. [...]</p>
+        <p corresp="#u_118r_002">Žádný hřích není tak lehký, aby se nestal smrtelným, když se v něm [člověk] zalíbí. [...] Jednotlivých [...] se žádný člověk nemůže zcela vyvarovat [...]. Kromě Boha mohou všichni zhřešit [...]. Schopnost hřešit není skutečná schopnost [...]. Lehké hříchy se zahlazují modlitbou Páně, štědrou almužnou, bitím v prsa a postním ukázňováním [...]. Také kropením svěcenou vodou [...], přijímáním eucharistie [...] a biskupským požehnáním [...].</p>
+        <p corresp="#u_118r_003">Peníze se nazývají pecunia podle dobytka, pecora. Staří měli to, co vlastnili, v dobytku [...]. To, co lidé vlastní na zemi, se nazývá majetek, pecunia; tamtéž. [...] Kdo ukládají nové [dávky?] pohanovi [...] mají být vyobcováni; XXIV, III, Si quis [...]. [...] Zvláště od poutníků a věřících obchodníků se nemají vybírat mýta; tamtéž.</p>
+        <p corresp="#u_118r_004">Trest je dvojí: časný a věčný [...]. Časný trest je dvojí: za života nebo po tomto životě [...]. Bůh v tomto životě ukládá časný trest za hřích [...], smrt [...]. Trest Egypťanů byl k jejich nápravě; tamtéž. Bůh někoho trestá časně, aby ho netrápil věčně [...]. Jeho trest se přenáší na potomky [...]. Trest jednoho [...] mnozí za jednoho [...] za mnohé [...]. O soužení dobrých a blahobytu zlých [...].</p>
+        <p corresp="#u_118r_005">Soužení je pro dobré znamením spásy a blahobyt pro zlé znamením zavržení [...]. Tělesné soužení [...] duše, která zhřešila, jediná zemře [...]. Bůh také časným trestem trestá nespravedlivého za spravedlivého, jako Petr [...] Herodes [...]. Trestá se také nespravedlivý za nespravedlivého, jako Maria [...] za Mojžíše [...]. Člověk může být trestán jiným člověkem za druhého, například při zločinu urážky majestátu a kacířství [...]. Trest [...] z něhož [...] zlých [...].</p>
+        <p corresp="#u_118r_006">[...] trestán [...] například zbavením účasti na bohoslužbách [...]. Bůh netrestá dvakrát za totéž ty, kteří během ran vykonali pokání [...]. Těm, kdo se v trestech zatvrzují, se časné soužení stává znamením věčného zavržení; tamtéž. Trestají se také maličcí, aby z toho dospělí došli plného [...] .</p>
+        <p corresp="#u_118r_007">Časný trest právem ukládá člověk, neboť kdyby se ho lidé nebáli, množili by se zločinci [...]. Je vinou netrestat vinu [...]. Představený se více [...] proviňuje, když ponechává vinu bez trestu [...]. Kdo [...] hřeší, má být povýšen [?] [...]. Stejný trest [stíhá] jednající i souhlasící [...]. Někdo se trestá bez viny, ale ne bez důvodu: jako když uzavře sňatek s porušenou ženou, kterou pokládá za pannu, a stane se bigamistou [...]. Trest zlých [...] aby se [...] bál [...]. Pošetilý ve vině zmoudří v trestu [...]. [...] Jak lidé zhřešili, aby se hříchy znovu nerozjitřovaly [...].</p>
+        <p corresp="#u_118r_008">Přísnost kanonických trestů se [...] podle časové potřeby a užitku [...] . Při ukládání trestu je třeba zvažovat mnoho věcí, například důstojnost [...] . Bohatí [se trestají] peněžitým trestem, chudí trestem tělesným [...]. Trest [...] důstojností [...]. Trest očistce sice není věčný, je však podivuhodně těžký a přesahuje každý [...] trest [...]. Věčný trest náleží [...] setrvávajícím v hříchu a [...] víry [...].</p>
+        <p corresp="#u_118r_009">Pokání/lítost je dvojí, totiž Boží a lidské [...]. Boží lítost znamená [...] jím ustanovené [...] když [...] . Lidské pokání je jakýsi trest litujícího, který v sobě stále trestá to, že se provinil [...]: oplakávat minulé hříchy a nedopouštět se těch, které by bylo třeba oplakávat; tamtéž.</p>
+        <p corresp="#u_118r_010">[...] pokání [...]. Pokání je druhé prkno po ztroskotání [...]. Totéž pokání [...] od slavnostního [...] a veřejné [...]. [...] Rozdělený [...] o rozjímání [...] emancipaci [...] prospívá [...].</p>
+      </div>
+    </body>
+  </text>
+</TEI>

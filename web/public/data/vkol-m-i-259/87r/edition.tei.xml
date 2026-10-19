@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 87r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Bez samostatně přiřazeného katalogového oddílu. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_87r">
+      <graphic url="../pages/87r/image.png"/>
+      <zone ulx="292" uly="1792" lrx="420" lry="1882" xml:id="z_f87r_l001"/>
+      <zone ulx="538" uly="1459" lrx="824" lry="1589" xml:id="z_f87r_l002"/>
+      <zone ulx="554" uly="1549" lrx="855" lry="1664" xml:id="z_f87r_l003"/>
+      <zone ulx="700" uly="1648" lrx="784" lry="1745" xml:id="z_f87r_l004"/>
+      <zone ulx="600" uly="1913" lrx="799" lry="2050" xml:id="z_f87r_l005"/>
+      <zone ulx="715" uly="2019" lrx="834" lry="2124" xml:id="z_f87r_l006"/>
+      <zone ulx="600" uly="2292" lrx="771" lry="2432" xml:id="z_f87r_l007"/>
+      <zone ulx="641" uly="2383" lrx="908" lry="2513" xml:id="z_f87r_l008"/>
+      <zone ulx="1294" uly="665" lrx="1596" lry="774" xml:id="z_f87r_l009"/>
+      <zone ulx="1291" uly="740" lrx="1627" lry="883" xml:id="z_f87r_l010"/>
+      <zone ulx="930" uly="1910" lrx="1297" lry="2053" xml:id="z_f87r_l011"/>
+      <zone ulx="261" uly="2560" lrx="936" lry="2700" xml:id="z_f87r_l012"/>
+      <zone ulx="264" uly="2666" lrx="516" lry="2793" xml:id="z_f87r_l013"/>
+      <zone ulx="301" uly="2955" lrx="448" lry="3101" xml:id="z_f87r_l014"/>
+      <zone ulx="267" uly="3126" lrx="498" lry="3344" xml:id="z_f87r_l015"/>
+      <zone ulx="662" uly="2691" lrx="818" lry="2974" xml:id="z_f87r_l016"/>
+      <zone ulx="1344" uly="830" lrx="1590" lry="955" xml:id="z_f87r_l017"/>
+      <zone ulx="1680" uly="276" lrx="2082" lry="395" xml:id="z_f87r_l018"/>
+      <zone ulx="1696" uly="370" lrx="2044" lry="507" xml:id="z_f87r_l019"/>
+      <zone ulx="1783" uly="476" lrx="2038" lry="634" xml:id="z_f87r_l020"/>
+      <zone ulx="1313" uly="1126" lrx="1677" lry="1232" xml:id="z_f87r_l021"/>
+      <zone ulx="1313" uly="1197" lrx="1581" lry="1294" xml:id="z_f87r_l022"/>
+      <zone ulx="1702" uly="687" lrx="2437" lry="824" xml:id="z_f87r_l023"/>
+      <zone ulx="1718" uly="768" lrx="2035" lry="899" xml:id="z_f87r_l024"/>
+      <zone ulx="1736" uly="1132" lrx="1951" lry="1263" xml:id="z_f87r_l025"/>
+      <zone ulx="1767" uly="1250" lrx="1929" lry="1390" xml:id="z_f87r_l026"/>
+      <zone ulx="921" uly="1431" lrx="1976" lry="1577" xml:id="z_f87r_l027"/>
+      <zone ulx="911" uly="1490" lrx="1260" lry="1611" xml:id="z_f87r_l028"/>
+      <zone ulx="918" uly="1583" lrx="1254" lry="1695" xml:id="z_f87r_l029"/>
+      <zone ulx="992" uly="1664" lrx="1160" lry="1767" xml:id="z_f87r_l030"/>
+      <zone ulx="974" uly="2000" lrx="1117" lry="2143" xml:id="z_f87r_l031"/>
+      <zone ulx="261" uly="2193" lrx="1297" lry="2345" xml:id="z_f87r_l032"/>
+      <zone ulx="277" uly="2308" lrx="516" lry="2429" xml:id="z_f87r_l033"/>
+      <zone ulx="385" uly="2386" lrx="510" lry="2532" xml:id="z_f87r_l034"/>
+      <zone ulx="348" uly="2744" lrx="469" lry="2893" xml:id="z_f87r_l035"/>
+      <zone ulx="273" uly="3042" lrx="392" lry="3148" xml:id="z_f87r_l036"/>
+      <zone ulx="1771" uly="868" lrx="1998" lry="980" xml:id="z_f87r_l037"/>
+      <zone ulx="911" uly="1036" lrx="1982" lry="1169" xml:id="z_f87r_l038"/>
+      <zone ulx="943" uly="1126" lrx="1148" lry="1288" xml:id="z_f87r_l039"/>
+      <zone ulx="1092" uly="1253" lrx="1173" lry="1368" xml:id="z_f87r_l040"/>
+      <zone ulx="255" uly="1810" lrx="1313" lry="1966" xml:id="z_f87r_l041"/>
+      <zone ulx="255" uly="1947" lrx="541" lry="2078" xml:id="z_f87r_l042"/>
+      <zone ulx="283" uly="2034" lrx="507" lry="2140" xml:id="z_f87r_l043"/>
+      <zone ulx="333" uly="2121" lrx="389" lry="2240" xml:id="z_f87r_l044"/>
+      <zone ulx="933" uly="2308" lrx="1291" lry="2460" xml:id="z_f87r_l045"/>
+      <zone ulx="1008" uly="2401" lrx="1201" lry="2510" xml:id="z_f87r_l046"/>
+      <zone ulx="1313" uly="1536" lrx="1627" lry="1658" xml:id="z_f87r_l047"/>
+      <zone ulx="1718" uly="1552" lrx="2001" lry="1645" xml:id="z_f87r_l048"/>
+      <zone ulx="1357" uly="1617" lrx="1935" lry="1764" xml:id="z_f87r_l049"/>
+      <zone ulx="1347" uly="1869" lrx="1615" lry="2028" xml:id="z_f87r_l050"/>
+      <zone ulx="1400" uly="1981" lrx="1543" lry="2134" xml:id="z_f87r_l051"/>
+      <zone ulx="1671" uly="2190" lrx="2001" lry="2352" xml:id="z_f87r_l052"/>
+      <zone ulx="1718" uly="2296" lrx="1967" lry="2442" xml:id="z_f87r_l053"/>
+      <zone ulx="1715" uly="2395" lrx="1942" lry="2535" xml:id="z_f87r_l054"/>
+      <zone ulx="1665" uly="2566" lrx="2004" lry="2703" xml:id="z_f87r_l055"/>
+      <zone ulx="1690" uly="2669" lrx="2023" lry="2812" xml:id="z_f87r_l056"/>
+      <zone ulx="1718" uly="2775" lrx="1948" lry="2887" xml:id="z_f87r_l057"/>
+      <zone ulx="1658" uly="2980" lrx="2038" lry="3111" xml:id="z_f87r_l058"/>
+      <zone ulx="2072" uly="771" lrx="2452" lry="914" xml:id="z_f87r_l059"/>
+      <zone ulx="2128" uly="877" lrx="2418" lry="1011" xml:id="z_f87r_l060"/>
+      <zone ulx="2060" uly="1060" lrx="2399" lry="1169" xml:id="z_f87r_l061"/>
+      <zone ulx="2051" uly="1160" lrx="2405" lry="1260" xml:id="z_f87r_l062"/>
+      <zone ulx="2060" uly="1244" lrx="2390" lry="1334" xml:id="z_f87r_l063"/>
+      <zone ulx="2122" uly="1652" lrx="2334" lry="1770" xml:id="z_f87r_l064"/>
+      <zone ulx="2054" uly="1879" lrx="2353" lry="2019" xml:id="z_f87r_l065"/>
+      <zone ulx="1649" uly="3360" lrx="2060" lry="3490" xml:id="z_f87r_l066"/>
+      <zone ulx="1646" uly="3453" lrx="2057" lry="3724" xml:id="z_f87r_l067"/>
+      <zone ulx="2452" uly="248" lrx="2879" lry="438" xml:id="z_f87r_l068"/>
+      <zone ulx="2748" uly="693" lrx="2969" lry="864" xml:id="z_f87r_l069"/>
+      <zone ulx="2480" uly="1029" lrx="2829" lry="1263" xml:id="z_f87r_l070"/>
+      <zone ulx="2511" uly="1207" lrx="2742" lry="1337" xml:id="z_f87r_l071"/>
+      <zone ulx="2536" uly="1312" lrx="2711" lry="1418" xml:id="z_f87r_l072"/>
+      <zone ulx="2060" uly="1428" lrx="3230" lry="1564" xml:id="z_f87r_l073"/>
+      <zone ulx="2035" uly="1521" lrx="2399" lry="1664" xml:id="z_f87r_l074"/>
+      <zone ulx="1683" uly="3076" lrx="2057" lry="3241" xml:id="z_f87r_l075"/>
+      <zone ulx="1711" uly="3188" lrx="1948" lry="3272" xml:id="z_f87r_l076"/>
+      <zone ulx="2160" uly="1309" lrx="2359" lry="1393" xml:id="z_f87r_l077"/>
+      <zone ulx="2213" uly="2012" lrx="2309" lry="2146" xml:id="z_f87r_l078"/>
+      <zone ulx="2421" uly="1518" lrx="2779" lry="1636" xml:id="z_f87r_l079"/>
+      <zone ulx="2452" uly="1602" lrx="2742" lry="1723" xml:id="z_f87r_l080"/>
+      <zone ulx="2514" uly="1683" lrx="2651" lry="1782" xml:id="z_f87r_l081"/>
+      <zone ulx="2829" uly="1546" lrx="3118" lry="1661" xml:id="z_f87r_l082"/>
+      <zone ulx="2854" uly="1639" lrx="3100" lry="1757" xml:id="z_f87r_l083"/>
+      <zone ulx="2440" uly="1829" lrx="3134" lry="1981" xml:id="z_f87r_l084"/>
+      <zone ulx="2462" uly="1947" lrx="2788" lry="2075" xml:id="z_f87r_l085"/>
+      <zone ulx="2505" uly="2037" lrx="2745" lry="2152" xml:id="z_f87r_l086"/>
+      <zone ulx="2847" uly="1928" lrx="3062" lry="2072" xml:id="z_f87r_l087"/>
+      <zone ulx="2903" uly="2022" lrx="3093" lry="2146" xml:id="z_f87r_l088"/>
+      <zone ulx="3433" uly="214" lrx="3458" lry="398" xml:id="z_f87r_l089"/>
+      <zone ulx="3224" uly="1798" lrx="3585" lry="1947" xml:id="z_f87r_l090"/>
+      <zone ulx="3230" uly="1916" lrx="3591" lry="2090" xml:id="z_f87r_l091"/>
+      <zone ulx="3237" uly="2050" lrx="3504" lry="2159" xml:id="z_f87r_l092"/>
+      <zone ulx="2449" uly="2202" lrx="3520" lry="2355" xml:id="z_f87r_l093"/>
+      <zone ulx="2427" uly="2311" lrx="2770" lry="2485" xml:id="z_f87r_l094"/>
+      <zone ulx="2514" uly="2457" lrx="2692" lry="2548" xml:id="z_f87r_l095"/>
+      <zone ulx="2841" uly="2305" lrx="3050" lry="2457" xml:id="z_f87r_l096"/>
+      <zone ulx="2866" uly="2411" lrx="3078" lry="2535" xml:id="z_f87r_l097"/>
+      <zone ulx="2807" uly="2548" lrx="3124" lry="2731" xml:id="z_f87r_l098"/>
+      <zone ulx="2801" uly="2697" lrx="3109" lry="2859" xml:id="z_f87r_l099"/>
+      <zone ulx="2857" uly="2796" lrx="3115" lry="2908" xml:id="z_f87r_l100"/>
+      <zone ulx="3212" uly="2324" lrx="3510" lry="2436" xml:id="z_f87r_l101"/>
+      <zone ulx="3261" uly="2395" lrx="3436" lry="2504" xml:id="z_f87r_l102"/>
+      <zone ulx="3205" uly="2572" lrx="3551" lry="2691" xml:id="z_f87r_l103"/>
+      <zone ulx="3212" uly="2666" lrx="3557" lry="2790" xml:id="z_f87r_l104"/>
+      <zone ulx="3212" uly="2747" lrx="3277" lry="2837" xml:id="z_f87r_l105"/>
+      <zone ulx="3249" uly="2803" lrx="3476" lry="2902" xml:id="z_f87r_l106"/>
+      <zone ulx="3171" uly="2927" lrx="3526" lry="3076" xml:id="z_f87r_l107"/>
+      <zone ulx="3159" uly="3042" lrx="3523" lry="3160" xml:id="z_f87r_l108"/>
+      <zone ulx="3171" uly="3126" lrx="3548" lry="3332" xml:id="z_f87r_l109"/>
+      <zone ulx="554" uly="227" lrx="949" lry="401" xml:id="z_f87r_l110"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="und">
+          <lb facs="#z_f87r_l001" xml:id="catmus_f87r_l001"/>
+          <seg type="raw_unreviewed">iIII</seg>
+          <lb facs="#z_f87r_l002" xml:id="catmus_f87r_l002"/>
+          <seg type="raw_unreviewed">uepos</seg>
+          <lb facs="#z_f87r_l003" xml:id="catmus_f87r_l003"/>
+          <seg type="raw_unreviewed">neptis</seg>
+          <lb facs="#z_f87r_l004" xml:id="catmus_f87r_l004"/>
+          <seg type="raw_unreviewed">oto</seg>
+          <lb facs="#z_f87r_l005" xml:id="catmus_f87r_l005"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l006" xml:id="catmus_f87r_l006"/>
+          <seg type="raw_unreviewed">ocꝰ</seg>
+          <lb facs="#z_f87r_l007" xml:id="catmus_f87r_l007"/>
+          <seg type="raw_unreviewed">filior</seg>
+          <lb facs="#z_f87r_l008" xml:id="catmus_f87r_l008"/>
+          <seg type="raw_unreviewed">qu̾tꝰ/</seg>
+          <lb facs="#z_f87r_l009" xml:id="catmus_f87r_l009"/>
+          <seg type="raw_unreviewed">ꝓparus</seg>
+          <lb facs="#z_f87r_l010" xml:id="catmus_f87r_l010"/>
+          <seg type="raw_unreviewed">pamita</seg>
+          <lb facs="#z_f87r_l011" xml:id="catmus_f87r_l011"/>
+          <seg type="raw_unreviewed">soror pate</seg>
+          <lb facs="#z_f87r_l012" xml:id="catmus_f87r_l012"/>
+          <seg type="raw_unreviewed">eoꝵ ne  fr̃ĩs nepis</seg>
+          <lb facs="#z_f87r_l013" xml:id="catmus_f87r_l013"/>
+          <seg type="raw_unreviewed">ues. nep</seg>
+          <lb facs="#z_f87r_l014" xml:id="catmus_f87r_l014"/>
+          <seg type="raw_unreviewed">tꝰꝓue</seg>
+          <lb facs="#z_f87r_l015" xml:id="catmus_f87r_l015"/>
+          <seg type="raw_unreviewed">puelihad</seg>
+          <lb facs="#z_f87r_l016" xml:id="catmus_f87r_l016"/>
+          <seg type="raw_unreviewed">nte</seg>
+          <lb facs="#z_f87r_l017" xml:id="catmus_f87r_l017"/>
+          <seg type="raw_unreviewed">qr̾ictgs</seg>
+          <lb facs="#z_f87r_l018" xml:id="catmus_f87r_l018"/>
+          <seg type="raw_unreviewed">sabauus</seg>
+          <lb facs="#z_f87r_l019" xml:id="catmus_f87r_l019"/>
+          <seg type="raw_unreviewed">abana</seg>
+          <lb facs="#z_f87r_l020" xml:id="catmus_f87r_l020"/>
+          <seg type="raw_unreviewed">qͣrtus</seg>
+          <lb facs="#z_f87r_l021" xml:id="catmus_f87r_l021"/>
+          <seg type="raw_unreviewed">ligus aiã</seg>
+          <lb facs="#z_f87r_l022" xml:id="catmus_f87r_l022"/>
+          <seg type="raw_unreviewed">faiuac</seg>
+          <lb facs="#z_f87r_l023" xml:id="catmus_f87r_l023"/>
+          <seg type="raw_unreviewed">panus ꝓauuls</seg>
+          <lb facs="#z_f87r_l024" xml:id="catmus_f87r_l024"/>
+          <seg type="raw_unreviewed">pana</seg>
+          <lb facs="#z_f87r_l025" xml:id="catmus_f87r_l025"/>
+          <seg type="raw_unreviewed">aua</seg>
+          <lb facs="#z_f87r_l026" xml:id="catmus_f87r_l026"/>
+          <seg type="raw_unreviewed">scds</seg>
+          <lb facs="#z_f87r_l027" xml:id="catmus_f87r_l027"/>
+          <seg type="raw_unreviewed">ꝓpior sob patruiꝰ Pater</seg>
+          <lb facs="#z_f87r_l028" xml:id="catmus_f87r_l028"/>
+          <seg type="raw_unreviewed">uus pioi</seg>
+          <lb facs="#z_f87r_l029" xml:id="catmus_f87r_l029"/>
+          <seg type="raw_unreviewed">sobriua</seg>
+          <lb facs="#z_f87r_l030" xml:id="catmus_f87r_l030"/>
+          <seg type="raw_unreviewed">quar</seg>
+          <lb facs="#z_f87r_l031" xml:id="catmus_f87r_l031"/>
+          <seg type="raw_unreviewed">sis</seg>
+          <lb facs="#z_f87r_l032" xml:id="catmus_f87r_l032"/>
+          <seg type="raw_unreviewed">porũ ne hoꝵfiliꝰ silis srr̃s</seg>
+          <lb facs="#z_f87r_l033" xml:id="catmus_f87r_l033"/>
+          <seg type="raw_unreviewed">pos. ue</seg>
+          <lb facs="#z_f87r_l034" xml:id="catmus_f87r_l034"/>
+          <seg type="raw_unreviewed"> pac</seg>
+          <lb facs="#z_f87r_l035" xml:id="catmus_f87r_l035"/>
+          <seg type="raw_unreviewed">excii</seg>
+          <lb facs="#z_f87r_l036" xml:id="catmus_f87r_l036"/>
+          <seg type="raw_unreviewed">pes.</seg>
+          <lb facs="#z_f87r_l037" xml:id="catmus_f87r_l037"/>
+          <seg type="raw_unreviewed">cctius</seg>
+          <lb facs="#z_f87r_l038" xml:id="catmus_f87r_l038"/>
+          <seg type="raw_unreviewed">hoꝵ filis par̾elq uo Anis</seg>
+          <lb facs="#z_f87r_l039" xml:id="catmus_f87r_l039"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l040" xml:id="catmus_f87r_l040"/>
+          <seg type="raw_unreviewed">aco</seg>
+          <lb facs="#z_f87r_l041" xml:id="catmus_f87r_l041"/>
+          <seg type="raw_unreviewed">eoꝵꝓue hoꝵ filia fr̃ pac̾elis</seg>
+          <lb facs="#z_f87r_l042" xml:id="catmus_f87r_l042"/>
+          <seg type="raw_unreviewed">pes ꝓuep</seg>
+          <lb facs="#z_f87r_l043" xml:id="catmus_f87r_l043"/>
+          <seg type="raw_unreviewed">tis occa</seg>
+          <lb facs="#z_f87r_l044" xml:id="catmus_f87r_l044"/>
+          <seg type="raw_unreviewed">A</seg>
+          <lb facs="#z_f87r_l045" xml:id="catmus_f87r_l045"/>
+          <seg type="raw_unreviewed">silia fũs</seg>
+          <lb facs="#z_f87r_l046" xml:id="catmus_f87r_l046"/>
+          <seg type="raw_unreviewed">c̾tius</seg>
+          <lb facs="#z_f87r_l047" xml:id="catmus_f87r_l047"/>
+          <seg type="raw_unreviewed">aunta.</seg>
+          <lb facs="#z_f87r_l048" xml:id="catmus_f87r_l048"/>
+          <seg type="raw_unreviewed">Mater</seg>
+          <lb facs="#z_f87r_l049" xml:id="catmus_f87r_l049"/>
+          <seg type="raw_unreviewed">ceuis p̾mꝰ</seg>
+          <lb facs="#z_f87r_l050" xml:id="catmus_f87r_l050"/>
+          <seg type="raw_unreviewed">si titer</seg>
+          <lb facs="#z_f87r_l051" xml:id="catmus_f87r_l051"/>
+          <seg type="raw_unreviewed">tds</seg>
+          <lb facs="#z_f87r_l052" xml:id="catmus_f87r_l052"/>
+          <seg type="raw_unreviewed">ffilius</seg>
+          <lb facs="#z_f87r_l053" xml:id="catmus_f87r_l053"/>
+          <seg type="raw_unreviewed">ffilia</seg>
+          <lb facs="#z_f87r_l054" xml:id="catmus_f87r_l054"/>
+          <seg type="raw_unreviewed">p̾miꝰ</seg>
+          <lb facs="#z_f87r_l055" xml:id="catmus_f87r_l055"/>
+          <seg type="raw_unreviewed">uepos</seg>
+          <lb facs="#z_f87r_l056" xml:id="catmus_f87r_l056"/>
+          <seg type="raw_unreviewed">Neptis</seg>
+          <lb facs="#z_f87r_l057" xml:id="catmus_f87r_l057"/>
+          <seg type="raw_unreviewed">scdẽ</seg>
+          <lb facs="#z_f87r_l058" xml:id="catmus_f87r_l058"/>
+          <seg type="raw_unreviewed">ꝓuepos</seg>
+          <lb facs="#z_f87r_l059" xml:id="catmus_f87r_l059"/>
+          <seg type="raw_unreviewed">ꝓmẽtẽa</seg>
+          <lb facs="#z_f87r_l060" xml:id="catmus_f87r_l060"/>
+          <seg type="raw_unreviewed">qu̾tus</seg>
+          <lb facs="#z_f87r_l061" xml:id="catmus_f87r_l061"/>
+          <seg type="raw_unreviewed">aunctẽ</seg>
+          <lb facs="#z_f87r_l062" xml:id="catmus_f87r_l062"/>
+          <seg type="raw_unreviewed">mĩcera</seg>
+          <lb facs="#z_f87r_l063" xml:id="catmus_f87r_l063"/>
+          <seg type="raw_unreviewed">mdefi ia</seg>
+          <lb facs="#z_f87r_l064" xml:id="catmus_f87r_l064"/>
+          <seg type="raw_unreviewed">c̾tius</seg>
+          <lb facs="#z_f87r_l065" xml:id="catmus_f87r_l065"/>
+          <seg type="raw_unreviewed">Soror</seg>
+          <lb facs="#z_f87r_l066" xml:id="catmus_f87r_l066"/>
+          <seg type="raw_unreviewed">abuepõs</seg>
+          <lb facs="#z_f87r_l067" xml:id="catmus_f87r_l067"/>
+          <seg type="raw_unreviewed">abiieptie</seg>
+          <lb facs="#z_f87r_l068" xml:id="catmus_f87r_l068"/>
+          <seg type="raw_unreviewed">uagniͭ</seg>
+          <lb facs="#z_f87r_l069" xml:id="catmus_f87r_l069"/>
+          <seg type="raw_unreviewed">UU</seg>
+          <lb facs="#z_f87r_l070" xml:id="catmus_f87r_l070"/>
+          <seg type="raw_unreviewed">horo filis</seg>
+          <lb facs="#z_f87r_l071" xml:id="catmus_f87r_l071"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l072" xml:id="catmus_f87r_l072"/>
+          <seg type="raw_unreviewed">exta</seg>
+          <lb facs="#z_f87r_l073" xml:id="catmus_f87r_l073"/>
+          <seg type="raw_unreviewed">anũcłs ꝓpior sos eoꝵ nepos/</seg>
+          <lb facs="#z_f87r_l074" xml:id="catmus_f87r_l074"/>
+          <seg type="raw_unreviewed">mat̾erai</seg>
+          <lb facs="#z_f87r_l075" xml:id="catmus_f87r_l075"/>
+          <seg type="raw_unreviewed">ꝓueptis</seg>
+          <lb facs="#z_f87r_l076" xml:id="catmus_f87r_l076"/>
+          <seg type="raw_unreviewed">ccus</seg>
+          <lb facs="#z_f87r_l077" xml:id="catmus_f87r_l077"/>
+          <seg type="raw_unreviewed">ctut</seg>
+          <lb facs="#z_f87r_l078" xml:id="catmus_f87r_l078"/>
+          <seg type="raw_unreviewed">dũ</seg>
+          <lb facs="#z_f87r_l079" xml:id="catmus_f87r_l079"/>
+          <seg type="raw_unreviewed">Aius ꝓpos</seg>
+          <lb facs="#z_f87r_l080" xml:id="catmus_f87r_l080"/>
+          <seg type="raw_unreviewed">obruna</seg>
+          <lb facs="#z_f87r_l081" xml:id="catmus_f87r_l081"/>
+          <seg type="raw_unreviewed">qua</seg>
+          <lb facs="#z_f87r_l082" xml:id="catmus_f87r_l082"/>
+          <seg type="raw_unreviewed">neptre</seg>
+          <lb facs="#z_f87r_l083" xml:id="catmus_f87r_l083"/>
+          <seg type="raw_unreviewed">ceptio</seg>
+          <lb facs="#z_f87r_l084" xml:id="catmus_f87r_l084"/>
+          <seg type="raw_unreviewed">tosabuꝰ eoꝵ filis</seg>
+          <lb facs="#z_f87r_l085" xml:id="catmus_f87r_l085"/>
+          <seg type="raw_unreviewed">cõsobn̾a</seg>
+          <lb facs="#z_f87r_l086" xml:id="catmus_f87r_l086"/>
+          <seg type="raw_unreviewed">qrͣtus</seg>
+          <lb facs="#z_f87r_l087" xml:id="catmus_f87r_l087"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l088" xml:id="catmus_f87r_l088"/>
+          <seg type="raw_unreviewed">xxtu</seg>
+          <lb facs="#z_f87r_l089" xml:id="catmus_f87r_l089"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f87r_l090" xml:id="catmus_f87r_l090"/>
+          <seg type="raw_unreviewed">eor ꝓue</seg>
+          <lb facs="#z_f87r_l091" xml:id="catmus_f87r_l091"/>
+          <seg type="raw_unreviewed">pos ꝓuep</seg>
+          <lb facs="#z_f87r_l092" xml:id="catmus_f87r_l092"/>
+          <seg type="raw_unreviewed">occaꝯ</seg>
+          <lb facs="#z_f87r_l093" xml:id="catmus_f87r_l093"/>
+          <seg type="raw_unreviewed">Sor filiꝰ Boꝵsiliq nepos</seg>
+          <lb facs="#z_f87r_l094" xml:id="catmus_f87r_l094"/>
+          <seg type="raw_unreviewed">sd̃r filia</seg>
+          <lb facs="#z_f87r_l095" xml:id="catmus_f87r_l095"/>
+          <seg type="raw_unreviewed">crus</seg>
+          <lb facs="#z_f87r_l096" xml:id="catmus_f87r_l096"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l097" xml:id="catmus_f87r_l097"/>
+          <seg type="raw_unreviewed">qu̾ia</seg>
+          <lb facs="#z_f87r_l098" xml:id="catmus_f87r_l098"/>
+          <seg type="raw_unreviewed">so̾yaiepe</seg>
+          <lb facs="#z_f87r_l099" xml:id="catmus_f87r_l099"/>
+          <seg type="raw_unreviewed">sõi nep</seg>
+          <lb facs="#z_f87r_l100" xml:id="catmus_f87r_l100"/>
+          <seg type="raw_unreviewed">qreus</seg>
+          <lb facs="#z_f87r_l101" xml:id="catmus_f87r_l101"/>
+          <seg type="raw_unreviewed">neptis</seg>
+          <lb facs="#z_f87r_l102" xml:id="catmus_f87r_l102"/>
+          <seg type="raw_unreviewed">sepci</seg>
+          <lb facs="#z_f87r_l103" xml:id="catmus_f87r_l103"/>
+          <seg type="raw_unreviewed">cor ne</seg>
+          <lb facs="#z_f87r_l104" xml:id="catmus_f87r_l104"/>
+          <seg type="raw_unreviewed">pos nep</seg>
+          <lb facs="#z_f87r_l105" xml:id="catmus_f87r_l105"/>
+          <seg type="raw_unreviewed">ti</seg>
+          <lb facs="#z_f87r_l106" xml:id="catmus_f87r_l106"/>
+          <seg type="raw_unreviewed">seuir</seg>
+          <lb facs="#z_f87r_l107" xml:id="catmus_f87r_l107"/>
+          <seg type="raw_unreviewed">sorꝓue</seg>
+          <lb facs="#z_f87r_l108" xml:id="catmus_f87r_l108"/>
+          <seg type="raw_unreviewed">pos sõr̃</seg>
+          <lb facs="#z_f87r_l109" xml:id="catmus_f87r_l109"/>
+          <seg type="raw_unreviewed">ꝓͣneptis</seg>
+          <lb facs="#z_f87r_l110" xml:id="catmus_f87r_l110"/>
+          <seg type="raw_unreviewed">arbor</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="und">
+          <lb facs="#z_f87r_l001" xml:id="medusa_f87r_l001"/>
+          <seg type="raw_unreviewed">.iii.</seg>
+          <lb facs="#z_f87r_l002" xml:id="medusa_f87r_l002"/>
+          <seg type="raw_unreviewed">nepos</seg>
+          <lb facs="#z_f87r_l003" xml:id="medusa_f87r_l003"/>
+          <seg type="raw_unreviewed">neptis</seg>
+          <lb facs="#z_f87r_l004" xml:id="medusa_f87r_l004"/>
+          <seg type="raw_unreviewed">oti</seg>
+          <lb facs="#z_f87r_l005" xml:id="medusa_f87r_l005"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l006" xml:id="medusa_f87r_l006"/>
+          <seg type="raw_unreviewed">vci</seg>
+          <lb facs="#z_f87r_l007" xml:id="medusa_f87r_l007"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l008" xml:id="medusa_f87r_l008"/>
+          <seg type="raw_unreviewed">quercus</seg>
+          <lb facs="#z_f87r_l009" xml:id="medusa_f87r_l009"/>
+          <seg type="raw_unreviewed">propatris</seg>
+          <lb facs="#z_f87r_l010" xml:id="medusa_f87r_l010"/>
+          <seg type="raw_unreviewed">panica</seg>
+          <lb facs="#z_f87r_l011" xml:id="medusa_f87r_l011"/>
+          <seg type="raw_unreviewed">soror patͧe</seg>
+          <lb facs="#z_f87r_l012" xml:id="medusa_f87r_l012"/>
+          <seg type="raw_unreviewed">eorum ne fr̃is nepos</seg>
+          <lb facs="#z_f87r_l013" xml:id="medusa_f87r_l013"/>
+          <seg type="raw_unreviewed">nos . uer</seg>
+          <lb facs="#z_f87r_l014" xml:id="medusa_f87r_l014"/>
+          <seg type="raw_unreviewed">res pue</seg>
+          <lb facs="#z_f87r_l015" xml:id="medusa_f87r_l015"/>
+          <seg type="raw_unreviewed">pueptis</seg>
+          <lb facs="#z_f87r_l016" xml:id="medusa_f87r_l016"/>
+          <seg type="raw_unreviewed">graty</seg>
+          <lb facs="#z_f87r_l017" xml:id="medusa_f87r_l017"/>
+          <seg type="raw_unreviewed">queretis</seg>
+          <lb facs="#z_f87r_l018" xml:id="medusa_f87r_l018"/>
+          <seg type="raw_unreviewed">ab anno</seg>
+          <lb facs="#z_f87r_l019" xml:id="medusa_f87r_l019"/>
+          <seg type="raw_unreviewed">abana</seg>
+          <lb facs="#z_f87r_l020" xml:id="medusa_f87r_l020"/>
+          <seg type="raw_unreviewed">quam</seg>
+          <lb facs="#z_f87r_l021" xml:id="medusa_f87r_l021"/>
+          <seg type="raw_unreviewed">agnus meus</seg>
+          <lb facs="#z_f87r_l022" xml:id="medusa_f87r_l022"/>
+          <seg type="raw_unreviewed">tam</seg>
+          <lb facs="#z_f87r_l023" xml:id="medusa_f87r_l023"/>
+          <seg type="raw_unreviewed">pannus panuncus</seg>
+          <lb facs="#z_f87r_l024" xml:id="medusa_f87r_l024"/>
+          <seg type="raw_unreviewed">pana</seg>
+          <lb facs="#z_f87r_l025" xml:id="medusa_f87r_l025"/>
+          <seg type="raw_unreviewed">dina</seg>
+          <lb facs="#z_f87r_l026" xml:id="medusa_f87r_l026"/>
+          <seg type="raw_unreviewed">secundus</seg>
+          <lb facs="#z_f87r_l027" xml:id="medusa_f87r_l027"/>
+          <seg type="raw_unreviewed">propior sibi pater Pater</seg>
+          <lb facs="#z_f87r_l028" xml:id="medusa_f87r_l028"/>
+          <seg type="raw_unreviewed">mus pro</seg>
+          <lb facs="#z_f87r_l029" xml:id="medusa_f87r_l029"/>
+          <seg type="raw_unreviewed">sobrino</seg>
+          <lb facs="#z_f87r_l030" xml:id="medusa_f87r_l030"/>
+          <seg type="raw_unreviewed">quic</seg>
+          <lb facs="#z_f87r_l031" xml:id="medusa_f87r_l031"/>
+          <seg type="raw_unreviewed">lis</seg>
+          <lb facs="#z_f87r_l032" xml:id="medusa_f87r_l032"/>
+          <seg type="raw_unreviewed">eorũ ne horum filii filii fr̃s</seg>
+          <lb facs="#z_f87r_l033" xml:id="medusa_f87r_l033"/>
+          <seg type="raw_unreviewed">pos. ne</seg>
+          <lb facs="#z_f87r_l034" xml:id="medusa_f87r_l034"/>
+          <seg type="raw_unreviewed">episcopus</seg>
+          <lb facs="#z_f87r_l035" xml:id="medusa_f87r_l035"/>
+          <seg type="raw_unreviewed">xii</seg>
+          <lb facs="#z_f87r_l036" xml:id="medusa_f87r_l036"/>
+          <seg type="raw_unreviewed">pas.</seg>
+          <lb facs="#z_f87r_l037" xml:id="medusa_f87r_l037"/>
+          <seg type="raw_unreviewed">c̾tus</seg>
+          <lb facs="#z_f87r_l038" xml:id="medusa_f87r_l038"/>
+          <seg type="raw_unreviewed">hor filii patrelus in annis</seg>
+          <lb facs="#z_f87r_l039" xml:id="medusa_f87r_l039"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l040" xml:id="medusa_f87r_l040"/>
+          <seg type="raw_unreviewed">octo</seg>
+          <lb facs="#z_f87r_l041" xml:id="medusa_f87r_l041"/>
+          <seg type="raw_unreviewed">eorꝰ pue horꝰ filiꝰ fr patͣelis</seg>
+          <lb facs="#z_f87r_l042" xml:id="medusa_f87r_l042"/>
+          <seg type="raw_unreviewed">pes pro uerbo</seg>
+          <lb facs="#z_f87r_l043" xml:id="medusa_f87r_l043"/>
+          <seg type="raw_unreviewed">tis</seg>
+          <lb facs="#z_f87r_l044" xml:id="medusa_f87r_l044"/>
+          <seg type="raw_unreviewed">...</seg>
+          <lb facs="#z_f87r_l045" xml:id="medusa_f87r_l045"/>
+          <seg type="raw_unreviewed">filia fratris</seg>
+          <lb facs="#z_f87r_l046" xml:id="medusa_f87r_l046"/>
+          <seg type="raw_unreviewed">continu</seg>
+          <lb facs="#z_f87r_l047" xml:id="medusa_f87r_l047"/>
+          <seg type="raw_unreviewed">dimiti.</seg>
+          <lb facs="#z_f87r_l048" xml:id="medusa_f87r_l048"/>
+          <seg type="raw_unreviewed">mater</seg>
+          <lb facs="#z_f87r_l049" xml:id="medusa_f87r_l049"/>
+          <seg type="raw_unreviewed">certius primus</seg>
+          <lb facs="#z_f87r_l050" xml:id="medusa_f87r_l050"/>
+          <seg type="raw_unreviewed">sicut</seg>
+          <lb facs="#z_f87r_l051" xml:id="medusa_f87r_l051"/>
+          <seg type="raw_unreviewed">186</seg>
+          <lb facs="#z_f87r_l052" xml:id="medusa_f87r_l052"/>
+          <seg type="raw_unreviewed">filius</seg>
+          <lb facs="#z_f87r_l053" xml:id="medusa_f87r_l053"/>
+          <seg type="raw_unreviewed">ffilia</seg>
+          <lb facs="#z_f87r_l054" xml:id="medusa_f87r_l054"/>
+          <seg type="raw_unreviewed">pͥmꝰ</seg>
+          <lb facs="#z_f87r_l055" xml:id="medusa_f87r_l055"/>
+          <seg type="raw_unreviewed">nepos</seg>
+          <lb facs="#z_f87r_l056" xml:id="medusa_f87r_l056"/>
+          <seg type="raw_unreviewed">Neptis</seg>
+          <lb facs="#z_f87r_l057" xml:id="medusa_f87r_l057"/>
+          <seg type="raw_unreviewed">scd̃s</seg>
+          <lb facs="#z_f87r_l058" xml:id="medusa_f87r_l058"/>
+          <seg type="raw_unreviewed">pronepos</seg>
+          <lb facs="#z_f87r_l059" xml:id="medusa_f87r_l059"/>
+          <seg type="raw_unreviewed">proventea</seg>
+          <lb facs="#z_f87r_l060" xml:id="medusa_f87r_l060"/>
+          <seg type="raw_unreviewed">crucis</seg>
+          <lb facs="#z_f87r_l061" xml:id="medusa_f87r_l061"/>
+          <seg type="raw_unreviewed">auncs</seg>
+          <lb facs="#z_f87r_l062" xml:id="medusa_f87r_l062"/>
+          <seg type="raw_unreviewed">misteria</seg>
+          <lb facs="#z_f87r_l063" xml:id="medusa_f87r_l063"/>
+          <seg type="raw_unreviewed">magna</seg>
+          <lb facs="#z_f87r_l064" xml:id="medusa_f87r_l064"/>
+          <seg type="raw_unreviewed">c̾tus</seg>
+          <lb facs="#z_f87r_l065" xml:id="medusa_f87r_l065"/>
+          <seg type="raw_unreviewed">soror</seg>
+          <lb facs="#z_f87r_l066" xml:id="medusa_f87r_l066"/>
+          <seg type="raw_unreviewed">abuelos</seg>
+          <lb facs="#z_f87r_l067" xml:id="medusa_f87r_l067"/>
+          <seg type="raw_unreviewed">abnepo</seg>
+          <lb facs="#z_f87r_l068" xml:id="medusa_f87r_l068"/>
+          <seg type="raw_unreviewed">compagnies</seg>
+          <lb facs="#z_f87r_l069" xml:id="medusa_f87r_l069"/>
+          <seg type="raw_unreviewed">21</seg>
+          <lb facs="#z_f87r_l070" xml:id="medusa_f87r_l070"/>
+          <seg type="raw_unreviewed">Horoz filii</seg>
+          <lb facs="#z_f87r_l071" xml:id="medusa_f87r_l071"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l072" xml:id="medusa_f87r_l072"/>
+          <seg type="raw_unreviewed">exeq</seg>
+          <lb facs="#z_f87r_l073" xml:id="medusa_f87r_l073"/>
+          <seg type="raw_unreviewed">avunculus proprios eorum nepos</seg>
+          <lb facs="#z_f87r_l074" xml:id="medusa_f87r_l074"/>
+          <seg type="raw_unreviewed">materia</seg>
+          <lb facs="#z_f87r_l075" xml:id="medusa_f87r_l075"/>
+          <seg type="raw_unreviewed">pnepticus</seg>
+          <lb facs="#z_f87r_l076" xml:id="medusa_f87r_l076"/>
+          <seg type="raw_unreviewed">ctius</seg>
+          <lb facs="#z_f87r_l077" xml:id="medusa_f87r_l077"/>
+          <seg type="raw_unreviewed">cruces</seg>
+          <lb facs="#z_f87r_l078" xml:id="medusa_f87r_l078"/>
+          <seg type="raw_unreviewed">dum</seg>
+          <lb facs="#z_f87r_l079" xml:id="medusa_f87r_l079"/>
+          <seg type="raw_unreviewed">nus pro</seg>
+          <lb facs="#z_f87r_l080" xml:id="medusa_f87r_l080"/>
+          <seg type="raw_unreviewed">sobrina</seg>
+          <lb facs="#z_f87r_l081" xml:id="medusa_f87r_l081"/>
+          <seg type="raw_unreviewed">quoniam</seg>
+          <lb facs="#z_f87r_l082" xml:id="medusa_f87r_l082"/>
+          <seg type="raw_unreviewed">nepus</seg>
+          <lb facs="#z_f87r_l083" xml:id="medusa_f87r_l083"/>
+          <seg type="raw_unreviewed">septio</seg>
+          <lb facs="#z_f87r_l084" xml:id="medusa_f87r_l084"/>
+          <seg type="raw_unreviewed">consanguineo eorum filio</seg>
+          <lb facs="#z_f87r_l085" xml:id="medusa_f87r_l085"/>
+          <seg type="raw_unreviewed">consolna</seg>
+          <lb facs="#z_f87r_l086" xml:id="medusa_f87r_l086"/>
+          <seg type="raw_unreviewed">quintus</seg>
+          <lb facs="#z_f87r_l087" xml:id="medusa_f87r_l087"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l088" xml:id="medusa_f87r_l088"/>
+          <seg type="raw_unreviewed">sexaginta</seg>
+          <lb facs="#z_f87r_l089" xml:id="medusa_f87r_l089"/>
+          <seg type="raw_unreviewed">d</seg>
+          <lb facs="#z_f87r_l090" xml:id="medusa_f87r_l090"/>
+          <seg type="raw_unreviewed">eorum prue</seg>
+          <lb facs="#z_f87r_l091" xml:id="medusa_f87r_l091"/>
+          <seg type="raw_unreviewed">pos pruep</seg>
+          <lb facs="#z_f87r_l092" xml:id="medusa_f87r_l092"/>
+          <seg type="raw_unreviewed">octa</seg>
+          <lb facs="#z_f87r_l093" xml:id="medusa_f87r_l093"/>
+          <seg type="raw_unreviewed">sorꝰ filii horꝰ filii nepos</seg>
+          <lb facs="#z_f87r_l094" xml:id="medusa_f87r_l094"/>
+          <seg type="raw_unreviewed">sunt filia</seg>
+          <lb facs="#z_f87r_l095" xml:id="medusa_f87r_l095"/>
+          <seg type="raw_unreviewed">cercini</seg>
+          <lb facs="#z_f87r_l096" xml:id="medusa_f87r_l096"/>
+          <seg type="raw_unreviewed">filia</seg>
+          <lb facs="#z_f87r_l097" xml:id="medusa_f87r_l097"/>
+          <seg type="raw_unreviewed">quinque</seg>
+          <lb facs="#z_f87r_l098" xml:id="medusa_f87r_l098"/>
+          <seg type="raw_unreviewed">soͧy nepo</seg>
+          <lb facs="#z_f87r_l099" xml:id="medusa_f87r_l099"/>
+          <seg type="raw_unreviewed">d̃i nep</seg>
+          <lb facs="#z_f87r_l100" xml:id="medusa_f87r_l100"/>
+          <seg type="raw_unreviewed">grancus</seg>
+          <lb facs="#z_f87r_l101" xml:id="medusa_f87r_l101"/>
+          <seg type="raw_unreviewed">nepotis</seg>
+          <lb facs="#z_f87r_l102" xml:id="medusa_f87r_l102"/>
+          <seg type="raw_unreviewed">septem</seg>
+          <lb facs="#z_f87r_l103" xml:id="medusa_f87r_l103"/>
+          <seg type="raw_unreviewed">corporale</seg>
+          <lb facs="#z_f87r_l104" xml:id="medusa_f87r_l104"/>
+          <seg type="raw_unreviewed">pos nep</seg>
+          <lb facs="#z_f87r_l105" xml:id="medusa_f87r_l105"/>
+          <seg type="raw_unreviewed">ti</seg>
+          <lb facs="#z_f87r_l106" xml:id="medusa_f87r_l106"/>
+          <seg type="raw_unreviewed">sexu</seg>
+          <lb facs="#z_f87r_l107" xml:id="medusa_f87r_l107"/>
+          <seg type="raw_unreviewed">d̃r p̃me</seg>
+          <lb facs="#z_f87r_l108" xml:id="medusa_f87r_l108"/>
+          <seg type="raw_unreviewed">pos sorꝭ</seg>
+          <lb facs="#z_f87r_l109" xml:id="medusa_f87r_l109"/>
+          <seg type="raw_unreviewed">pueptis</seg>
+          <lb facs="#z_f87r_l110" xml:id="medusa_f87r_l110"/>
+          <seg type="raw_unreviewed">Arbor</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="und">
+        <p facs="#z_f87r_l001 #z_f87r_l002 #z_f87r_l003 #z_f87r_l004 #z_f87r_l005 #z_f87r_l006 #z_f87r_l007 #z_f87r_l008 #z_f87r_l009 #z_f87r_l010 #z_f87r_l011 #z_f87r_l012 #z_f87r_l013 #z_f87r_l014 #z_f87r_l015 #z_f87r_l016 #z_f87r_l017" xml:id="u_87r_001">[Popisky levé větve schématu:] Nepos, neptis […]; filius, filia […]; propatruus, proamita […]; soror patris […]; eorum nepos, neptis […]; pronepos, proneptis […]. [Červené stupně:] quartus, quintus […].</p>
+        <note type="editorial" corresp="#u_87r_001" xml:lang="cs">Některé krajní kruhy jsou v nativním souhrnném výřezu oříznuté, jednotlivé pásy však byly otevřeny všechny. Segmentace prokládá části různých kruhů. Nepos/neptis má více genealogických významů; bez bezpečně ověřené větve se nepředstírá jediný vztah.</note>
+        <p facs="#z_f87r_l018 #z_f87r_l019 #z_f87r_l020 #z_f87r_l021 #z_f87r_l022 #z_f87r_l023 #z_f87r_l024 #z_f87r_l025 #z_f87r_l026 #z_f87r_l027 #z_f87r_l028 #z_f87r_l029 #z_f87r_l030 #z_f87r_l031 #z_f87r_l032 #z_f87r_l033 #z_f87r_l034 #z_f87r_l035 #z_f87r_l036 #z_f87r_l037 #z_f87r_l038 #z_f87r_l039 #z_f87r_l040 #z_f87r_l041 #z_f87r_l042 #z_f87r_l043 #z_f87r_l044 #z_f87r_l045 #z_f87r_l046 #z_f87r_l047 #z_f87r_l048 #z_f87r_l049 #z_f87r_l050 #z_f87r_l051 #z_f87r_l052 #z_f87r_l053 #z_f87r_l054 #z_f87r_l055 #z_f87r_l056 #z_f87r_l057 #z_f87r_l058 #z_f87r_l059 #z_f87r_l060 #z_f87r_l061 #z_f87r_l062 #z_f87r_l063 #z_f87r_l064 #z_f87r_l065 #z_f87r_l066 #z_f87r_l067" xml:id="u_87r_002">[Popisky centrálních a přilehlých kruhů; neuspořádáno jako souvislá věta:] Abavus, abava; proavus, proava; avus, avia; pater, mater; frater; soror; filius, filia; nepos, neptis; pronepos, proneptis; abnepos, abneptis. [Dále:] Patruus, amita; avunculus, matertera [magna]; [magnus avunculus?]; frater patruelis, soror patruelis; […] filius fratris, filia fratris […]. [Červeně:] primus, secundus, tertius, quartus […].</p>
+        <note type="editorial" corresp="#u_87r_002" xml:lang="cs">Jde o graf příbuzenství, nikoli o textovou řádku. Rekonstrukce sdružuje skutečně přečtené názvy kruhů podle obsahu a neopakuje chaotické pořadí fragmentů Kraken. Přesné spojnice vedlejších větví ani všechny červené stupně nebyly převedeny na strojově ověřený rodokmen. Ústřední kruh mezi rodiči/sourozenci a potomky je prázdný; jméno osoby nedoplňováno.</note>
+        <p facs="#z_f87r_l068 #z_f87r_l069 #z_f87r_l070 #z_f87r_l071 #z_f87r_l072 #z_f87r_l073 #z_f87r_l074 #z_f87r_l075 #z_f87r_l076 #z_f87r_l077 #z_f87r_l078 #z_f87r_l079 #z_f87r_l080 #z_f87r_l081 #z_f87r_l082 #z_f87r_l083 #z_f87r_l084 #z_f87r_l085 #z_f87r_l086 #z_f87r_l087 #z_f87r_l088 #z_f87r_l089 #z_f87r_l090 #z_f87r_l091 #z_f87r_l092 #z_f87r_l093 #z_f87r_l094 #z_f87r_l095 #z_f87r_l096 #z_f87r_l097 #z_f87r_l098 #z_f87r_l099 #z_f87r_l100 #z_f87r_l101 #z_f87r_l102 #z_f87r_l103 #z_f87r_l104 #z_f87r_l105 #z_f87r_l106 #z_f87r_l107 #z_f87r_l108 #z_f87r_l109 #z_f87r_l110" xml:id="u_87r_003">[consanguinitatis?] […]. [Pravé vedlejší větve:] Avunculus, matertera; consobrinus, consobrina; eorum filius, filia; eorum nepos, neptis; eorum pronepos, proneptis; sororis filius, sororis filia; sororis nepos, sororis neptis; sororis pronepos, sororis proneptis […]. [Červeně:] secundus, tertius, quartus, quintus, sextus, septimus […]. Arbor.</p>
+        <note type="editorial" corresp="#u_87r_003" xml:lang="cs">Nadpis je prostorově rozdělen: Arbor je vlevo nahoře, zkrácený druhý člen vpravo. Úzké červené segmenty nejsou samostatné latinské věty. Pracovní rozvinutí consanguinitatis je označeno otazníkem. Segment69je část moderní značky259/5,89je drobná netextová stopa; původní foliace88je na přehledu vidět, stabilní ID87rse nemění.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_87r_001">[Levá větev příbuzenského schématu:] Vnuk, vnučka, případně synovec a neteř podle polohy ve větvi […]; syn, dcera […]; vzdálenější strýc a teta z otcovy strany […]; sestra otce […]; jejich vnuk či synovec a vnučka či neteř […]; pravnuk a pravnučka […]. Červeně jsou uvedeny stupně příbuzenství, například čtvrtý a pátý.</p>
+        <p corresp="#u_87r_002">[Popisky uprostřed stromu a v sousedních kruzích:] Prapraděd a praprabába; praděd a prabába; děd a bába; otec a matka; bratr; sestra; syn a dcera; vnuk a vnučka; pravnuk a pravnučka; prapravnuk a prapravnučka. Vedlejší větve obsahují otcova bratra a sestru, matčina bratra a sestru, vzdálenější příbuzné těchto větví, bratrance a sestřenici z otcovy strany a […] bratrova syna a dceru […]. Červené popisky označují první, druhý, třetí a čtvrtý stupeň […].</p>
+        <p corresp="#u_87r_003">[Příbuzenství?] […]. [Pravé vedlejší větve:] Matčin bratr a sestra; bratranec a sestřenice; jejich syn a dcera, vnuk a vnučka, pravnuk a pravnučka; sestřin syn a dcera, sestřin vnuk a vnučka, sestřin pravnuk a pravnučka […]. Červeně jsou uvedeny stupně od druhého dále, včetně šestého a sedmého […]. Strom.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

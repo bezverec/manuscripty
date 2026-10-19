@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, F001R: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Bez samostatně přiřazeného katalogového oddílu. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_F001R_coordinate; PNG SHA256 a039f2ccce148f4f15c2bbd418a8cddd420d03a5578680d2f7cb61dd581f7fa3; archival TIFF SHA256 f0651fe627f5fc13ac4e6538701fffb0431d5553919963c0ca50fd1962d186c0; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_F001R">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#F001R"/>
+      <zone ulx="488" uly="1135" lrx="846" lry="1281" xml:id="z_fF001R_l001"/>
+      <zone ulx="905" uly="690" lrx="2819" lry="920" xml:id="z_fF001R_l002"/>
+      <zone ulx="924" uly="927" lrx="3339" lry="1200" xml:id="z_fF001R_l003"/>
+      <zone ulx="687" uly="1163" lrx="3401" lry="1403" xml:id="z_fF001R_l004"/>
+      <zone ulx="423" uly="1365" lrx="3367" lry="1620" xml:id="z_fF001R_l005"/>
+      <zone ulx="709" uly="1596" lrx="3003" lry="1838" xml:id="z_fF001R_l006"/>
+      <zone ulx="498" uly="1773" lrx="3056" lry="2118" xml:id="z_fF001R_l007"/>
+      <zone ulx="840" uly="2031" lrx="2894" lry="2264" xml:id="z_fF001R_l008"/>
+      <zone ulx="3464" uly="992" lrx="3613" lry="1120" xml:id="z_fF001R_l009"/>
+      <zone ulx="3433" uly="1151" lrx="3716" lry="1303" xml:id="z_fF001R_l010"/>
+      <zone ulx="3327" uly="2513" lrx="3523" lry="2597" xml:id="z_fF001R_l011"/>
+      <zone ulx="3479" uly="4094" lrx="3616" lry="4243" xml:id="z_fF001R_l012"/>
+      <zone ulx="3473" uly="4467" lrx="3635" lry="4735" xml:id="z_fF001R_l013"/>
+      <zone ulx="3510" uly="4943" lrx="3641" lry="4974" xml:id="z_fF001R_l014"/>
+      <zone ulx="1503" uly="2974" lrx="2097" lry="3142" xml:id="z_fF001R_l015"/>
+      <zone ulx="1515" uly="3372" lrx="1674" lry="3490" xml:id="z_fF001R_l016"/>
+      <zone ulx="790" uly="4725" lrx="2614" lry="4984" xml:id="z_fF001R_l017"/>
+    <zone ulx="3180" uly="1000" lrx="3900" lry="5300" type="manually_selected_region" xml:id="supplemental_F001R_1"/></surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_fF001R_l001" xml:id="catmus_fF001R_l001"/>
+          <seg type="raw_unreviewed">roo</seg>
+          <lb facs="#z_fF001R_l002" xml:id="catmus_fF001R_l002"/>
+          <seg type="raw_unreviewed">an lenta in hot Yelumine.</seg>
+          <lb facs="#z_fF001R_l003" xml:id="catmus_fF001R_l003"/>
+          <seg type="raw_unreviewed">Huripa he tastauetio socioratois</seg>
+          <lb facs="#z_fF001R_l004" xml:id="catmus_fF001R_l004"/>
+          <seg type="raw_unreviewed">gillore pratre fotebo di farcportie9 oee</seg>
+          <lb facs="#z_fF001R_l005" xml:id="catmus_fF001R_l005"/>
+          <seg type="raw_unreviewed">do. Excerxta nulta ix libro. goi bila latuñ dice</seg>
+          <lb facs="#z_fF001R_l006" xml:id="catmus_fF001R_l006"/>
+          <seg type="raw_unreviewed">.Ex som pnrio Librorñ fenzenriarum.</seg>
+          <lb facs="#z_fF001R_l007" xml:id="catmus_fF001R_l007"/>
+          <seg type="raw_unreviewed">Ro. Memata no Ioncionibi domini calibus</seg>
+          <lb facs="#z_fF001R_l008" xml:id="catmus_fF001R_l008"/>
+          <seg type="raw_unreviewed">in Ledirra lingua herm anica.</seg>
+          <lb facs="#z_fF001R_l009" xml:id="catmus_fF001R_l009"/>
+          <seg type="raw_unreviewed">ori</seg>
+          <lb facs="#z_fF001R_l010" xml:id="catmus_fF001R_l010"/>
+          <seg type="raw_unreviewed">1neo</seg>
+          <lb facs="#z_fF001R_l011" xml:id="catmus_fF001R_l011"/>
+          <seg type="raw_unreviewed">i</seg>
+          <lb facs="#z_fF001R_l012" xml:id="catmus_fF001R_l012"/>
+          <seg type="raw_unreviewed">ent</seg>
+          <lb facs="#z_fF001R_l013" xml:id="catmus_fF001R_l013"/>
+          <seg type="raw_unreviewed">no ⁊</seg>
+          <lb facs="#z_fF001R_l014" xml:id="catmus_fF001R_l014"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_fF001R_l015" xml:id="catmus_fF001R_l015"/>
+          <seg type="raw_unreviewed">O.E</seg>
+          <lb facs="#z_fF001R_l016" xml:id="catmus_fF001R_l016"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_fF001R_l017" xml:id="catmus_fF001R_l017"/>
+          <seg type="raw_unreviewed">Iste liber ẽ frm carth de dolano</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_fF001R_l001" xml:id="medusa_fF001R_l001"/>
+          <seg type="raw_unreviewed">gimo</seg>
+          <lb facs="#z_fF001R_l002" xml:id="medusa_fF001R_l002"/>
+          <seg type="raw_unreviewed">in lenta in hoc volumine.</seg>
+          <lb facs="#z_fF001R_l003" xml:id="medusa_fF001R_l003"/>
+          <seg type="raw_unreviewed">Aurifras. magistro Francisci Soreionaforis.</seg>
+          <lb facs="#z_fF001R_l004" xml:id="medusa_fF001R_l004"/>
+          <seg type="raw_unreviewed">fratore fratre Philebo de Sarpedonibus. Or</seg>
+          <lb facs="#z_fF001R_l005" xml:id="medusa_fF001R_l005"/>
+          <seg type="raw_unreviewed">Capitulum. Excerpta multa ex libro et gregori Bile latin dicis</seg>
+          <lb facs="#z_fF001R_l006" xml:id="medusa_fF001R_l006"/>
+          <seg type="raw_unreviewed">E. Pendio librum LXXII liarum.</seg>
+          <lb facs="#z_fF001R_l007" xml:id="medusa_fF001R_l007"/>
+          <seg type="raw_unreviewed">Philippus. Tractata pro senionibus hominicalibus</seg>
+          <lb facs="#z_fF001R_l008" xml:id="medusa_fF001R_l008"/>
+          <seg type="raw_unreviewed">in le dene li derra hermanica.</seg>
+          <lb facs="#z_fF001R_l009" xml:id="medusa_fF001R_l009"/>
+          <seg type="raw_unreviewed">or</seg>
+          <lb facs="#z_fF001R_l010" xml:id="medusa_fF001R_l010"/>
+          <seg type="raw_unreviewed">192</seg>
+          <lb facs="#z_fF001R_l011" xml:id="medusa_fF001R_l011"/>
+          <seg type="raw_unreviewed">13</seg>
+          <lb facs="#z_fF001R_l012" xml:id="medusa_fF001R_l012"/>
+          <seg type="raw_unreviewed">3</seg>
+          <lb facs="#z_fF001R_l013" xml:id="medusa_fF001R_l013"/>
+          <seg type="raw_unreviewed">d</seg>
+          <lb facs="#z_fF001R_l014" xml:id="medusa_fF001R_l014"/>
+          <seg type="raw_unreviewed">1388</seg>
+          <lb facs="#z_fF001R_l015" xml:id="medusa_fF001R_l015"/>
+          <seg type="raw_unreviewed">1522</seg>
+          <lb facs="#z_fF001R_l016" xml:id="medusa_fF001R_l016"/>
+          <seg type="raw_unreviewed">1</seg>
+          <lb facs="#z_fF001R_l017" xml:id="medusa_fF001R_l017"/>
+          <seg type="raw_unreviewed">Iste liber est fratrum carth de dolano</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_fF001R_l001" xml:id="u_F001R_001">[---]</p>
+        <note type="editorial" corresp="#u_F001R_001" xml:lang="cs">Samostatný fragment u okraje, nikoli začátek nadpisu soupisu.</note>
+        <p facs="#z_fF001R_l002" xml:id="u_F001R_002">Contenta in hoc volumine.</p>
+        <note type="editorial" corresp="#u_F001R_002" xml:lang="cs">Pozdější soupis obsahu; nejde o titul původního středověkého díla.</note>
+        <p facs="#z_fF001R_l003 #z_fF001R_l004" xml:id="u_F001R_003">Primo. Aurissa sive Instructio Concionatoris [novitii?], Authore Fratre Iacobo de [Sareponte?], Ord[inis] Praed[icatorum?].</p>
+        <note type="editorial" corresp="#u_F001R_003" xml:lang="cs">Začátek a označení prvního oddílu ověřeny i v celém nativním výřezu soupisu. Konec jména a označení za Concionatoris jsou nejisté; nejde o nezávislé potvrzení autorství.</note>
+        <p facs="#z_fF001R_l005" xml:id="u_F001R_004">2do. Excerpta multa ex libro, qui [---] Patrum dic[itur].</p>
+        <note type="editorial" corresp="#u_F001R_004" xml:lang="cs">Úplný název knihy u pravého okraje není bezpečně přečten; nedoplňuji jej z katalogu.</note>
+        <p facs="#z_fF001R_l006" xml:id="u_F001R_005">3tio. Ex compendio librorum Sententiarum.</p>
+        <note type="editorial" corresp="#u_F001R_005" xml:lang="cs">Čtení compendio a Sententiarum podpořeno obrazem; původní HTR zůstává oddělené.</note>
+        <p facs="#z_fF001R_l007 #z_fF001R_l008" xml:id="u_F001R_006">4to. Themata pro concionibus dominicalibus in lingua Germanica. [Latina deletum.]</p>
+        <note type="editorial" corresp="#u_F001R_006" xml:lang="cs">Slovo Latina je v soupisu viditelně přeškrtnuté. Nejde o tvrzení, že všechny německé perikopy jsou kázání.</note>
+        <p facs="#z_fF001R_l009 #z_fF001R_l010 #z_fF001R_l011 #z_fF001R_l012 #z_fF001R_l013 #z_fF001R_l014" xml:id="u_F001R_007">[---]</p>
+        <note type="editorial" corresp="#u_F001R_007" xml:lang="cs">Kraken zde rozpadl svislé písmo na odřezky. Mimo tuto nevyhovující řádkovou geometrii byl skutečně otevřen samostatný otočený nativní výřez; jeho dílčí čtení je uloženo jako supplemental_readings, nikoli násilně navázáno na tyto fragmenty.</note>
+        <p facs="#z_fF001R_l015 #z_fF001R_l016" xml:id="u_F001R_008">Ms. 2. VI. 17.</p>
+        <note type="editorial" corresp="#u_F001R_008" xml:lang="cs">Starší signaturní zápis, nikoli součást pojednání. Čten také v celkovém přehledu.</note>
+        <p facs="#z_fF001R_l017" xml:id="u_F001R_009">Iste liber est fratrum carthusiensium de Dolano.</p>
+        <note type="editorial" corresp="#u_F001R_009" xml:lang="cs">Zkratka frm rozvedena jako fratrum; jde o návrh čtení konkrétní vlastnické poznámky, ne o datování vzniku kodexu.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_F001R_001">[Neurčený útržek otočeného písma.]</p>
+        <p corresp="#u_F001R_002">Co je obsaženo v tomto svazku.</p>
+        <p corresp="#u_F001R_003">Za prvé: Aurissa neboli Poučení kazatele [novice?], jehož autorem je bratr Jakub ze [Sarepontu?], z řádu [kazatelů?].</p>
+        <p corresp="#u_F001R_004">Za druhé: četné výňatky z knihy, která se nazývá [---] otců.</p>
+        <p corresp="#u_F001R_005">Za třetí: z přehledu knih Sentencí.</p>
+        <p corresp="#u_F001R_006">Za čtvrté: témata pro nedělní kázání v německém jazyce. [Označení latinského jazyka je přeškrtnuté.]</p>
+        <p corresp="#u_F001R_007">[Drobné fragmenty svislého listinného textu; v těchto detekovaných výřezech nepřeloženy.]</p>
+        <p corresp="#u_F001R_008">Rukopis, 2. VI. 17.</p>
+        <p corresp="#u_F001R_009">Tato kniha patří bratřím kartuziánům z Dolan.</p>
+      </div>
+    <div type="supplemental_reading" subtype="AI_proposed" facs="#supplemental_F001R_1"><p>[---] in civitate Ticzin anno domini millesimo trecentesimo [nonagesimo?] [---]</p><p xml:lang="cs">[---] ve městě Ticzin léta Páně tisícího třístého [devadesátého?] [---]</p><note>Čtení pouze datovací části na skutečně otevřeném otočeném výřezu. Katalog uvádí rok1390 také, ale úplné znění listiny se z něj nedoplňuje; další dvě viditelné řádky zůstávají nerozluštěné. Whole manually selected region; not an HTR line. Crop rotation CCW: 90.</note></div></body>
+  </text>
+</TEI>

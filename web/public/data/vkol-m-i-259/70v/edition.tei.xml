@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 70v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: De pseudoprophetis. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_70v">
+      <graphic url="../pages/70v/image.png"/>
+      <zone ulx="656" uly="370" lrx="3526" lry="535" xml:id="z_f70v_l001"/>
+      <zone ulx="613" uly="482" lrx="3510" lry="625" xml:id="z_f70v_l002"/>
+      <zone ulx="382" uly="3864" lrx="622" lry="4028" xml:id="z_f70v_l003"/>
+      <zone ulx="644" uly="569" lrx="3520" lry="721" xml:id="z_f70v_l004"/>
+      <zone ulx="650" uly="653" lrx="3579" lry="796" xml:id="z_f70v_l005"/>
+      <zone ulx="669" uly="749" lrx="3532" lry="889" xml:id="z_f70v_l006"/>
+      <zone ulx="662" uly="833" lrx="3560" lry="1008" xml:id="z_f70v_l007"/>
+      <zone ulx="659" uly="924" lrx="3548" lry="1104" xml:id="z_f70v_l008"/>
+      <zone ulx="678" uly="1029" lrx="3526" lry="1179" xml:id="z_f70v_l009"/>
+      <zone ulx="675" uly="1126" lrx="3557" lry="1297" xml:id="z_f70v_l010"/>
+      <zone ulx="678" uly="1219" lrx="3517" lry="1381" xml:id="z_f70v_l011"/>
+      <zone ulx="687" uly="1319" lrx="3563" lry="1480" xml:id="z_f70v_l012"/>
+      <zone ulx="703" uly="1415" lrx="3551" lry="1568" xml:id="z_f70v_l013"/>
+      <zone ulx="690" uly="1508" lrx="3542" lry="1664" xml:id="z_f70v_l014"/>
+      <zone ulx="759" uly="1596" lrx="3523" lry="1754" xml:id="z_f70v_l015"/>
+      <zone ulx="687" uly="1686" lrx="3566" lry="1848" xml:id="z_f70v_l016"/>
+      <zone ulx="672" uly="1776" lrx="3538" lry="1944" xml:id="z_f70v_l017"/>
+      <zone ulx="700" uly="1872" lrx="2991" lry="2016" xml:id="z_f70v_l018"/>
+      <zone ulx="3062" uly="1938" lrx="3535" lry="2078" xml:id="z_f70v_l019"/>
+      <zone ulx="678" uly="1963" lrx="3093" lry="2121" xml:id="z_f70v_l020"/>
+      <zone ulx="3140" uly="2012" lrx="3560" lry="2177" xml:id="z_f70v_l021"/>
+      <zone ulx="675" uly="2050" lrx="3591" lry="2252" xml:id="z_f70v_l022"/>
+      <zone ulx="672" uly="2146" lrx="3538" lry="2320" xml:id="z_f70v_l023"/>
+      <zone ulx="656" uly="2246" lrx="3205" lry="2401" xml:id="z_f70v_l024"/>
+      <zone ulx="3308" uly="2324" lrx="3588" lry="2473" xml:id="z_f70v_l025"/>
+      <zone ulx="662" uly="2342" lrx="3545" lry="2544" xml:id="z_f70v_l026"/>
+      <zone ulx="675" uly="2436" lrx="3557" lry="2619" xml:id="z_f70v_l027"/>
+      <zone ulx="666" uly="2538" lrx="3576" lry="2728" xml:id="z_f70v_l028"/>
+      <zone ulx="669" uly="2638" lrx="3588" lry="2834" xml:id="z_f70v_l029"/>
+      <zone ulx="675" uly="2725" lrx="3517" lry="2933" xml:id="z_f70v_l030"/>
+      <zone ulx="694" uly="2828" lrx="3545" lry="3027" xml:id="z_f70v_l031"/>
+      <zone ulx="690" uly="2936" lrx="3538" lry="3108" xml:id="z_f70v_l032"/>
+      <zone ulx="684" uly="3030" lrx="3542" lry="3213" xml:id="z_f70v_l033"/>
+      <zone ulx="684" uly="3129" lrx="3557" lry="3300" xml:id="z_f70v_l034"/>
+      <zone ulx="675" uly="3229" lrx="3542" lry="3397" xml:id="z_f70v_l035"/>
+      <zone ulx="675" uly="3328" lrx="3507" lry="3487" xml:id="z_f70v_l036"/>
+      <zone ulx="687" uly="3419" lrx="3510" lry="3590" xml:id="z_f70v_l037"/>
+      <zone ulx="675" uly="3528" lrx="3507" lry="3677" xml:id="z_f70v_l038"/>
+      <zone ulx="678" uly="3624" lrx="3517" lry="3761" xml:id="z_f70v_l039"/>
+      <zone ulx="684" uly="3717" lrx="3517" lry="3857" xml:id="z_f70v_l040"/>
+      <zone ulx="697" uly="3817" lrx="3563" lry="3944" xml:id="z_f70v_l041"/>
+      <zone ulx="697" uly="3901" lrx="3495" lry="4044" xml:id="z_f70v_l042"/>
+      <zone ulx="678" uly="3991" lrx="3573" lry="4150" xml:id="z_f70v_l043"/>
+      <zone ulx="712" uly="4088" lrx="3535" lry="4246" xml:id="z_f70v_l044"/>
+      <zone ulx="706" uly="4178" lrx="3554" lry="4346" xml:id="z_f70v_l045"/>
+      <zone ulx="3688" uly="2759" lrx="3847" lry="2893" xml:id="z_f70v_l046"/>
+      <zone ulx="3725" uly="2859" lrx="3850" lry="2977" xml:id="z_f70v_l047"/>
+      <zone ulx="3647" uly="2943" lrx="3853" lry="3067" xml:id="z_f70v_l048"/>
+      <zone ulx="3672" uly="3033" lrx="3828" lry="3151" xml:id="z_f70v_l049"/>
+      <zone ulx="3641" uly="3123" lrx="3856" lry="3260" xml:id="z_f70v_l050"/>
+      <zone ulx="3629" uly="3223" lrx="3871" lry="3347" xml:id="z_f70v_l051"/>
+      <zone ulx="3647" uly="3325" lrx="3884" lry="3425" xml:id="z_f70v_l052"/>
+      <zone ulx="3650" uly="3400" lrx="3881" lry="3521" xml:id="z_f70v_l053"/>
+      <zone ulx="3635" uly="3500" lrx="3884" lry="3618" xml:id="z_f70v_l054"/>
+      <zone ulx="3632" uly="3580" lrx="3862" lry="3714" xml:id="z_f70v_l055"/>
+      <zone ulx="3629" uly="3668" lrx="3881" lry="3804" xml:id="z_f70v_l056"/>
+      <zone ulx="3616" uly="3770" lrx="3881" lry="3885" xml:id="z_f70v_l057"/>
+      <zone ulx="3647" uly="3857" lrx="3847" lry="3988" xml:id="z_f70v_l058"/>
+      <zone ulx="3638" uly="3957" lrx="3884" lry="4063" xml:id="z_f70v_l059"/>
+      <zone ulx="3647" uly="4044" lrx="3834" lry="4178" xml:id="z_f70v_l060"/>
+      <zone ulx="3663" uly="4134" lrx="3871" lry="4262" xml:id="z_f70v_l061"/>
+      <zone ulx="3610" uly="4221" lrx="3871" lry="4340" xml:id="z_f70v_l062"/>
+      <zone ulx="718" uly="4284" lrx="3862" lry="4442" xml:id="z_f70v_l063"/>
+      <zone ulx="725" uly="4380" lrx="3840" lry="4532" xml:id="z_f70v_l064"/>
+      <zone ulx="718" uly="4470" lrx="3868" lry="4638" xml:id="z_f70v_l065"/>
+      <zone ulx="715" uly="4570" lrx="3859" lry="4735" xml:id="z_f70v_l066"/>
+      <zone ulx="712" uly="4672" lrx="3532" lry="4875" xml:id="z_f70v_l067"/>
+      <zone ulx="3672" uly="4685" lrx="3868" lry="4844" xml:id="z_f70v_l068"/>
+      <zone ulx="3753" uly="563" lrx="3834" lry="672" xml:id="z_f70v_l069"/>
+      <zone ulx="3772" uly="1767" lrx="3850" lry="1891" xml:id="z_f70v_l070"/>
+      <zone ulx="3728" uly="1994" lrx="3834" lry="2068" xml:id="z_f70v_l071"/>
+      <zone ulx="3763" uly="2047" lrx="3843" lry="2134" xml:id="z_f70v_l072"/>
+      <zone ulx="3747" uly="2121" lrx="3769" lry="2233" xml:id="z_f70v_l073"/>
+      <zone ulx="3735" uly="2230" lrx="3822" lry="2327" xml:id="z_f70v_l074"/>
+      <zone ulx="283" uly="5120" lrx="367" lry="5239" xml:id="z_f70v_l075"/>
+      <zone ulx="3750" uly="2414" lrx="3806" lry="2507" xml:id="z_f70v_l076"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f70v_l001" xml:id="catmus_f70v_l001"/>
+          <seg type="raw_unreviewed">Et hͨ sic d̾t̾nuãt g̃aiuꝰ xui .i.t. Ecre nõ ẽ bei̾sibẽ/ . p̃dc̃a sũctĩssul̃m</seg>
+          <lb facs="#z_f70v_l002" xml:id="catmus_f70v_l002"/>
+          <seg type="raw_unreviewed">yentrilpia. liceat ħoĩ mortuli ĩ mutue p̃cipue cũ dͭ leo pp̃ xxx.q. i</seg>
+          <lb facs="#z_f70v_l003" xml:id="catmus_f70v_l003"/>
+          <seg type="raw_unreviewed">UA</seg>
+          <lb facs="#z_f70v_l004" xml:id="catmus_f70v_l004"/>
+          <seg type="raw_unreviewed">erue ad ꝑꝑetiu gn̾u᷑ ordũta sũt utilitatẽ u ͣ quiutu ͦ ͤ uai̾en Et sͨ nẽ</seg>
+          <lb facs="#z_f70v_l005" xml:id="catmus_f70v_l005"/>
+          <seg type="raw_unreviewed">ut̃ Roͣuꝰ pontisex dest̾e ꝙ apłis ⁊ ꝓphĩs decretũ ẽ. alioqu̾ enaẽ quin:</seg>
+          <lb facs="#z_f70v_l006" xml:id="catmus_f70v_l006"/>
+          <seg type="raw_unreviewed">c̾et᷑ ut dᵗ urbarꝰ pp̃ xpe.i. Sũt ẽ qui dicũt/ quõ dnũtus ordũscũ</seg>
+          <lb facs="#z_f70v_l007" xml:id="catmus_f70v_l007"/>
+          <seg type="raw_unreviewed">sac̾tissiũ ecc̃icũ ierurchut. potĩt qͥs mortuliũ ĩ nuitue̾ / a ͨ ecꝭ eͥuersue</seg>
+          <lb facs="#z_f70v_l008" xml:id="catmus_f70v_l008"/>
+          <seg type="raw_unreviewed">tũ uenue p̃latoꝵ data sit ptũs ĩ de struccõ. s ĩ edifficu ͦ Et ii corꝭx Et</seg>
+          <lb facs="#z_f70v_l009" xml:id="catmus_f70v_l009"/>
+          <seg type="raw_unreviewed">si gͥ abiis quũ r̾glaibi unꝭ possit quĩti p̃dicucẽis officiũ/ uide᷑ tam̃ e</seg>
+          <lb facs="#z_f70v_l010" xml:id="catmus_f70v_l010"/>
+          <seg type="raw_unreviewed">p̃dc̃ie ꝙ salius ecc̃i ierarchia r̾gla̾i̾b uitꝭ dũ ĩ sui ĩfiori ꝑ ficiẽdoꝵ</seg>
+          <lb facs="#z_f70v_l011" xml:id="catmus_f70v_l011"/>
+          <seg type="raw_unreviewed">gͣdu ntuet p̃dicacõis officiũ quĩti ũ possit P si ui r̃ glaes p̃dicatiõi</seg>
+          <lb facs="#z_f70v_l012" xml:id="catmus_f70v_l012"/>
+          <seg type="raw_unreviewed">re ĩmisteñt. uide᷑ ꝙ nõ suit udõ missi / ⁊ uo ꝓsendo st̃ ⁊ ꝑutũdis pzopũdõe</seg>
+          <lb facs="#z_f70v_l013" xml:id="catmus_f70v_l013"/>
+          <seg type="raw_unreviewed">ĩ st̃ peuetũtes dõs .⁊ q st̃ psene p̃di ᷤᷤ p c̃.ꝙ ꝑtles ĩstabt̃ tpã ꝑiclo᷑ otẽ ymu̾s</seg>
+          <lb facs="#z_f70v_l014" xml:id="catmus_f70v_l014"/>
+          <seg type="raw_unreviewed">irca 3ͫ cu ͫ. qm apti erũt r ydonei p̃dai hoĩes ꝑilosi. ad ĩducũdimo</seg>
+          <lb facs="#z_f70v_l015" xml:id="catmus_f70v_l015"/>
+          <seg type="raw_unreviewed">picla. p̃dicit apls ex ip̃i erũt hoĩes hũtes spẽm pietatꝭ. qlo .i. r̾lis</seg>
+          <lb facs="#z_f70v_l016" xml:id="catmus_f70v_l016"/>
+          <seg type="raw_unreviewed">oñs u̾itne ꝓp ꝙ ꝑiclosł sũt. u̾tutẽ aũt ce. gło.i. cui̾tatẽ abu gãtes. gła</seg>
+          <lb facs="#z_f70v_l017" xml:id="catmus_f70v_l017"/>
+          <seg type="raw_unreviewed">n ͨ u̾bis ẜ stri / Cũ .i.. henũt officia p̃latoꝵ u. offrciũ p̃dicũdi corrigeudĩ</seg>
+          <lb facs="#z_f70v_l018" xml:id="catmus_f70v_l018"/>
+          <seg type="raw_unreviewed">Ifessiõs audiẽdi ait dice᷑ ĩsmi Qũ ͭ ͤ st̃is uegñt. ir cui ͭ</seg>
+          <lb facs="#z_f70v_l019" xml:id="catmus_f70v_l019"/>
+          <seg type="raw_unreviewed">nõ ẽ abicõsa</seg>
+          <lb facs="#z_f70v_l020" xml:id="catmus_f70v_l020"/>
+          <seg type="raw_unreviewed">a. euiꝭ xmi It̃. cũ nõ possit ĩiuias tollore. ut dice᷑ ĩfra</seg>
+          <lb facs="#z_f70v_l021" xml:id="catmus_f70v_l021"/>
+          <seg type="raw_unreviewed">ftĩs uegũt</seg>
+          <lb facs="#z_f70v_l022" xml:id="catmus_f70v_l022"/>
+          <seg type="raw_unreviewed">caĩtatẽ qr cu̾itus paciẽs ẽ .x. eurꝭ xii /h ilt d apłs / ħiis ebis se pietutꝭ</seg>
+          <lb facs="#z_f70v_l023" xml:id="catmus_f70v_l023"/>
+          <seg type="raw_unreviewed">hũtes u̾tutẽ aut ciꝰ abuegũtes ꝙ autẽ ĩ siulta u̾ligiõe. tñ opero a</seg>
+          <lb facs="#z_f70v_l024" xml:id="catmus_f70v_l024"/>
+          <seg type="raw_unreviewed">uboꝵ decĩpiãt/ d ͭ dũs M uii. Attũ ͭ ͤ afuls ꝓp. q.u ĩtñ u. głi</seg>
+          <lb facs="#z_f70v_l025" xml:id="catmus_f70v_l025"/>
+          <seg type="raw_unreviewed">ĩ hũilte</seg>
+          <lb facs="#z_f70v_l026" xml:id="catmus_f70v_l026"/>
+          <seg type="raw_unreviewed">ibulãt ⁊ faltri r̾ligiõe / iõ crtuete ne bos dilamẽt blãdicais ⁊ fultioĩb</seg>
+          <lb facs="#z_f70v_l027" xml:id="catmus_f70v_l027"/>
+          <seg type="raw_unreviewed">n ͨ ẽ cͣoñd.ͦ oꝑibi. q̃ oũdũt ĩuꝑto q̃ bouil cẽ uidũ᷑ nã sͥ facũt siuua</seg>
+          <lb facs="#z_f70v_l028" xml:id="catmus_f70v_l028"/>
+          <seg type="raw_unreviewed">lanbo .u. ut sc̃i bilean᷑. cũ nõ suit. bñ se᷑ ibid. suꝑ iꝰ textu ciuͫ. Afuit</seg>
+          <lb facs="#z_f70v_l029" xml:id="catmus_f70v_l029"/>
+          <seg type="raw_unreviewed">tibi coꝵ ignostetꝭ. gło. ĩisptu hoñii diles st̃ ñste iuẜr. dũ iennũt eiĩt</seg>
+          <lb facs="#z_f70v_l030" xml:id="catmus_f70v_l030"/>
+          <seg type="raw_unreviewed">elcõsião ditut / s nõ st̃ coꝵ fuictiꝰ qr ꝓ bicõ eis r̾ putar .i. d. Aboꝑib eoꝵ</seg>
+          <lb facs="#z_f70v_l031" xml:id="catmus_f70v_l031"/>
+          <seg type="raw_unreviewed">q̃ uũde̾ nõ andẽt. s ocultue nitũ: eo ꝙ mũdinist̃. rud iũdant tendũt</seg>
+          <lb facs="#z_f70v_l032" xml:id="catmus_f70v_l032"/>
+          <seg type="raw_unreviewed">cognosti pñt st̃. ꝙ silac̃o sc̃itat᷑ faciat cos huiles ad decipiẽt alicis</seg>
+          <lb facs="#z_f70v_l033" xml:id="catmus_f70v_l033"/>
+          <seg type="raw_unreviewed">di ͭ gloͬ. suꝑiᵈ. niͣ eutꝭ ui. in cu̾i ͭ nõ fictu. gło ꝑsendo suũłant cui̾tatẽ</seg>
+          <lb facs="#z_f70v_l034" xml:id="catmus_f70v_l034"/>
+          <seg type="raw_unreviewed">ut decipiũt st̃ ii Corꝭ xi suꝑiᵇ. Nlũ hm̃o ꝑsende apłi oparii subdoli. cho</seg>
+          <lb facs="#z_f70v_l035" xml:id="catmus_f70v_l035"/>
+          <seg type="raw_unreviewed">Callidi ss̃ ꝓp̃e r̾ligiõis decipiẽtes. Et cellõ n ͥ Et nẽo uos̾ seducat ĩ huiliͭ ͤ</seg>
+          <lb facs="#z_f70v_l036" xml:id="catmus_f70v_l036"/>
+          <seg type="raw_unreviewed">⁊ uligioe aglõꝵ. gle. Qui uidũ᷑ qi uccii di ꝑspẽn ⁊ hmili ᵈ Ir ligrõis /⁊</seg>
+          <lb facs="#z_f70v_l037" xml:id="catmus_f70v_l037"/>
+          <seg type="raw_unreviewed">alii st̃ quib hõies faciłe decipi pũt. It ꝙ subhitu r̾ligiois decipiant</seg>
+          <lb facs="#z_f70v_l038" xml:id="catmus_f70v_l038"/>
+          <seg type="raw_unreviewed">diͭ apor. us suꝑĩ Et cũ apꝑuss sigillũ qͣrtu atudiu uocẽ. Irtĩ mãbi</seg>
+          <lb facs="#z_f70v_l039" xml:id="catmus_f70v_l039"/>
+          <seg type="raw_unreviewed">dicũtꝭ keĩ ⁊ uide Et ecce ciiꝰ pilllidut acꝭ gło. bidũs dyaꝰ. nͭ ꝑ aptus</seg>
+          <lb facs="#z_f70v_l040" xml:id="catmus_f70v_l040"/>
+          <seg type="raw_unreviewed">t̾bulacõs. n ͨ ꝑ aꝑtus he̾ses se posse ꝑfice̾/ p̃mittit fulsos frẽo/ Inĩ sus.</seg>
+          <lb facs="#z_f70v_l041" xml:id="catmus_f70v_l041"/>
+          <seg type="raw_unreviewed">hatu r̾ligĩois obtiuẽt nł iusfi/ ⁊ igni oqui ⁊ pr̾tũdo fit/ i. titũ saq</seg>
+          <lb facs="#z_f70v_l042" xml:id="catmus_f70v_l042"/>
+          <seg type="raw_unreviewed">et ꝑsetucõm ĩ eccã. qũta fecerũt aꝑti tyum ss appllabat rriffũ ei</seg>
+          <lb facs="#z_f70v_l043" xml:id="catmus_f70v_l043"/>
+          <seg type="raw_unreviewed">⁊ aꝑti hẽtici qͦs appllat mg̃ eqͫ bnĩ ꝑ secucõ coꝵ oq̾ꝑabi᷑ illis du</seg>
+          <lb facs="#z_f70v_l044" xml:id="catmus_f70v_l044"/>
+          <seg type="raw_unreviewed">ab ꝑsecucr̃ib fũsuctꝭ Et iõ qr sub sp̃e pietit decipĩẽt. plꝰipoterũt</seg>
+          <lb facs="#z_f70v_l045" xml:id="catmus_f70v_l045"/>
+          <seg type="raw_unreviewed">noc̃e ecc̃e di/ qm alii hõies. heͥ spẽm ñ p̃tũdũtes Q st g̾gᷤ ĩpustou̾li</seg>
+          <lb facs="#z_f70v_l046" xml:id="catmus_f70v_l046"/>
+          <seg type="raw_unreviewed">nũ q̃ De</seg>
+          <lb facs="#z_f70v_l047" xml:id="catmus_f70v_l047"/>
+          <seg type="raw_unreviewed">n dedi</seg>
+          <lb facs="#z_f70v_l048" xml:id="catmus_f70v_l048"/>
+          <seg type="raw_unreviewed">Aaors ir bũt</seg>
+          <lb facs="#z_f70v_l049" xml:id="catmus_f70v_l049"/>
+          <seg type="raw_unreviewed">nñ p del</seg>
+          <lb facs="#z_f70v_l050" xml:id="catmus_f70v_l050"/>
+          <seg type="raw_unreviewed">Ad Eesiꝑ i</seg>
+          <lb facs="#z_f70v_l051" xml:id="catmus_f70v_l051"/>
+          <seg type="raw_unreviewed">oll dueb Q</seg>
+          <lb facs="#z_f70v_l052" xml:id="catmus_f70v_l052"/>
+          <seg type="raw_unreviewed">soues ꝑierũt</seg>
+          <lb facs="#z_f70v_l053" xml:id="catmus_f70v_l053"/>
+          <seg type="raw_unreviewed">hil sedlict&amp;̾s.</seg>
+          <lb facs="#z_f70v_l054" xml:id="catmus_f70v_l054"/>
+          <seg type="raw_unreviewed">fami ꝑcod eii</seg>
+          <lb facs="#z_f70v_l055" xml:id="catmus_f70v_l055"/>
+          <seg type="raw_unreviewed">soẽs Iore ix</seg>
+          <lb facs="#z_f70v_l056" xml:id="catmus_f70v_l056"/>
+          <seg type="raw_unreviewed">Eisũ ibeiẽs</seg>
+          <lb facs="#z_f70v_l057" xml:id="catmus_f70v_l057"/>
+          <seg type="raw_unreviewed">Aelãci ⁊ uol</seg>
+          <lb facs="#z_f70v_l058" xml:id="catmus_f70v_l058"/>
+          <seg type="raw_unreviewed">mi it filel qͥs</seg>
+          <lb facs="#z_f70v_l059" xml:id="catmus_f70v_l059"/>
+          <seg type="raw_unreviewed">oñ siũl ⁊ ĩ mic</seg>
+          <lb facs="#z_f70v_l060" xml:id="catmus_f70v_l060"/>
+          <seg type="raw_unreviewed">ꝑcli. ꝓfr̃</seg>
+          <lb facs="#z_f70v_l061" xml:id="catmus_f70v_l061"/>
+          <seg type="raw_unreviewed">sate . ⁊ iuid̾</seg>
+          <lb facs="#z_f70v_l062" xml:id="catmus_f70v_l062"/>
+          <seg type="raw_unreviewed">pibsisil mud̾i. n</seg>
+          <lb facs="#z_f70v_l063" xml:id="catmus_f70v_l063"/>
+          <seg type="raw_unreviewed">nẽo plus not ĩ eccũ de qm qui ꝑuse agñs. noͫ ħ stĩtatꝭ. uel ordinis Albsxuilsẽ</seg>
+          <lb facs="#z_f70v_l064" xml:id="catmus_f70v_l064"/>
+          <seg type="raw_unreviewed">x iꝑp h potunt ptrerũ noce pl. qr erũt famłiae̾s iniriai Nã fidelos iagl  </seg>
+          <lb facs="#z_f70v_l065" xml:id="catmus_f70v_l065"/>
+          <seg type="raw_unreviewed">W. nͥ pntabũt eos aĩcos. r̾cipiẽdo eos ĩ dom̃b suis rͥuelande eis sec̾ta sut Atipll quẽ</seg>
+          <lb facs="#z_f70v_l066" xml:id="catmus_f70v_l066"/>
+          <seg type="raw_unreviewed">ꝑifessiõs/ ucq̃estũdo ꝯsilire eoꝵ ut piltebit ĩfua . ipulłs fucẽt. uͥ r̾puti.  allde sul</seg>
+          <lb facs="#z_f70v_l067" xml:id="catmus_f70v_l067"/>
+          <seg type="raw_unreviewed">ret eos aĩcos Ip̃i aut eqͣ / ĩtũt eos ĩeridei. ut patebͭ ĩ ꝓxiõ cuplõ.</seg>
+          <lb facs="#z_f70v_l068" xml:id="catmus_f70v_l068"/>
+          <seg type="raw_unreviewed">ipase uͥ</seg>
+          <lb facs="#z_f70v_l069" xml:id="catmus_f70v_l069"/>
+          <seg type="raw_unreviewed">HONC</seg>
+          <lb facs="#z_f70v_l070" xml:id="catmus_f70v_l070"/>
+          <seg type="raw_unreviewed">uc̃ is</seg>
+          <lb facs="#z_f70v_l071" xml:id="catmus_f70v_l071"/>
+          <seg type="raw_unreviewed">sdhce</seg>
+          <lb facs="#z_f70v_l072" xml:id="catmus_f70v_l072"/>
+          <seg type="raw_unreviewed">eis.</seg>
+          <lb facs="#z_f70v_l073" xml:id="catmus_f70v_l073"/>
+          <seg type="raw_unreviewed">u</seg>
+          <lb facs="#z_f70v_l074" xml:id="catmus_f70v_l074"/>
+          <seg type="raw_unreviewed">bi os</seg>
+          <lb facs="#z_f70v_l075" xml:id="catmus_f70v_l075"/>
+          <seg type="raw_unreviewed">xu</seg>
+          <lb facs="#z_f70v_l076" xml:id="catmus_f70v_l076"/>
+          <seg type="raw_unreviewed">ul</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f70v_l001" xml:id="medusa_f70v_l001"/>
+          <seg type="raw_unreviewed">Et hꝰ sic d̃ t̾minat g̃catin xui .i. t. Ecce nõ ẽ beĩs abẽ / ꝙ p̃dicã suc̃ti ssuãm</seg>
+          <lb facs="#z_f70v_l002" xml:id="medusa_f70v_l002"/>
+          <seg type="raw_unreviewed">yentrichia3 licent hoĩ mortuli ĩ mutue / p̃cipue cũ dᵗ lex pp̃ xxu .q.</seg>
+          <lb facs="#z_f70v_l003" xml:id="medusa_f70v_l003"/>
+          <seg type="raw_unreviewed">217</seg>
+          <lb facs="#z_f70v_l004" xml:id="medusa_f70v_l004"/>
+          <seg type="raw_unreviewed">erne ad perpetuam generacionem ordinata sunt utilitatem nͣi communitatis beneferent Et si nõ</seg>
+          <lb facs="#z_f70v_l005" xml:id="medusa_f70v_l005"/>
+          <seg type="raw_unreviewed">pt̃ Rõnꝰ pontifex de st̃e .i. ꝙ apłis ⁊ ꝓphĩs decretũ ẽ . aboꝰuͦ. emeꝰ ꝯ uii.</seg>
+          <lb facs="#z_f70v_l006" xml:id="medusa_f70v_l006"/>
+          <seg type="raw_unreviewed">ceterum / ut dicitur urbanis pape xxuiii. Sunt eciam qui dicunt / quod non diuinitus ordinatum</seg>
+          <lb facs="#z_f70v_l007" xml:id="medusa_f70v_l007"/>
+          <seg type="raw_unreviewed">sacriissum ecc̃icũ ienirchiaz potuit qͥs mortuam ĩ nuntie ias etꝭ r̃ uersue</seg>
+          <lb facs="#z_f70v_l008" xml:id="medusa_f70v_l008"/>
+          <seg type="raw_unreviewed">tũ nemine pontificaliorum data sit pt̃as ĩ de sanctis 3. s̃ ĩ edifficacionibus Et ii Cap̃ x Et</seg>
+          <lb facs="#z_f70v_l009" xml:id="medusa_f70v_l009"/>
+          <seg type="raw_unreviewed">si gͦ aliis quam tͥglaũbꝰ uirꝭ possit inu̾ti p̃dicacionis officium / uide᷑ tam</seg>
+          <lb facs="#z_f70v_l010" xml:id="medusa_f70v_l010"/>
+          <seg type="raw_unreviewed">predicte / quod salva ecclesie ierarchia / regularibus uirorum dei in suis inferiori perficiendorum</seg>
+          <lb facs="#z_f70v_l011" xml:id="medusa_f70v_l011"/>
+          <seg type="raw_unreviewed">gdu mutuent / predicationis officium qunti ũ possit qz s u̾ regulares predicationi</seg>
+          <lb facs="#z_f70v_l012" xml:id="medusa_f70v_l012"/>
+          <seg type="raw_unreviewed">se inmisceant . uide᷑ q non sint a Deo missi / ⁊ nõ perseuerare st̃ ⁊ putandi s̃ p ex p̃dicacione</seg>
+          <lb facs="#z_f70v_l013" xml:id="medusa_f70v_l013"/>
+          <seg type="raw_unreviewed">qͥ st̃ penetũtes dõs ⁊ qͥ st̃ p̃sente p̃dicⁿᵉˢ p ⁊cꝭ ꝙ ꝑtlẽs ĩstab̃t tꝑã / ꝑiculo eccẽ uniu̾so</seg>
+          <lb facs="#z_f70v_l014" xml:id="medusa_f70v_l014"/>
+          <seg type="raw_unreviewed">Irena 3. capitulum / quam apti erũt ⁊ ydonei p̃dca̾ homines ꝑiculosi. ad ĩducũdum</seg>
+          <lb facs="#z_f70v_l015" xml:id="medusa_f70v_l015"/>
+          <seg type="raw_unreviewed">periclũ p̃dicit . ipsos ex ipsi erũt homines habentes spem pretutis . glo . i. tribu</seg>
+          <lb facs="#z_f70v_l016" xml:id="medusa_f70v_l016"/>
+          <seg type="raw_unreviewed">om̃s pnne pꝑ ꝙ ꝑiculosi sũt. u̾tutẽ aut̃ ceꝰ. gło .i. curitatem ubiue gñtes. uł</seg>
+          <lb facs="#z_f70v_l017" xml:id="medusa_f70v_l017"/>
+          <seg type="raw_unreviewed">nꝰ u̾bis s fr̃e / Cũ .n. habu̾it officia p̃latorꝭ u. officium p̃dicãdi corrigendi</seg>
+          <lb facs="#z_f70v_l018" xml:id="medusa_f70v_l018"/>
+          <seg type="raw_unreviewed">confessõs audie̾dicit dice᷑ ĩ fide / eũtᵉꝰ fatis negant. qr cuĩt</seg>
+          <lb facs="#z_f70v_l019" xml:id="medusa_f70v_l019"/>
+          <seg type="raw_unreviewed">nõ e̾ cõnata</seg>
+          <lb facs="#z_f70v_l020" xml:id="medusa_f70v_l020"/>
+          <seg type="raw_unreviewed">i. exif xiii fr. cũ nõ possit ĩimurias tollere. ut dicitur in fu</seg>
+          <lb facs="#z_f70v_l021" xml:id="medusa_f70v_l021"/>
+          <seg type="raw_unreviewed">fr̃is negũt</seg>
+          <lb facs="#z_f70v_l022" xml:id="medusa_f70v_l022"/>
+          <seg type="raw_unreviewed">sanitate qr cunctus patiens est. Cor. XIIII. ¶ Qnt ut dicit apostolus. Hiis verbis specie pietatis</seg>
+          <lb facs="#z_f70v_l023" xml:id="medusa_f70v_l023"/>
+          <seg type="raw_unreviewed">hñtes u̾tutẽ aut eꝰ abnegãtes eꝵ autẽ ĩ simłta religione. tñ opeꝵ aũ</seg>
+          <lb facs="#z_f70v_l024" xml:id="medusa_f70v_l024"/>
+          <seg type="raw_unreviewed">u̾borum decipiunt / dᵗ dñs mꝰ uii. a trũte a falsꝭ ꝓp. q. u. ĩ tñ nꝰ. qͥli</seg>
+          <lb facs="#z_f70v_l025" xml:id="medusa_f70v_l025"/>
+          <seg type="raw_unreviewed">in huiusmodi</seg>
+          <lb facs="#z_f70v_l026" xml:id="medusa_f70v_l026"/>
+          <seg type="raw_unreviewed">ãbulant ⁊ falſa religione / nõ canete / ne u̾d̃s dilãmẽt blãdiciis ⁊ similitatĩonibus</seg>
+          <lb facs="#z_f70v_l027" xml:id="medusa_f70v_l027"/>
+          <seg type="raw_unreviewed">nc ẽ c̃dñd̃ iᵒʳꝭ oꝑibꝰ q̃ oñdñt ĩ oꝑte / q̃ bona ẽẽ uid̃n᷑ / ma ͥ ͥ facint sum</seg>
+          <lb facs="#z_f70v_l028" xml:id="medusa_f70v_l028"/>
+          <seg type="raw_unreviewed">laude. U ut st̃i bibeant᷑. cũ nõ sint. Uñ se᷑ ibid̃. super 1ͦ textu c̃wii. A fuit</seg>
+          <lb facs="#z_f70v_l029" xml:id="medusa_f70v_l029"/>
+          <seg type="raw_unreviewed">tibi eoꝵ. Ignoscet᷑. glo. ĩ ꝯspc̃u hom̃ salẽs st̃ m̃s̃t᷑ nũs᷑. Dñi remittunt</seg>
+          <lb facs="#z_f70v_l030" xml:id="medusa_f70v_l030"/>
+          <seg type="raw_unreviewed">eleconsiõs dant. s nõ st̃ eoꝵ fructꝰ / qr ꝓ uico eis reputatur .i. d. ab oꝑib eoꝵ</seg>
+          <lb facs="#z_f70v_l031" xml:id="medusa_f70v_l031"/>
+          <seg type="raw_unreviewed">q̃ eũdem non audẽt sed occultare nituntur eo quod nundana sunt et ad nundana tendunt</seg>
+          <lb facs="#z_f70v_l032" xml:id="medusa_f70v_l032"/>
+          <seg type="raw_unreviewed">cognosci pũt st̃ . ꝙ simulacio sanctitatis faciat eos hũiles ad decipiend̃ ab eo</seg>
+          <lb facs="#z_f70v_l033" xml:id="medusa_f70v_l033"/>
+          <seg type="raw_unreviewed">dit glo. super id. iiͣ eut. ui. in cuiˢᵗᵉ nõ ficti. glo. p̃sendo simulant cruitatẽ</seg>
+          <lb facs="#z_f70v_l034" xml:id="medusa_f70v_l034"/>
+          <seg type="raw_unreviewed">ut decipiunt sunt ii Cor. XI superis. Nũ huiusmodi perseude apostoli operarii subdoli. c̾po</seg>
+          <lb facs="#z_f70v_l035" xml:id="medusa_f70v_l035"/>
+          <seg type="raw_unreviewed">callidi sub specie religionis decipientes . Et collacio ii° Et nemo vos seducat in humilitate</seg>
+          <lb facs="#z_f70v_l036" xml:id="medusa_f70v_l036"/>
+          <seg type="raw_unreviewed">⁊ r̾ligiõe añ loꝵ. glo. Erui vidũ᷑ ip̃i ncc̃n di᷑ ꝑ spẽm ⁊ hũilit⁊ r̃spñs</seg>
+          <lb facs="#z_f70v_l037" xml:id="medusa_f70v_l037"/>
+          <seg type="raw_unreviewed">alii st̃ quibꝰ homines facile decipi pũt. st̃ ꝙ sub habitũ religiosorum decipiant</seg>
+          <lb facs="#z_f70v_l038" xml:id="medusa_f70v_l038"/>
+          <seg type="raw_unreviewed">dt᷑ Apoc. usͥ suꝑiꝰ Et cũ appuiss sigillum qr̃tũ. tudini uocẽ. fr̃ti añb</seg>
+          <lb facs="#z_f70v_l039" xml:id="medusa_f70v_l039"/>
+          <seg type="raw_unreviewed">dicũtꝭ veĩ ⁊ uide Et ecce eipꝰ palliũ ne᷑ acꝭ glo. u̾idũs dyacꝭ. nͥ ꝑ aptas</seg>
+          <lb facs="#z_f70v_l040" xml:id="medusa_f70v_l040"/>
+          <seg type="raw_unreviewed">tribulacio . nͨ ꝑ aꝑtus hereses se posse ꝓficere / p̃mittit falsos fratres / qm̃ sus</seg>
+          <lb facs="#z_f70v_l041" xml:id="medusa_f70v_l041"/>
+          <seg type="raw_unreviewed">situ religiosis obtinẽt maͣz ruffi / ⁊ magri equi / ⁊ p̃dicato fr̃i / i. tigrũ faci</seg>
+          <lb facs="#z_f70v_l042" xml:id="medusa_f70v_l042"/>
+          <seg type="raw_unreviewed">et persecucionem in ecclesiam . quantum fecerunt aperi suum . isdem appellabat ruffum ec</seg>
+          <lb facs="#z_f70v_l043" xml:id="medusa_f70v_l043"/>
+          <seg type="raw_unreviewed">⁊ aꝑti he̾tici qᵒᵒᵇ appll̃at magꝭ eqͫ / Uñ ꝑ secucõ eoꝵ eqͥꝑabi᷑ illis du</seg>
+          <lb facs="#z_f70v_l044" xml:id="medusa_f70v_l044"/>
+          <seg type="raw_unreviewed">ab persecutoribus factis Et ideo quia sub specie pietatis decipient . plus poterunt</seg>
+          <lb facs="#z_f70v_l045" xml:id="medusa_f70v_l045"/>
+          <seg type="raw_unreviewed">motu ecc̃e dii / qm̃ alii bpn̾es hoi spẽm ñ p̃tundentes q22 se gͥz ĩ postobli</seg>
+          <lb facs="#z_f70v_l046" xml:id="medusa_f70v_l046"/>
+          <seg type="raw_unreviewed">ꝑticlã q̃ de</seg>
+          <lb facs="#z_f70v_l047" xml:id="medusa_f70v_l047"/>
+          <seg type="raw_unreviewed">en de dinc</seg>
+          <lb facs="#z_f70v_l048" xml:id="medusa_f70v_l048"/>
+          <seg type="raw_unreviewed">diotes pubũt</seg>
+          <lb facs="#z_f70v_l049" xml:id="medusa_f70v_l049"/>
+          <seg type="raw_unreviewed">mũ ꝓdēt</seg>
+          <lb facs="#z_f70v_l050" xml:id="medusa_f70v_l050"/>
+          <seg type="raw_unreviewed">unde desuper</seg>
+          <lb facs="#z_f70v_l051" xml:id="medusa_f70v_l051"/>
+          <seg type="raw_unreviewed">dit os ones / ¶ Q</seg>
+          <lb facs="#z_f70v_l052" xml:id="medusa_f70v_l052"/>
+          <seg type="raw_unreviewed">soneꝰ pererũt</seg>
+          <lb facs="#z_f70v_l053" xml:id="medusa_f70v_l053"/>
+          <seg type="raw_unreviewed">dc̃o seductoͥbꝰ</seg>
+          <lb facs="#z_f70v_l054" xml:id="medusa_f70v_l054"/>
+          <seg type="raw_unreviewed">⁊ fait ꝑcod er</seg>
+          <lb facs="#z_f70v_l055" xml:id="medusa_f70v_l055"/>
+          <seg type="raw_unreviewed">hoiẽs sere ixͭ</seg>
+          <lb facs="#z_f70v_l056" xml:id="medusa_f70v_l056"/>
+          <seg type="raw_unreviewed">Et ꝙ ñ ĩueniẽt</seg>
+          <lb facs="#z_f70v_l057" xml:id="medusa_f70v_l057"/>
+          <seg type="raw_unreviewed">des cͤde̾o aĩco ⁊ nol</seg>
+          <lb facs="#z_f70v_l058" xml:id="medusa_f70v_l058"/>
+          <seg type="raw_unreviewed">tui / qr file. 11</seg>
+          <lb facs="#z_f70v_l059" xml:id="medusa_f70v_l059"/>
+          <seg type="raw_unreviewed">domini suũ / ⁊ inimic</seg>
+          <lb facs="#z_f70v_l060" xml:id="medusa_f70v_l060"/>
+          <seg type="raw_unreviewed">periclũ. ꝙ fr̃</seg>
+          <lb facs="#z_f70v_l061" xml:id="medusa_f70v_l061"/>
+          <seg type="raw_unreviewed">lates. ⁊ me</seg>
+          <lb facs="#z_f70v_l062" xml:id="medusa_f70v_l062"/>
+          <seg type="raw_unreviewed">abuncio m̃di. in</seg>
+          <lb facs="#z_f70v_l063" xml:id="medusa_f70v_l063"/>
+          <seg type="raw_unreviewed">meo plus nocz ĩ ecc̃a de / qm̃ qui ꝑ u̾se agũs . noᵐ h sc̃ritatꝭ . uel ordinis /</seg>
+          <lb facs="#z_f70v_l064" xml:id="medusa_f70v_l064"/>
+          <seg type="raw_unreviewed">Item propter hoc potuerunt peccatorum nocere pͥsꝰ. qr erũt famluiae inimici Nũ fideles</seg>
+          <lb facs="#z_f70v_l065" xml:id="medusa_f70v_l065"/>
+          <seg type="raw_unreviewed">pꝰ r̃ putabũt eos añcos . r̃cipiẽdo eos ĩ domibꝰ suis / r̃nelande eis secͣta sua</seg>
+          <lb facs="#z_f70v_l066" xml:id="medusa_f70v_l066"/>
+          <seg type="raw_unreviewed">ꝑ ipsis / ac ĩ estumdo ꝯsiliis eorum / ut patebit ĩ factum nullus faceret. uͥ r̾pica</seg>
+          <lb facs="#z_f70v_l067" xml:id="medusa_f70v_l067"/>
+          <seg type="raw_unreviewed">ret eos añcos / Ip̃i autem eꝭ / int̃nt eos ĩ errore. ut patebit ĩ ꝓxĩo capło.</seg>
+          <lb facs="#z_f70v_l068" xml:id="medusa_f70v_l068"/>
+          <seg type="raw_unreviewed">non posse uo¬</seg>
+          <lb facs="#z_f70v_l069" xml:id="medusa_f70v_l069"/>
+          <seg type="raw_unreviewed">noto</seg>
+          <lb facs="#z_f70v_l070" xml:id="medusa_f70v_l070"/>
+          <seg type="raw_unreviewed">mech</seg>
+          <lb facs="#z_f70v_l071" xml:id="medusa_f70v_l071"/>
+          <seg type="raw_unreviewed">n duci</seg>
+          <lb facs="#z_f70v_l072" xml:id="medusa_f70v_l072"/>
+          <seg type="raw_unreviewed">eis</seg>
+          <lb facs="#z_f70v_l073" xml:id="medusa_f70v_l073"/>
+          <seg type="raw_unreviewed">sunt</seg>
+          <lb facs="#z_f70v_l074" xml:id="medusa_f70v_l074"/>
+          <seg type="raw_unreviewed">ybi on</seg>
+          <lb facs="#z_f70v_l075" xml:id="medusa_f70v_l075"/>
+          <seg type="raw_unreviewed">don</seg>
+          <lb facs="#z_f70v_l076" xml:id="medusa_f70v_l076"/>
+          <seg type="raw_unreviewed">loes</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f70v_l001 #z_f70v_l002" xml:id="u_70v_001">Et hoc sic determinat Gratianus XVI quaestioneI: Ecce non est verisimile quod praedictam sanctissimam […] liceat homini mortali immutare, praecipue cum dicat Leo papa […].</p>
+        <note type="editorial" corresp="#u_70v_001" xml:lang="cs">Závěr předchozí strany; předmět1–2 a přesné právní místo neúplné.</note>
+        <p facs="#z_f70v_l003" xml:id="u_70v_002">[značka]</p>
+        <note type="editorial" corresp="#u_70v_002" xml:lang="cs">Není latinskou větou.</note>
+        <p facs="#z_f70v_l004 #z_f70v_l005 #z_f70v_l006 #z_f70v_l007 #z_f70v_l008 #z_f70v_l009 #z_f70v_l010 #z_f70v_l011 #z_f70v_l012 #z_f70v_l013" xml:id="u_70v_003">Quae ad perpetuam generaliter ordinata sunt utilitatem nulla commutatione varientur. Et sic nec potest Romanus pontifex destruere quod apostolis et prophetis decretum est, alioquin errare convinceretur, ut dicit Urbanus papa […]. Sunt enim qui dicunt quod divinitus ordinatam sacratissimam ecclesiasticam hierarchiam poterit quis mortalium immutare aut etiam evertere, cum tamen nulli praelatorum data sit potestas in destructionem sed in aedificationem, II CorinthiosX. Et si igitur aliis quam regularibus viris possit committi praedicationis officium, videtur tamen ex praedictis quod salvata ecclesiastica hierarchia regularibus viris, dum in suo inferiori perficiendorum gradu manent, praedicationis officium committi non possit. Si igitur viri regulares praedicationi se immiscent, videtur quod non fuerunt ad hoc missi et ideo pseudo sunt. Et per […] quod sunt penetrantes domos et quod sunt pseudo praedicatores patet quod per tales instabunt tempora periculosa […].</p>
+        <note type="editorial" corresp="#u_70v_003" xml:lang="cs">Právní a biblická argumentace je stanovisko polemického autora, nikoli dnešní církevní právo. Částečné vazby9 a13 označeny; zdánlivou jazykovou tvrdost autorova závěru nevyhlazuji.</note>
+        <p facs="#z_f70v_l014 #z_f70v_l015 #z_f70v_l016 #z_f70v_l017 #z_f70v_l018 #z_f70v_l019 #z_f70v_l020 #z_f70v_l021 #z_f70v_l022 #z_f70v_l023 #z_f70v_l024" xml:id="u_70v_004">Circa tertium, quam apti erunt et idonei praedicti homines periculosi ad inducenda pericula, praedicit apostolus quod ipsi erunt homines habentes speciem pietatis; Glossa: id est religionis, […] propter quod periculosi sunt; virtutem autem eius, Glossa: id est caritatem, abnegantes, non verbis sed factis. Cum enim usurpant officia praelatorum, scilicet officium praedicandi, corrigendi, confessiones audiendi, […] caritatem factis negant, quia caritas non est ambitiosa, I CorinthiosXIII. Item cum non possint iniurias tolerare, ut dicetur infra, factis negant caritatem, quia caritas patiens est […]. […] Speciem pietatis habentes, virtutem autem eius abnegantes. Quod autem in simulata religione tam opere quam verbis decipiant, dicit Dominus MatthaeiVII: Attendite a falsis prophetis qui veniunt […].</p>
+        <note type="editorial" corresp="#u_70v_004" xml:lang="cs">19,21 drobné odseknuté části hlavní věty, zahrnuté do jednotky.16 religio je dle kontextu zbožnost/řeholní život; nepopisuje jednoznačně konkrétní pojmenovaný řád.22 druhý číselný odkaz nejasný, neopravuji jej podleBible.</note>
+        <p facs="#z_f70v_l025 #z_f70v_l026 #z_f70v_l027 #z_f70v_l028 #z_f70v_l029 #z_f70v_l030 #z_f70v_l031 #z_f70v_l032" xml:id="u_70v_005">[…] in humilitate ambulant et falsa religione; ideo cavete ne vos dilanient blanditiis et factionibus. Nec est credendum operibus quae ostendunt in aperto quae bona esse videntur; nam si faciunt simulando, […] ut sancti videantur cum non sunt. Unde sequitur ibidem super illum textum: A fructibus eorum cognoscetis eos; Glossa: In conspectu hominum […] sunt, dum ieiunant, […] eleemosynas dant; sed non sunt eorum fructus, quia pro vitiis eis reputantur […]. Ab operibus eorum quae non ostendunt sed occultare nituntur, eo quod mundi laudem intendunt, cognosci possunt. Et quod simulatio sanctitatis faciat eos familiares ad decipiendum alios […].</p>
+        <note type="editorial" corresp="#u_70v_005" xml:lang="cs">25 krátká část hlavního textu, nikoli sousední list.29 glosa má nejasná slova, nezrekonstruována z paměti známé citace.</note>
+        <p facs="#z_f70v_l033 #z_f70v_l034 #z_f70v_l035 #z_f70v_l036 #z_f70v_l037" xml:id="u_70v_006">Dicit Glossa super illud II CorinthiosVI: In caritate non ficta; Glossa: Pseudo simulant caritatem ut decipiant. II CorinthiosXI super illud: Nam huiusmodi pseudoapostoli operarii subdoli; Glossa: Callidi sub specie religionis decipientes. Et ColossensesII: Et nemo vos seducat in humilitate et religione angelorum; Glossa: Qui videntur quasi nuntii Dei per speciem humilitatis et religionis et alia sunt quibus homines facile decipi possunt. Item quod sub habitu religionis decipiant […].</p>
+        <note type="editorial" corresp="#u_70v_006" xml:lang="cs">Biblické odkazy a glosy jsou návrhová rozvedení z obrazu; andělé a roucho mají v autorově polemice konkrétní obraznou úlohu.</note>
+        <p facs="#z_f70v_l038 #z_f70v_l039 #z_f70v_l040 #z_f70v_l041 #z_f70v_l042 #z_f70v_l043 #z_f70v_l044 #z_f70v_l045" xml:id="u_70v_007">Dicit ApocalypsisVI super illud: Et cum aperuisset sigillum quartum, audivi vocem quarti animalis dicentis: Veni et vide. Et ecce equus pallidus; Glossa: Videns diabolus non per apertas tribulationes nec per apertas haereses se posse proficere, praemittit falsos fratres qui sub habitu religionis obtinent habitum iustitiae et […] tantum faciunt persecutionem in ecclesiam quantum fecerunt aperti tyranni quos appellabat rufum equum et aperti haeretici quos appellat nigrum equum. Unde persecutio eorum aequiparabitur illis duabus persecutionibus praefatis. Et ideo quia sub specie pietatis decipient plus poterunt nocere ecclesiae Dei quam alii homines hanc speciem non praetendentes.</p>
+        <note type="editorial" corresp="#u_70v_007" xml:lang="cs">41 silně nejasná spojka i slovní výčet, proto mezera; rámec glosy čitelný. Barevný výklad koní je citovaná středověká exegeze.</note>
+        <p facs="#z_f70v_l046 #z_f70v_l047 #z_f70v_l048 #z_f70v_l049 #z_f70v_l050 #z_f70v_l051 #z_f70v_l052 #z_f70v_l053 #z_f70v_l054 #z_f70v_l055 #z_f70v_l056 #z_f70v_l057 #z_f70v_l058 #z_f70v_l059 #z_f70v_l060 #z_f70v_l061 #z_f70v_l062" xml:id="u_70v_008">[…]</p>
+        <note type="editorial" corresp="#u_70v_008" xml:lang="cs">Nejde o souvislé pokračování hlavního odstavce; ten se vrací63. Raw HTR zachováno.</note>
+        <p facs="#z_f70v_l063 #z_f70v_l064 #z_f70v_l065 #z_f70v_l066 #z_f70v_l067" xml:id="u_70v_009">[…] nemo plus nocet in ecclesia Dei quam qui perverse agens nomen habet sanctitatis vel ordinis. […] possunt praeterea nocere plus quia erunt familiares inimici. Nam fideles […] putabunt eos amicos, recipiendo eos in domibus suis, revelando eis secreta sua per confessiones, accipiendo consilia eorum, ut patebit infra. […] facient quia reputabunt eos amicos. Ipsi autem e contra intendent eos interficere, ut patebit in proximo capitulo.</p>
+        <note type="editorial" corresp="#u_70v_009" xml:lang="cs">Závěrečné řádky63–66 jsou v pásu rozšířeny i přes sousední list; text tohoto listu není přebírán. Úvod citátuŘehoře na45 propojen přes mezery, přesný citát neověřen.</note>
+        <p facs="#z_f70v_l068 #z_f70v_l069 #z_f70v_l070 #z_f70v_l071 #z_f70v_l072 #z_f70v_l073 #z_f70v_l074 #z_f70v_l075 #z_f70v_l076" xml:id="u_70v_010">[…]</p>
+        <note type="editorial" corresp="#u_70v_010" xml:lang="cs">Uříznuté konce jiného textu; nepřipojeny do hlavní argumentace.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_70v_001">A takto to stanoví Gracián,16otázka1: Hle, není pravděpodobné, že by směl smrtelný člověk měnit uvedené přesvaté […], zejména když papež Lev říká […].</p>
+        <p corresp="#u_70v_002">[Okrajová značka.]</p>
+        <p corresp="#u_70v_003">Co bylo obecně uspořádáno k trvalému užitku, nemá se měnit žádnou změnou. Římský biskup tedy nemůže rušit to, co bylo ustanoveno apoštoly a proroky; jinak by byl usvědčen z omylu, jak říká papež Urban […]. Někteří totiž říkají, že by některý smrtelník mohl proměnit či dokonce převrátit božsky uspořádanou přesvatou církevní hierarchii, ačkoli žádnému představenému nebyla dána moc k boření, ale k budování, druhý Korinťanům10. Může-li tedy být kazatelský úřad svěřen jiným než řeholním mužům, z uvedeného se přesto zdá, že při zachování církevní hierarchie jej nelze svěřit řeholním mužům, dokud zůstávají v nižším stupni zdokonalovaných. Vmísí-li se tedy řeholní muži do kázání, zdá se, že k tomu nebyli posláni, a jsou proto falešní. A skrze […] že jsou pronikajícími do domů a falešnými kazateli, vyplývá, že skrze takové nastanou nebezpečné časy […].</p>
+        <p corresp="#u_70v_004">Ke třetímu bodu, jak vhodní a způsobilí budou uvedení nebezpeční lidé k uvádění nebezpečí, apoštol předpovídá, že budou mít zdání zbožnosti; Glosa: to jest řeholního života […], pro což jsou nebezpeční, avšak její sílu, Glosa: to jest lásku, zapírají — ne slovy, ale skutky. Když si totiž přisvojují úřady představených, totiž kázání, napravování a vyslýchání zpovědí, […] skutky zapírají lásku, neboť láska není ctižádostivá, první Korinťanům13. A když nemohou snášet křivdy, jak bude řečeno níže, skutky zapírají lásku, neboť láska je trpělivá […]. […] Mají zdání zbožnosti, ale její sílu zapírají. Že v předstírané řeholnosti klamou činy i slovy, říká Pán v Matouši7: Střezte se falešných proroků, kteří přicházejí […].</p>
+        <p corresp="#u_70v_005">[…] Chodí v pokoře a předstírané řeholnosti; proto se mějte na pozoru, aby vás neroztrhali lichotkami a úklady. Nemá se věřit skutkům, které konají veřejně a které se zdají dobré: činí-li je totiž přetvářkou, […] aby se zdáli svatými, ačkoli nejsou […]. Dále se tamtéž k textu: Po jejich ovoci je poznáte, vykládá: Před lidmi […] když se postí, […] rozdávají almužny; to však nejsou jejich plody, protože se jim to počítá za neřesti […]. Lze je poznat po činech, které neukazují, ale snaží se je skrýt, protože usilují o chválu světa. A že je předstíraná svatost činí důvěrně blízkými, aby klamali jiné […].</p>
+        <p corresp="#u_70v_006">Glosa říká k druhému Korinťanům6: V nepředstírané lásce; Glosa: Falešní předstírají lásku, aby klamali. Druhý Korinťanům11 ke slovům: Neboť takoví jsou falešní apoštolové, lstiví dělníci; Glosa: Prohnaní, kteří klamou pod zástěrkou řeholního života. A Koloským2: Ať vás nikdo nesvede pokorou a náboženstvím andělů; Glosa: Ti, kdo se zdají být jakoby Boží poslové zdáním pokory a řeholnosti; a jsou i jiné věci, jimiž se lidé mohou snadno dát oklamat. Také že klamou pod řeholním rouchem […].</p>
+        <p corresp="#u_70v_007">Apokalypsa6 říká k místu: Když otevřel čtvrtou pečeť, slyšel jsem hlas čtvrté živé bytosti říkat: Pojď a viz. A hle, bledý kůň; Glosa: Když ďábel viděl, že nemůže dosáhnout úspěchu otevřenými souženími ani otevřenými herezemi, vysílá napřed falešné bratry, kteří pod řeholním rouchem získávají zdání spravedlnosti a […] působí církvi tolik pronásledování jako otevření tyrani, které označoval za ryzého koně, a otevření heretici, které označuje za černého koně. Jejich pronásledování se tedy vyrovná oněm dvěma dříve uvedeným. A protože budou klamat pod zdáním zbožnosti, mohou Boží církvi více uškodit než jiní lidé, kteří toto zdání nepředstírají.</p>
+        <p corresp="#u_70v_008">[Uříznuté zlomky sousedního listu vpravo.]</p>
+        <p corresp="#u_70v_009">[…] Nikdo v Boží církvi více neškodí než ten, kdo jedná zvráceně a má pověst svatosti nebo hodnosti. […] Mohou dále více škodit, protože budou důvěrnými nepřáteli. Věrní […] je totiž budou považovat za přátele, přijímat je ve svých domech, zjevovat jim svá tajemství při zpovědích a přijímat jejich rady, jak se ukáže níže. […] Budou tak činit, protože je budou pokládat za přátele. Oni je však naopak budou chtít zahubit, jak se ukáže v následující kapitole.</p>
+        <p corresp="#u_70v_010">[Další okrajové zlomky sousedního listu a značky.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

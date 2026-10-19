@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 165r: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="document-metadata.tei.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_165r">
+      <graphic url="../pages/165r/image.png"/>
+      <zone ulx="1160" uly="217" lrx="1263" lry="270" xml:id="z_f165r_l001"/>
+      <zone ulx="3482" uly="245" lrx="3731" lry="441" xml:id="z_f165r_l002"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f165r_l001" xml:id="catmus_f165r_l001"/>
+          <seg type="raw_unreviewed">9</seg>
+          <lb facs="#z_f165r_l002" xml:id="catmus_f165r_l002"/>
+          <seg type="raw_unreviewed">Iob</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f165r_l001" xml:id="medusa_f165r_l001"/>
+          <seg type="raw_unreviewed">11</seg>
+          <lb facs="#z_f165r_l002" xml:id="medusa_f165r_l002"/>
+          <seg type="raw_unreviewed">166</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f165r_l001" xml:id="u_165r_001">[Materiálová tmavá stopa nebo otvor při horním okraji, nikoli číslice9.]</p>
+        <note type="editorial" corresp="#u_165r_001" xml:lang="cs">Není to řádek souvislého hlavního textu; HTR kandidát není považován za správnou četbu.</note>
+        <p facs="#z_f165r_l002" xml:id="u_165r_002">[Novodobá foliace166.]</p>
+        <note type="editorial" corresp="#u_165r_002" xml:lang="cs">Není to řádek souvislého hlavního textu; HTR kandidát není považován za správnou četbu.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_165r_001">[Bez souvislého překladu.]</p>
+        <p corresp="#u_165r_002">[Bez souvislého překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

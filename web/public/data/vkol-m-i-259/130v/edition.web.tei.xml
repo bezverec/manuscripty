@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 130v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Margarita Decreti. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_130v_coordinate; PNG SHA256 028301340c21483eb171b4ff05e404441a07eba9c1f25d09367fc89aee438c70; archival TIFF SHA256 ade9dd81abca410f47246951330baa1df5ff3f490c3baf4e1c18225430c407cb; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_130v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#130v"/>
+      <zone ulx="996" uly="398" lrx="3573" lry="550" xml:id="z_f130v_l001"/>
+      <zone ulx="977" uly="500" lrx="3096" lry="634" xml:id="z_f130v_l002"/>
+      <zone ulx="3171" uly="528" lrx="3548" lry="653" xml:id="z_f130v_l003"/>
+      <zone ulx="977" uly="594" lrx="3616" lry="746" xml:id="z_f130v_l004"/>
+      <zone ulx="992" uly="678" lrx="3604" lry="849" xml:id="z_f130v_l005"/>
+      <zone ulx="986" uly="765" lrx="3560" lry="939" xml:id="z_f130v_l006"/>
+      <zone ulx="989" uly="868" lrx="3576" lry="1014" xml:id="z_f130v_l007"/>
+      <zone ulx="986" uly="958" lrx="3604" lry="1113" xml:id="z_f130v_l008"/>
+      <zone ulx="3610" uly="967" lrx="3650" lry="1157" xml:id="z_f130v_l009"/>
+      <zone ulx="996" uly="1067" lrx="3650" lry="1200" xml:id="z_f130v_l010"/>
+      <zone ulx="1017" uly="1160" lrx="3598" lry="1291" xml:id="z_f130v_l011"/>
+      <zone ulx="1002" uly="1244" lrx="3576" lry="1387" xml:id="z_f130v_l012"/>
+      <zone ulx="992" uly="1334" lrx="3566" lry="1493" xml:id="z_f130v_l013"/>
+      <zone ulx="992" uly="1434" lrx="3448" lry="1583" xml:id="z_f130v_l014"/>
+      <zone ulx="971" uly="1521" lrx="3510" lry="1680" xml:id="z_f130v_l015"/>
+      <zone ulx="1005" uly="1624" lrx="3613" lry="1760" xml:id="z_f130v_l016"/>
+      <zone ulx="1005" uly="1711" lrx="3576" lry="1860" xml:id="z_f130v_l017"/>
+      <zone ulx="999" uly="1807" lrx="3579" lry="1960" xml:id="z_f130v_l018"/>
+      <zone ulx="1011" uly="1913" lrx="3579" lry="2044" xml:id="z_f130v_l019"/>
+      <zone ulx="1011" uly="2009" lrx="3579" lry="2168" xml:id="z_f130v_l020"/>
+      <zone ulx="1008" uly="2118" lrx="3545" lry="2271" xml:id="z_f130v_l021"/>
+      <zone ulx="986" uly="2218" lrx="3585" lry="2367" xml:id="z_f130v_l022"/>
+      <zone ulx="1011" uly="2320" lrx="3579" lry="2464" xml:id="z_f130v_l023"/>
+      <zone ulx="1005" uly="2417" lrx="3647" lry="2576" xml:id="z_f130v_l024"/>
+      <zone ulx="1020" uly="2513" lrx="3563" lry="2656" xml:id="z_f130v_l025"/>
+      <zone ulx="3691" uly="420" lrx="3881" lry="516" xml:id="z_f130v_l026"/>
+      <zone ulx="3688" uly="479" lrx="3881" lry="603" xml:id="z_f130v_l027"/>
+      <zone ulx="3707" uly="560" lrx="3875" lry="703" xml:id="z_f130v_l028"/>
+      <zone ulx="3781" uly="659" lrx="3840" lry="774" xml:id="z_f130v_l029"/>
+      <zone ulx="3691" uly="768" lrx="3884" lry="892" xml:id="z_f130v_l030"/>
+      <zone ulx="3700" uly="827" lrx="3878" lry="964" xml:id="z_f130v_l031"/>
+      <zone ulx="3753" uly="936" lrx="3787" lry="1060" xml:id="z_f130v_l032"/>
+      <zone ulx="3800" uly="1132" lrx="3834" lry="1238" xml:id="z_f130v_l033"/>
+      <zone ulx="3738" uly="1225" lrx="3875" lry="1340" xml:id="z_f130v_l034"/>
+      <zone ulx="3700" uly="1316" lrx="3875" lry="1440" xml:id="z_f130v_l035"/>
+      <zone ulx="3747" uly="1403" lrx="3797" lry="1571" xml:id="z_f130v_l036"/>
+      <zone ulx="3700" uly="1512" lrx="3868" lry="1630" xml:id="z_f130v_l037"/>
+      <zone ulx="3719" uly="1596" lrx="3822" lry="1732" xml:id="z_f130v_l038"/>
+      <zone ulx="3682" uly="1692" lrx="3856" lry="1835" xml:id="z_f130v_l039"/>
+      <zone ulx="3688" uly="1882" lrx="3884" lry="2016" xml:id="z_f130v_l040"/>
+      <zone ulx="3682" uly="1984" lrx="3884" lry="2106" xml:id="z_f130v_l041"/>
+      <zone ulx="3672" uly="2053" lrx="3887" lry="2187" xml:id="z_f130v_l042"/>
+      <zone ulx="3660" uly="2149" lrx="3878" lry="2286" xml:id="z_f130v_l043"/>
+      <zone ulx="3663" uly="2249" lrx="3884" lry="2367" xml:id="z_f130v_l044"/>
+      <zone ulx="3669" uly="2339" lrx="3878" lry="2492" xml:id="z_f130v_l045"/>
+      <zone ulx="3672" uly="2454" lrx="3840" lry="2557" xml:id="z_f130v_l046"/>
+      <zone ulx="3682" uly="2535" lrx="3859" lry="2653" xml:id="z_f130v_l047"/>
+      <zone ulx="1014" uly="2610" lrx="3868" lry="2750" xml:id="z_f130v_l048"/>
+      <zone ulx="1020" uly="2691" lrx="3560" lry="2865" xml:id="z_f130v_l049"/>
+      <zone ulx="3666" uly="2719" lrx="3868" lry="2843" xml:id="z_f130v_l050"/>
+      <zone ulx="1061" uly="2787" lrx="3875" lry="2961" xml:id="z_f130v_l051"/>
+      <zone ulx="1024" uly="2887" lrx="3613" lry="3061" xml:id="z_f130v_l052"/>
+      <zone ulx="989" uly="2986" lrx="3570" lry="3173" xml:id="z_f130v_l053"/>
+      <zone ulx="3663" uly="2912" lrx="3856" lry="3058" xml:id="z_f130v_l054"/>
+      <zone ulx="3657" uly="3011" lrx="3887" lry="3129" xml:id="z_f130v_l055"/>
+      <zone ulx="1020" uly="3073" lrx="3875" lry="3260" xml:id="z_f130v_l056"/>
+      <zone ulx="1030" uly="3192" lrx="3598" lry="3369" xml:id="z_f130v_l057"/>
+      <zone ulx="1070" uly="3282" lrx="3560" lry="3475" xml:id="z_f130v_l058"/>
+      <zone ulx="1024" uly="3378" lrx="3594" lry="3599" xml:id="z_f130v_l059"/>
+      <zone ulx="1027" uly="3475" lrx="2907" lry="3689" xml:id="z_f130v_l060"/>
+      <zone ulx="1008" uly="3568" lrx="3610" lry="3767" xml:id="z_f130v_l061"/>
+      <zone ulx="3448" uly="3668" lrx="3498" lry="3748" xml:id="z_f130v_l062"/>
+      <zone ulx="1036" uly="3680" lrx="3582" lry="3842" xml:id="z_f130v_l063"/>
+      <zone ulx="1048" uly="3773" lrx="3601" lry="3951" xml:id="z_f130v_l064"/>
+      <zone ulx="1036" uly="3860" lrx="3622" lry="4038" xml:id="z_f130v_l065"/>
+      <zone ulx="3650" uly="3185" lrx="3878" lry="3335" xml:id="z_f130v_l066"/>
+      <zone ulx="3669" uly="3282" lrx="3878" lry="3406" xml:id="z_f130v_l067"/>
+      <zone ulx="3657" uly="3375" lrx="3884" lry="3500" xml:id="z_f130v_l068"/>
+      <zone ulx="3654" uly="3459" lrx="3887" lry="3587" xml:id="z_f130v_l069"/>
+      <zone ulx="3657" uly="3562" lrx="3878" lry="3677" xml:id="z_f130v_l070"/>
+      <zone ulx="3644" uly="3652" lrx="3887" lry="3786" xml:id="z_f130v_l071"/>
+      <zone ulx="3644" uly="3748" lrx="3881" lry="3848" xml:id="z_f130v_l072"/>
+      <zone ulx="3660" uly="3836" lrx="3881" lry="3960" xml:id="z_f130v_l073"/>
+      <zone ulx="3654" uly="3932" lrx="3881" lry="4035" xml:id="z_f130v_l074"/>
+      <zone ulx="1033" uly="3972" lrx="3856" lry="4128" xml:id="z_f130v_l075"/>
+      <zone ulx="1020" uly="4072" lrx="3878" lry="4231" xml:id="z_f130v_l076"/>
+      <zone ulx="1058" uly="4172" lrx="3853" lry="4324" xml:id="z_f130v_l077"/>
+      <zone ulx="1045" uly="4265" lrx="3871" lry="4424" xml:id="z_f130v_l078"/>
+      <zone ulx="1048" uly="4355" lrx="3865" lry="4511" xml:id="z_f130v_l079"/>
+      <zone ulx="1070" uly="4508" lrx="1108" lry="4623" xml:id="z_f130v_l080"/>
+      <zone ulx="1142" uly="4448" lrx="3859" lry="4595" xml:id="z_f130v_l081"/>
+      <zone ulx="1042" uly="4539" lrx="3856" lry="4694" xml:id="z_f130v_l082"/>
+      <zone ulx="1048" uly="4641" lrx="3619" lry="4797" xml:id="z_f130v_l083"/>
+      <zone ulx="1052" uly="4728" lrx="3601" lry="4896" xml:id="z_f130v_l084"/>
+      <zone ulx="1061" uly="4819" lrx="3579" lry="5074" xml:id="z_f130v_l085"/>
+      <zone ulx="3641" uly="4666" lrx="3868" lry="4788" xml:id="z_f130v_l086"/>
+      <zone ulx="3675" uly="4750" lrx="3847" lry="4881" xml:id="z_f130v_l087"/>
+      <zone ulx="3679" uly="4837" lrx="3859" lry="5008" xml:id="z_f130v_l088"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f130v_l001" xml:id="catmus_f130v_l001"/>
+          <seg type="raw_unreviewed">xplicit margaritha decreti Iohĩs clemũuit ꝯpiłata ꝑ frribe</seg>
+          <lb facs="#z_f130v_l002" xml:id="catmus_f130v_l002"/>
+          <seg type="raw_unreviewed">arti orẜĩc p̃dicatoꝵ ꝓm̃aiꝰ dñi pp̃a ⁊ Capellam</seg>
+          <lb facs="#z_f130v_l003" xml:id="catmus_f130v_l003"/>
+          <seg type="raw_unreviewed">decetie</seg>
+          <lb facs="#z_f130v_l004" xml:id="catmus_f130v_l004"/>
+          <seg type="raw_unreviewed">Noͣ rͫ docies iur̃ cñ᷑. he̾tic dc̃ sox nuds u. hetio ẽ qͥfła defide ꝯpiq̃s</seg>
+          <lb facs="#z_f130v_l005" xml:id="catmus_f130v_l005"/>
+          <seg type="raw_unreviewed">gignit iut hesi cħ st adria ͥ ⁊ sabelli liẽ bel sepmu rut i hesi raia mutat</seg>
+          <lb facs="#z_f130v_l006" xml:id="catmus_f130v_l006"/>
+          <seg type="raw_unreviewed">urst̃ adriaui sebellãi ac siłes ut ꝓbau᷑ xxiiii q in hetici . 2c. C</seg>
+          <lb facs="#z_f130v_l007" xml:id="catmus_f130v_l007"/>
+          <seg type="raw_unreviewed">Sabelliam et q abriam et s mecẽdoniaui sedo ͦ ꝓt dicihẽtu / qͥctia</seg>
+          <lb facs="#z_f130v_l008" xml:id="catmus_f130v_l008"/>
+          <seg type="raw_unreviewed">sRytũ sacrã ałr ĩ allig ͭ quũ spt̃ sc̃o sligitut aqͦ sc̾ptũ ẽ. l abecc̃a ũ r̾ce̾</seg>
+          <lb facs="#z_f130v_l009" xml:id="catmus_f130v_l009"/>
+          <seg type="raw_unreviewed"/>
+          <lb facs="#z_f130v_l010" xml:id="catmus_f130v_l010"/>
+          <seg type="raw_unreviewed">ut .xxiiii qii hes 3ͦ mõ di᷑ hetici asacm̃tꝭ ecce ⁊ aqmide fudeliũ diui.</seg>
+          <lb facs="#z_f130v_l011" xml:id="catmus_f130v_l011"/>
+          <seg type="raw_unreviewed">sIsen diuersus ri qͥsdaut un qͥi ꝙ ãt xdmõ di᷑ ħe̾tic lsatͣm̃toꝵ q</seg>
+          <lb facs="#z_f130v_l012" xml:id="catmus_f130v_l012"/>
+          <seg type="raw_unreviewed">lisor ut symonieꝰ qͥ uedit uł eiuit ecc̃iꝰͥ bñfi ᷑ ͥ ͥ seu sac̾iũtil iq ult</seg>
+          <lb facs="#z_f130v_l013" xml:id="catmus_f130v_l013"/>
+          <seg type="raw_unreviewed">ꝑcotũ Qu̾to mõ di᷑ hetic duͦ ĩfu̾e ut he c.i. Nã fruit᷑ de / c̾de̾</seg>
+          <lb facs="#z_f130v_l014" xml:id="catmus_f130v_l014"/>
+          <seg type="raw_unreviewed">ut de rña t̾ni ͭ et si catho. fuut xxiii q raãdo ep̃t xxiii</seg>
+          <lb facs="#z_f130v_l015" xml:id="catmus_f130v_l015"/>
+          <seg type="raw_unreviewed">Aꝑte unde afide catho  ͥ demitus sr̾tic cense C de sũ t̾m ln</seg>
+          <lb facs="#z_f130v_l016" xml:id="catmus_f130v_l016"/>
+          <seg type="raw_unreviewed">Sorte mõ di᷑ hetis qͥ Ronũmn occe p̃mlegiũ asĩus ecc̃iarꝰ cupite pd</seg>
+          <lb facs="#z_f130v_l017" xml:id="catmus_f130v_l017"/>
+          <seg type="raw_unreviewed">aufferre coni xxii di It scissiua ẽ illicita defensio toꝵ ĩ toer</seg>
+          <lb facs="#z_f130v_l018" xml:id="catmus_f130v_l018"/>
+          <seg type="raw_unreviewed">qͦs unitas eẽ d uel sic sasuul ẽillicit / ab bnitate discessꝰ di᷑ ãt</seg>
+          <lb facs="#z_f130v_l019" xml:id="catmus_f130v_l019"/>
+          <seg type="raw_unreviewed">sasuul astissuu ut p̃dixi xxiii qi Sasma differt ãt seisna ab</seg>
+          <lb facs="#z_f130v_l020" xml:id="catmus_f130v_l020"/>
+          <seg type="raw_unreviewed">hesi. qr he̾ẜ ĩ puͣ sui h ꝑu̾sũ degnu quo ħ scisia sĩ sine cẽ</seg>
+          <lb facs="#z_f130v_l021" xml:id="catmus_f130v_l021"/>
+          <seg type="raw_unreviewed">fingit aliruũ h̾esim ut rõe uidea ᷑ ab eccã r̃cessisse xxiiii q iii</seg>
+          <lb facs="#z_f130v_l022" xml:id="catmus_f130v_l022"/>
+          <seg type="raw_unreviewed">Iuter hesi ⁊ scisma uel ẽ diũ ĩter hẽsim ⁊ scissina qͣbs ẽĩt ge</seg>
+          <lb facs="#z_f130v_l023" xml:id="catmus_f130v_l023"/>
+          <seg type="raw_unreviewed">a sp̃eni. qr oĩs hetic/ ẽ saismatic I. ẜuõ quli᷑ u scisma dũaueĩt</seg>
+          <lb facs="#z_f130v_l024" xml:id="catmus_f130v_l024"/>
+          <seg type="raw_unreviewed">nũ ĩt ĩ hesim quti᷑ Et saismatici bolĩtes ecc̃iel di scuid̾e poant</seg>
+          <lb facs="#z_f130v_l025" xml:id="catmus_f130v_l025"/>
+          <seg type="raw_unreviewed">ĩ fide qͦ ad illũ artiłm. ⁊ unã scã catͣ ecc̃a Et ꝙ ip̃i hussibe :</seg>
+          <lb facs="#z_f130v_l026" xml:id="catmus_f130v_l026"/>
+          <seg type="raw_unreviewed">¶i facieb</seg>
+          <lb facs="#z_f130v_l027" xml:id="catmus_f130v_l027"/>
+          <seg type="raw_unreviewed">sihe Cui</seg>
+          <lb facs="#z_f130v_l028" xml:id="catmus_f130v_l028"/>
+          <seg type="raw_unreviewed">apolĩtt</seg>
+          <lb facs="#z_f130v_l029" xml:id="catmus_f130v_l029"/>
+          <seg type="raw_unreviewed">UE</seg>
+          <lb facs="#z_f130v_l030" xml:id="catmus_f130v_l030"/>
+          <seg type="raw_unreviewed">Iquã oxe</seg>
+          <lb facs="#z_f130v_l031" xml:id="catmus_f130v_l031"/>
+          <seg type="raw_unreviewed">de bo</seg>
+          <lb facs="#z_f130v_l032" xml:id="catmus_f130v_l032"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f130v_l033" xml:id="catmus_f130v_l033"/>
+          <seg type="raw_unreviewed">hi</seg>
+          <lb facs="#z_f130v_l034" xml:id="catmus_f130v_l034"/>
+          <seg type="raw_unreviewed">IcC</seg>
+          <lb facs="#z_f130v_l035" xml:id="catmus_f130v_l035"/>
+          <seg type="raw_unreviewed">oiũt</seg>
+          <lb facs="#z_f130v_l036" xml:id="catmus_f130v_l036"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f130v_l037" xml:id="catmus_f130v_l037"/>
+          <seg type="raw_unreviewed">hou̾it e</seg>
+          <lb facs="#z_f130v_l038" xml:id="catmus_f130v_l038"/>
+          <seg type="raw_unreviewed">uithd</seg>
+          <lb facs="#z_f130v_l039" xml:id="catmus_f130v_l039"/>
+          <seg type="raw_unreviewed">seub si</seg>
+          <lb facs="#z_f130v_l040" xml:id="catmus_f130v_l040"/>
+          <seg type="raw_unreviewed">Secue/p</seg>
+          <lb facs="#z_f130v_l041" xml:id="catmus_f130v_l041"/>
+          <seg type="raw_unreviewed">xͣ uo epo</seg>
+          <lb facs="#z_f130v_l042" xml:id="catmus_f130v_l042"/>
+          <seg type="raw_unreviewed">ꝑsistos a</seg>
+          <lb facs="#z_f130v_l043" xml:id="catmus_f130v_l043"/>
+          <seg type="raw_unreviewed">IRcce</seg>
+          <lb facs="#z_f130v_l044" xml:id="catmus_f130v_l044"/>
+          <seg type="raw_unreviewed">s milztũ</seg>
+          <lb facs="#z_f130v_l045" xml:id="catmus_f130v_l045"/>
+          <seg type="raw_unreviewed">hoss suꝑ.2</seg>
+          <lb facs="#z_f130v_l046" xml:id="catmus_f130v_l046"/>
+          <seg type="raw_unreviewed">ꝑ puule</seg>
+          <lb facs="#z_f130v_l047" xml:id="catmus_f130v_l047"/>
+          <seg type="raw_unreviewed">s situe̾t</seg>
+          <lb facs="#z_f130v_l048" xml:id="catmus_f130v_l048"/>
+          <seg type="raw_unreviewed">a ylu̾biãuis i coꝵ ꝑũs opioibi ꝑsciterũt seu ĩ dilami̾t Iħ̃ uti uredieit</seg>
+          <lb facs="#z_f130v_l049" xml:id="catmus_f130v_l049"/>
+          <seg type="raw_unreviewed">letiti ⁊ stismati censendi sũt. ꝑꝑ cor apostasa Ti uet̾itũ as</seg>
+          <lb facs="#z_f130v_l050" xml:id="catmus_f130v_l050"/>
+          <seg type="raw_unreviewed">Iis dclt</seg>
+          <lb facs="#z_f130v_l051" xml:id="catmus_f130v_l051"/>
+          <seg type="raw_unreviewed">tuã. ꝓ filul rĩobe  qr t̾ ͦ ẽ Apostasul .s. ꝑfidie tobe ͦ ⁊ i cl ues eo</seg>
+          <lb facs="#z_f130v_l052" xml:id="catmus_f130v_l052"/>
+          <seg type="raw_unreviewed">litatꝭ ꝑfidie q̃ qͥs r̃̾ced̾it afide. ut Iulio apostala ii.i uii nõ ut</seg>
+          <lb facs="#z_f130v_l053" xml:id="catmus_f130v_l053"/>
+          <seg type="raw_unreviewed">In ole qua qs tnsgdi᷑ spõtiẽa uolũ ͭ ͤ p̃ceptũ ut adĩceuil </seg>
+          <lb facs="#z_f130v_l054" xml:id="catmus_f130v_l054"/>
+          <seg type="raw_unreviewed">natoe.</seg>
+          <lb facs="#z_f130v_l055" xml:id="catmus_f130v_l055"/>
+          <seg type="raw_unreviewed">il fueñt</seg>
+          <lb facs="#z_f130v_l056" xml:id="catmus_f130v_l056"/>
+          <seg type="raw_unreviewed">qui sac̾e caroi obedie qͥłyunt in qͥiii nregłaͥ ͭ qͣ q̾s astatu ix u obsa</seg>
+          <lb facs="#z_f130v_l057" xml:id="catmus_f130v_l057"/>
+          <seg type="raw_unreviewed">sigĩois asup̃te u̾cedit ut cũ apostotat clłe/ mocte r licosiãs ĩ</seg>
+          <lb facs="#z_f130v_l058" xml:id="catmus_f130v_l058"/>
+          <seg type="raw_unreviewed">nis de h heͬl dic ult. ẜ de ultĩa nõ ag᷑ adpñs. pũt ⁊̃ hu</seg>
+          <lb facs="#z_f130v_l059" xml:id="catmus_f130v_l059"/>
+          <seg type="raw_unreviewed">hussite apostati censei r̾cedũt .n. aquoe sideliũ. ꝑ sułue̾ ᷤ</seg>
+          <lb facs="#z_f130v_l060" xml:id="catmus_f130v_l060"/>
+          <seg type="raw_unreviewed">opĩos qͣd qͣ ipu fide catꝭ̾o ͥ use̾ũt raffmãt</seg>
+          <lb facs="#z_f130v_l061" xml:id="catmus_f130v_l061"/>
+          <seg type="raw_unreviewed">Nũc añt ad tangũd̃ ẽ de pẽis he̾ticoꝵ. ꝓqͣ scĩe᷑ ẽ ꝙhe̾tu^ pũit </seg>
+          <lb facs="#z_f130v_l062" xml:id="catmus_f130v_l062"/>
+          <seg type="raw_unreviewed">8e</seg>
+          <lb facs="#z_f130v_l063" xml:id="catmus_f130v_l063"/>
+          <seg type="raw_unreviewed">ot moĩs s. equĩ ͦ ͤ depõitõe r̾ꝵ ciͫ Iablacõe ⁊ militu̾i ꝑsocił E</seg>
+          <lb facs="#z_f130v_l064" xml:id="catmus_f130v_l064"/>
+          <seg type="raw_unreviewed">qũ  q oĩs he̾tio/ sine magnꝰ suie pri mui ͥ/ sine otstꝰ exqũ</seg>
+          <lb facs="#z_f130v_l065" xml:id="catmus_f130v_l065"/>
+          <seg type="raw_unreviewed">tutii ẽ ip̃o mre muoi ꝯqoe de ħr. udabolendi. Nõ obsc̃m distiõa</seg>
+          <lb facs="#z_f130v_l066" xml:id="catmus_f130v_l066"/>
+          <seg type="raw_unreviewed">sui sretia</seg>
+          <lb facs="#z_f130v_l067" xml:id="catmus_f130v_l067"/>
+          <seg type="raw_unreviewed">MiHer</seg>
+          <lb facs="#z_f130v_l068" xml:id="catmus_f130v_l068"/>
+          <seg type="raw_unreviewed">sofuerĩt.</seg>
+          <lb facs="#z_f130v_l069" xml:id="catmus_f130v_l069"/>
+          <seg type="raw_unreviewed">p̃ aũt se ̃ de</seg>
+          <lb facs="#z_f130v_l070" xml:id="catmus_f130v_l070"/>
+          <seg type="raw_unreviewed">aꝭ helus</seg>
+          <lb facs="#z_f130v_l071" xml:id="catmus_f130v_l071"/>
+          <seg type="raw_unreviewed">hi d fensões</seg>
+          <lb facs="#z_f130v_l072" xml:id="catmus_f130v_l072"/>
+          <seg type="raw_unreviewed">sebes ut.</seg>
+          <lb facs="#z_f130v_l073" xml:id="catmus_f130v_l073"/>
+          <seg type="raw_unreviewed">pãsii ĩle</seg>
+          <lb facs="#z_f130v_l074" xml:id="catmus_f130v_l074"/>
+          <seg type="raw_unreviewed">i9silul n ͨ</seg>
+          <lb facs="#z_f130v_l075" xml:id="catmus_f130v_l075"/>
+          <seg type="raw_unreviewed">legali q̃ ut maiees ⁊ iides lreticos uidẽ uelle distĩgne c dehẽ ablia i</seg>
+          <lb facs="#z_f130v_l076" xml:id="catmus_f130v_l076"/>
+          <seg type="raw_unreviewed">Sepõĩtõe qr siue sit cl̾ic̾ ^ sine luidi p̃p uł iuꝑꝑa ͣ ͤ tł q̾l ĩ fi̾or de pqĩ ltite A</seg>
+          <lb facs="#z_f130v_l077" xml:id="catmus_f130v_l077"/>
+          <seg type="raw_unreviewed">d ab oiͣ digi ͭ ͤ di pl si i Clerins pͥus abordib de g̃dati sclirp iqsi sor</seg>
+          <lb facs="#z_f130v_l078" xml:id="catmus_f130v_l078"/>
+          <seg type="raw_unreviewed">uelinquanr arbitõ ptũ. arudũsiõe debitit pinendi et sit ec̃a cͣdit eel iud</seg>
+          <lb facs="#z_f130v_l079" xml:id="catmus_f130v_l079"/>
+          <seg type="raw_unreviewed">clitũ depoitũ Qu̾ie stla̾i s. relinqũdo ip̃m ut p̃al cadabolũ dd giibell</seg>
+          <lb facs="#z_f130v_l080" xml:id="catmus_f130v_l080"/>
+          <seg type="raw_unreviewed">3</seg>
+          <lb facs="#z_f130v_l081" xml:id="catmus_f130v_l081"/>
+          <seg type="raw_unreviewed">i Qau̾ no ĩ uẽti suerĩt dehe si sola suspitõe nõblẽs. n adarbibͥũ inta fũu</seg>
+          <lb facs="#z_f130v_l082" xml:id="catmus_f130v_l082"/>
+          <seg type="raw_unreviewed">cũi se p̃gaueñt slłi sui subiatebt ut p̃ alc adeabolũdũ Larsaftͥ ibũ</seg>
+          <lb facs="#z_f130v_l083" xml:id="catmus_f130v_l083"/>
+          <seg type="raw_unreviewed">de suna excon ut fame ĩ siie. Milicõi ꝑsecutor qr si alr̃ sĩ nõ</seg>
+          <lb facs="#z_f130v_l084" xml:id="catmus_f130v_l084"/>
+          <seg type="raw_unreviewed">ut milũ armmiita Liuilitii sũt eis oĩ bon̾a apñda. r. he̾tia</seg>
+          <lb facs="#z_f130v_l085" xml:id="catmus_f130v_l085"/>
+          <seg type="raw_unreviewed">nõ Ine ꝓñt possile Iue mlłius qr2ͫ.l.ᵈ Anffẽt᷑ abbr̃ꝙ di ⁊ dibi</seg>
+          <lb facs="#z_f130v_l086" xml:id="catmus_f130v_l086"/>
+          <seg type="raw_unreviewed">q añt</seg>
+          <lb facs="#z_f130v_l087" xml:id="catmus_f130v_l087"/>
+          <seg type="raw_unreviewed">nsi dsi</seg>
+          <lb facs="#z_f130v_l088" xml:id="catmus_f130v_l088"/>
+          <seg type="raw_unreviewed">alib cc̃</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f130v_l001" xml:id="medusa_f130v_l001"/>
+          <seg type="raw_unreviewed">Explicit Margaritha decreti Johannis Clementis appilata per fratrem</seg>
+          <lb facs="#z_f130v_l002" xml:id="medusa_f130v_l002"/>
+          <seg type="raw_unreviewed">Martini ordinis predicatorum primarium domini papa et capellani</seg>
+          <lb facs="#z_f130v_l003" xml:id="medusa_f130v_l003"/>
+          <seg type="raw_unreviewed">dehetic</seg>
+          <lb facs="#z_f130v_l004" xml:id="medusa_f130v_l004"/>
+          <seg type="raw_unreviewed">Noͣ 2ᵐ docues nũr canᶜⁱ. heͥetici dr̃ sex modꝭ uͥ heͥetici t̃ qͥ flaz de fide apĩo</seg>
+          <lb facs="#z_f130v_l005" xml:id="medusa_f130v_l005"/>
+          <seg type="raw_unreviewed">gignit inter h̃es scilicet adriani et sabelli nec uel sequi ut a h̃es inrahũ mutar̃</seg>
+          <lb facs="#z_f130v_l006" xml:id="medusa_f130v_l006"/>
+          <seg type="raw_unreviewed">ut sancti adriani rebellum ac silens ut probant xxiiii qui hetic . etc.</seg>
+          <lb facs="#z_f130v_l007" xml:id="medusa_f130v_l007"/>
+          <seg type="raw_unreviewed">Sabbatiani et G. Adriani et G. Mecedoniani secundo prout dici habent contra</seg>
+          <lb facs="#z_f130v_l008" xml:id="medusa_f130v_l008"/>
+          <seg type="raw_unreviewed">scpturã sacrã illũr ĩtellegᵗ quã spc̃ sc̃o flugitat a qͦ scͥpt᷑a ẽ. s ab ecc̃a ñ r̾ceꝭ</seg>
+          <lb facs="#z_f130v_l009" xml:id="medusa_f130v_l009"/>
+          <seg type="raw_unreviewed">sin</seg>
+          <lb facs="#z_f130v_l010" xml:id="medusa_f130v_l010"/>
+          <seg type="raw_unreviewed">ut xxiiii qui heẜ 3ᵒ mo di᷑ heretici a sacrm̃tꝭ ecc̃e ⁊ a ꝯmune fideiũ dmi</seg>
+          <lb facs="#z_f130v_l011" xml:id="medusa_f130v_l011"/>
+          <seg type="raw_unreviewed">sen diversis 2m qͦsdam ut iii 5 1 M̃t Xᵒ moͣ di᷑ h̾etici sat̃icatorꝭ</seg>
+          <lb facs="#z_f130v_l012" xml:id="medusa_f130v_l012"/>
+          <seg type="raw_unreviewed">user ut symonius q̃ uendidit uel emit ecc̃iꝰ bñfiꝰ seu sacͤr̃uta 19 ult̃</seg>
+          <lb facs="#z_f130v_l013" xml:id="medusa_f130v_l013"/>
+          <seg type="raw_unreviewed">per totum Quinto nostro dicitur hereticus dux infide ut hec c . i . nam fuerunt de cede</seg>
+          <lb facs="#z_f130v_l014" xml:id="medusa_f130v_l014"/>
+          <seg type="raw_unreviewed">ut de trinitate et si catho. finitꝰ xxiii q. Bernardo episcopo xxiiii.</seg>
+          <lb facs="#z_f130v_l015" xml:id="medusa_f130v_l015"/>
+          <seg type="raw_unreviewed">Apte / unde a fide cathoꝵ derutus heͥticus cense᷑ C de sũ t̾m l</seg>
+          <lb facs="#z_f130v_l016" xml:id="medusa_f130v_l016"/>
+          <seg type="raw_unreviewed">sexto mo dicit hereticos / q̃ Romanii ecc̃e p̃rogatiũ a summo ecc̃iastical capite</seg>
+          <lb facs="#z_f130v_l017" xml:id="medusa_f130v_l017"/>
+          <seg type="raw_unreviewed">nifferre teni᷑ xxii d. ¶ 12 It scissum ẽ illicita defenso corpꝰ tor</seg>
+          <lb facs="#z_f130v_l018" xml:id="medusa_f130v_l018"/>
+          <seg type="raw_unreviewed">qͦs unitas eẽ d uel sic scisima ẽ uł sic̃it / ab unitate disscessi / drᵃ. ẽ</seg>
+          <lb facs="#z_f130v_l019" xml:id="medusa_f130v_l019"/>
+          <seg type="raw_unreviewed">scisma ascissum ut predixi xxiiii q. scisma differt aut scisma ab</seg>
+          <lb facs="#z_f130v_l020" xml:id="medusa_f130v_l020"/>
+          <seg type="raw_unreviewed">he᷑si qr heꝭ ĩ pu᷑ sui h ꝑ u̾sũ regina quõ h scisima s ĩ fine cõ</seg>
+          <lb facs="#z_f130v_l021" xml:id="medusa_f130v_l021"/>
+          <seg type="raw_unreviewed">singit aliquũ h̃esim ut r̃ce uidear ab eccã r̃cessisse xxiiii. in</seg>
+          <lb facs="#z_f130v_l022" xml:id="medusa_f130v_l022"/>
+          <seg type="raw_unreviewed">inter hec stissima / vel ẽ dñi ĩter hec sum ⁊ scissima qͥbꝰ ẽ ĩt̃ ge</seg>
+          <lb facs="#z_f130v_l023" xml:id="medusa_f130v_l023"/>
+          <seg type="raw_unreviewed">⁊ sp̃em. qr oĩs he̾ticꝰ ẽ scismaticꝰ 1. s nõ ꝯu̾ti᷑ uͥ scisma diu̾tneius</seg>
+          <lb facs="#z_f130v_l024" xml:id="medusa_f130v_l024"/>
+          <seg type="raw_unreviewed">nũ t̃t ĩ hesum ꝯu̾ti . Et scismatici uolũtes ecc̃iaꝵ d̃e scind̃e pot̃runt</seg>
+          <lb facs="#z_f130v_l025" xml:id="medusa_f130v_l025"/>
+          <seg type="raw_unreviewed">ĩ fide qͥ ad illũ articulũ . 2 unam sanctã catͣa eccã Et q̃ ipsi habussite</seg>
+          <lb facs="#z_f130v_l026" xml:id="medusa_f130v_l026"/>
+          <seg type="raw_unreviewed">sunt sacri</seg>
+          <lb facs="#z_f130v_l027" xml:id="medusa_f130v_l027"/>
+          <seg type="raw_unreviewed">sticione Que</seg>
+          <lb facs="#z_f130v_l028" xml:id="medusa_f130v_l028"/>
+          <seg type="raw_unreviewed">hoͤrsolunt</seg>
+          <lb facs="#z_f130v_l029" xml:id="medusa_f130v_l029"/>
+          <seg type="raw_unreviewed">u e</seg>
+          <lb facs="#z_f130v_l030" xml:id="medusa_f130v_l030"/>
+          <seg type="raw_unreviewed">usquam ex</seg>
+          <lb facs="#z_f130v_l031" xml:id="medusa_f130v_l031"/>
+          <seg type="raw_unreviewed">licorum de W</seg>
+          <lb facs="#z_f130v_l032" xml:id="medusa_f130v_l032"/>
+          <seg type="raw_unreviewed">eill</seg>
+          <lb facs="#z_f130v_l033" xml:id="medusa_f130v_l033"/>
+          <seg type="raw_unreviewed">in</seg>
+          <lb facs="#z_f130v_l034" xml:id="medusa_f130v_l034"/>
+          <seg type="raw_unreviewed">corporis</seg>
+          <lb facs="#z_f130v_l035" xml:id="medusa_f130v_l035"/>
+          <seg type="raw_unreviewed">le exquint</seg>
+          <lb facs="#z_f130v_l036" xml:id="medusa_f130v_l036"/>
+          <seg type="raw_unreviewed">11</seg>
+          <lb facs="#z_f130v_l037" xml:id="medusa_f130v_l037"/>
+          <seg type="raw_unreviewed">lexovit et</seg>
+          <lb facs="#z_f130v_l038" xml:id="medusa_f130v_l038"/>
+          <seg type="raw_unreviewed">oitho</seg>
+          <lb facs="#z_f130v_l039" xml:id="medusa_f130v_l039"/>
+          <seg type="raw_unreviewed">gheins si</seg>
+          <lb facs="#z_f130v_l040" xml:id="medusa_f130v_l040"/>
+          <seg type="raw_unreviewed">dencur</seg>
+          <lb facs="#z_f130v_l041" xml:id="medusa_f130v_l041"/>
+          <seg type="raw_unreviewed">p̃e nõ ep̃oꝵ</seg>
+          <lb facs="#z_f130v_l042" xml:id="medusa_f130v_l042"/>
+          <seg type="raw_unreviewed">perustos c̃</seg>
+          <lb facs="#z_f130v_l043" xml:id="medusa_f130v_l043"/>
+          <seg type="raw_unreviewed">sita eccarꝭ</seg>
+          <lb facs="#z_f130v_l044" xml:id="medusa_f130v_l044"/>
+          <seg type="raw_unreviewed">na martini</seg>
+          <lb facs="#z_f130v_l045" xml:id="medusa_f130v_l045"/>
+          <seg type="raw_unreviewed">dice / in suꝑ. 2</seg>
+          <lb facs="#z_f130v_l046" xml:id="medusa_f130v_l046"/>
+          <seg type="raw_unreviewed">tres personas</seg>
+          <lb facs="#z_f130v_l047" xml:id="medusa_f130v_l047"/>
+          <seg type="raw_unreviewed">des hituͥe to</seg>
+          <lb facs="#z_f130v_l048" xml:id="medusa_f130v_l048"/>
+          <seg type="raw_unreviewed">q̃ pluꝰbꝰ anĩs ĩ eoꝵ ꝑu̾sꝰ opĩõibꝰ ꝑsciterũt seu ĩdũamũt hꝰ rei</seg>
+          <lb facs="#z_f130v_l049" xml:id="medusa_f130v_l049"/>
+          <seg type="raw_unreviewed">heretici et scismati censendi sunt . propter eoꝵ apostasiam et in ueteritum ap</seg>
+          <lb facs="#z_f130v_l050" xml:id="medusa_f130v_l050"/>
+          <seg type="raw_unreviewed">saluqͦs d̃tlt</seg>
+          <lb facs="#z_f130v_l051" xml:id="medusa_f130v_l051"/>
+          <seg type="raw_unreviewed">tiũã ꝑ fr̾ut ⁊ ĩ obeᵐ / qr t̾ꝭ ẽ Apostasia .s. ꝑfidie obediᵉ ⁊ irrȩgła</seg>
+          <lb facs="#z_f130v_l052" xml:id="medusa_f130v_l052"/>
+          <seg type="raw_unreviewed">ritatꝭ ꝑfidie q̃ qͥs recedit a fide ut in lioꝰ apostata .ii. qͥui nõ pc̃</seg>
+          <lb facs="#z_f130v_l053" xml:id="medusa_f130v_l053"/>
+          <seg type="raw_unreviewed">in obe̾ quia qͥs tͣnsigd᷑ spontanea uolũtate p̃ceptũ ut adĩreunt et</seg>
+          <lb facs="#z_f130v_l054" xml:id="medusa_f130v_l054"/>
+          <seg type="raw_unreviewed">insatos .I.</seg>
+          <lb facs="#z_f130v_l055" xml:id="medusa_f130v_l055"/>
+          <seg type="raw_unreviewed">dñz suent</seg>
+          <lb facs="#z_f130v_l056" xml:id="medusa_f130v_l056"/>
+          <seg type="raw_unreviewed">qui sacris canonicis obedire contempnunt inquam irregulares qui quasi a statu re</seg>
+          <lb facs="#z_f130v_l057" xml:id="medusa_f130v_l057"/>
+          <seg type="raw_unreviewed">legionis a sumpte rcedit ut cũ apostolat cl̃icꝰ / mochꝰ r̃ligiosꝰ aͥs ñ</seg>
+          <lb facs="#z_f130v_l058" xml:id="medusa_f130v_l058"/>
+          <seg type="raw_unreviewed">p̃s de hᶜ he᷑ l di c ult. ẜ de.᷑ ultima nõ at᷑ ad pñs. pñt ⁊ in</seg>
+          <lb facs="#z_f130v_l059" xml:id="medusa_f130v_l059"/>
+          <seg type="raw_unreviewed">huiusmodi apostati censerunt recederunt n . a minione fidelium per singulos</seg>
+          <lb facs="#z_f130v_l060" xml:id="medusa_f130v_l060"/>
+          <seg type="raw_unreviewed">opios qe q ip̃a fidei cathoⁿⁱ uidunt raffumant</seg>
+          <lb facs="#z_f130v_l061" xml:id="medusa_f130v_l061"/>
+          <seg type="raw_unreviewed">Nũc autem cis tangũd̃ ẽ de peit̃ her̃ticoꝵ. ꝑ qͦ scie᷑/ ẽ ꝙ he̾tuꝰ pũit᷑</seg>
+          <lb facs="#z_f130v_l062" xml:id="medusa_f130v_l062"/>
+          <seg type="raw_unreviewed">de</seg>
+          <lb facs="#z_f130v_l063" xml:id="medusa_f130v_l063"/>
+          <seg type="raw_unreviewed">cor moĩs scilicet ex ꝯmune deposicione r̃ꝵ oꝵ ablacione ⁊ militum ꝑsecucione Ex</seg>
+          <lb facs="#z_f130v_l064" xml:id="medusa_f130v_l064"/>
+          <seg type="raw_unreviewed">ꝯmune qr om̃s he̾ticos sine magiis sine puꝰ numꝰ sine oculis exqũ</seg>
+          <lb facs="#z_f130v_l065" xml:id="medusa_f130v_l065"/>
+          <seg type="raw_unreviewed">catis ẽ ipso iure maiori exposicione de hec nondobolendum . Non obstantibus distinc</seg>
+          <lb facs="#z_f130v_l066" xml:id="medusa_f130v_l066"/>
+          <seg type="raw_unreviewed">hretica</seg>
+          <lb facs="#z_f130v_l067" xml:id="medusa_f130v_l067"/>
+          <seg type="raw_unreviewed">fictiliter ex</seg>
+          <lb facs="#z_f130v_l068" xml:id="medusa_f130v_l068"/>
+          <seg type="raw_unreviewed">voluert</seg>
+          <lb facs="#z_f130v_l069" xml:id="medusa_f130v_l069"/>
+          <seg type="raw_unreviewed">hùt mūt se͛ d</seg>
+          <lb facs="#z_f130v_l070" xml:id="medusa_f130v_l070"/>
+          <seg type="raw_unreviewed">ref he</seg>
+          <lb facs="#z_f130v_l071" xml:id="medusa_f130v_l071"/>
+          <seg type="raw_unreviewed">les defensoͬes</seg>
+          <lb facs="#z_f130v_l072" xml:id="medusa_f130v_l072"/>
+          <seg type="raw_unreviewed">nũbes ut</seg>
+          <lb facs="#z_f130v_l073" xml:id="medusa_f130v_l073"/>
+          <seg type="raw_unreviewed">fit in sin nũ</seg>
+          <lb facs="#z_f130v_l074" xml:id="medusa_f130v_l074"/>
+          <seg type="raw_unreviewed">legula etc.</seg>
+          <lb facs="#z_f130v_l075" xml:id="medusa_f130v_l075"/>
+          <seg type="raw_unreviewed">legali q̃ młt mudos ⁊ mudos he̾ticos uide̾ nelle distĩgne c dehe</seg>
+          <lb facs="#z_f130v_l076" xml:id="medusa_f130v_l076"/>
+          <seg type="raw_unreviewed">Depoicione quia sine sit clericus sine licerii p̃ uł imperioꝵ eccl̃ quolibet in foro de poĩ</seg>
+          <lb facs="#z_f130v_l077" xml:id="medusa_f130v_l077"/>
+          <seg type="raw_unreviewed">d ab orii dignit̃e di xl di pp̃ clerico uoͥ p̃ns abordib de gdati scłarꝭ</seg>
+          <lb facs="#z_f130v_l078" xml:id="medusa_f130v_l078"/>
+          <seg type="raw_unreviewed">relinquuntur arbitrio partiis a nundinacione debita punendi / et sic eca tradit</seg>
+          <lb facs="#z_f130v_l079" xml:id="medusa_f130v_l079"/>
+          <seg type="raw_unreviewed">clericum depositum / quomodo scilicet s . relinquendo ipsum ut p̃al c ad abolundam . Si tabell</seg>
+          <lb facs="#z_f130v_l080" xml:id="medusa_f130v_l080"/>
+          <seg type="raw_unreviewed">5</seg>
+          <lb facs="#z_f130v_l081" xml:id="medusa_f130v_l081"/>
+          <seg type="raw_unreviewed">Quin noͣ ĩ uẽti fuerĩt deheͥ si sola suspicõe nobles̃ . uͥ ad arbit̃m iurato dñm</seg>
+          <lb facs="#z_f130v_l082" xml:id="medusa_f130v_l082"/>
+          <seg type="raw_unreviewed">epi se p̃garuerit silĩ suũ submicebit ut p̃al c ad abolendum hanc offiꝰ et hãc</seg>
+          <lb facs="#z_f130v_l083" xml:id="medusa_f130v_l083"/>
+          <seg type="raw_unreviewed">de summa excon. ut fame in fine. Milicori persecucione q. si alter si. non</seg>
+          <lb facs="#z_f130v_l084" xml:id="medusa_f130v_l084"/>
+          <seg type="raw_unreviewed">pt̃ mat̃ armata et milita᷑ sũt eis om̃ia bona affe̾nda . 12. h̃etici</seg>
+          <lb facs="#z_f130v_l085" xml:id="medusa_f130v_l085"/>
+          <seg type="raw_unreviewed">nõ iure p̃nt posside̾ / iure nulli nō / qr 2.ᵐ iᵈ Auffe̾t abb̃ r̃gꝰ di᷑ ⁊ dabi</seg>
+          <lb facs="#z_f130v_l086" xml:id="medusa_f130v_l086"/>
+          <seg type="raw_unreviewed">sq aũt</seg>
+          <lb facs="#z_f130v_l087" xml:id="medusa_f130v_l087"/>
+          <seg type="raw_unreviewed">usq ad so</seg>
+          <lb facs="#z_f130v_l088" xml:id="medusa_f130v_l088"/>
+          <seg type="raw_unreviewed">luntibus ecclesie</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f130v_l001 #z_f130v_l002 #z_f130v_l003" xml:id="u_130v_001">Explicit Margaritha decreti Iohannis [Clementis?], compilata per fratrem Martinum ordinis predicatorum, penitentiarium domini pape et capellanum. [Vpravo: decretist…?]</p>
+        <note type="editorial" corresp="#u_130v_001" xml:lang="cs">Explicit důležitý pro identifikaci díla; slovo po Iohannis není bezpečně rozluštěno. Identifikaci nepřebírám jako jistou z HTR nebo katalogu. Segment3 je dodatečný pravý okraj.</note>
+        <p facs="#z_f130v_l004 #z_f130v_l005 #z_f130v_l006" xml:id="u_130v_002">Nota secundum doctores iuris canonici: heretici dicuntur sex modis. Uno modo hereticus est qui falsam de fide opinionem gignit, aut heresi credit ut Arriani et Sabellii; vel sequitur aut in heresim […] mutat, ut sunt Arriani, Sabelliani ac similes, ut probatur XXIIII q. III Heretici et c. […]</p>
+        <note type="editorial" corresp="#u_130v_002" xml:lang="cs">Jedna vazba o přechodu k herezi nejasná. Historická právní klasifikace, nikoli vlastní hodnocení dnešních skupin.</note>
+        <p facs="#z_f130v_l007 #z_f130v_l008" xml:id="u_130v_003">Sabelliani et Arriani et Macedoniani. Secundo modo potest dici hereticus qui scripturam sacram aliter intelligit quam Spiritus Sanctus flagitat, a quo scripta est, et hoc ab ecclesia non receperit […].</p>
+        <note type="editorial" corresp="#u_130v_003" xml:lang="cs">Přechod mezi odkazy a druhým bodem není celý jasný.</note>
+        <p facs="#z_f130v_l009 #z_f130v_l010 #z_f130v_l011 #z_f130v_l012" xml:id="u_130v_004">XXIIII q. III […]. Tertio modo dicitur hereticus a sacramentis ecclesie et communione fidelium divisus seu diversus; ut quidam […]. Quarto modo dicitur hereticus sacramentorum dissipator, ut symoniacus qui vendit vel emit ecclesiasticum beneficium seu sacramentum. I q. ultima […].</p>
+        <note type="editorial" corresp="#u_130v_004" xml:lang="cs">Segment9 úzký prázdný/materiálový okraj, nepřidává slovo. Pojmenování čtvrtého způsobu a citace pracovní.</note>
+        <p facs="#z_f130v_l013 #z_f130v_l014 #z_f130v_l015 #z_f130v_l016" xml:id="u_130v_005">Quinto modo dicitur hereticus dubius in fide, ut hic c. I. Nam fruitur […] credere ut de summa trinitate et fide catholica […]. XXIII q. I […]. Aperte unde a fide catholica devius […] censetur. C. de summa trinitate […]. Sexto modo dicitur hereticus qui Romanam ecclesiam privilegio a ceterarum ecclesiarum capite […]</p>
+        <note type="editorial" corresp="#u_130v_005" xml:lang="cs">Poslední sloveso pokračuje17, v překladu doplněno z navazujícího textu; část citací13–15 neúplná.</note>
+        <p facs="#z_f130v_l017 #z_f130v_l018 #z_f130v_l019 #z_f130v_l020 #z_f130v_l021" xml:id="u_130v_006">Auferre conatur. XXII di. […] Schisma est illicita divisio eorum inter quos unitas esse debet; vel sic: schisma est illicitus ab unitate discessus. Dicitur autem schisma a scissura, ut predictum. XXIIII q. I […]. Differt autem schisma ab heresi, quia heresis in principio sui habet perversum dogma quod non habet schisma, sed in fine tamen fingit aliquam heresim ut ratione videatur ab ecclesia recessisse. XXIIII q. III […].</p>
+        <note type="editorial" corresp="#u_130v_006" xml:lang="cs">Souvislá pracovní četba, některé členy definice a číslování ověřit.</note>
+        <p facs="#z_f130v_l022 #z_f130v_l023 #z_f130v_l024 #z_f130v_l025" xml:id="u_130v_007">Inter heresim et schisma vel est differentia inter heresim et schisma quasi inter genus et speciem, quia omnis hereticus est schismaticus sed non convertitur; et si schisma duraverit non in heresim convertitur. Et schismatici volentes ecclesiam scindere peccant in fide quoad illum articulum: Et unam sanctam catholicam ecclesiam. Et quia ipsi Hussite […]</p>
+        <note type="editorial" corresp="#u_130v_007" xml:lang="cs">Negace non v24 může být špatné čtení; výslovně nejistá proti logice předchozí argumentace, neopravena potichu. Vyjádření o husitech je polemický soud autora rukopisu.</note>
+        <p facs="#z_f130v_l026 #z_f130v_l027 #z_f130v_l028 #z_f130v_l029 #z_f130v_l030 #z_f130v_l031 #z_f130v_l032 #z_f130v_l033 #z_f130v_l034 #z_f130v_l035 #z_f130v_l036 #z_f130v_l037 #z_f130v_l038 #z_f130v_l039 #z_f130v_l040 #z_f130v_l041 #z_f130v_l042 #z_f130v_l043 #z_f130v_l044 #z_f130v_l045 #z_f130v_l046 #z_f130v_l047" xml:id="u_130v_008">[Úzké fragmenty protější strany.]</p>
+        <note type="editorial" corresp="#u_130v_008" xml:lang="cs">Rozlišení geometrií a náhledem; ne úplná četba cizího pruhu.</note>
+        <p facs="#z_f130v_l048 #z_f130v_l049" xml:id="u_130v_009">[…] et [Wiclefiani?] in eorum perversis opinionibus persisterent seu indurarent se, […] heretici et schismatici censendi sunt propter eorum apostasiam.</p>
+        <note type="editorial" corresp="#u_130v_009" xml:lang="cs">Jméno skupiny a slovesné tvary nejisté; polemická dobová charakteristika.48 obsahuje připojený cizí pravý okraj.</note>
+        <p facs="#z_f130v_l050" xml:id="u_130v_010">[Fragment protější strany.]</p>
+        <p facs="#z_f130v_l051 #z_f130v_l052 #z_f130v_l053" xml:id="u_130v_011">Tu […] Pro finali […] quia triplex est apostasia, scilicet perfidie, inobedientie et irregularitatis. Perfidie quando quis recedit a fide, ut Iulianus apostata. XI q. IIII […]. Inobedientie quando quis transgreditur spontanea voluntate preceptum, ut Adam et Eva […].</p>
+        <note type="editorial" corresp="#u_130v_011" xml:lang="cs">První slova51 a přesné názvy kategorií pracovní.</note>
+        <p facs="#z_f130v_l054 #z_f130v_l055" xml:id="u_130v_012">[Fragmenty protější strany.]</p>
+        <p facs="#z_f130v_l056 #z_f130v_l057 #z_f130v_l058 #z_f130v_l059 #z_f130v_l060" xml:id="u_130v_013">[…] qui sacris canonibus obedire […] I q. IIII […]. Irregularitatis quando quis a statu vel observantia religionis assumpte recedit, ut cum apostatat clericus, monachus, religiosus […]. De hereticis c. ultima. Sed de ultima non agitur ad presens. Possunt etiam huiusmodi Hussite apostate censeri: recedunt enim a communione fidelium per suas perversas opiniones quas contra ipsam fidem catholicam asserunt et affirmant.</p>
+        <note type="editorial" corresp="#u_130v_013" xml:lang="cs">Dobová protihusitská argumentace doslovně přeložená, není to vlastní historický soud asistenta.56 připojuje cizí pruh.</note>
+        <p facs="#z_f130v_l061 #z_f130v_l062 #z_f130v_l063 #z_f130v_l064 #z_f130v_l065" xml:id="u_130v_014">Nunc autem tangendum est de penis hereticorum. Pro quo sciendum est quod hereticus punitur octo modis, scilicet excommunicatione, depositione, rerum civilium ablatione et militari persecutione. Excommunicatione, quod omnis hereticus sive magnus sive parvus sive occultus excommunicatus est ipso iure maiori excommunicatione. De hereticis Ad abolendam. Non obstat distinctio […].</p>
+        <note type="editorial" corresp="#u_130v_014" xml:lang="cs">Číslovka první věty podle obrazu octo?, zatím uvedeny čtyři typy; není harmonizováno.62 úzký materiálový segment. Historické represivní předpisy.</note>
+        <p facs="#z_f130v_l066 #z_f130v_l067 #z_f130v_l068 #z_f130v_l069 #z_f130v_l070 #z_f130v_l071 #z_f130v_l072 #z_f130v_l073 #z_f130v_l074" xml:id="u_130v_015">[Úzké fragmenty protější strany.]</p>
+        <p facs="#z_f130v_l075 #z_f130v_l076 #z_f130v_l077 #z_f130v_l078 #z_f130v_l079" xml:id="u_130v_016">[…] legali que inter maiores et minores hereticos videtur velle distinguere. C. de hereticis […]. Depositione: quia sive sit clericus sive laicus, princeps vel imperator, vel quicumque inferior […], debet ab omni dignitate deponi. Si clericus prius ab ordinibus degradatus seculari […] relinquatur arbitrio potestatis, animadversione debita puniendus. Et sic ecclesia tradit vel iudicat clericum depositum curie seculari, scilicet relinquendo ipsum, ut patet Ad abolendam […].</p>
+        <note type="editorial" corresp="#u_130v_016" xml:lang="cs">Pasáž75–79 má připojený cizí pravý pruh; hlavní právní výklad čitelný s dílčími mezerami. Historické násilí, bez vlastního schvalování.</note>
+        <p facs="#z_f130v_l080 #z_f130v_l081 #z_f130v_l082" xml:id="u_130v_017">[Okrajová číslice.] Qui non inventi fuerint de heresi, sola suspicione notabiles, nisi ad arbitrium iuxta suspicionis […] se purgaverint, gladio […] subiacebunt, ut patet Ad abolendam et […]</p>
+        <note type="editorial" corresp="#u_130v_017" xml:lang="cs">Podmínky očištění a sankce nejsou celé rozluštěny; překlad gladio je pracovní čtení, může jít o jiný výraz.81–82 mají cizí pravý pruh.</note>
+        <p facs="#z_f130v_l083 #z_f130v_l084 #z_f130v_l085" xml:id="u_130v_018">De sententia excommunicationis Ut fame […]. Militari persecutione: quia si aliter […] non […], manu armata […]. Auferenda sunt eis omnia bona, quia heretici non iure possunt possidere. Iure militum […]. Auferuntur ab eis […] debiti […].</p>
+        <note type="editorial" corresp="#u_130v_018" xml:lang="cs">Závěr pokračuje131r. Historický represivní text; podmínky ozbrojeného zásahu jen fragmentárně čteny.</note>
+        <p facs="#z_f130v_l086 #z_f130v_l087 #z_f130v_l088" xml:id="u_130v_019">[Fragmenty protější strany.]</p>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_130v_001">Končí Perla Dekretu Jana [Klementa?], sestavená bratrem Martinem z řádu kazatelů, penitenciářem a kaplanem pana papeže. [Vpravo: decretist…?]</p>
+        <p corresp="#u_130v_002">Poznamenej podle učitelů kanonického práva: o kacířích se mluví šesti způsoby. V prvním smyslu je kacířem ten, kdo vytváří nesprávný názor o víře, nebo věří kacířství jako ariáni a sabelliáni; nebo následuje či […] přechází ke kacířství, jako jsou ariáni, sabelliáni a podobní, jak se dokazuje v XXIV, otázce 3, Heretici, a kapitole […].</p>
+        <p corresp="#u_130v_003">Sabelliáni, ariáni a makedoniáni. Za druhé může být nazván kacířem ten, kdo chápe Písmo svaté jinak, než žádá Duch svatý, od něhož je napsáno, a nepřijal to od církve […].</p>
+        <p corresp="#u_130v_004">XXIV, otázka 3 […]. Za třetí se nazývá kacířem ten, kdo je oddělen od svátostí církve a společenství věřících nebo je s nimi v rozporu, například někteří […]. Za čtvrté se kacířem nazývá ničitel svátostí, například simoniak, který prodává nebo kupuje církevní beneficium či svátost. I, poslední otázka […].</p>
+        <p corresp="#u_130v_005">Za páté se kacířem nazývá ten, kdo pochybuje ve víře, jako zde v kapitole 1. Neboť […] věřit, jak [se píše] O svrchované Trojici a katolické víře […]. XXIII, otázka 1 […]. Zjevně tedy ten, kdo se odchyluje od katolické víry, […] se považuje. Codex, O svrchované Trojici […]. Za šesté se kacířem nazývá ten, kdo římské církvi [chce odejmout] privilegium hlavy ostatních církví […].</p>
+        <p corresp="#u_130v_006">Snaží se je odejmout. Distinkce XXII […]. Schizma je nedovolené rozdělení těch, mezi nimiž má být jednota; nebo takto: schizma je nedovolený odchod od jednoty. Schizma se odvozuje od roztržky, jak bylo řečeno. XXIV, otázka 1 […]. Schizma se liší od kacířství tím, že kacířství má už ve svém počátku zvrácenou nauku, kterou schizma nemá, ale na konci si přece vymýšlí nějaké kacířství, aby se zdálo, že od církve odešlo důvodně. XXIV, otázka 3 […].</p>
+        <p corresp="#u_130v_007">Mezi kacířstvím a schizmatem je rozdíl jako mezi rodem a druhem, protože každý kacíř je schizmatik, ale ne obráceně; a jestliže schizma trvá, [ne?]mění se v kacířství. A schizmatici, kteří chtějí rozdělit církev, hřeší proti víře v článku: A v jednu svatou církev obecnou. A protože sami husité […]</p>
+        <p corresp="#u_130v_008">[Bez překladu.]</p>
+        <p corresp="#u_130v_009">[…] A [viklefisté?] by setrvávali ve svých zvrácených názorech nebo se zatvrdili […], mají být pro své odpadlictví pokládáni za kacíře a schizmatiky.</p>
+        <p corresp="#u_130v_010">[Bez překladu.]</p>
+        <p corresp="#u_130v_011">Ty […] Pro závěrečné […] protože odpadlictví je trojí: nevěry, neposlušnosti a porušení řádného stavu. Nevĕry, když někdo odchází od víry jako Julianus Apostata. XI, otázka 4 […]. Neposlušnosti, když někdo z vlastní vůle přestupuje příkaz jako Adam a Eva […].</p>
+        <p corresp="#u_130v_012">[Bez překladu.]</p>
+        <p corresp="#u_130v_013">[…] Ti, kdo odmítají poslouchat posvátné kánony […] I, otázka 4 […]. Porušení řádného stavu, když někdo odchází od stavu nebo zachovávání přijaté řehole, například když odpadá klerik, mnich či řeholník […]. O kacířích, poslední kapitola. O posledním druhu však nyní nepojednáváme. Také takoví husité mohou být pokládáni za odpadlíky: odcházejí totiž od společenství věřících svými zvrácenými názory, které hlásají a potvrzují proti samotné katolické víře.</p>
+        <p corresp="#u_130v_014">Nyní je třeba pojednat o trestech kacířů. K tomu je třeba vědět, že kacíř se trestá osmi způsoby, totiž exkomunikací, sesazením, odnětím světského majetku a vojenským pronásledováním. Exkomunikací: každý kacíř, ať velký nebo malý či skrytý, je samotným právem stižen velkou exkomunikací. O kacířích, Ad abolendam. Nebrání tomu rozlišení […].</p>
+        <p corresp="#u_130v_015">[Bez překladu.]</p>
+        <p corresp="#u_130v_016">[…] Zákonnému, které zjevně chce rozlišovat mezi většími a menšími kacíři. Codex, O kacířích […]. Sesazením: ať je to klerik nebo laik, kníže či císař nebo kdokoli nižší […], má být zbaven veškeré důstojnosti. Je-li klerik nejprve zbaven svěcení, má být přenechán […] rozhodnutí světské moci, aby byl potrestán náležitým trestem. A tak církev odevzdává či soudí sesazeného klerika světskému soudu, totiž přenechává mu jej, jak je patrné z Ad abolendam […].</p>
+        <p corresp="#u_130v_017">[Okrajová číslice.] Ti, kdo nebyli shledáni v kacířství, ale jsou označeni jen podezřením, se musejí podle rozhodnutí a míry podezření […] očistit, jinak podlehnou meči […], jak je patrné z Ad abolendam a […]</p>
+        <p corresp="#u_130v_018">O rozsudku exkomunikace, Ut fame […]. Vojenským pronásledováním: protože jestliže jinak […] ne[…], ozbrojenou mocí […]. Má jim být odňat veškerý majetek, protože kacíři nemohou držet majetek právem. Právem vojáků […]. Odnímají se jim […] povinného […].</p>
+        <p corresp="#u_130v_019">[Bez překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

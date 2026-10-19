@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 148v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Evangelia dominicalia et festivalia per circulum anni (germanice). Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_148v_coordinate; PNG SHA256 5e6b335a1968b5ce2ab9412f40451f2cf16caa6bc425bbbb33c353d7710965b1; archival TIFF SHA256 db264c2f7688dc9ba6c81c72d443f4744b5ee1a7cf9f3550e742fe05f58a0cf7; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_148v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#148v"/>
+      <zone ulx="641" uly="522" lrx="3504" lry="715" xml:id="z_f148v_l001"/>
+      <zone ulx="622" uly="668" lrx="3479" lry="833" xml:id="z_f148v_l002"/>
+      <zone ulx="638" uly="799" lrx="3517" lry="973" xml:id="z_f148v_l003"/>
+      <zone ulx="647" uly="933" lrx="3535" lry="1110" xml:id="z_f148v_l004"/>
+      <zone ulx="638" uly="1079" lrx="3405" lry="1241" xml:id="z_f148v_l005"/>
+      <zone ulx="628" uly="1213" lrx="3392" lry="1396" xml:id="z_f148v_l006"/>
+      <zone ulx="641" uly="1365" lrx="3436" lry="1549" xml:id="z_f148v_l007"/>
+      <zone ulx="622" uly="1515" lrx="3370" lry="1680" xml:id="z_f148v_l008"/>
+      <zone ulx="628" uly="1661" lrx="3479" lry="1829" xml:id="z_f148v_l009"/>
+      <zone ulx="610" uly="1804" lrx="3433" lry="1969" xml:id="z_f148v_l010"/>
+      <zone ulx="610" uly="1947" lrx="3507" lry="2140" xml:id="z_f148v_l011"/>
+      <zone ulx="628" uly="2103" lrx="3333" lry="2271" xml:id="z_f148v_l012"/>
+      <zone ulx="2854" uly="2205" lrx="3398" lry="2317" xml:id="z_f148v_l013"/>
+      <zone ulx="619" uly="2252" lrx="3467" lry="2445" xml:id="z_f148v_l014"/>
+      <zone ulx="610" uly="2408" lrx="3411" lry="2579" xml:id="z_f148v_l015"/>
+      <zone ulx="591" uly="2538" lrx="3501" lry="2734" xml:id="z_f148v_l016"/>
+      <zone ulx="588" uly="2681" lrx="3389" lry="2862" xml:id="z_f148v_l017"/>
+      <zone ulx="594" uly="2812" lrx="3486" lry="3024" xml:id="z_f148v_l018"/>
+      <zone ulx="600" uly="2971" lrx="3420" lry="3167" xml:id="z_f148v_l019"/>
+      <zone ulx="585" uly="3114" lrx="3395" lry="3344" xml:id="z_f148v_l020"/>
+      <zone ulx="603" uly="3269" lrx="3439" lry="3468" xml:id="z_f148v_l021"/>
+      <zone ulx="600" uly="3416" lrx="3570" lry="3627" xml:id="z_f148v_l022"/>
+      <zone ulx="572" uly="3556" lrx="3414" lry="3745" xml:id="z_f148v_l023"/>
+      <zone ulx="591" uly="3702" lrx="3143" lry="3901" xml:id="z_f148v_l024"/>
+      <zone ulx="585" uly="3864" lrx="2791" lry="4047" xml:id="z_f148v_l025"/>
+      <zone ulx="790" uly="3991" lrx="3529" lry="4218" xml:id="z_f148v_l026"/>
+      <zone ulx="824" uly="4144" lrx="3405" lry="4333" xml:id="z_f148v_l027"/>
+      <zone ulx="575" uly="4237" lrx="3395" lry="4498" xml:id="z_f148v_l028"/>
+      <zone ulx="572" uly="4389" lrx="3467" lry="4629" xml:id="z_f148v_l029"/>
+      <zone ulx="578" uly="4551" lrx="3426" lry="4744" xml:id="z_f148v_l030"/>
+      <zone ulx="541" uly="4694" lrx="3454" lry="4912" xml:id="z_f148v_l031"/>
+      <zone ulx="3778" uly="504" lrx="3865" lry="665" xml:id="z_f148v_l032"/>
+      <zone ulx="3775" uly="821" lrx="3831" lry="936" xml:id="z_f148v_l033"/>
+      <zone ulx="3747" uly="948" lrx="3862" lry="1095" xml:id="z_f148v_l034"/>
+      <zone ulx="3756" uly="1079" lrx="3884" lry="1244" xml:id="z_f148v_l035"/>
+      <zone ulx="3763" uly="1440" lrx="3862" lry="1515" xml:id="z_f148v_l036"/>
+      <zone ulx="3741" uly="1568" lrx="3865" lry="1648" xml:id="z_f148v_l037"/>
+      <zone ulx="3747" uly="1698" lrx="3875" lry="1863" xml:id="z_f148v_l038"/>
+      <zone ulx="3750" uly="1966" lrx="3871" lry="2103" xml:id="z_f148v_l039"/>
+      <zone ulx="3753" uly="2124" lrx="3775" lry="2299" xml:id="z_f148v_l040"/>
+      <zone ulx="3741" uly="2292" lrx="3853" lry="2386" xml:id="z_f148v_l041"/>
+      <zone ulx="3741" uly="2401" lrx="3834" lry="2532" xml:id="z_f148v_l042"/>
+      <zone ulx="3741" uly="2790" lrx="3862" lry="2977" xml:id="z_f148v_l043"/>
+      <zone ulx="3735" uly="2958" lrx="3862" lry="3095" xml:id="z_f148v_l044"/>
+      <zone ulx="3700" uly="3260" lrx="3887" lry="3360" xml:id="z_f148v_l045"/>
+      <zone ulx="3707" uly="3347" lrx="3878" lry="3509" xml:id="z_f148v_l046"/>
+      <zone ulx="3703" uly="3487" lrx="3862" lry="3643" xml:id="z_f148v_l047"/>
+      <zone ulx="3694" uly="3633" lrx="3815" lry="3826" xml:id="z_f148v_l048"/>
+      <zone ulx="3716" uly="3808" lrx="3794" lry="3985" xml:id="z_f148v_l049"/>
+      <zone ulx="3694" uly="3957" lrx="3787" lry="4140" xml:id="z_f148v_l050"/>
+      <zone ulx="3694" uly="4280" lrx="3806" lry="4377" xml:id="z_f148v_l051"/>
+      <zone ulx="3700" uly="4405" lrx="3763" lry="4532" xml:id="z_f148v_l052"/>
+      <zone ulx="3694" uly="4772" lrx="3825" lry="4881" xml:id="z_f148v_l053"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="de">
+          <lb facs="#z_f148v_l001" xml:id="catmus_f148v_l001"/>
+          <seg type="raw_unreviewed">den proseñ die do uiellũ uon des rich̃e tissch dy gab ym no-</seg>
+          <lb facs="#z_f148v_l002" xml:id="catmus_f148v_l002"/>
+          <seg type="raw_unreviewed">mãt sund̃ dy huiit Romẽ und lektẽ sem gesirer Is ge</seg>
+          <lb facs="#z_f148v_l003" xml:id="catmus_f148v_l003"/>
+          <seg type="raw_unreviewed">sach alro das d̾ arm scaib und ward getrage bon dẽ eu</seg>
+          <lb facs="#z_f148v_l004" xml:id="catmus_f148v_l004"/>
+          <seg type="raw_unreviewed">gelii ĩ Abrabiãs sch̃or do starb ouch d reich bnd ward̃ be-</seg>
+          <lb facs="#z_f148v_l005" xml:id="catmus_f148v_l005"/>
+          <seg type="raw_unreviewed">grabẽ ã d̾ helle do teit er uff sem augẽ do er wãs i</seg>
+          <lb facs="#z_f148v_l006" xml:id="catmus_f148v_l006"/>
+          <seg type="raw_unreviewed">de trubsal do sach ex Abradã feir uñ lazarũ ã seyũ</seg>
+          <lb facs="#z_f148v_l007" xml:id="catmus_f148v_l007"/>
+          <seg type="raw_unreviewed">scho. und russt sp rechunde. Uat̾ sebralã ex porur dies</seg>
+          <lb facs="#z_f148v_l008" xml:id="catmus_f148v_l008"/>
+          <seg type="raw_unreviewed">u̾bir mich uud lazaꝵ idas ex sto dẽ aufriste uing</seg>
+          <lb facs="#z_f148v_l009" xml:id="catmus_f148v_l009"/>
+          <seg type="raw_unreviewed">teil seques uiugers ĩ em wasẜ das er fule meỹgnẽ</seg>
+          <lb facs="#z_f148v_l010" xml:id="catmus_f148v_l010"/>
+          <seg type="raw_unreviewed">wauuath ꝙiyue ĩ dise feror do sẜch Iu im Abrrehã</seg>
+          <lb facs="#z_f148v_l011" xml:id="catmus_f148v_l011"/>
+          <seg type="raw_unreviewed">Son gedeul das do isc gut lret in dei lebũ uñ larar ͭ</seg>
+          <lb facs="#z_f148v_l012" xml:id="catmus_f148v_l012"/>
+          <seg type="raw_unreviewed">ales ubels, nu uo̾t er getrost uud du gepeyurgi</seg>
+          <lb facs="#z_f148v_l013" xml:id="catmus_f148v_l013"/>
+          <seg type="raw_unreviewed">oudenq nꝰ</seg>
+          <lb facs="#z_f148v_l014" xml:id="catmus_f148v_l014"/>
+          <seg type="raw_unreviewed">bud uon dẽ alle ist gurisschũ uus bidd euchi gefestet eyn</seg>
+          <lb facs="#z_f148v_l015" xml:id="catmus_f148v_l015"/>
+          <seg type="raw_unreviewed">grosse ferr, das dy uon uis hui qu ench nicht Rouen</seg>
+          <lb facs="#z_f148v_l016" xml:id="catmus_f148v_l016"/>
+          <seg type="raw_unreviewed">mog̃ẽ noch uõ dauy hroid̃ do sp̃cl ab d̃ reich Ich put</seg>
+          <lb facs="#z_f148v_l017" xml:id="catmus_f148v_l017"/>
+          <seg type="raw_unreviewed">dich uat, das du sendest ĩ meynes uat hans Ich han</seg>
+          <lb facs="#z_f148v_l018" xml:id="catmus_f148v_l018"/>
+          <seg type="raw_unreviewed">noch fumf prud̃ das ex de Eaude, das sy icht Romẽ</seg>
+          <lb facs="#z_f148v_l019" xml:id="catmus_f148v_l019"/>
+          <seg type="raw_unreviewed">an dise scat dis penung uud e spch Iu ym Abraham</seg>
+          <lb facs="#z_f148v_l020" xml:id="catmus_f148v_l020"/>
+          <seg type="raw_unreviewed">Sy habũ morsen und aud̃ Weissagũ de hõm sy do</seg>
+          <lb facs="#z_f148v_l021" xml:id="catmus_f148v_l021"/>
+          <seg type="raw_unreviewed">sp̃cti ex ab: wer also uõ de toten Rompt bui ru iyiis so</seg>
+          <lb facs="#z_f148v_l022" xml:id="catmus_f148v_l022"/>
+          <seg type="raw_unreviewed">enplahut l puez. do autut ym Abralã Ap fy nuf</seg>
+          <lb facs="#z_f148v_l023" xml:id="catmus_f148v_l023"/>
+          <seg type="raw_unreviewed">sacp̃e meysen und aud̾ Wborissagi ncht horent wer</seg>
+          <lb facs="#z_f148v_l024" xml:id="catmus_f148v_l024"/>
+          <seg type="raw_unreviewed">dem also uõ d̃ totẽ erscet ib glaubec nicht</seg>
+          <lb facs="#z_f148v_l025" xml:id="catmus_f148v_l025"/>
+          <seg type="raw_unreviewed">duuicã scdũi hõ quidã fecit cerã bas piiiiͦ.</seg>
+          <lb facs="#z_f148v_l026" xml:id="catmus_f148v_l026"/>
+          <seg type="raw_unreviewed">hũs sagt sey iuugñ Gon mẽsche macht gresseart</seg>
+          <lb facs="#z_f148v_l027" xml:id="catmus_f148v_l027"/>
+          <seg type="raw_unreviewed">schast uni lud maing uud sant seyue Ruecht do</seg>
+          <lb facs="#z_f148v_l028" xml:id="catmus_f148v_l028"/>
+          <seg type="raw_unreviewed">mañ essyn sold̃. das ex deii sagt do pladĩ warĩ rdas</seg>
+          <lb facs="#z_f148v_l029" xml:id="catmus_f148v_l029"/>
+          <seg type="raw_unreviewed">Roniẽ es auer alles bereyt, do begundẽ fꝰ sich all eut</seg>
+          <lb facs="#z_f148v_l030" xml:id="catmus_f148v_l030"/>
+          <seg type="raw_unreviewed">sagũ d̾ exst sẜch Iu yri. Itl han eyn dorfꝭ bausst unt</seg>
+          <lb facs="#z_f148v_l031" xml:id="catmus_f148v_l031"/>
+          <seg type="raw_unreviewed">nus drot hiaus gen und das beselrui Ich batt dich das</seg>
+          <lb facs="#z_f148v_l032" xml:id="catmus_f148v_l032"/>
+          <seg type="raw_unreviewed">du</seg>
+          <lb facs="#z_f148v_l033" xml:id="catmus_f148v_l033"/>
+          <seg type="raw_unreviewed">I</seg>
+          <lb facs="#z_f148v_l034" xml:id="catmus_f148v_l034"/>
+          <seg type="raw_unreviewed">yud̾</seg>
+          <lb facs="#z_f148v_l035" xml:id="catmus_f148v_l035"/>
+          <seg type="raw_unreviewed">ꝑaur</seg>
+          <lb facs="#z_f148v_l036" xml:id="catmus_f148v_l036"/>
+          <seg type="raw_unreviewed">oue</seg>
+          <lb facs="#z_f148v_l037" xml:id="catmus_f148v_l037"/>
+          <seg type="raw_unreviewed">uud̃</seg>
+          <lb facs="#z_f148v_l038" xml:id="catmus_f148v_l038"/>
+          <seg type="raw_unreviewed">sami</seg>
+          <lb facs="#z_f148v_l039" xml:id="catmus_f148v_l039"/>
+          <seg type="raw_unreviewed">notte</seg>
+          <lb facs="#z_f148v_l040" xml:id="catmus_f148v_l040"/>
+          <seg type="raw_unreviewed">s</seg>
+          <lb facs="#z_f148v_l041" xml:id="catmus_f148v_l041"/>
+          <seg type="raw_unreviewed">ae</seg>
+          <lb facs="#z_f148v_l042" xml:id="catmus_f148v_l042"/>
+          <seg type="raw_unreviewed">¶iui</seg>
+          <lb facs="#z_f148v_l043" xml:id="catmus_f148v_l043"/>
+          <seg type="raw_unreviewed">spre</seg>
+          <lb facs="#z_f148v_l044" xml:id="catmus_f148v_l044"/>
+          <seg type="raw_unreviewed">agt</seg>
+          <lb facs="#z_f148v_l045" xml:id="catmus_f148v_l045"/>
+          <seg type="raw_unreviewed">oixuii</seg>
+          <lb facs="#z_f148v_l046" xml:id="catmus_f148v_l046"/>
+          <seg type="raw_unreviewed">itibe</seg>
+          <lb facs="#z_f148v_l047" xml:id="catmus_f148v_l047"/>
+          <seg type="raw_unreviewed">uud</seg>
+          <lb facs="#z_f148v_l048" xml:id="catmus_f148v_l048"/>
+          <seg type="raw_unreviewed">Sud</seg>
+          <lb facs="#z_f148v_l049" xml:id="catmus_f148v_l049"/>
+          <seg type="raw_unreviewed">sch</seg>
+          <lb facs="#z_f148v_l050" xml:id="catmus_f148v_l050"/>
+          <seg type="raw_unreviewed">Al</seg>
+          <lb facs="#z_f148v_l051" xml:id="catmus_f148v_l051"/>
+          <seg type="raw_unreviewed">yue</seg>
+          <lb facs="#z_f148v_l052" xml:id="catmus_f148v_l052"/>
+          <seg type="raw_unreviewed">REU</seg>
+          <lb facs="#z_f148v_l053" xml:id="catmus_f148v_l053"/>
+          <seg type="raw_unreviewed">fete</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="de">
+          <lb facs="#z_f148v_l001" xml:id="medusa_f148v_l001"/>
+          <seg type="raw_unreviewed">den prosen die do vielln von des wiche tissch dy gab ym ny-</seg>
+          <lb facs="#z_f148v_l002" xml:id="medusa_f148v_l002"/>
+          <seg type="raw_unreviewed">māt · sind͛ dy hunt komē und lekē sein geswer / Js ge</seg>
+          <lb facs="#z_f148v_l003" xml:id="medusa_f148v_l003"/>
+          <seg type="raw_unreviewed">sach also das d͛ arm starb. und ward getragē von dē en-</seg>
+          <lb facs="#z_f148v_l004" xml:id="medusa_f148v_l004"/>
+          <seg type="raw_unreviewed">gebii ĩ Abrahãs schoz do starb ouch d͛ reich und ward be-</seg>
+          <lb facs="#z_f148v_l005" xml:id="medusa_f148v_l005"/>
+          <seg type="raw_unreviewed">grabē ī d͛ helle / do tett er uff sein augē do er wàs in</seg>
+          <lb facs="#z_f148v_l006" xml:id="medusa_f148v_l006"/>
+          <seg type="raw_unreviewed">dē trùbsal . do sach er Abrahā ferir und lazarũ ī seyñ</seg>
+          <lb facs="#z_f148v_l007" xml:id="medusa_f148v_l007"/>
+          <seg type="raw_unreviewed">schoz · und rufft swethuide · Vãt Abrahã erporn dich</seg>
+          <lb facs="#z_f148v_l008" xml:id="medusa_f148v_l008"/>
+          <seg type="raw_unreviewed">v̈bir mich vnd lazarp das er stoz dē anfriste vng͛</seg>
+          <lb facs="#z_f148v_l009" xml:id="medusa_f148v_l009"/>
+          <seg type="raw_unreviewed">teil seynes vingers in ein wassz das er kule meÿczuͦn</seg>
+          <lb facs="#z_f148v_l010" xml:id="medusa_f148v_l010"/>
+          <seg type="raw_unreviewed">dann ich prynne in disē fewr / do sp͛ch zuͤ im Abrahā</seg>
+          <lb facs="#z_f148v_l011" xml:id="medusa_f148v_l011"/>
+          <seg type="raw_unreviewed">Son gedenk das do ist gut hetz in dein lebē vnd laye</seg>
+          <lb facs="#z_f148v_l012" xml:id="medusa_f148v_l012"/>
+          <seg type="raw_unreviewed">alles ubels / nu w͛t er getroft und du gepeyngē</seg>
+          <lb facs="#z_f148v_l013" xml:id="medusa_f148v_l013"/>
+          <seg type="raw_unreviewed">undens et cetera</seg>
+          <lb facs="#z_f148v_l014" xml:id="medusa_f148v_l014"/>
+          <seg type="raw_unreviewed">bid von dē alle ist cʒwisschū bus bid euch gefestēt eyn</seg>
+          <lb facs="#z_f148v_l015" xml:id="medusa_f148v_l015"/>
+          <seg type="raw_unreviewed">grosse ferr das dy von vns hyn zu euch nicht komen</seg>
+          <lb facs="#z_f148v_l016" xml:id="medusa_f148v_l016"/>
+          <seg type="raw_unreviewed">mögen noch von dawyl h̶̶wid͛ / do sp͛ch ab͛ d͛ reich / Jch pit</seg>
+          <lb facs="#z_f148v_l017" xml:id="medusa_f148v_l017"/>
+          <seg type="raw_unreviewed">dich vat͛ / das du sendest ī meyres vat͛ haus Jch han</seg>
+          <lb facs="#z_f148v_l018" xml:id="medusa_f148v_l018"/>
+          <seg type="raw_unreviewed">noch funf prùd͛ · das er dē knide · das sy icht komē</seg>
+          <lb facs="#z_f148v_l019" xml:id="medusa_f148v_l019"/>
+          <seg type="raw_unreviewed">an dise stat disz peynūg · vnd ez sp̄ch zu ym Abraham</seg>
+          <lb facs="#z_f148v_l020" xml:id="medusa_f148v_l020"/>
+          <seg type="raw_unreviewed">sy habū moyſen vnd and͛ weisſagū dz hoͤrin ſy / do</seg>
+          <lb facs="#z_f148v_l021" xml:id="medusa_f148v_l021"/>
+          <seg type="raw_unreviewed">sp͛ch er ab͛ · Wer also von dē toten kompt hin zü yn · so</seg>
+          <lb facs="#z_f148v_l022" xml:id="medusa_f148v_l022"/>
+          <seg type="raw_unreviewed">enphahut sy puer do autwe ym Abrahã / Ap sy wey</seg>
+          <lb facs="#z_f148v_l023" xml:id="medusa_f148v_l023"/>
+          <seg type="raw_unreviewed">fagē meyſen vnd and͛ weissagū nicht hörent / wer</seg>
+          <lb facs="#z_f148v_l024" xml:id="medusa_f148v_l024"/>
+          <seg type="raw_unreviewed">demm also von dē toͤtē erstet dē glaubēcz nicht</seg>
+          <lb facs="#z_f148v_l025" xml:id="medusa_f148v_l025"/>
+          <seg type="raw_unreviewed">dominica facta hoc quidam fecit cenam luc xiiii°</seg>
+          <lb facs="#z_f148v_l026" xml:id="medusa_f148v_l026"/>
+          <seg type="raw_unreviewed">hās sagt sey jungn̄ Eyn mēsche macht grosse w͛t-</seg>
+          <lb facs="#z_f148v_l027" xml:id="medusa_f148v_l027"/>
+          <seg type="raw_unreviewed">schaft und lid manig und sant sepuͤe knecht do</seg>
+          <lb facs="#z_f148v_l028" xml:id="medusa_f148v_l028"/>
+          <seg type="raw_unreviewed">man essyn solt · das er den sagt dy gladn̄ waᵉrn · das</seg>
+          <lb facs="#z_f148v_l029" xml:id="medusa_f148v_l029"/>
+          <seg type="raw_unreviewed">komen̄ es wer alles bereyt / do begundē sy sich all ent</seg>
+          <lb facs="#z_f148v_l030" xml:id="medusa_f148v_l030"/>
+          <seg type="raw_unreviewed">sagū d̄ erst sp̄ch zuͦ xii: Jch han eyn dorff kaufft und</seg>
+          <lb facs="#z_f148v_l031" xml:id="medusa_f148v_l031"/>
+          <seg type="raw_unreviewed">müs drot hinaus gen buͦd das besohn̄ / Ich bitt dich das</seg>
+          <lb facs="#z_f148v_l032" xml:id="medusa_f148v_l032"/>
+          <seg type="raw_unreviewed">dù</seg>
+          <lb facs="#z_f148v_l033" xml:id="medusa_f148v_l033"/>
+          <seg type="raw_unreviewed">lan</seg>
+          <lb facs="#z_f148v_l034" xml:id="medusa_f148v_l034"/>
+          <seg type="raw_unreviewed">bud</seg>
+          <lb facs="#z_f148v_l035" xml:id="medusa_f148v_l035"/>
+          <seg type="raw_unreviewed">kar</seg>
+          <lb facs="#z_f148v_l036" xml:id="medusa_f148v_l036"/>
+          <seg type="raw_unreviewed">out</seg>
+          <lb facs="#z_f148v_l037" xml:id="medusa_f148v_l037"/>
+          <seg type="raw_unreviewed">und</seg>
+          <lb facs="#z_f148v_l038" xml:id="medusa_f148v_l038"/>
+          <seg type="raw_unreviewed">sam</seg>
+          <lb facs="#z_f148v_l039" xml:id="medusa_f148v_l039"/>
+          <seg type="raw_unreviewed">nette</seg>
+          <lb facs="#z_f148v_l040" xml:id="medusa_f148v_l040"/>
+          <seg type="raw_unreviewed">13</seg>
+          <lb facs="#z_f148v_l041" xml:id="medusa_f148v_l041"/>
+          <seg type="raw_unreviewed">me</seg>
+          <lb facs="#z_f148v_l042" xml:id="medusa_f148v_l042"/>
+          <seg type="raw_unreviewed">dum</seg>
+          <lb facs="#z_f148v_l043" xml:id="medusa_f148v_l043"/>
+          <seg type="raw_unreviewed">spre</seg>
+          <lb facs="#z_f148v_l044" xml:id="medusa_f148v_l044"/>
+          <seg type="raw_unreviewed">sagt</seg>
+          <lb facs="#z_f148v_l045" xml:id="medusa_f148v_l045"/>
+          <seg type="raw_unreviewed">nevin</seg>
+          <lb facs="#z_f148v_l046" xml:id="medusa_f148v_l046"/>
+          <seg type="raw_unreviewed">ist ob</seg>
+          <lb facs="#z_f148v_l047" xml:id="medusa_f148v_l047"/>
+          <seg type="raw_unreviewed">und</seg>
+          <lb facs="#z_f148v_l048" xml:id="medusa_f148v_l048"/>
+          <seg type="raw_unreviewed">bud</seg>
+          <lb facs="#z_f148v_l049" xml:id="medusa_f148v_l049"/>
+          <seg type="raw_unreviewed">sch</seg>
+          <lb facs="#z_f148v_l050" xml:id="medusa_f148v_l050"/>
+          <seg type="raw_unreviewed">als</seg>
+          <lb facs="#z_f148v_l051" xml:id="medusa_f148v_l051"/>
+          <seg type="raw_unreviewed">pue</seg>
+          <lb facs="#z_f148v_l052" xml:id="medusa_f148v_l052"/>
+          <seg type="raw_unreviewed">beu</seg>
+          <lb facs="#z_f148v_l053" xml:id="medusa_f148v_l053"/>
+          <seg type="raw_unreviewed">110</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="de">
+        <p facs="#z_f148v_l001 #z_f148v_l002 #z_f148v_l003 #z_f148v_l004 #z_f148v_l005 #z_f148v_l006 #z_f148v_l007 #z_f148v_l008 #z_f148v_l009 #z_f148v_l010" xml:id="u_148v_001">den prosen die do viellen von des reichen tisch. Die gab im niemant, sunder die hund komen und leckten sein geswerr. Es geschach also das der arm starb und ward getragen von den engeln in Abrahams schoz. Do starb auch der reich und ward begraben in die helle. Do tut er auff sein augen, do er was in den wuezel, do sach er Abraham fern und Lazarum in seinem schoz und rufft sprechende: Vater Abraham, erparme dich uber mich und sende Lazarum, das er sez die ausserste teil seines vingers in ein wasser, das er kue le mein zungen, wann ich prynne in disem feur.</p>
+        <note type="editorial" corresp="#u_148v_001" xml:lang="cs">Místní výraz wuezel pro muka je nejistý, překlad pracovní. Helle je vlastní dobové slovo, ne automaticky moderní Hádes. Konec10 již začíná Abrahamovu odpověď, připojenou v následujícím odstavci.</note>
+        <p facs="#z_f148v_l011 #z_f148v_l012" xml:id="u_148v_002">Do sprach zu im Abraham: Sun, gedenk das du hast gut gehabt in deinem leben und Lazarus alles ubels. Nu wirt er getrost und du gepeiniget. Und von dem allen ist zwischen uns und euch gefestet ein grosse furt, das die von uns her zu euch nicht kunnen, noch die auch von dannen heruber. Do sprach aber der reich: Ich pitt dich, vater, das du sendest in meines vaters haus. Ich han noch funf prueder, das er den kunde, das sy nicht komen an dise stat der peinigung. Und es sprach zu im Abraham: Sy haben Moysen und die weissagen, die horen sy. Do sprach er aber: Wer also von den toten kumpt hin zu in, so empfa hent sy pusse. Do antwort im Abraham: Ob sy Moysen und den weissagen nicht horen, so glauben sy auch nicht, wenn einer von den toten ersteet.</p>
+        <note type="editorial" corresp="#u_148v_002" xml:lang="cs">Furt může znamenat přechod/rozhraní, v souvislosti přeloženo propast. Část logické vazby přecházení zůstává pracovní, nesrovnávána s edicí. Celý odstavec včetně14–24 je přeložen zde; vložený13 je zvláštní doplněk.</note>
+        <p facs="#z_f148v_l013" xml:id="u_148v_003">[Nejistý pravý krátký přípisek: …enden…?]</p>
+        <note type="editorial" corresp="#u_148v_003" xml:lang="cs">Drobné značky nelze automaticky rozvíjet jako souvislý text.</note>
+        <p facs="#z_f148v_l014 #z_f148v_l015 #z_f148v_l016 #z_f148v_l017 #z_f148v_l018 #z_f148v_l019 #z_f148v_l020 #z_f148v_l021 #z_f148v_l022 #z_f148v_l023 #z_f148v_l024" xml:id="u_148v_004">[Pokračování odstavce11–12.]</p>
+        <p facs="#z_f148v_l025" xml:id="u_148v_005">Dominica secunda. Homo quidam fecit cenam. Luce XIIII.</p>
+        <note type="editorial" corresp="#u_148v_005" xml:lang="cs"> </note>
+        <p facs="#z_f148v_l026 #z_f148v_l027 #z_f148v_l028 #z_f148v_l029 #z_f148v_l030 #z_f148v_l031" xml:id="u_148v_006">Ihesus sagt sein iungern: Ein mensch macht gross wirtschafft und lud manig und sant seinen knecht an dem essen selbs, das er den sagt die geladen waren, das sy komen; es wer alles bereit. Do begunden sy sich all entschuldigen. Der erst sprach zu im: Ich han ein dorff kaufft und mus dort hinaus gen und das besehen. Ich pitt dich das […]</p>
+        <note type="editorial" corresp="#u_148v_006" xml:lang="cs">Dorff skutečně čteno ves, nepřepsáno na canonical pole. Poslední věta pokračuje149r. </note>
+        <p facs="#z_f148v_l032 #z_f148v_l033 #z_f148v_l034 #z_f148v_l035 #z_f148v_l036 #z_f148v_l037 #z_f148v_l038 #z_f148v_l039 #z_f148v_l040 #z_f148v_l041 #z_f148v_l042 #z_f148v_l043 #z_f148v_l044 #z_f148v_l045 #z_f148v_l046 #z_f148v_l047 #z_f148v_l048 #z_f148v_l049 #z_f148v_l050 #z_f148v_l051 #z_f148v_l052 #z_f148v_l053" xml:id="u_148v_007">[Úzké fragmenty protější strany ve žlábku.]</p>
+        <note type="editorial" corresp="#u_148v_007" xml:lang="cs">Cizí fragmenty vyloučeny podle polohy a nativního obrazu; jejich úplná znaková četba neprovedena.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_148v_001">[…] drobty, které padaly z boháčova stolu. Nikdo mu je nedával, ale přicházeli psi a olizovali jeho vředy. Stalo se, že chudý zemřel a byl anděly odnesen do Abrahamova lůna. Zemřel i bohatý a byl pohřben v pekle. Tam otevřel oči; když byl v mukách, uviděl v dálce Abrahama a Lazara v jeho lůně. Volal: Otče Abrahame, smiluj se nade mnou a pošli Lazara, aby vložil koneček svého prstu do vody a ochladil můj jazyk, neboť hořím v tomto ohni.</p>
+        <p corresp="#u_148v_002">Abraham mu řekl: Synu, vzpomeň si, že jsi ve svém životě měl dobro a Lazar samé zlo. Nyní je on utěšován a ty jsi trápen. Mezi námi a vámi je také upevněna veliká propast, takže od nás k vám nemohou a ani odtamtud sem. Bohatý řekl: Prosím tě, Otče, pošli jej do domu mého otce. Mám ještě pět bratrů, ať jim to oznámí, aby nepřišli na toto místo trápení. Abraham mu řekl: Mají Mojžíše a proroky, ať je poslouchají. On však řekl: Kdyby k nim někdo přišel z mrtvých, přijmou pokání. Abraham odpověděl: Neposlouchají-li Mojžíše a proroky, neuvěří ani tehdy, když někdo vstane z mrtvých.</p>
+        <p corresp="#u_148v_003">[Bez samostatného překladu.]</p>
+        <p corresp="#u_148v_004">[Překlad zahrnut v odstavci11–12.]</p>
+        <p corresp="#u_148v_005">Druhá neděle. Jeden člověk připravil večeři. Lukáš XIV.</p>
+        <p corresp="#u_148v_006">Ježíš řekl učedníkům: Jeden člověk připravil velikou hostinu a pozval mnohé. V čase jídla poslal služebníka, aby řekl pozvaným, ať přijdou, že je všechno připraveno. Všichni se začali vymlouvat. První mu řekl: Koupil jsem ves a musím tam jít a prohlédnout si ji. Prosím tě, aby […].</p>
+        <p corresp="#u_148v_007">[Bez samostatného překladu.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>

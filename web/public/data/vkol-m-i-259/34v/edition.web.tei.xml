@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/schemas/tei-p5-4.12.0/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>M I 259, 34v: dva HTR kandidáti a návrh rekonstrukce a českého překladu</title>
+        <respStmt>
+          <resp>AI-assisted pilot; no independent specialist review</resp>
+          <name>Codex AI assistant</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Místní zpracování celého M I 259 od 2026-10-19. Návrhy AI bez nezávislé odborné revize.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc corresp="https://rukopisy.digitalizaty.cz/tei/vkol-m-i-259.xml#ms-vkol-m-i-259">
+          <msIdentifier>
+            <country>Česko</country>
+            <settlement>Olomouc</settlement>
+            <repository>Vědecká knihovna v Olomouci</repository>
+            <idno>M I 259</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>Pracovní přiřazení katalogového oddílu podle názvu skenu: Exempla. Katalogová foliace nemusí odpovídat stabilnímu ID snímku; nejde o ověřené mapování katalogových rozsahů.</summary>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Raw CATMuS and Medusa Unicode retained separately. Same actual page pixels and segment geometry verified. Interpretation proposed, not a diplomatic ground truth. Ten reused pilot pages retain selected main zones; new pages use native unmasked full images. Detection completeness, reading order, marginalia and diagram structure require visual review. No fabricated word boxes or confidence.</p>
+    <p>Stable page identifiers follow source scan filenames, not a reconciled manuscript foliation. Visible written numbers differ at several checked leaves (for example scan87r bears88, scan164r bears165). A +1 shift after the uncut83/84 bifolium is a working inference, not an exhaustively verified renumbering. Catalogue msDesc is preserved separately; see ../foliation-review.json. No source file is renamed.</p><p>Web derivative. Graphic URI resolves to the tiled viewer, not a standalone bitmap or the archival TIFF. Geometry uses pixels of the full unmasked oriented coordinate PNG, identified with its SHA256 and TIFF-to-coordinate pixel-edge affine in the corresponding page.json. Model input masks are recorded separately. Source readings and zones are unchanged. This document is an index and working data, not a complete scholarly edition.</p><p>Coordinate raster vkol-m-i-259_34v_coordinate; PNG SHA256 ef79c7d74267512cd4905c6b4529bb26efe48f01b3ba487d3de8485bf4ec0d98; archival TIFF SHA256 aca161017081b18261288ee79b86f2ec6d1fbfee06960c46282ca05888b6e991; TIFF frame 0; counterclockwise rotation 0 degrees; TIFF-to-coordinate pixel-edge homogeneous matrix [[1, 0, 0], [0, 1, 0], [0, 0, 1]]. These are not the coordinates of the unrotated TIFF; archival ALTO remains in TIFF coordinates.</p></encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="la">Latin</language>
+        <language ident="de">German</language>
+        <language ident="cs">Czech</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2026-10-19" status="proposed">Incremental full-manuscript processing; only completed, geometry-checked data exported.</change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="s_34v">
+      <graphic url="https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259#34v"/>
+      <zone ulx="843" uly="572" lrx="3349" lry="724" xml:id="z_f34v_l001"/>
+      <zone ulx="3392" uly="572" lrx="3688" lry="740" xml:id="z_f34v_l002"/>
+      <zone ulx="846" uly="668" lrx="3647" lry="818" xml:id="z_f34v_l003"/>
+      <zone ulx="846" uly="759" lrx="3548" lry="920" xml:id="z_f34v_l004"/>
+      <zone ulx="849" uly="871" lrx="3594" lry="1026" xml:id="z_f34v_l005"/>
+      <zone ulx="849" uly="973" lrx="3579" lry="1141" xml:id="z_f34v_l006"/>
+      <zone ulx="871" uly="1073" lrx="3576" lry="1235" xml:id="z_f34v_l007"/>
+      <zone ulx="846" uly="1166" lrx="3601" lry="1356" xml:id="z_f34v_l008"/>
+      <zone ulx="843" uly="1272" lrx="2872" lry="1421" xml:id="z_f34v_l009"/>
+      <zone ulx="2907" uly="1316" lrx="3423" lry="1465" xml:id="z_f34v_l010"/>
+      <zone ulx="852" uly="1365" lrx="3604" lry="1561" xml:id="z_f34v_l011"/>
+      <zone ulx="3022" uly="1512" lrx="3439" lry="1680" xml:id="z_f34v_l012"/>
+      <zone ulx="859" uly="1468" lrx="2963" lry="1627" xml:id="z_f34v_l013"/>
+      <zone ulx="855" uly="1568" lrx="3068" lry="1717" xml:id="z_f34v_l014"/>
+      <zone ulx="834" uly="1658" lrx="2944" lry="1832" xml:id="z_f34v_l015"/>
+      <zone ulx="3476" uly="1574" lrx="3532" lry="1692" xml:id="z_f34v_l016"/>
+      <zone ulx="3162" uly="1642" lrx="3635" lry="1826" xml:id="z_f34v_l017"/>
+      <zone ulx="3016" uly="1748" lrx="3563" lry="1928" xml:id="z_f34v_l018"/>
+      <zone ulx="3121" uly="1829" lrx="3442" lry="1975" xml:id="z_f34v_l019"/>
+      <zone ulx="846" uly="1767" lrx="3087" lry="1935" xml:id="z_f34v_l020"/>
+      <zone ulx="868" uly="1857" lrx="3607" lry="2078" xml:id="z_f34v_l021"/>
+      <zone ulx="859" uly="1956" lrx="3557" lry="2174" xml:id="z_f34v_l022"/>
+      <zone ulx="855" uly="2065" lrx="3619" lry="2261" xml:id="z_f34v_l023"/>
+      <zone ulx="865" uly="2171" lrx="3598" lry="2376" xml:id="z_f34v_l024"/>
+      <zone ulx="862" uly="2261" lrx="3585" lry="2470" xml:id="z_f34v_l025"/>
+      <zone ulx="871" uly="2364" lrx="3622" lry="2597" xml:id="z_f34v_l026"/>
+      <zone ulx="862" uly="2476" lrx="2847" lry="2628" xml:id="z_f34v_l027"/>
+      <zone ulx="2900" uly="2529" lrx="3535" lry="2694" xml:id="z_f34v_l028"/>
+      <zone ulx="859" uly="2576" lrx="2944" lry="2734" xml:id="z_f34v_l029"/>
+      <zone ulx="3006" uly="2619" lrx="3514" lry="2796" xml:id="z_f34v_l030"/>
+      <zone ulx="880" uly="2663" lrx="3604" lry="2877" xml:id="z_f34v_l031"/>
+      <zone ulx="862" uly="2775" lrx="3616" lry="2964" xml:id="z_f34v_l032"/>
+      <zone ulx="865" uly="2880" lrx="3601" lry="3045" xml:id="z_f34v_l033"/>
+      <zone ulx="868" uly="2977" lrx="3626" lry="3142" xml:id="z_f34v_l034"/>
+      <zone ulx="871" uly="3070" lrx="3591" lry="3244" xml:id="z_f34v_l035"/>
+      <zone ulx="890" uly="3173" lrx="3551" lry="3335" xml:id="z_f34v_l036"/>
+      <zone ulx="887" uly="3266" lrx="3538" lry="3425" xml:id="z_f34v_l037"/>
+      <zone ulx="880" uly="3372" lrx="3560" lry="3528" xml:id="z_f34v_l038"/>
+      <zone ulx="880" uly="3465" lrx="3551" lry="3627" xml:id="z_f34v_l039"/>
+      <zone ulx="887" uly="3571" lrx="3570" lry="3733" xml:id="z_f34v_l040"/>
+      <zone ulx="837" uly="3668" lrx="3554" lry="3826" xml:id="z_f34v_l041"/>
+      <zone ulx="877" uly="3758" lrx="3557" lry="3948" xml:id="z_f34v_l042"/>
+      <zone ulx="890" uly="3854" lrx="3538" lry="4013" xml:id="z_f34v_l043"/>
+      <zone ulx="899" uly="3948" lrx="3548" lry="4097" xml:id="z_f34v_l044"/>
+      <zone ulx="880" uly="4041" lrx="3566" lry="4181" xml:id="z_f34v_l045"/>
+      <zone ulx="868" uly="4128" lrx="3520" lry="4280" xml:id="z_f34v_l046"/>
+      <zone ulx="880" uly="4212" lrx="3538" lry="4389" xml:id="z_f34v_l047"/>
+      <zone ulx="868" uly="4293" lrx="3551" lry="4489" xml:id="z_f34v_l048"/>
+      <zone ulx="890" uly="4389" lrx="3560" lry="4635" xml:id="z_f34v_l049"/>
+      <zone ulx="3691" uly="2224" lrx="3763" lry="2271" xml:id="z_f34v_l050"/>
+      <zone ulx="3794" uly="712" lrx="3850" lry="787" xml:id="z_f34v_l051"/>
+      <zone ulx="3800" uly="768" lrx="3856" lry="868" xml:id="z_f34v_l052"/>
+      <zone ulx="3679" uly="2336" lrx="3862" lry="2423" xml:id="z_f34v_l053"/>
+      <zone ulx="3707" uly="2383" lrx="3843" lry="2492" xml:id="z_f34v_l054"/>
+      <zone ulx="3669" uly="3188" lrx="3843" lry="3304" xml:id="z_f34v_l055"/>
+      <zone ulx="3722" uly="3310" lrx="3837" lry="3434" xml:id="z_f34v_l056"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div type="raw_htr" subtype="catmus">
+        <ab xml:lang="la">
+          <lb facs="#z_f34v_l001" xml:id="catmus_f34v_l001"/>
+          <seg type="raw_unreviewed">signõi resꝑiciũt ^do iͦ m̃e eicũt i⁊ ꝙ ĩcͤ fuit suũ ĩ ueñt</seg>
+          <lb facs="#z_f34v_l002" xml:id="catmus_f34v_l002"/>
+          <seg type="raw_unreviewed">‸Uuoaut</seg>
+          <lb facs="#z_f34v_l003" xml:id="catmus_f34v_l003"/>
+          <seg type="raw_unreviewed">me sñ mia pue clauro ĩnocũte Iocus soior ⁊ biicior larꝭretror</seg>
+          <lb facs="#z_f34v_l004" xml:id="catmus_f34v_l004"/>
+          <seg type="raw_unreviewed">sũ ꝯstu̾gor moib / alligor sures crebris ictib ninor / iidici</seg>
+          <lb facs="#z_f34v_l005" xml:id="catmus_f34v_l005"/>
+          <seg type="raw_unreviewed">offobr defurtu accuson ftu ad h̾e̾t furto mer dõp̃nor patibls</seg>
+          <lb facs="#z_f34v_l006" xml:id="catmus_f34v_l006"/>
+          <seg type="raw_unreviewed">diui᷑ã ducie ꝯfitũdi/ exhibe᷑ i sacdos ipccũ mea Il Iso/ suĩ</seg>
+          <lb facs="#z_f34v_l007" xml:id="catmus_f34v_l007"/>
+          <seg type="raw_unreviewed">ꝯfiteor biceo defurti Iheregituti u̾ sardoti. cusũ meũ pande</seg>
+          <lb facs="#z_f34v_l008" xml:id="catmus_f34v_l008"/>
+          <seg type="raw_unreviewed">lrũs põtisi ᷝ ͤ ᷤᷤ ⁊rescũi heo raio sor̃doti ⁊ di sur q̃sitꝰ fuĩt ĩ sibua</seg>
+          <lb facs="#z_f34v_l009" xml:id="catmus_f34v_l009"/>
+          <seg type="raw_unreviewed">ĩ ueiẽ᷑ adbeit / ahoꝵ adiisilũ sre̾dotꝭ Ineur /mo</seg>
+          <lb facs="#z_f34v_l010" xml:id="catmus_f34v_l010"/>
+          <seg type="raw_unreviewed">ñbi⁊ /fur n</seg>
+          <lb facs="#z_f34v_l011" xml:id="catmus_f34v_l011"/>
+          <seg type="raw_unreviewed">adiudiciꝰ ^ abo tħmi Cũq ĩ adẽm̃ĩs ꝯfessĩõ cciatib qpollõ iur</seg>
+          <lb facs="#z_f34v_l012" xml:id="catmus_f34v_l012"/>
+          <seg type="raw_unreviewed">ꝯp̃hũsus</seg>
+          <lb facs="#z_f34v_l013" xml:id="catmus_f34v_l013"/>
+          <seg type="raw_unreviewed">In iusce ꝯpellor ifitei ꝙħ nõ feci Iste cũ surto</seg>
+          <lb facs="#z_f34v_l014" xml:id="catmus_f34v_l014"/>
+          <seg type="raw_unreviewed">ip̃e xͥͥ is dãpnũdiꝰ ẽ qͣ cũ dice Iou̾iũ dolose fui</seg>
+          <lb facs="#z_f34v_l015" xml:id="catmus_f34v_l015"/>
+          <seg type="raw_unreviewed">q⁊ cũ ei rͤsabue belle Idepõioi nuluit acciꝑe. Rũ </seg>
+          <lb facs="#z_f34v_l016" xml:id="catmus_f34v_l016"/>
+          <seg type="raw_unreviewed">õ</seg>
+          <lb facs="#z_f34v_l017" xml:id="catmus_f34v_l017"/>
+          <seg type="raw_unreviewed">asue quussa</seg>
+          <lb facs="#z_f34v_l018" xml:id="catmus_f34v_l018"/>
+          <seg type="raw_unreviewed">Iduris istude</seg>
+          <lb facs="#z_f34v_l019" xml:id="catmus_f34v_l019"/>
+          <seg type="raw_unreviewed">fred</seg>
+          <lb facs="#z_f34v_l020" xml:id="catmus_f34v_l020"/>
+          <seg type="raw_unreviewed">meũ abuego I box tua unica ri legos testio</seg>
+          <lb facs="#z_f34v_l021" xml:id="catmus_f34v_l021"/>
+          <seg type="raw_unreviewed">ad ħi uã ouiittu Cũe sac̾dos occodĩs iifossor meꝰ allegiet</seg>
+          <lb facs="#z_f34v_l022" xml:id="catmus_f34v_l022"/>
+          <seg type="raw_unreviewed">pine fae̾ ⁊̃ nocũtẽ Nraspũs me delo loĩs illiꝰ c̃cuẽtũ Et c̃</seg>
+          <lb facs="#z_f34v_l023" xml:id="catmus_f34v_l023"/>
+          <seg type="raw_unreviewed">suc̃dos nõ posẜ me itiudicõ solu̾e sb ĩtulit d. ui u̾b̾ meis ũ ed</seg>
+          <lb facs="#z_f34v_l024" xml:id="catmus_f34v_l024"/>
+          <seg type="raw_unreviewed">diuinũ qrit᷑ indiciͫ sãbos suppliciũ fri cũdẽtꝭ daient Int quẽ</seg>
+          <lb facs="#z_f34v_l025" xml:id="catmus_f34v_l025"/>
+          <seg type="raw_unreviewed">deͦ mõsc̃buit ĩuoxi  bb̃ abeat iue ĩnocẽs peat Ir demaũ uũ</seg>
+          <lb facs="#z_f34v_l026" xml:id="catmus_f34v_l026"/>
+          <seg type="raw_unreviewed">sagͤ deꝰ rimat Dõ assl̃cidet i ussẽcut icũdũs fr̾  apta int Iuiissũ</seg>
+          <lb facs="#z_f34v_l027" xml:id="catmus_f34v_l027"/>
+          <seg type="raw_unreviewed">qũtate declae ⁊ portamꝰ .ᵈ oͥ rip̃e Ego ĩ iuyx.</seg>
+          <lb facs="#z_f34v_l028" xml:id="catmus_f34v_l028"/>
+          <seg type="raw_unreviewed">qꝓborꝰ uoxe..</seg>
+          <lb facs="#z_f34v_l029" xml:id="catmus_f34v_l029"/>
+          <seg type="raw_unreviewed">ueuiꝰ Egeĩnacẽs ꝓuẽtior imortꝭ smã dũpna i</seg>
+          <lb facs="#z_f34v_l030" xml:id="catmus_f34v_l030"/>
+          <seg type="raw_unreviewed">Egr solus ⁊</seg>
+          <lb facs="#z_f34v_l031" xml:id="catmus_f34v_l031"/>
+          <seg type="raw_unreviewed">pog̃nꝰ ac̾mũe ^eͥ pũtuatꝰ suspũdi᷑ ĩcruce  Ego udtp̃c ĩdomo suc̃</seg>
+          <lb facs="#z_f34v_l032" xml:id="catmus_f34v_l032"/>
+          <seg type="raw_unreviewed">quiesto se pend̃ ĩ patibłi E ꝑutes ei/ iggniti detã t̃pi mora</seg>
+          <lb facs="#z_f34v_l033" xml:id="catmus_f34v_l033"/>
+          <seg type="raw_unreviewed">ciꝰ fuẽtes / audiẽtes me ad huc abi cẽ ui rapuert̃ me ⁊ suu</seg>
+          <lb facs="#z_f34v_l034" xml:id="catmus_f34v_l034"/>
+          <seg type="raw_unreviewed">aĩcũ deponẽtes / me sine ind̾ice i rod̃ leco appendun̾t aiax agl</seg>
+          <lb facs="#z_f34v_l035" xml:id="catmus_f34v_l035"/>
+          <seg type="raw_unreviewed">dñi affuit ^⁊ ne laĩi suscinũt ãgustias me sustũeaͭ^ Tridus sr</seg>
+          <lb facs="#z_f34v_l036" xml:id="catmus_f34v_l036"/>
+          <seg type="raw_unreviewed">poppũ popũdi ^⁊ uẽ e̾at q̃ sepeliet Siqd amño auxilie cessũte</seg>
+          <lb facs="#z_f34v_l037" xml:id="catmus_f34v_l037"/>
+          <seg type="raw_unreviewed">affuit diũ gcuito Tand die tẽro besꝑaꝵ hõ audio cheore</seg>
+          <lb facs="#z_f34v_l038" xml:id="catmus_f34v_l038"/>
+          <seg type="raw_unreviewed">dulci melotio ꝓsallũci Int̾rogatuic me agłs atriutũ si quid</seg>
+          <lb facs="#z_f34v_l039" xml:id="catmus_f34v_l039"/>
+          <seg type="raw_unreviewed">audie̾ ^ Rũdi me dulcia audie̾ cũtica / s andito nõ . tlligo Cũc</seg>
+          <lb facs="#z_f34v_l040" xml:id="catmus_f34v_l040"/>
+          <seg type="raw_unreviewed">agnes soirar tria nẽ obiit Icuiꝰ ĩgli gatudũtes sert̃ ĩ exceb</seg>
+          <lb facs="#z_f34v_l041" xml:id="catmus_f34v_l041"/>
+          <seg type="raw_unreviewed">clu n̾ ꝑꝰ tres ãues dã sequerꝭ pelicir ircũ ea exultal ĩ et̾nũ</seg>
+          <lb facs="#z_f34v_l042" xml:id="catmus_f34v_l042"/>
+          <seg type="raw_unreviewed">Inceu cũ clĩi celloq̾m⁊Ipiũ ggem auiciõ pastibes ^ deme su</seg>
+          <lb facs="#z_f34v_l043" xml:id="catmus_f34v_l043"/>
+          <seg type="raw_unreviewed">cũrutes dixuunit Nũꝙ̃ cẽi pabb̃m. sd absi metu ⁊ ecrui</seg>
+          <lb facs="#z_f34v_l044" xml:id="catmus_f34v_l044"/>
+          <seg type="raw_unreviewed">ghem nĩꝰ panimꝰ sicuti mõ Alib eccꝭ tye cũ h ueõ pẽdet</seg>
+          <lb facs="#z_f34v_l045" xml:id="catmus_f34v_l045"/>
+          <seg type="raw_unreviewed">hoiroe niniꝵ eramꝰ pt̃iti h ns corpũsiłm̃ fuspũsũ deltũle</seg>
+          <lb facs="#z_f34v_l046" xml:id="catmus_f34v_l046"/>
+          <seg type="raw_unreviewed">Sĩtuei Eya diu̾ituꝰ ip̃m deoisũ Iue ultra sustiẽat olplñ bic</seg>
+          <lb facs="#z_f34v_l047" xml:id="catmus_f34v_l047"/>
+          <seg type="raw_unreviewed">hascoe̾s laiiñtes adeicẽ sdiscedũt torp / ego cadonõ tñ gramꝰ</seg>
+          <lb facs="#z_f34v_l048" xml:id="catmus_f34v_l048"/>
+          <seg type="raw_unreviewed">utꝭ moitꝭ ẽ cadanerũtade̾ cũ põdẽ s paulatĩ ãgło sustũtũte ie</seg>
+          <lb facs="#z_f34v_l049" xml:id="catmus_f34v_l049"/>
+          <seg type="raw_unreviewed">ne collider ⁊ dimissꝰ adctu sceti eluo uisi pui suguit p̃us aud̾at</seg>
+          <lb facs="#z_f34v_l050" xml:id="catmus_f34v_l050"/>
+          <seg type="raw_unreviewed">i</seg>
+          <lb facs="#z_f34v_l051" xml:id="catmus_f34v_l051"/>
+          <seg type="raw_unreviewed">ad</seg>
+          <lb facs="#z_f34v_l052" xml:id="catmus_f34v_l052"/>
+          <seg type="raw_unreviewed">i</seg>
+          <lb facs="#z_f34v_l053" xml:id="catmus_f34v_l053"/>
+          <seg type="raw_unreviewed">nta c̃ cia</seg>
+          <lb facs="#z_f34v_l054" xml:id="catmus_f34v_l054"/>
+          <seg type="raw_unreviewed"> qͣta it</seg>
+          <lb facs="#z_f34v_l055" xml:id="catmus_f34v_l055"/>
+          <seg type="raw_unreviewed"> amsiti</seg>
+          <lb facs="#z_f34v_l056" xml:id="catmus_f34v_l056"/>
+          <seg type="raw_unreviewed">lo loi</seg>
+        </ab>
+      </div>
+      <div type="raw_htr" subtype="medusa">
+        <ab xml:lang="la">
+          <lb facs="#z_f34v_l001" xml:id="medusa_f34v_l001"/>
+          <seg type="raw_unreviewed">succurri respiciunt de iᵒ me eiciunt 2 ꝙ iᵒ fuit suũ iuene</seg>
+          <lb facs="#z_f34v_l002" xml:id="medusa_f34v_l002"/>
+          <seg type="raw_unreviewed">v͛bent</seg>
+          <lb facs="#z_f34v_l003" xml:id="medusa_f34v_l003"/>
+          <seg type="raw_unreviewed">me sin mui me clauio in nocum te iotus foror ⁊ uincior loꝵ re</seg>
+          <lb facs="#z_f34v_l004" xml:id="medusa_f34v_l004"/>
+          <seg type="raw_unreviewed">sũ conscungor manibus / alliger furtis crebris ictibus minor / indici</seg>
+          <lb facs="#z_f34v_l005" xml:id="medusa_f34v_l005"/>
+          <seg type="raw_unreviewed">offer / de furto accusor i factum ad hec furto meo / dompnor pacifici</seg>
+          <lb facs="#z_f34v_l006" xml:id="medusa_f34v_l006"/>
+          <seg type="raw_unreviewed">dam᷑ ĩ ducie ꝯfitũdi / exhibe᷑ uͥ sc̃udos iꝑc̃m mea . 123 123 123 sui</seg>
+          <lb facs="#z_f34v_l007" xml:id="medusa_f34v_l007"/>
+          <seg type="raw_unreviewed">confiteor / scire de furto in interrogatiuũ sacerdocii casu meũ puni</seg>
+          <lb facs="#z_f34v_l008" xml:id="medusa_f34v_l008"/>
+          <seg type="raw_unreviewed">l̃ras pontificiis testam̃nti h̃eo ⁊ me sũrdoti i. ei fur ĩstitꝰ fuit ĩ sibia</seg>
+          <lb facs="#z_f34v_l009" xml:id="medusa_f34v_l009"/>
+          <seg type="raw_unreviewed">inuenitur adhuc / mox ad consilium pontificum / nem / mon</seg>
+          <lb facs="#z_f34v_l010" xml:id="medusa_f34v_l010"/>
+          <seg type="raw_unreviewed">nͣbuꝛ / fur nͣ</seg>
+          <lb facs="#z_f34v_l011" xml:id="medusa_f34v_l011"/>
+          <seg type="raw_unreviewed">adjudicatum est bo fhrum᷑ Cumq cᵒ adtmus confessione certatib apollum</seg>
+          <lb facs="#z_f34v_l012" xml:id="medusa_f34v_l012"/>
+          <seg type="raw_unreviewed">p̃hũsus</seg>
+          <lb facs="#z_f34v_l013" xml:id="medusa_f34v_l013"/>
+          <seg type="raw_unreviewed">In iuste appellor confiteor quod non feci Iste eum furto</seg>
+          <lb facs="#z_f34v_l014" xml:id="medusa_f34v_l014"/>
+          <seg type="raw_unreviewed">ip̃e 2ᵐuis dampnãdꝰ ẽ / ꝯͣ cũ dicẽ; Ieue/ nͥc de lose sui</seg>
+          <lb facs="#z_f34v_l015" xml:id="medusa_f34v_l015"/>
+          <seg type="raw_unreviewed">et cum ei rescribere bellez et de presenti noluit accipere . Rũt</seg>
+          <lb facs="#z_f34v_l016" xml:id="medusa_f34v_l016"/>
+          <seg type="raw_unreviewed">un</seg>
+          <lb facs="#z_f34v_l017" xml:id="medusa_f34v_l017"/>
+          <seg type="raw_unreviewed">a suere conmissum</seg>
+          <lb facs="#z_f34v_l018" xml:id="medusa_f34v_l018"/>
+          <seg type="raw_unreviewed">onnis istud</seg>
+          <lb facs="#z_f34v_l019" xml:id="medusa_f34v_l019"/>
+          <seg type="raw_unreviewed">freuͤ</seg>
+          <lb facs="#z_f34v_l020" xml:id="medusa_f34v_l020"/>
+          <seg type="raw_unreviewed">meũ abnegio . uox tua uincit ⁊ ii leges testis</seg>
+          <lb facs="#z_f34v_l021" xml:id="medusa_f34v_l021"/>
+          <seg type="raw_unreviewed">ad h̃ uã ꝯuinctum Tũc sacerdos accedens ipsis sessor meꝰ allegauit</seg>
+          <lb facs="#z_f34v_l022" xml:id="medusa_f34v_l022"/>
+          <seg type="raw_unreviewed">ꝓ me fae̾ ĩ nocumẽ ⁊ asserũs me de lo hoĩs illiꝰ c̃tinentũ Et cũ</seg>
+          <lb facs="#z_f34v_l023" xml:id="medusa_f34v_l023"/>
+          <seg type="raw_unreviewed">sacerdos non possit me iudicio soluere subincubat d. Se verbis meis n. ed.</seg>
+          <lb facs="#z_f34v_l024" xml:id="medusa_f34v_l024"/>
+          <seg type="raw_unreviewed">dinum in nᶜ indicii / ñ vos supplicium fieri c̃identis exuĩent Int̃ quẽ</seg>
+          <lb facs="#z_f34v_l025" xml:id="medusa_f34v_l025"/>
+          <seg type="raw_unreviewed">deꝰ monstrabit innoxium bb̃ abeat ine innocence peccat Idemnam uñ</seg>
+          <lb facs="#z_f34v_l026" xml:id="medusa_f34v_l026"/>
+          <seg type="raw_unreviewed">sagᵉ deꝰ r̾muit Ob affũtidaᵐ assẽcunt i cũ dñe fr̃ apta / ut ꝯmissũ</seg>
+          <lb facs="#z_f34v_l027" xml:id="medusa_f34v_l027"/>
+          <seg type="raw_unreviewed">veritate declarare et perortariꝰ d eͦ ⁊ ipse Ego in nyo.</seg>
+          <lb facs="#z_f34v_l028" xml:id="medusa_f34v_l028"/>
+          <seg type="raw_unreviewed">approborynorum etc.</seg>
+          <lb facs="#z_f34v_l029" xml:id="medusa_f34v_l029"/>
+          <seg type="raw_unreviewed">venit Ego in noces ꝓuencior mortꝭ suus dampna</seg>
+          <lb facs="#z_f34v_l030" xml:id="medusa_f34v_l030"/>
+          <seg type="raw_unreviewed">Ego solvo</seg>
+          <lb facs="#z_f34v_l031" xml:id="medusa_f34v_l031"/>
+          <seg type="raw_unreviewed">perengius acrimine re pũcatꝰ suspendi᷑ ĩ cruce 1 Ego adtp̃c ĩ domo suc̃</seg>
+          <lb facs="#z_f34v_l032" xml:id="medusa_f34v_l032"/>
+          <seg type="raw_unreviewed">questo se pendet ĩ patibulo sed putes e. i. et gigniti de tã tpi morte</seg>
+          <lb facs="#z_f34v_l033" xml:id="medusa_f34v_l033"/>
+          <seg type="raw_unreviewed">eiꝰ fratre / audientes me ad huc ibi esse vi raperunt me / et sibi</seg>
+          <lb facs="#z_f34v_l034" xml:id="medusa_f34v_l034"/>
+          <seg type="raw_unreviewed">aicũ deponeñtes / me sine iudice ĩ eodem loco appendu̾it / maxime</seg>
+          <lb facs="#z_f34v_l035" xml:id="medusa_f34v_l035"/>
+          <seg type="raw_unreviewed">dñi affuit ⁊ ne laq̃i sustinũt angustias me sustũcat Tridentio sc</seg>
+          <lb facs="#z_f34v_l036" xml:id="medusa_f34v_l036"/>
+          <seg type="raw_unreviewed">suppũ popũdi ⁊ nõ erat qͥ sepelẽt / Si qͥd amno auxilio cessãt e</seg>
+          <lb facs="#z_f34v_l037" xml:id="medusa_f34v_l037"/>
+          <seg type="raw_unreviewed">affuit dñm gͣtuito Tandem die t̃cio uesperũ hõ audio choris</seg>
+          <lb facs="#z_f34v_l038" xml:id="medusa_f34v_l038"/>
+          <seg type="raw_unreviewed">dulci melodio psallunt . In interrogatiue me ante me attingit si quid</seg>
+          <lb facs="#z_f34v_l039" xml:id="medusa_f34v_l039"/>
+          <seg type="raw_unreviewed">audiẽt / Rũdi me dulcia audie̾ cũtica / s audito nõ. ⁊ f̃lizo c̃u̾t</seg>
+          <lb facs="#z_f34v_l040" xml:id="medusa_f34v_l040"/>
+          <seg type="raw_unreviewed">Magne soror tua nũ obiit / cuiꝰ ñgłi gaudentes sunt ĩ excelsa</seg>
+          <lb facs="#z_f34v_l041" xml:id="medusa_f34v_l041"/>
+          <seg type="raw_unreviewed">Tu nomen pꝰ tres ĩnos eã sequeris feliciter ⁊ cũ ea exultans ĩ eternum</seg>
+          <lb facs="#z_f34v_l042" xml:id="medusa_f34v_l042"/>
+          <seg type="raw_unreviewed">In tria cũ clausa colliguntur / pueri gregem a vicario pascuantes / de me serui</seg>
+          <lb facs="#z_f34v_l043" xml:id="medusa_f34v_l043"/>
+          <seg type="raw_unreviewed">cũntes dixerũt / Nũꝙ̃ c̃eͥ ͥ pabbn̾iꝰ scd̃ absq metu ⁊ errore</seg>
+          <lb facs="#z_f34v_l044" xml:id="medusa_f34v_l044"/>
+          <seg type="raw_unreviewed">gͦhem min̾ p̃mimus sicuti mo Alio eccꝭ tpe cũ hꝰ mod̃ pẽdet</seg>
+          <lb facs="#z_f34v_l045" xml:id="medusa_f34v_l045"/>
+          <seg type="raw_unreviewed">honore munirum eramus periculi / hoc modo corporis sui suspensione de cunctis</seg>
+          <lb facs="#z_f34v_l046" xml:id="medusa_f34v_l046"/>
+          <seg type="raw_unreviewed">⁊ ĩtueri Ego divitius ipm deorsũ sue ultra sustineat obliu̾m Sic</seg>
+          <lb facs="#z_f34v_l047" xml:id="medusa_f34v_l047"/>
+          <seg type="raw_unreviewed">pastores loquentes ad uicem sustulerunt coram / ego crado non tamen gram</seg>
+          <lb facs="#z_f34v_l048" xml:id="medusa_f34v_l048"/>
+          <seg type="raw_unreviewed">ut moris est cuicumque tradere cum pondere / sed paulatim angelo sustinante me</seg>
+          <lb facs="#z_f34v_l049" xml:id="medusa_f34v_l049"/>
+          <seg type="raw_unreviewed">ne colliderunt ⁊ dimissis ad tercium steterunt Quo viso pueri sugnuit prius auerat</seg>
+          <lb facs="#z_f34v_l050" xml:id="medusa_f34v_l050"/>
+          <seg type="raw_unreviewed">nqis</seg>
+          <lb facs="#z_f34v_l051" xml:id="medusa_f34v_l051"/>
+          <seg type="raw_unreviewed">a d</seg>
+          <lb facs="#z_f34v_l052" xml:id="medusa_f34v_l052"/>
+          <seg type="raw_unreviewed">in</seg>
+          <lb facs="#z_f34v_l053" xml:id="medusa_f34v_l053"/>
+          <seg type="raw_unreviewed">ducta est clausa.</seg>
+          <lb facs="#z_f34v_l054" xml:id="medusa_f34v_l054"/>
+          <seg type="raw_unreviewed">qͣnta</seg>
+          <lb facs="#z_f34v_l055" xml:id="medusa_f34v_l055"/>
+          <seg type="raw_unreviewed">ant amilite</seg>
+          <lb facs="#z_f34v_l056" xml:id="medusa_f34v_l056"/>
+          <seg type="raw_unreviewed">lũ bon</seg>
+        </ab>
+      </div>
+      <div type="reconstruction" subtype="AI_proposed" xml:lang="la">
+        <p facs="#z_f34v_l001 #z_f34v_l002 #z_f34v_l003 #z_f34v_l004 #z_f34v_l005 #z_f34v_l006 #z_f34v_l007 #z_f34v_l008" xml:id="u_34v_001">[...] saccum respiciunt, de collo me eiciunt et quod in eo fuit suum inveniunt. Vocant me [...] puerum clamant innocentem. Iocus furor et [...] latro [...] sum, constringor manibus, alligor funibus, crebris ictibus [...] ; iudici offeror, de furto accusor; fur adhaeret furto meo, damnor patibulo. [...] adducor confitendi, exhibetur mihi sacerdos, peccata mea illi [...] confiteor; taceo de furto. Interrogatus vero sacerdoti casum meum pandо, [...] et respondi [...] sacerdoti [...].</p>
+        <note type="editorial" corresp="#u_34v_001" xml:lang="cs">Pokračování první osoby Josefa/Hildegundy; nejasná syntaktická vazba o zloději ponechána.</note>
+        <p facs="#z_f34v_l009 #z_f34v_l010 #z_f34v_l011 #z_f34v_l012 #z_f34v_l013 #z_f34v_l014 #z_f34v_l015" xml:id="u_34v_002">[...] fur quaesitus fuit in silva, invenitur et adducitur [...] . [...] ad iudicium [...] . Cumque in [...] confessionem [...] compellor, in ius appellor confiteri quod non feci. Iste cum furto ipse tenetur damnandus est, qui cum dicerem: Iuvenis, dolose [...] , et cum ei res [...] vellem, depositum noluit accipere [...].</p>
+        <note type="editorial" corresp="#u_34v_002" xml:lang="cs">10 a 12 jsou odtržené pokračující části řádků. Přesná přímá řeč a přehazování viny jsou nejasné.</note>
+        <p facs="#z_f34v_l016 #z_f34v_l017 #z_f34v_l018 #z_f34v_l019 #z_f34v_l020" xml:id="u_34v_003">[...] meum abnego, et vox tua unius rei legis testimonio [...]</p>
+        <note type="editorial" corresp="#u_34v_003" xml:lang="cs">16–19 úzké zbytky protější stránky; 20 hlavní text. Znění právní argumentace nevyřešeno.</note>
+        <p facs="#z_f34v_l021 #z_f34v_l022 #z_f34v_l023 #z_f34v_l024 #z_f34v_l025 #z_f34v_l026 #z_f34v_l027" xml:id="u_34v_004">[...] ad hoc [...] . Tunc sacerdos accedens confessor meus allegabat [...] facere innocentem [...]. Et cum sacerdos non posset me iudicio solvere, sic intulit: Si verbis meis non est [...], divinum quaeratur iudicium. Ambos supplicium ferri candentis [...] , ut quem Deus monstraverit innoxium abeat, neque innocens pereat. [...] sagax Deus rimatur. Dum [...] iussi secundum ferrum [...] quantitate [...] et portamus [...]. Ego innoxius [...].</p>
+        <note type="editorial" corresp="#u_34v_004" xml:lang="cs">Žhavé železo je dobová soudní zkouška v příběhu; neověřená historická událost.</note>
+        <p facs="#z_f34v_l028 #z_f34v_l029 #z_f34v_l030 #z_f34v_l031 #z_f34v_l032 #z_f34v_l033 #z_f34v_l034" xml:id="u_34v_005">[...] Ego innocens probatus, mortis sententia damnatur [...]. Ego solvor et [...] , ille [...] suspenditur in cruce. Ego [...] in domo sacerdotis quiesco, ille pendet in patibulo. Eius parentes et cognati [...] audientes me adhuc [...] vivum, rapuerunt me et suum amicum deponentes me sine iudice in eodem loco appendunt.</p>
+        <note type="editorial" corresp="#u_34v_005" xml:lang="cs">28 je odtržený konec hlavního řádku; 30 patří do hlavní věty v 31, ne sousední stránce.</note>
+        <p facs="#z_f34v_l035 #z_f34v_l036 #z_f34v_l037 #z_f34v_l038 #z_f34v_l039 #z_f34v_l040 #z_f34v_l041" xml:id="u_34v_006">Angelus domini affuit et ne laquei sustinerem angustias me sustentabat. Triduum [...] pependi, et non erat qui sepeliret. Siquidem humano auxilio cessante affuit divinum [...]. Tandem die tertio vesperarum hora audio chorum dulci melodia psallentium. Interrogavit me angelus assistens si quid audirem. Respondi me dulcia audire cantica sed audita non intellego. Cui: Agnes soror tua modo obiit, cuius angeli gaudentes ferunt in excelsum [...] . Post tres annos [...] feliciter cum ea exsultabis in aeternum.</p>
+        <note type="editorial" corresp="#u_34v_006" xml:lang="cs">Jméno Agnes i tři roky jsou viditelné. Událost podána jako legendární záchrana a andělská předpověď.</note>
+        <p facs="#z_f34v_l042 #z_f34v_l043 #z_f34v_l044 #z_f34v_l045 #z_f34v_l046 #z_f34v_l047 #z_f34v_l048 #z_f34v_l049" xml:id="u_34v_007">Interim cum talia colloquimur, ipsi [...] patibulum [...] concurrentes dixerunt: Numquam vidi patibulum [...] absque metu et [...] timorem [...] patimur sicut modo. [...] cum hic homo pendet, horrore nimio eram [...] . [...] suspensum deponere [...]. Eia, dimittatur ipse deorsum, ne ulterius sustineat [...]. Circumscindentes laqueos [...] discedunt [...]. Ego cado, non tam graviter ut mortua cadavera cadere cum pondere, sed paulatim, angelo sustentante me ne colliderer, et dimissus ad terram [...]. Euntes [...] prius audierunt [...].</p>
+        <note type="editorial" corresp="#u_34v_007" xml:lang="cs">Závěrečný dialog zachránců a poslední věta částečné. Pokračuje na 35r.</note>
+        <p facs="#z_f34v_l050 #z_f34v_l051 #z_f34v_l052 #z_f34v_l053 #z_f34v_l054 #z_f34v_l055 #z_f34v_l056" xml:id="u_34v_008">[...]</p>
+        <note type="editorial" corresp="#u_34v_008" xml:lang="cs">Úzké fragmenty mimo hlavní stránku.</note>
+      </div>
+      <div type="translation" subtype="AI_proposed" xml:lang="cs">
+        <p corresp="#u_34v_001">[...] Prohlížejí vak, strhávají mi ho z krku a nalézají v něm své věci. Nazývají mě [...] , křičím [že jsem?] nevinný chlapec. [...] Jsem svázán na rukou, spoután provazy a [bit?] mnoha ranami. Předvedou mě soudci a obviní z krádeže; zloděj [...] při mé krádeži, odsoudí mě na šibenici. [...] Přivedou mi kněze, abych se vyzpovídal. Vyznám mu své hříchy, ale o krádeži mlčím. Když se ptá, vyjevím mu svůj příběh [...].</p>
+        <p corresp="#u_34v_002">[...] Zloděje hledali v lese, našli a přivedli [...]. Před soud [...]. Když jsem [...] nucen k vyznání [...], volají mě, abych se přiznal k tomu, co jsem nespáchal. On je přistižen s krádeží a má být odsouzen [...]. [Řekl]: Mladíku, lstivě [...] , a když jsem mu chtěl věci [...] , nechtěl přijmout svěřený [vak?] [...].</p>
+        <p corresp="#u_34v_003">[...] Popírám své [obvinění?] a tvůj hlas [...] svědectví zákona v jediné věci [...].</p>
+        <p corresp="#u_34v_004">[...] Potom přistoupil můj zpovědník a hájil [...] nevinného [...]. Protože mě nemohl zbavit soudu, navrhl: Jestliže mým slovům [...] , hledejme Boží soud. Oba ať [podstoupí?] zkoušku rozpáleným železem, aby ten, koho Bůh ukáže jako nevinného, mohl odejít a nevinný nezahynul. [...] Prozíravý Bůh zkoumá [...]. Když [...] druhé železo [...] velikosti [...] a neseme [...]. Já nevinný [...].</p>
+        <p corresp="#u_34v_005">[...] Já jsem prokázán nevinným, [on] je odsouzen k smrti [...]. Mě propustí [...] a on je oběšen na [šibenici]. Já odpočívám v knězově domě, on visí na šibenici. Jeho příbuzní [...] uslyší, že jsem dosud živý, unesou mě, sejmou svého druha a beze soudce mě oběsí na témže místě.</p>
+        <p corresp="#u_34v_006">Přispěchal anděl Páně a podpíral mě, abych netrpěl sevřením oprátky. Tři dny jsem visel [...] a nebyl nikdo, kdo by mě pohřbil. Když lidská pomoc selhala, přišla božská [...]. Třetího dne v hodinu nešpor jsem slyšel sbor zpívající sladkou melodií. Anděl po mém boku se zeptal, zda něco slyším. Řekl jsem, že slyším sladké zpěvy, ale nerozumím jim. [Odpověděl]: Tvá sestra Anežka právě zemřela a andělé ji radostně nesou vzhůru [...]. Za tři roky [...] s ní budeš šťastně navěky jásat.</p>
+        <p corresp="#u_34v_007">Zatímco jsme tak rozmlouvali, přiběhli [...] k šibenici [...] a říkali: Nikdy jsem šibenici [...] bez strachu [...] , ale nyní pociťujeme [...] hrůzu [...]. Jak tu visí tento člověk, [...] velikým děsem [...]. [...] Sejmout oběšeného [...]. Pusťme ho dolů, aby dále netrpěl [...]. Přeřezali provazy a odešli [...]. Já padám, ale ne tak těžce jako mrtvá těla svou vahou; klesám pozvolna, neboť mě anděl podpírá, abych se nepotloukl. Jsem spuštěn na zem [...]. Když šli [...], co předtím slyšeli [...].</p>
+        <p corresp="#u_34v_008">[Neúplné zbytky protější stránky.]</p>
+      </div>
+    </body>
+  </text>
+</TEI>
