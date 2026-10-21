@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-21",
+  "status": "passed",
+  "visual_review": "docs/experiments/2026-10-21-mi259-neighbor-survey/report.json",
+  "visual_review_sha256": "6faad8b22157551b3c8e8cc4b6371b8e06677ac32741b7f53c84f9f1b91bb2c0",
+  "npm_test": {
+    "passed": true,
+    "html_pages": 1245,
+    "resolved_local_links": 191833,
+    "scope": "Default npm test, including proposal workflows, geometry identity, IIIF fixtures, M I 259 publication tests and two reading addenda"
+  },
+  "snapshot": {
+    "status": "passed",
+    "copied_files_sha256_verified": 12721,
+    "bytes": 772168258,
+    "syntax": {
+      "json": 4112,
+      "xml": 3724
+    },
+    "counts": {
+      "pages": 677,
+      "folios": 670,
+      "binding": 7,
+      "text_pages": 664,
+      "lines": 50297,
+      "passages": 5634,
+      "blank": 6
+    },
+    "bbox_checked": 50297,
+    "whole_document_tei_relaxng": "passed",
+    "expert_review": false,
+    "registry_manuscripts": 3,
+    "manuscripts": {
+      "vkol-m-ii-220": {
+        "counts": {
+          "pages": 677,
+          "folios": 670,
+          "binding": 7,
+          "text_pages": 664,
+          "lines": 50297,
+          "passages": 5634,
+          "blank": 6
+        },
+        "bbox_checked": 50297,
+        "whole_document_tei_relaxng": "passed",
+        "tei_surface_count": 677
+      },
+      "vkol-m-ii-153": {
+        "counts": {
+          "pages": 197,
+          "lines": 15013,
+          "blank": 8,
+          "text_pages": 189,
+          "passages": 3531
+        },
+        "folios": 192,
+        "binding_scans": 5,
+        "bbox_checked": 15013,
+        "whole_document_tei_relaxng": "passed",
+        "tei_scan_div_count": 197,
+        "interpretation_status": "proposed"
+      },
+      "vkol-m-i-259": {
+        "counts": {
+          "pages": 371,
+          "lines": 17414,
+          "passages": 2739,
+          "blank": 41,
+          "text_pages": 330,
+          "supplemental_readings": 3
+        },
+        "bbox_checked": 17414,
+        "raw_candidate_unicode_and_txt": "passed",
+        "coordinate_source_and_affine": "passed",
+        "masked_pilot_pages": 10,
+        "supplemental_readings_separate": 3,
+        "whole_document_tei_relaxng": "passed",
+        "tei_surface_count": 371,
+        "interpretation_status": "proposed"
+      }
+    },
+    "neighboring_leaf_annotations_mi259": {
+      "partial_neighboring_leaf": 4025,
+      "mixed_main_and_neighboring_leaf": 1
+    },
+    "scope": "Text snapshot integrity, syntax, page/download/passage links, geometry and whole-document TEI index. Not new image inspection or full schema revalidation of every existing edition."
+  },
+  "local_browser": {
+    "passed": true,
+    "rows": [
+      "f16v_l068",
+      "f25v_l055"
+    ],
+    "scope": "Dynamic reader: both original HTR candidates and distinct fragment/overlap notes visibly present. Static HTML checked by full generated-page test."
+  },
+  "preservation_report": "mi259-neighbor-survey-preservation-20261021.json",
+  "secrets_report": "mi259-neighbor-survey-secrets-20261021.json",
+  "new_htr_inference": false,
+  "expert_review": false,
+  "production_deployment": "pending; recorded separately after successful deployment"
+}
