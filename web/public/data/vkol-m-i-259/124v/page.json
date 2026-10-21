@@ -2241,11 +2241,20 @@
       },
       "words": [],
       "flags": [
-        "medusa_token_limit"
+        "medusa_token_limit",
+        "neighboring_leaf_fragment"
       ],
-      "note": "Medusa dosáhla limitu generování; výstup může být nedokončený.",
+      "note": "Útržek sousedního listu: tento výřez podle obrazové kontroly AI zachycuje pouze neúplný fragment sousední stránky při okraji snímku, nikoli úplný řádek hlavního textu. Chybějící části nelze spolehlivě doplnit. Původní HTR zůstává zachované; označení je pracovní posouzení bez odborné revize (21. 10. 2026). Medusa dosáhla limitu generování; výstup může být nedokončený.",
       "hit_token_limit": true,
-      "decoding_recovery": false
+      "decoding_recovery": false,
+      "editorial_annotation": {
+        "classification": "partial_neighboring_leaf",
+        "date": "2026-10-21",
+        "status": "proposed",
+        "expert_review": false,
+        "evidence_review_sha256": "7f97d67890615c511bb18e62b40b6a3a4d202b26e20327a0bb3aae3cfebcfeaa",
+        "source_crop_sha256": "8137e2d45218f995e4431c959dc6baa2d64e87a508aa9222ce53f4f423df089b"
+      }
     },
     {
       "id": "f124v_l101",
