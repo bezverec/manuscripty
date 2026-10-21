@@ -1,6 +1,7 @@
 # Publikovaná prezentace
 
-Dokumentace k 21. 10. 2026, korpus publikovaný 19. 10. Web
+Dokumentace k 21. 10. 2026. Základní korpus byl publikován 19. 10., dodatečné
+četby a anotace M I 259 nasazeny 21. 10. Web
 [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz) běží v Cloudflare
 Pages projektu `rukopisy-digitalizaty`. Obsahuje M II 220, M II 153 a M I 259
 z fondů Vědecké knihovny v Olomouci; celkem 1 245 snímků.
@@ -27,6 +28,13 @@ pracovní strukturu, katalogový popis a odlišený výklad AI. Má noční rež
 šířku/skrytí panelů a jedno označení VISK 6 v přehledu. Statická folia jsou
 čitelná bez JS, hledání Pagefind potřebuje JS/WASM. Staré adresy shrnutí
 přesměrovávají na přehled dokumentu; doložené veřejné URL se při úklidu nemažou.
+
+Statická folia zobrazují výchozí HTR model; dynamický prohlížeč a downloady
+nabízejí oba původní kandidáty. Doplňkové četby s češtinou se odlišují od starší
+interpretace a poznámky k sousedním listům od rukopisného textu. Poslední
+nasazení těchto anotací má [samostatný záznam](validation/mi259-neighbor-survey-publication-20261021.json):
+SHA všech 197 změněných veřejných JSON odpovídaly přijaté místní verzi.
+To není nová inventura všech obrazů v R2.
 
 Návrhy oprav zachovávají původní kandidáty a geometrii. UI stáhne JSON nebo
 předvyplní GitHub issue; redakční přijetí a regenerace korpusu jsou samostatné.

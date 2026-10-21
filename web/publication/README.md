@@ -1,8 +1,9 @@
-# Přenositelné sestavení M II153
+# Publikační adaptéry a redakční doplňky
 
 ## Rozsah dnešních adaptérů (21. 10. 2026)
 
-Tento adresář obsahuje dvě oddělené publikační větve. Návod níže se týká
+Tento adresář obsahuje dvě oddělené základní publikační větve a jednorázové
+redakční importéry. Návod základního sestavení níže se týká
 `build_web.py` pro **M II 153** (197 snímků); není univerzálním importérem.
 **M I 259** (371 snímků) používá `build_mi259.py`:
 
@@ -22,6 +23,27 @@ Základní test M I 259: `python -m unittest discover -s . -p test_build_mi259.p
 Metodika a meze: [M I 259](../../docs/mi259-processing.md).
 Sdílený frontend a registr již obsluhují všechny tři dokumenty; dvě starší
 metadata v `source-metadata/` mají záměrně jen první dva rukopisy.
+
+## Jednorázové redakční importy M I 259
+
+| Importér | Přijatý doplněk | Co zachovává |
+|---|---|---|
+| `publish_reading_addenda.py` | Dvě oddělené četby s češtinou a vlastními JSON/TXT/TEI downloady. | Původní raw, pasáže, jejich exporty a tokenové příznaky. |
+| `publish_neighbor_fragments.py` | Nové poznámky a klasifikace 4 022 fragmentů a jednoho smíšeného boxu; tři starší poznámky již existovaly. | Vše kromě nových `note`/`flags`/`editorial_annotation` na přijatých řádcích. |
+
+Oba nástroje jsou vázané na konkrétní výzkumný záznam a výchozí SHA stránek.
+Opakované spuštění nad dnešním korpusem odmítnou. První zapisuje po ověření
+pevných vstupů; druhý má výchozí dry run a zápis vyžaduje `--apply` i výslovný
+`--review-sha256`. Nejsou to běžné příkazy pro deploy ani obecný slučovací krok.
+Jejich provedení a stav návrhu bez odborné revize dokládá
+[metodika M I 259](../../docs/mi259-processing.md).
+
+Základní `build_mi259.py` tato pozdější pole a downloady sám nevytváří ani
+nepřenáší. Jeho nový overlay proto nelze prostě překopírovat přes současný
+korpus. Při novém importu musí být zachování doplňků explicitně součástí
+porovnání a validace; obecný opakovatelný rebuild současného korpusu s těmito
+vrstvami zatím tento adresář neposkytuje. Běžný `build_folio_pages.mjs` naopak
+čte již přijaté `page.json` a poznámky i četby pouze zobrazuje.
 
 ## Sdílené a původní kroky M II 153
 
@@ -82,7 +104,9 @@ zůstává v `update_source_manifest.py` beze změny. `--report` uloží podrobn
 
 Python3.10+ a lxml. Tento adresář neobsahuje rukopisné obrazy, výzkumné výsledky,
 secrets ani síťové/deployment příkazy. Výstup je merge overlay stávajícího webu,
-nikoli kompletní samostatný web. Výzkumné vstupy a stávající public strom se pouze čtou.
+nikoli kompletní samostatný web. Při základním sestavení se výzkumné vstupy
+a stávající public strom pouze čtou; výše popsané redakční importéry mají
+vlastní přísně vymezený zápis do přijatého korpusu.
 
 Všechny hlavní cesty jsou povinné a explicitní:
 

@@ -1,7 +1,8 @@
 # Web Manuscripty
 
-Dokumentace k 21. 10. 2026. Publikovaný korpus z 19. 10. obsahuje **tři
-rukopisy, 1 245 snímků**. [Produkce](https://rukopisy.digitalizaty.cz) běží
+Dokumentace k 21. 10. 2026. Základní korpus z 19. 10. obsahuje **tři
+rukopisy, 1 245 snímků**; 21. 10. přibyly samostatné četby a obrazové anotace
+M I 259. [Produkce](https://rukopisy.digitalizaty.cz) běží
 v Cloudflare Pages projektu `rukopisy-digitalizaty`; obrazy jsou v R2 a u vazby
 M II 220 také v Pages. Aktuální výsledky a omezení: [stav výzkumu](../docs/research-status.md).
 
@@ -24,7 +25,8 @@ npm run test:search
 ```
 
 `npm test` ověřuje návrhy oprav, souřadnice v1/v2, načítání dokumentů, statická
-folia a odkazy všech tří rukopisů, workflow, návrh IIIF a adaptér M I 259.
+folia a odkazy všech tří rukopisů, workflow, návrh IIIF, adaptér M I 259
+a dvě dodatečné četby (`test:readings`).
 Samostatné testy přehledů a motivu ověřují jejich prezentační kontrakty.
 Testy neprovádějí inference, překlad ani odbornou revizi.
 `validate_snapshot.py` kontroluje chráněné hashe, JSON/XML, geometrii,
@@ -90,6 +92,13 @@ Folio má adresu `/rukopisy/{document_id}/{folio}`, řádek fragment například
 `#f119v_l028`. Shodná jména folií různých dokumentů odděluje jmenný prostor.
 Staré adresy shrnutí zachovává `_redirects` i malé HTML fallbacky pro prostý server.
 
+Statické folio zobrazuje nezměněný přepis výchozího modelu z registru;
+oba kandidáti jsou v dynamickém prohlížeči a downloadech. Nové `reading_addenda`
+se uvádějí odděleně od starších interpretací. Poznámky k fragmentům a smíšeným
+boxům jsou v řádkové analýze a u statického přepisu, s datem a stavem návrhu AI.
+Jejich text se díky `data-pagefind-ignore` neindexuje jako rukopisný přepis.
+[Datové vrstvy a klasifikace](../docs/data-contracts.md).
+
 Nové návrhy M I 259 používají schéma v2 s identitou celého orientovaného PNG
 a transformací do archivního TIFFu. Dva původní dokumenty zachovávají v1.
 [Kontrakty a redakční postup](../docs/data-contracts.md).
@@ -104,6 +113,14 @@ není běžný frontend build. Vstupy, staging a reporty mají explicitní cesty
 existujících výzkumných souborů. Plošný přepočet hashů nesmí tuto ochranu obejít.
 Přijatá oprava potřebuje předchozí stav, provenienci a odpovídající nové exporty.
 [Údržba a zachování artefaktů](../docs/maintenance.md).
+
+Nové exporty se vytvářejí pouze pro skutečně dotčené vrstvy. Obrazové poznámky
+nemění původní TXT/ALTO/TEI; dodatečné četby mají samostatné downloady.
+`publish_reading_addenda.py` a `publish_neighbor_fragments.py` jsou jednorázové
+importéry nad pevně určeným předchozím stavem. Nespouštějí se při běžném deploy
+ani jako obecný krok obnovy. Základní `build_mi259.py` sám tyto pozdější vrstvy
+nezachová; nový overlay nesmí jejich současná pole a downloady přepsat.
+[Rozlišení builderů a importérů](publication/README.md).
 
 `build_data.py`, `build_binding.py`, `build_document_identity.py` a
 `build_extras.mjs` jsou původní generátory M II 220 závislé na obnoveném
