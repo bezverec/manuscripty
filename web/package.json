@@ -7,6 +7,7 @@
     "test": "node test-proposals.mjs && node test-segmentation.mjs && node test-coordinate-proposals.mjs && node test-reader-integration.mjs && node test-folio-pages.mjs && node test-proposal-workflows.mjs && node test-iiif.mjs && python test_iiif_image.py && npm run test:mi259",
     "test:mi259": "python -m unittest discover -s publication -p test_build_mi259.py",
     "test:publication": "node test-publication-verifier.mjs",
+    "test:readings": "node test-reading-addenda.mjs",
     "media:restore": "node restore_binding_media.mjs",
     "media:check": "node restore_binding_media.mjs --verify-local",
     "deploy": "npm run media:check && npm run build:pages && wrangler pages deploy public --project-name=rukopisy-digitalizaty --branch=main",

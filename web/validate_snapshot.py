@@ -244,6 +244,21 @@ for entry in entries259:
     line_order = [line['id'] for line in p['lines']]
     ids = set(line_order)
     require(len(ids) == len(line_order) and [r['id'] for r in comparison['lines']] == line_order, 'M I 259 duplicate/mismatched line IDs: ' + f)
+    if p.get('reading_addenda'):
+        appendix = load(public_file(prefix + 'reading-addenda.json'))
+        require(appendix['schema'] == 'manuscripty-reading-addenda-v1' and appendix['document_id'] == 'vkol-m-i-259' and appendix['folio'] == f and appendix['status'] == 'proposed' and appendix['expert_review'] is False, 'Invalid addendum identity/review state: ' + f)
+        require(appendix['readings'] == p['reading_addenda'] and len(appendix['readings']) == 1, 'Addendum download/page mismatch: ' + f)
+        reading = appendix['readings'][0]
+        require(reading['status'] == 'proposed' and reading['expert_review'] is False and reading['line_ids'] and set(reading['line_ids']) <= ids and set(reading['target_line_ids']) <= set(reading['line_ids']), 'Invalid addendum line/review linkage: ' + f)
+        require(reading['source_review_sha256'] == hashlib.sha256((ROOT / 'docs/experiments/2026-10-21-medusa-five/report.json').read_bytes()).hexdigest(), 'Addendum evidence changed: ' + f)
+        require(reading['source_image_sha256'] == next(r['image_sha256'] for r in comparison['lines'] if r['id'] == reading['target_line_ids'][0]), 'Addendum source crop identity changed: ' + f)
+        appendix_tei = etree.parse(str(public_file(prefix + 'reading-addenda.tei.xml')), parser)
+        rng.assertValid(appendix_tei)
+        require(appendix_tei.getroot().get('version') == '4.12.0' and appendix_tei.xpath('//t:supplied[@reason="conjecture"][@cert="low"]', namespaces=NS), 'Addendum TEI must mark conjecture: ' + f)
+        for kind, value in [('reconstruction', reading['reconstruction']), ('translation', reading['translation_cs'])]:
+            element = appendix_tei.xpath('//t:div[@type="reading_addendum"]/t:ab[@type="' + kind + '"]', namespaces=NS)
+            require(len(element) == 1 and ''.join(element[0].itertext()) == value, 'Addendum TEI text differs: ' + f)
+        require({prefix + n for n in ('reading-addenda.json', 'reading-addenda.tei.xml', 'reading-addenda.reconstruction.txt', 'reading-addenda.translation.cs.txt')} <= {d['href'].lstrip('/') for d in p['downloads']}, 'Addendum downloads missing: ' + f)
     for line, raw in zip(p['lines'], comparison['lines']):
         x, y, w, h = line['bbox']
         require(all(isinstance(v, int) and not isinstance(v, bool) for v in (x, y, w, h)) and x >= 0 and y >= 0 and w > 0 and h > 0 and x + w <= p['width'] and y + h <= p['height'], 'Out-of-bounds M I 259 geometry: ' + line['id'])

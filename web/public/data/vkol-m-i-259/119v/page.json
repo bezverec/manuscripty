@@ -2157,6 +2157,22 @@
     {
       "name": "Doklady obrazové kontroly JSON",
       "href": "/data/vkol-m-i-259/119v/evidence.json"
+    },
+    {
+      "name": "Zpřesněná četba AI a překlad JSON",
+      "href": "/data/vkol-m-i-259/119v/reading-addenda.json"
+    },
+    {
+      "name": "Zpřesněná četba AI TEI P5 4.12.0",
+      "href": "/data/vkol-m-i-259/119v/reading-addenda.tei.xml"
+    },
+    {
+      "name": "Zpřesněná četba AI TXT",
+      "href": "/data/vkol-m-i-259/119v/reading-addenda.reconstruction.txt"
+    },
+    {
+      "name": "Zpřesněný český překlad TXT",
+      "href": "/data/vkol-m-i-259/119v/reading-addenda.translation.cs.txt"
     }
   ],
   "document_id": "vkol-m-i-259",
@@ -2177,5 +2193,38 @@
       5600
     ],
     "masked_pilot": false
-  }
+  },
+  "reading_addenda": [
+    {
+      "reconstruction": "[…] Petrus et Paulus fuerunt pares quoad meritum, non [in?] dignitate, in qua praecessit Petrus […].",
+      "translation_cs": "[…] Petr a Pavel byli rovni co do zásluh, nikoli však v důstojnosti, v níž měl Petr přednost […].",
+      "note_cs": "Rozvedená pracovní četba podle obrazu; quoad je normalizované rozvedení. Spojovací výraz před dignitate a okrajové právní odkazy zůstávají nejisté. Překlad vystihuje návrh čtení, není diplomatickou referencí ani odborně schválenou edicí.",
+      "id": "addendum_119v_20261021",
+      "date": "2026-10-21",
+      "status": "proposed",
+      "expert_review": false,
+      "line_ids": [
+        "f119v_l028"
+      ],
+      "target_line_ids": [
+        "f119v_l028"
+      ],
+      "source_review_sha256": "7f97d67890615c511bb18e62b40b6a3a4d202b26e20327a0bb3aae3cfebcfeaa",
+      "source_image_sha256": "cb14a02904a8a3c93dc69c32b4d9b691c4b42b849b67698f3f0234573628babb",
+      "original_page_sha256": "4f4b8ddf6f13c205bd4e59c77beec36e8a828cd6bcb510974bd91ae9ac99af55",
+      "supersedes_passage_ids": [
+        "u_119v_008"
+      ],
+      "sources": [
+        {
+          "label": "Obrazový podklad a původní HTR",
+          "url": "https://rukopisy.digitalizaty.cz/rukopis?doc=vkol-m-i-259&vrstva=radky#119v-f119v_l028"
+        },
+        {
+          "label": "Záznam kontroly a nového pokusu",
+          "url": "https://github.com/bezverec/manuscripty/blob/7c41e54a1cfc35a714eea43063fefcd33c14c0a7/docs/experiments/2026-10-21-medusa-five/README.md"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,40 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {renderReadingAddenda} from './public/reader-core.mjs';
+import {loadManuscripts,renderFolio} from './build_folio_pages.mjs';
+import {HtmlValidate} from 'html-validate';
+
+const review=JSON.parse(await fs.readFile(new URL('../docs/experiments/2026-10-21-medusa-five/report.json',import.meta.url),'utf8'));
+const manuscripts=await loadManuscripts(),manuscript=manuscripts.find(m=>m.doc.id==='vkol-m-i-259');
+const validator=new HtmlValidate({extends:['html-validate:recommended'],rules:{'no-inline-style':'off'}});
+for(const folio of ['97v','119v']){
+  const prefix=new URL('./public/data/vkol-m-i-259/'+folio+'/',import.meta.url);
+  const page=JSON.parse(await fs.readFile(new URL('page.json',prefix),'utf8'));
+  const appendix=JSON.parse(await fs.readFile(new URL('reading-addenda.json',prefix),'utf8'));
+  assert.deepEqual(page.reading_addenda,appendix.readings);
+  const r=appendix.readings[0],source=review.rows.find(r=>r.folio===folio);
+  assert.equal(r.reconstruction,source.reconstruction);assert.equal(r.translation_cs,source.translation_cs);
+  const original=page.lines.find(l=>l.id===source.id);
+  assert.equal(original.raw_htr.medusa,source.original_medusa_raw);
+  assert.equal(original.hit_token_limit,true);
+  assert.equal(r.expert_review,false);assert.equal(r.status,'proposed');
+  assert(r.note_cs.includes('nejist'));
+  const rendered=renderReadingAddenda([r]);
+  assert(rendered.includes('Zpřesněná četba AI'));assert(rendered.includes('bez odborné revize'));
+  assert(!renderReadingAddenda([r],{lineId:'unrelated-line'}));
+  assert(renderReadingAddenda([r],{lineId:source.id}));
+  assert(!renderReadingAddenda([r],{language:'czech'}).includes('Rozvedená četba'));
+  assert(!renderReadingAddenda([r],{language:'latin'}).includes('Český překlad'));
+  assert(!rendered.includes(original.raw_htr.medusa),'Editorial card must not impersonate raw output');
+  const index=manuscript.data.pages.findIndex(p=>p.folio===folio);
+  const html=renderFolio(manuscript,page,index);
+  const validation=await validator.validateString(html);
+  assert(validation.valid,JSON.stringify(validation.results.flatMap(r=>r.messages)));
+  assert(html.indexOf('Zpřesněná četba AI')<html.indexOf('id="passage-'));
+  assert(html.includes(r.reconstruction));
+  const escaped=renderReadingAddenda([{...r,reconstruction:'<script>alert(1)</script>'}]);
+  assert(escaped.includes('&lt;script&gt;'));assert(!escaped.includes('<script>'));
+  assert.throws(()=>renderReadingAddenda([{...r,sources:[{url:'javascript:alert(1)',label:'bad'}]}]),/HTTPS/);
+  assert.throws(()=>renderReadingAddenda([{...r,expert_review:true}]),/proposed/);
+}
+console.log('Two reading addenda: uncertainty, context, immutable Medusa raw, language/filtering, safe links and valid static HTML passed.');

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-21",
+  "status": "passed",
+  "scope": "Two additive AI readings with explicit uncertainty; no new expert review or successful replacement Medusa transcription asserted.",
+  "originals_preserved": {
+    "existing_research_files_changed": [
+      "web/public/data/vkol-m-i-259/119v/page.json",
+      "web/public/data/vkol-m-i-259/97v/page.json"
+    ],
+    "original_page_fields_except_added_layer_and_downloads": "unchanged",
+    "raw_txt_alto_original_tei_comparison_reconstruction_translation": "byte-identical to main base",
+    "source_review_sha256": "7f97d67890615c511bb18e62b40b6a3a4d202b26e20327a0bb3aae3cfebcfeaa"
+  },
+  "checks": {
+    "new_addenda_regression": "passed",
+    "reader_integration": "passed",
+    "npm_test": "passed",
+    "html_folia": 1245,
+    "local_links": 191833,
+    "snapshot_sha256_files": 12721,
+    "standalone_addendum_tei_relaxng": "passed: both P5 4.12.0",
+    "pagefind_real_wasm": "passed: 1245 indexed pages",
+    "binding_media_sha256": {
+      "status": "passed",
+      "objects": 1175,
+      "bytes": 45188048
+    },
+    "changed_text_secrets": {
+      "tool": "Gitleaks",
+      "version": "8.30.1",
+      "files": 29,
+      "finding_count": 0,
+      "passed": true,
+      "scope": "Changed/untracked text plus 3 existing local upload scripts, empty overlay; not full Git-history rescan."
+    }
+  },
+  "deployment_verification": "Recorded separately after production deployment."
+}
