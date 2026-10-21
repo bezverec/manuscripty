@@ -4,6 +4,13 @@ Evidence použití je z lokálních záznamů experimentů a dokončených dáve
 
 ## Produkční dvojice pro hlavní text
 
+Tabulka níže zachycuje původní hlavní text M II 220 (664 stran).
+Stejná dvojice byla následně použita pro M II 153 (197 snímků, 15 013
+segmentů) a M I 259 (371 snímků, 17 414 segmentů). Snímek bez detekovaných
+řádků nezískává tímto počtem nový přepis. Přesné parametry M I 259 a pět
+zachovaných omezených kandidátů popisuje [jeho metodika](mi259-processing.md).
+Dokumentační kontrola 21. 10. není novou kontrolou všech externích odkazů.
+
 | Technologie | Úloha a použití | Zdroj |
 |---|---|---|
 | Kraken 7.1.1 | Lokální Docker CPU, blla segmentace, CRNN/CTC rozpoznávání a zarovnání pro OCR | [Dokumentace](https://kraken.re/main/index.html), [zdrojový kód](https://github.com/mittagessen/kraken) |

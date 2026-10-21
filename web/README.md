@@ -1,168 +1,119 @@
-# Publikovaná webová verze
+# Web Manuscripty
 
-## IIIF příprava (fáze 5)
+Dokumentace k 21. 10. 2026. Publikovaný korpus z 19. 10. obsahuje **tři
+rukopisy, 1 245 snímků**. [Produkce](https://rukopisy.digitalizaty.cz) běží
+v Cloudflare Pages projektu `rukopisy-digitalizaty`; obrazy jsou v R2 a u vazby
+M II 220 také v Pages. Aktuální výsledky a omezení: [stav výzkumu](../docs/research-status.md).
 
-`npm run build:iiif` vytváří návrh Presentation API 3 manifestu pro M II 220
-v `public/iiif/vkol-m-ii-220/manifest.json`: 677 canvasů, rozměry z page.json,
-pracovní navigační ranges, TEI seeAlso, stálé adresy folií rendering a homepage.
-Práva a requiredStatement jsou úmyslně vynechány: **TODO potvrdit licenci s VKOL**.
-Tlačítko zůstává skryté (`feature-config.js`: `iiifManifest: false`). Manifest
-zatím odkazuje na nepublikované služby; nejde o funkční veřejné IIIF zpřístupnění.
+## Spuštění a ověření kopie
 
-`npm test` ověřuje návrh pomocí připnutého oficiálního JSON Schema IIIF
-Presentation 3, URI formátů a vlastních kontrol 677 canvasů, ranges, adres,
-rozměrů a vypnutého příznaku. Rozsah a původ schématu jsou v schemas/README.md.
-Nejde o úplnou kontrolu JSON-LD, HTTP, CORS či všech normativních požadavků.
+Potřebujete Python s lxml/Pillow a Node.js/npm. Z kořene repozitáře:
 
-Volitelný `python build_media.py --iiif` připravuje lokální statické Image API 3
-level 0 v ignorovaném `r2-media/iiif/<folio>/`: 512px dlaždice bez překryvu,
-WebP Q90, info.json, úplný obraz a explicitně uvedené velikosti. Přidává také
-JPEG Q90, protože [level 0 vyžaduje JPEG](https://iiif.io/api/image/3.0/compliance/).
-Podporuje pouze uvedené dlaždice a velikosti, ne libovolné výřezy či rotace.
-Builder vyžaduje media-jobs vytvořené z MANUSCRIPT_WORKSPACE a kontroluje SHA
-originálů. **Při přípravě této fáze nebyl spuštěn na TIFF.** Python test vytváří
-pouze syntetický obraz v dočasném adresáři a ověřuje i okrajové dlaždice.
+```sh
+python -m pip install -r requirements-reference.txt
+python web/validate_snapshot.py
+python -m unittest discover -s medieval-manuscript-transcription/tests -v
+cd web
+npm ci
+npm test
+npm run test:overview
+npm run test:theme
+npm run test:publication
+npm run build:pages
+npm run test:search
+```
 
-Pro další rukopis lze generátoru předat JSON konfiguraci s publicDir,
-documentFile, indexFile, structureFile, destination a imageNamespace; obrazový
-builder má odpovídající `--iiif-namespace`. Namespace zabraňuje kolizi stejně
-pojmenovaných folií. Neúplná data M II 153 se tímto buildem nezveřejňují.
+`npm test` ověřuje návrhy oprav, souřadnice v1/v2, načítání dokumentů, statická
+folia a odkazy všech tří rukopisů, workflow, návrh IIIF a adaptér M I 259.
+Samostatné testy přehledů a motivu ověřují jejich prezentační kontrakty.
+Testy neprovádějí inference, překlad ani odbornou revizi.
+`validate_snapshot.py` kontroluje chráněné hashe, JSON/XML, geometrii,
+pokrytí interpretací a TEI indexy; neopakuje veškeré původní obrazové kontroly.
 
-TODO před zapnutím: dokončit fázi 3 (adresy folií), potvrdit práva, připravit
-obrazové objekty, samostatně autorizovat upload, zkontrolovat Content-Type/CORS
-a prohlížeče. Nic z toho není součástí této fáze; bez uploadu a nasazení.
+Lokální statický server z kořene:
 
-Snapshot 11. 10. 2026, revize 20261011-7, [produkce](https://rukopisy.digitalizaty.cz). public/ obsahuje statický frontend a veřejné textové exporty, zkopírované byte-for-byte. Obrazy jsou v samostatném úložišti; jejich kontrolní součty nejsou obrazové soubory.
-
-## Lokální prohlížení
-
-Z kořene repozitáře:
-
-~~~sh
+```sh
 python -m http.server 8000 --directory web/public
-~~~
+```
 
-Otevřete http://localhost:8000/ a http://localhost:8000/rukopis.html. Python server neprovádí Cloudflare přepis čistých URL; detail dokumentu lokálně otevřete jako /rukopisy/vkol-m-ii-220.html. JavaScript používá fetch, proto soubory neotvírejte přímo přes file://. Folia a řádkové výřezy vyžadují dostupnost veřejné R2 domény; bez sítě je nutná samostatná místní kopie obrazových derivátů a úprava jejich URL.
+Otevřete `http://localhost:8000/`. Prostý server neumí čisté URL přepisy Pages;
+lokálně používejte například `/rukopisy/vkol-m-i-259.html`,
+`/rukopisy/vkol-m-i-259/119v.html` a `/rukopis.html?doc=vkol-m-i-259#119v`.
+`file://` není vhodné kvůli fetch. Obrazy z R2 vyžadují síť; samotný clone
+není úplná offline obrazová kopie.
 
-Sedm snímků vazby používá public/binding-media/, které Git neobsahuje. Před nasazením je obnovte z existujícího veřejného webu podle manifestu:
+## Média a ruční nasazení
 
-~~~sh
+Před každým Pages nasazením obnovte ignorovaný `public/binding-media/`
+pro sedm snímků vazby M II 220:
+
+```sh
 cd web
 npm run media:restore -- --check
 npm run media:restore
 npm run media:check
-npm test
-~~~
+```
 
-První příkaz pouze ověří manifest bez stahování. Obnova přenese 1 175 veřejných WebP objektů (45 188 048 bajtů), ověří velikost i SHA-256 a uloží je pouze do ignorovaného public/binding-media/. Nepotřebuje žádný klíč. media:check nic nestahuje a vyžaduje všechna média. Pokud veřejný zdroj nebude dostupný, vytvořte deriváty z archivních TIFF pomocí build_binding.py v obnoveném pracovním prostoru.
+Obnova kontroluje 1 175 veřejných WebP (45 188 048 bajtů) přes SHA-256 a
+velikost, bez klíče. M II 153 a M I 259 mají i vazbu v R2. Pokud veřejný zdroj
+není dostupný, je nutné obnovit deriváty z archivních TIFF v pracovním prostoru.
 
-## Kontroly a nasazení
+Po kontrolách a přípravě nové verze:
 
-~~~sh
-# Z kořene repozitáře:
-python web/validate_snapshot.py
-python -m unittest discover -s medieval-manuscript-transcription/tests -v
-# Z web/:
-npm test
-# Volitelně síťová kontrola existující produkce:
-node verify_public.mjs
-npm install
-npm run media:check
+```sh
 npx wrangler login
 npm run deploy
-~~~
+```
 
-Wrangler je pevně uvedený v package-lock.json. Deploy ověřuje obrazové snímky vazby a nahrává public/ do existujícího projektu rukopisy-digitalizaty. Nasazení vyžaduje vlastní přihlášení a oprávnění; tokeny ani OAuth cache nejsou v Git. Cloudflare DNS/R2 jsou existující služby, nevytvářejí se těmito příkazy. Není nastavené automatické nasazování z GitHubu.
+Deploy kontroluje vazební média, sestaví folia a hledání a nahraje `public/`
+do existujícího projektu. GitHub sám Pages nenasazuje. Přihlášení, OAuth cache
+a tokeny jsou místní; tyto příkazy nevytvářejí DNS ani bucket. Upload R2 je
+samostatná správa úložiště s auditovaným prefixem a oprávněním.
 
-Při Python validaci se kontrolují kopírované SHA-256, JSON/XML syntaxe, referenční vazby, rozměry a geometrie, dostupnost obou HTR kandidátů a pokrytí interpretacemi; úplný TEI index prochází offline Relax NG. Jde o kontrolu datového snapshotu, nikoli novou odbornou revizi nebo opakovanou celkovou validaci všech původních edic. npm test spouští 11 HTR a 12 segmentačních kontrol. Původní browserové a veřejné HTTP kontroly jsou v ../docs/validation.
+`node verify_publication.mjs --plan` bez sítě vypíše soubory všech tří
+dokumentů a přesměrování. `node verify_publication.mjs` je síťová kontrola
+všech stránkových JSON a vybraných sdílených textů; přesměrování ověřuje zvlášť.
+`npm run test:publication` kontroluje tento plán a chybové odpovědi synteticky.
+`verify_public.mjs` zachovává starší podrobnou kontrolu M II 220 a vzorků
+jeho obrazů. Nejde o úplnou kontrolu všech dnešních obrazových objektů.
+Datované browserové/HTTP audity jsou v `docs/validation`.
 
-## Regenerace z výzkumných vstupů
+## Folia a vyhledávání
 
-Buildery vyžadují původní pracovní prostor: archiv EX/, všechna HTR porovnání, reconstruction.json, dokončovací manifest a vzorky. Nastavte MANUSCRIPT_WORKSPACE na jeho kořen. Následující kroky vytvářejí nové lokální deriváty a mění public/; jsou určeny pro přípravu nové verze, ne pro ověření kopie:
+`manuscripts.json` registruje M II 220 (677), M II 153 (197) a M I 259 (371).
+Každý záznam má `id`, cestu manifestu v public a `default_model`.
+`npm run build:pages` vytváří všech 1 245 statických folií, sitemap a ignorovaný
+index `public/pagefind/`. Index se necommituje; sestavuje se při nasazení.
+`npm run test:search` spouští skutečné Pagefind API/WASM nad místními soubory.
 
-~~~sh
-python build_data.py
-python build_binding.py
-node build_extras.mjs
-python build_document_identity.py
-~~~
+Folio má adresu `/rukopisy/{document_id}/{folio}`, řádek fragment například
+`#f119v_l028`. Shodná jména folií různých dokumentů odděluje jmenný prostor.
+Staré adresy shrnutí zachovává `_redirects` i malé HTML fallbacky pro prostý server.
 
-build_data.py vytvoří media-jobs.json; build_media.py pak lokálně vytváří folia v r2-media/ (ignorováno). Obnova uvedená výše řeší pouze sedm snímků vazby, ne 158 837 objektů v R2. Přenos folií do R2 je samostatná autorizovaná správa úložiště a není součástí tohoto zdrojového snapshotu. Po regeneraci je potřeba obnovit manifest SHA-256 pro novou verzi; původní kopie je v docs/web-source-manifest.json.
+Nové návrhy M I 259 používají schéma v2 s identitou celého orientovaného PNG
+a transformací do archivního TIFFu. Dva původní dokumenty zachovávají v1.
+[Kontrakty a redakční postup](../docs/data-contracts.md).
 
-Návrhy oprav se pouze exportují nebo předvyplňují GitHub issue. Přijetí a přegenerování HTR, TEI a OCR je samostatný redakční krok. Segmentační editor podporuje obdélníky, ne polygony nebo baselines.
+## Publikační pipeline a chráněná data
 
-Při přípravě repozitáře byl ověřen manifest a místní kopie všech 1 175 obrazových souborů vazby. Samotná hromadná obnova HTTP v tomto kroku nebyla znovu spouštěna. Síťová kontrola používá devět kontrolních R2 objektů a 14 objektů vazby; metadata vzorků jsou přibalená, obrazové soubory v Git nejsou.
+[publication/README.md](publication/README.md) rozlišuje adaptéry M II 153,
+M I 259 a sdílené generátory popisu, TEI, motivu a loga. Import výzkumných dat
+není běžný frontend build. Vstupy, staging a reporty mají explicitní cesty.
 
-## Statické stránky folií a vyhledávání (fáze 3)
+`update_source_manifest.py` obnovuje inventář frontendu, ale odmítá změny
+existujících výzkumných souborů. Plošný přepočet hashů nesmí tuto ochranu obejít.
+Přijatá oprava potřebuje předchozí stav, provenienci a odpovídající nové exporty.
+[Údržba a zachování artefaktů](../docs/maintenance.md).
 
-Po `npm ci` spusťte `npm run build:pages`. Offline Node generátor vytvoří 677 stránek
-`public/rukopisy/vkol-m-ii-220/<folio>.html` a sitemap; následně Pagefind 1.4.0
-vytvoří ignorovaný `public/pagefind/` s vyhledávacím indexem. Verze Pagefind i
-HTML validatoru jsou pevné v package.json a lockfile. Index necommitujte; nasazovací
-skript jej vždy sestaví před nahráním. V této fázi nebylo nic nasazeno ani nahráno
-na R2 a nebylo změněno DNS/Cloudflare.
+`build_data.py`, `build_binding.py`, `build_document_identity.py` a
+`build_extras.mjs` jsou původní generátory M II 220 závislé na obnoveném
+pracovním prostoru. Nejsou univerzálním buildem tří rukopisů pro běžný clone.
 
-Folia jsou čitelná bez JavaScriptu; zobrazují CATMuS, rekonstrukci a český překlad,
-poznámky a odkazy na zdrojové řádky, předchozí/další snímek, prohlížeč, citaci a
-podklady ke stažení. Snímky vazby uvádějí zatím nepřepsáno. Čistá adresa folia je
-`/rukopisy/vkol-m-ii-220/20v`, řádková citace končí `#f20v_l001`. Původní stavové
-odkazy prohlížeče zůstávají funkční. Lokálně použijte příponu `.html`; Python
-HTTP server nepřesměruje čisté URL. Hledání je místní Pagefind/WASM, pole na úvodu
-hledá ve všech zaregistrovaných rukopisech, pole na záznamu pouze v daném rukopisu.
-Výsledky vedou na statická folia; JavaScript je nutný pouze pro hledání.
+## IIIF: neaktivní experiment
 
-`manuscripts.json` je rozšiřitelný registr. Každý záznam má `id`, `manifest`
-(relativní cesta uvnitř public, JS pilot-data nebo JSON manifest) a `default_model`.
-Nový manifest musí mít shodné `document.id`, URI/reader a vlastní stránková data.
-Tato fáze registruje pouze M II 220 a žádná nová katalogová metadata ani M II 153
-nezveřejňuje. URI prohlížeče s parametrem doc generátor zachová.
-
-Kontroly:
-
-~~~sh
-npm test
-npm run test:search
-# Z kořene:
-python web/validate_snapshot.py
-python -m unittest discover -s medieval-manuscript-transcription/tests -v
-~~~
-
-`npm test` vyžaduje vygenerované stránky přítomné ve snapshotu a validuje všech 677
-pomocí html-validate 10.0.0 (doporučená pravidla), odkazy a identifikátory.
-`npm run test:search` vyžaduje sestavený index a spouští skutečné Pagefind browser
-API a WASM s místním fetch; slovo glosa z neupraveného CATMuS 20v musí najít 20v.
-Snapshot validátor vynechává pouze generovaný public/pagefind při inventuře;
-SHA všech 677 zdrojových stran, jejich TXT/JSON/TEI nadále kontroluje.
-`docs/web-source-manifest.json` zahrnuje nové HTML, sitemap a změněné frontend
-soubory; výzkumné texty, geometrie, ID a zdrojové SHA se nemění.
-
-Otevřené otázky: TODO licence a práva; datace/katalogová identifikace nejsou
-součástí této fáze. Vygenerované HTML má metadata pouze z existujícího snapshotu.
-
-Volitelná obrazová kontrola: `node test-folio-browser.cjs` vyžaduje nainstalovaný Playwright (nebo `PLAYWRIGHT_MODULE` s cestou k balíčku) a místní Chrome. Ukládá ověřovací screenshoty do `docs/validation/phase3-screenshots/`; ověřuje šířky 1440 a 390 px, text bez JS a hledání v prohlížeči. Úzká gitignore výjimka dovoluje pouze tyto ověřovací screenshoty v PR; zdrojové skeny a jiná obrazová data zůstávají vyloučena.
-
-## Aktuální společná publikace M II 220 a M II 153
-
-Výše uvedené počty a rozsah popisují původní fáze. Aktuální registr obsahuje oba
-rukopisy: 677 + 197 = 874 snímků. `npm run build:pages` vytváří 874 stránek folií
-a indexuje pouze tyto stránky, se samostatnými filtry dokumentů. Shrnutí M II 153
-je na `/rukopisy/vkol-m-ii-153/shrnuti`; sitemap obsahuje 881 adres.
-
-Publikační skripty v `publication/` vyžadují explicitní cesty:
-
-~~~sh
-python publication/build_web.py --source /research/full-htr --pilot-source /research/pilot-htr --base-public /reviewed/public --out /staging/public --rng /schemas/tei_all.rng --supplier-metadata /metadata/supplier.xml --legacy-metadata /metadata/catalogue-review --report-dir /staging/reports --require-complete
-python publication/build_summary.py --source /research/full-htr --out /staging/public --require-complete
-python import_manuscript.py --staged /staging/public --build-report /staging/reports/build-report.json --audit-report ../docs/validation/two-manuscript-import.json
-~~~
-
-Přesné vstupy a kontrolní záznamy jsou v [popisu publikace](../docs/TWO-MANUSCRIPT-PUBLICATION.md).
-Builder nepřepisuje archivní zdroje. Import připouští pouze doložené změny
-identifikace M II 220 a přidání nového jmenného prostoru M II 153; původní HTR,
-geometrie, překlady a řádková ID prvního rukopisu zůstávají stejné.
-
-Po importu: `npm run build:iiif`, `npm run build:pages`, `npm test`,
-`npm run test:search`, aktualizace inventáře přes `python update_source_manifest.py`
-a `python validate_snapshot.py`. IIIF je stále vypnutý návrh bez veřejných
-obrazových IIIF služeb; jeho příprava neznamená dostupnou interoperabilní službu.
-Nasazení zůstává ruční přes existující Cloudflare Pages projekt.
+`npm run build:iiif` vytváří návrh Presentation API 3 pro M II 220 se 677
+canvasy. `feature-config.js` ponechává `iiifManifest: false`; obrazové služby
+manifestu nejsou publikované. `build_media.py --iiif` má syntetické testy,
+nebyl proveden plošný TIFF build/upload IIIF. Před zapnutím chybí potvrzení práv,
+obrazové objekty a jejich ověření včetně CORS. Statické adresy folií a vyhledávání
+jsou již dokončené; starý požadavek na dokončení jejich fáze není aktuální TODO.

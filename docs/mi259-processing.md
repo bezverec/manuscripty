@@ -2,7 +2,8 @@
 
 Třetí rukopis projektu je **M I 259 – Textus varii** z fondů
 [Vědecké knihovny v Olomouci](https://www.vkol.cz/). Tento dokument popisuje
-postup a význam jednotlivých vrstev. Není zprávou o dokončení publikace,
+postup a význam jednotlivých vrstev. Publikace byla dokončena 19. 10. 2026
+v [PR #17](https://github.com/bezverec/manuscripty/pull/17); dokument není
 výsledkem odborné revize ani závěrečným vyúčtováním spotřeby.
 
 ## Prameny, popis a identifikátory
@@ -206,7 +207,25 @@ Veřejný balíček prošel nezávislou kontrolou všech tří dokumentů, stati
 stran, návrhů oprav a vyhledávacího indexu 1 245 snímků. Tyto technické
 kontroly nejsou odbornou paleografickou revizí.
 
-Obrazy představují 66 119 WebP souborů (3 898 255 624 bajtů), včetně
-náhledů, dlaždic a skutečných řádkových výřezů. Záznam o nahrání a kontrole
-veřejného nasazení se vede samostatně; existence místního balíčku sama
-nedokládá jeho dostupnost na webu.
+Obrazy představují 66 119 WebP souborů (3 898 255 624 bajtů), včetně náhledů,
+dlaždic a skutečných výřezů. Nahrání bylo 19. 10. zkontrolováno pro všechny
+objekty přes velikost a ETag/MD5; produkční prohlížeč byl ověřen výběrově.
+Dočasný token byl zneplatněn a jeho místní soubor odstraněn.
+[Veřejný dokument](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-i-259).
+
+## Následná kontrola pěti kandidátů (21. 10. 2026)
+
+Všech pět původních výřezů a širší obrazový kontext bylo znovu otevřeno.
+27v/63, 46v/53 a 124v/100 jsou úzké neúplné útržky sousedního listu,
+97v/14 a 119v/28 skutečné řádky hlavního textu. Experiment s polygonovou
+maskou, narovnáním baseline a dvěma překrývajícími se polovinami hlavních
+řádků vytvořil devět diagnostických vstupů. Běžná místní služba je znovu
+segmentovala na 15 částí. Žádný nový výstup nenarazil na tokenový limit,
+ale technické ukončení neznamenalo úplnou či správnou četbu; nové raw nejsou
+přijaty jako náhrada původních kandidátů.
+
+Samostatný návrh četby a češtiny zpřesňuje dva hlavní řádky. U 97v je
+pracovní interpretace „dřevo z posvěceného kostela“ podpořena právní paralelou,
+nikoli vydávána za jistou diplomatickou četbu. U okrajových útržků se
+chybějící slova nevymýšlejí. [Výsledek, kandidáti a provenience](experiments/2026-10-21-medusa-five/README.md).
+Publikovaný korpus a jeho původních pět limitových příznaků zůstaly beze změny.

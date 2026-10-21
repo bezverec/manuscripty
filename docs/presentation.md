@@ -1,18 +1,45 @@
 # Publikovaná prezentace
 
-Web běží na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz), Cloudflare Pages projekt rukopisy-digitalizaty. Aktuální snapshot: 11. 10. 2026, revize 20261011-7. Přehled dokumentu: [M II 220](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220), z fondů Vědecké knihovny v Olomouci.
+Dokumentace k 21. 10. 2026, korpus publikovaný 19. 10. Web
+[rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz) běží v Cloudflare
+Pages projektu `rukopisy-digitalizaty`. Obsahuje M II 220, M II 153 a M I 259
+z fondů Vědecké knihovny v Olomouci; celkem 1 245 snímků.
+[Počty, stav a omezení](research-status.md).
 
-Statické HTML/CSS/JavaScript a textové JSON/TEI/TXT běží v Pages. OpenSeadragon 6.1.1 načítá WebP dlaždice ve formátu pyramid DZI. Folia využívají [obrazovou doménu](https://rukopisy-data.digitalizaty.cz) s R2 bucketem rukopisy-mii220; snímky vazby jsou v binding-media/ v Pages. Q90, dlaždice 512 pixelů, překryv 1 pixel; výřezy a náhledy jsou samostatné deriváty. Původní TIFF zůstávají v lokálním archivu.
+HTML/CSS/JavaScript a veřejné JSON/TEI/TXT/ALTO jsou v Pages. OpenSeadragon
+6.1.1 načítá WebP pyramidy DZI (512 px, překryv 1 px, Q90). Náhledy a skutečné
+řádkové výřezy jsou samostatné deriváty. Archivní TIFF zůstávají místní.
 
-| Skutečně vytvořené deriváty | Počet objektů | Bajty |
-|---|---:|---:|
-| Folia v R2, včetně 50 297 řádkových výřezů | 158 837 | 10 213 360 984 |
-| Vazba v Pages | 1 175 | 45 188 048 |
+| Obrazová sada | Umístění / prefix | Objekty | Bajty |
+|---|---|---:|---:|
+| M II 220, folia a výřezy | R2 `v1/` | 158 837 | 10 213 360 984 |
+| M II 220, sedm snímků vazby | Pages `binding-media/` | 1 175 | 45 188 048 |
+| M II 153, včetně vazby | R2 `v2/vkol-m-ii-153/` | 62 131 | 3 290 011 866 |
+| M I 259, včetně vazby a doplňkových výřezů | R2 `v2/vkol-m-i-259/` | 66 119 | 3 898 255 624 |
 
-Jde o objemy obrazových derivátů, nikoli celkový prostor archivu. Historické odhady a měřicí skripty nejsou současným fakturačním výkazem; podmínky poskytovatele se musí ověřit při nové kalkulaci.
+Jde o vytvořené a dříve auditované deriváty, nikoli aktuální fakturační výkaz
+či novou inventuru cloudového účtu. Sdílený bucket `rukopisy-mii220` má
+[obrazovou doménu](https://rukopisy-data.digitalizaty.cz); jeho historický název
+neomezuje obsah na první rukopis. Nové soubory mají vlastní namespace.
 
-Frontend obsahuje prohlížeč skenů, řádkové čtení a přepisy, pasážové rekonstrukce a překlady, navigaci pracovní strukturou, AI shrnutí, textové exporty a sdílené odkazy na dokument, folio a řádek. Pravý panel lze roztáhnout; obě boční části lze skrýt a obnovit šipkami. Rozhraní návrhů HTR a segmentace zachovává původní ID a SHA-256 zdroje. GitHub slouží jako místo návrhů, nevytváří automaticky schválenou edici.
+Frontend nabízí dokumenty, HTR, řádkové čtení, rekonstrukci a překlad,
+pracovní strukturu, katalogový popis a odlišený výklad AI. Má noční režim,
+šířku/skrytí panelů a jedno označení VISK 6 v přehledu. Statická folia jsou
+čitelná bez JS, hledání Pagefind potřebuje JS/WASM. Staré adresy shrnutí
+přesměrovávají na přehled dokumentu; doložené veřejné URL se při úklidu nemažou.
 
-Git obsahuje web/public bez obrazů. Pro lokální zkoušku fungují foliované obrazy přes R2; sedm snímků vazby vyžaduje obnovit ignorované binding-media. Před novým nasazením je tato obnova povinná, aby nové Pages nasazení neztratilo snímky vazby. [Návod a kontrolní součty](../web/README.md).
+Návrhy oprav zachovávají původní kandidáty a geometrii. UI stáhne JSON nebo
+předvyplní GitHub issue; redakční přijetí a regenerace korpusu jsou samostatné.
+Schéma v2 M I 259 identifikuje orientovaný souřadnicový obraz a transformaci
+na TIFF. [Datové kontrakty](data-contracts.md).
 
-Publikace se nadále provádí ručně pomocí Wrangler; tato aktualizace GitHubu sama nevytváří nové Pages nasazení ani nemění DNS, R2 nebo přístupové klíče.
+Git neobsahuje obrazy rukopisů ani Pagefind index. Před Pages deploy je nutné
+obnovit všech 1 175 ignorovaných vazebních WebP M II 220; jinak by další
+nasazení tyto obrazy ztratilo. [Obnova, testy a nasazení](../web/README.md).
+Publikace probíhá ručně přes Wrangler. Push do GitHubu sám nemění Pages,
+DNS ani R2. Tokeny a lokální účtové cache se necommitují.
+
+IIIF zůstává vypnutým návrhem manifestu M II 220 bez publikovaných obrazových
+služeb. Před zapnutím vyžaduje vlastní přípravu, práva, upload a ověření.
+Historické testy a výsledky jsou datované v `docs/validation`; nejsou
+nepřetržitým monitoringem dnešního nasazení.

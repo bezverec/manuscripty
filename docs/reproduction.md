@@ -1,6 +1,6 @@
 # Prostředí a reprodukce
 
-Tento snapshot má dvě úrovně reprodukce: samostatně ověřitelný referenční exporter se syntetickou ukázkou a dávkové skripty závislé na obnoveném výzkumném pracovním prostoru. Produkční inference nebyla při přípravě repozitáře opakována.
+Dokumentace aktualizována 21. 10. 2026. Samostatně lze ověřit referenční exporter se syntetickou ukázkou a veřejný korpus tří rukopisů; dávková inference vyžaduje obnovený výzkumný prostor. Následující historický recept se vztahuje ke čtvrté stovce M II 220. Produkční inference nebyla při údržbě repozitáře znovu opakována. Aktuální ověření webu a sestavení 1 245 folií popisuje [web/README.md](../web/README.md).
 
 ## Samostatná kontrola
 
@@ -15,7 +15,7 @@ python medieval-manuscript-transcription/scripts/validate_tei.py demo-output/edi
 
 Instalace vyžaduje dostupný balíčkový zdroj; vlastní TEI validace používá místní pevné schéma bez sítě. Referenční exporter má výchozí ALTO 4.4, zatímco produkční ProArc větev používá ALTO 3.0.
 
-## Skutečně použité inference prostředí
+## Zaznamenané historické prostředí M II 220
 
 | Součást | Použitá konfigurace |
 |---|---|
@@ -77,6 +77,6 @@ Hotové návrhy exportuje export_interpretation.py; validate_final_exports.py a 
 
 Na novém rukopisu je nutné upravit konfigurační vazby a počty, vybrat textové oblasti z jeho obrazů a vytvořit vlastní provenienci. Zkopírování stávajících značek kontroly na nové obrazy není obrazová kontrola.
 
-## Nová veřejná větev k 11. 10. 2026
+## Současná veřejná větev a další rukopisy
 
-Dokončený textový korpus a frontend jsou nově v web/public. Návod pro lokální zkoušku, obnovu obrazových derivátů a ruční Pages nasazení: [web/README.md](../web/README.md). Tabulka inference výše zachycuje zaznamenané dávkové prostředí; pilotní modely mají samostatné revize a záznamy v [htr-technologies.md](htr-technologies.md).
+Textový korpus tří rukopisů a frontend jsou v `web/public`. Obnovu médií a Pages nasazení popisuje [web/README.md](../web/README.md), adaptéry [publication/README.md](../web/publication/README.md). M I 259 používá v hlavním běhu batch 8, v samostatném recovery batch 1 / limit 256 / repetition penalty 1.08; historický batch 16 výše není jeho konfigurace. Přesný model, vstupy, orientace a limity: [mi259-processing.md](mi259-processing.md). Plný výzkumný runner a neveřejná data M I 259 nejsou v tomto Git snapshotu; přibalený adaptér sám nezajišťuje reprodukci inference. Revize pilotních checkpointů: [htr-technologies.md](htr-technologies.md).
