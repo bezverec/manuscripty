@@ -245,3 +245,8 @@ pouze připnutý výzkumný záznam a dvě původní SHA stranových adaptérů;
 ověřuje jejich dřívější pole a mění pouze novou vrstvu a čtyři downloady.
 [Audit importu](validation/reading-addenda-import-20261021.json).
 Opakování nad již doplněnými daty záměrně odmítne.
+
+Doplněk byl 21. 10. nasazen na veřejný web. Obě statická folia byla ověřena
+v produkčním prohlížeči; u 119v také původní Medusa a její varování vedle nového
+návrhu v řádkové analýze a překladové záložce.
+[Záznam nasazení a rozsah ověření](validation/reading-addenda-publication-20261021.json).
