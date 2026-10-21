@@ -1,5 +1,9 @@
 # Publikace dvou rukopisů
 
+Historický záznam první společné publikace M II 220 a M II 153 z října 2026.
+Uvedený rozsah zůstává dokladem této etapy. Současná knihovna má tři rukopisy;
+viz [aktuální stav](research-status.md) a [M I 259](mi259-processing.md).
+
 Oba kodexy pocházejí z fondů Vědecké knihovny v Olomouci. Jejich souhrnný název
 v dodaných digitalizačních XML je **Textus varii**. Názvy dílčích děl, atribuce,
 datace a provenience mají vlastní zdroje a nejistoty v popisu dokumentu; datum

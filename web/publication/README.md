@@ -1,5 +1,30 @@
 # Přenositelné sestavení M II153
 
+## Rozsah dnešních adaptérů (21. 10. 2026)
+
+Tento adresář obsahuje dvě oddělené publikační větve. Návod níže se týká
+`build_web.py` pro **M II 153** (197 snímků); není univerzálním importérem.
+**M I 259** (371 snímků) používá `build_mi259.py`:
+
+```sh
+python build_mi259.py --source /research/mi259/full-htr --base-public /site/public --out /staging/mi259-overlay --report-dir /staging/mi259-reports --rng /schemas/tei_all.rng
+```
+
+Vstup musí obsahovat úplné finální audity, 361 nových autorských záznamů,
+deset původních pilotů, metadata a index 371 nemaskovaných souřadnicových PNG.
+Adaptér kontroluje hashe, geometrii, pokrytí a TEI; vytváří pouze nový textový
+namespace. Nekopíruje obrazy a sám neslučuje overlay do produkce. Importér
+`../import_manuscript.py` je určen pro původní M II 153, nepoužívejte jej na
+overlay M I 259. Obecný opakovatelný import M I 259 zatím není přibalen;
+publikace z 19. 10. použila samostatný místní kontrolovaný import.
+
+Základní test M I 259: `python -m unittest discover -s . -p test_build_mi259.py`.
+Metodika a meze: [M I 259](../../docs/mi259-processing.md).
+Sdílený frontend a registr již obsluhují všechny tři dokumenty; dvě starší
+metadata v `source-metadata/` mají záměrně jen první dva rukopisy.
+
+## Sdílené a původní kroky M II 153
+
 `color_theme.py --public-root /site/public` přidává sdílený světlý/noční motiv
 do prezentačních stránek (včetně statických folií); výzkumné HTML v `data/`
 se nemění. Malý synchronní bootstrap nastaví motiv před vykreslením stránky.

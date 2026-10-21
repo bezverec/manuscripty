@@ -36,10 +36,27 @@ Produkční TEI převádí nejistotu značenou ⟦…⟧ na unclear s nízkou ji
 
 Rozdíl dvou HTR výstupů není chybovost vůči pravdě. Náhradní polygonizace a dosažení generačního limitu musí být přiznány v provenienci. Časy souběžných CPU/GPU větví se nesčítají jako délka projektu. Tokeny lokální Medusy nelze zaměnit za spotřebu frontier asistenta ani přepočítat na procenta předplatného.
 
-## Veřejný snapshot a návrhy změn (11. 10. 2026)
+## Veřejný korpus a návrhy změn (21. 10. 2026)
 
-web/public/data/{folio}/page.json je prezentační adaptér: spojuje raw_htr.catmus/medusa, původní source_segment_ids, bbox, obrazové URL, pracovní pasáže a odkazy na původní textové exporty. Nejde o nahrazení kanonického výzkumného JSON. document.json určuje instituci, signaturu a projektový URI. pilot-data.js obsahuje globální pořadí 677 snímků, structure.json pracovní navigaci odvozenou z pasáží.
+`web/public/data/{folio}/page.json` je původní namespace M II 220.
+M II 153 a M I 259 používají `data/{document_id}/{folio}/page.json` a vlastní
+JSON manifesty. `web/manuscripts.json` vybírá manifesty tří dokumentů;
+`pilot-data.js` zůstává záměrně původním manifestem 677 snímků M II 220.
+Každý stránkový adaptér spojuje raw kandidáty, ID, bbox, obrazy, pasáže a
+downloady; nenahrazuje kanonický výzkumný JSON. Celkem jde o 1 245 snímků.
+Vlastní `document.json` a `structure.json` nových dokumentů jsou uvnitř jejich
+namespace; kořenové soubory zachovávají zpětnou kompatibilitu M II 220.
 
-HTR a segmentační návrhy uchovávají původní text či geometrii, ID a SHA-256 zdroje, URL místa a důvod. Segmentační schéma manuscripty-segmentation-proposal-v1 používá operace resize/split/merge/add/remove; nové obdélníky mají pořadí a souřadnice [x,y,width,height] v původních pixelech od levého horního rohu. Stav zůstává proposed a expert_review false. Validace hranic nebo modelová shoda nemění stav odborné revize.
+Návrhy uchovávají původní text/geometrii, ID, SHA-256, URL a důvod.
+Segmentační operace jsou resize/split/merge/add/remove; obdélníky mají tvar
+`[x,y,width,height]`, počátek vlevo nahoře. První dva dokumenty zachovávají v1.
+M I 259 používá `manuscripty-htr-proposal-v2` a
+`manuscripty-segmentation-proposal-v2`: `coordinate_source` má vlastní ID,
+SHA-256, rozměry a transformaci do původního TIFFu. V2 souřadnice jsou v celém
+orientovaném nemaskovaném PNG, nikoli automaticky v neotočeném TIFFu.
+`model_input` se vede samostatně; deset pilotů M I 259 má maskování, čtyři
+vazební snímky mají rotaci. Matice násobí sloupcový vektor `[x,y,1]` v prostoru
+hran pixelů. [Podrobnosti](mi259-processing.md). Stav zůstává `proposed`,
+`expert_review=false`; validace hranic nebo shoda modelů není odbornou revizí.
 
 Přijetí změny musí být samostatně zaznamenáno a řízeně promítnuto do závislých výřezů, HTR a exportů. UI pouze stáhne návrh nebo předvyplní GitHub issue; nezapisuje do kanonického korpusu.

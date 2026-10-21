@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-21",
+  "base_commit": "25cb4e63ab49a05d91b9c01a654dc5012484a5a6",
+  "scope": "Tracked Git checkout, Markdown file links, declared source snapshot and public-byte diff; not external workspaces or cloud account inventory.",
+  "tracked_files_before_new_additions": 13065,
+  "markdown_files": 28,
+  "local_markdown_targets_checked": 77,
+  "markdown_link_errors": [],
+  "historical_source_entries": 52,
+  "historical_source_mismatches": [
+    {
+      "path": "medieval-manuscript-transcription/scripts/export.py",
+      "snapshot_20261010_sha256": "254f8b302f9c727ed13c095512ebd7ecebb1daeafd7c4394245ada11aae9b819",
+      "current_sha256": "e947d995fc753d953e44fa6ffbd097a971776b204b67b8ee4030c1f9705d4591",
+      "changed_in_commit": "e8741de02fbbfe0329563bd677aff11f2a3d1466",
+      "reason": "Existing Relax NG validator cache and equivalent validation tests added 2026-10-12; unchanged in this maintenance."
+    },
+    {
+      "path": "medieval-manuscript-transcription/tests/test_export.py",
+      "snapshot_20261010_sha256": "94dcd090c7905e57aeed870b3a7c3876f6c72bec9a2d9234b65f8caac56492f7",
+      "current_sha256": "6a7cb521973b3dfc8d1f2f9d659322409a6284ec8f842a0206d13381b82efc63",
+      "changed_in_commit": "e8741de02fbbfe0329563bd677aff11f2a3d1466",
+      "reason": "Existing Relax NG validator cache and equivalent validation tests added 2026-10-12; unchanged in this maintenance."
+    }
+  ],
+  "forbidden_tracked_master_media_models_credentials": [],
+  "intentional_ui_screenshots_and_svg": 50,
+  "public_corpus_files_changed": [],
+  "deleted_tracked_files": [],
+  "orphan_review": [
+    {
+      "path": "web/sample-20v.json",
+      "decision": "retained",
+      "reason": "Read by web/build_data.py."
+    },
+    {
+      "path": "web/public/summary.html and document shrnuti.html fallbacks",
+      "decision": "retained",
+      "reason": "Fallback on plain static servers; Pages uses explicit 301 redirects."
+    },
+    {
+      "path": "web/public/pilot-data.js and root document/structure/summary JSON",
+      "decision": "retained",
+      "reason": "Active M II 220 namespace and backward compatibility."
+    },
+    {
+      "path": "web/publication asset copies",
+      "decision": "retained",
+      "reason": "Builder inputs distinct from deployed output."
+    },
+    {
+      "path": "docs/validation, research-snapshot*, source-manifest, original batch sources",
+      "decision": "retained",
+      "reason": "Dated evidence, negative experiments and reproducibility inputs."
+    }
+  ],
+  "limitations": [
+    "No generic absence-of-reference deletion heuristic is treated as proof of orphan status.",
+    "Historical audits retain their original dates/scopes.",
+    "This inventory is not a new complete Git-history secrets audit."
+  ],
+  "status": "passed",
+  "preexisting_documentation_links_fixed": 6,
+  "unexpected_historical_source_mismatches": [],
+  "tests": {
+    "npm_test": {
+      "status": "passed",
+      "static_folio_pages": 1245,
+      "resolved_local_links": 191823,
+      "mi259_adapter_tests": 10
+    },
+    "reference_exporter_unittests": {
+      "status": "passed",
+      "tests": 7
+    },
+    "overview_ui": {
+      "status": "passed",
+      "documents": [
+        "vkol-m-ii-220",
+        "vkol-m-ii-153"
+      ],
+      "widths": [
+        1440,
+        390
+      ],
+      "report": "overview-ui-20261021.json"
+    },
+    "theme_ui": {
+      "status": "passed",
+      "scope": "Existing test:theme cases for home and first two manuscripts; no claim of new third-manuscript visual review."
+    },
+    "publication_verifier_regression": {
+      "status": "passed",
+      "scope": "3-document plan / 1245 pages; manual 301 handling; wrong status/destination rejection; no live HTTP requests."
+    },
+    "public_snapshot": {
+      "status": "passed",
+      "copied_files_sha256_verified": 12713,
+      "bytes": 767096031,
+      "registry_manuscripts": 3,
+      "whole_document_tei_relaxng": "passed",
+      "scope": "Existing public snapshot integrity/syntax/links/geometry and whole-document TEI indexes; not new image inspection or full schema revalidation of every existing edition."
+    },
+    "source_syntax": {
+      "status": "passed",
+      "counts": {
+        "python": 71,
+        "javascript": 47,
+        "non_public_json": 153
+      }
+    }
+  }
+}

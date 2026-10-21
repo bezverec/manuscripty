@@ -33,6 +33,6 @@ Doporučení: uchovat jako další kandidát pro porovnání; zatím nepoužíva
 
 Dva první běhy rozpoznaly všech 84 segmentů (11.08 a 10.35 s), ale uložení do docker-copied složky selhalo kvůli oprávněním. Úspěšný třetí běh použil vlastní /tmp; samostatný další běh zkoušel nlbin. Tyto přípravné pokusy nejsou zahrnuty do časů úspěšných běhů.
 
-Skripty v této složce zachycují stažení, běh, bezeztrátový přenos UTF-8 i vytvoření porovnání. Běh používá předchozí obraz a segmentaci v /data/mii220-pilot-20261009.
+Původní pracovní složka obsahovala skripty pro stažení, běh, bezeztrátový přenos UTF-8 a vytvoření porovnání. Běh používá předchozí obraz a segmentaci v /data/mii220-pilot-20261009. Git zachovává jen toto posouzení a [metadata modelu](model-source.json); uvedené pracovní výstupy a skripty nejsou přibalené.
 
-[Obrazový přehled](comparison.html) · [Porovnání JSON](comparison.json) · [Kontroly](validation.json) · [Běh](run.json) · [Binarizovaný běh](binarized/run.json) · [Historie pokusů](run-attempts.json)
+Historické názvy externích pracovních výstupů: `comparison.html`, `comparison.json`, `validation.json`, `run.json`, `binarized/run.json`, `run-attempts.json`. Dřívější relativní odkazy na ně nebyly v tomto repozitáři funkční; při dokumentační kontrole 21. 10. 2026 byly nahrazeny tímto výslovným vymezením rozsahu. Závěr ani naměřené časy původního pilotu se nemění.

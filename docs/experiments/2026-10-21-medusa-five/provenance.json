@@ -1,0 +1,23 @@
+{
+  "model_id": "ENC-PSL/Medusa0.2Line-4B",
+  "revision": "2e891246c709976eb8fd90274932d1f08debcb15",
+  "model_sha256": "930f97e19686a94e2a9967014e437162153bb884121aa3923a1e25422d4e708b",
+  "versions": {
+    "torch": "2.10.0+cu129",
+    "torchvision": "0.25.0+cu129",
+    "transformers": "5.2.0",
+    "bitsandbytes": "0.49.2",
+    "accelerate": "1.13.0",
+    "Pillow": "12.1.1"
+  },
+  "precision": "NF4 double quantization, BF16 compute",
+  "device": "NVIDIA GeForce RTX 5070",
+  "batch_size": 8,
+  "prompt": "Transcribe the handwritten text in this line image.\nOutput ONLY the transcription.",
+  "max_new_tokens": 128,
+  "do_sample": false,
+  "enable_thinking": false,
+  "recognition_seconds": 29.674533895915374,
+  "raw_unreviewed": true,
+  "word_alignment": false
+}

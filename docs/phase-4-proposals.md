@@ -1,5 +1,10 @@
 # Fáze 4 — návrhy oprav na GitHubu
 
+Původní workflow nyní obsluhuje tři dokumenty. Dva první zachovávají v1,
+M I 259 má v2 s identitou orientovaného souřadnicového PNG a transformační
+maticí k TIFFu. [Aktuální kontrakty](data-contracts.md). Historické doklady
+níže patří ke své původní fázi; nejsou novým browserovým testem tří rukopisů.
+
 Formuláře HTR a segmentace mají ID polí shodná s exporty prohlížeče. URL předvyplňuje `template` a tato ID; parametr `labels` se nepoužívá. Nad limitem 7 500 znaků zůstává export JSON. Jeho celý obsah patří do pole `proposal_json`; pouhá příloha ani externí URL se automaticky nestahuje.
 
 Oba workflow čtou pouze důvěryhodný kód výchozí větve. Text hlášení se zpracovává jako data, nikdy se nevkládá do shellu, `eval` ani programu. Kontrola ověřuje schema, dokument, folio, SHA původního skenu, ID, původní HTR a geometrii; neposuzuje paleografickou správnost. Neplatný návrh dostane jeden průběžně aktualizovaný komentář a `needs-info`. Index obsahuje pouze otevřené validní návrhy; uzavřená hlášení a PR se vyloučí.

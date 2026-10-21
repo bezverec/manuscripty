@@ -1,6 +1,6 @@
 # Manuscripty
 
-Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy rekonstrukce v jazyce předlohy a českého překladu a jejich veřejné přezkoumání. Aktuální stav: **19. října 2026**, čtenářská webová revize **20261019-1**.
+Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy rekonstrukce v jazyce předlohy a českého překladu a jejich veřejné přezkoumání. Dokumentace aktualizována **21. října 2026**; publikovaný korpus odpovídá verzi z **19. října 2026**, čtenářská webová revize **20261019-1**.
 
 Rukopis **M II 220 z fondů Vědecké knihovny v Olomouci** je dostupný na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz). [Záznam celého dokumentu](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220) používá projektový identifikátor vkol-m-ii-220; nejde o knihovnou přidělené PID.
 
@@ -31,6 +31,7 @@ Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER neby
 - [M I 259: zpracování a publikace třetího rukopisu](docs/mi259-processing.md)
 - [Použité HTR technologie, modely, odkazy a revize](docs/htr-technologies.md)
 - [Aktuální stav a hranice výsledků](docs/research-status.md)
+- [Údržba repozitáře a zachování historických dokladů](docs/maintenance.md)
 - [Segmentační pilot Chandra / Kraken: přínos Chandry neprokázán](docs/experiments/2026-10-17-chandra/README.md)
 - [Veřejná prezentace, úložiště a opravy](docs/presentation.md)
 - [Web: spuštění, obnova obrazů a nasazení](web/README.md)
@@ -51,7 +52,7 @@ Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER neby
 | medieval-manuscript-transcription | Skill, referenční exporter, syntetická ukázka, testy, offline TEI P5 4.12.0 |
 | presentation-storage-study | Původní měřicí skripty pro WebP a výřezy |
 
-Starší dávkové zdroje zůstávají historickým referenčním snapshotem; původ a SHA-256 jsou v [source-manifest.json](docs/source-manifest.json). Nově je přibalen skutečný veřejný textový korpus. Obrazové deriváty se spravují odděleně: folia v R2, sedm snímků vazby v Pages. Archivní TIFF, obrazové výřezy, modely, lokální cache, přístupové údaje a node_modules do Git nepatří. Celá původní pracovní data a souhrnné balíčky OCR pro ProArc nejsou součástí webového snapshotu.
+Starší dávkové zdroje zůstávají historickým referenčním snapshotem; původ a SHA-256 jsou v [source-manifest.json](docs/source-manifest.json). Veřejný textový korpus je v `web/public`. Obrazové deriváty M II 153 a M I 259 a folia M II 220 jsou v R2; sedm snímků vazby M II 220 používá Pages. Archivní TIFF, obrazové výřezy, modely, lokální cache, přístupové údaje a node_modules do Git nepatří. Git obsahuje pouze výslovně vybrané screenshoty UI a logo jako obrazové výjimky. Celá původní pracovní data a souhrnné balíčky OCR pro ProArc nejsou součástí webového snapshotu.
 
 ## Ověření
 
