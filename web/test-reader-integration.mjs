@@ -4,7 +4,7 @@ import os from 'node:os';
 import path from 'node:path';
 import vm from 'node:vm';
 import {HtmlValidate} from 'html-validate';
-import {resolveReaderHash, renderSupplementalReadings} from './public/reader-core.mjs';
+import {resolveReaderHash, renderSupplementalReadings, renderReadingAddenda} from './public/reader-core.mjs';
 import {loadManuscripts, renderFolio} from './build_folio_pages.mjs';
 import {makeProposal} from './public/proposal-core.mjs';
 import {makeSegmentationProposal} from './public/segmentation-core.mjs';
@@ -55,7 +55,7 @@ const passage = {id:'p1',title:'Pasáž',line_ids:['line-1'],latin:'Oratio.',cze
 const runtimePage = {...page,models:{catmus:'CATMuS'},lines:[{id:'line-1',raw_htr:{catmus:'Raw HTR'}}],passages:[passage]};
 for (const scope of ['all','linked']) for (const language of ['both','latin','czech']) {
   const fields = {'#reading-scope':{value:scope},'#reading-language':{value:language},'#reading-passages':{innerHTML:''}};
-  vm.runInNewContext(readingFunction+'\nrenderReading();',{$:selector=>fields[selector],page:()=>runtimePage,linkedPassages:()=>[passage],esc:escape,renderSupplementalReadings});
+  vm.runInNewContext(readingFunction+'\nrenderReading();',{$:selector=>fields[selector],page:()=>runtimePage,linkedPassages:()=>[passage],esc:escape,renderSupplementalReadings,renderReadingAddenda,selectedLine:()=>runtimePage.lines[0]});
   const output = fields['#reading-passages'].innerHTML;
   assert.ok(output.includes('id="reading-p1"'));
   assert.ok(output.includes('id="supplemental-margin-1"'));

@@ -229,3 +229,24 @@ pracovní interpretace „dřevo z posvěceného kostela“ podpořena právní 
 nikoli vydávána za jistou diplomatickou četbu. U okrajových útržků se
 chybějící slova nevymýšlejí. [Výsledek, kandidáti a provenience](experiments/2026-10-21-medusa-five/README.md).
 Publikovaný korpus a jeho původních pět limitových příznaků zůstaly beze změny.
+
+## Samostatný publikační doplněk z 21. 10. 2026
+
+Po schválení uživatelem se obě zpřesněné četby publikují v nové vrstvě
+`reading_addenda`, nikoli přepsáním původních pasáží či raw kandidátů.
+Rozhraní je uvádí před starším výkladem s datem a nejistotami; u 97v odděluje
+pokračování v segmentu 15. Stejný návrh je ve statickém foliu i v nových
+JSON/TXT/TEI downloadech. Doplněk byl validován proti TEI P5 4.12.0.
+Původní `edition.tei.xml`, `edition.web.tei.xml`, rekonstrukce, překlad,
+oba raw TXT, ALTO i geometrie zůstávají beze změny.
+
+Jednorázový importér `web/publication/publish_reading_addenda.py` přijímá
+pouze připnutý výzkumný záznam a dvě původní SHA stranových adaptérů;
+ověřuje jejich dřívější pole a mění pouze novou vrstvu a čtyři downloady.
+[Audit importu](validation/reading-addenda-import-20261021.json).
+Opakování nad již doplněnými daty záměrně odmítne.
+
+Doplněk byl 21. 10. nasazen na veřejný web. Obě statická folia byla ověřena
+v produkčním prohlížeči; u 119v také původní Medusa a její varování vedle nového
+návrhu v řádkové analýze a překladové záložce.
+[Záznam nasazení a rozsah ověření](validation/reading-addenda-publication-20261021.json).

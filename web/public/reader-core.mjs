@@ -34,3 +34,26 @@ export function renderSupplementalReadings(readings = [], {language = 'both', pa
   }).join('');
   return '<section class="supplemental-readings"><h2>Další obrazově čtené úseky strany</h2>' + cards + '</section>';
 }
+
+/** Later editorial proposals never replace raw HTR or the earlier interpretation. */
+export function renderReadingAddenda(readings = [], {language = 'both', lineId = null, idPrefix = 'reading'} = {}) {
+  const selected = readings.filter(r => !lineId || r.line_ids.includes(lineId));
+  if (!selected.length) return '';
+  const e = escapeHtml;
+  const cards = selected.map(r => {
+    if (r.status !== 'proposed' || r.expert_review !== false) throw Error('Reading addendum must remain proposed');
+    const links = (r.sources || []).map(s => {
+      const url = new URL(s.url);
+      if (url.protocol !== 'https:') throw Error('Reading source must use HTTPS');
+      return '<a href="' + e(url.href) + '" target="_blank" rel="noopener">' + e(s.label) + '</a>';
+    }).join(' · ');
+    return '<article class="reading-card" id="' + e(idPrefix + '-' + r.id) + '"><h3>Zpřesněná četba AI · ' + e(r.date) + '</h3>' +
+      '<p class="sample-notice">Pracovní návrh bez odborné revize. Doplňuje starší výklad; původní HTR i dřívější interpretace zůstávají zachované. Hranaté závorky a otazníky označují nejistoty.</p>' +
+      '<p class="layer-id">Podklad: ' + e(r.line_ids.join(', ')) + '</p>' +
+      (language !== 'czech' ? '<section lang="la"><h4>Rozvedená četba</h4><p class="layer-reading">' + e(r.reconstruction) + '</p>' + (r.context_continuation ? '<h4>Pokračování v následujícím řádku</h4><p class="layer-reading">' + e(r.context_continuation) + '</p>' : '') + '</section>' : '') +
+      (language !== 'latin' ? '<section lang="cs"><h4>Český překlad</h4><p class="layer-reading">' + e(r.translation_cs) + '</p></section>' : '') +
+      '<h4>Poznámky a nejistoty</h4><p class="layer-notes">' + e(r.note_cs) + '</p>' +
+      (links ? '<p class="layer-notes">Podklady: ' + links + '</p>' : '') + '</article>';
+  }).join('');
+  return '<section class="reading-addenda"><h2>Novější návrh čtení a překladu</h2>' + cards + '</section>';
+}

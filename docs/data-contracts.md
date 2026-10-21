@@ -60,3 +60,21 @@ hran pixelů. [Podrobnosti](mi259-processing.md). Stav zůstává `proposed`,
 `expert_review=false`; validace hranic nebo shoda modelů není odbornou revizí.
 
 Přijetí změny musí být samostatně zaznamenáno a řízeně promítnuto do závislých výřezů, HTR a exportů. UI pouze stáhne návrh nebo předvyplní GitHub issue; nezapisuje do kanonického korpusu.
+
+## Dodatečné návrhy čtení
+
+Volitelné `page.json.reading_addenda` uchovává novější rozvedenou četbu AI
+odděleně od původních `lines.raw_htr`, `passages` a jejich exportů.
+Každý návrh má datum, stav `proposed`, `expert_review=false`, zdrojové
+`line_ids`, hlavní `target_line_ids`, rekonstrukci, český překlad, nejistoty
+a SHA původního obrazového výřezu i výzkumného záznamu. Pokračování z dalšího
+řádku má samostatné pole a vlastní řádkovou vazbu. `supersedes_passage_ids`
+označuje starší výklad, který návrh zpřesňuje; nemaže jej ani nemění jeho text.
+
+První dvě taková čtení patří M I 259, 97v/14 (+ kontext 15) a 119v/28.
+Samostatné `reading-addenda.json`, TXT a TEI P5 4.12.0 jsou nové downloady;
+původní TXT, ALTO, TEI a tokenové příznaky Medusy zůstávají stejné.
+Konjektury jsou v doplňkovém TEI označené `supplied reason="conjecture"
+cert="low"`; zachovávají také viditelné závorky s otazníkem. Návrh se zobrazuje
+v řádkové analýze, interpretační záložce i statickém foliu. Test:
+`cd web && npm run test:readings`.

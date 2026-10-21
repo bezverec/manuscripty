@@ -2,7 +2,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {renderSupplementalReadings} from './public/reader-core.mjs';
+import {renderSupplementalReadings, renderReadingAddenda} from './public/reader-core.mjs';
 
 export const webRoot = path.dirname(fileURLToPath(import.meta.url));
 export const publicRoot = path.join(webRoot, 'public');
@@ -71,6 +71,7 @@ export function renderFolio({entry, data, doc, origin}, page, index) {
   const lines = page.lines.map((line, i) => `<li id="${e(line.id)}"><span class="layer-id">${e(line.id)}</span><p class="layer-raw" lang="${e(page.language || 'la')}">${e(line.raw_htr[model])}</p><a href="${e(readerUrl(doc, folio, line.id))}" data-pagefind-ignore>Řádek ${i + 1} v prohlížeči</a></li>`).join('\n');
   const passages = page.passages.map(p => `<article class="reading-card" id="passage-${e(p.id)}"><h3>${e(p.title)}</h3><p class="layer-id">${e(p.id)} · pracovní návrh, bez odborné revize</p><section lang="${e(p.language || page.language || 'la')}"><h4>Rekonstrukce (jazyk předlohy)</h4><p class="layer-reading">${e(p.latin)}</p></section><section lang="cs"><h4>Český překlad</h4><p class="layer-reading">${e(p.czech)}</p></section>${p.notes ? `<h4>Poznámky a nejistoty</h4><p class="layer-notes">${e(p.notes)}</p>` : ''}<p data-pagefind-ignore>Zdrojové řádky: ${p.line_ids.map(id => `<a href="#${e(id)}">${e(id)}</a>`).join(' · ')}</p></article>`).join('\n');
   const downloads = page.downloads.map(d => `<li><a href="${e(new URL(d.href, origin + '/').href)}">${e(d.name)}</a></li>`).join('');
+  const addenda = renderReadingAddenda(page.reading_addenda, {idPrefix:'folio'});
   const supplemental = renderSupplementalReadings(page.supplemental_readings, {pageLanguage:page.language || 'la'});
   return `<!DOCTYPE html>
 <html lang="cs"><head><meta charset="utf-8"><script src="/theme.js?v=${themeRevision}"></script><meta name="viewport" content="width=device-width, initial-scale=1"><title>${e(title)}</title><meta name="description" content="${e(description)}"><link rel="canonical" href="${e(canonical)}"><meta property="og:title" content="${e(title)}"><meta property="og:description" content="${e(description)}"><meta property="og:url" content="${e(canonical)}"><meta property="og:image" content="${e(preview)}"><meta property="og:type" content="article"><link rel="stylesheet" href="/styles.css?v=${revision}"><link rel="stylesheet" href="/folio.css?v=${revision}"><link rel="stylesheet" href="/theme.css?v=${themeRevision}"></head>
@@ -79,7 +80,7 @@ export function renderFolio({entry, data, doc, origin}, page, index) {
 <h1 data-pagefind-meta="title">${e(doc.shelfmark)} · ${e(label)}</h1><p>${e(doc.repository.name)}</p><p class="sample-notice">Pracovní výstupy bez odborné revize. Shoda modelů ani validita XML nepotvrzují správnost četby.</p>
 <a class="btn btn--primary" href="${e(readerUrl(doc, folio))}">Otevřít v prohlížeči</a>${navigation}
 <a href="${e(readerUrl(doc, folio))}"><img class="folio-preview" src="${e(preview)}" alt="${e(doc.shelfmark + ', ' + label)}" width="520" height="720"></a>
-<div data-pagefind-body data-pagefind-filter="rukopis:${e(doc.id)}"><h2>HTR · ${e(page.models[model] || (page.blank ? 'bez vybraného hlavního textu' : 'zatím nepřepsáno'))}</h2>${hasText ? `<p>Neupravený výstup výchozího modelu. Další modely jsou dostupné v prohlížeči a ke stažení.</p><ol class="folio-htr">${lines}</ol><h2>Rekonstrukce a český překlad</h2>${passages}` : (page.blank ? '<p>Bez vybraného hlavního textu.</p>' : '<p>Zatím nepřepsáno.</p>')}${supplemental}</div>
+<div data-pagefind-body data-pagefind-filter="rukopis:${e(doc.id)}"><h2>HTR · ${e(page.models[model] || (page.blank ? 'bez vybraného hlavního textu' : 'zatím nepřepsáno'))}</h2>${hasText ? `<p>Neupravený výstup výchozího modelu. Další modely jsou dostupné v prohlížeči a ke stažení.</p><ol class="folio-htr">${lines}</ol><h2>Rekonstrukce a český překlad</h2>${addenda}${passages}` : (page.blank ? '<p>Bez vybraného hlavního textu.</p>' : '<p>Zatím nepřepsáno.</p>')}${supplemental}</div>
 <section aria-labelledby="folio-citation"><h2 id="folio-citation">Citace a stálý odkaz</h2><p class="citation">${e(doc.repository.name)}, ${e(doc.shelfmark)}, ${e(label)}. Rukopisy: pracovní HTR, rekonstrukce a český překlad bez odborné revize. <a href="${e(canonical)}">${e(canonical)}</a></p></section>
 ${downloads ? `<section><h2>Podklady ke stažení</h2><ul>${downloads}</ul></section>` : ''}</main><footer class="site-footer"><div class="container">Rukopis: ${e(doc.repository.name)}, ${e(doc.shelfmark)} · Manuscripty</div></footer></body></html>\n`;
 }
