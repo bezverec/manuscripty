@@ -201,6 +201,11 @@ pages259 = {}
 masked259 = set()
 rotation259 = {'FS': 90, 'B001R': 90, 'BS': 90, 'B001V': 270}
 coordinate_ids259 = set()
+neighbor_review_paths = {
+    'docs/experiments/2026-10-21-medusa-five/report.json',
+    'docs/experiments/2026-10-21-mi259-neighbor-survey/report.json',
+}
+neighbor_review_cache = {}
 for entry in entries259:
     f = entry['folio']
     prefix = 'data/vkol-m-i-259/' + f + '/'
@@ -260,12 +265,23 @@ for entry in entries259:
             require(len(element) == 1 and ''.join(element[0].itertext()) == value, 'Addendum TEI text differs: ' + f)
         require({prefix + n for n in ('reading-addenda.json', 'reading-addenda.tei.xml', 'reading-addenda.reconstruction.txt', 'reading-addenda.translation.cs.txt')} <= {d['href'].lstrip('/') for d in p['downloads']}, 'Addendum downloads missing: ' + f)
     for line, raw in zip(p['lines'], comparison['lines']):
-        if 'neighboring_leaf_fragment' in line.get('flags', []):
+        neighbor_flags = {'neighboring_leaf_fragment', 'neighboring_leaf_overlap'} & set(line.get('flags', []))
+        if neighbor_flags:
             annotation = line['editorial_annotation']
-            require(annotation['classification'] == 'partial_neighboring_leaf' and annotation['status'] == 'proposed' and annotation['expert_review'] is False, 'Invalid neighboring-leaf classification/review state: ' + line['id'])
-            review_path = ROOT / 'docs/experiments/2026-10-21-medusa-five/report.json'
-            require(annotation['evidence_review_sha256'] == hashlib.sha256(review_path.read_bytes()).hexdigest() and annotation['source_crop_sha256'] == raw['image_sha256'], 'Changed neighboring-leaf evidence: ' + line['id'])
-            require(any(row['id'] == line['id'] and row['classification'] == 'partial_neighboring_leaf' for row in load(review_path)['rows']), 'Classification lacks source review: ' + line['id'])
+            require(len(neighbor_flags) == 1, 'Conflicting neighboring-leaf flags: ' + line['id'])
+            classification = 'mixed_main_and_neighboring_leaf' if 'neighboring_leaf_overlap' in neighbor_flags else 'partial_neighboring_leaf'
+            require(annotation['classification'] == classification and annotation['status'] == 'proposed' and annotation['expert_review'] is False, 'Invalid neighboring-leaf classification/review state: ' + line['id'])
+            review_key = annotation.get('evidence_review_path', 'docs/experiments/2026-10-21-medusa-five/report.json')
+            require(review_key in neighbor_review_paths, 'Unknown neighboring-leaf review: ' + line['id'])
+            if review_key not in neighbor_review_cache:
+                review_path = ROOT / review_key
+                review = load(review_path)
+                require(len({r['id'] for r in review['rows']}) == len(review['rows']), 'Duplicate neighboring-leaf review ID')
+                neighbor_review_cache[review_key] = (hashlib.sha256(review_path.read_bytes()).hexdigest(), {r['id']: r for r in review['rows']})
+            review_hash, review_rows = neighbor_review_cache[review_key]
+            evidence_row = review_rows.get(line['id'], {})
+            require(annotation['evidence_review_sha256'] == review_hash and annotation['source_crop_sha256'] == raw['image_sha256'], 'Changed neighboring-leaf evidence: ' + line['id'])
+            require(evidence_row.get('classification') == classification and evidence_row.get('folio') == f and evidence_row.get('original_crop_sha256') == raw['image_sha256'] and evidence_row.get('bbox_xyxy') == raw['bbox_xyxy'], 'Classification lacks matching source review: ' + line['id'])
         x, y, w, h = line['bbox']
         require(all(isinstance(v, int) and not isinstance(v, bool) for v in (x, y, w, h)) and x >= 0 and y >= 0 and w > 0 and h > 0 and x + w <= p['width'] and y + h <= p['height'], 'Out-of-bounds M I 259 geometry: ' + line['id'])
         require(raw['bbox_xyxy'] == [x, y, x + w, y + h] and line['source_segment_ids'] == [line['id']], 'Changed M I 259 source segment geometry/identity: ' + line['id'])
@@ -300,6 +316,17 @@ for entry in entries259:
     actual259['passages'] += len(p['passages'])
     actual259['supplemental_readings'] += len(supplemental)
 require(actual259 == manifest259['counts'] == document259['counts'] and actual259['supplemental_readings'] == 3, 'Actual M I 259 counts disagree with complete manifest')
+neighbor_counts259 = {'partial_neighboring_leaf': 0, 'mixed_main_and_neighboring_leaf': 0}
+for reviewed_hash, reviewed_rows in neighbor_review_cache.values():
+    for reviewed_row in reviewed_rows.values():
+        if reviewed_row['classification'] not in neighbor_counts259:
+            continue
+        published = next((line for line in pages259[reviewed_row['folio']]['lines'] if line['id'] == reviewed_row['id']), None)
+        require(published is not None and published.get('editorial_annotation', {}).get('classification') == reviewed_row['classification'], 'Reviewed neighboring-leaf annotation missing: ' + reviewed_row['id'])
+for page in pages259.values():
+    for line in page['lines']:
+        if {'neighboring_leaf_fragment', 'neighboring_leaf_overlap'} & set(line.get('flags', [])):
+            neighbor_counts259[line['editorial_annotation']['classification']] += 1
 require(masked259 == {'1r', '14r', '18r', '25r', '46r', '62r', '88r', '100r', '135r', '145r'}, 'Wrong M I 259 masked-pilot inventory')
 structure259 = load(public_file(manifest259['structure_url']))
 require(structure259['status'] == 'proposed' and structure259['expert_review'] is False and structure259['counts'] == actual259, 'Wrong M I 259 structure state/counts')
@@ -321,6 +348,7 @@ report = {'status': 'passed', 'copied_files_sha256_verified': len(record['files'
           'manuscripts': {'vkol-m-ii-220': {'counts': counts, 'bbox_checked': counts['lines'], 'whole_document_tei_relaxng': 'passed', 'tei_surface_count': 677},
                           'vkol-m-ii-153': {'counts': actual153, 'folios': len(folios153), 'binding_scans': len(bindings153), 'bbox_checked': actual153['lines'], 'whole_document_tei_relaxng': 'passed', 'tei_scan_div_count': len(scan_divs153), 'interpretation_status': 'proposed'},
                           'vkol-m-i-259': {'counts': actual259, 'bbox_checked': actual259['lines'], 'raw_candidate_unicode_and_txt': 'passed', 'coordinate_source_and_affine': 'passed', 'masked_pilot_pages': len(masked259), 'supplemental_readings_separate': actual259['supplemental_readings'], 'whole_document_tei_relaxng': 'passed', 'tei_surface_count': len(surfaces259), 'interpretation_status': 'proposed'}},
+          'neighboring_leaf_annotations_mi259': neighbor_counts259,
           'scope': 'Text snapshot integrity, syntax, page/download/passage links, geometry and whole-document TEI index. Not new image inspection or full schema revalidation of every existing edition.'}
 (ROOT / 'docs/validation/repository-snapshot-validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf8', newline='\n')
 print(json.dumps(report, ensure_ascii=False))

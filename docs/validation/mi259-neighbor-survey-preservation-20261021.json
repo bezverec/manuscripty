@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "baseline_commit": "5e5784c131afe5806bf929203ecfa3acf9904dd4",
+  "baseline_manifest_sha256": "0e23d1d511ae0c3a44a6ea6a42ca874ec8f82b9b5690cbc7e6ff9808855bf6cc",
+  "changed_protected_pages": 197,
+  "all_other_protected_manifest_records_unchanged": true,
+  "legacy_mi259_non_page_data_files_unchanged": 4094,
+  "whole_document_tei_record_unchanged": true,
+  "negative_import_checks": [
+    {
+      "case": "wrong_review_hash",
+      "rejected": true,
+      "no_mutation": true,
+      "reason": "ValueError: Review hash differs from the explicitly accepted evidence"
+    },
+    {
+      "case": "reapplication",
+      "rejected": true,
+      "no_mutation": true,
+      "reason": "ValueError: Page baseline changed: 13r"
+    }
+  ],
+  "note": "Manifest-record equality is combined with the full snapshot validator for actual current byte integrity."
+}

@@ -259,3 +259,15 @@ statickém foliu. Její strukturovaný příznak `neighboring_leaf_fragment` a
 návrhu bez odborné revize. Původní kandidáti, geometrie, pasáže, exporty
 a upozornění na tokenový limit Medusy zůstávají zachované.
 [Audit anotací](validation/neighbor-leaf-notes-import-20261021.json).
+
+## Rozšířená kontrola sousedních listů (21. 10. 2026)
+
+Kontrola přehledů všech 371 snímků a podrobnějšího okrajového kontextu
+216 stran nově označuje 4 022 fragmentů sousedních listů a jeden smíšený výřez
+`25v/55`. Včetně tří předchozích anotací je označeno 4 026 původních segmentů
+na 197 snímcích. Nejde o odstranění segmentů ani opravu raw HTR. Smíšený výřez
+má zvláštní poznámku, protože obsahuje také zakončení řádku hlavního listu.
+Marginálie, zakončení řádků, diagram a poškození hlavního listu se neoznačují
+automaticky podle souřadnic. Stav zůstává návrhem AI bez odborné revize;
+nejde o záruku úplného odhalení všech smíšených nebo nesegmentovaných stop.
+[Rozsah obrazové kontroly, rozhodnutí a meze](experiments/2026-10-21-mi259-neighbor-survey/README.md).
