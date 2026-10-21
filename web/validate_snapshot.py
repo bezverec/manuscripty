@@ -260,6 +260,12 @@ for entry in entries259:
             require(len(element) == 1 and ''.join(element[0].itertext()) == value, 'Addendum TEI text differs: ' + f)
         require({prefix + n for n in ('reading-addenda.json', 'reading-addenda.tei.xml', 'reading-addenda.reconstruction.txt', 'reading-addenda.translation.cs.txt')} <= {d['href'].lstrip('/') for d in p['downloads']}, 'Addendum downloads missing: ' + f)
     for line, raw in zip(p['lines'], comparison['lines']):
+        if 'neighboring_leaf_fragment' in line.get('flags', []):
+            annotation = line['editorial_annotation']
+            require(annotation['classification'] == 'partial_neighboring_leaf' and annotation['status'] == 'proposed' and annotation['expert_review'] is False, 'Invalid neighboring-leaf classification/review state: ' + line['id'])
+            review_path = ROOT / 'docs/experiments/2026-10-21-medusa-five/report.json'
+            require(annotation['evidence_review_sha256'] == hashlib.sha256(review_path.read_bytes()).hexdigest() and annotation['source_crop_sha256'] == raw['image_sha256'], 'Changed neighboring-leaf evidence: ' + line['id'])
+            require(any(row['id'] == line['id'] and row['classification'] == 'partial_neighboring_leaf' for row in load(review_path)['rows']), 'Classification lacks source review: ' + line['id'])
         x, y, w, h = line['bbox']
         require(all(isinstance(v, int) and not isinstance(v, bool) for v in (x, y, w, h)) and x >= 0 and y >= 0 and w > 0 and h > 0 and x + w <= p['width'] and y + h <= p['height'], 'Out-of-bounds M I 259 geometry: ' + line['id'])
         require(raw['bbox_xyxy'] == [x, y, x + w, y + h] and line['source_segment_ids'] == [line['id']], 'Changed M I 259 source segment geometry/identity: ' + line['id'])

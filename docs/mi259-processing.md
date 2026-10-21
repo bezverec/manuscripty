@@ -250,3 +250,12 @@ Doplněk byl 21. 10. nasazen na veřejný web. Obě statická folia byla ověře
 v produkčním prohlížeči; u 119v také původní Medusa a její varování vedle nového
 návrhu v řádkové analýze a překladové záložce.
 [Záznam nasazení a rozsah ověření](validation/reading-addenda-publication-20261021.json).
+
+Tři zbývající výřezy `27v/63`, `46v/53` a `124v/100` mají také samostatnou
+poznámku u řádku: jde podle obrazové kontroly AI o neúplné útržky sousedního
+listu, nikoli úplné řádky hlavního textu. Poznámka je v řádkové analýze i ve
+statickém foliu. Její strukturovaný příznak `neighboring_leaf_fragment` a
+`editorial_annotation` odkazují na původní kontrolu a SHA výřezu, se stavem
+návrhu bez odborné revize. Původní kandidáti, geometrie, pasáže, exporty
+a upozornění na tokenový limit Medusy zůstávají zachované.
+[Audit anotací](validation/neighbor-leaf-notes-import-20261021.json).
