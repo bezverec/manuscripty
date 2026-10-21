@@ -1,8 +1,9 @@
 # Stav výzkumu a publikace k 21. 10. 2026
 
 Veřejná knihovna obsahuje **tři rukopisy z fondů Vědecké knihovny v Olomouci,
-1 245 snímků**. Níže je stav publikovaného korpusu z 19. 10. 2026, nikoli nová
-odborná revize. Počty vycházejí z registru `web/manuscripts.json` a stranových dat.
+1 245 snímků**. Základní HTR korpus byl publikován 19. 10. 2026; samostatné
+návrhy čtení a obrazové anotace M I 259 přibyly 21. 10. Nejde o odbornou revizi.
+Počty vycházejí z registru `web/manuscripts.json` a stranových dat.
 
 | Dokument | Snímky | Segmenty v UI | Interpretační úseky s českým překladem |
 |---|---:|---:|---:|
@@ -35,6 +36,19 @@ Publikovaná původní Medusa vrstva M I 259 má pět tokenově omezených kandi
 `27v/63`, `46v/53`, `97v/14`, `119v/28`, `124v/100`. Jsou označené v datech a
 řádkové analýze. Nová četba nebo inference nad upraveným výřezem se uchovává
 zvlášť. [Metodika a následná kontrola](mi259-processing.md).
+
+Dvě samostatná `reading_addenda` zpřesňují návrh čtení a překladu na 97v/14
+(s kontextem 15) a 119v/28. Nejsou novými výstupy Medusy a nejsou započítaná
+do 2 739 původních interpretačních úseků ani do tří starších doplňkových čtení.
+Původní pasáže i exporty zůstávají dostupné.
+
+Po kontrole všech přehledů a podrobnějšího okrajového kontextu je na 197
+snímcích označeno **4 025 fragmentů sousedních listů a jeden smíšený výřez**.
+Součet 17 414 automatických segmentů se nemění. Na 25v/55 zasahuje box také
+do konce hlavního řádku, proto má odlišnou poznámku o přesahu. Okrajová poloha
+sama není důkazem cizího listu. Jde o konzervativní posouzení AI, nikoli úplnou
+revizi každého znaku nebo záruku nalezení všech smíšených boxů.
+[Obrazová evidence a meze](experiments/2026-10-21-mi259-neighbor-survey/README.md).
 
 M I 259 má rozdíly mezi souborovými ID a psanou foliací. Globální renumerace
 neproběhla; `extra-83v` a `extra-84r` zůstávají samostatné. Deset převzatých

@@ -79,4 +79,9 @@ Na novém rukopisu je nutné upravit konfigurační vazby a počty, vybrat texto
 
 ## Současná veřejná větev a další rukopisy
 
+Při obnově používejte přijatý veřejný snapshot včetně pozdějších čtení a anotací.
+Základní rebuild M I 259 je sám nepřenese; oba redakční importéry mají pevné
+historické vstupy a nejsou obecným opakovatelným migračním nástrojem.
+[Pravidla zachování vrstev](../web/publication/README.md).
+
 Textový korpus tří rukopisů a frontend jsou v `web/public`. Obnovu médií a Pages nasazení popisuje [web/README.md](../web/README.md), adaptéry [publication/README.md](../web/publication/README.md). M I 259 používá v hlavním běhu batch 8, v samostatném recovery batch 1 / limit 256 / repetition penalty 1.08; historický batch 16 výše není jeho konfigurace. Přesný model, vstupy, orientace a limity: [mi259-processing.md](mi259-processing.md). Plný výzkumný runner a neveřejná data M I 259 nejsou v tomto Git snapshotu; přibalený adaptér sám nezajišťuje reprodukci inference. Revize pilotních checkpointů: [htr-technologies.md](htr-technologies.md).

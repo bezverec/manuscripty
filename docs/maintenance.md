@@ -52,9 +52,11 @@ Zachovat předchozí kandidáty, parametry, obrazovou identitu a SHA-256. Nová
 či narovnaným výřezem musí mít novou provenienci a vazbu na původní segment.
 Tokenový limit původního pokusu se tím zpětně nemaže.
 
-Řízený import musí ověřit očekávané předchozí hashe a povolený rozsah změny,
-znovu vytvořit dotčené TXT/TEI/ALTO/JSON a zkontrolovat konzistenci. Teprve pak
-se aktualizuje chráněný inventář. `update_source_manifest.py` není nástroj pro
+Řízený import musí ověřit očekávané předchozí hashe a povolený rozsah změny
+a zkontrolovat konzistenci. Mění-li se text nebo geometrie, znovu se vytvoří
+skutečně závislé TXT/TEI/ALTO/JSON. Samostatné čtenářské doplňky mají vlastní
+exporty; obrazová anotace v `note`/`flags` ponechává původní OCR exporty stejné.
+Teprve pak se aktualizuje chráněný inventář. `update_source_manifest.py` není nástroj pro
 plošné schválení změněných dat. Nová obrazová média potřebují nové verze klíčů;
 existující R2 objekty s immutable cache se nepřepisují jinými pixely.
 
@@ -71,3 +73,29 @@ rozsah a omezení; historický úspěšný scan secrets nepotvrzuje nový obsah.
 Připravené změny této údržby prošly lokálním Gitleaks 8.30.1 bez nálezu;
 [přesný rozsah kontroly](validation/maintenance-secrets-20261021.json).
 Nejde o nový úplný scan historie ani o kontrolu všech místních credential souborů.
+
+## Doplnění po sloučení PR #22
+
+Souhrny a návody rozlišují základní HTR korpus z 19. 10. od dvou dodatečných
+čtení a obrazových anotací M I 259 z 21. 10. Datový kontrakt nyní popisuje také
+`editorial_annotation` a rozdíl mezi samostatným fragmentem a smíšeným boxem.
+Starší datované zprávy zůstávají historickými záznamy; původní audit výše se
+nepřepisuje výsledky novější kontroly.
+
+`docs/web-source-manifest.json` zachovává původní hlavičková pole
+`snapshot_date` a `production_revision`; nejsou datem poslední změny všech
+souborů. Pro současnou textovou kopii platí aktuální položky `files` a
+`frontend_revision`. Doklad skutečného nasazení má samostatný commit, URL
+a rozsah ověření v datovaném publikačním reportu. Historická hlavička se při
+dokumentační údržbě nepřepisuje na domnělou novou publikační verzi.
+
+`build_mi259.py` sestavuje základní overlay a sám nepřenáší později přijatá
+`reading_addenda` ani anotace sousedních listů. Oba jejich importéry jsou
+jednorázové, vázané na konkrétní předchozí SHA; nejsou obecným krokem každého
+rebuildu. Prosté překopírování nového základního overlay by doplňky ztratilo.
+Změna současného korpusu proto musí samostatně zachovat a ověřit i tyto vrstvy.
+[Publikační postupy](../web/publication/README.md).
+
+[Nová kontrola repozitáře](validation/repository-maintenance-20261021-r2.json)
+zaznamenává aktuální baseline, místní odkazy, stav korpusu a přesný rozsah
+ověření. Výzkumné obrazy a adresáře mimo tento Git checkout nejsou její součástí.

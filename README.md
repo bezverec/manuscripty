@@ -1,6 +1,6 @@
 # Manuscripty
 
-Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy rekonstrukce v jazyce předlohy a českého překladu a jejich veřejné přezkoumání. Dokumentace aktualizována **21. října 2026**; publikovaný korpus odpovídá verzi z **19. října 2026**, čtenářská webová revize **20261019-1**.
+Výzkumný systém pro lokální HTR středověkých rukopisů, obrazově kontrolované návrhy rekonstrukce v jazyce předlohy a českého překladu a jejich veřejné přezkoumání. Dokumentace aktualizována **21. října 2026**. Základní HTR korpus byl zveřejněn **19. října**; **21. října** přibyly samostatné návrhy čtení a anotace sousedních listů M I 259.
 
 Rukopis **M II 220 z fondů Vědecké knihovny v Olomouci** je dostupný na [rukopisy.digitalizaty.cz](https://rukopisy.digitalizaty.cz). [Záznam celého dokumentu](https://rukopisy.digitalizaty.cz/rukopisy/vkol-m-ii-220) používá projektový identifikátor vkol-m-ii-220; nejde o knihovnou přidělené PID.
 
@@ -20,6 +20,11 @@ vysvětluje meze segmentace, rozdíly mezi názvy skenů a psanou foliací i sam
 ruční výřezy. Nové návrhy oprav odkazují na přesně identifikovaný orientovaný
 souřadnicový obraz; původní archivní TIFF zůstává samostatně identifikován.
 
+U M I 259 jsou nově oddělené dvě dodatečné obrazové četby s českým překladem
+a označení **4 025 fragmentů sousedních listů a jednoho smíšeného výřezu na
+197 snímcích**. Tato pracovní posouzení AI nemění původní HTR, segmentové ID
+ani starší exporty. [Rozsah obrazové kontroly a omezení](docs/experiments/2026-10-21-mi259-neighbor-survey/README.md).
+
 U **M II 220** je publikováno **677 skenů**: 670 foliovaných snímků (1r–335v) a 7 snímků vazby a předsádky. Na 664 textových stranách jsou kandidáti CATMuS a Medusa 4B a celkem **5 634 návrhů rekonstrukce a českého překladu**. UI zobrazuje **50 297 segmentů**, původní datové vrstvy mají 50 299 segmentů; dvě dvojice fragmentů na 20v jsou v UI spojené. Šest foliovaných stran nemá hlavní text ve vybraných oblastech. Vazba a předsádky jsou označené jako dosud nepřepsané.
 
 Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER nebyly změřeny. Dokončení vybraného hlavního textu neznamená odborně ověřenou edici všech marginálií a zápisů.
@@ -27,7 +32,7 @@ Výsledky mají stav **proposed**, bez nezávislé odborné revize. CER/WER neby
 ## Orientace
 
 - [Současná architektura](docs/architecture.md)
-- [Publikace obou rukopisů, katalogové zdroje a kontroly](docs/TWO-MANUSCRIPT-PUBLICATION.md)
+- [Historická publikace prvních dvou rukopisů a katalogové zdroje](docs/TWO-MANUSCRIPT-PUBLICATION.md)
 - [M I 259: zpracování a publikace třetího rukopisu](docs/mi259-processing.md)
 - [Použité HTR technologie, modely, odkazy a revize](docs/htr-technologies.md)
 - [Aktuální stav a hranice výsledků](docs/research-status.md)

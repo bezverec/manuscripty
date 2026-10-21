@@ -13,7 +13,7 @@ flowchart TD
   F --> H[Porovnání podle segment ID]
   G --> H
   C --> I[Nativní obrazové pruhy pro čtení]
-  H --> J[Asistent: návrh latinské rekonstrukce a češtiny]
+  H --> J[Asistent: návrh rekonstrukce předlohy a češtiny]
   I --> J
   J --> K[JSON proposed + nejistoty + obrazová provenience]
   K --> L[TEI 4.12.0 + TXT + HTML review]
@@ -49,6 +49,13 @@ native_inputs.py a prepare_tiles.py připravují pruhy v nativním rozlišení s
 Interpretace není automatická volba lepšího HTR řádku. Doplnění, rozvedení zkratek, nejisté čtení a překlad musí zůstat rozlišitelné od surového rozpoznání. Současné exportery pouze zpracují již vytvořené návrhy; žádný přibalený skript sám nevolá frontier API ani negeneruje český překlad.
 
 ## 4. Exporty a souhrn
+
+Pozdější čtenářská doplnění se vedou odděleně od základního exportu:
+`reading_addenda` obsahuje novější návrhy četby a češtiny s vlastními TXT/TEI,
+`lines[].editorial_annotation` klasifikuje výřez jako fragment sousedního
+listu nebo smíšený box. Tyto vrstvy zachovávají raw kandidáty i starší pasáže.
+Anotace samy nevyvolávají novou HTR inferenci ani změnu souřadnic.
+[Kontrakty a kontrola evidence](data-contracts.md).
 
 export_interpretation.py vytváří TEI P5 4.12.0, JSON, TXT a HTML s odkazy na obrazy. Místní RNG schéma se kontroluje offline. build_final_report.py spojuje výsledky sedmi HTR etap, obnovuje pilot-index.html a souhrnné TXT, dokládá nezměněnost předchozích výsledků. Pracuje proto i s daty starších etap mimo tento zdrojový snapshot.
 

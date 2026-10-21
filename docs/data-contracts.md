@@ -78,3 +78,32 @@ Konjektury jsou v doplňkovém TEI označené `supplied reason="conjecture"
 cert="low"`; zachovávají také viditelné závorky s otazníkem. Návrh se zobrazuje
 v řádkové analýze, interpretační záložce i statickém foliu. Test:
 `cd web && npm run test:readings`.
+
+## Redakční anotace sousedních listů
+
+Volitelné `lines[].editorial_annotation` klasifikuje obrazový obsah původního
+segmentu; není opravou rozpoznaného textu ani novou segmentací.
+
+| Příznak v `flags` | `classification` | Význam |
+|---|---|---|
+| `neighboring_leaf_fragment` | `partial_neighboring_leaf` | Samostatný neúplný text sousedního listu v okrajovém pruhu snímku. |
+| `neighboring_leaf_overlap` | `mixed_main_and_neighboring_leaf` | Box zachycuje také část hlavního řádku; nelze jej celý považovat za cizí text. |
+
+Anotace obsahuje datum, `status: proposed`, `expert_review: false`,
+`evidence_review_sha256` a `source_crop_sha256`. Rozšířená kontrola uvádí také
+`evidence_review_path`; tři původní poznámky bez tohoto pole odkazují na pevně
+určený záznam kontroly pěti řádků. `validate_snapshot.py` přijímá pouze výslovně
+povolené záznamy a ověřuje jejich SHA, ID řádku, klasifikaci, bbox a SHA výřezu
+proti původnímu `comparison.json`. Podklady nejsou načítány z libovolné cesty
+zadané v datech. Všechny přijaté anotace musí zůstat přítomné.
+
+Lidsky čitelná `note` doplňuje předchozí poznámku; původní příznaky včetně
+`medusa_token_limit` se zachovávají. `raw_htr`, souřadnice, identifikátory,
+pasáže a starší TXT/ALTO/TEI se nemění. Samostatná poznámka proto nevyžaduje
+nový OCR export. Na 197 snímcích M I 259 je 4 025 fragmentů a jeden smíšený
+box; celkový počet segmentů zůstává 17 414. „Fragment“ neoznačuje automaticky
+fyzické poškození listu ani kvalitu přepisu.
+
+Poznámky jsou v řádkové analýze u obou kandidátů a ve výchozím HTR statického
+folia. V HTML mají `data-pagefind-ignore`, aby se nezaměňovaly za rukopisný
+text ve vyhledávání. Podrobnosti: [obrazový průzkum](experiments/2026-10-21-mi259-neighbor-survey/README.md).
