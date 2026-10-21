@@ -61,8 +61,9 @@ python web/publication/publish_neighbor_fragments.py --review-sha256 6faad8b2215
 
 Oba raw kandidáti, všechna dřívější varování Medusy, ID a geometrie,
 interpretace, TXT, ALTO a TEI zůstávají zachované. Nebyla spuštěna nová HTR
-inference ani placené API. Nové poznámky jsou v řádkové analýze a u obou HTR
-vrstev statických folií; nevstupují do vyhledávacího indexu jako rukopisný text.
+inference ani placené API. Nové poznámky jsou v řádkové analýze vedle obou HTR
+kandidátů a u výchozího přepisu statických folií; nevstupují do vyhledávacího
+indexu jako rukopisný text.
 
 [Audit přesně omezeného importu](../../validation/mi259-neighbor-survey-import-20261021.json).
 
@@ -73,3 +74,9 @@ raw kandidátů s původními porovnáními, TXT, geometrie a indexu TEI. Všech
 manifestu. Neplatný hash podkladů a opakování importu byly skutečně odmítnuty
 bez zápisu. [Kontroly zachování](../../validation/mi259-neighbor-survey-preservation-20261021.json)
 a [celkový záznam technického ověření](../../validation/mi259-neighbor-survey-validation-20261021.json).
+
+Nová verze byla 21. 10. nasazena na veřejný web. U všech 197 změněných
+`page.json` byla poté ověřena shoda celého těla odpovědi se SHA místní přijaté
+verze, tedy všech 4 023 nových anotací. V produkčním prohlížeči byly otevřeny
+oba typy poznámek vedle původních kandidátů a smíšený případ také ve statickém
+foliu. [Nasazení a přesný rozsah kontroly](../../validation/mi259-neighbor-survey-publication-20261021.json).
